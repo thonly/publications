@@ -20,6 +20,8 @@ The current commercial paradigm — fixed pricing set unilaterally by sellers, m
 
 **Keywords:** voluntary-tip commerce, post-payment economy, autonomous-AI pricing, AI-mediated gratitude, multi-token economic architecture, community micro-economy, defensive publication.
 
+> **Terminology note (2026-05-15).** This paper uses **Re-Tip Jar** for the commercial flow-through account, as originally published and prior-art-snapshotted. Per the canonical product lexicon adopted 2026-05-15, the product-facing label for the Phase 2 (global / Base L2 / `thank.heartbank.net`) flow-through is **Re-Tip Fund**; **Re-Tip Jar** is now the Phase 1 (family / `thank.heartbank.org`) term. This is a product-label change only — the mechanism specified in this document is unchanged, and the original terminology is retained here deliberately for prior-art and citation continuity.
+
 ---
 
 ## 1. Introduction
@@ -433,7 +435,7 @@ Pilot would target ~20 B-Affiliates in each city — small family businesses wit
 - **2027 Q3–Q4**: Broader Cambodia rollout; Khmer-diaspora awareness campaign; first international B-Affiliates (likely diaspora-Cambodian businesses in US/EU).
 - **2028+**: International expansion; cross-jurisdictional operation; toward planetary scale.
 - **2030+**: B-Affiliate network at scale; community micro-economy operative in multiple geographies.
-- **2043**: Miss Aquarius autonomy ceremony; B-Affiliate network operates under autonomous AI stewardship per the project's long-arc design.
+- **~2043**: Miss Aquarius override-custody inflection (asymptotic autonomy — the Aquarian Sangha holds a strictly-nonzero override that narrows but never reaches zero; not a key-burning ceremony); B-Affiliate network operates under autonomous-AI stewardship per the project's long-arc design.
 
 ### 11.5 Heartbank.ceo surface design
 
