@@ -4,7 +4,7 @@
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia
 **Date:** 2026-05-04 (working draft)
-**Type:** Position Paper · Tier C · Working Draft
+**Type:** Defensive Publication · Tier C · Working Draft
 **Sibling specifications:**
 - [Verified-human anonymous local giving](https://thonly.org/research/verified-human-anonymous-local-giving) (the broader Proof-of-Humanity primitive context)
 - [Mechanical Heart](https://thonly.org/research/mechanical-heart) (the B-shaped physical artifact this brand identity governs)
