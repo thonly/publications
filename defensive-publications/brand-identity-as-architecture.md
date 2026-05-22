@@ -28,13 +28,16 @@
 8. [Heartbeat Animation as Functional Proof-of-Humanity Signal](#5--heartbeat-animation-as-functional-proof-of-humanity-signal)
 9. [Aura-Color Cross-Currency State Primitive](#6--aura-color-cross-currency-state-primitive)
 10. [Why These Four Compose: Design Coherence as Moat](#7--why-these-four-compose-design-coherence-as-moat)
-11. [Cross-Domain Portability](#8--cross-domain-portability)
-12. [Implementation Patterns](#9--implementation-patterns)
-13. [Edge Cases and Adversarial Analysis](#10--edge-cases-and-adversarial-analysis)
-14. [Honest Limitations](#11--honest-limitations)
-15. [Cross-Venue References](#12--cross-venue-references)
-16. [Acknowledgments](#13--acknowledgments)
-17. [Citations](#14--citations)
+11. [Slogan and B-Heart Substitution Rule](#8--slogan-and-b-heart-substitution-rule)
+12. [Legitimacy-Signal Architecture](#9--legitimacy-signal-architecture)
+13. [Distribution-Surface Architecture](#10--distribution-surface-architecture)
+14. [Cross-Domain Portability](#11--cross-domain-portability)
+15. [Implementation Patterns](#12--implementation-patterns)
+16. [Edge Cases and Adversarial Analysis](#13--edge-cases-and-adversarial-analysis)
+17. [Honest Limitations](#14--honest-limitations)
+18. [Cross-Venue References](#15--cross-venue-references)
+19. [Acknowledgments](#16--acknowledgments)
+20. [Citations](#17--citations)
 
 ---
 
@@ -62,7 +65,7 @@ Brand identity for civilizational-scale autonomous-AI institutions should be arc
 
 The four innovations are: *(I)* a bistable rotated-shape logo (the B-heart, a universal heart shape rotated 45° clockwise that reads simultaneously as both heart and capital letter B), with each reading carrying complementary meaning; *(II)* a single-letter brand-prefix naming convention (B-Treasury, B-Chronicle, B-Aquarius, B-Pool, B-Heart, B-Wat, B-Film) in which the prefix is structurally tied to the logo's bistable reading and cannot drift the way trained prefixes (Apple's "i") historically have; *(III)* animation parameters as functional Proof-of-Humanity signal (~72 BPM heartbeat cadence, ~8% peak expansion, ease-in-out curve), where the animation is not decorative but verifies humanity at the substrate level — to the author's knowledge, the first motion mark whose animation IS the security signal; *(IV)* aura-color cross-currency state primitive in which one color carries identity across multiple modes (personal profile, B-heart logo color, Mechanical Heart light color, longitudinal cohort marker), inverting the conventional brand-color claim by letting shape carry identity and freeing color for state signaling.
 
-The composition is the contribution. Each innovation alone has prior art (FedEx arrow for bistable logos, Apple "i" for product prefixes, motion marks generally for animated logos, color-state-coding in interface design); the integrated architecture composing all four into a coherent system with mutually reinforcing properties is novel. The paper specifies the four innovations, the analytical argument for why they compose into a moat, cross-domain portability, implementation patterns, edge cases including counterfeit analysis, and honest limitations.
+The composition is the contribution. Each innovation alone has prior art (FedEx arrow for bistable logos, Apple "i" for product prefixes, motion marks generally for animated logos, color-state-coding in interface design); the integrated architecture composing all four into a coherent system with mutually reinforcing properties is novel. The paper specifies the four innovations, the analytical argument for why they compose into a moat, cross-domain portability, implementation patterns, edge cases including counterfeit analysis, and honest limitations. It further specifies the public-facing distribution layer through which this identity reaches an audience: the canonical slogan and its logo-substitution rule, the legitimacy-signal contact architecture, and the distribution-surface architecture of domains, subdomains, email, and audience-matched social handles.
 
 **Connection to the unified mission frame.** This architecture is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The brand identity carries the mission semiotically: each design choice serves the mission frame. The heartbeat-animation-as-POH signal makes humanity continuously verifiable in a context where the comfort-saturation failure mode includes loss of human agency; the aura-color cross-currency primitive carries individual identity across kiitos and kiitti without commodification; the bistable B-heart and B-prefix naming convention preserve institutional coherence across the multi-decade timescale at which middle-way restoration must operate. The entire architecture supports the dignity that middle-way practice requires.
 
@@ -78,7 +81,7 @@ This paper articulates four interrelated innovations from the HeartBank® identi
 
 Three commitments structure the paper. First, the four innovations are articulated as architectural patterns rather than as specific marks; the trademark rights to specific HeartBank marks are reserved through the trademark system, but the underlying patterns belong to the commons. Second, the analytical argument for why the four innovations compose is the load-bearing claim — each individual innovation has prior art, and only the composition is novel. Third, cross-domain portability is treated as an explicit design goal: any institution doing analogous work should be able to adopt the framework with appropriate local adaptation.
 
-The paper proceeds as follows. Section 2 reviews relevant prior art across logo design, motion marks, brand-color theory, and biometric-verification literature. Sections 3 through 6 specify each of the four innovations in turn. Section 7 articulates the analytical argument for why the four compose into a moat. Section 8 addresses cross-domain portability. Section 9 specifies implementation patterns. Section 10 addresses edge cases including counterfeit analysis. Section 11 names honest limitations. Sections 12–14 conclude.
+The paper proceeds as follows. Section 2 reviews relevant prior art across logo design, motion marks, brand-color theory, and biometric-verification literature. Sections 3 through 6 specify each of the four identity innovations in turn. Section 7 articulates the analytical argument for why the four compose into a moat. Sections 8 through 10 extend the architecture into the public-facing distribution layer — the canonical slogan and its substitution rule, the legitimacy-signal contact architecture, and the distribution-surface architecture. Section 11 addresses cross-domain portability. Section 12 specifies implementation patterns. Section 13 addresses edge cases including counterfeit analysis. Section 14 names honest limitations. Sections 15–17 conclude.
 
 ---
 
@@ -222,35 +225,133 @@ The moat is not the individual innovations (each replicable) but the integrated 
 
 ---
 
-## 8 · Cross-Domain Portability
+## 8 · Slogan and B-Heart Substitution Rule
+
+The four innovations of Sections 3–7 govern the marks an institution presents. The next three sections govern how those marks reach an audience — the public-facing distribution layer of the brand architecture. The same principle holds: each surface choice is made to serve a function beyond its obvious one.
+
+### 8.1 — The canonical slogan
+
+The canonical slogan is **"Thank with HeartBank®."** It is built to four properties:
+
+- **Rhyme.** *Thank* rhymes with the second syllable of *HeartBank* — a single-syllable verb against the rhyming syllable of the brand name. The slogan is tight, memorable, and audible.
+- **Call-to-action form.** *Imperative verb + "with X"* follows the established commerce-platform pattern (*Pay with Apple Pay*, *Search with Google*, *Shop with Amazon*), which audiences already parse as "perform this action using this platform."
+- **Verb-as-platform alignment.** The slogan reinforces a positioning in which the brand *is* the verb — the institution is not a noun one visits but an action one performs.
+- **Grammar.** The slogan is transitive with an implicit object: "Thank [whom?] with HeartBank®," the object supplied by context. Longer phrasings exist for cross-cultural and ESL use (*"Thank anyone with HeartBank®"*, *"Send thanks with HeartBank®"*); the short form is canonical.
+
+### 8.2 — The substitution rule
+
+Wherever it can be rendered, the **B in the slogan is replaced with the B-heart logo** (Section 3). The slogan then renders as *"Thank with Heart♥ank®"* — the rotated-heart mark taking the place of the literal B in *Bank*. Every rendering of the slogan carries the logo's bistable identity; the slogan's typography itself becomes a brand-identity carrier.
+
+Application rules:
+
+- Substitution applies **only** to the B in *Bank*. The *T* in *Thank* is not substituted — the rule is tied to the brand name, not to every available letter.
+- In color renderings, the substituted B-heart takes the aura color appropriate to the deployment context (Section 6).
+- In monochrome or black-and-white contexts, the rule falls back to a literal B; the bistable shape is preserved regardless.
+- In ASCII or plain-text contexts (command lines, email subject lines), the rule falls back to *"Thank with HeartBank®"* with a literal B.
+
+### 8.3 — Why this is structurally distinctive
+
+A slogan whose typography itself instantiates the logo is, to the author's knowledge, not standard practice: slogan and logo are conventionally separate identity elements, coordinated for visual harmony rather than structurally fused. The substitution rule fuses them — the slogan cannot be set without instantiating the mark. It composes with the bistability of Section 3 (the substituted glyph is read at once as the letter the word requires and as the heart the brand is) and is a candidate for filing as a composite trademark — slogan plus substituted B-heart — distinct from the static design mark.
+
+---
+
+## 9 · Legitimacy-Signal Architecture
+
+An institution operating at civilizational scale must signal legitimacy through its contact surface before a user has any other basis for trust. This section specifies a contact architecture in which a vanity toll-free number serves as a legitimacy anchor while the everyday contact load is carried by a lower-cost channel verified-bound to it.
+
+### 9.1 — The vanity number as legitimacy anchor
+
+The institution holds a vanity toll-free number — **1-800-59-THANK** (1-800-59-84265). It serves two functions:
+
+- **Institutional-legitimacy signal.** A toll-free number is recognized — particularly in the United States — as institutional-grade contact infrastructure; the vanity mnemonic *THANK* makes the number itself carry the brand.
+- **Verification anchor.** Carrying full voice-and-messaging traffic on a toll-free number through conventional telephony is expensive at scale. Rather than absorb that cost, the number is *verified-bound* to a messaging-app business account: the published everyday channel is the messaging app (cost-free per message), but that account is verifiably tied to the toll-free number. The legitimacy of the number transfers to the channel through the verification link.
+
+### 9.2 — Why the carried channel is audience-chosen
+
+HeartBank carries the everyday channel on **WhatsApp**, for audience-specific reasons that generalize into a selection principle — *carry the channel the target audience already uses, and anchor it to the legitimacy signal*:
+
+- **Diaspora and international audiences.** WhatsApp adoption among the Cambodian diaspora and international users is high; it is the natural contact surface for those populations.
+- **In-country users.** Messaging in Cambodia is fragmented across WhatsApp, Telegram, Facebook Messenger, and Line; the toll-free number remains the stable anchor while secondary channels supplement it.
+- **United States users.** WhatsApp adoption is lower in the US; American users may prefer a web contact form, email, or direct messages on x.com — and the toll-free number can simply be called, since low US inbound volume keeps the telephony cost absorbable.
+
+### 9.3 — Supplementary contact channels
+
+Around the anchor-and-carried-channel pair sit supplementary surfaces, all routed to one backend: email at `thank@heartbank.{TLD}` (Section 10), a web contact form on each landing page, and direct messages on x.com and facebook.com. The architecture is a single legitimacy anchor with multiple audience-matched channels — not a single channel asked to serve every audience.
+
+---
+
+## 10 · Distribution-Surface Architecture
+
+The final layer is the set of surfaces — domains, subdomains, email addresses, social handles — through which an audience reaches the institution. Each surface choice is made to carry meaning, not merely to address.
+
+### 10.1 — Multi-TLD product-class mapping
+
+The institution holds a family of top-level domains, each mapped to a *product class* rather than held purely defensively. The unifying primitive across the family is *thanking*; each TLD carries a distinct product class, rendered with a distinct aura-color B-heart (Section 6):
+
+| TLD | Product class | B-heart color |
+|---|---|---|
+| `heartbank.org` | Treasury — family-scale money economy | Gold |
+| `heartbank.com` | Chronicle — adult-scale time economy | Purple |
+| `heartbank.ceo` | Franchise-arm and institutional-officer surface | to be assigned |
+| `heartbank.net` | Institutional output — white papers, position papers, reports | to be assigned |
+| `heartbank.me`, `heartbank.us` | Product class deferred | to be assigned |
+
+Mapping a TLD to a product class, rather than redirecting every TLD to one site, converts a defensive domain portfolio into a distribution architecture: each address is a meaningful entry point.
+
+### 10.2 — Subdomain convention
+
+Across every TLD the subdomain pattern is fixed: the **root domain** (`heartbank.{TLD}`) is the landing and brand surface, and **`thank.heartbank.{TLD}`** is the application — the thanking interface itself. The pattern carries the verb-as-platform thesis (Section 8) into the URL structure: the address at which one acts begins with the verb.
+
+### 10.3 — Email convention
+
+The canonical contact address for each TLD is **`thank@heartbank.{TLD}`** — `thank@heartbank.org`, `thank@heartbank.com`, and so on: uniform, predictable, and keeping the verb in the address. Institutional-officer addresses are distinct (for example `miss.aquarius@heartbank.ceo`) and are not governed by this pattern.
+
+### 10.4 — Audience-targeted social handles
+
+Social-platform handles are not held as an undifferentiated set; each is matched to an audience the platform actually reaches:
+
+| Platform | Primary audience |
+|---|---|
+| Facebook | Cambodian users — Facebook is dominant in-country |
+| X | United States — policy, alignment, and intellectual-discourse audiences |
+| Instagram | Visual and mass audiences |
+| LinkedIn | Institutional and B2B partnerships |
+| YouTube | Long-form content, cross-audience |
+| GitHub | Developer and researcher audiences — the open corpus |
+
+Two notes on brand-protection completeness, both of which generalize. First, a handle on a major platform may already be held by an unrelated party (for HeartBank, this is the case on TikTok) and cannot be secured by registration; the institution monitors for availability and uses a near-variant where deployment becomes strategic. Second, platforms not yet central — Telegram and Threads in particular — are worth registering pre-emptively as brand-protection, before they carry traffic.
+
+---
+
+## 11 · Cross-Domain Portability
 
 The framework articulated here is portable across institutions and domains. Required adaptations for adopting it outside the HeartBank context:
 
-### 8.1 — Choosing a bistable shape
+### 11.1 — Choosing a bistable shape
 
 The B-heart's specific shape is HeartBank-specific (the rotation produces "B" because B is HeartBank's brand initial). Other institutions can adopt the bistable-rotated-shape approach with their own shape and rotation: any rotationally-symmetric or rotationally-suggestive primary shape can produce a bistable reading with appropriate rotation. The pattern is: *(shape with primary substantive meaning) + (rotation that produces alphabetic secondary meaning = brand initial)*.
 
-### 8.2 — Adapting the prefix convention
+### 11.2 — Adapting the prefix convention
 
 Any institution with a single-letter brand initial that appears in the bistable reading of its logo can adopt a prefix-naming convention structurally tied to the logo. For institutions with multi-letter or non-Latin brand initials, the convention adapts: short syllabic prefixes (one Khmer character, one Arabic letter, one ideogram) function similarly within their script context.
 
-### 8.3 — Selecting the animation primitive
+### 11.3 — Selecting the animation primitive
 
 HeartBank uses heartbeat-cadence animation because heart is the brand's primary substantive meaning. Other institutions with different primary meanings can select different animation primitives that function similarly: breath cadence (for institutions whose meaning includes life or practice), tide cycle (for institutions whose meaning includes time or rhythm), seasonal cycle (for institutions whose meaning includes growth or decay). The functional principle is: animation that attests something the institution substantively claims to embody.
 
-### 8.4 — Establishing the color-as-state convention
+### 11.4 — Establishing the color-as-state convention
 
 Color-as-state can be adopted by any institution willing to commit its brand identity to shape rather than color. The adoption requires explicit brand-strategy decision (most practitioners will reach for a brand color by default and have to consciously refuse in favor of shape-only identity). The long-term benefit is the same: color becomes available as cross-product signal carrier without competing with brand identification.
 
 ---
 
-## 9 · Implementation Patterns
+## 12 · Implementation Patterns
 
-### 9.1 — Static logo deployment
+### 12.1 — Static logo deployment
 
 Deploy the static rotated-shape logo across all surfaces (web favicon, app icon, marketing materials, hardware imprint, printed materials). Trademark filing for the static design mark, in black-and-white rather than with specific color claim, to preserve the any-color rendering policy.
 
-### 9.2 — Animation deployment in digital surfaces
+### 12.2 — Animation deployment in digital surfaces
 
 Implement the heartbeat animation in CSS keyframes for web surfaces:
 
@@ -270,58 +371,58 @@ Implement the heartbeat animation in CSS keyframes for web surfaces:
 
 Native-app and hardware implementations use equivalent platform-appropriate animation APIs.
 
-### 9.3 — B-prefix naming for new products
+### 12.3 — B-prefix naming for new products
 
 New products receive B-prefix names at the time of internal product-strategy commitment. The naming is structural; no marketing deliberation is required beyond confirming the product semantic fits the brand family. Product-family expansions outside the natural brand boundary (entirely separate ventures) may use non-B-prefixed names appropriate to their independent identity.
 
-### 9.4 — Aura-color assignment
+### 12.4 — Aura-color assignment
 
 Each user is assigned a signature aura color at account creation. The color may be user-selected (subject to validation for sufficient contrast and distinctness from product subfamily colors), generated from a hash of user identifier (for deterministic assignment), or evolved based on user practice patterns (longitudinal-cohort participants may opt in to color evolution reflecting practice depth). Product-subfamily colors are assigned at product-launch time.
 
-### 9.5 — Cross-surface consistency
+### 12.5 — Cross-surface consistency
 
 Establish a brand-engineering team responsible for cross-surface aura-color and animation-parameter consistency. Surfaces include web, native apps, hardware, marketing, partner integrations, and physical environments. Consistency checks performed at deployment for each surface; deviations from canonical animation parameters or aura-color rendering are corrected before release.
 
 ---
 
-## 10 · Edge Cases and Adversarial Analysis
+## 13 · Edge Cases and Adversarial Analysis
 
-### 10.1 — Counterfeit static-mark reproduction
+### 13.1 — Counterfeit static-mark reproduction
 
 A trivial counterfeit reproduces the static rotated-heart shape without the animation. Defense: the animation is the verification layer. A counterfeit B-heart in static reproduction may be visually similar to the authentic mark but lacks the heartbeat-cadence animation that authentic digital surfaces always carry. Trademark enforcement handles unauthorized commercial use of the static mark; the animation's anti-counterfeit property supplements rather than replaces trademark defense.
 
-### 10.2 — Counterfeit animation with wrong parameters
+### 13.2 — Counterfeit animation with wrong parameters
 
 A more sophisticated counterfeit animates the static mark but with incorrect parameters (wrong cadence, wrong expansion, wrong curve). Defense: the canonical animation parameters are part of the brand's verifiable signature. Authentic surfaces use ~72 BPM, ~8% expansion, ease-in-out curve; deviation from these parameters is detectable. Verification services and savvy users can compare animations to canonical parameters and flag deviations.
 
-### 10.3 — Color-confusion attacks
+### 13.3 — Color-confusion attacks
 
 An attacker may deploy a B-heart in a product subfamily color associated with a different product than the surface belongs to (e.g., gold on a Chronicle surface). Defense: aura-color cross-surface consistency is enforced; deviations are treated as deployment errors and corrected. End-user impact of brief color-confusion deployments is modest (the surface's other identity signals carry the actual product information).
 
-### 10.4 — B-prefix dilution by unauthorized adopters
+### 13.4 — B-prefix dilution by unauthorized adopters
 
 Unrelated parties may adopt B-prefixed names for their own products (B-Whatever). Defense: trademark enforcement in commercial contexts; tolerance in non-commercial contexts where the prefix is being adopted as the architectural pattern this paper articulates rather than as a competing brand. The architectural pattern is dedicated to the commons; commercial impersonation of the HeartBank brand specifically remains protected by trademark.
 
-### 10.5 — Animation as anxiety amplifier
+### 13.5 — Animation as anxiety amplifier
 
 Constantly-animating brand marks across UI surfaces can become visually exhausting or anxiety-amplifying for some users. Mitigation: the animation is intentionally subtle (8% expansion, not 50%); users with motion sensitivity can disable the animation via accessibility preferences without losing brand recognition (the static mark continues to function); animation density is reduced on surfaces where multiple marks would otherwise compete (single hero mark animated, others static).
 
 ---
 
-## 11 · Honest Limitations
+## 14 · Honest Limitations
 
 - **The bistable reading is shape-specific.** The pattern works because the heart shape rotated 45° produces a recognizable B; not every shape produces a recognizable letter when rotated. Adopting the pattern in another institution requires careful shape-and-rotation selection that may not be available for every brand initial.
 - **The any-color rendering policy is bandwidth-cost at the brand-recognition level.** Conventional brand-color claims reduce the cognitive load of brand identification; the any-color policy increases it slightly because viewers cannot recognize the brand by color alone. Trade-off accepted in exchange for the cross-currency state-signal capability.
 - **Animation requires implementation discipline across surfaces.** The functional Proof-of-Humanity property depends on canonical animation parameters being consistently deployed. Surface-specific deployments that drift from canonical parameters weaken the verification function. Maintaining consistency requires ongoing brand-engineering attention.
 - **The heartbeat-as-POH semantic stack is culture-bound.** The association between heartbeat and life is universal across human cultures, but the symbolic weight of the specific cadence (~72 BPM) is most natural for cultures using Western medical norms. Cultures with different physiological baselines may experience the cadence differently.
 - **Aura-color systems require user buy-in.** Users may not engage with assigned colors, may want to change colors frequently, or may not perceive cross-surface consistency as meaningful. The cross-currency property only delivers value at scale when users participate in the convention.
-- **The architecture is articulated; empirical validation is pending.** Long-term effects of deploying the unified architecture at scale are not yet measurable. Edge cases identified in Section 10 are theoretical; real-world deployment may surface failure modes not anticipated.
+- **The architecture is articulated; empirical validation is pending.** Long-term effects of deploying the unified architecture at scale are not yet measurable. Edge cases identified in Section 13 are theoretical; real-world deployment may surface failure modes not anticipated.
 
 Future work directions: empirical study of adoption patterns; refinement of canonical animation parameters based on cross-cultural perception research; accessibility-pattern formalization for motion-sensitive users; cross-tradition adaptations as additional institutions adopt the framework.
 
 ---
 
-## 12 · Cross-Venue References
+## 15 · Cross-Venue References
 
 This paper is mirrored across multiple venues for redundancy and tamper-evident timestamping:
 
@@ -333,13 +434,13 @@ This paper is mirrored across multiple venues for redundancy and tamper-evident 
 
 ---
 
-## 13 · Acknowledgments
+## 16 · Acknowledgments
 
 The author acknowledges the long lineage of designers and brand-identity practitioners whose work establishes the conventions this architecture both inherits and inverts. Specific intellectual debts to Lindon Leader (FedEx arrow), Turner Duckworth (Amazon smile), Saul Bass (logo design canon), Pixar's animation team (the functional ident standard), and the broader brand-identity community whose accumulated practice forms the substrate on which the contribution here builds. Any errors or overreaches in characterizing their work are the author's alone.
 
 ---
 
-## 14 · Citations
+## 17 · Citations
 
 1. Leader, Lindon (1994). FedEx logo design. Landor Associates. [Canonical reference for the white-space hidden-arrow technique.]
 2. Bass, Saul, & Kirkham, Pat (2011). *Saul Bass: A Life in Film and Design*. Laurence King Publishing.
