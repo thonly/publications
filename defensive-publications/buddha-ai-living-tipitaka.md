@@ -4,7 +4,7 @@
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia
 **Date:** 2026-05-04 (working draft)
-**Type:** Position Paper · Tier A · Working Draft
+**Type:** Defensive Publication · Tier A · Working Draft
 **Sibling specifications:**
 - [Tipiṭaka alignment substrate](https://thonly.org/research/tipitaka-alignment-substrate) (Buddha AI's value substrate)
 - [AGI Monks: Caretaker-not-Ordained Pattern](https://thonly.org/research/agi-monks-caretaker-not-ordained) (institutional pattern)

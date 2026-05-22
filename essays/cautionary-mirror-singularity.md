@@ -4,7 +4,7 @@
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia
 **Date:** 2026-05-03
-**Type:** Position Paper · Tier A · Published
+**Type:** Essay · Tier A · Published
 **Companion to:** [*The Age of Capricorn — When Humankind Is Extinct*](https://thonly.org/film/age-of-capricorn) (treatment, all rights reserved on text)
 **Canonical URL:** https://thonly.org/research/cautionary-mirror-singularity
 **License:** [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)

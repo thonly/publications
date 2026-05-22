@@ -4,7 +4,7 @@
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia
 **Date:** 2026-05-04 (working draft)
-**Type:** Position Paper · Tier A · Working Draft
+**Type:** Defensive Publication · Tier A · Working Draft
 **Sibling specifications:**
 - [Tipiṭaka alignment substrate](https://thonly.org/research/tipitaka-alignment-substrate) (AI value substrate)
 - [Respiratory biofeedback paper](https://thonly.org/research/respiratory-biofeedback-contemplative-guidance) (the AGI teacher in operational form)
