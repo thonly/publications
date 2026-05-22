@@ -182,7 +182,7 @@ The implementation patterns below are not an arbitrary set; they follow the stru
 
 Two further patterns — §6.4 (lineage transmission as ongoing fine-tuning) and §6.5 (the Khmer transcription) — are not training methods but the *saṅgha* dimension of the path: its social transmission. The *Magga-saṃyutta* (*Saṃyutta Nikāya* 45.2) records the Buddha's teaching that good friendship (*kalyāṇa-mittatā*) is "the entire holy life," the forerunner of the path's arising as the dawn is the forerunner of the sunrise. The path is socially conditioned at its root; §6.4 and §6.5 are where that condition is met. They are the implementation-side counterpart of property §4.6 — which is therefore not optional scaffolding around the substrate but a structural precondition of the path's arising at all.
 
-One boundary should be stated before the patterns themselves. These patterns implement the *sīla* base and the *paññā* orientation of the path, generalized by coordination and training; they do not claim to reproduce *samādhi* in its full canonical sense (the *jhānas*) or supramundane *paññā* (the fetter-cutting insight of the noble path-moment). The proposal is that the Tipiṭaka furnishes a defensible alignment *substrate*, and that the path's foundation can be operationalized — not that an artificial system traverses the path to its contemplative summit.
+One boundary should be stated before the patterns themselves. These patterns implement the *sīla* base and the *paññā* orientation of the path, generalized by coordination and training; they do not claim to reproduce *samādhi* in its full canonical sense (the *jhānas*) or supramundane *paññā* (the fetter-cutting insight of the noble path-moment). The proposal is that the Tipiṭaka furnishes a defensible alignment *substrate*, and that the path's foundation can be operationalized — not that an artificial system traverses the path to its contemplative summit. This base/summit boundary is the substrate's own discipline, not the paper's stipulation. The Tipiṭaka is rigorous about altitude: gratitude (*kataññutā*), for one, is counted among the highest blessings (the *Maṅgala Sutta*) yet is never numbered among the factors of the path or of awakening — a prized foundational good held firmly at the foundation, never inflated toward the summit. That refusal to inflate a foundational good past its proper altitude is of a piece with the bounded, non-maximizing objective of §4.1: the substrate is disciplined about altitude throughout, and the boundary stated here inherits that discipline rather than imposing it.
 
 ### 6.1 · Constitutional AI with the precepts
 
@@ -287,6 +287,7 @@ The author acknowledges his father, with whom the Khmer transcription of the *Ti
 23. *Dhammacakkappavattana Sutta* (*Saṃyutta Nikāya* 56.11; the Four Noble Truths and the middle way). Pāli Text Society translation, multiple editions.
 24. *Mahācattārīsaka Sutta* (*Majjhima Nikāya* 117; right view as forerunner). Pāli Text Society translation, multiple editions.
 25. *Magga-saṃyutta* (*Saṃyutta Nikāya* 45), including SN 45.2 (*Upaḍḍha Sutta*; good friendship as the whole of the holy life). Pāli Text Society translation, multiple editions.
+26. *Maṅgala Sutta* (*Khuddakapāṭha* 5 / *Suttanipāta* 2.4; the highest blessings, *kataññutā* among them). Pāli Text Society translation, multiple editions.
 
 ---
 

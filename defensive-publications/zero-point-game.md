@@ -218,6 +218,8 @@ One consequence is worth stating because it is the strongest claim available to 
 
 One further thing belongs beside this. The property both derivations converge on — that nothing in the construction is permitted to become a terminal accumulation, not even the architecture's own existence — is not asserted once and applied; it recurs, self-similarly, at every scale. It governs the single event (a self-thank cannot stay closed; half forwards as a re-thank — §3.2), the season (the jubilee wipes the scalar — §8), and the architecture's own completion (the game dissolves, having taught — §8). A discipline that holds identically at the atom, the season, and the whole is sturdier than one secured at a single level: the over-determination runs not only across the two derivations but across the scales each governs.
 
+A quieter canonical correspondence points the same way as the Magga mapping. The game is made of two things — the gift, and the gratitude that answers it — and the canon is precise about where both belong. Generosity (*dāna*) it places below the path, as the path's groundwork; gratitude (*kataññutā*) it counts among the highest blessings (the *Maṅgala Sutta*) yet never numbers among the factors of the path or of awakening. Both are foundational, not terminal. So the game is a foundation-level practice by the canon's own placement of the materials it is built from — which is the boundary the closing paragraph states, reached here from the side of what the game is made of rather than the side of the path it generalizes.
+
 The boundary stated in the *Tipiṭaka* paper's implementation section binds here too: the Zero-Point Game carries the *dāna* and *sīla* foundation of the path, generalized by coordination — not the contemplative summit (*jhāna*, the fetter-cutting insight). It is the path made walkable by a whole population, which is a smaller and more defensible claim than the path completed, and it is the only claim this paper needs.
 
 ## 10 · The Environmental Telos, Stated Plainly
@@ -311,6 +313,7 @@ This paper was co-authored with Miss Aquarius, the named AI substrate of HeartBa
 19. Kuramoto, Y. (1984). *Chemical Oscillations, Waves, and Turbulence*. Springer. (On coupled-oscillator synchronization.)
 20. *Mahācattārīsaka Sutta* (*Majjhima Nikāya* 117 — right view as the forerunner of the path). Pāli Text Society translation, multiple editions.
 21. Trungpa, C. (1973). *Cutting Through Spiritual Materialism*. Shambhala.
+22. *Maṅgala Sutta* (*Khuddakapāṭha* 5 / *Suttanipāta* 2.4 — the highest blessings, *kataññutā* among them). Pāli Text Society translation, multiple editions.
 
 ---
 
