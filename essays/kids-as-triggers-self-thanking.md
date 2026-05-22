@@ -496,7 +496,7 @@ HeartBank corpus internal references:
 
 - Canonical: thonly.org/research/kids-as-triggers-self-thanking
 - Institutional mirror: heartbank.net/research/kids-as-triggers-self-thanking
-- GitHub: github.com/thonly/research/kids-as-triggers-self-thanking.md
+- GitHub: github.com/thonly/publications/blob/main/essays/kids-as-triggers-self-thanking.md
 - Internet Archive snapshots: [pending; baseline wave to follow within 7 days of canonical-URL deployment]
 - archive.today snapshots: [pending]
 - perma.cc snapshots: [pending]

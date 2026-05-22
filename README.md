@@ -21,9 +21,9 @@ This repo is paired with [`github.com/HeartBank/publications`](https://github.co
 
 The two repos publish *different document genres*, not the same content in two voices.
 
-## Relationship to `github.com/thonly/research`
+## Relationship to `github.com/thonly/publications`
 
-The existing [`github.com/thonly/research`](https://github.com/thonly/research) repo holds the legacy research corpus. Going forward, this repo (`thonly/publications`) is the canonical home for thonly.org's author-output across all four genres. Migration of existing research papers from `thonly/research` into `thonly/publications/defensive-publications/` and `thonly/publications/essays/` is planned; until that completes, both repos may contain authoritative content. Cross-reference each paper's deployed page at thonly.org to determine the current canonical markdown location.
+The existing [`github.com/thonly/publications`](https://github.com/thonly/publications) repo holds the legacy research corpus. Going forward, this repo (`thonly/publications`) is the canonical home for thonly.org's author-output across all four genres. Migration of existing research papers from `thonly/publications` into `thonly/publications/defensive-publications/` and `thonly/publications/essays/` is planned; until that completes, both repos may contain authoritative content. Cross-reference each paper's deployed page at thonly.org to determine the current canonical markdown location.
 
 ## License
 

@@ -8,7 +8,7 @@
 | Date | 2026-05-02 |
 | Canonical URL | https://thonly.org/research/verified-human-anonymous-local-giving |
 | Institutional mirror | https://heartbank.net/research/verified-human-anonymous-local-giving |
-| GitHub mirror | https://github.com/thonly/research/blob/main/verified-human-anonymous-local-giving.md |
+| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/verified-human-anonymous-local-giving.md |
 | License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Document SHA-256 | _to be computed at publication_ |
 
@@ -270,7 +270,7 @@ The mechanism specified here addresses the gratitude-transfer primitive but leav
 |---|---|
 | Primary canonical | <https://thonly.org/research/verified-human-anonymous-local-giving> |
 | Institutional mirror | <https://heartbank.net/research/verified-human-anonymous-local-giving> |
-| GitHub | <https://github.com/thonly/research/blob/main/verified-human-anonymous-local-giving.md> |
+| GitHub | <https://github.com/thonly/publications/blob/main/defensive-publications/verified-human-anonymous-local-giving.md> |
 | arXiv preprint | _identifier to be assigned_ (cs.CR / cs.CY) |
 | IP.com Defensive Publication | _identifier to be assigned_ |
 | Internet Archive | <https://web.archive.org/web/2026*/thonly.org/research/verified-human-anonymous-local-giving> |

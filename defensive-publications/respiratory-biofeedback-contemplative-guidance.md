@@ -403,7 +403,7 @@ This paper is mirrored across multiple venues for redundancy and tamper-evident 
 
 - **Primary canonical:** `thonly.org/research/respiratory-biofeedback-contemplative-guidance`
 - **Institutional mirror:** `heartbank.net/research/respiratory-biofeedback-contemplative-guidance`
-- **GitHub:** `github.com/thonly/research/respiratory-biofeedback-contemplative-guidance.md`
+- **GitHub:** `github.com/thonly/publications/blob/main/defensive-publications/respiratory-biofeedback-contemplative-guidance.md`
 - **Tamper-evident timestamps:** Internet Archive, archive.today, perma.cc snapshots of the canonical URL on the publication date and on each substantive revision
 - **Academic prior art (planned):** arXiv preprint (cs.HC and cs.CY)
 - **USPTO-examined database (planned):** IP.com Defensive Publication

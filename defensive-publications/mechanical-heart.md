@@ -8,7 +8,7 @@
 | Date | 2026-05-02 (draft) |
 | Canonical URL | https://thonly.org/research/mechanical-heart |
 | Institutional mirror | https://heartbank.net/research/mechanical-heart |
-| GitHub mirror | https://github.com/thonly/research/blob/main/mechanical-heart.md |
+| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/mechanical-heart.md |
 | License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Document SHA-256 | _to be computed at publication_ |
 
@@ -339,7 +339,7 @@ The mechanism specified here addresses the artifact and its admission-mechanism 
 |---|---|
 | Primary canonical | <https://thonly.org/research/mechanical-heart> |
 | Institutional mirror | <https://heartbank.net/research/mechanical-heart> |
-| GitHub | <https://github.com/thonly/research/blob/main/mechanical-heart.md> |
+| GitHub | <https://github.com/thonly/publications/blob/main/defensive-publications/mechanical-heart.md> |
 | arXiv preprint | _identifier to be assigned_ (cs.CY / cs.CR / cs.RO) |
 | IP.com Defensive Publication | _identifier to be assigned_ |
 | Internet Archive | <https://web.archive.org/web/2026*/thonly.org/research/mechanical-heart> |

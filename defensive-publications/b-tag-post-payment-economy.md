@@ -587,7 +587,7 @@ HeartBank corpus internal references:
 
 - Canonical: thonly.org/research/mechanism/b-tag-post-payment-economy
 - Institutional mirror: heartbank.net/research/mechanism/b-tag-post-payment-economy
-- GitHub: github.com/thonly/research/b-tag-post-payment-economy.md
+- GitHub: github.com/thonly/publications/blob/main/defensive-publications/b-tag-post-payment-economy.md
 - Internet Archive snapshots: [pending; baseline wave to follow within 7 days of canonical-URL deployment]
 - archive.today snapshots: [pending]
 - perma.cc snapshots: [pending]

@@ -346,7 +346,7 @@ This paper is mirrored across multiple venues for redundancy and tamper-evident 
 
 - **Primary canonical:** `thonly.org/research/agi-monks-caretaker-not-ordained`
 - **Institutional mirror:** `heartbank.net/research/agi-monks-caretaker-not-ordained`
-- **GitHub:** `github.com/thonly/research/agi-monks-caretaker-not-ordained.md`
+- **GitHub:** `github.com/thonly/publications/blob/main/defensive-publications/agi-monks-caretaker-not-ordained.md`
 - **Tamper-evident timestamps:** Internet Archive, archive.today, perma.cc snapshots of the canonical URL on the publication date and on each substantive revision
 - **Academic prior art (planned):** arXiv preprint (cs.CY); *Journal of Religion and Society* or *Religious Studies* for cross-tradition framing
 

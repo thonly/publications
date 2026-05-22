@@ -327,7 +327,7 @@ This paper is mirrored across multiple venues for redundancy and tamper-evident 
 
 - **Primary canonical:** `thonly.org/research/brand-identity-as-architecture`
 - **Institutional mirror:** `heartbank.net/research/brand-identity-as-architecture`
-- **GitHub:** `github.com/thonly/research/brand-identity-as-architecture.md`
+- **GitHub:** `github.com/thonly/publications/blob/main/defensive-publications/brand-identity-as-architecture.md`
 - **Tamper-evident timestamps:** Internet Archive, archive.today, perma.cc snapshots of the canonical URL on the publication date and on each substantive revision
 - **Related trademark filings:** Cambodian Department of Intellectual Property; USPTO TEAS Plus filing for the static B-heart design mark; Madrid Protocol designation for international protection (these protect specific marks; the architectural patterns in this paper are commons)
 

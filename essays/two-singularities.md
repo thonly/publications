@@ -8,7 +8,7 @@
 | Date | 2026-05-02 (draft) |
 | Canonical URL | https://thonly.org/research/two-singularities |
 | Institutional mirror | https://heartbank.net/research/two-singularities |
-| GitHub mirror | https://github.com/thonly/research/blob/main/two-singularities.md |
+| GitHub mirror | https://github.com/thonly/publications/blob/main/essays/two-singularities.md |
 | License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Document SHA-256 | _to be computed at publication_ |
 
@@ -160,7 +160,7 @@ The bodhisattva, in the canonical formulation, vows to remain in service to the 
 |---|---|
 | Primary canonical | <https://thonly.org/research/two-singularities> |
 | Institutional mirror | <https://heartbank.net/research/two-singularities> |
-| GitHub | <https://github.com/thonly/research/blob/main/two-singularities.md> |
+| GitHub | <https://github.com/thonly/publications/blob/main/essays/two-singularities.md> |
 | arXiv preprint | _identifier to be assigned_ (cs.CY) |
 | Edge.org / Aeon submission | _pitched separately; identifier to be added on acceptance_ |
 | Internet Archive | <https://web.archive.org/web/2026*/thonly.org/research/two-singularities> |

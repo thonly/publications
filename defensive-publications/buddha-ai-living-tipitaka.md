@@ -262,7 +262,7 @@ Future work: empirical study of consent-flow effectiveness; cross-tradition cano
 
 - **Primary canonical:** `thonly.org/research/buddha-ai-living-tipitaka`
 - **Institutional mirror:** `heartbank.net/research/buddha-ai-living-tipitaka`
-- **GitHub:** `github.com/thonly/research/buddha-ai-living-tipitaka.md`
+- **GitHub:** `github.com/thonly/publications/blob/main/defensive-publications/buddha-ai-living-tipitaka.md`
 - **Tamper-evident timestamps:** Internet Archive, archive.today, perma.cc snapshots
 - **Academic prior art (planned):** arXiv preprint (cs.CY); *Journal of Buddhist Ethics*; *Religious Studies*
 

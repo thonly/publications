@@ -135,6 +135,6 @@ For the author's narrative embodiment, see [*The Age of Capricorn*](https://thon
 
 ---
 
-**Published:** 2026-05-03. **Canonical URL:** https://thonly.org/research/cautionary-mirror-singularity. Cross-mirrored to `github.com/thonly/research`. Tamper-evident timestamping via Internet Archive, archive.today, and IP.com.
+**Published:** 2026-05-03. **Canonical URL:** https://thonly.org/research/cautionary-mirror-singularity. Cross-mirrored to `github.com/thonly/publications`. Tamper-evident timestamping via Internet Archive, archive.today, and IP.com.
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia.
