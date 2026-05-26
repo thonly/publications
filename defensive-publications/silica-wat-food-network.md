@@ -9,7 +9,7 @@ license: CC0-1.0
 venue: thonly.org/research/silica-wat-food-network (canonical)
 ---
 
-> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment is reserved for a forthcoming heartbank.net Position Paper on contemplative-tradition institutional response to food-system pathologies. The slug `silica-wat-food-network` is the canonical research URL.
+> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment is the companion heartbank.net Position Paper *Food-System Pathologies and the Contemplative-Tradition Response* (heartbank.net/positions/food-system-pathologies-contemplative-response). The slug `silica-wat-food-network` is the canonical research URL.
 
 ---
 

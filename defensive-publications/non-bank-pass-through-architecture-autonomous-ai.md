@@ -9,7 +9,7 @@ license: CC0-1.0
 venue: thonly.org/research/non-bank-pass-through-architecture-autonomous-ai (canonical)
 ---
 
-> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment of this paper's pattern is reserved for a forthcoming heartbank.net Position Paper on institutional design for autonomous-AI institutions. The slug `non-bank-pass-through-architecture-autonomous-ai` is retained for prior-art URL stability.
+> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment of this paper's pattern is distributed across two existing heartbank.net Position Papers — *Autonomous-AI Institutional Governance* (heartbank.net/positions/autonomous-ai-institutional-governance), which covers the governance dimension; and *Non-Bank vs. Banking-Regulated Architecture* (heartbank.net/positions/non-bank-vs-banking-regulated), which covers the non-bank legal-institutional dimension. The slug `non-bank-pass-through-architecture-autonomous-ai` is retained for prior-art URL stability.
 
 ---
 

@@ -9,7 +9,7 @@ license: CC0-1.0
 venue: thonly.org/research/four-body-architecture (canonical)
 ---
 
-> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment is reserved for a forthcoming heartbank.net Position Paper on synthetic-intelligence institutional architecture or for embedding within the wider Mission White Paper. The slug `four-body-architecture` is retained for prior-art URL stability.
+> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment is the companion heartbank.net Position Paper *Synthetic-Intelligence Institutional Architecture* (heartbank.net/positions/synthetic-intelligence-institutional-architecture), with later embedding within the wider Mission White Paper anticipated. The slug `four-body-architecture` is retained for prior-art URL stability.
 
 ---
 

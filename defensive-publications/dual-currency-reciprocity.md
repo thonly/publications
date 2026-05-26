@@ -9,7 +9,7 @@ license: CC0-1.0
 venue: thonly.org/research/dual-currency-reciprocity (canonical) · target academic venue, International Journal of Community Currency Research
 ---
 
-> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention (2026-05-15 mirror retirement), heartbank.net does not carry a per-paper mirror; the institutional-voice treatment of this paper's claims is reserved for a forthcoming heartbank.net Position Paper on community-currency design or for embedding within a wider white paper. The slug `dual-currency-reciprocity` is the canonical research URL on thonly.org for prior-art purposes.
+> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention (2026-05-15 mirror retirement), heartbank.net does not carry a per-paper mirror; the institutional-voice treatment of this paper's claims is the companion heartbank.net Position Paper *Community-Currency Design* (heartbank.net/positions/community-currency-design), with later embedding within a wider white paper anticipated. The slug `dual-currency-reciprocity` is the canonical research URL on thonly.org for prior-art purposes.
 
 ---
 
