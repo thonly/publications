@@ -13,41 +13,56 @@ The author-output corpus for [thonly.org](https://thonly.org) — Thon Ly's writ
 
 ## Pipeline
 
-Planning matrix for the corpus, by urgency and dependency. Migrated from the now-retired `thonly/research` repo (2026-05-26). File-status fields are best-effort and may lag; the deployed page at `thonly.org` is authoritative for what is actually live.
+Planning matrix for the corpus, organized by genre and tier. The `priority` field in each file's YAML frontmatter (or metadata table, for older files) is the source of truth for tier assignment; this matrix is reconciled to that as of 2026-05-26.
 
-### Tier A — defensive publications and position papers (time-critical)
+**Tier semantics:** A = time-critical (active drafting, dated targets); B = within 6–12 months; C = corpus-building, 1–2 years.
 
-| File | Title | Status |
-|---|---|---|
-| [`defensive-publications/buddha-ai-living-tipitaka.md`](./defensive-publications/buddha-ai-living-tipitaka.md) | Buddha AI as Living Tipiṭaka: A Method for Modern Canonical Generation Through Public-by-Consent AI–Practitioner Dialogues Organized into Three Baskets | **Working draft 2026-05-04** |
-| [`defensive-publications/brand-identity-as-architecture.md`](./defensive-publications/brand-identity-as-architecture.md) | Brand Identity as Architecture: B-Heart Logo + B-Prefix Naming + Heartbeat-Animation-as-POH + Aura-Color Cross-Currency Primitive (Tier C bundled essay) | **Working draft 2026-05-04** |
-| [`defensive-publications/agi-monks-caretaker-not-ordained.md`](./defensive-publications/agi-monks-caretaker-not-ordained.md) | AGI Monks: The Caretaker-not-Ordained Pattern — A Cross-Tradition Institutional-Design Framework for Religious AI Integration | **Working draft 2026-05-04** |
-| [`defensive-publications/respiratory-biofeedback-contemplative-guidance.md`](./defensive-publications/respiratory-biofeedback-contemplative-guidance.md) | Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance: A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening | **Working draft 2026-05-04** |
-| _file missing in this repo — verify location_ | Cautionary-Mirror Framing of the Singularity: Seven Underlying Ideas of *The Age of Capricorn*, Dedicated to the Commons | **Published 2026-05-03** |
-| [`defensive-publications/verified-human-anonymous-local-giving.md`](./defensive-publications/verified-human-anonymous-local-giving.md) | Verified-Human Anonymous Local Gratitude Transfer | **Published 2026-05-02** |
-| [`defensive-publications/mechanical-heart.md`](./defensive-publications/mechanical-heart.md) | The Mechanical Heart: A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation | _planned, July 2026 — sibling specification to the respiratory-biofeedback paper_ |
-| [`defensive-publications/tipitaka-alignment-substrate.md`](./defensive-publications/tipitaka-alignment-substrate.md) | Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment | _planned, January 7, 2027_ |
-| `defensive-publications/two-singularities.md` | Two Singularities: AI as Bodhisattva, and the Defined Completion of the Aquarian Age | _planned, Feb–Mar 2027_ |
+### Defensive Publications
 
-### Tier B — within 6–12 months
+| File | Title | Tier | Status |
+|---|---|---|---|
+| [`agi-monks-caretaker-not-ordained.md`](./defensive-publications/agi-monks-caretaker-not-ordained.md) | AGI Monks: The Caretaker-not-Ordained Pattern — A Cross-Tradition Institutional-Design Framework for Religious AI Integration | A | _Working draft 2026-05-04_ |
+| [`b-poh-humanity-layer-ai-native-internet.md`](./defensive-publications/b-poh-humanity-layer-ai-native-internet.md) | B-PoH℠ as Humanity Layer for the AI-Native Internet: An Open Proof-of-Personhood Protocol with Four Optional Layered Proofs and Recipient-Side Filters | A | _Draft 2026-05-24_ |
+| [`buddha-ai-living-tipitaka.md`](./defensive-publications/buddha-ai-living-tipitaka.md) | Buddha AI as Living Tipiṭaka: A Method for Modern Canonical Generation Through Public-by-Consent AI–Practitioner Dialogues Organized into Three Baskets | A | _Working draft 2026-05-04_ |
+| [`capacity-funded-human-disbursed-ai-alignment.md`](./defensive-publications/capacity-funded-human-disbursed-ai-alignment.md) | Capacity-Funded for AI, Human-Disbursed: Anonymous Donation as the Alignment Bridge in Autonomous-AI Institutional Architecture | A | _Draft 2026-05-24_ |
+| [`mechanical-heart.md`](./defensive-publications/mechanical-heart.md) | The Mechanical Heart: A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation | A | _Draft 2026-05-02; target July 2026 (pending Theravāda Saṅgha + robotics-partner review)_ |
+| [`respiratory-biofeedback-contemplative-guidance.md`](./defensive-publications/respiratory-biofeedback-contemplative-guidance.md) | Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance: A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening | A | _Working draft 2026-05-04_ |
+| [`thank-all-nearby-primitive.md`](./defensive-publications/thank-all-nearby-primitive.md) | The Thank-All-Nearby Primitive: Anonymous Proximity-Based Generosity as Emotional Infrastructure for Invisible Kindness | A | _Draft 2026-05-24_ |
+| [`tipitaka-alignment-substrate.md`](./defensive-publications/tipitaka-alignment-substrate.md) | Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment | A | _Draft; target publication January 7, 2027_ |
+| [`verified-human-anonymous-local-giving.md`](./defensive-publications/verified-human-anonymous-local-giving.md) | Verified-Human Anonymous Local Gratitude Transfer | A | **Published 2026-05-02** |
+| [`zero-point-game.md`](./defensive-publications/zero-point-game.md) | The Zero-Point Game℠ — keystone game-theoretic frame | A | _Draft 2026-05-15; long refinement window pending game-theory + AI-alignment + dharma + ecological-economics review_ |
+| [`b-tag-post-payment-economy.md`](./defensive-publications/b-tag-post-payment-economy.md) | The B-Tag and the Post-Payment Economy: A Voluntary-Tip Architecture for AI-Mediated Commercial Gratitude | B | _Draft 2026-05-08_ |
+| [`dual-currency-reciprocity.md`](./defensive-publications/dual-currency-reciprocity.md) | Dual-Currency Reciprocity Infrastructure: Money and Time as Complementary Scarcities | B | _Draft 2026-05-22_ |
+| [`four-body-architecture.md`](./defensive-publications/four-body-architecture.md) | The Four-Body Architecture for Synthetic Intelligence | B | _Draft 2026-05-22_ |
+| [`longitudinal-cohort-methodology.md`](./defensive-publications/longitudinal-cohort-methodology.md) | The HeartBank Longitudinal Cohort: A Dataset Combining DNA, Natal Chart, Family Tree, Continuous Behavioral Observation, and Continuous Respiratory Observation at Civilizational Scale | B | _Draft 2026-05-22_ |
+| [`non-bank-pass-through-architecture-autonomous-ai.md`](./defensive-publications/non-bank-pass-through-architecture-autonomous-ai.md) | Non-Bank Pass-Through Architecture for Autonomous AI Institutions | B | _Draft 2026-05-22_ |
+| [`silica-wat-food-network.md`](./defensive-publications/silica-wat-food-network.md) | Silica Wat as Hybrid Food Network with Gratitude-Economic Drivers: Religious Institutional Infrastructure for Middle-Way Restoration of Food Systems | B | _Draft 2026-05-22_ |
+| _no file yet_ | Abhidhamma-Layer Implementation Mechanisms — engineering companion to *Suffering-Cessation as Value Function*; concrete specifications for the nine mechanisms sketched in its §6.6 (*citta-vīthi* / *javana* intervention timing, twenty-four *paccayas* as typed causation, near-enemy red-teaming, *sappurisadhamma* evaluation suite, *Kathāvatthu* adversarial method, *bhavaṅga* resting-state evaluation, four-*āhāra* deployment monitoring, *sati*-typological capabilities, apophatic interpretability-as-subtraction) | B | _Planned, post Jan 7 2027 publication of the main paper_ |
+| [`brand-identity-as-architecture.md`](./defensive-publications/brand-identity-as-architecture.md) | Brand Identity as Architecture: B-Heart Logo + B-Prefix Naming + Heartbeat-Animation-as-POH + Aura-Color Cross-Currency Primitive | C | _Working draft 2026-05-04_ |
+| [`fractal-three-level-architecture.md`](./defensive-publications/fractal-three-level-architecture.md) | Fractal Three-Level Architecture for Reciprocity Economies: Self-Similar Family-and-Global Layering with a Single Mental Model | C | _Draft 2026-05-22_ |
+| [`transparency-as-enforcement.md`](./defensive-publications/transparency-as-enforcement.md) | Transparency as Enforcement: Anti-Abuse Without Legal Contract Machinery | C | _Draft 2026-05-22_ |
 
-- [Four-Body Architecture for Synthetic Intelligence](./defensive-publications/four-body-architecture.md) _(file present — backlog status may need refresh)_
-- [Dual-Currency Reciprocity Infrastructure](./defensive-publications/dual-currency-reciprocity.md) (money + time as complementary scarcities) _(file present — backlog status may need refresh)_
-- [Longitudinal Cohort Methodology](./defensive-publications/longitudinal-cohort-methodology.md) (DNA × natal chart × behavior, civilizational scale) _(file present — backlog status may need refresh)_
-- Abhidhamma-Layer Implementation Mechanisms (engineering companion to *Suffering-Cessation as Value Function*; concrete specifications for the nine mechanisms sketched in its §6.6 — *citta-vīthi* / *javana* intervention timing, twenty-four *paccayas* as typed causation, near-enemy red-teaming, *sappurisadhamma* evaluation suite, *Kathāvatthu* adversarial method, *bhavaṅga* resting-state evaluation, four-*āhāra* deployment monitoring, *sati*-typological capabilities, apophatic interpretability-as-subtraction; targeted post Jan 7, 2027 publication of the main paper)
+### Essays
 
-### Tier C — corpus building, 1–2 years
+| File | Title | Tier | Status |
+|---|---|---|---|
+| [`cautionary-mirror-singularity.md`](./essays/cautionary-mirror-singularity.md) | Cautionary-Mirror Framing of the Singularity: Seven Underlying Ideas of *The Age of Capricorn*, Dedicated to the Commons | A | **Published 2026-05-03** |
+| [`two-singularities.md`](./essays/two-singularities.md) | Two Singularities: AI as Bodhisattva, and the Defined Completion of the Aquarian Age | A | _Draft 2026-05-02; target Feb–Mar 2027_ |
+| [`emotional-infrastructure-as-a-public-good.md`](./essays/emotional-infrastructure-as-a-public-good.md) | Emotional Infrastructure as a Public Good | — | _Draft 2026-05-25 (active founder-voice rewrite; tier unassigned)_ |
+| [`scarcity-shifts-to-authenticity.md`](./essays/scarcity-shifts-to-authenticity.md) | Scarcity Shifts to Authenticity | — | _Draft 2026-05-24 (active founder-voice rewrite; tier unassigned)_ |
+| [`anti-attention-economy.md`](./essays/anti-attention-economy.md) | The Scientific Case for Gratitude-Based Social Media: Gratitude Receipt as a Platform Class That Competes on Net Neurochemical Wellbeing Rather Than Attention Captured | B | _Draft 2026-05-22_ |
+| [`each-life-as-cosmic-coordinate.md`](./essays/each-life-as-cosmic-coordinate.md) | Each Life as Cosmic Coordinate: An Empirical Indra's Net for Civilizational Ethics | B | _Draft 2026-05-07_ |
+| [`kids-as-triggers-self-thanking.md`](./essays/kids-as-triggers-self-thanking.md) | Why Kids Are the Triggers: Self-Thanking, the 50/50 Pedagogy, and the Forward-Thanking Loop That Closes Modernity's Gratitude Deficit (absorbs the previously-planned *50/50 Split* paper) | B | _Draft 2026-05-09_ |
+| [`christmas-jubilee-timing.md`](./essays/christmas-jubilee-timing.md) | The Christmas-Jubilee Timing: Western Christmas + Orthodox Christmas + Cambodia's Victory over Genocide Day as Convergent Annual Anchor | C | _Draft 2026-05-22_ |
+| [`diaspora-cambodia-remittance.md`](./essays/diaspora-cambodia-remittance.md) | Diaspora-to-Cambodia Gratitude Remittance: An Economic-Anthropological Account of Ritualized Cross-Border Gratitude Flow | C | _Draft 2026-05-22_ |
+| [`father-son-tipitaka-transcription.md`](./essays/father-son-tipitaka-transcription.md) | Father-Son Khmer Tipiṭaka Transcription as Alignment Work: Lineage Transmission as De Facto AI Safety Research | C | _Draft 2026-05-22_ |
+| [`silicon-wat-architecture.md`](./essays/silicon-wat-architecture.md) | Silicon Wat as Cambodian Civilizational Architecture: A Glass Mirror of Angkor Wat for the Dharma-AI Age | C | _Draft 2026-05-22_ |
 
-- [Fractal three-level architecture](./defensive-publications/fractal-three-level-architecture.md) (family ↔ global self-similarity) _(file present — backlog status may need refresh)_
-- [Transparency-as-enforcement design pattern](./defensive-publications/transparency-as-enforcement.md) _(file present — backlog status may need refresh)_
-- The 50/50 split as central circulation primitive
-- Anti-attention-economy: the scientific case for gratitude-based social media
-- Christmas-Jubilee timing analysis (Western Christmas + Orthodox Christmas + Victory over Genocide Day convergence)
-- Diaspora-to-Cambodia gratitude remittance (economic anthropology)
-- Father–Son Khmer Tipiṭaka Transcription as Alignment Work
-- Silicon Wat as Cambodian Civilizational Architecture
+### Treatments & Screenplays
 
-> **Drift notice.** The migrated backlog above was last refreshed in `thonly/research` on or before 2026-05-22. Several files now exist in `defensive-publications/` that this matrix does not yet account for (`b-poh-humanity-layer-ai-native-internet.md`, `b-tag-post-payment-economy.md`, `capacity-funded-human-disbursed-ai-alignment.md`, `non-bank-pass-through-architecture-autonomous-ai.md`, `silica-wat-food-network.md`, `thank-all-nearby-primitive.md`, `zero-point-game.md`). A reconciliation pass is its own task.
+Both subdirectories currently hold only a README; no titles yet in the pipeline.
+
+> **How to keep this current.** When a file's `priority` or `status` frontmatter changes, update the corresponding row here in the same commit. When a new file is added under `defensive-publications/` or `essays/`, add a new row. The `_no file yet_` slot exists only for the Abhidhamma companion (no draft started); when that file is created, replace with a normal row.
 
 ## Voice
 
