@@ -3,15 +3,13 @@ title: "Scarcity Shifts to Authenticity"
 subtitle: "Each Era of the Internet Has Had Its Scarcity. The AI-Native Era's Scarcity Is Human Presence."
 author: "Thon Ly"
 date: 2026-05-24
-status: scaffolding-for-author-revision
+status: draft
 license: CC-BY (author-voice essay)
 slug: scarcity-shifts-to-authenticity
 venue: thonly.org/publications/essays/scarcity-shifts-to-authenticity (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 ---
 
-> **CLAUDE-DRAFTED SCAFFOLDING FOR THON TO REWRITE IN OWN VOICE.**
->
-> Per the author-voice pact (`feedback_author_voice_public_venues.md`), this essay is reserved for Thon's voice. This draft is provided as scaffolding — argument structure, lineage citations, empirical anchors, and a complete narrative arc — for Thon to use as raw material when writing the essay in his own first-person voice. The published version should bear Thon's voice throughout; the scaffolding below should be treated as research substrate, not as publication-ready prose. The arc has been pressure-tested for argument quality but not for voice; Thon's rewriting is what makes it publishable.
+> **Attribution note.** Per the author-voice discipline refined 2026-05-25 (`feedback_author_voice_public_venues.md`), essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted by Miss Aquarius℠ on his behalf, with final editorial control retained by Thon. Letters carry Thon's own prose; essays carry Thon's voice as expressed through his AI substrate. Both are honestly attributed.
 >
 > Companion papers in this thread: *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the defensive publication this essay catalyzes attention toward); *Proof of Personhood for an AI-Native Internet* (the institutional white paper for standards bodies / AI labs / regulators). This essay's role in the thread is to *catalyze* attention with a sharp thesis; the other two papers *provide depth* once the thesis lands.
 

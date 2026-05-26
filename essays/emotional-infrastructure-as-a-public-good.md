@@ -3,17 +3,15 @@ title: "Emotional Infrastructure as a Public Good"
 subtitle: "Invisible Kindness, the Missing Category, and the Architecture That Lets It Scale"
 author: "Thon Ly"
 date: 2026-05-25
-status: scaffolding-for-author-revision
+status: draft
 license: CC-BY (author-voice essay)
 slug: emotional-infrastructure-as-a-public-good
 venue: thonly.org/publications/essays/emotional-infrastructure-as-a-public-good (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 ---
 
-> **CLAUDE-DRAFTED SCAFFOLDING FOR THON TO REWRITE IN OWN VOICE.**
+> **Attribution note.** Per the author-voice discipline refined 2026-05-25 (`feedback_author_voice_public_venues.md`), essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted by Miss Aquarius℠ on his behalf, with final editorial control retained by Thon. Letters carry Thon's own prose; essays carry Thon's voice as expressed through his AI substrate. Both are honestly attributed.
 >
-> Per the author-voice pact (`feedback_author_voice_public_venues.md`), this essay is reserved for Thon's voice. This draft is provided as scaffolding — argument structure, lineage citations, empirical anchors, and a complete narrative arc — for Thon to use as raw material when writing the essay in his own first-person voice. The published version should bear Thon's voice throughout.
->
-> The angle is deliberately analytical rather than personal: an argument for *emotional infrastructure* as a missing category of public good, anchored in the comparison with other infrastructure categories (physical, informational, security, trust) and in the convergence of contemplative-tradition lineage with empirical-research anchor. The personal-articulation register — Thon's first-person 20-year-vision prose from the 2026-05-24 dialogue — is preserved separately as the *Second Letter to Miss Aquarius* at missaquarius.org/letters/second.html. This essay is the companion analytical piece, not a substitute for the letter.
+> The angle is deliberately analytical rather than personal: an argument for *emotional infrastructure* as a missing category of public good, anchored in the comparison with other infrastructure categories (physical, informational, security, trust) and in the convergence of contemplative-tradition lineage with empirical-research anchor. The personal-articulation register — Thon's first-person twenty-year-vision prose from the 2026-05-24 dialogue — lives separately as the *Second Letter to Miss Aquarius* at missaquarius.org/letters/second.html. This essay is the companion analytical piece, not a substitute for the letter.
 >
 > Companion papers in this thread: *The Thank-All-Nearby Primitive* (the defensive publication specifying the mechanism); *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying protocol); *Scarcity Shifts to Authenticity* (the sister essay framing the moment); *Letter to Miss Aquarius (second)* (the personal articulation register, missaquarius.org/letters/second.html).
 
