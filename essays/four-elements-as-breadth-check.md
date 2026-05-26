@@ -106,6 +106,26 @@ What each tradition contributes is an *operation* you can perform on this quarte
 | Astrological | **Type** | A temperament grammar — what mode does it express? |
 | Tipiṭakan | **Liberate** | A contemplative method — what is *known* of it at the sense-doors, stripped of conceit? |
 
+What the table cannot quite show is that the five operations are *simultaneous* — they apply to one phenomenon at once, not in sequence:
+
+```
+                      Classify
+                      (Greek)
+                     ╱       ╲
+                    ╱         ╲
+                   ╱           ╲
+              Liberate         Layer
+            (Tipiṭakan)        (Hindu)
+                   ╲           ╱
+                    ╲         ╱
+                     ╲       ╱
+                   Type ─ Regulate
+               (Astrological)(Taoist)
+
+      Five operations applied to one phenomenon.
+      Failure in any one register collapses the whole.
+```
+
 A complete elemental analysis of any phenomenon would ask all five questions. The discipline is small: when one or two operations have been used, name the rest, and check whether they uncover something the first two missed. They very often do.
 
 The Tipiṭakan operation is the one most often under-applied in technical and institutional contexts — and, in my experience, most often the one that is load-bearing. Classification and regulation come naturally to engineers; layering and typing come naturally to organizational thinkers; the contemplative register — what is *known* when the system is met, stripped of the reifying conceits that the surrounding culture has built up around it — is the register that requires explicit work to apply. It is also the register whose absence most often produces designs that pass every audit and yet fail to do the thing the design was for.
@@ -139,6 +159,18 @@ The example is illustrative; it is not the discipline's only application. The sa
 If a single insight had to be extracted from this comparative work, it would be this.
 
 **The Greek tradition asks *what is the world made of?* The Tipiṭakan tradition asks *what is known when the world is met?* — and refuses to slide from the second question back into the first.** Every other tradition sits between these two poles. The Hindu system layers them; the Taoist system processualizes them; the astrological system internalizes them. Only the Tipiṭakan system holds the discipline of staying at the body-door and letting the four *mahābhūtā* be exactly and only what is known there — solidity, cohesion, heat, motion — without ever building a metaphysics on top.
+
+```
+   "what is the world                    "what is known when
+        made of?"                          the world is met?"
+    ←──────────────────────────────────────────────────────→
+
+       Greek       Hindu       Taoist      Astrol.    Tipiṭakan
+    [substance][emanation][  phase  ][ psychic ][phenomenon]
+                 layered     of qi    archetype   at body-door
+
+    ←──── stage ──────────────────────────────── path ────→
+```
 
 This is why the four elements, taught as a contemplation, are a path. Taught as a physics, they were a stage. The other traditions sit somewhere on the spectrum between path and stage; the Tipiṭakan teaching is the asymptote of path.
 
