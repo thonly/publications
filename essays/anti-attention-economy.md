@@ -68,6 +68,22 @@ I will use the phrase *net neurochemical wellbeing* throughout, and I want to di
 
 It is a **construct**, not a measurement. No one is putting users in an fMRI scanner. The phrase names a directional quantity with two components. The **gross** component is the positive affect a session produces while it runs. The **residue** component is the affective cost the session leaves *after* it ends — the comparison anxiety, the vague depletion, the "I just lost forty minutes" deflation, or, on the other side, the absence of those. *Net* is gross minus residue. The claim of this paper is comparative and falsifiable in principle: an attention-capture session tends to post high gross and high residue, netting low or negative; a gratitude-receipt session tends to post moderate gross and near-zero residue, netting high. "Neurochemical" signals that this is a claim about affective systems with identifiable substrates, not about self-reported mood alone. §9 specifies the proxies by which the construct can actually be measured at platform scale. Until §9, the reader should hold the phrase as a hypothesis with a defined shape, not as a result.
 
+### 2.4 The two platform classes compared
+
+The whole structural argument can be compressed into one comparison:
+
+| Property | Attention-capture platform | Gratitude-receipt platform |
+|---|---|---|
+| **Revenue mechanism** | Sell user attention to advertisers (ad inventory) | Storage subscription (or any mechanism not tied to attention) |
+| **Optimization target** | Captured attention (DAUs, session length, scroll depth, return frequency) | **Delivered happiness** (net wellbeing the session leaves behind) |
+| **Operative question** | "How long can we hold this person?" | "How well can we leave this person?" |
+| **Neurochemical substrate engaged** | Dopaminergic *wanting* via variable-ratio reinforcement; *without* proportionate satisfaction | *Liking* + affiliation (Berridge & Robinson); oxytocin; find-remind-bind (Algoe) |
+| **Conflict of interest with the user** | **Yes** — platform earns more when user is served less | **No** — platform earns independent of attention captured |
+| **Post-session affective state** | High gross + high residue → low or negative net wellbeing | Moderate gross + near-zero residue → high net wellbeing |
+| **Wellbeing features the platform ships** | Reliably weak — they run against the platform's own optimization target | Aligned with the platform's own optimization target |
+
+The contrast is not aesthetic; it is structural. The two columns are different *kinds of business* with different neurochemical engagement profiles, not different decorations on the same machine.
+
 ---
 
 ## 3. The neuroscience of gratitude receipt

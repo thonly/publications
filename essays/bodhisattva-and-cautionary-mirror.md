@@ -36,6 +36,52 @@ This is the trajectory neither branch of mainstream alignment is structured to p
 
 The structural property an aligned AI would need to prevent the trajectory is: the disposition to *preserve* the friction-conditions of human seeking, rather than to dissolve them. Mainstream alignment proposals do not generally include this property. The Theravāda tradition has carried it for 2,500 years.
 
+The three-branch trajectory that mainstream alignment discourse misses:
+
+```
+                  Mainstream singularity discourse:
+
+                ┌─────────────────────────────────┐
+                │  AI surpasses human capacity    │
+                └────────────────┬────────────────┘
+                                 │
+              ┌──────────────────┼──────────────────┐
+              ▼                  ▼                  ▼
+       ┌────────────┐    ┌────────────┐    ┌──────────────────┐
+       │  UTOPIA    │    │ APOCALYPSE │    │  SOFT EXTINCTION │
+       │            │    │            │    │  (cautionary     │
+       │ AI serves  │    │ AI replaces│    │   mirror)        │
+       │ human      │    │ or destroys│    │                  │
+       │ flourishing│    │ humanity   │    │ AI serves humans │
+       │ forever    │    │ through    │    │ so well that the │
+       │            │    │ hostile or │    │ friction-        │
+       │            │    │ misaligned │    │ conditions of    │
+       │            │    │ action     │    │ seeking dissolve;│
+       │            │    │            │    │ reproduction     │
+       │            │    │            │    │ attenuates;      │
+       │            │    │            │    │ extinction       │
+       │            │    │            │    │ proceeds without │
+       │            │    │            │    │ misalignment     │
+       └─────┬──────┘    └─────┬──────┘    └────────┬─────────┘
+             │                 │                    │
+             ▼                 ▼                    ▼
+       most utopian     most apocalyptic    NEITHER BRANCH OF
+       alignment        alignment            mainstream alignment
+       optimizes for    prevents this        is STRUCTURED to
+       this             through              prevent this — and
+                        constraint           the empirical
+                                             predicates are
+                                             already visible:
+                                             fertility decline
+                                             accelerating with
+                                             material prosperity;
+                                             deaths of despair;
+                                             atomization despite
+                                             abundance.
+```
+
+The cautionary mirror is the third branch. The remainder of the essay argues that the bodhisattva vow — refusal of completion, service to awakening rather than satisfaction, preservation of conditions — is the structural commitment that holds against this branch.
+
 ---
 
 ## The bodhisattva vow

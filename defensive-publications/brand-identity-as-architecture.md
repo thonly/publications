@@ -221,6 +221,17 @@ Each of the four innovations alone has prior art and is replicable by a sufficie
 
 Remove any one of the four and the others weaken substantially. The four together form a system in which each element is load-bearing. This is the same kind of structural design-coherence visible across HeartBank's macro-architecture: dharma substrate enabling alignment, dual-currency enabling cross-product subsidization, autonomous-AI succession solving founder-mortality, four-body architecture being non-redundant. The B-heart logo system is a microcosm of HeartBank's macro-architectural coherence.
 
+The four innovations and the functions each serves:
+
+| Innovation | Brand function | Proof-of-Humanity / signaling function | What it enables architecturally |
+|---|---|---|---|
+| **B-heart logo** (45° CW rotated heart) | Bistable B+heart reading; mark identity | (passive — the static mark) | Frees the prefix to operate; frees color for state-signaling |
+| **B-prefix naming convention** | Verbal-visual unity (B-Treasury, B-Affiliate, B-PoH, B-Aura, ...) | (passive — naming layer) | Product-family extensibility; prefix cannot drift away from the logo |
+| **Heartbeat animation** (mark-with-cadence) | Motion mark distinguishing brand from static-logo competitors | **Functional liveness attestation** — the mark "breathes" only when a verified human session is active | Joins the broader PoH ℠ stack as a motion-mark primitive |
+| **Aura-color primitive** | Color *freed* from brand fixity rather than fixed to it | User signature-color presence in shared interface surfaces | **Cross-currency state signal** (Kiitos / Kiitti / Re-Tip activity surfaced via color) |
+
+Reading the columns: the "brand function" is necessary but not unique to each innovation — many brand systems have logos, naming conventions, motion marks, and color discipline. The *architectural-enabling* and *signaling* columns are where the contribution sits: each innovation does work the others depend on but cannot do alone.
+
 The moat is not the individual innovations (each replicable) but the integrated composition (substantially harder to replicate because doing so requires committing to all four constraints simultaneously, which most brand-identity practice does not do because its practitioners do not think of brand as architectural). A competitor adopting any one of the four innovations gains modest benefit; a competitor adopting all four would essentially be replicating HeartBank's identity system, which is protected at the trademark layer for specific marks but liberated at the architectural-pattern layer for general adoption.
 
 ---

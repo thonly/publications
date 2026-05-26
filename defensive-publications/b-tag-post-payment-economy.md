@@ -80,6 +80,17 @@ The B-Tag architecture does not naively repeat these failure modes. Three struct
 
 Together these structural differences convert "voluntary tipping" from a known failure pattern into an architecturally different mechanism. The strong-form claim: this is not a repeat of pay-what-you-want; it is a categorical advance over it.
 
+The prior experiments and their structural gaps, compared against the B-Tag's structural answers:
+
+| Prior experiment | Years | Failure mode | Structural gap | B-Tag answer |
+|---|---|---|---|---|
+| **Panera Cares** | 2010–2019 (all five cafés closed) | Insufficient revenue; behavior normalized to lower bound | No value floor; rail fees still applied at zero-tip transactions | Kiitos-always floor (non-zero exchange in every transaction); Base L2 eliminates the rail-fee floor |
+| **Karma Kitchen** | 2007– (survives, has not scaled) | Volunteer-run; commercial scale-out has not occurred | Re-tip / capacity-funding loop is informal; depends on volunteer labor | Re-tip jar is structural and automatic (50/50 self-thank routes capacity-funding without per-customer effort) |
+| **Radiohead** *In Rainbows* | 2007 | "Succeeded" — but only for already-famous artists | Captured generosity *above* market price; mechanism doesn't replace pricing; presupposes prior wealth-and-attention | Generic mechanism; recommendation function supplies pricing context for vendors without prior fan-base |
+| **Suggested-tip POS** (Square, restaurants, ride-share) | 2010s– | Survives only as *supplement* to fixed price | Tip layered on top of fixed price; rail fees create floor; tip is not the price | B-Tag replaces the price-tip duality with kiitos-always-plus-recommendation; zero-money path is part of the architecture, not a degenerate case |
+
+The pattern: each prior experiment failed on at least one of the three structural levers (no value floor; voluntary not automatic; rail fees create a floor for the zero-tip case). The B-Tag architecture addresses all three simultaneously, which is why it is not a repeat of the pay-what-you-want pattern but a structurally distinct mechanism.
+
 ---
 
 ## 4. The B-Tag: physical primitive specification

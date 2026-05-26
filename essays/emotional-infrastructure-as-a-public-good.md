@@ -42,6 +42,18 @@ What none of these categories answers is the question of whether *humans, in sha
 
 The closest existing approximations — religious institutions, community organizations, civic rituals, neighborhood social fabric, the informal economy of acknowledgment in small towns — are real but are not infrastructure in the technical sense. They are organic social structures that have been eroding in the modernizing world, and their erosion is one of the documented sources of the loneliness and dignity deficits that the empirical literature now measures at population scale. Their decline has not been compensated by any new infrastructure category. The slot is open.
 
+The five infrastructure categories in one table:
+
+| Category | Question it answers | Institutional vehicles | Maturity |
+|---|---|---|---|
+| **Physical** | Can humans survive together in shared space? | Public utilities; infrastructure banks; regulatory regimes | Mature in developed world; gradients elsewhere |
+| **Informational** | How does knowledge move between humans across distance? | Internet protocols; search engines; libraries; broadcast | Mature; ongoing platform-economic contestation |
+| **Trust and security** | Can actors and content on the informational layer be trusted? | SSL/TLS; authentication systems; KYC; W3C DIDs; fraud regulation | Mature for servers and accounts; immature for *human presence* (see B-PoH ℠) |
+| **Financial and economic** | How does value move at scale? | Central banks; payment rails; settlement systems; contract law | Mature; regulated |
+| **Emotional** *(missing slot)* | Are humans, in shared physical space, reliably given evidence that they matter to one another? | **None recognized** — religious institutions, community organizations, civic rituals are organic approximations that have eroded without replacement | **Slot is open** — no infrastructure category designed to answer this question yet |
+
+The fifth row is the case this essay makes. Each prior row was, in its time, a slot-opening moment when an organic substrate failed at the scale modernization had reached and an engineered category took its place. The emotional slot is at that moment now.
+
 ## Why the slot opening is not coincidence
 
 The slot is open now, in a way it was not open even ten years ago, because three conditions have recently converged:

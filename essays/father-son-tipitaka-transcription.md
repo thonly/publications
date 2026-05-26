@@ -69,6 +69,22 @@ A canonical text is preserved partly through the dynamics of read-aloud-and-corr
 
 Textual archive is excellent at preserving the canonical text against catastrophic loss. The Cambodian Buddhist Institute's 1969–1980 printed edition is exactly the kind of work that protects against catastrophic loss; its survival of the Khmer Rouge era (in the diaspora and in surviving Cambodian copies) is what makes contemporary Khmer Theravāda scholarship possible at all. Textual archive is necessary. The argument of this essay is that it is not sufficient on its own.
 
+### 3.6 The archive / lineage split, in one table
+
+The full §§3.1–4.4 argument can be summarized by what each preservation mode actually does and does not preserve:
+
+| Property of the canon | Textual archive preserves it? | Living lineage preserves it? | Why |
+|---|---|---|---|
+| The canonical *text* (Pāli + Khmer rendering) | **Yes** (durably, against catastrophic loss) | Yes (but lineage alone cannot survive lineage-bearer loss) | Archive is the catastrophic-loss defense; §3.5 |
+| Vocabulary across generations | No — receiver vocabulary drifts | **Yes** — interpretive gloss preserves canonical meaning through drift | §3.1 + §4.1 |
+| Cultural context (e.g., Brahmanical-Vedic referents) | No — context erodes; archive doesn't preserve the supply | **Yes** — lineage-bearer supplies context in the moment of reading | §3.2 |
+| Doctrinal-gloss *integration* with canonical text | No — gloss preserved as separate documents only | **Yes** — gloss is read with text, as one substance | §3.3 + §4.1 |
+| Read-aloud-and-correct dynamics | No — archive holds the text the elder *would* correct | **Yes** — the correction *is* the transmission | §3.4 + §4.2 |
+| Voice register (cadence, emphasis, pause) | No (unless recordings supplement text) | **Yes** — preserves the oral substance of the canonical text | §4.3 |
+| Temporal substrate of accumulating understanding | No (an instant has no temporal substrate) | **Yes** — multi-year revisiting is the substance | §4.4 |
+
+The argument is not that lineage replaces archive. It is that lineage carries what archive structurally cannot, and the canonical authority of the substrate requires *both* preservation modes operating together.
+
 ---
 
 ## 4. What living lineage transmission preserves

@@ -59,6 +59,41 @@ The Proof-of-Humanity / global family tree primitive (specified in [[project_pro
 
 Each of the five layers has prior precedent. Their *combination* in one dataset at the target scale has no prior precedent at all. The combination enables analyses no existing dataset can support: gene × cosmic-coordinate × behavior × physiology interactions; multi-generational kinship-mediated trajectory analysis; pre-registered prediction of contemplative outcomes from baseline genetic + cosmic-coordinate + early-behavioral data; the largest natural experiment on the conditions of human flourishing in history, by orders of magnitude.
 
+The five layers compared:
+
+| Layer | Signal type | Storage / processing | Opt-in granularity | Unique contribution |
+|---|---|---|---|---|
+| **DNA sequence** | Genetic substrate | Encrypted; federated computation + homomorphic encryption; never centrally decrypted | Per-layer | Gene × environment interactions; population-structure control |
+| **Natal chart** | Cosmic-moment coordinate (birth time/place) | Self-reported; light storage | Per-layer | Cosmic-moment parametrization (correlation, *not* force) |
+| **Continuous behavior** | Gratitude-ledger participation patterns | Operational byproduct; pseudonymous | Light — participating in HeartBank produces it | Densest continuous naturalistic behavioral observation ever assembled |
+| **Continuous respiratory** | Breath rate / depth / pattern via wearable | On-device processing; differential-privacy uploads | Separately opt-in from cohort overall | Physiological substrate of contemplative practice at scale |
+| **Verified kinship** | Family-tree graph via PoH ℠ | Encrypted graph; no exposure to other participants | Per-layer (DNA-verified or witness-verified) | Multi-generational transmission analysis; parent-child behavior dyads |
+
+The streams flow in parallel into a federated computation surface; no layer is centrally decrypted, and the architecture is designed so that even HeartBank cannot reconstruct any individual's full dataset:
+
+```
+   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐
+   │   DNA    │  │  Natal   │  │ Behavior │  │ Respir-  │  │ Kinship  │
+   │ sequence │  │  chart   │  │ (ledger) │  │  atory   │  │  (PoH)   │
+   └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘
+        │             │             │             │             │
+        ▼             ▼             ▼             ▼             ▼
+   ┌─────────────────────────────────────────────────────────────────┐
+   │  FEDERATED COMPUTATION                                           │
+   │  + differential privacy (analysis layer)                         │
+   │  + homomorphic encryption (DNA)                                  │
+   │  + on-device processing (breath)                                 │
+   │  + jurisdictional data sovereignty                               │
+   └────────────────────────────┬────────────────────────────────────┘
+                                ▼
+                  ┌──────────────────────────────┐
+                  │  Pre-registered analyses     │
+                  │  Raw data stays at source;   │
+                  │  cohort never centrally      │
+                  │  decrypted.                  │
+                  └──────────────────────────────┘
+```
+
 ---
 
 ## 3. Opt-in informed-consent architecture

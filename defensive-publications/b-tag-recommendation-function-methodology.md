@@ -62,6 +62,21 @@ Merchants opt in to disclose cost factors to Miss Aquarius. The disclosure is st
 
 The merchant discloses the typed factors. Miss Aquarius receives them; the cost decomposition is **never** shown to customers directly. The customer sees, instead, the *recommended tip amount* and the *reasons* surfaced from the cost factors (see §4).
 
+The typed factors and what each party sees:
+
+| Factor | Merchant discloses | Miss Aquarius sees | Customer sees |
+|---|---|---|---|
+| **Material cost** | ✓ | ✓ (for recommendation) | ✗ |
+| **Labor cost** | ✓ | ✓ | ✗ |
+| **Skill premium** | ✓ | ✓ (separately surfaced — reasons-relevant) | partial — surfaced as reasons-text when load-bearing |
+| **Operational overhead** | ✓ | ✓ | ✗ |
+| **Regulatory and compliance cost** | ✓ | ✓ | ✗ |
+| **Margin** | ✓ | ✓ | ✗ |
+| **Recommended tip amount** | (output) | (output) | **✓** — the recommendation itself |
+| **Reasons (free-text rationale)** | — | (output) | **✓** — anchor-not-itemized presentation |
+
+The principled asymmetry: the customer sees the *recommendation* and the *reasons* but never the itemized cost decomposition. This protects the merchant's confidential cost structure while still letting the recommendation function present a load-bearing rationale to the customer.
+
 ### 2.2 What the protocol does not require
 
 The merchant is not required to disclose:
