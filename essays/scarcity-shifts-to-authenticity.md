@@ -3,6 +3,7 @@ title: "Scarcity Shifts to Authenticity"
 subtitle: "Each Era of the Internet Has Had Its Scarcity. The AI-Native Era's Scarcity Is Human Presence."
 author: "Thon Ly"
 date: 2026-05-24
+priority: tier-a
 status: draft
 license: CC-BY (author-voice essay)
 slug: scarcity-shifts-to-authenticity

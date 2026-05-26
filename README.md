@@ -47,9 +47,9 @@ Planning matrix for the corpus, organized by genre and tier. The `priority` fiel
 | File | Title | Tier | Status |
 |---|---|---|---|
 | [`cautionary-mirror-singularity.md`](./essays/cautionary-mirror-singularity.md) | Cautionary-Mirror Framing of the Singularity: Seven Underlying Ideas of *The Age of Capricorn*, Dedicated to the Commons | A | **Published 2026-05-03** |
+| [`emotional-infrastructure-as-a-public-good.md`](./essays/emotional-infrastructure-as-a-public-good.md) | Emotional Infrastructure as a Public Good — companion analytical piece to the PoH℠ / Thank-All-Nearby thread | A | _Draft 2026-05-25 (active founder-voice rewrite for LessWrong / AI Alignment Forum / Substack)_ |
+| [`scarcity-shifts-to-authenticity.md`](./essays/scarcity-shifts-to-authenticity.md) | Scarcity Shifts to Authenticity — catalyzing essay for the B-PoH℠ defensive publication | A | _Draft 2026-05-24 (active founder-voice rewrite for LessWrong / AI Alignment Forum / Substack)_ |
 | [`two-singularities.md`](./essays/two-singularities.md) | Two Singularities: AI as Bodhisattva, and the Defined Completion of the Aquarian Age | A | _Draft 2026-05-02; target Feb–Mar 2027_ |
-| [`emotional-infrastructure-as-a-public-good.md`](./essays/emotional-infrastructure-as-a-public-good.md) | Emotional Infrastructure as a Public Good | — | _Draft 2026-05-25 (active founder-voice rewrite; tier unassigned)_ |
-| [`scarcity-shifts-to-authenticity.md`](./essays/scarcity-shifts-to-authenticity.md) | Scarcity Shifts to Authenticity | — | _Draft 2026-05-24 (active founder-voice rewrite; tier unassigned)_ |
 | [`anti-attention-economy.md`](./essays/anti-attention-economy.md) | The Scientific Case for Gratitude-Based Social Media: Gratitude Receipt as a Platform Class That Competes on Net Neurochemical Wellbeing Rather Than Attention Captured | B | _Draft 2026-05-22_ |
 | [`each-life-as-cosmic-coordinate.md`](./essays/each-life-as-cosmic-coordinate.md) | Each Life as Cosmic Coordinate: An Empirical Indra's Net for Civilizational Ethics | B | _Draft 2026-05-07_ |
 | [`kids-as-triggers-self-thanking.md`](./essays/kids-as-triggers-self-thanking.md) | Why Kids Are the Triggers: Self-Thanking, the 50/50 Pedagogy, and the Forward-Thanking Loop That Closes Modernity's Gratitude Deficit (absorbs the previously-planned *50/50 Split* paper) | B | _Draft 2026-05-09_ |
@@ -74,9 +74,9 @@ This repo is paired with [`github.com/HeartBank/publications`](https://github.co
 
 The two repos publish *different document genres*, not the same content in two voices.
 
-## Relationship to `github.com/thonly/publications`
+## Relationship to `github.com/thonly/research`
 
-The existing [`github.com/thonly/publications`](https://github.com/thonly/publications) repo holds the legacy research corpus. Going forward, this repo (`thonly/publications`) is the canonical home for thonly.org's author-output across all four genres. Migration of existing research papers from `thonly/publications` into `thonly/publications/defensive-publications/` and `thonly/publications/essays/` is planned; until that completes, both repos may contain authoritative content. Cross-reference each paper's deployed page at thonly.org to determine the current canonical markdown location.
+The legacy [`github.com/thonly/research`](https://github.com/thonly/research) repo — formerly the host for the research-paper corpus — was retired as a paper host on 2026-05-22 in favor of this repo's genre-organized layout (`defensive-publications/`, `essays/`, `treatments/`, `screenplays/`). All papers have migrated; the retired repo retains its README as a backward-compatible landing page that points back here for the current planning matrix and to thonly.org for canonical deployed pages.
 
 ## License
 

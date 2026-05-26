@@ -3,6 +3,7 @@ title: "Emotional Infrastructure as a Public Good"
 subtitle: "Invisible Kindness, the Missing Category, and the Architecture That Lets It Scale"
 author: "Thon Ly"
 date: 2026-05-25
+priority: tier-a
 status: draft
 license: CC-BY (author-voice essay)
 slug: emotional-infrastructure-as-a-public-good
