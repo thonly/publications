@@ -91,6 +91,22 @@ The father's voice — the cadence, the emphasis, the natural pauses where a Pā
 
 The project's multi-year temporal substrate is not merely the calendar duration of a deliverable. The duration is the substrate within which interpretive understanding accrues. A passage discussed today, deferred for further consideration, revisited next month with the father having reflected on a related passage, corrected on the third pass — this is how the inherited interpretation actually moves into the archive. A rushed digitization would not produce the same substrate; it would produce a transcribed text without the interpretive substance that makes the canonical text canonically meaningful.
 
+### 4.5 The slowness is the substrate, not the bug
+
+The previous subsection's observation can be sharpened into an explicit specification claim, of the kind that becomes load-bearing when planning resources and evaluating pipeline choices: **the project's slowness is the substrate, not an inefficiency to be optimized away.** This is the operational lesson of the project's first several years of work, and it can be stated as a discipline.
+
+The lesson recurs across the comparative-elemental analysis of canonical-preservation work (see the companion essay *The Four Elements as a Breadth-Check Discipline*). Read along the layered-ontology register — gross to subtle — the work spans a stack of layers, each requiring its own pass: the pixel-and-glyph layer of scanned pages; the orthographic-word layer of Khmer script; the phonemic Pāli reconstruction; the morphemic and syntactic resolution; the propositional content; the doctrinal meaning; and the *dhammic occasion* — the contemplative object the passage invites the reader to take up. Read along the phenomenological register, what is known at the body-door of the transcriber on any given page is rūpa being attended to; the transcriber's mind grows steady through the work itself; the transcription is, operationally, a *kammaṭṭhāna* whose object is the very text being transcribed.
+
+The discipline that follows from this reading:
+
+- **Pipeline decisions are evaluated against the subtle layers, not only the gross ones.** A pipeline that maximizes OCR accuracy and throughput while losing the interpretive-gloss layer (§4.1), the corrective-relationship layer (§4.2), the voice-register layer (§4.3), or the temporal substrate (§4.4) has improved the gross layers at the cost of the subtle ones. The improvement is local; the regression is structural. The project's evaluation criterion is the *full layered stack*, not the gross-layer output.
+- **The human role is preserved where the contemplative register is load-bearing**, even where machine labor could be faster. Doctrinal verification, embodied recitation-checking, and the interpretive-correction dynamic between elder and younger are not optimization targets; they are the substrate the project exists to preserve. Automating them away preserves the gross output and loses the substance. This is the *liberate*-register criterion of the elemental sweep, and it operates here as a hard constraint, not a preference.
+- **The project's pace is set by the substrate, not by external deadlines.** The pace at which the father can interpret, correct, and re-correct is the pace at which interpretive substance moves into the archive. A faster pace produces a transcription; the project's purpose is the slower thing.
+
+The corollary is that the project must be planned and resourced as an Earth-Fixed undertaking in the temperamental register — patient, accumulative, grounded, durable — rather than as a Fire project (heroic sprint) or an Air project (networked publication push). Recognizing this temperament prevents the pathology of treating the project as a deadline-bounded deliverable; it is, structurally, the slow construction of a permanent substrate, and its design must respect that structure.
+
+This subsection is offered partly so that other diaspora monastic families, contemplating similar inter-generational scholarship projects, do not mistake the slowness for an inefficiency to engineer around. The slowness is what the project is *for*. Optimizing it away would deliver a faster artifact and a hollower substrate, and the substrate is what AI-alignment work, lineage transmission, and devotional scholarship all alike depend on.
+
 ---
 
 ## 5. The seven properties of the alignment substrate, mapped to lineage
