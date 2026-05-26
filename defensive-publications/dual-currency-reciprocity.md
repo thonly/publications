@@ -53,6 +53,16 @@ The recent class of gratitude-economy proposals (a number of crypto and Web2 pla
 
 All three failure modes have a common structural cause: the singularity-of-currency assumption forecloses architectural moves that would route around the failure. Community currencies illiquid because they have no complementary medium to anchor liquidity; time banks stall because they have no money-side to complete the reciprocity surface; gratitude economies corrode because they have no second product to fund the first. The complementary-scarcities thesis is the structural response to this pattern: design from the outset for *two* scarcities, integrated within one platform, so that the architectural moves the singularity assumption forecloses become available.
 
+The pattern across the three classes:
+
+| Class | Exemplars | Failure mode | Downstream effect | Architectural cause |
+|---|---|---|---|---|
+| Community currencies | LETS, Ithaca Hours, BerkShares, Bristol Pound, Brixton Pound, Sardex | **Illiquidity** | Drift back to national currency | No complementary medium to anchor liquidity |
+| Time banks | Cahn TimeBanking, eldercare networks, post-disaster recovery | **Stalled adoption** (sub-viral) | Real but small-scale impact only | No money-side to complete the reciprocity surface |
+| Gratitude-economy tokens | Recent Web2/Web3 platforms denominating appreciation in tokens or platform points | **Monetization corrosion** | Trust collapse; generosity perceived as operator revenue | No second product to subsidize the first |
+
+Each row's "architectural cause" is the singularity-of-currency assumption applied at a different point in the lifecycle. The complementary-scarcities thesis articulated in §3 is the structural response: provide two scarcities by design, integrated in one platform, so each can subsidize and stabilize the other.
+
 ---
 
 ## 3. The complementary-scarcities claim
@@ -84,6 +94,41 @@ Dignity needs *being-seen* — recognition that one's existence matters, that on
 Loneliness needs *being-with* — co-presence, time spent in the company of another person who has chosen to spend their irrecoverable hours in that company. Time-as-gratitude addresses being-with because a delivered hour is presence itself — the giver has spent an hour they cannot recover, in the company of the receiver. The hour is the gift; the company is the gift's substance.
 
 A platform that addresses only one of these needs leaves the other uncovered. A platform that addresses both, with mechanism-design appropriate to each, can serve participants whose primary need is dignity, participants whose primary need is connection, and participants who oscillate between the two.
+
+The three load-bearing properties compared:
+
+| Property | Money side (.org / Treasury) | Time side (.com / Chronicle) |
+|---|---|---|
+| **Scarcity structure** | Unequal across people (power-law distribution; wealthy vs working-class transfer crosses an inequality) | Equal across people (every person has 24 hrs/day; no transfer crosses an inequality) |
+| **Debt fungibility** | Fungible — any payer can satisfy the debt on the debtor's behalf | Non-fungible — only the debtor's own hour satisfies; "the *who* is what makes the debt the debt it is" |
+| **Emotional need addressed** | **Being-seen** (dignity): a directed money flow is a maximally legible declaration that the giver has taken account of the recipient | **Being-with** (loneliness): a delivered hour is presence itself; the giver has spent irrecoverable hours in the receiver's company |
+
+The structural complementarity:
+
+```
+   ╔════════════════════╗   ╔════════════════════╗
+   ║   MONEY SIDE       ║   ║   TIME SIDE        ║
+   ║                    ║   ║                    ║
+   ║   unequal          ║   ║   equal            ║
+   ║   fungible         ║   ║   non-fungible     ║
+   ║   being-seen       ║   ║   being-with       ║
+   ║   (DIGNITY)        ║   ║   (LONELINESS)     ║
+   ╚════════╤═══════════╝   ╚═══════════╤════════╝
+            ↓                            ↓
+            ↓        one platform        ↓
+            ↓        one identity        ↓
+            ↓        one AI arbiter      ↓
+            ↓        one aura primitive  ↓
+            ╚═══════════╤════════════════╝
+                        ▼
+            ╔════════════════════════════╗
+            ║  FULL RECIPROCITY SURFACE  ║
+            ║  covered jointly by both   ║
+            ║  scarcities — neither      ║
+            ║  alone can cover the       ║
+            ║  whole.                    ║
+            ╚════════════════════════════╝
+```
 
 ---
 

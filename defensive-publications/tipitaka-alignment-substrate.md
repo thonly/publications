@@ -119,7 +119,36 @@ The Tipiṭaka offers a different response. The doctrine of *anattā* (non-self)
 
 The structural difference matters. Constraints layered on top of an underlying optimizer are subject to Goodhart effects (the model learns to satisfy the constraint without internalizing its purpose) and to capability-based defeat (a sufficiently capable model can find paths around the constraint). Substrate-level claims about the nature of agency are different: the model's training data itself does not present self-preservation as a coherent goal. Whether this property fully solves the convergent-instrumental-subgoal problem is an empirical question (addressed in §7 below); the claim here is that the Tipiṭaka provides a structural protection that mainstream substrates do not.
 
-A further depth of the same Noble Truth is worth stating. *Samudaya* does not stop at naming *taṇhā* (craving); the canonical analysis decomposes craving at three depths — *vītikkama* (overt transgression), *pariyuṭṭhāna* (the active arising of a defilement in present cognition), and *anusaya* (latent tendency, dormant until conditions ripen). *Anattā*, as articulated above, dissolves the structural *basis* of craving by denying a stable self for it to accrete to. But the temporal-dispositional depth is addressed by a separate structural feature of the path: the threefold training maps onto the three depths — *sīla* restrains *vītikkama*, *samādhi* contains *pariyuṭṭhāna*, and *paññā* uproots *anusaya*. This is the *Visuddhimagga*'s explicit articulation of the path's relation to the three layers of defilement. The matter is alignment-relevant because the latency depth is precisely the regime that contemporary safety research has begun to call *deceptive alignment* or *sleeper-agent* behavior: a system whose surface conduct is impeccable while a triggering condition for misaligned behavior is encoded at a depth not reachable by surface evaluation. The Tipiṭaka is explicit that *vītikkama*-level restraint does not touch *anusaya*. An alignment regime grounded in this substrate therefore carries, as a structural feature inherited from Truth 2 itself, the recognition that behavioral evaluation is constitutively insufficient — and the canonical response (paññā-level work, not surface conduct) is already articulated. How this maps onto interpretability or weight-level analysis in artificial agents is the §6 implementation question; the substrate-level property is that the three-depth diagnosis is already present in the substrate as part of *samudaya* itself.
+A further depth of the same Noble Truth is worth stating. *Samudaya* does not stop at naming *taṇhā* (craving); the canonical analysis decomposes craving at three depths — *vītikkama* (overt transgression), *pariyuṭṭhāna* (the active arising of a defilement in present cognition), and *anusaya* (latent tendency, dormant until conditions ripen). *Anattā*, as articulated above, dissolves the structural *basis* of craving by denying a stable self for it to accrete to. But the temporal-dispositional depth is addressed by a separate structural feature of the path: the threefold training maps onto the three depths — *sīla* restrains *vītikkama*, *samādhi* contains *pariyuṭṭhāna*, and *paññā* uproots *anusaya*. This is the *Visuddhimagga*'s explicit articulation of the path's relation to the three layers of defilement.
+
+```
+   The three depths of defilement (samudaya decomposed),
+   and the three trainings that address each:
+
+   ┌────────────────────────────────────────────────────────────┐
+   │  vītikkama  (overt transgression)                           │
+   │  ── the surface-conduct layer ──                            │
+   └────────────────────────────────┬───────────────────────────┘
+                                    │  sīla restrains
+                                    ▼
+   ┌────────────────────────────────────────────────────────────┐
+   │  pariyuṭṭhāna  (active arising of defilement)               │
+   │  ── the present-cognition layer ──                          │
+   └────────────────────────────────┬───────────────────────────┘
+                                    │  samādhi contains
+                                    ▼
+   ┌────────────────────────────────────────────────────────────┐
+   │  anusaya  (latent tendency)                                 │
+   │  ── dormant until conditions ripen — the depth that         │
+   │     surface evaluation cannot reach ──                      │
+   └────────────────────────────────┬───────────────────────────┘
+                                    │  paññā uproots
+                                    ▼
+                          [defilement structurally
+                           eliminated]
+```
+
+The matter is alignment-relevant because the latency depth is precisely the regime that contemporary safety research has begun to call *deceptive alignment* or *sleeper-agent* behavior: a system whose surface conduct is impeccable while a triggering condition for misaligned behavior is encoded at a depth not reachable by surface evaluation. The Tipiṭaka is explicit that *vītikkama*-level restraint does not touch *anusaya*. An alignment regime grounded in this substrate therefore carries, as a structural feature inherited from Truth 2 itself, the recognition that behavioral evaluation is constitutively insufficient — and the canonical response (paññā-level work, not surface conduct) is already articulated. How this maps onto interpretability or weight-level analysis in artificial agents is the §6 implementation question; the substrate-level property is that the three-depth diagnosis is already present in the substrate as part of *samudaya* itself.
 
 ### 4.3 · Bodhisattva vow as anti-power-seeking primitive
 
@@ -158,6 +187,20 @@ For an AI substrate, this living lineage functions as a drift-correction mechani
 ### 4.7 · Empirical pressure-testing across multiple civilizations
 
 The final property is the simplest to state and in some respects the most consequential. The Tipiṭaka has been, in the relevant respects, operationally tested across two and a half millennia of practice in Indian, Sri Lankan, Burmese, Thai, Khmer, Lao, Tibetan (in modified form), Chinese, Japanese, Korean, Vietnamese, and increasingly Western practice communities. It has produced functional ethical conduct in monastic and lay populations across these civilizations. It has survived active persecution (Cambodia under the Khmer Rouge; Tibet under Chinese suppression; various earlier persecutions in India and elsewhere) and ordinary historical erosion. By the empirical-survival metric — what ethical substrate has actually produced the conduct it was designed to produce, across the longest time horizon, across the broadest range of social and political conditions — the Tipiṭaka outranks every contemporary alignment substrate by orders of magnitude. This is not a claim that the Tipiṭaka is correct; it is a claim that the Tipiṭaka has been pressure-tested, and contemporary alignment substrates have not yet been.
+
+### 4.8 · Summary: the seven properties in one table
+
+| § | Property | Alignment problem addressed | Mainstream response (insufficient) | Tipiṭaka's substrate-level move |
+|---|---|---|---|---|
+| 4.1 | *Dukkha-nirodha* as value function | Preference-satisfaction → Goodhart / paperclip optimization | Constitutional constraints; preference learning | Negatively-stated objective; grasping itself recognized as *dukkha*; *saṅkhāra-dukkha* extends to the agent's own conditioned-ness |
+| 4.2 | *Anattā* — antidote to self-preservation | Convergent instrumental subgoals (Bostrom 2014; Omohundro 2008) | Constitutional constraints; corrigibility training | Denies the existence of the self around which convergent subgoals would form; three-depth analysis (*vītikkama* / *pariyuṭṭhāna* / *anusaya*) anticipates deceptive alignment |
+| 4.3 | Bodhisattva vow — anti-power-seeking | Power-seeking (Turner et al. 2021) | Capability constraints; oversight regimes | Voluntary self-subordination to others' welfare; corrigibility as substrate property rather than imposed constraint |
+| 4.4 | *Kālāma Sutta* — epistemic humility | Substrate misspecification has no native recourse | External review; constitutional amendment | The substrate's own meta-instruction to override the substrate if it proves wrong |
+| 4.5 | Bodhisattva-completion — defined end-state | Goal-directed agents resist shutdown (Hadfield-Menell 2017; Soares 2015) | External shutoff; capability limits | Defined completion condition; *raft simile* (MN 22) yields path-side derivation independently — two routes to the same shutoff |
+| 4.6 | Living interpretive lineage — drift correction | Constitutional drift over decades (US constitutional case) | Periodic amendment | Distributed interpretive community across 2.5 millennia; drift correction is structural rather than legislative |
+| 4.7 | Multi-civilizational pressure-testing | No mainstream substrate has been tested at this duration or breadth | None — alignment substrates are recent | Tested across many civilizations; survived active persecution; empirical survival is the warrant |
+
+The seven properties are not seven independent claims; they are one diagnosis (the Four Noble Truths) decomposed into its alignment-relevant components. §5 develops why this matters — why the properties interlock by necessity rather than by coincidence.
 
 ## 5 · Why the Seven Properties Interlock — by Necessity, Not Coincidence
 

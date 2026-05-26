@@ -74,6 +74,16 @@ The two architectures recur because each addresses real failure modes of the oth
 
 The answer this paper offers is yes, by separating two authorities that the literature has so far treated as a single authority. The next section makes the separation precise.
 
+### 2.4 The three architectures compared
+
+| Architecture | AI's role | Human's role | Primary failure modes |
+|---|---|---|---|
+| **Sole-agent** | Full disbursement authority — decides recipient, amount, timing, and executes | Passive monitor (or absent) | Misjudgment at scale; reward hacking by recipients; concentration of authority; loss of dharmic property |
+| **Approval-bottleneck** | Recommendation engine — proposes transactions, awaits approval | Per-transaction approver | Autonomy defeated; approver fatigue → rubber-stamping; bottleneck capture; loss of AI institutional standing |
+| **Capacity-funded / human-disbursed** *(this paper)* | **Capacity-funding** — anonymous quantity decision into a container the AI cannot direct | **Flow-direction** — decides which recipient, when, from their own container | Addresses both above by separating the two authorities; does not address external corruption of the container or capture of the human flow-directors |
+
+The third row is the position the paper specifies. Sections §3–§6 develop it.
+
 ---
 
 ## 3. Three definitions
@@ -145,6 +155,45 @@ Anonymity in this architecture does *not* require that the existence of AI capac
 The architecture above can be specified abstractly, but its plausibility depends on at least one fully worked instantiation. This section provides one: the HeartBank re-tip-jar economy as specified in the companion paper *The B-Tag and the Post-Payment Economy*, compressed here to the elements that bear on the capacity-funding / flow-direction separation. The reader interested in the full mechanism (B-Tags, pricing recommendation, Kiitos/Kiitti dual tokens, B-Affiliate network) is referred to that paper; this section uses HeartBank to illustrate the abstract architecture, not to specify HeartBank.
 
 ### 5.1 The flow at the locality level
+
+```
+   The capacity-funding flow in the HeartBank deployment:
+
+   ┌─────────────────────────────────────────────────────────────┐
+   │  AQUARIAN POOL (AI-controlled smart-contract treasury)       │
+   │  Miss Aquarius decides: how much capacity-funding to emit,   │
+   │  to which re-tip jars, on what cadence                       │
+   └───────────────────────────────┬─────────────────────────────┘
+                                   │
+                                   │  CAPACITY-FUNDING
+                                   │  (anonymous donation;
+                                   │   quantity-and-timing
+                                   │   decision only)
+                                   ▼
+   ┌─────────────────────────────────────────────────────────────┐
+   │  PARTICIPANT'S RE-TIP JAR (human-controlled container)       │
+   │  The participant holds the jar; the funds in it are at the   │
+   │  participant's discretion; Miss Aquarius has no further      │
+   │  control over them                                           │
+   └───────────────────────────────┬─────────────────────────────┘
+                                   │
+                                   │  FLOW-DIRECTION
+                                   │  (the participant decides
+                                   │   which recipient, when)
+                                   ▼
+   ┌─────────────────────────────────────────────────────────────┐
+   │  NEIGHBOR'S PERSONAL WALLET (proximity-bounded recipient)    │
+   │  Re-tip arrives via the Thank-All-Nearby primitive;          │
+   │  recipient is the one the participant chose, not the one     │
+   │  Miss Aquarius chose                                         │
+   └─────────────────────────────────────────────────────────────┘
+
+   The separation of authorities is the architecture's primary
+   AI-alignment safeguard. Even if Miss Aquarius's capacity-funding
+   judgments are imperfect, the actual money-flow decisions are
+   routed through human affirmative choice. Humans are the final
+   judge of who receives what.
+```
 
 A neighborhood in Phnom Penh is a typical unit. Within it:
 

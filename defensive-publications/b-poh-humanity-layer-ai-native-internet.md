@@ -73,6 +73,18 @@ The gap is structural, not incidental. The existing stack was designed in a worl
 
 A protocol-layer answer is needed for the same reason SSL/TLS was needed: ad-hoc per-platform solutions to a universal trust problem produce a fragmented, low-quality trust surface; a protocol-layer solution shared across platforms produces a coherent, high-quality trust surface and becomes invisible infrastructure once adopted at scale.
 
+The gap in one table:
+
+| Existing layer | What it verifies | What it does NOT verify |
+|---|---|---|
+| **SSL/TLS** (1995–) | Server identity — this server is who its domain claims | Anything about humans on either end |
+| **WebAuthn / Passkeys** (FIDO2; 2010s–) | Account control — this credential is associated with this account | Human presence at action — a script with credential access can invoke biometric elicitation |
+| **KYC / AML / OFAC** (2001–) | Legal identity — this name corresponds to a state-recognized person | Human action at moment — a KYC'd account can be operated by an AI agent on the human's behalf |
+| **W3C DIDs / Verifiable Credentials** (2020–) | A *framework* for portable identity claims across platforms | Which specific claim verifies human presence — the framework is general; the specific claim is unspecified |
+| **(missing slot)** | — | **Human presence at the moment of this specific action** |
+
+The fifth row is the gap PoH ℠ fills. It is not a competitor to the existing layers; it composes with them — DIDs/VCs are its natural credential framework, WebAuthn is one of its verification primitives, KYC remains where regulation requires it. The four-layer architecture specified in §3 is the protocol-layer answer to the missing slot.
+
 ### 2.3 What the answer must do, and what it must not do
 
 The answer must:
@@ -97,6 +109,39 @@ The remainder of the paper specifies a protocol that does the things in the firs
 ## 3. The four-layer optional architecture
 
 Proof of Humanity ℠ is structured as **four optional layered proofs**, surfaced as **cumulative depth** on the user profile. No layer is mandatory; no layer gates participation; each layer addresses a different category of sybil-resistance attack and proves a different fact about the human being.
+
+```
+   PoH ℠ four-layer optional architecture
+   (depth surfaced cumulatively on the user profile; no layer
+    mandatory; no layer gates participation):
+
+   ┌─────────────────────────────────────────────────────────────┐
+   │  L4  —  DNA-verified kinship lineage                         │
+   │  ────  DEEPEST PROOF  ────                                   │
+   │  Lineage attestation via opt-in DNA panel; for use cases     │
+   │  requiring multi-generation kinship verification             │
+   ├─────────────────────────────────────────────────────────────┤
+   │  L3  —  Continuous breath-signature liveness                 │
+   │  Live respiratory signature as continuous-liveness           │
+   │  attestation; from the Mechanical Heart wearable substrate   │
+   ├─────────────────────────────────────────────────────────────┤
+   │  L2  —  Witness-and-document-attested kinship graph (non-DNA)│
+   │  Family-tree attestation through witnesses + documents;      │
+   │  for kinship-aware filtering without genetic data            │
+   ├─────────────────────────────────────────────────────────────┤
+   │  L1  —  Passkey-per-action (WebAuthn)                        │
+   │  ────  MINIMAL PROOF  ────                                   │
+   │  Per-action biometric-gated cryptographic signature; the     │
+   │  baseline humanity-at-moment-of-action attestation           │
+   └─────────────────────────────────────────────────────────────┘
+
+   Recipients (not platforms) opt into exclusionary filters at
+   any depth — e.g., "L1+ only" for ordinary anonymous tipping,
+   "L3+ only" for high-stakes nearby attestation, "L4 only" for
+   kinship-restricted contexts. Depth is a property the *recipient*
+   surfaces against, not a global gating threshold the platform
+   imposes.
+```
 
 ### 3.1 Layer 1 — Passkey-per-action (WebAuthn)
 

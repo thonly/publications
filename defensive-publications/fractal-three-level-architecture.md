@@ -62,6 +62,51 @@ The AI arbiter operates identically at every scale. The family-scale arbiter is 
 
 The transparency-as-enforcement pattern (specified in the companion paper of that name) applies uniformly at every scale. Family-scale transfers are visible to the family; neighborhood-scale transfers are visible to the neighborhood; planetary-scale transfers are visible at the appropriate platform-wide aggregate (with individual-resolution masked per the participant's privacy preferences). The *pattern* of transparency is identical; the *scope* of transparency adjusts to the scale.
 
+### 2.5 The architecture in one diagram
+
+The architecture combines three node-types in a directional flow, with the same four transfer conventions applying at every transfer surface:
+
+```
+   ┌─────────────────────────────────────────────────────────────┐
+   │  COLLECTIVE POOL                                             │
+   │  Aggregates contributions; disburses to many under           │
+   │  rule-bound logic with public-ledger transparency            │
+   │  (Aquarian Pool at every scale)                              │
+   └─────────────────────────────┬───────────────────────────────┘
+                                 │
+                                 │  ← four transfer conventions
+                                 │     (proximity / 50-50 split /
+                                 │      aura-weighted scoring /
+                                 │      AI arbiter band-clamp)
+                                 ▼
+   ┌─────────────────────────────────────────────────────────────┐
+   │  RE-TIP FLOW-THROUGH                                         │
+   │  Receives a single transfer; routes to one or more           │
+   │  downstream destinations under rule-bound logic              │
+   │  (Family Kitty @ Phase 1   /   Re-Tip Jar @ Phase 2)         │
+   └─────────────────────────────┬───────────────────────────────┘
+                                 │
+                                 │  ← the same four transfer
+                                 │     conventions
+                                 ▼
+   ┌─────────────────────────────────────────────────────────────┐
+   │  PERSONAL DESTINATION                                        │
+   │  Terminal point of flow; owned by single participant         │
+   │  (Personal Wallet at every scale)                            │
+   └─────────────────────────────────────────────────────────────┘
+```
+
+The four transfer conventions operate at every transfer surface above:
+
+| Convention | What it does at every scale |
+|---|---|
+| **Proximity rule** | Transfers constrained by geographic / relational closeness (family ↔ neighborhood ↔ region) |
+| **50/50 split** | Self-thank reward splits between personal wallet and re-tip jar — same pedagogy, same proportions |
+| **Aura-weighted scoring** | Destinations and amounts calibrated by the aura primitive; substance differs by scale, mechanism identical |
+| **AI arbiter band-clamp** | Miss Aquarius recommends within an institutional band; clamp values differ by scale, arbiter operates identically |
+
+The self-similarity is structural: the *same* three node-types, the *same* four conventions, the *same* arbiter, the *same* transparency pattern — at every scale. A user who has internalized the architecture at family scale recognizes the same architecture at planetary scale and does not need to learn a new mental model. Phase 1 → Phase 2 is not a new product; it is the same architecture extended beyond the family.
+
 ---
 
 ## 3. Self-similarity across the Phase 1 and Phase 2 deployments

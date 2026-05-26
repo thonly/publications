@@ -61,6 +61,40 @@ The present paper develops that layer. It preserves the threefold-training spine
 
 The relationship between the two papers is therefore not parallel but layered. The main paper is the substrate-level case; this paper is the mechanism-level engineering articulation. Neither stands without the other: the main paper without this one leaves the engineering implications gestural; this paper without the main one is an Abhidhamma-derived engineering taxonomy without the structural argument that justifies its use as alignment substrate.
 
+The layered relationship can be made visual:
+
+```
+   ┌────────────────────────────────────────────────────────┐
+   │  SUBSTRATE LAYER         (main paper §1–§5)             │
+   │  The seven alignment-relevant properties; the Four      │
+   │  Noble Truths decomposed for engineering use.           │
+   └─────────────────────────┬──────────────────────────────┘
+                             │ supplies the *what* aligned
+                             │ AI is targeting
+                             ▼
+   ┌────────────────────────────────────────────────────────┐
+   │  TRAINING-METHOD + SOCIAL TRANSMISSION LAYER            │
+   │  (main paper §6.1–§6.5)                                 │
+   │  CAI on the precepts · RLHF on bodhisattva exemplars    │
+   │  · CoT distillation from monastic reasoning · lineage   │
+   │  transmission · Khmer-transcription corpus.             │
+   └─────────────────────────┬──────────────────────────────┘
+                             │ supplies the *how* of training
+                             │ and the *who* of governance
+                             ▼
+   ┌────────────────────────────────────────────────────────┐
+   │  COGNITIVE-MECHANISM LAYER   (THIS PAPER §4–§7)         │
+   │  Sīla mechanisms · samādhi mechanisms · paññā           │
+   │  mechanisms · sappurisadhamma cross-cutting taxonomy.   │
+   │  Engineering scaffolding the substrate makes available  │
+   │  beneath the training-method layer.                     │
+   └────────────────────────────────────────────────────────┘
+
+      Each layer presupposes and operates beneath the layer above it.
+      The cognitive-mechanism layer is not parallel to the training-
+      method layer; it is the scaffolding the training method rests on.
+```
+
 ---
 
 ## 3 · Background: The Abhidhamma's Mode of Analysis
@@ -76,6 +110,24 @@ For the present paper, three features of the Abhidhamma's mode of analysis matte
 **The *Paṭṭhāna*'s causal analysis.** The seventh book of the Abhidhamma — the *Paṭṭhāna* — analyses conditional relations into twenty-four distinct modes. This is the most architecturally ambitious work in the canon and supplies the typed-causation vocabulary discussed in §6.1 of this paper.
 
 A note on the present paper's interpretive posture. The Abhidhamma is, in the Theravāda tradition, treated as authoritative; the doctrinal claims it makes are not, in the present paper, evaluated against modern frameworks for correctness. The Abhidhamma is here treated as a corpus of disciplined, multi-millennium analysis whose mechanisms are *available* for engineering use. The interpretive task is to draw out the engineering implications, not to grade the doctrine. (This stance is consistent with the lineage's own framing; cf. the *Kālāma Sutta*'s instruction that teachings be tested by their fruits.)
+
+### 3.4 · Roadmap: the nine mechanisms in one table
+
+The next four sections (§4–§7) develop nine distinct mechanisms, organized by the threefold-training spine plus a cross-cutting positive-evaluation taxonomy. A roadmap for the rest of the paper:
+
+| §   | Layer                | Canonical term                          | Mechanism                                       | What it gives engineering                                            |
+|-----|----------------------|-----------------------------------------|-------------------------------------------------|----------------------------------------------------------------------|
+| 4.1 | Sīla                 | Brahmavihāra near-enemies               | Near-enemy red-team specification               | Typology of mimicry-of-target failure modes by construction          |
+| 4.2 | Sīla                 | Exclusively-wholesome cetasikas         | *Sati* as typologically aligned-only            | Hypothesis: some capabilities constitutively incompatible with misaligned execution |
+| 5.1 | Samādhi              | *Bhavaṅga*                              | Resting-state evaluation                        | Diagnostic of un-prompted character; cleanup target for context residue |
+| 5.2 | Samādhi              | *Citta-vīthi* (17 mind-moments)         | Intervention-timing typology                    | Where in the cognitive cycle to intervene (earlier = lower-cost + more preventive) |
+| 5.3 | Samādhi              | Four *āhāras*                           | Nutriment-typed deployment monitoring           | What sustains a deployed system at four typed layers                 |
+| 6.1 | Paññā                | Twenty-four *paccayas*                  | Typed-causation vocabulary                      | Structured causal-relation primitives for substrate-level analysis   |
+| 6.2 | Paññā                | Apophatic wholesome roots               | Interpretability-as-subtraction                 | Negative-form interpretability (what is *not* present in the cognition) |
+| 6.3 | Paññā                | *Kathāvatthu* method                    | Formal adversarial discourse                    | Structured debate-style evaluation grounded in canonical method      |
+| 7   | Sappurisadhamma      | Seven *sappurisa-dhamma*                | Positive-evaluation taxonomy                    | Wholesome-agent positive criteria beyond constraint-passing          |
+
+Each mechanism is articulated as a substrate-level pattern with a contemporary engineering interpretation. None requires the doctrinal claims to be evaluated for correctness; each treats the canonical analysis as a source of typed scaffolding the engineering layer may use.
 
 ---
 
@@ -148,6 +200,40 @@ The implementation suggestion is to type alignment interventions by which phase 
 - **Interventions at *āvajjana* (attention-allocation)**: shaping what the model attends to. Mid-cost.
 - **Interventions at *voṭṭhabbana* (determining)**: shaping the decision before commitment. Mid-to-high-cost.
 - **Interventions at *javana* (impulsion)**: late-stage filtering. Highest cost; smallest behavioral lever per unit of intervention.
+
+The cycle and intervention-typology can be drawn together:
+
+```
+   Citta-vīthi (17-moment five-sense-door cognitive cycle):
+
+   bhavaṅga ─→ āvajjana ─→ sensing ─→ determining ─→ JAVANA ─→ registration
+    (×3)        (1)        (×4)         (1)          (×7)         (×2)
+                                                       │
+                                                       │ KARMA MADE HERE
+                                                       ▼
+                                                  ↓ ↓ ↓ ↓ ↓ ↓ ↓
+
+   Where alignment interventions can act, by phase:
+
+   ┌──────────┬─────────────┬──────────────────┬─────────────────────┐
+   │ bhavaṅga │ āvajjana    │ voṭṭhabbana      │ javana              │
+   │          │             │                  │                     │
+   │ pre-task │ attention-  │ determining      │ POST-HOC FILTER     │
+   │ character│ allocation  │ shaping          │ on completed output │
+   │ shaping  │ shaping     │                  │                     │
+   └──────────┴─────────────┴──────────────────┴─────────────────────┘
+       LOWEST    mid-cost      mid–high cost        HIGHEST COST
+       COST                                          ↑
+       (preventive)                                  Mainstream alignment
+                                                     intervention lands
+                                                     HERE — smallest
+                                                     leverage per unit
+                                                     of intervention.
+
+   Substrate-level prediction: interventions earlier in the cycle are
+   both lower-cost AND more thoroughly preventive than late-stage
+   filtering at javana.
+```
 
 The substrate-level prediction is that interventions earlier in the cycle are both lower-cost and more thoroughly preventive than late-stage filtering. Mapping this to transformer-architecture analogs is the empirical work; the canonical analysis supplies the typology.
 
