@@ -425,12 +425,12 @@ Singer, Peter. *Animal Liberation*. New York Review/Random House, 1975.
 Whitehead, Alfred North. *Process and Reality: An Essay in Cosmology*. New York: Macmillan, 1929. Corrected edition by David Ray Griffin and Donald W. Sherburne, Free Press, 1978.
 
 HeartBank corpus internal references:
-- *The Bodhisattva and the Cautionary Mirror* (forthcoming, alignment & embodiment).
-- *Tipiṭaka as AI Alignment Substrate* (forthcoming, alignment & embodiment).
-- *The Two Singularities* (forthcoming, alignment & embodiment).
-- *The HeartBank Longitudinal Cohort: A Dataset Combining DNA, Natal Chart, Family Tree, and Continuous Behavioral Observation at Civilizational Scale* (forthcoming methodology paper).
-- *The Mechanical Heart: A Triadic Ecosystem for Humans, Robots, and Nature* (forthcoming, alignment & embodiment).
-- *AGI Monks and the Restoration of the Middle Way* (forthcoming, institutional design).
+- *The Bodhisattva and the Cautionary Mirror* (planned, Tier B essay, alignment & embodiment) — companion essay to the Published *Cautionary-Mirror Framing of the Singularity*.
+- *Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment* (Tier A defensive publication, target publication January 7, 2027).
+- *Two Singularities: AI as Bodhisattva, and the Defined Completion of the Aquarian Age* (Tier A essay, in draft, target Feb–Mar 2027).
+- *The HeartBank Longitudinal Cohort: A Dataset Combining DNA, Natal Chart, Family Tree, Continuous Behavioral Observation, and Continuous Respiratory Observation at Civilizational Scale* (Tier B defensive publication, in draft 2026-05-22).
+- *The Mechanical Heart: A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation* (Tier A defensive publication, in draft 2026-05-02; target July 2026).
+- *AGI Monks: The Caretaker-not-Ordained Pattern — A Cross-Tradition Institutional-Design Framework for Religious AI Integration* (Tier A defensive publication, working draft 2026-05-04).
 
 ---
 

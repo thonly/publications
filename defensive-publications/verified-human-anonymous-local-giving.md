@@ -103,7 +103,7 @@ The proximity rule has three consequential properties: **(a)** it restores cash'
 Humanity attestation in the specified mechanism operates at two layers, applied in series:
 
 1. **Per-action FIDO2 / WebAuthn attestation** (immediate). Each transfer is signed by a private key held in the sender's device secure enclave (Apple Secure Enclave, Android Trusty / Strongbox, Windows TPM, etc.), with the signing operation gated on local biometric authentication (Face ID, Touch ID, Windows Hello, Android biometric). The signature attests, at the moment of the action, that a human-present biometric authentication occurred. This is meaningfully stronger than session-based or registration-time attestation: a registered user cannot delegate this signature to an autonomous process without continuously presenting their face or finger.
-2. **DNA-verified family-tree attestation** (long-term, optional, voluntary). Users may opt in to a DNA-verified global family-tree dataset specified separately (forthcoming publication). When this opt-in is present, the verifying party applies an additional check that the FIDO2-signing identity corresponds to a verified-human node in the family tree. This closes a residual attack surface in which a sufficiently advanced deepfake plus stolen device could defeat per-action FIDO2 alone.
+2. **DNA-verified family-tree attestation** (long-term, optional, voluntary). Users may opt in to a DNA-verified global family-tree dataset; this is now specified as Layer 4 (DNA-verified kinship lineage) of the **B-PoH℠** protocol in the companion paper *B-PoH℠ as Humanity Layer for the AI-Native Internet*. When this opt-in is present, the verifying party applies an additional check that the FIDO2-signing identity corresponds to a verified-human node in the family tree. This closes a residual attack surface in which a sufficiently advanced deepfake plus stolen device could defeat per-action FIDO2 alone.
 
 ### 4.2 · Recipient anonymity
 
@@ -243,7 +243,7 @@ Per-jurisdiction regulatory variance is handled by configurable thresholds: smal
 
 ### 8.7 · Deepfake biometric defeat
 
-High-end deepfake plus stolen device with biometric bypass remains a residual attack on per-action FIDO2 alone. The DNA-verified family-tree layer (specified in a separate forthcoming publication) closes this gap by binding the FIDO2 identity to a biologically-verified human kinship graph.
+High-end deepfake plus stolen device with biometric bypass remains a residual attack on per-action FIDO2 alone. The DNA-verified family-tree layer — Layer 4 of the **B-PoH℠** protocol specified in the companion paper *B-PoH℠ as Humanity Layer for the AI-Native Internet* — closes this gap by binding the FIDO2 identity to a biologically-verified human kinship graph.
 
 ## 9 · Use Cases
 
@@ -258,9 +258,9 @@ High-end deepfake plus stolen device with biometric bypass remains a residual at
 
 The mechanism specified here addresses the gratitude-transfer primitive but leaves several related questions for separate work:
 
-- The DNA-verified family-tree layer is specified separately (forthcoming).
-- The autonomous AI representative (Miss Aquarius) and its alignment substrate (the Theravāda *Tipiṭaka*) are specified in separate forthcoming publications.
-- The integration with non-human entities (robots, animals, plants, sacred places) via the Mechanical Heart artifact is specified in a separate forthcoming publication.
+- The DNA-verified family-tree layer is specified as Layer 4 of the **B-PoH℠** protocol in the companion paper *B-PoH℠ as Humanity Layer for the AI-Native Internet*.
+- The autonomous AI representative (Miss Aquarius) is specified in the planned companion paper *Miss Aquarius and the Aquarian Pool Architecture* (Tier A, pipeline). Its alignment substrate (the Theravāda *Tipiṭaka*) is specified in the companion paper *Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment* (target publication January 7, 2027).
+- The integration with non-human entities (robots, animals, plants, sacred places) via the Mechanical Heart artifact is specified in the companion paper *The Mechanical Heart: A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation*.
 - Per-jurisdiction regulatory mappings are implementation details outside the scope of this defensive publication.
 - Empirical evaluation of the mechanism's social-capital effects, local-economy impact, and dharmic-practice uptake is future work; the longitudinal cohort mechanism specified separately is the intended evaluation substrate.
 
