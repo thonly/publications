@@ -154,6 +154,59 @@ The example is illustrative; it is not the discipline's only application. The sa
 
 ---
 
+## The discipline meta-checked against itself
+
+A discipline that proposes a breadth-check should pass its own breadth-check. If it doesn't — if it cannot be analyzed by its own five operations without looping or collapsing — then it is a metaphysics in disguise rather than a discipline. So: can the framework be applied to itself?
+
+Yes, and the meta-check is illuminating. The five operations correspond to the five elements one-to-one — each operation maps to the element whose nature it most exemplifies:
+
+| Operation | Element | Why this is the natural mapping |
+|---|---|---|
+| **Classify** (Greek) | **Earth** | The Greek tradition treats elements as substances; Earth is the prototypical substance-as-resistance. The Classify operation asks *"what is it composed of?"* — the Earth-question. |
+| **Layer** (Hindu) | **Water** | Water is cohesion — what binds. Layers cohere into a stack via the binding-between-strata; the operation that observes layers is itself water-like in binding the levels together. |
+| **Regulate** (Taoist) | **Air** | The Taoist substrate *is* qi (vital breath); Wu Xing phases are adjectival modes of qi. Air is motion / pressure / breath; regulation is feedback cycles, which are kinetic. |
+| **Type** (Astrological) | **Fire** | Fire in astrology is projection of essential character — the radiating temperament. The Type operation is the projection of typed character onto an instance. |
+| **Liberate** (Tipiṭakan) | **Space** | *Ākāsa* (space) in Abhidhamma is the *opening* in which the four *mahābhūtā* register — the non-substantial medium. *Suññatā* (emptiness) is what is realized when Liberate works. |
+
+The mapping is not arbitrary. Each tradition is *native* to the element whose operation it most clearly articulates: the Taoist tradition grew up around qi-as-motion (which is *why* Regulate is its native operation); the Greek tradition grew up around substance (which is *why* Classify is its native operation); the Tipiṭakan tradition grew up around the body-door phenomenology that refuses substance (which is *why* Liberate is its native operation). The framework's coherence is overdetermined rather than coincidental.
+
+A second structure emerges when the operations are ordered:
+
+```
+   Subtlety progression (Aristotelian / Hindu hierarchy):
+
+   Earth ──→ Water ──→ Air ──→ Fire ──→ Space
+   gross                                  subtle
+
+   Classify   Layer    Regulate   Type    Liberate
+
+   what is    what     what       what    what is
+   it made    layers   cycles     mode    known
+   of?        does     govern     does    when it
+              it       it?        it      is met?
+              span?               express?
+
+   ←── decompose ── stratify ── animate ── characterize ── dissolve ──→
+```
+
+Each operation is *subtler* than the one before. Classify decomposes substance into kinds. Layer adds the gross-to-subtle dimension to the decomposition. Regulate adds dynamics — what feeds and restrains what. Type adds psyche — the mode of expression. Liberate transcends the model entirely — what is *known* when the model is set down.
+
+This gives the practical sweep a natural order:
+
+1. **Classify first** — establish what the phenomenon is composed of.
+2. **Layer second** — identify what gross-to-subtle stack it spans.
+3. **Regulate third** — name what generates it and what restrains it.
+4. **Type fourth** — read its temperament.
+5. **Liberate last** — let the modeling fall away; meet the phenomenon at its body-door.
+
+Earlier operations set up later ones. You need the composition before you can identify the layers; the layers before you can name the dynamics; the dynamics before you can read the temperament; the temperament before you can recognize what dissolves when the modeling is set down. Run them out of order and each operation loses some of what the previous would have surfaced.
+
+**One honest flag.** The Type ↔ Fire mapping is the weakest of the five, because astrology natively contains all four elements as temperament categories (Fire signs, Earth signs, Air signs, Water signs). The defense — that the *operation of typing itself* is fiery (projecting character; radiating essence) — holds, but it is the place where the self-application strains rather than locks. If a future articulation finds a different mapping, the framework absorbs the change; the other four mappings are load-bearing in a way Type ↔ Fire is not.
+
+The framework, in summary, passes its own breadth-check. The five operations are not five arbitrary lenses; they are the five elemental qualities themselves, taken as methods of attention rather than as metaphysical substances. The discipline is the elemental schema *applied to itself reflexively*. Which is, perhaps, what one should expect from a framework whose deepest commitment is to be a practice, not a theory.
+
+---
+
 ## The signature insight
 
 If a single insight had to be extracted from this comparative work, it would be this.
