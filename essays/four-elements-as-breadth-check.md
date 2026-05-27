@@ -42,12 +42,6 @@ The rest of the essay shows what the five operations are, where each one comes f
 
 The five traditions are not five versions of the same thing. They are five *different* things being done with a substantially overlapping vocabulary. The differences are the point.
 
-### Taoist — phases, not substances
-
-The Chinese system is the outlier. Wu Xing (五行) names five *phases* — Wood, Fire, Earth, Metal, Water — and the word *xing* (行) means "going," not "stuff." The phases are not substances; they are stages of transformation. Two cycles govern the system: the *sheng* (生) generative cycle in which each phase feeds the next, and the *ke* (克) controlling cycle in which each phase restrains another. Beneath the phases lie Yin and Yang; beneath that, *qi* — vital breath. Elements here are adjectival modes of qi, not nouns.
-
-What this tradition uniquely offers: a *dynamics* language. Wu Xing is structurally a control-systems theory dressed in cosmological clothing. It models how systems compensate, what feeds what, what restrains what. No other tradition's elemental schema has this register so cleanly built in.
-
 ### Greek — substantive roots and qualitative pairs
 
 Empedocles named four *rhizōmata* ("roots"): earth, water, air, fire, combined and separated by *Philia* (Love, attraction) and *Neikos* (Strife, repulsion). Aristotle systematized them as pairs of contrary qualities — Fire is Hot+Dry, Air Hot+Wet, Water Cold+Wet, Earth Cold+Dry — with a fifth, aether, assigned to the supralunary heavens.
@@ -59,6 +53,12 @@ What this tradition uniquely offers: a *classification* language. Each element h
 The Sanskrit tradition gives five great elements — *pañca mahābhūta* — each yoked to a sense-faculty and a *tanmātra* (subtle precursor): Ākāśa (space → sound → ear), Vāyu (air → touch → skin), Tejas (fire → form → eye), Āpas (water → taste → tongue), Pṛthivī (earth → smell → nose). The cosmological order is layered: each element emerges from the previous in a descent from subtle to gross, carrying forward the tanmātras of those before it. Āyurveda then condenses the five into three *doṣas* — Vāta, Pitta, Kapha — for clinical use.
 
 What this tradition uniquely offers: a *layering* language. Reality is stratified — gross to subtle, manifest to unmanifest — and the same elemental vocabulary names the same qualities at each layer. This is the language of stacked ontology, and no other tradition's elemental schema does the gross-subtle work as cleanly.
+
+### Taoist — phases, not substances
+
+The Chinese system is the outlier. Wu Xing (五行) names five *phases* — Wood, Fire, Earth, Metal, Water — and the word *xing* (行) means "going," not "stuff." The phases are not substances; they are stages of transformation. Two cycles govern the system: the *sheng* (生) generative cycle in which each phase feeds the next, and the *ke* (克) controlling cycle in which each phase restrains another. Beneath the phases lie Yin and Yang; beneath that, *qi* — vital breath. Elements here are adjectival modes of qi, not nouns.
+
+What this tradition uniquely offers: a *dynamics* language. Wu Xing is structurally a control-systems theory dressed in cosmological clothing. It models how systems compensate, what feeds what, what restrains what. No other tradition's elemental schema has this register so cleanly built in.
 
 ### Astrological — temperaments and psychological functions
 
