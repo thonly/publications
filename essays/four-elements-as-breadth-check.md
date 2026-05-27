@@ -201,9 +201,24 @@ This gives the practical sweep a natural order:
 
 Earlier operations set up later ones. You need the composition before you can identify the layers; the layers before you can name the dynamics; the dynamics before you can read the temperament; the temperament before you can recognize what dissolves when the modeling is set down. Run them out of order and each operation loses some of what the previous would have surfaced.
 
-**One honest flag.** The Type ↔ Fire mapping is the weakest of the five, because astrology natively contains all four elements as temperament categories (Fire signs, Earth signs, Air signs, Water signs). The defense — that the *operation of typing itself* is fiery (projecting character; radiating essence) — holds, but it is the place where the self-application strains rather than locks. If a future articulation finds a different mapping, the framework absorbs the change; the other four mappings are load-bearing in a way Type ↔ Fire is not.
+**The etymological warrant for Type ↔ Fire.** An initial reading might flag Type ↔ Fire as the weakest of the five mappings — astrology, after all, contains all four elements as temperament categories (Fire signs, Earth signs, Air signs, Water signs), so the operation's outputs span all four. But the *word* "temperament" carries a heat-etymology directly, and the etymology resolves the apparent weakness.
 
-The framework, in summary, passes its own breadth-check. The five operations are not five arbitrary lenses; they are the five elemental qualities themselves, taken as methods of attention rather than as metaphysical substances. The discipline is the elemental schema *applied to itself reflexively*. Which is, perhaps, what one should expect from a framework whose deepest commitment is to be a practice, not a theory.
+*Temperament* derives from Latin *temperamentum* — "proper mixture, due proportion" — and shares its root with **temperature**, both descending from *temperare*: *to mix hot and cold things to a proper degree*. Medieval Galenic medicine took this literally, defining each person's *temperamentum* as a specific mixture of the four humors:
+
+| Humor | Pairing | Element | Temperament |
+|---|---|---|---|
+| Blood (*sanguis*) | hot + wet | Air | sanguine |
+| Yellow bile (*cholē*) | hot + dry | Fire | choleric |
+| Black bile (*melan-cholē*) | cold + dry | Earth | melancholic |
+| Phlegm (*phlegma*) | cold + wet | Water | phlegmatic |
+
+The four temperaments are different mixtures; **temperature is the axis along which the mixing is measured**. The act of typing-by-temperament is therefore fire-natured at the etymological root: heat is the *index by which* the mixing is read. Without temperature as the measurement axis, there is no *temperamentum*. The operation is heat-reading regardless of which of the four humoral mixtures it happens to identify.
+
+This makes Type ↔ Fire **uniquely well-named** among the five mappings — and *that* asymmetry is worth keeping at the surface rather than smoothing away. The other four operation-names (Classify, Layer, Regulate, Liberate) are *conceptually* elemental — their *behavior* matches their element's nature (Classify behaves earth-like; Layer behaves water-like; Regulate behaves air-like; Liberate behaves space-like) — but they are not *nominally* elemental in the same way *temperament* is heat-rooted. The English words don't carry the same etymological transparency.
+
+Why the asymmetry? Astrology's vocabulary is older than the framework's modern articulation; the word *temperament* was already heat-mixing-language when astrology adopted it, and Galenic medicine made the heat-mixing explicit. The other four operation-names are modern coinages applied to ancient traditions, and the modern coinages don't carry the same depth. Future work might find more elementally-rooted names (Greek *katēgorein* for Classify? Pāli *vavatthāna* for Liberate?), but in the framework's current English vocabulary, Type ↔ Fire is the one mapping where the *name itself* does the structural work the other four mappings do only through *behavior*.
+
+The framework, in summary, passes its own breadth-check. The five operations are not five arbitrary lenses; they are the five elemental qualities themselves, taken as methods of attention rather than as metaphysical substances. The discipline is the elemental schema *applied to itself reflexively*. And one of its operation-names — *temperament* — happens to announce its elemental commitment at the etymological surface, a witness that the framework's structural commitments are older and deeper than the framework's modern articulation.
 
 ---
 
