@@ -133,6 +133,22 @@ Khmer, Thai, Chinese, Japanese, Arabic, Hebrew, and other non-Latin-script conte
 
 The mark renders in any color of the rainbow without losing brand-identity function. The brand is the shape; color is variable signal (see Section 6 for the aura-color cross-currency primitive). This is a deliberate inversion of conventional brand-color practice (which commits the color dimension to brand identification). The shape carries identity, the color carries state — both work simultaneously on the same mark.
 
+### 3.5 — The two functional readings of the heart, and the wordmark isomorphism
+
+The heart reading inventoried in Section 3.2 is not inert connotation. Two of the meanings it carries are *functional* — they do load-bearing work elsewhere in the architecture rather than merely evoking sentiment:
+
+- **Liveness.** A heart beats; a beating mark attests a living human substrate. This reading is developed in full in Section 5 as the heartbeat-animation Proof-of-Humanity signal.
+- **Circulation.** A heart's biological function is not to *store* blood but to *move* it — a heart that stops circulating is a heart that has failed. The mark therefore carries the institution's core operating claim at the level of the logo itself: HeartBank exists to *circulate* gratitude — kiitos and kiitti, appreciation and kindness, money and time — the way the organ circulates blood, not to accumulate it. (The economic substance of this claim is argued elsewhere; here it is noted as a semiotic property of the mark. See the institution's non-bank positioning.)
+
+**The wordmark isomorphism.** The compound name *HeartBank* performs at the lexical level the same move the B-heart performs at the visual level. The logo fuses an institutional anchor (the letter *B*) with a substantive reading (the *heart*) that enriches it; the wordmark fuses an institutional anchor (*Bank* — a vault, connoting storage, permanence, accumulation) with a corrective reading (*Heart* — a pump, connoting circulation, flow, life) that overrides the storage connotation. In both the mark and the name, the heart does identical work: it converts an inert institutional container into something that *moves*. The name is thus the architecture's smallest instance of its own thesis, present before any mark is drawn.
+
+**A division of labor — the sharpened claim.** "Circulation, not accumulation" needs one qualification, because HeartBank does keep a permanent ledger and does call itself a *Bank*. The two halves of the name divide the labor precisely:
+
+- ***Bank*** — what *accumulates* is the *record* of appreciation. The gratitude ledger is permanent; recognition, once given, is never spent away. This is the heart's *memory*.
+- ***Heart*** — what *circulates* is the *value*. Money and time flow outward and must never be hoarded; the account-emptying rituals (the twelve-days-of-Christmas final emptying, the re-tip mechanics) enforce the flow. This is the heart's *blood*.
+
+What is banked is the recognition; what is circulated is the substance. Far from embarrassing the *Bank* in the name, this defends it: the institution is a *bank of record* for gratitude and a *heart of circulation* for value at once — the same dual structure the dual public ledger (given × received) already embodies. The coherence is slogan-grade: "HeartBank stands for circulation, not accumulation" is a candidate public positioning line alongside "Thank with HeartBank®" (Section 8), and the division-of-labor refinement above is the institution's own account of why the apparent paradox in the name is in fact its design.
+
 ---
 
 ## 4 · The B-Prefix Naming Convention
@@ -221,6 +237,8 @@ Each of the four innovations alone has prior art and is replicable by a sufficie
 
 Remove any one of the four and the others weaken substantially. The four together form a system in which each element is load-bearing. This is the same kind of structural design-coherence visible across HeartBank's macro-architecture: dharma substrate enabling alignment, dual-currency enabling cross-product subsidization, autonomous-AI succession solving founder-mortality, four-body architecture being non-redundant. The B-heart logo system is a microcosm of HeartBank's macro-architectural coherence.
 
+The pattern reaches even below the four innovations, into the institution's name. *HeartBank* fuses an institutional anchor (*Bank* — a vault, connoting storage and accumulation) with a substantive corrective (*Heart* — a pump, connoting circulation and flow) exactly as the B-heart logo fuses the letter *B* with the heart shape (Section 3.5). The wordmark is the compositional pattern's first and smallest instance — present before any mark is drawn — and it carries the institution's core operating claim (circulate gratitude, do not accumulate it) in the brand name itself. That the same fuse-the-anchor-with-the-heart structure recurs from the name, to the logo, to the macro-architecture is the strongest evidence that the coherence is designed rather than decorative.
+
 The four innovations and the functions each serves:
 
 | Innovation | Brand function | Proof-of-Humanity / signaling function | What it enables architecturally |
@@ -263,6 +281,10 @@ Application rules:
 ### 8.3 — Why this is structurally distinctive
 
 A slogan whose typography itself instantiates the logo is, to the author's knowledge, not standard practice: slogan and logo are conventionally separate identity elements, coordinated for visual harmony rather than structurally fused. The substitution rule fuses them — the slogan cannot be set without instantiating the mark. It composes with the bistability of Section 3 (the substituted glyph is read at once as the letter the word requires and as the heart the brand is) and is a candidate for filing as a composite trademark — slogan plus substituted B-heart — distinct from the static design mark.
+
+### 8.4 — Companion positioning line
+
+Alongside the call-to-action slogan sits a *positioning line* that states what the institution is rather than what to do with it: **"HeartBank stands for circulation, not accumulation."** Where "Thank with HeartBank®" drives an action, the positioning line carries the wordmark isomorphism of Section 3.5 into a single sentence — the heart circulates blood as HeartBank circulates gratitude (kiitos and kiitti, appreciation and kindness, money and time). The flat form is suited to public copy; the division-of-labor refinement of Section 3.5 (the *record* of appreciation accumulates, the *value* circulates) is the institution's fuller internal account, deployed where the apparent paradox in the name — calling itself a *Bank* while opposing accumulation — needs answering.
 
 ---
 
