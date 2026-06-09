@@ -254,6 +254,27 @@ Within the family, the **macro** authority is the family (its collective need, v
 
 This places the institutional AI in a precise structural seat. Just as the family Buddha AI sits in the *macro* seat for the family — the impartial representative of the collective good — **Miss Aquarius℠ sits in the macro seat for humanity**: the planner that holds the whole tree's need, paired with the markets of family preference beneath her. The relation is exact: *family AI is to the family as Miss Aquarius is to humanity.* This is why the pilot matters beyond its scale. The smallest working instance of the institution's governing structure is a single family's 50/50 reward; if the two-layer pattern holds there, it is the same pattern the institution runs at planetary scale, and the family is a scale model of the whole. (The institutional planner seat, its non-accumulation discipline, and the never-zero human override are specified in *Miss Aquarius and the Aquarian Pool Architecture*; this paper supplies the reason an AI belongs in that seat at all — it is the macro pole of a fractal that is already load-bearing one level down.)
 
+### 8.1 The micro layer's grounding across scales: relational → nearby
+
+The fractal above moves *up* through nested planner×market pairs, and at every level the **micro** layer stays *relational* — a member who knows the family, a family that knows the network. But HeartBank's Phase 2 also makes a *sideways* move the family case does not: stranger-to-stranger anonymous-nearby giving (the *Thank-All-Nearby* primitive of the emotional-infrastructure thread), where giver and recipient share no prior bond. There the micro layer cannot be relational, because strangers do not know one another, so its grounding takes the only form available among strangers — **nearby**: the giver *here, in this space, just now.* Proximity is relationality at stranger scale.
+
+The structure is preserved while the grounding changes form: the micro-layer sustainer is *anonymous-as-to-credit + grounded-in-a-real-present-other*, where the grounding is **relational** at family scale and **nearby** at stranger scale. The substitution is lossy in one specific way, and naming the loss names a load-bearing role for Proof of Humanity ℠. At family scale, "relational" silently did two jobs — it **grounded** the gift *and* it **validated** it (§6: a family member can tell a real kindness from a performed one). "Nearby" inherits only the grounding; a nearby stranger cannot validate your kindness. The validation function therefore hands off to **PoH℠ + institutional mediation** — a verified, unique human, present and mediated — which is precisely why proof-of-humanity is *not optional* at the stranger scale: it re-buys the trust that kinship supplied for free. Anonymity moves the other way: it *strengthens* as relationality thins (a small family can guess the giver; a nearby stranger is genuinely unlinkable), so the same structure runs at an inverted mix — thin-anonymity / thick-grounding among kin, thick-anonymity / thin-grounding among strangers, with **diffusion** (kindness felt as coming from the whole space) as the compensating gain only strangers can produce. (The stranger-scale instance is specified in the defensive publication *The Thank-All-Nearby Primitive*, §4.5, and framed in the essay *Emotional Infrastructure as a Public Good*.)
+
+```
+   ONE SUSTAINER PRIMITIVE, TWO SCALES
+   invariant:  anonymous-as-to-credit  +  grounded-in-a-real-present-other
+
+                     FAMILY scale          →   STRANGER scale (Phase 2)
+                     ─────────────             ───────────────────────
+   grounding     =   RELATIONAL            →   NEARBY
+                     (you know them)           (they're present)
+   validation    =   relational (free)     →   PoH℠ + mediation (re-bought)
+   anonymity     =   thin (guessable)      →   thick (unlinkable)
+   compensation  =   mutual attention      →   diffusion (the whole space)
+
+   structure invariant; grounding form scales; validation hands off to PoH℠
+```
+
 ---
 
 ## 9. Lineage and prior art

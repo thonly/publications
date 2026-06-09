@@ -155,6 +155,29 @@ The primitive enforces bilateral uncacheable anonymity per the specification in 
 
 The recipient *does* receive an exportable receipt — the platform-issued verified artifact attesting that an anonymous PoH-verified human within BLE proximity broadcast a Thank-All-Nearby reaching this recipient at this timestamp with this amount. The asymmetry is structural and is the mechanism that preserves the cultural form's purity property.
 
+### 4.5 Why these compose: the stranger-scale reconstruction of family relationality
+
+The four sub-mechanisms are not an arbitrary stack; together they re-create, among strangers, what kinship supplies for free inside a family. HeartBank's family-bank reward has a *micro layer* — a peer re-tip that is **anonymous as to public credit but relational**: a known family member responding to a real kindness (specified in the companion defensive publication *The Two-Layer Reward*, §4.1 / §8.1). That micro layer works because relationality silently does three jobs at once — it **grounds** the gift in a real, present other; it **validates** it (a family member can tell a real kindness from a performed one); and it carries **mutual attention**.
+
+Among strangers, relationality is unavailable, so the same primitive must be rebuilt from parts — which is exactly what the four sub-mechanisms above do. **Proximity (§4.2, BLE)** supplies the *grounding*: the giver was *here, in this space, just now* — nearness is the stranger-scale form of relationality. **PoH℠ (§4.1)** supplies the *validation* a family member would otherwise provide — certifying a real, unique human rather than a bot, re-buying among strangers the trust kinship gives away. **Bilateral uncacheable anonymity (§4.4)** preserves and in fact *strengthens* the credit-anonymity: a small family can guess who gave, but a nearby stranger is genuinely unlinkable. The one job that does not transfer is mutual attention; in its place the stranger scale gains **diffusion** — the felt sense that the kindness came from the whole surrounding space, an emotional quality only unknown givers can produce.
+
+The sustainer primitive is therefore invariant in structure across scales — *anonymous-as-to-credit + grounded-in-a-real-present-other* — with the grounding form scaling from **relational** (family) to **nearby** (strangers) and the validation function handing off from kinship to PoH℠. This is the precise reason proof-of-humanity is *not optional* at the stranger scale: it is the part of relationality that proximity alone cannot carry.
+
+```
+   ONE SUSTAINER PRIMITIVE, TWO SCALES
+   invariant:  anonymous-as-to-credit  +  grounded-in-a-real-present-other
+
+                     FAMILY scale          →   STRANGER scale (this paper)
+                     ─────────────             ───────────────────────────
+   grounding     =   RELATIONAL            →   NEARBY  (§4.2, BLE)
+                     (you know them)           (they're present)
+   validation    =   relational (free)     →   PoH℠ (§4.1) (re-bought)
+   anonymity     =   thin (guessable)      →   thick (§4.4, unlinkable)
+   compensation  =   mutual attention      →   diffusion (the whole space)
+
+   structure invariant; grounding form scales; validation hands off to PoH℠
+```
+
 ---
 
 ## 5. Institutional-mode GPS-bounding-box variant
