@@ -192,6 +192,14 @@ The 50/50 split's distinctive contribution is that it operates at the *transacti
 
 In context: the 50/50 split is pedagogically optimal precisely because it is structural. Kids learn the pattern by experiencing it consistently, transaction by transaction. Cultural norms and currency velocities can be unevenly applied; the 50/50 split is not.
 
+### 5.5 The over-justification objection, and the two-system handoff
+
+A sophisticated objection to a *paid* gratitude reward is the **over-justification effect**: extrinsic rewards can crowd out the intrinsic motivation they were meant to seed (Deci; Lepper, Greene & Nisbett; motivation-crowding theory, Frey & Jegen). If kids self-thank *for the money*, does the practice collapse when the money stops — the play-to-earn failure mode?
+
+The 50/50 split answers this structurally, because its two halves are different *in kind*. The first half (the instant Buddha-AI reward) is the **igniter** — extrinsic, instant, automated; in Self-Determination Theory terms, the controlling, crowding-out-risk profile. The second half (the peer re-tip from the Re-Tip Jar℠) is the **sustainer** — relational, delayed, costly, chosen, contingent on a real kindness a real family member actually appreciated; the informational, autonomy-supporting profile. As the extrinsic igniter is withdrawn, the relational sustainer takes over — the **two-system handoff** — so the behaviour *internalises* rather than collapses. The peer re-tip is *anonymous as to public credit* (no benefactor, no ego — see *Giving Is a Gift Too*) but *relational and contingent as to the act* (a known member responding to a real kindness), which is precisely what lets it both validate against gaming and carry intrinsic motivation.
+
+A first Cambodian pilot family supplied an early, honest (n = 1) signal consistent with this: as the instant reward was geometrically tapered mid-month, usage held and even rose, with peer re-thanks appearing to carry the load. The self-thanking primitive therefore does not depend on the instant reward remaining in place — the pedagogy of this section is carried, durably, by the relational half. The full treatment — the macro/micro (System A / System B) structure, the side-by-side comparison, the anti-gaming error-correction, and the SDT grounding — is the subject of the companion defensive publication *The Two-Layer Reward* (`thonly.org/research/two-layer-reward`).
+
 ---
 
 ## 6. The forward-thanking three-node loop
@@ -459,9 +467,13 @@ Avatamsaka Sūtra. *The Flower Ornament Scripture*. Translated by Thomas Cleary.
 
 Csikszentmihalyi, Mihaly. *Flow: The Psychology of Optimal Experience*. Harper & Row, 1990.
 
+Deci, Edward L. "Effects of Externally Mediated Rewards on Intrinsic Motivation." *Journal of Personality and Social Psychology* 18, no. 1 (1971): 105–115.
+
 Emmons, Robert A., and Michael E. McCullough. "Counting Blessings versus Burdens: An Experimental Investigation of Gratitude and Subjective Well-Being in Daily Life." *Journal of Personality and Social Psychology* 84, no. 2 (2003): 377–389.
 
 Fox, Glenn R., Jonas Kaplan, Hanna Damasio, and Antonio Damasio. "Neural correlates of gratitude." *Frontiers in Psychology* 6 (2015): 1491.
+
+Frey, Bruno S., and Reto Jegen. "Motivation Crowding Theory." *Journal of Economic Surveys* 15, no. 5 (2001): 589–611.
 
 Gesell, Silvio. *The Natural Economic Order*. 1916. Translated by Philip Pye. Owen, 1958.
 
@@ -469,9 +481,13 @@ Harris, Tristan. "How Technology Is Hijacking Your Mind — From a Magician and 
 
 Lanier, Jaron. *Ten Arguments for Deleting Your Social Media Accounts Right Now*. Henry Holt, 2018.
 
+Lepper, Mark R., David Greene, and Richard E. Nisbett. "Undermining Children's Intrinsic Interest with Extrinsic Reward: A Test of the 'Overjustification' Hypothesis." *Journal of Personality and Social Psychology* 28, no. 1 (1973): 129–137.
+
 Montessori, Maria. *The Absorbent Mind*. Translated by Claude A. Claremont. Henry Holt, 1995 (orig. 1949).
 
 Ostrom, Elinor. *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge University Press, 1990.
+
+Ryan, Richard M., and Edward L. Deci. "Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being." *American Psychologist* 55, no. 1 (2000): 68–78.
 
 Seligman, Martin E. P. *Authentic Happiness*. Free Press, 2002.
 

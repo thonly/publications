@@ -130,6 +130,23 @@ Two properties of the micro layer matter for what follows. First, it is **costly
 
 But the micro layer is, by construction, the *partial* half. A market of family affection, left alone, prices favouritism: you re-tip the child you dote on, the spouse you are courting, the ally you owe — regardless of what the family needs. If the micro layer were the *whole* reward, HeartBank would encode the politics of favour. The micro layer needs a check it cannot provide for itself — which is the macro layer's first job.
 
+### 4.1 The two layers at a glance
+
+The two layers are also nameable as **System A** and **System B** — the pilot-record shorthand for the same pairing, where the contrast is read along its *motivational* axis rather than its routing axis. Both cuts describe the same two halves:
+
+| Property | **Macro layer — System A** | **Micro layer — System B** |
+|---|---|---|
+| Authority | automated Buddha AI (a *planner*) | a real family member (a *market*) |
+| Criterion | what the family **needs** (collective) | what I personally **want** (local knowledge) |
+| Timing | instant | delayed |
+| Cost to giver | free, automatic | costly + chosen (an honest, contingent signal) |
+| Attribution | — | **anonymous as to public credit/status** (no benefactor, no ego — see *Giving Is a Gift Too*) yet **relational + contingent as to the act** (a known member responding to a real kindness — *not* contextless) |
+| Epistemic character | impartial but blind; **gameable** | knowledgeable but partial; the honest **validator** |
+| Motivational character (SDT) | controlling, automatic → **crowding-out risk** | relational, informational, autonomous → **intrinsic-supporting** |
+| Role over time (**the two-system handoff**) | **ignition** — the on-ramp; designed to be tapered | **sustain** — the flywheel that takes over as the extrinsic igniter is withdrawn |
+
+The last row is the load-bearing one for durability: the pairing is an **extrinsic igniter handed off to an intrinsic-supporting sustainer** (§9 develops the SDT grounding; §10 reports the first pilot signal of the handoff under a real subsidy taper). The attribution row is the reconciliation that keeps System B working: it is the *anonymity of credit* (which strips status and ego) combined with the *relationality of the act* (which supplies the honest validation of §6 and the attention of §7) — and it is precisely why the §7 corollary holds (make the micro layer contextless-anonymous and you destroy it).
+
 ---
 
 ## 5. The 50/50 as equal weighting
