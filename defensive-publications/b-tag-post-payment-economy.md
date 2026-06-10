@@ -518,6 +518,14 @@ The full mechanism specification of the recommendation function — privacy boun
 
 Miss Aquarius pricing-for-all-of-humanity is a 20+ year arc, contingent on AGI-level recommendation-function capability and on widespread B-Affiliate adoption. This paper specifies the architecture; the architecture's full realization requires capabilities and institutional adoption that do not exist today. The honest framing: this is a deployable Phase 2 architecture *now*, with an endgame vision that scales with AI capability and institutional adoption *over decades*.
 
+### 13.9 Measuring the transition: how would one know "cash optional" is being achieved? (open question, added 2026-06-09)
+
+The motto *"Kiitos always; cash optional"* asserts a structural property but leaves an empirical question open: over time, how would one *know* the architecture is succeeding — that the monetary tip is becoming genuinely optional rather than quietly load-bearing? A candidate measure has since emerged from the first family-scale pilot: **kindness's inelasticity to money** — the degree to which gratitude-giving persists as the *seeded incentive* is withdrawn. Where giving continues as the founder-/Aquarian-Pool-seeded reward falls toward zero, "cash optional" has stopped being a slogan and become a measured fact: the cash is optional precisely because the giving no longer needs it.
+
+This measure must be kept distinct from the **merchant-revenue subsidy** of §3, and the distinction is illuminating. Prior pay-what-you-want experiments failed because they required *ever-more* external subsidy to survive and collapsed when it was withdrawn. The metric proposed here concerns the *opposite* motion of a *different* subsidy: the **incentive** subsidy that ignites gratitude can go *ever-less* — toward zero — because the gratitude internalizes and sustains itself. It is, in effect, the structural inverse of the §3 failure mode: where voluntary-tip commerce needed perpetual subsidy and died, a maturing post-payment economy needs *vanishing* subsidy and lives.
+
+Two honest limits attach. First, the signal is **asymptotic** — the seeded incentive approaches zero but is not expected to reach it (a residual floor, and the never-zero human disbursement-authority safeguard of §7.2, both persist); the honest description is *post-payment-ward*, a direction rather than a destination. Second, the evidence is **n = 1** — a single founder-funded family over a short window is a proof-of-principle in microcosm, not an established result; the measure is the *telos this architecture points at*, not a fact it has demonstrated. The metric must also be read as a **diagnostic compass, not an optimization target**: minimizing the subsidy can never license withdrawing a floor that someone still stands on. A full development of the metric and its calibrations belongs to a separate, empirically-gated treatment.
+
 ---
 
 ## 14. Conclusion: the post-payment economy
