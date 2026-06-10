@@ -85,7 +85,24 @@ Put that question to my five frameworks and the answer is not the hand-waving "y
 - **Astrology** sits on Fire — the pull toward fate, toward chart-as-force. Its restrainer is the cosmic-coordinate frame's load-bearing correction: a chart is a *coordinate, not a force* — a position you read the world from, never a cause that reads you. Another *ke*-restraint, on a different fixing force.
 - Both determinism-prone frameworks are further restrained by **Buddhism on Space** — *anattā*, which dissolves the very "self" that fixity and fate would presume to decree.
 
-Every framework that could harden into a cage has a named loosener pointed at it. That is not five elements present; that is a feedback system with its controlling cycle intact. *That* is what passing the breath-check means, and on that reading — the correct one — the worldview passes.
+Here is the whole system on one view — every grip set against its release, with the breath that keeps them turning:
+
+```
+   THE GRIP  (fixing force)          THE KE-RELEASE  (its restrainer)
+   ──────────────────────────────────────────────────────────────────
+   Earth · Numerology   ──────→   "recognitions, not insertions"
+     numbers as decree
+   Fire · Astrology     ──────→   Water · Cosmic coordinate
+     chart as fate                  ("coordinate, not force")
+
+   …and both, at the root ────→   Space · Buddhism — anattā
+                                    (no self left to decree)
+   ──────────────────────────────────────────────────────────────────
+   Air · Taoism  (qi · yin–yang)  =  THE BREATH —
+     the loop that turns grip into release and back, never at rest
+```
+
+Note the shape: it is a *loop*, not a ladder. Nothing here is ranked above anything else; each grip is met by a release, and the breath keeps the whole turning. Every framework that could harden into a cage has a named loosener pointed at it. That is not five elements present; that is a feedback system with its controlling cycle intact. *That* is what passing the breath-check means, and on that reading — the correct one — the worldview passes.
 
 ---
 
