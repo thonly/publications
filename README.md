@@ -1,6 +1,6 @@
 # thonly.org publications
 
-The author-output corpus for [thonly.org](https://thonly.org) — Thon Ly's writing across four document genres.
+The author-output corpus for [thonly.org](https://thonly.org) — Thon Ly's **CC0** writing across two document genres. (Film treatments and screenplays live in the separate, rights-reserved [`github.com/thonly/film`](https://github.com/thonly/film) repo — see [below](#relationship-to-githubcomthonlyfilm).)
 
 ## Genres
 
@@ -8,8 +8,6 @@ The author-output corpus for [thonly.org](https://thonly.org) — Thon Ly's writ
 |---|---|---|
 | **Defensive Publications** | [`defensive-publications/`](./defensive-publications/) | Technical mechanism papers documented to the commons as prior art. Patentable inventions written defensively under CC0. |
 | **Essays** | [`essays/`](./essays/) | Reflective and philosophical pieces. More synthetic, less mechanism-focused than defensive publications. |
-| **Treatments** | [`treatments/`](./treatments/) | Film treatments. *Age of Capricorn* is the canonical example. |
-| **Screenplays** | [`screenplays/`](./screenplays/) | Film scripts. |
 
 ## Pipeline
 
@@ -65,10 +63,6 @@ Planning matrix for the corpus, organized by genre and tier. The `priority` fiel
 | [`father-son-tipitaka-transcription.md`](./essays/father-son-tipitaka-transcription.md) | Father-Son Khmer Tipiṭaka Transcription as Alignment Work: Lineage Transmission as De Facto AI Safety Research | C | _Draft 2026-05-22_ |
 | [`silicon-wat-architecture.md`](./essays/silicon-wat-architecture.md) | Silicon Wat as Cambodian Civilizational Architecture: A Glass Mirror of Angkor Wat for the Dharma-AI Age | C | _Draft 2026-05-22; §6.4 enriched 2026-05-26 with explicit three-baskets ↔ three-jewels mapping table_ |
 
-### Treatments & Screenplays
-
-Both subdirectories currently hold only a README; no titles yet in the pipeline.
-
 > **How to keep this current.** When a file's `priority` or `status` frontmatter changes, update the corresponding row here in the same commit. When a new file is added under `defensive-publications/` or `essays/`, add a new row. The `_no file yet_` slot exists only for the Abhidhamma companion (no draft started); when that file is created, replace with a normal row.
 
 ## Voice
@@ -84,6 +78,10 @@ The two repos publish *different document genres*, not the same content in two v
 ## Relationship to `github.com/thonly/research`
 
 The legacy [`github.com/thonly/research`](https://github.com/thonly/research) repo — formerly the host for the research-paper corpus — was retired as a paper host on 2026-05-22 in favor of this repo's genre-organized layout (`defensive-publications/`, `essays/`, `treatments/`, `screenplays/`). All papers have migrated; the retired repo retains its README as a backward-compatible landing page that points back here for the current planning matrix and to thonly.org for canonical deployed pages.
+
+## Relationship to `github.com/thonly/film`
+
+Film **treatments** and **screenplays** live in the separate [`github.com/thonly/film`](https://github.com/thonly/film) repo — **not** here. The split is by **license**, not by organization: this corpus is entirely **CC0** (the defensive-publication strategy requires the text itself be public domain to function as prior art), whereas film treatment/screenplay *text* is **rights-reserved** (only the underlying ideas are CC0, surfaced via the deployed page and any companion defensive publication or essay — e.g. *Cautionary-Mirror Framing of the Singularity* is the CC0 companion to *The Age of Capricorn*). Keeping the two licenses in separate repos keeps each repo's `LICENSE` unambiguous. Canonical deployed pages for both genres render under `thonly.org/film/{slug}`.
 
 ## License
 
