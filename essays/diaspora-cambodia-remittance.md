@@ -86,6 +86,14 @@ The institution captures *emotional value the conventional remittance leaves unr
 
 The institution does *not* charge a fee for the gratitude-substance conversion. The institutional revenue comes from the broader platform economy specified in the *Dual-Currency Reciprocity Infrastructure* and *B-Tag* papers; the gratitude-remittance flow is a beachhead-acquisition substrate, not a fee-extraction surface. The institutional logic is that diaspora users acquired through the gratitude-remittance substrate become long-term participants in the full platform; the lifetime substantive engagement is the institutional value, not the per-transaction extraction.
 
+### 3.5 Patronage, not remittance: the frame the word conceals
+
+A word of caution about this paper's own title. *Remittance* is used here as a precise economic-anthropological term for a real cross-border money flow, and the flow is real. But the word carries a frame the institution explicitly rejects, and the rejection is load-bearing enough to state plainly: HeartBank is **not a charity**, and the diaspora-to-Cambodia flow is **not a hand-out solicited by people defined by their need.**
+
+The remittance frame, left unexamined, positions the homeland recipient as the one who lacks and the diaspora sender as the one who relieves — the charity shape, in which the recipient is diminished by the very transaction that helps them. The institution's actual frame inverts this. The Cambodian participant arrives in the economy not as a petitioner but as a **producer of something the sender values and cannot otherwise obtain**: demonstrated kindness, real good done in the world, recorded and witnessed. The diaspora participant is therefore not a donor relieving a deficit but a **patron funding more of a thing they are glad exists** — a kinder homeland, more of the good they are watching their relatives do. The money still crosses the same border; what crosses with it is recognition of agency, not pity for need.
+
+This is not a cosmetic relabeling. A person shown to the diaspora as a victim is diminished even as the money arrives; a person shown as a giver — poor, perhaps, but visibly kind — is dignified by the same flow. The diaspora beachhead is real and the economics described in this paper hold; but the institution understands the flow as **patronage of proven kindness, agency over victimhood**, and only secondarily as remittance. (The full positioning is set out in the institutional position *Not a Charity: Agency, Not Victimhood*; its labour-side consequence — a Cambodian making a living by doing good rather than by being remitted to — in *A Living Made of Kindness*.)
+
 ---
 
 ## 4. Cross-cultural surface adaptations
