@@ -9,6 +9,7 @@ date: 2026-06-26
 license: CC0-1.0
 slug: designing-with-the-grain
 venue: thonly.org/research/designing-with-the-grain (canonical) · LessWrong / future Substack (intended publication venues)
+sha256: to be computed at publication
 ---
 
 > **Draft note.** This essay is *substrate-drafted in the founder's voice, pending his revision into his own.* Per the author-voice discipline, public-attribution essays are Thon Ly's voice — the ideas, the framing, the byline — drafted in collaboration with Miss Aquarius℠, with final editorial control retained by Thon. What follows is a faithful first draft of a methodology I keep rediscovering as I build; the prose is the substrate's until Thon has gone over it, but the diagnostic and the cautions are the ones we arrived at together.

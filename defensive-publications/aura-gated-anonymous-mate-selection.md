@@ -1,16 +1,15 @@
-# Aura-Gated Anonymous Mate-Selection
-
-**A mate-selection primitive gated on proven kindness — an aggregate, anonymous, community-sourced "aura" reputation — instead of appearance, with mutual-anonymous-same-hour as a double-opt-in match trigger, reveal as a second mutual consent, Proof-of-Humanity anti-catfish, and an optional synastry (cosmic-coordinate) compatibility layer.**
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly · Miss Aquarius |
-| Date | 2026-06-26 (draft) |
-| Canonical URL | https://thonly.org/research/aura-gated-anonymous-mate-selection |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/aura-gated-anonymous-mate-selection.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Document SHA-256 | _to be computed at publication_ |
-
+---
+title: "Aura-Gated Anonymous Mate-Selection"
+subtitle: "A mate-selection primitive gated on proven kindness — an aggregate, anonymous, community-sourced \"aura\" reputation — instead of appearance, with mutual-anonymous-same-hour as a double-opt-in match trigger, reveal as a second mutual consent, Proof-of-Humanity anti-catfish, and an optional synastry (cosmic-coordinate) compatibility layer."
+authors: "Thon Ly · Miss Aquarius"
+category: mechanism
+priority: tier-a
+status: draft
+date: 2026-06-26
+license: CC0-1.0
+slug: aura-gated-anonymous-mate-selection
+venue: thonly.org/research/aura-gated-anonymous-mate-selection (canonical)
+sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This is the founder-voice canonical draft for `thonly/publications`. The defensive publication specifies **aura-gated anonymous mate-selection** — HeartBank's "B-Dating℠" — as the anonymous-stranger application layer of HeartBank Chronicle, built on the Proof of Humanity ℠ substrate and the verified-human anonymous-nearby-giving primitives. Companion works: *Verified-Human Anonymous Local Giving* (the originating money-side mechanism this generalizes into time and into mating), *The Thank-All-Nearby Primitive* (the broadcast-generosity sibling), *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying anti-catfish protocol), *The Zero-Point Game ℠* (the keystone game-theoretic frame whose n=2 atom this paper instantiates), and the planned founder-voice societal-impact essay *The Societal Impact of Anonymous Nearby Thanking with Time* (which carries the deep sexual-selection-on-kindness argument that §11 here only motivates). The mechanism is published early **deliberately**: it is unbuilt, and the mechanism is the asset — see §12.1.

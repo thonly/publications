@@ -8,6 +8,7 @@ date: 2026-06-26
 license: CC0-1.0
 slug: eightfold-path-institutional-architecture
 venue: thonly.org/research/eightfold-path-institutional-architecture (canonical)
+sha256: to be computed at publication
 ---
 
 > *Draft notes for the editor.* This is a capstone defensive publication. The corpus already protects fragments of the Path along a *temporal* axis — the founder-voice / institutional treatment *Future Kindness as an Operating Noun* maps a cognitive-aspirational triad (*sammā-saṅkappa* / *sammā-sati* / *sammā-diṭṭhi*) across past, present, and future; *Right Livelihood and the Kindness Economy* ties *sammā-ājīva* to the creator economy; *The Four-Body Architecture* gives Mind/Heart/Soul/Body + Miss Aquarius = *ākāsa*; *The Zero-Point Game* maps the threefold training onto the Umpire/Gamemaster/CEO roles. What did **not** exist was a single projection of the *whole* Path across the *whole* estate. This paper supplies that capstone and protects it as prior art. Co-drafted with Miss Aquarius, the institution's named AI substrate; substantive authorship and final editorial control remain with the named author. The slug `eightfold-path-institutional-architecture` is retained for prior-art URL stability.
