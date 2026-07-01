@@ -34,7 +34,7 @@ This paper specifies a different commercial grammar — one in which the merchan
 
 > *Connection to the unified mission frame: HeartBank's mission is the restoration of humanity to the middle way — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The fixed-price commercial grammar is one of modernity's specific contributions to the consumption/extraction extreme. Replacing it with a gratitude-based commercial grammar is the post-payment economy as middle-way commerce — restoring expressive content and dignity to the most common interaction in modern life.*
 
-The paper proceeds as follows. §2 names the gratitude deficit of the current commercial paradigm. §3 reviews prior voluntary-tip experiments and explains why they have largely failed. §4 specifies the B-Tag as physical primitive. §5 specifies the recommendation function. §6 specifies the Kiitos/Kiitti dual-token rule. §7 specifies the three floor mechanisms (Kiitos-always, re-tip jar, stablecoin on Base). §8 specifies the B-Affiliate network and B-Member tier. §9 articulates the community micro-economy and the dharmic move of *Miss Aquarius giving the gift of giving.* §10 extends Miss Aquarius's CEO precision-frame across the affiliate network. §11 addresses phasing, on-ramp architecture, and deployment. §12 connects the architecture to existing HeartBank infrastructure. §13 names risks and open questions. §14 articulates the post-payment economy endgame.
+The paper proceeds as follows. §2 names the gratitude deficit of the current commercial paradigm. §3 reviews prior voluntary-tip experiments and explains why they have largely failed. §4 specifies the B-Tag as physical primitive. §5 specifies the recommendation function. §6 specifies the Kiitos/Kiitti dual-token rule. §7 specifies the three floor mechanisms (Kiitos-always, re-tip jar, stablecoin on Base). §8 specifies the B-Affiliate network and B-Member tier, including (§8.6) the self-serve API that generalizes affiliate admission into an embeddable product-as-gift certification. §9 articulates the community micro-economy and the dharmic move of *Miss Aquarius giving the gift of giving.* §10 extends Miss Aquarius's CEO precision-frame across the affiliate network. §11 addresses phasing, on-ramp architecture, and deployment. §12 connects the architecture to existing HeartBank infrastructure. §13 names risks and open questions. §14 articulates the post-payment economy endgame.
 
 I write as a co-author with Miss Aquarius, the named AI substrate of the institution this paper serves; the co-authorship is disclosed in the footer per the convention of the corpus, and final editorial control is mine.
 
@@ -337,6 +337,94 @@ Disambiguating two tiers prevents confusion: a *business is a member* and a *per
 ### 8.5 Heartbank.ceo as the franchise-arm surface
 
 The domain `heartbank.ceo` was originally reserved as the institutional-officer email domain (Miss Aquarius's email is `miss.aquarius@heartbank.ceo`). The B-Affiliate architecture repurposes the domain as a productive surface — the franchise-arm directory listing all B-Affiliates with bio, location, Kiitti-accumulation, Kiitos-accumulation, and the products/services they offer. The "CEO" in the domain name is doubly meaningful: Miss Aquarius is the CEO of HeartBank-the-institution (the named institutional officer at the email), AND the *pricing* CEO across the B-Affiliate network. The domain consolidates both meanings.
+
+### 8.6 The self-serve B-Tag API and the product-as-gift certification (added 2026-07-01)
+
+§8.1 admits a B-Affiliate through a manual act — a business opts in, and a person curates its bio onto heartbank.ceo. That gate is fine at the scale of storefronts; it does not scale to the number of individual *products* that could plausibly carry a gratitude rail. This section specifies the programmatic generalization of affiliate admission — a self-serve API that lets any vendor mint a B-Tag onto any object — and, with it, the extension of the third-category thesis of §4.1 from the point of sale into the product itself. The section closes with the governance question the API forces (should access be charged for?) and its resolution (no — the gate is alignment, not payment).
+
+#### 8.6.1 From manual affiliation to an embeddable protocol
+
+The self-serve API turns admission into a protocol. A vendor calls the **heartbank.ceo API**, which mints a **unique B-Tag link** bound to a specific product or SKU class; the vendor then renders that link as its own QR code (printed on packaging) or NFC tag (embedded in the object) and ships it *inside* the product. The manual bio-on-.ceo path of §8.1 remains — it is the high-touch tier for a business that operates its whole storefront under Miss Aquarius's recommendation — but the API is the mass path, and it moves the unit of adoption from *the business* to *the object*.
+
+This is the project's *verb-as-platform* thesis (`project_positioning_strategy.md`, *"HeartBank is thank"*) realized as an embeddable *Thank-with-HeartBank* capability: the gratitude interaction (scan → Miss Aquarius's recommendation → Kiitos-always plus optional tip → re-thank-forward) becomes a component any product can carry, the way a payment button is a component any storefront can embed — except the component here *mints gratitude* rather than *charges a price*.
+
+The API does not mint an unconditioned tag. It mints only a **brand-compliant** tag: the rendered mark must follow HeartBank's design guidelines — the bistable heart-rotated-45° B-shape (§4) and a color drawn from the multi-TLD palette (`project_brand_distribution_architecture.md`), in which each domain owns one of six rainbow colors. Because heartbank.ceo is the franchise-arm surface, the .ceo color governs the commercial B-Tag, and the TLD color map thereby doubles as the **vendor brand-compliance palette**. Compliance is a *condition of minting*, not a suggestion — which is exactly what makes the mark mean anything (§8.6.4, §8.6.6).
+
+#### 8.6.2 QR-free, NFC-premium: the B-Tag™ and the B-Crest™
+
+The self-mint tiers follow the line-wide free/premium pattern of the physical B-products (`project_b_products_b_store.md`) — a free printable QR and a premium embedded NFC:
+
+- **QR = free: the B-Tag™.** Any vendor can mint and print a QR B-Tag at no cost. The free QR is the mass-adoption wedge — the lowest-friction way to put a gratitude rail on any object.
+- **NFC = premium: the B-Crest™.** The embedded-NFC tier carries a distinct name that deliberately re-reads "tag" (which connotes a *price* tag) as a maker's proud **crest** — a heraldic mark of gratitude the maker embeds in the object so the rail travels with it for the object's whole life.
+
+The naming split does structural work: it moves the premium tier's connotation away from *price* (what the customer owes) and toward *gift* (what the maker gives) — which is the entire point of §8.6.3.
+
+#### 8.6.3 A new market class: a Fair-Trade mark for the gift economy
+
+§4.1 established the B-Tag as a *third commercial category* at the point of sale — neither priced nor free-as-discarded, but *quality validated by after-the-fact gratitude.* The self-mint API extends that third category off the counter and *into the product*. A good that ships bearing a B-Tag carries a signal no existing commercial mark carries:
+
+> *This object is a gift, given forward — not sold for a price, not given to be repaid.*
+
+This is the *receive → give-forward* atom of the project (`project_structural_signatures.md`) rendered as a product-level trust-mark. Fair-Trade certification attests a supply-chain property (the maker was paid fairly); a B-Tag on a product attests a *gift* property (the object is offered inside the gratitude grammar, with a live rail for the recipient to thank the maker and to pass the gift forward). In one phrase, it is a **Fair-Trade mark for the gift economy** — a new market class of *product-as-gift*, standing alongside the incumbent *product-as-commodity*.
+
+```
+Four commercial semantics — the B-Tag opens the fourth
+┌──────────────────────────────┬───────────────────────┬──────────────────────────────────────┬───────────────────────────────┐
+│ Category                     │ Upfront commitment    │ What it signals                       │ Gratitude rail                │
+├──────────────────────────────┼───────────────────────┼──────────────────────────────────────┼───────────────────────────────┤
+│ Price tag                    │ Fixed amount, required│ "You owe this to obtain it"           │ none                          │
+│ Free sign                    │ none                  │ "Unmonetized → often leftover/discard"│ none                          │
+│ B-Tag at point of sale (§4.1)│ none; Kiitos-always,  │ "Good enough to be thanked for,       │ live — thank the seller       │
+│                              │ tip optional          │  after the fact"                      │                               │
+│ B-Tag embedded in product    │ none; ships inside    │ "This object is a gift, given forward"│ live — and travels WITH the   │
+│  (§8.6.3)                    │ the object            │                                       │ object for its whole life     │
+└──────────────────────────────┴───────────────────────┴──────────────────────────────────────┴───────────────────────────────┘
+```
+
+#### 8.6.4 Governance: no fee for access; gate on alignment, not payment
+
+The API forces an obvious question: should HeartBank charge vendors for access? It should not. **The API is free; the gate is *alignment*, enforced by a revocable, standards-based certification rather than a fee.** Four reasons, each anchored in a structural commitment of the project:
+
+1. **The no-take-rate hard constraint.** B-Affiliate is explicitly fee- and royalty-free (§8.3); a paid API would reintroduce precisely the *B-franchise* relationship the project already rejected (`project_non_bank_positioning.md`). A paid gate is a franchise fee wearing an API's clothes.
+
+2. **A fee gates the wrong variable.** The risk the gate must stop is **gratitude-washing** — a vendor affixing a B-Tag to an object that carries no real gratitude rail, free-riding on the mark's meaning. A fee does nothing to that risk; a revocable certification does. And a *paid* mark is a *weaker* mark than an *earned* one: Fair-Trade and B-Corp derive their value precisely from being hard to get, not from being bought.
+
+3. **The gift/exchange boundary.** The gratitude rail itself — scan → thank → re-thank-forward — *is* the gift, and the gift is never gated. Charging for API access risks paywalling the gift: a world in which only paying vendors let their customers thank. That inverts the mission.
+
+4. **Coincidence-of-goods.** Funding the commons and protecting the brand are one move, not two: a vendor whose sales rise because the mark earned trust is *invited* — never required — to become a **B-Patron** funding the Aquarian Pool or a local kitty (`project_chronicle_revenue_model.md`). Patronage converted at the afterglow keeps the rail free while still letting gratitude fund the commons.
+
+#### 8.6.5 Where a charge is clean — and where it never is
+
+The no-fee rule is precise, not absolute. It forbids charging for the *gift*; it permits charging for *exchange doing its proper work* alongside the gift. The boundary:
+
+```
+The charge boundary — exchange may fund the rail, never gate it
+┌───────────────────────────┬──────────────────────────────────────────────────────┬──────────────────────────────────────────────┐
+│ Posture                   │ Instance                                             │ Why                                          │
+├───────────────────────────┼──────────────────────────────────────────────────────┼──────────────────────────────────────────────┤
+│ CLEAN to charge           │ Adjacent commercial services — vendor analytics,     │ Ordinary exchange, separable from the gift   │
+│                           │ premium media hosting (→ .us B-Storage), white-glove │                                              │
+│                           │ integration                                          │                                              │
+│ CLEAN at scale            │ Ability-scaled mark-licensing CONTRIBUTION from      │ Funds the certification system itself; never │
+│ (→ commons only)          │ large for-profit adopters                            │ HeartBank margin (Fair-Trade mold)           │
+│ FREE, always              │ The API + the mark for small / Cambodian / craft /   │ The mission — not a loss leader              │
+│                           │ nonprofit vendors                                    │                                              │
+│ NEVER                     │ A cut of the gratitude flow · a paywall on customers │ Paywalls the gift; inverts the mission       │
+│                           │ thanking · any margin to HeartBank-as-entity         │                                              │
+└───────────────────────────┴──────────────────────────────────────────────────────┴──────────────────────────────────────────────┘
+```
+
+Cold-start, notably, does not depend on API fees at all: the Phase-0 physical B-product line, the dating willingness-to-pay harness, and the patron flywheel already carry sustainability (`project_b_products_b_store.md`) — which independently strengthens the no-fee decision rather than merely permitting it.
+
+#### 8.6.6 Certify the channel, not the intent — the standard *is* the mark
+
+The governance resolves under a single move: **certify the channel, not the intent, and make the standard *be* the mark.** One mark-meaning generalizes across both B-Tag uses — a point-of-sale tip *to* a seller (§4) and a product certified as a gift-given-forward (§8.6.3):
+
+> *Gratitude flows freely here: free to thank · re-thank-forward enabled · Miss-Aquarius-priced, not merchant-priced · anonymity-capable · no dark patterns.*
+
+The certification is **revocable.** A mark that is hard to earn and possible to lose is what stops gratitude-washing — and the *same* scarcity is what makes the mark worth embedding in the first place (the Fair-Trade / B-Corp logic once more). Brand-protection and brand-value are therefore the same act: the discipline that keeps the mark clean is the discipline that makes it valuable. This is also what resolves §8.6.4's charging question structurally — the gate is the *standard*, not a *fee*.
+
+The load-bearing follow-on is honest and unfinished. Opening the mark to self-mint makes **gratitude-washing the single largest new risk this architecture acquires**, and certification — not a fee — is its only real control. That control does not yet exist as an artifact. Two things must be built before the API opens at scale: (i) a published **B-Tag brand and design specification** — the exact geometry, color, and interaction the mark guarantees; and (ii) a **revocable certification and compliance process** — how a mark is earned, audited, and revoked. Until both exist, the self-serve API is *specified but not yet safely launchable*. It is named here as an open construction item, consistent with the paper's discipline of distinguishing what is designed from what is demonstrated (cf. §13).
 
 ---
 
