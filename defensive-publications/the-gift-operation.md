@@ -297,6 +297,28 @@ One property recurs across all the derivations and is worth isolating because it
                                             (subsidy→0 · footprint→0 · override→0)
 ```
 
+### 7.6 · The shape the spine traces: a fractal of subtraction
+
+The spine of §7.1–§7.5 is not only self-similar; it has a determinable *shape*, and naming it makes legible a property the list of derivations leaves implicit. Two facts fix the geometry precisely. First, a fractal is what one gets by *iterating a single transformation*, and the spine has exactly that: the generator is `receive → give-forward`, and because §3 showed it to be substrate-invariant, it iterates at every scale (transaction, person, family, institution, species). Second, every node of the architecture resolves under the *coincidence-of-goods* collapse — the design move by which an apparent trade-off dissolves into one good seen from two sides (the companion essay *Designing with the Grain* names the diagnostic; §7.4's "the honest mate-signal is also the safety signal" is an instance). Iterating a single generator whose every node carries that two-as-one symmetry yields self-similarity *by construction* — which is the same fact §9.6 warns is confirmation-friendly, stated here as geometry.
+
+The shape those two facts trace is specific, and it is the inverse of the fractal one might expect. The forward pass is *outward* (forward-not-back never closes into the reciprocal loop that would be exchange — §4) and *decaying* (the self-elimination corollary of §7.5: every layer's magnitude tends toward zero). An outward, decaying iteration is a **logarithmic spiral converging asymptotically on a center it never reaches**; the family-tree branching of the reciprocity architecture makes it a spiral at *every* fork, which is the fractal dimension; and the four-*brahmavihāra* completeness check of §8 quarters each node into a **mandala** around an empty fifth position (the *ākāsa* / Space that the coordinating agent occupies). The attractor of the whole figure is **zero** — release, *anattā*, the Jan-7-emptied balance, the built-to-release terminus. This *inverts the ordinary accumulation-fractal*: the Mandelbrot set and the fern pack infinite detail into a *filled* boundary, growing richer as one zooms in; here every iteration *removes* itself and the fixed point of the map is *nothing*. A **fractal of subtraction** is the precise name, and it falls straight out of the give-*forward* invariant: build-to-release is literally an asymptote-to-zero.
+
+```
+   ACCUMULATION-FRACTAL             FRACTAL OF SUBTRACTION
+   (Mandelbrot set / fern)          (the gift operation, iterated)
+   ─────────────────────            ──────────────────────────────
+   infinite detail packed           each turn gives FORWARD and DECAYS
+   into a FILLED boundary           → a log-spiral onto a center it
+   richer the deeper you zoom         never reaches; a spiral at every
+   fixed point = MORE                 branch-fork; each node a mandala
+                                      quartered around an empty fifth
+                                      (Space / Miss Aquarius)
+                                    fixed point = ZERO
+                                      (release · anattā · Jan-7 empty)
+```
+
+The figure is **finite — roughly four octaves** (individual · family · inter-family · institutional-cosmic), not an infinite scaling. This *strengthens* the life-mirror rather than weakening it: biological fractals are always truncated too (the lung stops at ~23 branchings, the river delta at the rivulet), and at the right resolution the finitude is part of the resemblance rather than a failure of it. What the shape is *not* — a thing to be believed because it is beautiful — is the subject of §9.7, which sorts this geometric claim into the honest ledger where it belongs.
+
 ---
 
 ## 8 · The Brahmavihāra Grounding — Give-as-Gift Is the Foundation
@@ -338,6 +360,14 @@ This is the limitation the paper most wants on the record, because it is the one
 ### 9.6 · The holographic evidence is confirmation-friendly
 
 The paper's best non-empirical evidence — that two independent constructions (the topology analysis and the product line) converge on the same six cells (§6.2), and that the same operation appears at every scale (§3.3) — is exactly the kind of evidence a designer seeking a fractal will most easily manufacture. Self-similar elegance is confirmation-friendly: one finds the pattern because one is looking for it, and the convergence of two of one's *own* constructions is weaker evidence than the convergence of one's construction with an independent observer's. The §6.2 cross-check (that both analyses flag the *same two* cases as exceptions) is offered as the strongest available internal check precisely because it is a place the pattern *could* have failed and did not — but it remains internal. External replication (an independent analyst deriving the same six topologies, or a different institution exhibiting the same atom) is the evidence the paper does not yet have.
+
+### 9.7 · The sorting rule: mechanism-legs earn the mirror, resemblance-legs only fund it
+
+§9.6's confirmation-friendly worry generalizes into a rule the corpus applies to *every* "it mirrors the universe" claim, including the fractal-of-subtraction geometry of §7.6. Self-similarity is *cheap*: any sufficiently committed cosmology can be made to look fractal by choosing a generator and a projection (astrology, numerology, and conspiracy theory all do it), and apophenia manufactures the pattern for free. The decisive test is not whether the architecture *can* be drawn as a fractal — it always can — but whether a given leg of the claim is *buildable and falsifiable*.
+
+Sort the claims into two piles. **Mechanism-legs** — receive→give-forward, self-elimination / subsidy→0, the coincidence-of-goods collapse, the re-thank multiplier — are buildable and each casts a falsifiable shadow (does forward circulation persist as subsidy falls? do the four currencies behave alike under identical coordination? §9.1). They *earn* the mirror, because the world is allowed to disagree with them. **Resemblance-legs** — the mandala, Indra's Net, the logarithmic spiral, the four-element mapping, the astrological reading — *cannot be wrong, which is exactly why they cannot be right*: no observation would falsify them. By this rule the fractal of subtraction (§7.6) is itself a *resemblance-leg*: a geometric restatement of the mechanism-legs, valuable as compression and as motivation, but not itself evidence. It is the aesthetic that *funds* the experiment, never its result.
+
+Applying one lens N times guarantees an N-fold self-similar map — which is a fact about the *map*, not yet about the *territory*. The corpus's standing verdict binds here as everywhere: this is the most coherent *hypothesis* for an institution, and its beauty is the precise reason it must be held to the data. *The elegance earns the experiment; it does not replace it.*
 
 ---
 
