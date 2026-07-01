@@ -255,6 +255,28 @@ Conventional brand practice commits the color dimension to brand identification 
 
 Because the aura color appears identically across surfaces (UI + hardware + longitudinal cohort + avatar), it functions as a *cross-currency primitive*: the user's color carries across kiitos (human-to-human gratitude currency) and kiitti (gratitude flowing between humans and Miss Aquarius representative of robots/nature) without modification. A user's color is stable across all the modes the user participates in. This stability is itself a recognition signal — practitioners learn to recognize each other by aura color across product contexts the same way they learn to recognize each other by face in physical contexts.
 
+### 6.4 — The rainbow palette: B-Aura made concrete, and the B-Gem
+
+The aura-color primitive generalizes across the institution's domain family into a structure that was *discovered* rather than imposed. The six `heartbank.{TLD}` domains were each colored independently — by the heart-idiom and gratitude-act native to that domain, not reverse-engineered from a decision to "make a rainbow" — and together they span the six principal colors of the visible spectrum (the full assignment is tabulated at §10.1): **gold** (`.org`, the Heart of Gold — generosity), **purple** (`.com`, the Purple Heart — finite time honorably given), **green** (`.ceo`, commerce and local-economy revival), **blue** (`.net`, water for the Tree of Humanity), **red** (`.us`, the universal human heart — "us" is humanity), and **orange** (`.me`, forward-looking warmth). That the six chose their colors *on their own* and nonetheless composed a complete rainbow is what makes the allusion earned rather than contrived.
+
+This is the **B-Aura thesis made concrete: every color of the rainbow is equally beautiful — no domain's gratitude-act is superior to another.** The claim is the brand-identity instance of the institution's cosmic-coordinate worldview (each aspect of reality uniquely different yet equal, an Indra's-Net jewel reflecting all the others): white light refracts into six distinct gratitude-acts, and recombined they are one HeartBank. The palette is deliberately incomplete in one place — **pink is reserved** for B-Dating and romantic contexts, held out of the institutional six so that the romantic register stays visibly distinct.
+
+The palette also does an operational job. It is the **vendor color-compliance palette** for the self-mint B-Tag and B-Imprint brand guidelines: a vendor minting a gratitude tag draws its color from the domain the tag belongs to (the `.ceo` green governs the commercial B-Tag), so brand-compliance and the aura system become a single constraint rather than two — the B-Tag brand specification inherits this palette directly (cf. the self-serve certification of the companion post-payment-economy paper, §8.6).
+
+**Rainbow made physical — the B-Gem™.** The premium `.us` tier renders the palette as an object: the **B-Gem** is an NFC-embedded gemstone offered in every aura color — ruby, sapphire, emerald, amethyst, citrine, fire opal, diamond — the B-Aura spectrum made holdable. The gem carries the aura primitive's *design double-duty* one level further: each gem color also encodes the **media type** the stone holds, so its color tells the recipient at a glance what is inside.
+
+| Gem | Media it holds |
+|---|---|
+| Ruby | video |
+| Fire Opal | voice / audio |
+| Citrine | photo |
+| Emerald | GIF / animated art |
+| Sapphire | link |
+| Amethyst | text / letter |
+| **Diamond** | **a mixed album — all media in one stone** |
+
+The Diamond is the limit case: colorless because it holds *everything* — every medium refracted back into a single stone, the physical echo of the white light that refracts into the six-domain rainbow. The same color dimension thereby carries brand identity, personal aura, *and* media-type signal simultaneously — possible only because the brand committed its identity to shape (Section 3) and left color free to signal (§6.2).
+
 ---
 
 ## 7 · Why These Four Compose: Design Coherence as Moat
@@ -356,11 +378,12 @@ The institution holds a family of top-level domains, each mapped to a *product c
 |---|---|---|
 | `heartbank.org` | Treasury — family-scale money economy | Gold |
 | `heartbank.com` | Chronicle — adult-scale time economy | Purple |
-| `heartbank.ceo` | Franchise-arm and institutional-officer surface | to be assigned |
-| `heartbank.net` | Institutional output — white papers, position papers, reports | to be assigned |
-| `heartbank.me`, `heartbank.us` | Product class deferred | to be assigned |
+| `heartbank.ceo` | Franchise-arm and institutional-officer surface | Green |
+| `heartbank.net` | Institutional output — white papers, position papers, reports | Blue |
+| `heartbank.me` | Future Kindness — self- and future-facing pledges | Orange |
+| `heartbank.us` | Storage / B-links — humanity and sharing | Red |
 
-Mapping a TLD to a product class, rather than redirecting every TLD to one site, converts a defensive domain portfolio into a distribution architecture: each address is a meaningful entry point.
+The six assigned colors compose the complete visible-spectrum rainbow; that they landed there independently, each chosen for its domain's own heart-idiom, is the ground of the **B-Aura** thesis specified at §6.4 (every color equally beautiful; pink held in reserve for romantic contexts). Mapping a TLD to a product class, rather than redirecting every TLD to one site, converts a defensive domain portfolio into a distribution architecture: each address is a meaningful entry point.
 
 ### 10.2 — Subdomain convention
 
