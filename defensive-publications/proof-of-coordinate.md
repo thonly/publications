@@ -122,6 +122,8 @@ The primitive is easiest to state as an orthogonality:
 
 The composition rule: a verified human presents *both* ("a human is here, and it is this human — or this persistent pseudonym of this human"); an agent presents PoC only, and its coordinate's provenance chain terminates at the institution that assigned it. The two proofs never substitute for each other. A system that accepts PoC alone where humanness matters admits well-individuated bots into human spaces; a system that accepts PoH alone where individuation matters admits sybil humans (one person, many accounts) into one-per-person spaces. Keeping the questions orthogonal is what lets each be answered by the minimal mechanism, with the minimal data, under the correct moral grammar.
 
+The orthogonality also has a brand-level rendering, specified in the companion brand-identity architecture ([brand-identity-as-architecture](https://thonly.org/research/brand-identity-as-architecture) §5.5): one mark, two proof-states — the **static** B-heart renders PoC (an individuated entity is present), the **beating** B-heart renders PoH (living humanness is attested) — so a verified human's mark beats and an agent's mark honestly stands still, and the composition table above becomes directly watchable. The rendering is a *signal*, never the proof: it binds only where a trusted surface renders the motion state from actual attestation, and absence-of-beat carries meaning only on surfaces where beating is possible.
+
 ## 4 · The mechanism
 
 ### 4.1 · The two-artifact identity root
