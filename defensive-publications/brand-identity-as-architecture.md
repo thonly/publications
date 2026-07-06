@@ -335,6 +335,34 @@ Reading the columns: the "brand function" is necessary but not unique to each in
 
 The moat is not the individual innovations (each replicable) but the integrated composition (substantially harder to replicate because doing so requires committing to all four constraints simultaneously, which most brand-identity practice does not do because its practitioners do not think of brand as architectural). A competitor adopting any one of the four innovations gains modest benefit; a competitor adopting all four would essentially be replicating HeartBank's identity system, which is protected at the trademark layer for specific marks but liberated at the architectural-pattern layer for general adoption.
 
+### 7.5 — The composition test passed at the character register: Tonsay™, the constitution a child can hug (added 2026-07-06)
+
+If the composition argument above is real, it should generate more than logos: the four primitives should compose into any brand object the institution later needs, without new invention. On 6 July 2026 the institution acquired its mascot — **Tonsay™** (Khmer ទន្សាយ, *rabbit*; role designation **B-Mascot™**), the bistable-ear moonfolk of the Factory 333™ canon — and the character is assembled from the four primitives of this paper without remainder:
+
+1. **The bistable shape (§3)** supplies the ears: read as elf-ears by Western eyes and rabbit-ears by Eastern eyes — one design, two true readings. This is the brand's third bistable figure (heart⊕B; static⊕beating; elf⊕rabbit), and the name performs the same trick in phonology: a Khmer ear hears the common noun *rabbit*; a Western ear hears an elvish proper name.
+2. **The naming convention (§4)** supplies the marks: `Tonsay™` as the character's name-mark, `B-Mascot™` as the role mark, both inside the family grammar.
+3. **The functional-motion doctrine (§5)** supplies his voice. Tonsay is mute — he pantomimes — and his single sound is the rabbit's single natural signal: the hind-foot **thump**, which is also his pestle-stroke, designed at the heartbeat cadence of §5.1 (~72 BPM). The motion-mark-as-signal doctrine, transposed from animation to audio and haptics.
+4. **The color-as-state primitive (§6)** supplies his fur, by subtraction: the fur owns no color. He renders in pearl-white and is tinted, at low saturation, by whatever surface he appears on — the aura system's colors pass through him exactly as §6 specifies for the mark. Internally the doctrine is stated in one sentence: *the mascot glows only with borrowed light.*
+
+**The canonical vignette — "The Reflection Returned."** A seven-star constellation in the shape of a rabbit — the stars are never absent from any render — holds a mortar-shaped half-moon in its arms and pours down a stream of hearts in seven colors (the six B-Gem colors plus diamond — which is also the architecture's media-type map, so the stream depicts the seven forms a witnessed thank-you can take) onto a lotus pond; the pond's reflection shows a *real* rabbit holding a *real* bowl. The mirror does doctrinal work for free: above the waterline the bowl pours (gives); in the reflection the same stream flows upward into the bowl (receives) — giving and receiving rendered as one gesture, mirrored, with the waterline as the zero between them: the Zero-Point Game ℠'s two poles as the image's two halves. Scale behavior inverts normal logo practice: at small sizes the figure survives as a solid hug-glyph (a rabbit-outline embracing a half-disc); at large sizes the body resolves into its stars — the closer the inspection, the less body there is. A figure that dissolves under scrutiny is a giver whose anonymity survives zoom.
+
+**Character-as-constitution.** Each element encodes a standing institutional commitment, which is the actual claim of this subsection — that a mascot can be a *constitutional document in a form a child can hug*:
+
+| Element | Commitment encoded |
+|---|---|
+| Constellation (pattern, no body) | The giver as inference, never spectacle — structural anonymity |
+| Colorless fur, aura-tinted | Owns no color; adds no lumen — non-accumulation at the render layer |
+| The bowl that pours | Pass-through: held only to be emptied |
+| The alms-bowl reflection | Receives without asking; by monastic rule, empties every day |
+| Reflection-as-real (fur below, stars above) | Witness makes the giver real — gratitude as the completing act |
+| Heaven/Earth double register | One figure: the aggregate-analysis reading for adults, the teacher for children |
+
+Conduct guards travel with the character: Tonsay is the folklore-tier *apprentice* of the Śaśa-Jātaka hare and never the hare itself; he appears on warm product surfaces and never on institutional ones; he is never the institutional AI's avatar and never speaks for her; and he teaches the Zero-Point Game ℠ but never keeps its score — scoring belongs to the unseen ledger. The umpire is unseen; the playmate is furry.
+
+**Lineage.** The hare drawn on the moon as witness to a perfect gift (Śaśa Jātaka, No. 316); the Jade Rabbit who pounds the elixir of deathlessness in the moon (East Asian folklore); the Khmer Judge Rabbit, Sophea Tonsay, the beloved wise hare of the beachhead culture; the Pañcatantra hare who styles himself *the Moon's ambassador* and proves it by pointing the elephant king to the moon's reflection in a lake — the ambassador role and the pond-reflection already joined in one ancient tale; the Velveteen Rabbit (Williams, 1922), in which love is what makes a rabbit real — the reflection's mechanism, stated for children a century early; the modern crescent-figure marks (DreamWorks' fishing boy) as the inverted contemporary referent — that figure pulls *up* out of the world, this one pours *down* into it; and responsive-logo practice for scale-adaptive rendering.
+
+**Calibration.** The character exists at specification level: an AI-drafted reference illustration precedes the commissioned design, and production details (exact star geometry at intermediate scales, the thump's audio design) belong to the illustrator and sound designer, not this paper. The character layer is protected by trademark and copyright, not patent; this subsection claims no mechanism — it documents that the composition of §7 closes over a new register. Section 3 argued the logo is a microcosm of the architecture. The extension here is one sentence: the logo is the microcosm an institution can print; the mascot is the microcosm a child can hug.
+
 ---
 
 ## 8 · Slogan and B-Heart Substitution Rule
