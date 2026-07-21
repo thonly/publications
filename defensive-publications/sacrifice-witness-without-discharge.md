@@ -33,7 +33,7 @@ This document and its contents are dedicated to the public domain under the Crea
 
 The following terms are coined in this paper and simultaneously freed with it: **sacrifice-witness**, **witness-without-discharge**, **the non-equation**, **ceremonial acknowledgment unit**, **phoneless bracketing**, **presence-marks**, **the anti-offset**. They may be used by anyone, for any purpose, without attribution.
 
-Components of this mechanism exist in distributed prior art — photographic food recognition (the calorie-scanning application class), species identification from images (iNaturalist and its relatives), location-based social mechanics, meditation-session applications, and the contemplative meal-reflection traditions surveyed in §9 and §12. The synthesis as specified — lifespan-biography witness with an explicit no-balance invariant, a duration-blind ceremonial response, a two-movement merit-dedication grammar with presence-marks, and structural absence of the mediating device during the practice — is, to the authors' knowledge, not previously published as a coherent architecture.
+Components of this mechanism exist in distributed prior art — photographic food recognition (the calorie-scanning application class), species identification from images (iNaturalist and its relatives), location-based social mechanics, meditation-session applications, and the contemplative meal-reflection traditions surveyed in §9 and §13. The synthesis as specified — lifespan-biography witness with an explicit no-balance invariant, a duration-blind ceremonial response, a two-movement merit-dedication grammar with presence-marks, and structural absence of the mediating device during the practice — is, to the authors' knowledge, not previously published as a coherent architecture.
 
 ---
 
@@ -43,7 +43,7 @@ Two failures motivate this mechanism, one contemplative and one economic.
 
 **The householder's gap.** The retreat works because it removes the choice: meals are served, sits are scheduled, and the practitioner's responsibilities wait outside the gate. The householder's life restores the choice and the practice loses its anchor — not for lack of sincerity but for lack of a *daily trigger* that survives contact with obligation. Meditation applications attack this problem with streaks, reminders, and gamified continuity, importing the attention economy's retention machinery into the one domain that exists to dissolve it. The result is well documented in the category's retention curves: the streak works until it breaks, and when it breaks it takes the practice with it, because the practice was anchored to the *score* rather than to anything in the practitioner's actual day.
 
-There is, however, a trigger that requires no streak, no reminder, and no gamification, because it is older than fire and arrives two to three times daily without fail: **the meal.** Nearly every contemplative tradition discovered this anchor centuries ago — the meal-reflection is among the most widespread of all lay practices (§12) — and modern habit research rediscovered it as the reliability of stacking a new behavior on an invariant daily event. The mechanism specified here is, at bottom, the oldest anchor connected to the oldest gratitude.
+There is, however, a trigger that requires no streak, no reminder, and no gamification, because it is older than fire and arrives two to three times daily without fail: **the meal.** Nearly every contemplative tradition discovered this anchor centuries ago — the meal-reflection is among the most widespread of all lay practices (§13) — and modern habit research rediscovered it as the reliability of stacking a new behavior on an invariant daily event. The mechanism specified here is, at bottom, the oldest anchor connected to the oldest gratitude.
 
 **The offset trap.** The economic failure is subtler and more dangerous. Systems that connect consumption to conscience almost universally adopt the *offset architecture*: measure the harm in some unit, price a remedy in the same unit, and let the consumer purchase equivalence. Carbon offsets are the contemporary flagship, and the empirical literature on *moral licensing* records the architecture's characteristic failure: establishing moral credit in one column licenses moral relaxation in another. Consumers who purchase green products cheat and steal more in subsequent tasks than those who merely viewed them (Mazar & Zhong 2010); moral self-licensing is a robust, replicated effect across domains (Merritt, Effron & Monin 2010). The offset does not merely leak; it *inverts* — the discharge mechanism becomes a consumption license. The historical anti-example is exact enough that we state it plainly: an architecture that quantifies transgression and sells its remission is an **indulgence market**, and the Reformation is the case study in how such markets end.
 
@@ -56,6 +56,12 @@ The answer specified below inherits its spine from doctrine this corpus has alre
 ---
 
 ## 2 · The Mechanism: One Loop, Two Movements
+
+### 2.1 · The canonical scene
+
+A father photographs lunch at the kitchen table. The application names the beings on the plate: *rice — one hundred twenty days, its whole season; a hen — forty-two days.* He taps once more and reads that her kind can live eight years. No number turns red; nothing is totaled; nothing is owed. That evening he walks the neighborhood with his daughter — the application suggested a short walk, as it would have after any meal — and before they leave, she pins the park at the corner, coarse, the whole block. Phones go into pockets. They walk, and they dedicate the walk to the hen and the rice, by name. At the park the daughter points the camera at a tree afterward and learns it is a tamarind, and that the sparrows in it are the hen's distant kin; she dedicates a wish to the sparrows too. At home, the rabbit with the jade bowl asks her what she saw, and never asks how long they walked. The father shares the dedication; by morning, an aunt in Kâmpôt has answered it with a single pin on the map — *I rejoiced with this* — and nothing else. No score changed anywhere in this scene, because no score exists.
+
+### 2.2 · The loop
 
 The full loop, in the order a user lives it:
 
@@ -87,7 +93,7 @@ The full loop, in the order a user lives it:
    no ledger on which a discharge could be entered.
 ```
 
-The two columns are the mechanism's two movements, and §12 names their lineage: the *vertical* dedication (to beings now departed) and the *horizontal* share (to a living community invited to rejoice). Everything else in this paper specifies one of the loop's six stations or the invariant that binds them.
+The two columns are the mechanism's two movements, and §13 names their lineage: the *vertical* dedication (to beings now departed) and the *horizontal* share (to a living community invited to rejoice). Everything else in this paper specifies one of the loop's six stations or the invariant that binds them.
 
 The contrast with the offset architecture, in one table:
 
@@ -118,7 +124,7 @@ For each being, the witness presents a short biography whose centerpiece is the 
 - a carrot: **~70 days** — its whole intended span
 - rice: **~120 days** — likewise complete
 
-The farmed number is the honest primary fact: it is the time that was actually given. The natural span is available one layer deeper, for the eater who wants the fuller biography — and the juxtaposition, where it exists, is presented *bare*. The mechanism's discipline here is **visibility, not verdict**: the numbers are facts; the application attaches no judgment, no red badge, no moral color-coding. (The design constraint this discipline serves — and the doctrinal honesty behind it — is stated in §11.) Wild-caught beings carry their conservation status as an additional bare fact. Where the recognition model is uncertain, the biography says so: a witness that guesses confidently is not a witness.
+The farmed number is the honest primary fact: it is the time that was actually given. The natural span is available one layer deeper, for the eater who wants the fuller biography — and the juxtaposition, where it exists, is presented *bare*. The mechanism's discipline here is **visibility, not verdict**: the numbers are facts; the application attaches no judgment, no red badge, no moral color-coding. (The design constraint this discipline serves — and the doctrinal honesty behind it — is stated in §12.) Wild-caught beings carry their conservation status as an additional bare fact. Where the recognition model is uncertain, the biography says so: a witness that guesses confidently is not a witness.
 
 ### 3.3 · What is deliberately absent: the total
 
@@ -154,6 +160,8 @@ Three interface corollaries, each individually claimed:
 2. **No duration display.** The practice session is neither timed on-screen, displayed in minutes, nor ranked; the log records *that* a practice was made and *to whom* it was dedicated — the moment, not the meter.
 3. **No streaks.** Continuity mechanics are excluded by design. The meal itself is the recurrence engine (§1); a streak would re-anchor the practice to a score and import the exact breakage dynamics the meal-anchor exists to escape. The only calendar the mechanism observes is a periodic *return to zero* — an emptying, not an accumulation.
 
+The full **refusal set**, enumerated as design commitments (the mechanism is defined as much by what it will not build as by what it builds): no balance · no discharge rate · no completion arithmetic · no duration display · no streaks · no leaderboards or rankings · no per-user totals · no dietary verdicts or prescriptions · no comment threads on dedications (the presence-mark is the *only* response primitive — removing, by construction, the surface on which food-shaming and moral brigading would otherwise occur) · no advertising on any witness or practice surface. Each refusal is individually load-bearing; together they are the non-equation's enforcement.
+
 ### 4.3 · Why this is the anti-offset
 
 With the non-equation and the no-balance invariant in place, the licensing pathway is structurally severed. Moral licensing requires a *credit* — a represented quantity of moral standing that consumption can spend. This mechanism represents no credit: the practice produces no fungible token, no score, no offset certificate, nothing that could be mentally banked against the next indulgence. What it produces is a *memory of having seen* — and the pre-registered wager of this design (P-G1, §10) is that seeing without settling shifts consumption *down or not at all*, where settling reliably shifts it up.
@@ -166,7 +174,7 @@ The economic statement of the same point, in the corpus's terms: the offset arch
 
 ### 5.1 · The vertical movement: dedication to the departed
 
-Before the practice, the user pins a location (coarse by default). During the practice, the user dedicates the walk or sit **to the beings witnessed at the meal** — beings that are, without exception, departed. The mechanism's cultural depth here is not incidental and §12 states its lineage precisely; the design fact is that the dedication is the practice's *aim*, transforming a generic mindfulness session into a directed act of gratitude with named recipients.
+Before the practice, the user pins a location (coarse by default). During the practice, the user dedicates the walk or sit **to the beings witnessed at the meal** — beings that are, without exception, departed. The mechanism's cultural depth here is not incidental and §13 states its lineage precisely; the design fact is that the dedication is the practice's *aim*, transforming a generic mindfulness session into a directed act of gratitude with named recipients.
 
 ### 5.2 · The horizontal movement: the share and the presence-marks
 
@@ -229,7 +237,7 @@ Enumerated as prior art; each is claimed severally and in combination:
 
 **The offset architecture (the anti-example).** Carbon-offset consumer products and markets; their moral-licensing literature (Mazar & Zhong 2010; Merritt, Effron & Monin 2010) and integrity critiques; and the historical indulgence as the architecture's oldest instance. This paper's mechanism is defined *against* this class, and the class is therefore its most important prior art.
 
-**Food-recognition applications.** The calorie-scanning class (MyFitnessPal and successors; the photograph-to-nutrition wave) established the interaction primitive this mechanism inherits — photograph the plate, receive an analysis — and equally established the pathology this mechanism must not inherit: quantified tracking's slide into obsession and moralized eating (§11).
+**Food-recognition applications.** The calorie-scanning class (MyFitnessPal and successors; the photograph-to-nutrition wave) established the interaction primitive this mechanism inherits — photograph the plate, receive an analysis — and equally established the pathology this mechanism must not inherit: quantified tracking's slide into obsession and moralized eating (§12).
 
 **Species identification.** iNaturalist and its computer-vision identification; Seek's accountless, child-safe on-device pattern; Pl@ntNet; Merlin. The park layer is an application of this class, not an extension of it; the contribution here is the linkage to the witness (the living-kin sentence) and to the dedication.
 
@@ -253,7 +261,23 @@ Stated 2026-07-21, before any implementation exists:
 
 ---
 
-## 11 · Honest Limits
+## 11 · The Adversarial Surface
+
+A defensive publication should attack its own mechanism. The attacks, and what answers them:
+
+**Farming.** The dominant abuse class of reward-bearing systems has no purchase here, for the strongest possible reason: **nothing mints.** The practice produces no token, credit, score, or rank; presence-marks are scoreless; the witness log confers nothing. A farmer who automates fake meals and fake dedications harvests an empty field. This is not a mitigation but a structural absence — the abuse economy requires a reward channel, and the mechanism contains none. (The corpus's published questline mechanism makes the same move for the same reason; the two publications jointly claim the *mints-nothing* family.)
+
+**Broadcast spam and performative flooding.** The horizontal movement is opt-in, secondary, human-verified at the provenance layer, and rationed rather than feed-optimized; with no follower counts, no virality mechanics, and no metric a flood could inflate, spam buys nothing and costs reputation among exactly the audience it hoped to reach.
+
+**Location abuse.** Pins are coarse by default, delayable, and anonymizable; the practice site need never be the home; the child mode's no-public-pin floor is absolute (§7.3). Residual risk parallels every location-optional social system and is treated with the same seriousness: safety review before launch, conservative defaults always.
+
+**False witness.** Malicious or erroneous meal claims (fabricated ingredients, staged dedications) corrupt only the fabricator's own private log — there being no reward, there is no fraud economy — and the public surface carries only what a verified human chose to dedicate. The graver integrity risk is the system's own recognition error, treated in §12 as a limit rather than an attack.
+
+**Moral brigading.** The historical failure mode of visible-virtue systems is the mob that polices others' virtue. The refusal set removes its instruments: no comments on dedications, no visible consumption data of *any other user* (the witness is private by construction — one can never see what another ate, only what they dedicated), no verdicts to enforce. One cannot shame what one cannot see.
+
+**Data poisoning of the commons.** Citizen-science contributions inherit the host platforms' identification-QA and community-verification machinery; the mechanism adds no bypass and defers entirely to those commons' governance.
+
+## 12 · Honest Limits
 
 **Unbuilt, n = 0.** The mechanism is design-complete and unimplemented. Every claim is architectural; every prediction is registered in advance of data; the family's own pilot history (small-n, confounded, honestly reported in prior publications) is the standard this project holds itself to, and this paper inherits it.
 
@@ -273,7 +297,7 @@ Stated 2026-07-21, before any implementation exists:
 
 ---
 
-## 12 · Lineage and Close
+## 13 · Lineage and Close
 
 *(This section carries the mechanism's cultural provenance; per this corpus's genre discipline it is labeled as lineage — grounding and translation, never mechanism. The mechanism of §§2–8 stands complete without it.)*
 
