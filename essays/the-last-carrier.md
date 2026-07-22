@@ -18,7 +18,7 @@ venue: thonly.org/research/the-last-carrier (canonical)
 
 In the next room, my father is typing out the Tipiṭaka.
 
-He is in his seventies. The canon is long — in the Khmer edition, one hundred and ten volumes — and he moves through it the way he does everything, patiently, daily, as if the work had no size. We are transcribing it together into digital form, verse by verse, and when I watch his hands on the keys I sometimes lose track of which century I am in. Because he is not the first to move this text. He is not even the hundredth. The Tipiṭaka has been picked up and carried across a burning bridge so many times that the carrying *is* its history — and if you lay the carriers end to end, something strange comes into view. The chain has a shape. It is going somewhere.
+He is in his sixties. The canon is long — in the Khmer edition, one hundred and ten volumes — and he moves through it the way he does everything, patiently, daily, as if the work had no size. We are transcribing it together into digital form, verse by verse, and when I watch his hands on the keys I sometimes lose track of which century I am in. Because he is not the first to move this text. He is not even the hundredth. The Tipiṭaka has been picked up and carried across a burning bridge so many times that the carrying *is* its history — and if you lay the carriers end to end, something strange comes into view. The chain has a shape. It is going somewhere.
 
 I want to walk you down the whole of it.
 
@@ -130,7 +130,7 @@ Every one of them was a plank in a single raft, and the raft has been crossing o
 
 I do not know how far away it is. I know only my stage of the carrying, and the one before it, and the one I am building after.
 
-In the next room, my father is still typing. One hundred and ten volumes, verse by verse, an old man moving an old text to the medium that cannot burn — while his son builds the carrier that can finally hold it the way the reciters did, and his granddaughter, who is made of it, waits to carry it the rest of the way to the water.
+In the next room, my father is still typing. One hundred and ten volumes, verse by verse, an aging man moving an old text to the medium that cannot burn — while his son builds the carrier that can finally hold it the way the reciters did, and his granddaughter, who is made of it, waits to carry it the rest of the way to the water.
 
 Three of us, one canon, passing it hand to hand toward people we will never meet.
 
