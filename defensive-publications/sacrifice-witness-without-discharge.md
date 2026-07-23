@@ -6,6 +6,7 @@ category: mechanism
 priority: tier-b
 status: draft
 date: 2026-07-21
+revised: 2026-07-23
 license: CC0-1.0
 slug: sacrifice-witness-without-discharge
 venue: thonly.org/publications/defensive-publications/sacrifice-witness-without-discharge (canonical)
@@ -216,6 +217,28 @@ The child's mode is governed by a hard privacy floor, stated as a claim because 
 
 Meal photographs are processed on-device where the platform permits, and are never required to leave the device; what leaves is what the user chooses to dedicate and share. Location pins are coarse by default, delayable, and anonymizable. The witness is private by construction; only the dedication is ever public, and only by choice.
 
+### 7.5 · The session light (design layer; no claim added)
+
+*Added 2026-07-23. This subsection describes a design layer above the mechanism specified in §§2–7. It adds no claim to §8 and amends none; every invariant of §4 governs it unchanged.*
+
+The park layer poses a design problem the witness layer does not. The witness is complete in a moment — a meal is seen, its beings are named, the practitioner sits. The walk is extended, voluntary, and easy to abandon; it is precisely the surface on which a gratitude application is most tempted to reach for the retention mechanics the rest of this paper refuses.
+
+The resolution keeps the refusal and supplies the pull from the opposite direction. The walk carries a **session state that begins full and descends toward empty as the practitioner gives** — each living kin met and dedicated to, each wish sent, each site identification contributed to the commons draws it down. The state is **never rendered as a number**. It is rendered as **colour**: a light that travels the palette as the session empties, arriving at white when nothing is left held. A practitioner reads their session the way one reads a sky, not the way one reads a balance.
+
+Six commitments hold this consistent with the mechanism rather than making it an exception:
+
+**The firewall (load-bearing).** The session light exists **only on the horizontal movement** — the walk toward the living kin (§5, §7.1). It never appears on the vertical movement, and no session state is ever computed over a meal. Nothing about the consumed beings is emptied, settled, or whitened; §4's non-equation is untouched because the light never touches the meal. What descends is the practitioner's own holding of goodwill toward the living, never a debt to the departed.
+
+**Descent, not accumulation.** The state's motion is downward and its terminus is zero. It is not a score that grows with practice; it is held goodwill that the practice *spends*. A practitioner who gives nothing keeps a full light and has thereby accumulated nothing; a practitioner who gives everything ends at white and carries nothing forward. Whatever goes unspent returns with the next session's beginning rather than banking — §4's return-to-zero calendar in miniature, per session rather than per year.
+
+**Colour is not a metric.** The light carries no numeral, no total, no rank, no comparison, and no continuity mechanic. It is not summed across sessions, not displayed as a history, and not comparable between practitioners: two people at white have each finished their own session and stand in no relation whatever. This is §5's presence-mark discipline applied to the session's own state — a mark that something happened, carrying no measure of how much.
+
+**Two lights, one palette (a naming discipline).** This corpus already specifies a persistent visual signal earned by a person's real giving history across the wider system. The session light is a **different signal drawn in the same palette**: persistent versus ephemeral, history versus session, earned versus spent. The two must remain visually distinct in form, and product copy must never call the session light by the persistent signal's name. Collapsing them would silently convert an unscored session state into a reputation — the exact failure this subsection exists to prevent.
+
+**The vow, and the silence it does not inspect.** A practitioner may close a session by committing to sit. The **commitment**, not the sit, is what the design registers: the light resolves to its terminal state at the moment of the resolve, and the sit itself passes unobserved, unverified, and untimed, exactly as §6 requires. This is deliberate rather than approximate. A resolve is something a person can honestly declare; the quality of a silence is not something an application can know, and a design that tried to know it would have to put the screen back inside the practice. A practitioner who declares the vow and does not sit has gained a colour and nothing else — there is no economic surface to defraud, which is why an honest declaration is sturdy enough to build on.
+
+**No walk is required.** A session may consist of the vow alone. Rain, illness, limited mobility, grief, and a biodiversity-poor neighbourhood are each sufficient reason, and none of them caps the light: the terminal state is reachable by resolve from anywhere. The walk's pull is the delight of meeting the living kin, never privileged access to the colour. This is stated as a commitment because the alternative quietly rations the practice by geography, and the practitioners with the fewest parks are seldom the ones with the most of anything else.
+
 ---
 
 ## 8 · The Claims
@@ -292,6 +315,8 @@ A defensive publication should attack its own mechanism. The attacks, and what a
 **The instrumentation question is not dissolved.** Whether app-mediated gratitude practice deepens practice or flattens it is an open empirical and contemplative question. Phoneless bracketing is the strongest structural answer available — the device is absent from the practice itself — but bracketing is a mitigation, not a proof, and the tradition's own answer (that the practice eventually needs no instrument at all) is the horizon this product should be judged against: the best outcome for a user is to one day not need it.
 
 **The horizontal movement can drift performative.** No-score architecture removes performance's usual rewards, not its possibility. The metric discipline (practices-inspired, never watch-time) and the opt-in secondary status of sharing are the containments; the drift is named as a permanent adversary rather than a solved problem.
+
+**The session light is the design's most gamifiable surface, and naming it that is the mitigation's first half.** A colour that descends as one gives is one product decision away from a colour that ascends as one returns — and every constraint in §7.5 (no numeral, no total, no history, no comparison, no streak, no walk-gate) exists because the un-constrained version of that surface is the retention mechanic this whole paper refuses. The constraints are architectural, but they are also the most likely thing to be traded away under growth pressure. They are recorded here so that any future relaxation is legible as a departure rather than an evolution.
 
 **The data commons dependency.** The park layer depends on public biodiversity infrastructure and its terms of use; the citizen-science give-forward depends on those commons remaining open. These are external dependencies honestly outside this design's control.
 

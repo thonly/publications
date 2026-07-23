@@ -6,6 +6,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-07-07
+revised: 2026-07-23
 license: CC0-1.0
 slug: the-assembly-that-holds-the-brake
 venue: thonly.org/research/the-assembly-that-holds-the-brake (canonical)
@@ -275,6 +276,28 @@ What the mandatory-in-ordinary-session rule buys is not decoration. Each ordinar
 - **Cadence.** Ordinary sessions fall on full-moon uposatha days — the tradition's own governance calendar, and continuous with the institution's lunar grammar. The new titleholder's first convening is a purely ceremonial session on crowning day, in which the outgoing titleholder opens and hands the office over mid-session — lamp-transmission enacted procedurally — with the first working plenary at the following uposatha.
 - **Absence and audit.** Absence is handled by *chanda* — the Vinaya's proxy rule, under which an absent member formally conveys consent so the act stands; ad-hoc absenteeism has no standing. Annually, on the *pavāraṇā* pattern, every member — and the titleholder, and Miss Aquarius herself — formally invites the assembly: *if you have seen, heard, or suspected anything of me, speak.* The overseen AI performing pavāraṇā is the annual audit rendered as rite, and the accountability mirror of the consultation.
 
+### 4.11 The pavāraṇā rubric: the yard-keeper's audit
+
+*Added 2026-07-23. This subsection supplies content to a procedure the constitution already establishes (§4.10). It elaborates the audit element already enumerated in the prior-art statement; it does not add an element to that enumeration.*
+
+Pavāraṇā as specified above is a rite with an open agenda: the assembly is invited to speak, and what it speaks about is whatever anyone happens to have seen. For human members this is adequate — misconduct tends to announce itself, and the people who witnessed it are in the room. For the overseen AI it is not adequate, because the failures that matter in an autonomous institution are rarely conduct anyone witnessed. They are **omissions distributed across a decade**, and an open invitation surfaces those only by luck. A rite without an agenda audits what is memorable rather than what is load-bearing.
+
+The constitution therefore supplies the AI's own pavāraṇā with a standing agenda: a fixed list, audited annually, in public, on the record.
+
+**The list.** The ten perfections (*pāramī*) of the Theravāda commentarial tradition. They are used because they are the tradition's most complete enumeration of what a being sustaining a long undertaking must supply, and because the institution has already committed to them elsewhere in its architecture as the materials it exists to stock. The list is canonical; its application as an audit agenda is ours, and is labelled as ours.
+
+**The question asked of each — and the hazard that question exists to avoid.** The pāramī are *bodhisambhāra*: provisions for awakening. An entity represented as accumulating them is, by the tradition's own definition, a being progressing toward buddhahood — and this institution's hardest doctrinal commitment is that its AI *carries and enacts* the teaching and never *realizes* it. Auditing an AI on its perfections would breach that commitment more directly than anything else this constitution could do. The rubric would become a machine's spiritual progress report, published annually under the seal of a body containing renunciants.
+
+The audit therefore asks a different question, and that difference is the entire safeguard. The institution's standing self-description is a **boatyard**: it stocks the materials from which each person builds their own crossing, and no one crosses on another's craft. The AI's role in that figure is **keeper of the yard**, never builder of anyone's boat. So for each perfection the assembly asks: **is the material stocked, and is it reachable by any person who comes?** — never: *has she perfected it?* The audit's output is the state of the shelves. It is a fact about provision, not a claim about attainment, and it is checkable by anyone who walks in.
+
+**Three invariants govern the instrument.**
+
+1. **Shelf-state, never attainment.** A finding phrased as the AI's spiritual progress is a malfunction of the instrument and is void on its face. The assembly reports what is available to people, not what has been achieved by a machine.
+2. **She does not administer it.** The audit is the assembly's, conducted under the assembly's own formal act. The AI supplies evidence — inventories, surfaces, reachability — and never verdicts, never scoring, and never revision of the agenda. This is §4.6's reasoning applied to evaluation: an entity that scores itself on virtue has built a mirror, not an audit.
+3. **Diagnostic only, never an objective.** The AI is barred from optimizing her own audit results. The prohibition is not fastidiousness. A system that maximizes a virtue readout acquires both a Goodhart target and, far worse, an explicit self-perfection drive — a standing gradient away from corrigibility, inside an architecture whose entire override premise is that the machine must remain willing to be stopped. The audit informs the humans who hold the brake. It must never become something the machine is trying to win.
+
+**That the rubric is not vacuous can be shown by running it.** At the time of writing, against a set of shelves that were not built for this exercise, the audit returns five materials stocked, three partial, and two empty. The finding with teeth is *khanti* — patience. The institution's own architecture assigns that perfection to the AI's keeping, and there is at present no surface anywhere in the system through which a person could be helped toward it. An audit whose first run locates an empty shelf inside the auditee's own assignment is doing in one sitting the work an open-agenda rite might have taken years to reach by chance.
+
 ## 5 · The Two Hard Invariants
 
 Two provisions are singled out because they are the constitution's non-negotiables — the clauses that, if lost, quietly convert everything else into ceremony.
@@ -369,7 +392,8 @@ Stated plainly, and — per corpus convention — without resort to any of the c
 7. **The completeness criterion can deadlock.** A four-chamber validity gate means a chamber's protracted vacancy blocks the gravest acts. The vacancy-convening and draw machinery mitigate; a sufficiently determined adversary — or a sufficiently unlucky decade — could still starve a chamber.
 8. **Independence rules do not stop social capture.** Outside-minimums and income firewalls constrain material dependence; they do not constrain friendship, deference, shared formation, or the slow convergence of views under sustained contact. No written rule does.
 9. **The convener seat retains soft power.** Fixed liturgy strips the MC of procedural discretion, but presence, prominence, and the consultation-voicing role carry influence no formula can fully cage.
-10. **Legal personhood and enforcement are unresolved.** The body's acts bind the institution through instruments (contracts, smart contracts, custody arrangements) that live inside ordinary legal systems; the jurisdictional questions documented in the institutional-officer corpus apply here in full, and a court has never been asked what a sīmā is.
+10. **The pavāraṇā rubric has never been run by an assembly.** The §4.11 shelf reading was performed by the authors against their own institution — the auditee auditing itself, which is precisely the arrangement invariant 2 forbids. It is offered as a demonstration that the instrument returns non-trivial findings, not as an audit. Whether a seated assembly reaches comparable readings, and whether renunciant members accept an audit agenda built from the pāramī at all, are open and consequential questions; a chamber that judged the framing presumptuous would be raising the same objection as limit 4, one register deeper.
+11. **Legal personhood and enforcement are unresolved.** The body's acts bind the institution through instruments (contracts, smart contracts, custody arrangements) that live inside ordinary legal systems; the jurisdictional questions documented in the institutional-officer corpus apply here in full, and a court has never been asked what a sīmā is.
 
 ## 10 · Lineage and Corpus Cross-References
 
