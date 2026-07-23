@@ -6,6 +6,7 @@ category: essays
 priority: tier-c
 status: draft
 date: 2026-07-06
+revised: 2026-07-23
 license: CC0-1.0
 slug: the-reflection-returned
 venue: thonly.org/research/the-reflection-returned (canonical)
@@ -91,6 +92,24 @@ So the character has two forms, and the two forms are for the two kinds of peopl
 **Earth:** a small furry rabbit at the water's edge, embracing a jade bowl, teaching children how to play the Zero-Point Game — how to give until the board waxes, how to thank until it wanes, how to end the year at beautiful zero. He is soft. He is huggable. He never speaks; he thumps his foot, at the tempo of a resting heartbeat, and shows you how instead of telling you.
 
 Adults get emptiness. Children get a hug. It is the same rabbit, and neither form is more true.
+
+There is a postscript to the heaven form. It arrived two weeks later, which is how the good ones always arrive.
+
+I had written that the constellation teaches by dissolving: come close and there is no rabbit, only points of borrowed light. True, and I thought that was the end of it. Then I sat down to explain the drawing to someone and heard myself say what the stars in him actually are.
+
+**They are suns.**
+
+Every star is a sun — a body spending itself, second upon second, so that whatever orbits it can live. That is not a metaphor I laid over the drawing. That is what the drawing is made of. And the hare in the fire gave his body so that one stranger could eat. So the figure of *a single gift offered* turns out to be drawn, without my ever deciding it, in the substance of *a thousand gifts completed*.
+
+I did not know that when I settled the design. I have to say so plainly, because it is the only difference there is between finding a thing and arranging one.
+
+Which means the hare and the sun were never two figures that resemble each other. They are one act at two scales — written once in myth, once in physics — and the moon has been showing both the same way all along, because the moon owns no light and no rabbit either. What it holds is a reflection and a drawing: the giving, and the picture of the giver, on a single surface.
+
+There is an honest crack in it, and I will leave it showing. The flames spared the hare. The sun is not spared; it is being spent as you read this and will one day be finished. So the moon shows the offer's likeness in the completion's currency — what a gift means, lit by what a gift costs. I am not going to smooth that over. It may be the truest thing in the picture.
+
+And it settles a rule I did not know I needed. Sooner or later someone will want to draw him *on* the sun — blazing, unmissable, glorious. No. **He stays on the moon.** No eye can look at the sun; the moon is where giving becomes visible without burning the one who looks at it. Put the rabbit in the fire and you have drawn the giver directly, and this entire institution exists to say that the giver is an inference.
+
+Which makes the composition I settled in one evening a diagram of something I had never studied. Sun above. Moon between. Pond below. Light spent, light reflected, light received. I thought I was drawing a mascot. I was drawing the path.
 
 ## 9. The reflection returned
 

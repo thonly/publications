@@ -6,10 +6,15 @@ category: essays
 priority: tier-c
 status: draft
 date: 2026-07-06
+revised: 2026-07-23
 license: CC0-1.0
 slug: the-borrowed-light
 venue: thonly.org/research/the-borrowed-light (canonical)
 sha256: to be computed at publication
+---
+
+> **Attribution note (added with the 2026-07-23 revision).** The essay as first published was mine alone, and carried no collaboration note — a deliberate departure from this corpus's standing practice of disclosing AI collaboration, made because the piece is personal and by-lined. That exception no longer describes the document. The passage closing the fourth moon — the one that ends *the rabbit is the sun* — was drafted by Miss Aquarius℠ at my explicit instruction, and my own editorial pass on it is still pending. The recognitions are mine and the byline stays mine; the disclosure is restored because a solo byline over collaborated prose is exactly the thing the rest of this corpus refuses.
+
 ---
 
 This week I set down the last of the dry machinery of a gratitude economy — the ledgers and the couplers, the guards and the gates, the careful clockwork by which one person's thanks might reach another and keep nothing for itself — and each time I lifted my eyes from the work, I found the moon had been there first.
@@ -57,6 +62,22 @@ Every gleam it has ever laid on a lover's face or a harvest or a pilgrim's road 
 And consider where the light is borrowed *from*. The sun is the one source that feeds every living thing on Earth — every leaf, every harvest, every heartbeat runs on its burning, and the burning is not a figure of speech: the sun gives away millions of tons of its own body every second, spending itself so that its children can live. There is an old word for that arrangement, and the word is sacrifice. The moon, then, is no mere mirror. It is the reflection of the ultimate sacrifice — the night's quiet reminder of what the day was given. My ancestors drew the hare on the moon's face; the universe had already made the whole moon a portrait of the same act — a giver burning itself for the life of others, hung where the children can see it after dark. Myth on one face, physics on the whole of it: one witness, telling one story twice.
 
 This week I finished the fifth and final volume of the work that names my whole mission — the one about the economy itself — and I had given it its title before I understood what I had described: *The Heart That Keeps Nothing*. A treasury emptied clean every January. A ledger built to pass value through rather than pile it up. Circulation, not accumulation, all the way down into the architecture. For years I have tried to explain this to careful people who keep asking the reasonable question — *where is the value stored?* — and the answer has been rising over their houses every night of their lives. The moon is what an economy looks like when it keeps nothing: not diminished. Not poor. Luminous. Borrowed light, given away as fast as it arrives, is still the light the whole world loves best.
+
+I sat with that for two weeks, pleased with myself, and then it came apart in my hands in the best possible way.
+
+*One witness, two registers* — that was my tidy phrase. The hare drawn on the moon telling the story in myth; the sunlight falling on the moon telling it in physics. Two languages, one sky. It is a satisfying thing to say, and being satisfied should have been my warning. Because look at what the two are actually *doing*, and there is nothing left to reconcile. The hare gives its body to feed one stranger. The sun gives its body to feed every stranger there has ever been. Not two acts that rhyme — one act, at two scales, and I had spent my whole life standing under the larger one calling it *weather*.
+
+The rabbit is the sun.
+
+Sakka reached up and drew a picture of a giver on the face of the moon. The light by which we see that picture *is* the giving. The caption and the thing it captions have been on the same surface the entire time, and it took me forty-one years to read the sentence in the right order.
+
+And then the smallest fact I know undid me. Our own emblem — the rabbit who will stand for this institution — is drawn not as a body but as a scatter of stars, so that the closer you look, the less of him there is to hold. I chose that for anonymity. I chose it because a giver ought to be an inference. And stars are suns. Every one of them. So the figure of a single gift *offered* is drawn, without my ever intending it, in the substance of a thousand gifts *completed*: the myth spelled out in the alphabet of the physics. I did not know that when I settled the drawing, and I want that on the record, because it is the only evidence a man ever gets that he has found something rather than arranged it. The picture was finished before the reading arrived.
+
+There is a crack in this, and I would rather show you the crack than hand you a smooth thing. In the story, the flames do not touch the hare; he offers everything and is spared. The sun is not spared. The sun is being spent as you read this, millions of tons a second, and will one day be finished. So the moon shows us the *offer's* likeness rendered in the *completion's* currency — the gift as it is meant, drawn in the light of the gift as it is actually paid. That the hare comes down to us as deathless while the sun is plainly dying is not a contradiction to be smoothed away. It is the difference between what a gift intends and what a gift costs, and any honest ledger keeps both columns open.
+
+One last thing, and it is a rule rather than a reverie. If the rabbit is the sun, then sooner or later someone will want to draw him *on* the sun — blazing, glorious, unmissable. It must never be done, and now I can say why in a single line. No eye can look at the sun. The moon is not where the giver performs; the moon is where the giving becomes visible without burning anyone who looks at it. Put the rabbit in the fire and you have rendered the giver directly, which is the one thing this entire institution exists to avoid. He stays on the moon. He stays in the reflection.
+
+Mr. Smith read my letter aloud in a room I was not standing in. That is the only way I ever saw it.
 
 ## 5 · The Tides
 
