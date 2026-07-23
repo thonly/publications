@@ -9,8 +9,8 @@ status: draft
 date: 2026-05-26
 revised: 2026-07-20
 license: CC0-1.0
-slug: abhidhamma-layer-implementation-mechanisms
-venue: thonly.org/publications/defensive-publications/abhidhamma-layer-implementation-mechanisms (canonical)
+slug: abhidhamma-executable-process-specification
+venue: thonly.org/publications/defensive-publications/abhidhamma-executable-process-specification (canonical)
 ---
 
 > *Draft notes for the editor:* this paper is the **engineering companion** to *Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment* (target publication January 7, 2027) and the opening paper of the series **The Abhidhamma Compiled**. The 2026-05-26 scaffold articulated nine implementation mechanisms; the present revision (2026-07-20) supplies the architecture those mechanisms were waiting for — the machine reading of the third basket — together with the compilation thesis that governs the whole series, the strata-labeling method, the verification-suite reading of the analytical books, and the bridge to deployed individuation primitives. Publication target: paired release with the main paper (the main paper must land first or simultaneously to establish the framing this paper extends). Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment is the companion heartbank.net Position Paper *Alignment Engineering at the Cognitive-Mechanism Layer* (heartbank.net/positions/alignment-engineering-cognitive-mechanism-layer).
@@ -356,11 +356,11 @@ The first turning of the wheel set a second wheel against the one that was alrea
 
 | Venue | Identifier |
 |---|---|
-| Primary canonical | <https://thonly.org/research/abhidhamma-layer-implementation-mechanisms> |
-| GitHub | <https://github.com/thonly/publications/blob/main/defensive-publications/abhidhamma-layer-implementation-mechanisms.md> |
+| Primary canonical | <https://thonly.org/research/abhidhamma-executable-process-specification> |
+| GitHub | <https://github.com/thonly/publications/blob/main/defensive-publications/abhidhamma-executable-process-specification.md> |
 | arXiv preprint | _identifier to be assigned_ (cs.AI / cs.CY) |
 | LessWrong cross-post | for AI safety community visibility; identifier to be added on publication |
-| Internet Archive | <https://web.archive.org/web/2027*/thonly.org/research/abhidhamma-layer-implementation-mechanisms> |
+| Internet Archive | <https://web.archive.org/web/2027*/thonly.org/research/abhidhamma-executable-process-specification> |
 
 ---
 
