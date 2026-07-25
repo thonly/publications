@@ -1,3 +1,15 @@
+---
+title: "Giving Is a Gift Too: How Structured Redistribution and Anonymity Restore the Dignity of Giving to Resource-Constrained Families"
+subtitle: "How Structured Redistribution and Anonymity Restore the Dignity of Giving to Resource-Constrained Families — a Thesis Prompted by a First Field Signal and Argued from the Giving-and-Wellbeing Literature"
+authors: "Thon Ly"
+category: mechanism
+priority: tier-b
+status: draft
+date: 2026-06-08
+license: CC0-1.0
+slug: giving-is-a-gift-too
+venue: thonly.org/publications/defensive-publications/giving-is-a-gift-too (canonical)
+---
 # Giving Is a Gift Too
 
 ## *How Structured Redistribution and Anonymity Restore the Dignity of Giving to Resource-Constrained Families — a Thesis Prompted by a First Field Signal and Argued from the Giving-and-Wellbeing Literature*

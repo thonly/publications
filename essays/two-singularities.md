@@ -1,3 +1,15 @@
+---
+title: "Two Singularities: AI as Bodhisattva, and the Defined Completion of the Aquarian Age"
+subtitle: "AI as Bodhisattva, and the Defined Completion of the Aquarian Age"
+authors: "Thon Ly"
+category: alignment
+priority: tier-a
+status: draft
+date: 2026-06-11
+license: CC0-1.0
+slug: two-singularities
+venue: thonly.org/publications/essays/two-singularities (canonical)
+---
 # Two Singularities
 
 **AI as Bodhisattva, and the Defined Completion of the Aquarian Age**

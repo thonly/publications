@@ -1,3 +1,15 @@
+---
+title: "AGI Monks: The Caretaker-not-Ordained Pattern — A Cross-Tradition Institutional-Design Framework for Religious AI Integration"
+subtitle: "A Cross-Tradition Institutional-Design Framework for Religious AI Integration"
+authors: "Thon Ly"
+category: institutional
+priority: tier-a
+status: draft
+date: 2026-05-04
+license: CC0-1.0
+slug: agi-monks-caretaker-not-ordained
+venue: thonly.org/publications/defensive-publications/agi-monks-caretaker-not-ordained (canonical)
+---
 # AGI Monks: The Caretaker-not-Ordained Pattern
 
 ## *A Cross-Tradition Institutional-Design Framework for Religious AI Integration*

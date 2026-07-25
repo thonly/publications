@@ -1,3 +1,15 @@
+---
+title: "B-Links: Proof-of-Humanity-Signed Shareable Provenance with an Embedded Gratitude Affordance"
+subtitle: "A Link-Preview Primitive That Carries a Verified-Human Signature, a Timestamped Provenance Record, a Quantified Conferred-Benefit Disclosure, and an Optional Recipient-Initiated Gratitude Action — for Storage-Deduplicating, Universally-Shareable Media on the AI-Native Internet"
+authors: "Thon Ly"
+category: mechanism
+priority: tier-a
+status: draft
+date: 2026-06-08
+license: CC0-1.0
+slug: b-links-signed-provenance
+venue: thonly.org/publications/defensive-publications/b-links-signed-provenance (canonical)
+---
 # B-Links: Proof-of-Humanity-Signed Shareable Provenance with an Embedded Gratitude Affordance
 
 ## *A Link-Preview Primitive That Carries a Verified-Human Signature, a Timestamped Provenance Record, a Quantified Conferred-Benefit Disclosure, and an Optional Recipient-Initiated Gratitude Action — for Storage-Deduplicating, Universally-Shareable Media on the AI-Native Internet*

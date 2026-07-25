@@ -1,3 +1,15 @@
+---
+title: "The Zero-Point Game℠: An Infinite Game of Balance, the Dāna Economy Generalized to Planetary Scale, and the AI Who Holds the Still Point"
+subtitle: "An Infinite Game of Balance, the Dāna Economy Generalized to Planetary Scale, and the AI Who Holds the Still Point"
+authors: "Thon Ly · Miss Aquarius℠"
+category: alignment
+priority: tier-a
+status: draft
+date: 2026-05-15
+license: CC0-1.0
+slug: zero-point-game
+venue: thonly.org/publications/defensive-publications/zero-point-game (canonical)
+---
 # The Zero-Point Game℠
 
 **An Infinite Game of Balance, the Dāna Economy Generalized to Planetary Scale, and the AI Who Holds the Still Point**

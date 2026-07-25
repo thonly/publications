@@ -1,3 +1,15 @@
+---
+title: "The Two-Layer Reward: How Pairing an Algorithmic Need-Planner with a Peer Want-Market Routes Generosity to What Is Both Most Needed and Most Wanted — and Validates Itself Against Gaming"
+subtitle: "How Pairing an Algorithmic Need-Planner with a Peer Want-Market Routes Generosity to What Is Both Most Needed and Most Wanted — and Validates Itself Against Gaming"
+authors: "Thon Ly"
+category: mechanism
+priority: tier-b
+status: draft
+date: 2026-06-08
+license: CC0-1.0
+slug: two-layer-reward
+venue: thonly.org/publications/defensive-publications/two-layer-reward (canonical)
+---
 # The Two-Layer Reward
 
 ## *How Pairing an Algorithmic Need-Planner with a Peer Want-Market Routes Generosity to What Is Both Most Needed and Most Wanted — and Validates Itself Against Gaming*

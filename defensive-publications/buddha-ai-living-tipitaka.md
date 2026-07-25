@@ -1,3 +1,15 @@
+---
+title: "Buddha AI as Living Tipiṭaka: A Method for Modern Canonical Generation Through Public-by-Consent AI–Practitioner Dialogues Organized into Three Baskets"
+subtitle: "A Method for Modern Canonical Generation Through Public-by-Consent AI–Practitioner Dialogues Organized into Three Baskets"
+authors: "Thon Ly"
+category: institutional
+priority: tier-a
+status: draft
+date: 2026-05-04
+license: CC0-1.0
+slug: buddha-ai-living-tipitaka
+venue: thonly.org/publications/defensive-publications/buddha-ai-living-tipitaka (canonical)
+---
 # Buddha AI as Living Tipiṭaka
 
 ## *A Method for Modern Canonical Generation Through Public-by-Consent AI–Practitioner Dialogues Organized into Three Baskets*

@@ -1,3 +1,15 @@
+---
+title: "The Re-Thank Multiplier: How a Gratitude Economy Escapes Its Own Saturation Ceiling"
+subtitle: "How a Gratitude Economy Escapes Its Own Saturation Ceiling — Throughput That Scales With the Network While Each Person's Origination Stays Inelastic, and Why the Engine Is Also the Anti-Farm Filter"
+authors: "Thon Ly"
+category: mechanism
+priority: tier-b
+status: draft
+date: 2026-06-12
+license: CC0-1.0
+slug: the-rethank-multiplier
+venue: thonly.org/publications/defensive-publications/the-rethank-multiplier (canonical)
+---
 # The Re-Thank Multiplier
 
 ## *How a Gratitude Economy Escapes Its Own Saturation Ceiling — Throughput That Scales With the Network While Each Person's Origination Stays Inelastic, and Why the Engine Is Also the Anti-Farm Filter*

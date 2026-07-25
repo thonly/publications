@@ -1,3 +1,15 @@
+---
+title: "Cautionary-Mirror Framing of the Singularity: Seven Underlying Ideas of The Age of Capricorn, Dedicated to the Commons"
+subtitle: "Seven Underlying Ideas of The Age of Capricorn, Dedicated to the Commons"
+authors: "Thon Ly"
+category: alignment
+priority: tier-a
+status: published
+date: 2026-05-03
+license: CC0-1.0
+slug: cautionary-mirror-singularity
+venue: thonly.org/publications/essays/cautionary-mirror-singularity (canonical)
+---
 # Cautionary-Mirror Framing of the Singularity
 
 ## *Seven Underlying Ideas of The Age of Capricorn, Dedicated to the Commons*

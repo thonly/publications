@@ -1,3 +1,15 @@
+---
+title: "Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance: A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening"
+subtitle: "A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening"
+authors: "Thon Ly"
+category: alignment
+priority: tier-a
+status: draft
+date: 2026-05-04
+license: CC0-1.0
+slug: respiratory-biofeedback-contemplative-guidance
+venue: thonly.org/publications/defensive-publications/respiratory-biofeedback-contemplative-guidance (canonical)
+---
 # Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance
 
 ## *A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening*

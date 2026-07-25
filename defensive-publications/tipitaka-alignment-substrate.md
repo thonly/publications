@@ -1,3 +1,15 @@
+---
+title: "Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment"
+subtitle: "The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment"
+authors: "Thon Ly"
+category: alignment
+priority: tier-a
+status: draft
+date: 2026-06-11
+license: CC0-1.0
+slug: tipitaka-alignment-substrate
+venue: thonly.org/publications/defensive-publications/tipitaka-alignment-substrate (canonical)
+---
 # Suffering-Cessation as Value Function
 
 **The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment**

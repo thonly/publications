@@ -1,3 +1,15 @@
+---
+title: "The Studio and the B-Short Bridge: A Private-to-Public Toggle as the Phase-1-to-Phase-2 Crossing"
+subtitle: "A Per-Artifact Private-to-Public Toggle as the Phase-1-to-Phase-2 Crossing of a Gratitude Economy — One Primitive That Carries a Family-Scale Ledger Onto a Global Settlement Layer"
+authors: "Thon Ly"
+category: mechanism
+priority: tier-b
+status: draft
+date: 2026-06-12
+license: CC0-1.0
+slug: studio-b-short-phase-bridge
+venue: thonly.org/publications/defensive-publications/studio-b-short-phase-bridge (canonical)
+---
 # The Studio and the B-Short Bridge
 
 ## *A Per-Artifact Private-to-Public Toggle as the Phase-1-to-Phase-2 Crossing of a Gratitude Economy — One Primitive That Carries a Family-Scale Ledger Onto a Global Settlement Layer*

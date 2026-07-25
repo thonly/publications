@@ -1,3 +1,15 @@
+---
+title: "Verified-Human Anonymous Local Gratitude Transfer"
+subtitle: "A digital-payment primitive combining biometric human-presence verification with physical-radio proximity attestation to enable anonymous gratitude flow between geographically-nearby humans."
+authors: "Thon Ly"
+category: mechanism
+priority: tier-a
+status: draft
+date: 2026-05-22
+license: CC0-1.0
+slug: verified-human-anonymous-local-giving
+venue: thonly.org/publications/defensive-publications/verified-human-anonymous-local-giving (canonical)
+---
 # Verified-Human Anonymous Local Gratitude Transfer
 
 **A digital-payment primitive combining biometric human-presence verification with physical-radio proximity attestation to enable anonymous gratitude flow between geographically-nearby humans.**

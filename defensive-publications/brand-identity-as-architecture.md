@@ -1,3 +1,15 @@
+---
+title: "Brand Identity as Architecture: The B-Heart Logo, B-Prefix Naming, Heartbeat Animation as Functional Proof-of-Humanity Signal, and Aura-Color Cross-Currency State Primitive"
+subtitle: "The B-Heart Logo, B-Prefix Naming Convention, Heartbeat Animation as Functional Proof-of-Humanity Signal, and Aura-Color Cross-Currency State Primitive"
+authors: "Thon Ly"
+category: institutional
+priority: tier-c
+status: draft
+date: 2026-05-04
+license: CC0-1.0
+slug: brand-identity-as-architecture
+venue: thonly.org/publications/defensive-publications/brand-identity-as-architecture (canonical)
+---
 # Brand Identity as Architecture
 
 ## *The B-Heart Logo, B-Prefix Naming Convention, Heartbeat Animation as Functional Proof-of-Humanity Signal, and Aura-Color Cross-Currency State Primitive*

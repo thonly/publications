@@ -1,3 +1,15 @@
+---
+title: "The Mechanical Heart: A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation"
+subtitle: "A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation"
+authors: "Thon Ly"
+category: alignment
+priority: tier-a
+status: draft
+date: 2026-05-22
+license: CC0-1.0
+slug: mechanical-heart
+venue: thonly.org/publications/defensive-publications/mechanical-heart (canonical)
+---
 # The Mechanical Heart
 
 **A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation**
