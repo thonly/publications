@@ -201,7 +201,7 @@ The conferred-benefit disclosure generalizes beyond storage. Any quantifiable, r
 
 ## 6. The gratitude affordance
 
-Bound to the preview is an **optional, recipient-initiated** gratitude action: *tap to thank*. A tap routes a thank — and, only if the recipient chooses, a monetary tip — to the sharer, helping defray the sharer's B-Storage subscription and, more importantly, closing the acknowledgment loop on the invisible kindness now made visible.
+Bound to the preview is an **optional, recipient-initiated** gratitude action: *tap to thank*. A tap routes a thank — and, only if the recipient chooses, a monetary tip — to the sharer, closing the acknowledgment loop on the invisible kindness now made visible. Where the tip carries value, it funds **the sharer's capacity to give again** rather than the sharer's bill; the routing rule that enforces this is specified below.
 
 The affordance is governed by a binding design constraint inherited from the broader HeartBank thesis: **thanking must remain sparing and sacred; sharing may be frequent.** A gratitude call-to-action placed aggressively on *every* share trains *thank-blindness* — the same banner-blindness that hollowed out the social "like." The specification therefore requires:
 
@@ -216,11 +216,40 @@ The affordance is governed by a binding design constraint inherited from the bro
    4. No coercion: content is never withheld pending a thank (see §7).
    5. A tip is strictly optional and secondary to the thank; "Kiitos
       always; cash optional."
+   6. A tip NEVER OFFSETS THE SHARER'S OWN COST — it is routed to
+      forward-spendable gratitude capacity, never to the sharer's
+      balance owed. Thanks may fund a livelihood; thanks may never
+      pay a bill. (Routing rule, below.)
 ```
 
 The asymmetry is the point. The companion position paper *The Share Is the Wedge* develops the argument that **decoupling distribution frequency (share) from value frequency (thank)** is what lets gratitude acquire a high-frequency carrier without debasing it; this paper's contribution is to *encode that asymmetry into the primitive* so that implementations cannot casually violate it.
 
 The thank routes through HeartBank's existing circulation mechanisms (Personal Account℠ / Re-Tip Jar℠ at Phase 1; Personal Wallet℠ / Re-Tip Fund℠ at Phase 2; see [fractal three-level architecture](https://thonly.org/research/fractal-three-level-architecture)). Tips are pass-through to the sharer; HeartBank does not take a cut of the gratitude (per the non-bank, fee-funds-the-institution posture of the corpus).
+
+### 6.1 The routing rule: thanks may fund a livelihood; thanks may never pay a bill
+
+A gratitude affordance attached to a *subscribed* service invites an error that looks harmless and is not. If a tip offsets what the sharer owes the platform, the tip is running **backward** — from the recipient of a gift to the giver, in settlement — which is the direction that distinguishes market exchange from circulation. Three distinct failures follow from that single inversion:
+
+```
+   WHY BACKWARD-ROUTED TIPS FAIL
+   ─────────────────────────────────────────────────────────────
+   1. REBATE SHAPE      a tip that pays the sharer's bill nets
+                        against a payment; the "gift" becomes a
+                        discount, and sharing becomes an investment
+                        with a return.
+   2. EXTRACTION PATH   a universally shareable link + a withdrawable
+                        tip = a direct financial motive to spam.
+   3. SOFT COERCION     "thank me so I can keep paying" is the
+                        milder form of "thank me or this disappears"
+                        (§7) — the sharer acquires a personal stake
+                        in being thanked.
+```
+
+The rule that removes all three: **a tip received for a conferred benefit is credited as forward-spendable gratitude capacity — a Re-Tip Fund℠ balance, disbursable only as a gift onward and never withdrawable as personal funds or applied against the recipient's own subscription.** What the recipient receives is *the capacity to give again*, so the value continues to move forward *through* them rather than terminating in settlement.
+
+**The boundary that keeps the rule honest.** It is scoped to the *flow*, not to the person or the product, and it must not be generalized into "gratitude may never be income." Creative and care labor supported by patronage is a livelihood, and the same platform may legitimately carry both flows: **route to forward-spendable capacity when the thanks would offset a cost the recipient owes; route directly when it supports labor.** Default is direct; divert only on cost-offset. Applied here: thanks for *sharing a file you were already storing* divert; patronage of *original work* does not.
+
+**A structural anti-abuse dividend (see §11).** Making the received value non-withdrawable removes the *economic* motive for thank-bait spam entirely: a spammer may farm thanks indefinitely and extract nothing. This converts a detection arms race — rate limits, quality classifiers — into a defense-in-depth layer behind an incentive that no longer exists.
 
 ---
 
@@ -296,7 +325,7 @@ The significance is the reach. Because a B-Link rides the **universal Open Graph
 | Threat | Description | Mitigation |
 |---|---|---|
 | Sybil / bot flooding | Bots emit B-Links at scale to farm tips or pollute feeds | B-PoH gating: only verified unique humans can originate signed B-Links; rate-limits per human-key |
-| Thank-bait spam | Humans spam low-value B-Links to solicit thanks/tips | Recipient-initiated thanks only (no auto-prompt); Miss Aquarius℠-side quality/rate signals; recipient filters (no-abuse, degrees-of-separation) per the PoH recipient-filter stack |
+| Thank-bait spam | Humans spam low-value B-Links to solicit thanks/tips | **Primary (structural): the routing rule (§6.1)** — received value is forward-spendable only and never withdrawable, so the *economic* motive to farm thanks does not exist. Defense-in-depth: recipient-initiated thanks only (no auto-prompt); Miss Aquarius℠-side quality/rate signals; recipient filters (no-abuse, degrees-of-separation) per the PoH recipient-filter stack |
 | False benefit claims | Inflated "saved you X" figures | Definability-on-inspection requirement (§5); conservative default framing; prohibition on unverifiable aggregate vanity metrics |
 | Provenance forgery | Claiming human origin for synthetic/stolen content | Signature attests human *origin of the share*, not content truth (§4, §13); timestamp + content-hash make tampering evident; does not prevent a human sharing others' work |
 | Coercion via link-death | "Thank me or this disappears" | Permanence floor (§7): receipt is never gated on payment |
@@ -331,7 +360,8 @@ Per the HeartBank standing practice of stating limits plainly:
 3. **Preview caching partially erodes the storage saving.** The preview image is itself cached by some surfaces; the net saving is (full − preview), realized only under ephemeral consumption. Heavy re-saving by recipients reduces the benefit toward zero.
 4. **Gratitude debasement risk is real.** If implementers ignore the asymmetry rules (§6), ubiquitous thank-CTAs will train thank-blindness. The rules are specified, but they are a discipline the implementer must hold.
 5. **Generation scope is deliberately bounded.** B-Storage need not build AI-art generation (capital-intensive, commoditized); the defensible position is to be the *provenance + share + gratitude rail* over art created in any tool. Building generation is possible but not part of this primitive's claim.
-6. **Adoption depends on preview-surface behavior.** Surfaces evolve their unfurling and caching policies; some strip or alter previews. The design degrades gracefully but cannot guarantee identical rendering everywhere.
+6. **The routing rule removes the financial motive for spam, not every motive.** §6.1 makes farmed thanks non-extractable, which eliminates the *cash* incentive; it does not eliminate attention-seeking, reputation-building, or aura-farming motives, nor collusion rings that trade thanks for standing. The detection layer therefore remains necessary as defense-in-depth, and the rule's real-world effect on spam volume is untested (n=0).
+7. **Adoption depends on preview-surface behavior.** Surfaces evolve their unfurling and caching policies; some strip or alter previews. The design degrades gracefully but cannot guarantee identical rendering everywhere.
 
 ---
 
@@ -350,6 +380,7 @@ For the record (all dedicated to the public domain under CC0 1.0):
 3. **The asymmetry-preserving gratitude affordance** — encoding *share-frequent / thank-sparing, recipient-initiated, non-coercive* directly into the primitive's rules.
 4. **The permanence floor** — subscription gates creation/capacity, never receipt; received gifts are durable regardless of the creator's payment state; orphaned-but-loved content covered by the commons.
 5. **Web-URL B-links / B-posts** — extending verified-human, gratitude-bearing provenance to arbitrary shared links and posts over universal preview rails, as a consumer wedge for the internet humanity layer.
+6. **Non-withdrawable gratitude routing as a structural anti-solicitation-spam mechanism** — crediting a tip received for a conferred benefit as *forward-spendable gift capacity only*, never withdrawable as personal funds and never applied against the recipient's own subscription, so that (a) the gift cannot invert into a rebate, (b) the economic incentive to farm a public gratitude affordance is removed at the root rather than policed, and (c) the recipient acquires no personal stake in being thanked; together with the flow-scoped boundary that distinguishes cost-offset routing from labor patronage (*thanks may fund a livelihood; thanks may never pay a bill*).
 
 ---
 
