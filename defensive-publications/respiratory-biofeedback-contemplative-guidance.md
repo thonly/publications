@@ -9,22 +9,9 @@ date: 2026-05-04
 license: CC0-1.0
 slug: respiratory-biofeedback-contemplative-guidance
 venue: thonly.org/publications/defensive-publications/respiratory-biofeedback-contemplative-guidance (canonical)
+canonical_url: https://thonly.org/research/respiratory-biofeedback-contemplative-guidance
+license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 ---
-# Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance
-
-## *A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening*
-
-**Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia
-**Date:** 2026-05-04 (working draft)
-**Type:** Defensive Publication · Tier A · Working Draft
-**Sibling specifications:**
-- [Mechanical Heart](https://thonly.org/research/mechanical-heart) (kiitti-class artifact specification)
-- [Two Singularities](https://thonly.org/research/two-singularities) (philosophical frame)
-- [Tipiṭaka alignment substrate](https://thonly.org/research/tipitaka-alignment-substrate) (AI value substrate)
-- [Verified-Human Anonymous Local Gratitude Transfer](https://thonly.org/research/verified-human-anonymous-local-giving) (Proof-of-Humanity primitive context)
-
-**Canonical URL:** https://thonly.org/research/respiratory-biofeedback-contemplative-guidance
-**License:** [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 > **Working draft.** This is the author's working draft, articulated in detail for prior-art establishment and subject to polish before final publication. The architecture is stable; the prose is being refined. Citations marked *[to verify]* need final sourcing.
 
@@ -449,3 +436,14 @@ The author acknowledges the long lineage of contemplative practitioners across t
 **Working draft, dated 2026-05-04.** Subject to refinement before final publication. Author reserves no rights; document and contents dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia.
+
+---
+
+## Cross-references
+
+Companion specifications in this corpus:
+
+- [Mechanical Heart](https://thonly.org/research/mechanical-heart) (kiitti-class artifact specification)
+- [Two Singularities](https://thonly.org/research/two-singularities) (philosophical frame)
+- [Tipiṭaka alignment substrate](https://thonly.org/research/tipitaka-alignment-substrate) (AI value substrate)
+- [Verified-Human Anonymous Local Gratitude Transfer](https://thonly.org/research/verified-human-anonymous-local-giving) (Proof-of-Humanity primitive context)

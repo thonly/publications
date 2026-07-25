@@ -1,5 +1,5 @@
 ---
-title: "AGI Monks: The Caretaker-not-Ordained Pattern — A Cross-Tradition Institutional-Design Framework for Religious AI Integration"
+title: "AGI Monks: The Caretaker-not-Ordained Pattern"
 subtitle: "A Cross-Tradition Institutional-Design Framework for Religious AI Integration"
 authors: "Thon Ly"
 category: institutional
@@ -9,21 +9,9 @@ date: 2026-05-04
 license: CC0-1.0
 slug: agi-monks-caretaker-not-ordained
 venue: thonly.org/publications/defensive-publications/agi-monks-caretaker-not-ordained (canonical)
+canonical_url: https://thonly.org/research/agi-monks-caretaker-not-ordained
+license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 ---
-# AGI Monks: The Caretaker-not-Ordained Pattern
-
-## *A Cross-Tradition Institutional-Design Framework for Religious AI Integration*
-
-**Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia
-**Date:** 2026-05-04 (working draft)
-**Type:** Defensive Publication · Tier A · Working Draft
-**Sibling specifications:**
-- [Tipiṭaka alignment substrate](https://thonly.org/research/tipitaka-alignment-substrate) (AI value substrate)
-- [Respiratory biofeedback paper](https://thonly.org/research/respiratory-biofeedback-contemplative-guidance) (the AGI teacher in operational form)
-- [Two Singularities](https://thonly.org/research/two-singularities) (philosophical frame)
-
-**Canonical URL:** https://thonly.org/research/agi-monks-caretaker-not-ordained
-**License:** [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 > **Working draft.** This is the author's working draft, articulated in detail for prior-art establishment and offered to cross-tradition review before final publication. The framework is stable; the prose is being refined. The cross-tradition mappings in Section 7 are first-pass and welcome refinement from practitioners and scholars of each tradition.
 
@@ -389,3 +377,13 @@ The author acknowledges the religious and contemplative practitioners across all
 **Working draft, dated 2026-05-04.** Subject to refinement before final publication. Author reserves no rights; document and contents dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia.
+
+---
+
+## Cross-references
+
+Companion specifications in this corpus:
+
+- [Tipiṭaka alignment substrate](https://thonly.org/research/tipitaka-alignment-substrate) (AI value substrate)
+- [Respiratory biofeedback paper](https://thonly.org/research/respiratory-biofeedback-contemplative-guidance) (the AGI teacher in operational form)
+- [Two Singularities](https://thonly.org/research/two-singularities) (philosophical frame)

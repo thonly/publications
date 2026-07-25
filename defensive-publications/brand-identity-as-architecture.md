@@ -9,20 +9,9 @@ date: 2026-05-04
 license: CC0-1.0
 slug: brand-identity-as-architecture
 venue: thonly.org/publications/defensive-publications/brand-identity-as-architecture (canonical)
+canonical_url: https://thonly.org/research/brand-identity-as-architecture
+license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) for the architectural patterns; trademark rights to specific marks reserved separately by author and HeartBank®.
 ---
-# Brand Identity as Architecture
-
-## *The B-Heart Logo, B-Prefix Naming Convention, Heartbeat Animation as Functional Proof-of-Humanity Signal, and Aura-Color Cross-Currency State Primitive*
-
-**Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia
-**Date:** 2026-05-04 (working draft)
-**Type:** Defensive Publication · Tier C · Working Draft
-**Sibling specifications:**
-- [Verified-human anonymous local giving](https://thonly.org/research/verified-human-anonymous-local-giving) (the broader Proof-of-Humanity primitive context)
-- [Mechanical Heart](https://thonly.org/research/mechanical-heart) (the B-shaped physical artifact this brand identity governs)
-
-**Canonical URL:** https://thonly.org/research/brand-identity-as-architecture
-**License:** [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) for the architectural patterns; trademark rights to specific marks reserved separately by author and HeartBank®.
 
 > **Working draft.** This paper bundles four interrelated brand-identity innovations into a single architectural contribution. The fourth (animation parameters as functional Proof-of-Humanity signal) is the most novel of the four considered separately; the integrated architecture is the contribution as a whole.
 
@@ -655,3 +644,12 @@ The author acknowledges the long lineage of designers and brand-identity practit
 **Working draft, dated 2026-05-04.** Subject to refinement before final publication. The architectural patterns articulated here are dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks are separately reserved by the author and HeartBank®.
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia.
+
+---
+
+## Cross-references
+
+Companion specifications in this corpus:
+
+- [Verified-human anonymous local giving](https://thonly.org/research/verified-human-anonymous-local-giving) (the broader Proof-of-Humanity primitive context)
+- [Mechanical Heart](https://thonly.org/research/mechanical-heart) (the B-shaped physical artifact this brand identity governs)

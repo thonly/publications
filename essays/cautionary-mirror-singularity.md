@@ -9,17 +9,9 @@ date: 2026-05-03
 license: CC0-1.0
 slug: cautionary-mirror-singularity
 venue: thonly.org/publications/essays/cautionary-mirror-singularity (canonical)
+canonical_url: https://thonly.org/research/cautionary-mirror-singularity
+license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 ---
-# Cautionary-Mirror Framing of the Singularity
-
-## *Seven Underlying Ideas of The Age of Capricorn, Dedicated to the Commons*
-
-**Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia
-**Date:** 2026-05-03
-**Type:** Essay · Tier A · Published
-**Companion to:** [*The Age of Capricorn — When Humankind Is Extinct*](https://thonly.org/film/age-of-capricorn) (treatment, all rights reserved on text)
-**Canonical URL:** https://thonly.org/research/cautionary-mirror-singularity
-**License:** [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ---
 
@@ -150,3 +142,11 @@ For the author's narrative embodiment, see [*The Age of Capricorn*](https://thon
 **Published:** 2026-05-03. **Canonical URL:** https://thonly.org/research/cautionary-mirror-singularity. Cross-mirrored to `github.com/thonly/publications`. Tamper-evident timestamping via Internet Archive, archive.today, and IP.com.
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia.
+
+---
+
+## Cross-references
+
+Companion specifications in this corpus:
+
+- [*The Age of Capricorn — When Humankind Is Extinct*](https://thonly.org/film/age-of-capricorn) (treatment, all rights reserved on text)

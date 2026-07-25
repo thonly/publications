@@ -5,7 +5,7 @@ authors: "Thon Ly"
 category: alignment
 priority: tier-a
 status: draft
-date: 2026-06-11
+date: 2026-05-02
 license: CC0-1.0
 slug: two-singularities
 venue: thonly.org/publications/essays/two-singularities (canonical)
@@ -13,7 +13,7 @@ mirror_github: https://github.com/thonly/publications/blob/main/essays/two-singu
 mirror_institutional: https://heartbank.net/research/two-singularities
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 sha256: to be computed at publication
-date_stated: 2026-05-02 (draft)
+revised: 2026-06-11
 ---
 
 > **Draft in progress.** This is the author's working draft, refined over weeks before publication. The argument is stable; the prose is being polished. Citations marked _[to verify]_ need final sourcing.

@@ -5,14 +5,15 @@ authors: "Thon Ly"
 category: alignment
 priority: tier-a
 status: draft
-date: 2026-06-11
+date: 2026-05-02
 license: CC0-1.0
 slug: tipitaka-alignment-substrate
 venue: thonly.org/publications/defensive-publications/tipitaka-alignment-substrate (canonical)
 mirror_institutional: https://heartbank.net/research/tipitaka-alignment-substrate
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 sha256: to be computed at publication
-date_stated: 2026-05-02 (draft); target publication 2027-01-07
+revised: 2026-06-11
+note: target publication 2027-01-07
 ---
 
 > **Draft in progress — target publication January 7, 2027.** This is the highest-stakes paper in the corpus and benefits from the longest refinement window. Pending review: dharma scholars (Mind & Life Institute network and Cambodian Saṅgha); AI alignment researchers (Anthropic / MIRI / academic safety community channels); Pāli Text Society academics on canonical citations.

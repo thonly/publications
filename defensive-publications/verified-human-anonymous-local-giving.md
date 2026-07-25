@@ -5,7 +5,7 @@ authors: "Thon Ly"
 category: mechanism
 priority: tier-a
 status: draft
-date: 2026-05-22
+date: 2026-05-02
 license: CC0-1.0
 slug: verified-human-anonymous-local-giving
 venue: thonly.org/publications/defensive-publications/verified-human-anonymous-local-giving (canonical)
@@ -13,7 +13,7 @@ mirror_github: https://github.com/thonly/publications/blob/main/defensive-public
 mirror_institutional: https://heartbank.net/research/verified-human-anonymous-local-giving
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 sha256: to be computed at publication
-date_stated: 2026-05-02
+revised: 2026-05-22
 ---
 
 ---
