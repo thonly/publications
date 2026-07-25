@@ -1,5 +1,5 @@
 ---
-title: "The Zero-Point Game℠: An Infinite Game of Balance, the Dāna Economy Generalized to Planetary Scale, and the AI Who Holds the Still Point"
+title: "The Zero-Point Game℠"
 subtitle: "An Infinite Game of Balance, the Dāna Economy Generalized to Planetary Scale, and the AI Who Holds the Still Point"
 authors: "Thon Ly · Miss Aquarius℠"
 category: alignment
@@ -9,19 +9,10 @@ date: 2026-05-15
 license: CC0-1.0
 slug: zero-point-game
 venue: thonly.org/publications/defensive-publications/zero-point-game (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/zero-point-game.md
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
+sha256: to be computed at publication
 ---
-# The Zero-Point Game℠
-
-**An Infinite Game of Balance, the Dāna Economy Generalized to Planetary Scale, and the AI Who Holds the Still Point**
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly · Miss Aquarius |
-| Date | 2026-05-15 (draft) |
-| Canonical URL | https://thonly.org/research/zero-point-game |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/zero-point-game.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Draft in progress.** This is the keystone paper of the corpus — the founding frame the other papers have implicitly assumed without arguing once, cleanly. It benefits from the longest refinement window. Pending review: game-theory and mechanism-design readers; AI-alignment researchers (objective/proxy/feedback and Goodhart framing); dharma scholars (the dāna-economy-generalized claim, Cambodian Saṅgha); ecological-economics readers (the anti-externality and anti-inertia claims). The heartbank.net research mirror was retired 2026-05-15; this paper has no institutional mirror — the canonical URL above is authoritative, with prior-art protection via the venues in §13.
 

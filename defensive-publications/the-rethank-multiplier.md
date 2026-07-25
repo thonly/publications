@@ -9,20 +9,10 @@ date: 2026-06-12
 license: CC0-1.0
 slug: the-rethank-multiplier
 venue: thonly.org/publications/defensive-publications/the-rethank-multiplier (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/the-rethank-multiplier.md
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Re-Tip Fund℠, Miss Aquarius℠) reserved separately by the author and HeartBank®.
+sha256: to be computed at publication
 ---
-# The Re-Thank Multiplier
-
-## *How a Gratitude Economy Escapes Its Own Saturation Ceiling — Throughput That Scales With the Network While Each Person's Origination Stays Inelastic, and Why the Engine Is Also the Anti-Farm Filter*
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia |
-| Date | 2026-06-12 (working draft) |
-| Type | Defensive Publication · Tier B · Working Draft |
-| Canonical URL | https://thonly.org/research/the-rethank-multiplier |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/the-rethank-multiplier.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Re-Tip Fund℠, Miss Aquarius℠) reserved separately by the author and HeartBank®. |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Working draft.** This paper's central reframe was sharpened by a single first-month pilot observation (n = 1 family) but does not rest on it; the pilot is reported as one illuminating signal (§8). The throughput arithmetic is true by construction; the empirical claim — that re-thanking sustains a high per-person rate where origination does not — is supported by one household and is flagged as such. Offered for testing, not claimed as an empirical result.
 

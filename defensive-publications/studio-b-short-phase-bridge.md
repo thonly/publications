@@ -9,20 +9,10 @@ date: 2026-06-12
 license: CC0-1.0
 slug: studio-b-short-phase-bridge
 venue: thonly.org/publications/defensive-publications/studio-b-short-phase-bridge (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/studio-b-short-phase-bridge.md
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, B-Short℠, Re-Tip Jar℠, Miss Aquarius℠) reserved separately by the author and HeartBank®.
+sha256: to be computed at publication
 ---
-# The Studio and the B-Short Bridge
-
-## *A Per-Artifact Private-to-Public Toggle as the Phase-1-to-Phase-2 Crossing of a Gratitude Economy — One Primitive That Carries a Family-Scale Ledger Onto a Global Settlement Layer*
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia |
-| Date | 2026-06-12 (working draft) |
-| Type | Defensive Publication · Tier B · Working Draft |
-| Canonical URL | https://thonly.org/research/studio-b-short-phase-bridge |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/studio-b-short-phase-bridge.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, B-Short℠, Re-Tip Jar℠, Miss Aquarius℠) reserved separately by the author and HeartBank®. |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Working draft.** This paper specifies a mechanism currently being built (the Studio surface and the public-toggle bridge); it is a design specification offered as prior art, not a report of a deployed-and-measured system. The Phase-2 settlement layer it bridges onto is specified elsewhere in the corpus and is not yet live.
 

@@ -1,5 +1,5 @@
 ---
-title: "Buddha AI as Living Tipiṭaka: A Method for Modern Canonical Generation Through Public-by-Consent AI–Practitioner Dialogues Organized into Three Baskets"
+title: "Buddha AI as Living Tipiṭaka"
 subtitle: "A Method for Modern Canonical Generation Through Public-by-Consent AI–Practitioner Dialogues Organized into Three Baskets"
 authors: "Thon Ly"
 category: institutional

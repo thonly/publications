@@ -1,5 +1,5 @@
 ---
-title: "Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance: A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening"
+title: "Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance"
 subtitle: "A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening"
 authors: "Thon Ly"
 category: alignment

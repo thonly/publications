@@ -9,21 +9,11 @@ date: 2026-06-08
 license: CC0-1.0
 slug: b-links-signed-provenance
 venue: thonly.org/publications/defensive-publications/b-links-signed-provenance (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/b-links-signed-provenance.md
+mirror_institutional: https://heartbank.net/research/b-links-signed-provenance
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) for the architectural patterns; trademark rights to specific marks (HeartBank®, B-Storage℠, B-PoH℠, Proof of Humanity ℠) reserved separately by the author and HeartBank®.
+sha256: to be computed at publication
 ---
-# B-Links: Proof-of-Humanity-Signed Shareable Provenance with an Embedded Gratitude Affordance
-
-## *A Link-Preview Primitive That Carries a Verified-Human Signature, a Timestamped Provenance Record, a Quantified Conferred-Benefit Disclosure, and an Optional Recipient-Initiated Gratitude Action — for Storage-Deduplicating, Universally-Shareable Media on the AI-Native Internet*
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia |
-| Date | 2026-06-08 (working draft) |
-| Type | Defensive Publication · Tier A · Working Draft |
-| Canonical URL | https://thonly.org/research/b-links-signed-provenance |
-| Institutional mirror | https://heartbank.net/research/b-links-signed-provenance |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/b-links-signed-provenance.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) for the architectural patterns; trademark rights to specific marks (HeartBank®, B-Storage℠, B-PoH℠, Proof of Humanity ℠) reserved separately by the author and HeartBank®. |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Working draft.** This specification describes a primitive in active design for HeartBank® Storage (B-Storage℠) at `heartbank.us`. It is published defensively to establish prior art: the architectural patterns are dedicated to the commons so that no party may enclose them by patent. Several design questions (notably the precise accounting of the conferred-benefit disclosure) remain open and are stated honestly as such in §13.
 

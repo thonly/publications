@@ -1,5 +1,5 @@
 ---
-title: "Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment"
+title: "Suffering-Cessation as Value Function"
 subtitle: "The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment"
 authors: "Thon Ly"
 category: alignment
@@ -9,20 +9,11 @@ date: 2026-06-11
 license: CC0-1.0
 slug: tipitaka-alignment-substrate
 venue: thonly.org/publications/defensive-publications/tipitaka-alignment-substrate (canonical)
+mirror_institutional: https://heartbank.net/research/tipitaka-alignment-substrate
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
+sha256: to be computed at publication
+date_stated: 2026-05-02 (draft); target publication 2027-01-07
 ---
-# Suffering-Cessation as Value Function
-
-**The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment**
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly |
-| Date | 2026-05-02 (draft); target publication 2027-01-07 |
-| Canonical URL | https://thonly.org/research/tipitaka-alignment-substrate |
-| Institutional mirror | https://heartbank.net/research/tipitaka-alignment-substrate |
-| GitHub | https://github.com/thonly/publications/blob/main/defensive-publications/tipitaka-alignment-substrate.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Draft in progress — target publication January 7, 2027.** This is the highest-stakes paper in the corpus and benefits from the longest refinement window. Pending review: dharma scholars (Mind & Life Institute network and Cambodian Saṅgha); AI alignment researchers (Anthropic / MIRI / academic safety community channels); Pāli Text Society academics on canonical citations.
 

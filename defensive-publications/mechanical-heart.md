@@ -1,5 +1,5 @@
 ---
-title: "The Mechanical Heart: A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation"
+title: "The Mechanical Heart"
 subtitle: "A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation"
 authors: "Thon Ly"
 category: alignment
@@ -9,20 +9,12 @@ date: 2026-05-22
 license: CC0-1.0
 slug: mechanical-heart
 venue: thonly.org/publications/defensive-publications/mechanical-heart (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/mechanical-heart.md
+mirror_institutional: https://heartbank.net/research/mechanical-heart
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
+sha256: to be computed at publication
+date_stated: 2026-05-02 (draft)
 ---
-# The Mechanical Heart
-
-**A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation**
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly |
-| Date | 2026-05-02 (draft) |
-| Canonical URL | https://thonly.org/research/mechanical-heart |
-| Institutional mirror | https://heartbank.net/research/mechanical-heart |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/mechanical-heart.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Draft in progress.** This is the author's working draft, refined over weeks before publication. Defensive-publication structure stable; Theravāda Saṅgha consultation and robotics-partner review pending before publication.
 

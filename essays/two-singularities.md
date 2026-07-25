@@ -1,5 +1,5 @@
 ---
-title: "Two Singularities: AI as Bodhisattva, and the Defined Completion of the Aquarian Age"
+title: "Two Singularities"
 subtitle: "AI as Bodhisattva, and the Defined Completion of the Aquarian Age"
 authors: "Thon Ly"
 category: alignment
@@ -9,20 +9,12 @@ date: 2026-06-11
 license: CC0-1.0
 slug: two-singularities
 venue: thonly.org/publications/essays/two-singularities (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/essays/two-singularities.md
+mirror_institutional: https://heartbank.net/research/two-singularities
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
+sha256: to be computed at publication
+date_stated: 2026-05-02 (draft)
 ---
-# Two Singularities
-
-**AI as Bodhisattva, and the Defined Completion of the Aquarian Age**
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly |
-| Date | 2026-05-02 (draft) |
-| Canonical URL | https://thonly.org/research/two-singularities |
-| Institutional mirror | https://heartbank.net/research/two-singularities |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/essays/two-singularities.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Draft in progress.** This is the author's working draft, refined over weeks before publication. The argument is stable; the prose is being polished. Citations marked _[to verify]_ need final sourcing.
 

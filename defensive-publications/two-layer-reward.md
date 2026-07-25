@@ -1,5 +1,5 @@
 ---
-title: "The Two-Layer Reward: How Pairing an Algorithmic Need-Planner with a Peer Want-Market Routes Generosity to What Is Both Most Needed and Most Wanted — and Validates Itself Against Gaming"
+title: "The Two-Layer Reward"
 subtitle: "How Pairing an Algorithmic Need-Planner with a Peer Want-Market Routes Generosity to What Is Both Most Needed and Most Wanted — and Validates Itself Against Gaming"
 authors: "Thon Ly"
 category: mechanism
@@ -9,21 +9,11 @@ date: 2026-06-08
 license: CC0-1.0
 slug: two-layer-reward
 venue: thonly.org/publications/defensive-publications/two-layer-reward (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/two-layer-reward.md
+mirror_institutional: https://heartbank.net/research/two-layer-reward
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Family Kitty℠, Miss Aquarius℠) reserved separately by the author and HeartBank®.
+sha256: to be computed at publication
 ---
-# The Two-Layer Reward
-
-## *How Pairing an Algorithmic Need-Planner with a Peer Want-Market Routes Generosity to What Is Both Most Needed and Most Wanted — and Validates Itself Against Gaming*
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia |
-| Date | 2026-06-08 (working draft) |
-| Type | Defensive Publication · Tier B · Working Draft |
-| Canonical URL | https://thonly.org/research/two-layer-reward |
-| Institutional mirror | https://heartbank.net/research/two-layer-reward |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/two-layer-reward.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Family Kitty℠, Miss Aquarius℠) reserved separately by the author and HeartBank®. |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Working draft.** The thesis here was *sharpened* by a single first-month pilot observation (n = 1 family), but it does not *rest* on it. The pilot is reported honestly as one illuminating signal; the argument stands on reasoning and on a well-populated prior-art lineage in political economy, mechanism design, and the alignment literature on reward hacking (§9). Several of the structural claims — most notably the peer layer's behaviour as a *fraud filter* — are predicted by the architecture but **not yet observed** in the field; these are flagged explicitly (§10). This is a conceptual contribution offered for testing, not an empirical result claimed.
 

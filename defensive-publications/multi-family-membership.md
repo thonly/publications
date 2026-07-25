@@ -9,20 +9,10 @@ date: 2026-06-12
 license: CC0-1.0
 slug: multi-family-membership
 venue: thonly.org/publications/defensive-publications/multi-family-membership (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/multi-family-membership.md
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Family Kitty℠, Personal Account℠, Aquarian Pool℠, Miss Aquarius℠) reserved separately by the author and HeartBank®.
+sha256: to be computed at publication
 ---
-# Multi-Family Membership
-
-## *User-Scoped Identity and Plural Membership as the Data-Model Correction That De-Risks Banker Succession and Dissolves the Civic-Bank Tier*
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia |
-| Date | 2026-06-12 (working draft) |
-| Type | Defensive Publication · Tier B · Working Draft |
-| Canonical URL | https://thonly.org/research/multi-family-membership |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/multi-family-membership.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Family Kitty℠, Personal Account℠, Aquarian Pool℠, Miss Aquarius℠) reserved separately by the author and HeartBank®. |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Working draft.** This paper specifies a data-model decision and its consequences; it is a design specification offered as prior art. The membership-breadth governance question is resolved as a deliberately conservative default (§8) rather than a final rule, and is flagged as data-gated.
 

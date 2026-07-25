@@ -9,20 +9,12 @@ date: 2026-05-22
 license: CC0-1.0
 slug: verified-human-anonymous-local-giving
 venue: thonly.org/publications/defensive-publications/verified-human-anonymous-local-giving (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/verified-human-anonymous-local-giving.md
+mirror_institutional: https://heartbank.net/research/verified-human-anonymous-local-giving
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
+sha256: to be computed at publication
+date_stated: 2026-05-02
 ---
-# Verified-Human Anonymous Local Gratitude Transfer
-
-**A digital-payment primitive combining biometric human-presence verification with physical-radio proximity attestation to enable anonymous gratitude flow between geographically-nearby humans.**
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly |
-| Date | 2026-05-02 |
-| Canonical URL | https://thonly.org/research/verified-human-anonymous-local-giving |
-| Institutional mirror | https://heartbank.net/research/verified-human-anonymous-local-giving |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/verified-human-anonymous-local-giving.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Document SHA-256 | _to be computed at publication_ |
 
 ---
 

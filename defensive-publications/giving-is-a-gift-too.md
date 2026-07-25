@@ -9,21 +9,11 @@ date: 2026-06-08
 license: CC0-1.0
 slug: giving-is-a-gift-too
 venue: thonly.org/publications/defensive-publications/giving-is-a-gift-too (canonical)
+mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/giving-is-a-gift-too.md
+mirror_institutional: https://heartbank.net/research/giving-is-a-gift-too
+license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Family Kitty℠) reserved separately by the author and HeartBank®.
+sha256: to be computed at publication
 ---
-# Giving Is a Gift Too
-
-## *How Structured Redistribution and Anonymity Restore the Dignity of Giving to Resource-Constrained Families — a Thesis Prompted by a First Field Signal and Argued from the Giving-and-Wellbeing Literature*
-
-| Field | Value |
-|---|---|
-| Author | Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia |
-| Date | 2026-06-08 (working draft) |
-| Type | Defensive Publication · Tier B · Working Draft |
-| Canonical URL | https://thonly.org/research/giving-is-a-gift-too |
-| Institutional mirror | https://heartbank.net/research/giving-is-a-gift-too |
-| GitHub mirror | https://github.com/thonly/publications/blob/main/defensive-publications/giving-is-a-gift-too.md |
-| License | [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Family Kitty℠) reserved separately by the author and HeartBank®. |
-| Document SHA-256 | _to be computed at publication_ |
 
 > **Working draft.** The thesis here was *prompted* by a single first-month pilot observation (n = 1 family), but it does not *rest* on it. The pilot is reported honestly as one illuminating signal; the argument stands on reasoning and on the established giving-and-wellbeing literature (§9). Empirical claims about the pilot are hedged accordingly (§10). This is a conceptual contribution offered for testing, not an empirical result claimed.
 

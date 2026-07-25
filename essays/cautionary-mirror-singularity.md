@@ -1,5 +1,5 @@
 ---
-title: "Cautionary-Mirror Framing of the Singularity: Seven Underlying Ideas of The Age of Capricorn, Dedicated to the Commons"
+title: "Cautionary-Mirror Framing of the Singularity"
 subtitle: "Seven Underlying Ideas of The Age of Capricorn, Dedicated to the Commons"
 authors: "Thon Ly"
 category: alignment
