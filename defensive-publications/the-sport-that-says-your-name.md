@@ -11,6 +11,8 @@ slug: the-sport-that-says-your-name
 venue: thonly.org/publications/defensive-publications/the-sport-that-says-your-name (canonical)
 ---
 
+> *v2 note (2026-07-25):* this revision incorporates the **2026-07-24/25 universalization** — the three axes (methods · modes · levels), the call-lead-time ladder with scaffold fading, the three-tier scoring architecture and the implied point, the two speaker formats, the local-first system architecture and the ball's reduced job, the classroom channel and the icebreaker-slot reframe, and place-sponsorship. Claims grow from ten to sixteen and pre-registrations from three to five. The v1 claims are unchanged in substance; §§3.1, 4.1, 5.1, 5.2, 7.1, 9.1, 9.2 are new, and §§11–12 are extended. The prior-art clock for the v1 claims runs from the 2026-07-23 push; for the v2 claims, from this one.
+>
 > *Draft notes for the editor:* paper №1 of the July 2026 **games-doctrine sprint** (three papers, one day's ratifications, 2026-07-23). Claims division with siblings, stated for the record: the present paper owns the **sport** — the caller mechanism and the rule architecture of B-Sey™. Its same-sprint companion *The Wager That Isn't* owns the **challenge/stake/pot grammar** (B-Match℠) that nests on this sport's net mode; the third sprint paper *The Game That Graduates You* owns the **third-party game-client doctrine** (the witness API). All three share one organizing principle, coined and freed in the present paper: **the play/currency wall** — *competition and play may generate the story; only witnessed giving moves the currency.* Earlier corpus publications are cited, not re-claimed: *Need-Compiled Questlines* owns the mints-nothing quest class; *Proof of Coordinate* owns the individuation primitive the ball's chronicle uses. The sport is design-complete and unbuilt (founder-ratified across 2026-07-23, including the same-day B-Ball→B-Sey rename); every claim is architectural, strata-dated to the design layer. The prior-art clock starts at this markdown push. Compact sprint draft; density pass = editorial option.
 
 ---
@@ -19,7 +21,9 @@ venue: thonly.org/publications/defensive-publications/the-sport-that-says-your-n
 
 Every sport in history was designed under three scarcities. **Umpires are scarce**, so games tolerate bad calls, and the figure of the referee absorbs abuse so chronic it is now collapsing youth-sports officiating in multiple countries. **Fair opponents are scarce**, so sport is organized as segregation infrastructure — by age, sex, size, and skill — and the one social unit that most needs shared play, the mixed-age family, is precisely the unit no sport accommodates. **Witness is scarce**, so games keep score of *persons*, and the counting hardens into statistics, rankings, and fame hierarchies — the attention economy's atom, present at the playground. Machine intelligence ends all three scarcities at once. A sport *designed for* that abundance — rather than an old sport with cameras added — can spend it on what the scarcities stole: inclusion, giving, and story.
 
-This paper specifies such a sport. **B-Sey™** is a circle game descended from the Southeast Asian *sey* (the Khmer dusk game of collective keep-alive), played by one to N players with foot or paddle, with or without a net, cooperatively or adversarially — and organized by one mechanism with no precedent in sport: **the caller**. An AI intermediary announces, before each strike, the *name* of the player who must receive next — distributing touches **equally yet randomly**, so that participation is egalitarian, attention is universal (anyone's name may be next), and, as a structural by-product, *strangers learn each other's names through play*. Because the caller designates receivers on both sides of the net, targeting a weaker opponent is not merely discouraged but **absent from the game's move-set** — to the authors' knowledge the first net sport in which exploiting the weakest human present is structurally impossible. The point is **dyadic** — it increments on successful *receipt*, so every score is a completed give-and-receive and no one scores alone. Handicaps are applied **at the start line, never in the stream**: unequal teams begin at unequal countdown numbers on a coarse fixed lattice (multiples of three), a quantization that makes the handicap read as a garment size rather than a skill rating. Cooperative play counts *up* (the collective streak); adversarial play counts *down* to zero — first to nothing wins. The announcement travels over a **synced-device mesh** — every player's phone speaks the call in unison, and may speak score and celebration in each phone's own language. Ten claims are enumerated and dedicated to the public domain; three predictions are pre-registered, including the design's own existential wager, which the authors commit to publishing either way.
+This paper specifies such a sport. **B-Sey™** is a circle game descended from the Southeast Asian *sey* (the Khmer dusk game of collective keep-alive), played by one to N players with foot or paddle, with or without a net, cooperatively or adversarially — and organized by one mechanism with no precedent in sport: **the caller**. An AI intermediary announces, before each strike, the *name* of the player who must receive next — distributing touches **equally yet randomly**, so that participation is egalitarian, attention is universal (anyone's name may be next), and, as a structural by-product, *strangers learn each other's names through play*. Because the caller designates receivers on both sides of the net, targeting a weaker opponent is not merely discouraged but **absent from the game's move-set** — to the authors' knowledge the first net sport in which exploiting the weakest human present is structurally impossible. The point is **dyadic** — it increments on successful *receipt*, so every score is a completed give-and-receive and no one scores alone. Handicaps are applied **at the start line, never in the stream**: unequal teams begin at unequal countdown numbers on a coarse fixed lattice (multiples of three), a quantization that makes the handicap read as a garment size rather than a skill rating. Cooperative play counts *up* (the collective streak); adversarial play counts *down* to zero — first to nothing wins. The announcement travels over a **synced-device mesh** — every player's phone speaks the call in unison, and may speak score and celebration in each phone's own language.
+
+The sport is parameterized on three orthogonal axes — **method** (the body vocabulary each player declares: hand, paddle, or foot, mixed freely within one circle), **mode** (what the circle plays against: nothing, its own record, or another circle), and **level** (the *lead time* between the call and the object's arrival). The default state has **no score at all**, and its stated purpose is that everyone learns everyone's name with correct pronunciation; at the longest lead time the called player raises a hand, so the ladder from easy to hard is a **scaffold-fading memory curve** rather than a skill ladder — the game becomes more difficult exactly as the group's name recall improves. Scoring degrades gracefully across three tiers — **implied by the call**, **validated by a k-of-N vote of the circle's own microphones**, or **confirmed by an accelerometer in the object** — none of which gates play, and all of which are licensed to be loose because the score moves no value. The system is **local-first**: the entire game runs on one device, offline, with no accounts. **Sixteen claims** are enumerated and dedicated to the public domain; **five predictions** are pre-registered, including the design's own existential wager, which the authors commit to publishing either way.
 
 **Keywords:** designed sport, AI officiating, circle game, sey, chinlone, sepak takraw, mixed-age play, handicap systems, loneliness intervention, third place, name learning, cooperative games, defensive publication.
 
@@ -29,7 +33,7 @@ This paper specifies such a sport. **B-Sey™** is a circle game descended from 
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The authors and HeartBank® will not seek patent on any mechanism, architecture, or specification articulated herein, in any jurisdiction, at any time.
 
-The following terms are coined in this paper and simultaneously freed with it: **AI-called circulation sport**, **the caller mechanism**, **equal-yet-random distribution**, **the cannot-target-weakness property**, **the dyadic scoring unit**, **start-line handicap** and **quantization-for-dignity**, **the last-gift rule**, **the synced-circle mesh**, and **the play/currency wall**. Terms inherited from this corpus's earlier publications (Proof of Coordinate℠; the mints-nothing boundary; the beating credential) are cited, not re-claimed.
+The following terms are coined in this paper and simultaneously freed with it: **AI-called circulation sport**, **the caller mechanism**, **equal-yet-random distribution**, **the cannot-target-weakness property**, **the dyadic scoring unit**, **start-line handicap** and **quantization-for-dignity**, **the last-gift rule**, **the synced-circle mesh**, and **the play/currency wall**. Freed with the v2 revision: **the call-lead-time ladder**, **scaffold-fading difficulty**, **method-as-declared-handicap**, **the implied point**, **circle-scoped adaptation**, **the acoustic inversion**, **rosterless classroom mode**, and **the sponsorable-place test**. Terms inherited from this corpus's earlier publications (Proof of Coordinate℠; the mints-nothing boundary; the beating credential) are cited, not re-claimed.
 
 Smart balls, computer-vision officiating, and AI sports-coaching applications are active prior art and an active patent field (§10); the present claims are confined to the *pre-announced named-receiver, equal-random-distribution, dual-arrow, lattice-handicapped circle-sport architecture*, which is, to the authors' knowledge, not previously published as a coherent whole — and to its dignity-preserving constraint set, which is the part an extractive implementation would omit.
 
@@ -72,6 +76,33 @@ The machine intelligence in the sport occupies exactly **three seats** — the t
 3. **Equalizer.** Fairness is manufactured at two points and only two: the **start line** (asymmetric countdown numbers, §6) and the **implement** (paddle or foot, chosen by the player). It is never manufactured mid-play. The distinction is load-bearing and stated as a hard rule below.
 4. **Player — never.** No machine plays. In an age when most activities can be delegated to software, the sport is constructed entirely from the one thing that cannot be: bodies, co-present, attending to each other. The machine is present so that the humans can be.
 
+### 3.1 · The three axes: method, mode, level
+
+The sport is parameterized on three orthogonal axes. They are not settings; they are a **ladder**, and an implementation that surfaces them as a configuration screen has already failed the design.
+
+```
+   AXIS      QUESTION IT ANSWERS         VALUES
+   ─────────────────────────────────────────────────────────────────
+   METHOD    what part of you gives?     hand · paddle · foot
+   MODE      what do you play against?   nothing · your record · another circle
+   LEVEL     how much warning?           long lead · moderate · short lead
+```
+
+**Method** is the body vocabulary a player declares — hand-catch-and-release, paddle, or foot. Anatomy plus implement exhausts the list; there is no fourth. The values are **defaults suggested by ability, never assignments by category**, and heterogeneous methods are expected *within a single circle*: a grandparent with a paddle, a child with hands, an adult with feet, one shared object. This is the load-bearing case, not the exotic one — a sport that segregates by method has thrown away the mixed-age property that is the design's principal social claim, and would have reintroduced by the back door the segregation §1 identifies as sport's inherited disease.
+
+A declared method **is a start-line handicap** (§6) — public, self-chosen, announced before play, never assigned during it — so the axis requires no new fairness machinery; it inherits the machinery already specified. Two consequences follow:
+
+- **The object is constrained by the axis.** One shared object must be catchable, kickable, and paddle-able. A hard ball fails hands; a shuttlecock fails paddle power. A **soft weighted sack** satisfies all three, which is why the reference implementation is a sack rather than a ball.
+- **A catch stops flight, so possession needs a bound.** Hand players receive by catching, which would otherwise let a player hold the object and stall the circle. The rule: **catch and release within one beat, where the caller's own cadence is the release clock.** As lead time shortens (§4.1) the hand method converts from catch-and-throw to volley-tap without a rule change — difficulty emerges from the method mixture rather than being imposed on it.
+
+**Mode** is what the circle plays against, and the values ascend: *nothing* (**Friendship**, no scoring of any kind, three or more players), *its own record* (**Streak**, no net, ascending collective count, one or more players — a circle of one is still a circle), *another circle* (**Team**, net, descending count to zero, two or more players). The mode names are deliberate: **no label on the product surface names rivalry**, though the adversarial mode is genuinely adversarial and this paper describes it as such. Naming the third mode for its structural novelty — *sides exist* — rather than for its disposition is a small instance of a general discipline in this corpus, in which vocabulary is held to the same standard as mechanism.
+
+The mode ladder is also the **adoption funnel**, and an unusually honest one: each rung is entered by the circle's own election, each rung's graduation is the previous rung's success condition, and the entry rung has **no score at all**.
+
+**Level** is treated in §4.1, because it is a property of the caller rather than of the players.
+
+**The three-value pattern is not aesthetic and should not be read as one.** Each axis has an independent reason for its cardinality: method is exhausted by anatomy plus implement; mode is exhausted by the opponent relation; level is coarsely quantized for the same anti-rating reason the start-line lattice is (§6) — a continuously variable difficulty dial would read as a precision skill rating, which is the artifact this design exists to avoid. Where a fourth value would genuinely serve — very large circles may want a fourth lead-time band — the pattern must yield. **Three is a finding here, not a constraint.**
+
 ---
 
 ## 4 · The Caller: Equal-Yet-Random, and the Property It Buys
@@ -92,6 +123,36 @@ Everything distinctive about B-Sey follows from that sentence.
 - The caller speaks **chosen names only** — the name a player registers for the circle, which may be a nickname; children's circles use first names or nicknames as a rule. No legal name is ever broadcast across a public park.
 - Per-player data that the equalizer uses (implement choice, start-number calibration) is a **private mirror** — visible to the player, never to the circle, never to any ranking, never retained as a skill profile.
 
+### 4.1 · Level as call lead time: a scaffold-fading memory curve
+
+The naive difficulty dial for a called sport is the interval between calls. It is the wrong variable: the inter-call interval is confounded by circle size, so the same setting produces a frantic game with four players and a languid one with thirty. The correct variable is **call lead time** — the interval between the naming of the receiver and the object's arrival. Lead time is invariant to circle size and to method, and it is what a receiver actually experiences as pressure.
+
+Three bands are specified, and what changes across them is not merely speed but **how much external scaffolding supports the act of recognition**:
+
+```
+   LEVEL     LEAD TIME    SCAFFOLD                    WHAT IS BEING TRAINED
+   ──────────────────────────────────────────────────────────────────────────
+   Easy      long         called player RAISES A HAND  nothing yet — the
+                          and may speak their own      circle is being taught
+                          name aloud                   the names
+   Medium    moderate     none — the giver must find   name → face recall
+                          the named face unaided
+   Hard      short        none; the call may land      automaticity under
+                          while the object is aloft    time pressure
+```
+
+At the longest lead the called player **raises a hand**, which removes the recall requirement entirely: a giver who does not yet know who *Sokha* is can simply deliver to the raised hand. The scaffold is then withdrawn — first the hand, then the time — and the withdrawal is enforced by physics rather than by rule, since a hand cannot usefully be raised inside a short lead.
+
+The result is that **the difficulty ladder is a memory curve, not a skill curve.** A circle can only ascend it as its members' name recall becomes fast and then automatic, which yields the design's cleanest coincidence: *the game becomes more fun exactly as everyone learns each other's names.* The thing the players want and the thing the sport is for are the same thing, and no exhortation is required to align them.
+
+It also supplies the sport's non-numeric progression. In Friendship mode there is no score, and the circle nonetheless has something that advances: **tempo is the score that is not a score.**
+
+**A constraint the implementer must not violate.** It is tempting to advance the level automatically from measured response latency. Doing so *per player* would reconstruct, invisibly and in the tempo dimension, precisely the artifact §4 exists to prevent — a machine-maintained ranking of who is slow. The rule:
+
+> **The level is a property of the circle, never of a player.**
+
+Permitted implementations, in order of preference: (a) **the circle elects the level**, with the caller permitted to *offer* an advance; (b) if adaptive at all, adaptation conditions **only on circle-aggregate state**, ephemeral and on-device, never per-player, never stored, never displayed. Never permitted: a per-player recall score, in any form, visible or not.
+
 ---
 
 ## 5 · Scoring: The Dyadic Point and the Two Arrows
@@ -106,6 +167,52 @@ Everything distinctive about B-Sey follows from that sentence.
 - **No deuce.** Conventional win-by-two exists to prevent flukish endings between equal teams; B-Sey's endings are already guarded by the last-gift rule, and its equality is already engineered at the start line. Adding deuce on top would re-lengthen games unpredictably and dilute the countdown's clean terminus at zero.
 
 **Both arrows, one ruleset.** Cooperative sports count up; adversarial sports count up; darts and little else count down. A single sport in which the *mode selects the arrow* — building in the circle, emptying at the net — is, to the authors' knowledge, novel, and is claimed as architecture (Claim 5): the two arrows are not a gimmick but the two halves of the institution's founding game (a children's balance game in which kindness counts up and gratitude counts down and the ideal score is zero), expressed as sport.
+
+### 5.1 · The scoring ladder, and the implied point
+
+Scoring in a called sport admits an architecture unavailable to every other game, and it follows from one observation: **the caller has already assigned identity.** Every other sport must determine *who* touched the object; this one *chose* who touches it next. What remains to be established is only whether the touch occurred — a binary event, not a localization problem.
+
+Three tiers implement that, and each degrades gracefully into the one below:
+
+```
+   TIER       MECHANISM                                    HARDWARE
+   ────────────────────────────────────────────────────────────────────
+   default    the point is IMPLIED by the call —           none
+              assume the dyad completed
+   validated  k-of-N vote across the circle's own          none
+              phone microphones: "was there a strike
+              in this window?"
+   confirmed  accelerometer in the object reports          instrumented
+              {object_id, touch, t}                        object
+```
+
+**Sensing never gates play.** A circle with one phone and a rolled sock plays the whole sport; instrumentation improves fidelity and nothing else.
+
+The **microphone tier** deserves note because it is cheap for a non-obvious reason. Localizing a strike acoustically across phones — time-difference-of-arrival — is a research problem: it needs tight clock synchronization and degrades badly in wind and traffic. **Detecting** one does not. A strike is a sharp transient, separable from ambient noise on a single microphone; a **k-of-N agreement rule** across the circle tolerates a phone in a pocket, a gust, and a passing motorcycle; and the vote requires only a coarse shared window, which the mesh's announcement synchronization (§7) already supplies. The reduction from localization to detection is what moves this tier from research to implementation, and it is available *only* because the caller supplies identity.
+
+**The implied point is an epistemic claim, not a semantic one — and the distinction is load-bearing.** The scoring unit remains what §5 defines: a completed delivery-and-reception pair, credited to no individual. The default tier does not redefine the point; it **assumes the dyad completed and permits a human, or later a sensor, to say otherwise.** An implementation that treated the *call itself* as the scoring event would have quietly built a different game — one in which the caller scores — and would have destroyed the dyadic unit that §5 claims. The caller never scores.
+
+**Why such loose epistemics are licensed here.** Because of §8: no point mints, moves, or gates value. **A score that moves nothing requires no audit.** Were the score coupled to money, the instrumented tier would be mandatory and the default tier negligent; because it is not, trust is the correct default and sensing is an amenity. This is a case of a constraint adopted for dignity reasons removing an engineering dependency — the play/currency wall paying for itself in hardware.
+
+One consequence for the record architecture (§12, claim 10): a trusted-by-default streak can silently inflate. **Records therefore carry their evidence tier** — *unvalidated*, *microphone-validated*, or *object-confirmed* — so that a circle's record states not only its magnitude but how it was witnessed.
+
+---
+
+### 5.2 · The two speaker formats, and the acoustic inversion
+
+A circle has **one acoustic channel and two candidates for it**: the name of the next receiver, and the count. They cannot both be the headline. Interleaving them — *"Sokha! … fourteen! … Dara! … fifteen!"* — buries the name in numerals, and the name is what the sport is for.
+
+The specification therefore inverts the convention of every scoring sport in existence:
+
+> **Every other scoring sport calls the score. This one calls the person.**
+
+**Format 1 (default) — the name format.** The caller speaks names and **counts silently.** The count is *visible, not audible*: the mesh already places a screen in every pocket, and adversarial mode's countdown must remain readable for tension and tactics. Silence is not concealment. Numbers are spoken only at the rationed celebration thresholds of §6, which means **a spoken number is always a rite** rather than ambient noise. The chant, if the circle wants one, remains entirely human — the system never leads it and never competes with it. *An accessibility setting must permit a spoken count, off by default, for players who cannot read the screen; the pre-announcement of §4 is already an auditory pre-cue and the same constituency is served by both.*
+
+**Format 2 — the count format, with the caller off.** The caller is disabled entirely; the system counts aloud *with* the circle, and nobody is told where to pass. This is free play with a shared, trusted counter — and it exists because the design's central mechanism is unproven (§9, §11). It is also **why the microphone tier is specified**: with no call, the system has nothing to count from unless it *hears* the strike. The two are one feature.
+
+The formats are **mutually exclusive by construction**, which resolves the apparent contradiction between them. The rule was never that numbers are undesirable; it is that **the name must never compete with numerals** — one voice per channel, and the channel's content follows what the mode is for.
+
+**Three constraints on format 2, because it switches the sport's dignity guarantees off.** Equal-touch distribution and the cannot-target-weakness property both live *in the caller*; with the caller off, humans choose receivers again and the picked-last dynamic returns. Accordingly: **(a)** format 1 remains the default everywhere; **(b)** format 2 must never be represented to an institution as equivalent — the anti-exclusion properties an administrator approves are precisely the caller's, and a free-play session does not carry them; **(c)** any trial of the caller mechanism must run format 1, or it measures nothing. On which point see §9.1: format 2 is not merely a fallback but the natural **control arm** for the experiment that tests the caller itself.
 
 ---
 
@@ -124,6 +231,18 @@ Mixed-ability play fails two ways: with no handicap, the game is a rout; with a 
 **The synced-circle mesh.** The call must be heard outdoors, over wind and traffic, by everyone at once — the mundane detail on which the whole design stands or falls in a real park. The solution is already standing in the circle: **every player's phone joins the session and speaks the call in unison.** N players are N loudspeakers arranged, by the game's own geometry, in a ring around the play — a surround system that assembles itself and scales with the circle. The mesh deletes the alternative's failure modes (a single device at the circle's center is a trip hazard, a theft target, a single point of failure, and one weak speaker), and it enables a property no single device could offer: **the multilingual circle**. The *call* — the name — is one utterance in one voice; but score announcements and celebrations can be rendered per device, in each phone's own language. A grandmother hears the milestone in Khmer as her grandchild hears it in English, in the same circle at the same moment. For diaspora families — the institution's first constituency — the feature is not cosmetic; it is the difference between a game the whole family plays and a game the grandchildren play while the elders watch. The engineering cost is stated honestly: multi-device simultaneous playback requires tight clock synchronization or the call smears into echo; local time-sync is a solved class of problem, but it is version one's hardest component.
 
 **The two-stage hardware split.** Version one of B-Sey is **software plus any ball on earth** — the app is the caller, umpire, and equalizer, and the ball is whatever the circle owns. Nothing in §3–6 requires instrumented equipment. The manufactured **B-Sey™ ball** — designed for the foot-and-paddle dual strike, and eventually voiced, so the call emanates from the play itself — follows as a second-stage artifact, and brings with it the **ball chronicle**: the ball carries a durable identity (per this corpus's Proof of Coordinate℠ publication) and keeps its own biography — the circles it has played, the records it has witnessed, the dedications spoken over it. The chronicle records *collective* history only (a ball remembers parks and streaks, never individual performance), and a well-traveled ball becomes what sporting goods have never been: a commons artifact whose value grows with use, passed between circles as a gift that carries its own story. The split is a deliberate adoption strategy: the sport must never gate on hardware; the hardware, when it comes, must only deepen a game already alive.
+
+### 7.1 · Local-first architecture, and the object's actual job
+
+**The entire game runs on one device, offline, with no accounts.** Names, pronunciations, pacing, both scoring arrows, start numbers, and celebration thresholds are local state; the complete data model of a thirty-player circle with recorded pronunciations is on the order of a megabyte. Only genuinely shared artifacts require a network — cross-circle discovery, records that travel between places, and the object's own biography.
+
+This is not primarily an economy measure. It is the architectural expression of constraints the design already carries: no per-player statistics, no analytics on minors, chosen names never leaving the circle, and a private-mirror rule for any per-player derivation. Each of those independently says *keep it on the device*. That the result is also nearly free to operate at any scale, and that it works in a park with no signal, a school with a locked-down network, and a village on intermittent data, is a coincidence of goods rather than a trade-off.
+
+Two engineering notes. The synchronized announcement requires **device-to-device transport, not a server** — the platform peer-to-peer facilities (Apple's MultipeerConnectivity; Android's Nearby Connections) are designed for exactly this. The genuine risks are **cross-platform pairing**, since any real circle is mixed, and **clock alignment**, since simultaneous playback across N devices reads as an echo rather than one voice beyond roughly twenty milliseconds of skew; a leader device scheduling playback at a negotiated offset is the standard remedy, with **single-announcer fallback** — never a deliberate stagger — if alignment resists. And the classroom deployment of §9.1 requires no mesh at all, so the hardest component is not on the critical path to the design's primary channel.
+
+**The object's job is smaller than it appears.** Because the caller assigns identity (§5.1), an instrumented object need not report *where* it is or *who* holds it. Radio-signal-strength proximity cannot in any case discriminate between players standing one to three metres apart with bodies intervening; precise ranging radios exist but are confined to premium handsets, which would breach the design's zero-floor commitment. **The object therefore needs an accelerometer and a clock, and uses its radio as a messenger rather than as a tape measure** — reporting `{object_id, touch, t}` for the system to pair with the call it has just issued. The consequence is that instrumentation costs the price of a motion sensor rather than a positioning system, and that **the object needs no speaker at all**, since the mesh already speaks — deleting the most expensive and least durable component from an object designed to be kicked.
+
+Two constraints follow that an implementer will not derive on their own. First, an object broadcasting a stable identifier is a **tracking beacon**, and children are the primary population; the identifier must rotate publicly while the object's durable identity is held cryptographically and locally, so that the biography of claim 10 survives without the object becoming a tag on a child. Second, and more subtly: **once touch events exist and the system knows who was called, a per-player success table becomes trivially computable** — the exact artifact §4 and §12 forbid. The guard must therefore be restated at the hardware layer: **object telemetry aggregates to the circle, never to a player scoreboard.** The general lesson is worth stating plainly for anyone instrumenting a sport: *adding a sensor can silently re-open a guarantee that was previously enforced by the absence of data.*
 
 ---
 
@@ -149,6 +268,48 @@ The predictions, pre-registered at the design layer (n = 0; every instrument awa
 - **P-S1 (the name test).** After a single first session of at least 20 minutes in a circle of 5+ mutual strangers, a majority of participants can freely recall the chosen names of a majority of the circle. This is the mechanism's core social claim made falsifiable; if name-recall does not materially exceed the mixer-conversation baseline, the sport's central marketing truth is false and will be retired.
 - **P-S2 (the friendship test).** Among mutual-stranger dyads who meet in a circle, a measurably higher share exchange contact or co-attend a subsequent circle within 30 days than the baseline for comparable park co-presence without the game. The third-place thesis, instrumented.
 - **P-S3 (the fun wager — publish either way).** The design's existential risk is named in §11: being *told* where to pass may read as magic or as micromanagement. Prediction: in preference trials, caller-on play is chosen for replay at least as often as caller-off free play in mixed-ability circles (the design predicts the caller *wins* precisely where ability is mixed, and may lose in homogeneous expert circles, which is acceptable and expected). The authors commit to publishing this result whichever way it falls, including the design revision it forces if it falls badly.
+
+### 9.1 · The icebreaker slot, the classroom, and the recess test
+
+The adoption thesis above ranks schools fifth. On the analysis below they rank first, and the reason is a general one worth stating separately from this sport.
+
+**A product that claims to ride an existing behaviour must name a behaviour a target adult actually performed, unprompted, in the last twelve months** — and the host must also match the product's commitment level and be in good standing with whoever must permit it. Run that test across this sport's candidate channels and exactly one host passes all three parts. Park circles are a *new* habit: nobody currently goes to a park to play a called circle game, so that channel must be budgeted as habit formation. The classroom is different. Every teacher on earth faces the same two problems in the same week of every year — learn thirty names, and include every child — and *already runs a name game to solve them*, unprompted, annually, worldwide. Elementary morning-greeting routines are a standing institutional ritual. Recess is daily. The commitment shape matches almost exactly: ten to fifteen minutes, free, no equipment, teacher-led, repeatable. And the standing is positive rather than merely tolerated: name learning, inclusion, and anti-bullying are things administrators actively want, which is the inverse of the polarity most novel objects carry into a school.
+
+**The reframe this forces is the practical conclusion of the whole paper.** The behaviour this sport attaches to is not *sport* at all; it is **the name-learning icebreaker** — performed at school openings, orientations, retreats, onboardings, receptions, and newcomer groups, universally, and universally disliked. Its incumbent competitors are the seated round of self-introductions and the disclosure game. Against those, a called circle wins on every axis that matters: **twenty exposures to each name instead of one**, movement instead of standing, nothing to disclose about oneself, and no performance in front of strangers. **The sport ships as an icebreaker and is discovered as a sport** — and Friendship mode at long lead time (§3.1, §4.1) *is* that icebreaker, arrived at from the sport's own logic rather than designed for the channel.
+
+**Rosterless classroom mode.** The classroom deployment is specified as **single-device**: one teacher's device speaks; no child device participates; the roster is entered once by the teacher and reused; **no accounts exist for minors, no analytics are collected, nothing is uploaded, and the roster is local and erasable.** This is not compliance decoration — a roster of children's names and voices is precisely the artifact that fails an institutional privacy review, and the permitting authority and the privacy authority are the same office. It also happens to remove the mesh, the network, the accounts, and the instrumented object from the primary channel: **a teacher, a phone, and a soft sack.**
+
+The pronunciation commitment (§4, claim 9) is satisfied in this mode **without recording anything**. At long lead the called child raises a hand and says their own name, and the circle repeats it; **the scaffold is itself the pronunciation-capture mechanism, performed by a human.** The circle converges on the child's own delivery rather than a synthesizer's approximation — which is the correct outcome in the venue where mispronunciation is actually inflicted, and which requires no biometric capture to achieve.
+
+**Two further pre-registrations.** The design's existential uncertainty (§11) is whether being *told* where to pass is delightful or officious, and only play answers it. The classroom supplies an unusually clean and cheap instrument:
+
+- **P-S4 (name acquisition).** A circle that reaches the short-lead band will show ≥90% correct-name *and* correct-pronunciation recall among its members at one week, measured by naming photographs. This refines P-S1's instrument rather than replacing it.
+- **P-S5 (the recess test — the fun test made falsifiable; publish either way).** Within two weeks of teacher-led sessions in format 1, at least one **student-organized circle will form at recess without adult prompting**, and at least one such circle will include children from a different classroom. The second clause is the stronger instrument: cross-class mixing is this design's social claim, measured in the one building where the social graph is otherwise frozen by classroom assignment.
+
+P-S5 costs one teacher, one class, one sack, and two weeks, and its readout cannot be spun: unsupervised children do not organize a game out of politeness. **Format 2 (§5.2) supplies the control arm** — a second class playing free play with the same object and the same counter. The comparison isolates the caller itself, which is the single variable the entire design rests on and the one no amount of design reasoning can settle.
+
+---
+
+### 9.2 · Who pays: place sponsorship, and the test that scopes it
+
+The economics follow the architecture. Because §7.1 puts the game on the device, the marginal cost of a player is approximately zero, and only the shared layer — cross-circle discovery, travelling records, organizer tooling — has a server behind it. The free tier is therefore *the entire sport*, permanently, and revenue must come from somewhere that is not the player.
+
+The specification is **place sponsorship**: a patron funds the shared layer for a **geofenced public place** — a school, a park, a neighbourhood — and every circle that plays there receives it. The individual player never pays, at any tier, ever.
+
+**The scoping test is non-excludability, and it is the whole rule:**
+
+> **A place is sponsorable if and only if the sponsor cannot exclude anyone from it.**
+
+Not *does the sponsor benefit* — they always do, and should — but *could the sponsor shut the gate*. A private residence fails: the door is controlled, the good is excludable, and the payment is a purchase wearing a patron's coat. A neighbourhood, park, school, plaza, or temple courtyard passes: the good is non-excludable, so the payment remains a gift even when the sponsor's own family plays there.
+
+Four constraints are specified with it, and the first is the one an implementer will get wrong:
+
+1. **No commercial sponsorship of child-facing places.** Schools and children's circles are funded by individuals, families, alumni, parent associations, or civic groups — or by nobody. Commercial patrons may sponsor adult venues and public parks. This eliminates the child-advertising problem structurally rather than managing it, which is the only treatment that survives contact with the world's various child-marketing regimes.
+2. **Acknowledgment, never advertising.** Where a sponsor is shown at all: a **name, never a message** — no slogan, claim, link, or animation — and placed on the organizer's surface or in the session's closing thanks, never in the children's play surface.
+3. **No control, no data, no exclusivity.** A sponsor learns nothing about who played or how often, may not be exclusive to a public place, and gains no influence over it; **an unsponsored place is never degraded**, since the free tier is the whole game. Reach reporting is specifically prohibited: an impressions metric reintroduces both advertising logic and child data by the back door.
+4. **The two flows never net.** The sponsorship payment is revenue; any gratitude the circles direct back at the sponsor is not a rebate against it. Consistent with this corpus's routing rule — *thanks may fund a livelihood; thanks may never pay a bill* (see *B-Links: Proof-of-Humanity-Signed Shareable Provenance*, §6.1, where the rule is specified and freed) — value returned to a sponsor is credited as **forward-spendable gift capacity**, never as a discount and never as withdrawable funds. What a thanked sponsor receives is the capacity to give again.
+
+The resulting circuit is worth naming because it is the reason this revenue model is not a compromise with the mission: **a patron funds a place, the circles that play there thank the patron, and the thanks funds the patron's next gift.** The payment mechanism is itself an instance of the thing the institution builds.
 
 ---
 
@@ -180,6 +341,11 @@ The predictions, pre-registered at the design layer (n = 0; every instrument awa
 6. **Accessibility claims are untested.** The call-before-ball structure plausibly aids low-vision players (an auditory pre-cue) and the circle-plus-paddle geometry plausibly admits wheelchair players; both are stated as design intentions, not verified properties, and will not be marketed until tested with the relevant communities.
 7. **Copyability is total.** The mechanism is a weekend's work for any competent app studio, which is the reason for this publication's timing: the defense is prior art plus the layers no cloner inherits (the mission, the name, the constraint set — and an extractive clone that omits the constraint set is, by that omission, visibly not this sport).
 8. **Base rates are brutal.** Global pastimes are a power-law lottery; pickleball's overnight success took fifty years. The design's honest consolation is that its unit of success is one park: a single circle that runs produces its friendships on the spot, whether or not the world follows.
+9. **The three-axis parameterization multiplies untested surface.** Twenty-seven combinations of method, mode, and level are legal, and none has been played. Mixed-method circles in particular assume that a single soft object serves catch, paddle, and foot without one method spoiling the rally for the others — plausible, unverified, and the kind of thing one afternoon in a park would settle or destroy.
+10. **The implied-point tier will inflate records.** Trusting the call means a dropped object sometimes counts, and social correction in a circle is real but imperfect. Evidence tiering (§5.1) makes the inflation legible rather than eliminating it, and no cross-place record comparison should be published without its tier.
+11. **The classroom channel depends on a privacy posture that has not met an actual reviewer.** §9.1 specifies local-only operation because that is what such reviews normally require, but no district has yet examined this product, requirements vary by jurisdiction, and an unfavourable determination in a large market would remove the channel this paper ranks first.
+12. **Format 2 can mask the failure it was built to survive.** A caller-optional mode is the honest mitigation for the fun risk and also a way to never learn the answer: if circles quietly migrate to free play, usage will look healthy while the central mechanism goes untested. The pre-registration in §9.1 is written to force the comparison rather than permit the drift.
+13. **The sponsorship model is unexercised and its guards are unpoliced.** No place has been sponsored. The child-facing commercial prohibition (§9.2) is a rule this institution can hold in its own implementation and cannot enforce in anyone else's — which is, as with the constraint set generally, exactly the part a cloner will drop first.
 
 ---
 
@@ -197,6 +363,12 @@ The following mechanisms and architectures, individually and in combination, are
 8. **The synced-circle mesh.** Delivery of game announcements through simultaneous clock-synchronized playback on all participating players' personal devices, arranged by the game's own geometry as a surround array, with per-device language rendering of non-call announcements.
 9. **The name-learning mechanic with chosen-name privacy.** The use of pre-play name announcement as a deliberate stranger-introduction mechanism, bound to user-chosen circle names (never legal names), with children's circles restricted to first names or nicknames; including double-blind surfacing of nearby solitary individuals as circle invitees such that neither party learns who initiated and no solitude status is ever disclosed.
 10. **The collective-only chronicle.** A witness architecture that records streaks, records, and celebrations as properties of circles, places, and equipment (including a ball-borne biography anchored to a durable device identity), while computing no individual performance statistics whatsoever; with celebration rationing on an exponential repdigit schedule.
+11. **The call-lead-time ladder with scaffold fading.** A difficulty parameter defined as the interval between the naming of the receiver and the object's arrival — invariant to participant count and to method — banded such that the longest band includes an explicit identification scaffold (the called player self-identifies by raised hand and may speak their own name) which becomes physically unavailable as the interval shortens; so that advancement through the bands tracks the group's *name recall* rather than physical skill.
+12. **Method as declared start-line handicap.** Heterogeneous body vocabularies (hand-catch, implement, foot) exercised by different participants within a single circle on a single shared object, each self-declared publicly before play as an instance of the start-line handicap of claim 4, with reception-by-catch bounded by a release interval clocked to the caller's own cadence.
+13. **The mode ladder with a no-score entry rung.** A single sport whose modes are ordered by opponent relation — none, own record, other circle — whose entry mode has no scoring of any kind, and whose advancement between modes is elected by the participants rather than triggered by performance.
+14. **Circle-scoped adaptation, and the circle-scoped level invariant.** Any automatic adjustment of pacing or difficulty conditions solely on aggregate state of the whole circle, never on per-participant response latency or performance, with per-participant timing neither stored, displayed, ranked, nor retained; the level being a property of the circle and never of a player.
+15. **The three-tier scoring architecture with the implied point and evidence tiering.** Scoring by (a) inference from the call alone, (b) k-of-N agreement across participants' device microphones detecting — not localizing — a strike within a window supplied by the announcement synchronization, or (c) a motion sensor in the object reporting a touch event paired to the outstanding call; identity in all tiers supplied by the caller rather than by sensing; the object's radio used as an event messenger rather than a ranging device; records annotated with the evidence tier that produced them; and the acoustic inversion by which the caller speaks participant names aloud while the count is rendered visually, with an alternate caller-off format in which the system counts aloud and designates no receiver.
+16. **Rosterless local-only deployment for minors, and the non-excludability test for place sponsorship.** A single-device deployment in which participant names are entered locally by a supervising adult, no accounts exist for minors, no telemetry leaves the device, and pronunciation is taught by the named participant in person rather than captured as biometric data; together with a place-scoped patronage model funding a shared service layer for a geofenced location, admissible only where the patron cannot exclude anyone from that location, and constrained by prohibitions on commercial patronage of child-facing places, on any sponsor message beyond a name, on reach reporting, and on netting patron gratitude against the patron's own payment.
 
 ---
 
