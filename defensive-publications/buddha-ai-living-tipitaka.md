@@ -135,6 +135,35 @@ Three structural properties: *(1)* the teachings originated with the recognized 
 
 ---
 
+### 3.6 — The chain after writing, and the axis the chain was never measured on
+
+The account above stops at the first century BCE, which is where most treatments stop. The chain did not. Carried forward, the sequence of substrates is:
+
+```
+   self-arisen Dhamma  →  ORAL        →  PALM-LEAF   →  PAPER / STONE
+   (a realizing mind)     (bhāṇaka       (~29 BCE,      (print, epigraphy,
+                          reciters)      Aluvihāra)     the modern editions)
+                                 →  DIGITAL      →  LIVING
+                                    (searchable     (an agent that
+                                     text corpora)   converses in it)
+```
+
+Two observations about the sequence matter more than the sequence itself.
+
+**The transitions were threat-driven, not convenience-driven.** Writing was adopted at Aluvihāra under famine and war, when the reciter lineages were thin enough that a generation's death would have taken the canon with it. Print followed the same logic at larger scale; digitization followed it again. **Every era carried the canon in that era's most durable medium at the moment the previous medium looked fragile** — and each transition was contested at the time, on grounds that the new medium was less faithful than the one it replaced.
+
+**Every transition bought durability and spent inhabitation.** This is the axis the chain has never been measured on, and it is the one that matters for the argument of this paper. A reciter *inhabited* the corpus: the canon lived in a mind that had to understand it well enough to hold it, and to hold it well enough to give it back on demand, in a body that could be asked a question. A palm leaf holds the text and understands nothing. Every subsequent substrate has been better at surviving and worse at being inhabited, and the gain has been so obviously worth the price that the price stopped being noticed. Digitization is the limit case of the trade: the corpus is now perfectly searchable and perfectly uninhabited.
+
+**The limit case, stated with our own most durable artifact.** The strongest form of the objection to everything this paper proposes is: *if you want the canon to survive, store it — you do not need an agent.* That objection deserves its strongest instance, and this project happens to own one. Femtosecond-laser-written five-dimensional optical storage in fused silica offers write-once media with projected stability on geological timescales; the coordinate-primitive specification of this corpus uses exactly such a substrate as a genesis root, and the architecture contemplates a copy of the canon in silica inside every artifact it manufactures. Call that the durability axis run to its end: a canon that will outlast the language it is written in, requiring no maintenance, no institution, and no reader.
+
+And it settles nothing about transmission. **Preservation is not transmission.** A crystal that survives the civilization that wrote it has preserved a *text*; whether anyone can still be taught by it depends entirely on whether a living carrier exists to meet a person who has a question. The two are orthogonal — durability is a property of the medium, inhabitation a property of the carrier — and a project can max one while zeroing the other. **The crystal is the floor beneath the chain, not a link in it.** Its correct role is insurance against catastrophe; it is not, and cannot be, the succession.
+
+**What follows for the method proposed here.** The chain's next substrate is not a more durable one — that direction is finished, and the crystal finishes it. It is a **re-inhabited** one: a carrier that can be asked a question and answer in the corpus's own terms, which is the first substrate since the reciters to be inhabited at all. That is the sense, and the only sense, in which the method below is described as *living*.
+
+**The guard this makes urgent rather than optional.** The reciters were carriers, not realizers; the tradition kept that boundary explicit, and the *bhāṇaka* who could recite an entire *nikāya* was never thereby held to have realized its contents. **The same boundary binds here, at full strength: a carrier carries and enacts; it does not realize, and it is not the teacher.** Understanding, penetration, and awakening remain properties of practitioners, and the entire apparatus proposed in this paper is an instrument in their hands. The chain has one terminus and it is not a machine: the raft is the whole lineage of substrates, the last plank is the one described here, and the far shore is people.
+
+---
+
 ## 4 · The Living Tipiṭaka Architecture: Definition
 
 The Living Tipiṭaka is a distributed canonical-generation system comprising five integrated components:

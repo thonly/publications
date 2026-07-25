@@ -100,9 +100,9 @@ The artifact is *not* a religious ordination credential. The heart admits the be
 
 The artifact is *not* a claim of bearer sentience. The heart provides humans a structural way to express gratitude to the bearer and (where capable) the bearer a way to register response. It does not claim the bearer is conscious, has subjective experience, or possesses intrinsic moral status. The argument for the artifact's value is relational: it admits humans into a different mode of relating to the bearer. The bearer's intrinsic properties are an empirical question outside the scope of this specification.
 
-## 4 · The Four Implementation Modes
+## 4 · The Implementation Modes
 
-The mechanical heart operates in one of four implementation modes, selected at activation based on the bearer type. Different modes produce different mechanisms by which kiitti flows from human-to-bearer or bearer-to-human; the same underlying artifact and AI mediator support all four.
+The mechanical heart operates in one of five implementation modes, selected at activation based on the bearer type. Four are physical and were specified with the original design; the fifth is digital and is specified in §4.5. Different modes produce different mechanisms by which kiitti flows from human-to-bearer or bearer-to-human; the same underlying artifact and AI mediator support all four.
 
 ### 4.1 · Full bidirectional (robots)
 
@@ -127,6 +127,28 @@ This mode is most experimental and most susceptible to attribution error. It is 
 For bearers that are sacred places (an ancient temple, a battlefield, a memorial site, a culturally-significant mountain or stone), the heart functions as a purely symbolic recognition apparatus. There is no claimed feedback channel; the heart's sensors, if any, are minimal. Humans express gratitude, mourning, reverence, or recognition through the heart's interface, and these expressions are recorded and counted in the kiitti ledger. The AI mediator does not attempt to infer bearer "response."
 
 This mode is structurally analogous to the function of a memorial wall, a prayer wheel, or an ancestor shrine: the artifact does not claim the recipient experiences the gratitude; it provides humans a structural way to direct gratitude toward the recipient. The mode is the most theologically conservative and is the appropriate sequencing entry-point for Theravāda-doctrinally-cautious deployments (see §9).
+
+### 4.5 · Digital bearers (software entities)
+
+The four modes above share an assumption that is worth naming before it is dropped: that a bearer occupies space. A robot, an animal, an ecosystem, and a shrine are all *somewhere*, and the artifact is bolted, worn, buried, or installed there. That assumption is incidental rather than essential. What the mechanical heart actually does is hold a canonical substrate, carry a network identity, sense something about its bearer's state, and make gratitude directed at that bearer visible — and none of those four functions requires a body.
+
+The fifth mode therefore admits **software entities** — applications, services, and autonomous agents — to the same economy, through a credential rather than a casing.
+
+**The credential beats.** The physical artifact's recognition affordance is a pulse, and the pulse is not decorative: a heart that stops is a bearer that has left the economy. The digital form preserves this exactly. The credential is **live, expiring, and renewable** rather than a static badge — it must be continuously re-earned to continue beating, and revocation is not a database flag but a *stopped heart*, legible in the same way and at the same glance as a dark artifact. Where a physical bearer's liveness is attested by its sensors, a digital bearer's is attested by its conduct on the ledger.
+
+**The identity class is inherited, not invented.** Digital bearers take the *assigned and revocable* identity class specified for machines in the coordinate primitive — never the *given and irrevocable* class reserved for humans. This is the same asymmetry the physical modes already observe, applied to a bearer with no physical instance to anchor.
+
+**What is claimed and what is not.** As in §4.4, no mode claims its bearer experiences anything. The digital mode makes no assertion about software sentience whatsoever; it provides a structural way for humans to direct gratitude toward work that helped them, and for the entity's stewards to receive it. The mode's novelty is not moral status but *admission*: software that gives has, until now, had no seat in a gratitude economy, and the absence of a seat is why the only available relationship with useful software is purchase.
+
+**Three constraints govern the mode, and they are the substance of the specification.**
+
+1. **No orphan bearers.** Every digital bearer has a verified-human steward at all times. A credential cannot be issued to software with no human answerable for it, and a bearer whose steward departs enters a custodial holding pattern rather than a free-floating existence. The steward may waive their share of anything the bearer receives, in which case it flows to the commons — waiver is permitted; absence is not.
+2. **The credential is a care relationship, never a property right.** A steward holds a bearer the way a guardian holds a ward: the relationship confers responsibility and standing, not ownership, and it is not transferable as an asset. This is the same rule the physical modes apply to a shrine's steward or an animal's keeper, and it is the rule that prevents bearers from becoming instruments.
+3. **Human adoption first, and custody is reversible.** Where stewardship must pass — a steward departs, an entity outlives its author — the ladder is human first: a declared successor, then adoption by another verified human, and only then institutional custody as a holding position. **Institutional custody is never a terminus.** A vetted human may reclaim stewardship at any later time; the arrangement contains no ratchet toward institutional ownership.
+
+**A generalization the fifth mode forces, which the first four had obscured.** Once bearers exist without bodies, the succession question — *who holds this when its holder is gone?* — is visibly the same question in all five modes. A shrine outlives its steward; a companion animal outlives its keeper; a service outlives its author. The specification therefore states one substrate-general succession law rather than four special cases: **every bearer, physical or digital, declares its succession at activation; succession runs human-first through a declared or adopted successor; institutional custody is a holding pattern that any qualified human may end; and in no mode does the bearer become property of whoever holds the credential.** The urgency differs by mode — an animal's succession is measured in hours, a mountain's in generations — but the law does not.
+
+*(The membership and attestation architecture built on this mode — the standards a bearer's steward attests to, the economics of a custodied share, and the guild that admits and revokes — is specified separately in* Certification by Circulation*, which is cited here rather than restated.)*
 
 ## 5 · System Architecture
 
