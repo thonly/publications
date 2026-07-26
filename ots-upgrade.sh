@@ -6,9 +6,9 @@
 # until upgraded, verification still depends on those calendar servers staying online.
 # The upgrade is what converts a convenience into evidence. See TIMESTAMPS.md.
 #
-# Safe to re-run as often as you like: proofs whose commitment has not yet confirmed
-# on-chain are left untouched, and already-upgraded proofs are no-ops. Run it a few
-# hours after any `ots stamp`, and again the next day if anything was still pending.
+# Safe to re-run as often as you like: already-upgraded proofs are no-ops and
+# still-pending ones are left untouched. Run it a few hours after any `ots stamp`,
+# and again the next day if anything was still pending.
 #
 # Never runs `ots stamp` — stamping overwrites <paper>.md.ots and would destroy an
 # existing proof. Upgrade only.
@@ -19,24 +19,54 @@ cd "$(dirname "$0")"
 VENV="${OTS_VENV:-$HOME/.cache/ots-venv}"
 
 if [ ! -x "$VENV/bin/ots" ]; then
-    printf 'installing opentimestamps-client into %s ...\n' "$VENV"
+    printf 'installing opentimestamps-client into %s ...\n\n' "$VENV"
     python3 -m venv "$VENV"
     "$VENV/bin/pip" install --quiet --upgrade pip
     "$VENV/bin/pip" install --quiet opentimestamps-client
 fi
 
-# Explicit globs: **/*.ots needs shell globstar, which /bin/sh does not have.
-"$VENV/bin/ots" upgrade defensive-publications/*.ots essays/*.ots || true
+upgraded=0
+complete=0
+pending=0
+total=0
 
-echo
-changed=$(git status --porcelain -- '*.ots' | wc -l | tr -d ' ')
-total=$(ls defensive-publications/*.ots essays/*.ots 2>/dev/null | wc -l | tr -d ' ')
+# One file per invocation, deliberately.
+#
+# `ots upgrade a.ots b.ots c.ots` exits at the FIRST proof whose commitment has
+# not confirmed yet, leaving every later file unexamined — and it reports that
+# with the alarming line "Failed! Timestamp not complete", which is not a failure
+# at all. Batching therefore both under-reports and misleads. Looping costs a few
+# extra seconds and examines all of them.
+for f in defensive-publications/*.ots essays/*.ots; do
+    [ -e "$f" ] || continue
+    total=$((total + 1))
+    before=$(shasum -a 256 "$f" | cut -d' ' -f1)
+    if "$VENV/bin/ots" upgrade "$f" >/dev/null 2>&1; then
+        after=$(shasum -a 256 "$f" | cut -d' ' -f1)
+        if [ "$before" = "$after" ]; then
+            complete=$((complete + 1))
+        else
+            upgraded=$((upgraded + 1))
+            printf '  upgraded  %s\n' "$f"
+        fi
+    else
+        pending=$((pending + 1))
+    fi
+done
 
-if [ "$changed" -eq 0 ]; then
-    printf 'No proofs upgraded — commitments not yet confirmed on-chain (%s total).\n' "$total"
-    printf 'Bitcoin confirmation typically takes 1–6 hours. Re-run later.\n'
-else
-    printf '%s of %s proofs upgraded. Review and commit:\n\n' "$changed" "$total"
+# ots writes <file>.bak beside each upgraded proof; gitignored, but tidy up.
+rm -f defensive-publications/*.ots.bak essays/*.ots.bak
+
+printf '\n%s proofs — %s newly upgraded, %s already complete, %s still pending.\n' \
+       "$total" "$upgraded" "$complete" "$pending"
+
+if [ "$pending" -gt 0 ]; then
+    printf '\nStill-pending is NOT an error: those commitments have not confirmed on-chain\n'
+    printf 'yet (typically 1-6 hours after stamping, occasionally longer). Re-run later.\n'
+fi
+
+if [ "$upgraded" -gt 0 ]; then
+    printf '\nCommit them:\n\n'
     printf "    git add -A && git commit -m 'timestamps: upgrade proofs with Bitcoin attestations' && git push\n\n"
-    printf 'Note: this repo forbids AI attribution in commit messages — no Co-Authored-By trailer.\n'
+    printf 'No Co-Authored-By trailer — this repo forbids AI attribution in commits.\n'
 fi
