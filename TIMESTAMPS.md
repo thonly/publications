@@ -51,3 +51,32 @@ Stamped 2026-07-25. Papers added later must be stamped when they are pushed:
 ```sh
 ots stamp <new-paper>.md
 ```
+
+## Revisions — the naming convention
+
+The rule above ("a paper revised after stamping must be re-stamped, and **both proofs kept**")
+did not say *how* to keep both. `ots stamp <paper>.md` always writes `<paper>.md.ots`, so a
+naive re-stamp destroys the proof of the earlier text. The convention:
+
+- **`<slug>.md.ots`** — always attests the **current** text of the paper.
+- **`<slug>.md.r<N>.ots`** — a **superseded** revision's proof, `N` ascending from 1, where
+  `r1` is the first text ever stamped. These are never deleted.
+
+Before re-stamping, move the existing proof aside:
+
+```sh
+git mv <slug>.md.ots <slug>.md.r1.ots     # r2, r3, … for later revisions
+ots stamp <slug>.md
+```
+
+Each superseded text remains recoverable from git history, and the pairing is verifiable:
+a proof matches exactly one text and fails loudly against any other. That failure is the
+feature — `ots verify <slug>.md.r1.ots -f <current>.md` printing `File does not match
+original!` is precisely what proves `r1` attests something else.
+
+### Revision log
+
+| Paper | Proof | SHA-256 of the text it attests | Notes |
+|---|---|---|---|
+| `brand-identity-as-architecture` | `.r1.ots` | `1963f82a…dd9bba` | Original. Motion claim fixed ~72 BPM / ~8% expansion. |
+| `brand-identity-as-architecture` | `.ots` | `e15ed054…e1e843` | 2026-07-25 revision — PoH motion claim reframed from *rate* to *cardiac morphology*. |
