@@ -64,7 +64,7 @@ The integrated architectural specification proposed here — the unified composi
 
 Brand identity for civilizational-scale autonomous-AI institutions should be architectural rather than merely aesthetic. Each design choice should serve multiple functions simultaneously — brand identification, Proof-of-Humanity signaling, cross-product state communication, anti-counterfeit verification, cross-tradition portability — and the composition of choices should produce a moat that no single-purpose alternative can match. This paper articulates four interrelated innovations from the HeartBank® identity system as a unified architectural contribution available to any institution building identity at this scale.
 
-The four innovations are: *(I)* a bistable rotated-shape logo (the B-heart, a universal heart shape rotated 45° clockwise that reads simultaneously as both heart and capital letter B), with each reading carrying complementary meaning; *(II)* a single-letter brand-prefix naming convention (B-Treasury, B-Chronicle, B-Aquarius, B-Pool, B-Heart, B-Wat, B-Film) in which the prefix is structurally tied to the logo's bistable reading and cannot drift the way trained prefixes (Apple's "i") historically have; *(III)* animation parameters as functional Proof-of-Humanity signal (~72 BPM heartbeat cadence, ~8% peak expansion, ease-in-out curve), where the animation is not decorative but verifies humanity at the substrate level — to the author's knowledge, the first motion mark whose animation IS the security signal; *(IV)* aura-color cross-currency state primitive in which one color carries identity across multiple modes (personal profile, B-heart logo color, Mechanical Heart light color, longitudinal cohort marker), inverting the conventional brand-color claim by letting shape carry identity and freeing color for state signaling.
+The four innovations are: *(I)* a bistable rotated-shape logo (the B-heart, a universal heart shape rotated 45° clockwise that reads simultaneously as both heart and capital letter B), with each reading carrying complementary meaning; *(II)* a single-letter brand-prefix naming convention (B-Treasury, B-Chronicle, B-Aquarius, B-Pool, B-Heart, B-Wat, B-Film) in which the prefix is structurally tied to the logo's bistable reading and cannot drift the way trained prefixes (Apple's "i") historically have; *(III)* animation **morphology** as functional Proof-of-Humanity signal — a two-phase cardiac cycle (systolic beat, weaker diastolic beat, then a diastolic rest occupying most of the period) rather than the uniform pulse any "beating" logo produces by default — where the animation is not decorative but verifies humanity at the substrate level, and where *the rhythm, not the rate, carries the signature* — to the author's knowledge, the first motion mark whose animation IS the security signal; *(IV)* aura-color cross-currency state primitive in which one color carries identity across multiple modes (personal profile, B-heart logo color, Mechanical Heart light color, longitudinal cohort marker), inverting the conventional brand-color claim by letting shape carry identity and freeing color for state signaling.
 
 The composition is the contribution. Each innovation alone has prior art (FedEx arrow for bistable logos, Apple "i" for product prefixes, motion marks generally for animated logos, color-state-coding in interface design); the integrated architecture composing all four into a coherent system with mutually reinforcing properties is novel. The paper specifies the four innovations, the analytical argument for why they compose into a moat, cross-domain portability, implementation patterns, edge cases including counterfeit analysis, and honest limitations. It further specifies the public-facing distribution layer through which this identity reaches an audience: the canonical slogan and its logo-substitution rule, the legitimacy-signal contact architecture, and the distribution-surface architecture of domains, subdomains, email, and audience-matched social handles.
 
@@ -225,12 +225,15 @@ A minor fourth resonance is noted for completeness: "grace period" is the one pl
 
 ### 5.1 — Specification
 
-In digital form, the B-heart is animated with specific parameters approximating a human heartbeat:
+In digital form, the B-heart is animated with a **cardiac morphology**. The load-bearing property is the *shape* of the cycle, not its rate:
 
-- **Cadence:** approximately 72 beats per minute (the median resting human heart rate); individual instances may vary slightly to avoid synchronized resonance across multiple displayed marks
-- **Peak expansion:** approximately 8% increase in linear dimension at the peak of each beat; subtle enough to be peripheral, perceptible enough to register as living
-- **Curve:** ease-in-ease-out (sinusoidal or cubic-bezier approximation), matching the cardiac systole-diastole rhythm rather than mechanical step or linear motion
-- **Phase:** deliberate slight asynchrony when multiple marks are simultaneously displayed, to reinforce the impression of independent living rhythms rather than mechanically driven uniform motion
+- **Morphology (the signature):** a two-phase cardiac cycle — a systolic beat, a second and weaker diastolic beat, then a diastolic rest occupying the majority of the period. This *lub–dub–rest* shape is what separates the mark's motion from the uniform sinusoidal swell that a "beating" logo produces by default. **The morphology, not the cadence, is the signature.**
+- **Cadence:** presentational, selected per surface within a plausible human range, and *not* part of the claim. The reference implementation runs at approximately 40 beats per minute — a deep-rest cadence chosen for contemplative register. Approximately 72 BPM (the median resting human rate) was specified in earlier revisions of this document and remains an equally valid instantiation. Individual instances may vary slightly to avoid synchronized resonance across multiple displayed marks.
+- **Peak expansion:** presentational and scale-compensated — approximately 30% of linear dimension at brand-mark scale in the reference implementation, reduced at large display sizes where less optical compensation is required. Earlier revisions specified ~8%.
+- **Curve:** ease-in-ease-out (sinusoidal or cubic-bezier approximation) *within* each beat, so that both beats are soft rather than mechanical.
+- **Phase:** deliberate slight asynchrony when multiple marks are simultaneously displayed, to reinforce the impression of independent living rhythms rather than mechanically driven uniform motion.
+
+**Why the rhythm and not the rate carries the claim (revision note, 2026-07-25).** Fixing a single cadence made the specification brittle in two directions at once. It over-committed the claim — a mark deployed at a different rate on a different surface would, on the earlier reading, cease to be authentic — while under-describing what actually makes the motion legible as a *heartbeat* rather than a *pulse*. Rate is the easy part to copy and the easy part to get accidentally right; a counterfeiter reaching for "a beating heart" will produce a uniform swell at some plausible speed. The two-beat-plus-rest morphology is both harder to arrive at by accident and independent of tempo, which means one signature survives across a contemplative surface running slow and a transactional surface running faster. Rate-independence is therefore a strengthening of the anti-counterfeit property, not a relaxation of it. It also narrows the culture-bound exposure discussed in Section 14: cardiac *morphology* is a physiological universal, whereas the "normal" resting *rate* is a population statistic.
 
 ### 5.2 — The functional claim
 
@@ -242,7 +245,7 @@ Practitioners encountering the mark, even without consciously parsing the semant
 
 Conventional motion marks (Pixar lamp, MGM lion, 20th Century Fox flourish, Netflix TUDUM) are decorative: the animation delights and the brand is reinforced, but the specific motion serves no function beyond aesthetic recognition. The HeartBank heartbeat animation is, to the author's knowledge, the first motion mark whose animation IS the functional signal it carries (specifically, that humanity is in the loop).
 
-The functional claim has anti-counterfeit properties: a counterfeit B-heart that beats at the wrong rate, with the wrong expansion percentage, or with the wrong curve is detectably wrong even when the static frame appears identical to the authentic mark. The animation parameters become part of the brand's verifiable signature in a way the static logo alone cannot achieve.
+The functional claim has anti-counterfeit properties: a counterfeit B-heart that *pulses* — one uniform swell per cycle — rather than executing the two-beat-and-rest cardiac cycle is detectably wrong even when the static frame appears identical to the authentic mark, and remains detectably wrong at any tempo. The animation's morphology becomes part of the brand's verifiable signature in a way the static logo alone cannot achieve.
 
 ### 5.4 — Composition with other Proof-of-Humanity primitives
 
@@ -342,7 +345,7 @@ If the composition argument above is real, it should generate more than logos: t
 
 1. **The bistable shape (§3)** supplies the ears: read as elf-ears by Western eyes and rabbit-ears by Eastern eyes — one design, two true readings. This is the brand's third bistable figure (heart⊕B; static⊕beating; elf⊕rabbit), and the name performs the same trick in phonology: a Khmer ear hears the common noun *rabbit*; a Western ear hears an elvish proper name.
 2. **The naming convention (§4)** supplies the marks: `Tonsay™` as the character's name-mark, `B-Mascot™` as the role mark, both inside the family grammar.
-3. **The functional-motion doctrine (§5)** supplies the voice. Tonsay is mute — Tonsay pantomimes — and the character's single sound is the rabbit's single natural signal: the hind-foot **thump**, which is also the pestle-stroke, designed at the heartbeat cadence of §5.1 (~72 BPM). The motion-mark-as-signal doctrine, transposed from animation to audio and haptics.
+3. **The functional-motion doctrine (§5)** supplies the voice. Tonsay is mute — Tonsay pantomimes — and the character's single sound is the rabbit's single natural signal: the hind-foot **thump**, which is also the pestle-stroke, carrying the cardiac morphology of §5.1 — paired strokes with a rest between, at the mark's own tempo. The motion-mark-as-signal doctrine, transposed from animation to audio and haptics.
 4. **The color-as-state primitive (§6)** supplies the fur, by subtraction: the fur owns no color. Tonsay renders in pearl-white and is tinted, at low saturation, by whatever surface the character appears on — the aura system's colors pass through the fur exactly as §6 specifies for the mark. Internally the doctrine is stated in one sentence: *the mascot glows only with borrowed light.*
 
 **The canonical vignette — "The Reflection Returned."** A seven-star constellation in the shape of a rabbit — the stars are never absent from any render — holds a mortar-shaped half-moon in its arms and pours down a stream of hearts in seven colors (the six B-Gem colors plus diamond — which is also the architecture's media-type map, so the stream depicts the seven forms a witnessed thank-you can take) onto a lotus pond; the pond's reflection shows a *real* rabbit holding a *real* bowl. The mirror does doctrinal work for free: above the waterline the bowl pours (gives); in the reflection the same stream flows upward into the bowl (receives) — giving and receiving rendered as one gesture, mirrored, with the waterline as the zero between them: the Zero-Point Game ℠'s two poles as the image's two halves. Scale behavior inverts normal logo practice: at small sizes the figure survives as a solid hug-glyph (a rabbit-outline embracing a half-disc); at large sizes the body resolves into its stars — the closer the inspection, the less body there is. A figure that dissolves under scrutiny is a giver whose anonymity survives zoom.
@@ -542,17 +545,29 @@ Implement the heartbeat animation in CSS keyframes for web surfaces:
 
 ```css
 @keyframes b-heart-beat {
-  0%, 100% { transform: rotate(45deg) scale(1.0); }
-  15%      { transform: rotate(45deg) scale(1.08); }
-  30%      { transform: rotate(45deg) scale(1.0); }
-  45%      { transform: rotate(45deg) scale(1.04); }
-  60%      { transform: rotate(45deg) scale(1.0); }
+  0%, 100% { transform: scale(1);   }
+  14%      { transform: scale(1.3); }  /* systole  — lub          */
+  28%      { transform: scale(1);   }
+  42%      { transform: scale(1.3); }  /* diastole — dub          */
+  70%      { transform: scale(1);   }  /* rest fills the period   */
 }
 .b-heart-animated {
-  animation: b-heart-beat 0.833s ease-in-out infinite;
-  /* 0.833s = 60s / 72bpm */
+  animation: b-heart-beat 1.5s infinite;
+  transform-origin: center;
 }
 ```
+
+The morphology is the specified part: two beats, then a rest occupying roughly thirty percent
+of the cycle. The `1.5s` period and the `1.3` peak are the reference implementation's
+presentational choices, not claim parameters — see §5.1.
+
+Two implementation notes. First, these keyframes set `transform`, and a CSS animation
+overrides a non-animated `transform` on the same element; where the mark also carries the 45°
+rotation of §3.1 or a responsive sizing scale, apply the animation to an inner wrapper so the
+declarations do not collide. Second, honour `prefers-reduced-motion` — the animation is a
+signal, but a signal that induces vestibular discomfort is a defect; static rendering falls
+back to the Proof-of-Coordinate state described in §5.5, which is a meaningful state rather
+than a degraded one.
 
 Native-app and hardware implementations use equivalent platform-appropriate animation APIs.
 
@@ -578,7 +593,7 @@ A trivial counterfeit reproduces the static rotated-heart shape without the anim
 
 ### 13.2 — Counterfeit animation with wrong parameters
 
-A more sophisticated counterfeit animates the static mark but with incorrect parameters (wrong cadence, wrong expansion, wrong curve). Defense: the canonical animation parameters are part of the brand's verifiable signature. Authentic surfaces use ~72 BPM, ~8% expansion, ease-in-out curve; deviation from these parameters is detectable. Verification services and savvy users can compare animations to canonical parameters and flag deviations.
+A more sophisticated counterfeit animates the static mark but with the wrong motion — typically a single uniform swell per cycle. Defense: the canonical *morphology* is part of the brand's verifiable signature. Authentic surfaces execute a two-phase cardiac cycle (systolic beat, weaker diastolic beat, diastolic rest across the majority of the period) with an ease-in-out curve within each beat; a uniform pulse is detectable as inauthentic at any tempo, and no single rate needs to be assumed for the test. Verification services and savvy users can compare an animation's beat count and rest fraction against the canonical morphology and flag deviations.
 
 ### 13.3 — Color-confusion attacks
 
@@ -599,7 +614,7 @@ Constantly-animating brand marks across UI surfaces can become visually exhausti
 - **The bistable reading is shape-specific.** The pattern works because the heart shape rotated 45° produces a recognizable B; not every shape produces a recognizable letter when rotated. Adopting the pattern in another institution requires careful shape-and-rotation selection that may not be available for every brand initial.
 - **The any-color rendering policy is bandwidth-cost at the brand-recognition level.** Conventional brand-color claims reduce the cognitive load of brand identification; the any-color policy increases it slightly because viewers cannot recognize the brand by color alone. Trade-off accepted in exchange for the cross-currency state-signal capability.
 - **Animation requires implementation discipline across surfaces.** The functional Proof-of-Humanity property depends on canonical animation parameters being consistently deployed. Surface-specific deployments that drift from canonical parameters weaken the verification function. Maintaining consistency requires ongoing brand-engineering attention.
-- **The heartbeat-as-POH semantic stack is culture-bound.** The association between heartbeat and life is universal across human cultures, but the symbolic weight of the specific cadence (~72 BPM) is most natural for cultures using Western medical norms. Cultures with different physiological baselines may experience the cadence differently.
+- **The heartbeat-as-POH semantic stack retains some culture-binding, though less than earlier revisions.** The association between heartbeat and life is universal across human cultures, and relocating the signature from cadence to *morphology* (§5.1) removes the dependence on any one population's resting-rate norm — cardiac shape is a physiological universal where "normal rate" is a statistic. What remains culture-bound is the reading of the *mark* itself: the visual convention that a swelling silhouette denotes a beating heart is learned, not innate, and audiences without exposure to that convention may read the motion as generic emphasis rather than as life.
 - **Aura-color systems require user buy-in.** Users may not engage with assigned colors, may want to change colors frequently, or may not perceive cross-surface consistency as meaningful. The cross-currency property only delivers value at scale when users participate in the convention.
 - **The architecture is articulated; empirical validation is pending.** Long-term effects of deploying the unified architecture at scale are not yet measurable. Edge cases identified in Section 13 are theoretical; real-world deployment may surface failure modes not anticipated.
 
