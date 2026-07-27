@@ -80,3 +80,5 @@ original!` is precisely what proves `r1` attests something else.
 |---|---|---|---|
 | `brand-identity-as-architecture` | `.r1.ots` | `1963f82a…dd9bba` | Original. Motion claim fixed ~72 BPM / ~8% expansion. |
 | `brand-identity-as-architecture` | `.ots` | `e15ed054…e1e843` | 2026-07-25 revision — PoH motion claim reframed from *rate* to *cardiac morphology*. |
+| `the-sport-that-says-your-name` | `.r1.ots` | `38e3a880…042ff` | Original stamp, attesting the text at `70d29529` (2026-07-25). The paper was revised after stamping and before this rotation; `r1` attests the pre-revision text and will fail against the current one, which is the intended behaviour. |
+| `the-sport-that-says-your-name` | `.ots` | `cc6dfe15…0641a8` | 2026-07-27 revision — claims 17–19 added (the determined caller with count-only circle coherence and the seat-migration bar; the host-agnostic turn-assignment layer; the relay call). §3 resorted into determined and judged seats; §4.2 added; §5.2 expanded from two speaker formats to three named ones (Relay · Call · Free); P-S5 given its device-availability precondition. |
