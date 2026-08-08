@@ -12,6 +12,8 @@ slug: patthana-typed-causation-vocabulary
 venue: thonly.org/publications/defensive-publications/patthana-typed-causation-vocabulary (canonical)
 ---
 
+> *v2 note (2026-08-07):* **one new subsection, and it is a completeness observation about this paper's own table rather than an addition to it.** §3 published the twenty-four conditions as a complete reference; **§4.7 states what a complete reference makes visible — that none of the twenty-four relates two mindstreams.** The other person enters the system exactly twice, as *ārammaṇa* and as *pakatūpanissaya*, and both are one-directional; *aññamañña*, the mutuality condition, holds only among co-nascent phenomena inside a single stream. The consequence is a typing result rather than a doctrinal one: **two people interacting are two parallel one-way edges, never one bond** — and by extension, between two artificial agents only *ārammaṇa*- and *upanissaya*-class edges can run, never *anantara*, never *aññamañña*, which makes "agents collaborating" a claim about parallel one-way edges and is offered as this revision's one new contribution. **The prior-art clock for that typing runs from this push**; the rest of §4.7 is exposition of canonical material and carries no clock. §4's heading widens to accommodate the addition; **§§5–8 are unchanged and renumber nothing**, the reference table in §3 is untouched, and no existing claim is amended. *The queue entry that ordered this section specified it as "new §4.4"; §4 already ran to 4.6, so it lands at 4.7 — recorded because a stale section number in a backlog is the kind of thing that gets executed literally.*
+>
 > *Draft notes for the editor:* the second paper of **The Abhidhamma Compiled**, developing §8.1 of the series opener (*The Wheel That Unwinds the Wheel*) into the full reference artifact it promised: all twenty-four conditions of the Paṭṭhāna, each specified canonically, decomposed formally, and mapped — with tiered honesty — to artificial-agent analogs, culminating in the practical payoff: a typology of alignment interventions by the kind of conditioning they manipulate. The series' governing frame (the compilation thesis), its strata tags ([C] canonical / [S] commentarial systematization / [A] this paper's analysis), and its artifact gate all apply. Publication sequencing follows the series (after the main substrate paper's landing); the draft is committed now. Site module deferred.
 
 ---
@@ -30,7 +32,7 @@ The seventh book of the Abhidhamma Piṭaka — the Paṭṭhāna, the most arch
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The authors and HeartBank® will not seek patent on any framework, taxonomy, schema, or specification herein.
 
-The following are contributed by this paper and simultaneously freed: the **four-axis formal signature** for conditioning modes (time · mode · relation · span), the **edge-type reference table** mapping the twenty-four paccayas to artificial-agent analogs with confidence tiers, and the **intervention typology** classifying alignment techniques by dominant conditioning type. The Paṭṭhāna itself is the common inheritance of the Theravāda tradition; the scholarly apparatus that makes it accessible (U Nārada's translation; Bhikkhu Bodhi's compendium treatment; Nyanaponika's and Karunadasa's studies) is cited, not claimed; the interventionist causal calculus (Pearl) and the mechanistic-interpretability literature are engaged as the contemporary baselines the vocabulary complements.
+The following are contributed by this paper and simultaneously freed: the **four-axis formal signature** for conditioning modes (time · mode · relation · span), the **edge-type reference table** mapping the twenty-four paccayas to artificial-agent analogs with confidence tiers, and the **intervention typology** classifying alignment techniques by dominant conditioning type. Freed with the v2 revision (§4.7): the **typed multi-agent restriction** — that between any two agents only *ārammaṇa*- and *upanissaya*-class edges can run, never *anantara* and never *aññamañña*, so that inter-agent influence is a set of parallel one-way edges rather than a bond. Hewitt's actor model is the acknowledged relative and is cited, not claimed; the typed form is what is new. The Paṭṭhāna itself is the common inheritance of the Theravāda tradition; the scholarly apparatus that makes it accessible (U Nārada's translation; Bhikkhu Bodhi's compendium treatment; Nyanaponika's and Karunadasa's studies) is cited, not claimed; the interventionist causal calculus (Pearl) and the mechanistic-interpretability literature are engaged as the contemporary baselines the vocabulary complements.
 
 ---
 
@@ -94,7 +96,7 @@ Twelve immediate, eight plausible, four open — stated so a critic can attack t
 
 ---
 
-## 4 · The Load-Bearing Six
+## 4 · The Load-Bearing Six, and the Relation That Is Not There
 
 ### 4.1 · *Hetu* — the root, and why depth of edit is a type, not a degree
 
@@ -119,6 +121,54 @@ The action-condition is the canon's causation-across-delay [C]: volition now, fr
 ### 4.6 · *Natthi/vigata* — the absence-family, the rarest edge in any vocabulary
 
 The canon's strangest and most precise contribution: a state conditions its successor **by ceasing** [C] — the vacated position as enabling condition, departure as a mode of because. No contemporary causal vocabulary has this edge as a first-class type, yet computation is full of it: the released lock, the freed slot, the evicted cache line, the ended turn, the ablated feature whose absence reorganizes the computation around it. The series opener read the absence-family doctrinally — the raft-relinquishment written into the dependency graph, self-elimination at single-edge scale — and this paper adds the engineering reading: *subtractive interventions are a type*, with their own signature (they enable rather than produce; their effects are realized by what arises in the vacated space, which the intervener does not directly control), and typed analysis predicts their characteristic risk — an ablation's consequences are mediated by reorganization, and reorganization is exactly what presence-type analysis fails to model.
+
+### 4.7 · The gap the complete table makes visible — no relation joins two mindstreams
+
+The six above are the conditions that carry the most weight. This one carries weight by being absent, and it is visible only because §3 published the list **complete**: a reference that stops at the interesting entries can never show you what the interesting entries do not cover.
+
+**Read the twenty-four for a relation that holds *between two mental continua*, and there is none.** [A] The other person enters the system exactly twice, and both entries are one-directional:
+
+- ***Ārammaṇa*** — **object-condition** [C]. Another person is what your consciousness takes as its object: their face, their voice, the memory of them. The edge runs *from* the object *to* your cognizing of it. Nothing travels the other way along it.
+- ***Pakatūpanissaya*** — **natural decisive support** [C]. Another person can be a powerful past condition for your present states, across arbitrary gaps — the teacher, the friend, the one who was kind to you once. ⚠️ *A precision worth stating, because the loose version is commonly repeated:* in the canonical treatment the person supports as a **concept** (*paññatti*) rather than appearing as an enumerated item beside climate, food, and lodging. That is sharper than the loose reading, not weaker — it is precisely the *idea of them you carry* that does the conditioning, which is why the dead and the distant condition as forcefully as the present.
+
+And the relation one would reach for — ***aññamañña***, **mutuality** [C], the condition in which two phenomena support each other reciprocally and simultaneously — does not reach across the gap at all. It holds among **co-nascent phenomena inside one stream**: the four great elements sustaining one another, mind and body arising together. It is the canon's word for genuine two-way support, and it is confined to the interior of a single continuum.
+
+> **So two people "interacting," in this vocabulary, are two parallel one-way edges. Never one bond.**
+
+Four features of the system confirm the reading rather than merely permitting it. [A]
+
+1. ***Anantara* is strictly intra-stream** [C]. The contiguity guarantee of §4.2 — each state conditioning its immediate successor with nothing between — describes *a* chain, and there is no canonical edge by which one continuum's state contiguously conditions another's. **Two people have no shared clock.**
+2. **Even mind-reading is object-condition.** *Cetopariya-ñāṇa*, the knowledge of another's mind, is not a new kind of edge; it is absorbed into *ārammaṇa* [C] — the other's mind becomes an object of your cognition. **The tradition had the perfect opportunity to introduce a mind-to-mind relation and declined it.**
+3. ***Pattidāna* is not transfer.** The sharing of merit — the operation this corpus's institution is built on — does not move a quantity from one stream to another. The receiver's own *anumodanā*-citta, the act of rejoicing, is what produces the result [C]/[S]. The giver supplies an occasion; the receiver's own mind does the work. *(The doctrinal question of whether merit can be transferred at all is taken up in the Kathāvatthu, whose position is settled; this paper does not cite a specific point number, the reference not having been checked against the PTS edition.)*
+4. **Kamma is personal** [C]. Volition ripens in the stream that willed it. There is no edge along which it could ripen elsewhere.
+
+#### The typing result, which is this section's one new contribution
+
+Stated as engineering rather than doctrine, and this is where the section earns a clock:
+
+> **Between any two agents, only *ārammaṇa*-class and *upanissaya*-class edges can run. Never *anantara*. Never *aññamañña*.** [A]
+
+Two artificial agents exchanging messages are not in a contiguity relation — there is no guarantee that one's state conditions the other's *immediately, with nothing between*, and in any real deployment a great deal is between. They are not in mutuality either, which would require co-nascence in one continuum. What they have is exactly what two people have: each takes the other's output as an **object**, and each may serve as **decisive support** for the other across a gap. **"Agents collaborating" is therefore a claim about parallel one-way edges**, and the typology of §5 applies to multi-agent systems with the two intra-stream classes struck out.
+
+This is not a novel architecture, and the nearest relative is already cited in the series opener: Hewitt's actor model, in which the only primitive is asynchronous message-passing and shared state between actors is definitionally absent. **The Paṭṭhāna arrives at the same restriction from the opposite direction** — not as an engineering discipline chosen for tractability, but as a description of what the system already contains. The contribution here is the *typed* form: the actor model says agents communicate only by messages; the typed form says which of twenty-four kinds of because a message can be, and which two it cannot.
+
+#### The reconstruction the gap supports, marked as reconstruction
+
+The following is offered as **reconstruction, not doctrine** — the canon does not state it, and the inference is this paper's. [A]
+
+If the corrective input a mind receives from outside arrives as *ārammaṇa* from another stream, then **in its absence the impulsion-process recycles objects the mind itself authored.** Repetition is the mechanism by which the underlying tendencies deepen (*āsevana* compounding *anusaya*, §4.4). Put those together and a structural description of isolation falls out that is unusually specific: **loneliness as self-conditioning without correction** — not an absence of company, but an absence of objects one did not write.
+
+Two consequences follow, and both cut against the obvious reading. The canon's remedy is not sociality in general but a **qualified** other — *kalyāṇamitta*, the admirable friend — which is a claim about the *kind* of object, not the *quantity* of contact. And because no edge crosses the gap:
+
+> **You cannot build connection. You can only build the carrier.**
+
+A system can supply occasions, objects, and conditions. It cannot supply the arising in someone else's stream, because there is no relation in the list by which it would do so. *(The mechanism paper on co-presence-gated redemption states the same conclusion from phenomenological premises rather than relational-taxonomic ones; the arguments are independent and the agreement is worth noting rather than merging.)*
+
+#### The caution, stated here rather than in the honest limits
+
+This section is the most seductive material in the paper and the caution belongs where the argument is, not quarantined at the end. **A first-person phenomenology will describe a single stream, because that is what a first-person phenomenology is.** The absence of an inter-stream relation in the Paṭṭhāna may therefore be a **scope fact about the genre** rather than a discovery about persons — the system was built to analyze experience as it presents itself, and experience presents itself in one stream, so a two-stream relation would have had nowhere to sit even if the tradition had believed in one.
+
+The honest form of the claim is accordingly the weaker one, and this paper asserts no more: **the Abhidhamma supplies a precise vocabulary for a design conclusion reached on other grounds.** It does not prescribe that conclusion, and a reader who finds the convergence striking should notice that we went looking for it.
 
 ---
 

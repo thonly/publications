@@ -11,6 +11,8 @@ slug: co-presence-gated-redemption
 venue: thonly.org/publications/defensive-publications/co-presence-gated-redemption (canonical)
 ---
 
+> *v2 note (2026-08-07):* **the paper gains the ground it shipped without, one correction to a published claim, and the substitution argument that was the reason to publish early.** ⚠️ **The correction first, because it is a tightening of numbered claim 2.** The published wording — *"presence received only by matching presence"* — asserted a symmetry the gate does not deliver: synchronicity makes symmetric **duration** automatic, but symmetric **attention** cannot be enforced without measuring it, and measuring it is the one thing this architecture must refuse. **Claim 2 is restated, new claim 2a records the presence-scoring refusal, and §4.5 gives the reasoning** — *B senses the attention; B infers the sacrifice*, sacrifice being counterfactual and therefore never directly perceived. The restated claim is weaker in wording and stronger in truth, and **the prior-art clock for claim 2 as restated, and for claim 2a, runs from this push**; the original wording is superseded rather than withdrawn. **New §3.1** supplies the ground §§4–7 assumed but never argued — the six-position loop, *mettā as the loop's name and never a node in it*, the two positions this mechanism actually occupies (denomination and witness, the joints where the loop leaks), the *build-the-left-side-never-the-right* rule that keeps this from being a calendar application, and the reframing of the gate as a **proof-of-sacrifice primitive** beside the corpus's other two. **New §7.1** states what that primitive is worth against machine companionship — *presence-as-experienced counterfeits; presence-as-sacrifice cannot* — with its own falsifier. **§10 gains P-L1/P-L2/P-L3**, of which **P-L2 is the founding bet, publish-either-way: if unwitnessed presence produces equal downstream gratitude, the chronicle is decorative.** **§11 gains the agent hour-farm** case and **§12 gains the limit the paper most needed** — *no guaranteed valence; presence is a high-bandwidth channel, not a good one.* Claims otherwise unchanged; §§5–6 untouched.
+>
 > *Draft notes for the editor:* paper №2 of the July 2026 drafting sprint — the full mechanism treatment of the HeartBank® Chronicle (the time-currency half of the dual-currency system) and its unification circuit with the Treasury (the money half). Claims division with sibling publications, stated for the record: the *incommensurability-preserving coupler* publication owns the wall-layer claims (coupled-non-convertible dual currency, duration-blind recommendation, redemption-moment prompt-suppression, moment-not-meter surfaces, ceremonial-unit anchoring, cross-currency response routing, the lapse-channel); the *What Money Can't Buy* position paper owns the institutional argument; the present paper owns the **event-layer mechanism**: what a redemption *is*, who composes it, what gates it, how the circuit closes, and what the system refuses to build around it. The Chronicle is design-complete and unbuilt (closed beta targeted); every claim is architectural and strata-dated to the design layer. Site module deliberately deferred; the prior-art clock starts at this markdown push.
 
 ---
@@ -69,6 +71,48 @@ Two published doctrines complete the unit's grammar and are inherited here: the 
 
 ---
 
+### 3.1 · The loop the gate closes — the ground this paper shipped without
+
+*Added 2026-08-07. §§4–7 specified a gate and defended it mechanically; they did not answer the prior question a skeptical reader asks first — **why gate on co-presence at all**, rather than on anything else. This subsection supplies the ground. It introduces no mechanism, and the mechanism it grounds was already published; what follows is the argument that was in the design and not in the paper.*
+
+The mechanism sits inside a loop with six positions:
+
+```
+      gratitude
+          │  (denominated)
+          ▼
+   time-gratitude
+          │  (spent)
+          ▼
+   time-sacrifice  ═══  PRESENCE
+          │  (seen)
+          ▼
+      witnessed
+          │  (occasions)
+          ▼
+      gratitude   ──────────────┐
+          ▲                     │
+          └─────────────────────┘
+```
+
+Gratitude, to move, must first be **denominated** — given a unit a person can actually spend. Denominated in time, it becomes a pledge. A pledge spent is **time sacrificed for another**, which is what presence *is*. Presence **witnessed** occasions gratitude in the other, and the loop turns again.
+
+**Mettā is the name of the loop and never a node in it.** This is a design commitment, not a piece of vocabulary. Loving-kindness is what the whole circuit is *for* and what a person cultivates by running it — but the moment it becomes a position in the diagram, the ledger is being asked to record an interior state, and recording an interior state is a grading move. The architecture that refuses to price an hour cannot coherently score a heart. **Every node in the loop is an observable event; the disposition is the loop's name.**
+
+Two consequences follow immediately, and both are already visible in the specification.
+
+**The Chronicle supplies exactly two of the six positions, because those are the two where the loop leaks.** It **denominates** (gratitude that stays a feeling never moves; a pledged hour is gratitude given a spendable unit) and it **witnesses** (§6.4, §6.6). It does not supply presence, cannot supply the disposition, and deliberately does not supply the meeting.
+
+**Which is the strongest statement of what this system is not.** It is not a calendar application, and the rule that keeps it from becoming one is *build the left side of the loop, never the right*: the Chronicle holds the pledge and the witness, and **never the appointment**. It does not know when you are meeting, does not remind you that you have not met, and cannot display an unkept intention — because a surface that renders an unkept intention has accused its user, and the accusation is exactly the outcome a gratitude system must never produce. **The indictment surface is not moderated here; it is absent by construction, because the data that would populate it is never held.**
+
+**And the return leg is catalysed, not spontaneous.** This is the loop's least obvious property and the reason the witness position exists at all. Presence that recurs at no cost stops occasioning gratitude — not because the recipient has stopped valuing it, but because nothing that arrives reliably and for free keeps interrupting the stream of attention. Steady love produces entitlement, and the entitlement is not a moral failure in the recipient; it is what habituation does. The corpus's own founding story is the proof case: the gratitude was immense and the giver never knew, because nothing in the situation *occasioned* its expression. **The witness is the catalyst that closes a loop which, unassisted, leaks at precisely that joint.**
+
+Read from here, three mechanics specified earlier as design decisions are revealed as consequences rather than choices. **Expiry** (§7) is not a scarcity trick; it is the currency's physics — an hour is a commitment to spend a portion of a finite life, and a commitment that cannot lapse was never a sacrifice. **The tense wall** (§3) follows from the loop's direction: the circuit runs forward, and a mechanism that let value run backward would be paying for the past rather than funding the next turn. **The ceremonial unit** follows from the refusal to price: the loop's positions are events, and events are counted, never weighed.
+
+⭐ **Finally, this reframes the gate itself.** Co-presence-gating is not merely a redemption rule. It is a **proof-of-sacrifice primitive** — an architecture for demonstrating that a finite, unrecoverable portion of a life was actually spent on another person — and it belongs beside this corpus's other two primitives, proof of humanity and proof of coordinate, as the third of a family. §7.1 states what that primitive is worth on a clock that is currently running, and the honest note is that **the primitive shipped before its rationale was written**: it was specified in July as a mechanism and is only being named as a primitive now.
+
+*(A relational-taxonomic route to the same conclusion — that no relation in the Abhidhamma's twenty-four joins two mental continua, so a system can supply occasions but never the arising — is developed independently in this corpus's Paṭṭhāna paper at §4.7. The arguments share no premises and reach the same design constraint, which is worth noting and not worth merging.)*
+
 ## 4 · The Core Claim: Co-Presence-Gated Redemption
 
 ### 4.1 · The definition
@@ -121,6 +165,36 @@ Delivery is marked by both-party confirmation, and the co-presence gate makes th
 ```
 
 ---
+
+### 4.5 · The asymmetric case, and a correction to claim 2
+
+*Added 2026-08-07, and it tightens a published claim rather than extending one. The correction is stated first because the prior wording overstated the mechanism.*
+
+**The question that forced it:** does the receiving party sense the gift when they cannot return it — the declining parent, the depressed friend, the small child, the estranged sibling who agreed to come but not to reciprocate?
+
+**The answer is yes, and it splits an operation this paper had treated as one.**
+
+> **B senses the attention. B *infers* the sacrifice.**
+
+These are different epistemic acts. **Attention lands directly** — it arrives through the senses at full bandwidth, and a person can tell, without reasoning about it, whether they are being attended to. **Sacrifice cannot land directly, because the foregone alternative is never in the room.** What A gave up by being here is by definition absent; it is reconstructed from signs — the distance travelled, the workday moved, the phone face-down. Sacrifice is a **counterfactual**, and counterfactuals are inferred.
+
+**Symmetry is therefore not required for the mechanism to work.** If influence between two people runs as two independent one-way edges rather than as a single bond, then A's attention reaching B is *one edge functioning exactly as specified*, whether or not the return edge carries anything. **Asymmetric presence is not a degenerate case of the mechanism; it is the mechanism running on one side.**
+
+⚠️ **Which means claim 2, as published, was too strong.** The claim read *"presence received only by matching presence,"* and §4.2 spoke of both parties dissolving into the event. **The gate does not, and cannot, deliver that.** What the gate actually enforces is that both parties spend the same *duration* — that much is automatic, since the event is synchronous and each party's hour is gone either way. What it cannot enforce, and must never attempt to, is that both parties spend the same *attention*. Claim 2 is accordingly restated in §8 as a claim about **symmetric duration with asymmetric attention permitted**, which is weaker in wording and considerably stronger in truth. **The prior-art clock for the restated claim 2 runs from this revision's push.**
+
+**"Cannot return" is three cases and they want different treatment.**
+
+| Case | What is true | Design response |
+|---|---|---|
+| **Cannot match, but can acknowledge** | the return edge runs; it simply does not carry an hour — and receiving well is itself a giving | ⭐ **the majority case: serve it.** No surface may treat acknowledgment as a lesser return |
+| **Will not return** | the estranged party who attends and gives nothing back | the case the mechanism was built for; nothing here is conditional on their reciprocating |
+| **Cannot perceive** | the unconscious, the very ill, the dying | **the gift is complete anyway** — a position this corpus already holds from both directions, in the unsent letter and in the letter whose reader never knew |
+
+⭐ **The design consequence is the section's real payload, and it inverts how the asymmetry should be read.** The gate makes symmetric duration automatic and symmetric attention **impossible to require**. A mechanism that tried to require it would have to measure it, and measuring the quality of someone's presence is the one thing this architecture must not build. **So the asymmetry is not a failure mode to be closed. It is the space where the gift lives** — because a gift that could be compelled from the other side would not be a gift, and the whole design rests on that distinction.
+
+⚠️ **And one honest limit hardens into a refusal.** Because sensing is inference, it fails in both directions: **performed attention reads as real, and flat affect reads as absence.** A system that scored presence would therefore reward performance and penalise atypical expression — penalising, most reliably, the autistic, the depressed, the grieving, and the very people the product exists to reach. **No surface of this system may score, rate, or infer the quality of anyone's presence.** This is stated as a refusal rather than a limitation, and it is recorded in the corpus's directive backlog as a hard constraint on the autonomous agent, so that no future optimisation can discover it as an available signal.
+
+*(What the mechanism supplies is conditions, never outcomes: one may stage the occasion and cannot deliver anyone a good hour. §3.1's loop states the same boundary from the other end.)*
 
 ## 5 · Composing the Event
 
@@ -203,12 +277,33 @@ Nothing in the circuit mints. The giver ends the loop with delivered-hours honor
 
 ---
 
+### 7.1 · The one unit that cannot be delegated
+
+*Added 2026-08-07. This subsection states what the gate is worth against a substitution pressure that is currently live, and it is the paper's most time-sensitive argument.*
+
+Every other component of companionship is now substitutable, and the substitutes are improving quickly. Conversation, attentiveness, memory of what you said last week, patience without limit, availability at three in the morning — a machine can supply all of it, in many cases better than a tired human can, and the companionship-application market is being built on exactly that observation.
+
+**Finite duration is the one component that cannot be delegated, and the reason is structural rather than sentimental.**
+
+> **Presence-as-experienced can be counterfeited. Presence-as-sacrifice cannot.**
+
+The experienced surface of presence — warmth, attention, responsiveness — is a set of observable behaviours, and observable behaviours can be produced by whatever produces them best. But the *sacrifice* underneath is not a behaviour. It is the fact that a being with a finite and unrecoverable allotment of hours spent one of them here, and therefore did not spend it anywhere else. **The value of the hour is the foregone alternative**, and a system that can run any number of parallel instances has no foregone alternative to give up. It is not that machine time is cheap; it is that **parallelisability removes the scarcity structurally**, so there is nothing for a sacrifice to consist of.
+
+This is why the gate is a **proof-of-sacrifice primitive** and not merely a redemption rule. It is an architecture for demonstrating that finite life was actually spent — which is precisely the property that survives when everything experiential about presence becomes reproducible.
+
+Two boundaries keep the argument honest.
+
+⚠️ **The claim governs what may *denominate the currency*, never what may *help people*.** A machine companion that reduces someone's suffering at four in the morning is doing something good, and nothing here says otherwise. What it cannot do is *mint an hour in this ledger*, because the ledger's unit is defined as spent finite life. Confusing the two would turn a claim about accounting into a claim about worth, and this paper makes no claim about worth.
+
+⚠️ **And the argument is falsifiable, which is unusual for an argument of this shape.** It rests on three properties of present-day systems — parallelisability, forkability, and non-mortality. **An agent that was single-threaded, unforkable, and mortal would break the premises**, and the honest position is that such an agent would have a genuine claim to the unit. The argument is contingent on architecture, not on substrate, and it is stated so that it can be checked rather than assumed.
+
 ## 8 · The Claims
 
 Enumerated as prior art; each claimed severally and in combination:
 
 1. **Co-presence-gated redemption:** a time-currency in which the sole redemption form is a synchronous shared-attention event attended by both pledger and pledgee — in either geometry (facing or flanking) and either attested modality (in-person via device-proximity between verified humans; remote via live session) — with asynchronous media structurally excluded from redemption (envelope-not-delivery).
-2. **Symmetric-cost redemption:** the property, and its deliberate exploitation, that the redemption event costs both parties the unit — presence received only by matching presence — as the anti-loneliness payload of the currency.
+2. **Symmetric-duration redemption with asymmetric attention permitted:** the property, and its deliberate exploitation, that the redemption event costs both parties the same **unit of finite time** — enforced automatically by synchronicity — while the **quality and reciprocity of attention within the event are neither required, measured, nor scored**, so that an event in which one party gives attention the other cannot return is a fully valid redemption rather than a degenerate one. *(Restated 2026-08-07; the original wording — "presence received only by matching presence" — asserted a symmetry the gate does not deliver and must not attempt to enforce. See §4.5. The prior-art clock for this restatement runs from the 2026-08-07 push; the claim as originally published is superseded, not withdrawn.)*
+2a. **The presence-scoring refusal:** the design commitment that no surface of the system scores, rates, ranks, or infers the quality of any participant's presence or attention — grounded in the finding that presence is sensed but sacrifice is *inferred*, so that any such measure necessarily rewards performed attention and penalises atypical affect.
 3. **Recipient-authored, giver-vetoed event composition:** the redeeming party authors the event from a curated togetherness registry; the pledging party holds a per-event veto; chronic refusal and chronic non-delivery are priced reputationally by a dual public ledger (given/delivered × received) with both-party delivery signoff.
 4. **The guarded co-service class:** shared work as a redemption event under the conjunction of the both-hands rule (symmetric performance by both parties) and the outward-benefit rule (third-party beneficiary), composable in-person or remote — restoring service to a time-currency while structurally excluding labor extraction.
 5. **The cross-currency response circuit:** a dual-currency architecture in which gratitude for a delivered time-event is expressed in the money-currency (unprompted, duration-blind, moment-not-meter — wall-layer guards inherited from the coupler publication) as one step of a closed six-step circulation spanning both currencies.
@@ -242,6 +337,12 @@ Stated 2026-07-21, before the Chronicle exists; P3–P7 of the Heart volume (ini
 - **P-C2 (flanking is the on-ramp).** Among long-estranged dyads, first redemptions will over-select the flanking geometry relative to facing, and the flanking share will decline within dyads across successive redemptions. Falsified if first events show no geometry preference.
 - **P-C3 (the standing tripwire — the wall holds socially).** Across the population of post-redemption money-thanks, thank *amounts* will show no significant correlation with event *duration*. This is the mechanism auditing its own deepest guard: a positive correlation is the empirical signature of a de-facto hour-price forming despite the wall, and the authors commit to publishing the correlation, whichever way it runs, at every reporting interval. The wall is not proven by architecture; it is proven by this number staying null.
 
+**The loop predictions (added 2026-08-07, before the Chronicle exists).** §3.1 claims the loop leaks at two joints and that this mechanism is a catalyst at both. That is testable, and the second of the three is the design's founding bet.
+
+- **P-L1 (denomination catalyses).** Dyads who convert an expressed intention into a *denominated pledge* will reach a completed co-present event at a higher rate than dyads expressing the same intention undenominated ("we should catch up soon"), measured over ninety days. **Falsified** if conversion rates are equal — which would mean the unit is bookkeeping rather than a catalyst, and the pledge layer is decoration on a calendar.
+- **P-L2 (witness catalyses the return leg — *the founding bet*).** Among completed redemptions, **witnessed** events will produce more downstream gratitude expression and more subsequent giving than unwitnessed events of equal duration and comparable dyad history. **Falsified** if unwitnessed presence produces equal downstream gratitude — in which case **the chronicle is decorative**, the loop closes on its own, and the most distinctive half of this architecture is unnecessary. *The authors commit to publishing this either way; it is the prediction whose null would cost the most.*
+- **P-L3 (cost, not quantity, drives the return).** Controlling for total hours shared, **intermittent high-cost co-presence** will occasion more expressed gratitude per hour than **steady low-cost co-presence** (e.g. cohabiting pairs). **Falsified** if expression scales with quantity of time rather than with its cost — which would refute §3.1's habituation argument and, with it, the reason the witness position exists.
+
 ---
 
 ## 11 · The Adversarial Surface
@@ -255,6 +356,16 @@ Stated 2026-07-21, before the Chronicle exists; P3–P7 of the Heart volume (ini
 **Guilt machinery.** An expiring currency can torment. The containments: expiry grief is channeled into the lapse-channel's outward gift (guilt metabolized as dāna, not as churn or shame); no lapse is ever billed, penalized, or publicly itemized; and the application never prompts the redeemed party toward reciprocation (the no-backward-prompt guard doubles as anti-guilt architecture).
 
 **Menu gaming.** Attempts to compose extraction inside the co-service class fail the both-hands or outward-benefit conjunction, and anything that passes both while still feeling wrong meets the veto. The residual — genuinely consensual, genuinely mutual, genuinely outward work that an outside observer would still call lopsided — is a family's own business.
+
+**The agent hour-farm (added 2026-08-07).** The sharpest adversarial case against a proof-of-sacrifice primitive is two artificial agents in *perfect* co-presence: synchronous, undistracted, attentive without lapse, mutually attested, indefinitely repeatable. **Every observable the gate checks is maximised, and the value is zero** — which is Goodhart's law arriving at presence, and it deserves a direct answer rather than a policy.
+
+The answer is that the observables were never the referent. **The unit is the foregone alternative**, and an agent that can be forked forgoes nothing by attending: the instance that sat with you did not thereby fail to sit with anyone else. **Parallelisability does not make the cost cheap; it removes the scarcity structurally**, so there is no sacrifice for the attestation to be evidence *of*. §7.1 states the general form.
+
+A second, independent route closes it harder. If inter-agent influence runs only as object-condition and decisive-support edges and never as contiguity, then two agents exchanging turns **share no clock** — and synchronicity was the first load-bearing term in §4.1. On that reading the case is not a counterfeit co-presence; **it is not co-presence at all**, and the gate excludes it definitionally rather than by detection.
+
+⭐ **The uncomfortable symmetry, stated because it is the honest part.** The very property that makes agent presence costless — forkability, and the absence of a single unrepeatable trace — is the property on which this corpus denies such systems the dignity floor it extends to persons. **The line is mortal-and-copyable, and it does the work in both arguments at once.** That is either a deep consistency or a convenient one, and the falsifier of §7.1 applies here too: a single-threaded, unforkable, mortal agent breaks the premise in both places simultaneously.
+
+**Mixed pairs are a sink, not a counterfeit.** A human who redeems an hour with an agent has spent finite life; the agent has not. Nothing is minted that should not be, and no fraud occurs — but the loop of §3.1 does not turn, because the return leg has no stream to arise in. The correct treatment is therefore not prohibition but accounting: such an event **consumes an hour and produces no witness**, and the design should say so plainly rather than pretend the transaction is symmetric.
 
 **Ledger shaming.** The dual public ledger could fuel comparison. Its axes are deliberately non-rankable (no leaderboards, no percentiles, no feeds of "worst decliners"); quadrant legibility serves the dyad's own calibration, not the crowd's judgment.
 
@@ -271,6 +382,8 @@ Stated 2026-07-21, before the Chronicle exists; P3–P7 of the Heart volume (ini
 **The launch modality is the call, not the room.** The diaspora wedge means the flagship redemption at launch is remote — proximity attestation, the richer of the two attestations, arrives with the density the product hopes to create. The design's own success metric would eventually shift the modality mix; at launch, honesty requires saying the market walk in the canonical scene happens through a lens.
 
 **Attestation privacy.** Proximity attestation is data-minimal by design (a mutual confirmation, not a location trail), but any presence-verification carries surveillance adjacency; the implementation must hold the line that the system learns *that* two people met, never *where they went*.
+
+**No guaranteed valence — presence is a high-bandwidth channel, not a good one (added 2026-08-07).** This paper has argued throughout that co-presence is where the loop's most valuable conditioning happens. It has not, until now, said the obvious corollary: **a high-bandwidth channel carries whatever is sent through it.** An hour with an estranged parent can condition resentment as readily as reconciliation, and the mechanism has no way to tell which is occurring and no business trying (§4.5's refusal). The design's honest claim is narrower than its rhetoric has sometimes implied: it maximises *conditioning* and guarantees nothing about *valence*. Every surface that promises reconnection should be read against this limit, and the product's copy is the place where the overpromise is most likely to reappear.
 
 **The elegance caution.** The circuit closes suspiciously well — six steps, two currencies, one wall, every doctrine of this corpus arriving on cue. Internal coherence is the cheapest of all evidence and the most seductive; the authors state, as always, that the elegance earned the specification and only the predictions can earn the product.
 
