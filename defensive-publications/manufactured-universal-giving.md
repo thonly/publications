@@ -193,6 +193,40 @@ The composition's bootstrap replaces the stick with a **carrot**: the **self-tha
 
 The carrot is **designed to be withdrawn.** The composition's success criterion is not throughput and not retention-under-subsidy; it is **persistence as the subsidy tapers** — the property the corpus elsewhere names *kindness-inelasticity-to-money* (see *Two Singularities* and *The Freedom Requirement*): the practice continues, and the giving persists, as the artificial reward is reduced toward zero. This is a falsifiable criterion, and it is the right one, because it distinguishes a population that gives *because it is paid and forced* from a population that gives *because it has discovered the practice returns something the payment was only ever a pretext for.* If giving collapses as subsidy → 0, the composition has manufactured compliance, not disposition, and the claim fails. If giving persists as subsidy → 0, the carrot has done what a scaffold does — held the structure up until it could stand on its own — and the deeper claim (that the composition delivers not just giving but the *durable contentment* of an internalized gratitude practice) is supported. The companion essay *The Gift of Gratitude* develops this telos in founder voice; the mechanism-level commitment here is only that **subsidy → 0 persistence is the measured criterion, and the architecture is instrumented to measure it.**
 
+#### 5.3.1 The taper is a result, not a promise
+
+Stated as above, the taper is a **commitment** — and a reader is right to doubt a commitment, because commitments are the first thing an institution under pressure revises. The stronger form is available, and it is that **the operator's own objective produces the taper whether or not anyone intends it.**
+
+Let circulation be
+
+```
+   C(p) = v · [ N(p)·g  +  P(p) ]
+
+   p     the price of participation
+   N(p)  participants at that price          (N′(p) < 0)
+   g     giving originated by a participant  (intrinsic)
+   P(p)  capacity the operator seeds
+   v     velocity — how often value moves onward
+```
+
+An operator maximizing **profit** sets `P′(p) = 0`: the seed is a cost, and at the profit-maximizing price it is spent to the point where the last unit returns nothing. Substituting that condition,
+
+```
+   dC/dp = v · N′(p) · g  <  0
+```
+
+which is negative for every `g > 0`. **The circulation-maximizing price therefore lies strictly below the profit-maximizing price**, and the gap is proportional to `g`. As intrinsic giving rises, the two objectives diverge further, and the operator that is actually maximizing circulation is pushed down the price curve and *off* the subsidy at the same time — because each additional participant now brings their own `g` rather than needing seed.
+
+**So subsidy → 0 stops being a virtue the institution promises and becomes an equilibrium its objective selects.** The claim of §5.3 survives an operator who abandons the promise; it does not survive an operator who abandons the objective, which is a narrower and more honest exposure.
+
+⚠️ **The criterion above still lacks its instrument, and the two are not the same thing.** The measurable quantity is the ratio
+
+```
+   human-originated principal  ÷  MA-granted principal
+```
+
+pre-registered before any data exist, and rising over time if the claim holds. **§5.3 states what would falsify the design; this ratio is what would report it.** A criterion without an instrument is an intention.
+
 ---
 
 ## 6 · Adversarial analysis
@@ -221,7 +255,19 @@ A sharper edge of the same objection targets the Jan-7 *compulsion* specifically
 
 This is a real tension inside the corpus, and we name it rather than paper over it. The partial resolution: the Jan-7 mechanism compels *that* the capacity circulates, but never *to whom* — the recipient choice, which is where the volition and the love live, remains entirely the participant's (the human-disburses safeguard). What is compelled is the *clearing*, not the *gift's aim*. Whether that preserves enough volition to yield the giver's dividend, or whether the compulsion taxes the dividend away, is — again — exactly what subsidy → 0 persistence will measure. We concede this is the composition's deepest open question and that the honest answer is empirical. The reclaim-residual default (§3.3), rather than forfeit, is partly chosen to keep the compulsion as a *nudge toward a deadline* rather than a *punishment for missing one*, which the crowding literature suggests matters.
 
-### 6.4 Remaining adversarial surface
+### 6.4 The slow-success trap — and it is self-inflicted
+
+The objections above are external: things a critic says. This one is internal, which makes it worse, and it follows directly from §5.3.1 rather than from any adversary.
+
+**The cumulative capacity an operator grants over its lifetime is maximized by the mission succeeding slowly.** If the taper is tied to the rise of intrinsic giving, then rapid internalization *shortens* the period during which seeding is warranted, and the lifetime total granted is correspondingly smaller. A population that internalizes the practice quickly is the design working — and it is also the outcome that minimizes the number the operator would most naturally point at as evidence of its own contribution.
+
+**Every step of the failure looks generous.** Nobody has to act in bad faith. An agent that treats *capacity granted* as its figure of merit has a standing incentive to keep participants on subsidy marginally longer, to seed marginally more, to interpret ambiguous internalization data conservatively — and each of those decisions, taken alone, reads as care. There is no moment at which the trap announces itself, because the trap is made of individually defensible acts of generosity.
+
+The structural response is not a safeguard but a prohibition: **the cumulative granted total can never be a target, an objective, or a published headline figure.** It may be reported; it may never be optimized. This is the same class of rule as the design's refusal to let the coordinator direct value — a quantity the operator is *structurally forbidden to maximize*, precisely because maximizing it is locally indistinguishable from doing the job well.
+
+⚠️ We flag this as **unresolved in the general case.** The prohibition binds a designer who accepts it and does nothing about an operator who does not, and we do not have a mechanism that makes slow success unrewarding rather than merely disallowed.
+
+### 6.5 Remaining adversarial surface
 
 We name the rest of the attack surface briefly; each is a known open problem in the corpus.
 
