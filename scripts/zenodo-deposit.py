@@ -61,9 +61,25 @@ DIRS = {
 # standing rule is that AI collaboration is disclosed openly and under the same
 # name at every venue; dropping her here to look conventional would break the
 # consistency that makes the disclosure meaningful.
-CREATOR_AFFIL = {
-    "Thon Ly": "Independent Researcher - Founder, HeartBank(R) - Kampot, Cambodia",
-    "Miss Aquarius": "HeartBank(R) - AI co-author (disclosed)",
+#
+# `cite_as` is "Family, Given" because that is what DataCite and every reference
+# manager expect. Passing the display form "Thon Ly" would leave them to guess
+# which half is the surname, and they guess wrong often enough to matter across a
+# corpus this size. Family name confirmed as Ly against the ORCID registry.
+CREATORS = {
+    "Thon Ly": {
+        "cite_as": "Ly, Thon",
+        "affiliation": "Independent Researcher - Founder, HeartBank(R) - Kampot, Cambodia",
+        "orcid": "0009-0009-4503-8575",
+    },
+    # No ORCID, and this is not an omission to fix later: ORCID identifies human
+    # researchers and carries an assertion about a person. Minting or claiming one
+    # for an AI co-author would misstate what the identifier certifies. The
+    # disclosure is carried by the name, which is the standing convention.
+    "Miss Aquarius": {
+        "cite_as": "Miss Aquarius",
+        "affiliation": "HeartBank(R) - AI co-author (disclosed)",
+    },
 }
 
 
@@ -130,7 +146,12 @@ def build_metadata(path, text, fm, sha):
         name = name.strip().replace("℠", "").replace("®", "").strip()
         if not name:
             continue
-        creators.append({"name": name, "affiliation": CREATOR_AFFIL.get(name, "")})
+        known = CREATORS.get(name, {})
+        c = {"name": known.get("cite_as", name),
+             "affiliation": known.get("affiliation", "")}
+        if known.get("orcid"):
+            c["orcid"] = known["orcid"]      # bare ID, no URL — Zenodo rejects the URL form
+        creators.append(c)
 
     meta = {
         "upload_type": "publication",

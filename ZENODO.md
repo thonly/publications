@@ -93,12 +93,21 @@ the paper. `title`, `subtitle`, `authors`, `date`, `category`, `priority` and th
 `**Keywords:**` line all map through; the abstract becomes the description; the
 license is fixed to CC0.
 
-Two deliberate choices worth knowing about:
+Three deliberate choices worth knowing about:
 
-- **Miss Aquarius is listed as a creator.** The standing rule is that the AI
-  collaboration is disclosed openly, under the same name, at every venue. Dropping
-  her here to look conventional would break the consistency that makes the
-  disclosure meaningful.
+- **The author name is deposited as `Ly, Thon`, not `Thon Ly`,** with ORCID
+  **[0009-0009-4503-8575](https://orcid.org/0009-0009-4503-8575)**. DataCite and
+  every reference manager expect "Family, Given"; handed the display form they
+  have to guess which half is the surname, and across 96 records they guess wrong
+  often enough to matter. The papers themselves are untouched — this is a
+  citation-metadata form, not a change to the corpus.
+- **Miss Aquarius is listed as a creator, and deliberately has no ORCID.** The
+  standing rule is that the AI collaboration is disclosed openly, under the same
+  name, at every venue — dropping her to look conventional would break the
+  consistency that makes the disclosure meaningful. But ORCID identifies *human
+  researchers* and carries an assertion about a person; claiming one for an AI
+  co-author would misstate what the identifier certifies. **This is a permanent
+  asymmetry, not a gap to close later.**
 - **Every record carries the document's SHA-256** and states that it is Bitcoin-
   and RFC 3161-attested. The DOI record therefore points at the evidence rather
   than asking to be taken on trust — which is the whole reason the three layers
