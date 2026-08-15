@@ -104,6 +104,50 @@ Revision is handled either way: a changed paper deposits as a **new version**, a
 the concept DOI always resolves to the newest text. Depositing a draft is
 therefore not a commitment to that wording — only to the record existing.
 
+## The stored credential (founder decision, 2026-08-15)
+
+Tokens live in the **macOS Keychain**, never in a file, a `.env`, this repository
+or the memory directory — committing one here would hash it into the manifest,
+have three trust authorities sign that manifest, stamp it to Bitcoin, push it to
+GitHub and snapshot it to the Internet Archive.
+
+```
+zenodo-token            live     deposit:write + deposit:actions
+zenodo-token-sandbox    sandbox  deposit:write + deposit:actions
+```
+
+⚠️ **`-A` is required when storing, and its absence fails silently in the worst
+way**: the item is created with an ACL that blocks non-interactive reads, so
+`security ... -w` returns **exit code 0 and an empty string**. The token looks
+stored and every API call then 403s, which reads like a scope problem rather than
+a storage problem. Always verify:
+
+```sh
+security add-generic-password -a "$USER" -s zenodo-token -A -U -w "$(pbpaste)"
+security find-generic-password -s zenodo-token -w | wc -c      # expect ~61
+```
+
+**The live token deliberately carries `deposit:actions`** — the narrower
+`deposit:write`-only option was raised and declined. So the credential can mint
+DOIs, which are irreversible.
+
+**The operating rule that replaces the technical guard: nothing is published
+without an explicit instruction to publish.** Preparing drafts, uploading files,
+correcting metadata and regenerating BibTeX need no such instruction; publishing
+always does. `--publish` is never added on inference, on tidiness, or because a
+run "looks finished".
+
+### Testing a token's scope — the valid method
+
+`actions/edit` on an **already-published** record: it has no validation
+prerequisite, so scope is the only thing that can fail it. `201` = scope present
+(discard immediately to revert; **204 is the discard success code**), `403` =
+absent.
+
+⚠️ Do **not** test by publishing an empty draft. Zenodo validates the record
+before checking scope, so an empty deposition returns `400` whether or not the
+token has `deposit:actions` — the test cannot discriminate and will mislead.
+
 ## Running it for real
 
 ```sh
