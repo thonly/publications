@@ -51,10 +51,19 @@ import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-STATE = ROOT / "zenodo-dois.json"
+# Sandbox and live MUST NOT share a state file. They are different servers with
+# different ID spaces: after a sandbox rehearsal, a live run reading shared state
+# would see those slugs as already deposited and try to create a *new version* of
+# a sandbox deposition ID against the live API. Only the live file is committed.
+STATE_LIVE = ROOT / "zenodo-dois.json"
+STATE_SANDBOX = ROOT / "zenodo-dois.sandbox.json"
 DIRS = {
     "defensive-publications": "preprint",
     "essays": "preprint",
+}
+DOC_TYPE = {
+    "defensive-publications": "defensive publication",
+    "essays": "essay",
 }
 
 # Miss Aquarius is listed as a creator deliberately, not as an oversight. The
@@ -97,23 +106,77 @@ def frontmatter(text):
     return fm
 
 
+def inline_md(s):
+    """Markdown emphasis -> the restricted HTML subset Zenodo renders.
+
+    Applied to the subtitle as well as the abstract. The sandbox rehearsal showed
+    why: subtitles quote other works in *asterisks*, and inserting one raw left a
+    literal '*Suffering-Capable Machines*' in the published description.
+    HTML-escaping comes first so that an '&' or '<' in a title cannot break the
+    markup or inject anything.
+    """
+    s = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
+    s = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<em>\1</em>", s)
+    s = re.sub(r"`([^`]+?)`", r"<code>\1</code>", s)
+    return re.sub(r"\[(.+?)\]\((https?://[^\s)]+)\)", r'<a href="\2">\1</a>', s)
+
+
 def abstract_of(text):
+    """The description body: '## Abstract' if the paper has one, else its opening prose.
+
+    19 of 94 papers have no '## Abstract' — the essays open straight into prose and
+    several defensive publications lead with '## Preamble'. Without a fallback those
+    records would publish with nothing but a subtitle and boilerplate, which defeats
+    the discoverability this whole layer exists for.
+    """
     m = re.search(r"^##\s+Abstract\s*\n(.*?)(?=^##\s)", text, re.S | re.M)
-    body = m.group(1).strip() if m else ""
-    # Zenodo renders a restricted HTML subset. Convert the little markdown that
-    # actually appears in an abstract; leave everything else as plain text.
-    body = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", body)
-    body = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<em>\1</em>", body)
+    if m:
+        body = m.group(1).strip()
+    else:
+        # Strip frontmatter, then take the first real paragraphs of the body,
+        # skipping headings, rules, and the '> Draft notes for the editor'
+        # blockquotes — which address the editor, not a reader of the record.
+        rest = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S)
+        paras = []
+        for block in rest.split("\n\n"):
+            b = block.strip()
+            if not b or b.startswith((">", "#", "---", "|", "```", "![")):
+                continue
+            if re.match(r"^\*\*(Keywords|Prior-Art)", b):
+                continue
+            paras.append(b)
+            if len(paras) == 2:
+                break
+        body = "\n\n".join(paras)
+
+    body = inline_md(body)
     paras = [p.strip().replace("\n", " ") for p in body.split("\n\n") if p.strip()]
-    return "".join(f"<p>{p}</p>" for p in paras)
+    # An unbalanced emphasis marker in the source can leave a lone '*' behind.
+    return "".join(f"<p>{p}</p>" for p in paras).replace("*", "")
 
 
-def keywords_of(text, fm):
+def keywords_of(text, fm, doc_type=None):
+    """Explicit '**Keywords:**' line where present, plus factual fallbacks.
+
+    Only 43 of 94 papers carry a Keywords line, so the rest would deposit with
+    almost nothing to search on. The fallbacks are deliberately FACTUAL — the
+    paper's own category, tier and document type — rather than terms inferred
+    from the text. Inventing subject keywords would put words in the author's
+    mouth on a permanent record.
+
+    Fixing this properly means adding Keywords lines to the papers themselves,
+    which is worth doing but is NOT free: editing a paper changes its SHA-256
+    and invalidates its OpenTimestamps proof, forcing an .rN rotation.
+    """
     kws = []
     m = re.search(r"^\*\*Keywords:?\*\*\s*(.+?)$", text, re.M)
     if m:
-        kws = [k.strip(" .") for k in m.group(1).split(",") if k.strip(" .")]
-    for extra in (fm.get("category"), fm.get("priority")):
+        # Strip markdown emphasis from inside keywords: one paper carries
+        # '*tisso sikkhā*' and the markers would be published literally.
+        raw = re.sub(r"[*`_]", "", m.group(1))
+        kws = [k.strip(" .") for k in raw.split(",") if k.strip(" .")]
+    for extra in (fm.get("category"), fm.get("priority"), doc_type):
         if extra and extra not in kws:
             kws.append(extra)
     return kws[:50]
@@ -129,7 +192,7 @@ def build_metadata(path, text, fm, sha):
 
     desc = abstract_of(text) or f"<p>{title}</p>"
     if subtitle:
-        desc = f"<p><em>{subtitle}</em></p>" + desc
+        desc = f"<p><em>{inline_md(subtitle)}</em></p>" + desc
     desc += (
         "<p><strong>Provenance.</strong> This paper is part of the THonly research "
         "corpus, dedicated to the public domain under CC0 1.0. The canonical "
@@ -161,7 +224,7 @@ def build_metadata(path, text, fm, sha):
         "description": desc,
         "access_right": "open",
         "license": "cc-zero",
-        "keywords": keywords_of(text, fm),
+        "keywords": keywords_of(text, fm, DOC_TYPE.get(path.parent.name)),
         "language": "eng",
         "related_identifiers": [
             {"identifier": canonical, "relation": "isIdenticalTo",
@@ -219,10 +282,11 @@ class Zenodo:
                          data={"metadata": meta})
 
     def upload(self, dep, path):
+        # The bucket API accepts ONLY application/octet-stream. Sending a guessed
+        # type (text/markdown) returns HTTP 415. Caught in sandbox rehearsal.
         bucket = dep["links"]["bucket"]
-        ctype = mimetypes.guess_type(path.name)[0] or "text/markdown"
         return self._req("PUT", f"{bucket}/{urllib.parse.quote(path.name)}",
-                         raw=path.read_bytes(), ctype=ctype)
+                         raw=path.read_bytes(), ctype="application/octet-stream")
 
     def publish(self, dep_id):
         return self._req("POST", f"/deposit/depositions/{dep_id}/actions/publish")
@@ -244,13 +308,18 @@ def main():
     if args.publish and not args.create:
         raise SystemExit("--publish requires --create.")
 
-    papers = sorted(p for d in DIRS for p in (ROOT / d).glob("*.md"))
+    # A paper is defined by HAVING FRONTMATTER, not by its filename. Each paper
+    # directory also holds a README.md, and matching on name alone would deposit
+    # them as papers titled "README" — which the sandbox rehearsal did.
+    papers = sorted(p for d in DIRS for p in (ROOT / d).glob("*.md")
+                    if frontmatter(p.read_text()).get("title"))
     if args.only:
         papers = [p for p in papers if p.stem == args.only or
                   frontmatter(p.read_text()).get("slug") == args.only]
         if not papers:
             raise SystemExit(f"no paper matching slug {args.only!r}")
 
+    STATE = STATE_SANDBOX if args.sandbox else STATE_LIVE
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
     token = os.environ.get("ZENODO_TOKEN")
     if args.create and not token:
