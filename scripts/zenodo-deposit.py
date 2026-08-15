@@ -63,12 +63,24 @@ def get_token(sandbox=False):
     publish it and then cryptographically attest that it existed. The Keychain
     keeps it out of the filesystem the tooling can see.
 
-    Store it (run this yourself; `read -rs` keeps it out of shell history):
+    Store it — copy the token to the clipboard first, then:
 
-        read -rs TOKEN && security add-generic-password \\
-            -a "$USER" -s zenodo-token -w "$TOKEN" -U && unset TOKEN
+        security add-generic-password -a "$USER" -s zenodo-token \\
+            -A -U -w "$(pbpaste)"
 
     Use -s zenodo-token-sandbox for the sandbox credential.
+
+    ⚠️ `-A` is REQUIRED, and its absence fails silently in the worst way. Without
+    it the item is created with an ACL that blocks non-interactive reads, so
+    `security ... -w` returns EXIT CODE 0 AND AN EMPTY STRING — the item looks
+    present, and the token looks stored, and nothing works. Verify after storing:
+
+        security find-generic-password -s zenodo-token -w | wc -c    # expect ~61
+
+    `$(pbpaste)` is used rather than `read -rs` (which silently captured nothing
+    under zsh) or `-w` with no value (which prompts inconsistently). The token
+    never appears in shell history either way: history keeps the literal
+    '$(pbpaste)', not its expansion.
     """
     env = os.environ.get("ZENODO_TOKEN")
     if env:
