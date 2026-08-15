@@ -46,6 +46,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dir", action="append", default=None)
     ap.add_argument("--out", default="zenodo-works.bib")
+    ap.add_argument("--concept", action="store_true",
+                    help="use the CONCEPT doi (always resolves to the newest "
+                         "version) instead of the version doi. Preferred for an "
+                         "ORCID profile: a version doi goes stale the moment the "
+                         "paper is revised, and each revision adds another entry.")
     args = ap.parse_args()
     dirs = args.dir or list(zd.DIRS)
 
@@ -59,7 +64,8 @@ def main():
 
     n = 0
     for slug, v in sorted(dois.items()):
-        if not v.get("published") or not v.get("doi"):
+        doi = (v.get("concept_doi") if args.concept else v.get("doi")) or v.get("doi")
+        if not v.get("published") or not doi:
             continue
         path = next((ROOT / d / f"{slug}.md" for d in dirs
                      if (ROOT / d / f"{slug}.md").exists()), None)
@@ -87,8 +93,8 @@ def main():
             f"  author       = {{{' and '.join(authors)}}},",
             f"  year         = {{{(fm.get('date') or '2026')[:4]}}},",
             "  publisher    = {Zenodo},",
-            f"  doi          = {{{v['doi']}}},",
-            f"  url          = {{https://doi.org/{v['doi']}}},",
+            f"  doi          = {{{doi}}},",
+            f"  url          = {{https://doi.org/{doi}}},",
             f"  howpublished = {{{kind.capitalize()}, THonly research corpus}},",
             f"  note         = {{CC0 1.0. Canonical: https://thonly.org/research/{slug}}}",
             "}\n",
@@ -96,7 +102,8 @@ def main():
         n += 1
 
     (ROOT / args.out).write_text("\n".join(lines))
-    print(f"wrote {args.out} — {n} entries from {', '.join(dirs)}")
+    print(f"wrote {args.out} — {n} entries from {', '.join(dirs)} "
+          f"using {'CONCEPT' if args.concept else 'VERSION'} DOIs")
 
 
 if __name__ == "__main__":
