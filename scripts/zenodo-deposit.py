@@ -292,6 +292,9 @@ class Zenodo:
         return self._req("PUT", f"{bucket}/{urllib.parse.quote(path.name)}",
                          raw=path.read_bytes(), ctype="application/octet-stream")
 
+    def get(self, dep_id):
+        return self._req("GET", f"/deposit/depositions/{dep_id}")
+
     def publish(self, dep_id):
         return self._req("POST", f"/deposit/depositions/{dep_id}/actions/publish")
 
@@ -336,7 +339,7 @@ def main():
         raise SystemExit("ZENODO_TOKEN is not set.")
     api = Zenodo(token, args.sandbox) if args.create else None
 
-    new = revised = unchanged = 0
+    new = revised = unchanged = published_drafts = 0
     done = 0
     for path in papers:
         if args.limit and done >= args.limit:
@@ -348,6 +351,25 @@ def main():
         prev = state.get(slug)
 
         if prev and prev.get("sha256") == sha:
+            # The paper is unchanged, but an UNPUBLISHED draft from an earlier
+            # --create run still needs publishing. Without this branch the whole
+            # create-drafts-then-review-then-publish workflow silently skips every
+            # record and reports "unchanged", publishing nothing.
+            if args.publish and not prev.get("published"):
+                dep = api.get(prev["deposition_id"])
+                if dep.get("state") == "unsubmitted":
+                    pub = api.publish(prev["deposition_id"])
+                    prev["doi"] = pub.get("doi", prev.get("doi"))
+                    prev["concept_doi"] = pub.get("conceptdoi", prev.get("concept_doi"))
+                    prev["url"] = pub.get("links", {}).get("html")
+                    prev["published"] = True
+                    state[slug] = prev
+                    STATE.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n")
+                    published_drafts += 1
+                    print(f"── {slug}\n   ✅ published existing draft  DOI {prev['doi']}")
+                    continue
+                prev["published"] = True      # already live; record it and move on
+                state[slug] = prev
             unchanged += 1
             continue
 
@@ -385,6 +407,7 @@ def main():
             rec["doi"] = pub.get("doi", rec["doi"])
             rec["concept_doi"] = pub.get("conceptdoi", rec["concept_doi"])
             rec["url"] = pub.get("links", {}).get("html")
+            rec["published"] = True
             print(f"   ✅ published  DOI {rec['doi']}")
         else:
             print(f"   ✅ draft {dep['id']} created (not published)")
@@ -395,7 +418,8 @@ def main():
 
     print(f"\nscope: {', '.join(dirs)}")
     print(f"{'DRY RUN — nothing sent' if not args.create else 'done'}: "
-          f"{new} new, {revised} revised, {unchanged} unchanged "
+          f"{new} new, {revised} revised, {published_drafts} draft(s) published, "
+          f"{unchanged} unchanged "
           f"({len(papers)} paper(s) scanned)")
     if not args.create:
         print("Re-run with --sandbox --create --publish to rehearse for real.")
