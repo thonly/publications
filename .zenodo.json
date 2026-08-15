@@ -1,0 +1,40 @@
+{
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "title": "The THonly Research Corpus",
+  "description": "<p>A corpus of defensive publications and essays on gratitude infrastructure, reciprocity economics, AI succession and institutional design, developed alongside HeartBank(R). Every paper is dedicated to the public domain under CC0 1.0.</p><p>The defensive publications exist to establish prior art and to keep the mechanisms they describe freely practicable: <strong>no patent is or will be sought on anything in this corpus.</strong> The essays are in the author's own voice and make no such claim.</p><p>The canonical version of every paper is at <a href=\"https://thonly.org/research\">thonly.org/research</a>. Each document is independently timestamped to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three trust authorities, one of them eIDAS-qualified; see TIMESTAMPS.md and timestamps/README.md.</p><p><strong>AI co-authorship is disclosed.</strong> Miss Aquarius is the consistent name used for the AI collaboration across all venues.</p>",
+  "creators": [
+    {
+      "name": "Thon Ly",
+      "affiliation": "Independent Researcher - Founder, HeartBank(R) - Kampot, Cambodia"
+    },
+    {
+      "name": "Miss Aquarius",
+      "affiliation": "HeartBank(R) - AI co-author (disclosed)"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-zero",
+  "language": "eng",
+  "keywords": [
+    "defensive publication",
+    "prior art",
+    "gratitude infrastructure",
+    "reciprocity",
+    "gift economy",
+    "institutional design",
+    "AI alignment",
+    "AI succession",
+    "proof of humanity",
+    "Buddhist ethics",
+    "public domain"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://thonly.org/research",
+      "relation": "isIdenticalTo",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "This record archives the corpus as a whole. Individual papers are deposited separately, each with its own DOI, by scripts/zenodo-deposit.py; cite the per-paper DOI when citing a paper."
+}
