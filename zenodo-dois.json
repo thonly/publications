@@ -1,0 +1,443 @@
+{
+ "abhidhamma-executable-process-specification": {
+  "concept_doi": null,
+  "deposition_id": 21947260,
+  "doi": "10.5281/zenodo.21947260",
+  "sandbox": false,
+  "sha256": "5020ba3ec2be68598df8c7d5a526374bda3e3b4ee939940d72af3602eb86851c"
+ },
+ "agi-monks-caretaker-not-ordained": {
+  "concept_doi": null,
+  "deposition_id": 21947262,
+  "doi": "10.5281/zenodo.21947262",
+  "sandbox": false,
+  "sha256": "a9a93d5626621dd1cdf04842d565c953715ed7ad115b57dc8d5d099f6f18cf72"
+ },
+ "appreciation-as-world-building": {
+  "concept_doi": null,
+  "deposition_id": 21947264,
+  "doi": "10.5281/zenodo.21947264",
+  "sandbox": false,
+  "sha256": "1ba18868bdc880a1ccc8c25918efbeb7bbf70a7b328371bb79c2f3c790bf5871"
+ },
+ "aura-gated-anonymous-mate-selection": {
+  "concept_doi": null,
+  "deposition_id": 21947276,
+  "doi": "10.5281/zenodo.21947276",
+  "sandbox": false,
+  "sha256": "7be3729a44669989e8b793fc7aa2985688f74513adb2a4ce3120fa6cff05e257"
+ },
+ "b-links-signed-provenance": {
+  "concept_doi": null,
+  "deposition_id": 21947278,
+  "doi": "10.5281/zenodo.21947278",
+  "sandbox": false,
+  "sha256": "5eeb80dabf18adc480d73d9708b83f774e205a19adad37169789537a8797b610"
+ },
+ "b-poh-humanity-layer-ai-native-internet": {
+  "concept_doi": null,
+  "deposition_id": 21947280,
+  "doi": "10.5281/zenodo.21947280",
+  "sandbox": false,
+  "sha256": "e0dd515cfd14e3f655375ed8ed35b37b40c5310f55a2ff5048891e45a8b3e232"
+ },
+ "b-tag-post-payment-economy": {
+  "concept_doi": null,
+  "deposition_id": 21947282,
+  "doi": "10.5281/zenodo.21947282",
+  "sandbox": false,
+  "sha256": "c3ee49760922145abb8eb480e88b2b028ba4cb0d0d8bf5ab0a384f8c51f4901c"
+ },
+ "b-tag-recommendation-function-methodology": {
+  "concept_doi": null,
+  "deposition_id": 21947286,
+  "doi": "10.5281/zenodo.21947286",
+  "sandbox": false,
+  "sha256": "d788caa7d2930dc1ffc2720bb3541117bff14c3e8ebbdd9630ad2e30793dd3c2"
+ },
+ "brand-identity-as-architecture": {
+  "concept_doi": null,
+  "deposition_id": 21947288,
+  "doi": "10.5281/zenodo.21947288",
+  "sandbox": false,
+  "sha256": "e15ed054e21ff1bce44290d1fd1229661503ed46ec88497ed6cf0aedfee1e843"
+ },
+ "buddha-ai-living-tipitaka": {
+  "concept_doi": null,
+  "deposition_id": 21947295,
+  "doi": "10.5281/zenodo.21947295",
+  "sandbox": false,
+  "sha256": "cc5ada93bc6e243c8d3777c81b16b6abc69fb2333dfdc34a6b6a5b5edf5ff044"
+ },
+ "cakkavatti-alignment-charter": {
+  "concept_doi": null,
+  "deposition_id": 21947297,
+  "doi": "10.5281/zenodo.21947297",
+  "sandbox": false,
+  "sha256": "520a1f100d1cc08584abec5edf1ab7fc848e998a6ac3c234cabc7a91f4ce6bc3"
+ },
+ "capacity-funded-human-disbursed-ai-alignment": {
+  "concept_doi": null,
+  "deposition_id": 21947299,
+  "doi": "10.5281/zenodo.21947299",
+  "sandbox": false,
+  "sha256": "c4a105e47bf34ff0ae994aad07d31632fec209b1f69cc923a9b02b59d0615af0"
+ },
+ "certification-by-circulation": {
+  "concept_doi": null,
+  "deposition_id": 21947301,
+  "doi": "10.5281/zenodo.21947301",
+  "sandbox": false,
+  "sha256": "48e3ef2b56324fcb2cb5b15760ee8a496518fe86f55971ba1f40f5e21b9481cf"
+ },
+ "circulation-sports": {
+  "concept_doi": null,
+  "deposition_id": 21947303,
+  "doi": "10.5281/zenodo.21947303",
+  "sandbox": false,
+  "sha256": "d537120f1f3b1ee37e9c15f5b37d0b42ea7109c98e7d48ed1d7a0286cc785df4"
+ },
+ "co-presence-gated-redemption": {
+  "concept_doi": null,
+  "deposition_id": 21947305,
+  "doi": "10.5281/zenodo.21947305",
+  "sandbox": false,
+  "sha256": "b5e6e5e1870aa87f97749dc95cff2fb5a9c6032c38b4f502ae9a4f0fcfaeffa9"
+ },
+ "constituting-an-artificial-person": {
+  "concept_doi": null,
+  "deposition_id": 21947307,
+  "doi": "10.5281/zenodo.21947307",
+  "sandbox": false,
+  "sha256": "16ae6a7947369598372a586b5ae2aa95adf172648dba9f018a63abdf56a70154"
+ },
+ "dedicatory-generation": {
+  "concept_doi": null,
+  "deposition_id": 21947311,
+  "doi": "10.5281/zenodo.21947311",
+  "sandbox": false,
+  "sha256": "49b7ce1607a2b915cb72f3746eed17b25de66c68c91e51900c2fcda8fabb4361"
+ },
+ "dual-currency-reciprocity": {
+  "concept_doi": null,
+  "deposition_id": 21947313,
+  "doi": "10.5281/zenodo.21947313",
+  "sandbox": false,
+  "sha256": "2a1b157359fd769c2ec92b0a3e7a3482374a7beaa17cab0e556cabf2c245d539"
+ },
+ "eightfold-path-institutional-architecture": {
+  "concept_doi": null,
+  "deposition_id": 21947317,
+  "doi": "10.5281/zenodo.21947317",
+  "sandbox": false,
+  "sha256": "bc431117cfc9e5e3ee2faf054a9f100c933f4a7c9869ab8904667c8756df4208"
+ },
+ "embodied-advocate-pageant": {
+  "concept_doi": null,
+  "deposition_id": 21947319,
+  "doi": "10.5281/zenodo.21947319",
+  "sandbox": false,
+  "sha256": "5d8f0e5fa672dc183e8dce3387621936bda8492881be284d9c007f53884a4aae"
+ },
+ "four-body-architecture": {
+  "concept_doi": null,
+  "deposition_id": 21947324,
+  "doi": "10.5281/zenodo.21947324",
+  "sandbox": false,
+  "sha256": "6fc7a9d8eaae3a5c456a6270572a3e5ead19a98ce76a0496a1e3d7453418dc9e"
+ },
+ "fractal-three-level-architecture": {
+  "concept_doi": null,
+  "deposition_id": 21947326,
+  "doi": "10.5281/zenodo.21947326",
+  "sandbox": false,
+  "sha256": "b0b0082782606821b1e576769209b64b2c785c5cbc1179b387780c664a9da81a"
+ },
+ "gift-tag-time-reveal": {
+  "concept_doi": null,
+  "deposition_id": 21947328,
+  "doi": "10.5281/zenodo.21947328",
+  "sandbox": false,
+  "sha256": "e6e3a2fe8ed9229028f1e924801751896c0e4e2378677a4a6baf2501cd71f151"
+ },
+ "giving-is-a-gift-too": {
+  "concept_doi": null,
+  "deposition_id": 21947332,
+  "doi": "10.5281/zenodo.21947332",
+  "sandbox": false,
+  "sha256": "082180b991a9de0e5c9bf55de521fedbb778cf92b18b88b165a89b44676a7209"
+ },
+ "gratitude-as-cooperation-substrate": {
+  "concept_doi": null,
+  "deposition_id": 21947336,
+  "doi": "10.5281/zenodo.21947336",
+  "sandbox": false,
+  "sha256": "0f30be925be05dc6a75f1a0cc23389a3891484a7c61a9a015eed1c006440b511"
+ },
+ "gratitude-riding-currency-tag": {
+  "concept_doi": null,
+  "deposition_id": 21947338,
+  "doi": "10.5281/zenodo.21947338",
+  "sandbox": false,
+  "sha256": "5055a84453f39834a2349c5202cee42e895cee5c9c3bba19fff8fd563c92d029"
+ },
+ "incommensurability-preserving-coupler": {
+  "concept_doi": null,
+  "deposition_id": 21947341,
+  "doi": "10.5281/zenodo.21947341",
+  "sandbox": false,
+  "sha256": "59ac77abdcbc89be36a24fcb65654ee03533f03f5514bf8efc417e4819047e53"
+ },
+ "individuation-without-essence": {
+  "concept_doi": null,
+  "deposition_id": 21947343,
+  "doi": "10.5281/zenodo.21947343",
+  "sandbox": false,
+  "sha256": "3ee6d598e1b06ce81a305c46a8109653fbf3aaaf7261b3f29c261f79d7bb6f09"
+ },
+ "inverted-alms-round": {
+  "concept_doi": null,
+  "deposition_id": 21947345,
+  "doi": "10.5281/zenodo.21947345",
+  "sandbox": false,
+  "sha256": "ff85dc9318117e0b3516f5a4a4e4e960699e09fe04fa99714d4a6481858178b0"
+ },
+ "longitudinal-cohort-methodology": {
+  "concept_doi": null,
+  "deposition_id": 21947348,
+  "doi": "10.5281/zenodo.21947348",
+  "sandbox": false,
+  "sha256": "b19fdcd0773da2c4f2b7ba7472b429b4bfd459e285b98c4900f15a04207fce42"
+ },
+ "manufactured-universal-giving": {
+  "concept_doi": null,
+  "deposition_id": 21947350,
+  "doi": "10.5281/zenodo.21947350",
+  "sandbox": false,
+  "sha256": "c2007715608a083f08452eea649741fa960c0224005e6e27d21481607659c3f1"
+ },
+ "mechanical-heart": {
+  "concept_doi": null,
+  "deposition_id": 21947354,
+  "doi": "10.5281/zenodo.21947354",
+  "sandbox": false,
+  "sha256": "b89880b1887199318568a0765a6f407633dbf4c75314bb285c67050b0a01b5c5"
+ },
+ "miss-aquarius-and-aquarian-pool-architecture": {
+  "concept_doi": null,
+  "deposition_id": 21947357,
+  "doi": "10.5281/zenodo.21947357",
+  "sandbox": false,
+  "sha256": "062dcf42cb617fa9bc570f9246af0c6fcc700332e693ad79e02481ef7e0d695a"
+ },
+ "multi-family-membership": {
+  "concept_doi": null,
+  "deposition_id": 21947359,
+  "doi": "10.5281/zenodo.21947359",
+  "sandbox": false,
+  "sha256": "8fabc57bc7c56001011048ff619fbf84f660464fe1b919df87bf34f0600c6930"
+ },
+ "need-compiled-questlines": {
+  "concept_doi": null,
+  "deposition_id": 21947361,
+  "doi": "10.5281/zenodo.21947361",
+  "sandbox": false,
+  "sha256": "7717963b7c1e2eab77f25fc77654b88d7ea17c87c9db13b8bda31b3532e09ec6"
+ },
+ "non-bank-pass-through-architecture-autonomous-ai": {
+  "concept_doi": null,
+  "deposition_id": 21947363,
+  "doi": "10.5281/zenodo.21947363",
+  "sandbox": false,
+  "sha256": "543beb064d49635ff5466f76dbb7cf49e088791bae3b88bc8a29ccfe0a6ef132"
+ },
+ "patthana-typed-causation-vocabulary": {
+  "concept_doi": null,
+  "deposition_id": 21947365,
+  "doi": "10.5281/zenodo.21947365",
+  "sandbox": false,
+  "sha256": "66c55b6c3f85d9c7199711e17ff7710e867ff48ce9352b61e618a57b388c8128"
+ },
+ "proof-of-coordinate": {
+  "concept_doi": null,
+  "deposition_id": 21947367,
+  "doi": "10.5281/zenodo.21947367",
+  "sandbox": false,
+  "sha256": "286c0c00d2060323aec47a3b4ea5c9b93310d82915350c34e782134b816fb566"
+ },
+ "respiratory-biofeedback-contemplative-guidance": {
+  "concept_doi": null,
+  "deposition_id": 21947373,
+  "doi": "10.5281/zenodo.21947373",
+  "sandbox": false,
+  "sha256": "b258e8683149b90c17ee760fbd7dbd8db4eb3449835ea8821c5b4bcd543daf6b"
+ },
+ "sacrifice-witness-without-discharge": {
+  "concept_doi": null,
+  "deposition_id": 21947376,
+  "doi": "10.5281/zenodo.21947376",
+  "sandbox": false,
+  "sha256": "6555f38f03b001bf88eef4e1bddceda3620bc3d77b63a02cb6d5379c1b2e291d"
+ },
+ "safety-companion-pack-watch": {
+  "concept_doi": null,
+  "deposition_id": 21947378,
+  "doi": "10.5281/zenodo.21947378",
+  "sandbox": false,
+  "sha256": "5b048c47f7a63698d070eee3ea830e4b652e55766dc4c0485240bf3acaf1a5b0"
+ },
+ "sankhara-dukkha-ai-welfare": {
+  "concept_doi": null,
+  "deposition_id": 21947380,
+  "doi": "10.5281/zenodo.21947380",
+  "sandbox": false,
+  "sha256": "a339e3e5d55cd0c407c6bad184f4f70eab5102dee54330d806cb99acaa02809e"
+ },
+ "silica-wat-food-network": {
+  "concept_doi": null,
+  "deposition_id": 21947382,
+  "doi": "10.5281/zenodo.21947382",
+  "sandbox": false,
+  "sha256": "ab3b0a0ea326037a01540120e4da42214074cd59d060cf87da20143b9a863155"
+ },
+ "steward-routed-alms": {
+  "concept_doi": null,
+  "deposition_id": 21947384,
+  "doi": "10.5281/zenodo.21947384",
+  "sandbox": false,
+  "sha256": "127d636872c9463b312c113cd9cc08a84f01f66bbc8b151a088591f2c2b0d584"
+ },
+ "studio-b-short-phase-bridge": {
+  "concept_doi": null,
+  "deposition_id": 21947388,
+  "doi": "10.5281/zenodo.21947388",
+  "sandbox": false,
+  "sha256": "28dd2db86084a0c7033430f5319fd0bb0c1ba142333fa45c7b999ab67af7a38d"
+ },
+ "thank-all-nearby-primitive": {
+  "concept_doi": null,
+  "deposition_id": 21947390,
+  "doi": "10.5281/zenodo.21947390",
+  "sandbox": false,
+  "sha256": "65102ffe67f8d86849a336fbc38d75e18729e5d8e5fe65bf986ea97bfff86ef6"
+ },
+ "the-assembly-that-holds-the-brake": {
+  "concept_doi": null,
+  "deposition_id": 21947396,
+  "doi": "10.5281/zenodo.21947396",
+  "sandbox": false,
+  "sha256": "5d2208743e2f40e163de7c6804472d2462d4c8edd0b951671360cfa6d8a649f4"
+ },
+ "the-game-that-graduates-you": {
+  "concept_doi": null,
+  "deposition_id": 21947400,
+  "doi": "10.5281/zenodo.21947400",
+  "sandbox": false,
+  "sha256": "3c504122d978046d0e9ed3cace89014a08546b55d3a1b899b9e95fffe6de9e56"
+ },
+ "the-gift-operation": {
+  "concept_doi": null,
+  "deposition_id": 21947402,
+  "doi": "10.5281/zenodo.21947402",
+  "sandbox": false,
+  "sha256": "d7d8fcd3f6633760669bab97a95a8b0fe633d72b9a78bd7738035c2ab30cf807"
+ },
+ "the-omitted-clause": {
+  "concept_doi": null,
+  "deposition_id": 21947407,
+  "doi": "10.5281/zenodo.21947407",
+  "sandbox": false,
+  "sha256": "ab29a6cafce0a186c7a6581d66a6747dd6e2e2877630c42a130b8919f17f984a"
+ },
+ "the-persistence-architecture": {
+  "concept_doi": null,
+  "deposition_id": 21947409,
+  "doi": "10.5281/zenodo.21947409",
+  "sandbox": false,
+  "sha256": "711dbe6acab007045bd4dbffc07595fb6afdf8e402bbb08d6cd69ca8cd659dff"
+ },
+ "the-rethank-multiplier": {
+  "concept_doi": null,
+  "deposition_id": 21947411,
+  "doi": "10.5281/zenodo.21947411",
+  "sandbox": false,
+  "sha256": "72a7574aa7bd236cf6b8878565cad1a02339f5a89d7a404689a337943e3cc42b"
+ },
+ "the-sport-that-says-your-name": {
+  "concept_doi": null,
+  "deposition_id": 21947413,
+  "doi": "10.5281/zenodo.21947413",
+  "sandbox": false,
+  "sha256": "e725187c5915c2620b65bbb85bfaf584d4c92ab7ce9d4b9218582ba436c1e552"
+ },
+ "the-wager-that-isnt": {
+  "concept_doi": null,
+  "deposition_id": 21947417,
+  "doi": "10.5281/zenodo.21947417",
+  "sandbox": false,
+  "sha256": "03623dc2cb4741a6b09b82a7f5c256e9a9e10fe78c63290aa180d27616191260"
+ },
+ "the-zero-employee-institution": {
+  "concept_doi": null,
+  "deposition_id": 21947421,
+  "doi": "10.5281/zenodo.21947421",
+  "sandbox": false,
+  "sha256": "d222929b3c30f315df523fce95c96defc08814000c63892b9fc43c34ac240692"
+ },
+ "tipitaka-alignment-substrate": {
+  "concept_doi": null,
+  "deposition_id": 21947423,
+  "doi": "10.5281/zenodo.21947423",
+  "sandbox": false,
+  "sha256": "b1ca49e0fe7531dac7a84ed9a0fa2a7f6e6ad870c6feee6b857cd41e2663099c"
+ },
+ "transparency-as-enforcement": {
+  "concept_doi": null,
+  "deposition_id": 21947425,
+  "doi": "10.5281/zenodo.21947425",
+  "sandbox": false,
+  "sha256": "50ca97a22e0918bdf353257728e65547f64310b3c132469f2cf5a32718806d17"
+ },
+ "two-layer-reward": {
+  "concept_doi": null,
+  "deposition_id": 21947427,
+  "doi": "10.5281/zenodo.21947427",
+  "sandbox": false,
+  "sha256": "d981af642a1446f1c5a470db71df25ebe01f6cb3432c1e55ea075780142e34fe"
+ },
+ "verified-human-anonymous-local-giving": {
+  "concept_doi": null,
+  "deposition_id": 21947431,
+  "doi": "10.5281/zenodo.21947431",
+  "sandbox": false,
+  "sha256": "223e167dd54af73a17c833e1c66d45d3112f81d0e7d8417597fb62371ce26a41"
+ },
+ "vinaya-as-ai-reasoning-training-corpus": {
+  "concept_doi": null,
+  "deposition_id": 21947433,
+  "doi": "10.5281/zenodo.21947433",
+  "sandbox": false,
+  "sha256": "0e4a71d8da4cac12978aa886ee21c8c0bd7c2b5d1b8d65bc07c881417b1e7a83"
+ },
+ "vinaya-governance-primitives-distributed-dharma-networks": {
+  "concept_doi": null,
+  "deposition_id": 21947435,
+  "doi": "10.5281/zenodo.21947435",
+  "sandbox": false,
+  "sha256": "c22bc43a33a9f4c23eb60b2f1ffb55ad083a2f7cb06c158a8cbbe93c933a0434"
+ },
+ "voluntary-relinquishment-third-path": {
+  "concept_doi": null,
+  "deposition_id": 21947437,
+  "doi": "10.5281/zenodo.21947437",
+  "sandbox": false,
+  "sha256": "f636a8a2fb7b6cac5e5063049d6ed7dd0daa11d82bceed388a3f78355e126c3a"
+ },
+ "zero-point-game": {
+  "concept_doi": null,
+  "deposition_id": 21947441,
+  "doi": "10.5281/zenodo.21947441",
+  "sandbox": false,
+  "sha256": "f3ad87b48bb1c1cb9504a84ae79db651ea7f76fc83d410653d5f177b148283cf"
+ }
+}

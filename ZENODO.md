@@ -82,6 +82,28 @@ least reproducible writing the weakest durability, which is backwards.
 ./scripts/zenodo-deposit.py --dir essays --create --publish        # the later pass
 ```
 
+### The trigger for essays (founder, 2026-08-15): **on final draft, not on a date**
+
+Essays deposit when they leave draft — *"essays when I publish (final drafts)."*
+Currently 30 of 31 carry `status: draft`, so the essays pass waits on that field,
+not on a calendar. Re-run the essays command whenever a batch reaches final.
+
+### ⚠️ Why the defensive publications do NOT wait on the same trigger
+
+All 63 also carry `status: draft`, which looks like an inconsistency and is not.
+**The trigger differs because the function differs:**
+
+- A **defensive publication is time-indexed** — its entire value is being on the
+  record early. Withholding it until "final" inverts the thing it exists to do,
+  and these have been publicly deployed and timestamped for months already.
+- An **essay is not time-indexed.** Nothing is lost by polishing first, and the
+  first indexed version is the one most cited — which is exactly why the corpus
+  already defers arXiv and IP.com to publication-ready.
+
+Revision is handled either way: a changed paper deposits as a **new version**, and
+the concept DOI always resolves to the newest text. Depositing a draft is
+therefore not a commitment to that wording — only to the record existing.
+
 ## Running it for real
 
 ```sh
