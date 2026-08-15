@@ -5,6 +5,29 @@ file beside it. The proof commits the paper's SHA-256 to the Bitcoin blockchain,
 document's existence at a point in time can be verified by anyone, forever, **without
 trusting this repository, GitHub, the Internet Archive, or the authors.**
 
+
+## The second leg — RFC 3161 trusted timestamps
+
+Since 2026-08-15 the OpenTimestamps proofs above are **not the only attestation.** A weekly
+manifest of every tracked file is also signed by three independent trust authorities under
+RFC 3161, one of which is **eIDAS-qualified** and therefore carries a statutory presumption
+of its date. See **[`timestamps/README.md`](./timestamps/README.md)** for the full rationale,
+the pinned trust anchors, and the honest limits.
+
+The short version of why a second *blockchain* was considered and rejected: Bitcoin and any
+other chain fail together on whether a forum accepts a chain as evidence at all — two chains
+is the same exhibit twice. A TSA fails for unrelated reasons. **Bitcoin has permanence and no
+legal standing; a trust authority has legal standing and no permanence.** Each leg covers the
+other's weakness, which a second chain would not.
+
+It also closes a gap in the `.ots` leg described below: because `ots stamp` never re-stamps,
+a revised document keeps attesting its superseded text until a human rotates the proof by
+hand. The weekly manifest re-attests the current text of everything with no human step.
+
+```sh
+./tsa-verify.sh path/to/document.md    # earliest date this exact text can be proven
+```
+
 ## Why this exists
 
 This corpus is a defensive-publication wall: its value is that a claim was *published on a
