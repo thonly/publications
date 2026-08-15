@@ -57,9 +57,13 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # a sandbox deposition ID against the live API. Only the live file is committed.
 STATE_LIVE = ROOT / "zenodo-dois.json"
 STATE_SANDBOX = ROOT / "zenodo-dois.sandbox.json"
+# Zenodo publication_type per directory. Essays are NOT preprints — a preprint is
+# a paper awaiting or bypassing peer review, and an essay in the author's own
+# voice makes no such claim. Depositing one as a preprint would overstate what it
+# is, on a record that cannot be withdrawn.
 DIRS = {
     "defensive-publications": "preprint",
-    "essays": "preprint",
+    "essays": "other",
 }
 DOC_TYPE = {
     "defensive-publications": "defensive publication",
@@ -303,6 +307,11 @@ def main():
                     help="use sandbox.zenodo.org — rehearse here first")
     ap.add_argument("--only", metavar="SLUG", help="a single paper")
     ap.add_argument("--limit", type=int, help="stop after N papers")
+    ap.add_argument("--dir", action="append", choices=sorted(DIRS),
+                    help="restrict to a directory; repeatable. Default: all. "
+                         "Use to deposit the defensive publications without the "
+                         "essays, which carry more third-party personal material "
+                         "and deserve their own deliberate pass.")
     args = ap.parse_args()
 
     if args.publish and not args.create:
@@ -311,7 +320,8 @@ def main():
     # A paper is defined by HAVING FRONTMATTER, not by its filename. Each paper
     # directory also holds a README.md, and matching on name alone would deposit
     # them as papers titled "README" — which the sandbox rehearsal did.
-    papers = sorted(p for d in DIRS for p in (ROOT / d).glob("*.md")
+    dirs = args.dir or list(DIRS)
+    papers = sorted(p for d in dirs for p in (ROOT / d).glob("*.md")
                     if frontmatter(p.read_text()).get("title"))
     if args.only:
         papers = [p for p in papers if p.stem == args.only or
@@ -383,7 +393,8 @@ def main():
         STATE.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n")
         done += 1
 
-    print(f"\n{'DRY RUN — nothing sent' if not args.create else 'done'}: "
+    print(f"\nscope: {', '.join(dirs)}")
+    print(f"{'DRY RUN — nothing sent' if not args.create else 'done'}: "
           f"{new} new, {revised} revised, {unchanged} unchanged "
           f"({len(papers)} paper(s) scanned)")
     if not args.create:

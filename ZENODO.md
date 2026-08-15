@@ -58,6 +58,30 @@ your login and cannot be done for you.**
    archives that release and mints a DOI using `.zenodo.json`. **Only releases
    created *after* the switch is flipped are archived.**
 
+## Scope — defensive publications first, essays as a separate pass
+
+Decided 2026-08-15. The first deposit run covers **`defensive-publications` only**
+(63 papers); the **31 essays are held back**, not excluded.
+
+**The reason is the one-way door, not tidiness.** A DOI is irreversible,
+third-party-hosted and un-deletable — the same property the corpus already
+recognises for permanent media: *privacy defects go permanent at etch*. **8 of 31
+essays reference identifiable family members and named individuals**, against
+only incidental illustrative mentions in the defensive publications. That is not a
+problem, but it is a set of decisions that deserves its own deliberate reading
+rather than arriving as a side effect of a bulk run.
+
+⚠️ **Holding is a SEQUENCING decision and must not harden into exclusion.** The
+main benefit of this layer — a persistent address and third-party custody that
+survive losing the domain — applies to the essays *at least as much*. They are the
+more personally irreplaceable half; permanently excluding them would give the
+least reproducible writing the weakest durability, which is backwards.
+
+```sh
+./scripts/zenodo-deposit.py --dir defensive-publications --create --publish
+./scripts/zenodo-deposit.py --dir essays --create --publish        # the later pass
+```
+
 ## Running it for real
 
 ```sh
