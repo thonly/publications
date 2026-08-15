@@ -1,2 +1,4 @@
 *.ots.bak
 zenodo-dois.sandbox.json
+__pycache__/
+*.pyc
