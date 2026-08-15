@@ -51,6 +51,39 @@ import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+
+def get_token(sandbox=False):
+    """ZENODO_TOKEN if set, else the macOS Keychain.
+
+    The token is deliberately NOT kept in a dotfile, a .env, or anywhere under a
+    repository. These repos hash every tracked file into a manifest that is signed
+    by three trust authorities, stamped to Bitcoin, pushed to GitHub and
+    snapshotted to the Internet Archive — committing a credential here would
+    publish it and then cryptographically attest that it existed. The Keychain
+    keeps it out of the filesystem the tooling can see.
+
+    Store it (run this yourself; `read -rs` keeps it out of shell history):
+
+        read -rs TOKEN && security add-generic-password \\
+            -a "$USER" -s zenodo-token -w "$TOKEN" -U && unset TOKEN
+
+    Use -s zenodo-token-sandbox for the sandbox credential.
+    """
+    env = os.environ.get("ZENODO_TOKEN")
+    if env:
+        return env
+    service = "zenodo-token-sandbox" if sandbox else "zenodo-token"
+    try:
+        import subprocess
+        r = subprocess.run(
+            ["security", "find-generic-password", "-s", service, "-w"],
+            capture_output=True, text=True, timeout=30)
+        if r.returncode == 0 and r.stdout.strip():
+            return r.stdout.strip()
+    except Exception:
+        pass
+    return None
 # Sandbox and live MUST NOT share a state file. They are different servers with
 # different ID spaces: after a sandbox rehearsal, a live run reading shared state
 # would see those slugs as already deposited and try to create a *new version* of
@@ -334,9 +367,12 @@ def main():
 
     STATE = STATE_SANDBOX if args.sandbox else STATE_LIVE
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
-    token = os.environ.get("ZENODO_TOKEN")
+    token = get_token(args.sandbox)
     if args.create and not token:
-        raise SystemExit("ZENODO_TOKEN is not set.")
+        raise SystemExit(
+            "No token. Set ZENODO_TOKEN, or store one in the Keychain:\n"
+            '    read -rs TOKEN && security add-generic-password '
+            '-a "$USER" -s zenodo-token -w "$TOKEN" -U && unset TOKEN')
     api = Zenodo(token, args.sandbox) if args.create else None
 
     new = revised = unchanged = published_drafts = 0

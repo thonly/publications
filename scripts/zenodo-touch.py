@@ -69,9 +69,9 @@ def main():
               "https://profiles.datacite.org BEFORE running for real.")
         return
 
-    token = os.environ.get("ZENODO_TOKEN")
+    token = zd.get_token(args.sandbox)
     if not token:
-        raise SystemExit("ZENODO_TOKEN is not set.")
+        raise SystemExit("No token. See scripts/zenodo-deposit.py get_token().")
     api = zd.Zenodo(token, args.sandbox)
 
     ok = failed = 0
