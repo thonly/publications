@@ -5,12 +5,13 @@ category: essays
 priority: tier-c
 status: draft
 date: 2026-07-25
+revised: 2026-08-22
 license: CC0-1.0
 slug: the-name-is-the-first-gift
 venue: thonly.org/research/the-name-is-the-first-gift (canonical)
 ---
 
-> **Attribution note.** This essay is personal and in my voice, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me, and still awaiting my own editorial pass. It began as a sentence I wrote in passing about why remembering someone's name is an underrated kindness, and it turned out to have a childhood underneath it. The sport it ends on is specified properly elsewhere, with claims and citations and an honest account of what it has not yet proven; nothing here should be read as evidence that it works.
+> **Attribution note.** This essay is personal and in my voice, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me. My editorial pass ran on 2026-08-22 and corrected two things in §VII that had gone stale in public: it said the sport had never been played, which stopped being true five days after this essay was published, and it slipped into a *we* the rest of the essay does not use. It began as a sentence I wrote in passing about why remembering someone's name is an underrated kindness, and it turned out to have a childhood underneath it. The sport it ends on is specified properly elsewhere, with claims and citations and an honest account of what it has not yet proven; nothing here should be read as evidence that it works.
 
 ---
 
@@ -94,21 +95,21 @@ When you say someone's name you are performing, in half a second and without any
 
 **VII.**
 
-So we built a sport.
+So I built a sport.
 
-Not a metaphor — an actual game, played in a circle with a soft object, in which a caller announces, before each pass, the *name* of the person who has to receive next. Everyone touches the object equally. Nobody knows when their turn is coming, so nobody can drift. And because the caller says the name every single time, out loud, at the correct pronunciation, twenty or thirty times in a session, an ordinary consequence follows that we did not have to engineer: after one game, strangers know each other's names.
+Not a metaphor — an actual game, played in a circle with a soft object, in which a caller announces, before each pass, the *name* of the person who has to receive next. Everyone touches the object equally. Nobody knows when their turn is coming, so nobody can drift. And because the caller says the name every single time, out loud, at the correct pronunciation, twenty or thirty times in a session, an ordinary consequence follows that I did not have to engineer: after one game, strangers know each other's names.
 
-Then we made the caller say them *right*. The pronunciation is recorded or approved by the person whose name it is, and never anglicized, never approximated, never sanded to fit the room. Which means that after three rounds the circle is saying your name the way your mother says it — not because anyone gave a speech about respect, but because they heard it done correctly twenty times and their ears simply learned.
+Then I made the caller say them *right*. The pronunciation is recorded or approved by the person whose name it is, and never anglicized, never approximated, never sanded to fit the room. Which means that after three rounds the circle is saying your name the way your mother says it — not because anyone gave a speech about respect, but because they heard it done correctly twenty times and their ears simply learned.
 
 For a diaspora kid that is not a feature. That is a wound closed quietly, by a game, without anyone having to be brave about it.
 
-And in the version we care about most — a classroom, first week of school, thirty children and a teacher and a beanbag — the child whose name is called raises a hand and says it themselves, and the class repeats it. The machine does not teach the pronunciation. The child does. The machine only makes sure the child is asked, every time, in front of everyone, as a normal part of a game rather than as a moment of special attention that singles them out.
+And in the version I care about most — a classroom, first week of school, thirty children and a teacher and a beanbag — the child whose name is called raises a hand and says it themselves, and the class repeats it. The machine does not teach the pronunciation. The child does. The machine only makes sure the child is asked, every time, in front of everyone, as a normal part of a game rather than as a moment of special attention that singles them out.
 
 I want to be careful here, because I know what I sound like.
 
 I have built an elaborate apparatus to accomplish something that any person can do for free, at any moment, by paying attention for four seconds. That is not lost on me. The apparatus is not better than the attention; it is a scaffold for a room where the attention is not currently happening — a first week of school, a wedding where two families have never met, a park full of neighbors who have lived beside each other for six years without exchanging names. If the scaffold works, what it produces is a circle that does not need it.
 
-I also know the shape of my own reasoning well enough to distrust it. When a system becomes this tidy — when the childhood memory and the teacher's letter and the sport and the philosophy all turn out to be the same shape — it is either genuinely coherent or it is seductive, and from the inside those two feel identical. So: none of this is proven. The sport has never been played. The claim that being *told* where to pass feels like magic rather than micromanagement is a guess, and a class of eight-year-olds will settle it in two weeks, and they may settle it against me.
+I also know the shape of my own reasoning well enough to distrust it. When a system becomes this tidy — when the childhood memory and the teacher's letter and the sport and the philosophy all turn out to be the same shape — it is either genuinely coherent or it is seductive, and from the inside those two feel identical. So: none of this is proven. The sport has been played a handful of times now, in small circles I ran myself, with my own family standing in them — which establishes that the rules can be taught by a non-expert and that the circle does not collapse, and establishes nothing at all about the part I am actually claiming, because those people love me and would have been kind about a bad game. The claim that being *told* where to pass feels like magic rather than micromanagement is a guess, and a class of eight-year-olds will settle it, and they may settle it against me.
 
 **VIII.**
 

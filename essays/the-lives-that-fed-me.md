@@ -5,12 +5,13 @@ category: essays
 priority: tier-c
 status: draft
 date: 2026-07-21
+revised: 2026-08-22
 license: CC0-1.0
 slug: the-lives-that-fed-me
 venue: thonly.org/research/the-lives-that-fed-me (canonical)
 ---
 
-> **Attribution note.** This essay is personal and in my voice, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me, and still awaiting my own editorial pass. It began at a meditation retreat, over lunch. The mechanism it half-describes is set out properly elsewhere, with citations and an honest-limits section and every claim it makes about what the practice can and cannot do; there is one guard in it I will not let the story soften, and I mark it where it comes. Here I only want to tell how a plate of vegetables rearranged something I had been getting wrong for years.
+> **Attribution note.** This essay is personal and in my voice, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me. My editorial pass ran on 2026-08-22 and changed nothing in the body; what I was asked to reconsider was the sentence about eating meat, and I am keeping it. It began at a meditation retreat, over lunch. The mechanism it half-describes is set out properly elsewhere, with citations and an honest-limits section and every claim it makes about what the practice can and cannot do; there is one guard in it I will not let the story soften, and I mark it where it comes. Here I only want to tell how a plate of vegetables rearranged something I had been getting wrong for years.
 
 ---
 
@@ -89,3 +90,7 @@ But now I also have to leave the room to eat. I always did; I just never noticed
 I am wary of how neat this has become. I know that a system which resolves this cleanly, in which every problem I had turns out to be the solution to another, is either true or seductive, and that from the inside those two feel exactly alike. I hold that suspicion with both hands. And then, holding it, I will still say grace at lunch tomorrow, and go out afterward among the trees, and give the walk to the lives that fed me — not to settle anything, because nothing here can be settled, but because I have finally stopped looking away. The retreat gave me silence for ten days. The table, it turns out, will give it back to me for the rest of my life, three times a day, for as long as I have to eat. Which is to say: for as long as I am alive, and being kept alive, by lives that were not mine.
 
 Grace, and then the trees. Before the first bite, and after the last.
+
+---
+
+*Canonical URL: https://thonly.org/research/the-lives-that-fed-me · License: CC0 1.0 Universal · The guard in §IV — that nothing pays for the death, and that no spent hour may ever be allowed to clear a spent life — is specified as a design commitment in* The Grace That Settles Nothing: Sacrifice-Witness Without Discharge *§4.2, where it sits in the mechanism's refusal set beside the refusal that any creature be named by what was done to it. Author: Thon Ly · Founder, HeartBank®. AI collaboration disclosed: drafted with Miss Aquarius℠ per the corpus convention; final editorial control and responsibility are the author's.*

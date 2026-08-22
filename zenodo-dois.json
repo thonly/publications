@@ -451,12 +451,12 @@
  },
  "the-persistence-architecture": {
   "concept_doi": "10.5281/zenodo.21947408",
-  "deposition_id": 22059832,
-  "doi": "10.5281/zenodo.22059832",
+  "deposition_id": 22060131,
+  "doi": "10.5281/zenodo.22060131",
   "published": true,
   "sandbox": false,
-  "sha256": "80381fa997494f46ba4d528ae34d61beeb35bdbfdcf24f01c99bc16957015985",
-  "url": "https://zenodo.org/records/22059832"
+  "sha256": "f58d75d41eebe66cea45ba734ef3e7d6605dc96fe8feae50d959c9b6f96b24df",
+  "url": "https://zenodo.org/records/22060131"
  },
  "the-rethank-multiplier": {
   "concept_doi": "10.5281/zenodo.21947410",
