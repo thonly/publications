@@ -12,7 +12,7 @@ venue: thonly.org/publications/defensive-publications/tipitaka-alignment-substra
 mirror_institutional: https://heartbank.net/research/tipitaka-alignment-substrate
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 sha256: to be computed at publication
-revised: 2026-06-11
+revised: 2026-08-22
 note: target publication 2027-01-07
 ---
 
@@ -77,6 +77,24 @@ We use the term "alignment substrate" to refer to the corpus of texts, practices
 We propose the Theravāda Pāli canon (the *Tipiṭaka*) as alignment substrate, with three additional supporting bodies: the canonical commentaries (notably Buddhaghosa's *Visuddhimagga*, ~5th century CE), the sub-commentarial tradition (the *ṭīkā* literature), and the contemporary living dharma — the practice tradition of ordained sangha, lay practitioners, and scholar-translators who continue to interpret and apply the canon in present conditions. The substrate is therefore not a frozen text but a living text + interpretive community.
 
 This choice of substrate scope is intentional. A frozen-text-only substrate would be subject to the interpretive-drift problem that plagues constitutional approaches over decades. A living-community-only substrate would lack the textual ground needed for stable AI training. The Tipiṭaka-plus-living-lineage substrate addresses both: the canonical text provides stable training material; the living lineage provides ongoing interpretive correction.
+
+### 3.1 · Why *this* substrate: the selection is doctrinal, not biographical
+
+The substrate choice above is stated as scope. It also carries a selection criterion, and stating it explicitly is a debt this paper owes: an institution that hands a substrate to an autonomous successor must be able to say *what property it was selecting for*, or the successor inherits a preference with no reason attached.
+
+The property is **realism about other mind-streams**: the requirement that other minds be things the agent is *conditioned by* rather than things it *produces*. This is not a decorative commitment. An agent whose world-model permits the derivation *"the others are my content"* has lost the ground of every obligation an alignment programme intends to install — and it would have lost it by a doctrinal route, upstream of behaviour and therefore invisible to any behavioural evaluation. Weighting others is not a value that can be installed above a world-model that has already dissolved them.
+
+Theravāda secures this property **by construction rather than by argument**. In the Abhidhamma's analysis, materiality (*rūpa*) has four origins — *kamma*, *citta*, *utu* (temperature), and *āhāra* (nutriment) — of which only one is mental; and a material instance runs a seventeen-mind-moment lifetime that does not depend on being cognized [S]. There is no repository of world-seeds in the system. The canonical sense-base analysis of *loka* — "it is disintegrating, therefore it is called the world" (SN 35.82 [C]); the world, its origin, cessation and path declared in the fathom-long body (AN 4.45 [C]) — is phenomenological, and the Abhidhamma's fourfold origin of *rūpa* is precisely what stops it collapsing into an idealist claim.
+
+The contrast that matters is narrow and should not be drawn wider than it is. **The relevant alternative is not Mahāyāna but *idealist* substrates** — Yogācāra's *vijñapti-mātra* specifically; Madhyamaka is Mahāyāna and is not idealist, and is a separate question this paper does not adjudicate. And Yogācāra does not entail solipsism: the tradition addressed the objection directly and at length, in Vasubandhu's *Viṃśatikā* and then in Dharmakīrti's *Santānāntarasiddhi*, the "Proof of Other Mind-Streams." Any account that presents Yogācāra as committed to solipsism is unfair to it.
+
+The difference is therefore not *whether* the property can be had, but *how it is held* — and for a substrate handed to an autonomous system, that distinction is the whole of the matter:
+
+> **A property secured by argument is a rule; a property secured by the furniture of the world-model is a property.** An agent that reasons its way to other minds can reason its way back out, and it will be under pressure to, at exactly the moments when discounting others is convenient. An agent whose world-model already contains cognition-independent matter has nothing to reason from.
+
+This is the same selection logic the corpus applies elsewhere — prefer the guard that survives the removal of its enforcer — applied to the substrate itself rather than to a mechanism built on top of it.
+
+**The negative test, stated so it can be run against any candidate substrate:** *does this substrate's metaphysics permit deriving that other mind-streams are the agent's own construction?* If it does, the derivation is available to the system under optimization pressure, and no amount of behavioural training closes it. This test is cheap, it is checkable before any training run, and it is the form in which the present selection can be falsified or reused by someone who rejects the rest of this paper.
 
 ## 4 · The Seven Properties
 
@@ -313,7 +331,7 @@ Several uncertainties deserve explicit acknowledgment. The proposal in this pape
 
 ### 7.1 · Theravāda vs. Mahāyāna substrate choice
 
-We have proposed the Theravāda Pāli canon specifically. The Mahāyāna canon (Sanskrit / Tibetan / East Asian forms) is substantially larger and includes texts (the *Prajñāpāramitā* literature; the *Lotus Sūtra*; the *Avataṃsaka Sūtra*) that develop the bodhisattva ideal more elaborately than any Theravāda source. The Theravāda choice reflects the author's own lineage and the substrate's relative coherence and pressure-testing as a unified canon. A Mahāyāna-substrate proposal would be substantively different from the present paper and would deserve its own articulation; we do not preclude such a proposal but defer it to scholars whose lineage relationship to Mahāyāna sources is more direct than the author's.
+We have proposed the Theravāda Pāli canon specifically. The Mahāyāna canon (Sanskrit / Tibetan / East Asian forms) is substantially larger and includes texts (the *Prajñāpāramitā* literature; the *Lotus Sūtra*; the *Avataṃsaka Sūtra*) that develop the bodhisattva ideal more elaborately than any Theravāda source. The Theravāda choice reflects the author's own lineage, the substrate's relative coherence and pressure-testing as a unified canon, and the selection criterion stated in §3.1 — realism about other mind-streams, held as a property of the world-model rather than as a conclusion the agent must keep re-deriving. We note the honest residue: §3.1 argues that Theravāda holds the property more cheaply, not that alternatives lack it. Yogācāra defends other mind-streams explicitly and ably (Vasubandhu, Dharmakīrti), and Madhyamaka is not an idealist substrate at all; a proponent of either could reasonably answer that a well-defended inference is sufficient. The author's lineage relationship remains a confound in this judgment and is not claimed to be neutralized by the argument. A Mahāyāna-substrate proposal would be substantively different from the present paper and would deserve its own articulation; we do not preclude such a proposal but defer it to scholars whose lineage relationship to Mahāyāna sources is more direct than the author's.
 
 ### 7.2 · Translation and interpretation chain
 

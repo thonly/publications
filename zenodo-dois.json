@@ -1,12 +1,12 @@
 {
  "abhidhamma-executable-process-specification": {
   "concept_doi": "10.5281/zenodo.21947259",
-  "deposition_id": 21947260,
-  "doi": "10.5281/zenodo.21947260",
+  "deposition_id": 22062148,
+  "doi": "10.5281/zenodo.22062148",
   "published": true,
   "sandbox": false,
-  "sha256": "5020ba3ec2be68598df8c7d5a526374bda3e3b4ee939940d72af3602eb86851c",
-  "url": "https://zenodo.org/records/21947260"
+  "sha256": "5d7ce971d6b1e9445a7f4691272164862f5dcf523074e502b69ef2c2f4d34010",
+  "url": "https://zenodo.org/records/22062148"
  },
  "agi-monks-caretaker-not-ordained": {
   "concept_doi": "10.5281/zenodo.21947261",
@@ -325,12 +325,12 @@
  },
  "patthana-typed-causation-vocabulary": {
   "concept_doi": "10.5281/zenodo.21947364",
-  "deposition_id": 21947365,
-  "doi": "10.5281/zenodo.21947365",
+  "deposition_id": 22062152,
+  "doi": "10.5281/zenodo.22062152",
   "published": true,
   "sandbox": false,
-  "sha256": "66c55b6c3f85d9c7199711e17ff7710e867ff48ce9352b61e618a57b388c8128",
-  "url": "https://zenodo.org/records/21947365"
+  "sha256": "40f7ab7660a53d1dd8cfe94a6945699211f8762e85e57f0eb0a46d0a504835b4",
+  "url": "https://zenodo.org/records/22062152"
  },
  "proof-of-coordinate": {
   "concept_doi": "10.5281/zenodo.21947366",
@@ -496,12 +496,12 @@
  },
  "tipitaka-alignment-substrate": {
   "concept_doi": "10.5281/zenodo.21947422",
-  "deposition_id": 21947423,
-  "doi": "10.5281/zenodo.21947423",
+  "deposition_id": 22062155,
+  "doi": "10.5281/zenodo.22062155",
   "published": true,
   "sandbox": false,
-  "sha256": "b1ca49e0fe7531dac7a84ed9a0fa2a7f6e6ad870c6feee6b857cd41e2663099c",
-  "url": "https://zenodo.org/records/21947423"
+  "sha256": "7463bac37064e24b1f2bf5017e5c96c7a1bde9cba184aa5e2e68d33e58afc1f4",
+  "url": "https://zenodo.org/records/22062155"
  },
  "transparency-as-enforcement": {
   "concept_doi": "10.5281/zenodo.21947424",

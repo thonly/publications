@@ -5,6 +5,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-05-07
+revised: 2026-08-22
 license: CC0-1.0
 slug: each-life-as-cosmic-coordinate
 venue: thonly.org/research/alignment (canonical) · heartbank.net/research/alignment (institutional mirror, mission-frame paragraph stripped)
@@ -68,7 +69,17 @@ The frameworks that resolve unity-vs-individuation by sacrificing one side are t
 
 **Rawlsian veil of ignorance.** Rawls's procedural move generates a moral standpoint by *requiring* that one not know one's particular features. The veil produces equality through enforced abstraction from difference. The trade is structural, not incidental: the moral standpoint is *defined* by erasure of particularity. This is fine as a thought experiment, but it tells us almost nothing about why my particular life, in its particular configuration, has standing.
 
-What unifies these frameworks: they ground equality by abstracting away from difference. They work, but at a cost. The cost is felt most sharply by participants whose identity does *not* fit the chosen abstraction (infants, the severely disabled, those whose rationality is contested, those whose substrate is non-human, those whose particularity matters to them).
+**Non-dual monism.** The most complete equality move available grounds standing not in a shared property but in a shared *substance*: all beings are appearances of one underlying reality, and difference is real conventionally and unreal ultimately. Advaita states it directly; the One Mind of the *Awakening of Faith* and the various Buddha-nature-as-ground readings arrive at something similar; and a diffuse popular version — *we are all one* — is probably the most widely held metaphysics among people drawn to contemplative practice at all. Equality here is not argued for; it is total, and it costs nothing, because there is nothing there to be unequal.
+
+The cost is of a different kind from the other four, which is why it deserves separating from them. Universalism makes your particularity morally *incidental*. Monism makes it *illusory*. That is a further step, and it has a consequence the others do not: it removes the second person. If difference is appearance, the one across from you is not someone you owe anything to — they are you, misperceived. Every framework in this section pays for equality with difference; this one pays for it with the other.
+
+It is worth saying plainly that this is the most attractive member of the family, and the hardest to argue with, because people adopt it out of warmth rather than out of theory. It is also the one nearest to the vocabulary of any institution built around gratitude or circulation, which is a good reason to be precise about it rather than to lean on it.
+
+The precision is available, and it is narrower than the monist reading assumes. That the differences between beings are exhaustively conditional — that there is no unconditioned differentiator, no essence-behind-the-features doing the individuating — does not license the further claim that beings are unconditionally *the same*. **The absence of an unconditioned differentiator is not the presence of an unconditioned sameness.** Strip away everything conditioned and you do not arrive at a common ground; you arrive somewhere that supports neither sameness nor difference, because both need something to hold between. The Pāli tradition is unusually disciplined on exactly this point: the question of what remains is left undeclared rather than answered, and the Madhyamaka analysis voids identity and difference together rather than choosing one. Equality follows from there being nothing to rank — not from our being secretly one. That grounds equality without making persons interchangeable, which is what §2 asked for and what the other four members of this family cannot deliver.
+
+There is an image for this in the *Dao De Jing* that I have used for years to describe how circulation works, and it turns out to be an argument as well as an image. The highest good is like water: it benefits the ten thousand things and does not contend, and it dwells in the places all people disdain, which is why it is near the Dao. What makes water good, in that reading, is that it goes to the low place. But a low place requires a high one. If everything were genuinely one, there would be nowhere for anything to flow — no gradient, and therefore no giving. Difference is not an obstacle that generosity overcomes; it is the condition that makes generosity possible at all.
+
+What unifies these frameworks: they ground equality by abstracting away from difference — four of them by making difference incidental, the fifth by making it unreal. They work, but at a cost. The cost is felt most sharply by participants whose identity does *not* fit the chosen abstraction (infants, the severely disabled, those whose rationality is contested, those whose substrate is non-human, those whose particularity matters to them).
 
 ### 3.2 Frameworks that sacrifice equality for difference
 

@@ -7,7 +7,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-05-26
-revised: 2026-07-20
+revised: 2026-08-22
 license: CC0-1.0
 slug: abhidhamma-executable-process-specification
 venue: thonly.org/publications/defensive-publications/abhidhamma-executable-process-specification (canonical)
@@ -115,6 +115,10 @@ A compilation must be honest about its source tree. The machine-legible layer of
 - **[N]** — nikāya-imported: material from the Sutta Piṭaka that the Abhidhamma tradition operationalizes.
 
 The tags appear at each mechanism heading. Nothing below is invented; everything below is *placed*.
+
+Two notes on the scheme itself, added on revision. First, a fourth tag: **[X]** — cross-tradition, marking any element carried in from outside Theravāda. The label makes no claim about truth or value; it records *which tradition is answering*, so that a later reader can separate the substrate's own commitments from material borrowed for comparison. A compilation that borrows without marking is not honest about its source tree in the sense §3.2 opens with.
+
+Second, a caution for readers moving between documents in this corpus. The letters above are local to this paper and are **not** universal: the companion cosmology reference notes use a different and equally reasonable scheme in which [S] denotes *Sutta* and [C] denotes *Commentary* — the inverse of the assignments here. Both schemes state their legend where they are used and neither is wrong on its own terms, but the two most-used letters are inverted between them. Readers should take the legend from the document in hand and should not carry a tag's meaning across documents. Reconciling the two schemes is deferred rather than performed here: re-tagging a timestamped prior-art document changes the meaning of its claims and is a re-publication, not an edit.
 
 ---
 

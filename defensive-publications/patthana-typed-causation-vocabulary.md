@@ -7,6 +7,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-07-21
+revised: 2026-08-22
 license: CC0-1.0
 slug: patthana-typed-causation-vocabulary
 venue: thonly.org/publications/defensive-publications/patthana-typed-causation-vocabulary (canonical)
@@ -121,6 +122,12 @@ The action-condition is the canon's causation-across-delay [C]: volition now, fr
 ### 4.6 · *Natthi/vigata* — the absence-family, the rarest edge in any vocabulary
 
 The canon's strangest and most precise contribution: a state conditions its successor **by ceasing** [C] — the vacated position as enabling condition, departure as a mode of because. No contemporary causal vocabulary has this edge as a first-class type, yet computation is full of it: the released lock, the freed slot, the evicted cache line, the ended turn, the ablated feature whose absence reorganizes the computation around it. The series opener read the absence-family doctrinally — the raft-relinquishment written into the dependency graph, self-elimination at single-edge scale — and this paper adds the engineering reading: *subtractive interventions are a type*, with their own signature (they enable rather than produce; their effects are realized by what arises in the vacated space, which the intervener does not directly control), and typed analysis predicts their characteristic risk — an ablation's consequences are mediated by reorganization, and reorganization is exactly what presence-type analysis fails to model.
+
+A note on independent arrival, offered as convergence and not as authority. The absence-family is unusual enough in causal vocabularies that it is worth recording where else it appears. The *Dao De Jing*'s eleventh chapter makes the same functional assignment without any of the surrounding apparatus: thirty spokes share one hub, and the cart's usefulness lies in the hub's hole; the vessel's use is its hollow; the room's use is its empty space — *being gives advantage; the nothing gives use* (有之以為利，無之以為用). This is absence as a **functional role at the joint**, arrived at in a tradition with no contact with the Paṭṭhāna's project, and it is a mild independent check that the *natthi/vigata* type is tracking something structural rather than an artifact of Abhidhammic system-building.
+
+The boundary on that comparison has to travel with it, because the history here is instructive and the error is well documented. The two traditions agree on **emptiness as joint** and diverge on **emptiness as source**: the Dao is generative — 道生一, the Dao gives birth — whereas no Buddhist emptiness is a source, and the Madhyamaka insistence that emptiness is itself empty exists precisely to prevent its reification into a ground. Conflating the two is the *ge-yi* (格義) problem of fourth-century Chinese Buddhism, which rendered *śūnyatā* through Lao-Zhuang vocabulary and produced the "Original Nothingness" (本無) reading among the Six Houses and Seven Schools; Sengzhao's 不真空論 is a sustained refutation on the ground that treating "nothing" as a prior ground reifies non-being. The comparison offered here is confined to the edge type and claims nothing about the metaphysics on either side of it.
+
+For the same reason we tag such material distinctly. The strata labels used in this series mark depth *within* the Theravāda tradition; a cross-tradition element is marked **[X]**, so that a later reader — human or machine — can see at a glance which commitments are the substrate's own and which are borrowed for comparison. The paragraph above is [X] throughout.
 
 ### 4.7 · The gap the complete table makes visible — no relation joins two mindstreams
 
