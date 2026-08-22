@@ -5,6 +5,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-06-26
+revised: 2026-08-22
 license: CC0-1.0
 slug: the-persistence-architecture
 venue: thonly.org/research/the-persistence-architecture (canonical)
@@ -206,6 +207,28 @@ The axis that makes the apparatus an apparatus: *who holds the center of gravity
 - **Dissolution** (∅): the terminus. The center of gravity, having migrated all the way off the founder and through the successor, is *set down* — the institution built to become no-one's, releasing its own apparatus (§8).
 
 The succession axis is what no second-brain or organizational-memory model carries, because both assume the center of gravity *stays with a reader* (the author; the continuing institution). Here it *moves*, deliberately, all the way to ∅. A layer's succession-coordinate tells you *whose it is becoming* — and therefore how it must be written: authored *for* the successor (the corpus), held *against* the founder's revocation (external custody, §5), or built to *empty* on schedule (the ledger).
+
+**The axis at another scale, and the one place it breaks (added 2026-08-22).** The succession axis above was derived from a single institution at a single scale, which is the weakest evidentiary position a structural claim can occupy. A second instance exists inside the same body of work at a scale several orders of magnitude smaller, and testing the axis against it is cheap.
+
+The instance is a **consecrated place**. In the institution's physical product line, a person may dedicate a specific piece of ground — a tree, a grave, a bench, a stone — as an address that accrues gratitude: passers-by leave notes there, and the place accumulates a record that belongs to it rather than to any of them. Doing so makes that person the **named primary steward**, a role with a duty attached and, critically, with **co-stewards who inherit it**. The structure is the succession axis in miniature: a mortal originator, a live custodian, a community that can take the custody over, and an object whose whole point is to outlast all of them.
+
+Run the axis across the two scales and four of the five positions map without strain:
+
+| Institutional (§4.3) | Place-scale | Holds? |
+|---|---|---|
+| Founder (layer 0, mortal) | the person who consecrates the place | ✓ |
+| The successor who inherits the stack | the primary steward while living | ✓ |
+| The governing community holding the override | co-stewards, who may assume custody | ✓ |
+| The layers themselves, outliving their author | the place and its accrued record | ✓ |
+| **Dissolution (∅) — the apparatus is set down** | — | ✗ **no analogue** |
+
+⭐ **The failure of the last row is the useful result, because it isolates what is actually distinctive about the institutional case.** A shrine is not built to be set down. It is built to be **handed on**, indefinitely, and a place-scale apparatus that dissolved would simply be a place somebody stopped tending. So the succession axis has **two terminus types, not one**: *release*, where the center of gravity migrates off every holder and is deliberately put down (§8), and *relay*, where it migrates off every holder and is deliberately picked up again. This paper has been describing one and calling it *the* terminus.
+
+That matters for §8's central thesis rather than decorating it. **Built-to-release is a choice, not a property of succession apparatuses in general** — the same institution builds relay apparatuses on purpose, at a smaller scale, for things whose value is precisely that they never stop being tended. The release thesis is therefore load-bearing exactly where the thing being handed on is an *institution with power over other people*, and it does not generalize to everything the institution builds. Stating that boundary makes the release thesis narrower and considerably harder to dismiss as an aesthetic preference.
+
+**And the forgetting valve (§9) has a partial physical answer at this scale, which it does not have at the institutional one.** The open problem there is that nothing in the apparatus decides what may be dropped. At place scale, one design rule supplies part of an answer by construction: the practice **adopts an existing feature rather than installing a new one**, so a place whose steward stops and whose co-stewards never appear does not become an abandoned artifact — it reverts to being a tree. The record persists in the ledger; the physical claim on the world lapses on its own. ⚠️ That is a genuine but partial answer: it disposes of the *object* and says nothing about the *record*, which is the harder half of the same problem and remains open at both scales.
+
+**n = 1 again, and the same author.** The place-scale instance is not independent evidence: it was designed by the people who drew the axis, inside the same institution, and it would be surprising if it failed to instantiate a model its designers hold. What it supplies is not corroboration but **a boundary** — the discovery that the axis's final position does not travel, found by trying to move it.
 
 ---
 

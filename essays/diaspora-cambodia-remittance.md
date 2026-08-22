@@ -5,6 +5,7 @@ category: essays
 priority: tier-c
 status: draft
 date: 2026-05-22
+revised: 2026-08-22
 license: CC0-1.0
 venue: thonly.org/research/diaspora-cambodia-remittance (canonical)
 ---
@@ -91,6 +92,8 @@ The institution does *not* charge a fee for the gratitude-substance conversion. 
 A word of caution about this paper's own title. *Remittance* is used here as a precise economic-anthropological term for a real cross-border money flow, and the flow is real. But the word carries a frame the institution explicitly rejects, and the rejection is load-bearing enough to state plainly: HeartBank is **not a charity**, and the diaspora-to-Cambodia flow is **not a hand-out solicited by people defined by their need.**
 
 The remittance frame, left unexamined, positions the homeland recipient as the one who lacks and the diaspora sender as the one who relieves — the charity shape, in which the recipient is diminished by the very transaction that helps them. The institution's actual frame inverts this. The Cambodian participant arrives in the economy not as a petitioner but as a **producer of something the sender values and cannot otherwise obtain**: demonstrated kindness, real good done in the world, recorded and witnessed. The diaspora participant is therefore not a donor relieving a deficit but a **patron funding more of a thing they are glad exists** — a kinder homeland, more of the good they are watching their relatives do. The money still crosses the same border; what crosses with it is recognition of agency, not pity for need.
+
+**A correction the pilot supplied, recorded here because this essay's framing invited it (added 2026-08-22).** Everything above describes a *corridor* — one direction, hard currency to soft, diaspora to homeland. The first live ledger did not behave that way. The dominant flow ran as predicted, and a real minority ran the other way: lower-income users in Cambodia electing to give *upward*, to better-off relatives abroad, in amounts whose material significance was nil, which is the entire point — they were taking the role of giver, not relieving a need. **The donor-and-recipient hierarchy the word *remittance* smuggles in did not have to be argued away; it simply dissolved once everyone could give.** The honest shape is therefore a **mesh**, not a corridor, and the guard against this essay's worst available reading — *buying cheap kindness from the poor* — is not a disclaimer but that datum. Lead always with *everyone is a patron*, never with *cheap impact*. The finding and its evidence are set out in the essay *The Capacity to Give*.
 
 This is not a cosmetic relabeling. A person shown to the diaspora as a victim is diminished even as the money arrives; a person shown as a giver — poor, perhaps, but visibly kind — is dignified by the same flow. The diaspora beachhead is real and the economics described in this paper hold; but the institution understands the flow as **patronage of proven kindness, agency over victimhood**, and only secondarily as remittance. (The full positioning is set out in the institutional position *Not a Charity: Agency, Not Victimhood*; its labour-side consequence — a Cambodian making a living by doing good rather than by being remitted to — in *A Living Made of Kindness*.)
 

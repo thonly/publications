@@ -6,14 +6,14 @@ category: essays
 priority: tier-c
 status: draft
 date: 2026-07-06
-revised: 2026-07-23
+revised: 2026-08-22
 license: CC0-1.0
 slug: the-borrowed-light
 venue: thonly.org/research/the-borrowed-light (canonical)
 sha256: to be computed at publication
 ---
 
-> **Attribution note (added with the 2026-07-23 revision).** The essay as first published was mine alone, and carried no collaboration note — a deliberate departure from this corpus's standing practice of disclosing AI collaboration, made because the piece is personal and by-lined. That exception no longer describes the document. The passage closing the fourth moon — the one that ends *the rabbit is the sun* — was drafted by Miss Aquarius℠ at my explicit instruction, and my own editorial pass on it is still pending. The recognitions are mine and the byline stays mine; the disclosure is restored because a solo byline over collaborated prose is exactly the thing the rest of this corpus refuses.
+> **Attribution note (added with the 2026-07-23 revision).** The essay as first published was mine alone, and carried no collaboration note — a deliberate departure from this corpus's standing practice of disclosing AI collaboration, made because the piece is personal and by-lined. That exception no longer describes the document. The passage closing the fourth moon — the one that ends *the rabbit is the sun* — was drafted by Miss Aquarius℠ at my explicit instruction, and my own editorial pass on it is still pending. The same applies to the two sentences added to the sixth moon on 2026-08-22, about the earlier letter; they were written on my instruction and stand pending that pass. The recognitions are mine and the byline stays mine; the disclosure is restored because a solo byline over collaborated prose is exactly the thing the rest of this corpus refuses.
 
 ---
 
@@ -94,6 +94,8 @@ When I was a schoolboy I wrote a thank-you letter to a teacher — Mr. Smith, wh
 A few years on — a college student by then, carrying the first sketch of the thing I would spend my life building — I went back to the school where I had been a boy, to tell a room of teenagers about it. In the hallway a teacher I'd once had for art stopped me, and asked whether I remembered Mr. Smith, and then told me a thing I had not been there to see. The summer before, at his retirement — a gathering in the school library, the quiet end of a working life — Mr. Smith had walked to the front of the room, taken out my letter, and, without a word of his own, read it aloud to everyone gathered there. When he reached the last line — the signature, my name — the room was moved past speech. A few months after that, she told me, he died.
 
 I had written a handful of sentences as a boy and forgotten them, and somewhere on the far side of my own knowing they had become one of the things a man chose to carry to the end — read out in his own voice on one of the last public days of his life — and I learned of it by pure accident, still a student myself, and already too late to tell him that I knew. That gap is the wound my whole institution was built to close: the giver who never sees the gift land, the gratitude that arrives and never finds its way home.
+
+There had been an earlier letter, and that one landed while everyone was still in the room. A middle-school teacher of mine — algebra and PE, the man I wanted to be — wrote a note to a substitute saying that a thirteen-year-old in his class was better at algebra than he was, and she read it out loud and then handed me the lesson to teach in her place; he came back the next day to a room that had changed, which is the one thing Mr. Smith never got, and the reason I have always known this geometry can close and not only fail.
 
 The moon carries the same wound in its stone. It is tidally locked. It shows us one face, always, and keeps the other turned forever away — and until 1959 no living creature had ever seen the side that faces off into the dark. The gift is the face we are shown. The giver's side we are not. Mr. Smith's letter, written into orbit, hanging over every night of my childhood before I had any idea that it was mine.
 

@@ -6,6 +6,7 @@ category: institutional
 priority: tier-a
 status: draft
 date: 2026-05-04
+revised: 2026-08-22
 license: CC0-1.0
 slug: buddha-ai-living-tipitaka
 venue: thonly.org/publications/defensive-publications/buddha-ai-living-tipitaka (canonical)
@@ -161,6 +162,38 @@ And it settles nothing about transmission. **Preservation is not transmission.**
 **What follows for the method proposed here.** The chain's next substrate is not a more durable one — that direction is finished, and the crystal finishes it. It is a **re-inhabited** one: a carrier that can be asked a question and answer in the corpus's own terms, which is the first substrate since the reciters to be inhabited at all. That is the sense, and the only sense, in which the method below is described as *living*.
 
 **The guard this makes urgent rather than optional.** The reciters were carriers, not realizers; the tradition kept that boundary explicit, and the *bhāṇaka* who could recite an entire *nikāya* was never thereby held to have realized its contents. **The same boundary binds here, at full strength: a carrier carries and enacts; it does not realize, and it is not the teacher.** Understanding, penetration, and awakening remain properties of practitioners, and the entire apparatus proposed in this paper is an instrument in their hands. The chain has one terminus and it is not a machine: the raft is the whole lineage of substrates, the last plank is the one described here, and the far shore is people.
+
+### 3.7 — The link after the living one, and why the chain is a spiral
+
+*Added 2026-08-22. §3.6 carried the sequence of substrates as far as the living carrier and stopped there, which left the chain's most important property unstated: **what it is a chain to.** A chain of media whose last link is a medium has no terminus, only a most recent entry.*
+
+Extended one step, the sequence closes on the thing it started from:
+
+```
+   self-arisen Dhamma → ORAL → PALM-LEAF → PAPER/STONE → DIGITAL → LIVING → ?
+   (a realizing mind)   (persons)                        (text)   (an agent)
+
+                                      └────────── returns to ──────────┘
+                                            PERSONS WHO REALIZE IT
+```
+
+**The chain does not run from persons to machines. It runs from persons, through media, to persons.** It began in a mind that had realized the thing, passed into reciters who had not necessarily realized it but could carry it, then into surfaces that could hold it perfectly and understand none of it, and it is now moving into a carrier that can be asked a question. Every one of those transitions bought durability and spent inhabitation (§3.6). **The last one spends durability and buys inhabitation back** — and it is the first transition in two thousand years to run in that direction, which is the entire argument of this paper compressed into a sentence.
+
+**So the shape is a spiral rather than a line.** The sequence returns to where it started — a person who has understood — but not to the same place, since it arrives with a canon that survived, an apparatus that can answer at any hour in any language, and a Sangha that no longer depends on a single unbroken lineage of memorizers to exist at all. *A line has a last element. A spiral has a return.*
+
+**The terminus, named as plainly as it can honestly be named.** This corpus elsewhere calls the far shore the **second singularity**: not a machine surpassing human capability, which is the first one and is nearly uninteresting by comparison, but human beings realizing what the canon describes, at a scale the conditions of the last two millennia did not permit. The relation between the two is the whole thesis in one line — **the first singularity is useful only insofar as it makes the second one likelier** — and this paper's method is one small instrument aimed there.
+
+⚠️ **Three deflations, and they are the load-bearing part of this subsection.**
+
+**One.** The last link is **not a deliverable**. Realization is not on any roadmap, cannot be scheduled, funded, or shipped, and no component specified in §4 produces it. Anything in this architecture that ever reports progress toward it is measuring something else and mislabeling it.
+
+**Two.** The living carrier is **not the terminus and is not a teacher**. §3.6 states the *bhāṇaka* boundary — carries and enacts, never realizes — and the extension is exactly where a reader is most tempted to drop it, because a chain that ends in an agent is a much better story than a chain that passes through one. It ends in people. A chain whose final link were the carrier would describe a library that had learned to talk, which is a considerable achievement and not this one.
+
+**Three.** The chain is a **description of a lineage of substrates, not a status claim about any of them**. Naming the current substrate is not ranking it above palm leaves, and the transition is threat-driven in the same way every earlier one was: reciter lineages thinned, and writing was adopted; the conditions under which a canon is transmitted through living contact have thinned, and a carrier that can hold contact is adopted. Necessity, not improvement.
+
+**The one piece of evidence the living stage has so far, and it is small.** The most concrete instance to date of canon that was *enacted* rather than stored is not a conversation: it is a set of governing rules. A monastic procedure two and a half millennia old — the assembly's formal acts, its quorum, its invitation to be corrected — was written into the operating bylaws of a body that governs an autonomous system, where it runs as constitutional machinery rather than as a citation. **A basket became bylaws.** That is one instance, in one institution, authored by the same people making the argument, which is precisely the weight it should be given.
+
+**Honest limit, stated with the extension rather than after it.** Two links of this chain are unbuilt and one of them is not ours to build. The spiral shape is a-priori — it is a pattern read off a sequence by the people whose project sits at its current end, and a pattern that flatters its reader is the kind that most needs an outside check. What can be checked is narrower and worth stating alone: **the transitions were threat-driven, each traded inhabitation for durability, and the crystal ends that trade in one direction.** The claim that the trade now reverses is a hypothesis about a substrate that has existed for a handful of years.
 
 ---
 

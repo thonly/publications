@@ -6,6 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-06-26
+revised: 2026-08-22
 license: CC0-1.0
 slug: aura-gated-anonymous-mate-selection
 venue: thonly.org/research/aura-gated-anonymous-mate-selection (canonical)
@@ -370,6 +371,45 @@ This is both honest and still revolutionary. It does not need the overclaim to b
    │                               │     drifts toward Nosedive    │
    └───────────────────────────────┴───────────────────────────────┘
 ```
+
+### 8.1 · The copy rule: describe the mechanism, never characterize the person
+
+*Added 2026-08-22. §8 refuses to characterize the **match**. This subsection extends the same refusal one level down, to the **participants** — and applies it, first, to §8's own defensible one-line claim, which does not entirely survive it.*
+
+The rule, stated as a rule:
+
+> **An institution may state its own mechanisms. It may never characterize a person or an outcome.**
+>
+> *"Every profile in this pool is gated on gratitude received from strangers over at least a year"* — a **mechanism**: factual, checkable, and falsifiable by anyone with access to the system's own definition.
+>
+> *"Everyone here is trustworthy"* — a **person** claim. *"You will be safe"* — an **outcome** claim. Neither is ours to make about anybody.
+
+**The origin was a caught error in this corpus, and the paper should say so plainly rather than present the rule as a principle we arrived at by reflection.** A drafted pitch for a sibling product read: *invite people you haven't met, in a trustworthy way* — written one turn after the ruling that geolocation is a **gate and never a proof**. Marketing had promoted a gate to a proof in a single adjective, and it did so inside an institution that had just written the distinction down. That is how this failure actually happens: not by deciding to overclaim, but by describing a mechanism with the word for the feeling the mechanism is supposed to produce.
+
+**Why it matters here more than anywhere else in the corpus.** This is a stranger-meeting product with an irreducible physical-safety asymmetry (§7). ⚠️ **Selling accountability as trust is the overclaim that gets people hurt** — not because the claim is false in the average case, but because it *invites the user to relax a judgment they should keep making.* A woman meeting a stranger from this system should arrive with exactly the caution she would bring to meeting a stranger from anywhere else. Every sentence that lowers that caution by a degree has spent her safety to buy our conversion rate, and the trade is not ours to make. §7's safety architecture and this rule are one commitment stated in two registers: the architecture must not create false confidence, and neither may the copy.
+
+**Applied to this paper's own claim, and it does not fully pass.** §8 offers as the defensible line: *"Everyone you meet here is proven kind, verified real, and community-vouched. You bring the chemistry."* Two-thirds of that is mechanism. **"Verified real"** describes the Proof-of-Humanity substrate and is checkable. **"Proven kind"** and **"community-vouched"**, however, are verdicts on persons wearing the clothes of mechanism outputs — they take an aggregate record and hand the reader a settled conclusion about the character of whoever holds it. The restated form keeps everything true and asserts nothing about anyone:
+
+> *"Everyone you meet here is a verified single human whose profile is gated on a long record of thanks from people who did not know whom they were thanking. What that record means about a particular person is yours to judge — as it always was."*
+
+Longer, weaker-sounding, and the only version of the sentence this institution is entitled to say. **The published line in §8 is superseded by this one**; the earlier wording is left standing above rather than deleted, because a paper that quietly repairs its own copy teaches nothing.
+
+One usage is deliberately kept. Where this paper's abstract says the aura trail "signals trustworthy *because* expensive," it is using **Zahavi's technical sense** — a signal is honest when faking it costs more than it returns, which is a statement about the *signal*, not about the *signaller*. That sentence is correct in a paper on honest signaling and must never be recycled onto a product surface, where "trustworthy" will be read as a description of the people rather than of the economics of the trail.
+
+**The general test, in three columns:**
+
+| Say this (mechanism) | Never this (person) | Never this (outcome) |
+|---|---|---|
+| "gated on anonymous gratitude accumulated over time" | "everyone here is kind" | "you will have a good experience" |
+| "every account is a verified single human" | "no one here is a catfish" | "you are safe here" |
+| "pins are authored by an account someone paid for and can lose" | "posted by trustworthy hosts" | "nothing bad happens at these" |
+| "reveal requires a second, separate mutual consent" | "we only match good matches" | "we prevent rejection" |
+
+The left column is longer and duller than the middle and right, and that is the whole cost of the rule. ⭐ **The compensation is that the left column is the only one that stays true when the product is at scale and someone is looking for a reason to sue** — an institution that never characterized a person has never mis-characterized one.
+
+**It is the Proof-of-Humanity posture in copy form.** That primitive's ratified stance is that *the system provides signals and the recipient decides* — recipient-side filters, never a system verdict. A sentence that hands the user a verdict has quietly moved the decision from the recipient to the platform, which is the same architectural error as building a compatibility oracle (§8) or scoring the quality of someone's presence (a refusal this corpus makes in its time-currency work). **Three different products, three different mechanisms, one repeated mistake: the system deciding something it has no standing to decide, and saying so in a sentence short enough to fit on a landing page.**
+
+**Honest limit.** This is a floor on what may be *asserted*, not a ban on describing what the product does, and it does not make the product safe. A perfectly-worded surface still delivers strangers to each other. The rule reduces the false confidence the *institution* manufactures; it does nothing about the false confidence a person brings with them, and §7's architecture — not its copy — is what has to hold in that case.
 
 ---
 

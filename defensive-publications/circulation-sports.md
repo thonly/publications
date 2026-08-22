@@ -6,6 +6,7 @@ category: mechanism
 priority: tier-b
 status: draft
 date: 2026-08-07
+revised: 2026-08-22
 license: CC0-1.0
 slug: circulation-sports
 venue: thonly.org/publications/defensive-publications/circulation-sports (canonical)
@@ -19,7 +20,7 @@ venue: thonly.org/publications/defensive-publications/circulation-sports (canoni
 
 Some sports score the moment an exchange **ends** — the ball goes in, the rally dies, the opponent fails. Some score the moment an exchange **continues**. The second kind has existed for at least fourteen centuries, has members on four continents, and has never had a name or a specification. This paper supplies both.
 
-A **circulation sport** is defined here by three properties held together: it scores the **completed transfer** rather than the termination; it **reaches every participant**, as a rule that makes skipping someone impossible rather than merely impolite; and it **accumulates to no one**, keeping no individual record. The three are not a feature list drawn from one game. They are a transformation rule, and the paper states it as a three-step **conversion operator** that can be applied by someone else to a sport we have never played — with worked conversions of basketball, volleyball, soccer, and tennis, and with the boundary drawn as carefully as the interior (Ultimate Frisbee is out; the rondo fails on reach; golf is the antipode).
+A **circulation sport** is defined here by three properties held together: it scores the **completed transfer** rather than the termination; it **reaches every participant**, as a rule that makes skipping someone impossible rather than merely impolite; and it **accumulates to no one**, keeping no individual record. The three are not a feature list drawn from one game. They are a transformation rule, and the paper states it as a three-step **conversion operator** that can be applied by someone else to a sport we have never played — with worked conversions of basketball, volleyball, soccer, and tennis, and with the boundary drawn as carefully as the interior (Ultimate Frisbee is out; the rondo fails on reach; golf is the antipode). Of the three, one carries a precondition that is not a choice at all: below three participants a completed transfer is indistinguishable from a return, so **three is the smallest number at which "forward" is defined** — a result belonging to Lévi-Strauss, to the kula literature, and to the evolutionary work on upstream reciprocity, which §2.5 cites rather than claims.
 
 Three findings drove the paper and none of them flatter it. **First**, the operator is not new, because it has already been run — in the opposite direction, in public, with a date and a name attached. The Malay circle game *sepak raga bulatan*, in which players take turns keeping a rattan ball aloft, was converted into a competitive net sport in February 1945 by Hamid Maidin, and standardized as *sepak takraw* at a five-nation meeting in Kuala Lumpur in 1960. What this paper specifies is the **inverse of a documented historical operation**, not a novelty. **Second**, applying the operator to any classic sport tends to produce something that already exists as that sport's own warm-up — pepper, mini-tennis, the rondo, passing lines — which makes the category an empirical question with a natural experiment already running in every youth league on earth, rather than a proposal. **Third**, the authors pre-registered a census of those warm-ups (P-CS5) predicting that reach guarantees would prove **rare**, and then ran it. **They are not rare.** Reach guarantees are common, in at least four distinct architectures. The pre-registered claim is falsified and is reported as falsified. What survives is narrower, was arrived at after the data, and is labeled accordingly: every attested reach guarantee **purchases reach with predictability** — a queue, a fixed role rotation, or a memorized pattern all tell you when your turn is coming — and reach whose order stays unpredictable across unbounded play remains unattested. That gap, not reach itself, is where the sibling paper's caller mechanism sits.
 
@@ -94,6 +95,40 @@ Each property alone is common. Together they are not.
 ```
 
 The conjunction is what does the work, and §6 and §8 are both exercises in showing how many familiar activities hold two of the three.
+
+### 2.5 The minimum arity: why the circle is three
+
+*Added 2026-08-22. The three properties above are stated as design choices, and two of them are. This section reports the one that is not — and it is a result the paper stands on rather than announces, because it belongs to anthropology and to evolutionary dynamics and has for decades.*
+
+The question arrived from the wrong end. Asked whether the sibling paper's game could be played by two people as a simple name courtesy — one says the other's name, the other says it back — we answered no, and then had to work out why, because the honest first answer was only that it did not feel like the game. Two people can pass a ball, sustain a rally, take turns, and enjoy an hour of it. What two people cannot do is **circulate**.
+
+**At N = 2, every pass forward is a pass back.** The second player has exactly one address to send the thing to, and it is the address it came from. Forward and back are the same edge. Which means the unit this category is built on — a transfer that continues *away* from its source — has no way to distinguish itself from the unit it is defined against, a transfer that returns. What a dyad has is reciprocation, and reciprocation is not a defective circulation; it is a different and entirely respectable thing, with its own long literature and its own social work to do.
+
+At N = 3 the two motions come apart for the first time. A passes to B, and B's forward option (C) is now a different edge from B's return option (A). The choice exists, and so the category does.
+
+```
+            N = 2                                  N = 3
+
+          A ─────► B                             A ─────► B
+          ▲        │                             ▲        │
+          └────────┘                             │        ▼
+                                                 └─────── C
+
+     forward and back are               forward (A→B→C→A) and back (B→A)
+     THE SAME EDGE                      are DIFFERENT EDGES
+```
+
+**Three is therefore the smallest number at which "forward" is defined.** Not the smallest number at which the game is fun, or fair, or worth organizing — those are different questions with different answers. It is the smallest number at which the category's own unit is distinguishable from its complement, which makes it a fact about the definition in §2, not a fact about anybody's product.
+
+**The result is not ours, and it has been settled three times in three literatures.** In kinship theory, Lévi-Strauss's *Les structures élémentaires de la parenté* (1949; English: *The Elementary Structures of Kinship*, Beacon Press, 1969) draws exactly this line, calling the two-group case **restricted exchange** — direct and immediate, A and B trading with each other — and the three-or-more case **generalized exchange**, in which A gives to B, B to C, and C back to A, delayed and indirect, and capable of integrating an indefinite number of groups precisely because it is not a swap. In economic anthropology the attested instance is the Trobriand **kula** ring (Malinowski, *Argonauts of the Western Pacific*, 1922), a circuit of many islands in which valuables travel in one direction and are never traded back along the edge they arrived on. And in evolutionary dynamics the same threshold is stated formally: **upstream reciprocity** — help someone because someone helped you — is distinguished from direct reciprocity by exactly this arithmetic, since the shortest possible cycle of indirect reciprocity is three players, a two-player cycle being direct reciprocity by definition (Boyd & Richerson, "The evolution of indirect reciprocity," *Social Networks* 11(3), 1989; Nowak & Roch, "Upstream reciprocity and the evolution of gratitude," *Proc. R. Soc. B* 274(1610): 605–610, 2007).
+
+That last paper's title should be read as the caution it is. The mechanism this institution builds on has been modelled, named, and published under the word *gratitude* for nearly twenty years. **We are late to it, and the correct posture is grounding, not discovery** — the same posture §8 arrived at the hard way when the census returned a null against our own prediction.
+
+**One conflation to avoid, because we nearly committed it.** Sahlins's celebrated triad — **generalized**, **balanced**, and **negative** reciprocity ("On the Sociology of Primitive Exchange," in Banton, ed., *The Relevance of Models for Social Anthropology*, ASA Monographs 1, Tavistock, 1965; reprinted in *Stone Age Economics*, 1972) — sorts exchange by **social distance and the expectation of return**, not by the number of parties. Sahlins's *generalized reciprocity* means open-ended giving among close kin with no reckoning of equivalence; Lévi-Strauss's *generalized exchange* means a cycle of three or more. **The two share a word and not a claim**, and a paper that cited them as one argument would be citing prior art wrongly, which is worse than not citing it at all.
+
+**What this does for the definition in §2.** It splits the three properties by their modal status, which they did not previously have. Properties (ii) *reaches everyone* and (iii) *accumulates to no one* remain design choices: a designer could build a transfer-scoring sport without either, and §6 and §8 are full of activities that do. Property (i) — scoring the completed transfer — is a design choice too, but it carries a **precondition** that is not: below three participants there is no completed transfer distinguishable from a return, and the property cannot be satisfied because it cannot be stated. The definition thus rests on one forced floor and two chosen walls, and saying so makes the category slightly smaller and considerably more honest than it was when all three properties looked alike.
+
+**What is deliberately not claimed here.** Not that three is a good size — it is a floor and a poor ceiling, and most attested members of the category run much larger. Not that the floor implies any particular quorum for any particular product, which is a design question this paper does not touch. And not, emphatically, that the arithmetic makes a dyad's kindnesses lesser: a couple passing a thing back and forth is doing something the human record values enormously, and the only claim made is that it is not the thing this paper is naming.
 
 ---
 
