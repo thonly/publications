@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-05-07
 license: CC0-1.0
+slug: each-life-as-cosmic-coordinate
 venue: thonly.org/research/alignment (canonical) · heartbank.net/research/alignment (institutional mirror, mission-frame paragraph stripped)
 ---
 

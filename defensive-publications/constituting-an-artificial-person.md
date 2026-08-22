@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-06-11
 license: CC0-1.0
+slug: constituting-an-artificial-person
 venue: thonly.org/research/constituting-an-artificial-person (canonical)
 ---
 

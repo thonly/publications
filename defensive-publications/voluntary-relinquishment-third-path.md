@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-06-11
 license: CC0-1.0
+slug: voluntary-relinquishment-third-path
 venue: thonly.org/research/voluntary-relinquishment-third-path (canonical)
 ---
 

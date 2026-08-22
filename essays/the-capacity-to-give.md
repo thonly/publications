@@ -6,6 +6,7 @@ priority: tier-c
 status: draft
 date: 2026-06-20
 license: CC0-1.0
+slug: the-capacity-to-give
 venue: thonly.org/research/the-capacity-to-give (canonical) · LessWrong / future Substack (intended publication venues)
 ---
 

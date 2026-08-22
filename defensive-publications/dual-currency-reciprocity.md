@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-05-22
 license: CC0-1.0
+slug: dual-currency-reciprocity
 venue: thonly.org/research/dual-currency-reciprocity (canonical) · target academic venue, International Journal of Community Currency Research
 ---
 

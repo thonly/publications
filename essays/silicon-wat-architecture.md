@@ -6,6 +6,7 @@ priority: tier-c
 status: draft
 date: 2026-05-22
 license: CC0-1.0
+slug: silicon-wat-architecture
 venue: thonly.org/research/silicon-wat-architecture (canonical)
 ---
 

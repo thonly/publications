@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-05-22
 license: CC0-1.0
+slug: four-body-architecture
 venue: thonly.org/research/four-body-architecture (canonical)
 ---
 

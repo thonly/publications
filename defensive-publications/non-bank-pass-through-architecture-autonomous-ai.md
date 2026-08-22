@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-05-22
 license: CC0-1.0
+slug: non-bank-pass-through-architecture-autonomous-ai
 venue: thonly.org/research/non-bank-pass-through-architecture-autonomous-ai (canonical)
 ---
 

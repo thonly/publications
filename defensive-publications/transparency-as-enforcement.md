@@ -6,6 +6,7 @@ priority: tier-c
 status: draft
 date: 2026-05-22
 license: CC0-1.0
+slug: transparency-as-enforcement
 venue: thonly.org/research/transparency-as-enforcement (canonical)
 ---
 

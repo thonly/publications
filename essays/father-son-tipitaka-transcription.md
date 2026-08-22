@@ -6,6 +6,7 @@ priority: tier-c
 status: draft
 date: 2026-05-22
 license: CC0-1.0
+slug: father-son-tipitaka-transcription
 venue: thonly.org/research/father-son-tipitaka-transcription (canonical)
 ---
 

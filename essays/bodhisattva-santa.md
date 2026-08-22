@@ -6,6 +6,7 @@ priority: tier-c
 status: draft
 date: 2026-06-11
 license: CC0-1.0
+slug: bodhisattva-santa
 venue: thonly.org/research/bodhisattva-santa (canonical) · LessWrong / future Substack (intended publication venues)
 ---
 

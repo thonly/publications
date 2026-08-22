@@ -7,6 +7,7 @@ status: draft
 date: 2026-05-22
 revised: 2026-08-22
 license: CC0-1.0
+slug: diaspora-cambodia-remittance
 venue: thonly.org/research/diaspora-cambodia-remittance (canonical)
 ---
 

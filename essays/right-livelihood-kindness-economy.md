@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-06-12
 license: CC0-1.0
+slug: right-livelihood-kindness-economy
 venue: thonly.org/research/right-livelihood-kindness-economy (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 ---
 

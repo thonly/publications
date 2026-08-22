@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-05-22
 license: CC0-1.0
+slug: silica-wat-food-network
 venue: thonly.org/research/silica-wat-food-network (canonical)
 ---
 

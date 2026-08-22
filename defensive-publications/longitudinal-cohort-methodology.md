@@ -6,6 +6,7 @@ priority: tier-b
 status: draft
 date: 2026-05-22
 license: CC0-1.0
+slug: longitudinal-cohort-methodology
 venue: thonly.org/research/longitudinal-cohort-methodology (canonical) · target academic venue, Nature Human Behaviour or Science Advances
 ---
 
