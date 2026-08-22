@@ -557,6 +557,15 @@
   "sha256": "cd290f39d590d90d63f0728ae6a2f59ca4f31b52fb9b3590075a4fff54ceee4b",
   "url": "https://zenodo.org/records/22060098"
  },
+ "what-a-vow-must-cost": {
+  "concept_doi": "10.5281/zenodo.22060618",
+  "deposition_id": 22060619,
+  "doi": "10.5281/zenodo.22060619",
+  "published": true,
+  "sandbox": false,
+  "sha256": "e598d374a23aba143d6cd4a9cbd45e9b362892cbec9522d59376891465781df5",
+  "url": "https://zenodo.org/records/22060619"
+ },
  "zero-point-game": {
   "concept_doi": "10.5281/zenodo.21947440",
   "deposition_id": 21947441,
