@@ -32,12 +32,20 @@ total=0
 
 # One file per invocation, deliberately.
 #
+# Root-level proofs (ZENODO.md.ots, zenodo-keywords-proposal.md.ots) are in the glob
+# too: they were left out until 2026-08-22 and sat calendar-only, unnoticed, because
+# nothing reports a proof the loop never visits.
+#
 # `ots upgrade a.ots b.ots c.ots` exits at the FIRST proof whose commitment has
 # not confirmed yet, leaving every later file unexamined — and it reports that
 # with the alarming line "Failed! Timestamp not complete", which is not a failure
 # at all. Batching therefore both under-reports and misleads. Looping costs a few
 # extra seconds and examines all of them.
-for f in defensive-publications/*.ots essays/*.ots; do
+# Discovered with `find`, not fixed globs (the pattern the notes repo already uses):
+# an enumerated list silently stops covering new directories. Found 2026-08-22 —
+# root-level proofs and every timestamps/manifests/*.ots sat calendar-only for weeks
+# because no glob visited them, and nothing reports a proof the loop never opens.
+for f in $(find . -name '*.ots' ! -name '*.bak' ! -path './.git/*' | sort); do
     [ -e "$f" ] || continue
     total=$((total + 1))
     before=$(shasum -a 256 "$f" | cut -d' ' -f1)
@@ -55,7 +63,7 @@ for f in defensive-publications/*.ots essays/*.ots; do
 done
 
 # ots writes <file>.bak beside each upgraded proof; gitignored, but tidy up.
-rm -f defensive-publications/*.ots.bak essays/*.ots.bak
+find . -name '*.ots.bak' ! -path './.git/*' -delete
 
 printf '\n%s proofs — %s newly upgraded, %s already complete, %s still pending.\n' \
        "$total" "$upgraded" "$complete" "$pending"
