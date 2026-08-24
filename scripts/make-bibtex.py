@@ -46,11 +46,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dir", action="append", default=None)
     ap.add_argument("--out", default="zenodo-works.bib")
+    # CONCEPT DOIs BY DEFAULT. A concept doi always resolves to the newest
+    # version; a version doi goes stale the moment the paper is revised. This was
+    # opt-in via --concept and the default bit us: the 63 works imported into ORCID
+    # carry concept dois, but the committed zenodo-works.bib had been regenerated
+    # without the flag and held version dois. Re-importing that file would have
+    # added 64 works that group with nothing — a duplicate corpus. The safe form is
+    # the default; --version-doi is the deliberate opt-out.
+    ap.add_argument("--version-doi", action="store_true",
+                    help="emit the VERSION doi instead of the concept doi. Rarely "
+                         "wanted: it pins a citation to one revision.")
     ap.add_argument("--concept", action="store_true",
-                    help="use the CONCEPT doi (always resolves to the newest "
-                         "version) instead of the version doi. Preferred for an "
-                         "ORCID profile: a version doi goes stale the moment the "
-                         "paper is revised, and each revision adds another entry.")
+                    help=argparse.SUPPRESS)   # now the default; kept so old invocations still work
     args = ap.parse_args()
     dirs = args.dir or list(zd.DIRS)
 
@@ -64,7 +71,7 @@ def main():
 
     n = 0
     for slug, v in sorted(dois.items()):
-        doi = (v.get("concept_doi") if args.concept else v.get("doi")) or v.get("doi")
+        doi = (v.get("doi") if args.version_doi else v.get("concept_doi")) or v.get("doi")
         if not v.get("published") or not doi:
             continue
         path = next((ROOT / d / f"{slug}.md" for d in dirs
@@ -73,9 +80,14 @@ def main():
             continue
 
         fm = zd.frontmatter(path.read_text())
+        # TITLE ONLY — the subtitle is deliberately NOT appended. This corpus's
+        # house style makes `subtitle` an abstract-length enumeration of the
+        # claimed mechanisms (the longest runs to ~430 characters), which is
+        # correct on the paper and ruinous in a BibTeX title field: ORCID renders
+        # it verbatim, so 48 of 64 works displayed a half-page title. Matches
+        # zenodo-deposit.py build_metadata(), which titles the record with `title`
+        # alone and puts the subtitle at the head of the description instead.
         title = fm.get("title", slug)
-        if fm.get("subtitle"):
-            title = f"{title}: {fm['subtitle']}"
         # Double braces protect the corpus's deliberate capitalisation and its
         # Pali/Khmer diacritics from BibTeX's title-casing.
         title = bib_escape(title)
@@ -103,7 +115,7 @@ def main():
 
     (ROOT / args.out).write_text("\n".join(lines))
     print(f"wrote {args.out} — {n} entries from {', '.join(dirs)} "
-          f"using {'CONCEPT' if args.concept else 'VERSION'} DOIs")
+          f"using {'VERSION' if args.version_doi else 'CONCEPT'} DOIs")
 
 
 if __name__ == "__main__":
