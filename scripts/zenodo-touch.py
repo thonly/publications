@@ -8,14 +8,40 @@ paying member organisations get. The free route is DataCite Auto-Update — but 
 fires only for DOIs **registered or updated after** you enable it, so records
 minted earlier are never backfilled and simply never appear.
 
-A metadata edit re-registers the DOI with DataCite, which makes an existing record
-eligible. That is what this does: for each published record it opens an edit,
-re-submits the SAME metadata, and republishes.
+⛔⛔ THIS SCRIPT DOES NOT WORK, AND THE PREMISE BELOW IS FALSE. Measured
+2026-08-24 across all 43 remaining records — READ THIS BEFORE RUNNING IT AGAIN.
 
-⚠️ ENABLE AUTO-UPDATE FIRST, or this achieves nothing. Sign in at
-https://profiles.datacite.org, and next to "ORCID Auto-Update" choose
-"Click to Enable", then authorise DataCite on the ORCID consent screen.
-Only then run this.
+The premise was: "a metadata edit re-registers the DOI with DataCite, which makes
+an existing record eligible." It does not. A metadata edit **updates** the DOI; it
+does not **register** it, and DataCite's ORCID Auto-Update claims on newly
+REGISTERED dois only. The evidence, from api.datacite.org:
+
+    touched, NOT on ORCID   registered 2026-08-15   updated 2026-08-24T05:08
+    propagated to ORCID     registered 2026-08-22   updated 2026-08-22
+
+The `updated` timestamps match the run to the second, so Zenodo pushed and DataCite
+accepted — that hop works fine. `registered` never moved, and that is the field
+Auto-Update keys on. 43 records were touched; 0 propagated.
+
+⚠️ It is HARMLESS but INEFFECTIVE: the doi is unchanged, no new version is minted,
+no file is touched, so no .ots proof is affected. It just achieves nothing.
+
+WHAT ACTUALLY WORKS. In ascending cost:
+  1. Wait. Every future revision deposits a NEW VERSION, which registers a new doi,
+     which propagates on its own. This already fixed 21 of 64 with no action.
+  2. DataCite Commons, per doi: "Add to ORCID Record". Free, mints nothing, and
+     yields the correct `preprint` type.
+  3. Delete the self-asserted works in the ORCID UI and re-import the corrected
+     zenodo-works.bib. Fixes titles; type stays `other` (a @misc limitation).
+
+⛔ DO NOT mint new versions to force a trigger. It would work, and it would put
+version dois on the public record corresponding to NO timestamped revision —
+decoupling the doi history from the .r<N>.ots chain it is supposed to mirror, for
+a display fix, irreversibly.
+
+⚠️ AUTO-UPDATE MUST BE ENABLED regardless: https://profiles.datacite.org, next to
+"ORCID Auto-Update" choose "Click to Enable", then authorise on ORCID. Confirmed
+enabled here since at least 2026-08-22.
 
 WHAT IT DOES NOT DO. It does not create a new version, does not change any
 metadata value, and does not touch files. The record keeps its DOI, its concept
@@ -60,6 +86,9 @@ def main():
     targets = {k: v for k, v in state.items()
                if v.get("published") and v.get("doi")
                and (not args.only or k == args.only)}
+    print("⛔ THIS SCRIPT DOES NOT ACHIEVE ITS PURPOSE — see the module docstring.")
+    print("   A metadata edit updates the doi; DataCite Auto-Update keys on")
+    print("   REGISTERED. Measured 2026-08-24: 43 touched, 0 propagated.\n")
     print(f"{len(targets)} published record(s) to re-register\n")
 
     if args.dry_run:
