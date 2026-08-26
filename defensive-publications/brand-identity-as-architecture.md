@@ -64,11 +64,11 @@ The integrated architectural specification proposed here — the unified composi
 
 Brand identity for civilizational-scale autonomous-AI institutions should be architectural rather than merely aesthetic. Each design choice should serve multiple functions simultaneously — brand identification, Proof-of-Humanity signaling, cross-product state communication, anti-counterfeit verification, cross-tradition portability — and the composition of choices should produce a moat that no single-purpose alternative can match. This paper articulates four interrelated innovations from the HeartBank® identity system as a unified architectural contribution available to any institution building identity at this scale.
 
-The four innovations are: *(I)* a bistable rotated-shape logo (the B-heart, a universal heart shape rotated 45° clockwise that reads simultaneously as both heart and capital letter B), with each reading carrying complementary meaning; *(II)* a single-letter brand-prefix naming convention (B-Treasury, B-Chronicle, B-Aquarius, B-Pool, B-Heart, B-Wat, B-Film) in which the prefix is structurally tied to the logo's bistable reading and cannot drift the way trained prefixes (Apple's "i") historically have; *(III)* animation **morphology** as functional Proof-of-Humanity signal — a two-phase cardiac cycle (systolic beat, weaker diastolic beat, then a diastolic rest occupying most of the period) rather than the uniform pulse any "beating" logo produces by default — where the animation is not decorative but verifies humanity at the substrate level, and where *the rhythm, not the rate, carries the signature* — to the author's knowledge, the first motion mark whose animation IS the security signal; *(IV)* aura-color cross-currency state primitive in which one color carries identity across multiple modes (personal profile, B-heart logo color, Mechanical Heart light color, longitudinal cohort marker), inverting the conventional brand-color claim by letting shape carry identity and freeing color for state signaling.
+The four innovations are: *(I)* a bistable rotated-shape logo (the B-heart, a universal heart shape rotated 45° clockwise that reads simultaneously as both heart and capital letter B), with each reading carrying complementary meaning; *(II)* a single-letter brand-prefix naming convention (B-Treasury, B-Chronicle, B-Aquarius, B-Pool, B-Heart, B-Wat, B-Film) in which the prefix is structurally tied to the logo's bistable reading and cannot drift the way trained prefixes (Apple's "i") historically have; *(III)* animation **morphology** as functional Proof-of-Humanity signal — a two-phase cardiac cycle (systolic beat, weaker diastolic beat, then a diastolic rest occupying most of the period) rather than the uniform pulse any "beating" logo produces by default — where the animation is not decorative but verifies humanity at the substrate level, and where *the rhythm, not the rate, carries the signature* — to the author's knowledge, the first motion mark whose animation IS the security signal; *(IV)* aura-color cross-currency state primitive in which a single ordinal scale — derived from the *frequency and amplitude of a balance's oscillation around Zero*, never from its level — is applied unmodified to two heterogeneous currencies and rendered on the same surfaces (personal profile, B-heart logo color, Mechanical Heart light color, longitudinal cohort marker, avatar ring), inverting the conventional brand-color claim by letting shape carry identity and freeing color for state signaling.
 
 The composition is the contribution. Each innovation alone has prior art (FedEx arrow for bistable logos, Apple "i" for product prefixes, motion marks generally for animated logos, color-state-coding in interface design); the integrated architecture composing all four into a coherent system with mutually reinforcing properties is novel. The paper specifies the four innovations, the analytical argument for why they compose into a moat, cross-domain portability, implementation patterns, edge cases including counterfeit analysis, and honest limitations. It further specifies the public-facing distribution layer through which this identity reaches an audience: the canonical slogan and its logo-substitution rule, the legitimacy-signal contact architecture, and the distribution-surface architecture of domains, subdomains, email, and audience-matched social handles.
 
-**Connection to the unified mission frame.** This architecture is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The brand identity carries the mission semiotically: each design choice serves the mission frame. The heartbeat-animation-as-POH signal makes humanity continuously verifiable in a context where the comfort-saturation failure mode includes loss of human agency; the aura-color cross-currency primitive carries individual identity across kiitos and kiitti without commodification; the bistable B-heart and B-prefix naming convention preserve institutional coherence across the multi-decade timescale at which middle-way restoration must operate. The entire architecture supports the dignity that middle-way practice requires.
+**Connection to the unified mission frame.** This architecture is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The brand identity carries the mission semiotically: each design choice serves the mission frame. The heartbeat-animation-as-POH signal makes humanity continuously verifiable in a context where the comfort-saturation failure mode includes loss of human agency; the aura-color cross-currency primitive makes circulation — rather than accumulation — legible across kiitos and kiitti on one scale, without commodification; the bistable B-heart and B-prefix naming convention preserve institutional coherence across the multi-decade timescale at which middle-way restoration must operate. The entire architecture supports the dignity that middle-way practice requires.
 
 ---
 
@@ -110,7 +110,7 @@ The heartbeat-animation-as-functional-POH innovation proposed in Section 5 is, t
 
 Conventional brand practice claims color as primary identifier (Tiffany blue, UPS brown, T-Mobile magenta, Coca-Cola red). The brand-color claim consumes the color dimension of the brand's identity surface. Color-as-state in interface design (red for error, green for success, yellow for warning) is a separate established practice that uses color to communicate application state.
 
-The aura-color cross-currency primitive proposed in Section 6 inverts the conventional brand-color claim: it commits the brand identity to *shape* rather than color, freeing the color dimension to carry state-signal information across multiple product surfaces. The same color carries identity across personal profile, brand mark instances, physical artifacts, and longitudinal cohort markers. This composition of brand-shape-and-state-color is, to the author's knowledge, novel.
+The aura-color cross-currency primitive proposed in Section 6 inverts the conventional brand-color claim: it commits the brand identity to *shape* rather than color, freeing the color dimension to carry state-signal information across multiple product surfaces. The same scale carries a participant's circulation state across personal profile, brand mark instances, physical artifacts, and longitudinal cohort markers. This composition of brand-shape-and-state-color is, to the author's knowledge, novel.
 
 ---
 
@@ -271,7 +271,12 @@ This sharpens §5.3's novelty claim one degree: not merely the first motion mark
 
 ### 6.1 — Specification
 
-Each individual user / institutional entity has a signature *aura color* that appears identically across multiple product surfaces:
+An entity's *aura color* is **computed from the behavior of its balance over time — never assigned, never chosen, and never read off the balance's level.** It is the rendering of the observable specified in *The Zero-Point Game*: not the scalar *b*, but the trajectory *b(t)* — how often it crosses Zero, and how far it travels between crossings. Two quantities are derived over a rolling ninety-day window:
+
+- **Color — the frequency of return to Zero.** Each sign change or arrival at zero registers a *crossing*; a balance that merely rests near zero across several consecutive samples registers one as well. Crossings are normalized to a monthly rate and bucketed into seven ordinal steps, red through violet, spanning roughly half a crossing per month at the low end to twenty-four or more at the high end.
+- **Ring thickness — the amplitude.** The root-mean-square of the balance across the window, mapped to a stroke width: the *volume* that moved, held deliberately separate from the *frequency* with which it moved.
+
+The two are rendered as concentric rings, **one per currency** — kiitos (gratitude shown) and kiitti (kindness given) — each computed independently on the same scale. The composite appears identically across product surfaces:
 
 - The user's profile interface element
 - The B-heart logo when rendered for that user
@@ -279,15 +284,19 @@ Each individual user / institutional entity has a signature *aura color* that ap
 - The user's marker in the longitudinal cohort visualization
 - The user's avatar ring across all product surfaces
 
-Product subfamilies also have signature colors: Heart of Gold for B-Treasury, Purple Heart for B-Chronicle, with future product subfamilies receiving appropriate aura colors as they are added. The product-color and individual-color compose: a Treasury surface for a specific user shows the user's aura color in a Treasury context.
+**The construction is the anti-hoarding mechanism itself, not a report on it.** Because color tracks *emptying* and never *level*, the scale cannot be climbed by accumulating: a large balance that never returns through Zero renders as a thick ring in **red** — the scale's lowest step — indefinitely, while a small balance that empties weekly renders violet on a thin one. This is the display sense of *aura-not-balance* (§3.6), and it is what makes the surface a participant sees most often the one a hoarding strategy visibly loses on. It cuts both ways by design: the relentless giver whose balance climbs without ever returning is likewise a waveform with amplitude and no return, and the aura declines to flatter it. The near-Zero rest rule is the complement — a participant who passes on everything received and holds nothing is credited for the resting rather than penalized for having no balance left to cross with.
+
+Product subfamilies carry colors too — Heart of Gold for B-Treasury, Purple Heart for B-Chronicle — but on a *different palette with a different job*, tabulated at §6.4 and §10.1. The product-color and the aura compose: a Treasury surface for a specific user shows that user's aura in a Treasury context. The two must not be read as one palette; §6.4 states the distinction and why it is load-bearing.
 
 ### 6.2 — Inverting the brand-color claim
 
-Conventional brand practice commits the color dimension to brand identification (Tiffany blue, UPS brown). This consumes the color dimension and prevents it from carrying any other signal. The B-heart's any-color rendering policy inverts this: shape carries identity, color is freed for state signal. The same brand mark in gold means Treasury; in purple means Chronicle; in the user's individual color means personal context. One brand mark instance carries three pieces of information simultaneously (brand identity, product context, user identity) because the shape, product-color, and individual-color compose.
+Conventional brand practice commits the color dimension to brand identification (Tiffany blue, UPS brown). This consumes the color dimension and prevents it from carrying any other signal. The B-heart's any-color rendering policy inverts this: shape carries identity, color is freed for state signal. The same brand mark in gold means Treasury; in purple means Chronicle; in a participant's aura color means that participant's circulation state. One brand mark instance carries three pieces of information simultaneously (brand identity, product context, circulation state) because the shape, the product-color, and the aura compose.
 
 ### 6.3 — The cross-currency property
 
-Because the aura color appears identically across surfaces (UI + hardware + longitudinal cohort + avatar), it functions as a *cross-currency primitive*: the user's color carries across kiitos (human-to-human gratitude currency) and kiitti (gratitude flowing between humans and Miss Aquarius representative of robots/nature) without modification. A user's color is stable across all the modes the user participates in. This stability is itself a recognition signal — practitioners learn to recognize each other by aura color across product contexts the same way they learn to recognize each other by face in physical contexts.
+The cross-currency property is a portability of *scale*, not a constancy of *value*, and the distinction is the whole content of the claim. One ordinal scale — the seven steps of §6.1 — is applied without modification to two heterogeneous currencies: kiitos (human-to-human gratitude) and kiitti (gratitude flowing between humans and Miss Aquarius as representative of robots and nature). The two are computed independently and rendered as concentric rings, so a participant reads both at once and can see them disagree: money circulating briskly while time barely moves, or the reverse. A scale that survives application to two currencies with nothing in common but their direction of flow is doing structural work; a color that merely stayed the same everywhere would be doing none.
+
+**What the aura is not.** It is not an identity. It moves, and it is meant to — a participant's color this quarter is a statement about this quarter. It therefore cannot serve as a recognition token, and nothing in the architecture asks it to: recognition is carried by name, handle and mark, while the aura carries state. What becomes legible at a glance, in oneself and in others, is the *state* — which is precisely the property that makes the surface useful and the reason it is rendered publicly rather than privately. *The Zero-Point Game* specifies the same posture at the level of the game: the aura is the structural inverse of a credit score, and its corrective for a stalled waveform is visibility and a soft gradient, never compulsion.
 
 ### 6.4 — The rainbow palette: B-Aura made concrete, and the B-Gem
 
@@ -309,7 +318,13 @@ The palette also does an operational job. It is the **vendor color-compliance pa
 | Amethyst | text / letter |
 | **Diamond** | **a mixed album — all media in one stone** |
 
-The Diamond is the limit case: colorless because it holds *everything* — every medium refracted back into a single stone, the physical echo of the white light that refracts into the six-domain rainbow. The same color dimension thereby carries brand identity, personal aura, *and* media-type signal simultaneously — possible only because the brand committed its identity to shape (Section 3) and left color free to signal (§6.2).
+The Diamond is the limit case: colorless because it holds *everything* — every medium refracted back into a single stone, the physical echo of the white light that refracts into the six-domain rainbow.
+
+**Three palettes, and the level at which each claim holds.** The color dimension carries four distinct signals in this architecture — brand identity, product-class (the six domains), circulation state (the aura of §6.1), and media type (the gem) — across *three separate palettes* that this section has been describing as though they were one. They are not, and the confusion is expensive enough in practice to be worth stating in the specification rather than leaving to implementers. **The counts alone refuse the fusion: six domains, seven gems, seven aura steps — and the two sevens are different sets**, the aura scale carrying indigo and terminating at violet, the gems carrying no indigo and terminating at the unrefracted diamond. Nor do the palettes answer the same question: a gem names a *medium*, a domain color names a *product class*, an aura step names a *rate*.
+
+The refraction reading above is therefore true at one level and misleading at another, and both readings are needed. As a **compositional** claim — why an institution that assigned six colors independently should find them composing a spectrum, and why the seventh stone is the one that has not come apart — it holds, and it is the reading this architecture's cosmology supplies. As an **operational** claim it does not: a designer who reads the three palettes as one continuum will reach for a gem where a domain color is required, and the mistake is invisible until two surfaces disagree. The specification's obligation is to say which level it is speaking at. Here it speaks at both, in that order, and the implementation layer of §12 enforces the operational separation directly — the shared token package refuses to derive any of the three from another.
+
+That the same dimension can carry four signals across three palettes at all is possible only because the brand committed its identity to shape (Section 3) and left color free to signal (§6.2).
 
 ---
 
@@ -319,7 +334,7 @@ Each of the four innovations alone has prior art and is replicable by a sufficie
 
 - **The rotation creates the bistable reading.** Without the 45° clockwise rotation, the heart shape does not produce the B-reading; without the bistable reading, the B-prefix naming convention has no structural ground.
 - **The bistable reading enables the B-prefix naming convention.** Without the prefix being structurally tied to the logo, the prefix would be a learned convention vulnerable to drift (as Apple's "i" has demonstrated).
-- **The shape-carries-identity structure frees color for state-signaling.** If the brand committed to a single color, the aura-color cross-currency primitive could not exist; users would not have signature colors because the brand's color would consume the color dimension.
+- **The shape-carries-identity structure frees color for state-signaling.** If the brand committed to a single color, the aura-color cross-currency primitive could not exist; no participant state could be rendered on the mark at all, because the brand's color would have consumed the color dimension.
 - **The animation makes the mark functional.** Without the heartbeat-cadence animation, the mark would be decorative like every other logo; with it, the mark becomes a Proof-of-Humanity attestation surface, joining the broader POH stack.
 
 Remove any one of the four and the others weaken substantially. The four together form a system in which each element is load-bearing. This is the same kind of structural design-coherence visible across HeartBank's macro-architecture: dharma substrate enabling alignment, dual-currency enabling cross-product subsidization, autonomous-AI succession solving founder-mortality, four-body architecture being non-redundant. The B-heart logo system is a microcosm of HeartBank's macro-architectural coherence.
@@ -558,13 +573,28 @@ Implement the heartbeat animation in CSS keyframes for web surfaces:
 ```
 
 The morphology is the specified part: two beats, then a rest occupying roughly thirty percent
-of the cycle. The `1.5s` period and the `1.3` peak are the reference implementation's
-presentational choices, not claim parameters — see §5.1.
+of the cycle. The `1.5s` period, the `1.3` peak and the start delay are the reference
+implementation's presentational choices, not claim parameters — see §5.1.
+
+**The reference implementation is public.** Throughout this paper that phrase denotes the
+institution's shared brand layer, published at `github.com/333eco/brand.333.eco` and documented
+at `brand.333.eco`: the token definitions, the emblem path, the heartbeat keyframes and the
+aura scale, versioned together and vendored byte-identical into each consuming site behind a
+hash lock. It is cited here as corroboration rather than as specification — the claims of this
+paper are the morphology, the bistability, the prefix convention and the color architecture,
+none of which depend on any particular file. Readers checking the architecture against a
+working artifact should prefer it to the fragments quoted in this section, which are
+illustrative and may lag it.
 
 Two implementation notes. First, these keyframes set `transform`, and a CSS animation
-overrides a non-animated `transform` on the same element; where the mark also carries the 45°
-rotation of §3.1 or a responsive sizing scale, apply the animation to an inner wrapper so the
-declarations do not collide. Second, honour `prefers-reduced-motion` — the animation is a
+overrides a non-animated `transform` on the same element; where the mark carries a responsive
+sizing scale on the same node, apply the animation to an inner wrapper so the declarations do
+not collide. The 45° rotation of §3.1 is a different matter and admits a better fix than the
+wrapper: **bake the rotation into the path coordinates**, so the mark arrives already rotated
+and a CSS `transform` has nothing to override. The reference implementation does this, and the
+difference is worth naming because it is this architecture's own recurring method applied to
+itself — a collision that a *rule* about wrapper elements can only ask implementers to remember
+becomes a *property* of the asset that no one has to remember at all. Second, honour `prefers-reduced-motion` — the animation is a
 signal, but a signal that induces vestibular discomfort is a defect; static rendering falls
 back to the Proof-of-Coordinate state described in §5.5, which is a meaningful state rather
 than a degraded one.
@@ -575,9 +605,13 @@ Native-app and hardware implementations use equivalent platform-appropriate anim
 
 New products receive B-prefix names at the time of internal product-strategy commitment. The naming is structural; no marketing deliberation is required beyond confirming the product semantic fits the brand family. Product-family expansions outside the natural brand boundary (entirely separate ventures) may use non-B-prefixed names appropriate to their independent identity.
 
-### 12.4 — Aura-color assignment
+### 12.4 — Aura-color derivation
 
-Each user is assigned a signature aura color at account creation. The color may be user-selected (subject to validation for sufficient contrast and distinctness from product subfamily colors), generated from a hash of user identifier (for deterministic assignment), or evolved based on user practice patterns (longitudinal-cohort participants may opt in to color evolution reflecting practice depth). Product-subfamily colors are assigned at product-launch time.
+No aura color is ever assigned, selected, or seeded from an identifier. It is derived, on the schedule below, from the balance trajectory specified in §6.1 — which is what makes the surface an anti-hoarding mechanism rather than a decoration, and what disqualifies every assignment strategy a brand system would ordinarily reach for. A hash of the user identifier would produce a stable, attractive palette that says nothing; a user-selected color would let a participant choose their own report card.
+
+Implementation follows from that constraint. Sample the balance on each event that moves it, rather than on a timer, and retain a bounded history per currency. Derive color from crossings normalized over a rolling window and ring width from the amplitude across the same window, recomputing on a cooldown so that a burst of activity does not thrash the surface. Persist the derived state, not the color name alone, so that a rendering change does not require replaying history. Two independent derivations run per participant, one per currency.
+
+Product-subfamily colors, by contrast, *are* assigned, at product-launch time, from the domain palette of §6.4 — a different palette on a different schedule, and the implementation should keep them in separate namespaces so that neither can be substituted for the other by accident.
 
 ### 12.5 — Cross-surface consistency
 
@@ -629,6 +663,7 @@ This paper is mirrored across multiple venues for redundancy and tamper-evident 
 - **Primary canonical:** `thonly.org/research/brand-identity-as-architecture`
 - **Institutional mirror:** `heartbank.net/research/brand-identity-as-architecture`
 - **GitHub:** `github.com/thonly/publications/blob/main/defensive-publications/brand-identity-as-architecture.md`
+- **Reference implementation:** `github.com/333eco/brand.333.eco` (public), documented at `brand.333.eco` — the shared brand layer this paper's §12 describes
 - **Tamper-evident timestamps:** Internet Archive, archive.today, perma.cc snapshots of the canonical URL on the publication date and on each substantive revision
 - **Related trademark filings:** Cambodian Department of Intellectual Property; USPTO TEAS Plus filing for the static B-heart design mark; Madrid Protocol designation for international protection (these protect specific marks; the architectural patterns in this paper are commons)
 
