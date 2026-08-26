@@ -6,12 +6,15 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-06-27
+revised: 2026-08-26
 license: CC0-1.0
 slug: gift-tag-time-reveal
 venue: thonly.org/research/gift-tag-time-reveal (canonical)
 sha256: to be computed at publication
 ---
 
+> *v2 note (2026-08-26):* **one new subsection, §4.10, and no new claim.** Everything the paper described was a tag riding a wrapped present; §4.10 specifies the configuration in which **the tag is given alone and the pledge of time is itself the gift** — the receiver choosing the surface it lives on, which extends §4.4's inversion one step further back. Two engineering consequences are stated because both are easy to get wrong: **the opened state must persist across many scans** (*one-time-use* has always meant one gift, never one scan) and **the adhesive is a different material specification**. The standing-reminder risk is answered by direction rather than policy — **the tag reminds its holder of what they may claim, never its giver of what they owe** — under two guards, of which the second is a refusal: **the object does not act, and never notifies the giver**. **No numbered claim changes and no prior-art clock starts.**
+>
 > **Draft in progress.** This is the founder-voice canonical draft for `thonly/publications`. The defensive publication specifies **the time-locked gift tag** — HeartBank's **B-Stamp™** (free sticker) and **B-Seal™** (durable engraved-wood keepsake), under the **B-Gift** umbrella — the physical gift-label that replaces handwriting with a per-field time-lockable reveal, an AI-sized pledge of the giver's time, and a recipient re-thank loop. It is the declared **first domino** of HeartBank's go-to-market: the product that introduces the institution to the public. It is published **early and deliberately**, ahead of a public marketing campaign (paid placement + social video), because public marketing is uncontrolled disclosure and the combination specified here is the asset — see §9.1. Companion works: *The Gift Operation* (the receive→give-forward atom this instantiates in a physical substrate), *B-Links: Proof-of-Humanity-Signed Shareable Provenance* (the digital sibling and the media/provenance backbone), *Verified-Human Anonymous Local Giving* and *Dual-Currency Reciprocity* (the Treasury/Chronicle substrate), and *Aura-Gated Anonymous Mate-Selection* (the anonymous-stranger layer of the same time economy).
 
 ---
@@ -135,7 +138,7 @@ The gift tag ships in two physical forms, named together as **B-Gift** (the gift
 - **B-Stamp™** — a free, one-time-use, B-shaped **sticker** bearing a prominent QR code, ordered at the company store (shipping paid by the user). It is the mass-market tier: the thing in the marketing, the thing under the tree.
 - **B-Seal™** — a durable, **engraved-wood keepsake** tag: a unique code engraved on the front, a customizable message engraved on the back, NFC- or QR-addressed, sold as a premium keepsake. It is the keepsake tier, and it carries one capability the sticker does not (private messaging, §4.8).
 
-The naming is deliberate and postal: a **stamp** is consumable, a **seal** is permanent — the same progression as free→keepsake. Both address the same digital reveal surface; the difference is durability, price, and one privacy capability.
+The naming is deliberate and postal: a **stamp** is consumable, a **seal** is permanent — the same progression as free→keepsake. Both address the same digital reveal surface; the difference is durability, price, and one privacy capability. ⭐ **Both also run in a third configuration that attaches to no present at all — §4.10.**
 
 ### 4.2 · Per-field time-locks
 
@@ -214,6 +217,28 @@ Privacy is tiered by product, which resolves an identity problem cleanly:
                                                                     (receive → give forward)
   media hosted on B-Storage℠ (.us);   proceeds → subsidize the Treasury family kitties (§7)
 ```
+
+### 4.10 · The bare mode — the tag as the gift, attached to nothing
+
+*Added 2026-08-26. Everything above describes a tag that rides a wrapped present. It does not have to.*
+
+The tag can be given **alone**: no box, no card, nothing underneath it. The pledge of time is then not a label on a gift — **it is the gift**. ⭐ **This is the configuration in which the artifact stops being a tag and shows what it always was: a carrier for a commitment that never needed an object to ride on.**
+
+**The receiver chooses where it lives.** Handed over bare, the sticker has no assigned surface, so the person who received it picks one — a journal, a diary, the inside of a cupboard door, the edge of a mirror. **The adhesive stops being a means of attaching the tag to a box and becomes how the gift finds a permanent home, chosen by its recipient.** This extends the inversion the mechanism already runs (§4.4: the receiver, not the giver, decides how the pledged time is spent) one step further back: **the receiver also decides where the pledge is kept.**
+
+Two engineering consequences follow, and both are easy to get wrong:
+
+- ⚠️ **The reveal state must persist.** *One-time-use* in §4.1 means **one gift, one recipient** — it has never meant one scan. A tag that lives on a diary will be looked at many times, so the **opened** state must render as well on the hundredth scan as on the first, with no expiry of the view and no degradation of the record.
+- ⚠️ **The adhesive is a different material problem.** A label that must survive one evening on wrapping paper and a label that must survive a year on a notebook are not the same specification, and the bare mode makes the second one the default rather than the exception.
+
+**The direction of the standing reminder is what keeps it a gift.** An object that sits in view for a year, recording a commitment not yet fulfilled, is exactly the shape that could debt-code the pledge — the failure §5 exists to prevent, made durable. **What prevents it is who holds it: the tag reminds its holder of something they may claim, never its giver of something they owe.** The recipient holds the tag, and by §4.4 the recipient is also the one who decides how the time is spent, so the direction is correct by construction rather than by policy. Two guards keep it there:
+
+1. **The scan leads with the gift** — the message, the recorded voice, the face. The pledge is one warm line inside a card and **never a status row**.
+2. ⛔ **The object does not act.** No countdown, no elapsed-time display, no "not yet redeemed," and — above all — **no notification to the giver.** A reminder that prompts the giver converts a gift into a collection notice.
+
+⭐ **The bare mode also reaches givers the accompanied mode cannot.** A gift that requires purchasing an object is available only to people who can purchase objects; a gift of one's own time is available to anyone with time — **children most obviously, who have no money by life stage rather than by circumstance.** ⛔ **This must never become the way the mode is presented.** A surface that offers the bare tag as the option for people who cannot afford presents names its users by what they lack, which this architecture refuses on every other surface and refuses here. **The reach is a consequence of the design, never its framing.**
+
+*(The bare mode's fuller argument — that the object in gift-giving is friction rather than preference — is an institutional position and is made elsewhere, at `heartbank.net/positions`; this section specifies only the mechanism.)*
 
 ## 5 · The pledge, not the ledger — holding the gift/exchange boundary
 

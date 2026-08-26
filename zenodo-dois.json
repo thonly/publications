@@ -46,12 +46,12 @@
  },
  "b-poh-humanity-layer-ai-native-internet": {
   "concept_doi": "10.5281/zenodo.21947279",
-  "deposition_id": 21947280,
-  "doi": "10.5281/zenodo.21947280",
+  "deposition_id": 22116414,
+  "doi": "10.5281/zenodo.22116414",
   "published": true,
   "sandbox": false,
-  "sha256": "e0dd515cfd14e3f655375ed8ed35b37b40c5310f55a2ff5048891e45a8b3e232",
-  "url": "https://zenodo.org/records/21947280"
+  "sha256": "4d081609c0ad997134373015b5bb1f6ae27058c02935e830b7cd3f24bf799dcc",
+  "url": "https://zenodo.org/records/22116414"
  },
  "b-tag-post-payment-economy": {
   "concept_doi": "10.5281/zenodo.21947281",
@@ -127,12 +127,12 @@
  },
  "co-presence-gated-redemption": {
   "concept_doi": "10.5281/zenodo.21947304",
-  "deposition_id": 22059828,
-  "doi": "10.5281/zenodo.22059828",
+  "deposition_id": 22116410,
+  "doi": "10.5281/zenodo.22116410",
   "published": true,
   "sandbox": false,
-  "sha256": "38d244a06f5a5e933442926ae28a3ce6abf5830385843518934b627640c25cda",
-  "url": "https://zenodo.org/records/22059828"
+  "sha256": "d36f850fafa074d99fe2a0b892a2b8bf2419a465e4915c172b6581f52cff793c",
+  "url": "https://zenodo.org/records/22116410"
  },
  "constituting-an-artificial-person": {
   "concept_doi": "10.5281/zenodo.21947306",
@@ -199,12 +199,12 @@
  },
  "gift-tag-time-reveal": {
   "concept_doi": "10.5281/zenodo.21947327",
-  "deposition_id": 21947328,
-  "doi": "10.5281/zenodo.21947328",
+  "deposition_id": 22116417,
+  "doi": "10.5281/zenodo.22116417",
   "published": true,
   "sandbox": false,
-  "sha256": "e6e3a2fe8ed9229028f1e924801751896c0e4e2378677a4a6baf2501cd71f151",
-  "url": "https://zenodo.org/records/21947328"
+  "sha256": "7328a46d33ba4c505c5282c77c0e9681287df50dc6ac737e4473e03213ec05d2",
+  "url": "https://zenodo.org/records/22116417"
  },
  "giving-is-a-gift-too": {
   "concept_doi": "10.5281/zenodo.21947331",

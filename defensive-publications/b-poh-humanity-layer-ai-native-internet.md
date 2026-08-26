@@ -5,11 +5,14 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-05-24
+revised: 2026-08-26
 license: CC0-1.0
 slug: b-poh-humanity-layer-ai-native-internet
 venue: thonly.org/publications/defensive-publications/b-poh-humanity-layer-ai-native-internet (canonical)
 ---
 
+> *v2 note (2026-08-26):* **two additions and no new claim.** **New §3.7** is the sibling of §3.6 — *a self-authored record is not a PoH layer* — on the ground that **self-authorship guarantees correctness and cannot guarantee existence**, a claim conditional on the very thing this protocol establishes; it carries the author×holder grid (four cells, zero layers) and is **stated as a refusal, not a defensive claim**, since an unoccupied position is a boundary and boundaries are unassertable. **§8.2 gains the gradient class it was missing** — every gradient the section listed (cost, documentation, hardware) is one **time or money can close**, and an **ability** gradient is not; the refused speech-keyed layer is the concrete case, and it compounds with §3.5 because *a surfaced depth-set renders the absence*, so such a layer would **mark** the excluded and not merely exclude them. A two-sentence cross-reference to `proof-of-coordinate` names **the address layer** as neither category nor individuation. **No numbered claim changes and no prior-art clock starts.**
+>
 > *Draft notes for the editor:* this is the founder-voice canonical draft for `thonly/publications`. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment of this material is the companion white paper *"Proof of Personhood for an AI-Native Internet: B-PoH℠ as Trust Infrastructure"* (heartbank.net/publications/white-papers). Sibling papers: *"Capacity-Funded for AI, Human-Disbursed"* (the alignment-architecture pattern this paper relies on for AI-lab deployment); *"The Thank-All-Nearby Primitive"* (the Phase 2 consumer-facing application built on B-PoH℠); *"Verified-Human Anonymous Local Giving"* (the originating mechanism specification that B-PoH℠ generalizes).
 
 ---
@@ -224,6 +227,25 @@ KYC therefore sits on a **parallel compliance shelf**, not inside the PoH stack.
 
 ---
 
+### 3.7 A self-authored record is not a PoH layer
+
+§3.6 excludes KYC because it answers the wrong question. **The same exclusion applies, for a sharper reason, to a self-authored record** — a name spoken and stored by the person it belongs to, or any comparable first-person artifact offered as evidence of humanity.
+
+**Self-authorship guarantees correctness. It cannot guarantee existence.** Every layer in §§3.1–3.4 answers one question — *was a human present for this action?* A self-authored record answers a different one: *if there is a human here, this is how their name sounds.* That is a claim **conditional on precisely the thing PoH ℠ exists to establish**, and a conditional cannot serve as its own antecedent.
+
+The point generalises past names, and the grid is the argument:
+
+| | **Self-authored** | **Other-authored** |
+|---|---|---|
+| **Self-held** | correct, unattested | attested, possibly wrong |
+| **Other-held** | correct, unattested | attested, possibly wrong |
+
+**Four cells, zero layers.** The *author* axis decides **what is guaranteed** — a record made by its subject is right about its subject in a way no collector's transcription can promise. The *holder* axis decides **whether anyone else was there**. ⭐ **Neither axis is about existence**, which is why no cell in the grid produces a humanity proof, and why adding a fifth tier keyed to self-authorship would not deepen the stack but widen it into a different question.
+
+This matters beyond the taxonomy. A record of how a name is said is real infrastructure — it is what lets a verified individuation be **addressed by a human mouth** — but it belongs beside the stack rather than inside it, and calling it a layer would import into a humanity proof a class of evidence that cannot bear the load. ⚠️ **A taxonomy able to state what it excludes is stronger than one that only lists its members**; §3.6 and §3.7 are the two exclusions this architecture asserts.
+
+*Stated as a refusal, not a claim.* The unoccupied position is a boundary of the design, and boundaries of this kind are not assertable subject matter; nothing in §3.7 is offered as a defensive claim.
+
 ## 4. The recipient-side filter mechanism
 
 The architecture's second major contribution, beyond the four-layer optional verification, is the **recipient-side filter mechanism**. Where most platforms decide platform-wide what counts as "human enough" and impose that gate uniformly, PoH ℠ routes the decision to the parties who bear the spam cost — the recipients of unsolicited or anonymous actions. The platform stays inclusive by default; individual recipients tune their own paranoia level by opting into exclusionary filters knowingly.
@@ -422,9 +444,17 @@ PoH ℠'s layers are not equally accessible to all humans:
 
 The inclusive-defaults posture (passkey-only is enough at L1; no deeper layer is required to participate) mitigates the gradient at the floor: anyone with L1 can participate. But the deeper layers are not equally accessible, and recipient-side filters that require deep layers (paranoid mode, DNA-required mode) are exclusionary by proxy against populations without easy access to those layers.
 
+⭐⭐ **One class of gradient is missing from the list above, and naming it weakens the mitigation argument in a way that is worth the cost.** Every gradient enumerated here — cost, documentation, hardware — is one that **time or money can close**: sequencing prices fall, vouching networks thicken, hardware commoditises, and the long-arc answer of this section is that the gradient narrows on its own. **An ability gradient does not narrow.** A layer keyed to a bodily capacity excludes the people who lack that capacity permanently, and no deployment curve reaches them.
+
+The concrete case is a speech-keyed layer, which the architecture considered and refused: it would exclude the **non-speaking, the aphasic, the post-laryngectomy, Deaf signers**, and — on a different axis entirely — **anyone for whom being identifiable by voice is a safety risk**. ⚠️ **The paper's honest-limits argument was silently assuming every gradient is economic**, and with an ability class present that assumption no longer holds unexamined.
+
+⭐ **It compounds with §3.5.** Depth surfacing renders the set of layers a party holds — and *a surfaced depth-set renders the absence*. An ability-keyed layer would therefore not merely exclude; **it would mark the excluded**, publishing a bodily fact as a visible gap in a trust display. That is a stronger reason to keep such layers out of the stack than the exclusion alone, and it is why the refusal is architectural rather than a matter of deployment sequencing.
+
 This is a real tension that PoW and PoS did not face in the same form — their concentration effects were at the *protocol-power* layer (who controls block production), not at the *participation* layer (who can use the system at all). PoH ℠'s tension is at the participation layer and is more visible.
 
 The architecture's structural answer is the inclusive-defaults posture: the platform never defaults exclusionary filters on; exclusion is recipient-opt-in, knowing. The long-arc answer is the deliberate accessibility-ramp expansion: L4 sequencing cost falls; family-bank vouching infrastructure expands; witness-attestation networks grow as more humans become PoH-verified. The tension is real and is named honestly here.
+
+*Cross-reference, not a section:* the sibling publication `proof-of-coordinate` establishes that PoH ℠ proves **the category** and PoC **the individuation**. **The address layer — how a verified individuation is rendered by a human mouth — is neither**, and is named here only so the boundary between the three is legible from inside this paper.
 
 ### 8.3 The "consciousness" question — explicitly avoided
 
