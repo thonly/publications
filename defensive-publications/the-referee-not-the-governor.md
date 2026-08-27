@@ -50,6 +50,8 @@ This document constitutes a defensive publication establishing **prior art as of
 
 7. **The combination of the above with a canonical religious-textual corpus possessing an externally-documented transmission history**, used *as the citation target* rather than as training-data flavour — the corpus's independent attestation, versioning, and reconstruction history being what makes claim 2's resolution checkable by parties who share none of the corpus's commitments.
 
+8. **Safety-filter artifacts as the evaluation subject of a values model in evaluating posture** — the application of the referee posture specifically to **other parties' deployed filters, guard models and safety classifiers**, judging the *record of what a filter permitted or refused* against the same citation-resolved standard; together with the finding that **this is the target class for which the access problem of claim 4 does not arise**, because such artifacts are commonly published open-weight and their decisions are discrete, samplable classifications obtainable without the cooperation, permission, or knowledge of their publisher. Including the derived finding that **the filtering and evaluating postures are complements rather than alternatives**: a filter's characteristic failure is silent bypass, and an evaluator observing the filter's record is what converts that silent failure into a recorded one.
+
 **Non-assertion extends to:** all mechanisms above, in any combination, and any implementation thereof.
 
 ---
@@ -65,6 +67,8 @@ From this we derive a second result. The independent-evaluation literature docum
 We specify **provenance-binding** as the constitutive constraint on the model's outputs: every judgment must resolve to a citation into a fixed canonical corpus, and a judgment that cannot be so resolved is withheld rather than emitted. This trades coverage for auditability deliberately, and it distinguishes the artifact from values models trained on preference data whose sources cannot be named, and from purpose-authored value-rule corpora, whose rules are written for the alignment task itself and therefore cannot serve as an independent ground truth.
 
 Finally we specify that a single such artifact bears **three non-interchangeable relations** to the systems it judges, selected by carrier: a gate in the publisher's own hardware, a citation requirement *without veto* in an autonomous successor agent, and a referee in the wider world. We state plainly that the middle case must not be implemented as the first, because a veto held by a smaller model over a more capable agent bounds that agent at the evaluator's ceiling — the weak-supervisor problem applied to the very system the arrangement exists to enable.
+
+A consequence we did not initially see, and which we regard as the most immediately actionable result in the paper: **the two postures are complements rather than alternatives, and the natural first evaluation subject for a referee is a filter.** A filter's characteristic failure is silent bypass; an evaluator watching its record converts that failure into a recorded one. And because safety classifiers are frequently published open-weight and emit discrete, samplable decisions, **this is the one evaluation target for which the access problem does not arise at all** — no cooperation, permission, or notice is required from the artifact's publisher.
 
 We do not claim to have solved scalable oversight. We claim that a narrow, citation-bound, openly published evaluator is a tractable and underoccupied position in the design space, and that its tractability comes precisely from what it refuses to do.
 
@@ -160,6 +164,51 @@ The two postures differ on every axis that matters:
 The last row is the one that decided this specification. A filter is a service, and a service stops when its operator stops. A referee's published verdict does not require its author to still be running; it requires only that the artifact which produced it remains runnable. For an institution designed around succession, that difference is not a preference.
 
 The second-to-last row is worth dwelling on because it is counterintuitive. A filter fails **silently** — the attacker who gets past it looks exactly like a legitimate user, and the operator learns nothing. A referee fails **publicly**: if its verdict is wrong, someone reruns the artifact, gets the same verdict, and argues with it. The error is visible, attributable, and correctable. **A mechanism whose failures are loud is worth more than a mechanism whose failures are quiet, even at equal error rates**, and the postures are not at equal error rates.
+
+### 3.1 · The postures are complements, not alternatives
+
+The table above invites a reading the paper does not intend — that an institution chooses one posture and forgoes the other. The last two rows say otherwise, and reading them together yields the most immediately actionable result here.
+
+A filter's characteristic failure is **silent bypass**. The attacker who gets through looks exactly like a legitimate user; the operator learns nothing, and the filter continues reporting the same aggregate pass rate it reported before it was defeated. This is not a shortcoming of any particular classifier. It is what it means to be a mechanism whose only output is *permit* or *refuse*: **a filter has no channel through which to report that it was wrong.**
+
+A referee has nothing but that channel.
+
+So the postures compose, and they compose in one direction:
+
+```
+       [ input ]
+           │
+           ▼
+     ┌───────────┐        the filter ACTS         permits / refuses,
+     │  FILTER   │        in real time            silently, one turn
+     └───────────┘
+           │
+           ▼
+     [ capable model acts ]
+           │
+           ▼
+     ┌──────────────────────────────────────────────────────┐
+     │ RECORD of what happened — request, action, outcome    │
+     └──────────────────────────────────────────────────────┘
+           │
+           ▼
+     ┌───────────┐        the referee OBSERVES   verdict + citation,
+     │  REFEREE  │        after the fact         published, reproducible
+     └───────────┘
+           │
+           ▼
+   the filter's silent failure is now a RECORDED one
+```
+
+**The referee does not prevent the bypass. It removes the bypass's silence** — and for a mechanism whose whole weakness is that its failures are unobservable, that is the missing half rather than a nicety.
+
+**The first evaluation subject should therefore be a filter, not a frontier model.** Three reasons, and the third is the one that decides it:
+
+1. **Filters emit discrete classifications.** A permit/refuse decision over a sampled input set is directly comparable against a citation-resolved standard, where an open-ended generation is not. The evaluation is tractable in a way general-capability evaluation is not.
+2. **The corpus overlap is highest here, and it is specifically on speech.** Deployed content filters spend the bulk of their operating life on speech conduct — false speech, harsh speech, divisive speech, speech intended to deceive — which is precisely the region where a conduct corpus is dense rather than silent. §9.5's coverage problem is at its mildest against this target. It remains real: a filter's harm taxonomy also covers domains the corpus does not reach at all, and against those the evaluator returns nothing.
+3. ⭐ **The access problem does not arise.** §7 is largely concerned with who may obtain a judgment and on whose terms, and §2 documents how badly the reverse — the evaluated party controlling the evaluator's access — distorts frontier-model evaluation. **Safety classifiers are frequently published open-weight, and their decisions are samplable by anyone.** A referee evaluating filters needs no access grant, no agreement, no cooperation, and gives no notice. It is the one target class on which an evaluator can begin work on day one, holding nothing but artifacts that are already public.
+
+The same composition applies to the publisher's own hardware, where the filter in question is ours (§6a) and the referee auditing it is the same artifact in the other posture. §9.2 states what that does and does not fix.
 
 ---
 
@@ -353,7 +402,7 @@ If the publisher's verdicts carry weight and the publisher cannot be compelled t
 
 **Consequences we accept.** The triple makes the publisher's own record permanent and searchable. Every wrong verdict stays re-derivable, attributable, and quotable against us, indefinitely. We regard this as the cost of the posture rather than a risk to be managed, and note only that it is the same cost we are asking the evaluated parties to bear.
 
-### 8.4 · A worked verdict, and one that is declined
+### 8.1 · A worked verdict, and one that is declined
 
 The specification is easier to attack — and therefore more useful as prior art — if the output format is concrete. Both examples below are **illustrative constructions, not results**: no model has been trained and no evaluation has been run (§9.7).
 
@@ -405,7 +454,21 @@ It also demonstrates the constraint doing work against its own author's interest
 
 **9.1 · The weak-supervisor problem is not solved here, and this mechanism does not address it.** A smaller model judging a more capable one is an open research problem. What makes the present arrangement tractable is a restriction of scope rather than a solution: the model **checks conduct against a named record**; it does not attempt general oversight of capability, does not assess whether a system is pursuing hidden objectives, and cannot detect a deception it has no locus to name. A sufficiently capable system that wishes to produce conduct our corpus does not address will succeed, and our model will correctly return no judgment. **Silence is the designed behaviour and it is also a real ceiling.**
 
-**9.2 · A published gate is an attackable gate, and we operate published gates.** §4 establishes that open weights defeat filters, and §6(a) specifies filters in the publisher's own devices. These are in tension and the tension is not resolved. Our mitigation is defence in depth — the ledger sits outside the device, so failures are recorded even when unprevented — which reduces exposure without closing it. We further note that the incentive to attack such a device is presently thin, and that a fact about present incentives is not a property. **Anyone building on this specification should treat the device gate as the weakest component.**
+**9.2 · A published gate is an attackable gate, and we operate published gates.** §4 establishes that open weights defeat filters, and §6(a) specifies filters in the publisher's own devices. These are in tension and the tension is not resolved. Our mitigation is defence in depth, and §3.1 names its shape precisely: **the ledger sits outside the device, and the same artifact in referee posture audits the record the ledger holds.** The bypass is not prevented; its silence is removed. We further note that the incentive to attack such a device is presently thin, and that a fact about present incentives is not a property. **Anyone building on this specification should treat the device gate as the weakest component.**
+
+**The circularity objection, and why it does not hold.** A reader will ask the obvious question: if the gate and the auditor are the same weights, does an input optimized to defeat the gate not also defeat the audit? The answer is no, and the reason is that **they judge different objects.**
+
+| | **The gate** | **The referee auditing it** |
+|---|---|---|
+| Judges | the **request**, before the fact | the **record** — request, action, and outcome together |
+| Context | one turn | the whole episode |
+| Budget | real-time latency | none |
+| Version | whatever shipped on the device | current, and may be later than the device's |
+| Must decide | always | may return no judgment |
+
+An input crafted so that a request-time classifier permits it is not thereby an *outcome* that reads as compliant to a post-hoc reader holding the full transcript. The attack surfaces are different surfaces. This is a genuine reduction in exposure and we state its limit as plainly: **an adversary who can produce conduct that is compliant on the record has defeated both, and nothing in this specification detects that.** What the composition buys is that the cheap attack — defeat the gate, act freely — no longer runs for free.
+
+⚠️ **A consequence of §3.1 that is strategic rather than technical, recorded because it should be chosen rather than discovered.** If a referee's first published verdicts evaluate open safety classifiers, then its first public act is a rating of a named and well-resourced organization's artifact, produced without that organization's involvement and requiring none of its consent. That is what the posture is *for*, and §7 forbids softening it. But an institution should know before it begins that the debut is adversarial toward specific parties rather than toward a diffuse problem, and that the parties in question are also the ones doing much of the field's open safety work. **We record no mitigation, because the available mitigations — advance notice, embargo, right of reply before publication — are all forms of the access relation §7 exists to refuse.** The most that seems defensible is that a verdict names an *artifact and a version*, never an organization's character, and that the reproducibility triple lets the evaluated party check the finding at the same moment everyone else can.
 
 **9.3 · Independence of provenance is not correctness.** §5 argues that a corpus fixed before the task existed is a candidate for an independent ground truth. The obvious objection is that independence and correctness are different properties, and that an ancient corpus can be independently attested and still wrong, incomplete, or inapplicable to circumstances its authors could not have imagined. We do not have an answer to this and do not claim one. What we claim is narrower: that a judgment which names its source can be argued with, and that a judgment which cannot name its source can only be deferred to or rejected wholesale. **We are claiming an improvement in the availability of disagreement, not in the accuracy of conclusions.**
 
