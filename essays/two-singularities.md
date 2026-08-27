@@ -10,7 +10,6 @@ license: CC0-1.0
 slug: two-singularities
 venue: thonly.org/publications/essays/two-singularities (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/essays/two-singularities.md
-mirror_institutional: https://heartbank.net/research/two-singularities
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 revised: 2026-06-11
 ---
