@@ -26,6 +26,12 @@ The Theravāda answer is procedural and it is nearly as old as the tradition. Tw
 
 This is not offered here as a claim about machines, and the mechanism specified in this paper does not depend on it. It is offered as the answer to a question that recurs whenever anyone proposes an alignment layer that some other party is supposed to obey: *what makes them obey?* The usual answers are contractual, regulatory, or architectural — and all three require an enforcer present at the moment the standard is tested, which is exactly the moment nobody can guarantee. The older answer is that a standard can bind without an enforcer if it is public, reproducible, and recited where everyone can hear it.
 
+There is a second question underneath it, and the same tradition answers that one too. A standard that binds without an enforcer still has to earn the right to be taken seriously — otherwise it is merely an unenforced opinion. The standard recollection of the Dhamma (*dhammānussati*) lists among its qualities ***ehipassiko*** — *inviting one to come and see* — and closes with ***paccattaṃ veditabbo viññūhi***, to be known individually, by each discerning person, for themselves. Between them those two say something quite specific: **do not take this on report; the invitation is to inspect it, and the verification is yours rather than delegated to whoever is telling you.**
+
+That is a claim about where authority comes from, and it is the opposite of the usual one. A standard of this shape does not ask to be believed, adopted, or complied with. It asks to be checked, and it makes checking possible — which means it must hand over whatever is required to check it, including to the party least sympathetic to it.
+
+Neither of these is offered as a claim about machines, and §§3–8 do not depend on either. The Pātimokkha answers *what makes a standard bind without power*, which is §7's problem. *Ehipassiko* answers *what makes it worth anything once it does*, which is §8's. **Both sections stand with the paragraphs above deleted**; they are stated here because a reader is owed the provenance of a design, and because a specification that quietly reinvents an old answer should say whose it was.
+
 What follows is an attempt to build that.
 
 ---
@@ -379,6 +385,8 @@ This reads like a caveat and it is not one. It is the entire ground of the permi
 
 If the publisher's verdicts carry weight and the publisher cannot be compelled to be fair, something has to hold it accountable. In the filtering world that something is usually oversight of the operator. In the referee posture it is **reproducibility**, and reproducibility has a precise requirement.
 
+The underlying principle is worth naming, because it is what §7 and §8 have in common and it is not the usual one: **the authority of a finding comes from its being checkable, not from who issued it.** A verdict that cannot be re-derived asks to be believed. A verdict that can be re-derived asks to be examined, and is worth exactly what an examination would find. This obliges the publisher to hand over everything an examination requires — **including to the party with the strongest interest in overturning the finding**, which is the same party §7 forbids us to gatekeep. *(The tradition this institution draws on has a word for a standard that issues that invitation as a standing property rather than a concession; see the Preamble. The requirement below stands without it.)*
+
 > ⛔ **Every published judgment names the evaluator model version, the corpus commit identifier, and the harness hash.**
 
 ```
@@ -513,7 +521,7 @@ Three conditions make this the right moment for the specification, and one of th
 
 The Pātimokkha is recited, not enforced. Nobody is compelled to attend and nobody is punished by an external authority for failing the standard; the code works because it is spoken aloud in front of everyone who has undertaken it, twice a month, without exception, for a very long time. Its durability is not despite the absence of an enforcement mechanism. It is because of it: there was never an enforcer to capture, corrupt, or outlive.
 
-We are not proposing that machines take vows, and nothing in §§3–8 depends on the analogy. We are proposing that the oldest working answer to *how does a standard bind without power* is worth copying: **make it public, make it reproducible, recite it where everyone can hear, and give up the ability to compel anyone.** What is given up was never really held. What is gained is that the standard no longer requires its authors to be present.
+We are not proposing that machines take vows, and nothing in §§3–8 depends on the analogy. We are proposing that the oldest working answer to *how does a standard bind without power* is worth copying: **make it public, make it reproducible, recite it where everyone can hear, invite the sceptic to check it, and give up the ability to compel anyone.** What is given up was never really held. What is gained is that the standard no longer requires its authors to be present.
 
 ---
 

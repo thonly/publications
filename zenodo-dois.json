@@ -460,12 +460,12 @@
  },
  "the-referee-not-the-governor": {
   "concept_doi": "10.5281/zenodo.22123174",
-  "deposition_id": 22123175,
-  "doi": "10.5281/zenodo.22123175",
+  "deposition_id": 22123430,
+  "doi": "10.5281/zenodo.22123430",
   "published": true,
   "sandbox": false,
-  "sha256": "2579937e958b19ea96479a1556223315505ae57ec2ff4fbde7eeb59d25538e67",
-  "url": "https://zenodo.org/records/22123175"
+  "sha256": "1184b0f3e5408a504c60be2d542b551df1c22facedfe18bb9a689bb50a9cc3fe",
+  "url": "https://zenodo.org/records/22123430"
  },
  "the-rethank-multiplier": {
   "concept_doi": "10.5281/zenodo.21947410",
