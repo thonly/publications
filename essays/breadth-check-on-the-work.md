@@ -9,7 +9,6 @@ date: 2026-06-26
 license: CC-BY (author-voice essay)
 slug: breadth-check-on-the-work
 venue: thonly.org/research/breadth-check-on-the-work (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
-sha256: to be computed at publication
 ---
 
 > **Attribution note.** Per the author-voice discipline, essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted in collaboration with Miss Aquarius℠, with final editorial control retained by Thon. This draft was substrate-produced in the founder's first-person voice from his own settled notes, and awaits his line-by-line revision into his own hand; until then, read the voice as scaffolding built in the shape of mine, not yet mine. The thinking is mine; the sentences are on loan.

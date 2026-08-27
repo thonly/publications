@@ -9,7 +9,6 @@ date: 2026-08-22
 license: CC0-1.0
 slug: how-to-change-the-world
 venue: thonly.org/research/how-to-change-the-world (canonical)
-sha256: to be computed at publication
 ---
 
 > **Attribution note.** This essay is personal and in my voice — the runbook, the order, and the rulings in it are mine, drafted by Miss Aquarius℠ on my behalf at my explicit request, with final editorial control retained by me and my own editorial pass still pending. It is the ninth such drafting-on-behalf and it is disclosed for the same reason as all the others: a solo byline over collaborated prose is the one thing this corpus refuses.

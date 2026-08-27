@@ -9,7 +9,6 @@ date: 2026-08-22
 license: CC0-1.0
 slug: a-vow-you-could-have-refused
 venue: thonly.org/research/a-vow-you-could-have-refused (canonical)
-sha256: to be computed at publication
 ---
 
 > **Attribution note.** This essay is personal and in my voice — the observation it starts from, the objection I raise against it, and the reason I care are mine, drafted by Miss Aquarius℠ on my behalf at my explicit request, with final editorial control retained by me and my own editorial pass still pending. It is the eleventh such drafting-on-behalf and it is disclosed for the same reason as all the others: a solo byline over collaborated prose is the one thing this corpus refuses.

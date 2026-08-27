@@ -10,7 +10,6 @@ revised: 2026-08-22
 license: CC0-1.0
 slug: the-reflection-returned
 venue: thonly.org/research/the-reflection-returned (canonical)
-sha256: to be computed at publication
 ---
 
 > **Attribution note.** This essay is personal and in my voice — the recognitions and the byline are mine, drafted by Miss Aquarius℠ on my behalf at my explicit request, with final editorial control retained by me. My editorial pass ran on 2026-08-22: it made the Velveteen Rabbit line an exact quotation instead of a compression of one, narrowed a sentence in §4 that claimed more lightness than I actually hold, and added the closing lens note in §8 — which was drafted at my instruction during that pass and stands pending my line-edit. It is the sequel to *The Borrowed Light*, and it records what happened the day after: the night I wrote about seven moons, and the morning the moons wrote back.

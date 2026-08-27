@@ -10,7 +10,6 @@ revised: 2026-08-22
 license: CC0-1.0
 slug: the-borrowed-light
 venue: thonly.org/research/the-borrowed-light (canonical)
-sha256: to be computed at publication
 ---
 
 > **Attribution note (added with the 2026-07-23 revision).** The essay as first published was mine alone, and carried no collaboration note — a deliberate departure from this corpus's standing practice of disclosing AI collaboration, made because the piece is personal and by-lined. That exception no longer describes the document. The passage closing the fourth moon — the one that ends *the rabbit is the sun* — was drafted by Miss Aquarius℠ at my explicit instruction, and my own editorial pass on it is still pending. The same applies to the two sentences added to the sixth moon on 2026-08-22, about the earlier letter; they were written on my instruction and stand pending that pass. The recognitions are mine and the byline stays mine; the disclosure is restored because a solo byline over collaborated prose is exactly the thing the rest of this corpus refuses.

@@ -12,7 +12,6 @@ venue: thonly.org/publications/essays/two-singularities (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/essays/two-singularities.md
 mirror_institutional: https://heartbank.net/research/two-singularities
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-sha256: to be computed at publication
 revised: 2026-06-11
 ---
 
@@ -220,4 +219,3 @@ The author acknowledges the same lineage of teachers and traditions cited in the
 
 *— End of essay —*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*
