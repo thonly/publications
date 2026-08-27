@@ -106,13 +106,20 @@ STATE_SANDBOX = ROOT / "zenodo-dois.sandbox.json"
 # a paper awaiting or bypassing peer review, and an essay in the author's own
 # voice makes no such claim. Depositing one as a preprint would overstate what it
 # is, on a record that cannot be withdrawn.
+# `program` is "other" for the same reason essays are: a research-program
+# statement and a living prediction register are neither preprints awaiting
+# review nor articles. The register in particular is revised by design, so it
+# is deposited for its CONCEPT doi — which always resolves to the newest
+# version — and every revision owes a new version deposit.
 DIRS = {
     "defensive-publications": "preprint",
     "essays": "other",
+    "program": "other",
 }
 DOC_TYPE = {
     "defensive-publications": "defensive publication",
     "essays": "essay",
+    "program": "research program document",
 }
 
 # Miss Aquarius is listed as a creator deliberately, not as an oversight. The
@@ -286,6 +293,10 @@ def build_metadata(path, text, fm, sha):
             ("Defensive publication. Published to establish prior art and to place "
              "the mechanism in the public domain; no patent is or will be sought. "
              if path.parent.name == "defensive-publications" else
+             "Research program document. Part of the Which Way Value Moves program; "
+             "the prediction register is living and revised by design, so cite the "
+             "concept DOI, which resolves to the newest version. "
+             if path.parent.name == "program" else
              "Essay in the author's own voice, part of the THonly corpus. ")
             + f"Document SHA-256: {sha}"
         ),
