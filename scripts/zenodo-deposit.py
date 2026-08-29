@@ -116,6 +116,23 @@ DIRS = {
     "essays": "other",
     "program": "other",
 }
+# Directories deposited when no --dir is given.
+#
+# ESSAYS ARE DELIBERATELY NOT IN THE DEFAULT. The publication posture is that
+# essays carry no Zenodo DOI, and before this default existed that posture was
+# held only by whoever ran the script remembering to pass a scope flag. A dry
+# run on 2026-08-29 confirmed the exposure: an unscoped --create --publish would
+# have minted DOIs for every essay in the corpus. A DOI cannot be withdrawn, so
+# the failure mode is one-way.
+#
+# The point is not that the flag was hard to remember. A posture enforced by
+# remembering is a rule, and a rule needs someone present and attentive at the
+# moment it is tested. Excluding essays from the default makes it a property of
+# the tool: depositing an essay now requires naming `--dir essays`, which is a
+# deliberate act rather than an omission. Do not "simplify" this back to
+# `list(DIRS)`.
+DEFAULT_DIRS = ["defensive-publications", "program"]
+
 DOC_TYPE = {
     "defensive-publications": "defensive publication",
     "essays": "essay",
@@ -367,10 +384,11 @@ def main():
     ap.add_argument("--only", metavar="SLUG", help="a single paper")
     ap.add_argument("--limit", type=int, help="stop after N papers")
     ap.add_argument("--dir", action="append", choices=sorted(DIRS),
-                    help="restrict to a directory; repeatable. Default: all. "
-                         "Use to deposit the defensive publications without the "
-                         "essays, which carry more third-party personal material "
-                         "and deserve their own deliberate pass.")
+                    help="restrict to a directory; repeatable. Default: "
+                         + ", ".join(DEFAULT_DIRS) + ". ESSAYS ARE NOT IN THE "
+                         "DEFAULT — the publication posture is that essays carry "
+                         "no Zenodo DOI, so depositing one requires naming "
+                         "`--dir essays` explicitly. A DOI cannot be withdrawn.")
     args = ap.parse_args()
 
     if args.publish and not args.create:
@@ -379,13 +397,33 @@ def main():
     # A paper is defined by HAVING FRONTMATTER, not by its filename. Each paper
     # directory also holds a README.md, and matching on name alone would deposit
     # them as papers titled "README" — which the sandbox rehearsal did.
-    dirs = args.dir or list(DIRS)
+    dirs = args.dir or DEFAULT_DIRS
+    excluded = [d for d in DIRS if d not in dirs]
+    if "essays" in dirs:
+        print("\n⚠️  essays are in scope. The publication posture is that essays "
+              "carry no Zenodo DOI,\n    and a published DOI cannot be withdrawn. "
+              "Continue only if that posture has changed.")
     papers = sorted(p for d in dirs for p in (ROOT / d).glob("*.md")
                     if frontmatter(p.read_text()).get("title"))
     if args.only:
         papers = [p for p in papers if p.stem == args.only or
                   frontmatter(p.read_text()).get("slug") == args.only]
         if not papers:
+            # Distinguish "does not exist" from "exists but is out of scope", so
+            # the operator meets the reason rather than an apparent bug — a
+            # generic not-found invites the reader to reach for --dir essays
+            # without ever learning why it was excluded.
+            for d in excluded:
+                for cand in (ROOT / d).glob("*.md"):
+                    fm = frontmatter(cand.read_text())
+                    if cand.stem == args.only or fm.get("slug") == args.only:
+                        raise SystemExit(
+                            f"{args.only!r} is in {d}/, which is not deposited by "
+                            f"default.\n"
+                            f"For essays this is the publication posture, not an "
+                            f"oversight: essays carry no Zenodo DOI.\n"
+                            f"If that has genuinely changed, re-run with "
+                            f"--dir {d}.")
             raise SystemExit(f"no paper matching slug {args.only!r}")
 
     STATE = STATE_SANDBOX if args.sandbox else STATE_LIVE
