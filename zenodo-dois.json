@@ -73,12 +73,12 @@
  },
  "brand-identity-as-architecture": {
   "concept_doi": "10.5281/zenodo.21947287",
-  "deposition_id": 22110703,
-  "doi": "10.5281/zenodo.22110703",
+  "deposition_id": 22155758,
+  "doi": "10.5281/zenodo.22155758",
   "published": true,
   "sandbox": false,
-  "sha256": "2efef4486a941d4bbc1056b61b746b0f45d3cee2d7f507d6cf0b03543edcdf7d",
-  "url": "https://zenodo.org/records/22110703"
+  "sha256": "9e54fc5f87ee9170417ff7c9bee7577fec8e49d4e0572bbb243d24a32c5343e8",
+  "url": "https://zenodo.org/records/22155758"
  },
  "buddha-ai-living-tipitaka": {
   "concept_doi": "10.5281/zenodo.21947294",
@@ -334,12 +334,12 @@
  },
  "prediction-register": {
   "concept_doi": "10.5281/zenodo.22132689",
-  "deposition_id": 22132690,
-  "doi": "10.5281/zenodo.22132690",
+  "deposition_id": 22155751,
+  "doi": "10.5281/zenodo.22155751",
   "published": true,
   "sandbox": false,
-  "sha256": "12ed072d7cbec38f14650e3048ae92876a059ea60d61718c5c7dfcda1c784bdd",
-  "url": "https://zenodo.org/records/22132690"
+  "sha256": "bf9efc8c1042c9affd2b542fddea215bcdd809bdb3f418d1b5afe92fa65d4200",
+  "url": "https://zenodo.org/records/22155751"
  },
  "proof-of-coordinate": {
   "concept_doi": "10.5281/zenodo.21947366",

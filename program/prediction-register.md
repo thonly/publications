@@ -13,7 +13,9 @@ venue: thonly.org/research/program/register (canonical)
 
 ## What this is
 
-Sixty-six pre-registered predictions arising from the research program stated in [`which-way-value-moves`](which-way-value-moves.md). One further prediction is withheld from publication (operational channel economics); its existence is recorded here so the count is honest, bringing the true total to sixty-seven.
+Seventy pre-registered predictions arising from the research program stated in [`which-way-value-moves`](which-way-value-moves.md). One further prediction is withheld from publication (operational channel economics); its existence is recorded here so the count is honest, bringing the true total to **seventy-one**.
+
+This is a living document and the count rises. It opened at sixty-seven on 2026-08-27; see **Revisions** at the foot for what has been added since, and read the count in the Summary table rather than any sentence that repeats it elsewhere.
 
 **Status vocabulary.** *Unrun* — registered, no observation attempted. *Running* — instrument live, data accumulating, not yet read. *Resolved* — read against its falsifier. *Contradicted* — the data went against it. *Retired* — superseded by a ruling that made it moot; kept, never deleted.
 
@@ -27,12 +29,12 @@ Sixty-six pre-registered predictions arising from the research program stated in
 
 | | Count |
 |---|---|
-| Total registered | **67** |
-| Published here | 66 |
+| Total registered | **71** |
+| Published here | 70 |
 | Withheld (operational) | 1 |
-| Already carried by a published paper | 45 |
-| Memory-only before today | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 21 |
+| Already carried by a published paper | 50 |
+| Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
+| Receiving first public timestamp here | 20 |
 | **Run** | **2** (both desk censuses) |
 | **Field tests run** | **0** |
 | Contradicted | 1 |
@@ -132,6 +134,11 @@ Sixty-six pre-registered predictions arising from the research program stated in
 | P-BB3 | Decoupling tripwire | Unrun | Published |
 | P-R1 | The catalyst bet | Unrun | First public here |
 | *(unnumbered)* | Second desk census — naming/sport novelty. Not a registered prediction; recorded because it was run and returned null | **RUN → NULL.** Read before any novelty claim | Internal |
+| P-D1 | Under rotational discovery, a non-trivial share of discovery events resolve to recipients who have **never previously received a re-tip** | Unrun | Published (`rotation-over-liveness` §11.1) |
+| P-D2 | Among re-tips with an identifiable commercial recipient, the share accruing to **single-location operators** materially exceeds those operators' share of local digital advertising spend in the same market — and the gap widens as AI-generated advertising creative rises | Unrun | Published (`rotation-over-liveness` §11.2) |
+| P-D3 | If the place-commons volume experiment is enabled, cross-place discovery volume **will not correlate** with neighbourhood median income. *Falsifier and tripwire in one: correlation disables the mechanism regardless of what it is doing for circulation* | Unrun | Published (`rotation-over-liveness` §11.3) |
+| P-D4 | Adding any rendered per-recipient quantity to the candidate surface — the operator's aura colour included — produces measurable **order effects** in giver choice | Unrun | Published (`rotation-over-liveness` §11.4) |
+| P-R1a | **Corrects P-R1, which cannot test what it was taken to test.** Holding received-kindness volume constant, contemplative practice raises unprompted noticing/thanking; and the practice effect is compared *against* the received-kindness effect rather than measured alone. **Two factors, read as competing main effects** | Unrun | First public here |
 
 ---
 
@@ -177,3 +184,20 @@ No file in this corpus records its own hash. The proofs are external artifacts; 
 ## Revision rule
 
 Predictions are added, never removed. A resolved prediction keeps its original wording beside its outcome. A correction is a **new entry citing the one it corrects** — registered wording is never edited in place, because an edit would break the very property this register exists to provide.
+
+---
+
+## Revisions
+
+*Predictions are added, never removed; this log records what each revision added and why, so the count in the Summary can always be reconciled.*
+
+**2026-08-29 — five entries added, and a counting error in the Summary corrected. Total now 71.**
+
+⚠️ **The Summary's own counts were wrong at first publication, and the error is recorded rather than quietly fixed**, because a register that miscounts itself has failed at the one thing it exists to do. The tables carried **66** unique prediction identifiers on 2026-08-27, of which one (`P-GTM1`) is withheld — so the true figures that day were **65 published here, 66 total**, against the **66 / 67** the Summary claimed. The split was also off by one in the other direction: *already carried by a published paper* read 45 where the tables give 46, the difference being the five identifiers in *Instrumented but outside the core*, whose table names its papers in a column of its own rather than in a Provenance column. Every figure in the Summary above is now **counted from the tables** rather than carried forward. ⭐ *An arithmetic check that reconciles — 50 + 20 = 70 — is the property to preserve on every future revision; the previous split summed correctly to a total that was itself one too high, which is how it survived.*
+
+- **P-D1 · P-D2 · P-D3 · P-D4** — Chapter III, arriving with `rotation-over-liveness` (published 2026-08-28, `10.5281/zenodo.22155378`). All four are carried by that paper's own proofs; they are listed here because a register that omits four live predictions from a published paper is exactly the silent drift this document exists to prevent.
+- **P-R1a** — Chapter III, a **correction entered as a new prediction under the revision rule above, not as an edit to P-R1**, whose registered wording stands unchanged.
+
+  *Why the correction was needed:* P-R1 compares practitioners of a contemplative practice against matched non-practitioners on unprompted re-entry into noticing. That measures **practice → noticing**. It was subsequently taken to bear on a stronger claim — that a person's state of mind is *as important as, or more important than, receiving another's kindness* in producing gratitude — and **it cannot rank those two inputs**, because received-kindness volume is unmeasured and is the obvious confound: a practitioner may simply be someone who receives more. P-R1a adds that second factor.
+
+  ⚠️ *Entered before any observation exists.* The instrument P-R1 depends on has not launched, so this correction is pre-data rather than post-hoc — which is the only condition under which it would have been admissible at all.
