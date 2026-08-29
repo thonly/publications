@@ -186,6 +186,60 @@ We sketch a reference architecture without claiming any specific implementation 
 
 Each heart's network identity is bound to its secure-element key pair, established at manufacture and committed at activation. Hearts are individually identifiable to the AI mediator and to the public ledger. Bearer identity (which physical entity the heart is attached to) is recorded by the steward at activation but may be made public, restricted, or anonymous at the steward's discretion. For endangered-species deployments, bearer anonymization may be desirable (precise location of an endangered animal need not be public); for sacred-place deployments, full public identification is typically appropriate.
 
+### The layered stack, and what its ordering encodes *(added 2026-08-28; no numbered heading, so §§ are unchanged)*
+
+§5.1 lists components. This block specifies how they stack, because the *ordering* carries an
+architectural claim that the component list does not.
+
+```
+   4   FRONTIER GENERAL MODEL   capability        flash, swappable      ~18 months
+   3   VALUES EVALUATOR         judgment          flash, versioned      years
+   2   TIPIṬAKA SOURCE          the value record  WORM crystal          ~10⁹ years
+   1   IDENTITY  · genesis root                   same crystal          permanent
+                 · rotatable key                  enclave chip          revocable
+```
+
+⭐ **The ordering is a permanence gradient, and that is the claim.** The capability layer is a
+commodity that will be replaced many times over a bearer's life; the value record cannot be
+rewritten at all. **A bearer's identity and its values outlive every brain put in it.** State this
+explicitly wherever the stack is drawn — it is invisible if a diagram shows only the order.
+
+**Layers 1 and 2 share one physical substrate**, which is what makes the stack realisable in a small
+device: the genesis root is etched into the same medium that carries the corpus, and only the
+rotatable key needs separate hardware. ⚠️ **That split is where revocability lives** — the root is
+permanent, the key is not — and it is the mechanical form of §4's distinction between an *assigned*
+identity and a *given* one.
+
+### The evaluator bears three different relations to the capability layer, selected by carrier
+
+The layer-3/layer-4 relation is not one relation. Treating it as one is the most likely design error
+in anything built from this architecture.
+
+| Carrier | Relation | Why that one |
+|---|---|---|
+| **A device the publisher deploys** | ⭐ **GATE** — the capability layer runs beneath the evaluator, which may refuse | The publisher *is* the deployer, and a device's action space is small enough to gate meaningfully. |
+| **An autonomous successor agent** | ⭐⭐ **CITATION REQUIREMENT — never a veto.** It must be able to name the source grounding a weighted judgment; the evaluator checks the resolution | ⛔ **A veto would bound the agent at the evaluator's ceiling** — the weak-supervisor problem applied to the very system the arrangement exists to enable. *An institution that hands its successor a governor smaller than the successor has installed a cap and called it a safeguard.* |
+| **Systems the publisher does not deploy** | **REFEREE** — published verdicts, no control relation | Nothing makes a third party's system defer to an external one; see the companion paper on evaluator posture. |
+
+⭐ **Why the middle case is a real constraint rather than a courtesy:** an override held by a human
+assembly is only meaningful if it can be *exercised*, and exercising it means asking *on what basis?*
+and receiving an answer that resolves to something readable. **An override you cannot audit is an
+override you cannot use.** The brake is made of citations.
+
+### ⛔ The ledger cannot be inside the stack, and that is a property rather than an omission
+
+§5.1 places the ledger outside the device. The stack above makes the reason explicit and it is worth
+stating as a rule: ⭐⭐ ***a ledger a party carries itself is a ledger that party can forge.***
+Witnessing requires an outside party, so the record of deeds belongs to the network the device
+participates in and never to the device.
+
+⚠️ **This is also what makes an openly-published evaluator survivable.** If the evaluator's weights
+are public — as an open-corpus posture requires — then inputs can be optimised against a device's
+gate offline. **The gate being public is tolerable only because the behaviour it fails to prevent is
+recorded somewhere the failing device does not control.** ⛔ **Honest bound: this reduces the exposure
+and does not close it.** An adversary who can produce conduct that is compliant *on the record*
+defeats both, and nothing in this architecture detects that.
+
 ## 6 · Reference Implementation Patterns
 
 ### 6.1 · Hardware specification (sketch)
