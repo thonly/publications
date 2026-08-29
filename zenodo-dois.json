@@ -55,12 +55,12 @@
  },
  "b-tag-post-payment-economy": {
   "concept_doi": "10.5281/zenodo.21947281",
-  "deposition_id": 21947282,
-  "doi": "10.5281/zenodo.21947282",
+  "deposition_id": 22155379,
+  "doi": "10.5281/zenodo.22155379",
   "published": true,
   "sandbox": false,
-  "sha256": "c3ee49760922145abb8eb480e88b2b028ba4cb0d0d8bf5ab0a384f8c51f4901c",
-  "url": "https://zenodo.org/records/21947282"
+  "sha256": "25301152b81eb6f19fa4d509a95e1d5be1035b0e87be4eed274283d820a33f1f",
+  "url": "https://zenodo.org/records/22155379"
  },
  "b-tag-recommendation-function-methodology": {
   "concept_doi": "10.5281/zenodo.21947285",
@@ -358,6 +358,15 @@
   "sandbox": false,
   "sha256": "b258e8683149b90c17ee760fbd7dbd8db4eb3449835ea8821c5b4bcd543daf6b",
   "url": "https://zenodo.org/records/21947373"
+ },
+ "rotation-over-liveness": {
+  "concept_doi": "10.5281/zenodo.22155377",
+  "deposition_id": 22155378,
+  "doi": "10.5281/zenodo.22155378",
+  "published": true,
+  "sandbox": false,
+  "sha256": "072c25d396930668cc6fe1a503615f108ba81ddd2e68415adba5933b8ddd169b",
+  "url": "https://zenodo.org/records/22155378"
  },
  "sacrifice-witness-without-discharge": {
   "concept_doi": "10.5281/zenodo.21947375",
