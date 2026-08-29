@@ -133,6 +133,24 @@ DIRS = {
 # `list(DIRS)`.
 DEFAULT_DIRS = ["defensive-publications", "program"]
 
+# SECOND LINE OF DEFENCE, added 2026-08-29, adopted from the sibling institutional
+# repo (HeartBank/publications), which gates deposits on a `zenodo: true` flag in a
+# paper's own front matter and fails closed.
+#
+# That gate is better than DEFAULT_DIRS above, and the reason generalises: a flag in
+# the ARTIFACT travels with the artifact, while a flag in the COMMAND LINE lives only
+# in the operator's memory at the moment of running. The artifact carries its own
+# answer; an operator may or may not.
+#
+# It is applied here to the ESSAYS directory only, and deliberately not to the whole
+# corpus. This repo's posture differs from the sibling's: defensive publications and
+# programme documents deposit as a matter of course (67 of them do), so requiring a
+# flag on the normal path would add friction everywhere to protect one exception. The
+# exception is what needs the guard. So an essay must satisfy BOTH gates — it must be
+# named with `--dir essays` AND carry `zenodo: true` in its own front matter — and
+# neither alone is sufficient.
+GATED_DIRS = {"essays"}
+
 DOC_TYPE = {
     "defensive-publications": "defensive publication",
     "essays": "essay",
@@ -405,6 +423,30 @@ def main():
               "Continue only if that posture has changed.")
     papers = sorted(p for d in dirs for p in (ROOT / d).glob("*.md")
                     if frontmatter(p.read_text()).get("title"))
+
+    # Second line of defence: in a gated directory, a paper deposits only if it says
+    # so itself. A record that already exists is grandfathered, because refusing to
+    # revise a deposited paper would leave its DOI serving superseded text — the
+    # stale-record drift this pipeline exists to prevent — and that failure is silent.
+    _state_path = STATE_SANDBOX if args.sandbox else STATE_LIVE
+    _stored = json.loads(_state_path.read_text()) if _state_path.exists() else {}
+
+    def gated_out(path):
+        if path.parent.name not in GATED_DIRS:
+            return False
+        fm = frontmatter(path.read_text())
+        if str(fm.get("zenodo", "")).lower() == "true":
+            return False
+        return (fm.get("slug") or path.stem) not in _stored
+    blocked = [p for p in papers if gated_out(p)]
+    papers = [p for p in papers if p not in blocked]
+    if blocked:
+        print(f"\n⛔ {len(blocked)} paper(s) in a gated directory carry no "
+              f"`zenodo: true` and have no existing record — not depositing:")
+        for b in blocked:
+            print(f"     {b.parent.name}/{b.name}")
+        print("   This is the publication posture, not an error. Add the flag to the "
+              "paper's\n   front matter only if that posture has genuinely changed.")
     if args.only:
         papers = [p for p in papers if p.stem == args.only or
                   frontmatter(p.read_text()).get("slug") == args.only]
