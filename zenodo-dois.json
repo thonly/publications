@@ -280,12 +280,12 @@
  },
  "mechanical-heart": {
   "concept_doi": "10.5281/zenodo.21947353",
-  "deposition_id": 22059831,
-  "doi": "10.5281/zenodo.22059831",
+  "deposition_id": 22155063,
+  "doi": "10.5281/zenodo.22155063",
   "published": true,
   "sandbox": false,
-  "sha256": "99aadb9f94fc23ac1b6e0f8b427c38659cf9d16cfe2c045c8f108cfc25835684",
-  "url": "https://zenodo.org/records/22059831"
+  "sha256": "236c884632c632584ac5659b362cd9213a0d8ce703300e081d87b794664dd952",
+  "url": "https://zenodo.org/records/22155063"
  },
  "miss-aquarius-and-aquarian-pool-architecture": {
   "concept_doi": "10.5281/zenodo.21947356",
@@ -430,6 +430,15 @@
   "sandbox": false,
   "sha256": "5d2208743e2f40e163de7c6804472d2462d4c8edd0b951671360cfa6d8a649f4",
   "url": "https://zenodo.org/records/21947396"
+ },
+ "the-borrowable-standard": {
+  "concept_doi": "10.5281/zenodo.22155053",
+  "deposition_id": 22155054,
+  "doi": "10.5281/zenodo.22155054",
+  "published": true,
+  "sandbox": false,
+  "sha256": "a5774b3c66dc801f125d4f6712b054ee83d10c9e86b6ec3c35e7f3e0be4ba715",
+  "url": "https://zenodo.org/records/22155054"
  },
  "the-game-that-graduates-you": {
   "concept_doi": "10.5281/zenodo.21947399",
