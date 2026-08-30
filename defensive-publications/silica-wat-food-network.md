@@ -22,6 +22,20 @@ This paper specifies the **Silica Wat food network**: an institutional-design pa
 
 ---
 
+## Claims
+
+*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+
+1. **Monastery-rooted food infrastructure as a gratitude-economic node** — a distributed network of religious-institutional sites each combining growing, kitchen and distribution functions, whose output is mediated through a gratitude ledger rather than through price alone.
+2. **The homegrown-amplified contribution layer** — a mechanism by which practitioner-grown produce contributed to a node is amplified rather than merely accepted, so that small-scale domestic growing acquires network-scale effect.
+3. **The conventionally-supplemented baseline** — the specification that network nodes supplement contributed supply with conventionally-sourced goods to guarantee a floor, and the rule governing the ratio, so that a contribution-dependent food function does not fail when contribution is thin.
+4. **Dual-token mediation of a food network** — the application of the Kiitos / Kiitti two-ledger rule to food, such that the human-facing exchange and the non-human-facing (land, animal, plant) exchange are recorded on separate ledgers within one transaction.
+5. **Caretaker-not-ordained operation** — the composition of the above with an AI caretaker pattern in which the operating agent holds no ordained status and no sacramental authority.
+
+**Non-assertion extends to:** all mechanisms above, in any combination, and any implementation thereof.
+
+---
+
 ## 1. Introduction
 
 The modern food system, considered as an institutional infrastructure, exhibits three failure patterns simultaneously. The first is a **health crisis** driven by misalignment between profit-maximizing food engineering and wellbeing-maximizing nutritional content; ultra-processed food engineered for hyper-palatability competes successfully against minimally-processed whole foods because the former optimizes for engagement metrics that the latter does not. The second is a **hunger epidemic** driven by unequal distribution: caloric production is globally adequate, but economic pressures route food away from populations that need it most. The third is a **middle-way departure** at the population-metabolic layer: the food environment of late-stage modernity pushes the materially comfortable toward an indulgence extreme (excess caloric intake, ultra-processed dominance, blood-sugar volatility, microbiome impoverishment) at unprecedented historical scale.

@@ -30,6 +30,21 @@ To the author's knowledge, the integrated methodology — privacy-preserving AI-
 
 ---
 
+## Claims
+
+*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+
+1. **Merchant cost-basis disclosure as the input to a recommendation function** — a protocol by which a merchant discloses a cost-factor decomposition to an autonomous recommender, which uses it to generate a suggested voluntary payment, without the decomposition being disclosed to the customer.
+2. **Anchor-but-not-bind discipline** — the specification that a recommended amount is presented so as to inform without constraining, together with the stated constraints that distinguish an anchor from a floor.
+3. **Reasons-transparency as a requirement on an autonomous recommender** — the requirement that every recommendation be accompanied by the reasons that produced it, in a form the customer can evaluate.
+4. **Cross-merchant calibration by consensus reference distribution** — a method for making recommendations consistent across merchants using aggregated, anonymised cost-factor distributions, such that individual merchant decompositions remain confidential while the calibration itself is publicly inspectable.
+5. **Flourishing-context inference without surveillance** — deriving a customer's capacity-to-give context from information the customer has already volunteered, with the explicit exclusion of behavioural tracking as an input.
+6. **Regional calibration of a recommendation function** — adjusting recommended amounts to local economic conditions as a first-class parameter rather than as a post-hoc correction.
+
+**Non-assertion extends to:** all mechanisms above, in any combination, and any implementation thereof.
+
+---
+
 ## 1 · Introduction
 
 The B-Tag (specified in the parent paper) is a physical primitive — a small tag bound to a specific product or service — whose tap, scan, or NFC interaction surfaces a recommended tip amount and accompanying reasons to a customer at the point of action. The recommendation function that computes this amount is operated by Miss Aquarius℠, HeartBank's named AI substrate (specified in the companion paper *Miss Aquarius and the Aquarian Pool Architecture*). The function's architectural role is settled by the parent paper; its *methodology* is the subject of the present paper.

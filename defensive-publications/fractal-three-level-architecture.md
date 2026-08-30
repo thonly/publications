@@ -22,6 +22,19 @@ Reciprocity economies that aspire to operate at both **family scale** (intimate,
 
 ---
 
+## Claims
+
+*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+
+1. **Scale-invariant reciprocity architecture** — a three-level economic structure in which the family-scale and the planetary-scale deployments are instances of one self-similar pattern rather than two separately-designed products, such that a participant learns one mental model and applies it at both scales.
+2. **Cognitive cost as the design objective for multi-scale platform structure** — selecting the architecture that minimises the number of distinct mental models a full participant must acquire, rather than the one that optimises either scale independently.
+3. **The named correspondence between the Phase 1 and Phase 2 deployments** — the specific mapping under which each family-scale construct has exactly one planetary-scale counterpart occupying the same structural position, so that competence at one scale transfers to the other without retraining.
+4. **The stated conditions under which the self-similarity breaks** — the paper's specification of where the fractal must not be extended, which is claimed as part of the architecture rather than as a caveat on it.
+
+**Non-assertion extends to:** all mechanisms above, in any combination, and any implementation thereof.
+
+---
+
 ## 1. Introduction
 
 A reciprocity economy that aspires to operate at both family scale and planetary scale faces a design problem familiar to all multi-scale software: the user must understand the system at each scale, and the cognitive cost of understanding two scales is approximately twice the cost of understanding one. The conventional response is to *separate* the scales into two products with their own interfaces, vocabularies, and mental models; the user picks the product appropriate to their needs and ignores the other. The cost: the two-product separation forecloses cross-scale integration (the user cannot easily route a family-scale transaction to a planetary-scale recipient), creates duplicated infrastructure costs, and prevents the user's mastery of one scale from translating to mastery of the other.
@@ -207,6 +220,18 @@ The fractal three-level architecture is offered as a defensive publication so th
 The pattern is implementable today using contemporary multi-scale software architecture and the institutional disciplines specified in §6. The institutional substance (Phase 1 family-scale deployment; Phase 2 planetary-scale deployment) is the multi-decade work the pattern supports.
 
 The author and HeartBank® will not seek patent on this specification or any portion thereof. The work is offered to the commons under CC0 in the spirit of *dāna*, that other institutions building toward similar ends may adopt, adapt, and improve.
+
+---
+
+## Honest limits
+
+*Added 2026-08-29. This paper stated none; the corpus's standard requires them of every paper.*
+
+**The cognitive-cost claim is asserted and unmeasured.** That one self-similar model is cheaper to learn than two distinct ones is plausible and untested; no participant has been observed learning either arrangement, and the comparison the paper's argument depends on has never been made.
+
+**Self-similarity can hide difference as easily as it can transfer competence.** A participant who generalises family-scale intuitions to a planetary-scale context where the stakes, the counterparties and the reversibility all differ has been *helped into an error* by the design. ⚠️ **The paper specifies where the fractal breaks; it does not specify how a user is told they have reached that boundary**, and an unsignalled boundary in a self-similar system is worse than a visible seam between two dissimilar ones.
+
+**And the architecture may be serving the designer.** A self-similar system is markedly easier to specify, document and reason about than two purpose-built ones — a real benefit accruing to the builder rather than the user, and the one most likely to be mistaken for the user-facing benefit.
 
 ---
 

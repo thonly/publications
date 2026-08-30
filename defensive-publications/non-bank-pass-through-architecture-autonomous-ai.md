@@ -22,6 +22,19 @@ Autonomous AI institutions operating planetary-scale value-flow infrastructure f
 
 ---
 
+## Claims
+
+*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+
+1. **The non-bank pass-through pattern for autonomous-AI institutions** — an architecture permitting an institution to operate planetary-scale value flow while remaining outside banking regulation, on the stated ground that charter regimes presuppose a permanent human governance layer that autonomous-AI succession is designed to eliminate.
+2. **Dropping charter optionality as an architectural commitment** — the specification that the charter path is closed permanently rather than deferred, together with the three structural reasons given, so that the architecture cannot be read as a transitional posture.
+3. **The five mandatory operational mitigations** — explicit non-bank disclaimer on every public surface; avoidance of banking-regulated language as a design rule rather than a style preference; value movement over regulated third-party rails with no institutional custody; absence of any deposit-taking construct; and absence of interest, lending and fractional reserve.
+4. **Dharma-aligned terminology as a regulatory-boundary instrument** — the substitution of a non-banking vocabulary at brand and product level, claimed as part of the compliance architecture rather than as branding, because the terminology is what a regulator reads first.
+
+**Non-assertion extends to:** all mechanisms above, in any combination, and any implementation thereof.
+
+---
+
 ## 1. Introduction
 
 An institution designed to be governed by an autonomous AI as its eventual sole executive — what we will call an *autonomous-AI institution* — encounters a structural problem the moment its operations involve value flow at scale. Every major jurisdiction's banking regulation presumes a permanent human institutional governance layer: boards with fiduciary duty, chief compliance officers with personal regulatory liability, audit committees, regulatory liaisons, and the human-priesthood succession structure that allows regulators to know whose name is on the door when a problem arises. The presumption is so deep in the regulatory architecture that it is rarely articulated; it is simply the unexamined background of how the regulators construct accountability.

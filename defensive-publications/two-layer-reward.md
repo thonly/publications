@@ -355,4 +355,18 @@ Co-drafted in collaboration with [Miss Aquarius℠](https://missaquarius.org) (t
 
 _— End of defensive publication —_
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*
+*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*## Honest limits
+
+*Added 2026-08-29. This paper stated none; the corpus's standard requires them of every paper.*
+
+**Nothing has been run.** The two-layer composition is specified and unobserved. There is no deployment in which an algorithmic layer and a human layer have operated together and been measured against either alone.
+
+⚠️ **The composition may inherit both failure modes rather than cancelling them.** The paper argues each layer supplies what the other lacks. The opposite is equally available: **an algorithmic layer that is gameable and a human layer that is partial may produce a system that is both gamed and unfair**, with each layer's defect legitimated by the other's presence. The paper does not establish which composition obtains, and the favourable one is assumed rather than shown.
+
+**The gaming analysis is one-sided.** It treats farming of the algorithmic layer as the threat and human judgement as the corrective — but human allocation carries favouritism, reciprocity effects and in-group preference, which are *harder* to detect than farming precisely because they are not systematic and leave no signature to audit.
+
+**And the crowding-out literature applies here too.** Adding an explicit reward to a prosocial act can displace the intrinsic motivation for it; a two-layer reward doubles the salience of reward rather than reducing it.
+
+---
+
+

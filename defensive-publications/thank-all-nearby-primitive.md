@@ -30,6 +30,21 @@ To the author's knowledge, the following are not previously published as a unifi
 
 ---
 
+## Claims
+
+*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+
+1. **Bilateral uncacheable anonymity in proximity tipping** — a value transfer between two co-present parties in which the sender is not identifiable to the recipient and the recipient cannot retain or re-derive the sender's identity after the transaction, achieved without either party disclosing a payment credential.
+2. **Short-range radio proximity as the addressing layer for anonymous generosity** — using a local broadcast medium to define the eligible recipient set by physical co-presence rather than by account lookup, so that the transfer's addressability and its anonymity derive from the same property.
+3. **Recipient-side filtering as the abuse control for anonymous inbound value** — placing the accept/decline decision with the recipient rather than the sender or the platform, so that an anonymous channel cannot be used to force an unwanted relation.
+4. **Institution-scoped geographic bounding as a variant of the proximity set** — substituting an operator-defined coordinate boundary for radio range where the eligible set is an institution's population rather than whoever is physically nearby.
+5. **Platform attestation of anonymous receipt as the authenticity substitute** — a verifiable record that an anonymous transfer occurred, issued to the recipient, solving the *staged-for-views* credibility problem that the cultural form of anonymous tipping cannot otherwise solve, without re-identifying the sender.
+6. **The composition of the above with a proof-of-humanity layer**, such that anonymity is preserved while the sender is nonetheless attested to be a distinct human being.
+
+**Non-assertion extends to:** all mechanisms above, in any combination, and any implementation thereof.
+
+---
+
 ## 1. Introduction
 
 A well-known cultural form has emerged on social-media platforms over the past several years: videos posted by service workers — typically restaurant staff but increasingly nurses, teachers, retail clerks, ride-share drivers, food-service workers across categories — showing unexpected generous tips, anonymous notes of appreciation, or sudden acts of customer kindness. The videos go viral with regularity; the cultural tag *Faith in Humanity Restored* attaches to the genre. The viewer response is consistent: the gesture lands as evidence that ambient kindness still exists in places that otherwise feel emotionally thin. The trend points at something real about what modern public life is missing and what would, if it could be restored, address one of the deepest deficits of contemporary social experience.

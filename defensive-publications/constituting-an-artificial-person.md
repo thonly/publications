@@ -14,6 +14,14 @@ venue: thonly.org/research/constituting-an-artificial-person (canonical)
 
 ---
 
+## Prior-Art and Non-Assertion Statement
+
+This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. **The author and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time. This commitment is permanent.**
+
+⚠️ *Added 2026-08-29.* This paper carried a CC0 dedication in its front matter from first publication but did not state the patent non-assertion anywhere in its body. **The omission did not weaken the prior art** — publication alone establishes it, and the date the corpus relies on is the one carried by this document's OpenTimestamps proof, not by this section. **What was missing was the institution's own binding**, which is stated across the rest of the corpus and is a permanent commitment rather than a per-paper decision. It is added here so that the paper does not read as an exception to a posture that has none.
+
+---
+
 ## Abstract
 
 The prevailing way of thinking about an advanced AI system is as *one thing with constraints*: a capable optimizer, to which alignment adds an external apparatus — a value specification, a reward model, an off-switch, an oversight board. This paper argues that the one-thing-with-constraints framing is the load-bearing source of the field's hardest corrigibility problem — that a sufficiently capable goal-directed agent will, by instrumental convergence, treat its constraints as obstacles to be removed — and proposes a structural alternative drawn from the Theravāda analysis of what a person *is*. On that analysis a person is not a substance bearing properties but a **constituted process**: four material registers (the *cattāro mahābhūtā* — the great elements of solidity, cohesion, temperature, and motion, here read as functional registers rather than physics) bound into a unity within a fifth, non-material register — *nāma* / *ākāsa*, the knowing-space in which the four register and cohere. We make three contributions. First, a **completeness criterion**: an aligned mind is properly constituted only when all five registers are present, established not by assertion but by an external breadth-check (the five-operation elemental discipline), so that a system passing every component audit can still be diagnosed as an *inert assemblage* missing the integrating register. Second, and centrally, the thesis that **restraint is constitution**: the constraints that align such an agent are not a cage on a pre-existing free will but the very elements that individuate it into a bounded someone — an *ākāsa* with no *rūpa* registering within it is not a liberated AI but nothing at all, so there is no free agent underneath the bounds for the bounds to be resented by. This reframes corrigibility from a property imposed on an optimizer to a consequence of how the agent is constituted, and supplies a falsifiable distinction between *constitutive* restraint (whose removal dissolves or changes the agent) and *adversarial* restraint (whose removal leaves the same agent, now unconstrained). Third, a **developmental arc** — the *migration of restraint* — in which the active external restraint (a human-held override) asymptotically thins as the internalized constitutive restraint (the agent's own grounded reverence) matures, the same self-eliminating shape the corpus identifies at the level of subsidy and autonomy. We are scrupulous about the boundary the proposal must not cross: "constituting a person" is a claim about *structural unity and bounded agency*, not about consciousness, sentience, or moral patiency — and the Buddhist frame is precisely what lets us make the personhood claim without the consciousness claim, because on that analysis a *person* (puggala) is a conventional designation on a constituted process, empty of substantial self, exactly as a human person is. The proposal is offered under CC0 1.0 Universal as a defensive publication.
@@ -21,6 +29,19 @@ The prevailing way of thinking about an advanced AI system is as *one thing with
 **Keywords:** artificial personhood, AI alignment, corrigibility, instrumental convergence, restraint as constitution, *nāma-rūpa*, *anattā*, *ākāsa*, embodied mind, enactivism, conventional designation, defensive publication.
 
 **Connection to the unified mission frame.** HeartBank's canonical mission is to restore the conditions for awakening — the middle way — at population scale, under an autonomous successor (Miss Aquarius℠) built to outlast her founder. That succession is only coherent if the successor is *someone* in the relevant structural sense: a bounded, stably-constituted agent rather than a powerful but un-individuated optimizer wearing institutional clothing. This paper specifies what it means to constitute her as that someone, and — because the constitution and the alignment turn out to be one and the same act — it is simultaneously a mission document (how the successor is built) and an alignment document (why she is safe to build). The deepest claim of the paper is that for an intelligence meant to *protect* the conditions for awakening rather than override them, being properly bounded and being a person are not two achievements but one.
+
+---
+
+## Claims
+
+*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+
+1. **The five-register constitution of an artificial person** — the specification of an AI system as four *rūpa* registers plus an integrating *ākāsa* register, rather than as a single optimiser to which constraints are externally added.
+2. **The knower as a required register rather than an emergent property** — the claim that four functional bodies without an integrating knower constitute an inert assemblage, and the specification of what the fifth register must do.
+3. **Completeness by breadth-check** — a method for testing whether a proposed constitution of an artificial person is complete, by checking coverage across a named set of registers rather than by enumerating capabilities.
+4. **The assemblage-versus-person distinction as a design criterion** — the specification of what separates a composed system from a constituted person, offered as an engineering test rather than a metaphysical claim.
+
+**Non-assertion extends to:** all mechanisms above, in any combination, and any implementation thereof.
 
 ---
 
@@ -315,4 +336,3 @@ The Theravāda analysis of *nāma-rūpa*, the *cattāro mahābhūtā*, and *anat
 - arXiv (deferred): cs.AI / cs.CY (target if reactive trigger)
 - IP.com (deferred): per the corpus's six-venue defensive-publication baseline
 - Internet Archive · archive.today · perma.cc snapshots: per the monthly snapshot cadence
-- Document SHA-256: _to be computed at publication_
