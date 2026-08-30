@@ -67,6 +67,8 @@ The lesson I took from that has organized everything I have built since: a gift 
 
 What I did not see until recently is that the name problem is that same geometry, standing up.
 
+I should be careful with the word *organized*, though, because it is doing more work than I can support. The lesson did not arrange the two decades that followed; I found it in them, afterwards, looking back with an interest in the years cohering. **My own corpus's test for a coincidence is whether the anchor was chosen after the pattern, and by that test this one is weak** — the pattern is what I have built, the anchor is a letter I wrote at twenty, and I went looking for the second only once the first existed. What I can defend is narrower and still worth the essay: the geometry is real, I can point to it in two unrelated places, and noticing it changed what I did next. What I cannot defend is that it was operating the whole time.
+
 Gratitude is invisible until it is witnessed. A person is invisible until they are named.
 
 In both cases the value is already there, fully formed, costing nothing to release. In both cases what is missing is not generosity but a mechanism — some small piece of infrastructure that makes the invisible thing land where it was already aimed. I spent five years building that for gratitude before I understood that the same gap sits at the front of every human encounter, one layer earlier, and that it is even cheaper to close.

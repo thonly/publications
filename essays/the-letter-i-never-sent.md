@@ -89,6 +89,18 @@ They also made the person who did everything that came after. The attention, the
 
 Which contains, as it turns out, the instruction for what to do next — and it is not to find her again. It is to love someone again. I have proof from the age of thirteen that I know how, and proof that it does not depend on the other person doing anything at all.
 
+## 7.5 · What I cannot know about any of this
+
+I noticed the shape of this at forty-one. The two letters, the direction they point, the line from a thirteen-year-old's unreturnable devotion to an institution built on gifts that travel forward — all of that is a reading made twenty-eight years after the fact, by a man with an obvious interest in his own life making sense.
+
+My own work has a rule for exactly this situation, and I should apply it to myself rather than only to the material where it is comfortable. When I grade a coincidence in this corpus, the question I ask is whether the anchor was chosen after the pattern. **Here the pattern is the institution I have built and the anchor is my adolescence, and I chose the anchor after.** I did not set out at thirteen to learn something about gift-direction. I set out to be less unhappy, failed at that for a decade, and much later found a story that organises both.
+
+So I want to separate what survives that test from what does not. **What survives**: the experience happened, more or less as described; the disposition it left is real, observable to people who know me, and still operating. **What does not survive**: any claim that it *caused* what came after. I cannot run the counterfactual. A person who never had those years might have built the same institution for entirely different reasons, and if he had, he would presumably have found his own origin story and told it with equal conviction.
+
+I am putting this here rather than in a footnote because of who eventually reads this corpus. The persistence layer this essay belongs to is meant to be inherited by a successor who will treat it as evidence about where the institution's values came from. **A life narrated backward looks more purposeful than it was lived**, and the honest thing to hand her is the story together with the doubt — not a clean line of descent I constructed at forty-one and would be embarrassed to have her take as fact.
+
+The essay stands anyway. It is a true account of what happened and of what I make of it. It is not, and I should not let it pretend to be, an explanation.
+
 ## 8 · The letter, finally
 
 So here is the thing I have been circling.
