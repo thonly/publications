@@ -613,11 +613,11 @@
  },
  "zero-point-game": {
   "concept_doi": "10.5281/zenodo.21947440",
-  "deposition_id": 21947441,
-  "doi": "10.5281/zenodo.21947441",
+  "deposition_id": 22217272,
+  "doi": "10.5281/zenodo.22217272",
   "published": true,
   "sandbox": false,
-  "sha256": "f3ad87b48bb1c1cb9504a84ae79db651ea7f76fc83d410653d5f177b148283cf",
-  "url": "https://zenodo.org/records/21947441"
+  "sha256": "5ad25c15c7067e564ecb079b621163299f696c30ad2f59c5ec6d21f4fcb01b3a",
+  "url": "https://zenodo.org/records/22217272"
  }
 }
