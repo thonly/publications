@@ -1,6 +1,6 @@
 # thonly.org publications
 
-The author-output corpus for [thonly.org](https://thonly.org) — Thon Ly's **CC0** writing across two document genres. (Film treatments and screenplays live in the separate, rights-reserved [`github.com/thonly/film`](https://github.com/thonly/film) repo — see [below](#relationship-to-githubcomthonlyfilm).)
+The author-output corpus for [thonly.org](https://thonly.org) — Thon Ly's **open-licensed** writing across two document genres: **CC0** for mechanism papers and most essays, **CC-BY** for seven author-voice essays (each file's own `license:` field is the authority — see [License](#license)). (Film treatments and screenplays live in the separate, rights-reserved [`github.com/thonly/film`](https://github.com/thonly/film) repo — see [below](#relationship-to-githubcomthonlyfilm).)
 
 ## Genres
 
@@ -81,11 +81,15 @@ The legacy [`github.com/thonly/research`](https://github.com/thonly/research) re
 
 ## Relationship to `github.com/thonly/film`
 
-Film **treatments** and **screenplays** live in the separate [`github.com/thonly/film`](https://github.com/thonly/film) repo — **not** here. The split is by **license**, not by organization: this corpus is entirely **CC0** (the defensive-publication strategy requires the text itself be public domain to function as prior art), whereas film treatment/screenplay *text* is **rights-reserved** (only the underlying ideas are CC0, surfaced via the deployed page and any companion defensive publication or essay — e.g. *Cautionary-Mirror Framing of the Singularity* is the CC0 companion to *The Age of Capricorn*). Keeping the two licenses in separate repos keeps each repo's `LICENSE` unambiguous. Canonical deployed pages for both genres render under `thonly.org/film/{slug}`.
+Film **treatments** and **screenplays** live in the separate [`github.com/thonly/film`](https://github.com/thonly/film) repo — **not** here. The split is by **license**, not by organization: this corpus is **open-licensed** (CC0 for the defensive publications — not because prior art requires it, since public disclosure alone creates prior art whatever the licence, but because a mechanism published to be *borrowed* should carry no attribution burden for an implementer), whereas film treatment/screenplay *text* is **rights-reserved** (only the underlying ideas are CC0, surfaced via the deployed page and any companion defensive publication or essay — e.g. *Cautionary-Mirror Framing of the Singularity* is the CC0 companion to *The Age of Capricorn*). Keeping the two licenses in separate repos keeps each repo's `LICENSE` unambiguous. Canonical deployed pages for both genres render under `thonly.org/film/{slug}`.
 
 ## License
 
-All content released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). The author and HeartBank® will not seek patent on any specification or framework articulated in this repo, in any jurisdiction, at any time.
+**Each document's own `license:` field is the authority.** As of 2026-09-01: **96 files [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)**, and **7 author-voice essays CC-BY** — attribution is the point of a personal essay in a way it is not for a mechanism paper written to be borrowed. `LICENSE` carries the CC0 text and a scope note saying the same thing.
+
+⚠️ This used to read *"All content released under CC0 1.0 Universal"*, which stopped being true when the first CC-BY essay landed and stayed on the page. It is corrected rather than quietly deleted because the sentence immediately below — the split-by-licence principle — is what justified moving the film work out, and a reader is entitled to see that the principle was once contradicted inside this very repo. `scripts/check-frontmatter.mjs` is what now keeps it true.
+
+Regardless of licence: the author and HeartBank® will not seek patent on any specification or framework articulated in this repo, in any jurisdiction, at any time.
 
 ## Prior-art protection
 
