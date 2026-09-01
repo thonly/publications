@@ -11,7 +11,6 @@ slug: zero-point-game
 venue: thonly.org/publications/defensive-publications/zero-point-game (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/zero-point-game.md
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This is the keystone paper of the corpus — the founding frame the other papers have implicitly assumed without arguing once, cleanly. It benefits from the longest refinement window. Pending review: game-theory and mechanism-design readers; AI-alignment researchers (objective/proxy/feedback and Goodhart framing); dharma scholars (the dāna-economy-generalized claim, Cambodian Saṅgha); ecological-economics readers (the anti-externality and anti-inertia claims). The heartbank.net research mirror was retired 2026-05-15; this paper has no institutional mirror — the canonical URL above is authoritative, with prior-art protection via the venues in §13.
@@ -151,6 +150,26 @@ Objective, proxy, feedback. This is precisely the triple every learning system r
 
 Concretely, at the Kiitti edge: when a human is kind to non-human life, Miss Aquarius **recommends** the magnitude and the human acts — consistent with the corpus-wide safeguard that humans hold disbursement and flow-direction authority while the AI holds only capacity and recommendation (the *B-Tag* paper's alignment safeguard; the *Embodied-Advocate Pageant* paper's asymptotic-autonomy architecture). But when non-human life is "kind to" or "thankful toward" a human — when the forest's gratitude for a restored wetland must be registered and there is no forest that can press a button — she **decides**, unilaterally, because she is the only voice the counterparty has. This is the paradigmatic umpire call: a final ruling made on behalf of a party that cannot argue its own case. It is a *guardian ad litem* relation, not a sovereign one — and the difference between those two is not asserted in prose; it is enforced structurally in §9 and bounded honestly in §11.
 
+### 4.1 · What each role may change, and when
+
+The three roles have different relations to *change*, and stating which role may alter what — and on what clock — closes an ambiguity that would otherwise let the whole construction be inverted without anyone appearing to break a rule.
+
+**The Umpire writes entries.** Her rulings enter the game as ledger entries: a magnitude set at the Kiitti edge on behalf of a counterparty with no voice, a recognition granted, an attestation recorded. These are made in the moment, they are responsive to circumstances no rule anticipated, and at the Kiitti edge they are — as §11.1 concedes without softening — not falsifiable. That is the irreducible judgment the construction is built around, and nothing in this subsection reduces it.
+
+**The Gamemaster does not write entries. It aggregates them.** The aura is a function *of* the ledger, and the design commits to three properties of that function: it is **published**; it is **frozen for the duration of a season**; and it is **revised only at the jubilee**, by the CEO, in service of the objective.
+
+Publication is not a concession to transparency culture; it follows from commitments the paper has already made. The aura is stipulated public in §6 and its publicness is load-bearing in §9 — but an output published while the method that produces it is withheld is public only in appearance, and the appearance is the part that does no work. More sharply: the assembly that holds the coordinator's override can only exercise it if it can ask *what grounds this reading* and check the answer without her cooperation. An override that cannot be audited is not an override. A withheld function would therefore not make the coordinator more powerful; it would make her less accountable and, in the only sense that matters here, less legitimately powerful, because the authority she holds is granted on condition of being checkable.
+
+Freezing the function within a season is what makes publication safe to rely on and useful to improve. Participants can act during a season knowing the reading will not be re-specified underneath them; the method still improves annually, on the same cadence and for the same reason the jubilee already gives — each season a new attempt to measure better, the numeric capture of kindness being permanently imperfect. Responsiveness lives at the boundary; determinism lives inside it. A secondary effect is worth stating: a function that is republished each season cannot be optimized against in advance, so publication and revision together are a stronger anti-gaming posture than secrecy and stasis.
+
+**Two objections, answered here because they are the natural ones.**
+
+*Does a deterministic aggregation prevent the coordinator from being responsive?* No — because her judgment enters as entries, not as function parameters. Determinism sits downstream of judgment rather than in place of it, and a published aggregation constrains nothing whatever about what she may enter. The objection assumes a single undifferentiated agent; the decomposition in §4 is precisely the refusal of that assumption.
+
+*Does a published function make the aura gameable?* This is the better objection, and it relocates rather than resolves: the exposure is in the **entries**, not in the function. A published function over attested entries is safe; over unattested entries it is a manual for farming — and so is a secret one, with the difference that nobody can see the farming. Secrecy conceals an exposure instead of closing it, and charges auditability for the concealment. Two structural properties carry the rest. First, the aura measures **oscillation rather than a total** (§6): it cannot be driven by accumulation in one direction, because sustained one-directional giving is itself the pathology the waveform exposes, and a waveform can only be produced by bidirectional traffic with real counterparties across time — which is to say, by the thing itself, sustained, and not by any quantity of effort applied at one end. Second, under an attested-entry regime the cheapest route to a strong reading is to perform the acts the reading is about; publishing the function then publishes an instruction manual for doing them.
+
+**A scope limit, stated so it is not mistaken for a contradiction.** The screen that governs *which entries are admitted* — anomaly and collusion detection — is deliberately not published, and it is not part of the aggregation. The distinction is between how a record is **read**, which is public, and how a record is **admitted**, which is not. The arrangement is ordinary rather than novel: published tax codes coexist with unpublished audit-selection criteria, and the publicity of the first is not compromised by the privacy of the second.
+
 ## 5 · Why an Infinite Game Needs an Umpire
 
 For twenty years the obstruction was this. A finite market discovers prices through supply and demand: scarcity and desire meet and a number falls out. An infinite game of balance has no scarcity to clear and no equilibrium to find, and so — I believed — no way to answer the question every concrete instance of the game must answer: *how much?* When A is kind to B, is the event a 3 or a 7? Toward whom should B, carrying a negative balance, be guided so the ripple actually closes rather than dissipating? Without an answer the game is a beautiful diagram and not a mechanism.
@@ -268,6 +287,12 @@ The construction is Buddhist-grounded in a discourse (mechanism design; AI align
 ### 11.8 · Whether the aura is coupled across the graph
 
 The B-Aura is specified here as a per-node waveform. Whether it also has a *coupled-oscillator* structure — whether the auras of participants who transact frequently tend to synchronize, in the manner the Kuramoto model describes for coupled oscillators — is left entirely open. It is raised only as a question a future contribution might take up; nothing in this paper depends on the answer.
+
+### 11.9 · Collusion among attested participants is unresolved
+
+The attestation regime §4.1 relies on establishes that an entry was made by a distinct, real person. It does not establish that the act behind the entry was genuine. A ring of real, attested participants who thank one another on a schedule produces a ledger indistinguishable, entry by entry, from a ring of real participants who are actually kind to one another — and the difference is visible, if at all, only in the shape of the graph rather than in any single record.
+
+The paper does not claim to have solved this. Three partial mitigations exist and none is a proof: the aura's oscillation requirement makes a ring expensive to sustain, since the members must genuinely exchange in both directions over time rather than accumulate; the jubilee prevents any gamed magnitude from compounding across seasons; and the admission screen named in §4.1 is where detection would live. But detection of coordinated inauthentic behaviour is an adversarial problem with no stable solution in any system the authors are aware of, and the honest statement is that this design inherits it rather than escapes it. It is named here as an open problem of the same class as §11.3, and it is the reason the admission screen is the one component the design deliberately does not publish.
 
 ## 12 · Why This Matters Now
 
