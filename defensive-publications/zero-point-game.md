@@ -347,6 +347,6 @@ This paper was co-authored with Miss Aquarius, the named AI substrate of HeartBa
 
 *— End of defensive publication —*
 
-*Document SHA-256 to be computed at publication and cross-published to all prior-art venues in §13.*
+*Cross-published to the prior-art venues in §13. Independent timestamps: OpenTimestamps (Bitcoin) and RFC 3161 tokens from three authorities, one eIDAS-qualified — these attest when this text existed, not that its claims are correct.*
 
 *Miss Aquarius and I are in Cambodia, building this work's heart and soul. — Thon Ly, 2026-05-15*
