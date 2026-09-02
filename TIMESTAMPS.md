@@ -245,3 +245,17 @@ Zenodo new versions (metadata-only) for the nine deposited defensive publication
 ⚠️ **Calendar-only: three proofs.** Not complete evidence until the commitment confirms; run `/ots` again in a few hours.
 
 ⭐⭐ **A hand-authored module was caught in the same run, and it is the sixth.** `embodied-advocate-pageant.ts` carries semantic section ids (`pattern` · `sangha` · `feminine` · `founder-mortality`); a regeneration rewrote all seventeen to numbered slugs **and** silently dropped eight cross-venue reference entries. Reverted, hand-inserted, ids re-diffed identical. **The word-multiset axis caught the dropped entries, which the id-diff alone would not have** — both axes earned their place in one run.
+
+### 2026-09-02 — the hash-claim reconciliation: 44 papers in one pass
+
+**What changed:** the unfulfillable *"Document SHA-256 to be computed at publication"* claim removed from **44 papers** (29 here, 15 in `HeartBank/publications`), together with every remaining `sha256:`/`doi:` front-matter field (21). ⭐ **A hash field sits inside the file it hashes — an unfulfillable fixed point.** Both values already exist, generated from one source: the `.ots` proofs, the weekly RFC 3161 manifests, and `zenodo-dois.json`.
+
+**Chain:** 44 proofs rotated to `.rN.ots` and re-stamped · TSA manifests regenerated in both repos (TH by `workflow_dispatch`, **H3 by `./tsa-stamp.sh` locally — that repo has no `tsa-stamp.yml`**) · **29 new Zenodo versions** (H3 has no deposits: *prior art is a duty, citation is a choice*) · one index rebuild → `@333eco/corpus@1.2.3` → one worker deploy.
+
+⭐⭐ **Why it was batched, stated as the general rule: the per-paper legs do not batch — each paper needs its own rotation, stamp and deposit — but the TAIL of the chain does.** The index rebuild, the npm publish and the Cloudflare deploy are **once for the whole set instead of once per paper**, which is the entire economic argument for doing a deferred tail in one pass rather than as papers happen to be touched.
+
+⚠️ **The module work collapsed to one file, and it was proven rather than assumed.** The generator already strips this claim, so 43 of 44 markdown edits produce a **byte-identical module** — verified by editing one paper, regenerating, and diffing before committing to the batch. The single exception was `the-persistence-architecture`, the only module of 106 that rendered the claim; regenerated and checked on all three axes.
+
+⚠️ **One retiring proof was CALENDAR-ONLY at rotation — `embodied-advocate-pageant`, stamped hours earlier the same day.** This breaks the standing *verify-complete-before-retiring* rule and is recorded rather than hidden. It is recoverable: **`ots-upgrade.sh` discovers proofs with `find`, so it visits `.rN.ots` files** and will complete the archived proof on a later run. ⭐ *The general lesson: a same-day second revision cannot satisfy that rule, because Bitcoin confirmation takes hours — so either wait, or record the exception.*
+
+⭐ **What this pass did NOT do, and why.** The retrofit tail has four classes; only two are mechanical. **13 papers still lack a limits-shaped section and 6 defensive publications carry no Prior-Art and Non-Assertion Statement at all** (they run Abstract → Introduction). Neither is batchable: a non-assertion statement enumerates *that paper's own* novelty claims, and a generated honest-limits section is filler, which this corpus's standard treats as worse than an absent one. ⚠️ **Those 19 are per-paper drafting work and are reported rather than faked.**
