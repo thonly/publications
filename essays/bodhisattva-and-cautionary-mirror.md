@@ -6,6 +6,7 @@ date: 2026-05-26
 priority: tier-b
 status: draft
 license: CC-BY (author-voice essay)
+category: essays
 slug: bodhisattva-and-cautionary-mirror
 venue: thonly.org/publications/essays/bodhisattva-and-cautionary-mirror (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 ---

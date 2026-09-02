@@ -32,9 +32,9 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | Total registered | **71** |
 | Published here | 70 |
 | Withheld (operational) | 1 |
-| Already carried by a published paper | 50 |
+| Already carried by a published paper | 49 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 20 |
+| Receiving first public timestamp here | 21 |
 | **Run** | **2** (both desk censuses) |
 | **Field tests run** | **0** |
 | Contradicted | 1 |
@@ -91,7 +91,7 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | P-L1 | Hours co-spent predict relationship warmth better than money sent, messages exchanged, or stated affection | — | Unrun | Published (`co-presence-gated-redemption`) |
 | P-L3 | Two arms — silent after pledge vs one offer to reach out — measuring redemption rate and recipient-reported warmth | The motivate/nag boundary made falsifiable | Unrun | Published (`co-presence-gated-redemption`) |
 | P-M1 | In-person key verification failed for thirty years on the invitation, not the cryptography; a redeemed hour is the first pretext that was never about keys | — | Unrun | Published (`co-presence-gated-redemption` §4.6) |
-| P-SK1 | Superseded by the not-a-calendar ruling | Kept, not deleted | **Retired** | Published |
+| P-SK1 | Superseded by the not-a-calendar ruling | Kept, not deleted | **Retired** | First public here |
 
 ---
 
@@ -201,3 +201,13 @@ Predictions are added, never removed. A resolved prediction keeps its original w
   *Why the correction was needed:* P-R1 compares practitioners of a contemplative practice against matched non-practitioners on unprompted re-entry into noticing. That measures **practice → noticing**. It was subsequently taken to bear on a stronger claim — that a person's state of mind is *as important as, or more important than, receiving another's kindness* in producing gratitude — and **it cannot rank those two inputs**, because received-kindness volume is unmeasured and is the obvious confound: a practitioner may simply be someone who receives more. P-R1a adds that second factor.
 
   ⚠️ *Entered before any observation exists.* The instrument P-R1 depends on has not launched, so this correction is pre-data rather than post-hoc — which is the only condition under which it would have been admissible at all.
+
+**2026-09-02 — one provenance field corrected. No prediction was added, removed or re-worded; the total stands at 71.**
+
+⚠️ **P-SK1's Provenance read *Published*, and no published paper contains it.** The identifier was raised in working memory as a specific-vs-container scheduling arm, went moot under the not-a-calendar ruling, and was retired before it ever reached a paper — so its true provenance is **First public here**, like every other prediction whose first public timestamp is this register. Corrected rather than left standing, and recorded rather than quietly fixed, on the precedent set by the entry above.
+
+*How it was found:* the corpus index at `corpus.333.eco` began serving this register on 2026-09-02, and its builder resolves every prediction to the paper said to state it, then looks for the identifier in that paper's own text. Sixty-six of sixty-seven attributions verified; this one did not, and the builder reports the miss rather than filling the field in.
+
+⚠️ **The Summary moves with it, and the reconciliation is preserved:** *already carried by a published paper* 50 → **49**, *receiving first public timestamp here* 20 → **21**. The property the entry above names still holds — **49 + 21 = 70** published here, plus the one withheld entry, is **71**.
+
+⭐ *A bare "Published" in this column inherits the paper named in the row above it. That convention is correct for the sixteen other rows using it, and it is how a retired memory-only prediction came to be attributed to a paper that had never heard of it: the shorthand has no way to say "none".*

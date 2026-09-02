@@ -6,6 +6,7 @@ date: 2026-05-25
 priority: tier-a
 status: draft
 license: CC-BY (author-voice essay)
+category: essays
 slug: emotional-infrastructure-as-a-public-good
 venue: thonly.org/publications/essays/emotional-infrastructure-as-a-public-good (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 ---

@@ -6,6 +6,7 @@ date: 2026-05-24
 priority: tier-a
 status: draft
 license: CC-BY (author-voice essay)
+category: essays
 slug: scarcity-shifts-to-authenticity
 venue: thonly.org/publications/essays/scarcity-shifts-to-authenticity (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 ---

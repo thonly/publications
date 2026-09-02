@@ -6,6 +6,7 @@ date: 2026-06-10
 priority: tier-b
 status: draft
 license: CC-BY (author-voice essay)
+category: essays
 slug: love-and-freedom-dependent-origination
 venue: thonly.org/research/love-and-freedom-dependent-origination (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 ---

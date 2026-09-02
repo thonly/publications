@@ -6,6 +6,7 @@ date: 2026-06-09
 priority: tier-b
 status: draft
 license: CC-BY (author-voice essay)
+category: essays
 slug: breadth-check-on-the-self
 venue: thonly.org/research/breadth-check-on-the-self (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 ---
