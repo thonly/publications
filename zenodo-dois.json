@@ -172,12 +172,12 @@
  },
  "embodied-advocate-pageant": {
   "concept_doi": "10.5281/zenodo.21947318",
-  "deposition_id": 21947319,
-  "doi": "10.5281/zenodo.21947319",
+  "deposition_id": 22243051,
+  "doi": "10.5281/zenodo.22243051",
   "published": true,
   "sandbox": false,
-  "sha256": "5d8f0e5fa672dc183e8dce3387621936bda8492881be284d9c007f53884a4aae",
-  "url": "https://zenodo.org/records/21947319"
+  "sha256": "5a2ce01264d8c20909ceb73eb22fbb063abd386a197be0bd8e96afebbf84a36d",
+  "url": "https://zenodo.org/records/22243051"
  },
  "four-body-architecture": {
   "concept_doi": "10.5281/zenodo.21947323",
@@ -469,12 +469,12 @@
  },
  "the-gift-operation": {
   "concept_doi": "10.5281/zenodo.21947401",
-  "deposition_id": 21947402,
-  "doi": "10.5281/zenodo.21947402",
+  "deposition_id": 22243058,
+  "doi": "10.5281/zenodo.22243058",
   "published": true,
   "sandbox": false,
-  "sha256": "d7d8fcd3f6633760669bab97a95a8b0fe633d72b9a78bd7738035c2ab30cf807",
-  "url": "https://zenodo.org/records/21947402"
+  "sha256": "4a756e64b5d6f01bbf6312003ed1af5833c9a77fdf9a44c6054812c6fd8b150a",
+  "url": "https://zenodo.org/records/22243058"
  },
  "the-omitted-clause": {
   "concept_doi": "10.5281/zenodo.21947406",
@@ -496,12 +496,12 @@
  },
  "the-referee-not-the-governor": {
   "concept_doi": "10.5281/zenodo.22123174",
-  "deposition_id": 22123430,
-  "doi": "10.5281/zenodo.22123430",
+  "deposition_id": 22243059,
+  "doi": "10.5281/zenodo.22243059",
   "published": true,
   "sandbox": false,
-  "sha256": "1184b0f3e5408a504c60be2d542b551df1c22facedfe18bb9a689bb50a9cc3fe",
-  "url": "https://zenodo.org/records/22123430"
+  "sha256": "8baf6cdb9bee8f3b6bf252c8c3d0f667576a92d9a4696fdc9cbf8f238d267db9",
+  "url": "https://zenodo.org/records/22243059"
  },
  "the-rethank-multiplier": {
   "concept_doi": "10.5281/zenodo.21947410",

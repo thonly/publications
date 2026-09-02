@@ -228,3 +228,20 @@ Zenodo new versions (metadata-only) for the nine deposited defensive publication
 ⚠️ **Recorded because it will recur: the two sessions raced on the same file.** `stamp-new.sh` had already written `rotation-over-liveness.md.ots` when this session's own `ots stamp` ran, which failed with `File exists` — **and the failure was harmless only because the proof that won commits to the identical bytes**, verified by comparing `ots info` against `shasum -a 256`. **Always verify the hash a proof commits to rather than trusting that your own stamp is the one on disk.**
 
 ⚠️ **Watch the deposit script's default scope.** `zenodo-deposit.py` with no `--only`/`--dir` scans **defensive-publications, essays and program**, and a dry run for `the-appreciation-economy` reported *"1 new"* — i.e. **an unscoped `--create --publish` would mint DOIs for essays, which the publication posture forbids.** The rule currently holds only because every run has been scoped by hand (verified this run: **zero essays hold a Zenodo record**). *A posture maintained by remembering to pass a flag is a rule, not a property.*
+
+### 2026-09-01 — three enrichments, three legs run as one op
+
+| File | Proof | SHA-256 | Note |
+|---|---|---|---|
+| `the-gift-operation` | `.r1.ots` | `d7d8fcd3…` | The pre-2026-09-01 text. Verified **Bitcoin-complete (3 attestations) before retiring** — an incomplete proof archived is an incomplete proof forgotten. |
+| `the-gift-operation` | `.ots` | `4a756e64…f01b` | **§4.4 added — redistribution moves value TO a person, circulation moves it THROUGH one.** The corpus stated this only from the creator-economy side in `patronage-not-charity`; nothing said it from the Treasury side. Also drops the `sha256:` front-matter field. **DOI `10.5281/zenodo.22243058`.** |
+| `the-referee-not-the-governor` | `.r2.ots` | `1184b0f3…` | The pre-2026-09-01 text (its `.r1` holds the earlier revision). Bitcoin-complete (4 attestations). |
+| `the-referee-not-the-governor` | `.ots` | `8baf6cdb…8f3b` | **§7.1 added — what an evaluator owes the community whose standard it borrows.** Never grade the humans; a high score proves recall, not understanding; failure pre-committed as the useful outcome; papers by permission. Also drops `sha256:`. **DOI `10.5281/zenodo.22243059`.** |
+| `embodied-advocate-pageant` | `.r1.ots` | `5d8f0e5f…` | The pre-2026-09-01 text. Bitcoin-complete (3 attestations). |
+| `embodied-advocate-pageant` | `.ots` | `5a2ce012…c209` | **§12.1 added — no founder-return confers standing.** The A14 clause, verified absent before writing. **DOI `10.5281/zenodo.22243051`.** |
+
+⭐ **The TSA leg was dispatched by hand rather than waited for, and the reason is worth keeping.** The weekly manifest had already run at 19:28; the text landed at 20:54. **A manifest that predates the change attests the superseded text and looks exactly like one that does not** — the same shape as an unrotated `.ots`, one leg over. Checked by comparing each paper's manifest hash against the working tree (all three differed), then `gh workflow run tsa-stamp.yml`. ⚠️ **After any same-day text change, check the latest manifest's hashes rather than its date.**
+
+⚠️ **Calendar-only: three proofs.** Not complete evidence until the commitment confirms; run `/ots` again in a few hours.
+
+⭐⭐ **A hand-authored module was caught in the same run, and it is the sixth.** `embodied-advocate-pageant.ts` carries semantic section ids (`pattern` · `sangha` · `feminine` · `founder-mortality`); a regeneration rewrote all seventeen to numbered slugs **and** silently dropped eight cross-venue reference entries. Reverted, hand-inserted, ids re-diffed identical. **The word-multiset axis caught the dropped entries, which the id-diff alone would not have** — both axes earned their place in one run.
