@@ -195,9 +195,11 @@ Plotted as a 2×2, the two axes form four legible quadrants:
 | | Low received | High received |
 |---|---|---|
 | **High given** | Quiet giver | Network anchor |
-| **Low given** | Latent / new | Charismatic non-honorer |
+| **Low given** | Latent / new | ⛔ *(withdrawn — see below)* |
 
-The dual ledger is the *transparency-as-enforcement* pattern applied to time. There is no contract, no penalty mechanism, no platform enforcement. The visible quadrant *is* the enforcement: a "charismatic non-honorer" is publicly visible as such, and that visibility shapes future participant decisions about whether to thank that person with their hours.
+⛔ **AMENDED 2026-09-02 — the fourth quadrant is WITHDRAWN, and with it the enforcement mechanism this section originally claimed.** The text formerly read that the low-given/high-received quadrant named a *"charismatic non-honorer"* who is *"publicly visible as such,"* and that the visibility is the enforcement. That is retracted: the quadrant renders the gap between what a participant received and what they delivered, and **a rendered absence is an accusation**. The full argument, with the general condition it produced, is in the corpus's *Transparency as Enforcement* §3.2 and §4.4 — briefly, transparency-as-enforcement presupposes an obligation, and a gift creates none, so displaying the gap does not report a shortfall but **manufactures** one.
+
+What survives is the ledger's positive content: a participant's **time given** and **time received** are each legible, and the axes are retained above for that reason. What is never computed for display is the difference between them. Enforcement is carried instead by **expiry** — an activated hour dies unredeemed after one month, with no display and no audience — and by the giver's free refusal to pledge again; the mechanism is specified in *The Currency That Cannot Be Spent Alone* §7.2. The institution loses no enforcement by the withdrawal, because expiry was already doing the work.
 
 ---
 
@@ -228,7 +230,7 @@ When activated time expires unredeemed, the value does not vanish. It converts t
 
 ### 7.3 Dual ledger across both products
 
-A participant's public profile shows both the time-side dual ledger and the money-side gratitude flow. The combined picture is the cross-currency reputation. A participant who is a generous money-side giver but a chronic time-side non-honorer is visibly that complex pattern; a participant who reliably honors time-redemptions but rarely contributes money is visibly that pattern. The ledger does not editorialize; it shows.
+A participant's public profile shows both the time-side dual ledger and the money-side gratitude flow. The combined picture is the cross-currency reputation. A participant who gives generously on the money side and delivers many hours is visibly that pattern; one who does little of either is visibly that. ⚠️ **Amended 2026-09-02:** this passage formerly characterised a *"chronic time-side non-honorer,"* which the withdrawal above removes — the profile shows what a participant has given and received in each currency and never the shortfall between them. The ledger does not editorialize; it shows, and what it shows is presence rather than absence.
 
 ---
 
@@ -275,7 +277,7 @@ Three regulatory pressures are foreseeable:
 
 1. **Income imputation.** Tax authorities may eventually argue that delivered time-credits constitute imputed income. The architectural response: time-credits are *not* transferable tokens with market value; they are personal records of completed activities between named individuals. The closest analogue is a friend helping a friend move; tax authorities do not currently impute income to such transactions. The architecture is designed to preserve that legal analogy.
 
-2. **Consumer protection.** Regulators may argue that participants who deliver time without receiving it back (the *charismatic non-honorer's* recipients) have been wronged. The architectural response: the dual ledger is the consumer-protection surface; there is no platform-mediated promise the participant relied on, only the public reputation of the counter-party. Participants are informed of this design.
+2. **Consumer protection.** Regulators may argue that participants who deliver time without receiving it back have been wronged. ⚠️ **The architectural response is amended 2026-09-02, because its first leg was withdrawn above.** It formerly rested on the dual ledger being *"the consumer-protection surface."* It now rests on two legs that were always the stronger ones: **there is no platform-mediated promise a participant relied on** — a pledge is a gift, not an instrument, and the design says so on its face — and **the exposure is bounded by expiry**, since an activated hour dies after one month and no participant can accumulate an unbounded claim against another. Participants are informed of both. ⭐ The withdrawal in fact *improves* this answer: a consumer-protection argument that depended on publicly displaying a counter-party's shortfall was asserting a reliance interest the design elsewhere denies exists.
 
 3. **AI-recommendation liability.** Regulators may argue that Miss Aquarius's recommendation creates a fiduciary relationship. The architectural response: the band-clamp pattern, the open governance of clamp values, and the explicit disclaimers in the recommendation UI are the structural answer; the recommendation is *informational*, not directive, and the institutional governance owns the clamp boundaries.
 
