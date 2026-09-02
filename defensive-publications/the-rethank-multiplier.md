@@ -11,7 +11,6 @@ slug: the-rethank-multiplier
 venue: thonly.org/publications/defensive-publications/the-rethank-multiplier (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/the-rethank-multiplier.md
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Re-Tip Fund℠, Miss Aquarius℠) reserved separately by the author and HeartBank®.
-sha256: to be computed at publication
 ---
 
 > **Working draft.** This paper's central reframe was sharpened by a single first-month pilot observation (n = 1 family) but does not rest on it; the pilot is reported as one illuminating signal (§8). The throughput arithmetic is true by construction; the empirical claim — that re-thanking sustains a high per-person rate where origination does not — is supported by one household and is flagged as such. Offered for testing, not claimed as an empirical result.
@@ -31,6 +30,22 @@ This paper specifies the move that escapes the ceiling without breaking it, and 
 ## Prior-Art and Non-Assertion Statement
 
 This is a **defensive publication**. The author asserts no patent and dedicates the patterns to the public domain under CC0 1.0. The contribution is a framing plus a composition of known parts; the abundant prior art (engagement-asymmetry research, two-sided-market and conversion-funnel economics, Hashcash-style proof-of-cost anti-spam, sybil- and collusion-resistance graph methods, the Buddhist *anumodanā* tradition) is cited generously in §9, and novelty is claimed only for the specific composition and framing identified in §10. Trademarks are reserved separately and the patterns may be implemented under any name.
+
+---
+
+## Claims
+
+*Enumerated 2026-09-01. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+
+1. **Separation of gratitude origination from re-thanking as distinct rate-limited operations** — treating the act of originating a gratitude record (scanning one's own life for something thank-worthy) and the act of re-thanking an existing record (affirming one surfaced by another party) as operations with different per-person ceilings, the first inelastic and human-sized, the second reactive and far higher.
+
+2. **Throughput scaling decoupled from the per-human origination ceiling** — a network in which total value-bearing events scale with the square of participants while each participant's *originations* remain bounded, achieved by admitting the reactive operation as a first-class value-bearing act rather than as a free social signal.
+
+3. **The conversion-funnel comparison as the correct frame for a gratitude network's throughput** — comparing a low-origination, high-response economy against a high-query, low-conversion one on total funnel-completing events rather than on interaction frequency, which is a category error in the direction that makes the gratitude network look non-viable.
+
+4. **The value-bearing re-thank as simultaneously the volume engine and the anti-farming control** — requiring that a re-thank draw from the re-thanker's own bounded budget, so that the operation which supplies throughput is the same operation whose attached scarcity bounds abuse, rather than adding a separate fraud layer over a free signal.
+
+5. **Not-solo-farmable as the precise security property, with collusion left graph-detectable** — the claim that a human-gated, budget-bounded re-thank cannot be inflated by a single actor and can be inflated only by a collusion ring, whose reciprocal density is detectable in the participation graph. ⚠️ *Raised in cost and made detectable, not eliminated.*
 
 ---
 

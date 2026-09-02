@@ -11,7 +11,6 @@ slug: multi-family-membership
 venue: thonly.org/publications/defensive-publications/multi-family-membership (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/multi-family-membership.md
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Family Kitty℠, Personal Account℠, Aquarian Pool℠, Miss Aquarius℠) reserved separately by the author and HeartBank®.
-sha256: to be computed at publication
 ---
 
 > **Working draft.** This paper specifies a data-model decision and its consequences; it is a design specification offered as prior art. The membership-breadth governance question is resolved as a deliberately conservative default (§8) rather than a final rule, and is flagged as data-gated.
@@ -29,6 +28,24 @@ A gratitude economy organized around **family banks** — each a household-scale
 ## Prior-Art and Non-Assertion Statement
 
 This is a **defensive publication**. The author asserts no patent and dedicates the patterns to the public domain under CC0 1.0. The contribution is a data-model framing — user-scoped identity with plural group membership is utterly ordinary in software — applied to a specific architecture to resolve two specific problems. Prior art is acknowledged in §9; novelty is claimed only for the composition and the specific resolutions of §10. Trademarks are reserved separately; the patterns may be implemented under any name.
+
+## Claims
+
+*Enumerated 2026-09-01. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+
+1. **User-scoped identity with plural family membership as one correction to two distinct failures** — treating identity as belonging to the verified person rather than to a group, with membership as a set of edges, such that the same structural change both de-risks steward succession and dissolves most of the unbanked-reach problem.
+
+2. **The civic tier as the global layer of an existing fractal rather than a separate institution** — reaching participants with no local group by treating the outermost layer of the already-specified nested architecture as their default membership, with admission-gated local groups as an on-ramp, instead of building a parallel institution staffed by vetted strangers.
+
+3. **Per-human capacity metering, not per-membership** — metering an individual's granted capacity to give against their verified-person identity and letting it spread across every membership they hold, so that joining additional groups multiplies neither reward nor extraction. *The load-bearing invariant: without it, plural membership is a harvest multiplier.*
+
+4. **The non-conduit constraint on plural members** — barring a person holding multiple memberships from acting as a settlement path between two groups' shared pools, so that plural membership adds participation without creating inter-group value transfer through an individual.
+
+5. **Admission-gating as the anti-sybil control for plural membership** — placing the join decision with the receiving group rather than with the joiner, so that breadth of membership is bounded by others' willingness to admit rather than by the joiner's willingness to enrol.
+
+6. **Data-gated breadth damping** — shipping no cap on membership count by default while specifying in advance the lever that would damp it and the observation that would justify pulling it, rather than either capping pre-emptively or leaving the response undesigned.
+
+---
 
 ## 1. The single-family assumption and the two problems it creates
 
