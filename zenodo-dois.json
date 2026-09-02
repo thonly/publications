@@ -298,12 +298,12 @@
  },
  "multi-family-membership": {
   "concept_doi": "10.5281/zenodo.21947358",
-  "deposition_id": 21947359,
-  "doi": "10.5281/zenodo.21947359",
+  "deposition_id": 22244417,
+  "doi": "10.5281/zenodo.22244417",
   "published": true,
   "sandbox": false,
-  "sha256": "8fabc57bc7c56001011048ff619fbf84f660464fe1b919df87bf34f0600c6930",
-  "url": "https://zenodo.org/records/21947359"
+  "sha256": "89e01f3b16b79f5f6e2ec88dea750b5816a293314f2df6da6d786c28387bbf11",
+  "url": "https://zenodo.org/records/22244417"
  },
  "need-compiled-questlines": {
   "concept_doi": "10.5281/zenodo.21947360",
@@ -505,12 +505,12 @@
  },
  "the-rethank-multiplier": {
   "concept_doi": "10.5281/zenodo.21947410",
-  "deposition_id": 21947411,
-  "doi": "10.5281/zenodo.21947411",
+  "deposition_id": 22244420,
+  "doi": "10.5281/zenodo.22244420",
   "published": true,
   "sandbox": false,
-  "sha256": "72a7574aa7bd236cf6b8878565cad1a02339f5a89d7a404689a337943e3cc42b",
-  "url": "https://zenodo.org/records/21947411"
+  "sha256": "38d047016d02f8b3ab447d5fd80b98211e08682a7c46b086cc6a416bdae0bf01",
+  "url": "https://zenodo.org/records/22244420"
  },
  "the-sport-that-says-your-name": {
   "concept_doi": "10.5281/zenodo.21947412",
