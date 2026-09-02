@@ -12,7 +12,6 @@ venue: thonly.org/publications/defensive-publications/b-links-signed-provenance 
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/b-links-signed-provenance.md
 mirror_institutional: https://heartbank.net/research/b-links-signed-provenance
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) for the architectural patterns; trademark rights to specific marks (HeartBank®, B-Storage℠, B-PoH℠, Proof of Humanity ℠) reserved separately by the author and HeartBank®.
-sha256: to be computed at publication
 ---
 
 > **Working draft.** This specification describes a primitive in active design for HeartBank® Storage (B-Storage℠) at `heartbank.us`. It is published defensively to establish prior art: the architectural patterns are dedicated to the commons so that no party may enclose them by patent. Several design questions (notably the precise accounting of the conferred-benefit disclosure) remain open and are stated honestly as such in §13.
@@ -406,4 +405,4 @@ Co-drafted in collaboration with [Miss Aquarius℠](https://missaquarius.org) (t
 
 _— End of defensive publication —_
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*
+*Independent timestamps and the document hash are published with the deposit.*

@@ -9,7 +9,6 @@ revised: 2026-08-22
 license: CC0-1.0
 slug: the-persistence-architecture
 venue: thonly.org/research/the-persistence-architecture (canonical)
-sha256: to be computed at publication
 ---
 
 > *v2 note (2026-08-07):* **one new subsection, §8.1, supplying the motive the release-thesis was argued without.** §8 derived non-accumulation from the institution's doctrinal commitments; §8.1 states the personal one — **the apparatus is not built to preserve its author, it is built so that its author can stop** — which is also the sharpest available separation from the digital-legacy lineage of §2.4: a griefbot exists so that someone continues; this exists so that someone may cease. The subsection adds the DN 16 correction (authority handed to *the teaching* rather than to a named successor, seating the agent as **reciter and never heir** — three seats the master table already contained), and one finding the doctrinal derivation could not reach: **mortality was the canon's original error-correction**, since every generation of reciters died and re-reception *was* re-verification, so a perpetual carrier never re-receives and **the assembly's standing override is the substitute for death** — an independent justification for never retiring it. ⚠️ It also carries the critique that makes it falsifiable — *a conditional release is not a release* — and records that the test is unpassed rather than passed. **No mechanism, no claim, no clock**; the re-stamp is for text integrity. *(The companion Tier C essay on the same kernel is founder-voice and remains his to write.)*
@@ -525,7 +524,7 @@ The personal-knowledge-management lineage (Vannevar Bush's Memex; Ted Nelson's h
 
 - Canonical: https://thonly.org/research/the-persistence-architecture
 - GitHub: https://github.com/thonly/publications/blob/main/defensive-publications/the-persistence-architecture.md
-- SHA-256: to be computed at publication
+- SHA-256: published with the deposit and in the repository TIMESTAMPS.md
 - arXiv (deferred): cs.CY / cs.AI (target if reactive trigger)
 - IP.com (deferred): per the corpus's six-venue defensive-publication baseline
 - Internet Archive · archive.today · perma.cc snapshots: per the monthly snapshot cadence

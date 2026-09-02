@@ -338,4 +338,4 @@ The author acknowledges the Coinbase / Base infrastructure team for the L2 subst
 
 *— End of position paper —*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues. Document License: CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof. The marks identified herein are separately reserved per the §Prior-Art statement. This document constitutes a defensive publication establishing prior art as of the publication date.*
+*Independent timestamps and the document hash are published with the deposit. Document License: CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof. The marks identified herein are separately reserved per the §Prior-Art statement. This document constitutes a defensive publication establishing prior art as of the publication date.*

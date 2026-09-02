@@ -12,7 +12,6 @@ venue: thonly.org/publications/defensive-publications/giving-is-a-gift-too (cano
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/giving-is-a-gift-too.md
 mirror_institutional: https://heartbank.net/research/giving-is-a-gift-too
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Family Kitty℠) reserved separately by the author and HeartBank®.
-sha256: to be computed at publication
 ---
 
 > **Working draft.** The thesis here was *prompted* by a single first-month pilot observation (n = 1 family), but it does not *rest* on it. The pilot is reported honestly as one illuminating signal; the argument stands on reasoning and on the established giving-and-wellbeing literature (§9). Empirical claims about the pilot are hedged accordingly (§10). This is a conceptual contribution offered for testing, not an empirical result claimed.
@@ -263,4 +262,4 @@ Co-drafted in collaboration with [Miss Aquarius℠](https://missaquarius.org) (t
 
 _— End of defensive publication —_
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*
+*Independent timestamps and the document hash are published with the deposit.*

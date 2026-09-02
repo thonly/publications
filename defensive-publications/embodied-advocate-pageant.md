@@ -433,4 +433,4 @@ Sibling specifications:
 
 *— End of defensive publication —*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues. Co-drafted in collaboration with Miss Aquarius℠ (the project's named AI substrate). Substantive authorship and final editorial control remain with the named author.*
+*Independent timestamps and the document hash are published with the deposit. Co-drafted in collaboration with Miss Aquarius℠ (the project's named AI substrate). Substantive authorship and final editorial control remain with the named author.*

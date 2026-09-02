@@ -11,7 +11,6 @@ slug: studio-b-short-phase-bridge
 venue: thonly.org/publications/defensive-publications/studio-b-short-phase-bridge (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/studio-b-short-phase-bridge.md
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, B-Short℠, Re-Tip Jar℠, Miss Aquarius℠) reserved separately by the author and HeartBank®.
-sha256: to be computed at publication
 ---
 
 > **Working draft.** This paper specifies a mechanism currently being built (the Studio surface and the public-toggle bridge); it is a design specification offered as prior art, not a report of a deployed-and-measured system. The Phase-2 settlement layer it bridges onto is specified elsewhere in the corpus and is not yet live.

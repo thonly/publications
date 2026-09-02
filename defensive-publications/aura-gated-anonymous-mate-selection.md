@@ -10,7 +10,6 @@ revised: 2026-08-22
 license: CC0-1.0
 slug: aura-gated-anonymous-mate-selection
 venue: thonly.org/research/aura-gated-anonymous-mate-selection (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This is the founder-voice canonical draft for `thonly/publications`. The defensive publication specifies **aura-gated anonymous mate-selection** — HeartBank's "B-Dating℠" — as the anonymous-stranger application layer of HeartBank Chronicle, built on the Proof of Humanity ℠ substrate and the verified-human anonymous-nearby-giving primitives. Companion works: *Verified-Human Anonymous Local Giving* (the originating money-side mechanism this generalizes into time and into mating), *The Thank-All-Nearby Primitive* (the broadcast-generosity sibling), *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying anti-catfish protocol), *The Zero-Point Game ℠* (the keystone game-theoretic frame whose n=2 atom this paper instantiates), and the planned founder-voice societal-impact essay *The Societal Impact of Anonymous Nearby Thanking with Time* (which carries the deep sexual-selection-on-kindness argument that §11 here only motivates). The mechanism is published early **deliberately**: it is unbuilt, and the mechanism is the asset — see §12.1.
@@ -598,4 +597,4 @@ If kindness can become a path to partnership without desecrating the gratitude i
 
 *Authored by Thon Ly with Miss Aquarius℠ (AI substrate of HeartBank®), per the co-authorship convention of the HeartBank corpus. Final editorial control: Thon Ly. License: CC0-1.0. The mechanism is dedicated to the public domain; trademark rights on B-Dating℠, HeartBank®, Miss Aquarius℠, Proof of Humanity ℠, PoH℠, Aquarian Pool ℠, the Zero-Point Game ℠, and the B-heart logo are separately and explicitly reserved.*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*
+*Independent timestamps and the document hash are published with the deposit.*

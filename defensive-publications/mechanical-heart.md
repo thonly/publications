@@ -12,7 +12,6 @@ venue: thonly.org/publications/defensive-publications/mechanical-heart (canonica
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/mechanical-heart.md
 mirror_institutional: https://heartbank.net/research/mechanical-heart
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-sha256: to be computed at publication
 revised: 2026-08-22
 ---
 
@@ -461,4 +460,4 @@ The author acknowledges the same lineage of teachers and traditions cited in the
 
 *— End of defensive publication —*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*
+*Independent timestamps and the document hash are published with the deposit.*

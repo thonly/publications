@@ -9,7 +9,6 @@ date: 2026-07-01
 license: CC0-1.0
 slug: proof-of-coordinate
 venue: thonly.org/research/proof-of-coordinate (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This is the founder-voice canonical draft for `thonly/publications`. The defensive publication specifies **Proof of Coordinate ℠** (**PoC℠**) — the individuation primitive of the HeartBank® identity stack, orthogonal to and composing with **Proof of Humanity ℠** (**PoH℠**). It is published deliberately at the design stage, ahead of any product disclosure, because the identity-primitive space is unusually patent-active and the *combination* specified here — a universal two-artifact identity root spanning humans and machines, with the given-versus-assigned provenance line hard-coded as an alignment constraint — is the asset (see §11.1). Companion works: *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the category proof this primitive composes with), *The Persistence Architecture* (the succession apparatus whose nodes this primitive anchors), *Gratitude as a Cooperation Substrate for Multi-Agent AI* (the agent economy whose accountability this primitive supplies), *Multi-Family Membership* (the PoH-rooted plural-membership identity model), and *The Cosmic-Coordinate Worldview* material carried in the longitudinal-cohort methodology (the philosophical ground of the word "coordinate").

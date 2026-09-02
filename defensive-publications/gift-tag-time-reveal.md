@@ -10,7 +10,6 @@ revised: 2026-08-26
 license: CC0-1.0
 slug: gift-tag-time-reveal
 venue: thonly.org/research/gift-tag-time-reveal (canonical)
-sha256: to be computed at publication
 ---
 
 > *v2 note (2026-08-26):* **one new subsection, §4.10, and no new claim.** Everything the paper described was a tag riding a wrapped present; §4.10 specifies the configuration in which **the tag is given alone and the pledge of time is itself the gift** — the receiver choosing the surface it lives on, which extends §4.4's inversion one step further back. Two engineering consequences are stated because both are easy to get wrong: **the opened state must persist across many scans** (*one-time-use* has always meant one gift, never one scan) and **the adhesive is a different material specification**. The standing-reminder risk is answered by direction rather than policy — **the tag reminds its holder of what they may claim, never its giver of what they owe** — under two guards, of which the second is a refusal: **the object does not act, and never notifies the giver**. **No numbered claim changes and no prior-art clock starts.**

@@ -9,7 +9,6 @@ date: 2026-07-02
 license: CC0-1.0
 slug: the-omitted-clause
 venue: thonly.org/research/the-omitted-clause (canonical)
-sha256: to be computed at publication
 ---
 
 > *v2 note (2026-08-07):* **one new subsection and one added calibration clause, both answering an objection the first version left standing.** §6 argued that Cambodia ran the cascade's complete trace and that the survivors' vow held — and a reader who knows the region will immediately ask why, if the vow held, the country is now a global centre of industrialised online fraud. **New §6.1 answers it structurally rather than cosmically**: the cascade's tail outlasts the sword-interval, because what the interval destroys is the apparatus that names theft as theft, and the clause was never installed afterward — producing a form DN 26 has no term for, *theft industrialised, foreign-capitalised, and aimed outward*, on the reasoning that a low-capacity jurisdiction is a jurisdiction that can be rented. **New §7.2a** adds the calibration clause the new section forces, on the founder's question itself. **No claim is amended and no new mechanism is introduced** — this is argument, not specification, so no prior-art clock runs from this push; the re-stamp is for text integrity only. ⚠️ Two constraints govern §6.1 and are stated inside it: the analysis is about **a jurisdiction, never a national character**, and the Cambodian state is **not** treated as inert, the record since 2024 being extensive and cited.

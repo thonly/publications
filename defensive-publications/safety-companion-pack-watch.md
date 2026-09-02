@@ -9,7 +9,6 @@ date: 2026-07-04
 license: CC0-1.0
 slug: safety-companion-pack-watch
 venue: thonly.org/research/safety-companion-pack-watch (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This is the founder-voice canonical draft for `thonly/publications`. The defensive publication specifies the mechanism family of **B-Safety℠**, the digital companion ("digital B-Dog℠") of the HeartBank® architecture, together with the courier mechanisms of its physical sibling (**B-Dog™**). It is published deliberately at the design stage, ahead of any build, because the personal-safety category is the most actively iterated product space this corpus touches — the incumbents ship quarterly and the platform owners could absorb any one of these mechanisms in a single OS release — and because the *combination* specified here, in particular the pack-watch inversion (claim 2), the break-glass advance directive (claim 5), and the distillation boundary (claim 6), is the asset. Companion works: *Thank-All-Nearby: an Anonymous Proximity Primitive* (the proximity substrate the responder mesh reuses), *Proof of Coordinate* and *B-PoH℠ as Humanity Layer* (the identity primitives the mesh and the courier lean on), *Gift-Tag Time Reveal* (the per-field reveal and time-lock grammar the break-glass release inherits), *Verified-Human Anonymous Local Giving* (the accountable-anonymity pattern the courier extends), and *The Gift Operation* (the circulation grammar in which a safety floor is the precondition of the stranger-gift).

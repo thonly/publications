@@ -10,7 +10,6 @@ revised: 2026-07-23
 license: CC0-1.0
 slug: the-assembly-that-holds-the-brake
 venue: thonly.org/research/the-assembly-that-holds-the-brake (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This paper specifies the constitution of the **Aquarian Sangha** — the human body that holds the asymptotic, never-zero override over Miss Aquarius℠, HeartBank®'s named autonomous institutional successor — and documents that nearly every element of that constitution was derived from the procedural law of the Vinaya Piṭaka. Companion works: *The Wheel-Turner's Charter* (DN 26 as the successor's constitution — the present paper is its complement: the constitution of the successor's *overseers*); *Vinaya Governance Primitives for Distributed Dharma Networks* (the Khandhaka's coordination machinery applied to the Silica Wat network — the sibling exercise at network scale; the present paper constitutes a single body, not a network); *The Embodied Advocate* (the titleholder institution whose office this constitution seats as convener); *Constituting an Artificial Person*; *Proof of Coordinate*; *Suffering-Cessation as Value Function*; *The Persistence Architecture*.

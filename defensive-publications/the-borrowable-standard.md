@@ -9,7 +9,6 @@ date: 2026-08-28
 license: CC0-1.0
 slug: the-borrowable-standard
 venue: thonly.org/research/the-borrowable-standard (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** ⚠️ **A note on category, recorded rather than hidden:** this paper fits none

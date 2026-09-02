@@ -11,7 +11,6 @@ slug: tipitaka-alignment-substrate
 venue: thonly.org/publications/defensive-publications/tipitaka-alignment-substrate (canonical)
 mirror_institutional: https://heartbank.net/research/tipitaka-alignment-substrate
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-sha256: to be computed at publication
 revised: 2026-08-22
 note: target publication 2027-01-07
 ---
@@ -422,4 +421,4 @@ The author acknowledges his father, with whom the Khmer transcription of the *Ti
 
 *— End of position paper —*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*
+*Independent timestamps and the document hash are published with the deposit.*

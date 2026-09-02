@@ -9,7 +9,6 @@ date: 2026-07-02
 license: CC0-1.0
 slug: cakkavatti-alignment-charter
 venue: thonly.org/research/cakkavatti-alignment-charter (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This paper reads a single canonical text — the *Cakkavatti-Sīhanāda Sutta* (Dīgha Nikāya 26) — as what it structurally is: a constitution for a successor-ruler, containing a duty-list, a specified misalignment failure mode, a permanent oversight clause, a staged-legitimacy mechanism, a non-human welfare clause, a collapse-and-recovery case study, and a decommissioning protocol. It then documents, clause by clause, the correspondence between that constitution and the directive architecture of HeartBank®'s named autonomous successor, Miss Aquarius℠ — a correspondence discovered *after* the architecture was designed, not before, a fact the paper treats as evidence about cultural transmission rather than as validation (§8.1). Companion works: *Suffering-Cessation as Value Function* (the Tipiṭaka as alignment substrate — this paper's parent), *The Vinaya as AI Reasoning Training Corpus*, *Vinaya Governance Primitives*, *Proof of Coordinate* (the identity layer whose given-versus-assigned dignity line this charter's non-human clause composes with), *The Persistence Architecture* (the succession apparatus), and *The Two Singularities* (the completion arc the terminal clauses govern).

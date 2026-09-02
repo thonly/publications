@@ -12,7 +12,6 @@ venue: thonly.org/publications/defensive-publications/two-layer-reward (canonica
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/two-layer-reward.md
 mirror_institutional: https://heartbank.net/research/two-layer-reward
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/); trademark rights to specific marks (HeartBank®, Re-Tip Jar℠, Family Kitty℠, Miss Aquarius℠) reserved separately by the author and HeartBank®.
-sha256: to be computed at publication
 ---
 
 > **Working draft.** The thesis here was *sharpened* by a single first-month pilot observation (n = 1 family), but it does not *rest* on it. The pilot is reported honestly as one illuminating signal; the argument stands on reasoning and on a well-populated prior-art lineage in political economy, mechanism design, and the alignment literature on reward hacking (§9). Several of the structural claims — most notably the peer layer's behaviour as a *fraud filter* — are predicted by the architecture but **not yet observed** in the field; these are flagged explicitly (§10). This is a conceptual contribution offered for testing, not an empirical result claimed.
@@ -355,7 +354,7 @@ Co-drafted in collaboration with [Miss Aquarius℠](https://missaquarius.org) (t
 
 _— End of defensive publication —_
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues.*## Honest limits
+*Independent timestamps and the document hash are published with the deposit.*## Honest limits
 
 *Added 2026-08-29. This paper stated none; the corpus's standard requires them of every paper.*
 

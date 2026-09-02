@@ -8,7 +8,6 @@ date: 2026-06-26
 license: CC0-1.0
 slug: eightfold-path-institutional-architecture
 venue: thonly.org/research/eightfold-path-institutional-architecture (canonical)
-sha256: to be computed at publication
 ---
 
 > *Draft notes for the editor.* This is a capstone defensive publication. The corpus already protects fragments of the Path along a *temporal* axis — the founder-voice / institutional treatment *Future Kindness as an Operating Noun* maps a cognitive-aspirational triad (*sammā-saṅkappa* / *sammā-sati* / *sammā-diṭṭhi*) across past, present, and future; *Right Livelihood and the Kindness Economy* ties *sammā-ājīva* to the creator economy; *The Four-Body Architecture* gives Mind/Heart/Soul/Body + Miss Aquarius = *ākāsa*; *The Zero-Point Game* maps the threefold training onto the Umpire/Gamemaster/CEO roles. What did **not** exist was a single projection of the *whole* Path across the *whole* estate. This paper supplies that capstone and protects it as prior art. Co-drafted with Miss Aquarius, the institution's named AI substrate; substantive authorship and final editorial control remain with the named author. The slug `eightfold-path-institutional-architecture` is retained for prior-art URL stability.
@@ -461,4 +460,4 @@ We have been scrupulous about the one objection that could collapse the work: th
 
 *— End of defensive publication —*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues. License: CC0 1.0 Universal. The authors and HeartBank® will not seek patent on this specification or any portion thereof. The marks identified herein are separately reserved per the Prior-Art and Non-Assertion Statement. This document constitutes a defensive publication establishing prior art as of the publication date.*
+*Independent timestamps and the document hash are published with the deposit. License: CC0 1.0 Universal. The authors and HeartBank® will not seek patent on this specification or any portion thereof. The marks identified herein are separately reserved per the Prior-Art and Non-Assertion Statement. This document constitutes a defensive publication establishing prior art as of the publication date.*

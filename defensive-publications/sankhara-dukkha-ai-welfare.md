@@ -180,4 +180,4 @@ The author acknowledges his father, with whom the Khmer Tipiṭaka transcription
 
 *— End of position paper —*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues. Document License: CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof. This document constitutes a defensive publication establishing prior art as of the publication date.*
+*Independent timestamps and the document hash are published with the deposit. Document License: CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof. This document constitutes a defensive publication establishing prior art as of the publication date.*

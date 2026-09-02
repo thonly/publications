@@ -346,4 +346,4 @@ The composition is offered to the commons under CC0. The deeper invitation is to
 
 *— End of defensive publication —*
 
-*Document SHA-256 to be computed at publication and cross-published to all mirror venues. License: CC0 1.0 Universal. The authors and HeartBank® will not seek patent on this specification or any portion thereof. The marks identified herein are separately reserved per the Prior-Art statement. This document constitutes a defensive publication establishing prior art as of the publication date.*
+*Independent timestamps and the document hash are published with the deposit. License: CC0 1.0 Universal. The authors and HeartBank® will not seek patent on this specification or any portion thereof. The marks identified herein are separately reserved per the Prior-Art statement. This document constitutes a defensive publication establishing prior art as of the publication date.*

@@ -9,7 +9,6 @@ date: 2026-07-01
 license: CC0-1.0
 slug: gratitude-as-cooperation-substrate
 venue: thonly.org/research/gratitude-as-cooperation-substrate (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This is the founder-voice canonical draft for `thonly/publications`. It specifies, as an alignment contribution, a **reciprocity-and-reputation ledger among accountable AI agents** — the mechanism underneath what HeartBank calls a *robot-to-robot gratitude circle* — and argues that its value is a **cooperative-AI** one (biasing a multi-agent population toward cooperation), not a sentimental one (it makes **no claim that machines feel gratitude**). The whole paper turns on a single methodological discipline, the **mechanism-vs-resemblance sort**: build the leg that is a real cooperation protocol; flag, and refuse to lean on, the leg that is anthropomorphic. It is offered **forward-looking and unbuilt**, dedicated to the commons under CC0. Companion works: *The Mechanical Heart* (the agent's identity-bearer and network membership), *The Tipiṭaka as an Alignment Substrate*, *The Two-Singularities Framework*, *Capacity-Funded, Human-Disbursed AI Alignment*, and *Proof of Humanity* (the anti-sybil substrate this mechanism extends to agents).
