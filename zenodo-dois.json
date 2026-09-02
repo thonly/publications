@@ -127,12 +127,12 @@
  },
  "co-presence-gated-redemption": {
   "concept_doi": "10.5281/zenodo.21947304",
-  "deposition_id": 22116410,
-  "doi": "10.5281/zenodo.22116410",
+  "deposition_id": 22256656,
+  "doi": "10.5281/zenodo.22256656",
   "published": true,
   "sandbox": false,
-  "sha256": "d36f850fafa074d99fe2a0b892a2b8bf2419a465e4915c172b6581f52cff793c",
-  "url": "https://zenodo.org/records/22116410"
+  "sha256": "cbf26b4c238f358387bcb623da4f2180c967a4991bdd48c14e8f54b71d1f68cf",
+  "url": "https://zenodo.org/records/22256656"
  },
  "constituting-an-artificial-person": {
   "concept_doi": "10.5281/zenodo.21947306",
@@ -154,12 +154,12 @@
  },
  "dual-currency-reciprocity": {
   "concept_doi": "10.5281/zenodo.21947312",
-  "deposition_id": 22060087,
-  "doi": "10.5281/zenodo.22060087",
+  "deposition_id": 22256669,
+  "doi": "10.5281/zenodo.22256669",
   "published": true,
   "sandbox": false,
-  "sha256": "b36e2f58f77cb8f02c4ecf0ddd138efc7ae510c2c7f22b6d18c450c2412b77d0",
-  "url": "https://zenodo.org/records/22060087"
+  "sha256": "2d3f1cf7db00be5abf2d0f812622daa86240ca12059356ecff80d0019c04d2db",
+  "url": "https://zenodo.org/records/22256669"
  },
  "eightfold-path-institutional-architecture": {
   "concept_doi": "10.5281/zenodo.21947316",
@@ -199,12 +199,12 @@
  },
  "gift-tag-time-reveal": {
   "concept_doi": "10.5281/zenodo.21947327",
-  "deposition_id": 22246397,
-  "doi": "10.5281/zenodo.22246397",
+  "deposition_id": 22256679,
+  "doi": "10.5281/zenodo.22256679",
   "published": true,
   "sandbox": false,
-  "sha256": "76f83f1773f9aae3da9ed96cc1c0b98c7a6ebff24569dc16873425246fc42c86",
-  "url": "https://zenodo.org/records/22246397"
+  "sha256": "bd502096e5e203d2205912013b3496fcd8466732dac1b600b2f8f6e30ef5179c",
+  "url": "https://zenodo.org/records/22256679"
  },
  "giving-is-a-gift-too": {
   "concept_doi": "10.5281/zenodo.21947331",
@@ -550,12 +550,12 @@
  },
  "transparency-as-enforcement": {
   "concept_doi": "10.5281/zenodo.21947424",
-  "deposition_id": 22060097,
-  "doi": "10.5281/zenodo.22060097",
+  "deposition_id": 22256683,
+  "doi": "10.5281/zenodo.22256683",
   "published": true,
   "sandbox": false,
-  "sha256": "559eed50484b04cd341fc7ba509cf8d33947d46b7c48dc5825797f9b82fd31a9",
-  "url": "https://zenodo.org/records/22060097"
+  "sha256": "6718ba17913045f993fe1319e5de27e76ca65a9c9dc4d36009a26e519e659fe4",
+  "url": "https://zenodo.org/records/22256683"
  },
  "two-layer-reward": {
   "concept_doi": "10.5281/zenodo.21947426",
@@ -622,11 +622,11 @@
  },
  "zero-point-game": {
   "concept_doi": "10.5281/zenodo.21947440",
-  "deposition_id": 22217516,
-  "doi": "10.5281/zenodo.22217516",
+  "deposition_id": 22256686,
+  "doi": "10.5281/zenodo.22256686",
   "published": true,
   "sandbox": false,
-  "sha256": "91a41c759b1e9fdac3c0da667fe32a906aef98e4edec4832c09ac27b2c7663c0",
-  "url": "https://zenodo.org/records/22217516"
+  "sha256": "d63b748941c8c9eebddd0440069b1b47be0b986e3c718444117b3229004666b7",
+  "url": "https://zenodo.org/records/22256686"
  }
 }
