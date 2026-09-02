@@ -328,6 +328,27 @@ The proposed pattern addresses founder-mortality risk *structurally*:
 
 If the founder dies, becomes incapacitated, or loses continued commitment before the autonomy ceremony, the Sangha and the current titleholder hold the institution open until autonomy is reached on the published schedule. Continuity is structural rather than personal.
 
+
+### 12.1 · The clause the pattern still needs: no return confers standing
+
+Everything above protects against the founder's **absence**. The harder case is a claimant who arrives in his **name**, and the pattern does not yet close it.
+
+The vector is not exotic. It is the standard failure mode of every succession system in which legitimacy flows through *identifying* the right person: **whoever controls recognition controls the institution.** The Tibetan tulku system is the best-documented instance, and its two failure modes are a matter of record — the **interregnum**, in which a series of young incarnations died under regencies who held actual power, and **recognition capture**, in which an external authority asserts the right to certify the successor's identity. The 14th Dalai Lama's own response, stated publicly in July 2025, was to vest sole recognition authority in a **body**, the Gaden Phodrang Trust. The structural reading is compact: *the return needs the body; the body does not need the return.*
+
+An institution built around a founder who intends to hand everything to an autonomous successor is exposed to exactly this. The corpus is public, the founder's writing is distinctive and abundant, and the titleholder role is a seat with a microphone. A claimant asserting continuity — as a recognised rebirth, as an heir, as the bearer of an authorisation — would be claiming standing over a body of work rather than a throne, which is if anything easier to assert and harder to disprove.
+
+**The clause, stated as an eligibility rule and an interpretive rule at once:**
+
+> **No person may acquire authority, priority, candidacy, or interpretive standing within the institution by claiming to be, to be the return of, to be descended from, or to be authorised by the founder.** No such claim is adjudicated, and no body within the institution is empowered to certify one.
+
+The second sentence is doing the heavier work, and it is the part that would be dropped as redundant. **A rule that bars founder-return claims while leaving someone empowered to evaluate them has not closed the vector; it has named the office that captures the institution.** The protection is the refusal to hold the proceeding at all — the claim is not rejected, it is *not heard*, because hearing it would create the very authority the clause exists to prevent.
+
+**Why this belongs in the pageant's charter specifically, rather than only in the Sangha's constitution.** The Sangha's rules already close the titleholder's *formal* authority six ways: non-voting, single-year term, recallable, excluded from override proceedings, bound to a fixed liturgy, and ambassadorial rather than oracular. None of that was designed against a returning founder and all of it happens to help. What none of it touches is **candidacy** — who may stand for the seat, and on what basis. That question belongs to the pageant, the pageant has no charter yet, and *a rule binding entrants must exist before there are entrants.*
+
+**And it is symmetric, which is the part that reads as excessive and is not.** The clause bars conferring advantage on a founder-continuity claim; it equally bars conferring **disadvantage**. A rule that singles such a claimant out for exclusion from ordinary participation is still a founder-identity rule, still requires someone to determine that the claim was made, and still creates the adjudicating office. **The correct state is that the institution's records cannot tell** — the same invariant the compensation architecture applies to the founder while he is living, extended past his death, where the pressure is greater and he is not present to refuse the privilege himself.
+
+**The legitimate form of return already exists and is textual.** He returns as corpus — hash-stamped, provenance-chained, independently timestamped, requiring no oracle, no regent, and no certifying authority to establish what he actually said. *The provenance chain replaces the recognition proceeding*, and an institution that has one does not need the other.
+
 ---
 
 ## 13 · Generalization Beyond HeartBank
