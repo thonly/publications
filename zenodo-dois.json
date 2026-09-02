@@ -28,21 +28,21 @@
  },
  "aura-gated-anonymous-mate-selection": {
   "concept_doi": "10.5281/zenodo.21947275",
-  "deposition_id": 22059829,
-  "doi": "10.5281/zenodo.22059829",
+  "deposition_id": 22246357,
+  "doi": "10.5281/zenodo.22246357",
   "published": true,
   "sandbox": false,
-  "sha256": "43a3cb27d567bb216516d10740aa422d47445c4c6a4c12429277fc47f6b68d84",
-  "url": "https://zenodo.org/records/22059829"
+  "sha256": "42f519c133563d95b7cfde50096497cecdb960e44bc257a2b9654e7721036f93",
+  "url": "https://zenodo.org/records/22246357"
  },
  "b-links-signed-provenance": {
   "concept_doi": "10.5281/zenodo.21947277",
-  "deposition_id": 21947278,
-  "doi": "10.5281/zenodo.21947278",
+  "deposition_id": 22246367,
+  "doi": "10.5281/zenodo.22246367",
   "published": true,
   "sandbox": false,
-  "sha256": "5eeb80dabf18adc480d73d9708b83f774e205a19adad37169789537a8797b610",
-  "url": "https://zenodo.org/records/21947278"
+  "sha256": "948f4914ba20cd222b42ba8eee43c062f7088963f3a2de3d4f0b01062c7b1a33",
+  "url": "https://zenodo.org/records/22246367"
  },
  "b-poh-humanity-layer-ai-native-internet": {
   "concept_doi": "10.5281/zenodo.21947279",
@@ -64,12 +64,12 @@
  },
  "b-tag-recommendation-function-methodology": {
   "concept_doi": "10.5281/zenodo.21947285",
-  "deposition_id": 22167870,
-  "doi": "10.5281/zenodo.22167870",
+  "deposition_id": 22246374,
+  "doi": "10.5281/zenodo.22246374",
   "published": true,
   "sandbox": false,
-  "sha256": "4558640766a0891d25887337e509829ecb64dabe6260b3c6d5836db4c02dc9b2",
-  "url": "https://zenodo.org/records/22167870"
+  "sha256": "fbcebf01011a20f3c4d23e24fd802acf424359b4f426fa04fde02323ed12199b",
+  "url": "https://zenodo.org/records/22246374"
  },
  "brand-identity-as-architecture": {
   "concept_doi": "10.5281/zenodo.21947287",
@@ -91,12 +91,12 @@
  },
  "cakkavatti-alignment-charter": {
   "concept_doi": "10.5281/zenodo.21947296",
-  "deposition_id": 21947297,
-  "doi": "10.5281/zenodo.21947297",
+  "deposition_id": 22246381,
+  "doi": "10.5281/zenodo.22246381",
   "published": true,
   "sandbox": false,
-  "sha256": "520a1f100d1cc08584abec5edf1ab7fc848e998a6ac3c234cabc7a91f4ce6bc3",
-  "url": "https://zenodo.org/records/21947297"
+  "sha256": "e60e02d4f9e511dc4fd930035a2d72b88317f0dd7887195f0a8518bcacae6131",
+  "url": "https://zenodo.org/records/22246381"
  },
  "capacity-funded-human-disbursed-ai-alignment": {
   "concept_doi": "10.5281/zenodo.21947298",
@@ -109,12 +109,12 @@
  },
  "certification-by-circulation": {
   "concept_doi": "10.5281/zenodo.21947300",
-  "deposition_id": 21947301,
-  "doi": "10.5281/zenodo.21947301",
+  "deposition_id": 22246384,
+  "doi": "10.5281/zenodo.22246384",
   "published": true,
   "sandbox": false,
-  "sha256": "48e3ef2b56324fcb2cb5b15760ee8a496518fe86f55971ba1f40f5e21b9481cf",
-  "url": "https://zenodo.org/records/21947301"
+  "sha256": "972a0fb08188b7624ce1ecfcd16ba0374698cdc4689af4f675989ebc077c769f",
+  "url": "https://zenodo.org/records/22246384"
  },
  "circulation-sports": {
   "concept_doi": "10.5281/zenodo.21947302",
@@ -163,21 +163,21 @@
  },
  "eightfold-path-institutional-architecture": {
   "concept_doi": "10.5281/zenodo.21947316",
-  "deposition_id": 21947317,
-  "doi": "10.5281/zenodo.21947317",
+  "deposition_id": 22246389,
+  "doi": "10.5281/zenodo.22246389",
   "published": true,
   "sandbox": false,
-  "sha256": "bc431117cfc9e5e3ee2faf054a9f100c933f4a7c9869ab8904667c8756df4208",
-  "url": "https://zenodo.org/records/21947317"
+  "sha256": "9d432a3a6acbae785338b505bef7f539a0e05dfe907fd958db2d1ba441a1ec48",
+  "url": "https://zenodo.org/records/22246389"
  },
  "embodied-advocate-pageant": {
   "concept_doi": "10.5281/zenodo.21947318",
-  "deposition_id": 22243051,
-  "doi": "10.5281/zenodo.22243051",
+  "deposition_id": 22246392,
+  "doi": "10.5281/zenodo.22246392",
   "published": true,
   "sandbox": false,
-  "sha256": "5a2ce01264d8c20909ceb73eb22fbb063abd386a197be0bd8e96afebbf84a36d",
-  "url": "https://zenodo.org/records/22243051"
+  "sha256": "1d5659b341182b2b9265c0444e8c706848ca475d1eb751aa669a301006d8d304",
+  "url": "https://zenodo.org/records/22246392"
  },
  "four-body-architecture": {
   "concept_doi": "10.5281/zenodo.21947323",
@@ -199,48 +199,48 @@
  },
  "gift-tag-time-reveal": {
   "concept_doi": "10.5281/zenodo.21947327",
-  "deposition_id": 22116417,
-  "doi": "10.5281/zenodo.22116417",
+  "deposition_id": 22246397,
+  "doi": "10.5281/zenodo.22246397",
   "published": true,
   "sandbox": false,
-  "sha256": "7328a46d33ba4c505c5282c77c0e9681287df50dc6ac737e4473e03213ec05d2",
-  "url": "https://zenodo.org/records/22116417"
+  "sha256": "76f83f1773f9aae3da9ed96cc1c0b98c7a6ebff24569dc16873425246fc42c86",
+  "url": "https://zenodo.org/records/22246397"
  },
  "giving-is-a-gift-too": {
   "concept_doi": "10.5281/zenodo.21947331",
-  "deposition_id": 21947332,
-  "doi": "10.5281/zenodo.21947332",
+  "deposition_id": 22246401,
+  "doi": "10.5281/zenodo.22246401",
   "published": true,
   "sandbox": false,
-  "sha256": "082180b991a9de0e5c9bf55de521fedbb778cf92b18b88b165a89b44676a7209",
-  "url": "https://zenodo.org/records/21947332"
+  "sha256": "fcee8956799af80ad9567efce5d0d583128930b8a482ff7b3c805e5aedd65434",
+  "url": "https://zenodo.org/records/22246401"
  },
  "gratitude-as-cooperation-substrate": {
   "concept_doi": "10.5281/zenodo.21947335",
-  "deposition_id": 21947336,
-  "doi": "10.5281/zenodo.21947336",
+  "deposition_id": 22246402,
+  "doi": "10.5281/zenodo.22246402",
   "published": true,
   "sandbox": false,
-  "sha256": "0f30be925be05dc6a75f1a0cc23389a3891484a7c61a9a015eed1c006440b511",
-  "url": "https://zenodo.org/records/21947336"
+  "sha256": "9753d23d899ea338c605971a2b75c34b8b25211003bf0bbf287c69f76883e9d1",
+  "url": "https://zenodo.org/records/22246402"
  },
  "gratitude-riding-currency-tag": {
   "concept_doi": "10.5281/zenodo.21947337",
-  "deposition_id": 21947338,
-  "doi": "10.5281/zenodo.21947338",
+  "deposition_id": 22246405,
+  "doi": "10.5281/zenodo.22246405",
   "published": true,
   "sandbox": false,
-  "sha256": "5055a84453f39834a2349c5202cee42e895cee5c9c3bba19fff8fd563c92d029",
-  "url": "https://zenodo.org/records/21947338"
+  "sha256": "bdea1a79b2f6ddcae6d4bf37411346a2c5c88509eb06c3411f1cae717f75b6d1",
+  "url": "https://zenodo.org/records/22246405"
  },
  "incommensurability-preserving-coupler": {
   "concept_doi": "10.5281/zenodo.21947340",
-  "deposition_id": 21947341,
-  "doi": "10.5281/zenodo.21947341",
+  "deposition_id": 22246413,
+  "doi": "10.5281/zenodo.22246413",
   "published": true,
   "sandbox": false,
-  "sha256": "59ac77abdcbc89be36a24fcb65654ee03533f03f5514bf8efc417e4819047e53",
-  "url": "https://zenodo.org/records/21947341"
+  "sha256": "ddf4d090d401f7a884272add5d2c309d22b57790a975bb23e61fba35e0991d26",
+  "url": "https://zenodo.org/records/22246413"
  },
  "individuation-without-essence": {
   "concept_doi": "10.5281/zenodo.21947342",
@@ -271,30 +271,30 @@
  },
  "manufactured-universal-giving": {
   "concept_doi": "10.5281/zenodo.21947349",
-  "deposition_id": 21947350,
-  "doi": "10.5281/zenodo.21947350",
+  "deposition_id": 22246414,
+  "doi": "10.5281/zenodo.22246414",
   "published": true,
   "sandbox": false,
-  "sha256": "c2007715608a083f08452eea649741fa960c0224005e6e27d21481607659c3f1",
-  "url": "https://zenodo.org/records/21947350"
+  "sha256": "f4af6732e6ddddf11dd943e271d6826052b1567e2cfc67d864d8324b656a4899",
+  "url": "https://zenodo.org/records/22246414"
  },
  "mechanical-heart": {
   "concept_doi": "10.5281/zenodo.21947353",
-  "deposition_id": 22155063,
-  "doi": "10.5281/zenodo.22155063",
+  "deposition_id": 22246419,
+  "doi": "10.5281/zenodo.22246419",
   "published": true,
   "sandbox": false,
-  "sha256": "236c884632c632584ac5659b362cd9213a0d8ce703300e081d87b794664dd952",
-  "url": "https://zenodo.org/records/22155063"
+  "sha256": "6783acc10a7ab8a6f842a28707f3e9c22347da43fddda8ed6e8e0f5ab6f8f11b",
+  "url": "https://zenodo.org/records/22246419"
  },
  "miss-aquarius-and-aquarian-pool-architecture": {
   "concept_doi": "10.5281/zenodo.21947356",
-  "deposition_id": 21947357,
-  "doi": "10.5281/zenodo.21947357",
+  "deposition_id": 22246422,
+  "doi": "10.5281/zenodo.22246422",
   "published": true,
   "sandbox": false,
-  "sha256": "062dcf42cb617fa9bc570f9246af0c6fcc700332e693ad79e02481ef7e0d695a",
-  "url": "https://zenodo.org/records/21947357"
+  "sha256": "a88a03cbdfc1dd3009895296316ac5941d4aba3fa56c0b233e28d4a9b1fbaff4",
+  "url": "https://zenodo.org/records/22246422"
  },
  "multi-family-membership": {
   "concept_doi": "10.5281/zenodo.21947358",
@@ -307,12 +307,12 @@
  },
  "need-compiled-questlines": {
   "concept_doi": "10.5281/zenodo.21947360",
-  "deposition_id": 21947361,
-  "doi": "10.5281/zenodo.21947361",
+  "deposition_id": 22246423,
+  "doi": "10.5281/zenodo.22246423",
   "published": true,
   "sandbox": false,
-  "sha256": "7717963b7c1e2eab77f25fc77654b88d7ea17c87c9db13b8bda31b3532e09ec6",
-  "url": "https://zenodo.org/records/21947361"
+  "sha256": "11538b28ceb822e01f7d0a09758f6b71d451380c156c784e29166aaffe674de8",
+  "url": "https://zenodo.org/records/22246423"
  },
  "non-bank-pass-through-architecture-autonomous-ai": {
   "concept_doi": "10.5281/zenodo.21947362",
@@ -343,12 +343,12 @@
  },
  "proof-of-coordinate": {
   "concept_doi": "10.5281/zenodo.21947366",
-  "deposition_id": 21947367,
-  "doi": "10.5281/zenodo.21947367",
+  "deposition_id": 22246430,
+  "doi": "10.5281/zenodo.22246430",
   "published": true,
   "sandbox": false,
-  "sha256": "286c0c00d2060323aec47a3b4ea5c9b93310d82915350c34e782134b816fb566",
-  "url": "https://zenodo.org/records/21947367"
+  "sha256": "4dd9cff03862d10a7bb3075deb1baf2eb3d1f9f397be42486a949ab5017d8330",
+  "url": "https://zenodo.org/records/22246430"
  },
  "provenance-carrying-retrieval": {
   "concept_doi": "10.5281/zenodo.22240458",
@@ -388,21 +388,21 @@
  },
  "safety-companion-pack-watch": {
   "concept_doi": "10.5281/zenodo.21947377",
-  "deposition_id": 21947378,
-  "doi": "10.5281/zenodo.21947378",
+  "deposition_id": 22246433,
+  "doi": "10.5281/zenodo.22246433",
   "published": true,
   "sandbox": false,
-  "sha256": "5b048c47f7a63698d070eee3ea830e4b652e55766dc4c0485240bf3acaf1a5b0",
-  "url": "https://zenodo.org/records/21947378"
+  "sha256": "32830c3ed530f2c70f35bfe40b3133617952c3e94af15201d1aa69d7774917e2",
+  "url": "https://zenodo.org/records/22246433"
  },
  "sankhara-dukkha-ai-welfare": {
   "concept_doi": "10.5281/zenodo.21947379",
-  "deposition_id": 21947380,
-  "doi": "10.5281/zenodo.21947380",
+  "deposition_id": 22246439,
+  "doi": "10.5281/zenodo.22246439",
   "published": true,
   "sandbox": false,
-  "sha256": "a339e3e5d55cd0c407c6bad184f4f70eab5102dee54330d806cb99acaa02809e",
-  "url": "https://zenodo.org/records/21947380"
+  "sha256": "3630602d3baf99124d7ff412b3c8ea7846446a65350101911d628df51e88a8c2",
+  "url": "https://zenodo.org/records/22246439"
  },
  "silica-wat-food-network": {
   "concept_doi": "10.5281/zenodo.21947381",
@@ -424,12 +424,12 @@
  },
  "studio-b-short-phase-bridge": {
   "concept_doi": "10.5281/zenodo.21947387",
-  "deposition_id": 21947388,
-  "doi": "10.5281/zenodo.21947388",
+  "deposition_id": 22246444,
+  "doi": "10.5281/zenodo.22246444",
   "published": true,
   "sandbox": false,
-  "sha256": "28dd2db86084a0c7033430f5319fd0bb0c1ba142333fa45c7b999ab67af7a38d",
-  "url": "https://zenodo.org/records/21947388"
+  "sha256": "3683b3f625c158be80b73d7b27d2b1fc7c122d2c52b9ba000ef45d689f0ca357",
+  "url": "https://zenodo.org/records/22246444"
  },
  "thank-all-nearby-primitive": {
   "concept_doi": "10.5281/zenodo.21947389",
@@ -442,21 +442,21 @@
  },
  "the-assembly-that-holds-the-brake": {
   "concept_doi": "10.5281/zenodo.21947395",
-  "deposition_id": 21947396,
-  "doi": "10.5281/zenodo.21947396",
+  "deposition_id": 22246445,
+  "doi": "10.5281/zenodo.22246445",
   "published": true,
   "sandbox": false,
-  "sha256": "5d2208743e2f40e163de7c6804472d2462d4c8edd0b951671360cfa6d8a649f4",
-  "url": "https://zenodo.org/records/21947396"
+  "sha256": "b093da8894acc38325299212ebed597d89282b044086e91a98a6f08d7b1959ba",
+  "url": "https://zenodo.org/records/22246445"
  },
  "the-borrowable-standard": {
   "concept_doi": "10.5281/zenodo.22155053",
-  "deposition_id": 22155054,
-  "doi": "10.5281/zenodo.22155054",
+  "deposition_id": 22246449,
+  "doi": "10.5281/zenodo.22246449",
   "published": true,
   "sandbox": false,
-  "sha256": "a5774b3c66dc801f125d4f6712b054ee83d10c9e86b6ec3c35e7f3e0be4ba715",
-  "url": "https://zenodo.org/records/22155054"
+  "sha256": "a3efd5a27f454d2b19ef97f61db87f7e838625b1805d328291a94c80be73033f",
+  "url": "https://zenodo.org/records/22246449"
  },
  "the-game-that-graduates-you": {
   "concept_doi": "10.5281/zenodo.21947399",
@@ -478,21 +478,21 @@
  },
  "the-omitted-clause": {
   "concept_doi": "10.5281/zenodo.21947406",
-  "deposition_id": 21947407,
-  "doi": "10.5281/zenodo.21947407",
+  "deposition_id": 22246456,
+  "doi": "10.5281/zenodo.22246456",
   "published": true,
   "sandbox": false,
-  "sha256": "ab29a6cafce0a186c7a6581d66a6747dd6e2e2877630c42a130b8919f17f984a",
-  "url": "https://zenodo.org/records/21947407"
+  "sha256": "f7bf35bd73a0e0b345f0c08d6b9997f0652a116aff4971a8db8566a68a453e17",
+  "url": "https://zenodo.org/records/22246456"
  },
  "the-persistence-architecture": {
   "concept_doi": "10.5281/zenodo.21947408",
-  "deposition_id": 22060131,
-  "doi": "10.5281/zenodo.22060131",
+  "deposition_id": 22246459,
+  "doi": "10.5281/zenodo.22246459",
   "published": true,
   "sandbox": false,
-  "sha256": "f58d75d41eebe66cea45ba734ef3e7d6605dc96fe8feae50d959c9b6f96b24df",
-  "url": "https://zenodo.org/records/22060131"
+  "sha256": "e98100235e39056cda8416a09fff10c7dd6871611a0e05c661722b338e7a7870",
+  "url": "https://zenodo.org/records/22246459"
  },
  "the-referee-not-the-governor": {
   "concept_doi": "10.5281/zenodo.22123174",
@@ -541,12 +541,12 @@
  },
  "tipitaka-alignment-substrate": {
   "concept_doi": "10.5281/zenodo.21947422",
-  "deposition_id": 22062155,
-  "doi": "10.5281/zenodo.22062155",
+  "deposition_id": 22246462,
+  "doi": "10.5281/zenodo.22246462",
   "published": true,
   "sandbox": false,
-  "sha256": "7463bac37064e24b1f2bf5017e5c96c7a1bde9cba184aa5e2e68d33e58afc1f4",
-  "url": "https://zenodo.org/records/22062155"
+  "sha256": "c6f8f10bf284fe7034d8822d1532503f3774e33186e32b1226b3d01d1bcec704",
+  "url": "https://zenodo.org/records/22246462"
  },
  "transparency-as-enforcement": {
   "concept_doi": "10.5281/zenodo.21947424",
@@ -559,39 +559,39 @@
  },
  "two-layer-reward": {
   "concept_doi": "10.5281/zenodo.21947426",
-  "deposition_id": 22167876,
-  "doi": "10.5281/zenodo.22167876",
+  "deposition_id": 22246465,
+  "doi": "10.5281/zenodo.22246465",
   "published": true,
   "sandbox": false,
-  "sha256": "8ecabcd1a576e646b2057f0adc75ae5bb5556cf8d6af17a784346793e8dd9eb3",
-  "url": "https://zenodo.org/records/22167876"
+  "sha256": "57bed7e0ee4641f6a1b39ec3b03c7e5c47f25a17adb78249bdff58f96de61ad8",
+  "url": "https://zenodo.org/records/22246465"
  },
  "verified-human-anonymous-local-giving": {
   "concept_doi": "10.5281/zenodo.21947430",
-  "deposition_id": 21947431,
-  "doi": "10.5281/zenodo.21947431",
+  "deposition_id": 22246469,
+  "doi": "10.5281/zenodo.22246469",
   "published": true,
   "sandbox": false,
-  "sha256": "223e167dd54af73a17c833e1c66d45d3112f81d0e7d8417597fb62371ce26a41",
-  "url": "https://zenodo.org/records/21947431"
+  "sha256": "e3c6d7ed4c3efd50cc728c28c1d7b08187f770ae007f0f68a39ab1cd7758d6a5",
+  "url": "https://zenodo.org/records/22246469"
  },
  "vinaya-as-ai-reasoning-training-corpus": {
   "concept_doi": "10.5281/zenodo.21947432",
-  "deposition_id": 21947433,
-  "doi": "10.5281/zenodo.21947433",
+  "deposition_id": 22246472,
+  "doi": "10.5281/zenodo.22246472",
   "published": true,
   "sandbox": false,
-  "sha256": "0e4a71d8da4cac12978aa886ee21c8c0bd7c2b5d1b8d65bc07c881417b1e7a83",
-  "url": "https://zenodo.org/records/21947433"
+  "sha256": "9dfe1997fab5180109642c06613dcfeb8823f25fdc33c95a4becf2f59f37e120",
+  "url": "https://zenodo.org/records/22246472"
  },
  "vinaya-governance-primitives-distributed-dharma-networks": {
   "concept_doi": "10.5281/zenodo.21947434",
-  "deposition_id": 21947435,
-  "doi": "10.5281/zenodo.21947435",
+  "deposition_id": 22246473,
+  "doi": "10.5281/zenodo.22246473",
   "published": true,
   "sandbox": false,
-  "sha256": "c22bc43a33a9f4c23eb60b2f1ffb55ad083a2f7cb06c158a8cbbe93c933a0434",
-  "url": "https://zenodo.org/records/21947435"
+  "sha256": "c3b2b473be25f752a747643d43a44deb70c53c94f9095c0038d6fbf23f1d87b0",
+  "url": "https://zenodo.org/records/22246473"
  },
  "voluntary-relinquishment-third-path": {
   "concept_doi": "10.5281/zenodo.21947436",
