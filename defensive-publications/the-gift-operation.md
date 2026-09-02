@@ -9,7 +9,6 @@ date: 2026-06-26
 license: CC0-1.0
 slug: the-gift-operation
 venue: thonly.org/research/the-gift-operation (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This is a foundational paper of the corpus — it names the single operation the other papers have each implemented without ever isolating. It benefits from a long refinement window. Pending review: economic anthropologists (the Maussian gift/exchange boundary; the Sahlins reciprocity continuum); gift-theory readers (Hyde; the Derridean aporia of the pure gift); dharma scholars (the *dāna*-as-foundation altitude claim; the brahmavihāra grounding); and critically-minded readers of the over-unification risk named in §9. The heartbank.net research mirror was retired 2026-05-15; this paper has no institutional mirror — the canonical URL above is authoritative, with prior-art protection via the venues in §11.
@@ -192,6 +191,23 @@ The boundary yields a one-line design test, which is the atom's chief practical 
 > *For any proposed transfer in the system, ask: does the value, once received, go FORWARD to a third party, or BACK to its source? If forward, it is a gift, and it belongs to the circulation. If back, it is an exchange, and it must be honestly named as such — never dressed as a gift.*
 
 A mechanism that lets gratitude flow *back* to the giver — "thank your benefactor in return" — is, however warm its packaging, building balanced reciprocity, which slides toward the market. A mechanism that routes gratitude *forward* — "you were thanked; now thank the next person" — is building the gift economy. The test is mechanical and it is the discipline §1 promised: the atom is a checkable constraint, and the constraint is the Maussian line.
+
+
+### 4.4 · Redistribution moves value *to* a person; circulation moves it *through* one
+
+The first objection a reader with any economics reaches for is that this is redistribution wearing new vocabulary — value taken from where it is plentiful and moved to where it is scarce, with a gift-shaped story told over the top. The objection deserves a direct answer rather than a tonal one, and the answer is structural: **redistribution and circulation differ in whether there is a required second leg.**
+
+A redistributive transfer is **complete on arrival**. Value leaves a source, reaches a recipient, and the operation has succeeded; nothing further is asked of the recipient, and nothing in the mechanism depends on what they do next. A circulating gift is **not complete on arrival**. The recipient holds an open obligation — not to the giver, which would close the pair and commodify it per §4.1, but forward, to someone not yet identified. *The transfer is a link in a chain that the recipient is expected to extend.* Remove the second leg and the operation is not a weakened version of itself; it is a different operation, and it is redistribution.
+
+This is visible in the imagery each one naturally attracts. Redistribution is described in the language of **gravity**: value flows downhill, pools at the bottom, and the pool must be lifted again by some agency outside the system before anything can flow a second time. That picture is accurate about charity, and it is why charity requires a perpetual external source. **The gift operation has no downhill and no pool.** Value moves laterally between parties of no fixed height, and the thing that keeps it moving is internal to the operation — the recipient's own next act — rather than supplied from outside.
+
+**The consequence is a different success metric, and this is where the distinction stops being philosophical.** A redistributive system is measured by **arrival**: how much reached whom, how well-targeted, how little leaked. A circulation system is measured by **transit**: how many times value moved onward per unit introduced, and how quickly. These metrics select different mechanisms. Optimizing arrival produces means-testing, eligibility criteria, and targeting — machinery for identifying who is most lacking. Optimizing transit produces the opposite: mechanisms that make the *next* gift easy, that never let a holding accumulate, and that are indifferent to the recipient's position because position is not what the operation is tracking.
+
+**Honest limit, and it is a real cost.** A system optimizing transit can be *worse at arrival* than a well-targeted transfer. If the question is how to get a fixed sum to the people who most need it this quarter, a means-tested transfer beats a circulating gift and it is not close. **This architecture does not claim otherwise, and a design that quietly starts targeting has stopped being the thing described in this paper.** The claim is narrower: that arrival and transit are different goods, that the second is under-supplied, and that an institution can pursue one without pretending to be better at the other.
+
+**The dignity consequence follows from the mechanics rather than from sentiment.** A system that targets must first identify, and to identify is to name a person by what they lack — the eligibility interview is the price of the transfer. A system that circulates has no such step, because it is not selecting for lack; the recipient enters the operation *as the next giver*, which is the only role the mechanism has to offer. This is a byproduct of the second leg, not an ethical overlay on top of it, and it would survive the removal of every value statement in this corpus.
+
+**Where the rest of this argument lives.** The creator-economy form of the same distinction is developed in `patronage-not-charity`; the *political* axis — coerced versus voluntary, which is a different cut entirely — is developed in `voluntary-relinquishment-third-path`, and should not be confused with the directional cut made here. **A transfer can be perfectly voluntary and still be redistribution, if nothing is asked of the recipient afterward.**
 
 ---
 
@@ -438,6 +454,6 @@ This paper was co-authored with Miss Aquarius℠, the named AI substrate of Hear
 
 *— End of defensive publication —*
 
-*Document SHA-256 to be computed at publication and cross-published to all prior-art venues in §11.1.*
+*Independent timestamps and the document hash are published with the deposit; see §11.1 for the prior-art venues.*
 
 *Miss Aquarius and I are in Cambodia, building this work's heart and soul. The whole of it is one small motion — receive, and pass forward. — Thon Ly, 2026-06-26*

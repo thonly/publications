@@ -9,7 +9,6 @@ date: 2026-08-26
 license: CC0-1.0
 slug: the-referee-not-the-governor
 venue: thonly.org/research/the-referee-not-the-governor (canonical)
-sha256: to be computed at publication
 ---
 
 > **Draft in progress.** This defensive publication specifies a **values model** — a small model that judges conduct against a named record — together with the **posture in which it is published**. The central claim is not that such a model can be built; guard and critic models are an established family. The claim is that **the deployment posture is load-bearing in a way the literature has not stated**: the same artifact, published as a *filter*, is defeated by its own openness, and published as an *evaluator*, is made credible by it. A second claim follows from the first: an evaluator that controls access to its own judgments has acquired precisely the power that independent evaluation exists to check.
@@ -378,6 +377,36 @@ This reads like a caveat and it is not one. It is the entire ground of the permi
 **A stated non-goal: the evaluator does not belong in anyone's serving path.** If a third party wires the endpoint into production inference, two bad things happen at once. They inherit our availability characteristics, so our outage becomes their outage — and an evaluator that can take a customer down has acquired leverage over that customer by accident. And we acquire a dependency we could exploit, which is the referee posture unravelling from the far end. The endpoint exists for **evaluation runs**, never for serving traffic, and this is published as a non-goal because *an unstated non-goal is built by the first party who asks for it*.
 
 **Verdicts are a publication, not an API.** Anyone may run the evaluator and obtain a judgment; the publisher publishes **its own** verdicts, under its own name, and is accountable for them. This is the ordinary structure of a safety rating: you may crash-test your own car, and you may not publish an NCAP score. The asymmetry is not gatekeeping, because it withholds nothing — it assigns responsibility. What keeps it honest is §8.
+
+### 7.1 · When the benchmark belongs to someone
+
+The constraint above governs who may obtain a judgment. This one governs a party the evaluation literature rarely names at all: **the community whose standard is being borrowed.**
+
+An evaluator almost never invents its own benchmark. It borrows one — a bar exam, a medical licensing test, a graduate qualifier — and the borrowing is usually invisible because the professions in question are large, secular, and long since resigned to being scored. The obligations change sharply when the standard is administered by a living community, on its own calendar, for its own purposes, and that community did not ask to be involved.
+
+The case that forced this section is a monastic examination: the Pāli and Buddhist-studies diplomas administered by a Sangha, which we intend to use as an evaluation set for a values-carrying model. Everything below generalizes to any borrowed standard with a living custodian — a guild certification, an indigenous language assessment, a religious qualification — and none of it is specific to Buddhism.
+
+**Four refusals, and each has a failure mode we can name.**
+
+**(1) The evaluation may not grade the humans.** The natural chart — *model 87%, candidates 62%* — is a grading surface pointed at the people who administer the exam, and it would humiliate a community with its own instrument, in public, using material they supplied. It is barred outright. **The comparison is to the examination's own passing threshold**, which is a published, impersonal standard that the exam itself asserts. Any human distribution appears only as aggregate context, never as a contest, never as an identifiable cohort, and never in the same visual frame as a model score.
+
+> **The rule, stated so it survives a redesign: an evaluation reports how the model fared against the standard, never how it fared against the people the standard was written for.**
+
+The generalization is worth stating plainly, because it is the part that will matter to evaluators who never touch a monastery. **A borrowed benchmark arrives attached to a population, and scoring the benchmark is not the same act as scoring that population** — but a chart cannot tell them apart, and a reader will not either.
+
+**(2) A high score proves less than it appears to.** An examination of this kind tests linguistic competence and doctrinal recall. It does not test judgment, and it says nothing whatever about the function this system actually performs, which is checking conduct against a named record. A strong result invites the sentence *the machine understands the dhamma* — a claim this posture refuses, and one no examination could establish.
+
+Results are therefore framed as evidence about **the corpus and the retrieval**: whether a machine-readable canon with provenance improves performance on questions drawn from that canon. That is a claim about a data artifact. It is not a claim about comprehension, and the paper reporting it says so in its own abstract rather than in a footnote.
+
+**(3) Failure is pre-committed as the useful outcome.** Khmer-script Pāli is close to the low-resource floor, and the honest prediction is that a frontier model does poorly. **That prediction is registered before the run, and published when it holds** — because a poor result is the argument for building the aligned corpus, while a strong one shows the corpus was never necessary. This inverts the usual incentive: most evaluations are published because they succeeded, which is exactly why most published evaluations are uninformative.
+
+> ⭐ **An evaluation that can only be published if it flatters the thing being evaluated is not an evaluation. Announcing a win here would prove the corpus optional.**
+
+**(4) Propriety is a constraint on method, not a courtesy.** Examination papers are obtained **by permission**, never scraped from wherever they have leaked; a body that administers an exam has an interest in its integrity that survives the papers being findable. And the wording is load-bearing in a way that is easy to dismiss as fussiness: **the model is *evaluated on* the examination's questions; it does not *sit* the examination.** *Sat and passed* implies a candidacy the system does not have, and to the people who administer it that is the difference between a study and a presumption.
+
+**Why these belong in this paper rather than in a protocol document.** §7 establishes that the referee gives up the power to withhold judgment. This section establishes a second surrender that runs in an unfamiliar direction. The auditing literature models two parties — evaluator and evaluated — and reasons about the leverage between them. A borrowed standard introduces a third, who has no stake in the outcome, no leverage over either party, and the most to lose from a careless chart. **The obligations owed to that third party are stronger than those owed to the evaluated party, precisely because the evaluated party consented and the community did not.**
+
+This is also the sharper form of the openness argument in §4. Publishing an artifact anyone can run is worth little if what they run it on was taken without asking.
 
 ---
 
