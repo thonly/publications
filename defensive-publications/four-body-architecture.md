@@ -300,6 +300,12 @@ The output must be **build-state, never attainment.** The altitude discipline th
 
 ---
 
+### 10.6 A note on a second use of the same elements
+
+⚠️ A related but **distinct** mapping exists in this corpus and should not be confused with the one above. The four bodies are assigned elements by *what each body does*; a separate ladder assigns the same elements — with space added as a fifth — to *what one person can hand to another*: a name, a thanks, an hour together, money, an object.
+
+**They are two operations on one quartet, not two versions of one map**, and only three of the five correspond. The givables ladder is argued in the essay *The Four Elements as a Breadth-Check Discipline*, whose own thesis is that the traditions do genuinely different things with these four terms; the substrate-cost finding that falls out of it is argued in *The Gift Operation* §6.6. **Neither supersedes the body assignment here, and a reader who reads them as one scheme will find contradictions that do not exist.**
+
 ## 11. The capstone image: the lotus pond and the two kinds of light
 
 The two four-bodies of this paper — composition (§3–§7) and institution (§10) — admit a single integrating image, articulated by the founder at the completion of the succession-charter work (the companion papers *The Wheel-Turner's Charter* and *The Omitted Clause*) and recorded here because it functions as more than ornament: it assigns every element of the architecture its place, its element, and its ending. The image is canonical twice over — the lotus pond of Brahmā's request (SN 6.1), in which the newly awakened Buddha surveys beings as lotuses at different depths, some standing above the water needing only sunrise; and the Metteyya horizon of DN 26, under which the companion charter reads the institution's duty-list.

@@ -249,6 +249,38 @@ The five-operation framework is most useful when *anchored* at that asymptote �
 
 ---
 
+## A sixth operation: the quartet as a ladder of what can be handed over
+
+Since writing the above I have found a sixth thing to do with the same quartet, and it belongs here because it is not a sixth *reading* — it is a sixth **question**.
+
+The essay's spectrum runs between two poles: *what is the world made of?* at the Greek end, *what is known when the world is met?* at the Tipiṭakan end. Both are questions about a single person facing a world. Neither asks the question that an institution built on giving has to ask, which is: **what can one person hand to another?**
+
+Run the quartet against that question and it sorts, and the sort is not arbitrary:
+
+```
+   SPACE   a name          given by speech alone
+   AIR     an hour together   given by being in the same place
+   FIRE    a thanks           given by being seen to give it
+   WATER   money              given by transfer
+   EARTH   an object          given by handing it over
+```
+
+Two things fall out that I did not put in.
+
+The first is that the classical yoking of each element to a sense-object — space to sound, air to touch, fire to form — lands on three of the five without being asked to. A **name** is a thing you *say*; space's sense-object is sound. An **hour together** requires proximity, and proximity is exactly what touch is the sense of; you can only touch what is near you, and the air two people share in a room is the most literal reading of *vāyu* available. A **thanks**, in the form this institution actually built, is a lightwave — an aura, a thing *seen*; fire's sense-object is form. I did not choose the elements to fit the senses. The senses were already yoked to them, centuries before, and three of my five walked into the yoke.
+
+The second is more useful and less pretty. **The ladder predicts how much machinery each givable will need before you can safely build it**, and it does so through a single variable: whether the thing can be hoarded.
+
+A name cannot be hoarded. Giving someone's name correctly costs the giver nothing and takes nothing from anyone else; there is no position to accumulate. A thanks, in a design where it decays and does not sum, cannot be hoarded either. An hour needs no protection because it expires on its own whether anyone attends to it or not. Money can be hoarded, and objects can be hoarded, and every mechanism this institution has built to keep them moving — annual emptying, funds you can spend forward but never withdraw from, bearer instruments that lapse, rules about what happens when nobody acts — exists to supply by design what the top of the ladder has for nothing.
+
+So the machinery falls into three tiers, not five steps: **nothing at the top, one clock in the middle, a whole lifecycle at the bottom.** I can date the evidence. Designing the most concrete of the five took a full day of consecutive rulings — a three-state lifecycle, two clocks, a non-redeemability enforced by type rather than by rule, a lapse policy, and an accounting position on what happens to value nobody claimed. The least concrete needed none of it, and needed none of it *by construction* rather than by good design.
+
+I want to be careful about what this is. It is not a metaphysics, and it is not the Tipiṭakan contemplation — it does not stay at the body-door, and it is frankly closer to the Hindu layering than to anything else in the comparison above, since it uses the sense-yoking that only that tradition supplies. **It is an operation, in the sense this essay has been using the word: a discipline you run to find out something you did not already know.** What it finds is that the concrete end of the ladder is the easy door and the expensive room. An object is legible to someone who has never heard of a gratitude economy — you hand it over and they understand — and it is simultaneously the hardest thing to govern and the least able to scale, because it needs a merchant, a place that stays open, and a rulebook. A name needs a person and a mouth.
+
+**The ladder is a sequence, then, and not a ranking. The tangible end is where people come in. The subtle end is where the thing is trying to go.** Any design that treats the most concrete instrument as the goal has mistaken the entrance for the building — which is the same error, in a different register, as taking the four elements for a physics when they were offered as a path.
+
+One honest caveat, and it is the same one the discipline itself demands. A quartet that sorts this cleanly, on a question it was not built for, is either telling me something or seducing me, and from the inside those are indistinguishable. The three-tier prediction is cheap to falsify — build a top-tier givable, see whether it needs governance — so it should be falsified rather than admired.
+
 ## What the discipline costs and what it pays
 
 The discipline costs almost nothing. Five questions, asked deliberately, against a design or an analysis that already exists. The cost is the attentional work of asking the questions you didn't already know to ask — the cost of breadth rather than depth.
