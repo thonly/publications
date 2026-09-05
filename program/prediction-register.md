@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **71** |
-| Published here | 70 |
+| Total registered | **74** |
+| Published here | 73 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 49 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 21 |
+| Receiving first public timestamp here | 24 |
 | **Run** | **2** (both desk censuses) |
 | **Field tests run** | **0** |
 | Contradicted | 1 |
@@ -74,6 +74,9 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | P-M2 | Matched-stakes prediction as registered | Unrun | Published (`the-wager-that-isnt`) |
 | P-M3 | Patron-pot prediction as registered | Unrun | Published (`the-wager-that-isnt`) |
 | — | **Kids-as-triggers** — children are the primary triggers of household self-thanking | **Contradicted** (parents self-thanked more; n=1, confounded, not hardened) | Published (`kids-as-triggers-self-thanking`) |
+| **P-BG1** | A shorter re-address window on a relayed gift **increases issuances and decreases COMPLETED placements**. *Null: completions hold or rise as the window shortens — the tighter clock is free.* ⚠️ Unanswerable unless `issued · passed · lapsed · re-issued` are logged from the first instrument | Unrun | First public here |
+| **P-BG2** | Sustained pass-on is **higher for an ANONYMOUS relayed gift than a VISIBLE one**, over a window long enough for the effect to appear. *Null: rates match or visible exceeds anonymous — the anonymity is doctrinal only, and the visible relay should be deprecated for minors.* Rests on the developmental finding that adult-directed giving underperforms child-led | Unrun | First public here |
+| **P-BG3** | Within a bounded family, **VISIBLE gifts produce more give-BACK to the giver within 30 days; ANONYMOUS gifts produce more give-FORWARD to third parties.** *Null: rates match, or anonymous produces more give-back — the obligation mechanism is not operating.* ⛔ **Analyse PEER and ADULT-TO-CHILD strata separately** — the effect is expected between peers and weak or absent in adult-to-child care, and pooling would produce a false negative. ⚠️ Tests the **mechanism**, not the atmosphere claim it was offered to support | Unrun | First public here |
 
 ---
 
@@ -188,6 +191,13 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-05 — three added (P-BG1 · P-BG2 · P-BG3), all Chapter I, all pre-data.** They concern a
+relayed gift instrument whose intermediate holder cannot redeem it (`the-unpaid-relay`). ⚠️ **All
+three had existed in private notes for a day before this entry, which is exactly the condition this
+register exists to prevent** — a prediction held privately is not pre-registered in the sense that
+matters, since the value is a public timestamped commitment made *before* the data. **None has been
+run; no instrument for any of them is built.**
 
 *Predictions are added, never removed; this log records what each revision added and why, so the count in the Summary can always be reconciled.*
 
