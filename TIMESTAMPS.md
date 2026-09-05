@@ -315,3 +315,23 @@ lands. ⚠️ *The `/publish` chain's own step order causes this: it lists `npm 
 `gh run list --limit 1` served the *previous* failure. ⭐ **A stale run is indistinguishable from a
 fix that did not work.** Resolved with `gh workflow run npm-publish.yml --ref main`, which avoids
 burning a version. **Confirmed by `npm view @333eco/corpus@2.1.1`, never by the workflow's colour.**
+
+### 2026-09-05 — the prediction register: three P-BG entries
+
+| leg | result |
+|---|---|
+| **0 · render** | `1 module(s) written`, 13 ids |
+| **1 · OTS** | rotated → `.r3.ots` (retiring proof verified **3 Bitcoin attestations**), re-stamped ⚠️ calendar-only |
+| **2 · TSA** | `2026-09-05.sha256` — verified by **hash**, not date |
+| **3 · Zenodo** | 10.5281/zenodo.22325867 *(new version)* · `0 new, 1 revised` |
+| **4 · Index** | 2.1.2 · 141 documents · **0 revised since deposit** |
+
+**P-BG1 · P-BG2 · P-BG3** — a relayed gift instrument whose intermediate holder cannot redeem it.
+⚠️ **All three had existed in private notes for a day**, which is the condition the register exists
+to prevent: a prediction held privately is not pre-registered, because the value is a *public
+timestamped commitment made before the data.* **None run; no instrument built** (roadmap A73).
+
+⭐ **The corrected leg-4 order worked first time** — **bump → build → commit both** — where the
+previous run in this session failed the currency guard and had its publish *skipped* rather than
+failed. ⭐⭐ **And the new check earned its place: the run's `headSha` was compared to local HEAD
+before the result was believed**, which is what the earlier run's stale reading had defeated.
