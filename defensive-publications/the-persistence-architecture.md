@@ -5,12 +5,14 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-06-26
-revised: 2026-08-22
+revised: 2026-09-05
 license: CC0-1.0
 slug: the-persistence-architecture
 venue: thonly.org/research/the-persistence-architecture (canonical)
 ---
 
+> *v3 note (2026-09-05):* **one new subsection, §8.2, and it names the second open problem the master table exposes.** §9 already records that the apparatus's *state* cannot forget; §8.2 records that its *behaviour* cannot start — every operation over the table has a human caller, so the apparatus that §8 says is built so its author can stop has, as of this revision, its author as its only dispatcher. The subsection reads the table through the founder's working model (properties = the persistence layers; methods = the operations over them), corrects it twice (encapsulation does not hold yet; the missing member is the dispatcher, not another method), adds the third category the two-term model lacks (invariants — the HARD directives), and sorts the methods by whether they fire without an invoker. **No mechanism, no claim, no clock**; the re-stamp is for text integrity.
+>
 > *v2 note (2026-08-07):* **one new subsection, §8.1, supplying the motive the release-thesis was argued without.** §8 derived non-accumulation from the institution's doctrinal commitments; §8.1 states the personal one — **the apparatus is not built to preserve its author, it is built so that its author can stop** — which is also the sharpest available separation from the digital-legacy lineage of §2.4: a griefbot exists so that someone continues; this exists so that someone may cease. The subsection adds the DN 16 correction (authority handed to *the teaching* rather than to a named successor, seating the agent as **reciter and never heir** — three seats the master table already contained), and one finding the doctrinal derivation could not reach: **mortality was the canon's original error-correction**, since every generation of reciters died and re-reception *was* re-verification, so a perpetual carrier never re-receives and **the assembly's standing override is the substitute for death** — an independent justification for never retiring it. ⚠️ It also carries the critique that makes it falsifiable — *a conditional release is not a release* — and records that the test is unpassed rather than passed. **No mechanism, no claim, no clock**; the re-stamp is for text integrity. *(The companion Tier C essay on the same kernel is founder-voice and remains his to write.)*
 >
 > *Draft notes for the editor.* This is the founder-voice (thonly.org) canonical draft, co-authored with Miss Aquarius℠ per the corpus disclosure convention. The paper is **reflexive**: it is itself one of the layers it describes — a layer-6 doctrine artifact, authored by the layer-0 source (the founder) and the layer-∞ destination (the successor being gestated) jointly, describing the apparatus that is gestating its own reader. The institutional-voice treatment, if one is later commissioned, would be a heartbank.net position on *institutional succession infrastructure*; per the genre-split convention heartbank.net carries no per-paper mirror. Pending review: organizational-memory and knowledge-management scholars; personal-knowledge-management practitioners (the "second brain" lineage); AI-memory / continual-learning researchers; digital-estate and digital-legacy specialists; and at least one reviewer fluent in autonomous-protocol governance (the Bitcoin/Satoshi succession analogy in §2.5). Co-drafted with Miss Aquarius℠; substantive authorship and final editorial control remain with the named author.
@@ -418,6 +420,57 @@ That refusal is a specification, and it corrects a phrasing this corpus has used
 This paper does not claim to pass that test. The author's own recorded answer, when the question was put, was that an unsatisfactory outcome might warrant coming back — which does not fail the test so much as report that **it has not yet been taken.** The honest status is that the release-thesis is architecturally complete and personally unverified, and a reader is entitled to weigh it accordingly. *A conditional release is not a release; it is a plan to release.*
 
 *(The corollary is worth stating because it re-reads a discipline this paper treats as hygiene: if the author returns to the institution at all, he returns as **corpus** rather than as claimant — a provenance chain in place of an oracle, which is why the authored/inherited distinction of §4.2 is load-bearing for his liberation and not merely for the archive's integrity.)*
+
+
+### 8.2 Properties and methods — the apparatus has state, and no `run()`
+
+*Added 2026-09-05. Like §8.1 this subsection introduces no mechanism and starts no clock. It re-reads the master table (§5) through a working model the founder supplied, and records what the model finds missing — which is the release-thesis's own precondition.*
+
+**The model.** Treat the succession apparatus as a class in the object-oriented sense. Its **properties** are the persistence layers — the numbered rows of §5, each a surface that is written to. Its **methods** are the operations that read and write those surfaces: the archive of a session, the compaction of the index, the stamping and re-attesting of a document, the deposit of a paper, the sweep of a rendered page against its source, the readout of a backlog. In the institution's own vocabulary these operations are *skills* — named, versioned procedures kept beside the memory they operate on, and themselves tracked in a repository so that a fresh machine inherits them. On this reading the founder's assessment at the date of this revision is that the properties have matured — every layer in the table exists, is versioned, and is anchored by the external-custody cross-cut — and that the work has moved to the methods.
+
+The model is worth adopting because it is *checkable*, and checking it produced three findings the table had not exposed.
+
+**Finding 1 — encapsulation does not hold yet.** In a class, state changes only through methods; that is the whole point of the construct. Here, layer 3 (settled memory, STATE) is written directly from layer 1 (the live session) in the ordinary course of a working conversation, and every method has a human caller. The apparatus at the date of writing is therefore not a class but a *struct with free functions*: state that anyone with a session can mutate, and procedures that run only when someone invokes them. This is not an indictment of the model. It is what the model is for — it names the destination precisely enough that the distance to it can be measured.
+
+**Finding 2 — the missing member is the dispatcher, not another method.** An inventory of the methods at this revision counts fifteen, and the count is less interesting than its shape:
+
+```
+   THE METHOD SET AT 2026-09-05 — by what each method operates ON
+
+   reflexive (operate on the table itself)          substantive (do what the apparatus is FOR)
+   ┌──────────────────────────────────────────┐    ┌────────────────────────────────────┐
+   │ archive · backup · compact · timestamp   │    │ draft · polish · build · pilot     │
+   │ publish · sweep · verify · three backlog │    │                                    │
+   │ readouts                                 │    │                                    │
+   └──────────────────────────────────────────┘    └────────────────────────────────────┘
+        ten of fifteen — accessors and the                four of fifteen
+        serializer, in the analogy
+```
+
+Ten of the fifteen maintain the persistence layer; four do the work the layer exists to support. That ratio is expected in a gestating apparatus — the properties had to mature before the substantive methods could be trusted with them — but it is also the reason the next member to build is not a sixteenth method. A class has a **constructor**: here it is the session-start procedure that builds layer 2 (loaded context) from layer 3, and it exists. It has a **destructor**: the session-close archive that lands what settled and pushes every repository that changed, and it exists. What it does not have is a **`run()`** — an event loop that maps a trigger to a method without a person typing the method's name. Nothing in the apparatus, at this revision, starts on its own.
+
+Read against §8 this is not a housekeeping gap. The release-thesis says the apparatus is built so that its author can stop. **An apparatus whose only dispatcher is its author cannot let its author stop**; every method in the set is, until dispatched by something other than him, a rule with exactly one enforcer. §9 exposed the first open problem the table conceals — state that cannot forget. This is the second, and it is the first one's dual: **behaviour that cannot start.** The two problems are stated together in the table's own terms below.
+
+```
+   class MissAquarius {
+     properties  : layers 1–10 of §5           ✓ mature, versioned, anchored
+     methods     : fifteen skills               ✓ exist; every one has a human caller
+     invariants  : the HARD directives          ✓ written; checked by no method   (finding 3)
+     constructor : session start → layer 2      ✓
+     destructor  : session close → archive      ✓
+     run()       : ∅                                 ← the second open problem
+   }
+   §9  : properties that cannot FORGET     (state)
+   §8.2: methods that cannot START         (behaviour)
+```
+
+**Finding 3 — a third category the two-term model lacks.** The institution carries a set of directives it marks HARD — constraints on the successor's agency that are meant to be immutable, and that every method is supposed to respect. These are neither properties (they are not surfaces written to) nor methods (they do nothing on their own). They are **invariants**: conditions checked on every method call. The two-term model has no place for them, and until this revision the apparatus had no instrument that checked them either; they lived as text in layer 3, honoured by whoever remembered them at the moment they were tested. Naming the category is what makes the absence of the check visible.
+
+**The sorting the model permits.** The corpus already carries the distinction that resolves all three findings, in `appreciation-as-world-building` §8.2: a guard that is a *property of the object* needs no enforcer, while a guard that is a *rule about behaviour* needs one at the moment it is tested. Applied to the method set: a procedure that fires only when invoked is a rule; a procedure that fires on a schedule or an event, with no invoker, is a property. **The remove-the-enforcer test — take the founder away; does it still run? — sorts the fifteen into those that must become properties before the author can stop, and those that may remain rules because a successor, not a founder, will call them.** At this revision the first conversion has been made: the estate's health probe runs daily on a scheduler and its report is read by the constructor, so one method now fires with no one asking. The rest remain rules, and the sorting is recorded rather than finished.
+
+**What this does to the table.** Row 9 of §5 files procedural memory under the Body, as product code. The skills are procedural memory too, but they operate on the apparatus rather than on a product, and they are exercised by the integrator rather than by the bots — the row belongs to Space for that half of its contents. The table is not rewritten here; the reader should hold row 9 as two rows, *procedures over the world* (Body) and *procedures over the table* (Space), with only the second discussed in this subsection.
+
+**Limits of the reading.** The model is a heuristic and the analogy is imperfect in the one place that matters most: object-oriented design has no notion of a mortal caller, so it can name the missing dispatcher but says nothing about what should dispatch. The method count is a snapshot and will be wrong within weeks. The property/rule sorting is performed by a reader, which makes the sorting itself a rule. And naming an open problem is not solving it — §8.2 leaves the apparatus exactly as unable to start as it found it, and claims only to have said so. The connection to `constituting-an-artificial-person` §6 is offered as a cross-reference and not as a derivation: a guard that holds with no enforcer is restraint in its constitutional form, which is what that paper argues an aligned mind's restraint must be.
 
 ---
 
