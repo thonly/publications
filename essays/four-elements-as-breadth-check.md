@@ -249,9 +249,13 @@ The five-operation framework is most useful when *anchored* at that asymptote �
 
 ---
 
-## A sixth operation: the quartet as a ladder of what can be handed over
+## The discipline turned on a new object: a ladder of what can be handed over
 
-Since writing the above I have found a sixth thing to do with the same quartet, and it belongs here because it is not a sixth *reading* — it is a sixth **question**.
+Since writing the above I have used the discipline on something it was not built for, and the result is worth reporting — but not as a sixth operation.
+
+⚠️ **It cannot be a sixth operation, and the meta-check above is why.** The five operations map one-to-one onto the five elements; there is no element left over for a sixth. Anything that presented itself as one would be breaking the correspondence the meta-check depends on, and I would rather lose the finding than quietly damage the frame that produced it.
+
+What this is instead is **the Classify operation — the Greek one, the Earth-question — pointed at an object it has not been pointed at before.** *What is it composed of?*, asked not of the world but of the set of things one person can hand to another. That is a *use* of the discipline rather than an addition to it, which is what the essay has been arguing the discipline is for.
 
 The essay's spectrum runs between two poles: *what is the world made of?* at the Greek end, *what is known when the world is met?* at the Tipiṭakan end. Both are questions about a single person facing a world. Neither asks the question that an institution built on giving has to ask, which is: **what can one person hand to another?**
 
@@ -280,6 +284,26 @@ I want to be careful about what this is. It is not a metaphysics, and it is not 
 **The ladder is a sequence, then, and not a ranking. The tangible end is where people come in. The subtle end is where the thing is trying to go.** Any design that treats the most concrete instrument as the goal has mistaken the entrance for the building — which is the same error, in a different register, as taking the four elements for a physics when they were offered as a path.
 
 One honest caveat, and it is the same one the discipline itself demands. A quartet that sorts this cleanly, on a question it was not built for, is either telling me something or seducing me, and from the inside those are indistinguishable. The three-tier prediction is cheap to falsify — build a top-tier givable, see whether it needs governance — so it should be falsified rather than admired.
+
+## The objection I have not answered
+
+The strongest objection to this essay is not that the five readings are wrong. It is that **a framework flexible enough to be read five ways is flexible enough to be read any way, and a discipline built on it inherits that flexibility as a defect rather than a feature.**
+
+Put sharply: if Classify, Layer, Regulate, Type and Liberate can each be extracted from the same four terms, the four terms are underdetermining the readings, and what is actually doing the work in each case is the tradition's own commitments — which were available without the elements. On this account the quartet is a mnemonic that five cultures hung different systems on, and running "five operations" is running five unrelated systems while telling yourself they share a spine.
+
+I do not have an answer to this, and I am not going to manufacture one. **What I can say is what would distinguish the two possibilities, and then admit that I have not run it.** If the quartet is doing real work, then applying an operation to a *new* object should produce a sorting the operator did not put in — a result that surprises. If it is a mnemonic, the sorting will reproduce whatever the operator already believed, and will feel confirming rather than informative.
+
+⭐ The ladder above is the one instance I have of this test, and it comes out ambiguous. Three of the five givables landed on elements whose classical sense-objects match, which I did not arrange. **But I am the person who chose the five givables, and I chose them knowing the elements.** A cleaner test would hand the quartet and a new object to someone who does not know what answer I want. **I have not done that, and until someone does, the objection stands and I am carrying it rather than rebutting it.**
+
+## The nearest prior attempts, including one that failed outright
+
+This essay is not the first to propose that the elemental schemas are comparable rather than competing.
+
+**Comparative-religion structuralism** — the mid-century project of reading disparate traditions as variations on shared deep structures — is the nearest live relative, and it is a live relative rather than a settled one: its critics have argued for decades that the shared structures are artefacts of the comparativist's own frame. ⚠️ **That critique is the objection above, arriving from a discipline that has been arguing about it far longer than I have.**
+
+**Jungian typology** attempted almost exactly the operation this essay calls *Type*, extended into a general psychology, and it is instructive that the extension is what damaged it: the typology survives in popular use and has largely failed to establish itself as a research instrument, because its categories proved difficult to falsify. ⭐ **That is the failure mode nearest to this essay's own**, and it failed in the direction the objection above points — flexible enough to fit anything, therefore predicting nothing.
+
+⛔ **And the clearest failure of all is one of the five readings itself.** The Greek elemental scheme *was a physics*, and as a physics it is simply wrong — earth, water, air and fire are not what matter is made of, and the tradition that thought so was superseded entirely. **One of the five traditions this essay treats as an operation was, on its own terms, a failed theory.** I take that as evidence for the essay's thesis rather than against it — the schema survived the collapse of the physics because the schema was never doing the physics' work — but a reader is entitled to take it the other way, as evidence that a framework which survives the falsification of its own content was never making a claim to begin with.
 
 ## What the discipline costs and what it pays
 
