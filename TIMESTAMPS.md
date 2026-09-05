@@ -281,3 +281,37 @@ Zenodo new versions (metadata-only) for the nine deposited defensive publication
 ⚠️ **OTS is CALENDAR-ONLY on all six at time of writing** — stamped minutes before. The chain is not finished on the Bitcoin leg until those commitments confirm; **re-run `/ots` in a few hours.**
 
 ⭐ **Render note worth keeping: two more modules turned out to be hand-authored** (`transparency-as-enforcement`, `dual-currency-reciprocity`), taking the list from six to eight — **and they were nearly missed because the generator's output was piped to `/dev/null`.** A skipped generation leaves the file untouched, so the id-diff compares it to itself and returns **zero churn**, which reads exactly like *"generated module, safe."* **Read the generator's `N module(s) written` count before trusting any downstream diff; `0 written` means hand-authored and no later check can tell you that.** All three hand-edits re-diffed IDENTICAL on ids.
+
+### 2026-09-04/05 — The Unpaid Relay, and three papers revised alongside it
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **the-unpaid-relay** *(new)* | first stamp | `2026-09-05.sha256` | **10.5281/zenodo.22313928** *(new record)* | 2.1.1 |
+| the-gift-operation | rotated → `.r2.ots` | `2026-09-05.sha256` | 10.5281/zenodo.22313926 *(new version)* | 2.1.1 |
+| four-body-architecture | rotated → `.r2.ots` | `2026-09-05.sha256` | 10.5281/zenodo.22313923 *(new version)* | 2.1.1 |
+| four-elements-as-breadth-check | rotated → `.r2.ots` | `2026-09-05.sha256` | ⛔ **none — essay** | 2.1.1 |
+
+**What changed.** A new defensive publication specifying a gift instrument whose intermediate holder
+has no redeem operation; `the-gift-operation` gains §6.5 (the conserved-identity subclass, corrected
+to a **bounded relay** rather than the open forward-chain) and §6.6 (hoardability as a design
+predictor); `four-elements-as-breadth-check` gains a use of the discipline on a new object plus the
+two checklist-A items it lacked; `four-body-architecture` gains a disambiguation so two elemental
+mappings are not read as one scheme.
+
+⚠️ **OTS is CALENDAR-ONLY on all four at time of writing** — stamped minutes before. The Bitcoin leg
+is not finished until those commitments confirm; re-run `/ots` in a few hours.
+
+⭐ **Retiring proofs were verified Bitcoin-complete before rotation** (3, 1 and 2 attestations
+respectively) — an incomplete proof archived is an incomplete proof forgotten.
+
+⛔ **Two chain traps fired, both of which produce a green-looking failure:**
+**(1) A version bump is also a rebuild.** `package_version` is baked into the index, so building
+before `npm version patch` leaves the two surfaces disagreeing; CI's currency guard failed and
+**publish was skipped, not failed** — the run is red for the guard, and the version silently never
+lands. ⚠️ *The `/publish` chain's own step order causes this: it lists `npm run build` before
+`npm version patch`.* **Correct order is bump → build → commit both together.**
+**(2) The fix commit did not trigger CI.** The rebuild touched `dist/corpus.json` but not
+`package.json`, which is the workflow's only push path — so **no run existed for it**, and
+`gh run list --limit 1` served the *previous* failure. ⭐ **A stale run is indistinguishable from a
+fix that did not work.** Resolved with `gh workflow run npm-publish.yml --ref main`, which avoids
+burning a version. **Confirmed by `npm view @333eco/corpus@2.1.1`, never by the workflow's colour.**
