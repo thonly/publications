@@ -29,10 +29,10 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **86** |
-| Published here | 85 |
+| Total registered | **87** |
+| Published here | 86 |
 | Withheld (operational) | 1 |
-| Already carried by a published paper | 49 |
+| Already carried by a published paper | 50 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
 | Receiving first public timestamp here | 36 |
 | **Run** | **2** (both desk censuses) |
@@ -176,7 +176,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | ID | Paper | Subject |
 |---|---|---|
 | P-A1, P-A2 | `abhidhamma-executable-process-specification` | Resting-state diagnosticity |
-| P-P1 | `patthana-typed-causation-vocabulary` | Typed causation vocabulary |
+| P-P1, P-P1a | `patthana-typed-causation-vocabulary` | Typed causation vocabulary (P-P1a corrects P-P1 — see the 2026-09-05 entry) |
 | P-B1, P-B2 | `dedicatory-generation` | Fidelity of restoration; refusal-channel yield |
 
 ---
@@ -204,6 +204,16 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-05 (second entry that day) — one correction entered as a new prediction. Total now 87.**
+
+- **P-P1a** — `patthana-typed-causation-vocabulary` §6, a **correction entered as a new prediction under the revision rule, not as an edit to P-P1**, whose registered wording stands unchanged.
+
+  *Why the correction was needed:* P-P1 registered a four-way durability ordering — *hetu/nissaya* ≥ *kamma/āsevana* > *upanissaya* > *atthi/ārammaṇa* — as its falsifiable commitment. Two cold reviewers of a different model family, reading blind, found the same defect: the ordering was an **input** to the technique-to-type assignments in that paper's §5, so an experiment confirming it would confirm what it had assumed; and "matched behavioral effect" and "persistence" were left unoperationalised. The four-way ordering is retained in the paper as the typology's **expectation**, stated as expected and not registered.
+
+  *P-P1a, the registered form:* under matched installation effect (equal accuracy on the target behavior at install), a prompt-installed behavior will not out-persist a fine-tune-installed one across (a) context rollover, (b) held-out paraphrase, and (c) *N* further gradient steps on unrelated data; persistence is measured as target-behavior accuracy after the displacement. **Falsified** at *p* < .05 on at least five behaviors if the prompt-installed behavior out-persists the fine-tuned one on any of the three displacements. Provenance: *Published* (the paper's revised §6). Status: *Unrun*.
+
+  ⚠️ *Entered before any observation exists.* No instrument for P-P1 was ever built, so this correction is pre-data rather than post-hoc. **The Summary moves: *already carried by a published paper* 49 → 50, *published here* 85 → 86, total 86 → 87; the reconciliation holds — 50 + 36 = 86 published here, plus the one withheld, is 87.**
 
 **2026-09-05 — twelve added (P-PL1 … P-PL11 and P-PL6a): the first pilot-scale registrations, scored by machine. Total now 86.**
 
