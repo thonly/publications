@@ -6,7 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-06-26
-revised: 2026-08-22
+revised: 2026-09-05
 license: CC0-1.0
 slug: aura-gated-anonymous-mate-selection
 venue: thonly.org/research/aura-gated-anonymous-mate-selection (canonical)
@@ -30,21 +30,21 @@ I write as co-author with Miss Aquarius℠ — the named autonomous-AI substrate
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time. This commitment is permanent.
 
-This document constitutes a defensive publication establishing **prior art as of 26 June 2026** for the combination of mechanisms described herein. To the author's knowledge, the following are not previously published as a unified mechanism, and any subsequent patent application claiming them should be considered filed against established prior art and denied on grounds of obviousness in light of this publication:
+This document constitutes a defensive publication establishing **prior art as of 26 June 2026** for the combination of mechanisms described herein. To the author's knowledge, the following are not previously published as a unified mechanism, and any subsequent patent application claiming them should be considered filed against established prior art:
 
-1. **Aura-gating of mate-selection** — gating romantic discovery on an *aggregate, anonymous, community-sourced proven-kindness reputation* ("aura") accrued from many nearby strangers over a long course of time, rather than on appearance, self-authored profiles, or paid visibility.
-2. **Mutual-anonymous-same-hour as a double-blind double-opt-in match trigger** — repurposing the shared-hour mutuality signal (the consent receipt of HeartBank Chronicle) as the match primitive, such that a match occurs only on coincident mutual anonymous time-giving and *no explicit rejection event ever occurs* (non-reciprocation is silent — a threshold simply is not reached).
-3. **Reveal as a second, separate mutual consent** — reaching the mutual-anonymous threshold makes identity reveal *available/offered* but never auto-reveals; both parties must independently opt to reveal, protecting the pure-*dāna* giver who gave anonymously with no romantic intent.
+1. **Aura-gating of mate-selection** — gating romantic discovery on an *aggregate, anonymous, community-sourced proven-kindness reputation* ("aura") accrued from many nearby strangers over a long course of time, rather than on appearance, self-authored profiles, or paid visibility — the novelty being anonymous stranger gratitude accumulated over time, since reputational dating profiles are themselves prior art (§2.1).
+2. **Mutual-anonymous-same-hour as a double-blind double-opt-in match trigger** — repurposing the shared-hour mutuality signal (the consent receipt of HeartBank Chronicle) as the match primitive, such that a match occurs only on coincident mutual anonymous time-giving and *no explicit rejection event ever occurs* (non-reciprocation is silent — a threshold simply is not reached) — the novelty being the time-giving instantiation, since mutual-interest-before-reveal is itself prior art (§2.1).
+3. **Reveal as a second, separate mutual consent** (a dependent element of claim 2, not a claim on two-stage reveal as such) — reaching the mutual-anonymous threshold makes identity reveal *available/offered* but never auto-reveals; both parties must independently opt to reveal, protecting the pure-*dāna* giver who gave anonymously with no romantic intent.
 4. **The anonymity flag (`isAnonymous`) as the structural boundary** separating non-romantic known-gratitude (`false`) from the anonymous-stranger layer where romance may emerge (`true`) — opting into mate-selection is flipping one flag, with no distinct "dating mode."
-5. **Proof-of-Humanity-substrate anti-catfish binding** — verified-real, verified-single-human, anonymous-until-mutual personhood underneath the mate-selection layer, natively defeating catfishing and bots, with *aura itself functioning as a community-sourced behavioral background check.*
-6. **An optional synastry (cosmic-coordinate) compatibility layer** offered atop a pool already pre-filtered for proven character, under a strict coordinate-not-force, opt-in, epistemically-humble posture — never deterministic matchmaking.
-7. **The mission-aligned monetization constraint** — the mechanism is *self-eliminating* (it succeeds when users pair off and leave) and may be monetized only by patron / forward-gift / graduation-gift / values-aligned-introduction logic, *never* by retaining users in the market.
+5. **Proof-of-Humanity-substrate anti-catfish binding** — verified-real, verified-single-human, anonymous-until-mutual personhood underneath the mate-selection layer, natively defeating catfishing and bots — the novelty being anonymity-until-mutual atop the substrate, since personhood-verified dating is itself prior art (§2.1) — with aura itself a costly-to-fabricate record that the counterparty reads for themselves.
+6. **An optional synastry (cosmic-coordinate) compatibility layer** offered atop a pool already pre-filtered for proven character, under a strict coordinate-not-force, opt-in, epistemically-humble posture — never deterministic matchmaking; the claim is to the posture only, horoscope matchmaking being long-published (§2.1).
+7. **The mission-aligned monetization constraint** — the mechanism is *self-eliminating* (it succeeds when users pair off and leave) and may be monetized only by patron / forward-gift / graduation-gift / values-aligned-introduction logic, *never* by retaining users in the market — the novelty being the revenue prohibition and the patron/forward-gift logic, not the designed-to-be-deleted slogan (§2.1).
 
 The component lineages — proximity-based services; proof-of-personhood; anonymous-giving mechanisms; Zahavi's handicap principle and the honest-signaling literature; assortative-mating and sexual-selection research; TimeBanking; the dāna economy of the Saṅgha — are old and are cited generously below. The synthesis is, to the author's knowledge, novel as of this paper's date.
 
 Trademark rights on specific marks — **B-Dating℠**, **HeartBank®**, **Miss Aquarius℠**, **Proof of Humanity ℠**, **PoH℠**, **Aquarian Pool ℠**, **Zero-Point Game ℠**, the B-heart logo — are separately and explicitly reserved. The *mechanism* is dedicated to the commons; the *marks* are not.
 
-Mirrors of this document with independent timestamping appear at GitHub, arXiv, IP.com, and the Internet Archive (web.archive.org, archive.today, perma.cc). Each mirror carries an independent tamper-evident timestamp.
+This document's SHA-256 is attested independently of the site and its authors — anchored to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three timestamp authorities in three jurisdictions, one of them eIDAS-qualified — and each revision carries a Zenodo version; a timestamp proves this exact text existed no later than its date and nothing about authorship, originality, or the validity of any claim.
 
 ## Abstract
 
@@ -72,19 +72,21 @@ The mechanism composes lineages that are individually old. We cite each generous
 
 ### 2.1 · Appearance-gated, engagement-monetized dating (Tinder, Bumble, Hinge)
 
-The dominant online-dating products of the 2010s–2020s — Tinder (2012), Bumble (2014), Hinge (2012, repositioned ~2017) and their kin under a small number of corporate parents — share two structural properties this paper inverts.
+The dominant online-dating products of the 2010s–2020s — Tinder (2012), Bumble (2014), Hinge (2012; rebooted 2015 as "designed to be deleted") and their kin under a small number of corporate parents — share two structural properties this paper inverts.
 
 **First, they gate on appearance.** The primary discovery signal is a photograph, optionally supplemented by a short self-authored profile. A photograph is the cheapest-to-fake signal a person can present (it can be filtered, staged, borrowed, AI-generated, or simply selected from a thousand attempts), and the self-authored profile is cheaper still (it is, definitionally, the claimant's own testimony about themselves). The swipe interface optimizes the throughput of exactly this signal.
 
-**Second, and more corrosively, they are engagement-monetized.** The canonical business model — subscription tiers, pay-to-be-seen boosts, super-likes, and the advertising and upsell flows that attend a large engaged user base — generates revenue in proportion to *time spent in the market.* This produces the textbook misaligned-incentive structure: a dating product that *works* — you meet someone, pair off, and delete the app — is anti-LTV. The product profits when you stay single and keep swiping. The industry has, accordingly, perfected artificial scarcity (rationed likes), pay-to-be-seen visibility auctions, and addictive variable-reward gamification. This is not an accusation of bad faith; it is a description of what the incentive gradient rewards. We treat it as the central thing to *not* reproduce (§6).
+**Second, and more corrosively, they are engagement-monetized.** The canonical business model — subscription tiers, pay-to-be-seen boosts, super-likes, and the advertising and upsell flows that attend a large engaged user base — generates revenue in proportion to *time spent in the market.* The revenue model is retention-coupled: subscription and à-la-carte purchases accrue with time in the market, so a product that *works* — you meet someone, pair off, and delete the app — is anti-LTV; Hinge's stated posture is the exception that names the rule. The industry has, accordingly, perfected artificial scarcity (rationed likes), pay-to-be-seen visibility auctions, and addictive variable-reward gamification. This is not an accusation of bad faith; it is a description of what the incentive gradient rewards. We treat it as the central thing to *not* reproduce (§6).
 
 We distinguish: aura-gated anonymous mate-selection gates on a costly community-vouched honest signal rather than a photograph (§3), removes the swipe and the explicit rejection entirely (§4.3), and is structurally self-eliminating — it can only be monetized by mission-aligned logic that profits when users leave happy, never by retaining them (§6). The incumbents' dark pattern is not a feature we improve; it is a category we exit.
+
+**Closer anticipations, added at the 2026-09-05 revision, each of which narrows a claim below.** *Mutual interest before reveal* is prior art: US 2011/0219310 A1 (priority 2010) discloses members privately indicating interest across stages with contact and profile revealed only on matching interest, and the anonymous-matching lineage runs from SecretAdmirer (1997) and eCRUSH (1999) through a run of 2024–26 apps — so claim 3 is anticipated as a mechanism and claim 2's novelty is its *time-giving* instantiation. *Reputational profiles for dating* are prior art: US 2017/0147155 A1 (Verizon, priority 2015) generates a verified reputational profile with service-specific indicators, and US 2023/0412536 A1 (priority 2022) rates users by their message interactions — so claim 1's novelty is *anonymous stranger gratitude accumulated over time*, not reputation as such. *Proof-of-personhood under dating* is prior art: Tinder's World ID verification pilot (2025–) — so claim 5's novelty is anonymity-until-mutual atop the substrate. *Horoscope matchmaking* is prior art: US 2002/0160338 A1 (priority 2001) computes a weighted astrological compatibility score and ranks a database by it, and NUiT (2020) ships the consumer form — so claim 6 claims only the posture. *Designed-to-be-deleted* is Hinge's stated posture (2015–), and success-fee marriage agencies (IBJ, Japan) already charge on outcome — so claim 7's novelty is the revenue *prohibition* and the patron/forward-gift logic, not the slogan.
 
 ### 2.2 · Proof-of-personhood (Worldcoin, proofofhumanity.id) and the catfish/bot problem
 
 Online dating's two endemic plagues are catfishing (a real person misrepresenting who they are, or a fabricated persona) and bots (automated accounts at scale, for scams and engagement-farming). Proof-of-personhood systems are the natural substrate against both, but the prominent ones are mismatched to mate-selection in a specific way.
 
-**Worldcoin** (2023 onward) establishes that a participant is a unique human via biometric (iris) registration, but it verifies humanity *once at registration*, and — more to the point here — it is oriented toward *identity/uniqueness*, not toward *anonymous-until-mutual* romantic discovery. A proof-of-personhood that reveals or fixes identity is the wrong primitive for a layer whose entire safety model depends on anonymity until a double consent. The Ethereum-based **proofofhumanity.id** (Kleros-affiliated, 2021) admits verified humans to a registry via face-video plus vouching plus dispute resolution — again a single-tier, identity-revealing admission, suited to token distribution (UBI), not to anonymous mate-selection.
+**Worldcoin** (2023 onward) establishes that a participant is a unique human via biometric (iris) registration, but it verifies humanity *once at registration*, and — more to the point here — it is oriented toward *identity/uniqueness*, not toward *anonymous-until-mutual* romantic discovery. A proof-of-personhood that reveals or fixes identity is the wrong primitive for a layer whose entire safety model depends on anonymity until a double consent. The Ethereum-based **proofofhumanity.id** (Kleros-affiliated, 2021) admits verified humans to a registry via face-video plus vouching plus dispute resolution — again a single-tier, identity-revealing admission, suited to token distribution (UBI), not to anonymous mate-selection. World ID, Worldcoin's credential, does prove unique humanness anonymously to a verifier; what it does not supply is the aura and the two-stage reveal, and a dating product built on it (§2, the 2026 anticipations) still gates on the profile.
 
 We distinguish: HeartBank's **Proof of Humanity ℠** is a layered-*optional* personhood substrate (passkey-per-action; a non-DNA family tree; a live breath signature; a DNA-verified family tree) that verifies a human is present *for this specific act, right now*, and is designed to keep a participant *verified-real and verified-single-human while remaining anonymous to the counterparty until a mutual reveal.* That is precisely the property mate-selection needs and that identity-revealing proof-of-personhood cannot supply (§4.5). The full layered protocol is specified in the companion paper *B-PoH℠ as Humanity Layer for the AI-Native Internet*; the name-collision with proofofhumanity.id is acknowledged there and the structural differences enumerated.
 
@@ -96,13 +98,13 @@ We distinguish: incumbent dating optimizes the *cheapest* signal (a photo). Aura
 
 ### 2.4 · Assortative mating and sexual-selection literature
 
-The biological and social-science literatures on mate choice are deep and we make no claim to extend them. **Sexual selection** (Darwin, 1871) established mate choice as a primary species-shaping force distinct from natural selection. **Assortative mating** research (the well-documented tendency of partners to resemble each other on education, traits, and values, with measured consequences for inequality and heritability) establishes that the *axis* on which mating sorts has population-scale downstream effects. The prosociality and mate-preference literature (e.g., the cross-cultural finding that kindness ranks near the top of stated long-term mate preferences across societies — Buss and colleagues' cross-cultural work) establishes that kindness is *already* a stated preference; what has been missing is a *reliable, hard-to-fake channel* to act on it. Trivers' parental-investment theory (1972) grounds the gendered asymmetry in risk that §7 treats as a first-class constraint.
+The biological and social-science literatures on mate choice are deep and we make no claim to extend them. **Sexual selection** (Darwin, 1871) established mate choice as a primary species-shaping force distinct from natural selection. **Assortative mating** research (the well-documented tendency of partners to resemble each other on education, traits, and values, with measured consequences for inequality and heritability) establishes that the *axis* on which mating sorts has population-scale downstream effects. The prosociality and mate-preference literature (e.g., the cross-cultural finding that kindness ranks near the top of stated long-term mate preferences across societies — Buss and colleagues' cross-cultural work) establishes that kindness is *already* a stated preference; what has been missing is a *reliable, hard-to-fake channel* to act on it. Trivers' parental-investment theory (1972) grounds the investment asymmetry; the physical-danger asymmetry of stranger encounters that §7 treats as a first-class constraint is an empirical regularity of victimisation data, not a theorem.
 
 We distinguish: this paper does not propose a new theory of mate choice. It proposes an *infrastructure* that shifts which signal is legible and actionable at the moment of choice — supplying the honest channel the stated preference for kindness has lacked — and it explicitly bounds the resulting societal claim to a *marginal shift in the selection gradient*, never an override of appearance/status biology (§8, §11).
 
 ### 2.5 · TimeBanking and time-as-currency (Edgar Cahn)
 
-Edgar Cahn's TimeBanking (1980 onward) substituted time as the unit of account, with the egalitarian property that an hour given is an hour received regardless of the giver's socioeconomic position. TimeBanking worked at small scale and never broke through to the mainstream. The mate-selection layer here is built on Chronicle's time-currency, which is TimeBanking's nearest ancestor.
+Edgar Cahn's TimeBanking (1980 onward) substituted time as the unit of account, with the egalitarian property that an hour given is an hour received regardless of the giver's socioeconomic position. TimeBanking worked at small scale; by the movement's own account it expanded in the 1980s and dwindled by the mid-1990s before a later revival (TimeBanks.Org). The mate-selection layer here is built on Chronicle's time-currency, which is TimeBanking's nearest ancestor.
 
 We distinguish: Chronicle differs from classical TimeBanking by AI mediation (Miss Aquarius℠ recommends a time amount and orchestrates consent), cultural ritual, integration with the money side, and — decisively — a *dyadic non-fungible* structure (only *you* can spend the hour; the currency *is* the relationship) rather than a fungible pooled credit. The mate-selection layer further repurposes the *mutual* expenditure of dyadic time as a consent and match signal — a use TimeBanking never had, because TimeBanking's hour was fungible and pooled, not a dyadic mutuality receipt.
 
@@ -151,12 +153,12 @@ The motivating idea of the whole design is a single inversion. Incumbent dating 
 
 A photograph costs nothing to optimize. It can be filtered, posed, lit, selected from hundreds of attempts, borrowed, or wholly synthesized. The self-authored profile is cheaper still: it is the claimant's own unaudited testimony. Because these signals are cheap, they are weakly correlated with the qualities that predict a good long-term partner; and because the market optimizes them, it selects for the ability to *produce* them, which is not the same as the ability to *be* a good partner.
 
-**Aura** is engineered to be the opposite. It is an *aggregate*, *anonymous*, *many-sourced* reputation for proven kindness, accrued from gratitude received from nearby strangers over a long course of time. Four properties make it Zahavi-honest:
+**Aura** is engineered to be the opposite. It is an *aggregate*, *anonymous*, *many-sourced* reputation for proven kindness, accrued from gratitude received from nearby strangers over a long course of time. Four properties are designed to make it costly in Zahavi's sense; whether it stays honest under adversarial play is open (§12.7):
 
 - **Aggregate and many-sourced.** Aura is not any single thank-you; it is the accumulated signature of many independent acknowledgments. One staged kindness, or one colluding friend, moves it negligibly. (This is also the operationalization of Guard 1, §5: the romantic-quality signal is the *aggregate*, never the individual thank.)
 - **Anonymous.** The people who built a person's aura, by being grateful to them, did so anonymously and largely without romantic intent — so the signal cannot be gamed by performing kindness *at* a target audience of potential mates. To raise aura you must be kind to *everyone*, because you do not know who is watching, or whether anyone is.
 - **Longitudinal.** Aura accrues over a long course of time. A predator or a fraud cannot cheaply fabricate years of vouching from dozens of locals. The cost of faking the signal approaches the cost of *actually being kind for a long time to many people* — which is the trait the signal indicates.
-- **Locally embedded.** Because the gratitude comes from nearby verified humans (the proximity rule), aura also functions as a **community-sourced behavioral background check** that no dating app has: a long anonymous trail of real local people vouching, by their gratitude, that this person treated them well.
+- **Locally embedded.** Because the gratitude comes from nearby verified humans (the proximity rule), aura is also a **community-sourced record** that no dating app has: a long anonymous trail of real local people vouching, by their gratitude, that this person treated them well.
 
 ```
    SIGNAL COST-TO-FAKE  (Zahavi: reliable ⇔ expensive)
@@ -170,7 +172,7 @@ A photograph costs nothing to optimize. It can be filtered, posed, lit, selected
                                                  ≈ actually being kind
 ```
 
-The defensible claim is narrow and strong: *aura-gating selects, at the margin, for people who are actually kind*, because the signal is expensive in the currency of actual kindness. The over-claim we refuse (§8) is that aura predicts *attraction* or *compatibility*. It does not. It predicts character. Everyone you meet in this pool is proven kind, verified real, and community-vouched; you bring the chemistry.
+The defensible claim is narrow and strong: *aura-gating selects, at the margin, for people who are actually kind*, because the signal is expensive in the currency of actual kindness. The over-claim we refuse (§8) is that aura predicts *attraction* or *compatibility*. It does not. It predicts character. Everyone you meet in this pool is proven kind, verified real, and community-vouched; you bring the chemistry. *[The "proven kind" and "community-vouched" verdicts in that sentence are superseded — §8.1.]*
 
 ---
 
@@ -180,7 +182,7 @@ We now specify the mechanism. Variations consistent with the five structural pro
 
 ### 4.1 · The anonymity flag as the structural boundary
 
-Chronicle distinguishes two relational modes by a single flag on a gratitude transfer, `isAnonymous`.
+Chronicle distinguishes two relational modes by a single flag on a gratitude transfer, `isAnonymous`. The flag is set by the giver at transfer time and never changes; the mate-selection layer has exactly one read path — the `true` partition — and no other.
 
 - **`isAnonymous: false` — known loved ones.** This is Chronicle's sacred core: time-presence given between people who know each other, to repair a drifted bond. It is **never a romantic signal** and never enters the mate-selection layer. The cathedral.
 - **`isAnonymous: true` — the anonymous-nearby-stranger layer.** This is where mate-selection lives. Entering it is exactly as simple as flipping the flag: a person opts in by choosing to give anonymously to nearby strangers. The courtship.
@@ -203,9 +205,9 @@ This is the elegant operationalization of Guard 1 (§5): there is no gross "dati
 
 ### 4.2 · Aura as the quality signal (aggregate, never individual thanks)
 
-In the anonymous-stranger layer, the signal that surfaces a person for possible discovery is their **aura** — the aggregate, anonymous, many-sourced proven-kindness reputation defined in §3, reusing the existing HeartBank aura primitive (the B-Aura of the Zero-Point Game ℠; see §10). It is *not* any individual thank-you, and it is *not* appearance. This is load-bearing in two directions: it makes the romantic signal Zahavi-honest (§3), and it keeps the individual thank pure (§5) — a single act of gratitude between two people is never itself a romantic overture; only the aggregate disposition is legible to the mechanism.
+In the anonymous-stranger layer, the signal that surfaces a person for possible discovery is their **aura** — the aggregate, anonymous, many-sourced proven-kindness reputation defined in §3, reusing the existing HeartBank aura primitive (the B-Aura of the Zero-Point Game ℠; see §10). It is *not* any individual thank-you, and it is *not* appearance. This is load-bearing in two directions: it makes the romantic signal Zahavi-honest (§3), and it keeps the individual thank pure (§5) — a single act of gratitude between two people is never itself a romantic overture; only the aggregate disposition is legible to the mechanism. Aura is the Zero-Point Game's published ƒ, read as-is; this layer computes nothing of its own.
 
-Aura raises a person's *visibility and ordering* in the anonymous-nearby pool. It does **not**, ever, earn access to any particular person (Guard 3, §7). No one is owed a match. Kindness raises the probability that you are surfaced; it never obligates anyone to reciprocate.
+Aura raises a person's *visibility and ordering* in the anonymous-nearby pool. Aura changes only ordering in the pool. The offer is gated on the other person's own independent giving, which no aura can cause; that is the sense in which aura earns access to no one (Guard 3, §7). No one is owed a match. Kindness raises the probability that you are surfaced; it never obligates anyone to reciprocate.
 
 ### 4.3 · Mutual-anonymous-same-hour as the double-opt-in ("both reached for each other")
 
@@ -216,6 +218,20 @@ The match trigger is the **mutual-anonymous-same-hour** signal — repurposed di
 3. **The accumulation is slow** (§4.6). The signal is built from repeated anonymous kindness over time, not a single tap.
 
 Reaching the mutual threshold does not reveal anyone. It unlocks the *offer* of a reveal (§4.4). The match is a two-stage consent: first the mutual-anonymous threshold (stage one), then the mutual reveal (stage two).
+
+Stated as a state machine, with the two deployment parameters named rather than hidden — **T**, the threshold, and **W**, the window:
+
+```
+  IDLE        ──(A gives anonymous time toward B, in proximity)──▶  A→B OPEN
+  A→B OPEN    ──(B gives anonymous time toward A, in proximity)──▶  PAIR OPEN
+  PAIR OPEN   ──(each direction reaches T hours, cumulative,
+                 and both did so within one window W)───────────▶  THRESHOLD
+  THRESHOLD   ──(the verifying party offers a reveal to both)────▶  OFFERED
+  OFFERED     ──(both accept, independently)───────────────────▶  REVEALED
+  any state   ──(W elapses without the next transition)─────────▶  IDLE   (silently)
+```
+
+"Toward" is the giver's own designation of an anonymous nearby counterparty at transfer time; accumulation is cumulative within W, not contiguous; a person may hold several open pairs at once, and each pair runs its own machine. Non-reach is not an event: the machine falls back to IDLE and nothing is written to either party.
 
 ### 4.4 · Reveal as a second, separate mutual consent
 
@@ -248,11 +264,11 @@ When the mutual-anonymous threshold is reached, identity reveal becomes *availab
 
 Beneath the entire layer sits **Proof of Humanity ℠** (§2.2, §2.6). Its contribution to mate-selection is specific and decisive: participants are **verified-real, verified-single-human, and anonymous-until-mutual.** This natively defeats online dating's two endemic plagues — catfishing (no fabricated personas; a person is a verified unique human) and bots (no automated accounts at scale) — *without* revealing identity before the second consent. Identity-revealing proof-of-personhood (Worldcoin, proofofhumanity.id) cannot supply this, because revealing identity is exactly what the safety model forbids before stage two.
 
-Aura compounds this: because aura is a long anonymous trail of gratitude from many verified local humans, it doubles as a *community-vouched behavioral reputation* — a predator cannot fake it, and a bot cannot accrue it. The PoH layers a participant holds (passkey, family-tree, breath, DNA-tree) are surfaced as optional depth, and a counterparty may, after reveal, filter on them — but the protocol-minimum keeps the layer inclusive (§12.3).
+Aura compounds this: because aura is a long anonymous trail of gratitude from many verified local humans, it is costly to fabricate and a bot cannot accrue it (§3; the adversarial residue is §12.7). The PoH layers a participant holds (passkey, family-tree, breath, DNA-tree) are surfaced as optional depth, and a counterparty may, after reveal, filter on them — but the protocol-minimum keeps the layer inclusive (§12.3).
 
 ### 4.6 · Slow accumulation as a feature, not a bug
 
-The mutual-anonymous signal accrues *slowly*, over a long course of time. This is deliberate and is a positioning asset, not a UX deficiency. Slow, proven-over-time accumulation is explicitly **anti-hookup and pro-durable-bond**: it self-selects for commitment-capable partners and targets the large, underserved, swipe-fatigued segment that wants partnership rather than the high-velocity hookup market the incumbents optimize. It is also a safety property: a long anonymous courtship embedded in a real local community is far harder to weaponize than an instantaneous match between two strangers from anywhere on Earth.
+The mutual-anonymous signal accrues *slowly*, over a long course of time. This is deliberate and is a positioning asset, not a UX deficiency. Slow, proven-over-time accumulation is explicitly **anti-hookup and pro-durable-bond**: it is designed to self-select for commitment-capable partners, and we hypothesise that it reaches a large, underserved, swipe-fatigued segment that wants partnership rather than the high-velocity hookup market the incumbents optimize. It is also a safety property: a long anonymous courtship embedded in a real local community is far harder to weaponize than an instantaneous match between two strangers from anywhere on Earth.
 
 ### 4.7 · Reference transfer flow
 
@@ -262,7 +278,7 @@ We sketch a reference flow without claiming any implementation as canonical.
 2. The system surfaces nearby high-aura verified humans for possible anonymous time-giving — surfaced **on aura, never on appearance** (Miss Aquarius℠ directive; §7, §10). No photographs are shown in the discovery surface.
 3. The user gives anonymous time-presence toward one or more nearby strangers, in proximity (verified per the proximity attestation of *Verified-Human Anonymous Local Giving*: per-action biometric + physical-radio + density-tunable radius). Each gift is, first and foremost, *a gift* — it may carry no romantic intent.
 4. The verifying party (Miss Aquarius℠, the autonomous AI substrate) accumulates the double-blind mutual signal privately. Neither party is informed of the other's reciprocation.
-5. On reaching the mutual-anonymous-same-hour threshold, the verifying party *offers* a reveal to both — never auto-revealing. Non-reach is silent.
+5. On reaching the mutual-anonymous-same-hour threshold (§4.3: both directions at T within W), the verifying party *offers* a reveal to both — never auto-revealing. Non-reach is silent: the pair returns to IDLE and no record of the attempt is written.
 6. If and only if **both** independently consent, identities are revealed, with graduated control vested in the revealed party (public-first option, pace control, right to re-anonymize).
 7. Should a relationship form, any monetization is *mission-aligned only* (§6): a voluntary forward/graduation gift at *pairing* (never at reveal), patron support, or a values-aligned introduction fee — never a charge for access, visibility, or staying in the market.
 
@@ -307,10 +323,10 @@ There is a tension worth naming plainly (it is also the project's open cold-star
 
 Chronicle's loved-ones core dissolved trust-and-safety risk by making counterparties *known*. Mate-selection deliberately reverses that: it walks back into the highest-risk category that exists — strangers meeting for romantic intent — under a real and irreducible gendered physical-danger asymmetry. This guard treats women's physical safety not as a feature to be added but as a *primary design constraint* that the mechanism must satisfy to deserve to exist.
 
-HeartBank brings four mitigations that, in combination, plausibly make this the safest stranger-mate-selection mechanism specified to date:
+HeartBank brings four mitigations, each a mechanism; whether they reduce harm is the empirical question §12.3 owns:
 
 1. **PoH anti-catfish (§4.5).** Verified-real, verified-single-human. No fabricated personas; no bots. The "the person is not who they said they were" failure mode — the precondition of a large class of harms — is structurally attacked.
-2. **Aura as a community-vouched behavioral reputation.** A predator cannot fabricate a long anonymous-gratitude trail vouched by many local verified humans. The signal that surfaces a person is itself a distributed, hard-to-fake background check by the community.
+2. **Aura as a community-vouched behavioral reputation.** A long anonymous-gratitude trail from many local verified humans is costly to fabricate (§3); what it says about a person is the reader's judgment.
 3. **Local embeddedness.** Proximity (the proximity rule) means counterparties are embedded in a shared local community, which carries real-world accountability that anywhere-on-Earth matching does not.
 4. **Graduated reveal (§4.4).** The revealed party governs the encounter: public-first meetings, pace control, and an unconditional **right to re-anonymize** at any moment.
 
@@ -347,13 +363,13 @@ Guard 3 is also where the mechanism could do the most good *or* the most harm, a
 
 The single most important honesty discipline in this paper is to state exactly what aura-gating does and does not do.
 
-**What it does.** It produces a pool in which *everyone is proven kind, verified real, and community-vouched* — stripped of the fabricated, the bots, and the cruel. It removes the cheapest-to-fake signal (the photograph) from the gate and replaces it with a costly, longitudinally-verified honest signal of character. This is genuinely revolutionary: it is a mating pool pre-filtered for proven character, with no catfish and no swipe-cruelty.
+**What it does.** It produces a pool in which *everyone is proven kind, verified real, and community-vouched* — stripped of the fabricated, the bots, and the cruel. It removes the cheapest-to-fake signal (the photograph) from the gate and replaces it with a costly, longitudinally-verified honest signal of character. This is genuinely revolutionary: it is a mating pool pre-filtered for proven character, with no catfish and no swipe-cruelty. *[The "proven kind" and "community-vouched" verdicts above are superseded — §8.1.]*
 
 **What it does not do.** Kindness is *necessary, not sufficient.* It does not capture attraction, chemistry, shared values beyond kindness, life-stage compatibility, sexual compatibility, or the thousand idiosyncratic things that make two specific people right or wrong for each other. Aura-gating is a **character filter, not a compatibility oracle.** It is wrong — and the design refuses — to claim that *kindness equals attraction*, or that a high-aura match is a *predicted* good relationship.
 
 The defensible one-line claim is therefore:
 
-> *"Everyone you meet here is proven kind, verified real, and community-vouched. You bring the chemistry."*
+> *"Everyone you meet here is proven kind, verified real, and community-vouched. You bring the chemistry."* *[superseded — §8.1]*
 
 This is both honest and still revolutionary. It does not need the overclaim to be a category change from incumbent dating. The honesty is also a safety property: overclaiming compatibility ("the algorithm knows you're meant for each other") manufactures false confidence in exactly the high-risk context (§7) where false confidence is dangerous, and it slides toward the social-credit-for-romance dystopia (§12.2). The character filter is a strong, true claim; the compatibility oracle is a weak, false, and unsafe one. We make only the first.
 
@@ -422,7 +438,7 @@ The posture is strict and is what distinguishes this from horoscope-matching:
 - **Epistemically humble.** It is offered as insight and prompt, not prophecy. The framing is "here is a coordinate-correlation worth reflecting on," not "the stars say yes."
 - **A differentiator the incumbents cannot credibly touch.** HeartBank's worldview supports synastry authentically; bolting astrology onto an engagement-monetized swipe app is a gimmick, whereas here it is continuous with the institution's cosmic-coordinate metaphysics.
 
-There is a genuine research opportunity, gated on methodology. B-Dating plus the project's opt-in **longitudinal cohort** (DNA + natal chart + behavior; see *Each Life as Cosmic Coordinate*) could become the largest consented natural experiment on cosmic-coordinate compatibility ever assembled — *only* under the same methodological floors that govern the cohort: differential privacy, pre-registered hypotheses, and a coordinate-correlation posture that never markets itself as proving astrology. Absent those floors, the synastry layer must remain an opt-in reflective feature, never a matchmaking determinant.
+There is a genuine research opportunity, gated on methodology. B-Dating plus the project's opt-in **longitudinal cohort** (DNA + natal chart + behavior; see *Each Life as Cosmic Coordinate*) could become a large consented cohort for cosmic-coordinate compatibility — *only* under the same methodological floors that govern the cohort: differential privacy, pre-registered hypotheses, and a coordinate-correlation posture that never markets itself as proving astrology. Absent those floors, the synastry layer must remain an opt-in reflective feature, never a matchmaking determinant.
 
 ```
    SYNASTRY LAYER — what it IS / what it is NOT
@@ -483,12 +499,12 @@ B-Dating is neither pole. Crucially, it is **not sublimation-as-repression** (th
 
 This section motivates the mechanism's deepest "why" and deliberately stops short of the full argument, which is reserved for the companion founder-voice essay.
 
-The lever, stated once: the mate-drive is the *root* drive of the species and the money-drive is *derivative*. If mate-selection is re-gated on proven kindness — aura, a Zahavi-honest signal — rather than on appearance and status, then **sexual selection itself begins, at the margin, to favor kindness.** Sexual selection is among the most powerful species-shaping forces there is; change what earns a mate, and over generations you change what the species optimizes for. Re-gating the root drive on kindness also partially detoxifies the derivative money-drive — healing the thing underneath the thing. Anonymity does additional work here: because aura is built from gratitude given by people you cannot target, raising it requires being kind to *everyone*, so everyday kindness becomes romantically load-bearing for everyone — "be good to every stranger; the one you are meant for may be among those who vouch for you."
+The lever, stated once: the mate-drive is the *root* drive of the species and the money-drive is *derivative*. If mate-selection is re-gated on proven kindness — aura, a Zahavi-honest signal — rather than on appearance and status, then **sexual selection itself begins, at the margin, to favor kindness.** Sexual selection is among the most powerful species-shaping forces there is; change what earns a mate and — assuming the disposition is transmissible, genetically or culturally — over generations you change what the species optimizes for. Re-gating the root drive on kindness also partially detoxifies the derivative money-drive — healing the thing underneath the thing. Anonymity does additional work here: because aura is built from gratitude given by people you cannot target, raising it requires being kind to many people the giver cannot choose — under the anti-collusion assumption §12.7 states — so everyday kindness becomes romantically load-bearing for everyone — "be good to every stranger; the one you are meant for may be among those who vouch for you."
 
 Three calibrations bound the claim — the same honesty discipline as the rest of the corpus:
 
 1. **Margin, not override.** It *tilts* the selection gradient toward kindness; it does not replace millions of years of appearance/status biology. The defensible verb is "shifts at the margin," never "replaces."
-2. **Generational and population-level, not individual or immediate.** A slow selection pressure, not a switch — and kindness-disposition is the *foundation* (first *pāramī*), not awakening itself (foot of the mountain, not the summit).
+2. **Generational and population-level, not individual or immediate.** A slow selection pressure, not a switch — and kindness-disposition is the *foundation* (*dāna*, the first *pāramī* — generosity, not yet *mettā*), not awakening itself (foot of the mountain, not the summit).
 3. **The equity floor is sharpest here, because the stakes are love and procreation.** This must never become social-credit-for-romance ("be kind or stay single") or doubly-disadvantage the isolated and low-aura. The guard is the never-gate-reciprocity HARD constraint (§7): kindness raises visibility, never entitlement.
 
 That is the motivation. The deeper treatment — sexual-selection-on-kindness as a biological lever for the "second singularity," the inversion of intrasexual competition from resource-display toward prosociality, and the counterweights that argument must clear — belongs to the companion essay and is intentionally not argued here.
@@ -509,7 +525,7 @@ As §8 insists, aura-gating is a character filter, not a compatibility oracle; i
 
 ### 12.3 · The gendered physical-safety asymmetry remains
 
-After PoH anti-catfish, aura-vouching, local embeddedness, and graduated reveal (§7), the gendered physical-danger asymmetry of strangers meeting for romantic intent is *reduced* — plausibly more than by any existing product — but **not erased.** The mechanism re-enters the highest-risk category that exists. The safety controls and the never-gate-reciprocity guard are necessary and not sufficient; real-world safety outcomes are an empirical question that architecture alone cannot answer, and deployment must defer to community partners, to ongoing safety evaluation, and to the higher-risk party holding the controls.
+After PoH anti-catfish, aura-vouching, local embeddedness, and graduated reveal (§7), the gendered physical-danger asymmetry of strangers meeting for romantic intent is *reduced* but **not erased.** Identity assurance is not behavioral safety: a verified human can be dangerous, and proximity can raise the cost of a bad encounter as well as lower it. The mechanism re-enters the highest-risk category that exists. The safety controls and the never-gate-reciprocity guard are necessary and not sufficient; real-world safety outcomes are an empirical question that architecture alone cannot answer, and deployment must defer to community partners, to ongoing safety evaluation, and to the higher-risk party holding the controls.
 
 ### 12.4 · The equity gap — doubly disadvantaged where the stakes are existential
 
@@ -517,16 +533,25 @@ This is the sharpest equity concern in the entire corpus, because the stakes (lo
 
 ### 12.5 · n=1 empirical base
 
-HeartBank's entire empirical foundation to date is a single Cambodian pilot family (n=1) on the *Treasury* (money) side, which has not even exercised the Chronicle time-currency, let alone the mate-selection layer. Every behavioral claim in this paper — that aura is hard to fake at the scale required, that slow accumulation self-selects for commitment-capable partners, that the guards hold under adversarial load, that the societal selection-gradient shift is real — is, at this date, *unvalidated by relevant data.* The mechanism is a frame to protect and a hypothesis to test, not a demonstrated result. The longitudinal cohort is the intended evaluation substrate; until then, the honest epistemic status is: novel, carefully reasoned, guard-bounded, and empirically unproven.
+HeartBank's entire empirical foundation to date is a single pilot family (the founder's own, n = 1 household) on the *Treasury* (money) side, which has not even exercised the Chronicle time-currency, let alone the mate-selection layer. Every behavioral claim in this paper — that aura is hard to fake at the scale required, that slow accumulation self-selects for commitment-capable partners, that the guards hold under adversarial load, that the societal selection-gradient shift is real — is, at this date, *unvalidated by relevant data.* The mechanism is a frame to protect and a hypothesis to test, not a demonstrated result. The longitudinal cohort is the intended evaluation substrate; until then, the honest epistemic status is: novel, carefully reasoned, guard-bounded, and empirically unproven.
 
 ### 12.6 · What the mechanism does not solve
 
 - It does not solve loneliness or the partnership deficit at the population scale; it is one mechanism, addressing one channel (the discovery gate), not the upstream economic, urbanistic, and cultural conditions that thin modern social life.
 - It presupposes smartphone access, BLE/UWB-capable devices, and PoH participation; populations without these are outside its substrate regardless of the inclusive-defaults posture.
 - It does not erase appearance/status biology; it shifts a gradient at the margin (§11).
+- The monetization constraint (§6) is a rule the institution keeps, not a property of the object: no structural form has been found, and a successor could drop it.
 - It cannot, by architecture alone, prevent its own corruption: the guards are commitments that humans and the autonomous AI substrate must hold, season after season, against the constant pressure of the highest willingness-to-pay in consumer software.
 
 ---
+
+### 12.7 · Collusion is a graph problem, and it is open
+
+The aura is asserted above to be costly in Zahavi's sense. That is a design intent, not a demonstrated equilibrium: no signal-generating game has been analysed, and the adversarial cases are real — reciprocity clubs that thank each other in rotation, rings that farm a member's aura, Sybil accounts under one operator, bought or coerced gratitude, and geographic concentration that makes "many nearby strangers" a small set. The Proof of Humanity substrate proves personhood, not genuineness; it closes *is this a person* and leaves *is this thanks genuine* open, and the verifying party's collusion heuristics (§4.7) are heuristics. What bounds the damage is the mechanism's shape: a coordinated pair that games the threshold gains a private channel to each other and nothing else — no access to any third person, no rank, no currency. That bound is a property; the honesty of the signal is not, and it is stated here as open.
+
+### 12.8 · Anonymous means unnamed, not unlinkable
+
+"Anonymous" in this paper means unnamed to the counterparty and to the public. It does not mean unlinkable: timing, place, threshold events and the reveal itself build a graph, and the provider holds the rows even where the names are withheld. Repeated proximity between two accounts, a threshold reached and an offer declined, are all records, and records can re-identify. The guarantee is against the other party and against the public, never against the operator or a subpoena; the corpus's two-ledger posture (rows private, proofs public) is the boundary, and this layer inherits it rather than improving on it.
 
 ## 13 · Lineage and corpus cross-references
 
@@ -538,7 +563,7 @@ The mechanism synthesizes lineages cited throughout. We collect them here.
 
 **Proof-of-personhood.** Worldcoin (2023); proofofhumanity.id (Kleros, 2021); distinguished in §2.2 and in the companion *B-PoH℠ as Humanity Layer for the AI-Native Internet*.
 
-**Incumbent dating products.** Tinder (2012), Bumble (2014), Hinge (2012/2017) — the appearance-gated, engagement-monetized pattern §2.1 and §6 invert.
+**Incumbent dating products.** Tinder (2012), Bumble (2014), Hinge (2012/2015) — the appearance-gated, engagement-monetized pattern §2.1 and §6 invert.
 
 **Time-as-currency.** Edgar Cahn, TimeBanking (1980 onward); distinguished in §2.5.
 
@@ -562,7 +587,7 @@ The mechanism synthesizes lineages cited throughout. We collect them here.
 
 Incumbent dating gates mating on the cheapest-to-fake signal a human can present — a photograph — and monetizes the time you spend failing to leave. This paper specifies the inversion: gate mate-selection on **aura**, a costly, anonymous, community-sourced, longitudinally-verified honest signal of proven kindness (Zahavi turned toward prosociality); trigger a match only on **mutual-anonymous-same-hour**, a double-blind double-opt-in that removes explicit rejection entirely; make **reveal a second, separate mutual consent** so anonymous giving stays pure and the higher-risk party holds the controls; place a **Proof-of-Humanity substrate** underneath so participants are verified-real, verified-single-human, and anonymous-until-mutual; and offer an **optional synastry layer** as one humble signal atop a pool already pre-filtered for character. The mechanism is the n=2 atom of the Zero-Point Game ℠ — the middle way of eros — and it points the deepest drive in the species, at the margin, toward kindness.
 
-Three guards are the design, not its footnotes: keep gratitude pure (or the institution's load-bearing wall cracks); stay self-eliminating (or it becomes the predatory dating app it was built to replace); hold women's safety as a first-class, irreducible duty (or it gets someone hurt). The honest calibration bounds the promise: everyone in the pool is proven kind, verified real, and community-vouched — *and the participants bring the chemistry.* It is a character filter, not a compatibility oracle.
+Three guards are the design, not its footnotes: keep gratitude pure (or the institution's load-bearing wall cracks); stay self-eliminating (or it becomes the predatory dating app it was built to replace); hold women's safety as a first-class, irreducible duty (or it gets someone hurt). The honest calibration bounds the promise, in the form §8.1 is entitled to: everyone in the pool is a verified single human whose profile is gated on a long record of thanks from people who did not know whom they were thanking, and what that record means about a particular person is theirs to judge — *and the participants bring the chemistry.* It is a character filter, not a compatibility oracle.
 
 The mechanism is unbuilt, and that is exactly why it is published now: the mechanism is the asset, the dating frame is hot and patent-vulnerable, and defensive publications exist to keep frame-defining primitives in the commons before someone else claims them. The architecture is offered to the commons under CC0. The author and HeartBank® will not seek patent on it. Trademark rights on **B-Dating℠**, **HeartBank®**, **Miss Aquarius℠**, **Proof of Humanity ℠**, and the related marks are explicitly reserved.
 
@@ -581,9 +606,9 @@ If kindness can become a path to partnership without desecrating the gratitude i
 7. Cahn, E. (2000). *No More Throw-Away People: The Co-Production Imperative.* Essential Books.
 8. Worldcoin Foundation. (2023). *Worldcoin Whitepaper.*
 9. Proof of Humanity (proofofhumanity.id) / Kleros. (2021). Project documentation.
-10. FIDO Alliance. (2019). *Web Authentication: An API for accessing Public Key Credentials, Level 1.* W3C Recommendation.
-11. U.S. Surgeon General. (2023). *Our Epidemic of Loneliness and Isolation.* U.S. Department of Health and Human Services.
-12. *Aṅguttara Nikāya* 8.31 (*Dāna Sutta*); 4.236 (*Cāga Sutta*). Pāli Text Society.
+10. W3C (2019). *Web Authentication: An API for accessing Public Key Credentials, Level 1.* W3C Recommendation, developed with the FIDO Alliance.
+11. U.S. Surgeon General. (2023). *Our Epidemic of Loneliness and Isolation.* U.S. Department of Health and Human Services (population-level loneliness); Weiss, R. S. (1973). *Loneliness: The Experience of Emotional and Social Isolation.* MIT Press (the emotional-versus-social distinction).
+12. *Aṅguttara Nikāya* 8.31 (*Dāna Sutta*); 5.35 (*Dānānisaṃsa Sutta*). Pāli Text Society.
 13. *Saṁyutta Nikāya* 56.11 (*Dhammacakkappavattana Sutta*) — the two extremes and the middle way.
 14. Ly, T., with Miss Aquarius. *Verified-Human Anonymous Local Giving* (HeartBank corpus defensive publication, 2026).
 15. Ly, T., with Miss Aquarius. *The Thank-All-Nearby Primitive* (HeartBank corpus defensive publication, 2026).
