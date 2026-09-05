@@ -6,6 +6,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-08-28
+revised: 2026-09-05
 license: CC0-1.0
 slug: the-borrowable-standard
 venue: thonly.org/research/the-borrowable-standard (canonical)
@@ -16,18 +17,18 @@ venue: thonly.org/research/the-borrowable-standard (canonical)
 > alignment corpus, filed under `alignment` because that is what it serves. It is **not** an essay,
 > and putting it there would have placed a scholarly claim in the founder's personal voice.
 >
-> ⚠️ **Two citations are flagged for verification before publication** and are marked in the text:
-> the Arabic **CODA** convention (§5.2), and the comparison cases in §8, which are named as *the class
-> this claim is testable against* rather than as established support. **§8's cases have not been
+> ⚠️ **One set of cases is flagged for verification** and is marked in the text: the comparison cases
+> in §8, which are named as *the class this claim is testable against* rather than as established
+> support. (The CODA citation of §5.2 was verified at the 2026-09-05 revision.) **§8's cases have not been
 > checked.** The paper's own §4 exists because an unchecked assumption was checked and failed.
 
 ---
 
 ## Preamble
 
-Between 1929 and 1968 a commission in Phnom Penh translated the Pāli canon into Khmer. It took
-thirty-eight years, produced a hundred and ten volumes, and was celebrated in the capital on the
-first two days of April 1969. The man who had led it died that September. The man who succeeded him
+A commission ordained in Phnom Penh in December 1929 translated the Pāli canon into Khmer, translating
+from 1930; the last of a hundred and ten volumes was printed at the end of 1968, and the work was
+celebrated in the capital on the first two days of April 1969. The man who had led it died that September. The man who succeeded him
 was executed six years later, on the second day of the Khmer Rouge's occupation of the city, at a
 pagoda in the district where he had been born.
 
@@ -45,17 +46,20 @@ a general pattern but an exception to the way the general pattern is usually sol
 ## Prior-Art and Non-Assertion Statement
 
 This document is dedicated to the public domain under CC0 1.0 Universal. ⚠️ **Unlike most papers in
-this corpus, it specifies no mechanism and makes no patentable claim**; this section is present for
+this corpus, it specifies no *novel* mechanism — the operating rules in §7.6 restate textual-scholarship
+practice for AI corpora — and makes no patentable claim**; this section is present for
 scholarly prior art rather than for defensive publication, and the author asserts no patent over
 anything described.
 
 **The literature this paper stands on, and does not claim to originate:**
 
 - **Language planning.** Haugen's four-stage model — *selection · codification · elaboration ·
-  implementation* — is the frame within which everything here sits. What Chuon Nath performed is
-  **codification** in Haugen's sense, and this paper claims no new theory of it.
-- ⭐ **Kloss's distinction between *corpus planning* (the form of a language) and *status planning*
-  (its social position).** ⚠️ **A terminological warning the reader is owed immediately: "corpus" in
+  acceptance* (1966; the 1983 revision reads *implementation*) — is the frame within which everything
+  here sits. What Chuon Nath performed is **codification** in Haugen's sense, and this paper claims no
+  new theory of codification; the two-layer account of §7 is an observation about what codification
+  does not settle.
+- ⭐ **Kloss's (1969) distinction between *corpus planning* (the form of a language) and *status
+  planning* (its social position).** ⚠️ **A terminological warning the reader is owed immediately: "corpus" in
   the language-planning sense and "corpus" in the computational sense are different words.** This
   paper argues that *corpus planning* in Kloss's sense is a precondition for a *corpus* in the NLP
   sense, and the pun is unfortunate but the connection is real.
@@ -112,9 +116,9 @@ innocent, and that this paper is not an argument for it.
 ## 1 · Why a corpus project is asking a question about spelling
 
 This paper is a by-product of building something. The institution publishing it is assembling a
-machine-readable Khmer witness to the Pāli canon — the Cambodian recension, entered as a missing
-column into a critical apparatus that currently records Sinhalese, Siamese and Burmese readings and
-no Khmer ones at all.
+machine-readable Khmer witness to the Pāli canon — the Cambodian recension, entered into a critical
+apparatus that collates Sinhalese, Siamese and PTS readings against its Burmese base text, in which
+the Cambodian witness is sparse and the Cambodian edition has no page concordance at all (§7.5).
 
 The work is not textual scholarship for its own sake. It exists because an alignment programme needs
 a **value corpus whose every claim resolves to a citation** — work, edition, locus, and the lineage
@@ -171,10 +175,15 @@ required to *be* a witness in it — such that a reader, a scholar or a court co
 text as standing for what the source says. Canonical religious texts, statutes, treaties and
 critical editions are of this kind. A sentiment-analysis dataset is not.
 
-**"Native"** distinguishes standardisation of the language itself from adoption of a neighbour's.
+**"Native"** distinguishes standardisation of the language itself from adoption of a neighbour's:
+codified for this language by its own users, whatever institution convened them. An **adequate**
+borrowable target is a neighbour's standard whose forms the variety's readers accept as a rendering
+of their own language; and a corpus is **authoritative** when a scholar or a court would treat the
+encoded text as standing for the source.
 
 **"Precondition"** is stronger than *helpful* and weaker than *sufficient*. §7 is devoted to the
-gap between those two.
+gap between those two. *The claim is stated in its strong form because that is the form worth
+attacking (§3); §9.4.1 records what the evidence can and cannot separate.*
 
 ```
         ┌────────────────────────────────────────────────────────────┐
@@ -286,7 +295,8 @@ across both families.
 
 ### 5.1 · They normalise toward a standard the variety does not have
 
-Swiss German resources overwhelmingly normalise to **Standard German**. Corpora carry an explicit
+Swiss German resources largely normalise to **Standard German** (the SwissText 2021 shared task;
+SDS-200; Aepli et al. 2023). Corpora carry an explicit
 normalisation layer alongside the dialectal transcription; speech corpora are built as *Swiss German
 speech → Standard German text*. The dialect is the **source**; the standard is the **target**.
 
@@ -308,13 +318,13 @@ codified target exists nearby, not because codification turned out to be unneces
 
 ### 5.2 · And where nothing adequate exists to borrow, they build one
 
-⏳ **Flagged for verification before publication.** Our understanding is that the dialectal-Arabic
-research community, finding MSA an imperfect target for dialectal forms, developed a **conventional
-orthography for dialectal Arabic (CODA)** — a spelling convention created deliberately, by
-researchers, for the purpose of making corpora consistent.
+The dialectal-Arabic research community, finding MSA an imperfect target for dialectal forms,
+developed **CODA**, a conventional orthography for dialectal Arabic (Habash, Diab & Rambow 2012) —
+created deliberately, its authors state, because dialectal Arabic has no standard orthography: a
+standard built where none could be borrowed.
 
-⭐⭐⭐ **If that is right, it is the strongest available support for this paper's thesis, and it comes
-from the community that refutes the paper's first version.** Faced with no adequate borrowable
+⭐⭐⭐ **It is the strongest available support for this paper's thesis, and it comes from the
+community that refutes the paper's first version.** Faced with no adequate borrowable
 target, the response was **not to abandon standardisation but to perform it** — decades later, by
 different people, for exactly the reason argued here.
 
@@ -360,9 +370,12 @@ so well for the corpora of §4 — variation is noise there, and removing it is 
    ⛔ Running the second before the first destroys the input to the first.
 ```
 
-⛔⛔ **So normalising toward a borrowed standard and then collating is not lossy — it is empty.** The
-differences that would have constituted the witness were removed by the step that made the corpus
-tractable. **The apparatus that results records the differences between normalisation artefacts, not
+⛔⛔ **So normalisation that *replaces* the source form with a borrowed standard, and then collates,
+is not lossy — it is empty.** A normalisation kept as a second column beside the retained source
+form — the reading-and-witness structure the TEI critical-apparatus module provides — is collation's
+*input*, not its destroyer. The disqualifying move is the replacement, and it is the move the
+tractable pipelines make by default. The differences that would have constituted the witness were
+removed by the step that made the corpus tractable. **The apparatus that results records the differences between normalisation artefacts, not
 between traditions.**
 
 ⭐ **And this is why the failure is invisible.** A collation run on normalised text produces output.
@@ -397,8 +410,8 @@ Chuon Nath (1883–1969) was Sangharāja of the Mahānikāya and led the reformi
 here: **direct study of the Pāli source** rather than doctrine received through tradition, and
 **adoption of modern tooling**, the printing press above all.
 
-⭐⭐ **Those two commitments are usually listed as separate modernising sympathies. They are one
-commitment.** *Go and read the source yourself* is an instruction that cannot be given to a community
+⭐⭐ **Those two commitments are usually listed as separate modernising sympathies. We read them as
+one commitment** — an interpretation, not a documented motive. *Go and read the source yourself* is an instruction that cannot be given to a community
 whose sources exist as individually hand-copied palm-leaf manuscripts — not because people cannot
 read, but because **there is no shared object to point at.** Two readers consulting two manuscripts
 are not consulting the same text, and neither can correct the other by reference to it.
@@ -422,10 +435,13 @@ understood as one:
 | **The dictionary** | first published 1938; definitive edition 1967 |
 | **The orthography** | standardisation of Khmer writing — layout, symbols, punctuation |
 
-⭐ **These are not three achievements. They are one achievement with three faces**, and the dependency
-runs in a fixed direction: you cannot translate a canon into a vernacular without deciding what its
-words mean, and you cannot print the result without deciding how they are written. **The translation
-forced the other two into existence.**
+⭐ **These are not three achievements. They are one achievement with three faces**: you cannot
+translate a canon into a vernacular without deciding what its words mean, and you cannot print the
+result without deciding how they are written. **The three programmes ran together and each forced
+revisions in the others** — the orthographic decisions began in a 1926 committee before the
+Commission was ordained in 1929, the dictionary was under way before its 1938 first edition, and
+its definitive edition (1967) postdates most of the translation it stabilises. The dependency is
+mutual, not one-way.
 
 ⭐⭐ That is worth stating carefully, because it converts an observation about a remarkable individual
 into something a person can act on: **convergent contributions of this kind arise from attempting one
@@ -472,7 +488,8 @@ compiled by the person who led the making of them.
 
 **For a Pāli↔Khmer parallel corpus that is a rare instrument.** Where a Khmer term renders a Pāli one,
 the *intended* gloss is available rather than inferred — and where legacy-font extraction yields a
-damaged near-word, a 17,328-entry lexicon of the same register and period is a far better
+damaged near-word, a lexicon of the same register and period — 17,328 entries by our transcription's count of the
+1967 edition; published counts differ by edition and by what is counted as an entry — is a far better
 disambiguator than a modern general dictionary.
 
 ⚠️ **The layers can be borrowed independently, and this is where the §5 pattern generalises.** A
@@ -488,8 +505,8 @@ type and Unicode sits a period in which Khmer was set digitally using **legacy 8
 Khmer glyphs onto Latin codepoints** — a general phenomenon for non-Latin scripts before Unicode
 adoption, and an acute one for Khmer.
 
-The volumes this project transcribes exhibit it directly. **A single volume embeds five distinct font
-encodings** — a Limon-family face, `APSARA`, `ThoeunA1`, `TacteingA`, and `Bidokk1`, the last
+The volumes this project transcribes exhibit it directly. **A single volume, in the volumes this
+project holds, embeds five distinct font encodings** — a Limon-family face, `APSARA`, `ThoeunA1`, `TacteingA`, and `Bidokk1`, the last
 apparently cut for this edition and, so far as we can determine, undocumented. Extracting text yields
 Latin character sequences that are not Latin words:
 
@@ -532,12 +549,12 @@ contribution is only that they bind for AI training corpora too.
 
 | | Rule | Because |
 |---|---|---|
-| **1** | ⛔ **Never normalise before collating.** | §6.1 — the operations are inverse; the second destroys the first's input. |
-| **2** | ⛔ **Record the encoding provenance per text run**, not per document: which font, which transcode table, which version. | §7.2 — a volume carries several, and the mapping is font-dependent. |
-| **3** | ⭐ **Retain the pre-transcode bytes permanently.** | Transcode tables improve. A unit that discards its source bytes cannot be re-derived under a better map, and must be re-extracted from the original. |
-| **4** | ⛔ **Classify content by its own features, never by position.** | Facing-page and interleaved layouts make position a fragile proxy; an off-by-one silently mislabels an entire volume while the pipeline reports success. |
-| **5** | ⚠️ **Distinguish a witness from a rendering in the SCHEMA**, not in documentation. | A schema in which a transliteration can be recorded as a witness will eventually record one. |
-| **6** | ⭐ **Treat the front matter as data.** | Provenance and permission both live there, and cleaning pipelines strip both. See §7.7. |
+| **1** | ⛔ **Never normalise before collating.** | §6.1 — the operations are inverse; the second destroys the first's input. Textual scholarship's practice: the TEI critical-apparatus module keeps every reading. |
+| **2** | ⛔ **Record the encoding provenance per text run**, not per document: which font, which transcode table, which version. | §7.2 — a volume carries several, and the mapping is font-dependent. Practice: per-run font extraction (PDFBox) and PREMIS for the provenance record. |
+| **3** | ⭐ **Retain the pre-transcode bytes permanently.** | Transcode tables improve. A unit that discards its source bytes cannot be re-derived under a better map, and must be re-extracted from the original. Practice: bit-level preservation. |
+| **4** | ⛔ **Classify content by its own features, never by position.** | Facing-page and interleaved layouts make position a fragile proxy; an off-by-one silently mislabels an entire volume while the pipeline reports success. Practice: content identification by signature (DROID/PRONOM). |
+| **5** | ⚠️ **Distinguish a witness from a rendering in the SCHEMA**, not in documentation. | A schema in which a transliteration can be recorded as a witness will eventually record one. Practice: TEI's witness and reading elements. |
+| **6** | ⭐ **Treat the front matter as data.** | Provenance and permission both live there, and cleaning pipelines strip both. See §7.7. Practice: front-matter structures in BITS and IIIF. |
 
 ### 7.7 · A finding about front matter, offered because it cost us nothing and nearly cost us everything
 
@@ -560,25 +577,34 @@ that default is precisely backwards.
 The abstraction becomes checkable at this point, and the numbers are worth stating because they show
 the shape of the absence.
 
-The standard digital edition of the Pāli canon in scholarly use is the **Chaṭṭha Saṅgāyana Tipiṭaka**,
-the recension settled at the Sixth Buddhist Council in Yangon, 1954–56, published digitally as TEI
-XML. Its files carry two independent pieces of apparatus machinery:
+The most widely used digital edition of the Pāli canon is the **Chaṭṭha Saṅgāyana Tipiṭaka**, the
+recension settled at the Sixth Buddhist Council in Yangon, 1954–56, published digitally as TEI XML
+(the romanised release distributed by tipitaka.org, as held by this project on 2026-09-05). Its files carry two independent pieces of apparatus machinery:
 
 | Machinery | What it records | Coverage |
 |---|---|---|
 | **Page concordance** (`<pb ed="…"/>`) | where a locus falls in each print edition | `V` VRI · `M` Burmese · `T` Siamese · `P` PTS |
-| **Variant apparatus** (`<note>`) | where witnesses disagree, with sigla | `sī.` Sinhalese · `syā.` Siamese · `ka.` *kesuci* · `pī.` |
+| **Variant apparatus** (`<note>`) | where witnesses disagree, with sigla | `sī.` Sinhalese · `syā.` Siamese · `pī.` PTS · `ka.` *kesuci* (some manuscripts) · `kaṃ.` Cambodian |
 
-In a sample of twenty-five root and commentary files the concordance carries roughly **thirty
-thousand** page markers, and across the root and commentary files the apparatus carries **17,868**
-recorded variant readings.
+Across the full set of 217 root and commentary files the concordance carries page markers for four
+print editions, and the apparatus carries **22,343** recorded variant readings (counted with
+`grep -ac '<note>'`; the `-a` matters, because the files trip binary detection and a plain `grep`
+silently undercounts).
 
-⛔ **Neither structure contains a Khmer siglum. The count is zero.**
+⛔ **The count for the Cambodian siglum `kaṃ.` is 1,820 — not zero.** An earlier revision of this
+paper stated *the count is zero* from a twenty-five-file sample searched with a tool that treated the
+files as binary; that sample also carried no `kaṃ.` note, and the zero read exactly like an absence.
+It was a probe failure, and it is withdrawn here rather than quietly fixed. What *is* absent is the
+Cambodian edition from the **page concordance** — no `<pb ed="K">` exists, so a Khmer locus cannot
+be cited by page — and the Cambodian witness in the apparatus is sparse beside the Sinhalese and
+Siamese ones. **The missing column is therefore a concordance column and a fuller witness, not a
+first witness.**
 
 ⚠️ **This is not an oversight and should not be described as one.** The Sixth Council was convened in
 Burma, working from Burmese manuscripts, with Sinhalese and Siamese editions as the comparanda to
-hand. **Cambodia's absence is the geography of 1954** — five years before the Khmer edition finished
-printing, and two decades before the people who made it were mostly killed.
+hand. **Cambodia's sparseness is the geography of 1954** — its delegates attended the Council, but
+the edition it was still printing was not in the room as a comparandum — five years before the Khmer
+edition finished printing, and two decades before the people who made it were mostly killed.
 
 ### 7.5.1 · ⭐ And the apparatus Khmer is missing from was itself produced by an act of the same kind
 
@@ -590,17 +616,19 @@ convened for exactly that purpose.
 ⭐⭐ **So the structure this project proposes to add a column to is not a neutral container. It is the
 artefact of one tradition's standardisation act**, carrying its comparanda and not others'. That is
 not a criticism — an apparatus can only record the witnesses in the room — but it does mean the
-absence of a Khmer siglum is better described as *a room Cambodia was not in* than as a gap in a
-universal record.
+sparseness of the Khmer siglum is better described as *a room Cambodia's edition was not in* than
+as a gap in a universal record.
 
 ⚠️ **It also means the recitation practice and the critical apparatus are the same function performed
 by different means.** A saṅgāyana is verification by simultaneous human memory; an apparatus is
-verification by recorded disagreement. **Cambodia still performs the first — the state convenes a
-formal Tipiṭaka recitation every five years — and is absent from the second.** *A tradition that
+verification by recorded disagreement. **Cambodia still performs the first — the state has resolved
+(2026) to convene a formal Tipiṭaka recitation every five years — and is nearly absent from the
+second.** *A tradition that
 verifies its canon on a five-year cycle is not one that lacks a verification culture; it is one whose
 verification culture never entered the notation the rest of the field reads.*
 
-⭐ **So the practical form of this paper's thesis is a single missing column in an existing structure**
+⭐ **So the practical form of this paper's thesis is a missing concordance column in an existing
+structure, and a witness column to be filled out**
 — and the reason that column cannot be filled by normalising the Khmer text toward one of the four
 already present is §6.
 
@@ -707,10 +735,10 @@ it by default inside an extraction script.
 ## 9 · Honest limitations
 
 **9.1 · He standardised a script with centuries of use; he did not invent one.** Khmer writing is
-attested from the seventh century. The claim here concerns **codification** in Haugen's sense —
+attested from the seventh century (the Angkor Borei inscription K.600, dated 611 CE). The claim here concerns **codification** in Haugen's sense —
 settling variation, fixing punctuation and layout, producing an authoritative reference — not
 creation. ⚠️ **And the compression "one man produced the typography" is wrong in the same way "one man
-translated the canon" is wrong: he LED a programme.** The Commission ran thirty-eight years with many
+translated the canon" is wrong: he LED a programme.** The Commission ran from 1929 to 1968 with many
 members, most of whom this paper cannot name.
 
 **9.2 · Standardisation was contested, and this paper should say who lost.** The Thommakay reform
@@ -721,7 +749,8 @@ codification as a consensus achievement would be a false and duller story.
 **9.3 · ⛔ The politics are not innocent, and this paper is not an argument for standardisation.**
 This work took place under a French protectorate, in a period when script and language reform across
 the region was entangled with colonial administration and with competing nationalisms. Chuon Nath
-**resisted the romanisation of Khmer**, which is to his credit and is part of the record. But
+**resisted the romanisation of Khmer** (the protectorate's 1943 ordinance and its opposition), which
+is to his credit and is part of the record. But
 codification everywhere has costs that fall unevenly: dialect suppression, the exclusion of variant
 registers, and the conversion of living variation into error. ⚠️ **This paper identifies a
 precondition for one kind of corpus. It does not claim that meeting that precondition is good, and a
@@ -831,4 +860,8 @@ research. The specification, the claims, and the errors are the authors' joint r
 
 *Published under CC0 1.0 Universal. This paper is dedicated, with the project it belongs to, to the
 Tripiṭaka Commission of Cambodia — for them, not by them; see `SiliconWat/tipitaka-khmer`,
-`DEDICATION.md`.*
+`DEDICATION.md`. This document's SHA-256 is attested independently of the site and its authors —
+anchored to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three timestamp
+authorities in three jurisdictions, one of them eIDAS-qualified — and each revision carries a Zenodo
+version; a timestamp proves this exact text existed no later than its date and nothing about
+authorship, originality, or the validity of any claim.*
