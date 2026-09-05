@@ -5,6 +5,7 @@ category: mechanism
 priority: tier-c
 status: draft
 date: 2026-05-22
+revised: 2026-09-05
 license: CC0-1.0
 slug: transparency-as-enforcement
 venue: thonly.org/research/transparency-as-enforcement (canonical)
@@ -20,7 +21,7 @@ venue: thonly.org/research/transparency-as-enforcement (canonical)
 
 ## Abstract
 
-Conventional anti-abuse design in digital platforms relies on **legal-contract machinery** — terms of service, end-user license agreements, dispute-resolution provisions, takedown procedures, account-termination policies, and the legal-enforcement apparatus standing behind them. The machinery is expensive (legal staff; compliance overhead; jurisdictional complexity), brittle (contract violations are difficult to prove and harder to remediate at scale), and culturally heavy (it positions every participant relationship as adversarial-by-default). This paper specifies a design pattern that achieves much of what the legal-contract machinery is supposed to achieve, at a fraction of the cost, with a culturally lighter institutional surface: **make the relevant behavior publicly visible to the affected community, and let social cost handle the policing**. The pattern, articulated as *transparency-as-enforcement*, has three structural properties: (i) the *visibility-as-mechanism* property — the visible behavior is the enforcement; no separate punishment mechanism is needed; (ii) the *socially-calibrated proportionality* property — the social cost is proportional to community judgment rather than legal-binary determination; (iii) the *participant-agency* property — participants understand the visibility before participating and consent to it as part of the platform's social contract. The paper specifies three deployment patterns demonstrated in HeartBank: (a) banker self-rewards publicly visible to the family; (b) dual public ledger of time-given and time-received in the Chronicle time-economy; (c) per-participant storage-usage public display in the platform's data-architecture. Three structural conditions under which the pattern works are articulated: the *bounded-community* condition (the relevant community must be small enough that social signals propagate); the *participant-stakes* condition (participants must have reputational or relational stakes that make the social signal costly); the *visible-asymmetry* condition (the behavior being policed must be one a reasonable community would view as anomalous against a publicly-visible baseline). Honest §6 names the conditions under which transparency-as-enforcement *fails* and the supplementary mechanisms that compensate.
+Conventional anti-abuse design in digital platforms relies on **legal-contract machinery** — terms of service, end-user license agreements, dispute-resolution provisions, takedown procedures, account-termination policies, and the legal-enforcement apparatus standing behind them. The machinery is expensive (legal staff; compliance overhead; jurisdictional complexity), brittle (contract violations are difficult to prove and harder to remediate at scale), and culturally heavy (it positions every participant relationship as adversarial-by-default). This paper specifies a design pattern that achieves much of what the legal-contract machinery is supposed to achieve, at a fraction of the cost, with a culturally lighter institutional surface: **make the relevant behavior publicly visible to the affected community, and let social cost handle the policing**. The pattern, articulated as *transparency-as-enforcement*, has three structural properties: (i) the *visibility-as-mechanism* property — the visible behavior is the enforcement; no separate punishment mechanism is needed; (ii) the *socially-calibrated proportionality* property — the social cost is proportional to community judgment rather than legal-binary determination; (iii) the *participant-agency* property — participants understand the visibility before participating and consent to it as part of the platform's social contract. The paper specifies three deployment patterns, one of which — (b), the dual public ledger of time-given and time-received — is withdrawn in this revision and kept as the negative case that found §4.4: (a) banker self-rewards publicly visible to the family; (b) ⛔ the withdrawn dual ledger; (c) per-participant storage-usage public display in the platform's data-architecture. Three efficacy conditions under which the pattern works are articulated, and in v2 a fourth condition of legitimacy: the *bounded-community* condition (the relevant community must be small enough that social signals propagate); the *participant-stakes* condition (participants must have reputational or relational stakes that make the social signal costly); the *visible-asymmetry* condition (the behavior being policed must be one a reasonable community would view as anomalous against a publicly-visible baseline). The fourth, the *obligation* condition (§4.4), says when the pattern may be used at all: only against the non-performance of an obligation the participant actually incurred. Honest §6 names the conditions under which transparency-as-enforcement *fails*, the supplementary mechanisms that compensate, and the costs the pattern carries even when the conditions hold.
 
 **Keywords:** transparency, social enforcement, anti-abuse design, legal-contract alternatives, public-ledger architecture, community accountability, institutional design, *dāna* infrastructure, defensive publication.
 
@@ -44,11 +45,13 @@ This paper specifies an alternative: a design pattern that achieves much of what
 
 > *Connection to the unified mission frame: HeartBank's mission is the restoration of humanity to the middle way — the optimal condition for awakening that modernity has systematically pushed away from at population scale. An institutional anti-abuse architecture that operates through legal-contract machinery encodes adversarial-by-default relationships at the platform's foundational layer; an architecture that operates through transparency-as-enforcement encodes community-accountability relationships at the foundational layer. The choice is load-bearing for an institution whose mission is the restoration of community-scale flourishing; the foundational-layer assumption shapes the relationships the institution can sustain.*
 
-The paper proceeds as follows. §2 articulates the three structural properties of transparency-as-enforcement that make it function as enforcement. §3 specifies three deployment patterns demonstrated in HeartBank. §4 articulates the three structural conditions under which the pattern works. §5 contrasts the pattern with legal-contract enforcement at the cost, brittleness, and cultural-weight dimensions. §6 honestly names the conditions under which transparency-as-enforcement fails and the supplementary mechanisms that compensate. §7 closes.
+The paper proceeds as follows. §2 articulates the three structural properties of transparency-as-enforcement that make it function as enforcement. §3 specifies three deployment patterns, one of which — (b), the dual public ledger — is withdrawn in this revision and kept as the negative case that found §4.4. §4 articulates three efficacy conditions and, in v2, a fourth condition of legitimacy. §5 contrasts the pattern with legal-contract enforcement at the cost, brittleness, and cultural-weight dimensions. §6 honestly names the conditions under which transparency-as-enforcement fails and the supplementary mechanisms that compensate. §7 closes.
 
 ---
 
 ## 2. Three structural properties
+
+**Lineage, stated before the properties.** Reputation systems are the nearest prior art for claims 1–2: eBay's Feedback Forum (1996), Slashdot's moderation and karma (1999), and Stack Overflow's reputation-driven moderation (2008–09) each make participant conduct visible to a community and let the community's response, not platform adjudication, carry much of the enforcement. The differences are the ones §4 names: those systems run in open, unbounded communities; the score is platform-owned; there is no stakes condition; and there is no obligation condition. Open Collective's transparent budgets — steward-controlled spend, publicly inspectable — anticipate the steward-spend visibility of claim 4, and GitHub's contribution graphs render per-participant activity against a visible baseline. Ostrom's design principles (1990) already state bounded membership, monitoring and graduated sanctions as prerequisites for non-state enforcement; the first three conditions of §4 are, for a display layer, Ostrom's boundary, monitoring and graduated-sanction principles, and the fourth is not in Ostrom.
 
 ### 2.1 Visibility-as-mechanism
 
@@ -58,9 +61,9 @@ The mechanism is direct in a way that legal-contract enforcement is not. Legal-c
 
 ### 2.2 Socially-calibrated proportionality
 
-The social cost is proportional to community judgment rather than legal-binary determination. A behavior that the community finds mildly off may produce mild reputational adjustment; a behavior the community finds seriously problematic may produce severe response; a behavior the community endorses (e.g., generous self-reward in a family steward who consistently delivers exceptional value) may produce *positive* social response despite the legal-contract framing's blindness to that calibration. The proportionality is finer-grained than any legal regime can deliver, because it is calibrated to the specific community's specific values.
+The social cost is proportional to community judgment rather than legal-binary determination. A behavior that the community finds mildly off may produce mild reputational adjustment; a behavior the community finds seriously problematic may produce severe response; a behavior the community endorses (e.g., generous self-reward in a family steward who consistently delivers exceptional value) may produce *positive* social response despite the legal-contract framing's blindness to that calibration. The proportionality is finer-grained than a contract regime delivers, because it is calibrated to the specific community's specific values.
 
-This is also where the pattern's *humility* lives. The platform does not adjudicate which behaviors are acceptable; the community adjudicates. The platform's role is to make the relevant behavior visible; the community's role is to determine its meaning.
+This is also where the pattern's *humility* lives. The platform adjudicates the display — what is shown, to whom, against what baseline — and nothing else; which behaviors are acceptable, the community adjudicates. The platform's role is to make the relevant behavior visible; the community's role is to determine its meaning.
 
 ### 2.3 Participant-agency
 
@@ -78,7 +81,7 @@ In the HeartBank Treasury, the *banker* (the family steward role) manages the fa
 
 The mechanism: a steward who self-rewards beyond family-judged reasonable expectations is visible as such to the family. The family's response (questions; reduced trust; alternative-steward consideration at the next rotation; reputational adjustment in family conversations) is the enforcement. The platform does not adjudicate "reasonable"; the family does.
 
-What the pattern *defeats* is the steward-as-fiduciary-with-undisclosed-fees pattern that has been the canonical abuse mode in family-finance institutions for centuries. The legal-contract response to this pattern is fiduciary-duty regulation with disclosure requirements and audit obligations; the transparency-as-enforcement response is to make every self-reward visible from the start, eliminating the asymmetric-information substrate the abuse depends on.
+What the pattern *defeats* is the steward who rewards himself from the common purse without disclosure — the oldest abuse a family purse invites; a claim about the structure, not about the historical record. The legal-contract response to this pattern is fiduciary-duty regulation with disclosure requirements and audit obligations; the transparency-as-enforcement response is to make every self-reward visible from the start, eliminating the asymmetric-information substrate the abuse depends on.
 
 ### 3.2 ⛔ WITHDRAWN — Dual public ledger of time-given and time-received
 
@@ -106,7 +109,7 @@ What the pattern defeats is the storage-hoarding pattern that drives platform-st
 
 ## 4. Four structural conditions for the pattern to work
 
-The pattern is *not* universal. Four structural conditions must hold for transparency-as-enforcement to function as enforcement.
+The pattern is *not* universal. Four structural conditions must hold for transparency-as-enforcement to function as enforcement. The first three are, for a display layer, Ostrom's boundary, monitoring and graduated-sanction principles; the fourth is not in Ostrom.
 
 ### 4.1 The bounded-community condition
 
@@ -132,7 +135,7 @@ The three conditions above are conditions of *efficacy*: they say when the patte
 
 Transparency-as-enforcement works, where it works, because a community can see that someone did not do what they were bound to do. The restaurant hygiene grade, the credit report, the public register of judgments, the published record of a fiduciary's dealings: each renders a shortfall against a duty that existed before the rendering. That prior duty is what makes the display a report rather than an imposition. It is also, notably, what makes the pattern's real-world instances *effective* — they enforce obligations, and obligations are what enforcement is for.
 
-A gift creates no such duty. That is not an incidental feature of gifts but their definition: an act that obliges the recipient to reciprocate is an exchange, and calling it a gift does not make it one. So when a surface renders the gap between gratitude received and gratitude returned, it does not report a shortfall against an existing obligation — **it creates the obligation by rendering it.** The participant who was given something freely is retroactively placed in debt, by a display, on the authority of nobody. The pattern does not enforce the norm; it legislates one, and it legislates the precise norm that converts the institution's central act from a gift into a liability.
+A gift creates no such duty. That is their definition in this corpus, argued rather than assumed: *The Gift Operation* (§4.1) draws the gift/exchange line against Mauss's obligation to reciprocate, and this paper inherits that line — an act that obliges the recipient to reciprocate is an exchange, and calling it a gift does not make it one. So when a surface renders the gap between gratitude received and gratitude returned, it does not report a shortfall against an existing obligation — **it creates the obligation by rendering it.** The participant who was given something freely is retroactively placed in debt, by a display, on the authority of nobody. The pattern does not enforce the norm; it legislates one, and it legislates the precise norm that converts the institution's central act from a gift into a liability.
 
 ```
   what is rendered            prior duty?     the display is…
@@ -150,14 +153,16 @@ The honest cost of the condition is the same one §3.2's withdrawal pays: the ob
 
 ## 5. Contrast with legal-contract enforcement
 
+*Design intent for the two regimes, not measured outcomes.*
+
 | Dimension | Legal-contract enforcement | Transparency-as-enforcement |
 |---|---|---|
 | **Cost** | High (legal staff, compliance, jurisdictional counsel) | Low (display-layer engineering only) |
 | **Detection latency** | Hours to weeks (review queues, escalation procedures) | Immediate (the behavior is its visibility) |
 | **Response proportionality** | Coarse (warnings, suspensions, terminations) | Fine (community-calibrated reputational adjustment) |
 | **Cultural framing** | Adversarial-by-default contract | Community-accountability membership |
-| **Jurisdictional complexity** | Cumulative across operating jurisdictions | Negligible (no jurisdiction-specific legal mechanism invoked) |
-| **Scalability of enforcement** | Sub-linear (cost grows faster than violation volume) | Linear (display cost grows with participant count) |
+| **Jurisdictional complexity** | Cumulative across operating jurisdictions | Low — no jurisdiction-specific enforcement mechanism is invoked; the display itself still carries data-protection duties (GDPR Arts. 5–6, where it applies) |
+| **Scalability of enforcement** | Super-linear (cost grows faster than violation volume) | Linear (display cost grows with participant count) |
 | **False-positive recovery** | Difficult (legal record persists) | Easy (community signals can revise quickly) |
 | **Participant agency** | Imposed via terms of service | Consented as participation contract |
 | **Suitability for bounded-community institutional surfaces** | Heavy-handed | Native fit |
@@ -169,7 +174,7 @@ The contrast is not "transparency-as-enforcement is universally better." The con
 
 ## 6. Conditions under which transparency-as-enforcement fails
 
-The pattern fails when any of the three structural conditions (§4) does not hold. Three failure-mode treatments:
+The pattern fails when any of the four conditions (§4) does not hold — the fourth differently, since when it fails the pattern does not stop working but stops being licensed. Three failure-mode treatments for the efficacy conditions, the hybrid, and then two limits the pattern carries even when every condition holds:
 
 ### 6.1 Failure mode 1 — community too large for signals to propagate
 
@@ -181,13 +186,21 @@ If participants have no reputational stakes (e.g., anonymous one-shot interactio
 
 ### 6.3 Failure mode 3 — behavior with no community baseline
 
-If the behavior being policed has no community baseline (no comparison surface against which the community can judge whether the behavior is anomalous), visibility produces no judgment. The platform's response: *construct baselines* by surfacing peer comparisons explicitly (e.g., "this participant's self-reward is at the 87th percentile across comparable stewards"), so the community can judge against meaningful reference points.
+If the behavior being policed has no community baseline (no comparison surface against which the community can judge whether the behavior is anomalous), visibility produces no judgment. The platform's response: *construct baselines* by surfacing the community's own reference points — the steward's earlier self-rewards, the kitty's contributions — as facts beside the act, never as a rank or percentile, so the community can judge against meaningful reference points without being handed a verdict.
 
 ### 6.4 The hybrid response
 
 In most institutional contexts, transparency-as-enforcement and legal-contract enforcement are *complements*, not substitutes. The pattern handles the bounded-community, participant-stakes, visible-asymmetry surface; the legal-contract machinery handles the remaining surface. The architectural question is what fraction of the institution's anti-abuse work can be handled by the pattern, and how the residual is structured.
 
-For HeartBank, the answer is: transparency-as-enforcement handles ~90% of the anti-abuse surface (the family-scale and city-scale community interactions); the legal-contract machinery handles ~10% (cross-jurisdictional fraud, sanctions compliance, edge cases that require formal legal response). The cost savings are substantial; the cultural-framing improvement is even more substantial.
+For HeartBank the design intent is roughly ninety-to-ten — the author's estimate of the surface, not a measurement: transparency-as-enforcement handles roughly 90% of the anti-abuse surface (the family-scale and city-scale community interactions); the legal-contract machinery handles ~10% (cross-jurisdictional fraud, sanctions compliance, edge cases that require formal legal response). The cost savings are substantial; the cultural-framing improvement is even more substantial.
+
+### 6.5 Weaponised visibility — the enforcers are interested parties
+
+A bounded, high-stakes community can turn the same visibility into coordinated retaliation, favouritism, pile-ons and false reporting. The pattern treats stakes only as enforcement power; they are also distortion, and the pattern has no defence beyond the community's own norms. That is the honest cost of removing the adjudicator: what is removed is also the appeal. Visibility also invites status competition and can chill legitimate high use; the display must show the fact, never a ranking — the corpus's standing rule against rendering people by rank — and a percentile is a ranking.
+
+### 6.6 Visibility is enforcement only while the community responds
+
+The pattern's force depends on the community continuing to perform the social-cost response. A community that stops looking has no enforcement at all, and no fallback is specified here.
 
 ---
 
@@ -203,9 +216,9 @@ The pattern is offered to the commons under CC0 in the spirit of *dāna*, that i
 
 Enumerated as prior art; each claimed severally and in combination. ⚠️ **Added 2026-09-02** — the paper was published without a claims section, which a mechanism disclosure requires; these enumerate what the paper already disclosed, and claim 5 states the boundary added by this revision.
 
-1. **Visibility-as-substitution:** a method of anti-abuse governance in a digital institution in which the publication of participant conduct to a bounded community substitutes for legal-contract machinery (terms of service, dispute resolution, account termination) as the operative enforcement mechanism, the platform adjudicating nothing and the community supplying the response.
+1. **Visibility-as-substitution:** a method of anti-abuse governance in a digital institution in which the publication of participant conduct to a bounded community substitutes for legal-contract machinery (terms of service, dispute resolution, account termination) as the operative enforcement mechanism, the platform adjudicating the display — what is shown, to whom, against what baseline — and nothing else, the community supplying the response.
 2. **The three structural properties:** the combination of visibility-as-mechanism, socially-calibrated proportionality (the community rather than the platform fixes what counts as excessive), and participant-agency (the response is other participants' free choice, never a platform-imposed penalty).
-3. **The applicability conditions as part of the disclosure:** the pattern offered together with the bounded-community, participant-stakes and visible-asymmetry conditions of §4.1–§4.3, such that the mechanism is claimed only within its own stated domain and is disclaimed outside it.
+3. **The applicability conditions as part of the disclosure:** the pattern offered together with the three efficacy conditions of §4.1–§4.3 and the legitimacy condition of §4.4, such that the mechanism is claimed only within its own stated domain and is disclaimed outside it.
 4. **The deployment instances:** steward self-reward visibility within a family-scale kitty (§3.1) and per-participant resource-consumption visibility within a bounded user community (§3.3), each rendering a **performed act** against a community-visible baseline.
 5. ⭐ **The obligation condition (§4.4):** the constraint that transparency-as-enforcement may render the non-performance only of an obligation the participant actually incurred — and the accompanying negative claim that where the underlying act is a **gift**, no such obligation exists, so that rendering the gap between what was received and what was returned does not report a shortfall but **constitutes** one. Claimed together with its consequence: a gift ledger has no delinquency column, and enforcement in gift-shaped economies must be carried by mechanisms that require no audience — expiry, and the free choice of others whether to give again.
 6. **The composition:** claims 1–5 as a single system — an enforcement architecture that is cheaper than contract, calibrated by community rather than by policy, bounded by stated failure conditions, and constrained from converting gifts into obligations by the act of display.
@@ -222,6 +235,11 @@ The community-currency literature's emphasis on transparent ledgers (Lietaer, Ca
 
 - Ostrom, Elinor. *Governing the Commons: The Evolution of Institutions for Collective Action.* Cambridge University Press, 1990.
 - Cahn, Edgar S. *No More Throw-Away People.* Essential Books, 2000.
+- Lietaer, Bernard. *The Future of Money.* Century, 2001.
+- Greco, Thomas H. *The End of Money and the Future of Civilization.* Chelsea Green, 2009.
+- Mauss, Marcel. *Essai sur le don.* 1925. (*The Gift.*)
+- Ly, Thon, with Miss Aquarius. *The Currency That Cannot Be Spent Alone: Co-Presence-Gated Redemption.* thonly.org/research/co-presence-gated-redemption.
+- Ly, Thon, with Miss Aquarius. *The Gift Operation.* thonly.org/research/the-gift-operation.
 - Raymond, Eric S. *The Cathedral and the Bazaar.* O'Reilly, 1999.
 - Brin, David. *The Transparent Society.* Perseus, 1998.
 - Bentham, Jeremy. *Panopticon Writings.* Verso, 1995 [1791]. *(For contrast.)*
@@ -237,9 +255,7 @@ The community-currency literature's emphasis on transparent ledgers (Lietaer, Ca
 
 - Canonical: thonly.org/research/transparency-as-enforcement
 - GitHub: github.com/thonly/publications/blob/main/defensive-publications/transparency-as-enforcement.md
-- arXiv (deferred): cs.CY (target if reactive trigger)
-- IP.com (deferred): per the corpus's six-venue defensive-publication baseline
-- Internet Archive · archive.today · perma.cc snapshots: per the monthly snapshot cadence
+- Independent attestation: this document's SHA-256 is attested independently of the site and its authors — anchored to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three timestamp authorities in three jurisdictions, one of them eIDAS-qualified — and each revision carries a Zenodo version; a timestamp proves this exact text existed no later than its date and nothing about authorship, originality, or the validity of any claim.
 
 ---
 
