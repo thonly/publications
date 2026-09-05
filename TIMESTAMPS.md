@@ -290,6 +290,7 @@ Zenodo new versions (metadata-only) for the nine deposited defensive publication
 | the-gift-operation | rotated → `.r2.ots` | `2026-09-05.sha256` | 10.5281/zenodo.22313926 *(new version)* | 2.1.1 |
 | four-body-architecture | rotated → `.r2.ots` | `2026-09-05.sha256` | 10.5281/zenodo.22313923 *(new version)* | 2.1.1 |
 | four-elements-as-breadth-check | rotated → `.r2.ots` | `2026-09-05.sha256` | ⛔ **none — essay** | 2.1.1 |
+| four-elements-as-breadth-check *(second revision today — the first cold-reader round's six findings)* | rotated → `.r3.ots` ⚠️ *calendar-only at rotation; the find-based upgrade completes it* | `2026-09-05.sha256` *(re-run after the push; hash matches the tree)* | ⛔ **none — essay** | 2.1.3 |
 
 **What changed.** A new defensive publication specifying a gift instrument whose intermediate holder
 has no redeem operation; `the-gift-operation` gains §6.5 (the conserved-identity subclass, corrected
