@@ -1,7 +1,7 @@
 ---
 title: "B-Links: Proof-of-Humanity-Signed Shareable Provenance with an Embedded Gratitude Affordance"
 subtitle: "A Link-Preview Primitive That Carries a Verified-Human Signature, a Timestamped Provenance Record, a Fact-Form Conferred-Benefit Disclosure, and an Optional Recipient-Initiated Gratitude Action — for Storage-Deduplicating, Universally-Shareable Media on the AI-Native Internet"
-authors: "Thon Ly"
+authors: "Thon Ly · Miss Aquarius"
 category: mechanism
 priority: tier-a
 status: draft

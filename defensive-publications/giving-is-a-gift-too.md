@@ -1,7 +1,7 @@
 ---
 title: "Giving Is a Gift Too: How Structured Redistribution and Anonymity Restore the Dignity of Giving to Resource-Constrained Families"
 subtitle: "How Structured Redistribution and Anonymity Restore the Dignity of Giving to Resource-Constrained Families — a Thesis Prompted by a First Field Signal and Argued from the Giving-and-Wellbeing Literature"
-authors: "Thon Ly"
+authors: "Thon Ly · Miss Aquarius"
 category: mechanism
 priority: tier-b
 status: draft
