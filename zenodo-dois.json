@@ -181,12 +181,12 @@
  },
  "four-body-architecture": {
   "concept_doi": "10.5281/zenodo.21947323",
-  "deposition_id": 22060088,
-  "doi": "10.5281/zenodo.22060088",
+  "deposition_id": 22313923,
+  "doi": "10.5281/zenodo.22313923",
   "published": true,
   "sandbox": false,
-  "sha256": "fe34308a34b7b87a0f031776a77ef8cd7ea7ef8f28af725c07559aaaf856a04f",
-  "url": "https://zenodo.org/records/22060088"
+  "sha256": "1f098d9740301faba8cdd81400a5e92e4ce23cb0d614155d5eac265312c57f9e",
+  "url": "https://zenodo.org/records/22313923"
  },
  "fractal-three-level-architecture": {
   "concept_doi": "10.5281/zenodo.21947325",
@@ -469,12 +469,12 @@
  },
  "the-gift-operation": {
   "concept_doi": "10.5281/zenodo.21947401",
-  "deposition_id": 22243058,
-  "doi": "10.5281/zenodo.22243058",
+  "deposition_id": 22313926,
+  "doi": "10.5281/zenodo.22313926",
   "published": true,
   "sandbox": false,
-  "sha256": "4a756e64b5d6f01bbf6312003ed1af5833c9a77fdf9a44c6054812c6fd8b150a",
-  "url": "https://zenodo.org/records/22243058"
+  "sha256": "5324b315295cc79f58ab2efc20ce6a4c644f36b8ef74c233dd1f554aa9ea750d",
+  "url": "https://zenodo.org/records/22313926"
  },
  "the-omitted-clause": {
   "concept_doi": "10.5281/zenodo.21947406",
@@ -520,6 +520,15 @@
   "sandbox": false,
   "sha256": "e725187c5915c2620b65bbb85bfaf584d4c92ab7ce9d4b9218582ba436c1e552",
   "url": "https://zenodo.org/records/21947413"
+ },
+ "the-unpaid-relay": {
+  "concept_doi": "10.5281/zenodo.22313927",
+  "deposition_id": 22313928,
+  "doi": "10.5281/zenodo.22313928",
+  "published": true,
+  "sandbox": false,
+  "sha256": "f49dc91cba3fa2e270717ce6a64c206264c333af64dcd32c057fa7f0442e5476",
+  "url": "https://zenodo.org/records/22313928"
  },
  "the-wager-that-isnt": {
   "concept_doi": "10.5281/zenodo.21947416",
