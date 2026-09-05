@@ -6,6 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-09-01
+revised: 2026-09-05
 license: CC0-1.0
 slug: provenance-carrying-retrieval
 venue: thonly.org/research/provenance-carrying-retrieval (canonical)
@@ -17,7 +18,7 @@ venue: thonly.org/research/provenance-carrying-retrieval (canonical)
 
 ## Preamble
 
-There is a discourse in the Pāli canon in which a people called the Kālāmas tell a teacher that many teachers pass through their town, each praising his own doctrine and tearing down the others, and they no longer know whom to believe. The reply they receive is not a better doctrine. It is a procedure: *do not go by report, by tradition, by hearsay, by the authority of texts, by logic, by inference, by appearance, by agreement with a considered opinion, by seeming competence, or because the ascetic is our teacher.*
+There is a discourse in the Pāli canon (AN 3.65, the *Kesamutti Sutta*) in which a people called the Kālāmas tell a teacher that many teachers pass through their town, each praising his own doctrine and tearing down the others, and they no longer know whom to believe. The reply they receive is not a better doctrine. It is a procedure: *do not go by report, by tradition, by hearsay, by the authority of texts, by logic, by inference, by appearance, by agreement with a considered opinion, by seeming competence, or because the ascetic is our teacher.*
 
 The passage is usually read as an invitation to scepticism. Read as engineering, it is something more specific and more useful: it is a refusal to accept a claim **on the strength of the channel it arrived over.** The Kālāmas' problem was not that the teachers were lying. It was that nothing about a teacher passing through town distinguishes one who is right from one who is merely fluent, and the villagers had no instrument.
 
@@ -33,7 +34,7 @@ This document is dedicated to the public domain under CC0 1.0 Universal. Its pur
 
 The building blocks are prior art already, and we name them precisely so that no reader mistakes our composition for a claim over the parts:
 
-- **Content addressing** — identifying a byte sequence by its cryptographic digest. Ubiquitous; Git, IPFS, and every package manager's integrity field.
+- **Content addressing** — identifying a byte sequence by its cryptographic digest. Ubiquitous; Git, IPFS, and most package managers' integrity fields.
 - **RFC 3161 Time-Stamp Protocol** — a trusted authority's signed assertion that a digest existed before a moment.
 - **OpenTimestamps** — aggregation of digests into a Merkle tree whose root is committed to the Bitcoin blockchain, converting an authority's assertion into a proof-of-work-anchored one.
 - **RFC 6962 / RFC 9162, Certificate Transparency** — append-only Merkle logs with signed tree heads, inclusion proofs, consistency proofs, and gossip among independent monitors.
@@ -43,6 +44,8 @@ The building blocks are prior art already, and we name them precisely so that no
 - **LOCKSS, Memento (RFC 7089), Software Heritage** — replication and temporal access to published works.
 - **C2PA / Content Credentials** — signed provenance manifests bound to media assets, addressing capture-and-edit chains for images, audio and video.
 - **DOI and DataCite** — persistent identifiers with resolution and metadata.
+- **SCITT (RFC 9943) and COSE receipts (RFC 9942)** — signed statements registered in a transparency service, receipts issued to the registering party, and newer-version and end-of-life statements.
+- **Software Heritage SWHIDs** — intrinsic identifiers that can qualify a sub-part of an archived object.
 - **The Model Context Protocol** — a published, open protocol for supplying context and tools to language models.
 
 **We assert no rights over any of these.** The claim in §9 is deliberately narrow, and it is smaller than the paper that surrounds it.
@@ -77,13 +80,13 @@ The literature this paper stands on is mature, and none of it is ours.
 
 **Software supply chain.** The last decade of supply-chain security produced the closest analogue to what we describe. SLSA defines levels of build integrity; in-toto defines attestations linking artifacts to the steps that made them; Sigstore issues short-lived certificates bound to workload identity and records signatures in Rekor, a public transparency log. The mature form of the idea is: *do not ask whether you trust the publisher, ask whether the artifact's digest appears in a log you can audit.* That is precisely the move this paper transposes. **The difference in target is the whole of our contribution:** supply-chain attestation binds a *build* to a *source tree*; we bind a *retrieved passage* to a *published document*. The consumer differs too — a package manager verifies once at install; a language model verifies at the moment of quotation, which is a different moment with different failure modes.
 
-**Certificate Transparency.** RFC 6962 and its successor establish the design pattern for public append-only logs: Merkle tree structure, signed tree heads, inclusion proofs for individual entries, consistency proofs between heads, and gossip among independent parties to detect a log presenting different views to different observers. CT is the direct ancestor of §7 and we claim nothing over it. The observation we add there is narrow and, we believe, unstated: **CT never forgives, and a ledger of human conduct must.**
+**Certificate Transparency.** RFC 6962 and its successor establish the design pattern for public append-only logs: Merkle tree structure, signed tree heads, inclusion proofs for individual entries, consistency proofs between heads, and gossip among independent parties to detect a log presenting different views to different observers. CT is the direct ancestor of §8 and we claim nothing over it. The observation we add there is narrow and, we believe, unstated: **a CT log never deletes an entry, and a ledger of human conduct must be able to release.**
 
 **Archival provenance.** PREMIS and W3C PROV-O give vocabularies for custody and derivation; LOCKSS gives replication; Memento gives temporal access; Software Heritage gives durable archival of source. The archival community has thought about this longer and more carefully than the machine-learning community has, and their conclusion is one we adopt: **provenance is metadata about a specific byte sequence, and loses its meaning the moment the byte sequence is normalised, re-encoded, or excerpted without saying so.** §4's insistence on naming *what the digest covers* is theirs, not ours.
 
-**Content Credentials (C2PA).** The nearest adjacent work. C2PA binds signed provenance manifests to media assets, recording capture device, edits, and chain of custody, and it is being deployed against synthetic-media risk. Two differences matter. C2PA's threat model is *the deceptive edit* — an image altered to mislead — and its manifests travel embedded in the asset. Ours is *the stale or truncated retrieval*, which involves no adversary at all and usually no edit: the most common failure is an honest system serving an old version. And our envelope cannot travel embedded, because the artifact is prose that will be quoted in fragments. What travels is a pointer to bytes that can be re-fetched.
+**Content Credentials (C2PA).** The nearest adjacent work. C2PA binds signed provenance manifests to media assets, recording capture device, edits, and chain of custody, and it is being deployed against synthetic-media risk. Two differences matter. C2PA's threat model is *the deceptive edit* — an image altered to mislead — and its manifests are typically embedded in the asset, though the specification also allows external ones. Ours is *the stale or truncated retrieval*, which involves no adversary at all and usually no edit: the most common failure is an honest system serving an old version. And our envelope travels with a retrieval *response* rather than with an asset, because the artifact is prose that will be quoted in fragments. What travels is a pointer to bytes that can be re-fetched.
 
-**Retrieval-augmented generation.** The RAG literature is large and almost entirely concerned with *relevance*: chunking, embedding, reranking, whether the retrieved passage answers the question. Verification appears in that literature as *attribution* — did the model's output follow from the retrieved context — which is a question about the model's faithfulness to its context. **We are asking the prior question: was the context itself what it claimed to be.** A perfectly faithful model grounded in a superseded document produces a confidently wrong citation, and no amount of attribution scoring detects it, because the model was faithful.
+**Retrieval-augmented generation.** The RAG literature is large and largely concerned with *relevance*: chunking, embedding, reranking, whether the retrieved passage answers the question. Verification appears in that literature as *attribution* — did the model's output follow from the retrieved context — which is a question about the model's faithfulness to its context. **We are asking the prior question: was the context itself what it claimed to be.** A perfectly faithful model grounded in a superseded document produces a confidently wrong citation, and no amount of attribution scoring detects it, because the model was faithful. The exceptions are named here. *Proof-Carrying Answers* (Shukla & Joshi, ACSAC Workshops 2025) has every retrieved chunk carry a hash, a signature and a Merkle proof verified before the answer admits it — the nearest prior work, and the difference is the named fetchable source, the anchor independent of the signer, and the scope statement. SCITT (RFC 9943) gives a transparency service newer-version and end-of-life statements, which is what would give §13.1's staleness row a source-side answer. Software Heritage's SWHIDs qualify a sub-part of an archived object, which is the scope obligation done at the identifier.
 
 **The Model Context Protocol.** MCP standardises how context and tools reach a model. It is the transport this work happens to use and is orthogonal to the claim: nothing here depends on MCP, and the envelope would apply unchanged to any retrieval interface. We name it because it is the surface on which the idea is most likely to be re-invented, and because a published protocol is where enclosure attempts land.
 
@@ -96,8 +99,11 @@ A model has none of it. Its entire epistemic access to the document is the strin
 ```
   FAILURE                WHAT IT LOOKS LIKE            DETECTABLE FROM THE TEXT?
   ─────────────────────────────────────────────────────────────────────────────
-  Staleness              a superseded claim, cited     no — it reads as correct
-                         as current                          because it once was
+  Staleness              a superseded claim, cited     no from the text alone —
+                         as current                    it reads as correct because
+                                                       it once was; YES by fetching
+                                                       the named source (staleness
+                                                       OF the source: no)
 
   Truncation             a qualified claim served      no — the qualification is
                          without its qualification         simply not there
@@ -128,7 +134,8 @@ A response carries, alongside the text, an envelope with four obligations. We gi
   │                  covers — and whether that is the served text     │
   │   3. LOCATION    a fetchable address for the covered bytes        │
   │   4. ANCHOR      ≥1 independent commitment that the digest        │
-  │                  existed before a stated time                     │
+  │                  existed before a stated time — or an explicit    │
+  │                  statement that none exists; never silence        │
   │                                                                  │
   │   +  IDENTIFIER  a citable persistent id, where one exists        │
   │   +  LICENCE     terms, and any attribution actually owed         │
@@ -142,15 +149,24 @@ Four of these are load-bearing in ways that are easy to get wrong.
 
 **Location converts an instruction into an instruction.** An envelope that says *compare this digest to the source file* without naming the file is not a procedure; it is a gesture at one. The covered bytes must be fetchable by the reader, which in practice means the source is published somewhere durable. This is a real constraint and it excludes private corpora from the strong form of the claim.
 
-**The anchor must be independent of the server.** A digest signed by the same party that served the text establishes nothing that party's word did not already establish. Independence is what makes the anchor evidence, and it admits several forms — a blockchain commitment, an RFC 3161 authority, a transparency log, a third-party archive — which are usefully combined, because they fail differently. A timestamp authority can be compromised; a blockchain cannot be reorganised at depth; a transparency log can be audited by parties who do not trust its operator.
+**The anchor must be independent of the server.** A digest signed by the same party that served the text establishes nothing that party's word did not already establish. Independence is what makes the anchor evidence, and it admits several forms — a blockchain commitment, an RFC 3161 authority, a transparency log, a third-party archive — which are usefully combined, because they fail differently. A timestamp authority can be compromised; a blockchain cannot be reorganised at depth without a cost that scales with the chain's proof of work; a transparency log can be audited by parties who do not trust its operator.
 
-**The instruction is not decoration.** Publishing a digest and expecting the reader to know what to do with it assumes a reader who already knows. Carrying the exact command collapses verification from a research project to a paste, and — this is the part that matters — it means the claim in the envelope is itself checkable, rather than a sentence the reader must take on faith. *The envelope should not ask to be trusted about trust.*
+**The instruction is not decoration.** Publishing a digest and expecting the reader to know what to do with it assumes a reader who already knows. Carrying the exact command collapses verification from a research project to a paste, and — this is the part that matters — it means the claim in the envelope is itself checkable, rather than a sentence the reader must take on faith. *The envelope should not ask to be trusted about trust.* Illustratively, for a source published as a file — fetch it, hash it, compare, then verify the anchor:
+
+```
+curl -sL <location> | sha256sum      # compare with the envelope's digest
+ots verify <location>.ots            # the OpenTimestamps anchor
+```
+
+The encoding of the instruction is not specified here; the example is what a check looks like, not what the field must contain.
 
 ### 4.1 What the mechanism does **not** do
 
 It does not establish that the document is true, that its author is who it says, that it was written when it says, or that it is worth reading. It establishes exactly one thing:
 
 > **These bytes are the bytes that were anchored, and they were anchored before a stated moment.**
+
+A second thing follows from the location obligation, and it is the reader's to do: the reader can fetch the named source *now* and compare, which is how staleness relative to that source is caught. Nothing here obliges the source to declare its successor.
 
 Everything else — authorship, veracity, authority, good faith — must be argued on other grounds. We are emphatic about this because provenance mechanisms are routinely oversold into implying authenticity, and a reader who takes a verified digest as a verified claim has been made *more* credulous by a mechanism intended to make them less so.
 
@@ -170,7 +186,7 @@ Everything above is composition of known parts. The property that composition pr
   only option.                          default is a choice.
 ```
 
-The distinction is not rhetorical. A retrieval server that asserts is, in the strict sense, an **authority**: its claims are accepted because of what it is. A server that exposes is a **witness**: its claims are accepted because of what can be confirmed. The difference shows up precisely when the two diverge — when the server is wrong. An authority that is wrong propagates; a witness that is wrong is caught by the first reader who bothers.
+The distinction is not rhetorical. A retrieval server that asserts is, in the strict sense, an **authority**: its claims are accepted because of what it is. A server that exposes is a **witness**: its claims are accepted because of what can be confirmed. The difference shows up precisely when the two diverge — when the server is wrong. An authority that is wrong propagates; a witness that is wrong is caught by the first reader who bothers. What remains trusted is the channel's willingness to pass the envelope at all (§13.2); everything inside it is checkable against parties the channel does not control.
 
 ⭐ There is a consequence for the institution that is worth stating plainly, because it looks like generosity and is not. **A corpus that hands over the means to doubt it is harder to impersonate than one that does not.** A competitor may copy every document — ours are CC0 and copying is invited — but they cannot copy an anchor that is five years deep in a blockchain, and a reader with an instrument can tell the difference between a corpus with anchors and a corpus that says it has them. The verification surface is therefore not a concession. It is the only form in which the age of a record can do any work for anyone other than its owner.
 
@@ -192,7 +208,7 @@ This is a stronger guarantee than it first appears, and the reason is the failur
 
 ⚠️ **A version range would silently defeat this**, which is why the pin is exact. A range makes *which corpus is deployed* unanswerable, and the answer to that question is the only thing distinguishing a mirror from a fork.
 
-The observation generalises past our deployment. **Any corpus with more than one serving surface has a currency problem, and the envelope converts it from a process question into an arithmetic one.** Ask each surface for the same document and compare digests. If they differ, one is stale, and you know which by asking the anchor.
+The observation generalises past our deployment. **Any corpus with more than one serving surface has a currency problem, and the envelope converts it from a process question into an arithmetic one.** Ask each surface for the same document and compare digests. If they differ, the surfaces disagree; the anchors say which is older, and fetching the named source says which is current.
 
 ## 6 · Provenance must be a gate, never a score
 
@@ -210,13 +226,13 @@ The obvious next move, once documents carry provenance, is to **rank by it**: pr
 
 It answers one question — *can this passage be checked?* — and its only output is membership. It carries no weight, contributes nothing to order, and has no more-or-less. A document with a five-year anchor and a document anchored this morning are, for retrieval purposes, in the same set.
 
-⭐ The distinction survives a hard case, which is how we know it is real. A reader may legitimately *care* that one anchor is older — for a priority dispute, age is the whole question. The rule is not that age is uninteresting. **It is that the retrieval layer must not decide on the reader's behalf what age means.** The envelope reports the anchor; the reader draws the inference. Moving that inference into a ranking function is precisely the substitution of the server's judgement for the reader's that §5 exists to reverse.
+⭐ The distinction survives a hard case, which is how we know it is real. A reader may legitimately *care* that one anchor is older — for a priority dispute, age is the whole question. The rule is not that age is uninteresting. **It is that the retrieval layer must not decide on the reader's behalf what age means.** The envelope reports the anchor; the reader draws the inference. Moving that inference into a ranking function is precisely the substitution of the server's judgement for the reader's that §5 exists to reverse. A predicate the *reader* supplies — a version pin, a validity interval, an anchor-after date — is admission, not ranking, and the envelope exists to make such predicates checkable; what the layer must not do is rank by depth on the reader's behalf.
 
 ## 7 · What this design refuses, and what the refusals cost
 
 A mechanism is best specified by what it will not do.
 
-**It will not summarise.** A retrieval server that returns a summary destroys the property, because a summary cannot be hash-verified. Nothing prevents a *reader* from summarising; the refusal is that the server must not do it on the reader's behalf and call the result the document. **Cost:** larger responses, more context consumed, and a worse experience for readers who wanted a gist.
+**It will not summarise.** A retrieval server that returns a summary destroys the property, because a summary can be hashed but its hash binds it to nothing the reader can fetch and compare — the property destroyed is the binding to the named source, not hashability. Nothing prevents a *reader* from summarising; the refusal is that the server must not do it on the reader's behalf and call the result the document. **Cost:** larger responses, more context consumed, and a worse experience for readers who wanted a gist.
 
 **It will not serve an unlicensed document.** A licence that cannot be read from the artifact itself is not a licence the server can act on, and defaulting to open is the failure that cannot be undone after somebody builds on it. **Cost:** documents are silently excluded until someone declares them, and the exclusion is invisible to the reader who did not know to look.
 
@@ -250,7 +266,7 @@ The envelope of §4 applies directly, and produces a striking result:
   (the corpus is published)             tree head is not a person
 ```
 
-⭐⭐ **For a log, serving the envelope alone is not a reduced offering. It is the complete one.** The public claim a transparency log makes is entirely about its structure — that it is append-only, that it is consistent with what it showed you yesterday, that a given entry is in it. All of that is provable from tree heads and proofs, none of it requires disclosing a single entry's contents, and a reader who can fetch heads on a schedule and compare them with other readers has verified the institution's honesty about its own record without learning anything about anyone in it.
+⭐⭐ **For a log, serving the envelope alone is not a reduced offering. It is the complete public surface for the log's *integrity*** — inclusion, consistency, the published function — **and none of its *coverage*.** Whether every event that should have entered did is provable only against an external obligation — a receipt issued to the party whose event it is, the pattern of RFC 9943 — and a split view is caught only by gossip (§8.3). The claim a transparency log makes about its structure — that it is append-only, that it is consistent with what it showed you yesterday, that a given entry is in it — is entirely provable from tree heads and proofs, none of it requires disclosing a single entry's contents, and a reader who can fetch heads on a schedule and compare them with other readers has verified the institution's honesty about its own record without learning anything about anyone in it.
 
 This matters for a specific institutional reason. A ledger of human conduct **must not** expose its contents to arbitrary query. A query interface over records of what people did is, whatever its intent, an interface over what people did *not* do — the negation of any query is constructible — and rendering an absence is an accusation. The transparency envelope resolves the tension completely rather than trading it off: **maximum verifiability of the log's integrity, zero disclosure of its contents.**
 
@@ -301,16 +317,16 @@ A ledger of human conduct invites an obvious feature: let readers query it. We r
 
 Nor may the reading be exposed as a rate. A per-person figure computed over the log — however carefully framed — is a score, and a score is a ranking, and a ranking of persons is the thing the whole design exists to avoid. **The log may prove that it recorded a crossing; it must not publish how often anyone crossed.**
 
-⭐⭐ What makes this satisfying rather than merely restrictive is that the transparency surface loses **nothing** by the exclusion. Everything a reader needs in order to verify that the institution is honest about its own record — completeness, append-only-ness, consistency, the function — lives entirely in the proof structure. **The contents were never part of the public claim.** A design that had to trade verifiability against privacy would be a worse design; this one does not have to, and that it does not is the strongest evidence available that the boundary is drawn in the right place.
+⭐⭐ What makes this satisfying rather than merely restrictive is that the transparency surface loses **nothing** by the exclusion. Everything a reader needs in order to verify the log's integrity — inclusion, append-only-ness, consistency, the function — lives entirely in the proof structure; coverage is claimed against receipts, not contents. **The contents were never part of the integrity claim.** A design that had to trade verifiability against privacy would be a worse design; this one does not have to, and that it does not is the strongest evidence available that the boundary is drawn in the right place.
 
 
 ## 9 · The claim, in its final and smaller form
 
 Everything above narrows to this:
 
-> **A retrieval response supplied to a machine reader should carry, alongside the served text, a binding of that text to a named and fetchable byte sequence, a digest of that sequence, an explicit statement of what the digest covers relative to what was served, at least one time anchor independent of the serving party, and a runnable instruction for performing the check; and the same envelope, served without any payload, constitutes the complete public transparency surface of an append-only log.**
+> **A retrieval response supplied to a machine reader should carry, alongside the served text, a binding of that text to a named and fetchable byte sequence, a digest of that sequence, an explicit statement of what the digest covers relative to what was served, at least one time anchor independent of the serving party or an explicit statement that none exists — never silence — and a runnable instruction for performing the check; and the same envelope, served without any payload, constitutes the complete public surface of an append-only log's integrity — its coverage being provable only against receipts held by the parties whose events they are.**
 
-That is the whole of it. It is a composition of public primitives at a boundary where, so far as we can establish, they have not previously been composed. We assert no rights over it and dedicate it to the public domain so that no one else may.
+That is the whole of it. It is a composition of public primitives at a boundary where, so far as we can establish, they have not previously been composed in this form — the nearest is Proof-Carrying Answers (2025), which binds retrieved chunks to a signer's Merkle tree; the difference is the named fetchable source, the independent anchor, and the scope statement. We assert no rights over it and dedicate it to the public domain so that no one else may.
 
 ## 10 · Pre-registered predictions
 
@@ -324,7 +340,15 @@ Registered before observation, in the corpus's standing format. A correction is 
 
 **P-PCR4.** Scope confusion will be the most common implementation error in any third-party adoption: implementers will publish a digest of the source artifact while serving a derived rendering, without stating the difference. *Falsified if* the modal error is anything else.
 
-**P-PCR5.** For any transparency log we or others operate under §7, the first detected inconsistency will come from an automated comparison of tree heads rather than from a human noticing. *Falsified if* a human report precedes the first machine detection.
+**P-PCR5.** For any transparency log we or others operate under §8, the first detected inconsistency will come from an automated comparison of tree heads rather than from a human noticing. *Falsified if* a human report precedes the first machine detection.
+
+**Corrections, 2026-09-05 — new entries under the rule above; the originals stand as registered.** Cold reviewers found that P-PCR3, P-PCR4 and P-PCR5 named no observation window, no definition of *real defect*, and no method for *modal error*, and could be reinterpreted after the fact.
+
+**P-PCR3a** (corrects P-PCR3). The first envelope mismatch logged by the operator's own verifier within 24 months of 2026-09-01 will be classified, at the time of logging, as *stale* (the named source resolves newer) rather than *substituted* (the source resolves different at the same version). *Falsified if* the first logged mismatch is classified substituted.
+
+**P-PCR4a** (corrects P-PCR4). Among the first ten third-party implementations we can inspect within 24 months of 2026-09-01, more will publish a source-artifact digest while serving a derived rendering than will commit any other single error. *Falsified if* another error class is more frequent among those ten.
+
+**P-PCR5a** (corrects P-PCR5). The first inconsistency detected in any transparency log operated under §8, within 24 months of that log's first published head, will be logged with its detector, and the detector will be an automated head comparison. *Falsified if* the logged detector is a human report.
 
 ## 11 · What is actually deployed, stated so the reader can weigh the rest
 
@@ -341,6 +365,8 @@ Papers about mechanisms are worth less when it is unclear which parts exist. As 
   one operator (us)
 ```
 
+Each figure is checkable against the served index at corpus.333.eco, which carries every document's digest, identifier and anchor status; the index grows, and the figures are as of first publication (141 documents on 2026-09-05).
+
 Three observations from operating it, offered because they were not obvious in advance.
 
 **The scope error is real and we made it.** Our first envelopes carried a digest and an instruction to compare it against *the source file*, without naming which file or where. The digest covers the whole source artifact; the served text is its body. A reader who hashed what it was handed would have failed and concluded the corpus was lying. This was live before anyone noticed, and it was noticed by a question rather than by a check — which is why §4 makes scope and location obligations rather than niceties, and why P-PCR4 predicts it will be the modal error for adopters too.
@@ -353,15 +379,17 @@ Three observations from operating it, offered because they were not obvious in a
 
 **It proves bytes, not truth.** Stated in §4.1 and repeated because it is the misreading that would do the most damage.
 
+**It does not prove currentness.** A genuine, anchored, superseded version verifies perfectly; only fetching the named source distinguishes it, and nothing here obliges the source to declare its successor.
+
 **It requires public sources.** The strong form needs the anchored bytes to be fetchable by the reader. A private corpus can carry digests and anchors, but the reader cannot close the loop, and an unclosable instruction is worse than none — it implies a check that cannot be performed.
 
-**A determined reader can ignore all of it.** Every property here is available to a reader who chooses to use it and inert for one who does not. We inverted a default; we did not install a guarantee, and the inline-annotation refusal in §6 is explicit that stripping remains possible.
+**A determined reader can ignore all of it.** Every property here is available to a reader who chooses to use it and inert for one who does not. We inverted a default; we did not install a guarantee, and the inline-annotation refusal in §7 is explicit that stripping remains possible.
 
 **Anchors have failure modes we inherit.** A timestamp authority may be compromised or may cease to exist. A blockchain commitment depends on that chain's continued security. A transparency log may be operated dishonestly if nobody gossips. Combining independent anchors reduces correlated failure and does not eliminate it, and *we hold anchors in three families precisely because we do not trust any one of them.*
 
-**The verification instruction is a supply-chain surface.** An envelope that ships a command invites an agent to run a command. We ship instructions that fetch and hash, and nothing that executes fetched content, but the pattern is one an adversary would target and any adopter should treat the instruction field as untrusted input rather than as something to eval.
+**The verification instruction is a supply-chain surface.** An envelope that ships a command invites an agent to run a command. We ship instructions that fetch and hash, and nothing that executes fetched content, but the pattern is one an adversary would target and any adopter should treat the instruction field as untrusted input rather than as something to eval. The instruction is data from the same channel; nothing here checks its integrity, and a reader who executes it trusts the channel for that one step.
 
-**No field deployment.** At publication this exists over one corpus of 137 documents and one operator. §7 is entirely unbuilt: no ledger of ours is running, no tree head has ever been published, and every claim in that section is a design position rather than a report. The distinction between what we have done and what we have argued should be readable from the section headings, and if it is not, that is a defect in this paper.
+**No field deployment.** At publication this exists over one corpus of 137 documents and one operator. §8 is entirely unbuilt: no ledger of ours is running, no tree head has ever been published, and every claim in that section is a design position rather than a report. The distinction between what we have done and what we have argued should be readable from the section headings, and if it is not, that is a defect in this paper.
 
 **We are not disinterested.** This institution has argued elsewhere that the provable age of a record is a durable competitive advantage. A mechanism that makes record-age checkable by outsiders is therefore convenient for us, and a reader should weight our enthusiasm accordingly. The mechanism's merits, if any, do not depend on our motives — which is itself an instance of the paper's argument.
 
@@ -380,9 +408,9 @@ A mechanism that claims to reduce trust should say exactly whom it stops.
   Malicious server,           YES                   nothing forces the reader
   strips the envelope                               to demand one — see 12.2
 
-  Malicious server, serves    NO, if checked        the anchor's timestamp
-  a genuine OLD version                             predates the revision, and
-                                                    the source resolves newer
+  Malicious server, serves    NO, if the reader     the anchor's timestamp
+  a genuine OLD version       fetches the source    predates the revision, and
+                                                    the named source resolves newer
 
   Compromised timestamp       PARTIALLY             one anchor family falls;
   authority                                         independent families do not
@@ -439,3 +467,7 @@ The Kālāmas were not told what to believe. They were told how to proceed in th
 A model has no way to follow that instruction. Its channel is all it has. The most we can do — and the whole of what this paper proposes — is to make the channel carry the means of its own doubting, so that a reader inclined to check is not defeated by the format.
 
 We do not expect most readers to check. We expect the number to be small enough to embarrass the mechanism, and we have pre-registered that prediction rather than discovering it later. The point was never that the check would be performed often. It is that a corpus which cannot be checked at all is asking for a kind of faith that a machine cannot give and should not be asked for — and that an institution which intends to hand its reasoning to a successor it will not live to meet had better hand over the instrument along with the text.
+
+---
+
+*This document's SHA-256 is attested independently of the site and its authors — anchored to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three timestamp authorities in three jurisdictions, one of them eIDAS-qualified — and each revision carries a Zenodo version; a timestamp proves this exact text existed no later than its date and nothing about authorship, originality, or the validity of any claim.*

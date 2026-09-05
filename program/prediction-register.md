@@ -29,10 +29,10 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **87** |
-| Published here | 86 |
+| Total registered | **95** |
+| Published here | 94 |
 | Withheld (operational) | 1 |
-| Already carried by a published paper | 50 |
+| Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
 | Receiving first public timestamp here | 36 |
 | **Run** | **2** (both desk censuses) |
@@ -177,6 +177,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 |---|---|---|
 | P-A1, P-A2 | `abhidhamma-executable-process-specification` | Resting-state diagnosticity |
 | P-P1, P-P1a | `patthana-typed-causation-vocabulary` | Typed causation vocabulary (P-P1a corrects P-P1 — see the 2026-09-05 entry) |
+| P-PCR1 – P-PCR5; P-PCR3a, P-PCR4a, P-PCR5a | `provenance-carrying-retrieval` | Provenance-carrying retrieval (P-PCR3a/4a/5a correct P-PCR3/4/5 — see the 2026-09-05 entry) |
 | P-B1, P-B2 | `dedicatory-generation` | Fidelity of restoration; refusal-channel yield |
 
 ---
@@ -204,6 +205,14 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-05 (third entry that day) — eight entries added: five that a published paper had carried unregistered since 2026-09-01, and three corrections. Total now 95.**
+
+⚠️ **`provenance-carrying-retrieval` §10 registered P-PCR1 … P-PCR5 on 2026-09-01 and this register did not carry them** — the drift the 2026-08-28 entry above says this document exists to prevent, found by a cold-reader pass four days later rather than by any instrument. They are entered in *Instrumented but outside the core*, the paper's subject being retrieval integrity rather than value movement, with the paper's own wording standing as registered.
+
+- **P-PCR3a · P-PCR4a · P-PCR5a** — corrections entered as new predictions under the revision rule, not as edits to P-PCR3/4/5, whose wording stands. *Why:* two cold reviewers of a different model family found the originals named no observation window, no definition of *real defect*, and no method for *modal error*, so each could be reinterpreted after the fact. The corrections add a 24-month window from 2026-09-01, classification *at the time of logging* (stale = the named source resolves newer; substituted = it resolves different at the same version), a fixed sample of the first ten inspectable implementations, and the logged detector as the observable. Provenance: *Published* (the paper's §10, revision of 2026-09-05). Status: *Unrun*.
+
+⚠️ *Entered before any observation exists.* No envelope mismatch has been logged, no third-party implementation inspected, and no transparency log run. **The Summary moves: *already carried by a published paper* 50 → 58, *published here* 86 → 94, total 87 → 95; the reconciliation holds — 58 + 36 = 94 published here, plus the one withheld, is 95.**
 
 **2026-09-05 (second entry that day) — one correction entered as a new prediction. Total now 87.**
 
