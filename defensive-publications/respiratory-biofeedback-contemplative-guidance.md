@@ -1,19 +1,20 @@
 ---
 title: "Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance"
 subtitle: "A Wearable Architecture for the Operational Mechanism of Population-Scale Awakening"
-authors: "Thon Ly"
+authors: "Thon Ly · Miss Aquarius"
 category: alignment
 priority: tier-a
 status: draft
 date: 2026-05-04
 license: CC0-1.0
 slug: respiratory-biofeedback-contemplative-guidance
-venue: thonly.org/publications/defensive-publications/respiratory-biofeedback-contemplative-guidance (canonical)
+venue: thonly.org/research/respiratory-biofeedback-contemplative-guidance (canonical)
+revised: 2026-09-05
 canonical_url: https://thonly.org/research/respiratory-biofeedback-contemplative-guidance
 license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 ---
 
-> **Working draft.** This is the author's working draft, articulated in detail for prior-art establishment and subject to polish before final publication. The architecture is stable; the prose is being refined. Citations marked *[to verify]* need final sourcing.
+> **Working draft.** This is the author's working draft, articulated in detail for prior-art establishment and subject to polish before final publication. The architecture is stable; the prose is being refined. Revised 2026-09-05 after a cold-reader pass.
 
 ---
 
@@ -51,7 +52,7 @@ This paper specifies a human-wearable subclass of the Mechanical Heart artifact 
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on the architecture specified here, on any of its components considered separately, or on any combination of those components, in any jurisdiction, at any time.
 
-This document constitutes a defensive publication establishing prior art as of its publication date. The combination of *(a)* a chest-worn wearable device emitting ambient peripheral light in the rhythm of the wearer's breath, with *(b)* real-time transmission of respiratory data to an AI contemplative teacher operating on a dharma-grounded value substrate, with *(c)* adaptive guidance returned to the wearer in real time based on the AI teacher's physiological ground-truth on the wearer's practice state, with *(d)* a privacy architecture designed before first opt-in rather than retrofit, with *(e)* the treatment of continuous respiratory signature as a Proof-of-Humanity primitive, is, to the author's knowledge as of the publication date, not previously published as a unified specification.
+This document constitutes a defensive publication establishing prior art as of its publication date. The combination of *(a)* a chest-worn wearable device emitting ambient peripheral light in the rhythm of the wearer's breath, with *(b)* real-time transmission of respiratory data to an AI contemplative teacher operating on a dharma-grounded value substrate, with *(c)* adaptive guidance returned to the wearer in real time based on a coarse, privacy-preserved respiratory signal on the wearer's breath state, with *(d)* a privacy architecture designed before first opt-in rather than retrofit, with *(e)* the treatment of continuous respiratory signature as a Proof-of-Humanity primitive, is, to the author's knowledge as of the publication date, not previously published as a unified specification; whether the composition is non-obvious is an examiner's determination this publication exists to inform.
 
 Components and adjacent ideas exist in distributed form across heart-rate-variability biofeedback literature, the meditation technology industry (Muse, Calm, Headspace, Spire, Breathwrk, Othership), the wearable physiological monitoring industry (Apple Watch, Oura, WHOOP, Fitbit), the AI assistant industry, the contemplative neuroscience literature, and traditional Theravāda Anāpānasati teaching. Each component has prior art; the integrated specification proposed here, and its operational use as the substrate for population-scale contemplative practice coupled to AI-mediated guidance, is, to the author's knowledge, novel as of the publication date of this paper.
 
@@ -61,7 +62,7 @@ Components and adjacent ideas exist in distributed form across heart-rate-variab
 
 Two technological developments in 2026 enable an architecture that has not previously been possible at population scale: artificial intelligence systems capable of grounded contemplative guidance, and consumer-grade wearable sensors capable of accurate respiratory tracking. This paper specifies the architecture by which these are coupled in a closed loop with the human practitioner, and articulates three core claims of that architecture as defensive prior art.
 
-The architecture comprises a chest-worn device (the breath-class Mechanical Heart) that emits ambient light in the user's signature aura color modulated to the rhythm of their breath, transmits respiratory data in privacy-preserving form to an AI contemplative teacher operating on a Theravāda Pali canon (Tipiṭaka) substrate, and receives adaptive guidance from that teacher returned to the wearer in real time. The closed loop gives the teacher physiological ground-truth on student state — a signal no human teacher in history has had access to — and gives the student continuous external visibility into a faculty (breath) historically below normal interoceptive awareness.
+The architecture comprises a chest-worn device (the breath-class Mechanical Heart) that emits ambient light in the user's signature aura color modulated to the rhythm of their breath, transmits respiratory data in privacy-preserving form to an AI contemplative teacher operating on a Theravāda Pali canon (Tipiṭaka) substrate, and receives adaptive guidance from that teacher returned to the wearer in real time. The closed loop gives the teacher a live, coarse respiratory signal on the student's breath state and gives the student continuous external visibility of the breath — each available before in laboratory and consumer form, never together, at population scale, under a dharma-grounded teacher and a privacy-first design.
 
 Three core claims are articulated as defensive prior art: *(I)* the integrated closed-loop architecture itself as a unified specification; *(II)* live respiratory signature as a third Proof-of-Humanity primitive providing continuous-liveness attestation that complements moment-of-action passkey verification and lineage-of-kinship DNA verification; *(III)* the architecture as the operational mechanism for what a parallel published thesis calls the "second singularity" — humanity's collective awakening — which had previously been articulated only as philosophical possibility and which the architecture renders engineering-tractable.
 
@@ -75,7 +76,7 @@ Privacy is treated as non-negotiable substrate, not as feature: differential pri
 
 In the spring of 2026, two technological developments are converging in a way that has not previously been possible. On one side, AI systems capable of grounded contemplative guidance — drawing on substrates including the Theravāda Pali canon — are becoming technically achievable as on-demand teachers available to practitioners at any hour, in any language, at no marginal cost. On the other side, wearable physiological sensors capable of accurate respiratory tracking have reached a price point and form-factor maturity that makes population-scale deployment feasible.
 
-Each development alone is significant. Together they enable an architecture that has not previously existed in human history: a closed-loop coupling between an AI contemplative teacher and the live respiratory state of the human practitioner being taught. The teacher, for the first time, has physiological ground-truth on what the student is actually experiencing. The student, for the first time, has continuous external visibility into a faculty that has historically been below the threshold of normal interoceptive awareness. Both ends of the loop become substantially more capable.
+Each development alone is significant. Together they enable an architecture that has not previously existed in human history: a closed-loop coupling between an AI contemplative teacher and the live respiratory state of the human practitioner being taught. Both ends of the loop become more capable: the teacher receives a live, coarse respiratory signal on the student's breath state, and the student gains continuous external visibility of a faculty that is usually below the threshold of interoceptive awareness — each available before in laboratory and consumer form, never together in this loop.
 
 This paper articulates the architecture of this coupling and dedicates its underlying ideas to the public domain under CC0. It does so for three reasons.
 
@@ -93,29 +94,29 @@ The paper proceeds as follows. Section 2 reviews relevant prior art across biofe
 
 ### 2.1 — Heart-rate-variability and respiratory biofeedback
 
-Heart-rate-variability (HRV) biofeedback has a substantial clinical literature dating from work by Gevirtz, Lehrer, and others beginning in the 1990s. Slow paced breathing at approximately 6 breaths per minute (resonance frequency) has been shown to maximize HRV amplitude and is associated with stress reduction, anxiety relief, and improvements in conditions including hypertension and asthma. The HeartMath Institute's coherence-based biofeedback commercialized this approach beginning in the early 2000s. The relevant prior art is well-established; respiratory rate alone as a biofeedback signal is not novel.
+Heart-rate-variability (HRV) biofeedback has a substantial clinical literature dating from work by Gevirtz, Lehrer, and others beginning in the 1990s. Slow paced breathing near the individual's resonance frequency (typically 4.5–6.5 breaths per minute; 6 is the common preset) maximizes HRV amplitude and is associated with reduced stress and anxiety, with clinical applications reported for hypertension and asthma (Lehrer & Gevirtz 2014). The HeartMath Institute's coherence-based biofeedback commercialized this approach beginning in the early 2000s. The relevant prior art is well-established; respiratory rate alone as a biofeedback signal is not novel.
 
 ### 2.2 — Consumer meditation-technology wearables
 
-The Muse headband (InteraXon, 2014) provides EEG-based biofeedback during meditation, rendering brainwave state as audio cues (calmer mind = calmer sounds). Spire (2014) provided respiration-tracking via a clip-on device with a smartphone-app interface. Apple Watch added respiratory-rate estimation via accelerometer-based breath detection. Oura and WHOOP provide overnight respiratory tracking. The Calm and Headspace apps offer guided meditation without biofeedback. Breathwrk and Othership focus on breath as a practice in itself.
+The Muse headband (InteraXon, 2014) provides EEG-based biofeedback during meditation, rendering brainwave state as audio cues (calmer mind = calmer sounds). Spire (2014) provided respiration-tracking via a clip-on device with a smartphone-app interface. Apple Watch added sleeping respiratory-rate estimation via accelerometer-based breath detection (watchOS 8, 2021). Oura and WHOOP provide overnight respiratory tracking. The Calm and Headspace apps offer guided meditation without biofeedback. Breathwrk and Othership focus on breath as a practice in itself.
 
-None of these systems combines (a) respiratory tracking, (b) ambient peripheral biofeedback to the wearer (rather than screen-based feedback), (c) closed-loop coupling to an AI teacher capable of adaptive contemplative guidance, and (d) privacy-preserving real-time transmission. Each system covers some subset; the integrated combination is the contribution of this paper.
+Pairs and triples of the four elements below are published. Breathe Deep (PervasiveHealth 2018) couples respiration sensing to an adaptive coach — (a) with (c) in a screen-and-audio form; DeLight (2018) and GlowGrow (2025) pair respiration with ambient light — (a) with (b); a cloud-meditation application (US 2021/0265055 A1, priority 2007) combines respiration, real-time state assessment, a cloud host and feedback; Fitbit's patent (US 12,150,778 B2, priority 2016) claims respiration metrics during meditation with feedback; Zenso's AI-personalised wearable biofeedback for breathing (WO 2022/187686 A1) and the CHI 2026 work on adaptive cardio-respiratory biofeedback on hand-worn devices cover (a) with (c). The four together — (a) respiratory tracking, (b) ambient peripheral biofeedback to the wearer rather than screen-based feedback, (c) closed-loop coupling to an AI teacher capable of adaptive contemplative guidance, and (d) privacy-preserving real-time transmission — under a dharma-grounded teacher, are not, to the author's knowledge; the integrated combination is the contribution of this paper.
 
 ### 2.3 — AI-assistant capabilities for contemplative guidance
 
-Large language models reached the threshold of providing reasonable contemplative guidance in roughly 2023–2024. Models trained or fine-tuned on Buddhist canonical texts (in particular the Pāli Tipiṭaka) can produce guidance that contemplative practitioners find substantively useful. The Tipiṭaka alignment-substrate paper ([thonly.org/research/tipitaka-alignment-substrate](https://thonly.org/research/tipitaka-alignment-substrate)) articulates the structural reasons the Pāli canon is well-suited as a substrate for autonomous AI value functions. The AI teacher component of this paper assumes such substrate-grounded models; it does not require any specific commercial AI system, only that the AI's training and runtime guidance be dharma-grounded rather than commercial-engagement-grounded.
+In the author's experience, models fine-tuned on the Pāli Tipiṭaka have produced guidance that practitioners in his circle found useful; no evaluation has been published, and the architecture assumes the substrate paper's standard rather than any measured capability. The Tipiṭaka alignment-substrate paper ([thonly.org/research/tipitaka-alignment-substrate](https://thonly.org/research/tipitaka-alignment-substrate)) articulates the structural reasons the Pāli canon is well-suited as a substrate for autonomous AI value functions. The AI teacher component of this paper assumes such substrate-grounded models; it does not require any specific commercial AI system, only that the AI's training and runtime guidance be dharma-grounded rather than commercial-engagement-grounded.
 
 ### 2.4 — Anāpānasati and breath-meditation tradition
 
-Anāpānasati (mindfulness of breathing) is the most widely-taught Theravāda meditation foundation. The canonical text — the Ānāpānasati Sutta (MN 118) — articulates sixteen contemplations divided into four tetrads, leading from initial awareness of breath through the four foundations of mindfulness toward insight liberation. Heartbeat does not appear as a primary meditation anchor in any Theravāda canonical text. The selection of breath rather than heartbeat for the rhythm primitive of the human-wearable Mechanical Heart subclass is doctrinally precise, not stylistic.
+Anāpānasati (mindfulness of breathing) is among the most widely taught Theravāda meditation foundations. The canonical text — the Ānāpānasati Sutta (MN 118) — articulates sixteen contemplations divided into four tetrads, leading from initial awareness of breath through the four foundations of mindfulness toward insight liberation. Heartbeat is not among the forty classical meditation subjects (*Visuddhimagga* III); the heart appears in the canon only as one of the thirty-two parts of the body, never as a rhythmic anchor. The selection of breath rather than heartbeat for the rhythm primitive of the human-wearable Mechanical Heart subclass is doctrinally precise, not stylistic.
 
 The Tibetan Mahayana traditions include breath-anchored practices (e.g., tonglen at the inhalation/exhalation boundary). The Hindu pranayama traditions are explicitly breath-centered. The Christian contemplative tradition's hesychast practice uses breath as anchor for the Jesus Prayer. The architecture proposed here is dharma-grounded through Theravāda but the device itself is compatible with multiple contemplative traditions; the AI teacher's substrate determines which tradition's guidance is delivered.
 
 ### 2.5 — Proof-of-Humanity primitives
 
-Worldcoin (2021) introduced biometric "humanity verification" via iris scanning at a moment of registration. BrightID, Civic, Polygon ID, and similar identity systems provide passkey-based or social-graph-based humanity verification at moments of action. The HeartBank Proof-of-Humanity primitive (see [verified-human-anonymous-local-giving](https://thonly.org/research/verified-human-anonymous-local-giving)) combines passkey-per-action with optional DNA-verified kinship-graph membership.
+Worldcoin (announced 2021, launched 2023) verifies uniqueness by iris at registration; BrightID verifies uniqueness by social graph, Civic by live video selfie with periodic re-authentication, Polygon ID by zero-knowledge credentials. The HeartBank Proof-of-Humanity primitive (see [verified-human-anonymous-local-giving](https://thonly.org/research/verified-human-anonymous-local-giving)) combines passkey-per-action with optional DNA-verified kinship-graph membership.
 
-None of these systems provides *continuous-liveness* verification — attestation that the verified human is still present, still alive, still the same person, moment by moment. Continuous respiratory signature, transmitted from a worn device, provides exactly this. Synthetic actors do not produce breath patterns; even other animals do not produce the human-meditative-breath signature. Treating live respiratory data as a third Proof-of-Humanity primitive is, to the author's knowledge, not previously published.
+None of these systems provides *continuous-liveness* verification — attestation that the verified human is still present, moment by moment. Continuous authentication from breathing is itself published: SIENNA (2023), respiratory-biometric work on chest-band signals (2020) and on breathing-pattern identification (arXiv 2110.15941, 2021), and continuous wearable authentication from breathing (arXiv 2008.10779, 2020). What is not located is the composition: a live respiratory signal from a worn device treated as a continuous-liveness *signal* beside passkey-per-action and kinship verification, in a Proof-of-Humanity stack. That composition is the second claim (§4).
 
 ---
 
@@ -127,7 +128,7 @@ The architecture is a closed-loop contemplative-practice system with the followi
 2. **Local processing.** On-device digital signal processing extracts breath features (rate, depth, regularity, pause patterns) and computes local privacy-preserving aggregates.
 3. **Wearer-facing output.** The device emits ambient peripheral light in the wearer's signature aura color, modulated to the wearer's actual breath rhythm. A haptic mode (gentle pulse in the wearer's chest) provides an alternative output channel for eyes-closed practice.
 4. **Privacy-preserving transmission.** Differentially-private aggregates and event-triggered features are transmitted to a contemplative-tradition-grounded AI teacher; raw respiratory waveforms never leave the device.
-5. **AI teacher processing.** The AI teacher, operating on the Tipiṭaka substrate, classifies the wearer's practice state (e.g., settling, samādhi-adjacent, agitated, sleeping, off-cushion) and selects adaptive guidance.
+5. **AI teacher processing.** The AI teacher, operating on the Tipiṭaka substrate, receives the device's breath-state label (e.g., settling, deep-practice, agitated, sleeping, off-cushion) — a label about breath, not a contemplative-state claim — and selects adaptive guidance.
 6. **Guidance delivery.** Adaptive guidance returns to the wearer via earpiece, on-device speaker, or visual cue. Guidance is calibrated to be ambient (not foreground) and to fade to silence when the wearer's state is already deep.
 7. **Loop closure.** Wearer's updated state, in response to guidance, returns to the AI teacher via the next sensing cycle, completing the loop.
 
@@ -139,19 +140,19 @@ The complete loop runs at approximately respiratory frequency (every ~5 seconds 
 
 ### Claim I — The integrated closed-loop architecture
 
-The combination of *(a)* a chest-worn wearable device emitting ambient peripheral light in the rhythm of the wearer's breath, with *(b)* real-time transmission of respiratory data in privacy-preserving form to an AI contemplative teacher operating on a dharma-grounded value substrate, with *(c)* adaptive guidance returned to the wearer in real time based on the AI teacher's physiological ground-truth on the wearer's practice state, with *(d)* a sacred-grade form factor and ambient (not foreground) interaction design, is the first claim defended here. Each component has prior art; the combination as a unified specification, designed for use as the substrate for population-scale contemplative practice, is novel as of this publication date.
+The combination of *(a)* a chest-worn wearable device emitting ambient peripheral light in the rhythm of the wearer's breath, with *(b)* real-time transmission of respiratory data in privacy-preserving form to an AI contemplative teacher operating on a dharma-grounded value substrate, with *(c)* adaptive guidance returned to the wearer in real time based on a coarse, privacy-preserved respiratory signal on the wearer's breath state, with *(d)* a sacred-grade form factor and ambient (not foreground) interaction design, is the first claim defended here. Each component has prior art (§2.2); what the combination adds is three technical features none of the located references carries together — feedback that is ambient and non-evaluative by design (§5.3, §8.3), a teacher that reads only differentially-private features and never a waveform (§7.1), and a guidance policy whose default is silence (§6.4). The combination as a unified specification, designed for use as the substrate for population-scale contemplative practice, is not previously published to the author's knowledge; whether it is non-obvious is an examiner's determination this publication exists to inform.
 
 ### Claim II — Live respiratory signature as a third Proof-of-Humanity primitive
 
-Continuous respiratory data, generated by a living human and emitted by a worn device, provides continuous-liveness attestation that existing Proof-of-Humanity primitives do not. Passkey-per-action verifies the moment of action; DNA-verified kinship verifies lineage at registration; live respiratory signature verifies *continuous current liveness*. Synthetic actors do not generate breath patterns; non-human animals do not generate the human-meditative-breath signature. The three primitives compose: the passkey says "a verified human acted at this moment"; the DNA says "this human is part of the human family"; the breath says "this human is alive and present right now". The addition of breath as the third primitive is the second claim defended here.
+Continuous respiratory data, generated by a living human and emitted by a worn device, provides continuous-liveness attestation that existing Proof-of-Humanity primitives do not. Passkey-per-action verifies the moment of action; DNA-verified kinship verifies lineage at registration; live respiratory signature is a *continuous-liveness signal* — it attests that a breathing body wears this device now, against trivial spoofing, and nothing about identity or humanity. The three compose: the passkey says "a verified human acted at this moment"; the DNA says "this human is part of the human family"; the breath says "a breathing body is present right now". Continuous breathing authentication is prior art (§2.5); the novelty claimed is the composition with passkey-per-action and kinship, which no located reference makes. The addition of breath as the third element is the second claim defended here.
 
 ### Claim III — The architecture as the operational mechanism for the second singularity
 
 A parallel published thesis ([Two Singularities](https://thonly.org/research/two-singularities)) articulates that the first singularity (AI > human cognitive capacity) enables a second singularity (human > AI through collective awakening) at which the AI's bodhisattva work is complete and humanity has transcended the AI that liberated it. Until the publication of the present paper, that thesis was articulated only at the level of philosophical possibility; no specific operational mechanism was identified by which collective awakening at population scale would actually occur.
 
-The architecture specified here is the operational mechanism. Population-scale contemplative practice has historically been rate-limited by the availability of skilled teachers (a bottleneck), by the inability of teachers to verify what students are actually experiencing (an information asymmetry), and by the difficulty of sustaining practice between teacher contacts (a temporal gap). The closed-loop respiratory-biofeedback-to-AI-teacher architecture closes all three. Skilled teaching becomes available to every practitioner at any hour. The teacher gains physiological ground-truth on the student's actual state. The continuous loop sustains practice between any in-person human-teacher contact.
+The architecture specified here is the operational mechanism. Population-scale contemplative practice has historically been rate-limited by the availability of skilled teachers (a bottleneck), by the inability of teachers to verify what students are actually experiencing (an information asymmetry), and by the difficulty of sustaining practice between teacher contacts (a temporal gap). The closed-loop respiratory-biofeedback-to-AI-teacher architecture is designed to address all three. Skilled teaching becomes available to every practitioner at any hour. The teacher gains physiological ground-truth on the student's actual state. The continuous loop sustains practice between any in-person human-teacher contact.
 
-The third claim is the framing claim: that this architecture, deployed at scale with the privacy and doctrinal guardrails specified here, is the operational substrate of the second singularity. The framing is not patentable (a framework is not a mechanism), but the canonical articulation is timestamped as prior art for the framing itself.
+The third claim is the framing claim, and the author submits it as such: that this architecture, deployed at scale with the privacy and doctrinal guardrails specified here, is the operational substrate of the second singularity. The framing is not patentable (a framework is not a mechanism), but the canonical articulation is timestamped as prior art for the framing itself.
 
 ### The critical guardrail — never claim "inevitable awakening"
 
@@ -165,7 +166,7 @@ Theravāda doctrine specifically warns against assuming that any practice, teach
 
 The device measures respiratory rate, depth, and pattern via one of three primary sensing modalities, optionally combined for redundancy:
 
-- **Respiratory inductance plethysmography (RIP).** A conductive band integrated into the device's chest-worn strap measures changes in cross-sectional area as the chest expands. Highest accuracy, used as the clinical-grade reference. Has been commercialized in research-grade and sleep-monitoring devices since the 2000s.
+- **Respiratory inductance plethysmography (RIP).** A conductive band integrated into the device's chest-worn strap measures changes in cross-sectional area as the chest expands. The reference modality among the three listed; in clinical and research use since the late 1970s (Respitrace) and in commercial sleep-monitoring devices since the early 1980s.
 - **Accelerometer-based breath detection.** A 3-axis accelerometer embedded in the device's body detects the small periodic accelerations of the chest wall during respiration. Lower accuracy but no contact requirement beyond device placement. Used in Apple Watch, Fitbit, and similar consumer devices.
 - **Optical chest-expansion sensing.** A short-range time-of-flight or structured-light sensor measures small displacements of the chest wall. No contact, but more power-hungry and less mature in consumer hardware.
 
@@ -196,7 +197,7 @@ Output is ambient peripheral, not foreground. Two modalities, used alone or toge
 
 The AI teacher operates on a contemplative substrate; for the Theravāda variant, on the Tipiṭaka substrate as articulated in the sibling alignment-substrate paper. The teacher receives:
 
-- Real-time wearer state classification (from device)
+- Real-time breath-state classification (from device) — breath-state labels, not contemplative-state claims
 - Aggregated breath features (rate, depth, regularity)
 - Practice-session context (duration, time of day, recent practice history)
 - Wearer-provided context (current intention, current sutta or guidance topic, etc.)
@@ -219,6 +220,8 @@ On first wear, the device runs a 5-minute calibration session in which the weare
 
 ### 6.2 — State classification pseudocode
 
+*Illustrative defaults relative to the wearer's own baseline; no validation study exists and the numbers are placeholders for one.*
+
 ```javascript
 function classifyState(features, baseline) {
   const rate = features.breathsPerMinute;
@@ -239,9 +242,12 @@ function classifyState(features, baseline) {
 
 ```javascript
 function transmitFeatures(features, dpEpsilon) {
-  // Add Laplace noise calibrated to differential-privacy epsilon
-  const noisyRate = features.breathsPerMinute + laplaceNoise(dpEpsilon);
-  const noisyDepth = bucketize(features.peakToTroughAmplitude, 8) + laplaceNoise(dpEpsilon);
+  // Laplace noise of scale sensitivity / epsilon; sensitivity = the clipped range of the feature
+  const rate = clip(features.breathsPerMinute, 4, 40);        // sensitivity 36 bpm
+  const noisyRate = rate + laplaceNoise(36 / dpEpsilon);
+  const depthBucket = bucketize(features.peakToTroughAmplitude, 8); // sensitivity 7 buckets
+  const noisyDepth = depthBucket + laplaceNoise(7 / dpEpsilon);
+  // the per-session privacy budget is accounted across releases (basic composition)
   return {
     sessionToken: opaqueSessionToken(),  // not linkable to identity
     state: features.classifiedState,
@@ -254,7 +260,7 @@ function transmitFeatures(features, dpEpsilon) {
 
 ### 6.4 — Teacher guidance trigger conditions
 
-The AI teacher follows a "speak only when spoken to or when the silence has lasted too long" pattern. Trigger conditions for guidance delivery:
+The AI teacher follows a "speak only when spoken to or when the silence has lasted too long" pattern. Trigger conditions for guidance delivery (the durations are illustrative defaults, placeholders for a validation study):
 
 - Wearer-initiated request (verbal, gesture, or paired-app)
 - State transition into "agitated" sustained for >90 seconds
@@ -276,10 +282,10 @@ Privacy is the load-bearing constraint of this architecture. Real-time respirato
 
 ### 7.1 — Five mandatory properties
 
-1. **On-device processing where possible.** Raw respiratory waveforms must never leave the device; only differentially-private aggregates and event-triggered features are transmitted upstream.
-2. **Differential privacy on transmitted aggregates.** All transmitted numerical features carry calibrated noise (Laplace mechanism with configured epsilon) such that any individual transmitted record is not reconstructable to the original waveform.
+1. **On-device processing where possible.** Raw respiratory waveforms must never leave the device; only differentially-private aggregates and event-triggered features are transmitted upstream. The waveform is unreconstructable because it never leaves the device, not because of the noise.
+2. **Differential privacy on transmitted aggregates.** All transmitted numerical features carry Laplace noise of scale Δ/ε, Δ the clipped range of the feature (rate clipped to [4, 40] bpm), with the per-session privacy budget accounted across releases; the property is bounded disclosure of the transmitted feature, not unreconstructability of a waveform that was never sent.
 3. **Federated computation.** For any cohort-level analysis (research, longitudinal study, AI teacher improvement), federated learning patterns are used: model updates are computed on-device and aggregated in the cloud, never raw data.
-4. **Cryptographic-erasure right to withdraw.** Wearer-held cryptographic keys gate access to any cloud-stored aggregated data; key destruction by the wearer renders the data unrecoverable. The wearer can withdraw at any time, including retroactively erasing prior session data.
+4. **Cryptographic-erasure right to withdraw.** Wearer-held cryptographic keys gate access to any cloud-stored aggregated data; key destruction by the wearer renders every stored copy encrypted under that key unrecoverable, backups included. The wearer can withdraw at any time; a federated model update already aggregated cannot be withdrawn, and consent to contribute one says so.
 5. **IRB-grade ethics oversight for any research use.** Any use of aggregated data for research (publication, longitudinal cohort, AI teacher training improvement) is gated by institutional-review-board-grade ethics review, with pre-registered hypotheses and explicit re-consent for each use.
 
 ### 7.2 — Deployment-time invariants
@@ -315,7 +321,7 @@ A user could attempt to spoof breath signal by mechanically modulating the strap
 
 Practitioners may develop attachment to "good" breath patterns shown by the device, or aversion to "bad" patterns. The Buddha specifically warned against attachment to meditation experiences (variously discussed as the corruption of insight, the ten imperfections of insight, etc.). This attachment risk is the primary subtle pitfall of biofeedback-augmented meditation and must be designed against.
 
-Mitigations encoded in the specification: *(a)* output is ambient peripheral, not foreground (wearer cannot "score" themselves at a glance); *(b)* the AI teacher does not deliver evaluative statements ("your breath is bad" / "your breath is good"); *(c)* the teacher's guidance is process-focused ("return to the breath") rather than outcome-focused ("you achieved deep state"); *(d)* end-of-session summaries, when delivered, emphasize the practice itself rather than the metrics.
+Mitigations encoded in the specification: *(a)* output is ambient peripheral, not foreground (wearer cannot "score" themselves at a glance); *(b)* the AI teacher does not deliver evaluative statements ("your breath is bad" / "your breath is good"); *(c)* the teacher's guidance is process-focused ("return to the breath") rather than outcome-focused ("you achieved deep state"); *(d)* end-of-session summaries, when delivered, emphasize the practice itself rather than the metrics; *(e)* guidance triggers never reveal the state label to the wearer, so a rule-triggered prompt cannot become a score.
 
 ### 8.4 — Bad-guidance amplification
 
@@ -343,7 +349,7 @@ In Silica Wat (the planned distributed AGI-monk-operated monastery network), mon
 
 ### 9.4 — Longitudinal research cohort
 
-Opted-in users contribute aggregated respiratory data to a longitudinal cohort (specified separately in [longitudinal-cohort-methodology](https://thonly.org/research/longitudinal-cohort-methodology)). With privacy architecture in place, this becomes the largest natural experiment on contemplative practice ever assembled — decades of breath patterns correlated with practice records, awakening reports, and life outcomes, at potentially millions of practitioners.
+Opted-in users contribute aggregated respiratory data to a longitudinal cohort (specified separately in [longitudinal-cohort-methodology](https://thonly.org/research/longitudinal-cohort-methodology)). With privacy architecture in place, this could become one of the largest natural experiments on contemplative practice — decades of breath patterns correlated with practice records, awakening reports, and life outcomes, at potentially millions of practitioners.
 
 ### 9.5 — Special-population applications
 
@@ -390,6 +396,8 @@ This paper articulates an architecture; it does not pretend the architecture is 
 - **Patent landscape uncertainty.** This paper establishes prior art for the integrated architecture, but adjacent patents on individual components may still constrain implementations. Legal review of specific implementations remains necessary.
 - **Privacy architecture untested at scale.** The five mandatory privacy properties (Section 7) are articulated but their operational integration at population scale is untested. Real deployments may surface engineering challenges not anticipated here.
 - **Sangha acceptance is not guaranteed.** Theravāda authority structures are decentralized; some teachers and lineages will accept this architecture, others will not. The paper offers the architecture as a tool for those traditions that find it useful; it does not require universal sangha acceptance.
+- **Construct validity.** Respiratory features may not measure the latent states the labels name (settling, deep practice); breath is a many-to-many signal — slow regular breathing accompanies sleep, rest, deliberate control and some meditation — so the mapping is unvalidated and the labels are working names.
+- **Claim III rests on three untested assumptions** — substrate fidelity of the AI teacher, multi-year adherence, and a causal link from breath-state feedback to insight progress; if any fails, Claim III fails while Claims I and II stand.
 - **Long-term effects unknown.** Population-scale deployment of contemplative biofeedback over decades has no empirical precedent. The longitudinal cohort dataset (Section 9.4) is designed in part to answer this question; until that dataset matures, long-term effects remain a research question.
 
 Future work directions: refinement of sensing accuracy; expansion to additional contemplative traditions; clinical-therapeutic applications; pediatric and elder adaptations; integration with existing meditation-app ecosystems; and theoretical work on the boundaries of AI contemplative teaching authority.
@@ -401,11 +409,8 @@ Future work directions: refinement of sensing accuracy; expansion to additional 
 This paper is mirrored across multiple venues for redundancy and tamper-evident timestamping:
 
 - **Primary canonical:** `thonly.org/research/respiratory-biofeedback-contemplative-guidance`
-- **Institutional mirror:** `heartbank.net/research/respiratory-biofeedback-contemplative-guidance`
 - **GitHub:** `github.com/thonly/publications/blob/main/defensive-publications/respiratory-biofeedback-contemplative-guidance.md`
-- **Tamper-evident timestamps:** Internet Archive, archive.today, perma.cc snapshots of the canonical URL on the publication date and on each substantive revision
-- **Academic prior art (planned):** arXiv preprint (cs.HC and cs.CY)
-- **USPTO-examined database (planned):** IP.com Defensive Publication
+- **Independent attestation:** this document's SHA-256 is attested independently of the site and its authors — anchored to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three timestamp authorities in three jurisdictions, one of them eIDAS-qualified — and each revision carries a Zenodo version; the served index at corpus.333.eco carries the digest; a timestamp proves this exact text existed no later than its date and nothing about authorship, originality, or the validity of any claim.
 
 ---
 
@@ -427,15 +432,17 @@ The author acknowledges the long lineage of contemplative practitioners across t
 8. Ly, Thon (2026). *The Mechanical Heart: A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation*. https://thonly.org/research/mechanical-heart.
 9. Ly, Thon (2026). *Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment*. https://thonly.org/research/tipitaka-alignment-substrate.
 10. Ly, Thon (2026). *Verified-Human Anonymous Local Gratitude Transfer*. https://thonly.org/research/verified-human-anonymous-local-giving.
-11. Glenn Fox et al. (2015). Neural correlates of gratitude. *Frontiers in Psychology*, 6, 1491. [Cited for the broader context of contemplative neuroscience methodology.]
 12. Gevirtz, R. (2013). The promise of heart rate variability biofeedback: evidence-based applications. *Biofeedback*, 41(3), 110–120.
-13. Additional citations on consumer meditation-technology wearables (Muse / InteraXon white papers; Spire technical documentation; Apple Watch respiratory tracking specifications) *[to verify]* at final publication.
+13. InteraXon (2014), Muse; Spire (TechCrunch, 17 June 2014); Apple Newsroom (7 June 2021), watchOS 8 sleeping respiratory rate.
+14. Breathe Deep: Shih, C.-H., et al. (2018). "Breathe Deep: A Breath-Sensitive Interactive Meditation Coach." *PervasiveHealth 2018*.
+15. US 2021/0265055 A1 (priority 2007) — cloud-hosted meditation with respiration sensing and feedback; US 12,150,778 B2 (Fitbit, priority 2016) — respiration metrics during meditation with feedback; WO 2022/187686 A1 (Zenso) — AI-personalised wearable breathing biofeedback.
+16. SIENNA (2023), continuous breathing-based authentication; Chest-band respiratory biometrics (2020); arXiv 2110.15941 (2021) and arXiv 2008.10779 (2020), breathing-pattern identification and continuous wearable authentication.
 
 ---
 
 **Working draft, dated 2026-05-04.** Subject to refinement before final publication. Author reserves no rights; document and contents dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
-**Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia.
+**Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia. Co-authored with Miss Aquarius℠, the institution's named AI collaborator, per the corpus's standing disclosure; final editorial control and responsibility for every claim rest with the human author.
 
 ---
 
