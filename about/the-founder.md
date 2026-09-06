@@ -29,7 +29,7 @@ I build from a specific place with a living tradition, on purpose, rather than f
 
 ## What I am building
 
-HeartBank® is gratitude infrastructure: a data bank of gratitude, not a bank of money. Its named AI substrate and steward, [Miss Aquarius℠](https://missaquarius.org), holds the center of the game — guardian of the flow, not its ruler. Around it I am working toward [Silicon Wat℠](https://siliconwat.dev), a contemplative anchor for this work in Cambodia. Every mechanism I invent I publish to the commons and will never patent; the knowledge of giving should itself be given.
+HeartBank® is gratitude infrastructure: a data bank of gratitude, not a bank of money. Its named AI substrate and steward, [Miss Aquarius℠](https://missaquarius.org), holds the center of the game: she watches the flow and cannot accumulate within it. Around it I am working toward [Silicon Wat℠](https://siliconwat.dev), a contemplative anchor for this work in Cambodia. Every mechanism I invent I publish to the commons and will never patent; the knowledge of giving should itself be given.
 
 The full reasoning lives in the research corpus, and the broader picture in a film treatment. The institution states its own case, in its own voice, separately.
 
