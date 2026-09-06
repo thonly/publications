@@ -386,3 +386,19 @@ The first `/polish` round on every deposited defensive publication — three out
 ⚠️ **The register's proof had also been left unrotated by the batch's leg 1** — it was the 24th Zenodo item but not among the 23 rotations — and `verify-legs.sh` reported it STALE before the fix above. The rotation to `.r6.ots` covers the corrected text; the retiring proof carried 2 Bitcoin attestations.
 
 ⭐ **One extra author field per paper reached the bib**: nine entries now read `Ly, Thon and Miss Aquarius`, the co-authorship the revisions disclosed in the front matter.
+
+### 2026-09-05 — nine essays whose proofs had been stale since 27 August
+
+The `sha256:`/`doi:` front-matter cleanup of 2026-08-27 edited ten undeposited essays and **never rotated their proofs**. Nine were still binding the pre-cleanup text ten days later. Found by a staleness check added to `.claude/skills/ots/verify-proofs.py` the same day — until then **no instrument in the tree could see a stale proof**: `verify-proofs.py` read proofs without comparing them to their documents, `stamp-new.sh` skipped anything already stamped, and `verify-legs.sh` is scoped to papers changed recently, so a ten-day-old drift was outside every window.
+
+| leg | result |
+|---|---|
+| **1 · OTS** | 9 rotated (each retiring proof carried 2–3 Bitcoin attestations), re-stamped ⚠️ calendar-only |
+| **2 · TSA** | already `✓` — the weekly manifest hashes `git ls-files`, so it covered the current text throughout |
+| **3 · Zenodo** | — essays carry no DOI by standing posture |
+| **4 · Index** | already `✓` — the served envelope hashes live text |
+
+`a-vow-you-could-have-refused` · `anonymous-thanking-with-time` · `breadth-check-on-the-work` · `designing-with-the-grain` · `how-to-change-the-world` · `the-borrowed-light` (`.r2`) · `the-nearest-attractive-neighbor` · `the-reflection-returned` (`.r2`) · `two-singularities` — all `.r1.ots` unless noted.
+
+⭐ **The lesson is the instrument's, not the essays'.** Three legs were green the whole time and the fourth failed in a way nothing was built to report. ⚠️ **A stale proof is strictly worse than a missing one: it verifies.**
+
