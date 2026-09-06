@@ -68,7 +68,28 @@ const die = (msg) => {
    Discovered, never enumerated: a fixed list is correct the day it is written
    and silently stops covering the tree the moment a genre directory is added. */
 
-const GENRES = ["essays", "defensive-publications"];
+// ⛔ IT WAS A HARDCODED LIST UNTIL 2026-09-06, DIRECTLY UNDER THE COMMENT ABOVE
+// SAYING IT MUST NOT BE. `["essays", "defensive-publications"]` omitted the
+// `program` directory, so the research programme and its prediction register —
+// two tier-A CC0 documents, both carrying front matter — were never checked by
+// the guard that exists to check front matter. Nothing reported it, because a
+// list that does not name a directory cannot fail on it.
+//
+// This is the same defect build-index.mjs recorded on 2026-09-02, in the same
+// corpus, for the same directory. Its resolution is copied here: DISCOVER the
+// directories and deny-list only the ones that are infrastructure rather than
+// genres. Add names here only when they are NOT genres.
+const NOT_GENRES = new Set(["scripts", "timestamps", "node_modules", "__pycache__"]);
+
+const GENRES = readdirSync(ROOT, { withFileTypes: true })
+    .filter(
+        (e) =>
+            e.isDirectory() &&
+            !e.name.startsWith(".") &&
+            !NOT_GENRES.has(e.name)
+    )
+    .map((e) => e.name)
+    .sort();
 
 const corpusFiles = () => {
     const out = [];
@@ -194,7 +215,20 @@ const BODY_CLAIM_DEBT = new Set([
    Ruled 2026-09-05. draft = public, timestamped, not yet through human review.
    published = passed it. Nothing else: "final", "reviewed", "v2" are not states. */
 
-const PERMITTED_STATUS = ["draft", "published"];
+// ⚠️ `living` WAS ADDED 2026-09-06, when the genre discovery above stopped
+// skipping program/ and the guard met prediction-register.md for the first time.
+// It is not a loophole: the corpus server has shipped a `status === "living"`
+// branch since 2026-09 in BOTH surfaces (src/resources.mjs, src/server.mjs),
+// emitting a citation block that points at the concept DOI precisely because a
+// living document's version DOI goes stale on every revision. The register is
+// re-dated by every prediction added to it, which is what the status describes.
+//
+// ⭐ The rule "status measures REVIEW state, never visibility" is unchanged;
+// `living` says the review never closes, not that the document is unpublished.
+// The permitted set had simply never been tested against the one file that
+// contradicted it, because a hardcoded list cannot fail on a directory it does
+// not name.
+const PERMITTED_STATUS = ["draft", "published", "living"];
 
 // ⚠️ SHRINK-ONLY, same contract as the ledgers above: the file(s) that carried
 // `status: published` before any rule said what earns it. Each rides its next
