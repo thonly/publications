@@ -40,6 +40,16 @@
 // counted rather than assumed, and so a file leaving the list can never be replaced
 // by a new one — removing an entry is allowed, adding one is what this refuses.
 //
+// THE THIRD RULE (2026-09-05): `status:`. It measures REVIEW STATE, never visibility —
+// every paper here is public and timestamped from its first push. `published` means
+// the paper has passed the human review lane, and it is admitted only when
+// reviews.json (GENERATED from the private review rounds by
+// MA/.claude/skills/polish/scripts/review-log.mjs) records a RULED HUMAN round whose
+// `##` heading set still matches the paper. A structural revision therefore cannot
+// leave a paper wearing "published": the guard sees the headings change. Prose
+// revisions keep the label. The one paper that read `published` before the ruling is
+// on a shrink-only debt list like the others.
+//
 // House rules: node built-ins only, assertions that name the fix, non-zero exit.
 
 import { readFileSync, readdirSync, existsSync } from "node:fs";
@@ -180,6 +190,28 @@ const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md"
 ]);
 
+/* --------------------------------------------------------------- status ---
+   Ruled 2026-09-05. draft = public, timestamped, not yet through human review.
+   published = passed it. Nothing else: "final", "reviewed", "v2" are not states. */
+
+const PERMITTED_STATUS = ["draft", "published"];
+
+// ⚠️ SHRINK-ONLY, same contract as the ledgers above: the file(s) that carried
+// `status: published` before any rule said what earns it. Each rides its next
+// revision — a ruled human round, or a drop to draft.
+const STATUS_DEBT = new Set(["essays/cautionary-mirror-singularity.md"]);
+
+// The heading set. ⚠️ MUST match the normalisation in
+// MA/.claude/skills/polish/scripts/human-round.mjs, which is what records it.
+const headingSet = (body) =>
+    body
+        .split("\n")
+        .filter((l) => /^##\s/.test(l))
+        .map((l) => l.replace(/^##\s+/, "").replace(/\s+/g, " ").trim());
+
+const REVIEWS = join(ROOT, "reviews.json");
+const reviews = existsSync(REVIEWS) ? JSON.parse(readFileSync(REVIEWS, "utf8")) : null;
+
 /* ------------------------------------------------------------------ run --- */
 
 const files = corpusFiles();
@@ -188,6 +220,8 @@ if (files.length === 0) die("no corpus files found — is this running from the 
 const problems = [];
 const census = {};
 let debtSeen = 0;
+let statusDebtSeen = 0;
+let published = 0;
 
 for (const rel of files) {
     const text = readFileSync(join(ROOT, rel), "utf8");
@@ -244,6 +278,62 @@ for (const rel of files) {
                 `      fix: delete the sentence. Do NOT add this file to BODY_CLAIM_DEBT.`
         );
     }
+
+    // 4. Status: present, one of two values, and `published` only when earned.
+    if (!fm.status) {
+        problems.push(
+            `${rel} declares no \`status:\`.\n` +
+                `      fix: add \`status: draft\` — draft = public and timestamped from its first\n` +
+                `      push, not yet through the human review lane.`
+        );
+    } else if (!PERMITTED_STATUS.includes(fm.status)) {
+        problems.push(
+            `${rel} declares status "${fm.status}", which is not a state this corpus uses.\n` +
+                `      permitted: ${PERMITTED_STATUS.join(" · ")}\n` +
+                `      Status measures REVIEW state, never visibility (ruled 2026-09-05).`
+        );
+    } else if (fm.status === "published") {
+        published++;
+        if (STATUS_DEBT.has(rel)) {
+            statusDebtSeen++;
+        } else {
+            const slug = fm.slug || rel.replace(/^.*\//, "").replace(/\.md$/, "");
+            const rounds = (reviews?.papers?.[slug] ?? []).filter((r) => r.lane === "human" && r.ruled);
+            if (!reviews) {
+                problems.push(
+                    `${rel} is \`status: published\` but there is no reviews.json in this repo.\n` +
+                        `      fix: node MA/.claude/skills/polish/scripts/review-log.mjs — it writes the\n` +
+                        `      public record from the private review rounds. published needs a RULED\n` +
+                        `      HUMAN round on record; nothing else admits the label.`
+                );
+            } else if (rounds.length === 0) {
+                problems.push(
+                    `${rel} is \`status: published\` with no RULED HUMAN review round in reviews.json.\n` +
+                        `      The label measures review, and this paper's record shows none by people.\n` +
+                        `      fix: set \`status: draft\`, or open a round (\`/polish ${slug} --human\`),\n` +
+                        `      record the founder's ruling ("ruled": "<date>" in its triage.json), then\n` +
+                        `      re-run review-log.mjs and commit the regenerated reviews.json with this flip.`
+                );
+            } else {
+                const last = rounds[rounds.length - 1];
+                const now = headingSet(body);
+                const then = last.sections ?? [];
+                const added = now.filter((h) => !then.includes(h));
+                const removed = then.filter((h) => !now.includes(h));
+                if (added.length || removed.length) {
+                    problems.push(
+                        `${rel} is \`status: published\` but its ## heading set has changed since the\n` +
+                            `      last ruled human round (${last.round}):\n` +
+                            (added.length ? `        added:   ${added.join(" | ")}\n` : "") +
+                            (removed.length ? `        removed: ${removed.join(" | ")}\n` : "") +
+                            `      A structural revision returns a paper to draft until it is reviewed again\n` +
+                            `      (ruled 2026-09-05). fix: set \`status: draft\` in this revision, or open a\n` +
+                            `      new human round and re-run review-log.mjs.`
+                    );
+                }
+            }
+        }
+    }
 }
 
 if (problems.length) {
@@ -259,7 +349,9 @@ const licenceLine = Object.entries(census)
 
 console.log(
     `check-frontmatter: ${files.length} files — ${licenceLine}` +
-        (debtSeen ? `; ${debtSeen} pre-ruling files still carry a banned field (they ride their next revision)` : "")
+        `; ${published} published` +
+        (debtSeen ? `; ${debtSeen} pre-ruling files still carry a banned field (they ride their next revision)` : "") +
+        (statusDebtSeen ? `; ${statusDebtSeen} pre-ruling published flag(s) unbacked by a human round (rides its next revision)` : "")
 );
 
 if (process.argv.includes("--census")) {
