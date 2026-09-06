@@ -340,3 +340,49 @@ timestamped commitment made before the data.* **None run; no instrument built** 
 previous run in this session failed the currency guard and had its publish *skipped* rather than
 failed. ⭐⭐ **And the new check earned its place: the run's `headSha` was compared to local HEAD
 before the result was believed**, which is what the earlier run's stale reading had defeated.
+
+### 2026-09-05 — polish round 1: 23 defensive publications + the prediction register
+
+The first `/polish` round on every deposited defensive publication — three outside model families through the browser leg plus the memory-less control — triaged, ruled by the founder (*"doo all per your recommendation"*), and revised through the `/draft` REVISION lane. One batched revision per paper; one chain for the batch.
+
+| leg | result |
+|---|---|
+| **0 · render** | 19 modules regenerated (ids identical, `doi.org` 1→1; `the-gift-operation` 15→16 with a new `claims` id) · 4 hand-authored modules ported by hand (`proof-of-coordinate` · `gift-tag-time-reveal` · `transparency-as-enforcement` · `miss-aquarius-and-aquarian-pool-architecture`) |
+| **1 · OTS** | 23 proofs rotated (every retiring proof Bitcoin-complete, verified before the `git mv`), re-stamped ⚠️ **calendar-only** — `/ots` owes the upgrade |
+| **2 · TSA** | `2026-09-06.sha256` (run 34005945856 on `012dbeb`; re-run 34006266151 on `b181a34` after the register fix below) — verified by **hash** |
+| **3 · Zenodo** | `0 new, 24 revised` — every paper a *new version*; the register twice |
+| **4 · Index** | **2.1.6** · 141 documents · **0 revised since deposit** · register arithmetic **reconciles at 95** |
+| **7 · verify** | 24/24: TSA ✓ · Zenodo ✓ · Index ✓ · OTS binds current text, ⚠ CALENDAR-ONLY |
+
+| paper | rotated → | version DOI |
+|---|---|---|
+| `patthana-typed-causation-vocabulary` | `.r3.ots` | 10.5281/zenodo.22440977 |
+| `need-compiled-questlines` | `.r2.ots` | 10.5281/zenodo.22440976 |
+| `gift-tag-time-reveal` | `.r4.ots` | 10.5281/zenodo.22440966 |
+| `aura-gated-anonymous-mate-selection` | `.r3.ots` | 10.5281/zenodo.22440954 |
+| `giving-is-a-gift-too` | `.r2.ots` | 10.5281/zenodo.22440967 |
+| `b-links-signed-provenance` | `.r2.ots` | 10.5281/zenodo.22440955 |
+| `buddha-ai-living-tipitaka` | `.r2.ots` | 10.5281/zenodo.22440963 |
+| `the-referee-not-the-governor` | `.r3.ots` | 10.5281/zenodo.22440991 |
+| `provenance-carrying-retrieval` | `.r1.ots` | 10.5281/zenodo.22440983 |
+| `the-unpaid-relay` | `.r1.ots` | 10.5281/zenodo.22440996 |
+| `the-borrowable-standard` | `.r2.ots` | 10.5281/zenodo.22440989 |
+| `zero-point-game` | `.r4.ots` | 10.5281/zenodo.22441006 |
+| `transparency-as-enforcement` | `.r3.ots` | 10.5281/zenodo.22441000 |
+| `tipitaka-alignment-substrate` | `.r3.ots` | 10.5281/zenodo.22440999 |
+| `the-gift-operation` | `.r3.ots` | 10.5281/zenodo.22440990 |
+| `mechanical-heart` | `.r4.ots` | 10.5281/zenodo.22440968 |
+| `verified-human-anonymous-local-giving` | `.r2.ots` | 10.5281/zenodo.22441001 |
+| `respiratory-biofeedback-contemplative-guidance` | `.r1.ots` | 10.5281/zenodo.22440984 |
+| `agi-monks-caretaker-not-ordained` | `.r1.ots` | 10.5281/zenodo.22440949 |
+| `abhidhamma-executable-process-specification` | `.r2.ots` | 10.5281/zenodo.22440944 |
+| `miss-aquarius-and-aquarian-pool-architecture` | `.r2.ots` | 10.5281/zenodo.22440973 |
+| `brand-identity-as-architecture` | `.r5.ots` | 10.5281/zenodo.22440958 |
+| `proof-of-coordinate` | `.r2.ots` | 10.5281/zenodo.22440982 |
+| `program/prediction-register` | `.r6.ots` | 10.5281/zenodo.22441808 *(second version of the day — see below)* |
+
+⚠️ **The register's first deposit of this batch (10.5281/zenodo.22441007) carried a row the index could not count.** The P-PCR entries were written as `P-PCR1 – P-PCR5; P-PCR3a, …` and the index's arithmetic check, which splits identifiers on commas only, counted eight as three — **90 against 95 stated, ⚠️ DOES NOT RECONCILE** — while `npm run check` still passed, because the reconciliation is reported, not enforced. Fixed in the data (the cell now enumerates all eight; the register's own convention), re-deposited, re-attested, and the index rebuilt before 2.1.6 was committed. ⭐ **The check found it before the index shipped; that is what it is for.** ⏳ *Whether a non-reconciling register should FAIL the build rather than warn is a ruling owed.*
+
+⚠️ **The register's proof had also been left unrotated by the batch's leg 1** — it was the 24th Zenodo item but not among the 23 rotations — and `verify-legs.sh` reported it STALE before the fix above. The rotation to `.r6.ots` covers the corrected text; the retiring proof carried 2 Bitcoin attestations.
+
+⭐ **One extra author field per paper reached the bib**: nine entries now read `Ly, Thon and Miss Aquarius`, the co-authorship the revisions disclosed in the front matter.
