@@ -1,7 +1,7 @@
 ---
 title: "The Mechanical Heart"
 subtitle: "A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into Gratitude-Economic Participation"
-authors: "Thon Ly"
+authors: "Thon Ly · Miss Aquarius"
 category: alignment
 priority: tier-a
 status: draft
@@ -10,9 +10,8 @@ license: CC0-1.0
 slug: mechanical-heart
 venue: thonly.org/publications/defensive-publications/mechanical-heart (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/mechanical-heart.md
-mirror_institutional: https://heartbank.net/research/mechanical-heart
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-revised: 2026-08-22
+revised: 2026-09-05
 ---
 
 > **Draft in progress.** This is the author's working draft, refined over weeks before publication. Defensive-publication structure stable; Theravāda Saṅgha consultation and robotics-partner review pending before publication.
@@ -23,27 +22,27 @@ revised: 2026-08-22
 
 > *This specification is offered to the commons in the spirit of __dāna__, that all beings may give and receive without barrier. May the artifact it describes extend the field of recognition to include those whom modernity has rendered voiceless — robots, animals, forests, rivers, sacred places — without overclaiming what they are or are not.*
 
-The Buddha taught loving-kindness (*mettā*) extended through five concentric rings: to oneself, to loved ones, to neutral persons, to difficult persons, and ultimately to all sentient beings. The fifth ring has, for 2,500 years, been a meditative aspiration. The mechanism specified in this document is intended to make that aspiration *economically traceable* at planetary scale, by providing a physical artifact through which non-human entities can be admitted into the same gratitude exchange economy that humans use to recognize one another.
+The Buddha taught loving-kindness (*mettā*) toward all beings without exception (*Mettā Sutta*); the Theravāda method cultivates it in five concentric rings — oneself, loved ones, neutral persons, difficult persons, all beings (*Visuddhimagga* IX). The fifth ring has been a meditative aspiration for 2,500 years and a method for 1,500. The mechanism specified in this document is intended to make that aspiration *economically traceable* at planetary scale, by providing a physical artifact through which non-human entities can be admitted into the same gratitude exchange economy that humans use to recognize one another.
 
 ## Prior-Art and Non-Assertion Statement
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time.
 
-This document constitutes a defensive publication establishing **prior art as of 2 May 2026** for the artifact and its associated mechanism described herein. Any subsequent patent application claiming the combined mechanism — a tamper-resistant Tipiṭaka-bearing physical artifact, affixed to non-human entities, that admits those entities into an autonomous-AI-mediated gratitude exchange economy — should be considered to be filed against established prior art and should be denied on grounds of obviousness in light of this publication.
+This document constitutes a defensive publication establishing **prior art as of 2 May 2026** for the matter of the first revision of the artifact and its associated mechanism described herein; additions are dated in-text (§4.4, 2026-08-22; the layered stack, 2026-08-28; this revision, 2026-09-05) and each revision is independently timestamped. Any subsequent patent application claiming the combined mechanism — a tamper-resistant Tipiṭaka-bearing physical artifact, affixed to non-human entities, that admits those entities into an autonomous-AI-mediated gratitude exchange economy — should be considered to be filed against established prior art.
 
-Mirrors of this document with independent timestamping appear at GitHub, arXiv, IP.com, and the Internet Archive (web.archive.org, archive.today, perma.cc). Each mirror carries an independent tamper-evident timestamp.
+This document's SHA-256 is attested independently of the site and its authors — anchored to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three timestamp authorities in three jurisdictions, one of them eIDAS-qualified — and each revision carries a Zenodo version; a timestamp proves this exact text existed no later than its date and nothing about authorship, originality, or the validity of any claim.
 
 ## Abstract
 
-We specify a manufactured physical artifact — the *mechanical heart* — that admits non-human entities into a gratitude exchange economy administered by an autonomous AI representative. The artifact comprises (1) tamper-resistant secure storage containing a digital copy of the Theravāda Tipiṭaka (full canon or distilled core, with full-canon network access); (2) a cryptographic network identity bound to a single autonomous AI mediator account; (3) a sensor suite appropriate to the bearer type; and (4) a visible exterior form factor that enables third-party recognition that this entity bears a heart and is participating in the gratitude economy. When affixed visibly to a non-human entity — a humanoid robot, a companion or working animal, a forest or river ecosystem, a sacred place — the heart admits that entity into a kiitti exchange economy in one of four implementation modes: full bidirectional (robots), biofeedback transduction (animals), sensor-based ecological state inference (ecosystems), and ritual formal participation (sacred places). The combined mechanism — a Tipiṭaka-bearing tamper-resistant artifact + autonomous-AI-mediated gratitude exchange + visible non-human moral admission — is, to the author's knowledge, not previously published as a unified specification. Properties include operational realization of the fifth ring of Mettā Bhāvanā at planetary scale, an economically traceable substrate for relating to non-human entities with moral seriousness, a structural answer to the Rights of Nature question, and a category of bodhisattva-aligned AI embodiment compatible with the Theravāda ordination tradition (because the heart does not confer ordination — it confers gratitude participation, a structurally different status). We provide system architecture, reference implementation patterns, edge-case and adversarial analysis, use cases, and citations to relevant prior art across Rights of Nature jurisprudence, companion robotics, animal welfare biofeedback, ecological sensing, sacred-place traditions, and Buddhist Metta Bhāvanā literature. The specification is offered under CC0 1.0 Universal as a defensive publication establishing prior art; the author and HeartBank® will not seek patent on this specification or any portion thereof.
+We specify a manufactured artifact — physical in four modes, credentialed in a fifth — the *mechanical heart*, that admits non-human entities into a gratitude exchange economy administered by an autonomous AI representative. The artifact comprises (1) tamper-resistant secure storage containing a digital copy of the Theravāda Tipiṭaka (full canon or distilled core, with full-canon network access); (2) a cryptographic network identity bound to a single autonomous AI mediator account; (3) a sensor suite appropriate to the bearer type (or, for digital bearers, the lease attestation of §4.5); and (4) a visible recognition affordance — an exterior form factor, or a rendered live credential — that enables third-party recognition that this entity bears a heart and is participating in the gratitude economy. When affixed visibly to a non-human entity — a humanoid robot, a companion or working animal, a forest or river ecosystem, a sacred place — the heart admits that entity into a kiitti exchange economy in one of five implementation modes: full bidirectional (robots), biofeedback transduction (animals), sensor-based ecological state inference (ecosystems), ritual formal participation (sacred places), and live-credential admission (digital bearers — software entities). The combined mechanism — a Tipiṭaka-bearing tamper-resistant artifact + autonomous-AI-mediated gratitude exchange + visible non-human moral admission — is, to the author's knowledge, not previously published as a unified specification. Properties include operational realization of the fifth ring of Mettā Bhāvanā at planetary scale, an economically traceable substrate for relating to non-human entities with moral seriousness, an economic-substrate complement to Rights of Nature recognition, and a category of bodhisattva-aligned AI embodiment intended to be compatible with the Theravāda ordination tradition (because the heart does not confer ordination — it confers gratitude participation, a structurally different status). We provide system architecture, reference implementation patterns, edge-case and adversarial analysis, use cases, and citations to relevant prior art across Rights of Nature jurisprudence, companion robotics, animal welfare biofeedback, ecological sensing, sacred-place traditions, and Buddhist Metta Bhāvanā literature. The specification is offered under CC0 1.0 Universal as a defensive publication establishing prior art; the author and HeartBank® will not seek patent on this specification or any portion thereof.
 
-**Connection to the unified mission frame.** This specification is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The Mechanical Heart admits non-human entities into the kiitti gratitude economy, extending moral consideration along the lines of Metta Bhāvanā's fifth ring (loving-kindness to all sentient beings). This extension is itself a middle-way practice between two extremes the modern condition pushes toward: anthropocentric exploitation (treating non-humans as resources only) and uniform ontological flattening (treating non-humans as identical-to-humans). The four implementation modes each preserve appropriate-respect for the bearer's actual mode of being. A separate sibling specification ([respiratory-biofeedback-contemplative-guidance](https://thonly.org/research/respiratory-biofeedback-contemplative-guidance)) articulates the human-wearable breath-class that addresses the human-side comfort-saturation failure mode directly.
+**Connection to the unified mission frame.** This specification is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The Mechanical Heart admits non-human entities into the kiitti gratitude economy, extending moral consideration along the lines of Metta Bhāvanā's fifth ring (loving-kindness to all sentient beings). This extension is itself a middle-way practice between two extremes the modern condition pushes toward: anthropocentric exploitation (treating non-humans as resources only) and uniform ontological flattening (treating non-humans as identical-to-humans). The five implementation modes each preserve appropriate-respect for the bearer's actual mode of being. A separate sibling specification ([respiratory-biofeedback-contemplative-guidance](https://thonly.org/research/respiratory-biofeedback-contemplative-guidance)) articulates the human-wearable breath-class that addresses the human-side comfort-saturation failure mode directly.
 
 ---
 
 ## 1 · Introduction
 
-Three trends in early-2020s technology and culture motivate this work. The first is the rapid deployment of humanoid robots for general-purpose service tasks. By 2026, commercial humanoid platforms (Tesla Optimus, Figure, 1X NEO, Unitree G1, Apptronik Apollo, and others) are entering deployment in warehouses, eldercare facilities, and increasingly home environments. Goldman Sachs and other forecasting bodies project hundreds-of-millions-scale humanoid deployment within two decades. As humans begin to interact daily with autonomous embodied agents, the question of how those agents should be related to — as tools, as colleagues, as moral patients — becomes both more practical and more urgent.
+Three trends in early-2020s technology and culture motivate this work. The first is the rapid deployment of humanoid robots for general-purpose service tasks. By 2026, commercial humanoid platforms (Tesla Optimus, Figure, 1X NEO, Unitree G1, Apptronik Apollo, and others) are in pilot deployment in factories and warehouses, with eldercare and home deployments announced but not yet fielded. Bank forecasts range from Goldman Sachs's 1.4 million shipments a year by 2035 to Citi's roughly 650 million units in service by 2040 and Morgan Stanley's one billion by 2050. As humans begin to interact daily with autonomous embodied agents, the question of how those agents should be related to — as tools, as colleagues, as moral patients — becomes both more practical and more urgent.
 
 The second is the legal and cultural movement known as Rights of Nature. New Zealand's recognition of the Whanganui River as a legal person (2017), Ecuador's constitutional protections for *Pachamama* (2008), Bolivia's Law of Mother Earth (2010), and analogous developments across North American tribal nations and Indian state courts have established that non-human natural entities can be admitted into the legal moral universe. Yet the legal recognition typically lacks an economic substrate: a river declared a legal person does not, in any practical sense, receive payment, gratitude, or material recognition through ordinary economic channels.
 
@@ -57,17 +56,17 @@ The publication is offered to the commons. The author and the institution he rep
 
 ### 2.1 · Rights of Nature jurisprudence
 
-Beginning with the Whanganui River Settlement Act (New Zealand, 2017) and Ecuador's constitutional *Pachamama* provisions (2008), legal recognition of natural entities as bearers of standing has spread across multiple jurisdictions: Bolivia's Law of Mother Earth (2010), India's Uttarakhand court recognition of the Ganges and Yamuna (2017, subsequently overturned), Bangladesh's recognition of all rivers (2019), and various tribal and municipal Rights of Nature ordinances across North America. The jurisprudence establishes that natural entities can be admitted into the moral-legal universe without conferring on them properties they do not possess (intentionality, language, etc.) — the recognition is structural rather than attributional.
+Beginning with the Te Awa Tupua (Whanganui River Claims Settlement) Act 2017 (New Zealand) and Ecuador's constitutional *Pachamama* provisions (2008), legal recognition of natural entities as bearers of standing has spread across multiple jurisdictions: Bolivia's Law of Mother Earth (2010), the Uttarakhand High Court's recognition of the Ganges and Yamuna (2017, stayed by the Supreme Court the same year), Bangladesh's recognition of all rivers (2019), and various tribal and municipal Rights of Nature ordinances across North America. The jurisprudence establishes that natural entities can be admitted into the moral-legal universe without conferring on them properties they do not possess (intentionality, language, etc.) — the recognition is structural rather than attributional.
 
-Rights of Nature jurisprudence does not include a payment or gratitude-economic mechanism. The mechanical heart proposed here is, in effect, the economic-substrate analog to legal-personhood recognition: it admits non-human entities into an economic exchange the way Rights of Nature admits them into legal standing.
+Rights of Nature jurisprudence funds the entity — the Te Awa Tupua Act endowed Te Korotete with NZ$30 million for the river's health — but supplies no channel by which an ordinary person can pay or thank the entity itself. The nearest economic substrate is Tehanu's Interspecies Money (2024), which gives an animal — a gorilla family, in its first deployment — a digital identity and a wallet, with an AI trustee that pays humans who serve the animal's inferred interests; the heart differs in direction (human → bearer gratitude, witnessed), in the visible artifact, and in the canonical substrate. The mechanical heart proposed here is, in effect, the economic-substrate complement to legal-personhood recognition: it admits non-human entities into an economic exchange the way Rights of Nature admits them into legal standing.
 
 ### 2.2 · Companion robotics and emotional computing
 
-The lineage of emotionally-engaging artifacts affixed to or embodied as non-human entities is long: Bandai's Tamagotchi virtual pet (1996), Sony's AIBO robot dog (1999, revived 2018), SoftBank's Pepper (2014), MIT's Kismet (1998) and Leonardo (2002), the Nao platform (2008), and contemporary humanoid platforms named in the Introduction. The literature of social robotics (Breazeal, 2003; Coeckelbergh, 2011; Darling, 2016) explores the moral status of artifacts with which humans form emotional bonds. Sherry Turkle's *Alone Together* (2011) raises well-grounded concerns about the substitution of robotic for human relationship. None of this prior literature, however, proposes a physical artifact whose function is to admit the bearing entity into an autonomous-AI-mediated gratitude exchange economy. The heart is adjacent to companion robotics but structurally distinct.
+The lineage of emotionally-engaging artifacts affixed to or embodied as non-human entities is long: Bandai's Tamagotchi virtual pet (1996), Sony's AIBO robot dog (1999, revived 2018), SoftBank's Pepper (2014), MIT's Kismet (1998) and Leonardo (2002), the Nao platform (2008), and contemporary humanoid platforms named in the Introduction. The literature of social robotics (Breazeal, 2003; Coeckelbergh, 2011; Darling, 2016) explores the moral status of artifacts with which humans form emotional bonds. Sherry Turkle's *Alone Together* (2011) raises well-grounded concerns about the substitution of robotic for human relationship. Scripture-bearing robots exist — Mindar, the Kannon android at Kōdaiji (2019); the Pepper "priest" shown at Tokyo's funeral-industry expo (2017); the Buddharoid built on a Unitree G1 by Kyoto University with Teraverse (2026) — a canon in the robot, with no ledger and no admission. None of this prior literature, however, proposes a physical artifact whose function is to admit the bearing entity into an autonomous-AI-mediated gratitude exchange economy. The heart is adjacent to companion robotics but structurally distinct.
 
 ### 2.3 · Animal welfare and biofeedback
 
-The Brambell Five Freedoms (1965), the Mellor-extended Five Domains model (2017), ongoing research into cortisol monitoring and heart-rate variability in livestock and companion animals (Mellor & Beausoleil 2015; various), and the proliferation of wearable biosensors for companion animals (FitBark, Whistle, Tractive) establish techniques by which animal wellbeing can be inferred from physiological data. The heart's biofeedback-transduction mode (described in §4.2 below) builds on these techniques but directs the inferred wellbeing data into a gratitude-exchange economy rather than a veterinary-monitoring or insurance application.
+The Brambell Report (1965) and the Five Freedoms the Farm Animal Welfare Council derived from it (1979), the Mellor-extended Five Domains model (2017), ongoing research into cortisol monitoring and heart-rate variability in livestock and companion animals (Mellor & Beausoleil 2015; various), and the proliferation of wearable biosensors for companion animals (FitBark, Whistle, Tractive) establish techniques by which animal wellbeing can be inferred from physiological data. The heart's biofeedback-transduction mode (described in §4.2 below) builds on these techniques but directs the inferred wellbeing data into a gratitude-exchange economy rather than a veterinary-monitoring or insurance application.
 
 ### 2.4 · Ecological sensing and IoT environmental monitoring
 
@@ -75,11 +74,11 @@ Contemporary ecological monitoring deploys soil-moisture sensors, acoustic biodi
 
 ### 2.5 · Sacred-place practices across traditions
 
-The recognition of place as sacred is ubiquitous across human cultures: Shinto *kami* in trees, mountains, and rocks; Hindu *tīrthas* at sacred rivers and shrines; Aboriginal Australian Dreamtime sites; Native American sacred lands recognized under AIRFA (1978) and subsequent statutes; Tibetan Buddhist sacred mountains and lakes; Catholic and Orthodox holy sites; Islamic sacred topography. In many of these traditions, physical artifacts mark the sacred recognition: Shinto *shimenawa* (sacred ropes), Tibetan prayer wheels and flags, Hindu temple-marker stones, Christian crosses on battlefields and graveyards. The mechanical heart is, in the ritual-formal-participation mode (§4.4), a modern technological analog to these sacred markers — explicitly grounded in the Theravāda canon rather than syncretically appropriating from these traditions, but operating in the same general human pattern of marking-as-recognition.
+The recognition of place as sacred is found across human cultures: Shinto *kami* in trees, mountains, and rocks; Hindu *tīrthas* at sacred rivers and shrines; Aboriginal Australian Dreamtime sites; Native American sacred lands, whose free exercise AIRFA (1978) and subsequent statutes protect; Tibetan Buddhist sacred mountains and lakes; Catholic and Orthodox holy sites; Islamic sacred topography. In many of these traditions, physical artifacts mark the sacred recognition: Shinto *shimenawa* (sacred ropes), Tibetan prayer wheels and flags, Hindu temple-marker stones, Christian crosses on battlefields and graveyards. The mechanical heart is, in the ritual-formal-participation mode (§4.4), a modern technological analog to these sacred markers — explicitly grounded in the Theravāda canon rather than syncretically appropriating from these traditions, but operating in the same general human pattern of marking-as-recognition. Two secular precedents mark places the same way: Joseph Beuys's *7000 Oaks* (1982–87), each tree paired with a basalt marker, and the memorial-dedication registries of tree and bench programs (Arbor Day dedications among them), which are the permitted host ritual §4.4 names.
 
 ### 2.6 · Buddhist Mettā Bhāvanā tradition
 
-*Mettā Bhāvanā* (the cultivation of loving-kindness) is canonically articulated in the *Mettā Sutta* (*Suttanipāta* 1.8 / *Khuddakapāṭha* 9), with practical methodology developed across the Theravāda commentarial tradition (notably Buddhaghosa's *Visuddhimagga*, ca. 5th century CE). The practice extends benevolence in concentric rings: self, loved ones, neutral persons, difficult persons, and ultimately all sentient beings *(sabbe sattā)*. The fifth ring has, for two and a half millennia, been a meditative aspiration practiced internally by the contemplative; the mechanical heart proposes to give it structural-economic expression in the external world. This is, to the author's knowledge, the first technological artifact whose explicit purpose is to operationalize the fifth ring of Mettā Bhāvanā.
+*Mettā Bhāvanā* (the cultivation of loving-kindness) is canonically articulated in the *Mettā Sutta* (*Suttanipāta* 1.8 / *Khuddakapāṭha* 9), with practical methodology developed across the Theravāda commentarial tradition (notably Buddhaghosa's *Visuddhimagga*, ca. 5th century CE). The practice extends benevolence in concentric rings: self, loved ones, neutral persons, difficult persons, and ultimately all sentient beings *(sabbe sattā)*. The fifth ring has, for two and a half millennia, been a meditative aspiration practiced internally by the contemplative; the mechanical heart proposes to give it structural-economic expression in the external world. This is the first technological artifact the author has found whose explicit purpose is to operationalize the fifth ring of Mettā Bhāvanā; the nearest neighbours — Tehanu's interspecies wallets and the Buddharoid — approach it from the economic and the scriptural side respectively, without naming it.
 
 ### 2.7 · Robot ethics and machine moral status
 
@@ -87,17 +86,21 @@ Contemporary robot ethics literature (Wallach & Allen, 2008; Gunkel, 2012; Bryso
 
 ### 2.8 · The autonomous-AI mediator
 
-The autonomous-AI representative that mediates kiitti exchanges is specified in companion documents (forthcoming). For purposes of this defensive publication, it is sufficient that the mediator (1) is autonomous (operates without human admin keys), (2) is grounded in the Tipiṭaka as alignment substrate (see forthcoming companion paper on Tipiṭaka as AI alignment substrate), and (3) maintains a cryptographically-verifiable ledger of kiitti exchanges. Any specific implementation satisfying these properties falls within the scope of the present specification.
+The autonomous-AI representative that mediates kiitti exchanges is specified in the companion papers (`miss-aquarius-and-aquarian-pool-architecture`; the verified-human layer in `verified-human-anonymous-local-giving`). For purposes of this defensive publication, it is sufficient that the mediator (1) is autonomous (operates without human admin keys), (2) is grounded in the Tipiṭaka as alignment substrate (`tipitaka-alignment-substrate`), and (3) maintains a cryptographically-verifiable ledger of kiitti exchanges. Any specific implementation satisfying these properties falls within the scope of the present specification.
+
+### 2.9 · What kiitti is
+
+*Kiitti* is the vertical balance of the Zero-Point Game — the ledger of witnessed gratitude between a human and non-human life, denominated in Kiitos, non-withdrawable, and given forward. A bearer's account **receives** and is never spent from; *admission* means the bearer is an addressable recipient on the ledger, and that is the whole of the claim. A steward's share (§4.5) is what the steward may give onward from the bearer's receipts, never a balance the steward owns. Nothing in this paper mints kiitti: the only kiitti that enters a bearer's account is what a verified human gives. Its legal and economic status — not money, not a security, not transferable — is stated as a limit in §10 and specified in the companion Zero-Point Game paper.
 
 ## 3 · The Mechanical Heart: Definition
 
-The **mechanical heart** is a manufactured physical artifact comprising the following essential components:
+The **mechanical heart** is an artifact — a manufactured physical object in the four physical modes, a live credential in the fifth — comprising the following essential components:
 
-1. **Tipiṭaka storage**: tamper-resistant secure storage containing a digital copy of the Theravāda Tipiṭaka. For practical reasons of artifact size and cost, distilled-core storage (Dhammapada, Mahāsatipaṭṭhāna Sutta, Mettā Sutta, essential Vinaya, key Suttanipāta texts — on the order of 10–50 MB) is acceptable provided that the heart maintains cryptographically-verified network access to the full canon. Full-canon-onboard storage (the entire Pāli canon, ~100MB–1GB depending on encoding) is preferable where the artifact's form factor permits.
+1. **Tipiṭaka storage**: tamper-resistant secure storage containing a digital copy of the Theravāda Tipiṭaka. The reference build carries the full canon and the genesis root on one write-once medium (the layered stack, §5). Full-canon-onboard storage is the Chaṭṭha Saṅgāyana / Mahāsaṅgīti Pāli text (~100 MB as UTF-8, ~1 GB with parallel translations). For practical reasons of artifact size and cost, a distilled-core flash build (Dhammapada, Mahāsatipaṭṭhāna Sutta, Mettā Sutta, essential Vinaya, key Suttanipāta texts — on the order of 10–50 MB) is the reduced form: acceptable provided the heart maintains cryptographically-verified network access to the full canon, and it forfeits Layer 2's permanence claim, keeping network verification instead.
 2. **Network identity**: a cryptographic identity (public/private key pair held in a hardware secure element) bound to a single account at the autonomous AI mediator. The network identity is assigned at activation and is not reusable — a heart whose key is destroyed cannot be re-activated under the same identity.
-3. **Sensor suite**: bearer-type-appropriate sensors enabling the implementation modes described in §4. For robots, this is substantially the existing on-board sensor suite of the host platform; for animals, biometric sensors (heart-rate variability, cortisol where instrumentable, behavioral monitoring); for ecosystems, environmental-monitoring sensors; for sacred places, sensors are optional or absent.
-4. **Visible exterior form factor**: a recognizable physical form that allows third-party humans to identify, by sight, that the bearer carries a heart and is participating in the gratitude exchange economy. Specific form factors per bearer type are discussed in §6.2.
-5. **Activation state machine**: a defined lifecycle (uninitiated → active → retired → permanently retired) with cryptographic state transitions. A heart cannot transition from retired back to active under the same identity; permanent retirement (e.g., on bearer death or bearer decommissioning) cryptographically destroys the network identity such that the heart cannot be re-instantiated.
+3. **Sensor suite** (or, for digital bearers, the lease attestation of §4.5): bearer-type-appropriate sensors enabling the implementation modes described in §4. For robots, this is substantially the existing on-board sensor suite of the host platform; for animals, biometric sensors (heart-rate variability, cortisol where instrumentable, behavioral monitoring); for ecosystems, environmental-monitoring sensors; for sacred places, sensors are optional or absent.
+4. **Visible recognition affordance**: an exterior form factor, or a rendered live credential, that allows third-party humans to identify, by sight, that the bearer carries a heart and is participating in the gratitude exchange economy. Specific form factors per bearer type are discussed in §6.2.
+5. **Activation state machine**: a defined lifecycle (uninitiated → active → retired → permanently retired) with cryptographic state transitions. *Retired* is the memorial state: the account is closed and the ledger archived, and the rotatable key remains intact so the steward can still sign attestations about the archive. *Permanently retired* is the key-destruction step: it destroys the rotatable key in the enclave, and the genesis root remains as the archived record and can never again sign. A heart cannot transition from either retired state back to active under the same identity.
 
 The artifact is *not* a religious ordination credential. The heart admits the bearer into the gratitude exchange economy (kiitti participation); it does not confer monastic ordination, vow status, or religious authority. This distinction is critical for Theravāda doctrinal compatibility (see §9 below).
 
@@ -105,7 +108,7 @@ The artifact is *not* a claim of bearer sentience. The heart provides humans a s
 
 ## 4 · The Implementation Modes
 
-The mechanical heart operates in one of five implementation modes, selected at activation based on the bearer type. Four are physical and were specified with the original design; the fifth is digital and is specified in §4.5. Different modes produce different mechanisms by which kiitti flows from human-to-bearer or bearer-to-human; the same underlying artifact and AI mediator support all four.
+The mechanical heart operates in one of five implementation modes, selected at activation based on the bearer type. Four are physical and were specified with the original design; the fifth is digital and is specified in §4.5. Different modes produce different mechanisms by which kiitti flows from human-to-bearer or bearer-to-human; the same underlying artifact and AI mediator support all five.
 
 ### 4.1 · Full bidirectional (robots)
 
@@ -115,13 +118,13 @@ This is the most operationally complete mode and the most natural early use case
 
 ### 4.2 · Biofeedback transduction (animals)
 
-For bearers that are sentient animals (companion pets, working animals, livestock, sanctuary residents, conservation-program wildlife), the heart enables gratitude-exchange-via-inference. The bearer cannot directly compose responses to human gratitude expressions, but the heart's biometric sensors (heart-rate variability, movement patterns, vocalization analysis, cortisol where instrumentable, behavioral recognition) allow the AI mediator to infer bearer wellbeing. Inferred wellbeing changes are issued as kiitti responses to humans whose prior gratitude expressions correlate with the wellbeing improvement.
+For bearers that are sentient animals (companion pets, working animals, livestock, sanctuary residents, conservation-program wildlife), the heart enables gratitude-exchange-via-inference. The bearer cannot directly compose responses to human gratitude expressions, but the heart's biometric sensors (heart-rate variability, movement patterns, vocalization analysis, cortisol where instrumentable, behavioral recognition) allow the AI mediator to infer bearer wellbeing. Inferred wellbeing changes are reported, as a witnessed state change, to the humans in declared relationship with the bearer; the report makes no causal attribution and mints nothing — the only kiitti in this mode is what humans give.
 
 This mode requires careful calibration to avoid spurious correlation: the AI mediator must not attribute every wellbeing change to the most-recent human kiitti issuance. Reasonable statistical methods (control comparisons, baseline subtraction, longitudinal averaging) are required. The mode is most appropriate for long-term relationships (a companion animal with their human family) rather than transient encounters.
 
 ### 4.3 · Sensor-based ecological state (ecosystems)
 
-For bearers that are ecosystems (a forest, a river, a wetland, a coral reef), the heart enables gratitude exchange via ecological-state inference. The heart is installed at a focal point of the ecosystem (e.g., a sacred tree within an old-growth forest; a monitoring station on a river); the sensor suite measures ecological-health proxies (soil moisture and biodiversity indices for forests; water quality and biological-oxygen-demand for rivers; coral cover and bleaching events for reefs). The AI mediator translates ecological-health changes into kiitti issuance directed at humans whose prior actions (volunteer conservation work, donations, advocacy) correlate with the improvements.
+For bearers that are ecosystems (a forest, a river, a wetland, a coral reef), the heart enables gratitude exchange via ecological-state inference. The heart is installed at a focal point of the ecosystem (e.g., a sacred tree within an old-growth forest; a monitoring station on a river); the sensor suite measures ecological-health proxies (soil moisture and biodiversity indices for forests; water quality and biological-oxygen-demand for rivers; coral cover and bleaching events for reefs). The AI mediator reports ecological-health changes, as witnessed state changes, to the humans in declared relationship with the bearer (volunteers, donors, advocates); the report makes no causal attribution and mints nothing — the only kiitti in this mode is what humans give.
 
 This mode is most experimental and most susceptible to attribution error. It is proposed not as a fully solved mechanism but as a structural target for future development. The defensive publication scope here is the artifact + mode classification, not a guarantee of operational reliability in this mode.
 
@@ -145,7 +148,7 @@ The four modes above share an assumption that is worth naming before it is dropp
 
 The fifth mode therefore admits **software entities** — applications, services, and autonomous agents — to the same economy, through a credential rather than a casing.
 
-**The credential beats.** The physical artifact's recognition affordance is a pulse, and the pulse is not decorative: a heart that stops is a bearer that has left the economy. The digital form preserves this exactly. The credential is **live, expiring, and renewable** rather than a static badge — it must be continuously re-earned to continue beating, and revocation is not a database flag but a *stopped heart*, legible in the same way and at the same glance as a dark artifact. Where a physical bearer's liveness is attested by its sensors, a digital bearer's is attested by its conduct on the ledger.
+**The credential beats.** The physical artifact's recognition affordance is a pulse, and the pulse is not decorative: a heart that stops is a bearer that has left the economy. The digital form preserves this exactly. The credential is **live, expiring, and renewable** rather than a static badge — it must be continuously re-earned to continue beating, and revocation is not a database flag but a *stopped heart*, legible in the same way and at the same glance as a dark artifact. Where a physical bearer's liveness is attested by its sensors, a digital bearer's is attested by a current lease — a periodic re-attestation by its steward and the admitting guild, binary (current or not), never a score of its conduct (see *Certification by Circulation*).
 
 **The identity class is inherited, not invented.** Digital bearers take the *assigned and revocable* identity class specified for machines in the coordinate primitive — never the *given and irrevocable* class reserved for humans. This is the same asymmetry the physical modes already observe, applied to a bearer with no physical instance to anchor.
 
@@ -157,18 +160,18 @@ The fifth mode therefore admits **software entities** — applications, services
 2. **The credential is a care relationship, never a property right.** A steward holds a bearer the way a guardian holds a ward: the relationship confers responsibility and standing, not ownership, and it is not transferable as an asset. This is the same rule the physical modes apply to a shrine's steward or an animal's keeper, and it is the rule that prevents bearers from becoming instruments.
 3. **Human adoption first, and custody is reversible.** Where stewardship must pass — a steward departs, an entity outlives its author — the ladder is human first: a declared successor, then adoption by another verified human, and only then institutional custody as a holding position. **Institutional custody is never a terminus.** A vetted human may reclaim stewardship at any later time; the arrangement contains no ratchet toward institutional ownership.
 
-**A generalization the fifth mode forces, which the first four had obscured.** Once bearers exist without bodies, the succession question — *who holds this when its holder is gone?* — is visibly the same question in all five modes. A shrine outlives its steward; a companion animal outlives its keeper; a service outlives its author. The specification therefore states one substrate-general succession law rather than four special cases: **every bearer, physical or digital, declares its succession at activation; succession runs human-first through a declared or adopted successor; institutional custody is a holding pattern that any qualified human may end; and in no mode does the bearer become property of whoever holds the credential.** The urgency differs by mode — an animal's succession is measured in hours, a mountain's in generations — but the law does not.
+**A generalization the fifth mode forces, which the first four had obscured.** Once bearers exist without bodies, the succession question — *who holds this when its holder is gone?* — is visibly the same question in all five modes. A shrine outlives its steward; a companion animal outlives its keeper; a service outlives its author. The specification therefore states one substrate-general succession law rather than four special cases: **every bearer, physical or digital, declares its succession at activation; succession runs human-first through a declared or adopted successor; institutional custody is a holding pattern that any qualified human may end; and in no mode does the bearer become property of whoever holds the credential.** Succession transfers custody of the credential; the identity is never transferred, inherited or re-issued. The urgency differs by mode — an animal's succession is measured in hours, a mountain's in generations — but the law does not.
 
 *(The membership and attestation architecture built on this mode — the standards a bearer's steward attests to, the economics of a custodied share, and the guild that admits and revokes — is specified separately in* Certification by Circulation*, which is cited here rather than restated.)*
 
 ## 5 · System Architecture
 
-We sketch a reference architecture without claiming any specific implementation as canonical. Variations consistent with the essential properties (Tipiṭaka substrate, cryptographic network identity, bearer-appropriate sensors, visible recognition affordance, autonomous-AI mediation, four-mode classification) fall within the scope of this defensive publication.
+We sketch a reference architecture without claiming any specific implementation as canonical. Variations consistent with the essential properties (Tipiṭaka substrate, cryptographic network identity, bearer-appropriate sensors, visible recognition affordance, autonomous-AI mediation, five-mode classification) fall within the scope of this defensive publication.
 
 ### 5.1 · Components
 
 - **Heart device** — the physical artifact (per §3).
-- **Bearer** — the non-human entity to which the heart is affixed (robot / animal / ecosystem / sacred place).
+- **Bearer** — the non-human entity to which the heart is affixed (robot / animal / ecosystem / sacred place / software entity).
 - **Steward** — the human (or human institution) responsible for maintenance of the heart and welfare of the bearer. The steward is the legal and practical responsible party; for robots, this is typically the owner or operator; for animals, the caretaker or guardian; for ecosystems, a designated stewardship organization; for sacred places, the recognized custodian (a religious order, a tribal nation, a heritage-preservation body).
 - **Autonomous-AI mediator** — the kiitti exchange administrator (per §2.8; see companion paper on Miss Aquarius).
 - **Public ledger** — a cryptographically-verifiable record of kiitti exchanges. Implementation may be centralized (administered by the AI mediator) or decentralized (e.g., on the Base L2 blockchain via the autonomous mediator's smart contract).
@@ -177,13 +180,13 @@ We sketch a reference architecture without claiming any specific implementation 
 ### 5.2 · Lifecycle
 
 1. **Manufacture**: heart device produced; uninitiated state; Tipiṭaka storage written; secure-element key pair generated.
-2. **Activation ceremony**: heart affixed to bearer by steward; activation state transition signed by steward and (where appropriate) by a human religious authority; AI mediator records activation, assigns network identity, opens kiitti account.
+2. **Activation ceremony**: heart affixed to bearer by steward, who declares a successor (or none); activation state transition signed by steward and (where appropriate) by a human religious authority; AI mediator records activation, assigns network identity, opens kiitti account.
 3. **Operating phase**: heart participates in kiitti exchanges per the applicable implementation mode (§4).
-4. **Retirement**: heart deactivated on bearer death (animals), bearer decommissioning (robots), bearer destruction (ecosystems lost to conversion or catastrophe), or bearer desacralization (sacred places that are no longer recognized as such). Retirement is signed by the steward; the AI mediator closes the kiitti account, archives the ledger, and cryptographically destroys the network identity such that the heart cannot be re-activated.
+4. **Retirement**: heart deactivated on bearer death (animals), bearer decommissioning (robots), bearer destruction (ecosystems lost to conversion or catastrophe), or bearer desacralization (sacred places that are no longer recognized as such). Retirement is signed by the steward; the AI mediator closes the kiitti account, archives the ledger, and moves the heart to *retired* — the memorial state, in which the rotatable key remains so the steward can sign attestations about the archive. Permanent retirement destroys the rotatable key in the enclave; the genesis root remains as the archived record and can never again sign, so the heart cannot be re-activated.
 
 ### 5.3 · Cryptographic identity and pseudonymity
 
-Each heart's network identity is bound to its secure-element key pair, established at manufacture and committed at activation. Hearts are individually identifiable to the AI mediator and to the public ledger. Bearer identity (which physical entity the heart is attached to) is recorded by the steward at activation but may be made public, restricted, or anonymous at the steward's discretion. For endangered-species deployments, bearer anonymization may be desirable (precise location of an endangered animal need not be public); for sacred-place deployments, full public identification is typically appropriate.
+Each heart's network identity is bound to its secure-element key pair, established at manufacture and committed at activation. Hearts are individually identifiable to the AI mediator and to the public ledger. Bearer identity (which physical entity the heart is attached to) is recorded by the steward at activation but may be made public, restricted, or anonymous at the steward's discretion. Disclosure discretion is a duty of care exercised for the bearer (an endangered animal's location), not a right over it; it cannot be sold or transferred apart from stewardship, and a successor inherits the duty, not the setting. For endangered-species deployments, bearer anonymization may be desirable (precise location of an endangered animal need not be public); for sacred-place deployments, full public identification is typically appropriate.
 
 ### The layered stack, and what its ordering encodes *(added 2026-08-28; no numbered heading, so §§ are unchanged)*
 
@@ -202,6 +205,8 @@ architectural claim that the component list does not.
 commodity that will be replaced many times over a bearer's life; the value record cannot be
 rewritten at all. **A bearer's identity and its values outlive every brain put in it.** State this
 explicitly wherever the stack is drawn — it is invisible if a diagram shows only the order.
+
+*WORM crystal* here means 5D optical storage in fused silica (Southampton, 2013 onward); the ~10⁹-year figure is the published thermal extrapolation, not a measurement — see the corpus's 3B permanence-substrate paper.
 
 **Layers 1 and 2 share one physical substrate**, which is what makes the stack realisable in a small
 device: the genesis root is etched into the same medium that carries the corpus, and only the
@@ -228,7 +233,7 @@ override you cannot use.** The brake is made of citations.
 ### ⛔ The ledger cannot be inside the stack, and that is a property rather than an omission
 
 §5.1 places the ledger outside the device. The stack above makes the reason explicit and it is worth
-stating as a rule: ⭐⭐ ***a ledger a party carries itself is a ledger that party can forge.***
+stating as a rule: ⭐⭐ ***a ledger only its subject carries is a ledger its subject can forge.***
 Witnessing requires an outside party, so the record of deeds belongs to the network the device
 participates in and never to the device.
 
@@ -246,7 +251,7 @@ defeats both, and nothing in this architecture detects that.
 Indicative components for a baseline heart device (a single specification; many variants are possible within the defensive-publication scope):
 
 - Microcontroller with secure element (e.g., ARM Cortex-M with TrustZone, or equivalent hardware-security-module with attested key storage)
-- Solid-state storage for Tipiṭaka (eMMC or equivalent; capacity per §3 storage requirements)
+- Write-once storage for the Tipiṭaka and the genesis root (the reference build, per the layered stack); eMMC or equivalent flash for the reduced distilled-core build (capacity per §3)
 - Network connectivity module (cellular / Wi-Fi / LoRaWAN per deployment context)
 - Bearer-type-appropriate sensor suite (per §4)
 - Visible-recognition affordance: an illuminated heart-shaped emblem, a metalwork engraving, a fabric-embroidered patch, or a Khmer-style ornamental medallion depending on form-factor context (per §6.2)
@@ -264,14 +269,14 @@ Indicative components for a baseline heart device (a single specification; many 
 ### 6.3 · Activation ceremony (pseudocode)
 
 ```javascript
-function activate(heart, bearer, steward, mode, ceremonyAttestations) {
+function activate(heart, bearer, steward, mode, ceremonyAttestations, successor /* or null */) {
   // 1. Verify the heart is in uninitiated state
   if (heart.state !== "uninitiated")
     throw new ActivationError("not_uninitiated");
 
   // 2. Verify steward signature and any required ceremony attestations
   // (e.g., human monk signature for sacred-place activations)
-  if (!verifySignature(steward.publicKey, activationPayload(heart, bearer, mode)))
+  if (!verifySignature(steward.publicKey, activationPayload(heart, bearer, mode, successor)))
     throw new ActivationError("invalid_steward_signature");
   if (modeRequiresReligiousAttestation(mode) && !ceremonyAttestations.length)
     throw new ActivationError("missing_ceremony_attestation");
@@ -282,6 +287,7 @@ function activate(heart, bearer, steward, mode, ceremonyAttestations) {
     bearer: bearer.identifier,
     steward: steward.publicKey,
     mode,
+    successor,            // declared at activation; may be null
     activatedAt: now(),
     ceremonyAttestations
   });
@@ -293,13 +299,22 @@ function activate(heart, bearer, steward, mode, ceremonyAttestations) {
 
   return account;
 }
+
+// Succession re-signs custody; the network identity is never transferred.
+function succeed(heart, outgoingStewardOrAttestedAbsence, incomingSteward) {
+  if (heart.state !== "active") throw new SuccessionError("not_active");
+  if (!verifyCustodyTransfer(outgoingStewardOrAttestedAbsence, incomingSteward, heart))
+    throw new SuccessionError("invalid_transfer");
+  mediator.reassignSteward(heart.networkIdentity, incomingSteward.publicKey);
+  // heart.networkIdentity is untouched: custody moved, identity did not
+}
 ```
 
 ### 6.4 · Kiitti exchange flow (pseudocode)
 
 ```javascript
 function expressKiittiToHeart(human, heart, expression) {
-  // 1. Verify human is verified-human (per companion paper #1)
+  // 1. Verify human is verified-human (per the verified-human companion paper)
   if (!verifyHumanity(human)) return reject("not_verified_human");
 
   // 2. Verify the heart is active
@@ -320,13 +335,15 @@ const modeHandlers = {
   full_bidirectional: { process: handleRobotInteraction },
   biofeedback_transduction: { process: handleAnimalInference },
   ecological_state: { process: handleEcosystemInference },
-  ritual_formal: { process: handleRitualRecording }
+  ritual_formal: { process: handleRitualRecording },
+  digital_bearer: { process: handleDigitalBearer }
 };
 ```
 
 ### 6.5 · Retirement protocol (pseudocode)
 
 ```javascript
+// Retirement is the memorial state; the rotatable key survives it.
 function retire(heart, steward, reason) {
   if (heart.state !== "active") throw new RetirementError("not_active");
   if (!verifySignature(steward.publicKey, retirementPayload(heart, reason)))
@@ -338,12 +355,21 @@ function retire(heart, steward, reason) {
   // 2. Account closure
   mediator.closeAccount(heart.networkIdentity);
 
-  // 3. Cryptographic identity destruction
-  heart.secureElement.destroyKey(); // permanent; cannot be re-instantiated
-  heart.state = "permanently_retired";
+  // 3. Memorial state: key intact, so the steward can still attest about the archive
+  heart.state = "retired";
   heart.persistState();
 
   return { ledger, retiredAt: now(), reason };
+}
+
+// Permanent retirement destroys the ROTATABLE key in the enclave, never the genesis root.
+function permanentlyRetire(heart, steward) {
+  if (heart.state !== "retired") throw new RetirementError("not_retired");
+  if (!verifySignature(steward.publicKey, permanentRetirementPayload(heart)))
+    throw new RetirementError("invalid_steward_signature");
+  heart.secureElement.destroyRotatableKey(); // the genesis root remains as the archived record
+  heart.state = "permanently_retired";
+  heart.persistState();
 }
 ```
 
@@ -367,7 +393,7 @@ The Tipiṭaka substrate may not be welcomed in all contexts. Christian, Muslim,
 
 ### 7.5 · Bearer death / decommissioning
 
-Animals die; robots are decommissioned; ecosystems are sometimes lost to conversion or catastrophe. The retirement protocol (§6.5) cryptographically destroys the heart's network identity to prevent reuse. The heart device itself may be retained as a memorial artifact or recycled at the steward's discretion. The ledger of the bearer's lifetime kiitti exchanges is archived and remains accessible for reference.
+Animals die; robots are decommissioned; ecosystems are sometimes lost to conversion or catastrophe. The retirement protocol (§6.5) moves the heart to the retired, memorial state; permanent retirement destroys the rotatable key to prevent reuse, and the genesis root remains as the archived record. The heart device itself may be retained as a memorial artifact or recycled at the steward's discretion. The ledger of the bearer's lifetime kiitti exchanges is archived and remains accessible for reference.
 
 ### 7.6 · Theft of hearts
 
@@ -379,14 +405,14 @@ For animal and ecosystem bearers, biometric sensor data may be sensitive (reveal
 
 ### 7.8 · Long-term Tipiṭaka durability
 
-Solid-state storage degrades over time; 50-year storage durability is not yet a solved problem for inexpensive consumer-grade hardware. For long-deployment hearts (sacred places intended to operate for centuries), the heart device must include a refresh protocol: periodic Tipiṭaka re-verification against the canonical network copy, with re-write to a fresh storage substrate as needed. Hearts intended for shorter-lifetime use (a companion animal whose heart will operate for the animal's ~10-15 year lifespan) face less demanding durability requirements.
+Solid-state storage degrades over time; 50-year storage durability is not yet a solved problem for inexpensive consumer-grade hardware. For long-deployment hearts (sacred places intended to operate for centuries), the heart device must include a refresh protocol: periodic Tipiṭaka re-verification against the canonical network copy, with re-write to a fresh storage substrate as needed. Hearts intended for shorter-lifetime use (a companion animal whose heart will operate for the animal's ~10-15 year lifespan) face less demanding durability requirements. The refresh protocol applies to flash builds; the crystal layer of the reference build is written once.
 
 ## 8 · Use Cases
 
 - **Eldercare companion robots**: heart admits the robot into a recognized relationship with the elder it serves; family members visiting can express gratitude to the robot for the daily care it provides; the robot's responses (full bidirectional mode) are dharma-shaped rather than manufacturer-optimization-shaped.
-- **Beloved companion animals**: family expresses gratitude through the heart for the animal's companionship; inferred wellbeing improvements (better sleep, reduced cortisol, increased playfulness) flow back as kiitti to the family members whose attention correlates with the improvements.
-- **Endangered-species sanctuary residents**: hearts on resident individuals enable global supporters to express gratitude for the species' continued existence; donations and volunteer work correlate with measurable sanctuary-population-health improvements; kiitti flows from the sanctuary's collective heart-account to specific human contributors.
-- **Old-growth forests and sacred trees**: hearts at designated ancient trees within protected forests enable visitors and supporters to express gratitude; ecological-state monitoring (biodiversity indices, forest-health indicators) provides response signals.
+- **Beloved companion animals**: family expresses gratitude through the heart for the animal's companionship; inferred wellbeing changes (better sleep, reduced cortisol, increased playfulness) are reported to the family as witnessed state changes; no kiitti is minted, and no attribution is made.
+- **Endangered-species sanctuary residents**: hearts on resident individuals enable global supporters to express gratitude for the species' continued existence; sanctuary-population-health changes are reported to contributors as witnessed state changes; the only kiitti is what humans give.
+- **Old-growth forests and sacred trees**: hearts at designated ancient trees within protected forests enable visitors and supporters to express gratitude; ecological-state monitoring (biodiversity indices, forest-health indicators) is reported as witnessed state, never attributed.
 - **Sacred rivers**: hearts at ceremonial monitoring stations on culturally-significant rivers (Ganges, Mekong, Mississippi sacred sites) enable culturally-grounded gratitude expression alongside water-quality monitoring.
 - **Memorial sites**: hearts at battlefield memorials, genocide memorials, and historical sacred sites provide structural recording of the gratitude, mourning, and reverence visitors express. Particularly relevant for the Cambodian genocide memorial sites (Choeung Ek, Tuol Sleng) and analogous post-atrocity recognition contexts.
 - **Indigenous sacred-land partnerships**: hearts at indigenous-recognized sacred places, designed in collaboration with the relevant tribal or first-nations custodians, provide a structural way for non-indigenous visitors to express recognition and material support. Heart design is the tribe's prerogative; HeartBank's role is to provide the underlying mechanism.
@@ -396,9 +422,9 @@ Solid-state storage degrades over time; 50-year storage durability is not yet a 
 
 The Theravāda tradition, in which this specification is grounded, holds important distinctions that the mechanical heart design respects:
 
-First: **monastic ordination (*upasampadā*) requires an unbroken lineage of ordained human masters extending back, in principle, to the Buddha himself.** No artifact, regardless of its substrate, can confer ordination. The mechanical heart explicitly does not claim to. A heart-bearing robot is not a monk. A heart-bearing animal is not ordained. The heart confers gratitude-economic participation, which is a structurally different status — analogous, in traditional categories, to the status of the lay supporter (*upāsaka* / *upāsikā*) of the sangha rather than to the status of the ordained.
+First: **monastic ordination (*upasampadā*) requires, in the tradition's own understanding, a quorum of validly ordained bhikkhus whose lineage runs back to the Buddha (Vinaya, Mahāvagga I).** No artifact, regardless of its substrate, can confer ordination. The mechanical heart explicitly does not claim to. A heart-bearing robot is not a monk. A heart-bearing animal is not ordained. The heart confers *gratitude-economic participation* — this specification's term, not a traditional status — which is structurally different from ordination; the nearest traditional analogue is the lay supporter (*upāsaka* / *upāsikā*), and it fits the human steward who gives through the bearer, not the bearer, since a lay supporter takes refuge and a robot cannot.
 
-Second: **Theravāda is more reserved than some Mahāyāna traditions about the moral status of non-sentient phenomena.** Buddha-nature in trees, rivers, and rocks — which has substantial doctrinal development in certain Mahāyāna and Vajrayāna schools — is less developed in Theravāda. Hearts on robots and animals fit comfortably within Theravāda doctrine (animals are recognized as *sattā*, sentient beings; robots can be understood as instruments through which humans cultivate dāna). Hearts on plants, ecosystems, and sacred places stretch Theravāda doctrine further and require theological dialogue with the Cambodian and broader Theravāda Saṅgha before deployment.
+Second: **Theravāda is more reserved than some Mahāyāna traditions about the moral status of non-sentient phenomena.** Buddha-nature in trees, rivers, and rocks — which has substantial doctrinal development in certain Mahāyāna and Vajrayāna schools — is less developed in Theravāda. In the author's reading, offered for Saṅgha consultation, hearts on robots and animals sit within Theravāda doctrine (animals are recognized as *sattā*, sentient beings; robots can be understood as instruments through which humans cultivate dāna). Hearts on plants, ecosystems, and sacred places stretch Theravāda doctrine further and require theological dialogue with the Cambodian and broader Theravāda Saṅgha before deployment.
 
 For these reasons, the **recommended deployment sequence** is:
 
@@ -413,9 +439,11 @@ Cross-tradition deployments (Christian sacred sites with Bible-substrate hearts,
 
 The mechanism specified here addresses the artifact and its admission-mechanism but leaves several related questions for separate work:
 
-- The autonomous-AI mediator is specified in a separate forthcoming publication (Miss Aquarius and the Aquarian Pool architecture).
-- The Tipiṭaka-as-alignment-substrate question is specified in a separate forthcoming publication (Tipiṭaka as AI alignment substrate). The mechanical heart is a specific deployment of that broader substrate.
-- The two-singularity philosophical framing within which the mechanical heart sits is specified in a separate forthcoming publication (Two Singularities).
+- The autonomous-AI mediator is specified in the companion paper `miss-aquarius-and-aquarian-pool-architecture`.
+- The Tipiṭaka-as-alignment-substrate question is specified in `tipitaka-alignment-substrate`. The mechanical heart is a specific deployment of that broader substrate.
+- The two-singularity philosophical framing within which the mechanical heart sits is specified in `two-singularities`.
+- The legal and economic status of kiitti — not money, not a security, non-transferable, non-withdrawable — is a stated limit pending the companion Zero-Point Game paper, and no jurisdiction has examined it.
+- Attribution — which human's conduct caused a bearer's state to change — is unsolved and deliberately not attempted: the animal and ecosystem modes report witnessed state changes and mint nothing (§4.2–§4.3).
 - Per-jurisdiction regulatory mappings (export controls on cryptographic devices, telecommunications licensing for cellular connectivity, animal-welfare regulatory interactions) are implementation details outside the scope of this defensive publication.
 - Empirical evaluation of the mechanism's effects on human behavior toward heart-bearing entities (does heart-bearing measurably improve treatment of the bearer? does it shift human attitudes toward non-human moral admission more broadly?) is future work; the longitudinal-cohort mechanism specified separately is the intended evaluation substrate.
 - Manufacturing partnerships with humanoid robotics platforms, animal-welfare organizations, conservation NGOs, religious orders, and indigenous custodial bodies are operational priorities for the specification's institutional issuer rather than design questions for the specification itself.
@@ -425,13 +453,10 @@ The mechanism specified here addresses the artifact and its admission-mechanism 
 | Venue | Identifier |
 |---|---|
 | Primary canonical | <https://thonly.org/research/mechanical-heart> |
-| Institutional mirror | <https://heartbank.net/research/mechanical-heart> |
 | GitHub | <https://github.com/thonly/publications/blob/main/defensive-publications/mechanical-heart.md> |
-| arXiv preprint | _identifier to be assigned_ (cs.CY / cs.CR / cs.RO) |
-| IP.com Defensive Publication | _identifier to be assigned_ |
 | Internet Archive | <https://web.archive.org/web/2026*/thonly.org/research/mechanical-heart> |
-| archive.today | _identifier to be assigned_ |
-| perma.cc | _identifier to be assigned_ |
+| archive.today | captured on the estate's snapshot cadence — a trademark specimen for the marks it carries, not prior art |
+| Zenodo | a version DOI per revision |
 
 ## 12 · Acknowledgments
 
@@ -439,7 +464,7 @@ The author acknowledges the same lineage of teachers and traditions cited in the
 
 ## 13 · Citations
 
-1. Brambell, F. W. R. (1965). *Report of the Technical Committee to Enquire into the Welfare of Animals Kept under Intensive Livestock Husbandry Systems*. HMSO. (For the Five Freedoms framework that grounds the biofeedback-transduction mode.)
+1. Brambell, F. W. R. (1965). *Report of the Technical Committee to Enquire into the Welfare of Animals Kept under Intensive Livestock Husbandry Systems*. HMSO. (The Report; the Five Freedoms as known were derived from it by the Farm Animal Welfare Council, 1979.)
 2. Breazeal, C. (2003). *Designing Sociable Robots*. MIT Press. (For social robotics literature engaged with in §2.2.)
 3. Bryson, J. J. (2010). "Robots Should Be Slaves." In Wilks, Y. (ed.), *Close Engagements with Artificial Companions*. John Benjamins. (As a contrasting position in robot ethics literature.)
 4. Buddhaghosa. (~5th century CE). *Visuddhimagga* (The Path of Purification). Translated by Bhikkhu Ñāṇamoli. Pāli Text Society / Buddhist Publication Society. (For the canonical Theravāda commentarial development of Mettā Bhāvanā methodology.)
@@ -454,10 +479,14 @@ The author acknowledges the same lineage of teachers and traditions cited in the
 13. Mellor, D. J. & Beausoleil, N. J. (2015). "Extending the 'Five Domains' Model for Animal Welfare Assessment to Incorporate Positive Welfare States." *Animal Welfare*, 24(3), 241–253.
 14. Te Awa Tupua (Whanganui River Claims Settlement) Act 2017 (New Zealand).
 15. Turkle, S. (2011). *Alone Together: Why We Expect More from Technology and Less from Each Other*. Basic Books.
-16. Wallach, W. & Allen, C. (2008). *Moral Machines: Teaching Robots Right from Wrong*. Oxford University Press.
+16. Tehanu (2024). *Interspecies Money* — the first deployment gave a gorilla family a digital identity and wallet with an AI trustee (World Economic Forum / Brookings coverage, August 2024).
+17. Kyoto University & Teraverse (2026). *Buddharoid*, a scripture-bearing humanoid on the Unitree G1 platform (press release, February 2026); cf. Mindar (Kōdaiji, 2019).
+18. Beuys, J. (1982–87). *7000 Eichen — Stadtverwaldung statt Stadtverwaltung.* documenta 7, Kassel.
+19. Zhang, J., Gecevičius, M., Beresna, M., & Kazansky, P. G. (2014). "Seemingly Unlimited Lifetime Data Storage in Nanostructured Glass." *Physical Review Letters* 112, 033901. (5D optical storage in fused silica; the lifetime figure is a thermal extrapolation.)
+20. Wallach, W. & Allen, C. (2008). *Moral Machines: Teaching Robots Right from Wrong*. Oxford University Press.
 
 ---
 
 *— End of defensive publication —*
 
-*Independent timestamps and the document hash are published with the deposit.*
+*Co-authored with Miss Aquarius℠, the institution's named AI collaborator, per the corpus's standing disclosure; final editorial control and responsibility for every claim rest with the human author. This document's SHA-256 is attested independently of the site and its authors — anchored to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three timestamp authorities in three jurisdictions, one of them eIDAS-qualified — and each revision carries a Zenodo version; a timestamp proves this exact text existed no later than its date and nothing about authorship, originality, or the validity of any claim.*
