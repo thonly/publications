@@ -119,7 +119,8 @@ DIRS = {
 # Directories deposited when no --dir is given.
 #
 # ESSAYS ARE DELIBERATELY NOT IN THE DEFAULT. The publication posture is that
-# essays carry no Zenodo DOI, and before this default existed that posture was
+# PERSONAL essays carry no Zenodo DOI (argument essays qualify since 2026-09-07,
+# gated by `zenodo: true` on the document); before this default existed that posture was
 # held only by whoever ran the script remembering to pass a scope flag. A dry
 # run on 2026-08-29 confirmed the exposure: an unscoped --create --publish would
 # have minted DOIs for every essay in the corpus. A DOI cannot be withdrawn, so
@@ -463,7 +464,7 @@ def main():
                             f"{args.only!r} is in {d}/, which is not deposited by "
                             f"default.\n"
                             f"For essays this is the publication posture, not an "
-                            f"oversight: essays carry no Zenodo DOI.\n"
+                            f"oversight: personal essays carry no Zenodo DOI; an argument essay needs zenodo: true.\n"
                             f"If that has genuinely changed, re-run with "
                             f"--dir {d}.")
             raise SystemExit(f"no paper matching slug {args.only!r}")
