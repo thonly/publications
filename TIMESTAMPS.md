@@ -403,3 +403,16 @@ The `sha256:`/`doi:` front-matter cleanup of 2026-08-27 edited ten undeposited e
 
 ⭐ **The lesson is the instrument's, not the essays'.** Three legs were green the whole time and the fourth failed in a way nothing was built to report. ⚠️ **A stale proof is strictly worse than a missing one: it verifies.**
 
+
+### 2026-09-07 — `the-water-cycle`: first publication (essay; the objective's public form)
+
+*The Water Cycle — Why HeartBank Is Anonymous.* Drafted 2026-09-06 (`/draft`, argument essay, checklist A), founder's pass 2026-09-07 with one correction (§1: the invisible return leg was the founding insight, not a late one), human round `2026-09-07-h1` ruled → `status: published` (the first essay through the human lane; `reviews.json` carries it).
+
+| leg | result |
+|---|---|
+| **1 · OTS** | first proof stamped on the pre-flip text (calendar-only); ⏳ **rotation to `.r1.ots` + re-stamp of the published bytes WAITS for the Bitcoin confirmation** — an incomplete proof is never archived. Run after `/ots` completes it. |
+| **2 · TSA** | `tsa-stamp.yml` dispatched (run 34098153772); the manifest hashes `git ls-files`, so it covers the published bytes |
+| **3 · Zenodo** | — essays carry no DOI by standing posture |
+| **4 · Index** | `@333eco/corpus` 2.3.1 — 143 documents, register reconciles; worker pin + deploy follow CI's publish |
+
+⚠️ The status flip changed the bytes minutes after the first stamp, so leg 1 reads STALE until the rotation — deliberately, per the rule above.
