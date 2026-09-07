@@ -4,7 +4,7 @@ subtitle: "Why HeartBank Is Anonymous"
 authors: "Thon Ly"
 category: essays
 priority: tier-b
-status: draft
+status: published
 date: 2026-09-06
 license: CC0-1.0
 slug: the-water-cycle
