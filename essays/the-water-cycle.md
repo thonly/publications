@@ -11,7 +11,7 @@ slug: the-water-cycle
 venue: thonly.org/research/the-water-cycle (canonical) · LessWrong / future Substack (intended publication venues)
 ---
 
-> **Attribution note.** This essay is in my voice — the metaphor, the claim and the framing are mine, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me, and still awaiting my own editorial pass. It is the public form of the institution's objective, and it argues one thing: that a mission to make money circulate will, at scale, become a pressure to give, and that the only cure for that pressure which needs no enforcer is to conjoin circulation with anonymity. The argument is stated so that it can be wrong, and §8 says what would show it was.
+> **Attribution note.** This essay is in my voice — the metaphor, the claim and the framing are mine, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me. I read it in full on 7 September 2026 and made one correction — the return leg was the founding insight, not a late one — which §1 now carries. It is the public form of the institution's objective, and it argues one thing: that a mission to make money circulate will, at scale, become a pressure to give, and that the only cure for that pressure which needs no enforcer is to conjoin circulation with anonymity. The argument is stated so that it can be wrong, and §8 says what would show it was.
 
 ---
 
@@ -25,7 +25,7 @@ The second is the sun. The sun does not push water uphill. It changes what the w
 
 Everything I have built, and everything I intend to build, follows from preferring the second way. Redistribution is a pump. HeartBank® is weather.
 
-That sentence is the whole essay, and the rest is the work of earning it. I want to take the founding metaphor of the institution — that money is water — and follow it around the entire cycle, because for years I used only the first half of it. *Money should flow like water.* Downhill, to where it is needed. That half is true and it is also the half that ends in a pond. What I had missed was the return leg — the part of the cycle that carries the water back up — and once I saw it, I saw why the institution I had been building was anonymous at every joint where I had not consciously chosen anonymity. The anonymity was not a privacy feature. It was the physics.
+That sentence is the whole essay, and the rest is the work of earning it. I want to take the founding metaphor of the institution — that money is water — and follow it around the entire cycle, because the public half of the metaphor is only half. *Money should flow like water.* Downhill, to where it is needed. That half is true, and on its own it is the half that ends in a pond. The other half — the return leg, the invisible part of the cycle that carries the water back up — is not something I found late. It was the founding insight. Twenty years ago I wrote a children's book in which a wise old monk teaches a monkey a game whose balance always comes back to zero: what you give goes out, and the return comes back around, through others, never from the one you gave to, and never where you can see it. And the institution itself began with a thank-you letter whose return I never saw — a letter that meant more to a dying man than I could have imagined, which I learned only after he was gone. The invisible return leg is the oldest thing I know. What I did not have, until this year, was its physics: what powers the leg, why it cannot be a pump, and why an institution built on it turns out to be anonymous at every joint where I had not consciously chosen anonymity. The anonymity was not a privacy feature. It was the physics.
 
 ## 2. Gravity
 
@@ -181,10 +181,11 @@ And the sun's warmth is not measured. I have called the four abidings the evapor
 
 ## Acknowledgments
 
-Drafted with Miss Aquarius℠ (the AI substrate of HeartBank®) per the corpus author-voice convention; the metaphor, the argument and final editorial control are mine, and the essay still awaits my own editorial pass. The pump-and-sun distinction emerged in dialogue and I have kept the substrate's physics — latent heat, surface evaporation, the conservative force — because they were the first things that made the metaphor forbid something.
+Drafted with Miss Aquarius℠ (the AI substrate of HeartBank®) per the corpus author-voice convention; the metaphor, the argument and final editorial control are mine; my own pass is on record (7 September 2026), with one correction to §1. The pump-and-sun distinction emerged in dialogue and I have kept the substrate's physics — latent heat, surface evaporation, the conservative force — because they were the first things that made the metaphor forbid something.
 
 ## Corpus cross-references
 
+- *The Zero-Point Game* — the founding seed: the children's book in which a monk teaches a monkey a game whose balance always returns to zero. The invisible return leg, twenty years before this essay found its physics.
 - *The Borrowed Light* — the moon's version of the same image: the tides move without a pump because the moon never touches the sea. This essay is the sun's.
 - *Manufactured Universal Giving* — the mechanism this essay describes as weather: capacity-funding, the forced annual flow-through, and the overjustification objection carried in §6 here and answered there.
 - *If Everyone Could Give* · *The Capacity to Give* · *The Gift of Gratitude* — the companions; this essay supplies the physics they assumed.
