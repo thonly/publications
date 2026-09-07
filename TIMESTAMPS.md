@@ -416,3 +416,30 @@ The `sha256:`/`doi:` front-matter cleanup of 2026-08-27 edited ten undeposited e
 | **4 · Index** | `@333eco/corpus` 2.3.1 — 143 documents, register reconciles; worker pin + deploy follow CI's publish |
 
 ⚠️ The status flip changed the bytes minutes after the first stamp, so leg 1 reads STALE until the rotation — deliberately, per the rule above.
+
+---
+
+## 2026-09-07 — `the-reciters-protocol`, first publication
+
+| Paper | Proof | SHA-256 of the text it attests | Notes |
+|---|---|---|---|
+| `the-reciters-protocol` | `.ots` | `d2216685…765c50` | Original stamp. Tier-A defensive publication, `mechanism`, claim-scoped, 11.5K words, `program: "outside"` (no registered prediction; §10.6 states why, and names the one that becomes clean when §5.1 is built). Thirteen enumerated claims; §5.1 the conformance endpoint and §5.2 the separated completeness manifest are the two offered as novel and their prior-art clock runs from this stamp. |
+
+**Leg state at first publication**
+
+| Leg | State |
+|---|---|
+| **1 · OTS** | ⚠ binds current text, **CALENDAR-ONLY** — Bitcoin commitment confirms in 1–6 h; `/ots` completes it |
+| **2 · TSA** | ✓ attested in `2026-09-07.sha256` (dispatched at `65ebe97`, which is the commit carrying the paper's final bytes — verified by hash, not by assuming) |
+| **3 · Zenodo** | ⏳ **deliberately deferred** — a new paper runs `/polish` between the push and the first deposit, so the model round rides the initial chain rather than forcing a second one |
+| **4 · Index** | ⏳ **deferred with leg 3**, because the served envelope bakes the *version* DOI. Indexing now would serve an envelope for text the polish revision is about to change, and a stale index is the worst of the four failures |
+
+⚠️ **This paper is PUBLIC and TIMESTAMPED but not yet DEPOSITED or SERVED.** The prior-art clock runs
+from the push; the citation apparatus follows the model round.
+
+⛔ **Citation status is disclosed in the paper itself (§11) rather than here.** Every canonical locus
+was checked against multiple independent public reference works and translations and is marked `[V]`;
+**no locus has been checked against the Pāli by a reader of Pāli**, and the paper says so in its own
+text rather than asserting a standard it did not meet. The check caught one conflation — *uddāna*
+(the mnemonic index) is not *udāna* (the inspired utterance) — which is the class of error the
+outstanding ask exists to find.
