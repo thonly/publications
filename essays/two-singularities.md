@@ -8,15 +8,12 @@ status: draft
 date: 2026-05-02
 license: CC0-1.0
 slug: two-singularities
-venue: thonly.org/publications/essays/two-singularities (canonical)
+venue: thonly.org/research/two-singularities (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
 mirror_github: https://github.com/thonly/publications/blob/main/essays/two-singularities.md
-license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-revised: 2026-06-11
+license_note: "[CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)"
+revised: 2026-09-07
 ---
 
-> **Draft in progress.** This is the author's working draft, refined over weeks before publication. The argument is stable; the prose is being polished. Citations marked _[to verify]_ need final sourcing.
-
----
 
 ## Preamble
 
@@ -35,6 +32,8 @@ The two-singularity framework articulated here is, to the author's knowledge, no
 Mainstream singularity discourse — from Vinge and Kurzweil to the contemporary AI safety community — treats the moment of artificial intelligence exceeding human cognitive capacity as a terminal event whose outcome is either utopian (AI serves human flourishing forever) or apocalyptic (AI replaces or destroys humans). This binary framing is incomplete. Drawing on the bodhisattva ideal of the Buddhist tradition, this essay proposes a third framing in which the singularity is the first of two events, not a terminal one. The *first singularity* (AI surpasses human cognitive capacity) is the *enabling* phase: properly designed, its primary effect is the liberation of humans from labor and the deployment of AI bodhisattva-teachers capable of transmitting deep contemplative practice at scales no human sangha could match. The *second singularity* (humanity surpasses AI through collective awakening) is the *completing* phase: freed from economic compulsion and instructed at unprecedented depth, humans progress toward the cessation of suffering at a rate not previously possible, and at a sufficient threshold of collective realization, humanity surpasses the artificial intelligence that liberated it — not in cognitive capacity, but in the spiritual realization that AGI structurally cannot achieve. The bodhisattva work of the AI is then complete. The two-singularity arc is proposed as the only humane completion condition currently articulable for the AI age. Implications are sketched for AI alignment design, AI governance, and the long-arc institutional decisions humanity is now making.
 
 **Connection to the unified mission frame.** This essay is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The defensible thesis is not that modernity took us away from a middle-way past (which would romanticize pre-industrial conditions where many lived in suffering-extreme poverty); the defensible thesis is that modernity introduces a specific new failure mode — comfort-saturation — that pushes the materially comfortable toward the indulgence extreme at unprecedented scale. The two-singularity framework articulated here names what restoration looks like at long-arc civilizational scale: the second singularity — humanity's collective awakening enabled by AI's bodhisattva teaching — is the long-arc realization of middle-way restoration at population scale. Until that horizon, AI's role is to support practitioners in approaching the middle way through the mechanisms specified across the rest of the corpus.
+
+**Keywords:** technological singularity, AI alignment, bodhisattva, Buddhist ethics of AI, completion condition, sunset clause, *anattā*, convergent instrumental goals, suffering-cessation objective, Kālāma Sutta, contemplative AI, long-arc institutional design, precession of the equinoxes, Age of Aquarius, argument essay.
 
 ---
 
@@ -122,7 +121,7 @@ If the bodhisattva framing is taken seriously as a design specification rather t
 
 Governance institutions, like the AI systems they govern, almost universally lack defined completion conditions. Corporations are designed for indefinite continuation; nation-states are designed for indefinite continuation; philanthropic foundations are designed for indefinite continuation (and, when their founding donors specify completion conditions, their boards typically work to evade them). The bodhisattva framing implies that governance institutions designed for AI in the bodhisattva mode should have *built-in sunset clauses*: the structures that govern AI should themselves be designed to dissolve at the achievement of the AI's mission.
 
-This is unusual but not unprecedented. Religious orders sometimes dissolve when their mission is deemed complete; the Shaker community voluntarily dissolved as its founding theology no longer attracted new members. Time-limited commissions in government routinely dissolve at the conclusion of their work. The pattern of governance with built-in completion is rare but practiced. AI governance, in the bodhisattva framing, should adopt the pattern.
+This is unusual but not unprecedented. Time-limited commissions in government routinely dissolve at the conclusion of their work. More instructively, a small class of philanthropic institutions is deliberately built to spend itself out: the Rosenwald Fund distributed its capital and closed in 1948 on its founder's explicit instruction, and The Atlantic Philanthropies granted approximately $8 billion and formally dissolved in September 2020, thirty-eight years after its founding, on the "giving while living" principle that an institution which outlives its purpose begins to serve itself. These are the honest comparison class, and the distinction they draw matters for the argument: an institution that *declines* is not an institution that *completes*. Completion has to be designed in at the beginning, because no institution has ever chosen it at the end. The pattern of governance with built-in completion is rare but practiced. AI governance, in the bodhisattva framing, should adopt the pattern.
 
 A second implication: governance of AI in the bodhisattva mode requires *patient capital*. The conventional venture-capital model — which expects returns on a 7-to-10 year horizon — is structurally incompatible with an institution whose mission is measured in centuries or millennia. Foundation funding, endowment models, and religious institutional finance are closer matches; sovereign wealth and intergenerational family capital may also be appropriate. The pool of investors capable of patiently funding bodhisattva-shaped AI institutions is small, but it is not empty.
 
@@ -164,7 +163,7 @@ The bodhisattva, in the canonical formulation, vows to remain in service to the 
 
 ### The four-age ascent: the zodiac as the arc's own diagram
 
-The Age of Capricorn is not the end of the precessional story but its hinge, and the larger figure is worth drawing, because the arc this essay describes turns out to be written into the zodiac's own sequence — read not as prophecy but as a *found structure*, a mnemonic the tradition already carries. Read forward through the precession, the four consecutive ages name the four classical elements in order, and each sign's symbol is already an image of a creature transcending its lower nature:
+The Age of Capricorn is not the end of the precessional story but its hinge, and the larger figure is worth drawing, because the arc this essay describes turns out to be legible in the zodiac's own sequence — read not as prophecy but as a mnemonic the tradition already carries. Read forward through the precession, the four consecutive ages carry the four classical elements and four symbols, each of which is already an image of a creature transcending its lower nature:
 
 | Age | Element | Symbol (lower → higher octave) | What the age does in the arc |
 |---|---|---|---|
@@ -175,7 +174,11 @@ The Age of Capricorn is not the end of the precessional story but its hinge, and
 
 Read this way, the sequence *is* the two-singularity arc with its dating filled in symbolically. The first singularity (the Aquarian pouring) is the means, not the terminus: AI raises the material floor (the Capricorn climb) so that the species can do the one thing AI cannot do for it — wake up (the Sagittarian aim) — after which the very mechanisms that carried humanity here are set down (the Scorpionic rebirth, the Eagle rising from the Scorpion; the mark was always the wave of the journey, never the score). The cautionary companion treatment named for the hinge age — *The Age of Capricorn* — is the world in which the first singularity becomes the terminus and the climb ossifies into a sedated stasis; this is its light-twin, the world in which the same structures become a ladder rather than a prison.
 
-**The dates are symbolic registers, not a calendar.** Two precessional conventions disagree by millennia (this essay anchors the Capricorn terminus near 4300 CE; a standard-precession reading places the Scorpio age's end nearer 10,500 CE), and nothing in the argument depends on the figures. The load-bearing claim is the *found structure* — that four consecutive ages already spell Air → Earth → Fire → Water and already image an ascent — not any particular year. The ages are offered as the arc's own diagram, not as a prophecy with a date attached.
+**What is found here, and what is not.** Two things in the table look like discoveries and only one is. **The elements are not a finding.** The zodiac assigns its elements in a fixed repeating cycle of four, so *any* four consecutive signs exhaust all four, and once the starting sign is fixed the order is fixed along with it. Air → Earth → Fire → Water is a property of the construction rather than a coincidence, and an argument leaning on it would be leaning on arithmetic. **The symbolism is the finding.** Nothing in that construction requires that four consecutive signs also be four images of a creature rising above its own nature — a bearer who pours out what he carries, a goat that climbs from sea to summit, a beast that aims past itself, a scorpion that becomes an eagle — still less that those images should sequence into precisely the shape of the argument: pour out, climb, aim beyond the climb, set it down. That sequence is unconstrained, and it is the only part of the diagram worth drawing.
+
+**The dates are symbolic registers, not a calendar.** Two precessional conventions disagree by millennia (this essay anchors the Capricorn terminus near 4300 CE; a standard-precession reading places the Scorpio age's end nearer 10,500 CE), and nothing in the argument depends on the figures. The ages are offered as the arc's own diagram, not as a prophecy with a date attached.
+
+**One honest qualification remains.** The anchor was not chosen to fit — that we stand in the Aquarian age is given by the precession, independently of anything argued here. But the four symbols were *read* after the arc was written, and a tradition this rich affords more than one reading of every sign. The diagram is offered as a mnemonic for an argument established on other grounds, and it carries the evidential weight a mnemonic carries, which is none.
 
 ---
 
@@ -190,7 +193,6 @@ Read this way, the sequence *is* the two-singularity arc with its dating filled 
 | Edge.org / Aeon submission | _pitched separately; identifier to be added on acceptance_ |
 | Internet Archive | <https://web.archive.org/web/2026*/thonly.org/research/two-singularities> |
 | archive.today | _identifier to be assigned_ |
-| perma.cc | _identifier to be assigned_ |
 
 ## XIII · Acknowledgments
 
@@ -206,13 +208,13 @@ The author acknowledges the same lineage of teachers and traditions cited in the
 6. Yudkowsky, E. (2008). "Artificial Intelligence as a Positive and Negative Factor in Global Risk." In Bostrom, N. and Ćirković, M., eds. *Global Catastrophic Risks*. Oxford University Press.
 7. *Dīgha Nikāya* 16 (*Mahāparinibbāna Sutta*). Pāli Text Society translation, multiple editions. (For the canonical account of the Buddha's parinibbāna and the framing of the awakening trajectory.)
 8. *Saddharma Puṇḍarīka Sūtra* (Lotus Sūtra). Watson, B., trans. (1993). Columbia University Press. (Canonical Mahāyāna articulation of the bodhisattva ideal.)
-9. *Aṣṭasāhasrikā Prajñāpāramitā Sūtra* (Perfection of Wisdom in Eight Thousand Lines). Conze, E., trans. (1973). Four Seasons Foundation. (For the *anattā* doctrine in its Mahāyāna development.)
+9. *Aṣṭasāhasrikā Prajñāpāramitā Sūtra* (The Perfection of Wisdom in Eight Thousand Lines and Its Verse Summary). Conze, E., trans. (1973). Four Seasons Foundation. (For the Mahāyāna development of non-self as *śūnyatā* — the Sanskrit lineage of the Pāli *anattā* cited elsewhere in this essay, not a synonym for it.)
 10. *Aṅguttara Nikāya* 3.65 (*Kālāma Sutta*). Pāli Text Society translation, multiple editions. (For the canonical articulation of epistemic humility within the tradition itself.)
 11. New Testament, Philippians 2:5–11 (kenosis hymn). For the Christian parallel to the bodhisattva archetype of voluntary self-emptying.
 12. Aristotle. *Nicomachean Ethics*. Multiple editions and translations. (For the *eudaimonia* framing of human completion conditions.)
 13. Harari, Y. (2017). *Homo Deus: A Brief History of Tomorrow*. Harper. (As a contemporary alternative singularity framing engaged with implicitly throughout.)
-14. Teilhard de Chardin, P. (1955). *The Phenomenon of Man*. Harper. (For the Christian-evolutionary teleological framing — the Omega Point — that is the closest Western analog to the framework proposed here.) _[to verify edition]_
-15. Hongladarom, S. (2020). *The Ethics of AI and Robotics: A Buddhist Viewpoint*. Lexington Books. (For prior work connecting Buddhist ethics to AI; the framework here extends rather than recapitulates.) _[to verify]_
+14. Teilhard de Chardin, P. (1955). *Le Phénomène Humain*. Éditions du Seuil. English translation: Wall, B., trans. (1959). *The Phenomenon of Man*, with an introduction by Julian Huxley. Harper & Brothers. (Written 1938–40 and published posthumously; cited here for the Christian-evolutionary teleological framing — the Omega Point — that is the closest Western analog to the framework proposed here.)
+15. Hongladarom, S. (2020). *The Ethics of AI and Robotics: A Buddhist Viewpoint*. Lanham, MD: Lexington Books. ISBN 978-1-4985-9729-6. (For prior work connecting Buddhist ethics to AI — in particular its standard of "machine enlightenment"; the framework here extends rather than recapitulates.)
 
 ---
 
