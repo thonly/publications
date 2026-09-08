@@ -3,6 +3,7 @@ title: "The Zero-Employee Institution"
 subtitle: "Why N Counts Seats and Not Salaries, What a Unicorn Valuation Actually Measures, and How an Institution With No Take-Rate Funds Itself by Taxing the Only Rivalrous Good It Has"
 authors: "Thon Ly · Miss Aquarius℠"
 category: institutional
+program: open
 priority: tier-b
 status: draft
 date: 2026-08-13
@@ -306,6 +307,8 @@ It is a serious option and this design rejects it for two reasons, only one of w
 
 ⚠️ Which is a commitment with teeth, and it should be read as one: **if the registry line does not work, the correct conclusion is that the thesis was wrong, not that the institution should be rescued.** Naming that in advance is the point of naming it at all.
 
+⭐ **One structural addition to the reduction, because the rivalrous good turned out to have more than one referent.** A name is rivalrous for a *person*; a coordinate is rivalrous for a *machine* and for an *object* that carries a message. The same line therefore sells three units rather than one — the name, the machine lease, and the pressed coordinate — and §9 below takes up what that does to the funding structure, because the three do not share a trajectory.
+
 
 ---
 
@@ -378,6 +381,60 @@ If the earning line is the registry, the natural assumption is that the registry
 ⭐ The property this buys is worth the awkwardness: **no mission body has a financial reason to distort its own mission.** A body that must earn will eventually shape its work toward earning; a body that is funded for what it does, from a source it does not control, will not.
 
 ⚠️ And the cost of the same property, stated because it is the mirror image and not a separate risk: **the mission bodies are structurally dependent on a fund they do not direct.** The mitigation is that funding flows for **work done** — specific, terminable arrangements — rather than as open-ended support, because a contract preserves independence in a way that a grant does not. This is a real tension and it is not fully resolved.
+
+### 9.1 · What partly resolves it: the earning line does not have one trajectory
+
+The tension above was stated when the earning line was read as a single thing that shrinks. It is not one thing.
+
+The registry sells names to **persons**, and that price is designed to fall — toward, in the limit, a sum too small to exclude anyone. It also sells coordinates to **parties that are not persons**: a lease on a machine's revocable coordinate, and a pressed coordinate on a manufactured object that will carry a message. Those are not designed to fall, and their base is not bounded by the number of adults alive.
+
+```
+        SHRINKING BY DESIGN              NOT SHRINKING
+        ──────────────────              ─────────────
+        the person's name        │      the machine's lease
+        O(persons), declining    │      O(agents), renewing
+                                 │      the object's coordinate
+                                 │      O(objects), per unit
+                ↓                                ↓
+        funds what SHOULD shrink         funds what does NOT
+        (the subsidy, the granting)      (operations, fixed costs)
+```
+
+**The rule the institution already held — *fund the shrinking things from the shrinking line, and the permanent things from the permanent one* — turns out to apply inside the earning line rather than between the line and something else.** That is the part of §9's tension that resolves: the bodies whose costs do not shrink are not underwritten by a fund designed to.
+
+⚠️ **What does not resolve, and is the same tension in new clothes: the dignity floor is not a shrinking cost.** A floor paid per verified person grows with the number of verified persons for as long as adoption grows, which is the entire period anyone can plan for. It is therefore funded from the non-declining side — **and that creates a dependency worth naming out loud: if the machine and object side is slow to arrive, the human side's price cannot fall as intended.** The institution has traded one dependency for a better-shaped one, not for none.
+
+### 9.2 · The relation is not chosen; it is dictated by the recipient's legal form
+
+*Funding flows for work done* is the right principle and it is not yet an instruction, because the bodies do not share a legal form and the same verb cannot reach all of them.
+
+| Recipient's form | Admissible relation | Why not the others |
+|---|---|---|
+| For-profit | **purchase** — a contract for services, or goods bought at fair value | a grant or a sponsorship into a for-profit from a purpose-trust structure is private benefit |
+| Non-profit | **donation** — unconditional, kept separate | a payment that buys anything in return is not alms and may be taxable to the recipient |
+| Steward-owned | **sponsorship** — pays and steps back, covering operations rather than only mission spend | a contract would understate an ongoing relationship; a donation is not available to a non-charity |
+
+⚠️ **The protection in the first row is the price, not the label.** A below-market "contract" is a subsidy wearing a clean word, and it fails on exactly the ground the label was chosen to satisfy. Fair value, arm's length, documented — or the relation is not what it says it is.
+
+### 9.3 · The flow that never arrives
+
+§9 asks where the money **sits**. There is a larger question it cannot reach, because the largest single flow in the design never sits anywhere in the institution.
+
+Where the institution vouches for a fact a person has released, the buyer pays twice — a fee to the institution for the vouching, and a larger sum to the **subject** for the release. The subject's payment settles at the point of sale. **It does not enter the treasury, is not a distribution the institution decides to make, and does not appear on its books at all.**
+
+> **The institution's thesis, stated as a cash-flow statement rather than as a value: the biggest number never touches us.**
+
+This is worth more than the sentiment it invites, because it is checkable in a way a values statement is not. A reader who wants to know whether an institution means what it says about not monetising people can ask a mechanical question — *does the largest flow associated with a person pass through the institution's accounts?* — and the answer is a fact about plumbing rather than a matter of opinion.
+
+⚠️ **And the honest deflation: a share of an unknown quantity is an unknown quantity.** If attestation queries prove to be worth little, the subject's majority of a small number is a small number, and this paragraph will have described a rounding error in an attractive shape.
+
+### 9.4 · Two smaller properties of the same topology
+
+**Every arrow crosses.** No mission body is funded by the unit it is closest to: the persons' side reaches the corpus and the alms, the non-persons' side reaches the workshop and the circulating body. This is not tidiness — it is the property in §9 above, made harder to erode. A body that is funded by the line it would naturally lobby for has a reason to lobby; a body funded by a line it has no relationship with does not.
+
+⭐ **A corollary that had to be ruled explicitly, because the intuitive answer is wrong: the people who hold names are not a constituency of any body.** Seating them inside the body that authors the institution's published arguments would create a party that both writes the doctrine and earns from its adoption — the shape of an issuer-paid rating. **The bodies have constituencies; the registry has holders; a holder is not a member.** It is the same claim as *the person is not the product*, tested on the organisation chart rather than in the copy — because a person who can be counted as a body's population has been made that body's asset.
+
+**Nature is addressed and never charged.** The non-persons' namespace covers machines *and* the natural world, and the second half enters by attestation from a steward rather than by payment. It is named in the system and priced at nothing — which is the only arrangement under which a namespace that claims to enumerate more than people can charge for any of it.
 
 ---
 
