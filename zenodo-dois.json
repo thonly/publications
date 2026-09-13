@@ -107,6 +107,15 @@
   "sha256": "c4a105e47bf34ff0ae994aad07d31632fec209b1f69cc923a9b02b59d0615af0",
   "url": "https://zenodo.org/records/21947299"
  },
+ "cautionary-mirror-singularity": {
+  "concept_doi": "10.5281/zenodo.22735464",
+  "deposition_id": 22735465,
+  "doi": "10.5281/zenodo.22735465",
+  "published": true,
+  "sandbox": false,
+  "sha256": "42932fbb18b6153e35ca8ca94a2780265931a0c75df07a00e06fe8c3b196afea",
+  "url": "https://zenodo.org/records/22735465"
+ },
  "certification-by-circulation": {
   "concept_doi": "10.5281/zenodo.21947300",
   "deposition_id": 22246384,
@@ -431,6 +440,15 @@
   "sha256": "3683b3f625c158be80b73d7b27d2b1fc7c122d2c52b9ba000ef45d689f0ca357",
   "url": "https://zenodo.org/records/22246444"
  },
+ "subject-released-attestation": {
+  "concept_doi": "10.5281/zenodo.22735457",
+  "deposition_id": 22735458,
+  "doi": "10.5281/zenodo.22735458",
+  "published": true,
+  "sandbox": false,
+  "sha256": "8ede0637fec68fdd310503286ac22bea72dae014511464e5cadc851d14d9e1af",
+  "url": "https://zenodo.org/records/22735458"
+ },
  "thank-all-nearby-primitive": {
   "concept_doi": "10.5281/zenodo.21947389",
   "deposition_id": 22167875,
@@ -494,6 +512,15 @@
   "sha256": "4590a9afd868977899597f94149f13d6c875454087ebbf5f1d4f2e5f926eedc0",
   "url": "https://zenodo.org/records/22365965"
  },
+ "the-reciters-protocol": {
+  "concept_doi": "10.5281/zenodo.22735459",
+  "deposition_id": 22735460,
+  "doi": "10.5281/zenodo.22735460",
+  "published": true,
+  "sandbox": false,
+  "sha256": "cf7f24bc527fcf737e9d2e024c422ea9ef7e245e36750fee74ac757958e3ba54",
+  "url": "https://zenodo.org/records/22735460"
+ },
  "the-referee-not-the-governor": {
   "concept_doi": "10.5281/zenodo.22123174",
   "deposition_id": 22440991,
@@ -539,14 +566,23 @@
   "sha256": "03623dc2cb4741a6b09b82a7f5c256e9a9e10fe78c63290aa180d27616191260",
   "url": "https://zenodo.org/records/21947417"
  },
- "the-zero-employee-institution": {
-  "concept_doi": "10.5281/zenodo.21947420",
-  "deposition_id": 21947421,
-  "doi": "10.5281/zenodo.21947421",
+ "the-water-cycle": {
+  "concept_doi": "10.5281/zenodo.22735468",
+  "deposition_id": 22735469,
+  "doi": "10.5281/zenodo.22735469",
   "published": true,
   "sandbox": false,
-  "sha256": "d222929b3c30f315df523fce95c96defc08814000c63892b9fc43c34ac240692",
-  "url": "https://zenodo.org/records/21947421"
+  "sha256": "d5d293cd3f3208b17315de40198bc98ba523eeabb37a3439d31defcd33fe5511",
+  "url": "https://zenodo.org/records/22735469"
+ },
+ "the-zero-employee-institution": {
+  "concept_doi": "10.5281/zenodo.21947420",
+  "deposition_id": 22735461,
+  "doi": "10.5281/zenodo.22735461",
+  "published": true,
+  "sandbox": false,
+  "sha256": "6610a06e1b2ebcd42091d335ae6245268f811b60fb3550b1a866289498c197a1",
+  "url": "https://zenodo.org/records/22735461"
  },
  "tipitaka-alignment-substrate": {
   "concept_doi": "10.5281/zenodo.21947422",
@@ -574,6 +610,15 @@
   "sandbox": false,
   "sha256": "57bed7e0ee4641f6a1b39ec3b03c7e5c47f25a17adb78249bdff58f96de61ad8",
   "url": "https://zenodo.org/records/22246465"
+ },
+ "two-singularities": {
+  "concept_doi": "10.5281/zenodo.22735470",
+  "deposition_id": 22735471,
+  "doi": "10.5281/zenodo.22735471",
+  "published": true,
+  "sandbox": false,
+  "sha256": "e8efdb4cfc41c3e8ba9c7f46f8cc109fc500360179de303b0dc83d3113cc2b35",
+  "url": "https://zenodo.org/records/22735471"
  },
  "verified-human-anonymous-local-giving": {
   "concept_doi": "10.5281/zenodo.21947430",
