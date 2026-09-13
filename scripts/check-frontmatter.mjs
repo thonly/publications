@@ -47,8 +47,8 @@
 // MA/.claude/skills/polish/scripts/review-log.mjs) records a RULED HUMAN round whose
 // `##` heading set still matches the paper. A structural revision therefore cannot
 // leave a paper wearing "published": the guard sees the headings change. Prose
-// revisions keep the label. The one paper that read `published` before the ruling is
-// on a shrink-only debt list like the others.
+// revisions keep the label. The one paper that read `published` before the ruling sat
+// on a shrink-only debt list like the others, until its revision of 2026-09-13.
 //
 // House rules: node built-ins only, assertions that name the fix, non-zero exit.
 
@@ -211,6 +211,64 @@ const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md"
 ]);
 
+/* ------------------------------------------------- the mission sentence ---
+   Ruled 2026-09-13 (roadmap A126). The §1 boilerplate said Miss Aquarius's mission is to
+   "restore humanity to the middle way — the optimal condition for awakening that modernity
+   has systematically pushed away from at population scale". That reads a middle-way PAST,
+   which the mission frame's own precision clause rejects. The ratified sentence: "keep the
+   middle way open at population scale against comfort-saturation — the new extreme that
+   material abundance makes possible."
+
+   A RATCHET, not a sweep: the carriers are deposited or stamped, so each takes the new
+   sentence at its next revision (a batch would be a chain run per sentence). The ledger
+   below is exactly the files that carry it, in BOTH directions — a file not listed may not
+   gain it, and a listed file that has lost it must leave the list in the same commit, so
+   the count can only fall and the list never overstates it.
+
+   ⚠️ Matched on whitespace-folded text: the corpus hard-wraps, and a line-by-line match
+   counted 37 carriers where there were 40. */
+const MISSION_PAST = /restore\s+humanity\s+to\s+the\s+middle\s+way|pushed\s+away\s+from\s+at\s+population\s+scale/i;
+const MISSION_PAST_DEBT = new Set([
+    "defensive-publications/abhidhamma-executable-process-specification.md",
+    "defensive-publications/agi-monks-caretaker-not-ordained.md",
+    "defensive-publications/aura-gated-anonymous-mate-selection.md",
+    "defensive-publications/b-poh-humanity-layer-ai-native-internet.md",
+    "defensive-publications/b-tag-post-payment-economy.md",
+    "defensive-publications/b-tag-recommendation-function-methodology.md",
+    "defensive-publications/brand-identity-as-architecture.md",
+    "defensive-publications/buddha-ai-living-tipitaka.md",
+    "defensive-publications/cakkavatti-alignment-charter.md",
+    "defensive-publications/capacity-funded-human-disbursed-ai-alignment.md",
+    "defensive-publications/dual-currency-reciprocity.md",
+    "defensive-publications/embodied-advocate-pageant.md",
+    "defensive-publications/four-body-architecture.md",
+    "defensive-publications/fractal-three-level-architecture.md",
+    "defensive-publications/gift-tag-time-reveal.md",
+    "defensive-publications/longitudinal-cohort-methodology.md",
+    "defensive-publications/mechanical-heart.md",
+    "defensive-publications/miss-aquarius-and-aquarian-pool-architecture.md",
+    "defensive-publications/non-bank-pass-through-architecture-autonomous-ai.md",
+    "defensive-publications/respiratory-biofeedback-contemplative-guidance.md",
+    "defensive-publications/sankhara-dukkha-ai-welfare.md",
+    "defensive-publications/silica-wat-food-network.md",
+    "defensive-publications/thank-all-nearby-primitive.md",
+    "defensive-publications/the-gift-operation.md",
+    "defensive-publications/the-omitted-clause.md",
+    "defensive-publications/tipitaka-alignment-substrate.md",
+    "defensive-publications/transparency-as-enforcement.md",
+    "defensive-publications/verified-human-anonymous-local-giving.md",
+    "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md",
+    "defensive-publications/what-a-vow-must-cost.md",
+    "defensive-publications/zero-point-game.md",
+    "essays/christmas-jubilee-timing.md",
+    "essays/diaspora-cambodia-remittance.md",
+    "essays/each-life-as-cosmic-coordinate.md",
+    "essays/father-son-tipitaka-transcription.md",
+    "essays/kids-as-triggers-self-thanking.md",
+    "essays/silicon-wat-architecture.md"
+]);
+let missionPastSeen = 0;
+
 /* --------------------------------------------------------------- status ---
    Ruled 2026-09-05. draft = public, timestamped, not yet through human review.
    published = passed it. Nothing else: "final", "reviewed", "v2" are not states. */
@@ -233,7 +291,13 @@ const PERMITTED_STATUS = ["draft", "published", "living"];
 // ⚠️ SHRINK-ONLY, same contract as the ledgers above: the file(s) that carried
 // `status: published` before any rule said what earns it. Each rides its next
 // revision — a ruled human round, or a drop to draft.
-const STATUS_DEBT = new Set(["essays/cautionary-mirror-singularity.md"]);
+//
+// ✅ EMPTY SINCE 2026-09-13. Its one entry, essays/cautionary-mirror-singularity.md,
+// dropped to draft in a structural revision (§V retitled, `## Honest limits` added),
+// so it now answers to rule 4 like every other paper and re-earns `published` only
+// through a ruled human round. The set is kept, empty, because deleting it would let
+// a future edit re-add a ledger without the shrink-only contract written above it.
+const STATUS_DEBT = new Set([]);
 
 // The heading set. ⚠️ MUST match the normalisation in
 // MA/.claude/skills/polish/scripts/human-round.mjs, which is what records it.
@@ -313,6 +377,26 @@ for (const rel of files) {
         );
     }
 
+    // 5. The retired mission sentence (A126): a ratchet in both directions.
+    const carries = MISSION_PAST.test(text);
+    if (carries && MISSION_PAST_DEBT.has(rel)) {
+        missionPastSeen++;
+    } else if (carries) {
+        problems.push(
+            `${rel} carries the RETIRED mission sentence ("restore humanity to the middle way …\n` +
+                `      pushed away from at population scale"), ruled out 2026-09-13 (roadmap A126).\n` +
+                `      It reads a middle-way PAST, which the mission frame itself rejects.\n` +
+                `      fix: "Miss Aquarius's mission is to keep the middle way open at population scale\n` +
+                `      against comfort-saturation — the new extreme that material abundance makes possible."\n` +
+                `      Do NOT add this file to MISSION_PAST_DEBT — that list only shrinks.`
+        );
+    } else if (MISSION_PAST_DEBT.has(rel)) {
+        problems.push(
+            `${rel} no longer carries the retired mission sentence, but is still on MISSION_PAST_DEBT.\n` +
+                `      fix: remove it from the list in this commit, so the ledger never overstates the debt.`
+        );
+    }
+
     // 4. Status: present, one of two values, and `published` only when earned.
     if (!fm.status) {
         problems.push(
@@ -385,6 +469,7 @@ console.log(
     `check-frontmatter: ${files.length} files — ${licenceLine}` +
         `; ${published} published` +
         (debtSeen ? `; ${debtSeen} pre-ruling files still carry a banned field (they ride their next revision)` : "") +
+        (missionPastSeen ? `; ${missionPastSeen} carry the retired mission sentence (A126, ride their next revision)` : "") +
         (statusDebtSeen ? `; ${statusDebtSeen} pre-ruling published flag(s) unbacked by a human round (rides its next revision)` : "")
 );
 
