@@ -445,3 +445,31 @@ was checked against multiple independent public reference works and translations
 text rather than asserting a standard it did not meet. The check caught one conflation — *uddāna*
 (the mnemonic index) is not *udāna* (the inspired utterance) — which is the class of error the
 outstanding ask exists to find.
+
+## 2026-09-13 — five revisions from the first API-leg polish rounds, five first deposits, one stale proof
+
+**Founder: *"Triage: all approved"*, then *"do the third sequence"*** — every paper's ruled round applied in one batched
+revision, then legs 3 and 4 run once for everything. Rounds and their per-item `applied` records live in
+`thonly/notes` `reviews/<slug>/<round>/triage.json`; the reviewer families are named there and never in a paper.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **the-reciters-protocol** *(round 2026-09-13-r1)* | `.ots` → `.r1.ots` (`d2216685…62765c50`); new proof `cf7f24bc…58e3ba54` | `2026-09-13.sha256` | **10.5281/zenodo.22735460** *(first deposit — deferred at first publication to ride this round)* | 2.3.2 |
+| **subject-released-attestation** *(2026-09-13-r1)* | → `.r1.ots` (`16ab3d96…4b3f5214`); new `8ede0637…14d9e1af` | `2026-09-13.sha256` | **10.5281/zenodo.22735458** *(first deposit)* | 2.3.2 |
+| **two-singularities** *(2026-09-07-r1)* | → `.r3.ots` (`f543d7d3…859c6669`); new `e8efdb4c…13cc2b35` | `2026-09-13.sha256` | **10.5281/zenodo.22735471** *(first deposit — `zenodo: true`, A98)* | 2.3.2 |
+| **cautionary-mirror-singularity** *(2026-09-07-r1)* | → `.r1.ots` (`6d44787e…91d76df3`); new `42932fbb…b196afea` | `2026-09-13.sha256` | **10.5281/zenodo.22735465** *(first deposit — A98)* | 2.3.2 |
+| **the-water-cycle** *(2026-09-13-r1)* | → `.r1.ots` (`afda5ab1…9926f2ea`); new `d5d293cd…33fe5511` | `2026-09-13.sha256` | **10.5281/zenodo.22735469** *(first deposit — A98)* | 2.3.2 |
+| the-zero-employee-institution *(no round — its 2026-09-07 enrichment was never chained)* | → `.r1.ots` (`d222929b…ac240692`); new `6610a06e…98c197a1` | `2026-09-13.sha256` | 10.5281/zenodo.22735461 *(new version)* | 2.3.2 |
+
+**What changed.** Every accepted point applied, rejects untouched, verify items checked at the source before any
+insertion; unverifiable citations withheld and recorded per item. `cautionary-mirror-singularity` dropped to `draft`
+by ruled structural change (§V retitled to a testable claim of rarity, `## Honest limits` added) and the
+`STATUS_DEBT` ledger is now empty; `the-water-cycle` kept `published` with its heading set unchanged. The two essays
+carrying the retired mission sentence took the ratified one, and `check-frontmatter.mjs` gained a ratchet on it
+(A126: 37 carriers remain, a list that can only shrink). `subject-released-attestation`'s `author:` became
+`authors:`, which the deposit reads — without it the record would have dropped the co-author.
+
+⚠️ **Leg 3 met a Zenodo outage** (HTTP 504 on the deposit and public APIs, ~30 min); the first create timed out
+before any deposition existed (checked against the account's list before retrying), so nothing was minted twice.
+⚠️ **OTS is CALENDAR-ONLY on all six at time of writing** — re-run `/ots` in a few hours. `verify-legs.sh` otherwise
+reads ✓ on every leg, including the live envelope's own verification command.
