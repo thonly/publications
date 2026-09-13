@@ -274,8 +274,29 @@ def keywords_of(text, fm, doc_type=None):
     return kws[:50]
 
 
+# ⛔⛔ THE LICENCE COMES FROM THE DOCUMENT, NEVER A CONSTANT. Until 2026-09-13 every deposit sent
+# "cc-zero" and a description saying "dedicated to the public domain under CC0 1.0" — correct for the
+# 76 CC0 papers deposited so far, and FALSE for the first CC-BY author-voice essay to qualify for a DOI
+# (four-elements-as-breadth-check), where it would have published a public-domain dedication the
+# author never made, on a record that cannot be withdrawn. Caught at the dry run before the mint.
+# An unknown licence is refused, never defaulted — the same gate as check-frontmatter and the index.
+LICENCES = {
+    "CC0-1.0": ("cc-zero", "dedicated to the public domain under CC0 1.0"),
+    "CC-BY (author-voice essay)": ("cc-by-4.0", "licensed CC BY 4.0 — attribute to the author"),
+}
+
+
+def licence_of(fm, path):
+    lic = fm.get("license")
+    if lic not in LICENCES:
+        raise SystemExit(f"{path}: licence {lic!r} has no Zenodo mapping — refusing to deposit. "
+                         f"Add it to LICENCES deliberately.")
+    return LICENCES[lic]
+
+
 def build_metadata(path, text, fm, sha):
     slug = fm.get("slug") or path.stem
+    zenodo_licence, licence_words = licence_of(fm, path)
     title = fm.get("title") or slug
     subtitle = fm.get("subtitle")
     canonical = f"https://thonly.org/research/{slug}"
@@ -287,7 +308,7 @@ def build_metadata(path, text, fm, sha):
         desc = f"<p><em>{inline_md(subtitle)}</em></p>" + desc
     desc += (
         "<p><strong>Provenance.</strong> This paper is part of the THonly research "
-        "corpus, dedicated to the public domain under CC0 1.0. The canonical "
+        f"corpus, {licence_words}. The canonical "
         f'version is at <a href="{canonical}">{canonical}</a>. Its SHA-256 is '
         f"<code>{sha}</code>, independently timestamped to the Bitcoin blockchain "
         "via OpenTimestamps and signed under RFC 3161 by three trust authorities, "
@@ -315,7 +336,7 @@ def build_metadata(path, text, fm, sha):
         "creators": creators,
         "description": desc,
         "access_right": "open",
-        "license": "cc-zero",
+        "license": zenodo_licence,
         "keywords": keywords_of(text, fm, DOC_TYPE.get(path.parent.name)),
         "language": "eng",
         "related_identifiers": [
@@ -518,6 +539,7 @@ def main():
         print(f"\n── {slug}\n   {kind}")
         print(f"   title    {meta['title'][:78]}")
         print(f"   authors  {', '.join(c['name'] for c in meta['creators'])}")
+        print(f"   licence  {meta['license']}")
         print(f"   date     {meta.get('publication_date','(none)')}   "
               f"keywords {len(meta['keywords'])}   sha {sha[:16]}…")
 
