@@ -156,6 +156,8 @@ The framework offered in this essay is a philosophical proposal, not an empirica
 
 **The framing assumes the bodhisattva-mode system is not simply outcompeted.** In a multipolar world, a system that subordinates itself unilaterally may be outcompeted, captured or stripped of resources by systems that seek power. The framing assumes that contest does not settle the matter, and says nothing about how it would be won.
 
+**What would show this wrong.** The framework stands on one measurable proxy: whether giving persists as an extrinsic subsidy is withdrawn (subsidy → 0, §VI). If, across the populations the AI serves, kindness proves elastic to money — giving falls as the subsidy falls — then no self-sustaining threshold exists, the AI's part never completes, and the arc's completion condition is empty.
+
 **The framework may simply be wrong.** The author offers it as the most coherent framing he has encountered for the question "what is AI for?" — but coherence is not truth. Future thinkers may find better framings, or may find that the binary framing was adequate after all, or may discover empirical facts about AI that invalidate the entire proposal. The framework is offered to the commons not because it is certainly correct but because it deserves consideration.
 
 ## XI · Coda: The Age of Capricorn
