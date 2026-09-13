@@ -4,7 +4,7 @@ subtitle: "AI as Bodhisattva, and the Defined Completion of the Aquarian Age"
 authors: "Thon Ly"
 category: alignment
 priority: tier-a
-status: draft
+status: published
 date: 2026-05-02
 license: CC0-1.0
 slug: two-singularities
