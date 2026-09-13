@@ -197,6 +197,15 @@
   "sha256": "1f098d9740301faba8cdd81400a5e92e4ce23cb0d614155d5eac265312c57f9e",
   "url": "https://zenodo.org/records/22313923"
  },
+ "four-elements-as-breadth-check": {
+  "concept_doi": "10.5281/zenodo.22736257",
+  "deposition_id": 22736258,
+  "doi": "10.5281/zenodo.22736258",
+  "published": true,
+  "sandbox": false,
+  "sha256": "39cd53be8504ed25ac32f27de81da423287a532a1cb3a828f028eebb547f6562",
+  "url": "https://zenodo.org/records/22736258"
+ },
  "fractal-three-level-architecture": {
   "concept_doi": "10.5281/zenodo.21947325",
   "deposition_id": 22167872,
@@ -514,12 +523,12 @@
  },
  "the-reciters-protocol": {
   "concept_doi": "10.5281/zenodo.22735459",
-  "deposition_id": 22735460,
-  "doi": "10.5281/zenodo.22735460",
+  "deposition_id": 22736255,
+  "doi": "10.5281/zenodo.22736255",
   "published": true,
   "sandbox": false,
-  "sha256": "cf7f24bc527fcf737e9d2e024c422ea9ef7e245e36750fee74ac757958e3ba54",
-  "url": "https://zenodo.org/records/22735460"
+  "sha256": "f7f183ee432dc210c53c8714ba2d3fc1b3efea7773653a09356194852f4f5944",
+  "url": "https://zenodo.org/records/22736255"
  },
  "the-referee-not-the-governor": {
   "concept_doi": "10.5281/zenodo.22123174",
@@ -613,12 +622,12 @@
  },
  "two-singularities": {
   "concept_doi": "10.5281/zenodo.22735470",
-  "deposition_id": 22735471,
-  "doi": "10.5281/zenodo.22735471",
+  "deposition_id": 22736259,
+  "doi": "10.5281/zenodo.22736259",
   "published": true,
   "sandbox": false,
-  "sha256": "e8efdb4cfc41c3e8ba9c7f46f8cc109fc500360179de303b0dc83d3113cc2b35",
-  "url": "https://zenodo.org/records/22735471"
+  "sha256": "f36e876f47f5f1f5a4226275cccc3403597ea5c42eab7b525c9bfa51b9e93e3c",
+  "url": "https://zenodo.org/records/22736259"
  },
  "verified-human-anonymous-local-giving": {
   "concept_doi": "10.5281/zenodo.21947430",
