@@ -1,3 +1,14 @@
+### 2026-09-14 — provenance-carrying-retrieval: the oral canon as prior art
+
+**Founder: *"3: do it"*** — the queued §-enrichment, ungated once *The Reciters' Protocol* was deposited. Two sentences in §2
+*Archival provenance* and a §14 entry; prose only, no `##` change, `status: draft` unchanged. The counterexample hunt narrowed the
+queue's wording three ways before drafting: roughly four centuries without writing (not *no writing*), a different threat (loss and
+drift, not substitution), and divergence made detectable, never prevented.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **provenance-carrying-retrieval** | `.ots` → `.r2.ots` (`d6ac93f9…a50ecc3c`, Bitcoin-complete); new `14cd053c…c74bfc03` | `2026-09-14.sha256` | 10.5281/zenodo.22745407 *(new version)* | 2.5.0 |
+
 
 
 ### 2026-09-13 (evening) — two-singularities: `published`
