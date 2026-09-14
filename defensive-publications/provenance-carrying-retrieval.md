@@ -6,7 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-09-01
-revised: 2026-09-05
+revised: 2026-09-14
 license: CC0-1.0
 slug: provenance-carrying-retrieval
 venue: thonly.org/research/provenance-carrying-retrieval (canonical)
@@ -82,7 +82,7 @@ The literature this paper stands on is mature, and none of it is ours.
 
 **Certificate Transparency.** RFC 6962 and its successor establish the design pattern for public append-only logs: Merkle tree structure, signed tree heads, inclusion proofs for individual entries, consistency proofs between heads, and gossip among independent parties to detect a log presenting different views to different observers. CT is the direct ancestor of §8 and we claim nothing over it. The observation we add there is narrow and, we believe, unstated: **a CT log never deletes an entry, and a ledger of human conduct must be able to release.**
 
-**Archival provenance.** PREMIS and W3C PROV-O give vocabularies for custody and derivation; LOCKSS gives replication; Memento gives temporal access; Software Heritage gives durable archival of source. The archival community has thought about this longer and more carefully than the machine-learning community has, and their conclusion is one we adopt: **provenance is metadata about a specific byte sequence, and loses its meaning the moment the byte sequence is normalised, re-encoded, or excerpted without saying so.** §4's insistence on naming *what the digest covers* is theirs, not ours.
+**Archival provenance.** PREMIS and W3C PROV-O give vocabularies for custody and derivation; LOCKSS gives replication; Memento gives temporal access; Software Heritage gives durable archival of source. The archival community has thought about this longer and more carefully than the machine-learning community has, and their conclusion is one we adopt: **provenance is metadata about a specific byte sequence, and loses its meaning the moment the byte sequence is normalised, re-encoded, or excerpted without saying so.** §4's insistence on naming *what the digest covers* is theirs, not ours. They were not the first to face the problem either: a canon transmitted for roughly four centuries with no written copy, no living author to arbitrate and its schools already dividing — the Theravāda Pāli canon — left copy-integrity mechanisms that most resemble the archival ones, built against a different threat (loss and drift rather than substitution), and what they secured was divergence made detectable, never divergence prevented. *The Reciters' Protocol* sets out seven of those mechanisms, which of them carry over to a retrieval system, and where the two threat models part.
 
 **Content Credentials (C2PA).** The nearest adjacent work. C2PA binds signed provenance manifests to media assets, recording capture device, edits, and chain of custody, and it is being deployed against synthetic-media risk. Two differences matter. C2PA's threat model is *the deceptive edit* — an image altered to mislead — and its manifests are typically embedded in the asset, though the specification also allows external ones. Ours is *the stale or truncated retrieval*, which involves no adversary at all and usually no edit: the most common failure is an honest system serving an old version. And our envelope travels with a retrieval *response* rather than with an asset, because the artifact is prose that will be quoted in fragments. What travels is a pointer to bytes that can be re-fetched.
 
@@ -459,6 +459,7 @@ We list these because each is a plausible next feature and each would negate the
 - *Buddha AI and the Living Tipiṭaka* §8 — what makes a canon authoritative. This paper asks the narrower and more tractable question of what makes a *copy* checkable.
 - *The Borrowable Standard* — why a corpus that must be authoritative in its own language cannot normalise toward another's; the same concern for canonical form, one layer down.
 - *Whose Turn, Not Who's Best* — the refusal to render an absence, argued in a different domain and inherited here.
+- *The Reciters' Protocol* — the same problem as it was met by an oral canon: seven copy-integrity mechanisms, the threat-model partition that separates them from this paper's, and the finding that the transmission made divergence detectable rather than preventing it.
 
 ## Coda
 
