@@ -1,3 +1,13 @@
+### 2026-09-16 — the founder page: the Machine Door, singular
+
+**Founder: *"rename the page: I think the singular 'Machine Door' creates a nice dramatic effect"*** — the site's menu already
+says *Machine Door*; the page it opens and this document's link said *Machine doors*. One link text changes; no `##` change.
+Not a Zenodo document (`about/` is outside the deposit scope), so leg 3 does not apply.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **about/the-founder** | `.ots` → `.r2.ots` (`0d87ffff…3c193e428a`, Bitcoin-complete); new `905ecfbc…96851d95771383d0d32cb0761d7db46ce6b9` *(calendar-only at stamping)* | `2026-09-17.sha256` | n/a | 2.5.1 |
+
 ### 2026-09-14 — provenance-carrying-retrieval: the oral canon as prior art
 
 **Founder: *"3: do it"*** — the queued §-enrichment, ungated once *The Reciters' Protocol* was deposited. Two sentences in §2
