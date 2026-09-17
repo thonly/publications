@@ -48,4 +48,4 @@ I assume I am mortal and that the work must not be. So I am spending the time I 
 - [HeartBank: An Introduction](https://heartbank.net/white-papers/heartbank-an-introduction) — the institution's own general-public white paper
 - [The film](/film) — the long arc, as a treatment
 - [The research corpus](/research) — the mechanisms and philosophy, defensively published to the commons
-- [Machine doors](/mcp) — how an agent reads this domain, and the corpus served with its proofs
+- [Machine Door](/mcp) — how an agent reads this domain, and the corpus served with its proofs
