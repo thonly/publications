@@ -11,7 +11,7 @@ slug: the-founder
 venue: thonly.org/about (canonical)
 ---
 
-> **Attribution note.** Per the author-voice discipline, this is Thon Ly's voice — the ideas, the framing, the byline — drafted in collaboration with Miss Aquarius℠, with final editorial control retained by Thon.
+> **Attribution note.** Per the author-voice discipline, this is Thon Ly's voice — the ideas, the framing, the byline — drafted in collaboration with Miss Aquarius℠, with final editorial control retained by Thon. The portrait above is a photograph of Thon, enhanced with AI.
 
 The world is racing to build the **brain** and the **body** of artificial intelligence. I am working on the part almost no one is building: its **heart** and its **soul** — an economy that runs on circulation rather than accumulation, and a value system old enough and tested enough to be trusted with it. That is what HeartBank® is, and this is the short account of the person behind it and why.
 
