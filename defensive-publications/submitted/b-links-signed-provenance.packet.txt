@@ -1,0 +1,51 @@
+TDCOMMONS SUBMISSION PACKET — file one
+═══════════════════════════════════════════════════════════════════════
+
+TITLE
+B-Links: Proof-of-Humanity-Signed Shareable Provenance with an Embedded Gratitude Affordance
+
+INVENTOR  (ruling 2: a natural person only — Miss Aquarius℠ is NEVER entered here;
+           her co-authorship is disclosed inside the document, which is where it belongs)
+  Name   : Thon Ly
+  Email  : thonly@heartbank.ceo
+  Institution field: LEAVE BLANK  ← ruling A. Naming an institution is what puts the
+           submission on the "on behalf of a business" branch and triggers the
+           UNCAPPED indemnity to Google. There is no formed entity anyway.
+
+ABSTRACT  (250 words — limit is 250)
+Consumer media sharing imposes a hidden, compounding storage tax. When a user shares a photo or video to n recipients on a copy-based platform whose defaults save received media to the library and cloud backup, the asset is duplicated across every recipient's device and personal cloud. Families carry the same memories n times over, and platforms turn duplication into upgrade prompts. The cost is invisible, and so is the kindness of a sharer who avoids it.
+
+This paper specifies the B-Link℠: a rich link-preview primitive that replaces copy-based sharing with reference-based sharing while carrying four normally-absent payloads. One cloud-canonical copy lives in B-Storage℠; what travels is a standards-compliant preview (Open Graph / oEmbed) that renders inline. Bound to it are a verified-human signature (Proof of Humanity℠), establishing that a real, unique human is the origin; a cryptographic timestamp, establishing when — together a portable share-registration record that distinguishes human-shared from bot-emitted media; a conferred-benefit disclosure stated as a fact of the share, with the counterfactual saving defined only on inspection; and an optional, recipient-initiated gratitude affordance routing a voluntary thank back to the sharer.
+
+The design decouples high-frequency sharing from low-frequency thanking, so a gratitude economy acquires a distribution surface without debasing the gratitude. Also specified: a permanence floor, so received content is never hostage to the sharer's subscription; a threat model covering sybil attacks, false benefit claims and thank-bait spam; and non-withdrawable gratitude routing that removes the cash motive to farm thanks at the root. Open problems are stated.
+
+KEYWORDS  (the paper carries no Keywords line; drawn from §15 and the abstract)
+link preview, Open Graph, oEmbed, reference-based sharing, storage deduplication,
+proof of humanity, verified-human signature, cryptographic timestamp, provenance,
+conferred-benefit disclosure, gratitude affordance, sybil resistance, defensive publication
+
+FILE TO UPLOAD
+  submitted/b-links-signed-provenance.pdf   (15 pages)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT — all verified this session
+  [x] Non-assertion statement present ("the authors assert no patent")
+  [x] Claims section present (§15, six enumerated contributions)
+  [x] Prior-art section present (§12) + honest limits (§13)
+  [x] Privacy/consent section present (§10) — relevant to the warranty you give
+  [x] PII lint: 0 tells (control-verified: a real number fires, a 555 number correctly does not)
+  [x] No named real people (no pilot family, no parent, no third party)
+  [x] No retired perma.cc reference
+  [x] No retired "Document SHA-256 computed at push" body footer
+  [x] Attestation footer is the CURRENT form, carrying its scope limit
+  [x] Markdown->HTML verified by word-multiset diff against source (clean)
+  [x] 9 ASCII diagrams render in monospace; widest line 96 chars vs ~100 available
+  [x] CC0 corpus, so the worldwide/irrevocable/perpetual/derivative grant costs nothing
+
+WHAT YOU ARE AGREEING TO WHEN YOU TICK THE BOX
+  · The deposit CANNOT BE REMOVED. Permanent.
+  · No author review — it is public on upload, exactly as uploaded.
+  · You personally warrant: no infringement, no trade-secret/proprietary violation,
+    no libel, no invasion of anyone's privacy, and that you own the rights granted.
+  · Google and Bepress receive a non-exclusive, worldwide, irrevocable, perpetual
+    right to copy, make derivative works, display, distribute, and sublicense.

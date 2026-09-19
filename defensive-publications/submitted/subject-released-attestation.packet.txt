@@ -1,0 +1,38 @@
+TDCOMMONS SUBMISSION PACKET — file two
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Subject-Released Attestation: A Market Design in Which the Operator Cannot Answer
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (249 words — limit 250)
+We specify subject-released attestation: a market where a third party pays to ask a binary question about a person, the person is paid for permitting it, and the record's operator sells only its vouching. The defining property is negative — the operator cannot structurally answer about a named person alone — making an institution's refusal to sell personal records a fact about the machinery, not a promise about its management. This paper contributes the market rules deciding what that inability sells, and to whom.
+
+Five rules constitute it: (1) the two-good split — release and vouching separately owned, neither party able to sell the other's; (2) the farm-proof schema rule, admitting only attributes bounded per person and never monotone in volume, threshold or bit included; (3) one posted price per buyer market, identical for every subject, binary release; (4) the buyer-class exclusion, barring any buyer whose business is pricing, scoring, ranking or gating a necessity — placed on the buyer because an answer's use is unobservable, and an uncheckable rule is not a rule; and (5) anti-aggregation by asker — a live release per answer bound to a named asker, expiring answers, rate-limited askers, subject receipts, and no enumerable directory.
+
+We state the condition under which the central property is true rather than rhetorical: it holds only where the record is stored as a commitment the operator cannot read out, from issuance onward. Where plaintext is stored, cannot degrades to will not, and the weaker words should be used.
+
+FILE       submitted/subject-released-attestation.pdf   (19 pages, 387 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT — verified
+  [x] Prior-Art and Non-Assertion Statement present
+  [x] Five claims as §§4-8 + §10 Enumerated claims
+  [x] §2 Background and prior art · §11 Honest limits
+  [x] Author Contributions and AI Disclosure section (in-document, per ruling 2)
+  [x] PII lint 0 tells · no named real people
+  [x] No perma.cc · no "Document SHA-256" body footer
+  [x] md->HTML verified by word-multiset diff: only the 7 enumerated-list digits differ
+  [x] 25 fenced diagram lines, widest 78 chars vs ~100 available — no clipping
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
