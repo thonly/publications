@@ -30,3 +30,25 @@ jobs:
           node-version: "22"
       - name: Every document declares a permitted licence, and no banned fields
         run: node scripts/check-frontmatter.mjs --census
+
+      # §the-mirror-revision-rule, ratified 2026-09-19 — the property form of it.
+      #
+      # An examiner-facing venue (TDCommons) can neither version nor remove a posting, and a
+      # defensive publication protects only what it DISCLOSES. So when a mirrored paper gains
+      # new enumerated claims, a SECOND submission is owed; a prose revision owes nothing.
+      #
+      # WHY IT RIDES THIS JOB rather than getting its own workflow: a second workflow is a
+      # second runner, and this account has already overrun its Actions minutes once. Same
+      # trigger, same checkout, one more command.
+      #
+      # WHY IT IS ALLOWED TO FAIL THE BUILD. A warn nobody reads is not a signal. Red here
+      # means UNJUDGED claim movement, never movement itself — and it has a defined clearing
+      # action, which is what keeps it from becoming permanent red that people learn to ignore:
+      #   submitted again → --record <slug> --date <today> --pdf <file>
+      #   no new matter   → --ack <slug> --note "<why>"
+      # The judgement and its date are then recorded in the manifest, which is the only thing
+      # that ever lets a future reader see why a moved claim was let stand.
+      - name: A mirrored paper's claims have not moved unjudged since it was posted
+        run: |
+          python3 scripts/check-mirrors.py --selftest
+          python3 scripts/check-mirrors.py

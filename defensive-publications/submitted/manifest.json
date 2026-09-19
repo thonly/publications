@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "slug": "b-links-signed-provenance",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-19",
+      "pdf": "b-links-signed-provenance.pdf",
+      "claims_headings": [
+        "## 15. Summary of claimed contributions"
+      ],
+      "claims_sha256": "e7abde91eb4fc1b57e4798f494c4aa3813255f7a3c97990f82a8d7cb3ee6972d",
+      "body_sha256": "42b011c6c3ef35c043b03d73506093d9faf0f40faddc74b535ab7dd2d5fbb250"
+    },
+    {
+      "slug": "subject-released-attestation",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": null,
+      "pdf": "subject-released-attestation.pdf",
+      "claims_headings": [
+        "## 4 · Claim 1 — the two-good split",
+        "## 5 · Claim 2 — the farm-proof schema rule",
+        "## 6 · Claim 3 — one posted price, and a binary release",
+        "## 7 · Claim 4 — the buyer-class exclusion, and why it cannot sit on use",
+        "## 8 · Claim 5 — anti-aggregation, by asker rather than by subject",
+        "## 10 · Enumerated claims"
+      ],
+      "claims_sha256": "989b86e5a4d03bb9bc05fc498d3712e287fc455d3639ef3a79aff82551c3e264",
+      "body_sha256": "214af90763b8b6f1ca57212c37adf447e13539dc538ef1cf8c21bebf99936824"
+    }
+  ]
+}
