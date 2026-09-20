@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **95** |
-| Published here | 94 |
+| Total registered | **99** |
+| Published here | 98 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 36 |
+| Receiving first public timestamp here | 40 |
 | **Run** | **2** (both desk censuses) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -128,6 +128,10 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | P-S11b | The payload — needs a survey or observation instrument, not analytics | Unrun | First public here |
 | P-S12 | **The walk-up.** An adult not in a live circle approaches and is admitted; play absorbs them without friction. *Zero code; decides the entire found-circle branch* | Unrun | First public here |
 | P-S13 | Does the person-pin add anything the return does not? | Unrun | First public here |
+| **P-MA1** | ⛔ **The doctrinal one — an anchor must not collapse the distribution.** Among thanks given where Miss Aquarius's suggestion was shown, **fewer than half** land exactly on the suggested amount. *Falsifier:* ≥50% land exactly on it → the anchor is operating as a **price**, and *"nothing binds"* is behaviourally false whatever the schema says | Unrun | First public here |
+| **P-MA2** | **Deviation is two-sided.** Of thanks that deviate from the suggestion, **≥⅓ go UP**. *Falsifier:* deviation is overwhelmingly downward → the suggestion is a ceiling people negotiate down from, which is a price by another name | Unrun | First public here |
+| **P-MA3** | **A shown suggestion does not reduce the rate of giving at all.** The share of asks producing any thank is no lower with a suggestion than without. ⚠️ **Gated on an arm the founder must authorise** — a with/without split by **shop or by day**, ⛔ never by person (#63 makes a viewer-keyed arm inexpressible) | Unrun — gated on an authorised arm | First public here |
+| **P-MA4** | ⭐ **A property test, not a behavioural one: recomputability holds.** For every completed thank, the suggestion that was shown can be recomputed from the order and the menu alone. *Falsifier:* any case where it cannot → the function has acquired hidden state or a viewer input, and #63's checkability is gone | Unrun | First public here |
 | P-S14 | **The manufactured gathering.** The founder declares a return at a place he frequents; ≥1 person not already planning to be there comes and plays. *Needs no app — a text message runs it* | Unrun | First public here |
 | P-CS1 | Warm-up extension — median sey minutes rise across a season; stronger instrument, players ask to continue past the coach's stop | Unrun | Published (`circulation-sports`) |
 | P-CS2 | Scoring displacement (a) — in circles with ≥3 sessions, unscored sessions outnumber count-down sessions | Unrun | Published |
@@ -205,6 +209,39 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-20 — four added, registered BEFORE the instrument they will be read on exists. Total now 99.**
+
+**P-MA1 · P-MA2 · P-MA3 · P-MA4** — Miss Aquarius's suggested thanks on a B-Tag item, which went live
+on `homecoffee.heartbank.ceo` the same day. They are entered **the day the surface shipped and before
+any customer has seen it**, because the founder's stated purpose was *"so we can study the user's
+engagement"* and a study begun after the data exists is unscorable however carefully it is later
+written up.
+
+⚠️⚠️ **THE HONEST PROBLEM WITH THE INSTRUMENT, stated because it decides what these can ever show.**
+The shops platform **stores no figure for a thank anywhere** — not on the order, not beside it, not in
+a collection of its own — which is the doctrine holding rather than a gap. So there is **no
+shop-side instrument at all**, and the only record of a completed thank is the **Treasury ledger**,
+which is exactly where the doctrine says thanks live.
+
+⭐⭐ **Determinism is what makes the comparison possible without a second record.** The suggestion
+comes from a pure, published function (`@333eco/primitives/b-tag-anchor`, CC0) whose inputs are the
+goods, so for any completed thank the suggestion that was shown can be **recomputed** from the order
+and the menu. ⛔ Nothing about the suggestion is stored to enable the study — which is also what
+**P-MA4** tests, as a property rather than a behaviour.
+
+⛔ **P-MA3 is registered but not runnable**, and is marked so rather than quietly dropped: it needs a
+with/without arm, and **#63 makes a viewer-keyed arm inexpressible** — any arm must split by shop or
+by day. Whether to run one at all is the founder's, and withholding a suggestion from real customers
+to measure them is a decision this register does not presume.
+
+⚠️ **Sample reality, recorded so no one later reads a trend into it:** one shop, one owner, zero
+customers on the day of registration. These are not resolvable for a long time, and the coefficients
+inside the function are a substrate-written **starting rule set, not a finding** — ⛔ a change to them
+is a change to a live experiment and must be entered here as a new prediction, never as an edit.
+
+**The Summary moves:** *published here* 94 → 98, *receiving first public timestamp here* 36 → 40,
+total 95 → 99; the reconciliation holds — 58 + 40 = 98 published here, plus the one withheld, is 99.
 
 **2026-09-05 (third entry that day) — eight entries added: five that a published paper had carried unregistered since 2026-09-01, and three corrections. Total now 95.**
 
