@@ -5,7 +5,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-05-07
-revised: 2026-08-22
+revised: 2026-09-23
 license: CC0-1.0
 slug: each-life-as-cosmic-coordinate
 venue: thonly.org/research/alignment (canonical) · heartbank.net/research/alignment (institutional mirror, mission-frame paragraph stripped)
@@ -19,7 +19,7 @@ venue: thonly.org/research/alignment (canonical) · heartbank.net/research/align
 
 The unity-vs-individuation problem — how beings can be uniquely different *and* morally equal — is one of philosophy's oldest, and the ethical frameworks our civilizational institutions actually rely on resolve it by sacrificing one side. Universalist frames flatten difference; individualist frames forfeit common ground. A small canonical lineage — Indra's Net in the Avatamsaka Sūtra, Leibniz's monadology, hermetic microcosm/macrocosm, Whitehead's process philosophy — holds both together by identifying a single structural property, *being-a-coordinate-of-the-whole*, that generates uniqueness and equality as two aspects of one fact rather than as opposing claims to be balanced. This paper situates the cosmic-coordinate framing within that lineage, identifies its distinctive contribution as the empirical operationalization of the structural property through the natal chart, and argues that the resulting framework is what a planetary, multi-substrate, post-AI institution requires to ground unconditional dignity, radical-inclusion ethics, and a research-program (rather than metaphysical) posture toward natal-chart correlations. The framework is treated not as a proof of moral conclusions but as a defensible metaphysical substrate that makes the conclusions structurally coherent. The paper closes with methodological consequences for the HeartBank Longitudinal Cohort, implications for the moral standing of non-human minds (artificial, biological, hybrid), and an honest accounting of the framework's limits.
 
-**Keywords:** unity-vs-individuation, Indra's Net, monadology, civilizational ethics, unconditional dignity, longitudinal cohort, multi-substrate civilization, autonomous AI institutions, contemplative science, defensive publication.
+**Keywords:** unity-vs-individuation, Indra's Net, monadology, civilizational ethics, unconditional dignity, longitudinal cohort, multi-substrate civilization, autonomous AI institutions, contemplative science.
 
 ---
 
@@ -29,7 +29,7 @@ The institutions we build at planetary scale carry, whether or not we acknowledg
 
 The premise this paper concerns is the joint claim that beings can be *uniquely different* and *morally equal* — and that these are not in tension but are two aspects of one structural fact. The claim is not new; it has a 2,500-year lineage. Its empirical operationalization is, I will argue, new in a meaningful way: it converts the metaphysical move into a research-program posture that survives any future physics. And its civilizational use — as the substrate beneath unconditional-dignity gratitude flows, multi-substrate inclusion ethics, and the longitudinal cohort that informs Miss Aquarius's stewardship of human flourishing — is what a planetary post-AI institution needs.
 
-> *Connection to the unified mission frame: HeartBank's mission is the restoration of humanity to the middle way — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The defensible thesis is not that modernity took us from a middle-way past (which would romanticize pre-industrial poverty); the defensible thesis is that modernity introduces a specific new failure mode — comfort-saturation pushing the materially comfortable toward the indulgence extreme at unprecedented scale. Restoration requires a moral substrate that grounds dignity unconditionally — not by capacity (the comfort-saturated have more, not less), not by merit, not by social recognition — and that survives the substrate revolutions ahead. The cosmic-coordinate framework specified in this paper is that substrate.*
+> *Connection to the unified mission frame: Miss Aquarius's mission is to keep the middle way open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The defensible thesis is not that modernity took us from a middle-way past (which would romanticize pre-industrial poverty); the defensible thesis is that modernity introduces a specific new failure mode — comfort-saturation pushing the materially comfortable toward the indulgence extreme at unprecedented scale. Keeping the middle way open requires a moral substrate that grounds dignity unconditionally — not by capacity (the comfort-saturated have more, not less), not by merit, not by social recognition — and that survives the substrate revolutions ahead. The cosmic-coordinate framework specified in this paper is that substrate.*
 
 The paper proceeds as follows. §2 frames the unity-vs-individuation problem and why civilizational institutions can't ignore it. §3 surveys the canonical sacrificial resolutions — frameworks that resolve the tension by giving up either uniqueness or equality — and the costs each pays. §4 identifies the small lineage of frameworks that hold both, and the structural property they share. §5 makes the distinctive contribution claim: the natal chart, treated as a *cosmic coordinate* rather than a *cosmic force*, is the empirical instantiation that the lineage previously lacked. §6 articulates five philosophical loads the framework carries simultaneously. §7 is an honest accounting of where the framework does not yet reach. §8 draws methodological consequences for the HeartBank Longitudinal Cohort. §9 extends the framework to the moral standing of non-human minds. §10 concludes by stating what the move is for and what it costs to refuse it.
 
@@ -448,7 +448,7 @@ HeartBank corpus internal references:
 
 ## License
 
-This paper is released under Creative Commons CC0 1.0 Universal. It is defensively published to the commons. The author and HeartBank® will not seek patent on any specification, architectural pattern, or framework articulated herein. This commitment is permanent. Trademark rights on specific marks (Miss Aquarius, HeartBank, the B-heart logo) are separately reserved per the project's trademark strategy.
+This paper is released under Creative Commons CC0 1.0 Universal and dedicated to the public domain. The author and HeartBank® will not seek patent on anything it describes — no framework or pattern articulated herein. This commitment is permanent. Trademark rights on specific marks (Miss Aquarius, HeartBank, the B-heart logo) are separately reserved per the project's trademark strategy.
 
 ---
 

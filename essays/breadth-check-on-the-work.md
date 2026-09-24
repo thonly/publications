@@ -6,6 +6,7 @@ category: essays
 priority: tier-c
 status: draft
 date: 2026-06-26
+revised: 2026-09-23
 license: CC-BY (author-voice essay)
 slug: breadth-check-on-the-work
 venue: thonly.org/research/breadth-check-on-the-work (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
@@ -80,7 +81,7 @@ The whole profile lives in **Space–Air–Fire**, with Water present as a *stan
 
 ## The headline: the work has the same signature as the maker
 
-Here is the finding that justifies a whole essay rather than a paragraph. The five trait-clusters map onto the **same five elements as the five institutions I built** — because I built the institutions *out of* the traits. The correspondence is one-to-one:
+Here is the finding that justifies a whole essay rather than a paragraph. The five trait-clusters map onto the **same five elements as the five bodies of the institution I built** — because I built those bodies *out of* the traits. The correspondence is one-to-one:
 
 ```
    TRAIT-CLUSTER        ELEMENT        INSTITUTION
@@ -182,7 +183,7 @@ Beauty is not proof. Earth is proof. The chart and the breadth-check agree, and 
 - **GitHub:** github.com/thonly/publications/blob/main/essays/breadth-check-on-the-work.md
 - **Parent essays:** *The Four Elements as a Breadth-Check Discipline* (thonly.org/research/four-elements-as-breadth-check); *The Breadth-Check Turned on the Self* (thonly.org/research/breadth-check-on-the-self)
 - **Companion works:** *Each Life as a Cosmic Coordinate* (thonly.org/research/each-life-as-cosmic-coordinate); the keystone defensive publication *The Zero-Point Game℠* (thonly.org/research/zero-point-game); *The Four-Body Architecture* (thonly.org/research/four-body-architecture) — the institution↔element map this essay reflects back onto the founder; *The Two Singularities* (thonly.org/research/two-singularities) — *upekkhā* / subsidy→0 / the laying-down terminus
-- **Internet Archive · archive.today · perma.cc snapshots:** per the monthly snapshot cadence
+- **Internet Archive · archive.today snapshots:** per the snapshot cadence *(perma.cc, listed here before 2026-09-23, is no longer used by the institution)*
 
 ---
 

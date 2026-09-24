@@ -6,7 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-09-07
-revised: 2026-09-13
+revised: 2026-09-23
 license: CC0-1.0
 slug: the-reciters-protocol
 venue: thonly.org/research/the-reciters-protocol (canonical)
@@ -363,6 +363,8 @@ And it is the property a retrieval system actually needs. **A server's failure m
 
 **The canonical source.** The mnemonic summary verses — *uddāna* `[V]` — placed at the end of each section and of the whole work. Their function is precisely this: they key off each member of a group, fixing **membership and ordering** `[V]`, and the summaries at the end of a work give **the names and the counts** — of the elders, of the verses in each chapter, and of the whole `[V]`. They were memorised alongside the text by the reciters `[V]`.
 
+⚠️ **The best-known instance does not balance, and §9.11 treats this as a limit on the paper.** The totals that the Theragāthā's summaries give do not match a plain count of its verses, and the plain count itself differs between editions.
+
 ⭐ **Two details of the canonical form are load-bearing and both were confirmed rather than assumed.** The summaries carry **counts**, not merely names — cardinality is what makes a removal detectable when a name is also removed. And they are **separate units**, positioned at the boundary of the collection rather than distributed through it, which is what allows a carrier to hold the manifest without holding the collection.
 
 **Against §2.3 — and it is a transposition.** CT gives append-only-ness and split-view detection; a completeness manifest gives completeness against a *declared* expectation. They compose, and neither substitutes for the other. But the manifest is not a new design — §2.3 names its nearest prior art in The Update Framework's snapshot metadata and BagIt's `Payload-Oxum` — and **this paper withdraws any claim that the design is absent from the destination field.** What it offers is the transposition to a served text corpus read by machines, together with the canonical instance of keeping the count apart from what it counts. The honest statement of the residual is that the manifest moves the trust problem rather than dissolving it — a signed manifest is only as good as the key that signed it and the party that published it — and §9.5 says so.
@@ -486,6 +488,15 @@ Everything this paper knows about the apparatus comes from documents the apparat
 
 §5.1's dispositions depend on how a claimed text is matched. Script, diacritics, sandhi, punctuation and segmentation all vary across editions and across inputs, and without a published matching policy the same input could return *CONFORMS* from one implementation, *CONFORMS, VARIANT* from a second and *NOT FOUND* from a third — undoing the checkability the endpoint exists to supply. **Dispositions are reproducible only against a published matching fold.** The fold may normalise for matching; it must never alter the served bytes, because in a corpus of this kind a spelling can be a tradition marker rather than noise.
 
+### 9.11 — The canonical instance of the count does not balance
+
+The canonical case §5.2 leans on hardest is also the case that cuts against it. The translator's introduction to the SuttaCentral English Theragāthā (Sujato) records that the edition it follows, the Mahāsaṅgīti text, numbers **1,289** verses where the Pali Text Society editions number **1,279**, and that the difference comes from repetitions one edition includes and the other omits, not from a difference in substance. A reference work, citing von Hinüber's *Handbook of Pali Literature* (which we have not consulted directly), reports three figures for the collection: **1,360** claimed by the tradition, **1,294** given in the summaries within the text, and **1,279** by plain count. **So in the canon's best-known instance, the stated count and the counted collection disagree, and the counted collection changes with the edition.**
+
+Two consequences follow. Neither is fatal, and both constrain the design.
+
+1. **A count detects omission only against a declared unit of counting.** Is a repetition a verse? Does an elided passage count? The edition-dependence §9.10 names for matching applies equally to counting, and a manifest that does not publish its counting rule will report mismatches that come from convention rather than removal. **§5.2's manifest must publish its counting rule beside its count.**
+2. **The canonical instance is not evidence that the count worked as a check.** The discrepancy has stood in the transmitted text. We found no account of it being treated as a sign of loss, and we read that absence, as our own inference and not as a finding of the sources, to mean that the summaries were not run as a live check against the text as it was later transmitted, whatever they did when they were composed. The transposition keeps the design, a count held apart from what it counts. It does not inherit a claim that the canonical instance worked as one. §9.2's rule applies here to a specific case: canonical provenance is a reason to look, never evidence that a mechanism works.
+
 ## 10 · Adversarial analysis
 
 **A manifest that was always short.** An operator publishes a manifest omitting a document that was never admitted. Nothing detects it — the manifest is internally consistent and the document has no trace anywhere. ⛔ **This is not solvable by the manifest and §5.2 does not claim it is.** It is the omission problem one level up, and its only real answer is §4.2 plus §4.8: an admission decision made by an identified body and published with its reason. That answer is governance, not cryptography, and §6.1 says it is unsolved.
@@ -541,6 +552,9 @@ the register's own rules bar.** It is owed at the point §5.1 has running code.
 | 4.8 | each Suttavibhaṅga rule with its origin story, additions and non-offences; further cases as precedent; the same headings asked at the first council (Cv XI.1.7) | reference works; **root** + translation (Cv XI) | exclusions served with their occasion and amendment history |
 | 5.1 | *mahāpadesa*: DN 16:4.8–4.11; AN 4.180 | **root** + translation | neither approve nor reject; check against discourse and discipline; *incorrectly memorised by* the source the claimant named; discard; no penalty |
 | 5.2 | *uddāna* at the close of a vagga or work, e.g. the closing summaries of the Theragāthā (Thag 21.1), giving numbers of elders and verses; summaries memorised with the text | reference works; **root** (location only) | membership, ordering and counts, held as separate units at a boundary |
+| 9.11 | the Theragāthā's verse count by edition (Mahāsaṅgīti 1,289; PTS 1,279); the totals in the text's summaries against a plain count (1,360 tradition · 1,294 summaries · 1,279 counted) | the translator's introduction (Sujato, *Verses of the Senior Monks*, as published in SuttaCentral's edition data; read 2026-09-23) for the first; **one** reference work citing von Hinüber's *Handbook of Pali Literature* for the second, the handbook not itself consulted | the count and the counted disagree; the counted varies with the edition |
+
+The §9.11 row is **not** marked `[V]`. Its first half rests on a single source read directly, and its second on a single reference work reporting a handbook we did not read. Neither meets the multiple-source standard, so it is stated as the weaker of the two standards in use here. The Pāli of the summaries was not read for this row. The figures are the sources' figures, not our reading of the summary verses.
 
 ⚠️ **The checks against the root texts corrected five readings in this paper's first version, and they are recorded because they are the class of error the remaining check exists to find.** (1) The *mahāpadesa* disposition does name the carrier — as the one whose memorisation erred — where the first version said it prescribed no judgement of the person; the no-claimant property is the design's step beyond the source (§5.1). (2) The *nītattha* / *neyyattha* unit is the discourse, not the passage (§4.6). (3) The chorus and unanimity requirement are not in Cullavagga XI's account (§3.2). (4) Commentary was not "never merged": the class label held while material crossed it (§4.3). (5) Not every discourse opens with the same formula (§4.1).
 
@@ -550,7 +564,7 @@ the register's own rules bar.** It is owed at the point §5.1 has running code.
 
 1. **No locus has been verified against the Pāli by a reader of Pāli.** The checks are against translations and reference works. They establish bibliographic and substantive accuracy at the level a careful non-specialist can reach, and no further.
 2. **Glosses are not verified.** Where the paper renders a term into an engineering concept, that rendering is the authors' and may not be how a specialist would read it. The *uddāna* case shows the failure mode is real.
-3. **Enumeration varies by edition.** §4.6's locus is cited in SuttaCentral's numbering; a reader working from another edition may find it numbered differently.
+3. **Enumeration varies by edition.** §4.6's locus is cited in SuttaCentral's numbering; a reader working from another edition may find it numbered differently. The same holds for counts: §9.11 records that the Theragāthā's verse count differs between editions.
 4. **Nothing here has been reviewed by the tradition.** The material is read as engineering by people outside the community of specialists who carry it, and a specialist may reasonably object to the reading itself and not merely to a citation.
 
 ⭐ **The check that is owed, and by whom.** Each locus should be confirmed by a reader of Pāli — for this institution, the founder's father, who is the transcription authority named in this corpus, or the Aquarian Sangha. The ask is small and specific: confirm that each cited passage says what this paper says it says. **Until that is done, this section is the paper's honest state and not a formality**, and a reader who finds an error is asked to treat §5.1's own disposition rule as applying here: the finding is about the claim.

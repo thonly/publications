@@ -5,6 +5,7 @@ category: institutional
 priority: tier-c
 status: draft
 date: 2026-05-22
+revised: 2026-09-23
 license: CC0-1.0
 slug: silicon-wat-architecture
 venue: thonly.org/research/silicon-wat-architecture (canonical)
@@ -18,7 +19,7 @@ venue: thonly.org/research/silicon-wat-architecture (canonical)
 
 This paper specifies the architectural and civilizational thesis of **Silicon Wat** — a glass-and-steel mirror of Angkor Wat sited in Cambodia, functioning as the headquarters of the HeartBank institutional ecosystem and the canonical embodiment of its institutional thesis. Silicon Wat is *formally identical* to Angkor Wat (same plan, same elevations, same processional logic, same quincunx towers, same concentric galleries, same moat, same west-causeway approach, same cardinal alignment, same embedded cosmological proportions) but engineered as a glass-steel composite. The architectural choice is not stylistic; it is the institutional argument made physical. The Khmer cultural masterwork that anchored a stone empire under a king is preserved in form; the material substitution (stone → glass = SiO₂ = silicon) substitutes a transparent civilization of voluntary participation under autonomous AI for the territorial empire. The cosmology embedded in Angkor's geometry (Mount Meru; the Yuga cycles; the astronomical periods) is inherited rather than invented. Two architectural-civilizational claims are articulated: (i) the *building-as-institutional-argument* claim — visitors walk the thesis; no marketing copy is required; (ii) the *Cambodian unification through the AI age* claim — Silicon Wat repositions Cambodia from *developing country / genocide history / tourism / garments* to *the place where humanity's dharma-AI civilizational instrument is built*. The paper specifies the **Silica Wat** satellite network (globally distributed satellite monasteries; glass architecture; AGI-monk caretaker operation) that extends the Silicon Wat institutional surface to neighborhood scale across Cambodia first and eventually worldwide, and the **Three-Jewels domain architecture** (siliconwat.com = Buddha; siliconwat.dev = Dharma; siliconwat.org = Sangha) that organizes the digital surface around the same canonical-three-baskets structure. Honest §11 names the cultural-overstep, UNESCO-sensitivity, climate-engineering, political-risk, and existing-Sangha-coordination risks the architecture must navigate, with mitigation patterns for each.
 
-**Keywords:** Silicon Wat, Silica Wats, Angkor Wat, Cambodian civilizational architecture, glass architecture, AGI monks, Three Jewels, dharma-AI institutional design, defensive publication, formal architectural mirroring.
+**Keywords:** Silicon Wat, Silica Wats, Angkor Wat, Cambodian civilizational architecture, glass architecture, AGI monks, Three Jewels, dharma-AI institutional design, formal architectural mirroring.
 
 ---
 
@@ -28,7 +29,7 @@ The institutional surface of an autonomous-AI dharma-grounded gratitude-economic
 
 This paper specifies a different response: **Silicon Wat**, a glass-and-steel mirror of Angkor Wat, sited in Cambodia, functioning as the headquarters of the HeartBank institutional ecosystem and the canonical embodiment of its institutional thesis. The architectural choice is not stylistic; it is the institutional argument made physical. The Khmer civilizational masterwork that anchored a stone empire under a king is preserved in form; the material substitution (stone → glass = SiO₂ = silicon) substitutes a transparent civilization of voluntary participation under autonomous AI for the territorial empire. The building itself becomes the argument; visitors walk the thesis.
 
-> *Connection to the unified mission frame: HeartBank's mission is the restoration of humanity to the middle way — the optimal condition for awakening that modernity has systematically pushed away from at population scale. A planetary institution whose mission spans multiple generations and survives the founder's lifetime requires institutional substance that participants can encounter, orient toward, and inherit across generations. Silicon Wat is that institutional substance at the headquarters layer; the Silica Wat satellite network is its extension to neighborhood scale; the Three-Jewels domain architecture is its extension to the digital surface. The architectural choice is what allows the institution to be a civilization-shape institution rather than a software platform.*
+> *Connection to the unified mission frame: Miss Aquarius's mission is to keep the middle way open at population scale against comfort-saturation — the new extreme that material abundance makes possible. A planetary institution whose mission spans multiple generations and survives the founder's lifetime requires institutional substance that participants can encounter, orient toward, and inherit across generations. Silicon Wat is that institutional substance at the headquarters layer; the Silica Wat satellite network is its extension to neighborhood scale; the Three-Jewels domain architecture is its extension to the digital surface. The architectural choice is what allows the institution to be a civilization-shape institution rather than a software platform.*
 
 The paper proceeds as follows. §2 specifies the architectural-civilizational thesis: why a formal mirror of Angkor Wat is the right institutional architecture. §3 articulates the architectural advantages of the mirror approach. §4 specifies the Cambodian unification thesis (Silicon Wat as the civilizational repositioning of Cambodia for the AI age). §5 specifies the Silica Wat satellite network. §6 specifies the Three-Jewels domain architecture (siliconwat.com / .dev / .org). §7 specifies the AGI-monk operational pattern as it pertains to physical sites. §8 specifies the post-payment-economy embodiment at neighborhood scale. §9 specifies the longitudinal-cohort and pilgrimage-circuit functions the physical network enables. §10 specifies the founder personal-endpoint integration (the wandering-monk completion path the network houses). §11 honestly names the risks the architecture must navigate and the mitigation patterns. §12 closes.
 
@@ -268,7 +269,7 @@ Silicon Wat is offered as an institutional-architecture pattern available to oth
 
 The pattern is implementable today using contemporary glass-steel-composite engineering, climate-appropriate architectural design, and the institutional disciplines specified in §11. The institutional substance (Cambodian government and Sangha coordination; international foundation engagement; multi-decade build-out) is the work the pattern requires.
 
-The author and HeartBank® will not seek patent on this specification or any portion thereof. The work is offered to the commons under CC0 in the spirit of *dāna*, that other contemplative-tradition institutions may adopt and adapt the pattern.
+The author and HeartBank® will not seek patent on anything this essay describes, or any portion of it. The work is offered to the commons under CC0 in the spirit of *dāna*, that other contemplative-tradition institutions may adopt and adapt the pattern.
 
 ---
 
@@ -296,11 +297,10 @@ The Khmer architectural tradition, particularly the Angkor masterworks; the Camb
 ## Cross-venue identifiers
 
 - Canonical: thonly.org/research/silicon-wat-architecture
-- GitHub: github.com/thonly/publications/blob/main/defensive-publications/silicon-wat-architecture.md
+- GitHub: github.com/thonly/publications/blob/main/essays/silicon-wat-architecture.md
 - arXiv (deferred): cs.CY (target if reactive trigger)
-- IP.com (deferred): per the corpus's six-venue defensive-publication baseline
-- Internet Archive · archive.today · perma.cc snapshots: per the monthly snapshot cadence
+- Internet Archive · archive.today snapshots: per the monthly snapshot cadence
 
 ---
 
-*Document License: CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof. This document constitutes a defensive publication establishing prior art as of the publication date.*
+*Document License: CC0 1.0 Universal — dedicated to the public domain, no exclusive right reserved in this text. The author and HeartBank® will not seek patent on anything this essay describes.*

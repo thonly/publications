@@ -241,7 +241,6 @@ const MISSION_PAST_DEBT = new Set([
     "defensive-publications/capacity-funded-human-disbursed-ai-alignment.md",
     "defensive-publications/dual-currency-reciprocity.md",
     "defensive-publications/embodied-advocate-pageant.md",
-    "defensive-publications/four-body-architecture.md",
     "defensive-publications/gift-tag-time-reveal.md",
     "defensive-publications/longitudinal-cohort-methodology.md",
     "defensive-publications/mechanical-heart.md",
@@ -257,13 +256,10 @@ const MISSION_PAST_DEBT = new Set([
     "defensive-publications/verified-human-anonymous-local-giving.md",
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md",
     "defensive-publications/what-a-vow-must-cost.md",
-    "defensive-publications/zero-point-game.md",
     "essays/christmas-jubilee-timing.md",
     "essays/diaspora-cambodia-remittance.md",
-    "essays/each-life-as-cosmic-coordinate.md",
     "essays/father-son-tipitaka-transcription.md",
     "essays/kids-as-triggers-self-thanking.md",
-    "essays/silicon-wat-architecture.md"
 ]);
 let missionPastSeen = 0;
 
