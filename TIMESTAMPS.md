@@ -1,3 +1,14 @@
+### 2026-09-24 — A230: the retired A126 mission sentence out of five defensive publications (founder: *"yes"* — do A230 alongside the-called-draw)
+
+`gift-tag-time-reveal` · `verified-human-anonymous-local-giving` · `aura-gated-anonymous-mate-selection` ·
+`respiratory-biofeedback-contemplative-guidance` · `thank-all-nearby-primitive` — the sentence that read a middle-way PAST
+(*restore humanity to the middle way … that modernity has pushed away from*) replaced by the A126 form (*keep the middle way
+open at population scale against comfort-saturation — the new extreme that material abundance makes possible*), each paper
+keeping its own subject. `MISSION_PAST_DEBT` shrinks by five; `BANNED_FIELD_DEBT` and `BODY_CLAIM_DEBT` also lost stale
+entries for three of them, verified paid (no banned field, no body claim). Legs: OTS rotated (each retiring proof
+Bitcoin-complete) + re-stamped (calendar-only) · TSA `2026-09-24.sha256` · Zenodo five new versions · index 2.5.9 · site:
+three regenerated, two hand-authored modules edited by hand.
+
 ### 2026-09-24 — the-called-draw: its polish round, ruled and applied; first deposit (founder: *"let's polish now then submit to TDCommons"* · *"do per your recommendation"*)
 
 Model round `TH/notes/reviews/the-called-draw/2026-09-23-r1` — gpt-5 · grok-4.6 · gemini-3.8-flash · the cold control on
