@@ -208,12 +208,12 @@
  },
  "fractal-three-level-architecture": {
   "concept_doi": "10.5281/zenodo.21947325",
-  "deposition_id": 22167872,
-  "doi": "10.5281/zenodo.22167872",
+  "deposition_id": 22929350,
+  "doi": "10.5281/zenodo.22929350",
   "published": true,
   "sandbox": false,
-  "sha256": "e5d10d905e93dbd86d73d0b326d5cf6d911e1d8a6cbbf9882e25d4795cf6a528",
-  "url": "https://zenodo.org/records/22167872"
+  "sha256": "5e63ccbe2d3878fe6d0c0d0054baa7d68e63309956ff1f9d31a129e0db3fe8f8",
+  "url": "https://zenodo.org/records/22929350"
  },
  "gift-tag-time-reveal": {
   "concept_doi": "10.5281/zenodo.21947327",
@@ -289,12 +289,12 @@
  },
  "manufactured-universal-giving": {
   "concept_doi": "10.5281/zenodo.21947349",
-  "deposition_id": 22246414,
-  "doi": "10.5281/zenodo.22246414",
+  "deposition_id": 22929351,
+  "doi": "10.5281/zenodo.22929351",
   "published": true,
   "sandbox": false,
-  "sha256": "f4af6732e6ddddf11dd943e271d6826052b1567e2cfc67d864d8324b656a4899",
-  "url": "https://zenodo.org/records/22246414"
+  "sha256": "c28c12a1f17277190d3d36ec6cdf54c79ac61e8e539d1eba44aa8b931659ab76",
+  "url": "https://zenodo.org/records/22929351"
  },
  "mechanical-heart": {
   "concept_doi": "10.5281/zenodo.21947353",
@@ -352,12 +352,12 @@
  },
  "prediction-register": {
   "concept_doi": "10.5281/zenodo.22132689",
-  "deposition_id": 22861762,
-  "doi": "10.5281/zenodo.22861762",
+  "deposition_id": 22929363,
+  "doi": "10.5281/zenodo.22929363",
   "published": true,
   "sandbox": false,
-  "sha256": "b82616a2f42c668cbcd5b6bfe2b1d8d9a70c7a5830b4d1e588eba7502e904f31",
-  "url": "https://zenodo.org/records/22861762"
+  "sha256": "9c400f2b9f88b84ff1400e31f5a9570ab55af2ad6e5ece4f79cbbfc210edb5bc",
+  "url": "https://zenodo.org/records/22929363"
  },
  "proof-of-coordinate": {
   "concept_doi": "10.5281/zenodo.21947366",
@@ -388,12 +388,12 @@
  },
  "rotation-over-liveness": {
   "concept_doi": "10.5281/zenodo.22155377",
-  "deposition_id": 22155378,
-  "doi": "10.5281/zenodo.22155378",
+  "deposition_id": 22929354,
+  "doi": "10.5281/zenodo.22929354",
   "published": true,
   "sandbox": false,
-  "sha256": "072c25d396930668cc6fe1a503615f108ba81ddd2e68415adba5933b8ddd169b",
-  "url": "https://zenodo.org/records/22155378"
+  "sha256": "870dce1328734455be78ad324887fe375ed964c5dfb5c22ff4df71bb76dd0152",
+  "url": "https://zenodo.org/records/22929354"
  },
  "sacrifice-witness-without-discharge": {
   "concept_doi": "10.5281/zenodo.21947375",
@@ -496,12 +496,12 @@
  },
  "the-gift-operation": {
   "concept_doi": "10.5281/zenodo.21947401",
-  "deposition_id": 22440990,
-  "doi": "10.5281/zenodo.22440990",
+  "deposition_id": 22929355,
+  "doi": "10.5281/zenodo.22929355",
   "published": true,
   "sandbox": false,
-  "sha256": "c9b0ea3bb450ab647a211bb730323cc14abc5b3c798e38ad46f35192eae55178",
-  "url": "https://zenodo.org/records/22440990"
+  "sha256": "a6eadf9fd87596a5bb76c41aa8bf8926ce83955761da86c19eb895b865c272f1",
+  "url": "https://zenodo.org/records/22929355"
  },
  "the-omitted-clause": {
   "concept_doi": "10.5281/zenodo.21947406",
@@ -514,12 +514,12 @@
  },
  "the-persistence-architecture": {
   "concept_doi": "10.5281/zenodo.21947408",
-  "deposition_id": 22365965,
-  "doi": "10.5281/zenodo.22365965",
+  "deposition_id": 22929361,
+  "doi": "10.5281/zenodo.22929361",
   "published": true,
   "sandbox": false,
-  "sha256": "4590a9afd868977899597f94149f13d6c875454087ebbf5f1d4f2e5f926eedc0",
-  "url": "https://zenodo.org/records/22365965"
+  "sha256": "e778ad8f32f59e2d2bc539e4ee503a556ec12cd6a20b85b7532ee7683f402f2f",
+  "url": "https://zenodo.org/records/22929361"
  },
  "the-reciters-protocol": {
   "concept_doi": "10.5281/zenodo.22735459",
@@ -559,12 +559,12 @@
  },
  "the-unpaid-relay": {
   "concept_doi": "10.5281/zenodo.22313927",
-  "deposition_id": 22440996,
-  "doi": "10.5281/zenodo.22440996",
+  "deposition_id": 22929362,
+  "doi": "10.5281/zenodo.22929362",
   "published": true,
   "sandbox": false,
-  "sha256": "8c8a72af3d5f5639dfca4ba8276ae2818c23df9a95a4bb6001818b1713883f46",
-  "url": "https://zenodo.org/records/22440996"
+  "sha256": "eb7543f1233bd43bf90d480a31f6af69386c8261ac5cafc26ce503d904a14d81",
+  "url": "https://zenodo.org/records/22929362"
  },
  "the-wager-that-isnt": {
   "concept_doi": "10.5281/zenodo.21947416",
@@ -577,12 +577,12 @@
  },
  "the-water-cycle": {
   "concept_doi": "10.5281/zenodo.22735468",
-  "deposition_id": 22735469,
-  "doi": "10.5281/zenodo.22735469",
+  "deposition_id": 22929365,
+  "doi": "10.5281/zenodo.22929365",
   "published": true,
   "sandbox": false,
-  "sha256": "d5d293cd3f3208b17315de40198bc98ba523eeabb37a3439d31defcd33fe5511",
-  "url": "https://zenodo.org/records/22735469"
+  "sha256": "1efbca93cdb14259712cea4e11bb825981853e3c1698a0b53d7efac4349b04b3",
+  "url": "https://zenodo.org/records/22929365"
  },
  "the-zero-employee-institution": {
   "concept_doi": "10.5281/zenodo.21947420",
