@@ -14,6 +14,10 @@ not do, so this script remembers it instead.
   check-mirrors.py --record SLUG --venue V --date YYYY-MM-DD|none --pdf FILE [--claims-heading '## H' ... | BODY]
   check-mirrors.py --ack SLUG --note "why no second submission is owed"
   check-mirrors.py --posted SLUG --date YYYY-MM-DD --url URL   the venue's live record, once it posts
+  check-mirrors.py --verify-posted SLUG --pdf FILE   is the POSTED PDF ours, word for word, in order?
+                                   (not a checksum: the venue adds a cover page, a page number and
+                                   running stamps; fetch the PDF through a browser — the site sits
+                                   behind a Cloudflare challenge that refuses curl)
   check-mirrors.py --selftest      run the controls: prove it can SEE a change, and a missing section
 
 WHAT IT DOES NOT DO: decide. It narrows "something moved" to "these claims moved, here is the
@@ -125,6 +129,91 @@ def posted(slug, date, url):
             save(m); print(f"posted {slug}: {date} {url}"); return 0
     sys.exit(f"{slug} is not in the manifest")
 
+def pdf_text(pdf, first=1):
+    """`-raw` = content-stream order. Layout mode re-orders table cells differently in the two
+    files (a cell's `rate-limits` split across rows), which reads as lost words when none are."""
+    import subprocess
+    r = subprocess.run(["pdftotext", "-raw", "-f", str(first), str(pdf), "-"], capture_output=True, text=True)
+    if r.returncode:
+        sys.exit(f"pdftotext failed on {pdf}: {r.stderr.strip()}")
+    return r.stdout
+
+def norm(lines):
+    """Whitespace tokens, lowercased, every non-alphanumeric stripped."""
+    return [t for ln in lines for t in (re.sub(r"\W", "", w.lower()) for w in ln.split()) if t]
+
+def pages(pdf):
+    import subprocess
+    out = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
+    return int(re.search(r"^Pages:\s+(\d+)", out, re.M).group(1))
+
+def posted_body(pdf, url):
+    """The posted PDF minus what the venue adds: its one-page cover, and at the TAIL of every page
+    (content-stream order) a page number and two stamp lines — on even pages the running title
+    `<Surname>: <title, truncated>` + `Published by Technical Disclosure Commons, <year>`, on odd
+    ones `Defensive Publications Series, Art. <n> [<year>]` + the record URL. Only those exact
+    forms, only at a page's tail; anything else the venue added shows up as EXTRA and fails."""
+    cover = " ".join(pdf_text(pdf, 1).split("\f")[0].split())
+    art = url.rstrip("/").rsplit("/", 1)[1]
+    stamp = [
+        lambda s: re.fullmatch(r"Published by Technical Disclosure Commons, \d{4}", s),
+        lambda s: re.fullmatch(rf"Defensive Publications Series, Art\. {art} \[\d{{4}}\]", s),
+        lambda s: s.rstrip("/") == url.rstrip("/"),
+        lambda s: (m := re.match(r"^[\w'’-]+: (.{20,})$", s)) and m.group(1) in cover,
+    ]
+    keep = []
+    for i, page in enumerate(pdf_text(pdf, 2).split("\f")):
+        lines = page.splitlines()
+        while lines and (not lines[-1].strip() or any(f(lines[-1].strip()) for f in stamp)):
+            lines.pop()
+        if lines and lines[-1].strip() == str(i + 2):          # the venue's page number
+            lines.pop()
+        keep += lines
+    return keep
+
+def verify_posted(slug, pdf):
+    """Is the PDF the venue posted OUR submitted PDF, word for word? A checksum cannot answer it —
+    the venue adds a cover page and re-renders — so compare the text after the cover. Every run
+    carries its own negative control: the same posted PDF against a DIFFERENT paper must fail."""
+    if not pdf or not Path(pdf).exists():
+        sys.exit("--verify-posted needs --pdf <the PDF downloaded from the venue's record>")
+    m = load()
+    e = next((x for x in m["entries"] if x["slug"] == slug), None)
+    if not e or not e.get("url"):
+        sys.exit(f"{slug}: not recorded as posted — run --posted first")
+    sub = SUBMITTED / e["pdf"]
+    import collections
+    seq = norm(posted_body(pdf, e["url"]))
+    oseq = norm(pdf_text(sub).splitlines())
+    body, ours = collections.Counter(seq), collections.Counter(oseq)
+    extra, missing = body - ours, ours - body
+    other = next((SUBMITTED / x["pdf"] for x in m["entries"] if x["slug"] != slug), None)
+    ctl = collections.Counter(norm(pdf_text(other).splitlines())) if other else None
+    control_fails = ctl is not None and (body - ctl or ctl - body)
+    np, ns = pages(pdf), pages(sub)
+    ok = seq == oseq and np == ns + 1                 # same words IN THE SAME ORDER
+    print(f"  {'✅' if ok else '⛔'} {slug}: posted {np} pp = cover + {np - 1} · submitted {ns} pp · "
+          f"{len(oseq)} words{'' if seq == oseq or extra or missing else ' (REORDERED)'} · extra {sum(extra.values())} · missing {sum(missing.values())}")
+    if extra:   print(f"     extra:   {extra.most_common(12)}")
+    if missing: print(f"     missing: {missing.most_common(12)}")
+    print(f"     control ({other.name if other else 'none'}): {'FAILS, as it must' if control_fails else 'DID NOT FAIL — the comparison is blind'}")
+    if not control_fails:
+        sys.exit("REFUSING to record: the negative control passed, so a pass here means nothing")
+    if sum(missing.values()) > len(oseq) // 2:
+        # A real posting defect is a few words; half the paper absent is the wrong FILE. Recording
+        # it would write a false MISMATCH onto this paper's permanent record (it happened once, in a test).
+        sys.exit(f"REFUSING to record: over half of {slug}'s words are absent — --pdf is almost "
+                 f"certainly a DIFFERENT paper's posting. Check the file; nothing was written.")
+    e["posted_verified"] = {
+        "date": __import__("datetime").date.today().isoformat(),
+        "result": "match" if ok else "MISMATCH",
+        "posted_pdf_sha256": hashlib.sha256(Path(pdf).read_bytes()).hexdigest(),
+        "posted_pages": np, "words": sum(ours.values()),
+        "extra": sum(extra.values()), "missing": sum(missing.values()),
+    }
+    save(m)
+    return 0 if ok else 1
+
 def ack(slug, note):
     """A judged claim-movement clears. RED means UNJUDGED movement, not movement."""
     if not note:
@@ -235,6 +324,7 @@ if __name__ == "__main__":
     ap.add_argument("--date"); ap.add_argument("--pdf")
     ap.add_argument("--ack"); ap.add_argument("--note")
     ap.add_argument("--posted"); ap.add_argument("--url")
+    ap.add_argument("--verify-posted", help="SLUG — compare the venue's posted PDF (--pdf) with ours, word for word")
     ap.add_argument("--claims-heading", action="append", help="exact ## heading holding the claims (repeatable), or BODY")
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--quiet", action="store_true")
@@ -242,5 +332,6 @@ if __name__ == "__main__":
     if a.selftest: sys.exit(selftest())
     if a.ack:      sys.exit(ack(a.ack, a.note) or 0)
     if a.posted:   sys.exit(posted(a.posted, a.date, a.url) or 0)
+    if a.verify_posted: sys.exit(verify_posted(a.verify_posted, a.pdf))
     if a.record:   sys.exit(record(a.record, a.venue, a.date, a.pdf, a.claims_heading) or 0)
     sys.exit(check(a.quiet))
