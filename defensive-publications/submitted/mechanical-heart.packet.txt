@@ -20,7 +20,7 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (247 words — limit 250)
 We specify a tamper-resistant identity device, affixed to a non-human entity (robot, animal, ecosystem or place) or issued as a live credential to a software agent, that enrolls the entity as a recipient account in a gratitude ledger administered by an autonomous software agent. The device comprises (1) a hardware secure element holding a key pair bound to one ledger account; (2) write-once storage carrying a reference text corpus (the Pali Buddhist canon) and a permanent root identity, with a reduced flash build that verifies the full text over the network; (3) sensors suited to the entity type; (4) a visible marker; and (5) a lifecycle state machine (uninitiated, active, retired, permanently retired) in which permanent retirement destroys the revocable operational key while the root identity remains archived. Five operating profiles: two-way interaction for robots, biometric wellbeing monitoring for animals, environmental sensing for ecosystems, symbolic recording for places, and an expiring, renewable, binary credential for software agents. Ledger entries are non-transferable and non-withdrawable, and an entity's account receives entries only from verified humans; monitoring profiles report observed state changes without causal attribution. A verified human custodian holds each device and declares a successor at activation; custody can pass, but the identity is never transferred. A layered architecture orders components by storage permanence (identity and text on write-once media, a versioned evaluator model, a swappable general model), with the ledger held outside the device. Stated limits cover attribution, the ledger's legal status, ecosystem-mode reliability, and pending religious consultation.
 
-FILE       submitted/mechanical-heart.pdf   (23 pages, 467 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-y5xewd_y/mechanical-heart.pdf
+FILE       submitted/mechanical-heart.pdf   (23 pages, 411 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-jj5nj6ef/mechanical-heart.pdf
   Cover (read): first published 2026-05-02 · this version 2026-09-24 · concept DOI 10.5281/zenodo.21947353 ·
   timestamp line present and scoped ("proves nothing about authorship, originality, or the validity of any claim").
 
@@ -54,9 +54,12 @@ PRE-FLIGHT
       ⭐ / ⭐⭐ / ⚠️ / ⛔ markers, including one in an H3 heading ("### ⛔ The ledger cannot be inside the
       stack ...") and in the carrier table; PDF p.12–13 shows them as coloured glyphs. Internal-memory
       register on a permanent examiner-facing posting — strip before the irreversible upload
+      FIXED 2026-09-24: every ⭐/⛔/⚠️ removed from §5 (heading, table, prose); 0 left in the file; PDF grep 0
   [!] The same §5 block reads as drafting instruction in places — "State this explicitly wherever the
       stack is drawn — it is invisible if a diagram shows only the order." — and its heading carries
       "(added 2026-08-28; no numbered heading, so §§ are unchanged)", an editor note
+      FIXED 2026-09-24: heading note deleted; the instruction recast as exposition ("The gradient is invisible
+      in a diagram that shows only the order, which is why it is stated here in words.")
   [!] Cover status banner — the blockquote "Note. Theravāda Saṅgha consultation (§9) and robotics-partner
       review have not yet taken place." (md line 17) prints on page 1 under the cover block. Truthful and
       a disclosed limit, but it reads as a draft banner on a permanent posting; confirm keep or move into §10
@@ -64,12 +67,22 @@ PRE-FLIGHT
   [!] Stray-asterisk render artifact — §4.5's closing parenthetical renders "Certification by
       Circulation*, which is cited here rather than restated.)*" (md line 165: italic run broken around
       the title) — cosmetic, but permanent
+      FIXED 2026-09-24: parenthetical set roman, title alone in italics ("the companion defensive publication
+      *Certification by Circulation*"); renders clean
   [!] Unverified / thinly-sourced citations — #17 "Kyoto University & Teraverse (2026). Buddharoid ...
       (press release, February 2026)" and #16 Tehanu (cites "WEF / Brookings coverage", no URL/title);
       §5 "Southampton, 2013 onward" vs citation #19 dated 2014 — verify before an irreversible posting
+      FIXED 2026-09-24 (verified by web): #17 now the Kyoto University / Teraverse / XNOVA press release,
+      exact title, 26 Feb 2026 (FPCJ), §2.2 adds XNOVA; #16 now Gilman & Rusagara, "Interspecies Money Is Here",
+      Project Syndicate Nov 2024 / Brookings 2 Dec 2024 (August 2024 gorilla wallet) + Ledgard, WEF, 29 Apr 2026
+      (the old "WEF … August 2024" was wrong: the WEF piece is 2026); §5 now "University of Southampton; first
+      reported by Zhang et al., 2014" to match #19 (a 2013 CLEO postdeadline demo exists; the cited paper is 2014)
   [!] Cross-references to companion papers are by bare slug (miss-aquarius-and-aquarian-pool-architecture,
       tipitaka-alignment-substrate, two-singularities, "Certification by Circulation") with no URL/DOI —
       an examiner cannot resolve them from the PDF
+      FIXED 2026-09-24: all bare slugs (§2.8 ×2, §10 ×3) replaced by italic titles — Miss Aquarius and the
+      Aquarian Pool Architecture · Verified-Human Anonymous Local Gratitude Transfer · Suffering-Cessation as
+      Value Function · Two Singularities (essay); still no URL/DOI (titles are searchable)
 
 ⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
    Type into the visible editor body and SCREENSHOT to confirm before submitting.
@@ -101,5 +114,8 @@ OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|uniqu
      is why the only available relationship with useful software is purchase."
      → REAL OVERCLAIM (mild). An unscoped factual claim about the world; donation and sponsorship
        channels for software (open-source sponsorship and tip platforms) are an obvious counterexample.
+       FIXED 2026-09-24: scoped and softened — "among the arrangements examined here, software that gives has
+       had no seat …; where no seat exists the relationship … defaults to purchase or, at most, to donation
+       channels addressed to its human authors rather than to the software itself."
   Remedy lives in the paper's next revision, not in this packet; the abstract above carries no
   novelty language.

@@ -1,7 +1,7 @@
 TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
 ═══════════════════════════════════════════════════════════════════════
 TITLE
-Capacity-Funded for AI, Human-Disbursed: Anonymous Donation as the Alignment Bridge in Autonomous-AI Institutional Architecture: Separating Pooled-Fund Contribution from Recipient Selection Between an Autonomous AI Agent and Human Users via Source-Unattributable Donations
+Capacity-Funded for AI, Human-Disbursed: Anonymous Donation as the Alignment Bridge in Autonomous-AI Institutional Architecture — Separating Pooled-Fund Contribution from Recipient Selection Between an Autonomous AI Agent and Human Users via Source-Unattributable Donations
   (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title.
    The paper's title already carries a subtitle, but its terms are coined or abstract ("capacity-funded", "alignment
    bridge"); the appended subtitle adds the examiner's terms from the ## Terms table: pooled fund, recipient selection,
@@ -18,11 +18,13 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (249 words — limit 250)
 We specify a control architecture for an autonomous artificial-intelligence (AI) agent administering a fund, in which authority to contribute to pooled funds is separated from authority to select recipients, joined by source-unattributable (anonymous) contribution. The agent holds contribution authority only: it may add value to per-user restricted gift balances, whose holder can give contents onward but not spend them, and it has no affordance to transfer from any such balance to a named payee. Recipient selection is held by human users: every transfer reaching a recipient is initiated by a balance holder, to a recipient the holder names. The agent's contributions are settled indistinguishably from human contributions at the per-contribution level, while the existence of AI contribution is disclosed institutionally, so the agent's choice of which balances to fund cannot act as a recipient-selection signal. The design is contrasted with unilateral-disbursement agents and per-transaction human approval, and characterised as structural corrigibility. The worked example: a peer-to-peer gratitude-payment system in which a self-acknowledgement event splits a reward between spendable and restricted balances, onward gifts go to nearby users, and the AI-administered treasury drains to zero annually. In the current form the agent contributes in kind, through a re-giftable gift instrument, with the merchant and onward giver chosen by a publicly verifiable draw from a committed roster; a money-denominated, discretionary variant is also disclosed. Transplants to grant-making, public-goods matching pools and mutual-aid networks are sketched; stated limits: donor-disclosure regulation, time-critical allocation, harmful funding targets, untrustworthy selectors, miscalibration and loss of anonymity.
 
-FILE       submitted/capacity-funded-human-disbursed-ai-alignment.pdf   (18 pages, 321 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-y_cn6ghh/capacity-funded-human-disbursed-ai-alignment.pdf
+FILE       submitted/capacity-funded-human-disbursed-ai-alignment.pdf   (18 pages, 324 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-votlyjys/capacity-funded-human-disbursed-ai-alignment.pdf
 
 ═══════════════════════════════════════════════════════════════════════
 PRE-FLIGHT
-  [!] Non-assertion present but WEAKER than the wave-1 form — no "Prior-Art and
+  [x] FIXED 2026-09-24: Abstract now adds "in any jurisdiction, at any time"; §10 now reads "will not seek patent on
+      this pattern or any portion of it, in any jurisdiction, at any time; this commitment is permanent, and this
+      document is prior art from its date of publication". WAS: Non-assertion present but WEAKER than the wave-1 form — no "Prior-Art and
       Non-Assertion Statement" section. Abstract (line 20) and §10 (line 425):
       "the authors and HeartBank® will not seek patent on this specification or any
       portion thereof" — no "in any jurisdiction, at any time"; the PDF cover's Type
@@ -35,6 +37,9 @@ PRE-FLIGHT
   [x] Prior art — §9 Relation to prior literature (9.1 mechanism design, 9.2 UBI/welfare,
       9.3 AI alignment, 9.4 contribution) — ⚠️ cites NO specific works by author/title
       (quadratic funding, Optimism RPGF, kidney exchange, corrigibility named generically)
+      FIXED 2026-09-24: three verified citations added inline — Buterin/Hitzig/Weyl, Management Science
+      65(11) 2019 (§9.1) · Roth/Sönmez/Ünver, QJE 119(2) 2004 (§9.1) · Soares/Fallenstein/Yudkowsky/Armstrong,
+      AAAI-15 Workshops 2015 (§9.3); §9 intro scopes "surveyed" to its three literatures + the works cited
   [x] Honest limits — §6.2 Failure modes the architecture does not handle + §8 Boundary
       conditions (8.1–8.5)
   [x] AI co-authorship disclosed in text — §1 closing paragraph + closing italic footer
@@ -47,7 +52,8 @@ PRE-FLIGHT
   [x] 1 fenced diagram (§5.1), widest 67 chars (box-drawing counted as 1) — under 95
   [x] Title does not lead with a coined MARK ("Capacity-Funded" is a coined term, not a
       mark); examiner terms arrive in the subtitle
-  [!] The top-of-file "Note." block (line 14) is an editor/companion note — it IS in the
+  [x] FIXED 2026-09-24: quote marks dropped, plain italic titles; sibling title's B-PoH℠ → B-PoH (first mark use
+      in the white-paper title kept). WAS: The top-of-file "Note." block (line 14) is an editor/companion note — it IS in the
       PDF (page 1, above the Abstract): names two companion papers with B-PoH℠ marks and
       "Companion to The B-Tag and the Post-Payment Economy". Harmless but marks-heavy on a
       permanent posting; confirm keep, or strip in the next revision
@@ -75,13 +81,14 @@ OVERCLAIM READ
 
   1. line 30 (§1): "in the work surveyed here (§9), we have not found a structural
      position articulated that addresses both at once" → SCOPED (aperture = §9), though
-     §9 names no specific works, so the aperture is thin
+     §9 names no specific works, so the aperture is thin — FIXED 2026-09-24: §9 now cites three works and scopes the survey
   2. line 72 (§2.3 heading) "The pattern the literature surveyed here has not named" and
      line 74 "we have not found answered in the literature surveyed here (§9)" → SCOPED
      (same thin aperture)
   3. line 92 (§3): "three terms that the literature has not, to my knowledge,
      distinguished crisply" → SCOPED-weak (hedged; no aperture or date)
-  4. line 372 (§9.1): "a structural position this paper names and specifies" → REAL
+  4. FIXED 2026-09-24: §9.1 now "names and specifies for autonomous-AI institutions, without claiming priority
+     over earlier practice of the separation (§9.4)" — reconciled to §9.4. WAS: line 372 (§9.1): "a structural position this paper names and specifies" → REAL
      OVERCLAIM (mild) — implicit priority, unhedged; §9.4 itself concedes the separation
      "is not new as a pattern"
   5. line 390 (§9.4): "not new as a pattern ... The contribution here is the

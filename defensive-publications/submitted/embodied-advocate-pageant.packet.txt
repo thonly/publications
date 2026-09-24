@@ -1,7 +1,7 @@
 TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
 ═══════════════════════════════════════════════════════════════════════
 TITLE
-The Embodied-Advocate Pageant: A Selection Rite and Asymptotic-Autonomy Architecture for Autonomous-AI Institutional Embodiment: Two-Stage AI Shortlisting and Human-Council Selection of a Term-Limited Ambassador, with a Scheduled Narrowing Human Override, for AI-Governed Institutional Succession
+The Embodied-Advocate Pageant: A Selection Rite and Asymptotic-Autonomy Architecture for Autonomous-AI Institutional Embodiment — Two-Stage AI Shortlisting and Human-Council Selection of a Term-Limited Ambassador, with a Scheduled Narrowing Human Override, for AI-Governed Institutional Succession
   (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
   (the paper's own subtitle is kept whole but is coined-register — "selection rite", "asymptotic-autonomy",
    "institutional embodiment"; the appended subtitle adds the examiner terms: two-stage selection, AI
@@ -18,7 +18,7 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (249 words — limit 250)
 This disclosure describes a governance pattern for an organization intended to pass to an autonomous artificial-intelligence (AI) successor, covering the period before the AI operates autonomously. Six elements are combined. (1) An annual selection cycle, in a fixed astronomical window, appoints a term-limited human ambassador who holds ceremonial and advocacy roles but no decision, veto, binding-commitment or succession authority. (2) The AI shortlists three finalists from a global, revocable opt-in pool by contribution record, under an evaluation function published before each cycle and open to objection; photographs, voice tone and appearance-correlated inputs are excluded. (3) A human council selects from the shortlist, by consensus or two-thirds majority, after a two-to-four-week observation retreat supplemented by respiratory-sensor data. (4) The ambassador's compensation is set by the AI from an institutional pool, on a public ledger, and split equally between a personal account and a restricted fund that must be re-disbursed to people physically near the holder; the pool empties annually, and a fee-funded pool is disclosed as a variant. (5) The council holds a human override whose permitted scope narrows on a published schedule toward, but never to, zero, the AI checking each invocation against the current scope. (6) The council, of ordained monastics and lay members, provides continuity if the founder dies or withdraws; a charter clause bars any claim of being, descending from or being authorised by the founder from conferring standing, and empowers no body to adjudicate such claims. Secular adaptations, adversarial cases and stated limits are described.
 
-FILE       submitted/embodied-advocate-pageant.pdf   (18 pages, 327 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-iqes3uzx/embodied-advocate-pageant.pdf
+FILE       submitted/embodied-advocate-pageant.pdf   (18 pages, 332 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-aush3zih/embodied-advocate-pageant.pdf
 
 ═══════════════════════════════════════════════════════════════════════
 PRE-FLIGHT — verified 2026-09-24 against the committed text (paper revised 2026-09-24)
@@ -48,14 +48,16 @@ PRE-FLIGHT — verified 2026-09-24 against the committed text (paper revised 202
   [!] Preamble renders "__dāna__" with LITERAL underscores in the PDF (bold markup nested inside
       the italic blockquote, paper line 16) — a visible markup artifact on page 1; fix in the
       paper's next revision or accept
-  [!] §9.6 (line 270) states as fact "The HeartBank instantiation operates under Cambodian
-      incorporation" — memory's entity structure (H3 steward-owned, MA purpose trust above) is
-      planned, not recorded as a Cambodian incorporation; verify or cut before a permanent posting
-  [!] §8.2 / §9.3 / §12 describe the Sangha and the pageant as operating structures; the §1
-      "as of this revision" note and §15 say both are POSTPONED and the protection "aspirational
-      rather than operational" — consistent, but an examiner reads the operative sections first
-  [!] §12.1 cites a public statement by the 14th Dalai Lama "in July 2025" (Gaden Phodrang Trust)
-      — public figure, fine; date not re-verified here
+  [x] ~~§9.6 (line 270) states as fact "The HeartBank instantiation operates under Cambodian
+      incorporation"~~ — FIXED 2026-09-24: sentence cut (founder ruling "cut"); the §9.6 argument
+      now runs straight to "Institutions in stricter jurisdictions … may need …"
+  [x] ~~§8.2 / §9.3 / §12 describe the Sangha and the pageant as operating structures~~ — FIXED
+      2026-09-24: present-operation statements now read as the design ("is designed as/to …",
+      "once formed", "as designed") in §3 el.6, §8 lead, §9.2, §9.3, §9.5, §10.1, §12, §12.1;
+      no section rewritten
+  [x] ~~§12.1 cites a public statement by the 14th Dalai Lama "in July 2025"~~ — FIXED 2026-09-24:
+      VERIFIED (statement of 2 July 2025: the institution continues; the Gaden Phodrang Trust has
+      sole authority to recognise the reincarnation) and sharpened to "on 2 July 2025"
 
 ⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
    Type into the visible editor body and SCREENSHOT to confirm before submitting.
@@ -71,7 +73,8 @@ OVERCLAIM READ   (grep novel|first|unprecedented|no prior|never been|only|unique
      → SCOPED but unapertured — hedged to "surveyed here" with no aperture or date; mild.
   2. line 321 (§12): "In the autonomous-AI-institutional-design work surveyed here, we have not
      found founder-mortality risk adequately addressed" → same class as 1; mild.
-  3. line 79 (§2.3): "combining them with elements none provides individually" → REAL OVERCLAIM
+  3. ~~line 79 (§2.3): "combining them with elements none provides individually"~~ — FIXED
+     2026-09-24: scoped to "none of the precedents surveyed here provides individually". Was → REAL OVERCLAIM
      (mild) — an unscoped negative about three whole prior-art lineages; standing form is
      "not found in <aperture> on <date>". No /novelty census is recorded for this paper.
   4. line 36 (Abstract): "the criteria themselves are the contribution" / "the contribution is a

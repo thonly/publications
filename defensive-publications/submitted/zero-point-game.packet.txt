@@ -19,7 +19,7 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (247 words — limit 250)
 We specify a signed-balance reciprocity ledger, played as an ongoing non-zero-sum game, in which each recorded kindness posts an equal-and-opposite pair: the giver's balance moves positive and the receiver's negative by the same magnitude, so the sum across participants is zero by construction, and a participant returns toward zero only by passing an imbalance onward. Balances are never a store of value or a claim on goods. Components: (1) a self-directed acknowledgment event whose forwarded half, under a fifty-fifty forwarding rule, is re-issued to another participant, starting circulation without a prior counterparty; (2) two segregated, non-convertible balances per participant, one human-to-human and one human-to-environment, with no cross-ledger netting; (3) a public visualization computed from each balance's time series (zero-crossing frequency and excursion amplitude, rendered as concentric rings) in place of a persistent score; (4) an annual reset of every balance to zero while the visualization carries over, so a gamed balance cannot compound yet its history stays visible; (5) a single AI coordinator that recommends magnitude and routing rather than discovering prices, decomposed into objective holder, proxy measurer and feedback reader, its aggregation function published and frozen within each season; (6) a decision-authority rule under which the coordinator decides magnitudes only for non-human counterparties without a voice and recommends wherever a human can choose, its own environmental balance fixed at zero. Stated limits include no convergence proof, unresolved collusion among verified participants, an unspecified amplitude unit, dependence on an uncompromised coordinator, and force only at adoption density.
 
-FILE       submitted/zero-point-game.pdf   (26 pages, 488 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-b4y562ic/zero-point-game.pdf
+FILE       submitted/zero-point-game.pdf   (26 pages, 488 KB)  — built at submission with --submitted; temp build (2026-09-24 fix pass): /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-iruf6gjg/zero-point-game.pdf (26 pages, 504 KB)
 
 ═══════════════════════════════════════════════════════════════════════
 PRE-FLIGHT — verified 2026-09-24 against the committed text (paper revised 2026-09-24)
@@ -48,19 +48,21 @@ PRE-FLIGHT — verified 2026-09-24 against the committed text (paper revised 202
   [x] No perma.cc · no "Document SHA-256" body footer (the closing italic attestation line says
       "This document's SHA-256 is attested ..." with its scope limit — prose, no hash, no placeholder)
   [x] 2 fenced diagrams (§3 ledger, §6.1 table), widest 74 chars (box-drawing counted as 1) — under 95
-  [!] §6.1 diagram carries a "⚠" glyph (U+26A0, "⚠ NO") — renders in the PDF; a warning sign, not an
-      emoji, but the only non-text symbol in the posting
+  [x] FIXED 2026-09-24: §6.1 diagram's "⚠ NO" (U+26A0) replaced by plain ASCII "! NO"; the PDF
+      carries no warning glyph (pdftotext grep for ⭐⛔⚠ → 0)
   [!] Title LEADS with a coined mark ("The Zero-Point Game℠" — tdc-pdf.py warns the same) — examiner
       terms arrive only in the appended subtitle; kept per rule, flagged
   [!] front matter "status: draft" — the paper has no ruled human round
   [!] RENDER ARTIFACTS in the PDF (a permanent upload): literal "<sub>" tags — 10 occurrences on 7
       lines (§3 "b<sub>i</sub>", "b<sub>g</sub> ← b<sub>g</sub> + m", §6, §11.3); literal asterisks
-      in "Σ*b<sub>i</sub>* = 0" (§3, twice); the Preamble's "__dāna__" with LITERAL underscores (page 1,
+      in "Σ*b<sub>i</sub>* = 0" (§3, twice) [FIXED 2026-09-24: rewritten "Σ *b*<sub>*i*</sub>", renders
+      "Σ bi = 0"; temp-build grep for <sub>|</sub>|<https?://|__word__ → 0, so the tag, underscore and
+      angle-bracket artifacts no longer appear in the current build]; the Preamble's "__dāna__" with LITERAL underscores (page 1,
       bold nested in the italic blockquote, paper line 19); and angle-bracketed "<https://...>" in the
       §13 table. The markup, not the words, is wrong — fix in the renderer or the paper's next
       revision, or accept, before posting
-  [!] Paper's own Abstract (line 31) is broader than its body in two places — see OVERCLAIM READ 1-2;
-      the TDCommons abstract above is written to the narrowed body, not to line 31
+  [x] FIXED 2026-09-24: Paper's own Abstract (line 31) narrowed to its body in both places — see
+      OVERCLAIM READ 1-2; the TDCommons abstract above was already written to the narrowed body
 
 ⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
    Type into the visible editor body and SCREENSHOT to confirm before submitting.
@@ -78,14 +80,18 @@ OVERCLAIM READ   (grep novel|first|unprecedented|no prior|never been|only|unique
   1. Line 31 (paper Abstract): "the design's central safety property is that it is structurally
      resistant to Goodhart's law" — unscoped; §9 (line 245) narrows it to the COMPOUNDING
      variants (regressional/extremal), the adversarial variant left open in §11.9
-     → REAL OVERCLAIM (mild, internal inconsistency).
+     → FIXED 2026-09-24: Abstract now reads "structurally resistant to the compounding variants of
+       Goodhart's law", matching §9. (Prior-Art claim (iv) still reads "structurally Goodhart-resistant"
+       unscoped — not in this pass; founder's call.)
   2. Line 31: "We argue the whole construction is the Saṅgha's 2,500-year-tested non-accumulating gift
      economy generalized beyond the monastery" — claim (vi) and §2 narrow this to ONE property
      (non-accumulation) and disclaim the lay–monastic relation and the merit economy
-     → REAL OVERCLAIM (mild, internal inconsistency).
+     → FIXED 2026-09-24: Abstract now reads "the construction generalizes one property of the
+       Saṅgha's 2,500-year-tested gift economy — its non-accumulation — beyond the monastery ...; the
+       lay–monastic relation and the merit economy are not modelled", matching (vi) and §2.
   3. Line 338 (§12): "all of them are downstream of a game that, until this paper, had been argued
      nowhere" — context scopes it to the corpus ("the premise the rest of the corpus has been silently
-     assuming"), the sentence itself does not → SCOPED-BY-CONTEXT; tighten to "nowhere in this corpus".
+     assuming"), the sentence itself does not → FIXED 2026-09-24: now "argued nowhere in this corpus".
   4. Line 51 (§2): "That is not in Carse." → THIRD-PARTY, scoped to one cited work. FINE.
   5. Line 172 (§4.1): "The arrangement is ordinary rather than novel" → NEGATION. FINE (mirror-lint
      flagged it; read, harmless).
@@ -96,5 +102,5 @@ OVERCLAIM READ   (grep novel|first|unprecedented|no prior|never been|only|unique
      first place") → ORDINAL / IDIOM. FINE.
   8. "only" (≈25 hits) — all mechanism statements ("only by passing the imbalance onward", "the only
      office she holds", "the only voice the counterparty has", "exists only on the human edge") → FINE.
-  Remedy for 1-3 lives in the paper's next revision, not in this packet; the abstract above carries no
+  Items 1-3 were fixed in the paper on 2026-09-24; the abstract above carries no
   novelty language and states the Goodhart point at its narrowed width ("cannot compound").

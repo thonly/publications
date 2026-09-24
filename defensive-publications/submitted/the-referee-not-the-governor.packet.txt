@@ -18,7 +18,7 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (248 words — limit 250)
 This disclosure specifies an AI safety classifier (guard or critic model) that judges conduct against a fixed reference corpus and is published as an open-weight independent evaluator rather than deployed as an inline guardrail filter. It states as a design principle, argued rather than measured, that open-weight release defeats a filter, because the published weights are an oracle for white-box attack, while it makes an evaluator's verdicts reproducible. Components: (1) citation-grounded judgment with abstention: every verdict must resolve to a passage (work, edition, volume, page, line) in an externally attested, versioned corpus, here a Pāli Canon edition, and otherwise no judgment is emitted, trading coverage for auditability; (2) one model lineage in three deployment modes selected by carrier: an inline gate in the publisher's own devices, audited externally; a citation-verification check without veto on a more capable autonomous agent; and external audit of third-party systems, with open-weight safety classifiers as the initial subject because their decisions are samplable without their publisher's cooperation; (3) unconditioned access: weights, harness and dataset are freely runnable, so any hosted endpoint is a compute-priced convenience, never the sole path nor part of a third party's inference path; (4) a provenance record on every verdict: weights digest, corpus commit identifier, and a harness hash pinning prompt template, decoding, seed, tokenizer and retrieval index; (5) publication of whole runs, including declined judgments. Nothing has been built; stated limits include the weak-supervisor problem, low coverage, attackable device gates, and no remedy path yet for contested verdicts.
 
-FILE       submitted/the-referee-not-the-governor.pdf   (24 pages, 476 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-kqb85c6w/the-referee-not-the-governor.pdf
+FILE       submitted/the-referee-not-the-governor.pdf   (24 pages, 448 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-kn5e2bwn/the-referee-not-the-governor.pdf
 
 ═══════════════════════════════════════════════════════════════════════
 PRE-FLIGHT — verified 2026-09-24 (tdc-pdf.py built without refusal; mirror-lint 0 refuse · 0 warn)
@@ -49,20 +49,28 @@ PRE-FLIGHT — verified 2026-09-24 (tdc-pdf.py built without refusal; mirror-lin
       renders the verdict boxes intact
   [!] Title LEADS with a metaphor ("The Referee, Not the Governor") — examiner terms arrive
       only in the subtitle; kept per rule, flagged
-  [!] EMOJI render in the PDF body — ⭐ (§3.1 item 3, §7, §7.1) · ⛔ (§5's five exclusions,
+  [x] FIXED 2026-09-24: all ⭐/⛔/⚠️ removed from the body (bold kept); PDF glyph grep = 0.
+      (was) EMOJI render in the PDF body — ⭐ (§3.1 item 3, §7, §7.1) · ⛔ (§5's five exclusions,
       §8's requirement line) · ⚠️ (§9.2 "A consequence of §3.1 …"). Internal emphasis
       glyphs, permanent in an examiner-facing posting; decide before submission (strip in a
       paper revision, or accept)
   [!] front matter "status: draft" — no ruled human round in reviews.json (polish r1 model
       round applied, commit 281ca42). Not printed on the PDF cover
-  [!] §9.2 heading "A published gate is an attackable gate, and we OPERATE published gates"
+  [x] FIXED 2026-09-24: §9.2 heading now "this specification proposes published gates"; "is presently
+      thin" → "would presently be thin". (was) §9.2 heading "A published gate is an attackable gate, and we OPERATE published gates"
       — present tense, against §9.7 "Nothing here has been built" and §6's "intends to
       operate"; an examiner reads it as a running system. Recommend "would operate"
-  [!] §7.1 names a real, living third party's instrument by type (a Sangha's Pāli diplomas,
+  [x] FIXED 2026-09-24: §7.1 now "could serve as an evaluation set … if, and only if, the permission
+      refusal (4) below requires is first obtained; absent that permission, they are not used"; closing
+      sentence "did not" (consent) → "did not ask to be involved". (was) §7.1 names a real, living third party's instrument by type (a Sangha's Pāli diplomas,
       "which we intend to use as an evaluation set") — no body named, but the permission
       the section itself requires (refusal 4) has not been obtained; posting announces the
       intent permanently. Confirm intended
-  [!] Citations not re-verified in this pass: STACK (McKenzie et al. 2025; 71% ClearHarm,
+  [x] PARTLY FIXED 2026-09-24: verified against primary sources, all CORRECT as cited — STACK (McKenzie
+      et al., arXiv 2506.24068: 71% ClearHarm black-box vs few-shot classifier pipeline at 0%, 33% transfer);
+      GuardBench (Bassani & Sanchez, EMNLP 2024); Attribute or Abstain (Buchmann, Liu & Gurevych, EMNLP 2024).
+      STILL UNVERIFIED: AEF-1, CVC, METR windows.
+      (was) Citations not re-verified in this pass: STACK (McKenzie et al. 2025; 71% ClearHarm,
       33% transfer), AEF-1 v1 Dec 2025, CVC 2025 (~250k rules), METR 2024–25 windows,
       GuardBench 2024, Attribute-or-Abstain 2024 — verify against primary sources before an
       irreversible posting (the-called-draw's packet records the same check as item 40)
@@ -79,12 +87,14 @@ OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|uniqu
   "never been" / unique. The Statement claims prior art "for the combination", not priority.
 
   REAL OVERCLAIM (mild):
-  1. Abstract ¶6 (line 77) + §3.1 item 3 (line 217): "this is the one evaluation target
+  1. FIXED 2026-09-24: "the one" → "an evaluation target" / "a target class" (abstract ¶6, §3.1 item 3,
+     and disclosure item 8), with "the same holds for any open-weight model" stated.
+     (was) Abstract ¶6 (line 77) + §3.1 item 3 (line 217): "this is the one evaluation target
      for which the access problem does not arise" / "It is the one target class on which
      an evaluator can begin work on day one" → any OPEN-WEIGHT model (not only safety
      classifiers) is samplable without its publisher's cooperation; "the one" is
      unscoped. Remedy: "a target class for which …".
-  2. §1 (line 92): "the only kind of standing that survives a succession" → unscoped
+  2. FIXED 2026-09-24: → "the kind of standing most likely to survive a succession". (was) §1 (line 92): "the only kind of standing that survives a succession" → unscoped
      universal, rhetorical; mild.
 
   SCOPED (fine):
@@ -92,7 +102,9 @@ OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|uniqu
      "in the work surveyed in §2".
   4. §5 (line 310): "something we have not found in the work surveyed here: an independent
      ground truth" — scoped, and immediately hedged ("a candidate").
-  5. §8.1 (line 492): "one for which we have found no reporting convention in the work
+  5. FIXED 2026-09-24: cites El-Yaniv & Wiener 2010 (JMLR 11, verified) for aggregate coverage reporting;
+     claim narrowed to per-judgment publication with provenance alongside the run's verdicts.
+     (was) §8.1 (line 492): "one for which we have found no reporting convention in the work
      surveyed here" — scoped, but borderline: the paper's own ## Terms maps declined
      judgment to "abstention / selective prediction", whose literature reports coverage
      (risk-coverage). Consider citing it.

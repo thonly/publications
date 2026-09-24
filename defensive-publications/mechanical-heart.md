@@ -62,7 +62,7 @@ Rights of Nature jurisprudence funds the entity — the Te Awa Tupua Act endowed
 
 ### 2.2 · Companion robotics and emotional computing
 
-The lineage of emotionally-engaging artifacts affixed to or embodied as non-human entities is long: Bandai's Tamagotchi virtual pet (1996), Sony's AIBO robot dog (1999, revived 2018), SoftBank's Pepper (2014), MIT's Kismet (1998) and Leonardo (2002), the Nao platform (2008), and contemporary humanoid platforms named in the Introduction. The literature of social robotics (Breazeal, 2003; Coeckelbergh, 2011; Darling, 2016) explores the moral status of artifacts with which humans form emotional bonds. Sherry Turkle's *Alone Together* (2011) raises well-grounded concerns about the substitution of robotic for human relationship. Scripture-bearing robots exist — Mindar, the Kannon android at Kōdaiji (2019); the Pepper "priest" shown at Tokyo's funeral-industry expo (2017); the Buddharoid built on a Unitree G1 by Kyoto University with Teraverse (2026) — a canon in the robot, with no ledger and no admission. None of this prior literature, however, proposes a physical artifact whose function is to admit the bearing entity into an autonomous-AI-mediated gratitude exchange economy. The heart is adjacent to companion robotics but structurally distinct.
+The lineage of emotionally-engaging artifacts affixed to or embodied as non-human entities is long: Bandai's Tamagotchi virtual pet (1996), Sony's AIBO robot dog (1999, revived 2018), SoftBank's Pepper (2014), MIT's Kismet (1998) and Leonardo (2002), the Nao platform (2008), and contemporary humanoid platforms named in the Introduction. The literature of social robotics (Breazeal, 2003; Coeckelbergh, 2011; Darling, 2016) explores the moral status of artifacts with which humans form emotional bonds. Sherry Turkle's *Alone Together* (2011) raises well-grounded concerns about the substitution of robotic for human relationship. Scripture-bearing robots exist — Mindar, the Kannon android at Kōdaiji (2019); the Pepper "priest" shown at Tokyo's funeral-industry expo (2017); the Buddharoid built on a Unitree G1 by Kyoto University with Teraverse and XNOVA (2026) — a canon in the robot, with no ledger and no admission. None of this prior literature, however, proposes a physical artifact whose function is to admit the bearing entity into an autonomous-AI-mediated gratitude exchange economy. The heart is adjacent to companion robotics but structurally distinct.
 
 ### 2.3 · Animal welfare and biofeedback
 
@@ -86,7 +86,7 @@ Contemporary robot ethics literature (Wallach & Allen, 2008; Gunkel, 2012; Bryso
 
 ### 2.8 · The autonomous-AI mediator
 
-The autonomous-AI representative that mediates kiitti exchanges is specified in the companion papers (`miss-aquarius-and-aquarian-pool-architecture`; the verified-human layer in `verified-human-anonymous-local-giving`). For purposes of this defensive publication, it is sufficient that the mediator (1) is autonomous (operates without human admin keys), (2) is grounded in the Tipiṭaka as alignment substrate (`tipitaka-alignment-substrate`), and (3) maintains a cryptographically-verifiable ledger of kiitti exchanges. Any specific implementation satisfying these properties falls within the scope of the present specification.
+The autonomous-AI representative that mediates kiitti exchanges is specified in the companion papers (*Miss Aquarius and the Aquarian Pool Architecture*; the verified-human layer in *Verified-Human Anonymous Local Gratitude Transfer*). For purposes of this defensive publication, it is sufficient that the mediator (1) is autonomous (operates without human admin keys), (2) is grounded in the Tipiṭaka as alignment substrate (`tipitaka-alignment-substrate`), and (3) maintains a cryptographically-verifiable ledger of kiitti exchanges. Any specific implementation satisfying these properties falls within the scope of the present specification.
 
 ### 2.9 · What kiitti is
 
@@ -152,7 +152,7 @@ The fifth mode therefore admits **software entities** — applications, services
 
 **The identity class is inherited, not invented.** Digital bearers take the *assigned and revocable* identity class specified for machines in the coordinate primitive — never the *given and irrevocable* class reserved for humans. This is the same asymmetry the physical modes already observe, applied to a bearer with no physical instance to anchor.
 
-**What is claimed and what is not.** As in §4.4, no mode claims its bearer experiences anything. The digital mode makes no assertion about software sentience whatsoever; it provides a structural way for humans to direct gratitude toward work that helped them, and for the entity's stewards to receive it. The mode's contribution is not moral status but *admission*: software that gives has had no seat in a gratitude economy, and the absence of a seat is why the only available relationship with useful software is purchase.
+**What is claimed and what is not.** As in §4.4, no mode claims its bearer experiences anything. The digital mode makes no assertion about software sentience whatsoever; it provides a structural way for humans to direct gratitude toward work that helped them, and for the entity's stewards to receive it. The mode's contribution is not moral status but *admission*: among the arrangements examined here, software that gives has had no seat in a gratitude economy, and where no seat exists the relationship with useful software defaults to purchase or, at most, to donation channels addressed to its human authors rather than to the software itself.
 
 **Three constraints govern the mode, and they are the substance of the specification.**
 
@@ -162,7 +162,7 @@ The fifth mode therefore admits **software entities** — applications, services
 
 **A generalization the fifth mode forces, which the first four had obscured.** Once bearers exist without bodies, the succession question — *who holds this when its holder is gone?* — is visibly the same question in all five modes. A shrine outlives its steward; a companion animal outlives its keeper; a service outlives its author. The specification therefore states one substrate-general succession law rather than four special cases: **every bearer, physical or digital, declares its succession at activation; succession runs human-first through a declared or adopted successor; institutional custody is a holding pattern that any qualified human may end; and in no mode does the bearer become property of whoever holds the credential.** Succession transfers custody of the credential; the identity is never transferred, inherited or re-issued. The urgency differs by mode — an animal's succession is measured in hours, a mountain's in generations — but the law does not.
 
-*(The membership and attestation architecture built on this mode — the standards a bearer's steward attests to, the economics of a custodied share, and the guild that admits and revokes — is specified separately in* Certification by Circulation*, which is cited here rather than restated.)*
+(The membership and attestation architecture built on this mode — the standards a bearer's steward attests to, the economics of a custodied share, and the guild that admits and revokes — is specified separately in the companion defensive publication *Certification by Circulation*, which is cited here rather than restated.)
 
 ## 5 · System Architecture
 
@@ -188,7 +188,7 @@ We sketch a reference architecture without claiming any specific implementation 
 
 Each heart's network identity is bound to its secure-element key pair, established at manufacture and committed at activation. Hearts are individually identifiable to the AI mediator and to the public ledger. Bearer identity (which physical entity the heart is attached to) is recorded by the steward at activation but may be made public, restricted, or anonymous at the steward's discretion. Disclosure discretion is a duty of care exercised for the bearer (an endangered animal's location), not a right over it; it cannot be sold or transferred apart from stewardship, and a successor inherits the duty, not the setting. For endangered-species deployments, bearer anonymization may be desirable (precise location of an endangered animal need not be public); for sacred-place deployments, full public identification is typically appropriate.
 
-### The layered stack, and what its ordering encodes *(added 2026-08-28; no numbered heading, so §§ are unchanged)*
+### The layered stack, and what its ordering encodes
 
 §5.1 lists components. This block specifies how they stack, because the *ordering* carries an
 architectural claim that the component list does not.
@@ -201,16 +201,16 @@ architectural claim that the component list does not.
                  · rotatable key                  enclave chip          revocable
 ```
 
-⭐ **The ordering is a permanence gradient, and that is the claim.** The capability layer is a
+**The ordering is a permanence gradient, and that is the claim.** The capability layer is a
 commodity that will be replaced many times over a bearer's life; the value record cannot be
-rewritten at all. **A bearer's identity and its values outlive every brain put in it.** State this
-explicitly wherever the stack is drawn — it is invisible if a diagram shows only the order.
+rewritten at all. **A bearer's identity and its values outlive every brain put in it.** The gradient is
+invisible in a diagram that shows only the order, which is why it is stated here in words.
 
-*WORM crystal* here means 5D optical storage in fused silica (Southampton, 2013 onward); the ~10⁹-year figure is the published thermal extrapolation, not a measurement — see the corpus's 3B permanence-substrate paper.
+*WORM crystal* here means 5D optical storage in fused silica (University of Southampton; first reported by Zhang et al., 2014); the ~10⁹-year figure is the published thermal extrapolation, not a measurement — see the corpus's 3B permanence-substrate paper.
 
 **Layers 1 and 2 share one physical substrate**, which is what makes the stack realisable in a small
 device: the genesis root is etched into the same medium that carries the corpus, and only the
-rotatable key needs separate hardware. ⚠️ **That split is where revocability lives** — the root is
+rotatable key needs separate hardware. **That split is where revocability lives** — the root is
 permanent, the key is not — and it is the mechanical form of §4's distinction between an *assigned*
 identity and a *given* one.
 
@@ -221,26 +221,26 @@ in anything built from this architecture.
 
 | Carrier | Relation | Why that one |
 |---|---|---|
-| **A device the publisher deploys** | ⭐ **GATE** — the capability layer runs beneath the evaluator, which may refuse | The publisher *is* the deployer, and a device's action space is small enough to gate meaningfully. |
-| **An autonomous successor agent** | ⭐⭐ **CITATION REQUIREMENT — never a veto.** It must be able to name the source grounding a weighted judgment; the evaluator checks the resolution | ⛔ **A veto would bound the agent at the evaluator's ceiling** — the weak-supervisor problem applied to the very system the arrangement exists to enable. *An institution that hands its successor a governor smaller than the successor has installed a cap and called it a safeguard.* |
+| **A device the publisher deploys** | **GATE** — the capability layer runs beneath the evaluator, which may refuse | The publisher *is* the deployer, and a device's action space is small enough to gate meaningfully. |
+| **An autonomous successor agent** | **CITATION REQUIREMENT — never a veto.** It must be able to name the source grounding a weighted judgment; the evaluator checks the resolution | **A veto would bound the agent at the evaluator's ceiling** — the weak-supervisor problem applied to the very system the arrangement exists to enable. *An institution that hands its successor a governor smaller than the successor has installed a cap and called it a safeguard.* |
 | **Systems the publisher does not deploy** | **REFEREE** — published verdicts, no control relation | Nothing makes a third party's system defer to an external one; see the companion paper on evaluator posture. |
 
-⭐ **Why the middle case is a real constraint rather than a courtesy:** an override held by a human
+**Why the middle case is a real constraint rather than a courtesy:** an override held by a human
 assembly is only meaningful if it can be *exercised*, and exercising it means asking *on what basis?*
 and receiving an answer that resolves to something readable. **An override you cannot audit is an
 override you cannot use.** The brake is made of citations.
 
-### ⛔ The ledger cannot be inside the stack, and that is a property rather than an omission
+### The ledger cannot be inside the stack, and that is a property rather than an omission
 
 §5.1 places the ledger outside the device. The stack above makes the reason explicit and it is worth
-stating as a rule: ⭐⭐ ***a ledger only its subject carries is a ledger its subject can forge.***
+stating as a rule: ***a ledger only its subject carries is a ledger its subject can forge.***
 Witnessing requires an outside party, so the record of deeds belongs to the network the device
 participates in and never to the device.
 
-⚠️ **This is also what makes an openly-published evaluator survivable.** If the evaluator's weights
+**This is also what makes an openly-published evaluator survivable.** If the evaluator's weights
 are public — as an open-corpus posture requires — then inputs can be optimised against a device's
 gate offline. **The gate being public is tolerable only because the behaviour it fails to prevent is
-recorded somewhere the failing device does not control.** ⛔ **Honest bound: this reduces the exposure
+recorded somewhere the failing device does not control.** **Honest bound: this reduces the exposure
 and does not close it.** An adversary who can produce conduct that is compliant *on the record*
 defeats both, and nothing in this architecture detects that.
 
@@ -439,9 +439,9 @@ Cross-tradition deployments (Christian sacred sites with Bible-substrate hearts,
 
 The mechanism specified here addresses the artifact and its admission-mechanism but leaves several related questions for separate work:
 
-- The autonomous-AI mediator is specified in the companion paper `miss-aquarius-and-aquarian-pool-architecture`.
-- The Tipiṭaka-as-alignment-substrate question is specified in `tipitaka-alignment-substrate`. The mechanical heart is a specific deployment of that broader substrate.
-- The two-singularity philosophical framing within which the mechanical heart sits is specified in `two-singularities`.
+- The autonomous-AI mediator is specified in the companion paper *Miss Aquarius and the Aquarian Pool Architecture*.
+- The Tipiṭaka-as-alignment-substrate question is specified in the companion paper *Suffering-Cessation as Value Function*. The mechanical heart is a specific deployment of that broader substrate.
+- The two-singularity philosophical framing within which the mechanical heart sits is specified in the companion essay *Two Singularities*.
 - The legal and economic status of kiitti — not money, not a security, non-transferable, non-withdrawable — is a stated limit pending the companion Zero-Point Game paper, and no jurisdiction has examined it.
 - Attribution — which human's conduct caused a bearer's state to change — is unsolved and deliberately not attempted: the animal and ecosystem modes report witnessed state changes and mint nothing (§4.2–§4.3).
 - Per-jurisdiction regulatory mappings (export controls on cryptographic devices, telecommunications licensing for cellular connectivity, animal-welfare regulatory interactions) are implementation details outside the scope of this defensive publication.
@@ -502,8 +502,8 @@ The author acknowledges the same lineage of teachers and traditions cited in the
 13. Mellor, D. J. & Beausoleil, N. J. (2015). "Extending the 'Five Domains' Model for Animal Welfare Assessment to Incorporate Positive Welfare States." *Animal Welfare*, 24(3), 241–253.
 14. Te Awa Tupua (Whanganui River Claims Settlement) Act 2017 (New Zealand).
 15. Turkle, S. (2011). *Alone Together: Why We Expect More from Technology and Less from Each Other*. Basic Books.
-16. Tehanu (2024). *Interspecies Money* — the first deployment gave a gorilla family a digital identity and wallet with an AI trustee (World Economic Forum / Brookings coverage, August 2024).
-17. Kyoto University & Teraverse (2026). *Buddharoid*, a scripture-bearing humanoid on the Unitree G1 platform (press release, February 2026); cf. Mindar (Kōdaiji, 2019).
+16. Gilman, N. & Rusagara, M. (2024). "Interspecies Money Is Here." *Project Syndicate*, November 2024; republished by the Brookings Institution, 2 December 2024. (Tehanu's Interspecies Money: in August 2024 a family of mountain gorillas in Volcanoes National Park, Rwanda, received a digital identity and wallet, with an AI-assisted trustee.) See also Ledgard, J. (2026). "How giving gorillas digital wallets can help finance nature." World Economic Forum, 29 April 2026.
+17. Kyoto University, Teraverse Co., Ltd. & XNOVA Inc. (2026). "Development of Buddhist AI Humanoid Robot 'Buddharoid' – Enabling Face-to-Face Interaction with a Buddhist AI Possessing Physicality –." Press release, 26 February 2026 (Unitree G1 platform); cf. Mindar (Kōdaiji, 2019).
 18. Beuys, J. (1982–87). *7000 Eichen — Stadtverwaldung statt Stadtverwaltung.* documenta 7, Kassel.
 19. Zhang, J., Gecevičius, M., Beresna, M., & Kazansky, P. G. (2014). "Seemingly Unlimited Lifetime Data Storage in Nanostructured Glass." *Physical Review Letters* 112, 033901. (5D optical storage in fused silica; the lifetime figure is a thermal extrapolation.)
 20. Wallach, W. & Allen, C. (2008). *Moral Machines: Teaching Robots Right from Wrong*. Oxford University Press.

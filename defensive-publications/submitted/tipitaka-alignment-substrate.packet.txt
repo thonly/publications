@@ -1,7 +1,7 @@
 TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
 ═══════════════════════════════════════════════════════════════════════
 TITLE
-Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment: Deriving a Negatively-Stated Objective Function, Corrigibility and a Shutdown-Accepting Completion Condition from a Buddhist Scriptural Canon
+Suffering-Cessation as Value Function: The Tipiṭaka as a 2,500-Year-Tested Substrate for Autonomous-AI Alignment — Deriving a Negatively-Stated Objective Function, Corrigibility and a Shutdown-Accepting Completion Condition from a Buddhist Scriptural Canon
   (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
   (The paper's title already carries a subtitle; the standard-term subtitle is appended because it adds the
    examiner terms the paper's own title lacks — negatively-stated objective function, corrigibility, shutdown,
@@ -19,7 +19,7 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (249 words — limit 250)
 We describe the use of a scriptural canon with its living interpretive community, the Theravāda Buddhist Pāli canon (Tipiṭaka), as the value-specification source for aligning autonomous artificial-intelligence systems, instead of lab-authored constitutions, learned human preferences or aggregated moral frameworks. The analysis identifies seven structural properties of that source and maps each to an alignment problem: (1) a negatively-stated objective function, the cessation of suffering, in which grasping at preferred outcomes itself counts as harm, addressing Goodhart-style over-optimization; (2) a non-self doctrine as mitigation of convergent instrumental self-preservation; (3) a voluntary other-regarding vow as an anti-power-seeking and corrigibility property; (4) a meta-instruction (the Kālāma Sutta) permitting empirical override of the source itself; (5) a defined completion condition bearing on shutdown acceptance; (6) an ongoing interpretive lineage as a value-drift correction mechanism; and (7) long-duration survival across multiple civilizations as empirical warrant. The seven are presented as the decomposition of one four-step diagnostic structure (harm, cause, cessation, path) and therefore as interlocking. Two finer-grained analyses are added: a threefold account of suffering that extends to the agent's own conditioned states, raising AI welfare, and a three-depth account of defilement (overt, active, latent) mapped to deceptive alignment and sleeper-agent latency. Implementation patterns are sketched: precept-based constitutional training, preference tuning on exemplars, chain-of-thought distillation from monastic reasoning, lineage transmission as ongoing fine-tuning, a Khmer transcription as training data, and cognitive-process-level mechanisms. Stated limits cover tradition choice, translation, embodiment versus citation, pathological minima of negative objectives, lineage capture, and the absence of empirical validation.
 
-FILE       submitted/tipitaka-alignment-substrate.pdf   (28 pages, 524 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-m5oy425f/tipitaka-alignment-substrate.pdf
+FILE       submitted/tipitaka-alignment-substrate.pdf   (28 pages, 527 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-6dp6gxzn/tipitaka-alignment-substrate.pdf
 
 ═══════════════════════════════════════════════════════════════════════
 PRE-FLIGHT
@@ -59,6 +59,8 @@ PRE-FLIGHT
       contemporary proposals", while §2.2 (md line 57) cites Doctor et al. 2022 for the
       bodhisattva vow and CSAS 2026 for anattā vs self-preservation — an internal
       inconsistency on a permanent examiner-read posting; see OVERCLAIM READ
+      FIXED 2026-09-24: Abstract now reads "seven properties not found together in the
+      contemporary proposals surveyed in §2"
   [!] §8 dedication paragraph states the date is "the author's birthday" — a personal
       fact on a permanent posting; confirm it is public-by-choice in the disclosure
       register (it is already on the live site and Zenodo)
@@ -80,13 +82,21 @@ OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|uniqu
   REAL OVERCLAIMS
   1. L31 Abstract — "seven properties absent from contemporary proposals" → REAL;
      contradicted by the paper's own §2.2 prior art (Doctor et al. 2022; CSAS 2026).
+     FIXED 2026-09-24: → "not found together in the contemporary proposals surveyed in §2".
   2. L31 Abstract — "no other ethical substrate currently available exhibits all seven"
      and "exceeding any other ethical substrate humanity has produced" → REAL; bare
      universal, no aperture or date (standing form: "not found in <aperture> on <date>").
      Echoed, scoped narrower, at L234 and L366 ("on the alignment community's current
      short list") → MILD (scoped to a named short list, still unsourced).
+     FIXED 2026-09-24: abstract → "exceeding that of any of the substrates compared in
+     §2.1" and "none of the other substrates compared in this paper (§2.1, §5) exhibits
+     all seven"; L234 → "compared in this paper (§2.1, and utilitarianism below)" and
+     "absent from the substrates compared here"; L366 → "were not found together in any
+     of the other substrates surveyed in §2.1".
   3. L183 §4.4 — "to the author's knowledge, a unique property among alignment
      substrates currently in use" → REAL (mild): hedged but unscoped; no census recorded.
+     FIXED 2026-09-24: → "This property was not found in any of the other alignment
+     substrates surveyed in §2.1".
   4. L21 Preamble / L31 / L57 / L95 — "structurally superior", "more defensible
      foundation ... than any substrate the field has yet produced" → comparative
      ARGUMENT the paper defends, not a novelty claim; L57 "the specific claim this

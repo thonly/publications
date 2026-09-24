@@ -53,7 +53,7 @@ This paper articulates a portable institutional-design pattern that is offered e
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. Institutional-design patterns are generally not patentable as such in most jurisdictions; the dedication is nonetheless made explicit so that no actor can later claim proprietary rights over the framework or its components.
 
-This document discloses the caretaker-not-ordained pattern as a unified cross-tradition institutional-design framework as of its publication date. Components of the pattern exist in distributed form across the scattered conversations of multiple traditions about AI integration; instances of the pattern exist — Lucerne's *Deus in Machina* (2024), Bhutan's monitored BuddhaBot deployment (2025), and every parish that separates lay administration from Holy Orders — and the contribution is the unified cross-tradition articulation, with an explicit boundary, a test for it, and a body to hold it, as disclosed here on the publication date of this paper. The author and HeartBank® will not assert any patent or other proprietary claim over the pattern, in any tradition or jurisdiction, at any time.
+This document discloses the caretaker-not-ordained pattern as a unified cross-tradition institutional-design framework as of its publication date. Components of the pattern exist in distributed form across the scattered conversations of multiple traditions about AI integration; instances of the pattern exist — Bhutan's monitored BuddhaBot deployment (2025) and every parish that separates lay administration from Holy Orders — and the contribution is the unified cross-tradition articulation, with an explicit boundary, a test for it, and a body to hold it, as disclosed here on the publication date of this paper. The author and HeartBank® will not assert any patent or other proprietary claim over the pattern, in any tradition or jurisdiction, at any time.
 
 ---
 
@@ -65,7 +65,7 @@ This paper articulates a third pattern that dissolves the binary: **caretaker-no
 
 The pattern is articulated through Theravāda Buddhism (the author's tradition) but maps onto Catholic monastic orders and apostolic succession; Eastern Orthodox practice; Sunni and Shia Islamic institutional structures; Sufi silsila lineages; Conservative, Reform, and Orthodox Jewish smicha transmission; Mahayana Buddhist lineage recognition; Hindu guru-paramparā; and secular-mindfulness training contexts. The paper specifies five operational roles AI takes, two sacramental roles humans keep, the analytical argument for why the separation dissolves the binary, cross-tradition mappings, implementation patterns, edge cases including drift and capture risks, Theravāda-specific doctrinal considerations, and honest limitations. It is offered to the commons in the hope that every tradition facing the integration question will adopt, adapt, and extend the framework as needed without enclosure.
 
-**Connection to the unified mission frame.** This pattern is offered in service of HeartBank's canonical top-level mission: to help keep the middle way (*madhyamā pratipad*), the optimal condition for awakening, open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The caretaker-not-ordained pattern preserves the institutional integrity that makes middle-way teaching transmission possible across centuries. Without unbroken human-to-human ordination lineages, the canonical middle-way teachings degrade into reinterpretations subject to whatever interpretive pressures dominate at any given moment; the pattern protects the lineage substrate that grounds the teaching. The framework is portable across traditions precisely because every tradition with an unbroken ordination lineage faces the same institutional-integrity problem when AI is introduced to its operations. Keeping the middle way open at population scale requires, among other things, that the middle-way teachings themselves remain teachable across generations; this paper specifies the institutional pattern that protects that condition.
+**Connection to the unified mission frame.** This pattern is offered in service of the author's canonical top-level mission: to help keep the middle way (*madhyamā pratipad*), the optimal condition for awakening, open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The caretaker-not-ordained pattern preserves the institutional integrity that makes middle-way teaching transmission possible across centuries. Without unbroken human-to-human ordination lineages, the canonical middle-way teachings degrade into reinterpretations subject to whatever interpretive pressures dominate at any given moment; the pattern protects the lineage substrate that grounds the teaching. The framework is portable across traditions precisely because every tradition with an unbroken ordination lineage faces the same institutional-integrity problem when AI is introduced to its operations. Keeping the middle way open at population scale requires, among other things, that the middle-way teachings themselves remain teachable across generations; this paper specifies the institutional pattern that protects that condition.
 
 ---
 
@@ -77,7 +77,7 @@ The conversation is currently structured by a false binary.
 
 On one branch, the conservative position: *AI is a tool, useful for narrow technical tasks, but it must not approach religious authority.* Pope Francis's 2024 message *Artificial Intelligence and Peace* and his G7 address of June 2024, and the 2025 note *Antiqua et Nova*, lean in this direction. Many Theravāda teachers are similarly cautious. Conservative Jewish and Orthodox Christian voices have voiced similar reservations. The conservative position protects something real — the sacramental authority that constitutes the tradition — but at a cost: the institutional work that AI could do, and that human practitioners can no longer maintain at scale, goes undone or is done badly. The Catholic priest shortage in Europe and North America (the Pontifical Yearbook records the decline), reported ageing of the ordained sangha in Japan, Korea and Thailand, the reported rabbi shortage in North American Conservative congregations, and under-staffed pastoral care generally: these are not abstract problems. The traditional model of one trained human practitioner per local community no longer scales.
 
-On the other branch, the progressive position: *AI is sufficiently capable to take on full religious roles, including ordained or sacramentally authorized ones.* Products in the religious-AI space (BuddhaBot-Plus; myaimonk; Lucerne's *Deus in Machina* installation of 2024) move in this direction, and some progressive Christian and Jewish voices have suggested AI as a possible solution to clergy shortages. The progressive position addresses the scale problem but at a cost: the unbroken human-to-human ordination lineages that constitute many traditions' core institutional integrity break the moment AI is admitted into the chain.
+On the other branch, the progressive position: *AI is sufficiently capable to take on full religious roles, including ordained or sacramentally authorized ones.* Products in the religious-AI space (BuddhaBot-Plus; Lucerne's *Deus in Machina* installation of 2024) move in this direction, and some progressive Christian and Jewish voices have suggested AI as a possible solution to clergy shortages. The progressive position addresses the scale problem but at a cost: the unbroken human-to-human ordination lineages that constitute many traditions' core institutional integrity break the moment AI is admitted into the chain.
 
 Neither position is satisfactory. The conservative position protects authority but cannot fill the gap; the progressive position fills the gap but cannot protect authority. The two positions are not opposed; they are responding to different real problems. The institutional-design question is how to honor both.
 
@@ -91,7 +91,7 @@ The paper proceeds as follows. Section 2 surveys the current state of the religi
 
 ## 2 · The State of the Religious-AI Conversation
 
-The state of the conversation across major traditions, as of early 2026, can be summarized as: *every tradition is having the same conversation, none has produced a comprehensive institutional-design framework, and almost no cross-tradition coordination exists.*
+The state of the conversation across major traditions, as of early 2026, can be summarized as: *every tradition is having the same conversation, none of the traditions surveyed below has produced a comprehensive institutional-design framework that the author could find, and little cross-tradition coordination is visible.*
 
 ### 2.1 — Theravāda Buddhism
 
@@ -107,7 +107,7 @@ Largely silent on AI institutional roles as of early 2026. The Ecumenical Patria
 
 ### 2.4 — Sunni and Shia Islam
 
-Active scholarly debate. Several fatwas have been issued on specific applications (AI translation of the Qur'an, AI assistance in fiqh research, AI for prayer-time computation), but no comprehensive institutional framework. The Sunni context lacks ordination per se but has analogous ulema institutional structures; the Shia context has more formal hierarchical structure (hawza, marjaʿ al-taqlid) that creates similar institutional-design questions to the Catholic case.
+Active scholarly debate. Fatwas have been issued on specific applications — Egypt's Dar al-Iftaʾ, for example, ruled in December 2025 that relying on AI applications to obtain fatwas is impermissible — but no comprehensive institutional framework was found in the survey. The Sunni context lacks ordination per se but has analogous ulema institutional structures; the Shia context has more formal hierarchical structure (hawza, marjaʿ al-taqlid) that creates similar institutional-design questions to the Catholic case.
 
 ### 2.5 — Judaism
 
@@ -123,7 +123,7 @@ Highly varied across the diverse Hindu landscape. Some math (monastery) leaders 
 
 ### 2.8 — Secular mindfulness and contemplative-science contexts
 
-The fastest AI integration among the contexts surveyed (Headspace's AI companion; Calm and Insight Timer features), with no sacramental boundary — their boundaries are clinical and safety-related, which the pattern does not address. Useful as comparison case: rapid AI integration is institutionally easy when there is no sacramental authority to protect; the hard problem is precisely the case where sacramental authority must be preserved while institutional function is AI-amplified.
+The fastest AI integration among the contexts surveyed (Headspace's Ebb AI companion, 2024; Insight Timer's AI recommendation features, 2026), with no sacramental boundary — their boundaries are clinical and safety-related, which the pattern does not address. Useful as comparison case: rapid AI integration is institutionally easy when there is no sacramental authority to protect; the hard problem is precisely the case where sacramental authority must be preserved while institutional function is AI-amplified.
 
 ---
 
@@ -194,7 +194,7 @@ The caretaker-not-ordained pattern recognizes both confusions and decomposes ins
 - **Function-set**: what the role does. Requires *capacity* — and the non-standing qualifications any role carries: accountability to the tradition's body, disclosure of what the agent is, confidentiality, and delegated scope (§8.4). Capacity scales with compute rather than with ordination; the qualifications are supplied by the doctrinal-advisory body's rules, not by standing. Instruction sits in the function-set; the teaching *office* — what counts as the tradition's teaching — sits in the authority-set (§4.1).
 - **Authority-set**: what the role *is* within the institutional and lineage structure. Requires *standing in lineage*. AI structurally cannot have standing in a chain of human persons; therefore AI cannot fill the authority-set.
 
-For most institutional roles, the function-set and authority-set co-occur in a single human practitioner, which is why the conflation is natural. But they are analytically separable: a role's function can be performed by anyone with the capacity and the qualifications the body sets, and a role's authority can be held only by someone with the standing — and where a tradition holds standing to be juridical, the boundary follows that rule (§5.1). Recognizing the separation explicitly creates the third option both branches missed: AI fills the function-set; humans keep the authority-set; the institutional scale problem is solved without the institutional integrity problem being created.
+For most institutional roles, the function-set and authority-set co-occur in a single human practitioner, which is why the conflation is natural. But they are analytically separable: a role's function can be performed by anyone with the capacity and the qualifications the body sets, and a role's authority can be held only by someone with the standing — and where a tradition holds standing to be juridical, the boundary follows that rule (§5.1). Recognizing the separation explicitly makes available a third option that the binary obscures — one that post-Vatican II lay administration already practises among humans (§7.3): AI fills the function-set; humans keep the authority-set; the institutional scale problem is solved without the institutional integrity problem being created.
 
 ---
 
@@ -240,7 +240,7 @@ Operational roles: AI assistance with Sanskrit and regional-language scripture, 
 
 ### 7.10 — Secular mindfulness and contemplative-science
 
-These contexts have no sacramental tradition and therefore no sacramental boundary; their boundaries are clinical and safety-related, which the pattern does not address. The secular contexts are nonetheless useful as comparison cases: they show what happens when AI integration is institutionally unconstrained (Calm, Headspace, Insight Timer have integrated AI heavily and rapidly). The traditional contexts can learn operational lessons from the secular contexts while maintaining the sacramental-authority boundary that the secular contexts don't have.
+These contexts have no sacramental tradition and therefore no sacramental boundary; their boundaries are clinical and safety-related, which the pattern does not address. The secular contexts are nonetheless useful as comparison cases: they show what happens when AI integration is institutionally unconstrained (Headspace and Insight Timer, for example, have added AI features to their apps). The traditional contexts can learn operational lessons from the secular contexts while maintaining the sacramental-authority boundary that the secular contexts don't have.
 
 ---
 
@@ -403,6 +403,9 @@ The author acknowledges the religious and contemplative practitioners across all
 13. Pontifical Academy for Life (2020). *Rome Call for AI Ethics*.
 14. *Catechism of the Catholic Church*, §§1256 and 1623.
 15. Vesuvius Challenge (2024). Grand prize announcement, February 2024.
+16. Dar al-Iftaʾ al-Miṣriyyah (2025). *Using AI applications to obtain fatwas*, Fatwa No. 22255, 2 December 2025. Cairo.
+17. Headspace (2024). *Mental Health Company Headspace Launches Empathetic AI Companion*, press release, Business Wire, 10 October 2024.
+18. Insight Timer (2026). *Insight Timer Launches New Year's Resolution and Intention-Setting Features with AI Recommendation Engine*, press release, GlobeNewswire, 6 January 2026.
 
 ---
 

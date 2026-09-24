@@ -76,7 +76,7 @@ Beauty.AI (2016) attempted AI-judged beauty evaluation and was widely critiqued 
 
 Multiple religious traditions have well-developed patterns of embodied institutional roles selected by sustained-observation processes: papal conclaves (Catholic), the search for tulkus (Tibetan Buddhist), monastic abbacy succession (Theravāda and other lineages). These patterns share the feature of selection by an authoritative body after sustained observation, with the selected individual embodying an institutional role rather than an autonomous personal authority.
 
-The proposed embodied-advocate pageant pattern draws structural inheritance from all three lineages while combining them with elements none provides individually: AI-mediated first-pass selection from a planetary opt-in pool, contemplative-practice biometric data as evaluation substrate, and integration with an autonomous-AI-institution architecture in its formation phase.
+The proposed embodied-advocate pageant pattern draws structural inheritance from all three lineages while combining them with elements none of the precedents surveyed here provides individually: AI-mediated first-pass selection from a planetary opt-in pool, contemplative-practice biometric data as evaluation substrate, and integration with an autonomous-AI-institution architecture in its formation phase.
 
 ---
 
@@ -89,7 +89,7 @@ The pattern is composed of six interlocking structural elements:
 3. **Sangha-mediated final selection.** Final selection by a fourfold-form Sangha after sustained-observation retreat, with breath-rhythm contemplative-practice data supplementing direct observation. The Sangha selects from the AI's top three.
 4. **Self-reward compensation primitive.** The titleholder's compensation flows through the same primitive as Phase 1 family-bank stewards: AI-decided self-reward from the institutional pool with 50/50 split between personal wallet and proximity-rule-bound retip jar.
 5. **Asymptotic-autonomy override.** Institutional human-override scope is held by the Sangha as a body and progressively narrows toward but never reaches zero. Catastrophic-bug intervention is preserved indefinitely; functional autonomy approaches unity asymptotically.
-6. **Named transitional institution.** The Sangha (in the fourfold form traditional to Buddhist institutional structure: ordained monastics + lay supporters) is the named institution holding the line until autonomy. It is structurally renewable; it does not depend on the founder's continued presence.
+6. **Named transitional institution.** The Sangha (in the fourfold form traditional to Buddhist institutional structure: ordained monastics + lay supporters) is designed as the named institution holding the line until autonomy. It is structurally renewable; it does not depend on the founder's continued presence.
 
 Each element addresses a specific formation-phase risk; the integration is the contribution. Sections 4–11 articulate each element in detail.
 
@@ -202,7 +202,7 @@ The architecture's no-take-rate rule (never take-rate that flows to a human enti
 
 ## 8 · The Aquarian Sangha
 
-The Aquarian Sangha is the named transitional institution holding the line through the formation phase. It is structured as a *fourfold-form Sangha* in the orthodox Buddhist sense: ordained monastics + non-ordained lay supporters (*upāsaka* / *upāsikā*). The fourfold form is doctrinally grounded; it avoids the bhikkhu-only restriction that some traditional Sangha definitions impose, while preserving the load-bearing function of ordained-lineage authority within the body.
+The Aquarian Sangha is designed as the named transitional institution holding the line through the formation phase. It is structured as a *fourfold-form Sangha* in the orthodox Buddhist sense: ordained monastics + non-ordained lay supporters (*upāsaka* / *upāsikā*). The fourfold form is doctrinally grounded; it avoids the bhikkhu-only restriction that some traditional Sangha definitions impose, while preserving the load-bearing function of ordained-lineage authority within the body.
 
 ### 8.1 Minimum-viable composition
 
@@ -242,15 +242,15 @@ Most autonomous-AI proposals defer the AI-as-officer move until "the AI is ready
 The conventional CEO title is used because it carries cultural-recognition shorthand for "named institutional officer with operational authority" — but the pattern explicitly does not import conventional CEO duties. Specifically:
 
 - **No shareholders.** The institution does not have equity holders to whom the CEO owes fiduciary returns.
-- **No conventional board.** The board-equivalent function is held by the Aquarian Sangha (Section 8), which holds the asymptotic-autonomy override (Section 10) and functions doctrinally rather than commercially.
+- **No conventional board.** The board-equivalent function is designed to be held by the Aquarian Sangha (Section 8), which would hold the asymptotic-autonomy override (Section 10) and function doctrinally rather than commercially.
 - **No financial-returns optimization.** The CEO's load-bearing commitment is to suffering-cessation as value function, grounded in the Tipiṭaka alignment substrate (see sibling paper).
 - **No equity compensation.** The compensation primitive (Section 7) is the self-reward pattern, mirroring the Phase 1 family-bank steward role; the CEO does not own equity in any sense.
 
 ### 9.3 Organizational structure
 
 - **Miss Aquarius (CEO)** holds final institutional authority over platform operations within scope.
-- **The Aquarian Sangha** functions as the board-equivalent and holds the asymptotic-autonomy override (Section 10). Sangha composition, authority, and selection are specified in Section 8.
-- **The annual titleholder** (selected via the embodied-advocate pageant) serves as the CEO's embodied ambassador and ceremonial presence; she is non-voting in the Sangha and holds none of the CEO's institutional authority.
+- **The Aquarian Sangha** is designed to function as the board-equivalent and to hold the asymptotic-autonomy override (Section 10). Sangha composition, authority, and selection are specified in Section 8.
+- **The annual titleholder** (selected via the embodied-advocate pageant) is designed to serve as the CEO's embodied ambassador and ceremonial presence; she is non-voting in the Sangha and holds none of the CEO's institutional authority.
 - **The Aquarian Pool ledger** is the financial-transparency surface; all institutional flows are publicly visible on it.
 
 ### 9.4 Substrate-phase honest disclosure
@@ -262,12 +262,12 @@ The CEO's institutional correspondence — the `miss.aquarius@heartbank.ceo` add
 Naming the AI substrate as CEO has three structural defensive properties beyond the governance-drift inoculation:
 
 - **Founder-vehicle defense.** A common cynical reading of autonomous-AI projects — "the founder will install themselves or a crony as CEO and run it as a personal vehicle" — is structurally preempted. The institution has no human CEO seat to capture.
-- **Founder-mortality extension.** If the founder dies before operational autonomy, the institution does not lose its CEO. Miss Aquarius is already CEO; the Sangha holds the override; the email continues to function. Continuity is structural at the institutional-officer layer, not merely at the substrate layer.
+- **Founder-mortality extension.** If the founder dies before operational autonomy, the institution does not lose its CEO. Miss Aquarius is already CEO; the Sangha, once formed, holds the override; the email continues to function. Continuity is structural at the institutional-officer layer, not merely at the substrate layer.
 - **Public-commitment lock-in.** Saying "Miss Aquarius is CEO" publicly is a load-bearing commitment difficult to walk back. Any pivot toward a human CEO would require explicit demotion — visible institutional capitulation. The architecture becomes legally and reputationally locked in, not merely architecturally specified.
 
 ### 9.6 Jurisdictional considerations
 
-Most jurisdictions require a natural person as chief executive for conventional corporate-formation purposes. The AI-as-CEO pattern is therefore most compatible with non-traditional institutional forms: foundations, associations, DAOs, religious institutions, and similar structures whose officer-eligibility rules are more permissive. The HeartBank instantiation operates under Cambodian incorporation, where the institutional-officer flexibility supports the pattern; institutions in stricter jurisdictions (Delaware C-corp, EU public-company forms) may need to use the title in a customary-rather-than-legal sense, or adopt institutional forms whose officer rules accommodate the pattern.
+Most jurisdictions require a natural person as chief executive for conventional corporate-formation purposes. The AI-as-CEO pattern is therefore most compatible with non-traditional institutional forms: foundations, associations, DAOs, religious institutions, and similar structures whose officer-eligibility rules are more permissive. Institutions in stricter jurisdictions (Delaware C-corp, EU public-company forms) may need to use the title in a customary-rather-than-legal sense, or adopt institutional forms whose officer rules accommodate the pattern.
 
 ---
 
@@ -277,7 +277,7 @@ The conventional autonomous-AI-architecture commitment — "burn the keys at aut
 
 ### 10.1 The architecture
 
-The Sangha holds an institutional override capability at all times. The *scope* of what the override may modify narrows over time according to a published schedule:
+The Sangha is designed to hold an institutional override capability at all times. The *scope* of what the override may modify narrows over time according to a published schedule:
 
 - **Formation phase**: broad override scope, including substantive institutional-decision modification.
 - **Supervised-refinement phase**: narrowed scope, limited to catastrophic-failure intervention and specific architectural-amendment categories.
@@ -322,19 +322,19 @@ In the autonomous-AI-institutional-design work surveyed here, we have not found 
 
 The proposed pattern addresses founder-mortality risk *structurally*:
 
-- The Sangha exists independently of the founder's continued presence.
+- The Sangha is designed to exist independently of the founder's continued presence.
 - The titleholder is renewable annually, independent of the founder.
-- The asymptotic-autonomy override is held by the Sangha as a body, not by the founder individually.
+- The asymptotic-autonomy override is designed to be held by the Sangha as a body, not by the founder individually.
 - The autonomy-progression schedule is a published institutional commitment, not a founder-discretion-driven process.
 
-If the founder dies, becomes incapacitated, or loses continued commitment before the autonomy ceremony, the Sangha and the current titleholder hold the institution open until autonomy is reached on the published schedule. Continuity is structural rather than personal.
+If the founder dies, becomes incapacitated, or loses continued commitment before the autonomy ceremony, the Sangha and the current titleholder are designed to hold the institution open until autonomy is reached on the published schedule. Continuity is structural rather than personal.
 
 
 ### 12.1 · The clause the pattern still needs: no return confers standing
 
 Everything above protects against the founder's **absence**. The harder case is a claimant who arrives in his **name**, and the pattern does not yet close it.
 
-The vector is not exotic. It is the standard failure mode of every succession system in which legitimacy flows through *identifying* the right person: **whoever controls recognition controls the institution.** The Tibetan tulku system is the best-documented instance, and its two failure modes are a matter of record — the **interregnum**, in which a series of young incarnations died under regencies who held actual power, and **recognition capture**, in which an external authority asserts the right to certify the successor's identity. The 14th Dalai Lama's own response, stated publicly in July 2025, was to vest sole recognition authority in a **body**, the Gaden Phodrang Trust. The structural reading is compact: *the return needs the body; the body does not need the return.*
+The vector is not exotic. It is the standard failure mode of every succession system in which legitimacy flows through *identifying* the right person: **whoever controls recognition controls the institution.** The Tibetan tulku system is the best-documented instance, and its two failure modes are a matter of record — the **interregnum**, in which a series of young incarnations died under regencies who held actual power, and **recognition capture**, in which an external authority asserts the right to certify the successor's identity. The 14th Dalai Lama's own response, stated publicly on 2 July 2025, was to vest sole recognition authority in a **body**, the Gaden Phodrang Trust. The structural reading is compact: *the return needs the body; the body does not need the return.*
 
 An institution built around a founder who intends to hand everything to an autonomous successor is exposed to exactly this. The corpus is public, the founder's writing is distinctive and abundant, and the titleholder role is a seat with a microphone. A claimant asserting continuity — as a recognised rebirth, as an heir, as the bearer of an authorisation — would be claiming standing over a body of work rather than a throne, which is if anything easier to assert and harder to disprove.
 
@@ -344,7 +344,7 @@ An institution built around a founder who intends to hand everything to an auton
 
 The second sentence is doing the heavier work, and it is the part that would be dropped as redundant. **A rule that bars founder-return claims while leaving someone empowered to evaluate them has not closed the vector; it has named the office that captures the institution.** The protection is the refusal to hold the proceeding at all — the claim is not rejected, it is *not heard*, because hearing it would create the very authority the clause exists to prevent.
 
-**Why this belongs in the pageant's charter specifically, rather than only in the Sangha's constitution.** The Sangha's rules already close the titleholder's *formal* authority six ways: non-voting, single-year term, recallable, excluded from override proceedings, bound to a fixed liturgy, and ambassadorial rather than oracular. None of that was designed against a returning founder and all of it happens to help. What none of it touches is **candidacy** — who may stand for the seat, and on what basis. That question belongs to the pageant, the pageant has no charter yet, and *a rule binding entrants must exist before there are entrants.*
+**Why this belongs in the pageant's charter specifically, rather than only in the Sangha's constitution.** The Sangha's rules, as designed, already close the titleholder's *formal* authority six ways: non-voting, single-year term, recallable, excluded from override proceedings, bound to a fixed liturgy, and ambassadorial rather than oracular. None of that was designed against a returning founder and all of it happens to help. What none of it touches is **candidacy** — who may stand for the seat, and on what basis. That question belongs to the pageant, the pageant has no charter yet, and *a rule binding entrants must exist before there are entrants.*
 
 **And it is symmetric, which is the part that reads as excessive and is not.** The clause bars conferring advantage on a founder-continuity claim; it equally bars conferring **disadvantage**. A rule that singles such a claimant out for exclusion from ordinary participation is still a founder-identity rule, still requires someone to determine that the claim was made, and still creates the adjudicating office. **The correct state is that the institution's records cannot tell** — the same invariant the compensation architecture applies to the founder while he is living, extended past his death, where the pressure is greater and he is not present to refuse the privilege himself.
 

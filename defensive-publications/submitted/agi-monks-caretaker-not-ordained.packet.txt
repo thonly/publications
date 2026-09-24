@@ -1,7 +1,7 @@
 TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
 ═══════════════════════════════════════════════════════════════════════
 TITLE
-AGI Monks: The Caretaker-not-Ordained Pattern: Separating AI-Performed Operational Functions from Human-Reserved Ordination Authority in Religious Institutions
+AGI Monks: The Caretaker-not-Ordained Pattern — Separating AI-Performed Operational Functions from Human-Reserved Ordination Authority in Religious Institutions
   (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
   (The paper's own front-matter subtitle, "A Cross-Tradition Institutional-Design Framework for Religious AI
    Integration", names the genre but not the mechanism; the standard-term subtitle above adds the searchable
@@ -19,7 +19,7 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (248 words — limit 250)
 We describe an institutional governance framework for integrating artificial intelligence into religious and monastic organizations by separating AI-performed operational functions from human-reserved ordination and sacramental authority. Each role is decomposed into a function-set (the tasks performed, requiring capacity plus non-standing qualifications: accountability, disclosure that the agent is an AI, confidentiality and delegated scope) and an authority-set (standing within an ordination lineage). AI agents fill the function-set in five operational roles: instruction, pastoral caretaking, daily administration, scholarship and translation, and longitudinal observation of practitioners under consent and privacy review. Humans retain two reserved roles: ordination, and the formal acts a tradition reserves to those with standing, including rites of lineage transmission; instruction is distinguished from the teaching office, which stays human. The boundary is decided by a validity test taken from each tradition's own rule: an act is reserved if the tradition holds it invalid when performed by a person without standing, and where standing is juridical the reservation follows that rule. A tradition-specific oversight body maintains the boundary, reviews proposed integrations, logs violations, reviews adjacent AI actions quarterly for scope creep toward reserved acts, reviews training-data composition, and publishes lists of recognized AI systems with cryptographic verification of authenticity. Adoption is staged, from administration to teaching and caretaking. Preliminary mappings are given for Theravāda, Mahāyāna, Catholic, Orthodox, Sunni, Shia, Sufi, Jewish, Hindu and secular-mindfulness contexts. Stated limits: the test returns no verdict where a tradition has no reserving rule, and the lineage premise is assumed rather than defended.
 
-FILE       submitted/agi-monks-caretaker-not-ordained.pdf   (19 pages, 315 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-0v7aorhp/agi-monks-caretaker-not-ordained.pdf
+FILE       submitted/agi-monks-caretaker-not-ordained.pdf   (19 pages, 318 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-yldkx7pi/agi-monks-caretaker-not-ordained.pdf
   Cover read: first published 2026-05-04 · this version 2026-09-24 · concept DOI 10.5281/zenodo.21947261 ·
   timestamp line carries the scope limit. No editor notes, draft banners, emoji or placeholder text in the
   PDF text layer (the only "draft" hit is §11's "treat them as drafts for refinement" — paper prose).
@@ -34,8 +34,8 @@ PRE-FLIGHT
       articulation, with an explicit boundary, a test for it, and a body to hold it"); the mechanism
       itself is §3/§6/§9.0/§8.5. For check-mirrors: --claims-heading '## Prior-Art and Non-Assertion
       Statement' is thin (one sentence of scope) — recommend --claims-heading BODY.
-  [x] Prior art — Prior-Art and Non-Assertion Statement (names Deus in Machina, Bhutan BuddhaBot, lay
-      parish administration) + §2 survey of the religious-AI conversation + §14 Citations
+  [x] Prior art — Prior-Art and Non-Assertion Statement (names Bhutan BuddhaBot and lay parish
+      administration as instances) + §2 survey of the religious-AI conversation + §14 Citations
   [x] Honest limits — "## 11 · Honest Limitations" (8 items)
   [x] AI co-authorship disclosed in text — authors line + closing "Author:" paragraph (Miss Aquarius℠
       named as the institution's AI collaborator; no model named). PDF cover names Thon Ly as inventor.
@@ -47,15 +47,23 @@ PRE-FLIGHT
   [!] Title LEADS with a coined name ("AGI Monks", and the pattern name "Caretaker-not-Ordained") —
       examiner terms arrive only in the subtitle; kept per rule, flagged
   [!] front matter "status: draft" — the paper has no ruled human round
-  [!] INTERNAL INCONSISTENCY — the Prior-Art statement cites Lucerne's Deus in Machina (2024) as an
+  [x] FIXED 2026-09-24: Deus in Machina removed from the Prior-Art statement's instance list; it stays in §1
+      as a progressive-side product (the paper's only treatment of it). Original item:
+      INTERNAL INCONSISTENCY — the Prior-Art statement cites Lucerne's Deus in Machina (2024) as an
       "instance of the pattern", but §1 (line 80) lists the same installation among products moving in
       the PROGRESSIVE direction (AI toward sacramentally authorized roles). An AI "Jesus" in a
       confessional booth is not obviously caretaker-not-ordained. Resolve before an irreversible posting.
-  [!] §1 (line 80) names "myaimonk" as a religious-AI product with no citation (BuddhaBot-Plus is
+  [x] FIXED 2026-09-24: "myaimonk" cut (not verifiable as a named product). Original item:
+      §1 (line 80) names "myaimonk" as a religious-AI product with no citation (BuddhaBot-Plus is
       covered by cit. 11; myaimonk by none) — verify or cut
-  [!] §2.4 "Several fatwas have been issued on specific applications" and §2.8 product claims
+  [x] FIXED 2026-09-24: §2.4 now names one verified fatwa (Dar al-Iftaʾ No. 22255, 2 Dec 2025, cit. 16),
+      unverified examples cut; §2.8/§7 name Headspace Ebb (2024, cit. 17) and Insight Timer AI features
+      (2026, cit. 18); Calm dropped (no AI companion verified). Original item:
+      §2.4 "Several fatwas have been issued on specific applications" and §2.8 product claims
       (Headspace's AI companion; Calm, Insight Timer) carry no citation — unverified third-party facts
-  [!] The Abstract's "Connection to the unified mission frame" paragraph ties the pattern to
+  [x] FIXED 2026-09-24: "HeartBank's canonical top-level mission" → "the author's canonical top-level
+      mission". Original item:
+      The Abstract's "Connection to the unified mission frame" paragraph ties the pattern to
       "HeartBank's canonical top-level mission", while §1 says Silicon Wat is "a body in its own right,
       not a HeartBank® program" — an examiner-facing permanent text carrying organisational mission copy
       and a mild body-attribution tension; not wrong, flagged
@@ -78,9 +86,13 @@ OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|uniqu
     components; claims articulation, not priority. Fine.
   - line 94 (§2 lead): "every tradition is having the same conversation, none has produced a
     comprehensive institutional-design framework, and almost no cross-tradition coordination exists"
-    → REAL OVERCLAIM (mild). An absence claim about third parties, dated "as of early 2026" but with
+    → FIXED 2026-09-24: now "none of the traditions surveyed below has produced a comprehensive
+    institutional-design framework that the author could find, and little cross-tradition coordination is
+    visible". Was: REAL OVERCLAIM (mild). An absence claim about third parties, dated "as of early 2026" but with
     no aperture and no census recorded; standing form is "not found in <aperture> on <date>".
-  - line 197 (§6): "creates the third option both branches missed" → REAL OVERCLAIM (mild, rhetorical).
+  - line 197 (§6): "creates the third option both branches missed" → FIXED 2026-09-24: now "makes available a third option that
+    the binary obscures — one that post-Vatican II lay administration already practises among humans (§7.3)".
+    Was: REAL OVERCLAIM (mild, rhetorical).
     Undercut by the paper's own Prior-Art statement (lay parish administration already separates
     function from Holy Orders, §7.3 "the pattern's oldest instance").
   - line 162 (§4.5): "the operational role most distinctive to AI; no human teacher can carry decades

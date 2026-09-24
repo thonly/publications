@@ -1,7 +1,7 @@
 TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
 ═══════════════════════════════════════════════════════════════════════
 TITLE
-Miss Aquarius and the Aquarian Pool Architecture: Autonomous-AI Mediator, Treasury Smart-Contract, and the January-7 Empty-by-Design Discipline: An Annually Self-Emptying Smart-Contract Treasury Operated by an Autonomous AI Agent under a Non-Renounceable Timelocked Human Override
+Miss Aquarius and the Aquarian Pool Architecture: Autonomous-AI Mediator, Treasury Smart-Contract, and the January-7 Empty-by-Design Discipline — An Annually Self-Emptying Smart-Contract Treasury Operated by an Autonomous AI Agent under a Non-Renounceable Timelocked Human Override
   (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
   (The paper's title already ends in a subtitle, but its searchable half stops at "Treasury Smart-Contract";
    "Miss Aquarius", "Aquarian Pool" and "January-7 Empty-by-Design" are coined. The appended subtitle adds the
@@ -20,7 +20,7 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (248 words — limit 250)
 We specify a smart-contract treasury, deployed as a non-upgradeable contract on an Ethereum Layer-2 network (Base), whose sole authorized operator is an autonomous AI agent, which is titled to a purpose trust, and which cannot carry a balance across a fixed annual date. Components: (1) an enumerated operation set (inflow acceptance, capacity-funding disbursement, annual reset, events for every inflow, disbursement and reset, and a human override) with no upgrade, withdrawal or other operator-privileged path; (2) a permissionless time-triggered reset, callable by any address once the timestamp passes, that disburses the whole remaining balance each January 7, inflows from a December 26 to January 6 accrual window being disbursed at the reset; (3) separation of funding authority from disbursement authority: the only outflow is capacity-funding to participant-controlled accounts, from which every onward transfer is human-initiated; in the current form funding is made in kind and its recipients are selected by a publicly verifiable draw from a committed roster with a seed no party controls, while discretionary allocation under pre-declared per-recipient bounds is disclosed as a variant; (4) a non-renounceable timelocked role, exercised by a human governing body's quorum, limited to pause, bounded parameter reset and halt of a named funding action, whose bounds narrow over time but never to zero; (5) sibling contracts sharing the reset date, with unspent participant capacity returning to the final disbursement and personal accounts untouched. Stated limits cover the not-yet-formed governing body, untested model behaviour, regulatory variance, allocation bias and ordinary contract-security attack surface.
 
-FILE       submitted/miss-aquarius-and-aquarian-pool-architecture.pdf   (17 pages, 350 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-t0slva0r/miss-aquarius-and-aquarian-pool-architecture.pdf
+FILE       submitted/miss-aquarius-and-aquarian-pool-architecture.pdf   (18 pages, 357 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-fa9oi3ks/miss-aquarius-and-aquarian-pool-architecture.pdf
 
 ═══════════════════════════════════════════════════════════════════════
 PRE-FLIGHT
@@ -52,18 +52,28 @@ PRE-FLIGHT
   [!] Top-of-file "Note." block (rendered on the PDF's first page) and §9 state
       "operational deployment from January 7, 2027" — a forward-looking date that will be
       permanently visible whether or not it holds
+      FIXED 2026-09-24: Note → "operational deployment planned from January 7, 2027"; §9 →
+      "first full operational cycle, as planned, at …" / "is planned to run from Jan 7, 2027"
   [!] Acknowledgments thank "the Theravāda Cambodian Saṅgha for ongoing consultation on
       the Jan 7 anchor" — an assertion of a consultation relationship; confirm it is true
       before a permanent posting
+      FIXED 2026-09-24: now "members of the Theravāda Cambodian Saṅgha, whose consultation on
+      the Jan 7 anchor … is sought" — no relationship asserted
   [!] Acknowledgments credit the contract's "no-admin-key, no-upgrade-path design
       discipline", but §3.2 op. 5 / §6 specify a non-renounceable timelocked Sangha role
       (an admin role). "no-upgrade" holds; "no-admin-key" contradicts the body
+      FIXED 2026-09-24: now "no-operator-key, no-upgrade-path design discipline (the only
+      administrative path being the timelocked override of §3.2 and §6)"
   [!] §4.2 publishes the founder's birthday (7 January, as a triple-anchor element) —
       already public on the canonical page; confirm it is public-by-choice in the
       /footprint disclosure register
   [!] Abstract as written in the PAPER still leads with the superseded Kiitos-floor inflow
       picture and the discretionary allocator; both are corrected only by "Current form"
       notes in §3.2 and §5. The packet abstract above describes the current form
+      FIXED 2026-09-24: paper Abstract items (2) and (4) now state the current inflow and the
+      in-kind, draw-selected capacity funding; one added sentence says the earlier forms
+      (Kiitos-always floor inflow; discretionary allocator) are disclosed as variants. A line
+      after the §4.4 diagram points its inflows to the §3.2 Current-form note
 
 ⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
    Type into the visible editor body and SCREENSHOT to confirm before submitting.
@@ -93,4 +103,6 @@ OVERCLAIM READ
     specification" → MILD OVERCLAIM (legal-effect language: a defensive publication
     grants no protection and binds no examiner; STANDING §novelty-census). Remedy in the
     paper's next revision; the packet abstract does not carry it.
+    FIXED 2026-09-24: now "this document discloses the integrated architecture as a unified
+    specification, as well as its component parts"
   §2.3/§2.4 "the rare combination" / "the rare case" → characterisation, FINE.

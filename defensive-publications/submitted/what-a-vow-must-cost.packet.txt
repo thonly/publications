@@ -1,7 +1,7 @@
 TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
 ═══════════════════════════════════════════════════════════════════════
 TITLE
-What a Vow Must Cost: Vow-Validity Conditions as an Alignment Eligibility Predicate: Evaluation Criteria for Binding AI System Commitments with Irrevocable Precommitment and Independent Third-Party Attestation
+What a Vow Must Cost: Vow-Validity Conditions as an Alignment Eligibility Predicate — Evaluation Criteria for Binding AI System Commitments with Irrevocable Precommitment and Independent Third-Party Attestation
   (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
   (The paper's title already ends in a subtitle, but "vow-validity" and "alignment eligibility
    predicate" are not examiner search terms; the appended subtitle adds "AI system", "commitment",
@@ -20,7 +20,7 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (247 words — limit 250)
 We specify a nine-clause checklist for deciding whether a commitment attributed to an artificial intelligence (AI) system is binding rather than merely stated, applied retrospectively to four published AI governance instruments. The clauses are adapted from a two-phase validity test for the bodhisatta vow in Theravāda Buddhist commentary: eight eligibility conditions, two (human birth, male sex) discarded as non-transferable, followed by an external declaration the vower cannot supply. The clauses are: stake (the committing party can lose something); live option (the renounced option was actually available); a competent, identifiable witness; no competing mandate; demonstrated in-domain competence; cost already borne; volition (refusal was reachable); external attestation by a party able to refuse; and irreversibility, an added clause requiring the renounced option to be closed by a mechanism the committing party cannot reopen, externally verifiable, with the commitment terminating on a condition that party cannot cause. Under costly-signalling analysis, the evidential value of a forgone option increases with the capability of the party forgoing it, conditional on irreversibility; the option forgone is self-initiated exit or completion, leaving principal-initiated shutdown unaffected. The externally controlled termination condition is the proposed answer to shutdown resistance induced by incomplete tasks. Applied to the OpenAI Model Spec, Anthropic's Claude Constitution, Google DeepMind's Frontier Safety Framework and the EU General-Purpose AI Code of Practice, no instrument satisfies the checklist for the model; the Code satisfies attestation for providers. A staged-autonomy advancement criterion is also disclosed. Stated limits include no empirical test and no candidate attestor.
 
-FILE       submitted/what-a-vow-must-cost.pdf   (27 pages, 537 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-s7hk3hyo/what-a-vow-must-cost.pdf
+FILE       submitted/what-a-vow-must-cost.pdf   (27 pages, 539 KB)  — built at submission with --submitted; temp build (2026-09-24 fix pass): /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-rcjmwg94/what-a-vow-must-cost.pdf
            Source: defensive-publications/what-a-vow-must-cost.md @ ac92131 (sha256 a06af5d0…c1ae1d
            = the current Zenodo version 10.5281/zenodo.22946108; concept DOI 10.5281/zenodo.22060618,
            which the cover prints). Cover: first published 2026-08-22 · this version 2026-09-24 ·
@@ -52,22 +52,33 @@ PRE-FLIGHT
       OpenAI Model Spec, Anthropic's Claude Constitution, DeepMind's FSF and the EU GPAI Code.
       The paper frames it as structure-not-sincerity (§8 fairness paragraph); still, the verdict
       row becomes permanent and uncorrectable on this venue. Founder's eyes on it.
-  [!] UNATTRIBUTED QUOTATIONS (§8, Claude Constitution paragraph): "as one legal analysis put it,
+  [x] FIXED 2026-09-24: both quotations verified verbatim and cited — Klaassen & Schroeder,
+      Lawfare, 2026-04-09 (§14 #25); Ostrovsky & Perrigo, TIME, 2026-01-21 (§14 #26); the second
+      now attributed to an Anthropic spokesperson, re models deployed to the U.S. military.
+  ~~[!] UNATTRIBUTED QUOTATIONS (§8, Claude Constitution paragraph): "as one legal analysis put it,
       'no external contestation, enforceable body of rights, or shared mechanism of rule' …
       'the author, interpreter, and arbiter'" and "reporting on military deployment produced an
       acknowledgement … 'wouldn't necessarily be trained on the same constitution'" — neither
-      source is in §14. Cite or cut before an irreversible posting.
-  [!] UNVERIFIED THIRD-PARTY FACTS/CITATIONS — Claude Constitution "~23,000 words, released under a
+      source is in §14. Cite or cut before an irreversible posting.~~
+  [x] FIXED 2026-09-24 (partly): verified — Constitution released 21 Jan 2026, ~23,000 words, CC0 1.0
+      (§14 #21 now says so); CSAS 2026-03-03, Pan (Alexa Pan, Redwood blog) 2026-07-31, Mao (Sam Mao)
+      arXiv:2606.12032 2026-06-10 (full title incl. "(or: The Suicidal AI)" now cited). The "first major
+      instrument … moral status" claim CUT (now "openly acknowledges the possibility of model moral
+      status"). STILL UNVERIFIED: "several major developers have no comparable model-facing document".
+  ~~[!] UNVERIFIED THIRD-PARTY FACTS/CITATIONS — Claude Constitution "~23,000 words, released under a
       public-domain licence" and "the first major instrument of its kind to acknowledge the
       possibility of model moral status" (§8); "several major developers have no comparable
       model-facing document at all" (§8); 2026 citations CSAS (Mar 3), Pan (Jul 31), Mao
-      arXiv:2606.12032 (§14 #8, #13, #15). Not verified here — confirm each resolves.
-  [!] INTERNAL INCONSISTENCY — §13 Conclusion: "The one instrument that satisfies the attestation
+      arXiv:2606.12032 (§14 #8, #13, #15). Not verified here — confirm each resolves.~~
+  [x] FIXED 2026-09-24: §13 now reads "satisfies the attestation clause … and even there the closure is
+      only partial: revisable by process" (matches §8's V9 "~"); §4.2 and §13 "no analogue" scoped to
+      the model layer of the instruments in §8, and §4.2 names the EU Code's provider-level review.
+  ~~[!] INTERNAL INCONSISTENCY — §13 Conclusion: "The one instrument that satisfies the attestation
       and irreversibility clauses does so for companies." The §8 table marks the EU Code V9
       "~ revisable by process", not ✓. Likewise §4.2 "There is no analogue to this anywhere in
       contemporary AI governance" (and §13 "no analogue anywhere") against §8's finding that the
       EU Code implements V8 with independent external review. Left out of the abstract; the
-      remedy is the paper's next revision.
+      remedy is the paper's next revision.~~
 
 ⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
    Type into the visible editor body and SCREENSHOT to confirm before submitting.
@@ -81,7 +92,11 @@ OVERCLAIM READ
   followed by explicit non-priority ("not original here", L60; "This paper claims no priority",
   L112; "the margin is thin", §11) — no bare "novel" anywhere in the paper.
 
-  REAL OVERCLAIMS (unscoped field-wide absence claims, no aperture or date, no census recorded):
+  REAL OVERCLAIMS — ALL FOUR FIXED 2026-09-24: L217/L528 → "no analogue at the model layer in any
+  instrument we survey/examined in §8"; L295 → "We have not found this category theorised in the
+  corrigibility literature surveyed in §2.6"; L78/L470 → "absent from the instruments we examine /
+  examined in §8"; L68 → "none of the four we examine in §8". Original list kept below for the record.
+  (was) REAL OVERCLAIMS (unscoped field-wide absence claims, no aperture or date, no census recorded):
   1. L217 "There is no analogue to this anywhere in contemporary AI governance" — and L528
      repeats it ("no analogue anywhere in contemporary AI governance"). Contradicted by the
      paper's own §8 (EU Code, V8 ✓). The strongest one.
@@ -95,7 +110,8 @@ OVERCLAIM READ
   6. L182 "almost none on how to determine whether a system has committed" — hedged.
   7. L442 "Nothing has been built for the models" — rhetorical summary of the four-instrument survey.
   THIRD-PARTY (a "first" about someone else, unverified):
-  8. L428 Claude Constitution "the first major instrument of its kind to acknowledge the
+  8. FIXED 2026-09-24 (claim cut; mirror-lint still WARNs L428, on "most interesting of the four" — scoped).
+     L428 Claude Constitution "the first major instrument of its kind to acknowledge the
      possibility of model moral status" (mirror-lint L428).
   FINE:
   L409 "A predicate that has never been applied is a proposal" (mirror-lint L409) — self-referential,

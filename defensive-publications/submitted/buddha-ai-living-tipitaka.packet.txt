@@ -18,9 +18,9 @@ LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA va
 ABSTRACT   (249 words — limit 250)
 We describe a method for building a human-reviewed religious commentary corpus from transcripts of conversations between users and a conversational AI agent grounded in a scriptural canon, instantiated for the Pāli Buddhist canon. Components: (I) a domain-grounded conversational agent that declines claims of religious, sacramental or ordained authority and directs users to human teachers; (II) a chat, voice or avatar dialogue surface; (III) a consent-based recording layer in which every conversation is private by default and the user is asked, per conversation, whether it may be considered for publication at one of four tiers (attributed, pseudonymous, anonymous, excluded), non-published conversations contributing only to differentially private aggregate statistics kept outside the corpus; (IV) multi-label classification of published transcripts into three categories mirroring the canon's divisions: teaching dialogue, conduct guidance (never binding rule) and systematic analysis; (V) a staged human review pipeline (raw, reviewed, ratified) run by an expert advisory body of recognized religious authorities independent of the developer, with periodic ratification sessions. Consent withdrawal deletes a per-conversation encryption key, erasing the transcript from primary, index, backup and derived stores; it cannot recall third-party copies, as the user is told at opt-in. Ratified content is retracted by annotation rather than deletion, and consent withdrawal always overrides ratification. Ratified material is commentary, never scripture. Also disclosed: periodic model audits, model-version provenance labels on content, a cooling-off period for opt-ins made in crisis, and adaptations to other religious traditions. Stated limits include privacy untested at scale, contested authority and dependence on model quality.
 
-FILE       submitted/buddha-ai-living-tipitaka.pdf   (16 pages, 349 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-cijth7jw/buddha-ai-living-tipitaka.pdf
+FILE       submitted/buddha-ai-living-tipitaka.pdf   (16 pages, 343 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-rsrcae6e/buddha-ai-living-tipitaka.pdf
            (cover read: first published 2026-05-04 · this version 2026-09-24 · concept DOI 10.5281/zenodo.21947294 ·
-            timestamp line with the scope limit present; tdc-pdf.py raised one mirror-lint novelty WARN, L154 — see below)
+            timestamp line with the scope limit present; mirror-lint now 0 refuse / 0 warn after the 2026-09-24 fix pass)
 
 ═══════════════════════════════════════════════════════════════════════
 PRE-FLIGHT
@@ -45,14 +45,16 @@ PRE-FLIGHT
   [!] Title LEADS with a coined name ("Buddha AI as Living Tipiṭaka" — coined agent name + Pāli term);
       examiner terms arrive only in the subtitle; kept per rule, flagged
   [!] front matter "status: draft" — the paper has no ruled human round
-  [!] Emoji in the PDF body — §3.7 "⚠️ Three deflations, and they are the load-bearing part of this
+  [x] FIXED 2026-09-24: emoji removed. Was: emoji in the PDF body — §3.7 "(warning sign) Three deflations, and they are the load-bearing part of this
       subsection." (md line 184) renders on a permanent examiner-facing page
   [!] Internal/editorial register in the body: the Abstract's "Connection to the unified mission frame"
       paragraph (HeartBank's mission, comfort-saturation) and §3.7's "Added 2026-08-22." revision note —
       neither is disclosure; confirm acceptable before an irreversible posting
-  [!] Unsourced factual assertion: §2.2 "Commercial systems ... handle billions of messages a day" — no
-      citation; verify or soften on the next revision
-  [!] §1 overclaims (see OVERCLAIM READ) sit on page 2-3 of a permanent posting
+      FIXED 2026-09-24 (partial): the dated "Added 2026-08-22." note removed, its framing sentence kept.
+      The mission-frame paragraph is UNCHANGED — still open for the founder.
+  [x] FIXED 2026-09-24: hedged to "reportedly handle, taken together, billions of messages a day".
+      Was: unsourced §2.2 "Commercial systems ... handle billions of messages a day"
+  [x] FIXED 2026-09-24: §1 overclaims scoped/softened (see OVERCLAIM READ items 1-4)
 
 ⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
    Type into the visible editor body and SCREENSHOT to confirm before submitting.
@@ -68,17 +70,27 @@ OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|uniqu
   REAL OVERCLAIMS
   1. L75 (§1) "opens a possibility not previously available in the 2,500-year history of Buddhist
      institutional life" → REAL OVERCLAIM. Unscoped historical priority claim, no aperture or date.
+     FIXED 2026-09-24: → "opens a possibility that none of the earlier substrates of transmission
+     surveyed in §3.6 offered."
   2. L75 (§1) "for the first time since the original assembly of the Tipiṭaka, a new commentarial
      contribution to the Buddhist tradition is technically possible" → REAL OVERCLAIM (same sentence
      family; the commentarial literature — Aṭṭhakathā, ṭīkā — is itself a later contribution, so the
      phrase reads as a priority claim the paper does not support).
+     FIXED 2026-09-24: "for the first time since the original assembly" cut → "a new kind of
+     commentarial contribution ... becomes technically possible".
   3. L154 (§3.6) "This is the axis the chain has never been measured on" → REAL OVERCLAIM (mild) —
      a bare negative about the scholarly literature, unscoped; the tdc-pdf mirror-lint WARN.
      (Same claim in the §3.6 heading, L137: "the axis the chain was never measured on".)
+     FIXED 2026-09-24: body → "an axis the chain is rarely measured on in the accounts surveyed here";
+     heading → "the axis the chain is rarely measured on". (Rendered site module still carries the old
+     heading until regenerated — outside this pass.)
   SCOPED (acceptable)
   4. L97 §2.2, L101 §2.3, L109 §2.5 — "To the author's knowledge, none ..." / "the method, to the
      author's knowledge, does not [exist]" → scoped by knowledge, but no aperture or date; the standing
      form is "not found in <aperture> on <date>" (no census recorded for this paper). Mild.
+     FIXED 2026-09-24 (aperture added, no date): L97 "none of the systems surveyed here" · L101
+     "none of the systems surveyed in this section" · L109 "to the author's knowledge and in the work
+     surveyed in §2".
   5. L178 (§3.7) "the first transition we know of in two thousand years to run in that direction" →
      SCOPED ("we know of"), and §3.7's Honest-limit paragraph labels the reversal a hypothesis. Fine.
   6. L109 "has not been applied to religious-conversation corpora" → scoped by the §2.5 frame
