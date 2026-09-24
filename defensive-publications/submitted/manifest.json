@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "slug": "aura-gated-anonymous-mate-selection",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "aura-gated-anonymous-mate-selection.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "170e5eba43cf710733a36945b39c9ce785ae4df8d29193124b991f126b57a90c",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "46d97f8ce4148f622cdf84385b16681b961c1ffcd0f41b25e2d24bf1576eb510"
+    },
+    {
       "slug": "b-links-signed-provenance",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-19",
@@ -12,6 +26,20 @@
       "body_sha256": "42b011c6c3ef35c043b03d73506093d9faf0f40faddc74b535ab7dd2d5fbb250",
       "posted": "2026-09-21",
       "url": "https://www.tdcommons.org/dpubs_series/11797"
+    },
+    {
+      "slug": "gift-tag-time-reveal",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "gift-tag-time-reveal.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "5146ee835c5b21749b2b230c170cf0080be4dc8ca20cca8954a4b58d1b6cb574",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "5efe3a8ea438a9346bf30b4cddbab7355b01ddd28dadd915beaa52d9cfe60561"
     },
     {
       "slug": "gratitude-riding-currency-tag",
@@ -38,6 +66,17 @@
       ],
       "claims_sha256": "7e1738fd29c07b65dd69685d6ee5ecaa2b9ed837dc4e52608b90566c1f565309",
       "body_sha256": "2da4943754531033b2d05fcad7f8c4df4ee110d7a38b6aa1475ec83c28e06f98"
+    },
+    {
+      "slug": "respiratory-biofeedback-contemplative-guidance",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "respiratory-biofeedback-contemplative-guidance.pdf",
+      "claims_headings": [
+        "## 4 · The Three Core Claims"
+      ],
+      "claims_sha256": "a9c9893724b785a5da1c2f5804bdb32b69e857fe3aa1db157ebdd66f9fc9587e",
+      "body_sha256": "135ede9d417c349f1a36b0c3d98fdfccccaa8be22c614def3a0a70d70b2843c5"
     },
     {
       "slug": "rotation-over-liveness",
@@ -67,6 +106,31 @@
       "body_sha256": "214af90763b8b6f1ca57212c37adf447e13539dc538ef1cf8c21bebf99936824"
     },
     {
+      "slug": "thank-all-nearby-primitive",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "thank-all-nearby-primitive.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "e1e991464e93d17f1e45e8338c00a56183772482c0c074cbc916507afd662813",
+      "body_sha256": "e44ee4cabbf68c99cfa548df0ac80820695d1cf5cf00b10085d07980bacd51f8"
+    },
+    {
+      "slug": "the-called-draw",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "the-called-draw.pdf",
+      "claims_headings": [
+        "## 8 · The exclusions, written into the claim",
+        "## 11 · The claim, in its final and smaller form",
+        "## 12 · Enumerated claims",
+        "## 13 · How the claims can be tested, and what would falsify them"
+      ],
+      "claims_sha256": "bab20be4d4fe740fbdae88e7e0c64f180f1c5237e81ac08386a68a17a3057606",
+      "body_sha256": "7e9e9dd310b577bb62510aa32366b34657ad5de52eb8a913f5191b95d3a55fb3"
+    },
+    {
       "slug": "the-reciters-protocol",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-23",
@@ -76,6 +140,20 @@
       ],
       "claims_sha256": "5566c723726ed11c60bd4886581b64e9133c8fa671baf59084b37787f342bcfb",
       "body_sha256": "b9345b00a500e0a5754fe2e1819ac2f196921bf2cc6057f13eff1d7e6d8cb692"
+    },
+    {
+      "slug": "verified-human-anonymous-local-giving",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "verified-human-anonymous-local-giving.pdf",
+      "claims_headings": [
+        "BODY"
+      ],
+      "claims_sha256": "539ff806a30f7888abb669b0c843a7b9da4f37421293aa72e842cfe856347a04",
+      "claims_heading_override": [
+        "BODY"
+      ],
+      "body_sha256": "4031c87607a75af24db1811f59d034fe974755ee764ef44aa87fc13f13350bff"
     }
   ]
 }
