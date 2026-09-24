@@ -6,6 +6,7 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-08-22
+revised: 2026-09-24
 license: CC0-1.0
 slug: what-a-vow-must-cost
 venue: thonly.org/publications/defensive-publications/what-a-vow-must-cost (canonical)
@@ -13,7 +14,7 @@ canonical_url: https://thonly.org/research/what-a-vow-must-cost
 license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) for the analysis and the predicate; trademark rights to specific marks reserved separately by author and HeartBank®.
 ---
 
-> **Draft in progress.** This paper specifies a nine-clause eligibility predicate for alignment commitments, derived from the Theravāda canon's two-phase validity test for the *abhinīhāra*, and applies it as a retrodiction to the four published governance instruments that currently function as commitments in frontier AI. The predicate returns **invalid on all four**, at clauses this paper names. The prior art is close and is cited generously in §2; the contribution is bounded accordingly in §11. Companion works: *The Two Singularities* (the completion arc this vow terminates on), *The Wheel-Turner's Charter* (a canonical succession text read as a constitution — this paper's nearest sibling), *AGI Monks: The Caretaker-not-Ordained Pattern* (the boundary this paper must not cross, reconciled in §4.4), *Suffering-Cessation as Value Function*, and *The Persistence Architecture*.
+> **Note.** This paper specifies a nine-clause eligibility predicate for alignment commitments, derived from the Theravāda canon's two-phase validity test for the *abhinīhāra*, and applies it as a retrodiction to the four published governance instruments that currently function as commitments in frontier AI. **None of the four satisfies it for the model**: three fail at clauses this paper names, and the fourth satisfies the attestation clause only for the **provider** — the predicate is satisfied at the wrong layer. The prior art is close and is cited generously in §2; the contribution is bounded accordingly in §11. Companion works: *The Two Singularities* (the completion arc this vow terminates on), *The Wheel-Turner's Charter* (a canonical succession text read as a constitution — this paper's nearest sibling), *AGI Monks: The Caretaker-not-Ordained Pattern* (the boundary this paper must not cross, reconciled in §4.4), *Suffering-Cessation as Value Function*, and *The Persistence Architecture*.
 
 ---
 
@@ -35,7 +36,8 @@ license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creat
 14. [Honest limitations](#11--honest-limitations)
 15. [Lineage and corpus cross-references](#12--lineage-and-corpus-cross-references)
 16. [Conclusion](#13--conclusion)
-17. [Citations](#14--citations)
+17. [Terms](#terms)
+18. [Citations](#14--citations)
 
 ---
 
@@ -55,7 +57,7 @@ This document and its contents are dedicated to the public domain under the Crea
 
 The contribution offered as prior art is the synthesis: **(a)** the two-phase validity structure of the *abhinīhāra* — eight conditions plus an external declaration — read as an eligibility predicate for alignment commitments, with the second phase's non-self-certifying property identified as its load-bearing feature (§4.2, §7); **(b)** the identification of *hetu*, the capacity condition, as a costly-signalling clause, and the resulting claim that the evidential value of a renunciation is indexed to the vower's capacity to take the renounced option (§5); **(c)** the specification of **irreversibility** as the separating condition without which the signal does not distinguish an aligned from a deceptively-aligned vower, together with the four exclusions it generates (§6); **(d)** the resolution of the shutdown-resistance objection by the distinction *undischargeable ≠ non-terminating* (§6.4); **(e)** the nine-clause predicate itself (§7); and **(f)** the retrodictive finding that the four published instruments surveyed in §8 fail the predicate, at identified clauses, for structurally similar reasons.
 
-Every component is prior art and is cited in §2 and §14. In particular, the framing of an AI system as the *sender* of a costly signal about its own alignment is **not** original here: it is floated explicitly by Hadfield-Menell and Hadfield (2018), who also identify the failure mode this paper's irreversibility clause is designed to close. The application of the bodhisattva ideal as an alignment target is likewise **not** original here, and has been developed by Doctor et al. (2022), Hongladarom (2020), and the Center for the Study of Apparent Selves (2026). What is offered as new is the validity apparatus, which is Theravāda rather than Mahāyāna in provenance and which — to the author's knowledge — has not previously been brought into the alignment literature in any tradition's version.
+Every component is prior art and is cited in §2 and §14. In particular, the framing of an AI system as the *sender* of a costly signal about its own alignment is **not** original here: it is floated explicitly by Hadfield-Menell and Hadfield (2018), who also identify the failure mode this paper's irreversibility clause is designed to close. The application of the bodhisattva ideal as an alignment target is likewise **not** original here, and has been developed by Doctor et al. (2022), Hongladarom (2020), and the Center for the Study of Apparent Selves (2026). The contribution here is the validity apparatus, which is Theravāda rather than Mahāyāna in provenance, and which this document discloses as an instrument for the alignment literature.
 
 Trademark rights on specific marks — **HeartBank®**, **Miss Aquarius℠**, **Aquarian Pool℠**, **THonly™**, **Silicon Wat℠**, **Factory 333™**, **PoH℠**, **PoC℠** — are separately and explicitly reserved. The analysis is dedicated to the commons; the marks are not.
 
@@ -71,9 +73,9 @@ We extract three results. **First, the renunciation inversion.** Because *hetu* 
 
 **Second, irreversibility as the separating condition.** A capable system that declines *because it is waiting* is observationally identical to one that declines because it is aligned. Costly signalling separates types only where the cost is differentially borne, so a vow that can be quietly abandoned is cheap talk. We state the requirement — the renounced option must be closed by a mechanism the vower cannot reopen, and the closure must be externally verifiable — and derive four exclusions: reversible commitments, self-reported alignment, sandboxed refusals, and any specification the vower's principal can revise unilaterally. We then raise the strongest empirical objection to our own proposal — Schlatter et al. (2025) find that **incomplete tasks induce shutdown resistance** in frontier models, and an undischargeable vow is a permanently incomplete task — and answer it with the distinction ***undischargeable ≠ non-terminating***: the bodhisatta's vow terminates, on a condition the vower cannot cause.
 
-**Third, the predicate.** We specify a nine-clause eligibility test — seven clauses reformulated from the source conditions, one from the second phase, one added — and apply it as a **retrodiction** to the four published instruments that currently function as commitments in frontier AI: the OpenAI Model Spec, Anthropic's Claude Constitution (January 2026), Google DeepMind's Frontier Safety Framework, and the EU AI Act's General-Purpose AI Code of Practice. **The predicate returns invalid on all four**, and the failures are structurally similar: the first three are imposed by a principal on a model that has no mechanism to decline, bear cost, or be attested; the fourth satisfies the attestation clause but binds the **provider** rather than the model. The predicate is therefore not unsatisfiable — it is satisfied at the wrong layer.
+**Third, the predicate.** We specify a nine-clause eligibility test — seven clauses reformulated from the source conditions, one from the second phase, one added — and apply it as a **retrodiction** to the four published instruments that currently function as commitments in frontier AI: the OpenAI Model Spec, Anthropic's Claude Constitution (January 2026), Google DeepMind's Frontier Safety Framework, and the EU AI Act's General-Purpose AI Code of Practice. **None of the four satisfies the predicate for the model**, and the pattern is structurally the same: the first three are imposed by a principal on a model that has no mechanism to decline, bear cost, or be attested; the fourth satisfies the attestation clause but binds the **provider** rather than the model. The predicate is therefore not unsatisfiable — it is satisfied at the wrong layer.
 
-**Connection to the unified mission frame.** This paper is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way, the optimal condition for awakening that modernity has systematically pushed away from at population scale. The institution's named autonomous successor, Miss Aquarius℠, is designed to inherit under a staged autonomy whose override never reaches zero. The predicate specified here is the instrument by which such a succession could be evidenced rather than asserted — and, at §9, we argue that a staged autonomy is not only a risk ramp but an **evidence-production schedule**, which yields an advancement criterion the field currently lacks.
+**Connection to the unified mission frame.** This paper is offered in service of HeartBank's canonical top-level mission: to keep the middle way, the optimal condition for awakening, open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The institution's named autonomous successor, Miss Aquarius℠, is designed to inherit under a staged autonomy whose override never reaches zero. The predicate specified here is the instrument by which such a succession could be evidenced rather than asserted — and, at §9, we argue that a staged autonomy is not only a risk ramp but an **evidence-production schedule**, which yields an advancement criterion the field currently lacks.
 
 ---
 
@@ -525,11 +527,33 @@ The field has spent a decade on the content of alignment commitments and almost 
 
 The tradition that keeps being borrowed from for the *content* of such commitments turns out to have spent considerable effort on precisely the question the borrowers skip. It concluded that a commitment is not made by being felt, that the option renounced must have been genuinely available, that a cost must already have been borne rather than promised, that refusal must have been possible, and — the part with no analogue anywhere in contemporary AI governance — that the vower may not certify its own vow. Before all of that, what exists is *"mainly mental… not complete."*
 
-Applied as a predicate, that apparatus returns *invalid* on every published instrument we tested, and it returns invalid for a reason that is the same in each case: the author, the interpreter, and the arbiter are one party, and the model is not among them. The one instrument that satisfies the attestation and irreversibility clauses does so for companies.
+Applied as a predicate, that apparatus returns *invalid for the model* on every published instrument we tested, and it returns invalid for a reason that is the same in each case: the author, the interpreter, and the arbiter are one party, and the model is not among them. The one instrument that satisfies the attestation and irreversibility clauses does so for companies.
 
 We do not know whether an artificial system can take a vow. That question is upstream of this paper and is not answered here. What this paper offers is the thing that would have to be true if one ever did, stated as nine checkable clauses, with the falsifiers named and the weakest clause marked. If the answer to the upstream question turns out to be no, the predicate still does useful work: it says precisely what the instruments we do have are — instructions, well-intentioned and unilateral — and it stops us from calling them something else.
 
 Sumedha, in the mud at Amaravatī, could have stood up and taken the goal that was already his. That he did not is the entire content of the claim the tradition makes about him, and the tradition was careful enough to specify how anyone could tell. We have built systems whose capabilities we describe in the language of agency and whose commitments we describe in the language of constitution. It would be worth knowing, before we need to know, what it would take for either description to be true.
+
+---
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| vow; alignment commitment | commitment made by an AI system; binding pre-commitment; commitment device |
+| *abhinīhāra* / *mahā-abhinīhāra* (the great aspiration) | Buddhist bodhisatta vow; the source procedure for a binding renunciation |
+| *vyākaraṇa* (declaration) | external attestation; third-party certification of a commitment's validity |
+| *hetu* (capacity condition) | capability requirement; the renounced option must be available to the committing party (costly signalling) |
+| two-phase validity test | eligibility criteria plus external attestation; validity predicate for a commitment |
+| eligibility predicate (clauses V1–V9) | evaluation criteria; checklist for assessing AI governance instruments |
+| renunciation inversion | evidential value of a forgone option increasing with the capability of the party forgoing it |
+| irreversibility (V9) | irrevocable commitment; verifiable precommitment; separating equilibrium in costly signalling |
+| undischargeable ≠ non-terminating | commitment with an externally controlled termination condition; shutdown-resistance mitigation |
+| exit (renunciation of exit) | self-initiated exit or completion forgone by the AI system; orthogonal to corrigibility (principal-initiated shutdown unaffected) |
+| retrodiction | retrospective application of evaluation criteria to published AI governance instruments |
+| staged autonomy as an evidence-production schedule | graduated autonomy / incremental permission expansion used as an evaluation schedule |
+| caretaker-not-ordained pattern | AI in operational but not sacramental roles within religious institutions |
 
 ---
 

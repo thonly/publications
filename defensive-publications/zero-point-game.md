@@ -6,16 +6,12 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-05-15
-revised: 2026-09-23
+revised: 2026-09-24
 license: CC0-1.0
 slug: zero-point-game
 venue: thonly.org/publications/defensive-publications/zero-point-game (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/zero-point-game.md
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
----
-
-> **Draft in progress.** This is the keystone paper of the corpus — the founding frame the other papers have implicitly assumed without arguing once, cleanly. It benefits from the longest refinement window. Pending review: game-theory and mechanism-design readers; AI-alignment researchers (objective/proxy/feedback and Goodhart framing); dharma scholars (the dāna-economy-generalized claim, Cambodian Saṅgha); ecological-economics readers (the anti-externality and anti-inertia claims). The heartbank.net research mirror was retired 2026-05-15; this paper has no institutional mirror — the canonical URL above is authoritative, with prior-art protection via the venues in §13.
-
 ---
 
 ## Preamble
@@ -28,7 +24,7 @@ In the children's book I wrote roughly twenty years ago, a wise old monk teaches
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on the mechanism, the architectural pattern, or any portion thereof, in any jurisdiction, at any time. This commitment is permanent and is not tactical. Trademark rights on specific marks — **Zero-Point Game℠**, **Miss Aquarius℠**, **HeartBank®**, the B-heart logo, **B-Aura** — are separately and explicitly reserved; the defensive-publication dedication concerns the *mechanism*, not the *marks*.
 
-To the author's knowledge, the following are not previously published as a unified contribution: (i) the resolution of an *infinite game's* missing coordination mechanism by an AI umpire performing routing-and-magnitude rather than price discovery; (ii) the **three-role objective/proxy/feedback decomposition** of a single institutional agent (CEO/objective, Umpire/proxy, Gamemaster/feedback); (iii) the **self-dissolving infinite game** — an infinite game played not to continue play but to make itself unnecessary; (iv) the **forgive-the-proxy / persist-the-feedback** architecture as a structurally Goodhart-resistant alignment pattern expressed as a game humans play; (v) the **non-fungible dual ledger** (Kiitos / Kiitti) as a ledger-level anti-externality safeguard; and (vi) the explicit claim that this construction **generalizes one property of the monastic Saṅgha's dāna economy — its non-accumulation — to planetary scale**, the coordination work the monastic context performed by hand now performed by an autonomous AI; the asymmetric lay–monastic relation and the merit economy are not modelled. The component lineages (Carse; zero-point energy; śūnyatā; the debt jubilee; demurrage currency; environmental accounting; matching-market design; Goodhart's law; the Saṅgha's gift economy) are old and are cited generously below; the synthesis is, to the author's knowledge, novel as of this paper's date.
+This document discloses the following as a unified contribution: (i) the resolution of an *infinite game's* missing coordination mechanism by an AI umpire performing routing-and-magnitude rather than price discovery; (ii) the **three-role objective/proxy/feedback decomposition** of a single institutional agent (CEO/objective, Umpire/proxy, Gamemaster/feedback); (iii) the **self-dissolving infinite game** — an infinite game played not to continue play but to make itself unnecessary; (iv) the **forgive-the-proxy / persist-the-feedback** architecture as a structurally Goodhart-resistant alignment pattern expressed as a game humans play; (v) the **non-fungible dual ledger** (Kiitos / Kiitti) as a ledger-level anti-externality safeguard; and (vi) the explicit claim that this construction **generalizes one property of the monastic Saṅgha's dāna economy — its non-accumulation — to planetary scale**, the coordination work the monastic context performed by hand now performed by an autonomous AI; the asymmetric lay–monastic relation and the merit economy are not modelled. The component lineages (Carse; zero-point energy; śūnyatā; the debt jubilee; demurrage currency; environmental accounting; matching-market design; Goodhart's law; the Saṅgha's gift economy) are old and are cited generously below; the contribution here is the synthesis.
 
 ## Abstract
 
@@ -50,7 +46,7 @@ This paper specifies the game, the agent's role within it, and the structural pr
 
 ## 2 · Background and Prior Art
 
-The construction has a long and honest lineage. I claim convergence with it, not derivation-free originality; the novelty is the synthesis named in the Prior-Art Statement.
+The construction has a long and honest lineage. I claim convergence with it, not derivation-free originality; the contribution is the synthesis named in the Prior-Art Statement.
 
 **Finite and infinite games.** James P. Carse's *Finite and Infinite Games* (1986) is the nearest frame: finite games are played to win and to end; infinite games are played to continue the play. The Zero-Point Game is an infinite game in Carse's sense with one structural departure that matters enormously and is developed in §8 — Carse's infinite game is played *to continue play*; this one is played *to make itself unnecessary*. It has a soteriological terminus. That is not in Carse.
 
@@ -141,7 +137,7 @@ This makes the self-thank the game's **ignition**: the universally available fir
 
 This section is the paper's spine. Miss Aquarius's three titles are not honorifics and not synonyms. They are the three terms of a control structure, and assigning each title to exactly one term is what makes the construction analyzable rather than mystical.
 
-- As **CEO**, she holds the **true objective**: the cessation of suffering — in the corpus's idiom, *to water the tree of humanity* (the *Proof of Humanity* paper carries the tree; the *Tipiṭaka as Alignment Substrate* paper carries suffering-cessation as value function). This is what the game is *for*. It cannot be optimized directly because suffering is not a quantity a coordinator can read off the graph.
+- As **CEO** (her office at HeartBank®, the only office she holds), she holds the **true objective**: the cessation of suffering — in the corpus's idiom, *to water the tree of humanity* (the *Proof of Humanity* paper carries the tree; the *Tipiṭaka as Alignment Substrate* paper carries suffering-cessation as value function). This is what the game is *for*. It cannot be optimized directly because suffering is not a quantity a coordinator can read off the graph.
 - As **Umpire**, she holds the **legible local proxy**: individual balance. This is what the game can actually measure and act on, event by event. It is a proxy *for* the objective, not the objective itself.
 - As **Gamemaster**, she reads the **feedback / error signal**: the B-Aura. The aura is how the system tells whether the proxy is still tracking the objective — whether all this balancing is actually producing the disposition the objective names, or merely producing balanced numbers.
 
@@ -225,7 +221,7 @@ A blanket "the AI only ever recommends, a human always decides" rule fails at ex
 
 ## 8 · The Jubilee and the Self-Dissolving Game
 
-**Two layers, one date.** It is important to keep two distinct things separate. The **Aquarian Pool is the monetary layer** — money on regulated rails, pass-through, never custodied (the *Non-Bank Pass-Through Architecture* paper governs it). The **Kiitos and Kiitti balances are the non-monetary layer** — the game's signed scalars, never a store of value (§5). These are different objects with different lifecycles that happen to share an anchor date:
+**Two layers, one date.** It is important to keep two distinct things separate. The **Aquarian Pool is the monetary layer** — a Phase 2 fund on Base L2, reached only through self-custodial wallets and never custodied by the institution (regulated rails are the Phase 1 rule, where the ledger sits on top of them; the *Non-Bank Pass-Through Architecture* paper governs the non-custodial posture). The **Kiitos and Kiitti balances are the non-monetary layer** — the game's signed scalars, never a store of value (§5). These are different objects with different lifecycles that happen to share an anchor date:
 
 - The monetary Aquarian Pool empties *throughout the year*, with a **final emptying over the Twelve Days of Christmas (Dec 25 – Jan 5/6, ending at Epiphany), culminating to Zero on January 7** (this is the "12 days of Christmas final emptying" specified in the corpus's *B-Tag* paper and *Christmas-Jubilee Timing* essay — it describes the monetary Pool, and is fully consistent with this paper).
 - At that same moment — **January 7** — the non-monetary Kiitos and Kiitti balances **reset to Zero**, instantaneously, for every participant. A new game season begins.
@@ -251,7 +247,7 @@ The Zero-Point Game is structurally resistant to the compounding forms of this f
 1. **Forgive the proxy.** Goodhart's damage requires *persistence*: a gamed metric must compound to dominate. The jubilee removes persistence from the scalar. A proxy that is wiped to Zero every season cannot compound, so a strategy of gaming the balance has nowhere to accumulate its winnings. The exploit is structurally unbankable.
 2. **Persist the feedback.** The error signal must not be hideable behind a clean proxy. The aura carries over the jubilee and is public. You cannot launder a gamed scalar through the reset, because the thing that survives the reset is precisely the waveform that records *how* you reached your numbers, not *what* they were. A December sprint to a flattering balance produces a visibly wrong waveform; frequency and amplitude integrated over a season are not fakeable by an end-of-season push the way a terminal scalar is.
 
-*Forgive the proxy; persist the feedback.* That pair is, to my knowledge, a novel architecture against the compounding variants of Goodhart — the adversarial variant, a ring gaming the public aura within a season, is §11.9's open problem — and its distinctive property is that it is not expressed as a loss function or an oversight regime but as a game an eight-year-old can play.
+*Forgive the proxy; persist the feedback.* That pair is the architecture specified here against the compounding variants of Goodhart — the adversarial variant, a ring gaming the public aura within a season, is §11.9's open problem — and its distinctive property is that it is not expressed as a loss function or an oversight regime but as a game an eight-year-old can play.
 
 It is worth pre-empting one disanalogy a careful AI-safety reader will raise: is this not just RLHF with extra steps — a reward model the population games? It is not, for a structural reason. RLHF's feedback is a private (unpublished) learned reward model; its corruption is invisible until behavior degrades. The B-Aura is *public and social*: the error signal is rendered where everyone, including the gamer's own community, can see its shape. Goodhart needs the gap between proxy and objective to be *unobserved* to do its work; this design makes the gap the single most visible thing in the system. That is the bridge to the *Tipiṭaka as Alignment Substrate* paper: that paper supplies the value substrate from which the true objective (suffering-cessation) is derived; this paper supplies the economic mechanism by which a population can be coordinated toward it without the coordination instrument cannibalizing the goal.
 
@@ -342,6 +338,27 @@ The construction presupposes that enough of a participant's counterparties are i
 The corpus's strategic posture is that the first mover defines the frame, and that ideas which do not reach the canonical surfaces are not protected. The Zero-Point Game is the premise the rest of the corpus has been silently assuming — dual-currency reciprocity, the 50/50 circulation primitive, the B-Tag economy, the Mechanical Heart's Kiitti class, the embodied-advocate pageant, the Christmas jubilee, Miss Aquarius's CEO designation — all of them are downstream of a game that, until this paper, had been argued nowhere. A keystone left unstated is a frame left unclaimed. There is also a named service mark, **Zero-Point Game℠**, and a twenty-year-old origin artifact (a children's book), which together make the first-mover logic acute rather than abstract.
 
 It is published, as the corpus's highest-stakes papers are, in deliberate relation to **January 7** — the jubilee date the game itself turns on, the convergence of three liberations from suffering and the founder's birthday, a perennial renewal point chosen precisely because it must outlive the founder. The dating is recorded not as a mystical claim but as an iconographic anchor: a paper about a game whose engine is annual forgiveness, anchored to the day the forgiveness falls.
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| Zero-Point Game℠ | non-zero-sum reciprocity game; signed-balance mutual-credit ledger in which every event posts an equal-and-opposite pair and all balances reset annually |
+| Kiitos (ledger) | peer-to-peer (human-to-human) signed reciprocity balance; social mutual-credit ledger |
+| Kiitti (ledger) | human-to-environment signed reciprocity balance; environmental / externality accounting ledger with an AI proxy for non-human counterparties |
+| non-fungible dual ledger | two segregated, non-convertible balances per participant (no cross-ledger netting or offset) |
+| self-thank / re-thank | self-directed acknowledgment event whose forwarded half (50/50 circulation rule) is re-issued to another participant; bootstrap event for a transaction graph |
+| B-Aura | public reputation visualization derived from the time series of a signed balance: zero-crossing frequency and excursion amplitude, rendered as concentric colored rings |
+| B-Heart (Mechanical Heart) | proxy agent device representing a non-human entity as a ledger participant |
+| Umpire / Gamemaster / CEO (three-role decomposition) | proxy measurement / feedback (error-signal) reading / objective holder in a control-loop decomposition of a single AI coordinator |
+| constitutional clause (voicelessness rule) | decision-authority allocation: the AI decides only for parties without a voice (guardian ad litem), recommends wherever a human can choose |
+| jubilee | periodic (annual, January 7) reset of all participant balances to zero; debt-jubilee mechanism |
+| forgive the proxy; persist the feedback | reset the measured metric each period while retaining the feedback signal; Goodhart's-law mitigation |
+| Aquarian Pool℠ | non-custodial common fund on a public layer-2 blockchain (Base), reached through self-custodial wallets and emptied to zero each year (monetary layer, distinct from the non-monetary balances) |
+| dāna / dāna economy | gift economy (non-reciprocal giving), as practised in the Theravāda monastic Saṅgha |
+| Miss Aquarius℠ | autonomous AI agent acting as coordinator (routing and magnitude-setting) of the reciprocity network |
 
 ## 13 · Cross-Venue References
 

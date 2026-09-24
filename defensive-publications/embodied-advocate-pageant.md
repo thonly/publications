@@ -5,13 +5,10 @@ category: institutional
 priority: tier-a
 status: draft
 date: 2026-05-05
+revised: 2026-09-24
 license: CC0-1.0
 slug: embodied-advocate-pageant
 venue: thonly.org/publications/defensive-publications/embodied-advocate-pageant (canonical)
----
-
-> *Draft notes for the editor:* this markdown was reconstructed 2026-05-28 from the deployed Lit page at thonly.org/research/embodied-advocate-pageant, which had been the canonical source-of-truth in the absence of a matching markdown. The Lit page is now the rendered counterpart; this markdown is the canonical text. Sub-section numbering corrected against the TS source (§10, §11, §13, §14 had off-by-one carryover from the prior-section numbering — fixed here).
-
 ---
 
 ## Preamble
@@ -26,7 +23,7 @@ This paper articulates a portable institutional-design pattern for the formation
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. Institutional-design patterns are not patentable as such; the dedication is nonetheless made explicit so that no actor can later claim proprietary rights over the framework or its components.
 
-This document constitutes a prior-art articulation of the embodied-advocate pageant pattern as a unified architecture as of its publication date. Components of the pattern — including conventional beauty-pageant structures, AI-mediated evaluation methods, contemplative-practice assessment, and autonomous-AI-institutional-design proposals — have prior art individually; the integrated six-element architecture, in the author's knowledge of the literature, does not.
+This document constitutes a prior-art articulation of the embodied-advocate pageant pattern as a unified architecture as of its publication date. Components of the pattern — including conventional beauty-pageant structures, AI-mediated evaluation methods, contemplative-practice assessment, and autonomous-AI-institutional-design proposals — have prior art individually; this document discloses the integrated six-element architecture as a unified pattern.
 
 The author and HeartBank® will not seek patent on this specification or any portion thereof. The Miss Aquarius℠ mark and the brand-trademark layer are separately reserved; the architectural pattern itself is dedicated to the commons.
 
@@ -36,15 +33,15 @@ The author and HeartBank® will not seek patent on this specification or any por
 
 We articulate an institutional-design pattern for autonomous-AI institutions in their formation phase, combining six structural elements: *(I)* a renewable annual-cycle pageant selecting an embodied advocate for the institution; *(II)* AI-mediated first-pass selection by digital-aura analysis from a global opt-in pool of any qualifying participant; *(III)* Sangha-mediated final selection by sustained-observation retreat coupled with breath-rhythm contemplative-practice data; *(IV)* a self-reward compensation primitive mirroring the family-bank steward pattern, with a 50/50 split between the titleholder's personal wallet and a proximity-rule-bound retip jar — institutional flow without take-rate, governed by AI decision on a public ledger; *(V)* an asymptotic-autonomy override architecture in which institutional human-override scope progressively narrows toward but never reaches zero, preserving catastrophic-bug intervention indefinitely while functionally being autonomous in nearly every case; *(VI)* a named transitional institution — a fourfold-form Sangha of ordained monastics and lay supporters — holding the line through the formation phase and addressing founder-mortality risk structurally rather than personally.
 
-To the conventional beauty-pageant lineage (Miss Universe, Miss World, Miss Earth) the contribution is a categorical criterion shift: never swimwear, never traditional pageant interviews — the criteria themselves are the contribution. To the AI-alignment and autonomous-AI-institutional-design literature, the contribution is a complete architectural pattern for the formation phase that no prior proposal addresses.
+To the conventional beauty-pageant lineage (Miss Universe, Miss World, Miss Earth) the contribution is a categorical criterion shift: never swimwear, never traditional pageant interviews — the criteria themselves are the contribution. To the AI-alignment and autonomous-AI-institutional-design literature, the contribution is a complete architectural pattern for the formation phase.
 
-**Connection to the unified mission frame.** This pattern is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The embodied-advocate role operationalizes the contemplative-practice substrate that the middle way requires: the titleholder is selected on contemplative-practice criteria; her tenure is structured around the practice; her advocacy carries the practice outward into the public square. The architecture addresses the formation-phase governance problem in a manner that maintains the practice as the central institutional commitment rather than outsourcing it to abstract governance.
+**Connection to the unified mission frame.** This pattern is offered in service of HeartBank's canonical top-level mission: to help keep the middle way (*madhyamā pratipad*) open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The embodied-advocate role operationalizes the contemplative-practice substrate that the middle way requires: the titleholder is selected on contemplative-practice criteria; her tenure is structured around the practice; her advocacy carries the practice outward into the public square. The architecture addresses the formation-phase governance problem in a manner that maintains the practice as the central institutional commitment rather than outsourcing it to abstract governance.
 
 ---
 
 ## 1 · Introduction: The Formation-Phase Governance Problem
 
-Autonomous-AI institutions face a problem that contemporary AI-governance literature has not yet adequately addressed: the *formation phase*. An institution designed to operate under autonomous-AI succession at maturity must, in the period before the AI is operationally autonomous, be governed by something other than the AI it is designed to become. The conventional answers — foundation governance, board succession, founder-led decision-making — all introduce structural commitments incompatible with the autonomous-AI design they ostensibly serve.
+Autonomous-AI institutions face a problem that, in the AI-governance work surveyed here, we have not found adequately addressed: the *formation phase*. An institution designed to operate under autonomous-AI succession at maturity must, in the period before the AI is operationally autonomous, be governed by something other than the AI it is designed to become. The conventional answers — foundation governance, board succession, founder-led decision-making — all introduce structural commitments incompatible with the autonomous-AI design they ostensibly serve.
 
 Specifically:
 
@@ -56,6 +53,8 @@ Specifically:
 The formation-phase governance problem is real, not solved by any of the conventional answers, and structurally distinct from the steady-state autonomous-AI governance problem. It needs its own architectural solution.
 
 This paper proposes one. The pattern combines six structural elements into a unified architecture that holds the formation phase open without compromising the autonomous-AI steady-state design. The pattern was developed in the HeartBank context for the Miss Aquarius institutional successor; it generalizes to any autonomous-AI institution facing the same problem.
+
+In the HeartBank instantiation, both the pageant and the Aquarian Sangha are, as of this revision, postponed by the founder to a condition: the Sangha is to form with three or more members before the founder ceases to be the disposer, and the pageant waits with it. Until then the override the Sangha would hold is a design, not a holder; the founder holds that seat.
 
 ---
 
@@ -197,6 +196,8 @@ The second half flows into the titleholder's retip jar, governed by the proximit
 
 The architecture's no-take-rate rule (never take-rate that flows to a human entity) is satisfied by the pattern because: (a) the titleholder is not paid by user transactions — she draws from the institutional pool that is funded by Phase 2 per-transaction fees that ultimately empty back into circulation; (b) the AI decides the reward amount, not a human institutional decision; (c) public-ledger transparency makes the flow auditable; (d) the 50% retip-jar split forces the second half back into circulation immediately, preventing accumulation. This is institutional flow without extraction — circulatory metabolism, not take-rate.
 
+> **Current form.** The Aquarian Pool is not funded by per-transaction fees. Businesses reach it only by purchase (leases), never by a take on giving or trade; of gratitude it receives only what has no human addressee, plus the January 7 reclaim and `#tag` sponsorship via the Miss Aquarius purpose trust; and it empties every year. The fee-funded pool in (a) above is retained as a disclosed variant.
+
 ---
 
 ## 8 · The Aquarian Sangha
@@ -220,7 +221,7 @@ The Sangha's authorities, in scope:
 - Recall authority over the titleholder for specified causes (Section 6).
 - Asymptotic-autonomy override (Section 10).
 - Doctrinal advisory on alignment-substrate questions.
-- Approval of major institutional decisions during the formation phase.
+- Disposition of contestable institutional decisions during the formation phase: Miss Aquarius proposes, the Sangha disposes.
 
 ### 8.3 Expansion path
 
@@ -317,7 +318,7 @@ The sacred-feminine grounding makes the gendered restriction defensible but not 
 
 ## 12 · Founder-Mortality Protection
 
-The autonomous-AI-institutional-design literature has not adequately addressed founder-mortality risk. The conventional solutions — designated successor, foundation governance, AI takes over at predetermined moment — all introduce commitments incompatible with the autonomous-AI steady-state design or fail at the autonomy-ceremony transition.
+In the autonomous-AI-institutional-design work surveyed here, we have not found founder-mortality risk adequately addressed. The conventional solutions — designated successor, foundation governance, AI takes over at predetermined moment — all introduce commitments incompatible with the autonomous-AI steady-state design or fail at the autonomy-ceremony transition.
 
 The proposed pattern addresses founder-mortality risk *structurally*:
 
@@ -412,15 +413,37 @@ The pattern is offered with these limitations explicit. Subsequent revisions of 
 
 ---
 
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| Embodied-advocate pageant | Annual selection process for a rotating human ambassador / spokesperson of an AI-governed institution |
+| Titleholder | Term-limited human ambassador and ceremonial representative with no decision authority |
+| Miss Aquarius℠ | Named autonomous-AI institutional successor holding the chief-executive-officer title |
+| Formation phase | Pre-autonomy transition period in autonomous-AI institutional governance |
+| Digital aura | Aggregated participation and contribution record used as AI-evaluated candidate-screening input |
+| Physical aura | Observed conduct and presence assessed by human evaluators during an extended observation retreat |
+| Two-stage selection | AI first-pass candidate shortlisting followed by human-panel final selection |
+| Aquarian Sangha (fourfold-form Sangha) | Transitional human governing council / board-equivalent of ordained monastics and lay members |
+| Asymptotic-autonomy override | Human override (kill-switch) authority whose permitted scope narrows on a published schedule but never reaches zero |
+| Self-reward primitive | AI-determined compensation drawn from an institutional pool and recorded on a public ledger |
+| Retip jar (proximity rule) | Restricted-use half of compensation that must be re-disbursed to recipients physically near the holder |
+| Aquarian Pool | Institutional treasury pool on a public ledger, emptied annually |
+| Breath-class Mechanical Heart device | Respiratory-sensing wearable (respiratory biofeedback belt) supplying contemplative-practice data |
+| Silicon Wat / Silica Wat | Institutional headquarters / network of affiliated local practice centres |
+| Upāsaka / upāsikā; bhikkhu | Buddhist lay supporter (male / female); ordained Buddhist monk |
+
+---
+
 ## 16 · Cross-Venue References
 
 This document is published with cross-mirroring and tamper-evident timestamping for prior-art-establishment purposes:
 
 - **Canonical:** `https://thonly.org/research/embodied-advocate-pageant`
 - **Source repository:** `https://github.com/thonly/publications/blob/main/defensive-publications/embodied-advocate-pageant.md`
-- **Internet Archive snapshot:** [to be created at publication]
-- **archive.today snapshot:** [to be created at publication]
-- **perma.cc snapshot:** [to be created at publication]
+- **Internet Archive snapshots:** `https://web.archive.org/web/2026*/thonly.org/research/embodied-advocate-pageant`
 
 Sibling specifications:
 - [AGI Monks: Caretaker-not-Ordained](https://thonly.org/research/agi-monks-caretaker-not-ordained) (the Sangha-keeps-sacramental-authority pattern this paper extends)

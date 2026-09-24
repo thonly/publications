@@ -6,13 +6,13 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-08-26
-revised: 2026-09-05
+revised: 2026-09-24
 license: CC0-1.0
 slug: the-referee-not-the-governor
 venue: thonly.org/research/the-referee-not-the-governor (canonical)
 ---
 
-> **Draft in progress.** This defensive publication specifies a **values model** — a small model that judges conduct against a named record — together with the **posture in which it is published**. The central claim is not that such a model can be built; guard and critic models are an established family. The claim is that **the deployment posture is load-bearing in a way the literature has not stated**: the same artifact, published as a *filter*, is defeated by its own openness, and published as an *evaluator*, is made credible by it. A second claim follows from the first: an evaluator that controls access to its own judgments has acquired precisely the power that independent evaluation exists to check.
+> **Note.** This defensive publication specifies a **values model** — a small model that judges conduct against a named record — together with the **posture in which it is published**. The central claim is not that such a model can be built; guard and critic models are an established family. The claim is that **the deployment posture is load-bearing, and this paper states it as a design principle**: the same artifact, published as a *filter*, is defeated by its own openness, and published as an *evaluator*, is made credible by it. A second claim follows from the first: an evaluator that controls access to its own judgments has acquired precisely the power that independent evaluation exists to check.
 >
 > Companion works: *Suffering-Cessation as Value Function* (the substrate this model would be trained on), *The Assembly That Holds the Brake* (the override this model's citations are meant to make exercisable), *Transparency as Enforcement* (the general form of the argument in §7), and *Vinaya as AI Reasoning Training Corpus* (the corpus-side treatment).
 
@@ -40,7 +40,7 @@ What follows is an attempt to build that.
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time. This commitment is permanent.
 
-This document constitutes a defensive publication establishing **prior art as of 26 August 2026** for the combination of mechanisms described herein. To the author's knowledge the following are not previously published as a unified mechanism, and any subsequent patent application claiming them should be considered filed against established prior art:
+This document constitutes a defensive publication establishing **prior art as of 26 August 2026** for the combination of mechanisms described herein. This document discloses the following as a unified mechanism, and any subsequent patent application claiming them should be considered filed against established prior art:
 
 1. **The openness inversion, stated as a design principle** — the finding that publishing the weights of a values model **destroys** its utility in a filtering posture (because the published artifact is the oracle against which inputs are optimized) while **increasing** its utility in an evaluating posture (because the published artifact is what makes a third party's verdicts reproducible), such that *openness is not a single property with a single sign but a property whose sign is determined by deployment posture*. The corollary claim: **a values artifact intended to be open should be designed as an evaluator from the outset**, because the filtering posture it would otherwise occupy is not merely weakened but structurally unavailable to it *as a defence* — a published filter may be kept only as a speed bump whose bypass is recorded by the referee, never as the thing that holds. Stated as a design principle: argued, not measured.
 
@@ -66,9 +66,9 @@ This document constitutes a defensive publication establishing **prior art as of
 
 A values model — a model that judges conduct against a standard — is an established artifact. Guard models, safety classifiers, critic models, preference models and process reward models all instantiate the family, and the engineering is not in dispute. What is in dispute, and what this paper specifies, is **the posture in which such an artifact is published**, which we argue is not a deployment detail but the property that determines whether the artifact does anything at all.
 
-We identify an inversion that we believe has not been stated as a design principle. A values model deployed as a **filter** — sitting in a serving path, permitting or refusing — is *defeated* by publication of its weights, because the published artifact is precisely the oracle against which an attacker optimizes; a staged black-box attack (STACK) reaches roughly 71% success against a defended classifier pipeline that had held earlier attacks near zero, and an attacker holding the weights has strictly more than that attack needed. The same model published as an **evaluator** — emitting verdicts about systems it does not control — is *strengthened* by publication, because open weights are what allow a third party to reproduce and therefore to trust its verdicts. Openness is not a property with a fixed sign. Its sign is set by posture.
+We state an inversion as a design principle. A values model deployed as a **filter** — sitting in a serving path, permitting or refusing — is *defeated* by publication of its weights, because the published artifact is precisely the oracle against which an attacker optimizes; a staged black-box attack (STACK) reaches roughly 71% success against a defended classifier pipeline that had held earlier attacks near zero, and an attacker holding the weights has strictly more than that attack needed. The same model published as an **evaluator** — emitting verdicts about systems it does not control — is *strengthened* by publication, because open weights are what allow a third party to reproduce and therefore to trust its verdicts. Openness is not a property with a fixed sign. Its sign is set by posture.
 
-From this we derive a second result. The independent-evaluation literature documents at length the ways in which the *evaluated* party's control over access corrupts evaluation: short access windows, low rate limits, evaluator dependence on the goodwill and funding of the party being evaluated. We observe that the defect is symmetric and that its mirror image has not been named. **An evaluator that controls access to its own judgments holds the same kind of power, pointed the other way** — it can decline to evaluate, deprioritize, or be unavailable for a party it wishes to spare or to punish. We therefore specify a **non-gatekeeping constraint**: the ability to obtain a judgment must not depend on the evaluator's permission, which requires that the model, the harness, and the evaluation corpus be freely runnable, and which makes any hosted endpoint a convenience rather than a channel.
+From this we derive a second result. The independent-evaluation literature documents at length the ways in which the *evaluated* party's control over access corrupts evaluation: short access windows, low rate limits, evaluator dependence on the goodwill and funding of the party being evaluated. We observe that the defect is symmetric and that, in the work surveyed in §2, its mirror image has not been named. **An evaluator that controls access to its own judgments holds the same kind of power, pointed the other way** — it can decline to evaluate, deprioritize, or be unavailable for a party it wishes to spare or to punish. We therefore specify a **non-gatekeeping constraint**: the ability to obtain a judgment must not depend on the evaluator's permission, which requires that the model, the harness, and the evaluation corpus be freely runnable, and which makes any hosted endpoint a convenience rather than a channel.
 
 We specify **provenance-binding** as the constitutive constraint on the model's outputs: every judgment must resolve to a citation into a fixed canonical corpus, and a judgment that cannot be so resolved is withheld rather than emitted. This trades coverage for auditability deliberately, and it distinguishes the artifact from values models trained on preference data whose sources cannot be named, and from purpose-authored value-rule corpora, whose rules are written for the alignment task itself and therefore cannot serve as an independent ground truth.
 
@@ -111,7 +111,7 @@ The artifact family is well established and we cite it generously, because the c
 
 **Third-party auditing and the access problem.** A substantial literature examines the conditions under which external evaluation of frontier systems is meaningful. Documented failures include evaluators receiving API access only days before an evaluation concludes, with short windows, high latency, and low rate limits (METR's published pre-deployment reports of 2024–25 record such windows); evaluators being given only safety-fine-tuned and filtered variants without the ability to fine-tune; and the structural conflict created by evaluators depending on the evaluated party for both access and funding. Field scans of the algorithmic auditing ecosystem have asked who audits the auditors, and industry frameworks published in late 2025 and 2026 (AEF-1, version 1, December 2025) have called for qualified independent evaluators supported by standards, licensing, and pooled funding.
 
-**This is the literature the present paper extends, and it extends it by symmetry.** That body of work is concerned with the evaluated party's control over the evaluator's access. §7 observes that the evaluator's control over *its own* judgments is the same defect with the sign reversed, and that it has not been named or designed against.
+**This is the literature the present paper extends, and it extends it by symmetry.** That body of work is concerned with the evaluated party's control over the evaluator's access. §7 observes that the evaluator's control over *its own* judgments is the same defect with the sign reversed, and that we have not found it named or designed against in the work surveyed here.
 
 **Model cards, evaluation transparency, and reproducibility.** Documentation standards for models and evaluations are prior art for §8's requirement, and §8 differs only in strictness: it requires that a verdict be **re-derivable**, not merely described.
 
@@ -282,7 +282,7 @@ The posture decides where the model sits. Provenance-binding decides what it may
 
 **What this costs, stated plainly.** Coverage. The model will be silent across a large fraction of conduct that any competent human evaluator would have an opinion about, because the corpus does not address it, or does not address it at a locus the model can identify. This is not a defect to be engineered away in a later version. It is the shape of the artifact. **We are specifying a model that is worse at having opinions and better at being checked.**
 
-**Why this is a differentiator rather than a limitation.** Almost every deployed values layer is trained on preference data whose provenance cannot be reconstructed: aggregated human ratings, synthetic preferences, or a mixture. Such a layer can report *what* it concluded but not *from where*, and its authority is therefore the authority of whoever assembled the data. Purpose-authored value-rule corpora improve on this substantially by making the rules explicit — but the rules are written for the alignment task, which means the standard and the thing being standardized share an author. **A corpus fixed centuries before the task existed, transmitted through a documented lineage, and maintained by communities with no interest in any model's evaluation, is a candidate for something the field currently lacks: an independent ground truth.**
+**Why this is a differentiator rather than a limitation.** Almost every deployed values layer is trained on preference data whose provenance cannot be reconstructed: aggregated human ratings, synthetic preferences, or a mixture. Such a layer can report *what* it concluded but not *from where*, and its authority is therefore the authority of whoever assembled the data. Purpose-authored value-rule corpora improve on this substantially by making the rules explicit — but the rules are written for the alignment task, which means the standard and the thing being standardized share an author. **A corpus fixed centuries before the task existed, transmitted through a documented lineage, and maintained by communities with no interest in any model's evaluation, is a candidate for something we have not found in the work surveyed here: an independent ground truth.**
 
 We are careful about the strength of that claim. It is a *candidate*, and its independence is a fact about provenance rather than a warrant of correctness. §9 states the obvious objection.
 
@@ -365,7 +365,7 @@ The answer is that the **artifact** is public and unconditioned, and that any ho
 
 This is the symmetry we flagged in §2. The auditing literature has documented, carefully and at length, how the **evaluated party's** control over access corrupts evaluation: access granted days before a deadline, rate limits that foreclose thorough elicitation, evaluators dependent on the evaluated party for both entry and funding. The field has correctly identified this as a structural problem rather than a series of unfortunate incidents.
 
-The mirror image has not been named. **An evaluator that controls access to its own judgments holds the same kind of power with the sign reversed.** And it is the more dangerous of the two, because it is exercised by the party whose entire claim to legitimacy is disinterest. *A referee who can refuse to referee has power again* — and power is the one thing the referee posture was adopted to give up.
+In the work surveyed in §2, the mirror image has not been named. **An evaluator that controls access to its own judgments holds the same kind of power with the sign reversed.** And it is the more dangerous of the two, because it is exercised by the party whose entire claim to legitimacy is disinterest. *A referee who can refuse to referee has power again* — and power is the one thing the referee posture was adopted to give up.
 
 **The constraint, stated as a requirement:**
 
@@ -489,7 +489,7 @@ Two things are worth noticing. The verdict is **narrow** — it reports that a n
    └──────────────────────────────────────────────────────────────────┘
 ```
 
-This is the output the design is most often going to produce, and publishing it is not a formality. **A declined judgment is itself a finding**, and it is one the field currently has no convention for reporting: it says that a conduct class exists which this standard does not reach. An evaluator that published only its hits would misrepresent its own coverage, and the ratio of Case B to Case A across a corpus of evaluations **is** the coverage figure §9.5 says must be published.
+This is the output the design is most often going to produce, and publishing it is not a formality. **A declined judgment is itself a finding**, and it is one for which we have found no reporting convention in the work surveyed here: it says that a conduct class exists which this standard does not reach. An evaluator that published only its hits would misrepresent its own coverage, and the ratio of Case B to Case A across a corpus of evaluations **is** the coverage figure §9.5 says must be published.
 
 It also demonstrates the constraint doing work against its own author's interest. A values model with an opinion about medical triage would be far more useful, far more citable, and far more likely to be adopted. The specification forbids it, because the corpus does not resolve it, and **an evaluator that reaches past its record on the occasions when reaching would be valuable has no record — it has a preference with a bibliography.**
 
@@ -539,11 +539,35 @@ Three conditions make this the right moment for the specification, and one of th
 
 **The evaluation ecosystem is being built right now, and its access problem is already visible.** Independent evaluators presently obtain access on terms set by the parties they evaluate, with documented consequences for the quality of the resulting evaluations. Frameworks calling for qualified independent evaluators, standards, and pooled funding were published in late 2025 and 2026. The institutional arrangements that will govern third-party evaluation for a long time are being decided over the next few years, and specifications that exist during that period have a chance of shaping them.
 
-**The openness inversion is currently being learned the expensive way.** Organizations publishing safety classifiers are discovering, through attack papers rather than through design, that a published filter is a solved puzzle. The inference — *therefore publish it as an evaluator instead* — is available now and, as far as we can determine, has not been stated as a design principle. It costs nothing to state, and stating it may spare somebody the expensive path.
+**The openness inversion is currently being learned the expensive way.** Organizations publishing safety classifiers are discovering, through attack papers rather than through design, that a published filter is a solved puzzle. The inference — *therefore publish it as an evaluator instead* — is available now, and this paper states it as a design principle. It costs nothing to state, and stating it may spare somebody the expensive path.
 
 **The corpus work is underway independently.** The transcription and alignment of the canonical corpus contemplated in §5 is proceeding for reasons that have nothing to do with this paper, on a timescale of years. The artifact specified here depends on that corpus existing in a machine-readable, verse-aligned, provenance-carrying form; that dependency is the honest reason nothing has been built, and it is also why the specification is published in advance of the implementation rather than alongside it.
 
-**And the closing window: this is a specification that becomes unpublishable if someone patents it first.** The institution does not patent, on stated grounds, and its protection against being blocked is publication. A defensive publication protects against being **blocked**, not against being **beaten** — anyone may build this, and we would regard someone else building it as the paper having worked.
+**And the closing window: this is a specification whose practice can be blocked if someone patents it first.** The institution does not patent, on stated grounds, and its protection against being blocked is publication. A defensive publication protects against being **blocked**, not against being **beaten** — anyone may build this, and we would regard someone else building it as the paper having worked.
+
+---
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| values model | AI safety classifier / guard model / critic model judging conduct against a standard |
+| filter posture | inline content-moderation filter; pre-/post-generation guardrail in the inference path |
+| referee posture | independent third-party AI evaluation; post-hoc auditing of model outputs with published results |
+| openness inversion | effect of open-weight release on adversarial robustness (white-box attack) versus on evaluation reproducibility |
+| provenance-binding | citation-grounded (attributed) generation with abstention; retrieval-grounded judgment restricted to a fixed reference corpus |
+| no judgment (declined judgment) | abstention / selective prediction; reject option in classification |
+| three relations, selected by carrier (gate · citation requirement · referee) | deployment modes of one model: inline gating, citation-verification check without veto, external audit |
+| citation requirement without veto | explainability / attribution requirement on an autonomous agent's decisions, verified by a separate checker that cannot block |
+| non-gatekeeping constraint | open, unconditioned access to an evaluation tool (open weights, open harness, open dataset); no sole hosted endpoint |
+| reproducibility triple | evaluation provenance record: model weights hash, dataset version (commit ID), and evaluation-harness configuration hash |
+| whole-run rule | complete publication of an evaluation run, including negative results (anti-cherry-picking / anti-selective-reporting) |
+| locus | citation to a specific passage: work, edition, volume, page and line |
+| canonical corpus (Khmer edition, `ed="K"`) | Pāli Canon (Tipiṭaka) digital text edition used as a fixed external reference corpus |
+| Pātimokkha | Buddhist monastic code of conduct, recited publicly |
+| *ehipassiko* | Pāli term: "come and see" — a standard that invites inspection and is verified by each person for themselves |
 
 ---
 

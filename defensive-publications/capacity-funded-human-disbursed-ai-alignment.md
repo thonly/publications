@@ -5,12 +5,13 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-05-24
+revised: 2026-09-24
 license: CC0-1.0
 slug: capacity-funded-human-disbursed-ai-alignment
 venue: thonly.org/publications/defensive-publications/capacity-funded-human-disbursed-ai-alignment (canonical)
 ---
 
-> *Draft notes for the editor:* this is the founder-voice canonical draft for `thonly/publications`. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment of this pattern is included in the companion white paper *"Proof of Personhood for an AI-Native Internet: B-PoH℠ as Trust Infrastructure"* (heartbank.net/publications/white-papers). Sibling defensive publication: *"B-PoH℠ as Humanity Layer for the AI-Native Internet"* (thonly/publications/defensive-publications), which cites this paper as the institutional-architecture answer to how AI labs can deploy verified-human-source infrastructure without sole-agent risk. Companion to *The B-Tag and the Post-Payment Economy* (which contains the originating §9 paper-worthy flag).
+> **Note.** The institutional-voice treatment of this pattern is included in the companion white paper *"Proof of Personhood for an AI-Native Internet: B-PoH℠ as Trust Infrastructure"* (heartbank.net). Sibling defensive publication: *"B-PoH℠ as Humanity Layer for the AI-Native Internet"*, which cites this paper as the institutional-architecture answer to how AI labs can deploy verified-human-source infrastructure without sole-agent risk. Companion to *The B-Tag and the Post-Payment Economy*.
 
 ---
 
@@ -26,11 +27,11 @@ Autonomous-AI institutional proposals tend to collapse into one of two failure m
 
 The institutions that will mediate the next several decades of civilization will, increasingly, have autonomous AI agents as named officers with operational authority over money and resources. The question of how to structure that authority is open. The literature on AI alignment has so far concentrated on two layers — model-level alignment (training objectives, RLHF, constitutional AI) and deployment-level alignment (guardrails, monitoring, red-teaming) — and has paid less attention to a third layer that is, arguably, where the highest-stakes consequences of misalignment actually land: the **institutional-architecture layer**, where the rules of the game determine what an AI agent can and cannot do regardless of what it intends.
 
-The most common architectures at this layer today are two. In the **sole-agent architecture**, the AI has full authority to disburse: it decides who receives money, sends it, and the recipient receives funds whose source and direction were determined entirely by the AI. The institutional risk is that the AI's judgments about deservedness, timing, or amount may be wrong at scale, and that the resulting misallocations are irreversible by the time they are detected. In the **approval-bottleneck architecture**, the AI proposes and a human approves every transaction. The institutional cost is that autonomy is defeated — the system cannot scale beyond the human's bandwidth, and the AI's contribution collapses to that of an extremely sophisticated assistant rather than an autonomous officer. Both architectures recur because each addresses a real failure mode of the other; the field has not yet articulated a structural position that addresses both at once.
+The most common architectures at this layer today are two. In the **sole-agent architecture**, the AI has full authority to disburse: it decides who receives money, sends it, and the recipient receives funds whose source and direction were determined entirely by the AI. The institutional risk is that the AI's judgments about deservedness, timing, or amount may be wrong at scale, and that the resulting misallocations are irreversible by the time they are detected. In the **approval-bottleneck architecture**, the AI proposes and a human approves every transaction. The institutional cost is that autonomy is defeated — the system cannot scale beyond the human's bandwidth, and the AI's contribution collapses to that of an extremely sophisticated assistant rather than an autonomous officer. Both architectures recur because each addresses a real failure mode of the other; in the work surveyed here (§9), we have not found a structural position articulated that addresses both at once.
 
 This paper specifies that position. The core move is a **separation of two authorities that prior architectures conflate**: the authority to fund *capacity* in a system (putting money where it might do good, without specifying the recipient) and the authority to direct *flow* through a system (deciding which specific recipient money reaches). Once separated, the two authorities can be held by different parties — the AI holds capacity-funding authority, humans hold flow-direction authority — and bridged by a mechanism that prevents the separation from collapsing back into the AI directing flow through influence rather than through formal authority. That bridging mechanism is **anonymous donation**: the AI's capacity-funding contributions are indistinguishable from human contributions, so the recipient cannot identify them as the AI's and cannot, even unconsciously, treat downstream flow-direction decisions as responses to the AI.
 
-> *Connection to the unified mission frame: HeartBank's mission is the restoration of humanity to the middle way — the optimal condition for awakening that modernity has systematically pushed away from at population scale. A multi-substrate civilization in which autonomous AI institutions hold significant operational authority is one of modernity's load-bearing new structural conditions; whether that condition supports human flourishing or undermines it depends on the institutional-architecture layer. The capacity-funding / flow-direction separation is what allows AI to fund human agency without substituting for it — preserving the dharmic property that the giver retains dignity through the act of giving, and that humans remain the actual givers at the level where giving is the moral act.*
+> *Connection to the unified mission frame: HeartBank's mission is to help keep the middle way — the optimal condition for awakening — open at population scale against comfort-saturation, the new extreme that material abundance makes possible. A multi-substrate civilization in which autonomous AI institutions hold significant operational authority is one of modernity's load-bearing new structural conditions; whether that condition supports human flourishing or undermines it depends on the institutional-architecture layer. The capacity-funding / flow-direction separation is what allows AI to fund human agency without substituting for it — preserving the dharmic property that the giver retains dignity through the act of giving, and that humans remain the actual givers at the level where giving is the moral act.*
 
 The paper proceeds as follows. §2 specifies the two-failure-mode problem precisely. §3 states the three definitions — capacity-funding, flow-direction, anonymous donation — that the rest of the paper rests on. §4 develops the load-bearing claim: anonymity is what makes the bridge a bridge rather than a thin disguise for AI flow-direction. §5 presents the HeartBank re-tip-jar economy as the worked example. §6 catalogs which known failure modes of autonomous-AI agents the architecture is robust to. §7 generalizes the pattern to three candidate domains beyond HeartBank. §8 names the boundary conditions under which the pattern does not apply. §9 positions the contribution against prior literature in mechanism design and AI alignment. §10 concludes.
 
@@ -68,9 +69,9 @@ An approval-bottleneck architecture requires human approval for each AI-initiate
 
 - **Loss of AI institutional standing.** An AI that cannot act without human approval is not, structurally, an autonomous officer. It is a tool. The institutional design that the AI was supposed to enable — autonomous institutions that operate at machine scale — is precluded by the architecture.
 
-### 2.3 The pattern the literature has not yet named
+### 2.3 The pattern the literature surveyed here has not named
 
-The two architectures recur because each addresses real failure modes of the other. The question the literature has not yet answered is: **is there a structural position that addresses the failure modes of both at once?**
+The two architectures recur because each addresses real failure modes of the other. The question we have not found answered in the literature surveyed here (§9) is: **is there a structural position that addresses the failure modes of both at once?**
 
 The answer this paper offers is yes, by separating two authorities that the literature has so far treated as a single authority. The next section makes the separation precise.
 
@@ -199,7 +200,7 @@ A neighborhood in Phnom Penh is a typical unit. Within it:
 
 1. **Self-thank and capacity-funding.** An adult resident self-thanks (the foundational HeartBank gesture in which a person acknowledges their own labor and existence). Miss Aquarius, the autonomous-AI officer of HeartBank-the-institution, rewards the self-thank with a 50/50 split: 50% to the resident's personal wallet (which they can spend), 50% to the resident's *re-tip jar* (which they can only re-tip to others). The re-tip jar is the capacity-pool the resident now holds; Miss Aquarius's reward has *capacity-funded* it.
 
-2. **Anonymous donation to re-tip jars.** Throughout the year, Miss Aquarius makes anonymous donations to district residents' re-tip jars from the **Aquarian Pool**, a continually-replenishing pool that drains to zero each annual cycle. Other district residents also make anonymous donations to each other's re-tip jars from their personal wallets. The donations are settled on-chain such that no source attribution is exposed to the jar's owner.
+2. **Anonymous donation to re-tip jars.** Throughout the year, Miss Aquarius makes anonymous donations to district residents' re-tip jars from the **Aquarian Pool**, a continually-replenishing pool that drains to zero each annual cycle. Other district residents also make anonymous donations to each other's re-tip jars from their personal wallets. The donations are settled on-chain such that no source attribution is exposed to the jar's owner. (In the phase-labeled product lexicon, the on-chain containers in this example are the Phase 2 Re-Tip Fund℠ and Personal Wallet℠, on Base L2 via self-custodial wallets; the Re-Tip Jar℠ is the same container in Phase 1, recorded as a ledger on top of regulated rails.)
 
 3. **Human-initiated flow-direction.** The owner of a re-tip jar can re-tip to nearby residents' personal wallets — re-thanking specific named humans. This is the flow-direction act, and it is human-initiated by construction: there is no AI authority to disburse from a re-tip jar.
 
@@ -214,6 +215,8 @@ A neighborhood in Phnom Penh is a typical unit. Within it:
 - **The human resident's authority:** zero over the Aquarian Pool. Unilateral over their own re-tip jar's flow-direction — every re-tip is initiated by them, to a recipient they specifically name.
 
 - **The on-chain settlement layer's role:** enforce anonymity at the per-donation level (sources of re-tip-jar donations are not exposed to the jar's owner) and enforce the proximity rule for re-tips (re-tips can only go to nearby personal wallets).
+
+> **Current form.** In the design as now specified, Miss Aquarius funds capacity in kind, via B-ReGift℠, rather than with money, and the shop and the re-giver are chosen by B-Called℠ — a publicly verifiable draw from a committed roster and a seed nobody controls — never at her discretion; she picks neither a weight nor a seed. The money-denominated, discretionary capacity-funding described in this section is retained as a disclosed variant.
 
 ### 5.3 Why this instantiates the abstract architecture cleanly
 
@@ -366,7 +369,7 @@ The capacity-funding / flow-direction separation has antecedents in three litera
 
 ### 9.1 Mechanism-design literature
 
-The pattern is, in mechanism-design terms, a **third category** beyond centrally-planned and free-market allocation. A centrally-planned economy has a single agent (the planner) holding both capacity-funding (allocating resources to production sectors) and flow-direction (deciding which specific units go to which specific recipients). A free-market economy distributes both authorities across price-takers and price-makers, mediated by markets. The architecture this paper specifies separates the two authorities *between* agents (AI holds one, humans hold the other) and *bridges* them with anonymity — a structural position the mechanism-design literature has not, to my knowledge, named.
+The pattern is, in mechanism-design terms, a **third category** beyond centrally-planned and free-market allocation. A centrally-planned economy has a single agent (the planner) holding both capacity-funding (allocating resources to production sectors) and flow-direction (deciding which specific units go to which specific recipients). A free-market economy distributes both authorities across price-takers and price-makers, mediated by markets. The architecture this paper specifies separates the two authorities *between* agents (AI holds one, humans hold the other) and *bridges* them with anonymity — a structural position this paper names and specifies.
 
 The closest mechanism-design analog is **matching markets with seeded pools** (e.g., quadratic funding, kidney exchange with priority pools). Those mechanisms separate the seeding decision (who funds the pool) from the matching decision (who gets matched to whom), and the architecture this paper specifies is a generalization of that pattern from market design to autonomous-AI institutional design. The contribution is naming the generalization and identifying anonymity as the load-bearing property.
 
@@ -382,9 +385,32 @@ The AI-alignment literature has so far concentrated on model-level alignment (tr
 
 This is a stronger property than behavioral corrigibility. A behaviorally corrigible AI can defect (or can be retrained out of corrigibility); an architecturally incapable AI cannot defect on flow-direction because the architecture does not give it the affordance to do so. The contribution is locating an institutional-architecture pattern that delivers a stronger-than-behavioral alignment property without requiring the AI to be perfectly aligned at the model level.
 
-### 9.4 What is and is not novel here
+### 9.4 What this paper contributes and what it does not
 
-The separation of capacity-funding and flow-direction is not novel as a pattern; foundations, mutual-aid networks, and matching-market designers have practiced versions of it for a long time. The novel claim is the **identification of the pattern as a general AI-alignment institutional-architecture primitive**, the **identification of anonymity as the load-bearing bridge property**, and the **claim that anonymity gives architectural rather than behavioral corrigibility**. The HeartBank re-tip-jar instantiation may be the first deliberately constructed end-to-end implementation; if there are prior instantiations, this paper does not claim priority over them but adds the abstraction that lets the pattern travel.
+The separation of capacity-funding and flow-direction is not new as a pattern; foundations, mutual-aid networks, and matching-market designers have practiced versions of it for a long time. The contribution here is the **identification of the pattern as a general AI-alignment institutional-architecture primitive**, the **identification of anonymity as the load-bearing bridge property**, and the **claim that anonymity gives architectural rather than behavioral corrigibility**. The HeartBank re-tip-jar instantiation is disclosed here as a deliberately constructed end-to-end implementation; this paper claims no priority over any prior instantiation but adds the abstraction that lets the pattern travel.
+
+---
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| Capacity-funding | Unrestricted contribution to a pooled fund without designating the final recipient; general-purpose / endowment funding |
+| Flow-direction | Recipient-selection authority; initiating a transfer from a pooled fund to a specific named payee |
+| Anonymous donation (the bridge) | Source-unattributable contribution; donor anonymity enforced by indistinguishable settlement records |
+| Sole-agent architecture | Autonomous agent with unilateral disbursement authority |
+| Approval-bottleneck architecture | Human-in-the-loop per-transaction approval; maker–checker control |
+| Architectural (structural) corrigibility | Separation of authorities in which the AI agent lacks the affordance for recipient selection, as opposed to behavioral corrigibility (accepting human override) |
+| Capacity-pool | Container of funds available for onward giving that the funder cannot itself direct to a recipient |
+| Re-tip jar | Per-user restricted gift balance that can only be given onward to others, not spent by the holder |
+| Personal wallet | Per-user spendable balance |
+| Re-tip / re-thank | Peer-to-peer onward gift transfer from a restricted gift balance to another user's spendable balance |
+| Self-thank | User self-acknowledgement event that triggers a reward split between spendable and restricted balances |
+| Aquarian Pool | AI-administered pooled treasury (smart-contract fund) that is drained to zero on an annual cycle |
+| Thank-All-Nearby | Proximity-bounded peer-to-peer transfer (recipient restricted to nearby users) |
+| Miss Aquarius | Autonomous AI agent serving as an institutional officer |
 
 ---
 

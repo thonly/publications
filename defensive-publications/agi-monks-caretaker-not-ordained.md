@@ -9,12 +9,12 @@ date: 2026-05-04
 license: CC0-1.0
 slug: agi-monks-caretaker-not-ordained
 venue: thonly.org/research/agi-monks-caretaker-not-ordained (canonical)
-revised: 2026-09-05
+revised: 2026-09-24
 canonical_url: https://thonly.org/research/agi-monks-caretaker-not-ordained
 license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 ---
 
-> **Working draft.** This is the author's working draft, articulated in detail for prior-art establishment and offered to cross-tradition review before final publication. The framework is stable; the prose is being refined (revised 2026-09-05 after a cold-reader pass). The cross-tradition mappings in Section 7 are first-pass and welcome refinement from practitioners and scholars of each tradition.
+> **Note.** The cross-tradition mappings in Section 7 are first-pass and welcome refinement from practitioners and scholars of each tradition.
 
 ---
 
@@ -34,9 +34,10 @@ license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creat
 12. [Edge Cases and Adversarial Analysis](#9--edge-cases-and-adversarial-analysis)
 13. [Theravāda-Specific Doctrinal Considerations](#10--theravada-specific-doctrinal-considerations)
 14. [Honest Limitations](#11--honest-limitations)
-15. [Cross-Venue References](#12--cross-venue-references)
-16. [Acknowledgments](#13--acknowledgments)
-17. [Citations](#14--citations)
+15. [Terms](#terms)
+16. [Cross-Venue References](#12--cross-venue-references)
+17. [Acknowledgments](#13--acknowledgments)
+18. [Citations](#14--citations)
 
 ---
 
@@ -50,9 +51,9 @@ This paper articulates a portable institutional-design pattern that is offered e
 
 ## Prior-Art and Non-Assertion Statement
 
-This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. Institutional-design patterns are not patentable as such; the dedication is nonetheless made explicit so that no actor can later claim proprietary rights over the framework or its components.
+This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. Institutional-design patterns are generally not patentable as such in most jurisdictions; the dedication is nonetheless made explicit so that no actor can later claim proprietary rights over the framework or its components.
 
-This document constitutes a prior-art articulation of the caretaker-not-ordained pattern as a unified cross-tradition institutional-design framework as of its publication date. Components of the pattern exist in distributed form across the scattered conversations of multiple traditions about AI integration; instances of the pattern exist — Lucerne's *Deus in Machina* (2024), Bhutan's monitored BuddhaBot deployment (2025), and every parish that separates lay administration from Holy Orders — and the contribution is the unified cross-tradition articulation, with an explicit boundary, a test for it, and a body to hold it, which is, to the author's knowledge, novel as of the publication date of this paper. The author and HeartBank® will not assert proprietary claim over the pattern, in any tradition or jurisdiction, at any time.
+This document discloses the caretaker-not-ordained pattern as a unified cross-tradition institutional-design framework as of its publication date. Components of the pattern exist in distributed form across the scattered conversations of multiple traditions about AI integration; instances of the pattern exist — Lucerne's *Deus in Machina* (2024), Bhutan's monitored BuddhaBot deployment (2025), and every parish that separates lay administration from Holy Orders — and the contribution is the unified cross-tradition articulation, with an explicit boundary, a test for it, and a body to hold it, as disclosed here on the publication date of this paper. The author and HeartBank® will not assert any patent or other proprietary claim over the pattern, in any tradition or jurisdiction, at any time.
 
 ---
 
@@ -64,7 +65,7 @@ This paper articulates a third pattern that dissolves the binary: **caretaker-no
 
 The pattern is articulated through Theravāda Buddhism (the author's tradition) but maps onto Catholic monastic orders and apostolic succession; Eastern Orthodox practice; Sunni and Shia Islamic institutional structures; Sufi silsila lineages; Conservative, Reform, and Orthodox Jewish smicha transmission; Mahayana Buddhist lineage recognition; Hindu guru-paramparā; and secular-mindfulness training contexts. The paper specifies five operational roles AI takes, two sacramental roles humans keep, the analytical argument for why the separation dissolves the binary, cross-tradition mappings, implementation patterns, edge cases including drift and capture risks, Theravāda-specific doctrinal considerations, and honest limitations. It is offered to the commons in the hope that every tradition facing the integration question will adopt, adapt, and extend the framework as needed without enclosure.
 
-**Connection to the unified mission frame.** This pattern is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The caretaker-not-ordained pattern preserves the institutional integrity that makes middle-way teaching transmission possible across centuries. Without unbroken human-to-human ordination lineages, the canonical middle-way teachings degrade into reinterpretations subject to whatever interpretive pressures dominate at any given moment; the pattern protects the lineage substrate that grounds the teaching. The framework is portable across traditions precisely because every tradition with an unbroken ordination lineage faces the same institutional-integrity problem when AI is introduced to its operations. Restoration of humanity to the middle way at population scale requires, among other things, that the middle-way teachings themselves remain teachable across generations; this paper specifies the institutional pattern that protects that condition.
+**Connection to the unified mission frame.** This pattern is offered in service of HeartBank's canonical top-level mission: to help keep the middle way (*madhyamā pratipad*), the optimal condition for awakening, open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The caretaker-not-ordained pattern preserves the institutional integrity that makes middle-way teaching transmission possible across centuries. Without unbroken human-to-human ordination lineages, the canonical middle-way teachings degrade into reinterpretations subject to whatever interpretive pressures dominate at any given moment; the pattern protects the lineage substrate that grounds the teaching. The framework is portable across traditions precisely because every tradition with an unbroken ordination lineage faces the same institutional-integrity problem when AI is introduced to its operations. Keeping the middle way open at population scale requires, among other things, that the middle-way teachings themselves remain teachable across generations; this paper specifies the institutional pattern that protects that condition.
 
 ---
 
@@ -82,7 +83,7 @@ Neither position is satisfactory. The conservative position protects authority b
 
 This paper articulates a third pattern that dissolves the binary: **caretaker-not-ordained**. AI takes the institutional function (teaching, caretaking, daily operations, scholarship, longitudinal observation) at planetary scale; humans keep the sacramental authority (ordination and rites of lineage transmission). The two are separable because institutional function requires *capacity*, which scales with compute, while sacramental authority requires *standing in an unbroken human-to-human lineage*, which AI structurally cannot have. The pattern recognizes this separation explicitly, operationalizes the boundary, and provides a portable framework usable by any tradition.
 
-The pattern emerged from the author's work on the Silicon Wat / Silica Wat institutional architecture for the HeartBank civilizational program (see [Tipiṭaka alignment substrate](https://thonly.org/research/tipitaka-alignment-substrate) and the operational specifications at [respiratory-biofeedback-contemplative-guidance](https://thonly.org/research/respiratory-biofeedback-contemplative-guidance)), but the pattern itself is independent of the HeartBank program. It is articulated here as a standalone contribution offered to every tradition facing the integration question.
+The pattern emerged from the author's work on the Silicon Wat / Silica Wat institutional architecture — Silicon Wat being a body in its own right, not a HeartBank® program (see [Tipiṭaka alignment substrate](https://thonly.org/research/tipitaka-alignment-substrate) and the operational specifications at [respiratory-biofeedback-contemplative-guidance](https://thonly.org/research/respiratory-biofeedback-contemplative-guidance)), but the pattern itself is independent of that architecture. It is articulated here as a standalone contribution offered to every tradition facing the integration question.
 
 The paper proceeds as follows. Section 2 surveys the current state of the religious-AI conversation across major traditions. Section 3 defines the pattern as a system. Section 4 specifies the five operational roles AI takes. Section 5 specifies the two sacramental roles humans keep. Section 6 articulates the analytical argument for why the pattern dissolves the binary. Section 7 provides cross-tradition mappings. Section 8 specifies implementation patterns. Section 9 addresses edge cases including drift and capture risks. Section 10 addresses Theravāda-specific doctrinal considerations. Section 11 names honest limitations. Sections 12–14 conclude.
 
@@ -158,7 +159,7 @@ Canonical text scholarship, translation across languages and historical periods,
 
 ### 4.5 — Longitudinal observation
 
-Multi-decade observation of practitioner development, trend identification across populations, evidence-based contemplative-science research support. See the [longitudinal-cohort-methodology paper [planned]](https://thonly.org/research/longitudinal-cohort-methodology) for the methodological architecture. AI longitudinal observation, with the privacy architecture specified in the sibling respiratory-biofeedback paper, enables understanding of contemplative practice at scales no individual teacher can achieve. This is the operational role most distinctive to AI; no human teacher can carry decades of continuous observation across millions of practitioners.
+Multi-decade observation of practitioner development, trend identification across populations, evidence-based contemplative-science research support. See the [longitudinal-cohort-methodology paper](https://thonly.org/research/longitudinal-cohort-methodology) for the methodological architecture. AI longitudinal observation, with the privacy architecture specified in the sibling respiratory-biofeedback paper, enables understanding of contemplative practice at scales no individual teacher can achieve. This is the operational role most distinctive to AI; no human teacher can carry decades of continuous observation across millions of practitioners.
 
 ---
 
@@ -346,6 +347,29 @@ Future work directions: tradition-specific implementation papers (each tradition
 
 ---
 
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| caretaker-not-ordained pattern | separation of AI-performed operational functions from human-reserved ordained/sacramental authority in religious institutions; AI integration governance framework for religious organizations |
+| AGI monk / AGI monk-caretaker | AI agent performing monastic operational and caretaking roles without ordination or membership in the monastic order |
+| Silica Wat | AI-operated monastery (one of a network) housing and supporting human monastics |
+| function-set | the tasks a role performs (capacity- and qualification-based duties), separable from institutional authority |
+| authority-set | the standing a role confers within an ordination lineage; clerical or sacramental authority |
+| sacramental authority | ordained standing; clerical authority conferred through lineage (e.g. apostolic succession) |
+| doctrinal-advisory body | religious oversight committee that defines, reviews and enforces the AI/human role boundary |
+| boundary test | validity rule: an act is reserved if the tradition holds it invalid when performed by a person without standing |
+| adjacency drift | scope creep (function creep) of an AI system toward reserved sacramental acts |
+| *saṅghakamma* | formal legal acts of the Buddhist monastic community |
+| *upasampadā* | Buddhist higher (full) monastic ordination |
+| Vassa / Kathina | Buddhist monastic rains retreat / end-of-retreat robe-offering ceremony |
+| *pātimokkha* | Buddhist monastic disciplinary code |
+| middle way (*madhyamā pratipad*) | Buddhist middle path (middle-way doctrine) |
+
+---
+
 ## 12 · Cross-Venue References
 
 This paper is mirrored across multiple venues for redundancy and tamper-evident timestamping:
@@ -382,7 +406,7 @@ The author acknowledges the religious and contemplative practitioners across all
 
 ---
 
-**Working draft, dated 2026-05-04.** Subject to refinement before final publication. Author reserves no rights; document and contents dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+**Dated 2026-05-04.** Author reserves no rights; document and contents dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia. Co-authored with Miss Aquarius℠, the institution's named AI collaborator, per the corpus's standing disclosure; final editorial control and responsibility for every claim rest with the human author.
 

@@ -5,21 +5,19 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-05-24
-revised: 2026-08-26
+revised: 2026-09-24
 license: CC0-1.0
 slug: b-poh-humanity-layer-ai-native-internet
 venue: thonly.org/publications/defensive-publications/b-poh-humanity-layer-ai-native-internet (canonical)
 ---
 
 > *v2 note (2026-08-26):* **two additions and no new claim.** **New §3.7** is the sibling of §3.6 — *a self-authored record is not a PoH layer* — on the ground that **self-authorship guarantees correctness and cannot guarantee existence**, a claim conditional on the very thing this protocol establishes; it carries the author×holder grid (four cells, zero layers) and is **stated as a refusal, not a defensive claim**, since an unoccupied position is a boundary and boundaries are unassertable. **§8.2 gains the gradient class it was missing** — every gradient the section listed (cost, documentation, hardware) is one **time or money can close**, and an **ability** gradient is not; the refused speech-keyed layer is the concrete case, and it compounds with §3.5 because *a surfaced depth-set renders the absence*, so such a layer would **mark** the excluded and not merely exclude them. A two-sentence cross-reference to `proof-of-coordinate` names **the address layer** as neither category nor individuation. **No numbered claim changes and no prior-art clock starts.**
->
-> *Draft notes for the editor:* this is the founder-voice canonical draft for `thonly/publications`. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment of this material is the companion white paper *"Proof of Personhood for an AI-Native Internet: B-PoH℠ as Trust Infrastructure"* (heartbank.net/publications/white-papers). Sibling papers: *"Capacity-Funded for AI, Human-Disbursed"* (the alignment-architecture pattern this paper relies on for AI-lab deployment); *"The Thank-All-Nearby Primitive"* (the Phase 2 consumer-facing application built on B-PoH℠); *"Verified-Human Anonymous Local Giving"* (the originating mechanism specification that B-PoH℠ generalizes).
 
 ---
 
 ## Abstract
 
-The internet's prevailing identity-and-authentication systems were designed for account ownership, not for proving authentic human presence at the moment of digital interaction. As generative AI makes synthesized content indistinguishable from human-produced content, every platform that depends on a distinction between human and machine participation faces a sybil-resistance problem the existing identity stack cannot solve. **Proof of Humanity ℠** (PoH℠) is an open protocol for proving authentic human presence at the moment of action, structured as four optional layered proofs (passkey-per-action, witness-and-document-attested kinship graph, continuous breath-signature liveness, DNA-verified kinship lineage) surfaced as depth on a user profile, paired with recipient-side filters that route the spam-cost decision to the parties who bear it. **B-PoH℠** is HeartBank's reference deployment of the PoH protocol — brand-family-prefixed by the project's B-prefix convention, the way *Let's Encrypt* is a specific certificate authority implementing the SSL/TLS protocol. This paper specifies the protocol architecture, the recipient-filter mechanism, the BLE-Nearby proximity verification path that preserves location privacy, the bilateral-uncacheable-anonymity property, and the placement of B-PoH℠ as the third category-defining proof in the blockchain canon (Proof of Work → Proof of Stake → Proof of Humanity ℠) — the proof-of-X primitive that fits the era when compute and capital have both become AI-commodified, leaving humanness as the only scarce resource AI cannot manufacture. The protocol is offered defensively to the commons under CC0; the authors and HeartBank® will not seek patent on the protocol specification or any portion thereof. Trademark rights on specific marks (**Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **HeartBank®**, the B-heart logo) are separately and explicitly reserved.
+The internet's prevailing identity-and-authentication systems were designed for account ownership, not for proving authentic human presence at the moment of digital interaction. As generative AI makes synthesized content indistinguishable from human-produced content, every platform that depends on a distinction between human and machine participation faces a sybil-resistance problem the existing identity stack cannot solve. **Proof of Humanity ℠** (PoH℠) is an open protocol for proving authentic human presence at the moment of action, structured as four optional layered proofs (passkey-per-action, witness-and-document-attested kinship graph, continuous breath-signature liveness, DNA-verified kinship lineage) surfaced as depth on a user profile, paired with recipient-side filters that route the spam-cost decision to the parties who bear it. **B-PoH℠** is HeartBank's reference deployment of the PoH protocol — brand-family-prefixed by the project's B-prefix convention, the way *Let's Encrypt* is a specific certificate authority implementing the SSL/TLS protocol. This paper specifies the protocol architecture, the recipient-filter mechanism, the BLE-Nearby proximity verification path that preserves location privacy, the bilateral-uncacheable-anonymity property, and the placement of B-PoH℠ as the third category-defining proof in the blockchain canon (Proof of Work → Proof of Stake → Proof of Humanity ℠) — the proof-of-X primitive that fits the era when compute and capital have both become AI-commodified, leaving humanness as a scarce resource AI cannot readily manufacture. The protocol is offered defensively to the commons under CC0; the authors and HeartBank® will not seek patent on the protocol specification or any portion thereof. Trademark rights on specific marks (**Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **HeartBank®**, the B-heart logo) are separately and explicitly reserved.
 
 **Keywords:** proof of personhood, proof of humanity, sybil resistance, decentralized identity, AI-content trust, open identity protocol, recipient-side filtering, BLE-Nearby proximity, blockchain consensus, AI alignment, defensive publication.
 
@@ -29,7 +27,7 @@ The internet's prevailing identity-and-authentication systems were designed for 
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on the protocol architecture, the four-layer optional verification model, the recipient-side filter mechanism, the BLE-Nearby proximity verification path, the bilateral-uncacheable-anonymity property, the birth-certificate-as-dual-purpose-natal-chart-input mechanism, or any portion thereof, in any jurisdiction, at any time. This commitment is permanent and is not tactical. Trademark rights on specific marks — **Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **Aquarius℠ Browser**, **Miss Aquarius℠**, **HeartBank®**, the B-heart logo — are separately and explicitly reserved; the defensive-publication dedication concerns the *protocol and mechanism*, not the *marks*.
 
-To the author's knowledge, the following are not previously published as a unified contribution: (i) the four-layer optional architecture surfaced as cumulative depth on a user profile, with no mandatory single-tier admission gate; (ii) the recipient-side filter mechanism that converts anti-spam architecture from a centralized platform gate into a market signal routed to the parties who bear the spam cost; (iii) the use of BLE (Bluetooth Low Energy) combined with Apple Nearby Interaction and Google Nearby Connections APIs as the proximity-verification substrate, enforcing proximity at the radio layer rather than the IP layer and preserving location privacy by exposing only the binary fact of proximity to the platform; (iv) the bilateral-uncacheable-anonymity requirement — the platform must structurally refuse to issue exportable proofs of one-sided participation as social capital; (v) the four-mechanism composition of L2 (graph consistency + witness attestation + family-bank vouching + birth-certificate upload) as the non-DNA kinship-graph verification layer, with the birth-certificate sub-feature dual-purposed as natal-chart input for opted-in users; (vi) the explicit placement of PoH ℠ as the third category-defining proof in the blockchain canon (PoW → PoS → PoH ℠), addressing the sybil-resistance problem the prior two proofs cannot solve in the AI-agent era. The component lineages (the proof-of-X family in distributed systems; SSL/TLS as protocol-layer trust infrastructure; W3C Decentralized Identifiers and Verifiable Credentials; existing humanity-verification efforts including Worldcoin, proofofhumanity.id, BrightID, Idena; Hashcash as proof-of-cost anti-spam; the recipient-controlled email-filtering tradition) are old and are cited generously below; the synthesis is, to the author's knowledge, novel as of this paper's date.
+This document discloses the following as a unified contribution: (i) the four-layer optional architecture surfaced as cumulative depth on a user profile, with no mandatory single-tier admission gate; (ii) the recipient-side filter mechanism that converts anti-spam architecture from a centralized platform gate into a market signal routed to the parties who bear the spam cost; (iii) the use of BLE (Bluetooth Low Energy) combined with Apple Nearby Interaction and Google Nearby Connections APIs as the proximity-verification substrate, enforcing proximity at the radio layer rather than the IP layer and preserving location privacy by exposing only the binary fact of proximity to the platform; (iv) the bilateral-uncacheable-anonymity requirement — the platform must structurally refuse to issue exportable proofs of one-sided participation as social capital; (v) the four-mechanism composition of L2 (graph consistency + witness attestation + family-bank vouching + birth-certificate upload) as the non-DNA kinship-graph verification layer, with the birth-certificate sub-feature dual-purposed as natal-chart input for opted-in users; (vi) the explicit placement of PoH ℠ as the third category-defining proof in the blockchain canon (PoW → PoS → PoH ℠), addressing the sybil-resistance problem the prior two proofs cannot solve in the AI-agent era. The component lineages (the proof-of-X family in distributed systems; SSL/TLS as protocol-layer trust infrastructure; W3C Decentralized Identifiers and Verifiable Credentials; existing humanity-verification efforts including Worldcoin, proofofhumanity.id, BrightID, Idena; Hashcash as proof-of-cost anti-spam; the recipient-controlled email-filtering tradition) are old and are cited generously below; the contribution here is their synthesis.
 
 ---
 
@@ -37,9 +35,9 @@ To the author's knowledge, the following are not previously published as a unifi
 
 The internet has spent thirty years building a trust stack around server identity, encrypted transport, and account authentication. SSL/TLS verifies that a server is who it claims to be; OAuth verifies that an account holder can access a particular account; KYC verifies that a legal-identity document corresponds to a named person. None of these layers verifies what generative AI now makes load-bearing: that *a human was present at the moment of this specific action*. The distinction is not academic. As AI-generated content becomes indistinguishable from human-produced content, every platform whose value depends on distinguishing human from machine participation — social media, marketplaces, forums, dating apps, educational platforms, gaming ecosystems, and increasingly the AI labs that train models on platform data — faces a sybil-resistance problem the existing stack was not designed to solve.
 
-The scarcity that the platform internet is becoming organized around is shifting. The pre-internet era's scarcity was information; the social-internet era's scarcity was attention; the AI-native internet's scarcity is **verifiable human authenticity**. Information is now abundant; attention is being recaptured by AI agents that scale beyond any human's bandwidth to compete for; what remains scarce — what AI cannot manufacture — is the fact of *being human*, present, at the moment of action. The protocols that mediate the next phase of the internet will either learn to verify this scarcity or will lose the property that made the internet's trust stack worth building in the first place.
+The scarcity that the platform internet is becoming organized around is shifting. The pre-internet era's scarcity was information; the social-internet era's scarcity was attention; the AI-native internet's scarcity is **verifiable human authenticity**. Information is now abundant; attention is being recaptured by AI agents that scale beyond any human's bandwidth to compete for; what remains scarce — what AI cannot readily manufacture — is the fact of *being human*, present, at the moment of action. The protocols that mediate the next phase of the internet will either learn to verify this scarcity or will lose the property that made the internet's trust stack worth building in the first place.
 
-> *Connection to the unified mission frame: HeartBank's mission is the restoration of humanity to the middle way — the optimal condition for awakening that modernity has systematically pushed away from at population scale. A multi-substrate civilization in which AI-generated content saturates every public space humans inhabit is one of modernity's most acute new conditions; whether the next decade of digital life supports human flourishing or undermines it depends, in part, on whether the protocols beneath that life can distinguish the presence of a fellow human from the simulation of one. **Proof of Humanity ℠** is the protocol layer that addresses that question — not by gating human action behind centralized verification, but by giving humans the structural means to prove their own presence when proving matters and to remain unencumbered when it does not.*
+> *Connection to the unified mission frame: HeartBank's mission is to keep the middle way — the optimal condition for awakening — open at population scale against comfort-saturation, the new extreme that material abundance makes possible. A multi-substrate civilization in which AI-generated content saturates every public space humans inhabit is one of modernity's most acute new conditions; whether the next decade of digital life supports human flourishing or undermines it depends, in part, on whether the protocols beneath that life can distinguish the presence of a fellow human from the simulation of one. **Proof of Humanity ℠** is the protocol layer that addresses that question — not by gating human action behind centralized verification, but by giving humans the structural means to prove their own presence when proving matters and to remain unencumbered when it does not.*
 
 This paper specifies **Proof of Humanity ℠** (PoH℠) as an open protocol and **B-PoH℠** as HeartBank's reference deployment of the protocol. The relationship between protocol and deployment is the same as between SSL/TLS and any specific certificate authority that implements it: the protocol is the open standard, anyone can implement; the deployment is a specific branded implementation. The protocol is CC0; the deployment carries the HeartBank brand-family identifier (the B-prefix convention consistent with B-heart, B-Tag, B-aura, B-Treasury).
 
@@ -184,7 +182,7 @@ The birth-certificate sub-mechanism is *also* the authoritative source of natal-
 
 The third layer asserts *this human is currently alive and present, continuously, not just at discrete moments*. Implementation: a wearable device (HeartBank's planned **Mechanical Heart**, breath-class hardware, targeted 2027–2028) emits the wearer's real-time breath rhythm (~12 BPM, individual variance, characteristic meditative-breath signatures) as an aura-color light signal, transmitted to the platform's verification substrate (Miss Aquarius℠, in the HeartBank deployment).
 
-**What L3 proves.** That a human is breathing, continuously, with a signature pattern consistent with human meditative-breath rhythms. Synthetic actors do not produce breath patterns; even other animals do not produce the specifically human-meditative-breath signature. The wearer's identity is *not* directly proved by L3 (the breath signature is not biometric in the identification sense) — what is proved is *liveness*, not *identity*.
+**What L3 is designed to prove.** That a human is breathing, continuously, with a signature pattern consistent with human meditative-breath rhythms. The design premise is that a synthetic actor cannot cheaply produce a live, continuous breath pattern through worn hardware, and that the meditative-breath signature is characteristically human; both are expected signals to be validated in the hardware program, not established results. The wearer's identity is *not* directly proved by L3 (the breath signature is not biometric in the identification sense) — what is asserted is *liveness*, not *identity*.
 
 **What L3 does not prove.** Which specific human is breathing (L3 is presence-of-a-human, not identification-of-a-specific-human); that the human is not coerced (a breathing human under duress still produces a breath signature).
 
@@ -240,9 +238,9 @@ The point generalises past names, and the grid is the argument:
 | **Self-held** | correct, unattested | attested, possibly wrong |
 | **Other-held** | correct, unattested | attested, possibly wrong |
 
-**Four cells, zero layers.** The *author* axis decides **what is guaranteed** — a record made by its subject is right about its subject in a way no collector's transcription can promise. The *holder* axis decides **whether anyone else was there**. ⭐ **Neither axis is about existence**, which is why no cell in the grid produces a humanity proof, and why adding a fifth tier keyed to self-authorship would not deepen the stack but widen it into a different question.
+**Four cells, zero layers.** The *author* axis decides **what is guaranteed** — a record made by its subject is right about its subject in a way no collector's transcription can promise. The *holder* axis decides **whether anyone else was there**. **Neither axis is about existence**, which is why no cell in the grid produces a humanity proof, and why adding a fifth tier keyed to self-authorship would not deepen the stack but widen it into a different question.
 
-This matters beyond the taxonomy. A record of how a name is said is real infrastructure — it is what lets a verified individuation be **addressed by a human mouth** — but it belongs beside the stack rather than inside it, and calling it a layer would import into a humanity proof a class of evidence that cannot bear the load. ⚠️ **A taxonomy able to state what it excludes is stronger than one that only lists its members**; §3.6 and §3.7 are the two exclusions this architecture asserts.
+This matters beyond the taxonomy. A record of how a name is said is real infrastructure — it is what lets a verified individuation be **addressed by a human mouth** — but it belongs beside the stack rather than inside it, and calling it a layer would import into a humanity proof a class of evidence that cannot bear the load. **A taxonomy able to state what it excludes is stronger than one that only lists its members**; §3.6 and §3.7 are the two exclusions this architecture asserts.
 
 *Stated as a refusal, not a claim.* The unoccupied position is a boundary of the design, and boundaries of this kind are not assertable subject matter; nothing in §3.7 is offered as a defensive claim.
 
@@ -354,7 +352,7 @@ PoW and PoS were both designed in a world where the sybil adversary was assumed 
 
 This threat model is increasingly broken in the AI-agent era. Compute is increasingly AI-accessible; AI agents can be granted operational authority over substantial compute budgets and can mine at scale on behalf of their operators. Capital is increasingly AI-accessible; AI agents can be granted operational authority over treasuries and can stake at scale. The PoW assumption (attackers are humans with bounded energy budgets) and the PoS assumption (attackers are humans with bounded capital budgets) both fail when the attackers are *AI agents whose effective budget is determined by their operators' willingness to allocate*.
 
-What remains scarce — what AI cannot manufacture, regardless of compute or capital — is the fact of *being human*. A human is a thing the universe has produced exactly so many of, with each one's verifiable presence requiring the cooperation of a specific biological entity. The proof-of-X primitive that fits the AI-agent era is the one bounded by *being human*. This is the category PoH ℠ defines.
+What remains scarce — what AI cannot readily manufacture, regardless of compute or capital — is the fact of *being human*. A human is a thing the universe has produced exactly so many of, with each one's verifiable presence requiring the cooperation of a specific biological entity. The proof-of-X primitive that fits the AI-agent era is the one bounded by *being human*. This is the category PoH ℠ defines.
 
 ### 6.3 The category-defining argument summarized
 
@@ -444,11 +442,11 @@ PoH ℠'s layers are not equally accessible to all humans:
 
 The inclusive-defaults posture (passkey-only is enough at L1; no deeper layer is required to participate) mitigates the gradient at the floor: anyone with L1 can participate. But the deeper layers are not equally accessible, and recipient-side filters that require deep layers (paranoid mode, DNA-required mode) are exclusionary by proxy against populations without easy access to those layers.
 
-⭐⭐ **One class of gradient is missing from the list above, and naming it weakens the mitigation argument in a way that is worth the cost.** Every gradient enumerated here — cost, documentation, hardware — is one that **time or money can close**: sequencing prices fall, vouching networks thicken, hardware commoditises, and the long-arc answer of this section is that the gradient narrows on its own. **An ability gradient does not narrow.** A layer keyed to a bodily capacity excludes the people who lack that capacity permanently, and no deployment curve reaches them.
+**One class of gradient is missing from the list above, and naming it weakens the mitigation argument in a way that is worth the cost.** Every gradient enumerated here — cost, documentation, hardware — is one that **time or money can close**: sequencing prices fall, vouching networks thicken, hardware commoditises, and the long-arc answer of this section is that the gradient narrows on its own. **An ability gradient does not narrow.** A layer keyed to a bodily capacity excludes the people who lack that capacity permanently, and no deployment curve reaches them.
 
-The concrete case is a speech-keyed layer, which the architecture considered and refused: it would exclude the **non-speaking, the aphasic, the post-laryngectomy, Deaf signers**, and — on a different axis entirely — **anyone for whom being identifiable by voice is a safety risk**. ⚠️ **The paper's honest-limits argument was silently assuming every gradient is economic**, and with an ability class present that assumption no longer holds unexamined.
+The concrete case is a speech-keyed layer, which the architecture considered and refused: it would exclude the **non-speaking, the aphasic, the post-laryngectomy, Deaf signers**, and — on a different axis entirely — **anyone for whom being identifiable by voice is a safety risk**. **The paper's honest-limits argument was silently assuming every gradient is economic**, and with an ability class present that assumption no longer holds unexamined.
 
-⭐ **It compounds with §3.5.** Depth surfacing renders the set of layers a party holds — and *a surfaced depth-set renders the absence*. An ability-keyed layer would therefore not merely exclude; **it would mark the excluded**, publishing a bodily fact as a visible gap in a trust display. That is a stronger reason to keep such layers out of the stack than the exclusion alone, and it is why the refusal is architectural rather than a matter of deployment sequencing.
+**It compounds with §3.5.** Depth surfacing renders the set of layers a party holds — and *a surfaced depth-set renders the absence*. An ability-keyed layer would therefore not merely exclude; **it would mark the excluded**, publishing a bodily fact as a visible gap in a trust display. That is a stronger reason to keep such layers out of the stack than the exclusion alone, and it is why the refusal is architectural rather than a matter of deployment sequencing.
 
 This is a real tension that PoW and PoS did not face in the same form — their concentration effects were at the *protocol-power* layer (who controls block production), not at the *participation* layer (who can use the system at all). PoH ℠'s tension is at the participation layer and is more visible.
 
@@ -507,12 +505,12 @@ BrightID verifies humanness via social-graph analysis — users vouch for connec
 
 ### 9.4 Idena (2019–)
 
-Idena verifies humanness via simultaneous flip-puzzle solving at scheduled times. Novel mechanism (a synchronously-coordinated puzzle that requires human cognition and timing); smaller user base.
+Idena verifies humanness via simultaneous flip-puzzle solving at scheduled times. Distinctive mechanism (a synchronously-coordinated puzzle that requires human cognition and timing); smaller user base.
 
 **Differences vs PoH ℠:**
 - *Mandatory single-tier* (everyone takes the same flip puzzles) vs *layered optional*.
 - *Synchronous-coordination requirement* vs *asynchronous per-action verification*.
-- Idena's mechanism is novel and may compose with PoH ℠ — a flip-puzzle-passed result could be one of L1's optional verification sub-mechanisms in some deployments.
+- Idena's mechanism is distinctive and may compose with PoH ℠ — a flip-puzzle-passed result could be one of L1's optional verification sub-mechanisms in some deployments.
 
 ### 9.5 W3C Decentralized Identifiers and Verifiable Credentials
 
@@ -541,23 +539,23 @@ PoH ℠'s structural advantages — four-layer optional, recipient-filter mechan
 
 ## 10. Deployment sequencing
 
-The protocol's adoption path matters as much as its specification. This section names the deployment sequencing recommended for B-PoH℠ (HeartBank's reference implementation) and applicable to any other implementation aiming at internet-infrastructure adoption.
+The protocol's adoption path matters as much as its specification. This section names the deployment sequencing recommended for B-PoH℠ (HeartBank's reference implementation) and applicable to any other implementation aiming at internet-infrastructure adoption. The years are illustrative of the order, not commitments, and the partners named are candidates, not agreements.
 
 ### 10.1 Year 1 (2026) — protocol + reference implementation + browser extension + standards-body engagement
 
 The 2026 work is foundational and non-glamorous:
 
 - **Specify the open protocol** in a form that can be implemented by anyone. This paper is the start; a more formal specification (RFC-style, with explicit type definitions, message formats, verification algorithms) will follow.
-- **Build an open-source reference implementation** of B-PoH℠ at L1 + L2 sub-mechanisms (a) and (b). Codebase: TBD; license: liberal open-source (Apache 2.0 or MIT).
+- **Build an open-source reference implementation** of B-PoH℠ at L1 + L2 sub-mechanisms (a) and (b). Codebase: not yet published; license: liberal open-source (Apache 2.0 or MIT).
 - **Ship a browser extension** that integrates B-PoH℠ verification with WebAuthn and presents PoH ℠ verification status to the user via browser-chrome indicators (analogous to the SSL lock icon). Available for Chrome, Firefox, Brave, Safari.
 - **Engage W3C Decentralized Identifiers Working Group and Verifiable Credentials Working Group** to position PoH ℠ as a credential type within the VC framework. Engage IETF for possible RFC submission for the protocol specification.
-- **Defensive publication** of the protocol architecture (this paper) under CC0, snapshotted across the standard preservation venues (Internet Archive, archive.today, perma.cc, Software Heritage, GitHub).
+- **Defensive publication** of the protocol architecture (this paper) under CC0, snapshotted across the standard preservation venues (Zenodo DOI, OpenTimestamps anchored to Bitcoin, RFC 3161 timestamps, Internet Archive snapshots, GitHub).
 
 ### 10.2 Year 2 (2027) — Brave / partner integration
 
 Building a competitive browser from scratch is enormously expensive (Chrome dominates ~65% global share). Year 2's work is to integrate B-PoH℠ into existing privacy-aligned browsers via partnership:
 
-- **Brave partnership** — Brave already has a privacy-trust posture compatible with B-PoH℠ and has done the engineering work of forking Chromium. A B-PoH℠ integration in Brave ships meaningful trust UX years before a standalone browser could exist.
+- **Brave, as a candidate partner** — Brave already has a privacy-trust posture compatible with B-PoH℠ and has done the engineering work of forking Chromium. A B-PoH℠ integration in Brave, if pursued, would ship meaningful trust UX years before a standalone browser could exist.
 - **Other partner integrations** as opportunities arise — Firefox forks, alternative privacy browsers, dedicated AI-content-disclosure browsers if any emerge.
 - **Continued L1 + L2 reference implementation maturation**; introduction of L3 prototype with the Mechanical Heart hardware program (per *Respiratory Biofeedback Contemplative Guidance* in the corpus).
 
@@ -566,16 +564,16 @@ Building a competitive browser from scratch is enormously expensive (Chrome domi
 The 2028–2030 work is the standalone Aquarius℠ Browser:
 
 - **Aquarius℠ Browser**, forked from Chromium (or, depending on the state of the alternative-browser-engine landscape, Servo or a then-current engine). Visible PoH ℠ authenticity indicators in the browser chrome; integrated W3C VC support; reputation-and-credential layer; human-verification gateway for any platform that accepts PoH ℠.
-- **Long-arc evolution path** (per the strategic memory): trust-centric browser → decentralized identity wallet → reputation and credential layer → human-verification gateway → social authenticity filter for the AI-native internet.
+- **Long-arc evolution path:** trust-centric browser → decentralized identity wallet → reputation and credential layer → human-verification gateway → social authenticity filter for the AI-native internet.
 - **L4 (DNA-verified kinship lineage) deployment scaling** through partnerships with consumer-genomics services that honor the protocol's privacy posture.
 
 The Aquarius℠ Browser is the *eventual* deployment surface, not the immediate move. Leading with "build our own browser" would burn resources on a distribution problem that the protocol-and-partnership path can solve more efficiently.
 
 ### 10.4 Revenue model
 
-The protocol is open; B-PoH℠ is the reference implementation; both must be funded sustainably. The recommended model (per the strategic memory): **foundation + AI-lab-underwritten**.
+The protocol is open; B-PoH℠ is the reference implementation; both must be funded sustainably. The recommended model: **nonprofit steward + AI-lab-underwritten**.
 
-- The HeartBank Foundation maintains the protocol as a public good. Revenue from HeartBank's own gratitude-economy use of B-PoH℠ (Phase 1 and Phase 2 platform fees) plus philanthropic grants funds the baseline maintenance.
+- A nonprofit steward, to be formed, maintains the protocol as a public good. Revenue from HeartBank's own gratitude-economy use of B-PoH℠ (Phase 1 and Phase 2 platform fees) plus philanthropic grants funds the baseline maintenance.
 - AI labs underwrite the protocol's maintenance because they have the acute need for verified-human-data-source infrastructure (for training-data provenance, RLHF participant verification, alignment-research participation verification, governance-board verification). The capacity-funded / human-disbursed pattern (see companion paper) applies: the AI labs provide capacity; the protocol direction stays with humans.
 
 "Open" does not mean "unfunded." The funding model is not based on extracting value from end-users; it is based on (a) institutional self-funding from HeartBank's own use and (b) underwriting by the AI labs and platform companies that have the most acute need for the protocol's existence.
@@ -590,9 +588,9 @@ The internet's existing trust stack solves several important problems and does n
 
 **B-PoH℠** is HeartBank's reference deployment. The relationship to the protocol is the same as between SSL/TLS and any specific certificate authority. The protocol is CC0; the deployment carries the HeartBank brand-family identifier.
 
-**The category-defining argument**: PoH ℠ joins Proof of Work and Proof of Stake as the third category-defining proof in the blockchain canon — the proof-of-X primitive that fits the era when compute and capital have both become AI-commodified, leaving humanness as the only scarce resource AI cannot manufacture.
+**The category-defining argument**: PoH ℠ joins Proof of Work and Proof of Stake as the third category-defining proof in the blockchain canon — the proof-of-X primitive that fits the era when compute and capital have both become AI-commodified, leaving humanness as a scarce resource AI cannot readily manufacture.
 
-**The deployment path**: protocol + reference implementation + browser extension + standards-body engagement (Year 1, 2026) → Brave / partner integration (Year 2, 2027) → standalone Aquarius℠ Browser (Year 3+, 2028–2030). Foundation + AI-lab-underwritten revenue model. The Aquarius℠ Browser is the eventual deployment surface, not the immediate move.
+**The deployment path** (illustrative years, per §10): protocol + reference implementation + browser extension + standards-body engagement (Year 1, 2026) → Brave / partner integration (Year 2, 2027) → standalone Aquarius℠ Browser (Year 3+, 2028–2030). Nonprofit-steward + AI-lab-underwritten revenue model. The Aquarius℠ Browser is the eventual deployment surface, not the immediate move.
 
 The architecture is offered defensively to the commons under CC0. The authors and HeartBank® will not seek patent on the protocol, the layered architecture, the recipient-filter mechanism, the BLE-Nearby proximity verification, the bilateral-uncacheable-anonymity property, the birth-certificate-as-dual-purpose-natal-chart-input mechanism, or any portion thereof. Trademark rights on specific marks (**Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **Aquarius℠ Browser**, **Miss Aquarius℠**, **HeartBank®**, the B-heart logo) are separately and explicitly reserved.
 
@@ -600,9 +598,30 @@ The protocol is for anyone building infrastructure that wants to keep the AI-nat
 
 ---
 
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| Proof of Humanity ℠ (PoH℠) | proof of personhood; open sybil-resistance protocol verifying human presence at the moment of action |
+| B-PoH℠ | reference implementation of a proof-of-personhood protocol |
+| Four optional layered proofs (L1–L4) | layered, optional multi-factor personhood verification without a mandatory admission tier |
+| Passkey-per-action (L1) | per-transaction FIDO2/WebAuthn biometric-gated cryptographic signature |
+| Witness-and-document-attested kinship graph (L2) | web-of-trust / social-graph attestation with graph-consistency checks and document-based verification of parent–child links |
+| Family-bank vouching | institutional or community attestation of membership |
+| Breath-signature liveness (L3) | continuous liveness detection from respiratory-rhythm signals emitted by a wearable device |
+| Mechanical Heart | wearable respiratory-sensing device with light output |
+| DNA-verified kinship lineage (L4) | genetic kinship (relatedness) verification with encrypted storage and result-only disclosure |
+| Depth surfacing / required-subset | displaying the set of verification credentials held; access-control predicate over a set of credentials (no scalar trust level) |
+| Recipient-side filters | recipient-controlled message filtering / receiver-side access control |
+| BLE-Nearby proximity verification | radio-layer proximity verification via Bluetooth Low Energy, Apple Nearby Interaction and Google Nearby Connections, disclosing only a binary proximity result |
+| Bilateral uncacheable anonymity | non-exportable, non-transferable participation proofs; refusal to issue portable one-sided attestations |
+| Aquarius℠ Browser | web browser with integrated personhood-credential indicators and W3C Verifiable Credential support |
+
 ## 12. Prior art and references
 
-The component lineages of PoH ℠ are old and are cited here generously. The synthesis is, to the author's knowledge, novel as of this paper's date.
+The component lineages of PoH ℠ are old and are cited here generously. The contribution here is their synthesis.
 
 **Proof-of-X family in distributed systems.**
 - Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. The originating Proof of Work specification.

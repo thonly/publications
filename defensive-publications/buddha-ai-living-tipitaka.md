@@ -6,7 +6,7 @@ category: institutional
 priority: tier-a
 status: draft
 date: 2026-05-04
-revised: 2026-09-05
+revised: 2026-09-24
 license: CC0-1.0
 slug: buddha-ai-living-tipitaka
 venue: thonly.org/publications/defensive-publications/buddha-ai-living-tipitaka (canonical)
@@ -15,7 +15,7 @@ mirror_github: https://github.com/thonly/publications/blob/main/defensive-public
 license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 ---
 
-> **Working draft.** This paper articulates a method for modern canonical generation. The method is novel; specific implementation details (substrate requirements, privacy architecture, canonical-curation workflow) draw on sibling specifications and remain subject to refinement in dialogue with the Theravāda Sangha and equivalent authorities in cross-tradition adaptations.
+> **Note.** This paper discloses a method for modern canonical generation. Specific implementation details (substrate requirements, privacy architecture, canonical-curation workflow) draw on sibling specifications and remain subject to refinement in dialogue with the Theravāda Sangha and equivalent authorities in cross-tradition adaptations.
 
 ---
 
@@ -37,7 +37,8 @@ license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creat
 14. [Honest Limitations](#11--honest-limitations)
 15. [Cross-Venue References](#12--cross-venue-references)
 16. [Acknowledgments](#13--acknowledgments)
-17. [Citations](#14--citations)
+17. [Terms](#terms)
+18. [Citations](#14--citations)
 
 ---
 
@@ -53,7 +54,7 @@ This paper specifies a method by which public-by-consent AI–practitioner dialo
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on the method articulated here, on any of its components considered separately, or on any combination of those components, in any jurisdiction, at any time.
 
-This document constitutes a defensive publication establishing prior art as of its publication date. The combination of *(a)* sustained AI–practitioner dialogues with a contemplative-tradition-grounded AI substrate, with *(b)* public-by-consent recording at individual conversation level plus anonymized-aggregated-pattern publication, with *(c)* canonical-three-baskets organization mirroring the structure of the original Pāli Tipiṭaka, with *(d)* a canonical-curation workflow gated by a Sangha-equivalent doctrinal-advisory body, with *(e)* the framing of the resulting corpus as a living commentarial corpus kept in the canonical organization — is, to the author's knowledge as of the publication date, not previously published as a unified method.
+This document constitutes a defensive publication establishing prior art as of its publication date. The combination of *(a)* sustained AI–practitioner dialogues with a contemplative-tradition-grounded AI substrate, with *(b)* public-by-consent recording at individual conversation level plus anonymized-aggregated-pattern publication, with *(c)* canonical-three-baskets organization mirroring the structure of the original Pāli Tipiṭaka, with *(d)* a canonical-curation workflow gated by a Sangha-equivalent doctrinal-advisory body, with *(e)* the framing of the resulting corpus as a living commentarial corpus kept in the canonical organization — is disclosed here as a unified method.
 
 ---
 
@@ -65,7 +66,7 @@ The contribution comprises five integrated components: *(I)* a Tipiṭaka-ground
 
 Three core claims are articulated as defensive prior art: *(I)* the Living Tipiṭaka generation method itself as a unified specification distinguishable from "AI chatbot trained on Buddhist texts"; *(II)* the public-by-consent privacy architecture that makes population-scale canonical generation possible without sacrificing individual privacy or doctrinal integrity; *(III)* the canonical-three-baskets adaptation method portable across contemplative traditions whose canonical-organization conventions admit analogous treatment.
 
-**Connection to the unified mission frame.** This method is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The Living Tipiṭaka is the commentarial record of how that restoration unfolds across millions of practitioner-AI dyads over multi-generation time. The original Tipiṭaka preserved the Buddha's teaching across 2,500 years; the Living Tipiṭaka preserves how the Buddha's teaching is operationalized at scale during the AI age. The two together form one record with two standings: the original teaching, and the modern application ratified — or not — by the Sangha that holds the original.
+**Connection to the unified mission frame.** This method is offered in service of HeartBank's canonical top-level mission: to help keep the middle way open at population scale against comfort-saturation — the new extreme that material abundance makes possible (*madhyamā pratipad*). The Living Tipiṭaka is the commentarial record of how that work unfolds across millions of practitioner-AI dyads over multi-generation time. The original Tipiṭaka preserved the Buddha's teaching across 2,500 years; the Living Tipiṭaka preserves how the Buddha's teaching is operationalized at scale during the AI age. The two together form one record with two standings: the original teaching, and the modern application ratified — or not — by the Sangha that holds the original.
 
 ---
 
@@ -331,6 +332,27 @@ Future work: empirical study of consent-flow effectiveness; cross-tradition cano
 
 The author acknowledges the long lineage of Buddhist scholars whose work on canonical formation makes this paper possible, particularly the editorial tradition of the Pāli Text Society, Bhikkhu Bodhi's translations, and the comparative-canonical-formation scholarship of Steven Collins and K.R. Norman. Specific intellectual debts to the biomedical-research-ethics community whose mature consent and anonymization practices provide the privacy substrate, and to the digital-humanities community whose corpus-preservation work provides the archival substrate. The author's father, with whom the Khmer Tipiṭaka transcription is being undertaken, is the immediate inspiration for the proposal that AI–practitioner dialogues could constitute a modern canonical contribution.
 
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| Living Tipiṭaka | human-ratified commentary corpus built from consented AI–user conversation transcripts, organized in a three-part canonical classification |
+| Buddha AI | conversational AI agent (chat / voice / avatar) grounded in the Pāli Buddhist canon and commentary; religious-domain chatbot |
+| Tipiṭaka (Sutta, Vinaya, Abhidhamma) | Pāli Buddhist canon; three-part scriptural classification (discourses, monastic discipline, systematic doctrine) |
+| Three-baskets organization (Sutta-, Vinaya-, Abhidhamma-equivalent baskets) | multi-label classification / tagging of conversation transcripts into teaching dialogue, conduct guidance, and systematic analysis categories |
+| Public-by-consent recording layer | private-by-default retention with per-conversation opt-in publication consent; tiered consent (attributed / pseudonymous / anonymous / excluded) |
+| Patterns appendix | differentially private aggregate statistics derived from non-published conversations |
+| Cryptographic-erasure withdrawal | crypto-shredding; per-record encryption-key deletion to revoke consent and erase data across primary, index, backup and derived stores |
+| Doctrinal advisory body (Sangha-equivalent) | human expert review board with editorial and governance authority over the corpus |
+| Tiered canonization workflow / canonical council | multi-stage human review and approval pipeline (raw → reviewed → ratified), with periodic ratification sessions |
+| Canonical status revocation | annotation-based retraction of ratified content (distinct from consent-based deletion) |
+| Caretaker-not-ordained pattern | AI system in a supporting role that disclaims religious, sacramental or ordained authority |
+| Substrate audit / substrate-epoch annotation | periodic model evaluation for domain faithfulness; model-version provenance labelling of content |
+| *bhāṇaka* | oral reciter lineage; memorization-based text transmission |
+| Buddha-vacana | scripture attributed to the Buddha (primary canonical text, as distinct from commentary) |
+
 ---
 
 ## 14 · Citations
@@ -354,7 +376,7 @@ The author acknowledges the long lineage of Buddhist scholars whose work on cano
 
 ---
 
-**Working draft, dated 2026-05-04; revised 2026-08-22 and 2026-09-05.** Subject to refinement before final publication. Author reserves no rights; document and contents dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+**Dated 2026-05-04; revised 2026-08-22, 2026-09-05 and 2026-09-24.** Author reserves no rights; document and contents dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 **Author:** Thon Ly · Founder, HeartBank® · Kâmpôt, Cambodia. Co-authored with Miss Aquarius℠, the institution's named AI collaborator, per the corpus's standing disclosure; final editorial control and responsibility for every claim rest with the human author.
 

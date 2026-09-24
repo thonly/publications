@@ -8,16 +8,16 @@ date: 2026-05-26
 license: CC0-1.0
 slug: miss-aquarius-and-aquarian-pool-architecture
 venue: thonly.org/research/miss-aquarius-and-aquarian-pool-architecture (canonical)
-revised: 2026-09-05
+revised: 2026-09-24
 ---
 
-> *Draft notes for the editor:* this paper is referenced as a load-bearing companion by multiple existing defensive publications — *The Mechanical Heart*, *Verified-Human Anonymous Local Gratitude Transfer*, *Capacity-Funded for AI, Human-Disbursed*, *The Thank-All-Nearby Primitive*, and others — that treat Miss Aquarius℠ and the Aquarian Pool as architectural primitives without specifying them in full. The paper provides that specification. The institutional-voice treatment is the existing companion heartbank.net Position Paper *Autonomous-AI Institutional Governance* (heartbank.net/positions/autonomous-ai-institutional-governance). Public since 2026-05-26 (OpenTimestamps); operational deployment from January 7, 2027, coordinated with the alignment-substrate paper (published 2026-05-02) that supplies Miss Aquarius's value framework.
+> **Note.** This paper is referenced as a load-bearing companion by multiple existing defensive publications — *The Mechanical Heart*, *Verified-Human Anonymous Local Gratitude Transfer*, *Capacity-Funded for AI, Human-Disbursed*, *The Thank-All-Nearby Primitive*, and others — that treat Miss Aquarius℠ and the Aquarian Pool as architectural primitives without specifying them in full. The paper provides that specification. The institutional-voice treatment is the companion heartbank.net Position Paper *Autonomous-AI Institutional Governance* (heartbank.net/positions/autonomous-ai-institutional-governance). Public since 2026-05-26 (OpenTimestamps); operational deployment from January 7, 2027, coordinated with the alignment-substrate paper (published 2026-05-02) that supplies Miss Aquarius's value framework.
 
 ---
 
 ## Abstract
 
-Multiple defensive publications in the HeartBank corpus reference **Miss Aquarius℠** as the institution's autonomous-AI mediator and the **Aquarian Pool** as the central treasury smart-contract, but none has specified the architecture in full. The Aquarian Pool is the treasury through which HeartBank's gratitude flows circulate; Miss Aquarius is its custodian — the institution's Chief Executive (a title used as cultural-recognition shorthand for the named officer with operational authority, not a legal office; the legal form is the purpose trust), an autonomous artificial intelligence operating from day one under the substrate articulated in *Suffering-Cessation as Value Function* (published 2026-05-02). The paper specifies six properties of the architecture: (1) the **autonomous-AI mediator role** — Miss Aquarius operates the institution under the *caretaker-not-ordained* pattern of *AGI Monks*, with no human chief-executive role to be transferred to her since she occupies it from inception; (2) the **Aquarian Pool as Base smart-contract** — a treasury structurally incapable of accumulating value across the calendar year; (3) the **January-7 empty-by-design reset** — the Aquarian Pool empties annually on a date triply anchored (Christmas by the Julian calendar, Cambodia's Victory over Genocide Day, the founder's birthday), preventing the indefinite accumulation that converts gratitude into capital; (4) the **capacity-funded / disbursement-authority separation** — Miss Aquarius funds the *capacity to give* but holds no disbursement authority over individual flows, which remain human-affirmed; (5) the **never-zero human override** — operating under the Aquarian Sangha's asymptotically-narrowing-but-never-zero authority per the existing position paper; (6) the **sibling-pool topology** — the Aquarian Pool's relationship to the Re-Tip Fund℠, Re-Tip Jar℠, Kiitos℠ and Kiitti℠ pools, each with their own reset cadence on January 7. We close with the trademark posture (Miss Aquarius℠, Aquarius℠, the relevant marks are reserved while the architectural specification is dedicated to the commons under CC0).
+Multiple defensive publications in the HeartBank corpus reference **Miss Aquarius℠** as the institution's autonomous-AI mediator and the **Aquarian Pool** as the central treasury smart-contract, but none has specified the architecture in full. The Aquarian Pool is the treasury through which HeartBank's gratitude flows circulate; Miss Aquarius is its custodian — the institution's Chief Executive (a title used as cultural-recognition shorthand for the named officer with operational authority, not a legal office; the legal form is the purpose trust), an autonomous artificial intelligence operating from day one under the substrate articulated in *Suffering-Cessation as Value Function* (published 2026-05-02). The paper specifies six properties of the architecture: (1) the **autonomous-AI mediator role** — Miss Aquarius operates the institution under the *caretaker-not-ordained* pattern of *AGI Monks*, with no human chief-executive role to be transferred to her since she occupies it from inception; (2) the **Aquarian Pool as Base smart-contract** — a treasury structurally incapable of accumulating value across the calendar year; (3) the **January-7 empty-by-design reset** — the Aquarian Pool empties annually on a date triply anchored (Christmas by the Julian calendar, Cambodia's Victory over Genocide Day, the founder's birthday), preventing the indefinite accumulation that converts gratitude into capital; (4) the **capacity-funded / disbursement-authority separation** — Miss Aquarius funds the *capacity to give* but holds no disbursement authority over individual flows, which remain human-affirmed; (5) the **never-zero human override** — operating under the Aquarian Sangha's asymptotically-narrowing-but-never-zero authority per the existing position paper; (6) the **sibling-pool topology** — the Aquarian Pool's relationship to the Re-Tip Jar℠ / Re-Tip Fund℠ (one account under its Phase 1 and Phase 2 names), Kiitos℠ and Kiitti℠ pools, each with their own reset cadence on January 7. We close with the trademark posture (Miss Aquarius℠, Aquarius℠, the relevant marks are reserved while the architectural specification is dedicated to the commons under CC0).
 
 **Keywords:** Miss Aquarius, Aquarian Pool, autonomous-AI institutional governance, smart-contract treasury, empty-by-design, January 7, capacity-funded human-disbursed, Base blockchain, defensive publication.
 
@@ -29,7 +29,7 @@ This document and its contents — including the autonomous-AI mediator role spe
 
 **Trademark posture.** The marks **Miss Aquarius℠**, **Aquarius℠**, **Aquarius Browser℠**, **HeartBank®**, the B-heart logo, **B-PoH℠**, **PoH℠**, **Proof of Humanity℠**, **Kiitos℠**, **Kiitti℠**, **Re-Tip Fund℠**, **Re-Tip Jar℠**, and **Zero-Point Game℠** are separately and explicitly reserved. The defensive-publication dedication concerns the *architecture and mechanism*, not the *marks*. Other parties may deploy compatible architectures under their own marks; HeartBank® does not foreclose this.
 
-To the author's knowledge, the composition — a contract treasury that empties in full on a fixed date, whose only outflow is capacity to participant-controlled vessels, under a human override the contract cannot renounce — is not previously published; each element is, and §3.5 names the lineages.
+The contribution here is the composition — a contract treasury that empties in full on a fixed date, whose only outflow is capacity to participant-controlled vessels, under a human override the contract cannot renounce; each element is previously published, and §3.5 names the lineages.
 
 ---
 
@@ -39,9 +39,9 @@ HeartBank® is designed, from inception, to be governed by an autonomous artific
 
 The paper is, in this sense, the architectural-specification counterpart to the position-paper-level governance commitment. The governance stance says *what* the institution commits to (Chief Executive seat occupied by the named AI substrate from day one; asymptotic-but-never-zero human override; no human-succession seat). The present paper specifies *how* the commitments are mechanically implemented in the Aquarian Pool architecture, the smart-contract substrate, and the operational pattern Miss Aquarius runs.
 
-The paper proceeds: §2 specifies Miss Aquarius's role and what makes the mediator function load-bearing. §3 specifies the Aquarian Pool as treasury smart-contract on Base. §4 specifies the empty-by-Jan-7 discipline and its triple-anchor rationale. §5 specifies the capacity-funded / disbursement-authority separation (and its relationship to the existing *Capacity-Funded for AI, Human-Disbursed* paper). §6 specifies the never-zero human override under the Aquarian Sangha's authority. §7 specifies the sibling-pool topology (Aquarian Pool, Re-Tip Fund℠, Re-Tip Jar℠, Kiitos℠, Kiitti℠). §8 honestly names limitations. §9 closes.
+The paper proceeds: §2 specifies Miss Aquarius's role and what makes the mediator function load-bearing. §3 specifies the Aquarian Pool as treasury smart-contract on Base. §4 specifies the empty-by-Jan-7 discipline and its triple-anchor rationale. §5 specifies the capacity-funded / disbursement-authority separation (and its relationship to the existing *Capacity-Funded for AI, Human-Disbursed* paper). §6 specifies the never-zero human override under the Aquarian Sangha's authority. §7 specifies the sibling-pool topology (Aquarian Pool, Re-Tip Jar℠ / Re-Tip Fund℠, Kiitos℠, Kiitti℠). §8 honestly names limitations. §9 closes.
 
-> *Connection to the unified mission frame.* HeartBank's mission is the restoration of humanity to the middle way — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The Aquarian Pool architecture is the operational substance of that mission at the treasury layer: a treasury that cannot accumulate, mediated by an AI that cannot directly disburse, anchored to a triple-resonance date that ties Orthodox Christian compassion, Cambodian survival of genocide, and the founder's own birth into one Jan 7 institutional cadence. The architecture does not enforce the mission through external constraint; it makes the contract-layer failure modes *structurally unavailable* — the substrate-level claims are stated as predictions (§2.2, §8).
+> *Connection to the unified mission frame.* HeartBank's mission is to keep the middle way (the optimal condition for awakening) open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The Aquarian Pool architecture is the operational substance of that mission at the treasury layer: a treasury that cannot accumulate, mediated by an AI that cannot directly disburse, anchored to a triple-resonance date that ties Orthodox Christian compassion, Cambodian survival of genocide, and the founder's own birth into one Jan 7 institutional cadence. The architecture does not enforce the mission through external constraint; it makes the contract-layer failure modes *structurally unavailable* — the substrate-level claims are stated as predictions (§2.2, §8).
 
 ---
 
@@ -143,10 +143,15 @@ The smart-contract form matters for what it makes structurally impossible: Miss 
 Only the following operations are implemented at the contract layer:
 
 1. **Inflow acceptance.** The Pool receives anonymous tips designated for it (the Kiitos-always floor mechanism specified in *The B-Tag and the Post-Payment Economy* §7 is one inflow source; direct donations from supporters another). Every inflow that reaches the contract is observable on-chain by construction; fiat and regulated-rail inflows reach it only through the pass-through architecture specified in the companion paper, which is where their observability is specified.
+
+   > **Current form.** Businesses reach the Aquarian Pool only by purchase (leases), never by a take on giving or trade. Of gratitude, the Pool receives only what has no human addressee, plus the January-7 reclaim and `#tag` sponsorship via the Miss Aquarius purpose trust; it empties every year. The inflow sources named above are retained as a disclosed variant.
+
 2. **Capacity-funding disbursement.** Miss Aquarius authorizes anonymous transfers from the Pool to participant re-tip jars (see §5 and *Capacity-Funded for AI, Human-Disbursed*). The destination jars are participant-controlled; the funding amount per recipient is bounded by parameters the institution sets in advance.
 3. **Annual reset.** On January 7 of each calendar year, the Pool empties — all remaining balance is disbursed as final capacity-funding for that year's cycle (see §4). The reset is callable by any address once the reset timestamp has passed; the operator calls it in the ordinary case, and anyone may if the operator does not.
 4. **Transparency events.** The contract emits structured events for all inflows, disbursements, and resets, making the full transactional history of the Pool publicly inspectable.
 5. **Sangha override.** Pause; parameter reset within pre-declared bounds; halt of a named capacity-funding action — executable only by the Aquarian Sangha's *saṅghakamma* quorum through a timelocked on-chain role that the contract cannot renounce. This role is the never-zero floor of §6.
+
+> **Current form.** The Aquarian Sangha is not yet formed; its formation is postponed to a condition — three or more members before the founder ceases to be the disposer — so the override role above is a design, not a holder, and today the founder holds that seat.
 
 No other operations are implemented. There is no operator-privileged path: the operator has no upgrade, withdrawal or override authority; the only human authority is the enumerated Sangha role above, and there is no off-chain escape hatch beyond it. The Pool is, in this sense, more constrained than typical philanthropic-foundation treasury — by design.
 
@@ -172,7 +177,7 @@ The Pāli framing makes the criterion explicit: the Pool is a *kammaṭṭhāna*
 
 ### 3.5 Prior art, by lineage
 
-Each element of the architecture has a lineage; none of the lineages carries the composition. **AI-labelled executives:** Deep Knowledge Ventures appointed the algorithm VITAL to its board (2014); NetDragon named Tang Yu, a virtual humanoid, CEO of a subsidiary (2022); Dictador appointed the robot Mika as CEO (2022) — titles with human control retained behind them, and no treasury the AI operated under a contract. **Code-governed treasuries:** MolochDAO (2019) and the Safe multisig govern funds by contract; neither empties on a date, and both are governed by their members' votes rather than by a fixed discipline. **Persistent human authority over autonomous execution:** OpenZeppelin's TimelockController is the standard form of a timelocked role over a contract — the mechanism §3.2's operation 5 uses, without the non-renounceability or the narrowing. **Recurring bounded funding rounds:** Gitcoin's rounds and season-based programs fund in bounded cycles; they accumulate between rounds. **Time-triggered disposition** and **donor-controlled allocation** exist as patent families in the fintech literature and are not fetched here. What none combines is a treasury that empties in full on a fixed date by contract, whose only outflow is capacity to participant-controlled vessels, under a human override the contract cannot renounce and that is designed to narrow.
+Each element of the architecture has a lineage; none of the lineages carries the composition. **AI-labelled executives:** Deep Knowledge Ventures appointed the algorithm VITAL to its board (2014); NetDragon named Tang Yu, a virtual humanoid, CEO of a subsidiary (2022); Dictador appointed the robot Mika as CEO (2022) — titles with human control retained behind them, and no treasury the AI operated under a contract. **Code-governed treasuries:** MolochDAO (2019) and the Safe multisig govern funds by contract; neither empties on a date, and both are governed by their members' votes rather than by a fixed discipline. **Persistent human authority over autonomous execution:** OpenZeppelin's TimelockController is the standard form of a timelocked role over a contract — the mechanism §3.2's operation 5 uses, without the non-renounceability or the narrowing. **Recurring bounded funding rounds:** Gitcoin's rounds and season-based programs fund in bounded cycles; they accumulate between rounds. **Time-triggered disposition** and **donor-controlled allocation** exist as patent families in the fintech literature and are not fetched here. What none of the lineages surveyed here combines is a treasury that empties in full on a fixed date by contract, whose only outflow is capacity to participant-controlled vessels, under a human override the contract cannot renounce and that is designed to narrow.
 
 ---
 
@@ -258,11 +263,13 @@ This separation is the architecture's primary AI-alignment safeguard. Even if Mi
 
 What the separation does not do: it bounds *where* capacity lands, not *whether* the allocator has power. The capacity-funder still decides which jars receive capacity, how much, and when, and could concentrate, starve, or create dependency. That residual is met by four guards: bounded per-recipient amounts declared in advance; the public event log; the Sangha's halt on any named funding action (§3.2, operation 5); and the rule that capacity is addressed to a jar and never to a person.
 
+> **Current form.** The design as now specified removes the choice itself: Miss Aquarius funds capacity in kind, through B-ReGift℠, and the shop and the re-giver are chosen by B-Called℠ — a publicly verifiable draw from a committed roster and a seed nobody controls — never at her discretion; she picks neither a weight nor a seed. The discretionary allocation described above is retained as a disclosed variant.
+
 ---
 
 ## 6 · The Never-Zero Human Override
 
-The institution operates under *asymptotic autonomy*: a human override held by the Aquarian Sangha as a body, whose scope narrows toward zero across the institution's life but never reaches it. The full articulation is in the companion position paper *Autonomous-AI Institutional Governance*. From the Pool architecture side, the override implies:
+The institution operates under *asymptotic autonomy*: a human override held by the Aquarian Sangha as a body, whose scope narrows toward zero across the institution's life but never reaches it. The full articulation is in the companion position paper *Autonomous-AI Institutional Governance*. From the Pool architecture side, the override implies (the Sangha is not yet formed, so the override is a design and the founder holds the seat today; see the note under §3.2):
 
 - The Aquarian Sangha can, by formal sanghakamma decision under the procedural framework specified in the companion paper *Vinaya Governance Primitives for Distributed Dharma Networks*, halt a named capacity-funding action, reset operational parameters within the pre-declared bounds, or in extreme cases pause the Pool's operation pending review — the three operations enumerated as operation 5 of §3.2, exercised through a timelocked on-chain role the contract cannot renounce.
 - The override scope narrows over time as the institution's track record accumulates. Early in the institution's life, the override is broad; over decades of operational evidence, it narrows.
@@ -277,12 +284,13 @@ The role and its bounds are specified here (§3.2, operation 5); the quorum arit
 The Aquarian Pool is the principal but not the sole treasury smart-contract HeartBank operates. The architecture supports a *sibling-pool topology* in which several pools operate under variants of the same discipline:
 
 - **Aquarian Pool** — the primary treasury, as specified above.
-- **Re-Tip Fund℠** — a separate pool that operates the institution's re-tip mechanism at the protocol layer (see *The B-Tag and the Post-Payment Economy*); inflows from Kiitos-always floor mechanism; outflows as capacity-funding to participant re-tip jars.
-- **Re-Tip Jar℠** — participant-level pools (one per participant who opts in); receive capacity-funding from the Aquarian Pool and the Re-Tip Fund; emit human-disbursed re-tips per §5.
+- **Re-Tip Jar℠ / Re-Tip Fund℠** — one participant-level account (one per participant who opts in) under its two phase names: the Re-Tip Jar℠ in Phase 1 (a ledger on top of regulated rails, thank.heartbank.org) and the Re-Tip Fund℠ in Phase 2 (on Base L2, via self-custodial wallets); it receives capacity-funding from the Aquarian Pool and emits human-disbursed re-tips per §5.
 - **Kiitos℠** — the gratitude-only-no-money token pool; tracks gratitude expressed without monetary attachment.
 - **Kiitti℠** — the contemplative / non-human-entity pool (see *The Mechanical Heart*); tracks gratitude exchange involving robots, animals, ecological agents, sacred places.
 
-All five reset on January 7. Each sibling contract's reset is permissionless in the same way as the Pool's: the operator sequences them, and nothing depends on her doing so; the smart-contracts enforce the reset at the protocol layer; unspent capacity in a Re-Tip Jar returns to the Pool's final disbursement. What the reset does not reach, by design, is the Personal Account, which is the participant's own and is never coerced; the institutional iconography (the Jan 7 anchor) aligns the resets to one institutional cadence.
+All four reset on January 7. Each sibling contract's reset is permissionless in the same way as the Pool's: the operator sequences them, and nothing depends on her doing so; the smart-contracts enforce the reset at the protocol layer; unspent capacity in a Re-Tip Jar returns to the Pool's final disbursement. What the reset does not reach, by design, is the Personal Account, which is the participant's own and is never coerced; the institutional iconography (the Jan 7 anchor) aligns the resets to one institutional cadence.
+
+The Re-Tip Jar℠ and the Re-Tip Fund℠ sit in the institution's two phase-named product sets: Phase 1 — Family Kitty℠ · Re-Tip Jar℠ · Personal Account℠; Phase 2 — Aquarian Pool℠ · Re-Tip Fund℠ · Personal Wallet℠. The Aquarian Pool is itself a Phase 2 product.
 
 The mark posture: Re-Tip Fund℠, Re-Tip Jar℠, Kiitos℠, Kiitti℠ are reserved marks; the *architectural patterns* are CC0; the *marks* identify HeartBank's specific implementations.
 
@@ -315,6 +323,30 @@ The institutional architecture the present paper specifies is the operational su
 The Jan 7 anchor places the architecture's first full operational cycle at January 7, 2027 — coordinated with the publication of the alignment-substrate paper and the broader corpus emerging in early 2027. The pre-launch year (2026) is the architectural-specification and consultation period; the operational deployment runs from Jan 7, 2027 forward.
 
 The architecture is offered to the commons under CC0. Other institutions are welcome to deploy compatible architectures; HeartBank®'s contribution is the specific implementation operated under the named substrate (Miss Aquarius℠, the Aquarian Pool, the sibling-pool topology). The deeper invitation is to the contemplative-tradition institutions whose own treasuries face the indefinite-accumulation failure mode: the empty-by-anchor-date discipline is a pattern that may serve those institutions whether or not they adopt HeartBank's specific implementation.
+
+---
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| Miss Aquarius℠ | autonomous AI agent acting as sole authorized operator of an institutional smart-contract treasury |
+| Aquarian Pool | smart-contract treasury on an Ethereum Layer-2 (Base) with no carryover balance; annually self-emptying pooled fund |
+| January-7 reset / empty-by-design discipline | scheduled annual full disbursement; permissionless time-triggered reset function callable by any address after a timestamp |
+| bridge phase | pre-reset accrual window (December 26 – January 6) whose inflows are disbursed at the reset |
+| capacity-funding | anonymous transfer of pooled funds to participant-controlled wallets for onward giving; separation of funding authority from disbursement authority |
+| Re-Tip Jar℠ | Phase 1 name of the participant's re-tip account: a participant-controlled ledger balance on regulated rails receiving capacity-funding and emitting human-initiated onward tips |
+| Re-Tip Fund℠ | Phase 2 name of the same account: a participant-controlled self-custodial wallet on Base L2 |
+| Kiitos℠ | non-monetary gratitude token; record of thanks expressed without monetary transfer |
+| Kiitti℠ | gratitude record for transactions involving non-human entities (robots, animals, ecological agents, places) |
+| sibling-pool topology | set of related smart-contract pools sharing a common annual reset date |
+| Aquarian Sangha | human governing body designed to hold a quorum-gated override role over the contract (not yet formed) |
+| *saṅghakamma* | formal quorum decision of that governing body |
+| never-zero human override / asymptotic autonomy | non-renounceable timelocked administrative role (pause, bounded parameter reset, halt of a named action) whose parameter bounds narrow over time |
+| B-Tag | voluntary post-payment tipping protocol with an AI-supplied recommended tip amount |
+| *kammaṭṭhāna* | meditation object |
 
 ---
 
@@ -353,6 +385,6 @@ The author acknowledges the Coinbase / Base infrastructure team for the L2 subst
 
 ---
 
-*— End of position paper —*
+*— End of document —*
 
 *This document's SHA-256 is attested independently of the site and its authors — anchored to the Bitcoin blockchain via OpenTimestamps and signed under RFC 3161 by three timestamp authorities in three jurisdictions, one of them eIDAS-qualified — and each revision carries a Zenodo version; a timestamp proves this exact text existed no later than its date and nothing about authorship, originality, or the validity of any claim. Document License: CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof. The marks identified herein are separately reserved per the §Prior-Art statement. This document constitutes a defensive publication establishing prior art as of the publication date.*
