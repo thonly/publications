@@ -1,3 +1,11 @@
+### 2026-09-23 (night) — two-singularities: the held revision, published on the founder's word (*"yes, publish two-singularities"*)
+
+Checklist A items 3–5: the failed nearest prior attempt (the OpenAI nonprofit board, November 2023), the author's stake, what
+has and has not been done; one factual fix (*the Khmer Tipiṭaka*, not *into Khmer*). Leg 1 `.ots` → `.r6.ots` (Bitcoin-complete),
+new proof calendar-only · leg 2 `2026-09-24.sha256` (hash checked) · leg 3 `10.5281/zenodo.22930050` · leg 4 index 2.5.6
+(served within ~10 s of deploy). The same night the mission check was widened to the variant wording the eightfold revision
+exposed; two unlisted carriers surfaced and were recorded as existing debt.
+
 ### 2026-09-23 (evening) — every queued revision rider, one chain run (founder: *"All riders now"*)
 
 **Founder ruling, overriding the queue's "ride the next revision — never a batch" for this pass.** Eight drafting passes
