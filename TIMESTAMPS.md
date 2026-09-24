@@ -1,3 +1,26 @@
+### 2026-09-23 (evening) — every queued revision rider, one chain run (founder: *"All riders now"*)
+
+**Founder ruling, overriding the queue's "ride the next revision — never a batch" for this pass.** Eight drafting passes
+ran in parallel, one per paper group; the chain ran once. Each retiring proof was checked Bitcoin-complete before rotation.
+Legs: OTS rotated + re-stamped (calendar-only at stamping) · TSA `2026-09-24.sha256` (hashes checked against the tree) ·
+Zenodo new versions below · index 2.5.5.
+
+| document | rider | Zenodo |
+|---|---|---|
+| eightfold-path-institutional-architecture | *override → 0* corrected in the open against the asymptotic override; the retired subsidy test fixed at its one site; cross-reference to the persistence paper's §8.3 | `10.5281/zenodo.22929898` |
+| four-body-architecture | the banned plural recast; non-assertion statement added | `10.5281/zenodo.22929904` |
+| need-compiled-questlines | the B-Dog family renamed, with a terminology note | `10.5281/zenodo.22929906` |
+| safety-companion-pack-watch | the same rename; responders are never the pack | `10.5281/zenodo.22929909` |
+| the-reciters-protocol | §9.11 — the canonical count does not balance (the queued premise was re-verified and recast) | `10.5281/zenodo.22929913` |
+| the-sport-that-says-your-name | §4.4 — the v1/v2 caller, the closer effect, the seed as the version | `10.5281/zenodo.22929916` |
+| zero-point-game | Peskin (1976) verified and cited | `10.5281/zenodo.22929921` |
+| essays/four-elements-as-breadth-check | four errors | `10.5281/zenodo.22929924` |
+| essays/breadth-check-on-the-work | the banned plural | — (no record) |
+| essays/each-life-as-cosmic-coordinate · essays/silicon-wat-architecture | no longer call themselves defensive publications | — (no record) |
+
+⏸ **`essays/two-singularities` drafted and HELD** — its new stake paragraph awaits the founder's word; its proof and record are
+untouched. `MISSION_PAST_DEBT` shrank by four, founder-authorized.
+
 ### 2026-09-23 — eight revisions in one chain run (the A92 bundle and the queued enrichments), and one new paper held
 
 **Founder: *"Continue with DRAFTABLE NOW and the A92 bundle. Use agents whenever possible."*** Seven drafting passes ran in
