@@ -28,12 +28,12 @@
  },
  "aura-gated-anonymous-mate-selection": {
   "concept_doi": "10.5281/zenodo.21947275",
-  "deposition_id": 22440954,
-  "doi": "10.5281/zenodo.22440954",
+  "deposition_id": 22931237,
+  "doi": "10.5281/zenodo.22931237",
   "published": true,
   "sandbox": false,
-  "sha256": "b7fba29177f3c463259f1cdd1f1fac6e4c53b8a7bd5ea50e48ea7d03becfd5f9",
-  "url": "https://zenodo.org/records/22440954"
+  "sha256": "037ce88e438295e7e8cd6f42079ad36e45258143d70ca10de5b1b603b24f9bb2",
+  "url": "https://zenodo.org/records/22931237"
  },
  "b-links-signed-provenance": {
   "concept_doi": "10.5281/zenodo.21947277",
@@ -217,12 +217,12 @@
  },
  "gift-tag-time-reveal": {
   "concept_doi": "10.5281/zenodo.21947327",
-  "deposition_id": 22440966,
-  "doi": "10.5281/zenodo.22440966",
+  "deposition_id": 22931231,
+  "doi": "10.5281/zenodo.22931231",
   "published": true,
   "sandbox": false,
-  "sha256": "3da4863e018510c192faf90494fa870657a6ff0646b4d5448c99bcd3ddc66f7a",
-  "url": "https://zenodo.org/records/22440966"
+  "sha256": "7e50db8a142b8159731efc53a178ec187a4de0eabe9f34bc003892a92d04d20c",
+  "url": "https://zenodo.org/records/22931231"
  },
  "giving-is-a-gift-too": {
   "concept_doi": "10.5281/zenodo.21947331",
@@ -244,12 +244,12 @@
  },
  "gratitude-riding-currency-tag": {
   "concept_doi": "10.5281/zenodo.21947337",
-  "deposition_id": 22246405,
-  "doi": "10.5281/zenodo.22246405",
+  "deposition_id": 22931228,
+  "doi": "10.5281/zenodo.22931228",
   "published": true,
   "sandbox": false,
-  "sha256": "bdea1a79b2f6ddcae6d4bf37411346a2c5c88509eb06c3411f1cae717f75b6d1",
-  "url": "https://zenodo.org/records/22246405"
+  "sha256": "2564165911f9ff8c8c26f703fbd1c4cf4a1d8ceefb856f0471675fd59d1ab79d",
+  "url": "https://zenodo.org/records/22931228"
  },
  "incommensurability-preserving-coupler": {
   "concept_doi": "10.5281/zenodo.21947340",
@@ -370,30 +370,30 @@
  },
  "provenance-carrying-retrieval": {
   "concept_doi": "10.5281/zenodo.22240458",
-  "deposition_id": 22745407,
-  "doi": "10.5281/zenodo.22745407",
+  "deposition_id": 22931208,
+  "doi": "10.5281/zenodo.22931208",
   "published": true,
   "sandbox": false,
-  "sha256": "14cd053cd0d1ca81efe9cfbc1eeb3c4b42d81f5d788095ddf27ea532c74bfc03",
-  "url": "https://zenodo.org/records/22745407"
+  "sha256": "8cadf8c2a06c9ca47eb55003b8649fe92c173424b349381991a65287116e37fe",
+  "url": "https://zenodo.org/records/22931208"
  },
  "respiratory-biofeedback-contemplative-guidance": {
   "concept_doi": "10.5281/zenodo.21947372",
-  "deposition_id": 22440984,
-  "doi": "10.5281/zenodo.22440984",
+  "deposition_id": 22931242,
+  "doi": "10.5281/zenodo.22931242",
   "published": true,
   "sandbox": false,
-  "sha256": "1c05f1071f1670011bdabd0da4c9a00957c433b621d3839d3d5910af695056f4",
-  "url": "https://zenodo.org/records/22440984"
+  "sha256": "a5380903d02f68efa5c823cc0d77a4fdf436faa2fd985aea1c686b3cff92e1be",
+  "url": "https://zenodo.org/records/22931242"
  },
  "rotation-over-liveness": {
   "concept_doi": "10.5281/zenodo.22155377",
-  "deposition_id": 22929354,
-  "doi": "10.5281/zenodo.22929354",
+  "deposition_id": 22931216,
+  "doi": "10.5281/zenodo.22931216",
   "published": true,
   "sandbox": false,
-  "sha256": "870dce1328734455be78ad324887fe375ed964c5dfb5c22ff4df71bb76dd0152",
-  "url": "https://zenodo.org/records/22929354"
+  "sha256": "2130a0966a668218bc8294445a821eaef8b3b44bc98578a25f0da97492f065b6",
+  "url": "https://zenodo.org/records/22931216"
  },
  "sacrifice-witness-without-discharge": {
   "concept_doi": "10.5281/zenodo.21947375",
@@ -460,12 +460,12 @@
  },
  "thank-all-nearby-primitive": {
   "concept_doi": "10.5281/zenodo.21947389",
-  "deposition_id": 22167875,
-  "doi": "10.5281/zenodo.22167875",
+  "deposition_id": 22931213,
+  "doi": "10.5281/zenodo.22931213",
   "published": true,
   "sandbox": false,
-  "sha256": "ffad583700569fadec0f8394f4a492a16abc4511ee956b7e76b2cba751d57d84",
-  "url": "https://zenodo.org/records/22167875"
+  "sha256": "0b069ce6e45c5c6ab39dedfe9f0939a1319cc6e471d0bb14fdf8c69b8941ee49",
+  "url": "https://zenodo.org/records/22931213"
  },
  "the-assembly-that-holds-the-brake": {
   "concept_doi": "10.5281/zenodo.21947395",
@@ -523,12 +523,12 @@
  },
  "the-reciters-protocol": {
   "concept_doi": "10.5281/zenodo.22735459",
-  "deposition_id": 22929913,
-  "doi": "10.5281/zenodo.22929913",
+  "deposition_id": 22931221,
+  "doi": "10.5281/zenodo.22931221",
   "published": true,
   "sandbox": false,
-  "sha256": "c714ae42e51061d728f995fed449a77b58609caf5a4112e3d92813268073edd3",
-  "url": "https://zenodo.org/records/22929913"
+  "sha256": "f54ec0dde1ec85eb217b3fd8b8c0ac3aa4692e317a8062895575f1632f74b294",
+  "url": "https://zenodo.org/records/22931221"
  },
  "the-referee-not-the-governor": {
   "concept_doi": "10.5281/zenodo.22123174",
@@ -631,12 +631,12 @@
  },
  "verified-human-anonymous-local-giving": {
   "concept_doi": "10.5281/zenodo.21947430",
-  "deposition_id": 22441001,
-  "doi": "10.5281/zenodo.22441001",
+  "deposition_id": 22931236,
+  "doi": "10.5281/zenodo.22931236",
   "published": true,
   "sandbox": false,
-  "sha256": "de74b163271f3ee8008465b1bfab6762cce5dddb797c15a7e7ce7f5a8205879c",
-  "url": "https://zenodo.org/records/22441001"
+  "sha256": "036aa9e871898aa164c91b6be3852d20f351f248173ae1e6c9b9cac09b48a820",
+  "url": "https://zenodo.org/records/22931236"
  },
  "vinaya-as-ai-reasoning-training-corpus": {
   "concept_doi": "10.5281/zenodo.21947432",
