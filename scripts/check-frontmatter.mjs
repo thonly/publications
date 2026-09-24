@@ -149,7 +149,6 @@ const BANNED_FIELD_DEBT = new Set([
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/cakkavatti-alignment-charter.md",
     "defensive-publications/certification-by-circulation.md",
-    "defensive-publications/eightfold-path-institutional-architecture.md",
     "defensive-publications/gift-tag-time-reveal.md",
     "defensive-publications/giving-is-a-gift-too.md",
     "defensive-publications/gratitude-as-cooperation-substrate.md",
@@ -188,7 +187,6 @@ const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/b-tag-recommendation-function-methodology.md",
     "defensive-publications/co-presence-gated-redemption.md",
-    "defensive-publications/eightfold-path-institutional-architecture.md",
     "defensive-publications/embodied-advocate-pageant.md",
     "defensive-publications/giving-is-a-gift-too.md",
     "defensive-publications/individuation-without-essence.md",
@@ -227,7 +225,11 @@ const BODY_CLAIM_DEBT = new Set([
 
    ⚠️ Matched on whitespace-folded text: the corpus hard-wraps, and a line-by-line match
    counted 37 carriers where there were 40. */
-const MISSION_PAST = /restore\s+humanity\s+to\s+the\s+middle\s+way|pushed\s+away\s+from\s+at\s+population\s+scale/i;
+// Widened 2026-09-23 (founder: "reconcile all for me"): the eightfold-path revision found the frame in a
+// variant this regex could not see — "restoration of humanity to the majjhimā paṭipadā … pushed populations
+// away from". The widening surfaced TWO existing carriers the ledger had never listed; they were added below
+// as debt that already existed, not debt newly incurred — the one sanctioned addition, recorded here.
+const MISSION_PAST = /restore\s+humanity\s+to\s+the\s+middle\s+way|restoration\s+of\s+humanity\s+to\s+the\s+(middle\s+way|\*?majjhim)|pushed\s+(populations\s+)?away\s+from(\s+at\s+population\s+scale)?/i;
 const MISSION_PAST_DEBT = new Set([
     "defensive-publications/abhidhamma-executable-process-specification.md",
     "defensive-publications/agi-monks-caretaker-not-ordained.md",
@@ -247,6 +249,7 @@ const MISSION_PAST_DEBT = new Set([
     "defensive-publications/miss-aquarius-and-aquarian-pool-architecture.md",
     "defensive-publications/non-bank-pass-through-architecture-autonomous-ai.md",
     "defensive-publications/respiratory-biofeedback-contemplative-guidance.md",
+    "defensive-publications/sacrifice-witness-without-discharge.md",
     "defensive-publications/sankhara-dukkha-ai-welfare.md",
     "defensive-publications/silica-wat-food-network.md",
     "defensive-publications/thank-all-nearby-primitive.md",
@@ -256,6 +259,7 @@ const MISSION_PAST_DEBT = new Set([
     "defensive-publications/verified-human-anonymous-local-giving.md",
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md",
     "defensive-publications/what-a-vow-must-cost.md",
+    "essays/anti-attention-economy.md",
     "essays/christmas-jubilee-timing.md",
     "essays/diaspora-cambodia-remittance.md",
     "essays/father-son-tipitaka-transcription.md",
