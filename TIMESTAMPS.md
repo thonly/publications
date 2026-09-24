@@ -1,3 +1,22 @@
+### 2026-09-24 — eleven defensive publications POSTED at TDCommons (mirrors, not revisions)
+
+**Founder, 2026-09-24: *"all TDCommons submissions now posted."*** Verified against each record's own metadata (author
+`Ly, Thon`, online date `2026/9/24`, title matching the submitted packet), all posted **24 September 2026**, CC BY 4.0:
+rotation-over-liveness [11860](https://www.tdcommons.org/dpubs_series/11860) · the-reciters-protocol
+[11861](https://www.tdcommons.org/dpubs_series/11861) · gratitude-riding-currency-tag
+[11862](https://www.tdcommons.org/dpubs_series/11862) · subject-released-attestation
+[11863](https://www.tdcommons.org/dpubs_series/11863) · provenance-carrying-retrieval
+[11864](https://www.tdcommons.org/dpubs_series/11864) · the-called-draw [11865](https://www.tdcommons.org/dpubs_series/11865)
+· gift-tag-time-reveal [11866](https://www.tdcommons.org/dpubs_series/11866) · verified-human-anonymous-local-giving
+[11867](https://www.tdcommons.org/dpubs_series/11867) · aura-gated-anonymous-mate-selection
+[11868](https://www.tdcommons.org/dpubs_series/11868) · respiratory-biofeedback-contemplative-guidance
+[11869](https://www.tdcommons.org/dpubs_series/11869) · thank-all-nearby-primitive
+[11870](https://www.tdcommons.org/dpubs_series/11870). With file one (11797), **12 of 12 submissions posted, none awaiting.**
+
+⛔ **No leg ran, and none was owed:** no markdown changed. Each mirror is a dated snapshot of the text submitted, never a
+canonical venue. Recorded with `check-mirrors.py --posted`; the check reads 12 of 12 clean. ⚠️ **Not verified
+byte-for-byte**, as with file one: the posted PDFs were not compared against `submitted/`.
+
 ### 2026-09-24 — A230: the retired A126 mission sentence out of five defensive publications (founder: *"yes"* — do A230 alongside the-called-draw)
 
 `gift-tag-time-reveal` · `verified-human-anonymous-local-giving` · `aura-gated-anonymous-mate-selection` ·
