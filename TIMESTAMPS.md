@@ -1,3 +1,24 @@
+### 2026-09-24 (afternoon) — A232 wave 2: eleven tier-a defensive publications, pre-mirror repairs + doctrine reconciliation, one chain run (founder: *"do next batch"* · *"reconcile CI checker and Doctrine problems"*)
+
+`agi-monks-caretaker-not-ordained` · `b-poh-humanity-layer-ai-native-internet` · `buddha-ai-living-tipitaka` ·
+`capacity-funded-human-disbursed-ai-alignment` · `embodied-advocate-pageant` · `mechanical-heart` ·
+`miss-aquarius-and-aquarian-pool-architecture` · `the-referee-not-the-governor` · `tipitaka-alignment-substrate` ·
+`what-a-vow-must-cost` · `zero-point-game` — the ten remaining tier-a papers plus zero-point-game, all without an
+enumerated-claims section. **Mirror repairs** (mirror-lint 0 REFUSE on all eleven, `check.py --pii` clean): the retired
+A126 mission sentence out of nine; draft/editor banners removed or made a reader-facing Note; perma.cc, arXiv, LessWrong,
+archive.today and "TBD" placeholders removed; unscoped novelty turned into disclosure; a **Terms** table in every paper.
+**Doctrine reconciliation, by the variant rule** — a superseded mechanism stays disclosed and a `Current form` note states
+the design as now specified: Pool inflow by purchase only · capacity funded in kind through B-ReGift℠, shop and re-giver
+drawn by B-Called℠. **Factual corrections:** the retrodiction no longer flattened to "invalid on all four"
+(`what-a-vow-must-cost`); Re-Tip Jar℠ / Re-Tip Fund℠ one account in two phases; the Sangha and the pageant postponed,
+the override a design; the Pool on Base L2, not regulated rails; CEO of HeartBank® only; lease/tick for the digital
+credential; Silicon Wat not a HeartBank program; no "HeartBank Foundation"; a patent blocks practice, not publication;
+no stale "position paper" or "publication timed to 2027"; literature-gap claims scoped to the work surveyed.
+`check-frontmatter`: nine paid `MISSION_PAST_DEBT` entries and seven already-paid banned-field / body-claim entries removed.
+Legs: OTS rotated (each retiring proof Bitcoin-complete) + re-stamped (calendar-only) · TSA `2026-09-24.sha256` (re-run) ·
+Zenodo eleven new versions (`10.5281/zenodo.22946089` … `22946112`) · index 2.5.10 · site: seven regenerated
+(three-axis verified), four hand-authored modules edited by hand.
+
 ### 2026-09-24 — eleven defensive publications POSTED at TDCommons (mirrors, not revisions)
 
 **Founder, 2026-09-24: *"all TDCommons submissions now posted."*** Verified against each record's own metadata (author
