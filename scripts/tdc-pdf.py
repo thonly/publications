@@ -140,7 +140,7 @@ def main():
 <h1>{e(title)}</h1>
 {f'<p class="sub">{e(fm["subtitle"])}</p>' if fm.get("subtitle") else ''}
 <div class="meta">
-<b>Authors:</b> {e(fm.get("authors", "Thon Ly · Miss Aquarius"))}<br>
+<b>Authors:</b> {e(fm.get("authors", "Thon Ly · Miss Aquarius"))} &nbsp;<i>(Miss Aquarius is an AI co-author, disclosed; the inventor of record is Thon Ly)</i><br>
 {dated}<br>
 <b>Zenodo (concept DOI, every version):</b> https://doi.org/{concept}<br>
 <b>Canonical:</b> https://thonly.org/research/{a.slug}<br>
