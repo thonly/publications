@@ -13,6 +13,7 @@ not do, so this script remembers it instead.
   check-mirrors.py                 check every manifest entry (exit 1 if anything is owed)
   check-mirrors.py --record SLUG --venue V --date YYYY-MM-DD|none --pdf FILE
   check-mirrors.py --ack SLUG --note "why no second submission is owed"
+  check-mirrors.py --posted SLUG --date YYYY-MM-DD --url URL   the venue's live record, once it posts
   check-mirrors.py --selftest      run the controls: prove it can SEE a change, and a missing section
 
 WHAT IT DOES NOT DO: decide. It narrows "something moved" to "these claims moved, here is the
@@ -81,16 +82,36 @@ def record(slug, venue, date, pdf):
                  f"a mirror of a defensive publication without enumerated claims is the thing "
                  f"the venue exists to carry. Fix the paper or fix CLAIM_HEADING.")
     m = load()
+    old = next((e for e in m["entries"] if e["slug"] == slug), None)
+    # A second submission is a second POSTING, not a replacement of the first: the venue keeps
+    # both forever, so the manifest must too.
+    prior = (old or {}).get("prior_postings", [])
+    if old and old.get("url"):
+        prior = prior + [{k: old[k] for k in ("submitted", "posted", "url", "claims_sha256") if k in old}]
     m["entries"] = [e for e in m["entries"] if e["slug"] != slug]
     m["entries"].append({
         "slug": slug, "venue": venue,
         "submitted": None if date in ("none", "", None) else date,
         "pdf": pdf, "claims_headings": heads, "claims_sha256": fp,
         "body_sha256": hashlib.sha256(body_of(md.read_text(encoding="utf-8")).encode()).hexdigest(),
+        **({"prior_postings": prior} if prior else {}),
     })
     m["entries"].sort(key=lambda e: e["slug"])
     save(m)
     print(f"recorded {slug}: {len(heads)} claims section(s), claims sha {fp[:12]}…")
+
+def posted(slug, date, url):
+    """Submission and posting are two dates: approval takes the venue a day or more."""
+    if not (date and url):
+        sys.exit("--posted needs --date (the venue's publication date) and --url (its live record)")
+    m = load()
+    for e in m["entries"]:
+        if e["slug"] == slug:
+            if not e.get("submitted"):
+                sys.exit(f"{slug} was never recorded as submitted — --record it first")
+            e["posted"], e["url"] = date, url
+            save(m); print(f"posted {slug}: {date} {url}"); return 0
+    sys.exit(f"{slug} is not in the manifest")
 
 def ack(slug, note):
     """A judged claim-movement clears. RED means UNJUDGED movement, not movement."""
@@ -137,7 +158,8 @@ def check(quiet=False):
     for e, heads, seq in owed:
         posted = e["submitted"]
         print(f"\n  ⛔ {e['slug']}: CLAIMS HAVE MOVED since the PDF was built")
-        print(f"     venue: {e['venue']}  " + (f"posted {posted}" if posted else "NOT YET SUBMITTED"))
+        print(f"     venue: {e['venue']}  " + (f"submitted {posted}" if posted else "NOT YET SUBMITTED")
+              + (f", posted {e['posted']} {e['url']}" if e.get("url") else ""))
         print(f"     sections now: {', '.join(heads)}")
         old = set(); new = set(seq)
         # we keep no baseline text, only its hash — so report shape, and point at git for the diff
@@ -200,10 +222,12 @@ if __name__ == "__main__":
     ap.add_argument("--record"); ap.add_argument("--venue", default="TDCommons, Defensive Publications Series")
     ap.add_argument("--date"); ap.add_argument("--pdf")
     ap.add_argument("--ack"); ap.add_argument("--note")
+    ap.add_argument("--posted"); ap.add_argument("--url")
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--quiet", action="store_true")
     a = ap.parse_args()
     if a.selftest: sys.exit(selftest())
     if a.ack:      sys.exit(ack(a.ack, a.note) or 0)
+    if a.posted:   sys.exit(posted(a.posted, a.date, a.url) or 0)
     if a.record:   sys.exit(record(a.record, a.venue, a.date, a.pdf) or 0)
     sys.exit(check(a.quiet))

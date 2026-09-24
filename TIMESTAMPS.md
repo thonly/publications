@@ -1,3 +1,16 @@
+### 2026-09-21 — b-links-signed-provenance: POSTED at TDCommons (a mirror, not a revision)
+
+**Founder, 2026-09-23: *"b-links-signed-provenance has posted on tdcommons."*** The estate's first posting in an
+examiner-facing prior-art venue is live: **[tdcommons.org/dpubs_series/11797](https://www.tdcommons.org/dpubs_series/11797)**,
+publication date **21 September 2026** (submitted 2026-09-19), inventor Thon Ly, **CC BY 4.0** (the venue offers no CC0).
+The posted abstract opens with the submitted packet's first sentence (`submitted/b-links-signed-provenance.packet.txt`).
+
+⛔ **No leg ran, and none was owed:** the markdown did not change, so its `.ots`, manifest, DOI and index entry all still
+cover the current bytes. The mirror is a **dated snapshot of the 2026-09-05 text**, never a canonical venue.
+`check-mirrors.py` now records the posting (`--posted`) and keeps it if a later second submission re-records the paper.
+⚠️ **Not verified byte-for-byte:** the posted PDF could not be fetched (bot wall); the venue lists 408 KB against our
+344 KB submitted, which a cover page would account for.
+
 ### 2026-09-20 — the prediction register: P-MA1…MA4, Miss Aquarius's suggested thanks
 
 **Founder: *"Yes, draft that entry now"*** — four predictions registered **the day the surface shipped and before any
