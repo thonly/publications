@@ -1,0 +1,82 @@
+TDCOMMONS SUBMISSION PACKET — wave 1
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Whose Turn, Not Who's Best: Round-Robin Rotation over a Boolean Liveness Predicate for Unranked Local Business Discovery
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250)
+We specify an unranked local-business discovery system in which candidates are ordered by a publicly verifiable round-robin rotation (algorithm, per-cycle seed and recomputation tool published) and admitted by a boolean activity predicate instead of a ranking score. Admission asks only whether a participant's account balance has returned to zero within one published, global time window; amplitude and volume are excluded, so admission is a rate that cannot be accumulated or purchased. The discovery turn belongs to the payer, not the merchant: candidates are presented when a user spends from a forward-only, locality-restricted gratuity account, so the system has no merchant-facing dashboard, advertising product or listing management.
+
+Further constraints: no per-merchant total of received gratitude is computed, making ranking by reputation unavailable rather than prohibited; no per-merchant impression count exists; card content is generated from the transaction ledger and a self-authored registry record, with no merchant-supplied creative; turns lapse and cannot be stored, transferred or sold; category search is ordered only by distance from the searcher; the admission quantity is never displayed in side-by-side candidate lists; admission binds to a natural person, so eligibility does not transfer on sale of a business and multi-site chains cannot qualify; and an autonomous funding agent may change the rate of discovery but never which merchant appears. Where a social-graph path exists, a named contact the viewer thanked, who thanked this merchant, is shown as one non-summable event. Stated limit: preference-driven concentration persists; only the feedback loop from outcome to visibility is removed.
+
+FILE       submitted/rotation-over-liveness.pdf   (22 pages, 409 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Prior-Art and Non-Assertion Statement present ("will not seek patent
+      protection … commit not to assert any patent right"), repeated in the
+      closing footer
+  [x] Claims: "The following mechanisms are disclosed" — 11 enumerated items
+      inside the Prior-Art and Non-Assertion Statement; narrowed in §2 "What we
+      claim" and §8 "The claim, in its final and smaller form"
+  [x] §2 Background and prior art, engaged generously (+ §10 quick-census
+      paragraph on the hospitality composition, aperture and NOT-RUN stated)
+  [x] §12 Honest limits (12.1–12.9)
+  [x] AI co-authorship disclosed in text (closing footer: "Written by Thon Ly
+      with Miss Aquarius℠, the name under which this corpus discloses its AI
+      collaboration"); front matter authors "Thon Ly · Miss Aquarius"
+  [x] No named private real people. Named: cited authors/scholars (Besley,
+      Coate & Loury; Singh & Joachims; Biega et al.; Bower et al.; journalist
+      Samnang Ham) — public. §4.4 example "Sophea, whom you thanked in June"
+      reads as an illustrative placeholder name (common Khmer given name, no
+      surname) — confirm it is not a pilot-family member.
+  [x] No perma.cc · no "Document SHA-256" body footer
+  [!] Widest fenced line = 100 chars (§10 hospitality table rule line, box-
+      drawing ─ characters) — over 95; check for clipping in the PDF render
+  [!] Front matter `status: draft` and an opening "> **Draft in progress.**"
+      banner — both will be public permanently in the uploaded PDF; decide
+      before submission whether that is intended
+  [!] "Date and evidence" paragraph asserts "each version carries a Zenodo
+      version" and a corpus.333.eco digest for the 23 Sept 2026 revision —
+      verify leg 3/4 actually ran for this revision before it is frozen in
+      TDCommons
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (claims sections: the 11-item disclosure list and its
+                  framing in the Non-Assertion Statement, §2 "What we claim",
+                  §8 "The claim, in its final and smaller form")
+
+  1. Non-Assertion Statement, "Date and evidence":
+     "The matter of the first version was published on 28 August 2026."
+     → FINE (version ordinal, not a novelty claim)
+
+  2. §8:
+     "What we do not claim … is that we are the first to break the link
+     between visibility and past outcome."
+     → FINE (explicit disclaimer of priority)
+
+  Context, not a hit: the Statement says "none is asserted to be new — only to
+  be disclosed", and §10 (outside the claims) scopes its null: "What was not
+  found — in a quick census … on 18 September 2026, with full patent-
+  classification search and every non-English source not run — is the
+  composition" → scoped, FINE.
+
+  Keyword sweep (novel / first / uncontested / unprecedented / "no prior" /
+  "never been") found no other hit inside the claims sections; the 11 items
+  themselves use none of these words.
+
+  VERDICT: 0 REAL · 2 FINE

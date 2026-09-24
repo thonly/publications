@@ -1,0 +1,81 @@
+TDCOMMONS SUBMISSION PACKET — wave 1
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Gratitude-Riding Currency Tag: QR and NFC Markers on Circulating Banknotes for Tracking and Voluntary Tipping
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (243 words — limit 250)
+We specify a scannable tag (QR code or NFC tag) carried on a circulating banknote so that a tip's thank-you message travels with the cash: gratitude metadata attached to physical currency rather than to a transaction record. A giver leaving a tip stamps or affixes the mark on a lowest-denomination note; any later holder scans it in a mobile browser to read the accumulated messages (text, photo, video or voice), add their own, and pass the note onward, so the note's ordinary circulation is the distribution channel.
+
+The disclosure specifies: a physical mark bearing no words, brand or advertisement, only a neutral glyph and code, with all originator identity resolved on scan, so the mark is not an advertisement upon currency; a free ink-stamp or removable tier that does not impair machine handling, and a brand-originator NFC tier distributed as a companion form rather than a chip on the note; an optional additional amount the recipient keeps, moved peer-to-peer in cash, through a nonprofit's own payment processor, or between the parties' own self-custodial stablecoin wallets, the operator never holding, clearing or taking a fee from funds; the tipping act as an on-ramp to self-custodial stablecoin use; and a location- and time-stamped reputation layer surfacing the most-thanked local businesses and events, resisting manipulation through proof-of-personhood distinct-giver counts, geographic and temporal spread weighting, and no scores, ranks or rewards. Any civic wellbeing signal is aggregate, anonymous and opt-in; individual-level scoring is disclaimed. (Tiers: B-Imprint™, B-Relay™.)
+
+FILE       submitted/gratitude-riding-currency-tag.pdf   (14 pages, 388 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Title does not lead with a coined mark
+  [x] Prior-Art and Non-Assertion Statement present ("will not seek patent on this
+      specification or any portion thereof, in any jurisdiction, at any time")
+  [!] Claims section: none as its own heading — disclosure only. BUT the Non-Assertion
+      Statement carries 8 numbered combination items that the body cites as "claim 2" /
+      "claim 6"; they function as claims. No "Enumerated claims" section.
+  [x] §2 Background and prior art (2.1–2.6) · §9 Honest calibration · §10 Limitations
+      and honest-limits (10.1–10.6)
+  [x] AI co-authorship disclosed in the text (Preamble para 3 + closing footer; no
+      model named)
+  [x] No named private real people (only public projects, statutes, cited authors)
+  [!] perma.cc PRESENT — line 54: "Mirrors ... appear at GitHub, arXiv, IP.com, and the
+      Internet Archive (web.archive.org, archive.today, perma.cc)". perma.cc is out for
+      good (§browser-leg-9-05); the sentence also ASSERTS mirrors (arXiv, IP.com) that
+      should be verified to exist before this goes out permanently.
+  [x] No "Document SHA-256" body footer; no sha256:/doi: front matter
+  [!] Widest fenced diagram line 106 chars (line 117, §3 diagram); also 105 (l.154),
+      103 (l.151), 102 (l.148) — 4 lines >95, clipping risk in the PDF. 19 fenced lines.
+  [!] Line 14 carries a "Draft in progress ... founder-voice canonical draft" banner and
+      front matter says status: draft — it will be public verbatim in the PDF.
+  [!] Line 248 / footer call B-Grace™ "the physical-product line"; canon has B-Grace℠
+      as the thonly.net meditation app — possibly a stale mark reference.
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (no claims section; contribution/summary statements scanned
+                  for novel / first / uncontested / unprecedented / no prior /
+                  never been / not previously)
+
+  REAL OVERCLAIM (4)
+  1. l.50  "The synthesis, and in particular the digital-only-branding legal
+     construction (claim 2) and the witness-don't-hold pass-through (claim 6), are,
+     to the author's knowledge, novel as of this paper's date."
+     -> bare novelty on two named mechanisms; "to the author's knowledge" is not an
+        aperture, and no census has been run.
+  2. l.88  "The novel element is not the stablecoin; it is the on-ramp"
+     -> asserts the on-ramp is novel, unscoped.
+  3. l.190 "We frame it here — first, and openly — precisely so that the aligned,
+     aggregate-only design is the one the category inherits."
+     -> a first-mover claim on the civic-signal framing (mild; reads as priority).
+  4. l.254 "located its novelty honestly against a generous prior art"
+     -> presupposes novelty exists (mild).
+
+  FINE (14)
+  - l.32  "the following are not previously published as a unified mechanism" —
+    scoped to the combination and to the author's knowledge; standard
+    defensive-publication form (tighten to "not found in <aperture> on <date>" if
+    a census is ever run).
+  - l.76  "establishing the boundary of novelty is the document's job" — method, no claim.
+  - "first" in non-priority senses: l.20 (gave first), l.58/164/190 (first-class),
+    l.68 (first market), l.70 x2 (first a thank-you; the first time a wallet is
+    touched), l.137/150 (voice-first), l.169 (first ground), l.196 and l.252 (first
+    everyday use of a stablecoin).

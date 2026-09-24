@@ -1,0 +1,71 @@
+TDCOMMONS SUBMISSION PACKET — wave 1
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Reciters' Protocol: Content Integrity Verification, Completeness Manifests and Variant-Preserving Text Retrieval Transposed from Oral Canon Transmission
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (246 words — limit 250)
+This disclosure specifies content integrity verification and provenance mechanisms for text retrieval systems that serve quoted passages to machine readers, transposed from a multi-recension oral canon transmitted for roughly two millennia without an authoritative copy (the Pāli Buddhist canon).
+
+A conformance endpoint accepts a claimed quotation, compares it with the served multi-recension corpus, and returns one of a closed set of dispositions on the claim, including a conforming variant with its witness, each paired with a prescribed next action and by construction none on the claimant; closed disposition sets are anticipated by OCSP; the composition is disclosed. A separated completeness manifest is a signed, versioned, expiring enumeration of a collection's membership and cardinality, published apart from the index it describes, so a third party can detect a silently removed document and refuse a frozen manifest (nearest prior art: The Update Framework snapshot metadata; BagIt Payload-Oxum).
+
+Also specified: inline provenance markers in the text stream rather than metadata; build-time admission by a named body under a recorded procedure, not query-time filtering; commentary served as a distinct class, never generated summary in place of source; variants served with their witness, never normalised; abridgement announced inline with a resolvable identifier or digest; per-passage interpretive-standing fields; scheduled public re-verification where silence is an accountable assertion; and exclusions served with recorded reasons.
+
+The guarantee is bounded: divergence detection, never correctness. Two capture surfaces, the power to exclude and to rule on interpretive standing, are specified as elements to guard or decline.
+
+FILE       submitted/the-reciters-protocol.pdf   (32 pages, 667 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Prior-Art and Non-Assertion Statement present ("will not seek patent on any
+      mechanism enumerated in the Claims section … permanent and is not tactical")
+  [x] Claims present — "## Claims", 13 enumerated claims (mechanisms §§4.1–4.8, §5.1–5.2, refusal §6)
+  [x] Prior art — §2 "Background and prior art, engaged generously" (§2.1–2.6, incl.
+      §2.6 "Where the transposition adds nothing")
+  [x] Honest limits — §9 "Honest limits" (§9.1–9.11); §11 citation status
+  [x] AI co-authorship disclosed — front matter authors "Thon Ly · Miss Aquarius" +
+      closing line "Co-authored with Miss Aquarius℠, the institution's named AI collaborator…"
+      (no underlying model named)
+  [x] No named private real people — the founder's father appears twice (§1 l.83,
+      §11 l.570) by ROLE only, never by name; cited scholars are public
+  [x] No perma.cc
+  [x] No "Document SHA-256" body footer (no SHA-256 string anywhere)
+  [x] Fenced lines: 64, widest 84 chars (l.208) — under 95, no clipping expected
+  [!] Title carries no technical terms — see TITLE proposal above
+  [!] Front matter `status: draft` (no ruled human round); the paper's banner declares it
+      "claim-scoped": it withholds endpoint shapes, manifest schemas, transport bindings and
+      tool surfaces, and says a later filing on a specific schema is not answered by it
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (scan of "## Claims", ll.41–57, for novel / first / uncontested /
+                  unprecedented / "no prior" / "never been")
+  1. Claim 1 — "…without a living author, without writing for its first several centuries,
+     and through schism constitutes a copy-integrity field test…"
+     → FINE (temporal "first several centuries", not a priority claim)
+
+  Total: 0 REAL · 1 FINE.
+
+  Adjacent, not on the word list, noted for the reader:
+  - Claim 7 — "The conformance endpoint — a new composition, §5.1." The same claim scopes
+    it at once ("A closed disposition set about a submitted object is anticipated (OCSP);
+    the composition is what is claimed"). Scoped, not bare, but "new" is unaperture'd
+    (no "not found in <aperture> on <date>").
+  - Claim 1 — "a duration no digital system has yet undergone": a factual comparison
+    about duration, not a novelty claim on a mechanism. FINE.
+  - Outside the Claims section, the Non-Assertion statement's "To the author's knowledge,
+    the following are not previously published as a unified contribution" is scoped by
+    knowledge but carries no aperture/date.

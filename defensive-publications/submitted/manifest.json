@@ -14,6 +14,29 @@
       "url": "https://www.tdcommons.org/dpubs_series/11797"
     },
     {
+      "slug": "provenance-carrying-retrieval",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-23",
+      "pdf": "provenance-carrying-retrieval.pdf",
+      "claims_headings": [
+        "## 4 · The mechanism, stated as a claim rather than a specification",
+        "## 9 · The claim, in its final and smaller form"
+      ],
+      "claims_sha256": "7e1738fd29c07b65dd69685d6ee5ecaa2b9ed837dc4e52608b90566c1f565309",
+      "body_sha256": "2da4943754531033b2d05fcad7f8c4df4ee110d7a38b6aa1475ec83c28e06f98"
+    },
+    {
+      "slug": "rotation-over-liveness",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-23",
+      "pdf": "rotation-over-liveness.pdf",
+      "claims_headings": [
+        "## 8 · The claim, in its final and smaller form"
+      ],
+      "claims_sha256": "2143b41864f43e39da1fa51d74dba73f30cb222e819b0f522cec7c3c7169d124",
+      "body_sha256": "f308ea5423a5abed3a7c8666a235986d9c14a63dfb0c4952bcefe3f84a21d541"
+    },
+    {
       "slug": "subject-released-attestation",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-23",
@@ -28,6 +51,17 @@
       ],
       "claims_sha256": "989b86e5a4d03bb9bc05fc498d3712e287fc455d3639ef3a79aff82551c3e264",
       "body_sha256": "214af90763b8b6f1ca57212c37adf447e13539dc538ef1cf8c21bebf99936824"
+    },
+    {
+      "slug": "the-reciters-protocol",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-23",
+      "pdf": "the-reciters-protocol.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "5566c723726ed11c60bd4886581b64e9133c8fa671baf59084b37787f342bcfb",
+      "body_sha256": "b9345b00a500e0a5754fe2e1819ac2f196921bf2cc6057f13eff1d7e6d8cb692"
     }
   ]
 }

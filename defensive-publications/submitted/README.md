@@ -34,3 +34,7 @@ canonical URL form that is now a 301 on thonly.org.*
 |---|---|---|---|---|
 | `b-links-signed-provenance.pdf` | B-Links: Proof-of-Humanity-Signed Shareable Provenance… | TDCommons, Defensive Publications Series | 2026-09-19 | 2026-09-21 — [dpubs_series/11797](https://www.tdcommons.org/dpubs_series/11797) |
 | `subject-released-attestation.pdf` | Subject-Released Attestation: A Market Design in Which the Operator Cannot Answer | TDCommons, Defensive Publications Series | 2026-09-23 | ⏳ awaiting approval |
+| `provenance-carrying-retrieval.pdf` | Provenance-Carrying Retrieval: Hash, Timestamp and Source Binding for Retrieval-Augmented Generation | TDCommons, Defensive Publications Series | 2026-09-23 | ⏳ awaiting approval |
+| `rotation-over-liveness.pdf` | Whose Turn, Not Who's Best: Round-Robin Rotation over a Boolean Liveness Predicate for Unranked Local Business Discovery | TDCommons, Defensive Publications Series | 2026-09-23 | ⏳ awaiting approval |
+| `the-reciters-protocol.pdf` | The Reciters' Protocol: Content Integrity Verification, Completeness Manifests and Variant-Preserving Text Retrieval Transposed from Oral Canon Transmission | TDCommons, Defensive Publications Series | 2026-09-23 | ⏳ awaiting approval |
+| `gratitude-riding-currency-tag.pdf` | The Gratitude-Riding Currency Tag: QR and NFC Markers on Circulating Banknotes for Tracking and Voluntary Tipping | TDCommons, Defensive Publications Series | 2026-09-23 | ⏳ awaiting approval |

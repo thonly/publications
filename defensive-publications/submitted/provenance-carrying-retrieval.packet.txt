@@ -1,0 +1,81 @@
+TDCOMMONS SUBMISSION PACKET — wave 1
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Provenance-Carrying Retrieval: Hash, Timestamp and Source Binding for Retrieval-Augmented Generation
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250)
+We specify a retrieval-augmented generation (RAG) response format in which every document a retrieval server returns to a language model carries a provenance envelope binding the served text to a cryptographic hash of a named, fetchable source file, at least one timestamp independent of the server (an RFC 3161 time-stamp authority, an OpenTimestamps Bitcoin anchor, or a transparency log), and, where available, a persistent identifier (DOI). The envelope also carries a scope statement declaring what the hash covers relative to the served text (whole source, excerpt, or derived rendering), an explicit "no anchor" statement rather than silence when none exists, licence terms, and a runnable verification instruction (fetch, hash, compare, verify anchor). Target failures: staleness, truncation, paraphrase drift and substitution; staleness is caught by re-fetching the named source. Constraints: provenance is an admission predicate, never a ranking weight; the server does not summarise; the licence gate lives in the served index, not the request path; multiple serving surfaces pin one published artifact so their hashes are identical.
+
+The same envelope, served without payload, is the complete public integrity surface of an append-only log in the Certificate Transparency pattern (RFC 6962/9162): signed tree heads, inclusion and consistency proofs, and a published scoring function frozen per period. Coverage is provable only against receipts held by the parties whose events are logged; split views are detected by automated tree-head comparison among independent observers; entry contents are never queryable. The mechanism proves byte identity and prior existence, not truth or currentness.
+
+FILE       submitted/provenance-carrying-retrieval.pdf   (18 pages, 358 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [!] Title: the paper's subtitle is ~420 chars, so title-only per the ~200-char
+      rule. "Provenance-Carrying Retrieval" leads with no coined mark (plain
+      technical words), but carries no examiner term such as "retrieval-augmented
+      generation", "cryptographic hash" or "timestamp". A founder ruling is owed on
+      whether to add a short technical subtitle for the TDC field, e.g.
+      "Provenance-Carrying Retrieval: Hash, Timestamp and Source Binding for
+      Retrieval-Augmented Generation" (~95 chars; not the paper's own text).
+  [x] Prior-Art and Non-Assertion Statement present ("will not seek patent on any
+      mechanism described here, in any jurisdiction, at any time")
+  [x] Claims: §9 "The claim, in its final and smaller form" (ONE claim, as a
+      single blockquoted sentence; no numbered enumerated-claims list)
+  [x] Prior art: "Prior-Art and Non-Assertion Statement" (13 named primitives) +
+      §2 "Background and prior art, engaged generously" (cites Proof-Carrying
+      Answers, Shukla & Joshi, ACSAC Workshops 2025, as the nearest work)
+  [x] Honest limits: §12 "Honest limits" (+ §4.1, §13.1-13.2, §11 deployed/not)
+  [!] AI co-authorship: ONLY in front matter (authors: "Thon Ly · Miss Aquarius").
+      No in-body Author Contributions / AI Disclosure section, unlike the
+      file-two template. Confirm that tdc-pdf.py renders the byline, or add the
+      disclosure to the PDF, before upload.
+  [x] No named private real people (only cited authors Shukla & Joshi and the
+      canonical Kālāmas; "one operator (us)")
+  [x] No perma.cc
+  [x] No "Document SHA-256 <hex>" body footer. The closing line is the standard
+      attestation footer ("This document's SHA-256 is attested independently…",
+      with the scope limit), which carries no hash value.
+  [x] Fenced diagrams: widest line 83 chars (line 104, §3 failure table) vs ~95
+      limit, so no clipping expected
+  [ ] Note: the paper is CC0-1.0; the TDC field takes CC BY 4.0 per the standing
+      licence block. The CC0 dedication in the text stands.
+  [ ] Note: status "draft" (revised 2026-09-14). /polish round status not checked
+      here.
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (claims section = §9 only; terms searched: novel · first ·
+                  uncontested · unprecedented · "no prior" · "never been", plus
+                  the equivalent "not previously")
+  1. §9, line 329: "a composition of public primitives at a boundary where, so far
+     as we can establish, they have not previously been composed in this form"
+     → REAL OVERCLAIM (mild). The novelty assertion is hedged but has no aperture
+       and no date; the census rule's form is "not found in <aperture> on
+       <date>". Naming the nearest prior work (Proof-Carrying Answers) and its
+       three differences in the same sentence partly repairs it.
+  No occurrence of novel / first / uncontested / unprecedented / "no prior" /
+  "never been" in §9.  Tally: REAL 1 · FINE 0.
+
+  Outside the claims section (for information, not scored):
+  - Preamble l.27: "What is new, so far as we can establish, is the composition and
+    its target" has the same unscoped hedge.
+  - §2 l.83: "The observation we add there is narrow and, we believe, unstated" is
+    an unscoped hedge.
+  - "first" at l.207 · 339-351 · 368 · 372 is FINE: ordinal or predictive use
+    ("first real defect", "first ten implementations", "as of first publication").
