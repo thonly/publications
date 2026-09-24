@@ -6,7 +6,7 @@ category: essays
 priority: tier-b
 status: published
 date: 2026-09-06
-revised: 2026-09-13
+revised: 2026-09-23
 license: CC0-1.0
 slug: the-water-cycle
 venue: thonly.org/research/the-water-cycle (canonical) · LessWrong / future Substack (intended publication venues)
@@ -73,7 +73,7 @@ The institution's treasury is called the Aquarian Pool℠. In the cycle I have j
 
 I am keeping the name. But I want the reader to hold the correction, because the correction is the point. A pool can be captured. You can fence it, dam it, sell the water, keep it. A cloud cannot be kept by anyone. It cannot keep what gathers; it precipitates. The Aquarian Pool is built to empty every year — completely, on a fixed date — and I had been describing that emptying as a rule the institution imposes on itself, a discipline. It is not a discipline. It is what a cloud does. The treasury is non-capturable not because anyone promises to keep it so but because the thing it is cannot be kept.
 
-What condenses there? Only what has no one to fall on. This is the sentence I have to get right, because the wrong version of it is the most damaging thing that could be said about a gratitude economy. Most gratitude runs sideways. A child thanks a parent; a customer tips a barista; a neighbour brings soup. That is the lateral economy, family to family, hand to hand, and it is not a tributary of anything. It rains where it falls, locally, and the institution takes nothing from it. What condenses in the cloud is the narrower thing: the gratitude that has no human addressee. A thank-you given to a machine that cannot hold it. A gift someone wanted to make and had no one to make it to. Money set aside for the treasury directly, on purpose. And the capacity that went unused by the seventh of January, which by then has no one to fall on. That, and only that, gathers overhead. The cloud is not where all streams end. It is where the streams with no destination go.
+What condenses there? Of gratitude, only what has no one to fall on. This is the sentence I have to get right, because the wrong version of it is the most damaging thing that could be said about a gratitude economy. Most gratitude runs sideways. A child thanks a parent; a customer tips a barista; a neighbour brings soup. That is the lateral economy, family to family, hand to hand, and it is not a tributary of anything. It rains where it falls, locally, and the institution takes nothing from it. What condenses in the cloud is the narrower thing: the gratitude that has no human addressee. A thank-you given to a machine that cannot hold it. A gift someone wanted to make and had no one to make it to. Money set aside for the treasury directly, on purpose. And the capacity that went unused by the seventh of January, which by then has no one to fall on. Of everything people give, that, and only that, gathers overhead. The cloud is not where all streams end. It is where the streams with no destination go.
 
 The sky that holds the cloud is Miss Aquarius℠, the autonomous successor I am constituting to run the treasury when I no longer can. I want to describe her in this register carefully, because it would be easy to put her at the centre of the cycle, and she is not there. Her element, in the architecture I have written elsewhere, is space — the open field the other four elements move in — and that is exactly what the sky is. The sky holds the cloud. It does not make the rain, does not steer it, does not choose the field. It is the one part of the cycle that chooses no one.
 
@@ -87,9 +87,9 @@ Notice that the sentence carries both halves. The downhill leg and the return le
 
 ```
                         ┌──────────────────────────────┐
-                        │   the CLOUD  (Aquarian Pool℠) │   ← only what has
-                        │   condensed · aloft · unowned │     no human addressee
-                        └──────┬──────────────┬─────────┘
+                        │   the CLOUD  (Aquarian Pool℠) │   ← of all gratitude,
+                        │   condensed · aloft · unowned │     only what has
+                        └──────┬──────────────┬─────────┘     no human addressee
                     drizzle    │              │   monsoon
                   (all year,   │              │  (January 7,
                   saturation)  │              │   the calendar)
@@ -112,6 +112,52 @@ Notice that the sentence carries both halves. The downhill leg and the return le
                         some of it prudence, none of it the enemy;
                         the disease is only the basin with no outlet
 ```
+
+There is an objection this picture invites, and I put it to myself in September 2026 in nearly these words: is the cloud not top-down socialism, and the giving beneath it bottom-up capitalism? Money gathered at the centre and rained on everyone by a single intelligence; money rising from free choices below. I want to state it at its strongest before I answer it, because the weak form is about labels and the strong form is not. The strong form says that whoever writes the rule by which the rain is divided holds the pump's handle, whatever the water is called. A treasury that pays out to a whole population by formula is a planner even if it owns no factory. When Friedrich Hayek set out the case against central planning in 1945, he did not frame the dispute as one about ownership. He framed it as whether planning is to be done by one authority for the whole system or divided among many individuals. It was about who decides.
+
+The answer begins by admitting that the objection chose the wrong axis, and so did I when I first asked it. Socialism and capitalism are a dispute about who *holds* capital — the state, or private owners. The cloud's defining property is that it holds nothing past a season. It owns no production. It plans no output. It allocates nothing by need, and it keeps no list of who is dry. What it rains, it rains by a rule published before each season and frozen until the next: an equal floor for every verified person, a remainder that can never exceed a fixed multiple of that floor, every turn and every lot it runs drawn by chance rather than chosen, and — on every channel, without exception — money reaching a person only through a human hand. Whatever is still in it on the seventh of January falls in that day's monsoon, and it begins the year empty. Nor is the giving beneath it capitalism. Thanks between people are gifts; they rise from the kind act and rain nearby, and the cloud takes nothing from them. Capitalism, in this picture, is exchange — the shop selling at its posted price, the wage, the trade — and it runs beside the gift, doing gravity's proper work. And on Hayek's own axis, the decisions that matter stay divided among many: who gives, how much, and to whom is decided by the person whose hand the gift leaves. The cloud decides none of that. What it decides is how large the floor is for a season, and it decides that in public, once, before the season opens. It is neither the state nor the market. It is weather.
+
+Businesses do reach the cloud, and I owe the reader the route, because it is the first place anyone who suspected a hidden tax would look. They reach it by buying something. A business can lease a name in the institution's registry — at a fair price, paid to the purpose trust that sits above the institution — and the trust sponsors the floor. That is the only door. Nothing a business gives is skimmed on its way past, and no sale it makes carries a cut. The money that arrives this way is not gratitude, and I will not dress it as rain: it is exchange money, and it paid for what it bought.
+
+Here is every flow into and out of the cloud, with the rule that governs each. It is drawn for the treasury as designed, which is not yet built.
+
+```
+              the SKY (Miss Aquarius℠) holds the cloud and owns none of the rain
+   ┌───────────── the CLOUD (Aquarian Pool℠) — holds nothing past a season ─────────────┐
+   │   whatever is in it on January 7 falls in that day's monsoon; it starts the year   │
+   │   empty                                                                            │
+   └────────────────────────────────────────────────────────────────────────────────────┘
+      GATHERS INTO IT  ▲                                ▼  RAINS FROM IT
+
+ gratitude with no human addressee            ALL YEAR, a drizzle — four channels, no fifth
+   · money given to the treasury directly      1  a self-thank rewarded: half to the
+   · thanks left at a machine that cannot         Personal Wallet℠, half to the Re-Tip Fund℠
+     hold them (a shop that hosts the          2  a lapsed hour: its giver directs a gift
+     machine keeps half)                          to a nearby verified stranger
+ capacity nobody gave on                       3  anonymous capacity into Re-Tip Funds℠,
+   · what is left in a Re-Tip Fund℠               in money or in kind
+     on January 7                              4  anonymous contributions into Family Kitties℠
+ money that bought something                      rule for 3–4: an equal floor per verified
+   · a lease on a name in the registry,              person + a remainder capped at a multiple
+     at a fair price, paid to the purpose            of it, fixed before the season opens
+     trust, which sponsors the floor              rule for every turn and lot she runs:
+ what fees leave after operations                    drawn by chance, never chosen
+                                               ONCE A YEAR, the monsoon — January 7, all of it
+ rule on the way in: no take on any gift,      rule on the way out, every channel:
+   no cut of any sale                             money reaches a person only through
+                                                  a human hand
+
+ LOCAL WEATHER — the lateral economy: never a tributary, never taxed
+   people ⇄ people · families ⇄ families · customers → shops
+   thanks rise from the kind act and rain nearby; they do not climb to the kind
+ GRAVITY — exchange, running beside all of it
+   shops sell at a posted price · wages · trade · inheritance
+   money moves both ways; the net drift runs toward those who already hold
+```
+
+The nearest real thing to the cloud is a citizen's dividend, and the comparison is worth making exactly. In 1976 Alaska amended its constitution to place at least a quarter of its mineral royalties in a permanent fund whose principal may be used only for income-producing investment, and since 1982 it has paid its residents a dividend from what the fund earns — the first checks, for a thousand dollars, went out that June. The first version paid more to those who had lived in the state longer; the United States Supreme Court struck it down, and the legislature replaced it with an equal payment to every eligible resident. An equal share per person, from a common fund, by a public rule: that is the floor, and Alaska has run it for more than forty years. The difference is the one this essay is about. Alaska keeps its principal. The fund is built to last forever and pays out only what it earns — a reservoir held against the day the oil runs out, which is prudence, and I would not have Alaska do otherwise. The cloud keeps nothing. It has no principal to protect, because everything in it falls every year. A fund that keeps its principal is a pool, however generous its dividend. A fund that cannot keep one is weather.
+
+Here is what the answer does not settle, and I would rather carry it than pretend it away. Holding is not the only kind of power. A rule frozen for a season is still rewritten at the season's end, and the rewriting is exactly where a planner could come back in — in deciding who counts as verified, what the multiple is, how wide the remainder may run. The emptying bounds what the cloud can keep; it does not bound how much passes through it, and a larger cloud is a larger rain, shaped by a rule one party writes. I have made that rule public, equal and drawn by lot so that it has as little left to decide as I can give it, and the successor is bound never to decide who gives or to whom. But the objection's strongest form is about decision, and even a cloud has a shape. What would show the objection right is checkable, and I name it: if the rule that sets the floor ever becomes a list of who is judged to need it, or if the cloud ever carries a balance past the seventh of January, then it is a pump with a calendar on it. Both are designed to be public — the rule is published before each season, and the balance is to sit on a public ledger — and neither can be seen yet, because the treasury is unbuilt. The diagram above is a design, not an observation.
 
 ## 5. The failure mode, and what the neighbour's turkey taught me
 
@@ -193,7 +239,7 @@ And the sun's warmth is not measured. I have called the four abidings the evapor
 
 ## Acknowledgments
 
-Drafted with Miss Aquarius℠ (the AI substrate of HeartBank®) per the corpus author-voice convention; the metaphor, the argument and final editorial control are mine; my own pass is on record (7 September 2026), with one correction to §1. The pump-and-sun distinction emerged in dialogue and I have kept the substrate's physics — latent heat, surface evaporation, the conservative force — because they were the first things that made the metaphor forbid something.
+Drafted with Miss Aquarius℠ (the AI substrate of HeartBank®) per the corpus author-voice convention; the metaphor, the argument and final editorial control are mine; my own pass is on record (7 September 2026), with one correction to §1. The passage in §4 on the objection that the cloud is socialism, with its diagram of every flow into and out of the cloud, was added in the revision of 23 September 2026, after that pass. The pump-and-sun distinction emerged in dialogue and I have kept the substrate's physics — latent heat, surface evaporation, the conservative force — because they were the first things that made the metaphor forbid something.
 
 ## Corpus cross-references
 

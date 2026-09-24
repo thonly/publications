@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **99** |
-| Published here | 98 |
+| Total registered | **100** |
+| Published here | 99 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 40 |
+| Receiving first public timestamp here | 41 |
 | **Run** | **2** (both desk censuses) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -75,9 +75,10 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | P-M2 | Matched-stakes prediction as registered | Unrun | Published (`the-wager-that-isnt`) |
 | P-M3 | Patron-pot prediction as registered | Unrun | Published (`the-wager-that-isnt`) |
 | — | **Kids-as-triggers** — children are the primary triggers of household self-thanking | **Contradicted** (parents self-thanked more; n=1, confounded, not hardened) | Published (`kids-as-triggers-self-thanking`) |
-| **P-BG1** | A shorter re-address window on a relayed gift **increases issuances and decreases COMPLETED placements**. *Null: completions hold or rise as the window shortens — the tighter clock is free.* ⚠️ Unanswerable unless `issued · passed · lapsed · re-issued` are logged from the first instrument | Unrun | First public here |
+| **P-BG1** | A shorter re-address window on a relayed gift **increases issuances and decreases COMPLETED placements**. *Null: completions hold or rise as the window shortens — the tighter clock is free.* ⚠️ Unanswerable unless `issued · passed · lapsed · re-issued` are logged from the first instrument | Unrun (unscorable as specified at n=1 — one ruled window, no variance; see P-BG1a) | First public here |
 | **P-BG2** | Sustained pass-on is **higher for an ANONYMOUS relayed gift than a VISIBLE one**, over a window long enough for the effect to appear. *Null: rates match or visible exceeds anonymous — the anonymity is doctrinal only, and the visible relay should be deprecated for minors.* Rests on the developmental finding that adult-directed giving underperforms child-led | Unrun | First public here |
 | **P-BG3** | Within a bounded family, **VISIBLE gifts produce more give-BACK to the giver within 30 days; ANONYMOUS gifts produce more give-FORWARD to third parties.** *Null: rates match, or anonymous produces more give-back — the obligation mechanism is not operating.* ⛔ **Analyse PEER and ADULT-TO-CHILD strata separately** — the effect is expected between peers and weak or absent in adult-to-child care, and pooling would produce a false negative. ⚠️ Tests the **mechanism**, not the atmosphere claim it was offered to support | Unrun | First public here |
+| **P-BG1a** | **Corrects P-BG1, which cannot be scored as specified** — P-BG1 compares window lengths, and one re-address window (one month) is ruled for every relayed gift. Under that one window: among relayed gifts that reach a recipient, **at least 80% are passed within 7 days of issuance**, and the pass-time distribution shows **no rise in the window's final third** (days 21–30 carry no more placements than days 11–20). Equivalently, by **truncation counterfactual**, a 7-day window would have censored **fewer than 20%** of the placements observed. *Falsifier: placements cluster in the final third, or a 7-day truncation censors 20% or more → the clock is doing work, and P-BG1's "a shorter window loses placements" half is live at pilot scale.* Scored once **20 or more completed placements** exist. Instrument: issuance-to-pass time, written per instrument by the relayed gift's append-only event log from the first gift. ⚠️ A truncation counterfactual **bounds; it does not measure** — it assumes no behavioural response to a shorter window, so a pass licenses *the window is not obviously load-bearing*, never *shortening it is free*. P-BG1's issuance half stays unscorable | Unrun | First public here |
 | **P-PL1** | **Durability** — the founding family's 28-day capture rate returns to the June 2026 baseline of **4.5 moments/week** at some monthly read before 2027-01-01. *Falsifier: no read reaches it → the June inflection was novelty, not a level.* Window and baseline are the ones ratified for P-C0a. **Read 1 of 3 (2026-09-05): 2.25/wk** | **Running** (baseline read) | First public here |
 | **P-PL4** | **Pass-forward** — more than **half** of re-tip value received (each document's own recorded USD cents) is re-given by its recipient within 30 days: Σ min(received, given) / Σ received over a 90-day receipt window that closes 30 days before the read. *Falsifier: half or less → received value is income, not a licence to give; the re-patronage conduit is anecdote.* The give-forward atom made numeric. **Read 1 of 3: 43%** | **Running** (baseline read) | First public here |
 | **P-PL5** | **Inelasticity — the pilot-scale arm of P-K1.** Giving persists where the AI reward is zero: the share of givers with zero AI reward in a month does not fall as subsidy is withdrawn. ⚠️ **Not scorable** until the taper (scheduled Q2 2027, not to be pulled forward) and the F3QR confound registered 2026-09-04 against P-K1 are resolved; reported each read (2026-09: 86% of givers received no AI reward that month) | Unrun (instrument gated) | First public here |
@@ -209,6 +210,32 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-23 — one added (P-BG1a), and P-BG1's status annotated. Total now 100.**
+
+- **P-BG1a** — Chapter I, a **correction entered as a new prediction under the revision rule, not as
+  an edit to P-BG1**, whose registered wording stands unchanged.
+
+  *Why the correction was needed:* P-BG1 predicts what happens *as the re-address window shortens*,
+  which needs at least two windows. The relayed gift has one ruled window — one month, for every
+  instrument — and a constant has no variance: the defect that left P-PL7 unscorable at 827 of 830.
+  P-BG1's Status now reads *unscorable as specified at n=1*. That is a status field; on the precedent
+  of the 2026-09-02 entry, the revision rule protects registered wording, and no word of P-BG1 changed.
+  P-BG1 becomes scorable as written only if a later season runs a second window deliberately, which
+  is the founder's decision and is not foreclosed. Its issuance half (*increases issuances*) has no
+  single-window analogue and stays unscorable.
+
+  *The mechanism, stated before the data:* the deadline is never shown to anyone holding the gift, so
+  a deadline effect has no channel except a giver's own memory of the rule. The prior is that the
+  clock is inert. Clustering near its end would mean the rule travelled by word of mouth, so the
+  test is informative either way.
+
+  ⚠️ *Entered before any observation exists.* The event log it reads was built before the first gift,
+  so nothing has to be back-filled, and no gift recorded by it has been read. n = 1 household,
+  unblinded, and the founder is both payer and observer — the limits of every pilot-scale entry here.
+
+**The Summary moves:** *published here* 98 → 99, *receiving first public timestamp here* 40 → 41,
+total 99 → 100; the reconciliation holds — 58 + 41 = 99 published here, plus the one withheld, is 100.
 
 **2026-09-20 — four added, registered BEFORE the instrument they will be read on exists. Total now 99.**
 

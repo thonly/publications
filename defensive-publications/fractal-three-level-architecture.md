@@ -5,18 +5,33 @@ category: mechanism
 priority: tier-c
 status: draft
 date: 2026-05-22
+revised: 2026-09-23
 license: CC0-1.0
 slug: fractal-three-level-architecture
 venue: thonly.org/research/fractal-three-level-architecture (canonical)
 ---
 
 > *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror. The slug `fractal-three-level-architecture` is the canonical research URL.
+>
+> *Correction note, 2026-09-23.* The deposited text named **aura-weighted scoring** as one of the four transfer conventions — *"destinations and amounts calibrated by the aura primitive"*. That convention is **corrected**, not re-worded: the collective pool now disburses **an equal floor per verified human, delivered through the flow-through node, plus a bounded aura-weighted remainder**, with its parameters public and frozen in-season. §2.6 states the correction, the deposited wording it replaces, and the reason. Every place the old convention appeared (the Abstract, §2.2, §2.5, §3.1, §3.2, §4.2) now points to §2.6; two applications of the old convention — to a family steward's distribution decisions and to recipient selection — are withdrawn as errors. This revision also adds the Prior-Art and Non-Assertion Statement this paper lacked. The four enumerated claims are unchanged.
+
+---
+
+## Prior-Art and Non-Assertion Statement
+
+*Added to the markdown in the 2026-09-23 revision; the site's rendering of this paper has carried an equivalent statement since first publication.*
+
+This document and its contents — the three-level architecture of collective pool, re-tip flow-through and personal destination; its transfer conventions, including the floor-and-remainder disbursement rule as corrected in §2.6; the named correspondence between the Phase 1 and Phase 2 deployments; and the stated conditions under which the self-similarity breaks — are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. **The author and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time.** This document constitutes a defensive publication establishing prior art as of 22 May 2026 for the text as first published, and as of 23 September 2026 for the matter that revision added.
+
+**Census.** No prior-art census is on file for this paper. It was first published before the institution adopted its census rule (13 September 2026), which gates a defensive publication's first deposit and was not applied retroactively. The four enumerated claims below disclose matter present in the original text. The floor-and-remainder rule that §2.6 adds is **disclosed, not claimed as novel**: an equal base allocation with a capped variable top-up is a familiar allocation pattern, and no search was made to establish otherwise.
+
+**Trademark posture.** HeartBank®, Miss Aquarius℠, Aquarian Pool℠, Family Kitty℠, Re-Tip Jar℠, Re-Tip Fund℠, Personal Account℠ and Personal Wallet℠ are reserved separately. The dedication concerns the architecture, not the marks.
 
 ---
 
 ## Abstract
 
-Reciprocity economies that aspire to operate at both **family scale** (intimate, multi-person, multi-generational) and **planetary scale** (peer-to-peer, cross-cultural, asymptotically anonymous) face a structural design problem: the user must learn one mental model for the family-scale interactions and a different mental model for the planetary-scale interactions, doubling the cognitive cost of full participation. The conventional response is to *separate* the two scales into two products (a family-finance app and a global-payments app) and accept the doubled cognitive cost as the price of supporting both scales. This paper specifies a different response: design the family-scale and the planetary-scale to share a *structurally identical three-level architecture* — **collective pool** / **re-tip flow-through** / **personal destination** — so that a user who has internalized the architecture at family scale recognizes the same architecture at planetary scale immediately. Onboarding cost drops because the second layer is conceptually free; the architecture *grows with the user* across the life arc rather than requiring a new mental model at each scale transition. The paper specifies the three-level architecture in detail; demonstrates its self-similarity across the family-scale Phase 1 (Aquarian Pool / family-kitty / personal wallet) and the planetary-scale Phase 2 (Aquarian Pool / re-tip jar / personal wallet); articulates the four design properties that make the fractality work (each level has the same node-types; transfers between levels follow the same proximity-rule and 50/50-split conventions; the AI arbiter operates identically at each level with band-clamp recommendations and aura-weighted scoring; the public-ledger transparency-as-enforcement applies uniformly); and articulates the three structural advantages the fractality produces (cognitive onboarding savings; mental-model durability across the life-arc transition from family-finance to planetary-participation; architectural learnability for adjacent institutions). Honest §6 names the conditions under which the fractality breaks and the supplementary mechanisms that compensate.
+Reciprocity economies that aspire to operate at both **family scale** (intimate, multi-person, multi-generational) and **planetary scale** (peer-to-peer, cross-cultural, asymptotically anonymous) face a structural design problem: the user must learn one mental model for the family-scale interactions and a different mental model for the planetary-scale interactions, doubling the cognitive cost of full participation. The conventional response is to *separate* the two scales into two products (a family-finance app and a global-payments app) and accept the doubled cognitive cost as the price of supporting both scales. This paper specifies a different response: design the family-scale and the planetary-scale to share a *structurally identical three-level architecture* — **collective pool** / **re-tip flow-through** / **personal destination** — so that a user who has internalized the architecture at family scale recognizes the same architecture at planetary scale immediately. Onboarding cost drops because the second layer is conceptually free; the architecture *grows with the user* across the life arc rather than requiring a new mental model at each scale transition. The paper specifies the three-level architecture in detail; demonstrates its self-similarity across the family-scale Phase 1 (Aquarian Pool / family-kitty / personal wallet) and the planetary-scale Phase 2 (Aquarian Pool / re-tip jar / personal wallet); articulates the four design properties that make the fractality work (each level has the same node-types; transfers between levels follow the same proximity-rule and 50/50-split conventions; the AI arbiter operates identically at each level with band-clamp recommendations, and the collective pool disburses identically at each level — an equal floor per verified human plus a bounded aura-weighted remainder, a correction in the 2026-09-23 revision of the deposited *aura-weighted scoring* (§2.6); the public-ledger transparency-as-enforcement applies uniformly); and articulates the three structural advantages the fractality produces (cognitive onboarding savings; mental-model durability across the life-arc transition from family-finance to planetary-participation; architectural learnability for adjacent institutions). Honest §6 names the conditions under which the fractality breaks and the supplementary mechanisms that compensate.
 
 **Keywords:** fractal architecture, reciprocity economy, mental-model design, multi-scale platform design, gratitude infrastructure, recursive design, scale-invariant institutional design, onboarding cost, defensive publication.
 
@@ -41,7 +56,7 @@ A reciprocity economy that aspires to operate at both family scale and planetary
 
 This paper specifies a different design response: build the family-scale and the planetary-scale interactions on a *structurally identical three-level architecture*, so that the mental model the user develops for one scale is *exactly the mental model* they need for the other. The architecture is *fractal* — self-similar across scales — in the strict design sense: the same node-types, the same inter-node transfer conventions, the same AI-arbitration patterns, and the same public-ledger transparency apply at every scale, recursively.
 
-> *Connection to the unified mission frame: HeartBank's mission is the restoration of humanity to the middle way — the optimal condition for awakening that modernity has systematically pushed away from at population scale. Restoration requires participation across the life arc: a person who learns gratitude reciprocity within their family in childhood, transitions to adult participation in neighborhood-scale gratitude networks, and eventually participates in planetary-scale flows as their resources and reach extend. The fractal three-level architecture is what makes this life-arc transition seamless rather than requiring repeated relearning at each scale; the architecture grows with the user.*
+> *Connection to the unified mission frame: Miss Aquarius's mission is to keep the middle way open at population scale against comfort-saturation — the new extreme that material abundance makes possible. (Wording updated 2026-09-23 to the institution's current statement of the mission, which no longer describes the middle way as a past that modernity took away.) Keeping it open requires participation across the life arc: a person who learns gratitude reciprocity within their family in childhood, transitions to adult participation in neighborhood-scale gratitude networks, and eventually participates in planetary-scale flows as their resources and reach extend. The fractal three-level architecture is what makes this life-arc transition seamless rather than requiring repeated relearning at each scale; the architecture grows with the user.*
 
 The paper proceeds as follows. §2 specifies the three-level architecture in detail. §3 demonstrates the self-similarity across the family-scale Phase 1 and the planetary-scale Phase 2 of the HeartBank deployment. §4 articulates the four design properties that make the fractality work. §5 articulates the three structural advantages the fractality produces. §6 honestly names the conditions under which the fractality breaks and the supplementary mechanisms that compensate. §7 closes.
 
@@ -65,7 +80,7 @@ Transfers between node-types follow a small set of conventions:
 
 - **Proximity rule** — transfers are constrained by geographic / relational proximity at all scales (family members, neighbors, city-area participants, regional networks). The proximity rule is the structural answer to anti-laundering concerns; it applies identically at every scale.
 - **50/50 split convention** — a self-thank reward (a participant's own reward for engaging the gratitude flow) splits 50/50 between personal wallet and re-tip jar, at every scale. The convention's pedagogical content (specified in the *kids-as-triggers self-thanking* paper) operates identically at every scale.
-- **Aura-weighted scoring** — destinations and amounts are calibrated using the aura primitive (the cross-currency reputational signal), at every scale. The scoring substance differs by scale (family aura is family-internal; planetary aura is platform-wide), but the scoring *mechanism* is identical.
+- **Floor-and-remainder disbursement** *(corrected 2026-09-23; this bullet previously read "aura-weighted scoring" — see §2.6)* — when the collective pool disburses to the flow-through nodes, it disburses an **equal floor per verified human**, delivered through that person's flow-through node, plus an **aura-weighted remainder bounded so that no node's total exceeds k × the floor**. The parameters (floor : remainder, and k) are public and frozen for the season. The aura never selects a recipient. The rule is identical at every scale; the parameter values may differ by scale.
 - **AI arbiter band-clamp recommendation** — Miss Aquarius recommends amounts within an institutional band-clamp at every transfer surface, at every scale. The arbiter operates identically; the clamp values differ by scale.
 
 ### 2.3 The AI arbiter as scale-invariant operator
@@ -90,7 +105,7 @@ The architecture combines three node-types in a directional flow, with the same 
                                  │
                                  │  ← four transfer conventions
                                  │     (proximity / 50-50 split /
-                                 │      aura-weighted scoring /
+                                 │      floor + bounded remainder /
                                  │      AI arbiter band-clamp)
                                  ▼
    ┌─────────────────────────────────────────────────────────────┐
@@ -116,10 +131,51 @@ The four transfer conventions operate at every transfer surface above:
 |---|---|
 | **Proximity rule** | Transfers constrained by geographic / relational closeness (family ↔ neighborhood ↔ region) |
 | **50/50 split** | Self-thank reward splits between personal wallet and re-tip jar — same pedagogy, same proportions |
-| **Aura-weighted scoring** | Destinations and amounts calibrated by the aura primitive; substance differs by scale, mechanism identical |
+| **Floor-and-remainder disbursement** *(corrected; §2.6)* | The pool's disbursement to flow-through nodes: an equal floor per verified human, plus an aura-weighted remainder bounded at k × the floor; parameters public and frozen in-season; rule identical at every scale |
 | **AI arbiter band-clamp** | Miss Aquarius recommends within an institutional band; clamp values differ by scale, arbiter operates identically |
 
 The self-similarity is structural: the *same* three node-types, the *same* four conventions, the *same* arbiter, the *same* transparency pattern — at every scale. A user who has internalized the architecture at family scale recognizes the same architecture at planetary scale and does not need to learn a new mental model. Phase 1 → Phase 2 is not a new product; it is the same architecture extended beyond the family.
+
+### 2.6 Correction (2026-09-23): how the collective pool disburses
+
+*Added in the 2026-09-23 revision. A correction to a deposited mechanism, stated in the open rather than re-worded.*
+
+**What the deposited text said.** Among the four transfer conventions, §2.2 listed *"Aura-weighted scoring — destinations and amounts are calibrated using the aura primitive (the cross-currency reputational signal), at every scale."* §3.1 applied it to "the family steward's distribution decisions" and §3.2 to "recipient selection." Those sentences now read as corrected above; this section records what they said and why they changed.
+
+**What replaces it.** When the collective pool disburses to the flow-through nodes, it does so in two parts, under four rules.
+
+1. **An equal floor per verified human.** One person, one floor — however many accounts they hold or families they belong to. The floor is delivered **through the person's flow-through node** (the family kitty at family scale, the participant's re-tip flow-through at planetary scale), never straight into a personal destination: the pool's own-initiative disbursements fill flow-through nodes only, and whatever reaches a personal destination arrives there by a person's act.
+2. **A bounded remainder, weighted by the aura read as a witness-count** — how much witnessed giving has crossed a node — never as a measure of anyone's worth or of what they hold. The remainder is bounded so that **no node's total exceeds k × the floor.**
+3. **The parameters are public and frozen for the season.** The ratio of floor to remainder, the bound k and the cadence are published, cannot change mid-season, and are revised only at the annual reset.
+4. **No share is ever rendered as a rank, a comparison or a rate.**
+
+```
+   ONE SEASON'S DISBURSEMENT — the pool to three flow-through nodes
+
+   node A   ██████████ │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+   node B   ██████████ │▒▒▒▒▒▒                          │
+   node C   ██████████ │                                │
+            └─ floor ─┘ └──── aura-weighted remainder ──┘
+            equal, per   bounded: no node's total may exceed
+            verified     k × the floor (here k = 4)
+            human
+
+   ▸ the largest total is at most k times the smallest — by construction
+   ▸ floor : remainder, k and the cadence are public and frozen in-season
+   ▸ no node's share is ever displayed beside another's
+```
+
+**Why a floor.** The deposited convention had none. Under it, a node that had carried little giving would receive little, so the pool would have allocated the *means* of giving by the record of *past* giving — the opposite of the universal means the corpus's *Manufactured Universal Giving* depends on. The verified human is the unit because it is the only one that cannot be multiplied by opening accounts or joining families.
+
+**Why the remainder is bounded — the anti-rank bound.** An unbounded weight on amounts has magnitude, and magnitude invites comparison. A share that can be published, or inferred, becomes a league table of families or persons — a rank, which the institution refuses in every surface. The bound k caps the ratio between any two nodes' totals, so the disbursement cannot distinguish participants by more than a published factor, and rule 4 keeps even that from being displayed. Once the disbursement function is written, the bound is a property of the function rather than a promise by its operator: no operator can exceed it without replacing the function.
+
+**A reading, not a mechanism.** The two parts correspond to two of the four *brahmavihāra*. The floor is *karuṇā* — compassion, offered equally and asking nothing of anyone. The remainder is *muditā* — gladness at giving that has already happened. *Deletion test:* remove both words and every rule above stands unchanged.
+
+**Why the remainder is not drawn.** The corpus's called draw (*Decided by No One*) governs turns — decisions in which every eligible party deserves the same number of turns. A disbursement proportional to something is not a turn, and forcing it into a draw would hide a judgment behind a mechanism. The equal part of this rule is the floor; the weighted part is a bounded weight on an amount, never an order of persons.
+
+**A shape rule, not a mandate.** The rule governs *how* the pool disburses, not *that* it must. If it disburses at all, it disburses an equal floor per verified human, with no node above k × the floor. The floor may shrink only as a consequence of human giving rising, never as an instrument for moving a number.
+
+**What did not change.** The four enumerated claims stand as written. The fractal property is not weakened; it is cleaner. The deposited convention was applied in three different places — the pool, a steward's distribution, and recipient selection — and only one of those was a pool disbursing. The corrected convention applies in exactly one place, the transfer from collective pool to flow-through node, and it applies there identically at both scales.
 
 ---
 
@@ -135,7 +191,7 @@ The HeartBank deployment instantiates the three-level architecture at two scales
 | **Re-tip flow-through** | The family kitty (multi-party transaction account on regulated rails; the family steward routes flows from the kitty to personal wallets per Miss Aquarius's band-clamp recommendation and family-level governance) |
 | **Personal destination** | The family member's personal wallet (or, for child participants, the parent-supervised child wallet) |
 
-The transfer conventions at family scale: proximity is the family relationship; 50/50 split applies to the kid's self-thank reward; aura-weighted scoring applies to the family steward's distribution decisions; band-clamp AI recommendations operate on every disbursement.
+The transfer conventions at family scale: proximity is the family relationship; 50/50 split applies to the kid's self-thank reward; the pool's contribution to the family kitty is an equal floor per verified family member plus a bounded remainder (§2.6) — ⚠️ *the deposited text applied aura-weighted scoring to "the family steward's distribution decisions"; that application is withdrawn: the steward is a person, and how a person distributes is theirs to decide, never scored*; band-clamp AI recommendations operate on every disbursement.
 
 ### 3.2 Phase 2 — planetary scale
 
@@ -145,7 +201,7 @@ The transfer conventions at family scale: proximity is the family relationship; 
 | **Re-tip flow-through** | The re-tip jar (per-participant flow-through account into which Miss Aquarius's anonymous donations and other participants' tips flow; the participant routes outgoing tips from the re-tip jar to neighborhood-proximity-constrained recipients) |
 | **Personal destination** | The participant's personal wallet (terminal destination for tips received) |
 
-The transfer conventions at planetary scale: proximity rule constrains re-tip flows to geographic neighborhoods; 50/50 split applies to the participant's self-thank reward (mirroring the Phase 1 pedagogy); aura-weighted scoring applies to recipient selection; band-clamp AI recommendations operate on every recommendation surface.
+The transfer conventions at planetary scale: proximity rule constrains re-tip flows to geographic neighborhoods; 50/50 split applies to the participant's self-thank reward (mirroring the Phase 1 pedagogy); the pool's contribution to each participant's flow-through node is an equal floor per verified human plus a bounded remainder (§2.6) — ⚠️ *the deposited text applied aura-weighted scoring to "recipient selection"; that application is withdrawn: recipients are chosen by the participant who gives, and the pool selects no recipient*; band-clamp AI recommendations operate on every recommendation surface.
 
 ### 3.3 The self-similarity is structural
 
@@ -163,7 +219,7 @@ Every node in the system is one of the three node-types. The architecture admits
 
 ### 4.2 The same transfer conventions at every scale
 
-The proximity rule, the 50/50 split convention, the aura-weighted scoring, and the AI arbiter band-clamp recommendation are *identical* at every scale. The substance of each convention adjusts to the scale (proximity is family-relationship at family scale; geographic-neighborhood at planetary scale), but the convention itself is the same.
+The proximity rule, the 50/50 split convention, the floor-and-remainder disbursement (corrected from *aura-weighted scoring*; §2.6), and the AI arbiter band-clamp recommendation are *identical* at every scale. The substance of each convention adjusts to the scale (proximity is family-relationship at family scale; geographic-neighborhood at planetary scale), but the convention itself is the same.
 
 ### 4.3 The same AI arbiter at every scale
 
@@ -233,6 +289,12 @@ The author and HeartBank® will not seek patent on this specification or any por
 
 **And the architecture may be serving the designer.** A self-similar system is markedly easier to specify, document and reason about than two purpose-built ones — a real benefit accruing to the builder rather than the user, and the one most likely to be mistaken for the user-facing benefit.
 
+**The corrected disbursement rule (§2.6) is unbuilt and unparameterised.** No pool disburses yet; k, the floor-to-remainder ratio and the cadence have no values; nothing about the rule has been observed. *Added 2026-09-23.*
+
+**A floor per verified human needs to know who is one human.** In the family-scale deployment one person may hold several family accounts on one device, and nothing server-side records that those accounts are one person. A floor computed from accounts would pay that person several floors. The rule therefore depends on a proof-of-personhood layer doing person-level de-duplication before any per-human floor is computed, and the paper does not specify that layer. *Added 2026-09-23.*
+
+**The correction arrived after deposit.** The deposited text's aura-weighted convention, as first published, had no floor and no bound, and applied the aura to a person's distribution decisions and to recipient selection. It is withdrawn here in the open, and the earlier text remains in the deposited version for anyone who reads it; a reader citing the paper should cite this version. *Added 2026-09-23.*
+
 ---
 
 ## Acknowledgments
@@ -262,7 +324,7 @@ The fractal-architecture literature (Mandelbrot's mathematical foundations; Chri
 - GitHub: github.com/thonly/publications/blob/main/defensive-publications/fractal-three-level-architecture.md
 - arXiv (deferred): cs.CY (target if reactive trigger)
 - IP.com (deferred): per the corpus's six-venue defensive-publication baseline
-- Internet Archive · archive.today · perma.cc snapshots: per the monthly snapshot cadence
+- Internet Archive · archive.today snapshots: per the snapshot cadence *(perma.cc, listed here before 2026-09-23, is no longer used by the institution)*
 
 ---
 
