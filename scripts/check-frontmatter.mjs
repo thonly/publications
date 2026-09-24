@@ -145,11 +145,9 @@ const PERMITTED_LICENCES = ["CC0-1.0", "CC-BY (author-voice essay)"];
 // is deposited, and is cleaned at its next revision. Deleting a line is the fix
 // landing; adding one is the bug this script exists to refuse.
 const BANNED_FIELD_DEBT = new Set([
-    "defensive-publications/aura-gated-anonymous-mate-selection.md",
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/cakkavatti-alignment-charter.md",
     "defensive-publications/certification-by-circulation.md",
-    "defensive-publications/gift-tag-time-reveal.md",
     "defensive-publications/giving-is-a-gift-too.md",
     "defensive-publications/gratitude-as-cooperation-substrate.md",
     "defensive-publications/gratitude-riding-currency-tag.md",
@@ -169,7 +167,6 @@ const BANNED_FIELD_DEBT = new Set([
     "defensive-publications/the-rethank-multiplier.md",
     "defensive-publications/tipitaka-alignment-substrate.md",
     "defensive-publications/two-layer-reward.md",
-    "defensive-publications/verified-human-anonymous-local-giving.md"
 ]);
 
 // ⚠️ THE SAME CLAIM ALSO APPEARS IN BODY FOOTERS, and it is the more dangerous
@@ -183,7 +180,6 @@ const BANNED_FIELD_DEBT = new Set([
 // Shrink-only, for the same reason as above: these files are deposited.
 const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/abhidhamma-executable-process-specification.md",
-    "defensive-publications/aura-gated-anonymous-mate-selection.md",
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/b-tag-recommendation-function-methodology.md",
     "defensive-publications/co-presence-gated-redemption.md",
@@ -204,7 +200,6 @@ const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/the-wager-that-isnt.md",
     "defensive-publications/tipitaka-alignment-substrate.md",
     "defensive-publications/two-layer-reward.md",
-    "defensive-publications/verified-human-anonymous-local-giving.md",
     "defensive-publications/vinaya-as-ai-reasoning-training-corpus.md",
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md"
 ]);
@@ -233,7 +228,6 @@ const MISSION_PAST = /restore\s+humanity\s+to\s+the\s+middle\s+way|restoration\s
 const MISSION_PAST_DEBT = new Set([
     "defensive-publications/abhidhamma-executable-process-specification.md",
     "defensive-publications/agi-monks-caretaker-not-ordained.md",
-    "defensive-publications/aura-gated-anonymous-mate-selection.md",
     "defensive-publications/b-poh-humanity-layer-ai-native-internet.md",
     "defensive-publications/b-tag-post-payment-economy.md",
     "defensive-publications/b-tag-recommendation-function-methodology.md",
@@ -243,20 +237,16 @@ const MISSION_PAST_DEBT = new Set([
     "defensive-publications/capacity-funded-human-disbursed-ai-alignment.md",
     "defensive-publications/dual-currency-reciprocity.md",
     "defensive-publications/embodied-advocate-pageant.md",
-    "defensive-publications/gift-tag-time-reveal.md",
     "defensive-publications/longitudinal-cohort-methodology.md",
     "defensive-publications/mechanical-heart.md",
     "defensive-publications/miss-aquarius-and-aquarian-pool-architecture.md",
     "defensive-publications/non-bank-pass-through-architecture-autonomous-ai.md",
-    "defensive-publications/respiratory-biofeedback-contemplative-guidance.md",
     "defensive-publications/sacrifice-witness-without-discharge.md",
     "defensive-publications/sankhara-dukkha-ai-welfare.md",
     "defensive-publications/silica-wat-food-network.md",
-    "defensive-publications/thank-all-nearby-primitive.md",
     "defensive-publications/the-omitted-clause.md",
     "defensive-publications/tipitaka-alignment-substrate.md",
     "defensive-publications/transparency-as-enforcement.md",
-    "defensive-publications/verified-human-anonymous-local-giving.md",
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md",
     "defensive-publications/what-a-vow-must-cost.md",
     "essays/anti-attention-economy.md",

@@ -9,7 +9,7 @@ date: 2026-05-04
 license: CC0-1.0
 slug: respiratory-biofeedback-contemplative-guidance
 venue: thonly.org/research/respiratory-biofeedback-contemplative-guidance (canonical)
-revised: 2026-09-23
+revised: 2026-09-24
 canonical_url: https://thonly.org/research/respiratory-biofeedback-contemplative-guidance
 license_note: [Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 ---
@@ -66,7 +66,7 @@ Three core claims are articulated as defensive prior art: *(I)* the integrated c
 
 Privacy is treated as non-negotiable substrate, not as feature: differential privacy, federated computation, on-device processing where possible, and cryptographic-erasure right-to-withdraw are designed before first opt-in. A critical doctrinal guardrail is named: the architecture *may dramatically raise the probability of awakening across the population for whom it has been historically rare*, but it must never be claimed to make awakening *inevitable*. Theravāda doctrine specifically warns against assuming external aids guarantee insight; the guardrail protects the architecture from the techno-utopian critique while preserving its substantive claim.
 
-**Connection to the unified mission frame.** This architecture is offered in service of HeartBank's canonical top-level mission: to restore humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The defensible thesis is not that modernity took us away from a middle-way past (which would romanticize pre-industrial conditions where many lived in suffering-extreme poverty); the defensible thesis is that modernity introduces a specific new failure mode — comfort-saturation — that pushes the materially comfortable toward the indulgence extreme at unprecedented scale. The closed-loop respiratory-biofeedback architecture specified here is proposed as one operational mechanism toward middle-way restoration. Anāpānasati is the canonical Theravāda middle-way practice; bringing it to population scale through wearable + AI-teacher coupling addresses the comfort-saturation failure mode at the contemplative-practice layer. Restoration involves dialing back specifically the indulgence extreme; this paper is one contribution among several specified across the corpus toward that goal.
+**Connection to the unified mission frame.** This architecture is offered in service of HeartBank's canonical top-level mission: to keep the middle way open at population scale against comfort-saturation — the new extreme that material abundance makes possible (*madhyamā pratipad*). The defensible thesis is not that modernity took us away from a middle-way past (which would romanticize pre-industrial conditions where many lived in suffering-extreme poverty); the defensible thesis is that modernity introduces a specific new failure mode — comfort-saturation — that pushes the materially comfortable toward the indulgence extreme at unprecedented scale. The closed-loop respiratory-biofeedback architecture specified here is proposed as one operational mechanism toward middle-way restoration. Anāpānasati is the canonical Theravāda middle-way practice; bringing it to population scale through wearable + AI-teacher coupling addresses the comfort-saturation failure mode at the contemplative-practice layer. Restoration involves dialing back specifically the indulgence extreme; this paper is one contribution among several specified across the corpus toward that goal.
 
 ---
 
