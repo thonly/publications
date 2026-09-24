@@ -33,4 +33,4 @@ canonical URL form that is now a 301 on thonly.org.*
 | File | Paper | Venue | Submitted | Posted |
 |---|---|---|---|---|
 | `b-links-signed-provenance.pdf` | B-Links: Proof-of-Humanity-Signed Shareable Provenance… | TDCommons, Defensive Publications Series | 2026-09-19 | 2026-09-21 — [dpubs_series/11797](https://www.tdcommons.org/dpubs_series/11797) |
-| `subject-released-attestation.pdf` | Subject-Released Attestation | TDCommons — packet prepared, **not yet submitted** | — | — |
+| `subject-released-attestation.pdf` | Subject-Released Attestation: A Market Design in Which the Operator Cannot Answer | TDCommons, Defensive Publications Series | 2026-09-23 | ⏳ awaiting approval |
