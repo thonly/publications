@@ -1,3 +1,16 @@
+### 2026-09-24 — the-called-draw: its polish round, ruled and applied; first deposit (founder: *"let's polish now then submit to TDCommons"* · *"do per your recommendation"*)
+
+Model round `TH/notes/reviews/the-called-draw/2026-09-23-r1` — gpt-5 · grok-4.6 · gemini-3.8-flash · the cold control on
+claude-opus-5-5 (Message Batches); 40 points triaged: **29 accepted, 10 rejects upheld, 1 verify resolved** (six citations
+confirmed against primary sources). **The claims narrowed to the census survivors** after four neighbours the full census
+missed — Ethereum's attestation committees, RFC 3797's ordered alternates, Shutter-style timed key release, and the exclusions
+as ordinary practice; contradictions fixed; rules added (service follows the committed order · a draw-id schedule · the
+quorum's recipient list published with the commitment); honest limits added (no forward secrecy once a time-lock releases ·
+a beacon that must survive to the reset). The patent parenthetical restated as disclosure and bibliography only. Draft banner
+→ note; Terms table. Legs: OTS `.ots` → `.r1.ots` (Bitcoin-complete), new proof calendar-only · TSA `2026-09-24.sha256` ·
+**Zenodo FIRST DEPOSIT `10.5281/zenodo.22933319` (concept `10.5281/zenodo.22933318`)**, census gate passed · index 2.5.8,
+hold lifted. `status: draft` kept (the claims changed; no human round yet).
+
 ### 2026-09-23 (late night) — wave-1 TDCommons pre-mirror repairs, nine defensive publications, one chain run (founder: *"please do for me"* · *"do a quick census only where a claim is worth keeping"*)
 
 The all-72 eligibility screen and `scripts/mirror-lint.py` (built the same night) found what must never reach a permanent,
