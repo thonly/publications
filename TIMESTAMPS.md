@@ -14,8 +14,11 @@ rotation-over-liveness [11860](https://www.tdcommons.org/dpubs_series/11860) · 
 [11870](https://www.tdcommons.org/dpubs_series/11870). With file one (11797), **12 of 12 submissions posted, none awaiting.**
 
 ⛔ **No leg ran, and none was owed:** no markdown changed. Each mirror is a dated snapshot of the text submitted, never a
-canonical venue. Recorded with `check-mirrors.py --posted`; the check reads 12 of 12 clean. ⚠️ **Not verified
-byte-for-byte**, as with file one: the posted PDFs were not compared against `submitted/`.
+canonical venue. Recorded with `check-mirrors.py --posted`; the check reads 12 of 12 clean. ✅ **Posted PDFs
+verified the same day, all twelve (file one too): `check-mirrors.py --verify-posted` — each posting is our submitted PDF
+word for word, IN ORDER, plus the venue's one-page cover, page numbers and running stamps (a checksum cannot say this:
+the venue re-writes the file). Controls: a one-word swap caught, a wrong-paper comparison fails on every run.** Fetched
+through Chrome — the site now serves `curl` a Cloudflare challenge.
 
 ### 2026-09-24 — A230: the retired A126 mission sentence out of five defensive publications (founder: *"yes"* — do A230 alongside the-called-draw)
 

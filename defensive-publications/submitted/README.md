@@ -30,6 +30,11 @@ cite the earlier date rather than the posting's. *The first two PDFs were built 
 scratchpad, where the converter nearly vanished; file one's cover predates these lines and prints a
 canonical URL form that is now a 301 on thonly.org.*
 
+⭐ **Every posting is verified against the file here** — `scripts/check-mirrors.py --verify-posted SLUG --pdf <posted>`,
+word for word in order after the venue's cover, page numbers and stamps are stripped; the result and the posted file's
+SHA-256 go into `manifest.json` (`posted_verified`). All twelve matched on 2026-09-24. ⚠️ The site refuses `curl`
+(Cloudflare) — fetch the posted PDF through a browser.
+
 | File | Paper | Venue | Submitted | Posted |
 |---|---|---|---|---|
 | `b-links-signed-provenance.pdf` | B-Links: Proof-of-Humanity-Signed Shareable Provenance… | TDCommons, Defensive Publications Series | 2026-09-19 | 2026-09-21 — [dpubs_series/11797](https://www.tdcommons.org/dpubs_series/11797) |
