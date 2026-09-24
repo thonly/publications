@@ -1,3 +1,30 @@
+### 2026-09-23 — eight revisions in one chain run (the A92 bundle and the queued enrichments), and one new paper held
+
+**Founder: *"Continue with DRAFTABLE NOW and the A92 bundle. Use agents whenever possible."*** Seven drafting passes ran in
+parallel, one per document, each carrying every rider queued for its document (the `/draft` revision lane, step 5b);
+the chain then ran once, serially, for all eight. ⛔ **Each retiring proof was checked Bitcoin-complete before it was
+rotated.** The A92 gate (the unpaid relay's 9/05 proof) was open: it carried its Bitcoin attestation.
+
+| document | leg 1 · OTS (new proof, calendar-only at stamping) | leg 2 · TSA | leg 3 · Zenodo (new version) | leg 4 · index |
+|---|---|---|---|---|
+| the-unpaid-relay | `.ots` → `.r2.ots`; new `aa17fe6885c6…` | `2026-09-24.sha256` | `10.5281/zenodo.22929362` | 2.5.4 |
+| rotation-over-liveness | `.ots` → `.r1.ots`; new `070b60115eef…` | `2026-09-24.sha256` | `10.5281/zenodo.22929354` | 2.5.4 |
+| manufactured-universal-giving | `.ots` → `.r3.ots`; new `f86dbc4c95e8…` | `2026-09-24.sha256` | `10.5281/zenodo.22929351` | 2.5.4 |
+| fractal-three-level-architecture | `.ots` → `.r3.ots`; new `5b3d77b98037…` | `2026-09-24.sha256` | `10.5281/zenodo.22929350` | 2.5.4 |
+| the-persistence-architecture | `.ots` → `.r6.ots`; new `b307a491d699…` | `2026-09-24.sha256` | `10.5281/zenodo.22929361` | 2.5.4 |
+| the-gift-operation | `.ots` → `.r4.ots`; new `3857de663cce…` | `2026-09-24.sha256` | `10.5281/zenodo.22929355` | 2.5.4 |
+| essays/the-water-cycle | `.ots` → `.r2.ots`; new `fc1c6ac641af…` | `2026-09-24.sha256` | `10.5281/zenodo.22929365` | 2.5.4 |
+| program/prediction-register | `.ots` → `.r8.ots`; new `208e3c2f3558…` | `2026-09-24.sha256` | `10.5281/zenodo.22929363` | 2.5.4 |
+| **the-called-draw** *(new)* | first proof | `2026-09-24.sha256` | ⏸ **not deposited** — awaiting its `/polish` round | ⏸ HELD (`holds.json`) |
+
+⚠️ **Two things the run caught and did not ship.** (1) The index builder reads the working tree, and an unpushed personal
+essay held for the founder's pass was in it — the essay was parked outside the tree and the index rebuilt to 146
+documents, so CI's fresh-checkout build agrees with the served one. (2) `stamp-new.sh` stamps any proofless document in the
+tree, and it stamped the same held essay once; that proof was deleted uncommitted (only its hash had reached the calendar),
+and the essay was parked for the second stamping run. ⭐ **Both are the same shape: a tree-wide instrument cannot tell a
+held draft from a published one** — nothing marks the held state except that the file is untracked.
+The ledger `MISSION_PAST_DEBT` shrank by two (fractal, gift-operation), the A126 retrofit having ridden both revisions.
+
 ### 2026-09-21 — b-links-signed-provenance: POSTED at TDCommons (a mirror, not a revision)
 
 **Founder, 2026-09-23: *"b-links-signed-provenance has posted on tdcommons."*** The estate's first posting in an
