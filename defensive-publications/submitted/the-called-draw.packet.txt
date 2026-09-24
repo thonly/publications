@@ -1,0 +1,29 @@
+TDCOMMONS SUBMISSION PACKET — the-called-draw
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Decided by No One: Publicly Verifiable Random Selection and Round-Robin Rotation from a Committed Roster and a Public Randomness Beacon, with a Time-Locked Sealed Regime
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (244 words — limit 250)
+This disclosure specifies a publicly verifiable random selection method for allocating turns and oversubscribed admissions. The output is a pure function of inputs committed before the seed can be known (a frozen roster, a salt and the algorithm version, bound into a hash commitment on an append-only, externally timestamped log) and of a seed taken from a named future round of a threshold public randomness beacon, so anyone holding the disclosed inputs can recompute the result.
+
+Two forms share one keyed shuffle. The turn form deals every roster member exactly once per round in an unpredictable order, records an absence as a lapsed turn, and swaps the previous round's last member away from the next round's opening position. The lot form admits the first k members of the same shuffle; the remainder is an ordered waiting list. In the public regime every input is disclosed at commitment. In the sealed regime, for an operator allocating its own anonymous gifts, the roster and salt stay private and the inputs are encrypted to a named quorum and time-locked to a later beacon round.
+
+The exclusions are part of the method: no weight, score, rank, history or bid enters the order; no queue position is displayed; no turn can be banked, transferred or bought. Rules for draw-identifier schedules, service logs and beacon failure are stated, with honest limits. Prior art including RFC 3797, Ethereum committee shuffling and threshold timed-release encryption is cited, and the combination is disclosed.
+
+FILE       submitted/the-called-draw.pdf   (27 pages, 556 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT — verified 2026-09-24
+  [x] polish round r1 ruled and applied; item 40 citations confirmed against primary sources
+  [x] full /novelty census on file (census.py gate PASS); claims = the census survivors after the polish narrowing
+  [x] first Zenodo deposit 10.5281/zenodo.22933318 (concept); all four legs verified
+  [x] mirror-lint 0 refuse · 0 warn; PII 0; non-assertion present; Terms table; AI co-authorship in text
