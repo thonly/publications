@@ -93,6 +93,18 @@ def main():
         sys.exit(f"{md} not found — defensive publications only (A168 scope)")
     fm, body = front_matter(md.read_text(encoding="utf-8"))
 
+    # what must never reach a permanent posting — mirror-lint.py, REFUSE rules (wave 1, 2026-09-23)
+    import importlib.util as _u
+    _sp = _u.spec_from_file_location("mirror_lint", Path(__file__).resolve().parent / "mirror-lint.py")
+    _ml = _u.module_from_spec(_sp); _sp.loader.exec_module(_ml)
+    _hits = _ml.lint(a.slug)
+    _ref = [h for h in _hits if h[0] == "REFUSE"]
+    if _ref:
+        sys.exit(f"mirror-lint REFUSES {a.slug} — revise the paper first:\n" +
+                 "\n".join(f"  {k} L{i}: {ln[:120]}" for _, k, i, ln in _ref))
+    for _, k, i, ln in _hits:
+        print(f"⚠️  mirror-lint {k} L{i} (read it): {ln[:120]}", file=sys.stderr)
+
     first = fm.get("date", "")[:10]
     if not re.match(r"^\d{4}-\d{2}-\d{2}$", first):
         sys.exit(f"front matter `date:` is {first!r} — the first-publication date is the cover's point")
