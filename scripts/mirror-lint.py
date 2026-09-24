@@ -12,7 +12,7 @@ naming venues we never deposited at, and novelty language with no census behind 
   mirror-lint.py --selftest        the controls: each rule must fire on a planted case
 
 REFUSE — the paper is revised before it is mirrored:
-  draft-banner · perma-cc · false-mirror · placeholder
+  draft-banner · perma-cc · false-mirror · placeholder · a126-mission (the retired mission sentence)
 WARN — a human reads each hit (never a refusal, because a regex cannot tell scope):
   novelty — "novel", "revolutionary", "unprecedented", "first to", "no X in the world"…
             A hit on a line that states its aperture ("not found in … on <date>") is skipped.
@@ -29,6 +29,10 @@ REFUSE = {
     "perma-cc": re.compile(r"perma\.cc", re.I),
     "false-mirror": re.compile(r"mirrors? of this document", re.I),
     "placeholder": re.compile(r"\b(TODO|TBD|FIXME)\b|to be computed|\[placeholder\]"),
+    # A126 (2026-09-13): the retired mission sentence reads a middle-way PAST the frame rejects. It
+    # rides each paper's next revision on the site — but a posting never gets a next revision.
+    "a126-mission": re.compile(r"\brestore\s+humanity\s+to\s+the\s+middle\s+way\b|\bsystematically\s+pushed\s+away\s+from\b|"
+                               r"\bpushed\s+away\s+from\s+at\s+population\s+scale\b", re.I),
 }
 WARN = {
     "novelty": re.compile(
@@ -74,6 +78,7 @@ def selftest():
         "perma-cc": "archived at perma.cc/ABCD-1234",
         "false-mirror": "Mirrors of this document appear at GitHub, arXiv, IP.com.",
         "placeholder": "SHA-256: to be computed at publication",
+        "a126-mission": "our mission: to restore humanity to the middle way.",
         "novelty": "This composition is genuinely novel.",
         "therapeutic": "It can address anxiety disorders therapeutically.",
     }
