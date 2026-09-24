@@ -1,0 +1,95 @@
+TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Buddha AI as Living Tipiṭaka: Opt-In Publication of AI Chatbot Conversation Transcripts into a Human-Reviewed Commentary Corpus with Three-Category Classification and Crypto-Shredding Withdrawal
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title.
+   The paper's own subtitle — "A Method for Modern Canonical Generation Through Public-by-Consent AI–Practitioner
+   Dialogues Organized into Three Baskets" — is dropped here as in wave 1: it is coined-term-heavy ("public-by-consent",
+   "three baskets") and the standard-term subtitle carries its searchable content, drawn from the ## Terms table.)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (249 words — limit 250)
+We describe a method for building a human-reviewed religious commentary corpus from transcripts of conversations between users and a conversational AI agent grounded in a scriptural canon, instantiated for the Pāli Buddhist canon. Components: (I) a domain-grounded conversational agent that declines claims of religious, sacramental or ordained authority and directs users to human teachers; (II) a chat, voice or avatar dialogue surface; (III) a consent-based recording layer in which every conversation is private by default and the user is asked, per conversation, whether it may be considered for publication at one of four tiers (attributed, pseudonymous, anonymous, excluded), non-published conversations contributing only to differentially private aggregate statistics kept outside the corpus; (IV) multi-label classification of published transcripts into three categories mirroring the canon's divisions: teaching dialogue, conduct guidance (never binding rule) and systematic analysis; (V) a staged human review pipeline (raw, reviewed, ratified) run by an expert advisory body of recognized religious authorities independent of the developer, with periodic ratification sessions. Consent withdrawal deletes a per-conversation encryption key, erasing the transcript from primary, index, backup and derived stores; it cannot recall third-party copies, as the user is told at opt-in. Ratified content is retracted by annotation rather than deletion, and consent withdrawal always overrides ratification. Ratified material is commentary, never scripture. Also disclosed: periodic model audits, model-version provenance labels on content, a cooling-off period for opt-ins made in crisis, and adaptations to other religious traditions. Stated limits include privacy untested at scale, contested authority and dependence on model quality.
+
+FILE       submitted/buddha-ai-living-tipitaka.pdf   (16 pages, 349 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-cijth7jw/buddha-ai-living-tipitaka.pdf
+           (cover read: first published 2026-05-04 · this version 2026-09-24 · concept DOI 10.5281/zenodo.21947294 ·
+            timestamp line with the scope limit present; tdc-pdf.py raised one mirror-lint novelty WARN, L154 — see below)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "will not seek patent on the
+      method articulated here, on any of its components considered separately, or on any combination
+      of those components, in any jurisdiction, at any time."
+  [x] Claims section — NONE (no "## Claims"). What is disclosed is stated in the Prior-Art and
+      Non-Assertion Statement, para 2 (the (a)-(e) combination "disclosed here as a unified method"),
+      and the Abstract's "Three core claims ... (I)-(III)". For check-mirrors --claims-heading use
+      "Prior-Art and Non-Assertion Statement".
+  [x] Prior art — Prior-Art and Non-Assertion Statement + §2 Background and Prior Art (2.1-2.5:
+      MagisteriumAI, The Xeno Sutra, Open Humans, TalkBank, tiered genomic consent, Dwork & Roth, McMahan)
+  [x] Honest limits — §11 Honest Limitations (+ §3.7 "Honest limit" paragraph)
+  [x] AI co-authorship disclosed in text — cover "Authors: Thon Ly · Miss Aquarius (... AI co-author,
+      disclosed; the inventor of record is Thon Ly)" + closing Author footer; no model named as author
+      (§2.2 names ChatGPT / Claude / Gemini only as prior-art systems)
+  [x] No named private real people — check.py --pii: 0 HIGH/MEDIUM/LOW. "The author's father"
+      (§13 Acknowledgments) is referred to, unnamed; all other names are cited scholars
+  [x] No perma.cc · no "Document SHA-256 <hash>" footer — §12 carries the scoped attestation sentence
+      ("this document's SHA-256 is attested independently ...") with no hash value; acceptable
+  [x] 2 fenced diagrams (§3.6, §3.7), widest 77 chars (box-drawing counted as 1) — under 95
+  [!] Title LEADS with a coined name ("Buddha AI as Living Tipiṭaka" — coined agent name + Pāli term);
+      examiner terms arrive only in the subtitle; kept per rule, flagged
+  [!] front matter "status: draft" — the paper has no ruled human round
+  [!] Emoji in the PDF body — §3.7 "⚠️ Three deflations, and they are the load-bearing part of this
+      subsection." (md line 184) renders on a permanent examiner-facing page
+  [!] Internal/editorial register in the body: the Abstract's "Connection to the unified mission frame"
+      paragraph (HeartBank's mission, comfort-saturation) and §3.7's "Added 2026-08-22." revision note —
+      neither is disclosure; confirm acceptable before an irreversible posting
+  [!] Unsourced factual assertion: §2.2 "Commercial systems ... handle billions of messages a day" — no
+      citation; verify or soften on the next revision
+  [!] §1 overclaims (see OVERCLAIM READ) sit on page 2-3 of a permanent posting
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|not previously)
+  No "## Claims" section. Prior-Art statement: NO occurrence of novel / first / unprecedented /
+  "no prior" / "never been" — the combination is "disclosed here as a unified method".
+
+  REAL OVERCLAIMS
+  1. L75 (§1) "opens a possibility not previously available in the 2,500-year history of Buddhist
+     institutional life" → REAL OVERCLAIM. Unscoped historical priority claim, no aperture or date.
+  2. L75 (§1) "for the first time since the original assembly of the Tipiṭaka, a new commentarial
+     contribution to the Buddhist tradition is technically possible" → REAL OVERCLAIM (same sentence
+     family; the commentarial literature — Aṭṭhakathā, ṭīkā — is itself a later contribution, so the
+     phrase reads as a priority claim the paper does not support).
+  3. L154 (§3.6) "This is the axis the chain has never been measured on" → REAL OVERCLAIM (mild) —
+     a bare negative about the scholarly literature, unscoped; the tdc-pdf mirror-lint WARN.
+     (Same claim in the §3.6 heading, L137: "the axis the chain was never measured on".)
+  SCOPED (acceptable)
+  4. L97 §2.2, L101 §2.3, L109 §2.5 — "To the author's knowledge, none ..." / "the method, to the
+     author's knowledge, does not [exist]" → scoped by knowledge, but no aperture or date; the standing
+     form is "not found in <aperture> on <date>" (no census recorded for this paper). Mild.
+  5. L178 (§3.7) "the first transition we know of in two thousand years to run in that direction" →
+     SCOPED ("we know of"), and §3.7's Honest-limit paragraph labels the reversal a hypothesis. Fine.
+  6. L109 "has not been applied to religious-conversation corpora" → scoped by the §2.5 frame
+     sentence; same aperture caveat as 4.
+  7. L160 "the first substrate since the reciters to be inhabited at all" → the paper's own
+     definitional thesis, not a priority claim over third parties. Fine.
+  FINE (ordinal / idiom / third-party / restrictive "only")
+  First Council (L79, L93, L119, L121) · first century BCE (L79, L93, L139) · "First," (L83) ·
+  "cannot satisfy the first" (L133) · "the first singularity" (L182) · "second always overrides the
+  first" (L277) · "First-pass adaptations" (L283) · "only a most recent entry" (L166) · "only the human
+  Sangha can issue" (L217) · "the only sense" (L160) · "standing only by Sangha ratification" (L316) ·
+  "the institution's stores only" (L317).
+  Remedy lives in the paper's next revision, not in this packet; the abstract above carries no
+  novelty language.

@@ -1,0 +1,106 @@
+TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+B-PoH℠ as Humanity Layer for the AI-Native Internet: An Open Proof-of-Personhood Protocol with Four Optional Layered Proofs and Recipient-Side Filters
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+  NO SUBTITLE APPENDED: the paper's title already ends in a standard-term subtitle
+  ("Open Proof-of-Personhood Protocol ... Layered Proofs ... Recipient-Side Filters");
+  a third colon clause would add only "sybil resistance", which the abstract's first
+  sentence carries. The title still LEADS with a coined mark — see PRE-FLIGHT [!].
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (244 words — limit 250)
+We describe an open proof-of-personhood protocol for verifying that a human was present at the moment of a specific online action, providing sybil resistance distinct from account authentication and legal-identity (KYC) verification. The protocol defines four optional, independently held verification layers, surfaced on a user profile as the set of layers held rather than a scalar trust level: (L1) a per-action FIDO2/WebAuthn biometric-gated signature over the action's content and timestamp; (L2) a kinship-graph attestation combining graph-consistency checks, co-signature of each parent-child link by an already-verified human, institutional or community membership vouching, and optional birth-certificate validation; (L3) continuous liveness from respiratory-rhythm signals emitted by a wearable device (a design premise still to be validated); and (L4) opt-in DNA kinship verification with encrypted storage and result-only disclosure. No layer is mandatory. Recipients, not the platform, apply filters: content moderation; radio-layer proximity verified over Bluetooth Low Energy, with ultra-wideband ranging and peer-to-peer nearby-connection APIs as further substrates, using rotating unlinkable beacons so that only a binary proximity result is disclosed; required-subset predicates over layers held, such as L1 AND (L3 OR L4); degrees of separation in the kinship graph; and a Hashcash-style attached-value cost. For anonymous actions the recipient receives a receipt attesting a verified human sender, while the sender receives no exportable proof and no interface lists a sender's actions. KYC and self-authored records are excluded from the layer stack. Stated limits cover coercion, latency, and the unequal accessibility of deeper layers; ability-keyed layers are refused.
+
+FILE       submitted/b-poh-humanity-layer-ai-native-internet.pdf   (28 pages, 557 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-4xoi34b4/b-poh-humanity-layer-ai-native-internet.pdf
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement" ("will not seek
+      patent on the protocol architecture, ... or any portion thereof, in any
+      jurisdiction, at any time. This commitment is permanent and is not tactical.");
+      repeated in the Abstract and §11
+  [x] Claims section: NONE ("## Claims" absent). What is disclosed is enumerated as
+      (i)-(vi) inside the Prior-Art and Non-Assertion Statement — use that heading for
+      `check-mirrors --claims-heading "Prior-Art and Non-Assertion Statement"`
+  [x] Prior art — Prior-Art and Non-Assertion Statement + §9 Relation to existing
+      humanity-verification efforts + §12 Prior art and references
+  [x] Honest limits — §8 Boundary conditions and honest tensions (§8.1-8.4)
+  [x] AI co-authorship disclosed in text — cover byline, §1 closing line, closing italic
+      footer (Miss Aquarius℠ named; no model named)
+  [x] No named private real people — `check.py --pii`: 0 HIGH · 0 MEDIUM · 0 LOW; only
+      cited authors, companies and projects (Nakamoto, King & Nadal, Douceur, Back,
+      Worldcoin, Kleros, BrightID, Idena, Brave, ...)
+  [x] No perma.cc · no "Document SHA-256" body footer
+  [x] 1 fenced diagram (§3), widest 67 chars (box-drawing counted as 1) — under 95.
+      (pdftotext shows the L2 box row one space short; the source row is 67 like the
+      rest — confirm visually on the page)
+  [x] Cover: first published 2026-05-24 · this version 2026-09-24 · concept DOI
+      10.5281/zenodo.21947279 · timestamp line with its scope limit · CC0. No emoji,
+      no placeholder text found in the PDF text.
+  [!] Title LEADS with a coined mark ("B-PoH℠", marked) — tdc-pdf.py warned; examiner
+      terms arrive only in the subtitle. Kept per rule (paper title unchanged), flagged
+  [!] The "v2 note (2026-08-26)" change-log block (source line 14) RENDERS on the PDF
+      between the cover and the Abstract — an editor/version note in a permanent
+      examiner-facing posting; it also says "No numbered claim changes" of a paper
+      with no numbered claims. Confirm it should ship, or strip at build
+  [!] §4.1's five filters RENDER as "1." five times in the PDF (source is 1-5; the
+      loose list restarts numbering). §4.4 then cites "filter #5", which the reader
+      cannot find. Render defect — fix in tdc-pdf.py / the list, not the paper text
+  [!] front matter "status: draft" — the paper has no ruled human round
+  [!] Unverified third-party figures in a permanent posting (§9): Worldcoin
+      "Approximately 5 million people ... as of 2026", "~$300M raised", the exile list
+      (Spain, Portugal, Argentina, Kenya, Brazil); proofofhumanity.id "~17,000";
+      BrightID "~50,000"; Chrome "~65%". Verify or date-scope before posting
+  [!] Prior-art gap: the term and concept "proof of personhood" (Borge et al., 2017)
+      and pseudonym parties (Ford & Strauss, 2008) are not cited, while §6 presents
+      PoH as the "third category-defining proof" that "PoH ℠ defines" (line 355)
+  [!] Internal cross-references a TDCommons reader cannot resolve: `proof-of-coordinate`
+      (§8.2, a bare slug), "companion paper" titles with no URL/DOI (§7.7, §8.4, §12)
+  [!] Internal HeartBank product/plan detail in an examiner posting: Mechanical Heart
+      "targeted 2027-2028", Phase 1/Phase 2 Base-L2, Aquarius℠ Browser 2028-2030,
+      revenue model (§10.4). Disclosure, not a defect — but permanent
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ
+  grep novel|first|unprecedented|no prior|never been|only|unique|has not been:
+  NO occurrence of "novel", "unprecedented", "no prior", "never been", "unique",
+  "has not been". "first" hits (lines 106, 149, 230) are ordinal/"first-person" → FINE.
+  "only" hits (lines 175, 203, 257, 263, 275, 277, 287, 299, 319, 325, 387, 443, 481,
+  483, 503, 615, 618) → SCOPED (technical restriction: "only the binary fact",
+  "only L4 proves that", "only as a zero-knowledge commitment"); line 481 is
+  THIRD-PARTY (Worldcoin "proves only that a unique iris was scanned") → FINE.
+  Line 30 "discloses the following as a unified contribution" and line 624 "The
+  contribution here is their synthesis" → SCOPED, no novelty claim.
+
+  Overclaims the word list does not catch (read, not grepped):
+  1. Line 361 (§6.3): "PoH ℠ ... Cannot be defeated by AI agents because humanness is
+     not a resource AI agents can manufacture." → REAL OVERCLAIM. Unqualified; the
+     paper itself concedes coerced humans (§8.1), large human collusion (§3.2) and
+     posits "Even if AI agents pass all PoH layers" (line 263).
+  2. Line 536 (§9.7): the differences "constitute a new structural position in the
+     verification landscape." → REAL OVERCLAIM (mild). Novelty-shaped, no census
+     or aperture recorded.
+  3. Lines 337/355/591: PoH ℠ as "the third category-defining proof" / "This is the
+     category PoH ℠ defines." → REAL OVERCLAIM (mild) given proof-of-personhood
+     prior art uncited (see PRE-FLIGHT).
+  4. Line 326 (§5.2): "No such endpoint exists; no shim could be added; no admin
+     override exposes the data." → OVERSTATED design commitment ("could" is not a
+     property of an API). Scoped as a requirement, but reads absolute.
+  5. Lines 257/281: proximity "VPN-resistant by construction" → SCOPED to IP-level
+     circumvention (true as stated); BLE relay attacks are not named in §8.
+  Remedy lives in the paper's next revision, not in this packet; the abstract above
+  carries no novelty or "cannot be defeated" language.

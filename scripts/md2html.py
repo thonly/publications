@@ -2,11 +2,21 @@ import re, sys, html as H, collections
 
 def inline(s):
     s = H.escape(s, quote=False)
-    s = re.sub(r'`([^`]+)`', r'<code>\1</code>', s)
+    # Code spans first, held out of every later rule: `__name__` and `a*b*c` must stay literal.
+    codes = []
+    def hold(m):
+        codes.append(m.group(1)); return f'\x00{len(codes)-1}\x00'
+    s = re.sub(r'`([^`]+)`', hold, s)
     s = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', s)
+    # Autolinks <https://…> (escaped to &lt;…&gt; above) and the few inline HTML tags the corpus writes by hand.
+    s = re.sub(r'&lt;(https?://[^\s&]+)&gt;', r'<a href="\1">\1</a>', s)
+    s = re.sub(r'&lt;(/?)(sub|sup)&gt;', r'<\1\2>', s)
+    s = re.sub(r'&lt;br\s*/?&gt;', '<br/>', s)
     s = re.sub(r'\*\*\*(.+?)\*\*\*', r'<strong><em>\1</em></strong>', s)
     s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
+    s = re.sub(r'(?<![\w_])__(?!\s)(.+?)(?<!\s)__(?![\w_])', r'<strong>\1</strong>', s)
     s = re.sub(r'(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])', r'<em>\1</em>', s)
+    s = re.sub(r'\x00(\d+)\x00', lambda m: f'<code>{codes[int(m.group(1))]}</code>', s)
     return s
 
 def convert(md):
@@ -44,6 +54,9 @@ def convert(md):
         if m:
             ordered = bool(re.match(r'^\d+\.$', m.group(2)))
             tag = 'ol' if ordered else 'ul'
+            # A numbered list broken by blank lines arrives here one item at a time; keep its own number,
+            # or every item prints as "1." and in-text references ("filter #5") point at nothing.
+            start = int(m.group(2)[:-1]) if ordered else 1
             items, cur = [], None
             while i < len(lines):
                 mm = re.match(r'^(\s*)([-*+]|\d+\.)\s+(.*)$', lines[i])
@@ -54,7 +67,8 @@ def convert(md):
                     cur += ' ' + lines[i].strip(); i += 1
                 else: break
             if cur is not None: items.append(cur)
-            out.append(f'<{tag}>' + ''.join(f'<li>{inline(x)}</li>' for x in items) + f'</{tag}>'); continue
+            open_tag = f'<ol start="{start}">' if ordered and start != 1 else f'<{tag}>'
+            out.append(open_tag + ''.join(f'<li>{inline(x)}</li>' for x in items) + f'</{tag}>'); continue
         buf = []
         while i < len(lines) and lines[i].strip() and not re.match(r'^(#{1,6}\s|>|\s*[-*+]\s|\s*\d+\.\s|\s*(---|\*\*\*|___)\s*$|\|)', lines[i]):
             buf.append(lines[i].strip()); i += 1

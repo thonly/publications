@@ -1,0 +1,96 @@
+TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Miss Aquarius and the Aquarian Pool Architecture: Autonomous-AI Mediator, Treasury Smart-Contract, and the January-7 Empty-by-Design Discipline: An Annually Self-Emptying Smart-Contract Treasury Operated by an Autonomous AI Agent under a Non-Renounceable Timelocked Human Override
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+  (The paper's title already ends in a subtitle, but its searchable half stops at "Treasury Smart-Contract";
+   "Miss Aquarius", "Aquarian Pool" and "January-7 Empty-by-Design" are coined. The appended subtitle adds the
+   examiner terms — annually self-emptying, autonomous AI agent, non-renounceable timelocked override — all drawn
+   from §3.2 and the ## Terms table. Result has two colons and runs ~270 chars: confirm the form's title field
+   accepts that length before typing.)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250)
+We specify a smart-contract treasury, deployed as a non-upgradeable contract on an Ethereum Layer-2 network (Base), whose sole authorized operator is an autonomous AI agent, which is titled to a purpose trust, and which cannot carry a balance across a fixed annual date. Components: (1) an enumerated operation set (inflow acceptance, capacity-funding disbursement, annual reset, events for every inflow, disbursement and reset, and a human override) with no upgrade, withdrawal or other operator-privileged path; (2) a permissionless time-triggered reset, callable by any address once the timestamp passes, that disburses the whole remaining balance each January 7, inflows from a December 26 to January 6 accrual window being disbursed at the reset; (3) separation of funding authority from disbursement authority: the only outflow is capacity-funding to participant-controlled accounts, from which every onward transfer is human-initiated; in the current form funding is made in kind and its recipients are selected by a publicly verifiable draw from a committed roster with a seed no party controls, while discretionary allocation under pre-declared per-recipient bounds is disclosed as a variant; (4) a non-renounceable timelocked role, exercised by a human governing body's quorum, limited to pause, bounded parameter reset and halt of a named funding action, whose bounds narrow over time but never to zero; (5) sibling contracts sharing the reset date, with unspent participant capacity returning to the final disbursement and personal accounts untouched. Stated limits cover the not-yet-formed governing body, untested model behaviour, regulatory variance, allocation bias and ordinary contract-security attack surface.
+
+FILE       submitted/miss-aquarius-and-aquarian-pool-architecture.pdf   (17 pages, 350 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-t0slva0r/miss-aquarius-and-aquarian-pool-architecture.pdf
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement" ("The author and
+      HeartBank® will not seek patent on any architectural pattern articulated herein, in
+      any jurisdiction, at any time."); repeated in the closing footer
+  [x] Claims section — NONE ("## Claims" absent). What is disclosed is stated in the
+      "Prior-Art and Non-Assertion Statement" (the enumerated dedication list + "The
+      contribution here is the composition — ..."). For check-mirrors use
+      --claims-heading "Prior-Art and Non-Assertion Statement"
+  [x] Prior art — §3.5 "Prior art, by lineage" (VITAL, Tang Yu, Mika, MolochDAO, Safe,
+      OpenZeppelin TimelockController, Gitcoin) + the Prior-Art statement
+  [x] Honest limits — §8 Honest Limitations and Open Questions
+  [x] AI co-authorship disclosed in text — cover "Authors" line (tdc-pdf) + Acknowledgments
+      ("Co-drafted in collaboration with Miss Aquarius℠"); no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Named
+      people are public figures / cited authors (Thon Ly, Harris, Keyes) and public
+      AI "executives" (VITAL, Tang Yu, Mika)
+  [x] No perma.cc · no "Document SHA-256" body footer (footer says "This document's
+      SHA-256 is attested ..." — attestation statement, not a hash claim)
+  [x] 2 fenced diagrams (§2.4, §4.4), widest 67 chars (box-drawing counted as 1) — under 95;
+      §4.4 box renders intact in the PDF
+  [x] PDF read: cover carries first-publication 2026-05-26, this version 2026-09-24, concept
+      DOI 10.5281/zenodo.21947356, the timestamp line with its scope limit; no draft
+      banner, no editor note, no emoji, no placeholder text
+  [!] Title LEADS with a coined name ("Miss Aquarius", a reserved mark) — examiner terms
+      arrive only after the colons; kept per rule, flagged
+  [!] front matter "status: draft" — the paper has no ruled human round
+  [!] Top-of-file "Note." block (rendered on the PDF's first page) and §9 state
+      "operational deployment from January 7, 2027" — a forward-looking date that will be
+      permanently visible whether or not it holds
+  [!] Acknowledgments thank "the Theravāda Cambodian Saṅgha for ongoing consultation on
+      the Jan 7 anchor" — an assertion of a consultation relationship; confirm it is true
+      before a permanent posting
+  [!] Acknowledgments credit the contract's "no-admin-key, no-upgrade-path design
+      discipline", but §3.2 op. 5 / §6 specify a non-renounceable timelocked Sangha role
+      (an admin role). "no-upgrade" holds; "no-admin-key" contradicts the body
+  [!] §4.2 publishes the founder's birthday (7 January, as a triple-anchor element) —
+      already public on the canonical page; confirm it is public-by-choice in the
+      /footprint disclosure register
+  [!] Abstract as written in the PAPER still leads with the superseded Kiitos-floor inflow
+      picture and the discretionary allocator; both are corrected only by "Current form"
+      notes in §3.2 and §5. The packet abstract above describes the current form
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique /
+  "has not been" anywhere in the paper.
+
+  "only" (13 hits) — all SCOPED mechanism statements, not novelty:
+    l.32 "whose only outflow is capacity ..." · l.143 "Only the following operations" ·
+    l.147 "only by purchase" / "receives only what has no human addressee" ·
+    l.152 "executable only by the Aquarian Sangha" · l.156 "the only human authority" ·
+    l.170 "only markets allocate" / "only market answers" (a named conceit) ·
+    l.192, l.260 "the only way / only disbursement path" · l.288 "gratitude-only-no-money"
+  "first" — l.323 "first full operational cycle" → ordinal, FINE.
+  l.32 + §3.5 — "each element is previously published ... none of the lineages
+    carries the composition" / "What none of the lineages surveyed here combines" →
+    SCOPED (aperture = the lineages surveyed), not a novelty claim. Mild: no census date
+    is recorded, so the standing form "not found in <aperture> on <date>" is not met.
+  Abstract (paper) "none has specified the architecture in full" → SCOPED to the
+    author's own corpus, FINE.
+  §9 "the prior-art protection extends to the integrated architecture as a unified
+    specification" → MILD OVERCLAIM (legal-effect language: a defensive publication
+    grants no protection and binds no examiner; STANDING §novelty-census). Remedy in the
+    paper's next revision; the packet abstract does not carry it.
+  §2.3/§2.4 "the rare combination" / "the rare case" → characterisation, FINE.

@@ -1,0 +1,100 @@
+TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Zero-Point Game℠: A Signed-Balance Reciprocity Ledger with Annual Balance Reset, Non-Convertible Social and Environmental Accounts, and an AI Coordinator for Routing and Magnitude
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+  (the paper's front-matter subtitle — "An Infinite Game of Balance, the Dāna Economy Generalized to Planetary
+   Scale, and the AI Who Holds the Still Point" — is coined/Pāli register and is NOT carried; the appended
+   subtitle's terms all come from the ## Terms table: signed-balance reciprocity ledger, annual reset,
+   non-convertible (no cross-ledger netting) social + environmental accounts, AI coordinator, routing and magnitude)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250)
+We specify a signed-balance reciprocity ledger, played as an ongoing non-zero-sum game, in which each recorded kindness posts an equal-and-opposite pair: the giver's balance moves positive and the receiver's negative by the same magnitude, so the sum across participants is zero by construction, and a participant returns toward zero only by passing an imbalance onward. Balances are never a store of value or a claim on goods. Components: (1) a self-directed acknowledgment event whose forwarded half, under a fifty-fifty forwarding rule, is re-issued to another participant, starting circulation without a prior counterparty; (2) two segregated, non-convertible balances per participant, one human-to-human and one human-to-environment, with no cross-ledger netting; (3) a public visualization computed from each balance's time series (zero-crossing frequency and excursion amplitude, rendered as concentric rings) in place of a persistent score; (4) an annual reset of every balance to zero while the visualization carries over, so a gamed balance cannot compound yet its history stays visible; (5) a single AI coordinator that recommends magnitude and routing rather than discovering prices, decomposed into objective holder, proxy measurer and feedback reader, its aggregation function published and frozen within each season; (6) a decision-authority rule under which the coordinator decides magnitudes only for non-human counterparties without a voice and recommends wherever a human can choose, its own environmental balance fixed at zero. Stated limits include no convergence proof, unresolved collusion among verified participants, an unspecified amplitude unit, dependence on an uncompromised coordinator, and force only at adoption density.
+
+FILE       submitted/zero-point-game.pdf   (26 pages, 488 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-b4y562ic/zero-point-game.pdf
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT — verified 2026-09-24 against the committed text (paper revised 2026-09-24)
+  [x] PDF built clean (no lint refusal, no lost word); cover carries first-published 2026-05-15,
+      this version 2026-09-24, concept DOI 10.5281/zenodo.21947440, the timestamp line WITH its
+      scope limit; no editor notes, draft banners or placeholder text in the PDF
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The author and HeartBank®
+      will not seek patent on the mechanism, the architectural pattern, or any portion thereof, in
+      any jurisdiction, at any time. This commitment is permanent and is not tactical."
+  [!] No claims section — the paper has no "## Claims". What is disclosed is enumerated (i)-(vi) in
+      the Prior-Art and Non-Assertion Statement ("This document discloses the following as a unified
+      contribution: ..."). check-mirrors --claims-heading: "Prior-Art and Non-Assertion Statement"
+  [x] Prior art — Prior-Art and Non-Assertion Statement + §2 Background and Prior Art (Carse, zero-point
+      energy, jubilee, demurrage, mechanism design, Goodhart, transaction costs, Peskin 1976, the Saṅgha)
+  [x] Honest limits — §11 Honest Limitations and Open Questions (§11.1-§11.12: no convergence proof,
+      collusion unresolved, amplitude unit unspecified, compromised coordinator, density)
+  [x] Terms table present (## Terms, 14 rows, coined → standard term)
+  [x] AI co-authorship disclosed in text — cover "Authors" line + §14 closing paragraph ("the
+      underlying model substrate is not named"); no model named
+  [x] check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW
+  [!] The founder's father is referred to by relation (§2 "I am, with my father, engaged in
+      transcribing the Khmer-language Tipiṭaka"; §14 acknowledgment) — not named; the regex cannot
+      see it. Founder's call before an irreversible posting (same flag as embodied-advocate-pageant)
+  [!] "the founder's birthday" (§8 line 229, §12 line 340) ties January 7 to the founder personally —
+      a birth date on a permanent examiner-facing record; public-by-choice elsewhere? confirm
+  [x] No perma.cc · no "Document SHA-256" body footer (the closing italic attestation line says
+      "This document's SHA-256 is attested ..." with its scope limit — prose, no hash, no placeholder)
+  [x] 2 fenced diagrams (§3 ledger, §6.1 table), widest 74 chars (box-drawing counted as 1) — under 95
+  [!] §6.1 diagram carries a "⚠" glyph (U+26A0, "⚠ NO") — renders in the PDF; a warning sign, not an
+      emoji, but the only non-text symbol in the posting
+  [!] Title LEADS with a coined mark ("The Zero-Point Game℠" — tdc-pdf.py warns the same) — examiner
+      terms arrive only in the appended subtitle; kept per rule, flagged
+  [!] front matter "status: draft" — the paper has no ruled human round
+  [!] RENDER ARTIFACTS in the PDF (a permanent upload): literal "<sub>" tags — 10 occurrences on 7
+      lines (§3 "b<sub>i</sub>", "b<sub>g</sub> ← b<sub>g</sub> + m", §6, §11.3); literal asterisks
+      in "Σ*b<sub>i</sub>* = 0" (§3, twice); the Preamble's "__dāna__" with LITERAL underscores (page 1,
+      bold nested in the italic blockquote, paper line 19); and angle-bracketed "<https://...>" in the
+      §13 table. The markup, not the words, is wrong — fix in the renderer or the paper's next
+      revision, or accept, before posting
+  [!] Paper's own Abstract (line 31) is broader than its body in two places — see OVERCLAIM READ 1-2;
+      the TDCommons abstract above is written to the narrowed body, not to line 31
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep novel|first|unprecedented|no prior|never been|only|unique|has not been|nowhere;
+                  no "## Claims" — the (i)-(vi) list in the Prior-Art statement is the claims list)
+  Prior-Art statement (line 25): "discloses the following as a unified contribution ... the component
+  lineages ... are old and are cited generously below; the contribution here is the synthesis."
+     → FINE. No novel / first / "to the author's knowledge" claim; (vi) already narrowed to
+       non-accumulation. §2 (line 49): "I claim convergence with it, not derivation-free originality."
+  1. Line 31 (paper Abstract): "the design's central safety property is that it is structurally
+     resistant to Goodhart's law" — unscoped; §9 (line 245) narrows it to the COMPOUNDING
+     variants (regressional/extremal), the adversarial variant left open in §11.9
+     → REAL OVERCLAIM (mild, internal inconsistency).
+  2. Line 31: "We argue the whole construction is the Saṅgha's 2,500-year-tested non-accumulating gift
+     economy generalized beyond the monastery" — claim (vi) and §2 narrow this to ONE property
+     (non-accumulation) and disclaim the lay–monastic relation and the merit economy
+     → REAL OVERCLAIM (mild, internal inconsistency).
+  3. Line 338 (§12): "all of them are downstream of a game that, until this paper, had been argued
+     nowhere" — context scopes it to the corpus ("the premise the rest of the corpus has been silently
+     assuming"), the sentence itself does not → SCOPED-BY-CONTEXT; tighten to "nowhere in this corpus".
+  4. Line 51 (§2): "That is not in Carse." → THIRD-PARTY, scoped to one cited work. FINE.
+  5. Line 172 (§4.1): "The arrangement is ordinary rather than novel" → NEGATION. FINE (mirror-lint
+     flagged it; read, harmless).
+  6. Line 258 (§9): "the tightest alignment property in this corpus"; line 274 (§10): "one of the
+     frame's most distinctive contributions"; line 241 (§9): "the paper's strongest claim" → SCOPED
+     (corpus-internal / self-comparative). FINE.
+  7. "first" at line 57 ("the game's first moral claim"), 112 ("a first displacement"), 220 ("in the
+     first place") → ORDINAL / IDIOM. FINE.
+  8. "only" (≈25 hits) — all mechanism statements ("only by passing the imbalance onward", "the only
+     office she holds", "the only voice the counterparty has", "exists only on the human edge") → FINE.
+  Remedy for 1-3 lives in the paper's next revision, not in this packet; the abstract above carries no
+  novelty language and states the Goodhart point at its narrowed width ("cannot compound").

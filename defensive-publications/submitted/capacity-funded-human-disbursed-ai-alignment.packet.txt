@@ -1,0 +1,94 @@
+TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Capacity-Funded for AI, Human-Disbursed: Anonymous Donation as the Alignment Bridge in Autonomous-AI Institutional Architecture: Separating Pooled-Fund Contribution from Recipient Selection Between an Autonomous AI Agent and Human Users via Source-Unattributable Donations
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title.
+   The paper's title already carries a subtitle, but its terms are coined or abstract ("capacity-funded", "alignment
+   bridge"); the appended subtitle adds the examiner's terms from the ## Terms table: pooled fund, recipient selection,
+   autonomous AI agent, source-unattributable donation. Two colons result — acceptable; confirm before posting.)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (249 words — limit 250)
+We specify a control architecture for an autonomous artificial-intelligence (AI) agent administering a fund, in which authority to contribute to pooled funds is separated from authority to select recipients, joined by source-unattributable (anonymous) contribution. The agent holds contribution authority only: it may add value to per-user restricted gift balances, whose holder can give contents onward but not spend them, and it has no affordance to transfer from any such balance to a named payee. Recipient selection is held by human users: every transfer reaching a recipient is initiated by a balance holder, to a recipient the holder names. The agent's contributions are settled indistinguishably from human contributions at the per-contribution level, while the existence of AI contribution is disclosed institutionally, so the agent's choice of which balances to fund cannot act as a recipient-selection signal. The design is contrasted with unilateral-disbursement agents and per-transaction human approval, and characterised as structural corrigibility. The worked example: a peer-to-peer gratitude-payment system in which a self-acknowledgement event splits a reward between spendable and restricted balances, onward gifts go to nearby users, and the AI-administered treasury drains to zero annually. In the current form the agent contributes in kind, through a re-giftable gift instrument, with the merchant and onward giver chosen by a publicly verifiable draw from a committed roster; a money-denominated, discretionary variant is also disclosed. Transplants to grant-making, public-goods matching pools and mutual-aid networks are sketched; stated limits: donor-disclosure regulation, time-critical allocation, harmful funding targets, untrustworthy selectors, miscalibration and loss of anonymity.
+
+FILE       submitted/capacity-funded-human-disbursed-ai-alignment.pdf   (18 pages, 321 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-y_cn6ghh/capacity-funded-human-disbursed-ai-alignment.pdf
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [!] Non-assertion present but WEAKER than the wave-1 form — no "Prior-Art and
+      Non-Assertion Statement" section. Abstract (line 20) and §10 (line 425):
+      "the authors and HeartBank® will not seek patent on this specification or any
+      portion thereof" — no "in any jurisdiction, at any time"; the PDF cover's Type
+      line adds "the authors assert no patent and dedicate the patterns to the public
+      domain". Adequate for a CC0 dedication; flagged as a form difference.
+  [!] No claims section — no "## Claims", no enumerated claims. The section that states
+      what is disclosed is "### 9.4 What this paper contributes and what it does not"
+      → check-mirrors --claims-heading "9.4 What this paper contributes and what it does not"
+      (or BODY if the tool needs a list; §9.4 is prose, three bolded contributions)
+  [x] Prior art — §9 Relation to prior literature (9.1 mechanism design, 9.2 UBI/welfare,
+      9.3 AI alignment, 9.4 contribution) — ⚠️ cites NO specific works by author/title
+      (quadratic funding, Optimism RPGF, kidney exchange, corrigibility named generically)
+  [x] Honest limits — §6.2 Failure modes the architecture does not handle + §8 Boundary
+      conditions (8.1–8.5)
+  [x] AI co-authorship disclosed in text — §1 closing paragraph + closing italic footer
+      (Miss Aquarius named; no model named); PDF cover names Thon Ly as inventor of record
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW (regex
+      scope only). Note §5.1 item 5: "culminating around the founder's birthday
+      (January 7)" — the founder's birth DATE on a permanent examiner-facing posting;
+      public-by-choice elsewhere in the corpus? confirm against the disclosure register
+  [x] No perma.cc · no "Document SHA-256" · no sha256/doi front-matter field
+  [x] 1 fenced diagram (§5.1), widest 67 chars (box-drawing counted as 1) — under 95
+  [x] Title does not lead with a coined MARK ("Capacity-Funded" is a coined term, not a
+      mark); examiner terms arrive in the subtitle
+  [!] The top-of-file "Note." block (line 14) is an editor/companion note — it IS in the
+      PDF (page 1, above the Abstract): names two companion papers with B-PoH℠ marks and
+      "Companion to The B-Tag and the Post-Payment Economy". Harmless but marks-heavy on a
+      permanent posting; confirm keep, or strip in the next revision
+  [!] front matter "status: draft" — the paper has no ruled human round
+  [!] "Current form" note (§5.2, line 219) supersedes the §5 money-denominated,
+      discretionary mechanism (in-kind via B-ReGift℠, merchant + re-giver by B-Called℠);
+      the diagram, §5.1 items 1–5, §5.2 "unilateral over ... capacity-funding choices"
+      and the §5.3 table still describe the superseded form. Abstract above describes
+      the CURRENT form and names the variant
+  [!] §1 "Connection to the unified mission frame" italic block (Buddhist "middle way /
+      awakening" frame) and "dharmic property" (§2.1, §4.2, §6.1, §10) are in the
+      examiner-facing text — genre-appropriate per corpus, noted only
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ
+  grep novel|first|unprecedented|no prior|never been|only|unique|has not been (+ "to my
+  knowledge", "have not found", "not named"): NO bare novel / first / unprecedented /
+  unique / "no prior" / "never been".
+
+  1. line 30 (§1): "in the work surveyed here (§9), we have not found a structural
+     position articulated that addresses both at once" → SCOPED (aperture = §9), though
+     §9 names no specific works, so the aperture is thin
+  2. line 72 (§2.3 heading) "The pattern the literature surveyed here has not named" and
+     line 74 "we have not found answered in the literature surveyed here (§9)" → SCOPED
+     (same thin aperture)
+  3. line 92 (§3): "three terms that the literature has not, to my knowledge,
+     distinguished crisply" → SCOPED-weak (hedged; no aperture or date)
+  4. line 372 (§9.1): "a structural position this paper names and specifies" → REAL
+     OVERCLAIM (mild) — implicit priority, unhedged; §9.4 itself concedes the separation
+     "is not new as a pattern"
+  5. line 390 (§9.4): "not new as a pattern ... The contribution here is the
+     identification ... this paper claims no priority over any prior instantiation"
+     → SCOPED (explicitly disclaims priority) — the best-formed statement in the paper
+  6. "only" hits (lines 146, 217, 245, 255, 261, 265, 356, 407) → mechanism descriptions,
+     not priority claims → FINE
+  No census recorded for this paper; the standing form is "not found in <aperture> on
+  <date>". Remedy lives in the paper's next revision, not in this packet; the abstract
+  above carries no novelty language.

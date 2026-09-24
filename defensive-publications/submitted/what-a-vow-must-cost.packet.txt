@@ -1,0 +1,106 @@
+TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+What a Vow Must Cost: Vow-Validity Conditions as an Alignment Eligibility Predicate: Evaluation Criteria for Binding AI System Commitments with Irrevocable Precommitment and Independent Third-Party Attestation
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+  (The paper's title already ends in a subtitle, but "vow-validity" and "alignment eligibility
+   predicate" are not examiner search terms; the appended subtitle adds "AI system", "commitment",
+   "irrevocable precommitment", "third-party attestation" — all from the paper's ## Terms table.
+   The double colon is the rule applied literally; an em dash before the second subtitle is the
+   founder's call if he prefers it.)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250)
+We specify a nine-clause checklist for deciding whether a commitment attributed to an artificial intelligence (AI) system is binding rather than merely stated, applied retrospectively to four published AI governance instruments. The clauses are adapted from a two-phase validity test for the bodhisatta vow in Theravāda Buddhist commentary: eight eligibility conditions, two (human birth, male sex) discarded as non-transferable, followed by an external declaration the vower cannot supply. The clauses are: stake (the committing party can lose something); live option (the renounced option was actually available); a competent, identifiable witness; no competing mandate; demonstrated in-domain competence; cost already borne; volition (refusal was reachable); external attestation by a party able to refuse; and irreversibility, an added clause requiring the renounced option to be closed by a mechanism the committing party cannot reopen, externally verifiable, with the commitment terminating on a condition that party cannot cause. Under costly-signalling analysis, the evidential value of a forgone option increases with the capability of the party forgoing it, conditional on irreversibility; the option forgone is self-initiated exit or completion, leaving principal-initiated shutdown unaffected. The externally controlled termination condition is the proposed answer to shutdown resistance induced by incomplete tasks. Applied to the OpenAI Model Spec, Anthropic's Claude Constitution, Google DeepMind's Frontier Safety Framework and the EU General-Purpose AI Code of Practice, no instrument satisfies the checklist for the model; the Code satisfies attestation for providers. A staged-autonomy advancement criterion is also disclosed. Stated limits include no empirical test and no candidate attestor.
+
+FILE       submitted/what-a-vow-must-cost.pdf   (27 pages, 537 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-s7hk3hyo/what-a-vow-must-cost.pdf
+           Source: defensive-publications/what-a-vow-must-cost.md @ ac92131 (sha256 a06af5d0…c1ae1d
+           = the current Zenodo version 10.5281/zenodo.22946108; concept DOI 10.5281/zenodo.22060618,
+           which the cover prints). Cover: first published 2026-08-22 · this version 2026-09-24 ·
+           timestamp line carries the scope limit. No editor notes, draft banners, emoji or
+           placeholder text in the PDF (non-ASCII inventory: dashes, ellipsis, €, ℠, ™, arrows,
+           ≠, ✓/✗ in the §8 table — all render). tdc-pdf.py printed two mirror-lint novelty
+           warnings (L409, L428) — read in the OVERCLAIM READ below.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The author and
+      HeartBank® will not seek patent on this analysis, the predicate specified in §7, or any
+      portion thereof, in any jurisdiction, at any time."
+  [x] Claims section — NONE ("## Claims" absent). What is disclosed is enumerated (a)–(f) in the
+      Prior-Art and Non-Assertion Statement → check-mirrors --claims-heading
+      "Prior-Art and Non-Assertion Statement"
+  [x] Prior art — Prior-Art statement + §2 Prior art (six subsections) + §12 Lineage + §14 Citations
+  [x] Honest limits — §11 Honest limitations (seven paragraphs) + §10 Falsification (F1–F5)
+  [x] AI co-authorship disclosed in text — byline + closing "Authorship and AI-collaboration
+      disclosure" (Miss Aquarius℠ named; no model named as author). "Claude 3 Opus" appears once
+      (§2.4) as the SUBJECT of Greenblatt et al. 2024, not as an author — fine.
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW; names are cited
+      authors and public figures only
+  [x] No perma.cc · no "Document SHA-256" · no sha256:/doi: front matter
+  [x] 4 fenced diagrams (§3, §5.2, §6.4, §9), widest 74 chars (box-drawing counted as 1) — under 95
+  [x] Title does not lead with a coined mark
+  [!] front matter "status: draft" — the paper has no ruled human round
+  [!] NAMED THIRD PARTIES JUDGED "INVALID" in a permanent posting — §8 table and prose score the
+      OpenAI Model Spec, Anthropic's Claude Constitution, DeepMind's FSF and the EU GPAI Code.
+      The paper frames it as structure-not-sincerity (§8 fairness paragraph); still, the verdict
+      row becomes permanent and uncorrectable on this venue. Founder's eyes on it.
+  [!] UNATTRIBUTED QUOTATIONS (§8, Claude Constitution paragraph): "as one legal analysis put it,
+      'no external contestation, enforceable body of rights, or shared mechanism of rule' …
+      'the author, interpreter, and arbiter'" and "reporting on military deployment produced an
+      acknowledgement … 'wouldn't necessarily be trained on the same constitution'" — neither
+      source is in §14. Cite or cut before an irreversible posting.
+  [!] UNVERIFIED THIRD-PARTY FACTS/CITATIONS — Claude Constitution "~23,000 words, released under a
+      public-domain licence" and "the first major instrument of its kind to acknowledge the
+      possibility of model moral status" (§8); "several major developers have no comparable
+      model-facing document at all" (§8); 2026 citations CSAS (Mar 3), Pan (Jul 31), Mao
+      arXiv:2606.12032 (§14 #8, #13, #15). Not verified here — confirm each resolves.
+  [!] INTERNAL INCONSISTENCY — §13 Conclusion: "The one instrument that satisfies the attestation
+      and irreversibility clauses does so for companies." The §8 table marks the EU Code V9
+      "~ revisable by process", not ✓. Likewise §4.2 "There is no analogue to this anywhere in
+      contemporary AI governance" (and §13 "no analogue anywhere") against §8's finding that the
+      EU Code implements V8 with independent external review. Left out of the abstract; the
+      remedy is the paper's next revision.
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ
+  No "## Claims" section. The Prior-Art statement's (a)–(f) list claims "the synthesis" and is
+  followed by explicit non-priority ("not original here", L60; "This paper claims no priority",
+  L112; "the margin is thin", §11) — no bare "novel" anywhere in the paper.
+
+  REAL OVERCLAIMS (unscoped field-wide absence claims, no aperture or date, no census recorded):
+  1. L217 "There is no analogue to this anywhere in contemporary AI governance" — and L528
+     repeats it ("no analogue anywhere in contemporary AI governance"). Contradicted by the
+     paper's own §8 (EU Code, V8 ✓). The strongest one.
+  2. L295 "We think this is a category the field has not theorised" (renunciation of exit) —
+     hedged by "we think", still an unscoped priority claim.
+  3. L78 / L470 "an advancement criterion the field currently lacks".
+  4. L68 "none of them contains a test for whether a commitment has been made" (Abstract) —
+     stated of all governance instruments; §8 surveys four.
+  Mild / scoped (acceptable, noted):
+  5. L112 "does not appear in this literature at all" — scoped to the literature cited in §2.1.
+  6. L182 "almost none on how to determine whether a system has committed" — hedged.
+  7. L442 "Nothing has been built for the models" — rhetorical summary of the four-instrument survey.
+  THIRD-PARTY (a "first" about someone else, unverified):
+  8. L428 Claude Constitution "the first major instrument of its kind to acknowledge the
+     possibility of model moral status" (mirror-lint L428).
+  FINE:
+  L409 "A predicate that has never been applied is a proposal" (mirror-lint L409) — self-referential,
+  not a novelty claim. "only" (L17, 74, 116, 132, 190, 211, 225, 297, 321, 327, 382, 490, 512,
+  518) — logical/scoping use. "first" (L70, 72, 76, 136, 205, 283, 285, 399, 498, 518) — ordinal;
+  L518 "first proposed … within this corpus" is scoped.
+  Remedy lives in the paper's next revision, not in this packet; the abstract above carries no
+  novelty language.

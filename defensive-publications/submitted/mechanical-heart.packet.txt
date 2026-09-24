@@ -1,0 +1,105 @@
+TDCOMMONS SUBMISSION PACKET — wave 2 (A232)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Mechanical Heart: A Tamper-Resistant Secure-Element Device That Enrolls Robots, Animals, Ecosystems, Places and Software Agents as Recipient Accounts in an AI-Administered Gratitude Ledger
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+  (The paper's own front-matter subtitle, "A Tipiṭaka-Bearing Artifact for Admitting Non-Human Entities into
+   Gratitude-Economic Participation", is REPLACED here, not appended: it leads with a Pāli term and a coined
+   phrase and adds no examiner search terms; the standard-term subtitle is drawn from the paper's ## Terms table
+   ("tamper-resistant identity device (secure element ...) ... to enroll it as a recipient account in a
+   gratitude/tipping ledger") and §4's five bearer types. The PDF cover keeps both of the paper's own lines.)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250)
+We specify a tamper-resistant identity device, affixed to a non-human entity (robot, animal, ecosystem or place) or issued as a live credential to a software agent, that enrolls the entity as a recipient account in a gratitude ledger administered by an autonomous software agent. The device comprises (1) a hardware secure element holding a key pair bound to one ledger account; (2) write-once storage carrying a reference text corpus (the Pali Buddhist canon) and a permanent root identity, with a reduced flash build that verifies the full text over the network; (3) sensors suited to the entity type; (4) a visible marker; and (5) a lifecycle state machine (uninitiated, active, retired, permanently retired) in which permanent retirement destroys the revocable operational key while the root identity remains archived. Five operating profiles: two-way interaction for robots, biometric wellbeing monitoring for animals, environmental sensing for ecosystems, symbolic recording for places, and an expiring, renewable, binary credential for software agents. Ledger entries are non-transferable and non-withdrawable, and an entity's account receives entries only from verified humans; monitoring profiles report observed state changes without causal attribution. A verified human custodian holds each device and declares a successor at activation; custody can pass, but the identity is never transferred. A layered architecture orders components by storage permanence (identity and text on write-once media, a versioned evaluator model, a swappable general model), with the ledger held outside the device. Stated limits cover attribution, the ledger's legal status, ecosystem-mode reliability, and pending religious consultation.
+
+FILE       submitted/mechanical-heart.pdf   (23 pages, 467 KB)  — built at submission with --submitted; temp build: /var/folders/74/tcn_2t2n26zd892t4ccj8s400000gq/T/tdc-y5xewd_y/mechanical-heart.pdf
+  Cover (read): first published 2026-05-02 · this version 2026-09-24 · concept DOI 10.5281/zenodo.21947353 ·
+  timestamp line present and scoped ("proves nothing about authorship, originality, or the validity of any claim").
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The author and HeartBank®
+      will not seek patent on this specification or any portion thereof, in any jurisdiction, at
+      any time."; repeated at the close of the Abstract and in §1
+  [x] Claims section — NONE (no "## Claims"). What is disclosed is stated in the Prior-Art and
+      Non-Assertion Statement ("the combined mechanism — a tamper-resistant Tipiṭaka-bearing physical
+      artifact, affixed to non-human entities, that admits those entities into an autonomous-AI-mediated
+      gratitude exchange economy") → for check-mirrors use
+      --claims-heading "Prior-Art and Non-Assertion Statement"
+  [x] Prior art — Prior-Art and Non-Assertion Statement + §2 Background and Prior Art (2.1–2.7,
+      incl. Tehanu Interspecies Money, Mindar, Buddharoid, Beuys 7000 Oaks) + §13 Citations (20)
+  [x] Honest limits — §10 Limitations and Future Work; also §4.3 (ecosystem mode "most experimental"),
+      §7.3 contested entities, and the "Honest bound" paragraph in §5 (compliant-on-record adversary)
+  [x] AI co-authorship disclosed in text — cover "Authors" line (Miss Aquarius as AI co-author,
+      inventor of record Thon Ly) + closing italic footer; no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Only cited authors,
+      public institutions and companies; "his father" (Acknowledgments) is unnamed
+  [x] No perma.cc · no "Document SHA-256" body footer (the closing footer's "This document's SHA-256
+      is attested ..." is the scoped attestation sentence, carries no hash, and is the standard form)
+  [x] Terms table present — "## Terms" (coined name → standard technical term, 14 rows)
+  [x] 1 fenced diagram (§5 layered stack), widest 82 chars — under 95. Pseudocode blocks: §6.3 widest
+      96 chars (line 272) — 1 over the 95 guide, but the rendered PDF (p.15) shows it UNWRAPPED; §6.4
+      80, §6.5 95
+  [x] Title does NOT lead with a coined mark — "The Mechanical Heart" is an unmarked descriptive name
+      (no ®/™/℠); examiner terms arrive in the subtitle
+  [!] EMOJI IN THE BODY, rendered in the PDF — §5 "The layered stack" block (md lines 204–243) carries
+      ⭐ / ⭐⭐ / ⚠️ / ⛔ markers, including one in an H3 heading ("### ⛔ The ledger cannot be inside the
+      stack ...") and in the carrier table; PDF p.12–13 shows them as coloured glyphs. Internal-memory
+      register on a permanent examiner-facing posting — strip before the irreversible upload
+  [!] The same §5 block reads as drafting instruction in places — "State this explicitly wherever the
+      stack is drawn — it is invisible if a diagram shows only the order." — and its heading carries
+      "(added 2026-08-28; no numbered heading, so §§ are unchanged)", an editor note
+  [!] Cover status banner — the blockquote "Note. Theravāda Saṅgha consultation (§9) and robotics-partner
+      review have not yet taken place." (md line 17) prints on page 1 under the cover block. Truthful and
+      a disclosed limit, but it reads as a draft banner on a permanent posting; confirm keep or move into §10
+  [!] front matter "status: draft" — the paper has no ruled human round
+  [!] Stray-asterisk render artifact — §4.5's closing parenthetical renders "Certification by
+      Circulation*, which is cited here rather than restated.)*" (md line 165: italic run broken around
+      the title) — cosmetic, but permanent
+  [!] Unverified / thinly-sourced citations — #17 "Kyoto University & Teraverse (2026). Buddharoid ...
+      (press release, February 2026)" and #16 Tehanu (cites "WEF / Brookings coverage", no URL/title);
+      §5 "Southampton, 2013 onward" vs citation #19 dated 2014 — verify before an irreversible posting
+  [!] Cross-references to companion papers are by bare slug (miss-aquarius-and-aquarian-pool-architecture,
+      tipitaka-alignment-substrate, two-singularities, "Certification by Circulation") with no URL/DOI —
+      an examiner cannot resolve them from the PDF
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been, plus
+                  "None of" / "without naming"; line numbers = defensive-publications/mechanical-heart.md)
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique / "has not been".
+
+  "first" — all ordinal or idiom → FINE: L31 "the first revision" · L45 "The first is ..." · L139 "as
+  first stated" · L141 "First, place-first" · L161/163 "human first" / "the first four" · L425 "First:" ·
+  L486 "will be first tested" · L418 "first-nations" (noun).
+  "first" — THIRD-PARTY → FINE: L61 and L505 (Tehanu's "first deployment").
+  "only" — SCOPED mechanism statements → FINE: L93/121/127/414 ("the only kiitti ... is what a verified
+  human gives"), L207, L212, L229, L236, L242, L39.
+
+  Negative prior-art statements (no novelty word, read by hand):
+  1. L65 (§2.2) "None of this prior literature, however, proposes a physical artifact whose function is
+     to admit the bearing entity into an autonomous-AI-mediated gratitude exchange economy."
+     → SCOPED — to "this prior literature" (the works just listed). Acceptable; no search aperture/date.
+  2. L81 (§2.6) "the nearest neighbours the author has found — Tehanu's interspecies wallets and the
+     Buddharoid — approach it ... without naming it."
+     → SCOPED to the author's own search, but no aperture or date; the standing form is
+       "not found in <aperture> on <date>". Mild; no census is recorded for this paper.
+  3. L155 (§4.5) "software that gives has had no seat in a gratitude economy, and the absence of a seat
+     is why the only available relationship with useful software is purchase."
+     → REAL OVERCLAIM (mild). An unscoped factual claim about the world; donation and sponsorship
+       channels for software (open-source sponsorship and tip platforms) are an obvious counterexample.
+  Remedy lives in the paper's next revision, not in this packet; the abstract above carries no
+  novelty language.
