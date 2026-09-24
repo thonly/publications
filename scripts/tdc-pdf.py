@@ -113,6 +113,8 @@ def main():
     vis = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', body)
     # an ordered-list marker renders as <ol> numbering, not as text — not a lost word
     vis = re.sub(r'(?m)^(\s*)\d+\.\s', r'\1', vis)
+    # a code fence's language tag (```javascript) is markup, never page text
+    vis = re.sub(r'(?m)^(\s*```)\s*[\w+#.-]+\s*$', r'\1', vis)
     missing = words(vis) - words(htm)
     if missing:
         sys.exit(f"word-multiset diff: {sum(missing.values())} word(s) of the markdown are missing "
