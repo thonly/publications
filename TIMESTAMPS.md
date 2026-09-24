@@ -1,3 +1,25 @@
+### 2026-09-23 (late night) — wave-1 TDCommons pre-mirror repairs, nine defensive publications, one chain run (founder: *"please do for me"* · *"do a quick census only where a claim is worth keeping"*)
+
+The all-72 eligibility screen and `scripts/mirror-lint.py` (built the same night) found what must never reach a permanent,
+examiner-read posting. **Novelty: the adjective removed, the disclosure kept** — no census ran, because no novelty sentence
+was worth keeping for the mirror. Each retiring proof was checked Bitcoin-complete before rotation (`the-reciters-protocol`'s
+was calendar-only from its evening revision and was upgraded first). Legs: OTS rotated + re-stamped (calendar-only at
+stamping) · TSA `2026-09-24.sha256` · Zenodo new versions below · index 2.5.7.
+
+| document | repair | Zenodo |
+|---|---|---|
+| provenance-carrying-retrieval | unscoped novelty → disclosure (3) | `10.5281/zenodo.22931208` |
+| thank-all-nearby-primitive | draft note → Note; novelty → disclosure (2); ⛔ an **unverifiable citation** ("Glazerman, Hagar …", no source found) replaced with Biçer & Küpçü, PoPETs 2020(4); Terms table | `10.5281/zenodo.22931213` |
+| rotation-over-liveness | draft banner → Note (content kept); Terms table | `10.5281/zenodo.22931216` |
+| the-reciters-protocol | *"a new composition"* → *"a composition of known parts"* (claim 7, abstract, §1, §4–§5); Terms table | `10.5281/zenodo.22931221` |
+| gratitude-riding-currency-tag | ⛔ **a false "Mirrors of this document … arXiv, IP.com, perma.cc" line** replaced with the true venues; novelty → disclosure (6); Terms table | `10.5281/zenodo.22931228` |
+| gift-tag-time-reveal | draft banner → Note; novelty → disclosure (6); Terms table | `10.5281/zenodo.22931231` |
+| verified-human-anonymous-local-giving | §4.3 *"The novel combination"* → *"The combination disclosed"*; novelty → disclosure (4); Terms table | `10.5281/zenodo.22931236` |
+| aura-gated-anonymous-mate-selection | draft banner → Note; perma.cc and placeholder venue rows removed; *"no dating product in the world"*, *"revolutionary"*, an unscoped superiority line → disclosure; Terms table | `10.5281/zenodo.22931237` |
+| respiratory-biofeedback-contemplative-guidance | "Working draft" banners removed; novelty → disclosure; §9.5 therapeutic use restated as a field of use requiring clinical validation, **no efficacy claimed**; *"prevents enclosure"* → available as prior art; Terms table | `10.5281/zenodo.22931242` |
+
+⏸ **`the-called-draw` stays held** (awaiting `/polish`); the dry run listed it as the one "new" and it was not deposited.
+
 ### 2026-09-23 (night) — two-singularities: the held revision, published on the founder's word (*"yes, publish two-singularities"*)
 
 Checklist A items 3–5: the failed nearest prior attempt (the OpenAI nonprofit board, November 2023), the author's stake, what
