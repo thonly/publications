@@ -6,12 +6,13 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-08-28
+revised: 2026-09-23
 license: CC0-1.0
 slug: rotation-over-liveness
 venue: thonly.org/research/rotation-over-liveness (canonical)
 ---
 
-> **Draft in progress.** The *liveness signal* named in this paper's title is an **admission predicate, not a weighted input to a ranking function.** It answers one question — *is this participant circulating at all?* — and its only output is membership in a rotation. It carries no weight, contributes nothing to order, and has no more-or-less. We keep the word *signal* because it is the term under which this work will be searched; every section below uses *predicate*, and readers who take *signal* in its usual sense — a scored feature with a coefficient — will reconstruct the exact system this paper exists to refuse.
+> **Note.** The *liveness signal* named in this paper's title is an **admission predicate, not a weighted input to a ranking function.** It answers one question — *is this participant circulating at all?* — and its only output is membership in a rotation. It carries no weight, contributes nothing to order, and has no more-or-less. We keep the word *signal* because it is the term under which this work will be searched; every section below uses *predicate*, and readers who take *signal* in its usual sense — a scored feature with a coefficient — will reconstruct the exact system this paper exists to refuse.
 >
 > Companion works: *The B-Tag and the Post-Payment Economy* (the commercial layer whose §7.1 this paper supersedes), *Steward-Routed Alms* (the monastic instance of the same routing primitive, published 2026-07), *Certification by Circulation*, *B-PoH: The Humanity Layer for an AI-Native Internet*, and *Appreciation as World-Building*.
 
@@ -394,6 +395,23 @@ The design is unbuilt and unobserved. The following are registered before any da
 **12.8 · The elegance is not evidence.** §8's caution, restated: the properties are individually falsifiable, the coherence is not, and the coherence should never be offered as support for any of them.
 
 **12.9 · A draw is only as fair as its set.** §10. Drawing over shops, or over admitted operators, removes what volume and money could buy; it does nothing about who is in the set, and a uniform draw over a skewed candidate set can allocate exposure more unequally than ranking would. The liveness predicate skews the commerce set in a known direction (§12.4). We have no property that makes an admitted set representative of its place, and we do not claim one.
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| liveness predicate / liveness signal | boolean eligibility criterion based on recent activity (activity-based admission filter) |
+| aura | per-user circulation-velocity metric (account turnover rate; zero-crossing frequency of a balance) |
+| turn / rotation | round-robin allocation; lottery-ordered rotation; randomized slot assignment |
+| Re-Tip Jar℠ | restricted-use, non-withdrawable stored-value account limited to local merchants |
+| Re-Tip Fund℠ | non-withdrawable, forward-spendable merchant credit balance |
+| Aquarian Pool℠ | pooled subsidy fund administered by an automated agent |
+| Kiitos / Kiitti | gratitude ledger entries between persons / between persons and non-human parties (peer-recognition records) |
+| warm layer / path | single-hop social-graph attribution (friend-of-friend endorsement indicator) |
+| tong tin | bidding rotating savings and credit association (ROSCA, tontine) |
+| *sapadāna-cārikā* | sequential, non-selective door-to-door allocation (uninterrupted alms round) |
 
 ## 13 · Cross-venue references
 

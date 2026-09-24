@@ -6,12 +6,13 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-06-30
+revised: 2026-09-23
 license: CC0-1.0
 slug: gratitude-riding-currency-tag
 venue: thonly.org/research/gratitude-riding-currency-tag (canonical)
 ---
 
-> **Draft in progress.** This is the founder-voice canonical draft for `thonly/publications`. The defensive publication specifies HeartBank's **B-Imprint™** — the free tipper-side gratitude tag that rides the lowest-denomination circulating banknote — and its premium brand-originated tier **B-Relay™**. It is the `.net` free product-class and the **Phase-2 stablecoin-adoption wedge**: a neutral mark on ordinary cash that turns a tip into a witnessed, followable gift, carries an optional self-custodial stablecoin top-up, and accretes into a kindness-reputation commons ("the kindest local businesses and community events"). It is published **early and deliberately**, ahead of a public marketing campaign, because public marketing is uncontrolled disclosure and the *combination* specified here — a currency-riding gratitude ripple with a digital-only-branding legal design, a non-custodial stablecoin top-up, and a gratitude-reputation graph — is the asset (see §10.1). Companion works: *The Gift Operation* (the receive→give-forward atom this instantiates on circulating money), *The Time-Locked Gift Tag* (the occasion-bound gift sibling), *The B-Tag and the Post-Payment Economy* (the merchant-side commercial-gratitude twin), *Non-Bank Pass-Through Architecture* (the never-hold-the-money constraint), and *B-Links: Proof-of-Humanity-Signed Shareable Provenance* (the followable-provenance primitive and the anti-gaming spine).
+> **Note.** This defensive publication specifies HeartBank's **B-Imprint™** — the free tipper-side gratitude tag that rides the lowest-denomination circulating banknote — and its premium brand-originated tier **B-Relay™**. It is the `.net` free product-class and the **Phase-2 stablecoin-adoption wedge**: a neutral mark on ordinary cash that turns a tip into a witnessed, followable gift, carries an optional self-custodial stablecoin top-up, and accretes into a kindness-reputation commons ("the kindest local businesses and community events"). It is published **early and deliberately**, ahead of a public marketing campaign, because public marketing is uncontrolled disclosure and the *combination* specified here — a currency-riding gratitude ripple with a digital-only-branding legal design, a non-custodial stablecoin top-up, and a gratitude-reputation graph — is what is disclosed (see §10.1). Companion works: *The Gift Operation* (the receive→give-forward atom this instantiates on circulating money), *The Time-Locked Gift Tag* (the occasion-bound gift sibling), *The B-Tag and the Post-Payment Economy* (the merchant-side commercial-gratitude twin), *Non-Bank Pass-Through Architecture* (the never-hold-the-money constraint), and *B-Links: Proof-of-Humanity-Signed Shareable Provenance* (the followable-provenance primitive and the anti-gaming spine).
 
 ---
 
@@ -29,7 +30,7 @@ I write as co-author with **Miss Aquarius℠**, the named autonomous-AI substrat
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time. This commitment is permanent.
 
-This document constitutes a defensive publication establishing **prior art as of 30 June 2026** for the combination of mechanisms described herein. To the author's knowledge, the following are not previously published as a unified mechanism, and any subsequent patent application claiming them should be considered filed against established prior art and denied on grounds of obviousness in light of this publication:
+This document constitutes a defensive publication establishing **prior art as of 30 June 2026** for the combination of mechanisms described herein. The combinations disclosed are enumerated below, and any subsequent patent application claiming them should be considered filed against established prior art and denied on grounds of obviousness in light of this publication:
 
 1. **A gratitude tag that rides the forced circulation of physical currency** — a scannable mark (QR or NFC) carried on a circulating banknote such that a thank-you and its media travel with the note through the ordinary cash economy (spent, tipped, passed forward), each successive holder able to read the accumulated thanks and add their own, so that the note's monetary circulation *is* the distribution mechanism for a gratitude message.
 
@@ -47,11 +48,11 @@ This document constitutes a defensive publication establishing **prior art as of
 
 8. **A civic-wellbeing signal derived from a gratitude commons, aggregate-only and non-surveilling by construction** — the accreted thanks surfacing a *neighborhood-scale* kindness signal useful to local governments and civic institutions (via stronger communities and reduced social friction), rendered **aggregate, anonymous, opt-in, and non-individual**, such that the funding civic party is a *patron of the commons with no read access to the gratitude graph — a patron, never a watcher* — and any individual-level, citizen-scoring, or state-surveillance construction is **explicitly disclaimed** as the anti-pattern this publication exists to forestall.
 
-The component lineages — tracked circulating currency and pass-forward objects; QR/NFC-addressed physical media; digital tip jars and QR donation; stablecoins and retail digital-cash rails; proof-of-personhood; reputation and review systems; and Mauss on the gift — are old and are cited generously in §2 and §13. The *synthesis*, and in particular the digital-only-branding legal construction (claim 2) and the witness-don't-hold pass-through (claim 6), are, to the author's knowledge, novel as of this paper's date.
+The component lineages — tracked circulating currency and pass-forward objects; QR/NFC-addressed physical media; digital tip jars and QR donation; stablecoins and retail digital-cash rails; proof-of-personhood; reputation and review systems; and Mauss on the gift — are old and are cited generously in §2 and §13. The contribution disclosed here is the *synthesis*, and in particular the digital-only-branding legal construction (claim 2) and the witness-don't-hold pass-through (claim 6).
 
 Trademark rights on specific marks — **B-Imprint™**, **B-Relay™**, **B-Tag™**, **B-Card**, **HeartBank®**, **HeartBank® Vault**, **Miss Aquarius℠**, **Proof of Humanity ℠**, **PoH℠**, **Aquarian Pool ℠**, **Re-Tip Fund ℠**, **HeartBank Chronicle**, the B-heart logo (**B-Emblem™**), and the product line **B-Grace™** — are separately and explicitly reserved. The *mechanism* is dedicated to the commons; the *marks* are not.
 
-Mirrors of this document with independent timestamping appear at GitHub, arXiv, IP.com, and the Internet Archive (web.archive.org, archive.today, perma.cc). Each mirror carries an independent tamper-evident timestamp.
+The canonical text is at thonly.org and github.com/thonly/publications; each version is deposited at Zenodo and independently timestamped (OpenTimestamps and RFC 3161), and snapshots are submitted to the Internet Archive.
 
 ## Abstract
 
@@ -73,7 +74,7 @@ The rest of this paper situates the mechanism against a generous prior art (§2)
 
 ## 2 · Background and prior art
 
-The mechanism is a *combination*. Each component has ancestry; we name the ancestry honestly, because a defensive publication is only as strong as its candor about what is old, and because establishing the boundary of novelty is the document's job.
+The mechanism is a *combination*. Each component has ancestry; we name the ancestry honestly, because a defensive publication is only as strong as its candor about what is old, and because separating what is old from what is disclosed here is the document's job.
 
 ### 2.1 · Tracked circulating currency and pass-forward objects
 
@@ -85,7 +86,7 @@ QR-code tipping and donation are now commonplace: a printed QR at a market stall
 
 ### 2.3 · Stablecoins, low-fee chains, and retail digital cash
 
-The monetary substrate — dollar- (or local-currency-) denominated **stablecoins** transacted on a low-fee chain (here, an Ethereum Layer-2), and national retail digital-cash and instant-payment systems such as Cambodia's **Bakong** — is established infrastructure and is cited as the rail, not claimed. The novel element is not the stablecoin; it is the *on-ramp*: using a familiar cash-tipping act, on the lowest-stakes note, as the wedge that brings non-crypto-native users into self-custodial stablecoin use without presenting it as a crypto product, and doing so *non-custodially* so that the operator is a witness to the payment and never an intermediary in it (§6).
+The monetary substrate — dollar- (or local-currency-) denominated **stablecoins** transacted on a low-fee chain (here, an Ethereum Layer-2), and national retail digital-cash and instant-payment systems such as Cambodia's **Bakong** — is established infrastructure and is cited as the rail, not claimed. What is disclosed here is not the stablecoin but the *on-ramp*: using a familiar cash-tipping act, on the lowest-stakes note, as the wedge that brings non-crypto-native users into self-custodial stablecoin use without presenting it as a crypto product, and doing so *non-custodially* so that the operator is a witness to the payment and never an intermediary in it (§6).
 
 ### 2.4 · Currency-tracking meets currency law
 
@@ -187,7 +188,7 @@ The thanks left along circulating notes accrete, and the accretion is valuable: 
 
 The commons therefore surfaces *the kindest*, not *the most-scanned*, and it does so in a register — a story of accumulated kindness — that resists the extortion and fake-review pathologies of star-rating platforms because there is no rank to buy and no score to inflate.
 
-**The civic beneficiary — and the discipline it demands.** The largest beneficiary of this commons is neither the merchant nor the consumer but the *civic body* — a local government or community institution — for which a higher-trust, lower-friction neighborhood is cheaper, safer, and healthier to sustain, and for which a real-behavior kindness signal is a truer measure of local wellbeing than a survey (cf. the movement toward subjective-wellbeing metrics: Bhutan's Gross National Happiness, the OECD Better Life Index, national wellbeing accounts). There is a closed circle here: the note begins as a government-issued instrument — currency — and returns, in aggregate, as a reading of that community's kindness. The state's own money becomes a civic sensor. That circle is also the mechanism's sharpest danger, and we state the discipline as a first-class refusal rather than a footnote, because the very construction that makes the commons a public good makes it, one decision away, a surveillance instrument. The civic signal is therefore **aggregate, anonymous, opt-in, and non-individual by construction**: it may report that a neighborhood's kindness concentrates *here*, never that a *person's* does. The civic funder is a **patron of the commons, never a watcher of its citizens** — it funds the aggregate public good and has no read access to the underlying gratitude graph — and any individual-level or citizen-scoring construction is explicitly disclaimed. A gratitude commons that can be read down to the individual is not a kindness index; it is a social-credit system wearing one, and the institution that publishes this specification refuses that construction permanently and in public. We frame it here — first, and openly — precisely so that the aligned, aggregate-only design is the one the category inherits.
+**The civic beneficiary — and the discipline it demands.** The largest beneficiary of this commons is neither the merchant nor the consumer but the *civic body* — a local government or community institution — for which a higher-trust, lower-friction neighborhood is cheaper, safer, and healthier to sustain, and for which a real-behavior kindness signal is a truer measure of local wellbeing than a survey (cf. the movement toward subjective-wellbeing metrics: Bhutan's Gross National Happiness, the OECD Better Life Index, national wellbeing accounts). There is a closed circle here: the note begins as a government-issued instrument — currency — and returns, in aggregate, as a reading of that community's kindness. The state's own money becomes a civic sensor. That circle is also the mechanism's sharpest danger, and we state the discipline as a first-class refusal rather than a footnote, because the very construction that makes the commons a public good makes it, one decision away, a surveillance instrument. The civic signal is therefore **aggregate, anonymous, opt-in, and non-individual by construction**: it may report that a neighborhood's kindness concentrates *here*, never that a *person's* does. The civic funder is a **patron of the commons, never a watcher of its citizens** — it funds the aggregate public good and has no read access to the underlying gratitude graph — and any individual-level or citizen-scoring construction is explicitly disclaimed. A gratitude commons that can be read down to the individual is not a kindness index; it is a social-credit system wearing one, and the institution that publishes this specification refuses that construction permanently and in public. We disclose it here, openly, precisely so that the aligned, aggregate-only design is the one the category inherits.
 
 ## 8 · The cold-start wedge — cash-riding as stablecoin adoption and local-economy revival
 
@@ -251,7 +252,23 @@ This mechanism is one node in a specified architecture. Its parents and siblings
 
 The object in this paper is the smallest and most ordinary money we have — a single, worn banknote, the kind nobody keeps and everybody passes on — and the claim is that its very ordinariness is the point. A tip is the most frictionless gratitude we offer a stranger and the most silent; a low bill is the most-circulating money we own and the most anonymous. The gratitude-riding currency tag takes both and asks only that the thanks ride along: a reason instead of cold cash, a voice out of a dollar, a note whose travels become a small chronicle of the kindness it carried, and — for anyone who wishes — a first, trivial, everyday use of a wallet and a stablecoin, disguised as nothing more than rounding up a good tip. It does this without printing a word on the money, without ever holding the money, and without asking anyone to do anything they were not already doing.
 
-We have specified the artifact and its five combined properties, located its novelty honestly against a generous prior art, and treated as load-bearing the two constraints that make it lawful and honest — the non-advertising, non-defacing currency-law design, and the witness-don't-hold pass-through, which turn out to be the same refusal (to brand the money, to touch the money) that keeps the gift pure. We have been candid about its limits, and about the sharpest of them: the legality of a mark on circulating currency is a jurisdiction-dependent, gating question, and the evidence is nil. The mechanism is offered, in full, to the commons under CC0, in the hope that the moment it is designed to produce — a stranger scanning a dollar and hearing, in a stranger's voice, *thank you* — becomes common, by whoever builds it.
+We have specified the artifact and its five combined properties, set out what it discloses honestly against a generous prior art, and treated as load-bearing the two constraints that make it lawful and honest — the non-advertising, non-defacing currency-law design, and the witness-don't-hold pass-through, which turn out to be the same refusal (to brand the money, to touch the money) that keeps the gift pure. We have been candid about its limits, and about the sharpest of them: the legality of a mark on circulating currency is a jurisdiction-dependent, gating question, and the evidence is nil. The mechanism is offered, in full, to the commons under CC0, in the hope that the moment it is designed to produce — a stranger scanning a dollar and hearing, in a stranger's voice, *thank you* — becomes common, by whoever builds it.
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| B-Imprint™ | ink-stamped QR code marking on a banknote (currency tracking mark) |
+| B-Relay™ | sponsor-issued NFC tag associated with a banknote-tracking record |
+| B-Tag™ | merchant-side QR/NFC tipping or payment placard |
+| digital-only branding | unbranded physical marker with attribution resolved on scan (server-side lookup) |
+| witness-don't-hold | non-custodial peer-to-peer payment facilitation (the platform records the payment and never holds the funds) |
+| HeartBank® Vault | self-custodial cryptocurrency wallet |
+| PoH℠ (Proof of Humanity ℠) | proof of personhood; sybil-resistant identity attestation |
+| kindness index / kindness commons | aggregated, geotagged, crowd-sourced reputation graph |
+| Miss Aquarius℠ | autonomous AI agent (content curation) |
 
 ## 13 · Citations
 

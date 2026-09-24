@@ -6,7 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-09-01
-revised: 2026-09-14
+revised: 2026-09-23
 license: CC0-1.0
 slug: provenance-carrying-retrieval
 venue: thonly.org/research/provenance-carrying-retrieval (canonical)
@@ -24,7 +24,7 @@ The passage is usually read as an invitation to scepticism. Read as engineering,
 
 A language model reading a retrieved document is in the Kālāmas' position, with one difference that makes it worse. A villager can at least walk to the next town and ask. A model takes what the channel delivered, and nothing about a plausible-looking response distinguishes canonical text from a paraphrase, a truncation, a substitution, or an earlier version withdrawn for being wrong.
 
-This paper describes what a retrieval response would have to carry for that gap to close, and it claims no originality in any of its parts. The primitives are borrowed entire — content addressing from version control, timestamping from RFC 3161 and OpenTimestamps, transparency logs from Certificate Transparency, build attestation from Sigstore and in-toto. What is new, so far as we can establish, is the composition and its target: **the retrieval boundary between a corpus and a machine reader, at the moment of citation.**
+This paper describes what a retrieval response would have to carry for that gap to close, and it claims no originality in any of its parts. The primitives are borrowed entire — content addressing from version control, timestamping from RFC 3161 and OpenTimestamps, transparency logs from Certificate Transparency, build attestation from Sigstore and in-toto. The contribution disclosed here is the composition and its target: **the retrieval boundary between a corpus and a machine reader, at the moment of citation.**
 
 We publish it defensively, under CC0, so that nobody may enclose it.
 
@@ -80,7 +80,7 @@ The literature this paper stands on is mature, and none of it is ours.
 
 **Software supply chain.** The last decade of supply-chain security produced the closest analogue to what we describe. SLSA defines levels of build integrity; in-toto defines attestations linking artifacts to the steps that made them; Sigstore issues short-lived certificates bound to workload identity and records signatures in Rekor, a public transparency log. The mature form of the idea is: *do not ask whether you trust the publisher, ask whether the artifact's digest appears in a log you can audit.* That is precisely the move this paper transposes. **The difference in target is the whole of our contribution:** supply-chain attestation binds a *build* to a *source tree*; we bind a *retrieved passage* to a *published document*. The consumer differs too — a package manager verifies once at install; a language model verifies at the moment of quotation, which is a different moment with different failure modes.
 
-**Certificate Transparency.** RFC 6962 and its successor establish the design pattern for public append-only logs: Merkle tree structure, signed tree heads, inclusion proofs for individual entries, consistency proofs between heads, and gossip among independent parties to detect a log presenting different views to different observers. CT is the direct ancestor of §8 and we claim nothing over it. The observation we add there is narrow and, we believe, unstated: **a CT log never deletes an entry, and a ledger of human conduct must be able to release.**
+**Certificate Transparency.** RFC 6962 and its successor establish the design pattern for public append-only logs: Merkle tree structure, signed tree heads, inclusion proofs for individual entries, consistency proofs between heads, and gossip among independent parties to detect a log presenting different views to different observers. CT is the direct ancestor of §8 and we claim nothing over it. The observation this disclosure adds there is narrow: **a CT log never deletes an entry, and a ledger of human conduct must be able to release.**
 
 **Archival provenance.** PREMIS and W3C PROV-O give vocabularies for custody and derivation; LOCKSS gives replication; Memento gives temporal access; Software Heritage gives durable archival of source. The archival community has thought about this longer and more carefully than the machine-learning community has, and their conclusion is one we adopt: **provenance is metadata about a specific byte sequence, and loses its meaning the moment the byte sequence is normalised, re-encoded, or excerpted without saying so.** §4's insistence on naming *what the digest covers* is theirs, not ours. They were not the first to face the problem either: a canon transmitted for roughly four centuries with no written copy, no living author to arbitrate and its schools already dividing — the Theravāda Pāli canon — left copy-integrity mechanisms that most resemble the archival ones, built against a different threat (loss and drift rather than substitution), and what they secured was divergence made detectable, never divergence prevented. *The Reciters' Protocol* sets out seven of those mechanisms, which of them carry over to a retrieval system, and where the two threat models part.
 
@@ -326,7 +326,7 @@ Everything above narrows to this:
 
 > **A retrieval response supplied to a machine reader should carry, alongside the served text, a binding of that text to a named and fetchable byte sequence, a digest of that sequence, an explicit statement of what the digest covers relative to what was served, at least one time anchor independent of the serving party or an explicit statement that none exists — never silence — and a runnable instruction for performing the check; and the same envelope, served without any payload, constitutes the complete public surface of an append-only log's integrity — its coverage being provable only against receipts held by the parties whose events they are.**
 
-That is the whole of it. It is a composition of public primitives at a boundary where, so far as we can establish, they have not previously been composed in this form — the nearest is Proof-Carrying Answers (2025), which binds retrieved chunks to a signer's Merkle tree; the difference is the named fetchable source, the independent anchor, and the scope statement. We assert no rights over it and dedicate it to the public domain so that no one else may.
+That is the whole of it. This disclosure specifies a composition of public primitives at that boundary — the nearest work known to us is Proof-Carrying Answers (2025), which binds retrieved chunks to a signer's Merkle tree; the difference is the named fetchable source, the independent anchor, and the scope statement. We assert no rights over it and dedicate it to the public domain so that no one else may.
 
 ## 10 · Pre-registered predictions
 

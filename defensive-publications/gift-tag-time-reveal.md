@@ -6,7 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-06-27
-revised: 2026-09-05
+revised: 2026-09-23
 license: CC0-1.0
 slug: gift-tag-time-reveal
 venue: thonly.org/research/gift-tag-time-reveal (canonical)
@@ -14,7 +14,7 @@ venue: thonly.org/research/gift-tag-time-reveal (canonical)
 
 > *v2 note (2026-08-26):* **one new subsection, §4.10, and no new claim.** Everything the paper described was a tag riding a wrapped present; §4.10 specifies the configuration in which **the tag is given alone and the pledge of time is itself the gift** — the receiver choosing the surface it lives on, which extends §4.4's inversion one step further back. Two engineering consequences are stated because both are easy to get wrong: **the opened state must persist across many scans** (*one-time-use* has always meant one gift, never one scan) and **the adhesive is a different material specification**. The standing-reminder risk is answered by direction rather than policy — **the tag reminds its holder of what they may claim, never its giver of what they owe** — under two guards, of which the second is a refusal: **the object does not act, and never notifies the giver**. **No numbered claim changes and no prior-art clock starts.** *(Revision note, 2026-09-05: claim 2's wording is generalised to cover the bare configuration; the bare configuration's own date remains 2026-08-26.)*
 >
-> **Draft in progress.** This is the founder-voice canonical draft for `thonly/publications`. The defensive publication specifies **the time-locked gift tag** — HeartBank's **B-Stamp™** (free sticker) and **B-Seal™** (durable engraved-wood keepsake), the gift-accompaniment pair — the physical gift-label that replaces handwriting with a per-field time-lockable reveal, an AI-sized pledge of the giver's time, and a recipient re-thank loop. It is the declared **first domino** of HeartBank's go-to-market: the product that introduces the institution to the public. It is published **early and deliberately**, ahead of a public marketing campaign (paid placement + social video), because public marketing is uncontrolled disclosure and the combination specified here is the asset — see §9.1. Companion works: *The Gift Operation* (the receive→give-forward atom this instantiates in a physical substrate), *B-Links: Proof-of-Humanity-Signed Shareable Provenance* (the digital sibling and the media/provenance backbone), *Verified-Human Anonymous Local Giving* and *Dual-Currency Reciprocity* (the Treasury/Chronicle substrate), and *Aura-Gated Anonymous Mate-Selection* (the anonymous-stranger layer of the same time economy).
+> **Note.** This defensive publication specifies **the time-locked gift tag** — HeartBank's **B-Stamp™** (free sticker) and **B-Seal™** (durable engraved-wood keepsake), the gift-accompaniment pair — the physical gift-label that replaces handwriting with a per-field time-lockable reveal, an AI-sized pledge of the giver's time, and a recipient re-thank loop. It is the declared **first domino** of HeartBank's go-to-market: the product that introduces the institution to the public. It is published **early and deliberately**, ahead of a public marketing campaign (paid placement + social video), because public marketing is uncontrolled disclosure and the combination specified here is the asset — see §9.1. Companion works: *The Gift Operation* (the receive→give-forward atom this instantiates in a physical substrate), *B-Links: Proof-of-Humanity-Signed Shareable Provenance* (the digital sibling and the media/provenance backbone), *Verified-Human Anonymous Local Giving* and *Dual-Currency Reciprocity* (the Treasury/Chronicle substrate), and *Aura-Gated Anonymous Mate-Selection* (the anonymous-stranger layer of the same time economy).
 
 ---
 
@@ -32,7 +32,7 @@ This paper specifies what happens when you give that tag a voice, a clock, and a
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time. This commitment is permanent.
 
-This document constitutes a defensive publication establishing **prior art as of 27 June 2026** for the first revision of the combination of mechanisms described herein; additions are dated in-text (§4.10, 2026-08-26; the §5 amendment, 2026-09-02) and each revision is independently timestamped. To the author's knowledge, the following are not previously published as a unified mechanism, and any subsequent patent application claiming them should be considered filed against established prior art:
+This document constitutes a defensive publication establishing **prior art as of 27 June 2026** for the first revision of the combination of mechanisms described herein; additions are dated in-text (§4.10, 2026-08-26; the §5 amendment, 2026-09-02) and each revision is independently timestamped. The following are disclosed herein as a unified mechanism, and any subsequent patent application claiming them should be considered filed against this prior art:
 
 1. **Per-field, independently time-lockable gift-reveal on a physical gift tag** — a physical gift-label (NFC- or QR-addressed) whose **sender field, recipient field, and message field can each be independently sealed and set to reveal at an author-chosen time or occasion** (e.g., "Christmas morning"), such that a scan before the moment shows the *structure* of the gift (that a sender, a note, and a gift of time exist) while withholding the *content*, and a scan at or after the moment reveals it.
 
@@ -50,7 +50,7 @@ This document constitutes a defensive publication establishing **prior art as of
 
 8. **The physical gift tag as the cold-start on-ramp to a time-presence economy** — using a physical, occasion-bound object to let people *give and receive a sized pledge of presence as a real gift before any time-economy application exists*, with proceeds of the physical product routed to subsidize the sibling money-economy.
 
-The component lineages — gift tags and gift messaging; scheduled-reveal and "time-capsule" messaging; the homemade "coupon for time"/experience gift; QR/NFC-addressed physical media; trackable pass-forward objects; TimeBanking and time-as-currency; proof-of-personhood; the gratitude-intervention literature; and Mauss on the gift — are old and are cited generously in §2 and §12. The *synthesis* is, to the author's knowledge, novel as of this paper's date.
+The component lineages — gift tags and gift messaging; scheduled-reveal and "time-capsule" messaging; the homemade "coupon for time"/experience gift; QR/NFC-addressed physical media; trackable pass-forward objects; TimeBanking and time-as-currency; proof-of-personhood; the gratitude-intervention literature; and Mauss on the gift — are old and are cited generously in §2 and §12. What this disclosure adds is the *synthesis*, as of the dates above.
 
 Trademark rights on specific marks — **B-Stamp™**, **B-Seal™**, **B-Gift℠**, **HeartBank®**, **Miss Aquarius℠**, **HeartBank Chronicle**, **Proof of Humanity ℠**, **PoH℠**, **Family Kitty℠**, **Aquarian Pool ℠**, **Re-Tip Fund ℠**, **B-Storage℠**, **Zero-Point Game ℠**, the B-heart logo — are separately and explicitly reserved. The *mechanism* is dedicated to the commons; the *marks* are not.
 
@@ -76,7 +76,7 @@ The rest of this paper specifies the artifact and the mechanism, situates it aga
 
 ## 2 · Background and prior art
 
-The mechanism is a *combination*. Each component has ancestry; we name the ancestry honestly, because a defensive publication is only as strong as its candor about what is old, and because establishing the boundary of novelty is the document's job.
+The mechanism is a *combination*. Each component has ancestry; we name the ancestry honestly, because a defensive publication is only as strong as its candor about what is old, and because establishing the boundary of what is disclosed here is the document's job.
 
 ### 2.1 · Gift tags, greeting cards, and digital gift messages
 
@@ -84,11 +84,11 @@ The written gift tag is ancient and needs no citation; gift-enclosure cards and 
 
 ### 2.2 · Scheduled-reveal and "time-capsule" messaging
 
-Services that deliver a message at a future date — **FutureMe** (letters to one's future self, 2002), digital time-capsule apps, scheduled email and "dead-man's-switch" delivery, and "open when…" letter sets — establish *time-delayed reveal of a message*. The novelty here is not delay as such. It is (a) **per-field** locking (sender, recipient, and message sealed *independently*, so a recipient can know a gift is theirs without knowing from whom, or know the sender without the message), (b) binding the reveal to a **physical gift artifact** scanned in the hand at the moment of opening, and (c) what is revealed: not only a message but **a pledge of time** and an invitation to **re-thank**.
+Services that deliver a message at a future date — **FutureMe** (letters to one's future self, 2002), digital time-capsule apps, scheduled email and "dead-man's-switch" delivery, and "open when…" letter sets — establish *time-delayed reveal of a message*. What this disclosure adds is not delay as such. It is (a) **per-field** locking (sender, recipient, and message sealed *independently*, so a recipient can know a gift is theirs without knowing from whom, or know the sender without the message), (b) binding the reveal to a **physical gift artifact** scanned in the hand at the moment of opening, and (c) what is revealed: not only a message but **a pledge of time** and an invitation to **re-thank**.
 
 ### 2.3 · The homemade "coupon for time" and the experience gift
 
-The most honest prior art for the *idea of pledging time as a gift* is the oldest and least technological: the child's hand-made **coupon book** ("good for one hour of helping," "one breakfast in bed"), the Mother's-Day "I.O.U.," and the broad category of **experience gifts** ("time together" as the present). The concept that *time-presence can be the gift* is folk culture, not novel, and we claim none of it. What is novel is the *instantiation*: a coupon that is digital-and-physical at once, occasion-synced, **AI-sized rather than self-assigned** (§6), re-thankable, and — crucially — designed as a *soft pledge of presence rather than a redeemable IOU* (§5), where the homemade coupon is precisely an IOU. The folk coupon is an obligation the giver writes; the tag's pledge is a presence the giver offers and an AI sizes.
+The most honest prior art for the *idea of pledging time as a gift* is the oldest and least technological: the child's hand-made **coupon book** ("good for one hour of helping," "one breakfast in bed"), the Mother's-Day "I.O.U.," and the broad category of **experience gifts** ("time together" as the present). The concept that *time-presence can be the gift* is folk culture, and we claim none of it. The contribution disclosed here is the *instantiation*: a coupon that is digital-and-physical at once, occasion-synced, **AI-sized rather than self-assigned** (§6), re-thankable, and — crucially — designed as a *soft pledge of presence rather than a redeemable IOU* (§5), where the homemade coupon is precisely an IOU. The folk coupon is an obligation the giver writes; the tag's pledge is a presence the giver offers and an AI sizes.
 
 ### 2.4 · TimeBanking and time-as-currency
 
@@ -147,7 +147,7 @@ When composing, the sender may independently seal any of three fields and set ea
 - **Recipient** — who it is for
 - **Message** — the note, and any attached media and pledge
 
-Independence is the novel core. A gift may show "From Grandma" while hiding for whom and what; or show the recipient while hiding the giver ("you don't know who loves you yet"); or hide all three until the morning. The pre-reveal state is designed to display **structure without content** — the scanner sees *that* a sender, a note, and a gift of time exist, each sealed, plus a countdown — because the experience being engineered is *anticipation*, and anticipation requires knowing the shape of the mystery without its solution. A child scanning a sealed box on the eve learns that it is for him, that someone has written something, and that time has been set aside — and not from whom. He thinks it is from his mother; he is not sure. That uncertainty is the product.
+Independence is the core of what is disclosed here. A gift may show "From Grandma" while hiding for whom and what; or show the recipient while hiding the giver ("you don't know who loves you yet"); or hide all three until the morning. The pre-reveal state is designed to display **structure without content** — the scanner sees *that* a sender, a note, and a gift of time exist, each sealed, plus a countdown — because the experience being engineered is *anticipation*, and anticipation requires knowing the shape of the mystery without its solution. A child scanning a sealed box on the eve learns that it is for him, that someone has written something, and that time has been set aside — and not from whom. He thinks it is from his mother; he is not sure. That uncertainty is the product.
 
 ```
    PRE-REVEAL (scanned before the moment)        REVEALED (scanned at/after the moment)
@@ -342,7 +342,23 @@ This mechanism is one node in a specified architecture. Its parents and siblings
 
 The most ordinary object in this paper — a sticker on a wrapped present — is the one the institution has chosen to lead with, and the choice is not modesty. A first thing put before the public has to do three jobs at once: it has to be *adopted* (which means asking almost no new behavior, which means attaching to a ritual people already keep — and labeling a gift is such a ritual, with no frictionless incumbent to lose to); it has to *start the system* (which means funding and feeding the rest of the institution from the first unit, which the routed proceeds and the time-economy on-ramp do); and it has to be *unmistakably the thing it represents* (which means carrying the gift of time, the one payload no greeting card has, held honestly as a pledge of presence rather than a debt). The time-locked gift tag does all three, and it does them by adding to an interface as old as writing a name on a parcel only the two things that interface always lacked: the sentence the giver could not fit, and the time the giver actually meant to give.
 
-We have specified the artifact and its six combined properties, located its novelty honestly against a generous prior art, and treated as load-bearing the three constraints that keep it safe and true — the gift/exchange boundary, comparison-neutral sizing, and the cold-start economics. We have been candid about its limits: a soft pledge, a single family's evidence, real safety and economic tensions. The mechanism is offered, in full, to the commons under CC0, in the hope that the moment it is designed to produce — a recorded voice coming out of a box on a holiday morning, and a room going quiet — becomes common, by whoever builds it.
+We have specified the artifact and its six combined properties, located its contribution honestly against a generous prior art, and treated as load-bearing the three constraints that keep it safe and true — the gift/exchange boundary, comparison-neutral sizing, and the cold-start economics. We have been candid about its limits: a soft pledge, a single family's evidence, real safety and economic tensions. The mechanism is offered, in full, to the commons under CC0, in the hope that the moment it is designed to produce — a recorded voice coming out of a box on a holiday morning, and a room going quiet — becomes common, by whoever builds it.
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| B-Stamp™ | Single-use QR-code gift label (sticker) addressing a hosted gift message |
+| B-Seal™ | Durable NFC/QR-addressed engraved keepsake gift tag |
+| Per-field time-lock (sealed field) | Time-release / scheduled disclosure of individual stored message fields |
+| Pledge of time (gift of time) | Non-redeemable promise of time; experience gift (not a stored-value credit or voucher) |
+| Miss Aquarius℠ | Autonomous software agent (AI) that sets the pledged quantity |
+| Re-thank loop | Recipient reply to the giver with push notification |
+| Possession-scoped publicness | Bearer-access content reachable by scanning the tag; not search-indexed |
+| B-Storage℠ | Cloud hosting for user-uploaded photo, video and audio media |
+| HeartBank Chronicle | Time-based reciprocity (time-banking-type) application |
 
 ## 12 · Citations
 

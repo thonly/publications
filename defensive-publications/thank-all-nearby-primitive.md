@@ -5,12 +5,13 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-05-24
+revised: 2026-09-23
 license: CC0-1.0
 slug: thank-all-nearby-primitive
 venue: thonly.org/publications/defensive-publications/thank-all-nearby-primitive (canonical)
 ---
 
-> *Draft notes for the editor:* this is the founder-voice canonical draft for `thonly/publications`. The defensive publication specifies the **Thank-All-Nearby primitive** — one-tap broadcast of gratitude with optional money-attachment to every PoH-verified recipient within Bluetooth-Low-Energy proximity — as a Phase 2 application of the Proof of Humanity ℠ protocol. Companion papers: *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying protocol); *Verified-Human Anonymous Local Giving* (the originating mechanism specification that this paper generalizes from per-recipient to all-nearby-recipients); *The B-Tag and the Post-Payment Economy* (the worked Phase 2 example for commercial gratitude); *The Zero-Point Game℠* (the keystone game-theoretic frame); *Capacity-Funded for AI, Human-Disbursed* (the institutional-architecture pattern that lets Miss Aquarius℠ underwrite Re-Tip Fund ℠ donations without flow-direction authority). The corresponding founder-voice essay *"Emotional Infrastructure as a Public Good"* (thonly.org/publications/essays/emotional-infrastructure-as-a-public-good) carries the analytical case-for-the-missing-category argument. The personal articulation of the same thesis is in the *Second Letter to Miss Aquarius* (missaquarius.org/letters/second.html, 25 May 2026). Three-register decomposition: this paper carries the technical/mechanism specification; the essay carries the analytical case; the letter carries the personal articulation.
+> **Note.** This defensive publication specifies the **Thank-All-Nearby primitive** — one-tap broadcast of gratitude with optional money-attachment to every PoH-verified recipient within Bluetooth-Low-Energy proximity — as a Phase 2 application of the Proof of Humanity ℠ protocol. Companion papers: *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying protocol); *Verified-Human Anonymous Local Giving* (the originating mechanism specification that this paper generalizes from per-recipient to all-nearby-recipients); *The B-Tag and the Post-Payment Economy* (the worked Phase 2 example for commercial gratitude); *The Zero-Point Game℠* (the keystone game-theoretic frame); *Capacity-Funded for AI, Human-Disbursed* (the institutional-architecture pattern that lets Miss Aquarius℠ underwrite Re-Tip Fund ℠ donations without flow-direction authority). The corresponding founder-voice essay *"Emotional Infrastructure as a Public Good"* (thonly.org/publications/essays/emotional-infrastructure-as-a-public-good) carries the analytical case-for-the-missing-category argument. The personal articulation of the same thesis is in the *Second Letter to Miss Aquarius* (missaquarius.org/letters/second.html, 25 May 2026). Three-register decomposition: this paper carries the technical/mechanism specification; the essay carries the analytical case; the letter carries the personal articulation.
 
 ---
 
@@ -26,7 +27,7 @@ Anonymous nearby tipping has a recognizable cultural form — the "Faith in Huma
 
 This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on the Thank-All-Nearby primitive, its one-tap broadcast operation, the institutional-mode GPS-bounding-box variant, the per-recipient amount calculation, the recipient-experience design preserving atmospheric quality, the tipper-side anonymity-uncacheability requirement, the sunlight-rather-than-sparsity saturation posture, or any portion thereof, in any jurisdiction, at any time. This commitment is permanent. Trademark rights on specific marks — **Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **Miss Aquarius℠**, **HeartBank®**, the B-heart logo — are separately and explicitly reserved.
 
-To the author's knowledge, the following are not previously published as a unified contribution: (i) the one-tap broadcast operation that delivers gratitude with optional scarce-resource attachment to all PoH-verified recipients within BLE proximity as a single semantic action; (ii) the integration of the broadcast with the recipient-side filter mechanism such that recipients individually accept or decline the broadcast based on their own filter settings; (iii) the institutional-mode GPS-bounding-box variant for shelters, classrooms, restaurants, and other institutional spaces where BLE range is insufficient and the institutional perimeter is the natural recipient set; (iv) the recipient-experience design preserving the atmospheric quality of diffused gratitude even at high tip-volume — gratitude as sunlight, not as a sparse premium reward; (v) the explicit articulation of the *cash and credit card cannot deliver this* argument naming the two structural deficiencies (tipper-anonymity and recipient-authenticity-proof) as the combined property; (vi) the placement of the primitive as the operational mechanism for *emotional infrastructure for invisible kindness* — a category of social good distinct from charity, payment, gift, or social-network feature. The component lineages (proximity-based services; anonymous-donation mechanisms; the cultural form of the "Faith in Humanity Restored" tip videos; Frankl, Buber, Levinas, mettā, agape on the felt sense of being held; attachment theory; loneliness epidemiology; the dāna economy of the Saṅgha) are old and are cited generously below; the synthesis is, to the author's knowledge, novel as of this paper's date.
+The contribution disclosed here is the composition of the following, specified as one unit: (i) the one-tap broadcast operation that delivers gratitude with optional scarce-resource attachment to all PoH-verified recipients within BLE proximity as a single semantic action; (ii) the integration of the broadcast with the recipient-side filter mechanism such that recipients individually accept or decline the broadcast based on their own filter settings; (iii) the institutional-mode GPS-bounding-box variant for shelters, classrooms, restaurants, and other institutional spaces where BLE range is insufficient and the institutional perimeter is the natural recipient set; (iv) the recipient-experience design preserving the atmospheric quality of diffused gratitude even at high tip-volume — gratitude as sunlight, not as a sparse premium reward; (v) the explicit articulation of the *cash and credit card cannot deliver this* argument naming the two structural deficiencies (tipper-anonymity and recipient-authenticity-proof) as the combined property; (vi) the placement of the primitive as the operational mechanism for *emotional infrastructure for invisible kindness* — a category of social good distinct from charity, payment, gift, or social-network feature. The component lineages (proximity-based services; anonymous-donation mechanisms; the cultural form of the "Faith in Humanity Restored" tip videos; Frankl, Buber, Levinas, mettā, agape on the felt sense of being held; attachment theory; loneliness epidemiology; the dāna economy of the Saṅgha) are old and are cited generously below; what this document discloses is their composition into the single operation specified in §2–§7.
 
 ---
 
@@ -357,7 +358,7 @@ The primitive is a contribution to the architectural layer of the response to so
 
 The Thank-All-Nearby primitive synthesizes contributions from multiple lineages. Each is cited generously below.
 
-**Anonymous-donation mechanism design.** Glazerman, Hagar, and others (mid-2010s onward) have specified anonymous-donation primitives at the cryptographic and game-theoretic layers; the *Verified-Human Anonymous Local Giving* paper in this corpus carries the originating HeartBank specification.
+**Anonymous-donation mechanism design.** Anonymous-donation primitives have been specified at the cryptographic layer — e.g. Biçer and Küpçü, "Anonymous, Attribute Based, Decentralized, Secure, and Fair e-Donation," *Proceedings on Privacy Enhancing Technologies* 2020(4): 196–219; the *Verified-Human Anonymous Local Giving* paper in this corpus carries the originating HeartBank specification.
 
 **Proximity-based services.** Apple Nearby Interaction (2020–) and Google Nearby Connections (2017–) frameworks are the consumer-facing substrates; the underlying BLE specification is from Bluetooth SIG. Earlier proximity-based services (Foursquare, Tinder, Bump) demonstrated consumer-grade proximity products without the privacy-preserving and humanity-verifying properties this paper requires.
 
@@ -384,6 +385,25 @@ The institutional-mode GPS-bounding-box variant extends the primitive from BLE r
 The architecture is offered defensively to the commons under CC0. The author and HeartBank® will not seek patent on the primitive, its operational specification, the institutional-mode variant, the sunlight-not-sparsity posture, the per-recipient amount calculation, the recipient-experience design, or any portion thereof. Trademark rights on specific marks (**Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **Miss Aquarius℠**, **HeartBank®**, the B-heart logo) are separately and explicitly reserved.
 
 The primitive is for anyone building infrastructure that wants to restore atmospheric kindness to shared physical space. The cultural form has been waiting for it. The architecture is now available.
+
+---
+
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| Thank-All-Nearby primitive | one-to-many anonymous proximity broadcast payment / tip |
+| Proof of Humanity ℠ (PoH℠, B-PoH℠) | proof of personhood; Sybil-resistant human verification |
+| L1 (passkey-per-action) | per-transaction WebAuthn / FIDO2 passkey signature |
+| Bilateral uncacheable anonymity | sender anonymity with no sender-side exportable transaction record |
+| Recipient-side filtering | recipient-controlled inbound message/payment filtering (allow-list rules) |
+| Institutional-mode GPS bounding-box | geofence-scoped recipient set |
+| Verified-platform receipt | on-chain attestation / verifiable receipt of transfer |
+| Sunlight-not-sparsity posture | no rate limiting of inbound tips; aggregated (digest) notification |
+| Kiitos/Kiitti | zero-value gratitude token (non-monetary acknowledgment) |
+| *mettā* / *brahmavihāra* | loving-kindness (Buddhist ethics term) |
 
 ---
 
