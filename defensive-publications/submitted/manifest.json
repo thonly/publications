@@ -14,6 +14,20 @@
       "url": "https://www.tdcommons.org/dpubs_series/11797"
     },
     {
+      "slug": "gratitude-riding-currency-tag",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-23",
+      "pdf": "gratitude-riding-currency-tag.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "738b327c54831e85922051a361f394eb885d35a9afea1faadf2d21bbeccf8cc2",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "c601ec8b845f16252d6ad1711e9701e10e287d47ffc6385518c9da1fd3db1e0f"
+    },
+    {
       "slug": "provenance-carrying-retrieval",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-23",

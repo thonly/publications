@@ -11,7 +11,7 @@ The rule keys on THE CLAIMS SECTION CHANGING, not the file changing — a differ
 not do, so this script remembers it instead.
 
   check-mirrors.py                 check every manifest entry (exit 1 if anything is owed)
-  check-mirrors.py --record SLUG --venue V --date YYYY-MM-DD|none --pdf FILE
+  check-mirrors.py --record SLUG --venue V --date YYYY-MM-DD|none --pdf FILE [--claims-heading '## H' ... | BODY]
   check-mirrors.py --ack SLUG --note "why no second submission is owed"
   check-mirrors.py --posted SLUG --date YYYY-MM-DD --url URL   the venue's live record, once it posts
   check-mirrors.py --selftest      run the controls: prove it can SEE a change, and a missing section
@@ -37,14 +37,22 @@ def body_of(md: str) -> str:
     parts = md.split("---")
     return "---".join(parts[2:]) if md.startswith("---") and len(parts) > 2 else md
 
-def claim_sections(md: str):
-    """[(heading, text)] for every ##-level claims section."""
+def claim_sections(md: str, override=None):
+    """[(heading, text)] for every ##-level claims section.
+
+    `override` (stored per entry by --claims-heading) names the sections EXACTLY, for a paper whose
+    claims sit under another heading (e.g. inside its Prior-Art statement); ["BODY"] fingerprints the
+    whole body, for a paper with no enumerated claims at all — every text change then fires, which is
+    the safe side: without a claims section, any sentence may be the disclosed matter."""
+    if override == ["BODY"]:
+        return [("BODY", body_of(md))]
     out, cur, buf = [], None, []
     for ln in body_of(md).split("\n"):
         if ANY_H2.match(ln):
             if cur is not None:
                 out.append((cur, "\n".join(buf)))
-            cur, buf = (ln.strip(), []) if CLAIM_HEADING.match(ln) else (None, [])
+            hit = (ln.strip() in override) if override else CLAIM_HEADING.match(ln)
+            cur, buf = (ln.strip(), []) if hit else (None, [])
         elif cur is not None:
             buf.append(ln)
     if cur is not None:
@@ -56,8 +64,10 @@ def words(s: str):
     s = re.sub(r"[*_#>|\[\]()`~-]+", " ", s)
     return re.findall(r"[0-9A-Za-zÀ-ỹ'’]+", s.lower())
 
-def claims_fingerprint(md: str):
-    secs = claim_sections(md)
+def claims_fingerprint(md: str, override=None):
+    secs = claim_sections(md, override)
+    if override and override != ["BODY"] and len(secs) != len(override):
+        return None, [], []                      # a named heading went missing: an ERROR
     if not secs:
         return None, [], []                      # absence is an ERROR, never a pass
     seq = []
@@ -72,15 +82,16 @@ def save(m):
     SUBMITTED.mkdir(parents=True, exist_ok=True)
     MANIFEST.write_text(json.dumps(m, indent=2, ensure_ascii=False) + "\n")
 
-def record(slug, venue, date, pdf):
+def record(slug, venue, date, pdf, override=None):
     md = DPUBS / f"{slug}.md"
     if not md.exists():
         sys.exit(f"no such paper: {md}")
-    fp, _, heads = claims_fingerprint(md.read_text(encoding="utf-8"))
+    fp, _, heads = claims_fingerprint(md.read_text(encoding="utf-8"), override)
     if fp is None:
         sys.exit(f"REFUSING: {slug} has no claims section this script can find — "
                  f"a mirror of a defensive publication without enumerated claims is the thing "
-                 f"the venue exists to carry. Fix the paper or fix CLAIM_HEADING.")
+                 f"the venue exists to carry. Fix the paper or fix CLAIM_HEADING — or name the section "
+                 f"with --claims-heading '## <exact heading>' (repeatable), or --claims-heading BODY.")
     m = load()
     old = next((e for e in m["entries"] if e["slug"] == slug), None)
     # A second submission is a second POSTING, not a replacement of the first: the venue keeps
@@ -93,6 +104,7 @@ def record(slug, venue, date, pdf):
         "slug": slug, "venue": venue,
         "submitted": None if date in ("none", "", None) else date,
         "pdf": pdf, "claims_headings": heads, "claims_sha256": fp,
+        **({"claims_heading_override": override} if override else {}),
         "body_sha256": hashlib.sha256(body_of(md.read_text(encoding="utf-8")).encode()).hexdigest(),
         **({"prior_postings": prior} if prior else {}),
     })
@@ -145,7 +157,7 @@ def check(quiet=False):
         if not md.exists():
             errors.append((e["slug"], "markdown is GONE")); continue
         text = md.read_text(encoding="utf-8")
-        fp, seq, heads = claims_fingerprint(text)
+        fp, seq, heads = claims_fingerprint(text, e.get("claims_heading_override"))
         if fp is None:
             errors.append((e["slug"], "claims section NO LONGER FOUND — renamed, or removed")); continue
         body_moved = hashlib.sha256(body_of(text).encode()).hexdigest() != e["body_sha256"]
@@ -223,11 +235,12 @@ if __name__ == "__main__":
     ap.add_argument("--date"); ap.add_argument("--pdf")
     ap.add_argument("--ack"); ap.add_argument("--note")
     ap.add_argument("--posted"); ap.add_argument("--url")
+    ap.add_argument("--claims-heading", action="append", help="exact ## heading holding the claims (repeatable), or BODY")
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--quiet", action="store_true")
     a = ap.parse_args()
     if a.selftest: sys.exit(selftest())
     if a.ack:      sys.exit(ack(a.ack, a.note) or 0)
     if a.posted:   sys.exit(posted(a.posted, a.date, a.url) or 0)
-    if a.record:   sys.exit(record(a.record, a.venue, a.date, a.pdf) or 0)
+    if a.record:   sys.exit(record(a.record, a.venue, a.date, a.pdf, a.claims_heading) or 0)
     sys.exit(check(a.quiet))
