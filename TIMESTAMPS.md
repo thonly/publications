@@ -1,3 +1,17 @@
+### 2026-09-24 (evening) — A232 wave 2: the final fix pass before the mirror (founder: *"1: yes 2: yes 3: cut 4: dash 5: do the fix pass first"*)
+
+The same eleven papers, second revision today. The packet reads (one reader per paper, examiner's eye) found what no lint
+could: **self-contradictions** (resolved toward each paper's own detailed sections), **emoji and editor notes**, two
+**unsourced quotations** (now cited: *Lawfare*, *TIME*), **unscoped superlatives** (scoped to what each paper surveyed),
+and **citations** verified on the web — corrected, added (Ford & Strauss 2008; Borge et al. 2017; El-Yaniv & Wiener 2010;
+Buterin, Hitzig & Weyl 2019; Roth, Sönmez & Ünver 2004; Soares et al. 2015) or cut (an unfindable product; three
+unverified fatwa examples); a wrong Worldcoin figure corrected. Founder rulings: *operates under Cambodian incorporation*
+cut; a reference to the founder's father by relation and the birthday stand. `md2html.py` fixed the same day
+(`__bold__`, split-list numbering, autolinks, `<sub>`/`<sup>`). Legs: OTS rotated (each retiring proof Bitcoin-complete,
+14:34) + re-stamped (calendar-only) · TSA `2026-09-24.sha256` (re-run) · Zenodo eleven new versions
+(`10.5281/zenodo.22947092` … `22947111`) · index 2.5.11 · site: seven regenerated (three-axis clean), four hand-authored
+modules edited by hand (ids identical).
+
 ### 2026-09-24 (afternoon) — A232 wave 2: eleven tier-a defensive publications, pre-mirror repairs + doctrine reconciliation, one chain run (founder: *"do next batch"* · *"reconcile CI checker and Doctrine problems"*)
 
 `agi-monks-caretaker-not-ordained` · `b-poh-humanity-layer-ai-native-internet` · `buddha-ai-living-tipitaka` ·
