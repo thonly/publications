@@ -485,6 +485,15 @@
   "sha256": "bf86692929a50fae70bbe0b7c2d04be99c38ff8ae554ed12f386c5895c0b9c89",
   "url": "https://zenodo.org/records/22440989"
  },
+ "the-called-draw": {
+  "concept_doi": "10.5281/zenodo.22933318",
+  "deposition_id": 22933319,
+  "doi": "10.5281/zenodo.22933319",
+  "published": true,
+  "sandbox": false,
+  "sha256": "55bf6c3378139312218869f778c39c2007d386856a7cdf72c6f32fa77a78c75d",
+  "url": "https://zenodo.org/records/22933319"
+ },
  "the-game-that-graduates-you": {
   "concept_doi": "10.5281/zenodo.21947399",
   "deposition_id": 21947400,
