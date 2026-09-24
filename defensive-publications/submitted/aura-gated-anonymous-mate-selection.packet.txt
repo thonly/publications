@@ -1,0 +1,102 @@
+TDCOMMONS SUBMISSION PACKET — wave 1 (A230)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Aura-Gated Anonymous Mate-Selection: Online Dating Matching Gated on a Verified Record of Prosocial Giving, with Mutual Anonymous Opt-In
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (243 words — limit 250)
+We specify an online dating matching system in which discovery is gated on a reputation built from anonymous gratitude records instead of photographs, and a match fires only on mutual anonymous interest between users verified as real humans. The reputation (termed "aura") aggregates thank-you acknowledgments a user has received from many nearby verified strangers over a long period; no individual acknowledgment is read, and it changes only a user's ordering in a local anonymous pool, never anyone's obligation to respond. No photographs appear in discovery. The match trigger requires each of two users to independently and anonymously give time to the other, in attested physical proximity, reaching a threshold T hours in each direction within a window W; the state machine is disclosed, and non-reciprocation produces no rejection event and writes no record. Reaching the threshold only offers identity reveal; reveal requires a second, separate consent from both parties, after which the revealed party controls pace, public-first meetings and re-anonymization. A per-transfer anonymity flag keeps gratitude between known people out of matching entirely. A proof-of-personhood layer verifies each participant as a real, single human while hiding identity until mutual reveal. Astrological synastry is offered only as an opt-in, non-gating signal. Revenue is restricted to success-coupled forms (patron support, a voluntary gift at pairing, values-aligned introductions); subscriptions, paid visibility and rationed matches are excluded. Stated limits: collusion rings, the gendered safety asymmetry, users with little legible community, and linkability to the operator.
+
+FILE       submitted/aura-gated-anonymous-mate-selection.pdf   (28 pages, 555 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Prior-Art and Non-Assertion Statement present ("will not seek patent
+      ... in any jurisdiction, at any time"; repeated in §14)
+  [x] Claims: no separate "Enumerated claims" heading — seven numbered
+      elements inside "Prior-Art and Non-Assertion Statement", referred to
+      as "claim 1".."claim 7" in §2.1 and each narrowed there against prior art
+  [x] §2 Background and Prior Art (with the 2026-09-05 "closer anticipations":
+      US 2011/0219310, US 2017/0147155, US 2023/0412536, US 2002/0160338,
+      Tinder World ID, Hinge, IBJ) · §12 Limitations and honest-limits
+  [x] AI co-authorship disclosed in the text (Preamble ¶3; closing colophon)
+      · no underlying model named
+  [x] No named private real people (pilot family referred to only as "the
+      founder's own, n = 1 household", §12.5; cited authors/companies only)
+  [!] perma.cc PRESENT — §13 venue table row "| perma.cc | _identifier to be
+      assigned_ |" (perma.cc is OUT for good). Same table also carries three
+      other "_identifier to be assigned_" placeholders (arXiv, IP.com,
+      archive.today) that will render as dead rows in the PDF.
+  [x] No "Document SHA-256" body footer (line 47 "This document's SHA-256 is
+      attested independently..." is the attestation statement with its scope
+      limit, not a hash claim; closing line says hashes are published with
+      the deposit)
+  [x] 10 fenced blocks, widest line 84 chars ("  any state ──(W elapses
+      without the next transition)──...▶ IDLE (silently)", §4.3) vs ~95 —
+      no clipping expected
+  [!] DRAFT BANNER at the top of the body (line 15): "> **Draft in
+      progress.** This is the founder-voice canonical draft for
+      `thonly/publications`. ..." — this is the text Google Scholar indexed
+      as this paper's snippet. Front matter also reads `status: draft`.
+      Strip or replace the banner in the PDF source before building.
+  [!] Title leads with "Aura" — a coined term (not a ™/℠ mark, but not a
+      standard examiner term). Kept per rule; the abstract's first sentence
+      carries the standard terms ("online dating matching system",
+      "reputation score", "anonymous").
+  [!] Body still carries superseded copy left standing on purpose (§3 end,
+      §8 "genuinely revolutionary", §8 quoted one-liner) with inline
+      "[superseded — §8.1]" markers — fine for the record, but a cold
+      reader of the PDF sees the overclaim before the retraction.
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (4 REAL · 9 FINE; ordinal/"first-class"/"public-first" hits
+                  excluded as not novelty claims)
+
+  REAL  Preamble, l.23 — "that mechanism has a property no dating product in
+        the world has: it gates mating not on the cheapest-to-fake signal"
+        → unscoped universal; §2.1's own reputational-profile prior art
+          (US 2017/0147155, US 2023/0412536) sits against it.
+  REAL  §8, l.366 — "This is genuinely revolutionary: it is a mating pool
+        pre-filtered for proven character, with no catfish"
+        → category claim, unscoped; half-retracted by §8.1 but not marked.
+  REAL  §8, l.374 — "This is both honest and still revolutionary. It does
+        not need the overclaim to be a category change"
+        → same claim restated; no aperture.
+  REAL  §12.5, l.536 — "the honest epistemic status is: novel, carefully
+        reasoned, guard-bounded, and empirically unproven."
+        → bare "novel", no aperture or date.
+
+  FINE  Prior-Art stmt, l.33 — "To the author's knowledge, the following are
+        not previously published as a unified mechanism" (scoped, combination)
+  FINE  l.35 claim 1 — "the novelty being anonymous stranger gratitude
+        accumulated over time, since reputational dating profiles are…prior art"
+  FINE  l.36 claim 2 — "the novelty being the time-giving instantiation, since
+        mutual-interest-before-reveal is itself prior art"
+  FINE  l.39 claim 5 — "the novelty being anonymity-until-mutual atop the
+        substrate, since personhood-verified dating is itself prior art"
+  FINE  l.41 claim 7 — "the novelty being the revenue prohibition and the
+        patron/forward-gift logic, not the designed-to-be-deleted slogan"
+  FINE  l.43 — "The synthesis is, to the author's knowledge, novel as of this
+        paper's date." (scoped by knowledge + date; would read better as
+        "not found in <aperture> on <date>")
+  FINE  §2.1, l.83 — "so claim 3 is anticipated as a mechanism and claim 2's
+        novelty is its time-giving instantiation" (narrowing, four instances)
+  FINE  §12.1, l.520 — "Defensive publications exist precisely to protect
+        novel, frame-defining primitives early" (generic, about the genre)
+  FINE  §14, l.592 — "defensive publications exist to keep frame-defining
+        primitives in the commons before someone else claims them" (no
+        novelty assertion)

@@ -1,0 +1,87 @@
+TDCOMMONS SUBMISSION PACKET — wave 1 (A230)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Time-Locked Gift Tag: QR- and NFC-Addressed Gift Labels with Scheduled Reveal of the Message, the Sender and a Pledge of Time
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250)
+We specify a QR- or NFC-addressed physical gift label that replaces a handwritten gift tag with a scanned, time-locked reveal: the sender, recipient and message fields are each independently sealed and released at a chosen date or occasion. Scanned before that moment, a web page shows the structure of the gift (which sealed fields exist, with a countdown) but not their content; re-scanning the label at or after the moment unlocks the fields without an app install. Beside the message, the label carries a pledge of the giver's own time to the recipient, rendered as an offer of presence with no balance, expiry, redemption or enforcement on the label. The pledged quantity is set by an automated agent from a published occasion-by-relationship table, never from personal or behavioural data, and the sender cannot set or override it, so the number cannot signal the giver's generosity. We also specify a reply channel through which the recipient returns text, photo, video or voice thanks that notify the sender; voice-first composition with optional machine transcription, for senders who do not type or whose script is hard to type (e.g. Khmer); possession-scoped access, readable by the holder and not search-indexed, with a free public-only sticker tier and a paid engraved-wood tier adding an identity-gated private message (B-Stamp™ and B-Seal™); sender anonymity independent of message visibility; and a bare configuration, the label given alone with the time pledge as the gift, whose opened state persists across repeated scans and never notifies the giver.
+
+FILE       submitted/gift-tag-time-reveal.pdf   (17 pages, 489 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [!] TITLE: the paper's subtitle is omitted — "title: subtitle" joined is 311 chars
+      (over the ~200 bound). Title alone carries no examiner vocabulary; the abstract's
+      first sentence does. Founder may prefer a short examiner-facing subtitle, e.g.
+      "The Time-Locked Gift Tag: A QR/NFC Gift Label with Per-Field Scheduled Reveal
+      and a Pledge of Time" — NOT the paper's own words, so it is his call.
+      Title does not lead with a coined mark.
+  [x] Non-assertion statement present — "Prior-Art and Non-Assertion Statement":
+      "will not seek patent on this specification … This commitment is permanent."
+  [x] Claims: no standalone claims section — disclosure only; the eight numbered
+      combination items sit inside the Prior-Art and Non-Assertion Statement
+      ("not previously published as a unified mechanism").
+  [x] Prior art — §2 Background and prior art (names TW201408056A, US 11153259 B2)
+  [x] Honest limits — §8 Honest calibration + §9 Limitations and honest-limits
+  [x] AI co-authorship disclosed in the text — Preamble ¶3 + closing footer
+      ("the underlying models are not named")
+  [x] No named private real people — "Sokha", "Mom", "Grandma" are illustrative
+      (diagram/§4.8 example); the pilot family appears only as "a family of seven
+      plus a friend" / "a single family", unnamed
+  [x] No perma.cc
+  [x] No "Document SHA-256" body footer (the Prior-Art statement's attestation
+      paragraph names SHA-256 generically, no hash value — fine)
+  [!] Widest fenced line: 107 chars (§7 economic-ladder table, line 285) — over 95;
+      check for clipping in the PDF (§4.9 reference flow is close behind)
+  [!] LICENCE: the paper is dedicated CC0 1.0 (front matter, Non-Assertion Statement,
+      footer); the form's CC BY 4.0 differs from the document's own dedication —
+      confirm the standing ruling covers a CC0 paper before submitting
+  [!] Front matter status: draft (not a blocker for the mirror; noted)
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ
+  (No claims section; every novelty-class word in the paper checked.)
+
+  1. §Prior-Art statement (l.35): "To the author's knowledge, the following are not
+     previously published as a unified mechanism" — FINE (scoped to belief and to
+     the combination).
+  2. §Prior-Art statement (l.53): "The synthesis is, to the author's knowledge, novel
+     as of this paper's date." — FINE-ish: scoped ("to the author's knowledge",
+     dated, the synthesis only) but a bare-form "novel"; STANDING's census rule
+     prefers "not found in <aperture> on <date>". Borderline; not counted REAL.
+  3. §2.2 (l.87): "The novelty here is not delay as such. It is (a) per-field
+     locking … (b) binding the reveal to a physical gift artifact" — REAL
+     OVERCLAIM: asserts novelty of each component without scope; (b) is weakened
+     by §2.1's own TW201408056A and 2025–26 retail QR/NFC tags.
+  4. §2.3 (l.91): "What is novel is the instantiation: a coupon that is
+     digital-and-physical at once, occasion-synced, AI-sized …" — REAL OVERCLAIM
+     (unscoped; no census behind it).
+  5. §4.2 (l.150): "Independence is the novel core." — REAL OVERCLAIM (bare,
+     unscoped; per-field sealing is exactly what a census would test).
+  6. §2 (l.79): "establishing the boundary of novelty is the document's job" —
+     FINE (method statement).
+  7. §11 (l.345): "located its novelty honestly against a generous prior art" —
+     FINE (reflexive, no new claim).
+  8. §1/§3 (l.69, 113) "once the novelty fades"; §9.5 (l.319) "a novel
+     occasion-relationship pair"; v2 note (l.15) "no prior-art clock starts";
+     "first domino / first impression / first unit / first scan" — FINE (not
+     novelty assertions).
+
+  Tally: REAL 3 · FINE 5 (+1 borderline counted FINE). No "first", "unprecedented",
+  "uncontested", "never been" used as a novelty claim. Ten censuses to date have
+  returned no clean "novel"; no census of this paper is on record here.

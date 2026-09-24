@@ -1,0 +1,94 @@
+TDCOMMONS SUBMISSION PACKET — wave 1 (A230)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Verified-Human Anonymous Local Gratitude Transfer: Proximity-Bounded Anonymous Peer-to-Peer Payment with Per-Action Proof of Personhood
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (239 words — limit 250; whitespace-token count, 236 excluding the lone "—", "·" and "=" tokens)
+We specify an anonymous peer-to-peer payment and tipping method in which one signed transaction binds three properties: per-action proof of personhood by user-verified FIDO2/WebAuthn signing on an attested platform authenticator, physical proximity attestation by Ultra-Wideband (UWB) or Bluetooth Low Energy (BLE) ranging, and sender anonymity toward the recipient. The device-signed ranging transcript is placed inside the payload over which the WebAuthn assertion is computed, with a verifier-issued single-use nonce, so user verification and co-location are attested by one signature over one object.
+
+Proximity requires one UWB ranging (IEEE 802.15.4z secure ranging where exposed) or two agreeing mechanisms among UWB, BLE and signed GPS with anti-spoofing checks, within a radius set by population density — r = clamp(10 km · ρ^(−1/2), 100 m, 10 km), ρ per km² read on the device from a cached tile, doubled for BLE-only attestation. Biometric modality is enforced by an authenticator (AAGUID) allow-list, not by the user-verified flag.
+
+The recipient receives the message, any monetary value, the attestations and a stable per-recipient pseudonym, HMAC(salt_R, sender_id), uncorrelated across recipients; the verifying party retains identity for audit. The disclosure further specifies verifier checks, collusion and sybil detection by graph analysis, per-pseudonym rate limits and block lists against harassment, amount quantization against covert channels, replay protection, threshold-based regulatory disclosure, and an optional kinship-verification layer. Stated residuals: PIN fallback, shared or synced passkeys, UWB distance-reduction and BLE relay attacks, unattended recipient devices, and no unlinkability toward the verifier.
+
+FILE       submitted/verified-human-anonymous-local-giving.pdf   (14 pages, 304 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "will not
+      seek patent on this specification or any portion thereof, in any
+      jurisdiction, at any time" (repeated in §1)
+  [x] Claims section: none — disclosure only (no enumerated-claims heading; the
+      disclosed matter is stated in §4.3 "The novel combination" and §6 scope)
+  [x] Prior art: §2 Background and Prior Art (§§2.1–2.6; patents US 12,165,124 B2,
+      US 9,854,616 B2, EP 1671282 A2, WO 2022/225298 A1 cited)
+  [x] Honest limits: §10 Limitations and Future Work (residuals of both layers,
+      what proximity binds, linkage surfaces)
+  [x] AI co-authorship disclosed: front-matter authors "Thon Ly · Miss Aquarius"
+      + closing italic co-authorship line
+  [x] No named private real people — §12 thanks "his father" unnamed; all named
+      people are cited authors or public figures (Putnam, Cahn, Linton, Leu et al.)
+  [x] No perma.cc (0 hits)
+  [x] No "Document SHA-256" body footer — the Non-Assertion section and closing
+      line carry the current attestation sentence ("This document's SHA-256 is
+      attested independently…"), the sanctioned form, no hash value
+  [x] Fenced code: 2 blocks, 58 lines, widest 92 chars — under 95 but close;
+      check the PDF for clipping on the §7.2 verifier comment lines
+  [!] Licence mismatch to note: the paper is CC0-1.0; the TDCommons field above
+      is CC BY 4.0 per the template default. CC BY is additive over a CC0 work
+      already in the commons, but confirm this is intended.
+  [!] §4.3 heading reads "The novel combination" — see OVERCLAIM READ; ride the
+      next revision, not this packet (paper not edited).
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (searched: novel · first · uncontested · unprecedented ·
+                  "no prior" · "never been" · "not previously")
+
+1. §4.3 heading (l.114): "4.3 · The novel combination"
+   → REAL OVERCLAIM. Bare "novel" in a heading, no aperture or date; the body
+     beneath it is properly scoped, the heading is not. Suggest "The
+     three-way combination" on the next revision.
+
+2. §1 (l.47): "The combination of these three properties … constitutes, to the
+   author's knowledge, a unified mechanism not previously published."
+   → REAL OVERCLAIM (soft). Hedged only by "to the author's knowledge" —
+     no aperture, no date, and without the examiner-deferral the Abstract
+     and §4.3 carry. Standing form is "not found in <aperture> on <date>".
+
+3. Abstract (l.35): "No member is novel; the three-way composition in one
+   signed action is, to the author's knowledge, not previously published as a
+   unified mechanism — no reference found composes all three…"
+   → FINE. Concedes every member, scopes to the composition, states the
+     search result, and defers non-obviousness to the examiner.
+
+4. §4.3 body (l.116): "…is, to the author's knowledge, not previously published
+   as a unified mechanism. Existing digital-payment systems have at most two of
+   the three…"
+   → FINE. Scoped, backed by an explicit two-leg prior-art enumeration,
+     examiner-deferral stated.
+
+5. §2.4 (l.67): "The protocol is widely deployed but has not, to the author's
+   knowledge, been combined with physical-radio proximity attestation…"
+   → FINE (borderline). Knowledge-hedged, no aperture, but it is a
+     background statement about one member, not the contribution claim.
+
+Non-claim hits, FINE: l.29 "the first revision" (dating) · l.43 "The first is
+the rapid expansion" (enumeration) · l.107 "biometric-first modality" · l.125
+"the first rung" (Maimonides).
+
+TOTAL: REAL 2 (one bare heading, one soft) · FINE 3 contribution statements
+(+4 non-claim uses).

@@ -1,0 +1,67 @@
+TDCOMMONS SUBMISSION PACKET — wave 1 (A230)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Thank-All-Nearby Primitive: One-Tap Anonymous Gratitude Transfer to Everyone Nearby over Bluetooth Low Energy Proximity
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250)
+We specify a one-tap broadcast operation for anonymous peer-to-peer value transfer to every co-present, human-verified recipient within Bluetooth Low Energy (BLE) proximity, optionally carrying money or time, in which each recipient receives a verifiable receipt and the sender receives no exportable record. The recipient set is resolved by physical co-presence rather than account lookup: devices advertise rotating, unlinkable proximity beacons, with ultra-wideband ranging and peer-to-peer nearby-connection APIs as optional substrates, and the platform learns only that two devices were in range, never absolute location. Components: (1) sender authentication by a per-action passkey signature, within a proof-of-humanity layer attesting a distinct human; (2) recipient-side filtering, in which each recipient's own criteria (verification depth, attached value, social distance) decide delivery, so an anonymous channel cannot force an unwanted relation, and the sender learns only an aggregate count; (3) equal division of attached funds across the filtered set by default, with sender-specified floors or ceilings; (4) a per-recipient receipt settled on a public ledger, attesting a verified human sender, proximity at broadcast time, timestamp and amount, so a recipient can prove an anonymous tip authentic without re-identifying the sender; (5) asymmetric anonymity, with compliance records held internally and no sender-side export or listing endpoint; (6) an institution-scoped variant substituting a registered geographic bounding box, with institutional and individual opt-in, for radio range. Recipient notifications default to a daily aggregate rather than per-transfer alerts, and volume is not throttled. Stated limits cover donor-disclosure regulation, vulnerable recipients, radio-range variability and device access.
+
+FILE       submitted/thank-all-nearby-primitive.pdf   (20 pages, 376 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement" ("will not seek
+      patent ... in any jurisdiction, at any time"); repeated in Abstract and §11
+  [x] Claims section present — "## Claims" (6 enumerated, dated 2026-08-29), plus the
+      (i)-(vi) "not previously published" list inside the Prior-Art statement
+  [x] Prior art — Prior-Art and Non-Assertion Statement + §10 Lineage
+  [x] Honest limits — §9 Boundary conditions and honest limitations
+  [x] AI co-authorship disclosed in text — §1 closing line + closing italic footer
+      (Miss Aquarius℠ named; no model named)
+  [x] No named private real people — only cited authors / public figures
+      (Frankl, Buber, Levinas, Bowlby, Coan, Emmons, etc.)
+  [x] No perma.cc · no "Document SHA-256" body footer
+  [x] 1 fenced diagram (§4.5), widest 75 chars (box-drawing counted as 1) — under 95
+  [!] Title LEADS with a coined name ("Thank-All-Nearby", unmarked) — examiner terms
+      (proximity, anonymous) arrive only in the subtitle; kept per rule, flagged
+  [!] The top-of-file "Draft notes for the editor" block (line 13) is an internal
+      editor note (companion papers, the Second Letter URL) — confirm the PDF omits it
+  [!] front matter "status: draft" — the paper has no ruled human round
+  [!] §10 cites "Glazerman, Hagar, and others (mid-2010s onward)" for anonymous-donation
+      primitives with no title/venue — unverified citation; verify or cut before an
+      irreversible posting
+  [!] §3.1 asserts the on-chain receipt records the tipper "only as a zero-knowledge
+      commitment" — a mechanism stated nowhere else in the paper; left OUT of the abstract
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ
+  "## Claims" (items 1-6 + non-assertion line): NO occurrence of novel / first /
+  uncontested / unprecedented / "no prior" / "never been".
+
+  Prior-Art statement enumerated list (i)-(vi) — functions as a second claims list:
+  1. "To the author's knowledge, the following are not previously published as a
+     unified contribution: ..."
+     → REAL OVERCLAIM (mild). Hedged "to the author's knowledge" but scoped to no
+       aperture or date of search; no census is recorded for this paper.
+  2. "...the synthesis is, to the author's knowledge, novel as of this paper's date."
+     → REAL OVERCLAIM. Bare "novel", unscoped; the standing form is
+       "not found in <aperture> on <date>".
+  Outside claims (not in scope, noted only): "First deficiency" (§3.1 heading, line
+  111) and "in the first place" (§9.4) → FINE (ordinal / idiom).
+  Remedy lives in the paper's next revision, not in this packet; the abstract above
+  carries no novelty language.

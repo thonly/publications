@@ -1,0 +1,85 @@
+TDCOMMONS SUBMISSION PACKET — wave 1 (A230)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Respiratory Biofeedback Coupled to AI-Mediated Contemplative Guidance: A Wearable Closed-Loop Breathing Sensor with Adaptive Audio Meditation Guidance
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the PDF keeps the paper's own title)
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank is what keeps you off the
+              "on behalf of a business" branch and its uncapped indemnity)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (224 words — limit 250; rewritten 2026-09-23 after a parallel-agent collision put another paper's abstract here)
+This disclosure specifies a closed-loop respiratory biofeedback system: a chest-worn wearable respiration sensor (respiratory inductance plethysmography, with inertial and acoustic alternatives) streams breathing rate, depth and rhythm, in privacy-preserving form, to an AI meditation-guidance agent, which returns adaptive audio guidance to the wearer in real time. The device also renders the breath visibly, as ambient light modulated to the breathing cycle, so the practitioner receives continuous external feedback and the guidance agent receives a live physiological signal rather than self-report.
+
+Three aspects are disclosed as prior art: (I) the integrated closed loop — sensor, on-device processing, guidance agent grounded in a fixed canonical text corpus (the Pāli canon's breath-meditation instructions), and adaptive guidance — as one specification; (II) a live respiratory signature used as a continuous-liveness signal for proof of personhood, complementing moment-of-action passkey (FIDO2/WebAuthn) verification; and (III) the architecture as a population-scale delivery path for guided breath meditation.
+
+Privacy is specified before first use: on-device processing where possible, differential privacy, federated computation, and cryptographic erasure as the right to withdraw. Possible clinical applications are named only as fields of use requiring clinical validation and oversight; no efficacy or health outcome is claimed. A doctrinal guardrail is stated: the system may raise the likelihood of sustained practice but is never presented as guaranteeing its fruits. Adversarial cases, reference implementation patterns and limitations are included.
+
+
+FILE       submitted/respiratory-biofeedback-contemplative-guidance.pdf   (19 pages, 338 KB)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Prior-Art and Non-Assertion Statement present ("will not seek patent … in any
+      jurisdiction, at any time")
+  [!] Claims section: §4 "The Three Core Claims" (Claims I–III + the no-inevitability
+      guardrail). No separate "Enumerated claims" heading. Claim III is self-declared a
+      framing claim ("not patentable … a framework is not a mechanism").
+  [x] §2 Background and Prior Art (2.1–2.5, patents and papers cited) · §11 Limitations
+      and Future Work (honest limits incl. construct validity, Claim III assumptions)
+  [x] AI co-authorship disclosed in text (closing Author line: "Co-authored with Miss
+      Aquarius℠, the institution's named AI collaborator"; authors field). No underlying
+      model named. Note: no dedicated "AI Disclosure" section as in the template paper.
+  [x] No named private real people ("practitioners in his circle" is unnamed; named
+      persons are cited authors/firms only)
+  [x] No perma.cc · no "Document SHA-256" body footer (§12 describes the OTS/RFC 3161
+      attestation in prose, with the scope limit — acceptable form)
+  [!] Widest fenced code line = 97 chars (§6.3, the "// Laplace noise of scale
+      sensitivity / epsilon; …" comment) — over 95; check the PDF for clipping/wrap
+  [!] Title does NOT lead with a coined mark (fine); but paper carries status: draft and
+      a "Working draft … subject to polish" banner + "Working draft" footer — posted
+      permanently as-is
+  [!] Paper licence is CC0-1.0; the TDCommons field above is CC BY 4.0 per template —
+      confirm the intended field choice (not a conflict for prior-art purposes)
+  [!] Citations list skips #11 (10 → 12)
+  [!] §9.5 says the architecture "can address therapeutically" anxiety, PTSD, substance
+      recovery, end-of-life breath patterns; §2.1 reports clinical associations (cited).
+      Abstract makes no health claim; the body does once (§9.5).
+
+⚠️ THE ABSTRACT FIELD IS A CKEditor. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+   (Enter is blocked by the tool classifier; paragraph breaks go in as typed newlines.)
+
+⚠️ IRREVERSIBLE. No author review. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (§4 "The Three Core Claims", lines 139–159)
+  1. Claim I: "…with (d) a sacred-grade form factor and ambient … interaction design,
+     is the first claim defended here."
+     → FINE (ordinal — the first of three claims).
+  2. Claim I: "The combination as a unified specification … is not previously published
+     to the author's knowledge; whether it is non-obvious is an examiner's determination"
+     → FINE-with-note: scoped to "the author's knowledge" and defers non-obviousness, but
+     names no aperture or date ("not found in <aperture> on <date>" form absent).
+  3. Claim II: "Continuous breathing authentication is prior art (§2.5); the novelty
+     claimed is the composition with passkey-per-action and kinship, which no located
+     reference makes."
+     → FINE-with-note: concedes the mechanism, claims only the composition, scoped to
+     "located" references; no aperture/date stated.
+  4. Claim III: "Until the publication of the present paper, that thesis was articulated
+     only at the level of philosophical possibility; no specific operational mechanism
+     was identified…"
+     → REAL OVERCLAIM: unscoped historical absence claim ("no … was identified"), no
+     aperture, no "to the author's knowledge".
+  5. Claim III (heading/text): "…a third Proof-of-Humanity primitive" / "is the second
+     claim defended here" → FINE (ordinals).
+  Verdict inside §4: 1 REAL · 4 FINE (2 of them lacking aperture/date).
+  Outside §4 (not scored, flag for the mirror revision): Prior-Art statement ¶3 "is, to
+  the author's knowledge, novel as of the publication date"; §1 "**the architecture is
+  genuinely novel as a unified specification**" (bare, bolded); Abstract/§1 "has not
+  previously been possible / has not previously existed in human history" and
+  "never together" — these are the stronger overclaims in the paper.
