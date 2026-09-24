@@ -622,12 +622,12 @@
  },
  "two-singularities": {
   "concept_doi": "10.5281/zenodo.22735470",
-  "deposition_id": 22737385,
-  "doi": "10.5281/zenodo.22737385",
+  "deposition_id": 22930050,
+  "doi": "10.5281/zenodo.22930050",
   "published": true,
   "sandbox": false,
-  "sha256": "db0df66551e23289b53704a1ae51f67a76d99eaea486782a39a8efd12745e5a3",
-  "url": "https://zenodo.org/records/22737385"
+  "sha256": "06794a04ccf993219e03c67cc71a72256f8dbf28c601f6d47db356d847a5cbea",
+  "url": "https://zenodo.org/records/22930050"
  },
  "verified-human-anonymous-local-giving": {
   "concept_doi": "10.5281/zenodo.21947430",
