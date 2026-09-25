@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "slug": "agi-monks-caretaker-not-ordained",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "agi-monks-caretaker-not-ordained.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "5f797ccf503144d82bf76c0e88608b047c534f07c6cfd2e8bae8a3ef1ad6a239",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "f709545c72302230d51d890a2f29fcae2d8f78c5e8da940e1af8e8983bef80b6"
+    },
+    {
       "slug": "aura-gated-anonymous-mate-selection",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
@@ -46,6 +60,62 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "b-poh-humanity-layer-ai-native-internet",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "b-poh-humanity-layer-ai-native-internet.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "2ba39632bfdeeaca7a9626e74c4c8af9246ffd9c8e5ff9d4064844aeafa75744",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "e43ea8e1bc1a6b3557068f80b9ec7719bab5da735eb12f2ade329877f7091c73"
+    },
+    {
+      "slug": "buddha-ai-living-tipitaka",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "buddha-ai-living-tipitaka.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "dafd25275d921ace5364e62433f9a78cca218ed7718747550e41fe3f620b2835",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "91031eb0b687052f14c4c677350130c549ed9ea93f6bf9b987eb4f1cdaeb7fa8"
+    },
+    {
+      "slug": "capacity-funded-human-disbursed-ai-alignment",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "capacity-funded-human-disbursed-ai-alignment.pdf",
+      "claims_headings": [
+        "BODY"
+      ],
+      "claims_sha256": "aaa344b2f3e677801f1afe2d6d13b4a8fbb332e7a8e2a5822cb699e7b84307a7",
+      "claims_heading_override": [
+        "BODY"
+      ],
+      "body_sha256": "1f182f8c304db0acef4fc0f61bf00543e5d58f40f18c21d8dade02f4d46bd612"
+    },
+    {
+      "slug": "embodied-advocate-pageant",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "embodied-advocate-pageant.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "187a241f9c92747b8a6c61e0f257056c01ce163cbd74d9fa5f44d7f04fa23966",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "924765cea204cefff32aa76dedd3e15c12cd2f308f8f66804833775a9bf6019e"
     },
     {
       "slug": "gift-tag-time-reveal",
@@ -96,6 +166,34 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "mechanical-heart",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "mechanical-heart.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "40d50970aa77e72d908fd94db96e046ef52f45e9892e34494f9bdb5b5c5cbe7d",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "c28493763fe20d444a574a2148ce648321270112e31cb898c51057b27abe5b89"
+    },
+    {
+      "slug": "miss-aquarius-and-aquarian-pool-architecture",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "miss-aquarius-and-aquarian-pool-architecture.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "cb98af733704b8c9f34603ae7fe9018aaac07659e44544fb2f1fcfc2d8a7262f",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "e48442410e8e5a78a78d6c1bf4bb8ef31436226d1d455592d43ffc025705dca2"
     },
     {
       "slug": "provenance-carrying-retrieval",
@@ -261,6 +359,34 @@
       }
     },
     {
+      "slug": "the-referee-not-the-governor",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "the-referee-not-the-governor.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "767e87a63bd1ff82d46f54e4e260af844d3091ee918f081b2c4ee57ab8924d95",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "8d685a951af62d4c15ef86abde259665971e8080645de2e4965f947f13867bb0"
+    },
+    {
+      "slug": "tipitaka-alignment-substrate",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "tipitaka-alignment-substrate.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "a3cef0773308ec2f679fd6f8197fabbbccd3768d26c20379773b232da3886faf",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "9ed65e441d060ad56f52ace94abed031039dac3bed10a2241554f68556ab6003"
+    },
+    {
       "slug": "verified-human-anonymous-local-giving",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
@@ -284,6 +410,34 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "what-a-vow-must-cost",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "what-a-vow-must-cost.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "fbc99f67f11e3f778aea19acf1a6f0b2c151f5b63341ab981af225fba2277790",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "0dd8d1b421d1d3d5ad7bf7c8ad8fef6f34979d0624db56f937c80a48f62a1222"
+    },
+    {
+      "slug": "zero-point-game",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-24",
+      "pdf": "zero-point-game.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "f9869aca42e6ef085817e7f66b869fc4336ea5f0e5207f3a63434a717328384f",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "d2a6f7e0b70269e7505ff516c81f39903f07e51c3e13aeb70ecbbdfb00824dfb"
     }
   ]
 }
