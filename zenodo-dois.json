@@ -424,12 +424,12 @@
  },
  "silica-wat-food-network": {
   "concept_doi": "10.5281/zenodo.21947381",
-  "deposition_id": 22167874,
-  "doi": "10.5281/zenodo.22167874",
+  "deposition_id": 22969388,
+  "doi": "10.5281/zenodo.22969388",
   "published": true,
   "sandbox": false,
-  "sha256": "bd6615565caf92c78900dca5a7786522bd6582409f594686b246644fe37c6fea",
-  "url": "https://zenodo.org/records/22167874"
+  "sha256": "723590c844aa2f192eb53a5ad353dd5f980411f4e703e2d02a536f10fcbd7da4",
+  "url": "https://zenodo.org/records/22969388"
  },
  "steward-routed-alms": {
   "concept_doi": "10.5281/zenodo.21947383",
