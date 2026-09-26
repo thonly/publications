@@ -1,3 +1,12 @@
+### 2026-09-25 — silica-wat-food-network: one crossing, never a rate (A240; reconciled by the substrate under the founder's delegation, shipped on his word: *"1"*)
+
+A homegrown contribution no longer earns Kiitos / Kiitti "at a higher rate": every contribution registers as one crossing and
+provenance is honoured in the story, never weighted (`the-zero-point-game` §6.1; Signature 8). Step 5b brought §3.1 · §3.3 ·
+§4.2 · §5.1 · §5.3 · §11.3 into line with later rulings, each as a *Current form* note beside the superseded mechanism; the A126
+mission sentence retired (`MISSION_PAST_DEBT` −1); perma.cc removed. Drafted under the `drafter` contract. Legs: OTS `.ots` →
+`.r3.ots` (Bitcoin-complete, 3 attestations) + re-stamped *(calendar-only)* · TSA `2026-09-26.sha256` (covers `723590c844aa…`) ·
+Zenodo new version `10.5281/zenodo.22969388` · index 2.5.12 · site: hand-authored module ported (0,0,0), regaining 2,605 abridged words.
+
 ### 2026-09-24 (evening) — A232 wave 2: the final fix pass before the mirror (founder: *"1: yes 2: yes 3: cut 4: dash 5: do the fix pass first"*)
 
 The same eleven papers, second revision today. The packet reads (one reader per paper, examiner's eye) found what no lint
