@@ -229,7 +229,6 @@ const MISSION_PAST_DEBT = new Set([
     "defensive-publications/non-bank-pass-through-architecture-autonomous-ai.md",
     "defensive-publications/sacrifice-witness-without-discharge.md",
     "defensive-publications/sankhara-dukkha-ai-welfare.md",
-    "defensive-publications/silica-wat-food-network.md",
     "defensive-publications/the-omitted-clause.md",
     "defensive-publications/transparency-as-enforcement.md",
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md",
