@@ -32,6 +32,23 @@ Entered **before any observation exists** and Unrun until a surface shows one fa
 |---|---|---|---|---|
 | **program/prediction-register** | `.ots` → `.r9.ots` (Bitcoin-complete, 2 attestations); new `7a60e22742ad…` *(calendar-only at stamping)* | `2026-09-27.sha256` (covers `553ac17bac94…`) | `10.5281/zenodo.22984924` | 2.5.13 |
 
+### 2026-09-25 — nine of wave 2's eleven POSTED at TDCommons (mirrors, not revisions)
+
+Nine "New submission posted" notices (MS #13232–33, #13236–42) reached the inventor address on 2026-09-25; each record
+checked on the venue's own series page and in My Account (title as submitted, inventor Thon Ly, CC BY 4.0): embodied-advocate-pageant [11874](https://www.tdcommons.org/dpubs_series/11874) · mechanical-heart [11875](https://www.tdcommons.org/dpubs_series/11875) · miss-aquarius-and-aquarian-pool-architecture [11876](https://www.tdcommons.org/dpubs_series/11876) · the-referee-not-the-governor [11877](https://www.tdcommons.org/dpubs_series/11877) · tipitaka-alignment-substrate [11878](https://www.tdcommons.org/dpubs_series/11878) · what-a-vow-must-cost [11879](https://www.tdcommons.org/dpubs_series/11879) · zero-point-game [11880](https://www.tdcommons.org/dpubs_series/11880) · agi-monks-caretaker-not-ordained [11881](https://www.tdcommons.org/dpubs_series/11881) · b-poh-humanity-layer-ai-native-internet [11882](https://www.tdcommons.org/dpubs_series/11882).
+**Not posted:** buddha-ai-living-tipitaka (MS #13234) and capacity-funded-human-disbursed-ai-alignment (MS #13235) show
+`queued_for_update` in My Account on 2026-09-26, with no editor comment and no e-mail. **21 of 23 submissions posted.**
+✅ **Posted PDFs verified 9/9 on 2026-09-27** (`check-mirrors.py --verify-posted`, word for word in order, 0 extra · 0 missing; each
+control fails as it must) — after fixing the verifier's running-title match for titles carrying ℠ or ṭ.
+
+
+⛔ **No leg ran, and none was owed:** no markdown changed. Each mirror is a dated snapshot of the text submitted, never a
+canonical venue. Recorded with `check-mirrors.py --posted`; the check reads 12 of 12 clean. ✅ **Posted PDFs
+verified the same day, all twelve (file one too): `check-mirrors.py --verify-posted` — each posting is our submitted PDF
+word for word, IN ORDER, plus the venue's one-page cover, page numbers and running stamps (a checksum cannot say this:
+the venue re-writes the file). Controls: a one-word swap caught, a wrong-paper comparison fails on every run.** Fetched
+through Chrome — the site now serves `curl` a Cloudflare challenge.
+
 ### 2026-09-25 — silica-wat-food-network: one crossing, never a rate (A240; reconciled by the substrate under the founder's delegation, shipped on his word: *"1"*)
 
 A homegrown contribution no longer earns Kiitos / Kiitti "at a higher rate": every contribution registers as one crossing and
@@ -90,23 +107,6 @@ rotation-over-liveness [11860](https://www.tdcommons.org/dpubs_series/11860) · 
 [11868](https://www.tdcommons.org/dpubs_series/11868) · respiratory-biofeedback-contemplative-guidance
 [11869](https://www.tdcommons.org/dpubs_series/11869) · thank-all-nearby-primitive
 [11870](https://www.tdcommons.org/dpubs_series/11870). With file one (11797), **12 of 12 submissions posted, none awaiting.**
-
-### 2026-09-25 — nine of wave 2's eleven POSTED at TDCommons (mirrors, not revisions)
-
-Nine "New submission posted" notices (MS #13232–33, #13236–42) reached the inventor address on 2026-09-25; each record
-checked on the venue's own series page and in My Account (title as submitted, inventor Thon Ly, CC BY 4.0): embodied-advocate-pageant [11874](https://www.tdcommons.org/dpubs_series/11874) · mechanical-heart [11875](https://www.tdcommons.org/dpubs_series/11875) · miss-aquarius-and-aquarian-pool-architecture [11876](https://www.tdcommons.org/dpubs_series/11876) · the-referee-not-the-governor [11877](https://www.tdcommons.org/dpubs_series/11877) · tipitaka-alignment-substrate [11878](https://www.tdcommons.org/dpubs_series/11878) · what-a-vow-must-cost [11879](https://www.tdcommons.org/dpubs_series/11879) · zero-point-game [11880](https://www.tdcommons.org/dpubs_series/11880) · agi-monks-caretaker-not-ordained [11881](https://www.tdcommons.org/dpubs_series/11881) · b-poh-humanity-layer-ai-native-internet [11882](https://www.tdcommons.org/dpubs_series/11882).
-**Not posted:** buddha-ai-living-tipitaka (MS #13234) and capacity-funded-human-disbursed-ai-alignment (MS #13235) show
-`queued_for_update` in My Account on 2026-09-26, with no editor comment and no e-mail. **21 of 23 submissions posted.**
-✅ **Posted PDFs verified 9/9 on 2026-09-27** (`check-mirrors.py --verify-posted`, word for word in order, 0 extra · 0 missing; each
-control fails as it must) — after fixing the verifier's running-title match for titles carrying ℠ or ṭ.
-
-
-⛔ **No leg ran, and none was owed:** no markdown changed. Each mirror is a dated snapshot of the text submitted, never a
-canonical venue. Recorded with `check-mirrors.py --posted`; the check reads 12 of 12 clean. ✅ **Posted PDFs
-verified the same day, all twelve (file one too): `check-mirrors.py --verify-posted` — each posting is our submitted PDF
-word for word, IN ORDER, plus the venue's one-page cover, page numbers and running stamps (a checksum cannot say this:
-the venue re-writes the file). Controls: a one-word swap caught, a wrong-paper comparison fails on every run.** Fetched
-through Chrome — the site now serves `curl` a Cloudflare challenge.
 
 ### 2026-09-24 — A230: the retired A126 mission sentence out of five defensive publications (founder: *"yes"* — do A230 alongside the-called-draw)
 
