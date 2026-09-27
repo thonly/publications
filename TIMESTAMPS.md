@@ -1,3 +1,14 @@
+### 2026-09-26 — the prediction register: P-PL12, cross-income gravitation among strangers (founder: *"Register the prediction"*)
+
+One row in Chapter I beside P-PL9 and a Revisions entry; total 100 → 101, reconciled by the index build (101 counted vs 101
+stated). The founder chose the measure (per view, not share of flows) and the 2× threshold; the sample floors are substrate-set.
+Entered **before any observation exists** and Unrun until a surface shows one family's B-Shorts to another. Mirrored as a
+`blocked` entry in `thank.heartbank.org`'s `predictions.json`. ⛔ No `##` change.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r9.ots` (Bitcoin-complete, 2 attestations); new `7a60e22742ad…` *(calendar-only at stamping)* | `2026-09-27.sha256` (covers `553ac17bac94…`) | `10.5281/zenodo.22984924` | 2.5.13 |
+
 ### 2026-09-25 — silica-wat-food-network: one crossing, never a rate (A240; reconciled by the substrate under the founder's delegation, shipped on his word: *"1"*)
 
 A homegrown contribution no longer earns Kiitos / Kiitti "at a higher rate": every contribution registers as one crossing and
