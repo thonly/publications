@@ -1,0 +1,101 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A232) — DRAFT (drafter; not yet chained, not yet founder-approved)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Sport That Says Your Name: A Circulation Sport in Which Everyone Is Called by Another — Automated Name-Announced Receiver Selection with Equal Random Turn Distribution and Starting-Score Handicaps for Mixed-Ability Ball Games
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title already
+   has a colon, so the subtitle follows an EM DASH — ruling 2026-09-24. The paper's own front-matter subtitle
+   "sey — the Address Premise, the Impartial Caller, ..." is REPLACED here, not appended: it leads with the
+   coined sport name and coined phrases and adds no examiner search terms. The added part is drawn from the
+   paper's ## Terms table ("automated turn assignment: receiver selection announced by spoken name", "shuffle-bag
+   scheduling ... equal turn counts per round in random order", "handicap by unequal starting score") and §3
+   (mixed-age / mixed-ability play). No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK (the widget's institution_1 shows the literal "Search..." placeholder — leave it)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250)
+This disclosure describes a ball game in which an automated caller announces, before each strike, the name of the player who must receive next. Receivers are chosen by a shuffle bag: each round is a fresh random permutation of the roster, so every player receives equally often per round in an order players cannot anticipate. The sequence is a deterministic function of the roster and a seed declared before play, so anyone can recompute a session and verify the distribution; devices stay consistent by sharing only a call count, the round index persists across sessions, and no per-player record is kept. In the net form the caller designates receivers on both sides, removing the option of targeting a weaker opponent. A point is a completed pass and reception credited to no individual; cooperative play counts a streak up, competitive play counts down to zero, and handicaps are unequal starting scores quantized to multiples of three. By default each name is spoken privately to one rotating human announcer on a single device; alternatively, synchronized phones speak every name in one synthetic voice, never a player's own recording, with owner-approved recordings or respellings controlling pronunciation. Difficulty is the interval between announcement and ball arrival; scoring is inferred from the call or validated by microphones or a ball accelerometer. Stated limits: no pre-registered prediction has been run; enjoyment, the premise that being named by another matters, and synchronized-phone audio are unproven; order predictability at small group sizes is bounded, not eliminated.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 12 · Claims"      (23 enumerated claims)
+
+FILE       build at submission: python3 scripts/tdc-pdf.py the-sport-that-says-your-name --submitted
+  Temp build read 2026-09-26 (pre-chain, from the working tree): 47 pages, 843 KB.
+  Cover: first published 2026-07-23 · this version 2026-09-26 · concept DOI 10.5281/zenodo.21947412 ·
+  timestamp line present and scoped ("proves nothing about authorship, originality, or the validity of any claim").
+  ⚠ REBUILD after the chain runs — the cover's version date and the DOI's version must match the chained text.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The authors and HeartBank® will not
+      seek patent on any mechanism, architecture, or specification articulated herein, in any jurisdiction, at
+      any time."; repeated in the closing footer ("will not seek patent on this specification or any portion
+      thereof")
+  [x] Claims section — "## 12 · Claims", 23 enumerated. Claim 3(b) reworded (scoped to §4.4's stated limits;
+      a narrowing, no new matter). Not yet in submitted/manifest.json, so no mirror-revision judgement is owed.
+  [x] Census reported in the Prior-Art statement ("What the censuses found"): Circulation Sports census
+      (22 formats, 2026-08-07) — reach guarantees common, names already called in circles (Passing Name
+      Game, Name Toss); survivor = guaranteed reach with an unpredictable order held by a party other than the
+      passer. Name-pronunciation survey (2026-08-17) — owner recording is established practice. States that no
+      census has been run on cannot-target-weakness, the start-line lattice, or the dual-arrow ruleset.
+      Deposited paper (Zenodo concept 10.5281/zenodo.21947412): the full-census bar does not bind (ruled 9/23).
+  [x] Prior art — §10 (circle games, designed prosocial sports, handicap systems, caller ancestors, the name
+      games [new], name-pronunciation tools [new], the recomputable draw, the instrumented-sport patent field,
+      third-place and name-and-belonging literatures) + Citations (0a–0c, 1–26)
+  [x] Honest limits — §11, 17 items, myth-free; item 1 corrected (a reference implementation exists; no
+      pre-registered prediction run); item 5 corrected (Relay removes the mesh from the first session's path)
+  [x] AI co-authorship disclosed in text — front-matter authors line "Thon Ly · Miss Aquarius℠" and the PDF
+      cover line "(Miss Aquarius is an AI co-author, disclosed; the inventor of record is Thon Ly)"; no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The scene names (Virak, Sokha,
+      Dara) are illustrative; only cited authors, public bodies and companies are named.
+  [x] mirror-lint: 0 REFUSE · 5 WARN — all five are the rule phrase "first to zero / first to nothing"
+      (L41 abstract, L106 §2 scene, L291 §5, L402 §6, L569 claim 5), not a novelty claim
+  [x] No perma.cc · no "Mirrors of this document" line · no placeholder · no Document SHA-256 body footer ·
+      no retired mission sentence · no ⭐/⛔/⚠️ markers left (3 removed)
+  [x] Terms table present — "## Terms" (coined name → standard technical term, 30 rows)
+  [x] Title does NOT lead with a coined mark — "The Sport That Says Your Name" is unmarked; the paper's own
+      front-matter subtitle now leads with "sey" (unmarked), replaced in the TDCommons title above
+  [x] Fenced diagrams: 5, widest 80 characters (under 95)
+  [x] Editor note removed — "Draft notes for the editor" recast as a dated scope note; revision notes now in
+      date order (they were v2, v3, v7, v8, v4, v5, v6)
+  [!] front matter "status: draft" — the paper has no ruled human round (unchanged by this pass)
+  [!] Three "Current form" notes added by the variant rule (§3 embodied machines — the 2026-07-28 robots
+      ruling; §7 mesh-first plan and voiced ball; §9.2 city-scale chair sponsorship) — confirm the main session
+      accepts disclosing the robots doctrine here (it was flagged in memory as a possible standalone paper)
+  [!] The paper is long (47 PDF pages). Read every page before upload, the cover above all.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE, iframe abstract_ifr). form_input reports success and leaves
+   it EMPTY. Type into the visible editor body; verify by reading the iframe body text and by SCREENSHOT.
+   Enter may be blocked by the tool classifier; paragraph breaks go in as typed newlines (the abstract is one paragraph).
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series — never submit.cgi.
+⚠️ IRREVERSIBLE once approved. "Revise submission" is available only until the venue approves it.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|unprecedented|no precedent|authors' knowledge|never been|in existence|on earth|
+                  the only|first; line numbers = defensive-publications/the-sport-that-says-your-name.md after this pass)
+  Removed or scoped in this pass:
+   - abstract "organized by one mechanism with no precedent in sport" → "organized by one mechanism: the caller"
+   - abstract "to the authors' knowledge the first net sport in which ..." → adjective removed
+   - abstract "Every sport in history was designed ..." → "Sport has historically been designed ..."
+   - abstract "the mixed-age family ... the unit no sport accommodates" → "the unit organized sport serves worst
+     (§1 names golf's handicap as the partial exception)" — removed a contradiction with §1's golf counterexample
+   - Prior-Art statement "to the authors' knowledge, not previously published as a coherent whole" → the census paragraph
+   - §1 "the one output no sport has ever produced on purpose" → "an output sport has rarely set out to produce"
+   - §1 referee "recruitment collapse, with youth leagues canceled" → sourced statement (NFHS 2022; BBC 5 Live 2023)
+   - §4 "one genuinely novel mechanism" → "central mechanism"; "jointly unprecedented in sport" → scoped to the census
+   - §4 "no prior net sport has this property" → "no census of net sports has been run for it"
+   - §4 "the first sport whose standard output includes strangers who know each other's names" → scoped, Name Toss cited
+   - §5 "is, to the authors' knowledge, novel" (dual arrows) → "is disclosed as architecture"
+   - §5.2 "every scoring sport in existence" → "the usual convention of scoring sports"
+   - §6 "Handicap literature treats coarseness as a deficiency" → "Handicap design ordinarily treats ..."
+   - §9 "the only sport that solves a non-sport problem" · "floor as low as any game on earth" · §9.1 "Every
+     teacher on earth ... worldwide" · "universally disliked" → scoped
+   - §10 golf handicap "(formalized from the 18th century) ... for centuries" → "(recorded as a practice from
+     1687 and formalized from the 1890s) ... for more than a century"; "none (to the authors' knowledge)" →
+     "none that the authors have found ... (no census has been run on this point)"; "in the public domain first"
+     → "in the public record as prior art"
+  Remaining "the only" uses are scoped mechanism statements (L27 v7 note, L125, L170, L188, L356, L367, L500) — fine.

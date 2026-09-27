@@ -1,0 +1,73 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A168/A232) — DRAFT (drafter agent, 2026-09-26; not final until the chain runs)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Multi-Family Membership: User-Scoped Identity, Plural Membership, and the Two Problems It Resolves — Many-to-Many User–Group Membership with Proof-of-Personhood Identity and Per-Person Metering for Administrator Succession in Shared Group Accounts
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title already
+   carries a colon, so the subtitle follows an EM DASH — founder ruling 2026-09-24. Added words drawn from the
+   paper's ## Terms table: "many-to-many user–group membership", "proof of personhood", "per-person … allowance",
+   "administrator succession", "shared group wallet / pooled group balance". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title and front-matter subtitle.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK (L40 — individual, not on behalf of a business)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words by wc -w — limit 250; identical to the paper's ## Abstract)
+This paper specifies a data-model correction for a group-based gratitude ledger in which users belong to household groups, each holding a shared group balance administered by one member. The correction replaces single-group containment with user-scoped identity, rooted in a proof-of-personhood verification, and represents group membership as a many-to-many set of edges: each user's personal account sits at the user record, above every group, and a group's administrator controls only the shared balance. One change addresses two failures of the single-group assumption. It lowers the cost of an administrator's departure, since members keep their personal accounts and their other memberships and the pool of successor candidates widens. And it removes most of the need for a separate tier for users with no household group, by treating a default global membership of every verified person as the outermost layer of an existing nested architecture, with admission-gated local groups as the on-ramp. Three invariants keep plural membership safe: giving capacity is metered per verified person rather than per membership; each group controls its own admission; and a member of two groups may not route or net value between their shared balances. Membership count is left uncapped by default, with a damping lever held in reserve until pilot data warrant it. Stated limits: an explicit succession protocol is still required when a member's last group fails; users admitted to no group rely on the global layer alone; per-person metering presupposes a working personhood layer; and the design is unmeasured in deployment.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"   (6 enumerated claims, enumerated 2026-09-01 from matter in the original text)
+
+FILE       not built for submission. A temp build from the working tree (tdc-pdf.py, no --submitted) rendered clean;
+           pages 1–3 read (cover: first published 2026-06-12 · this version 2026-09-26 · concept DOI
+           10.5281/zenodo.21947358 · scoped timestamp line present). ⚠️ The cover "This version" date and the
+           Zenodo version must be re-read after the chain runs; build the final with --submitted then.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  RESOLVED 2026-09-27: standard non-assertion; claim 6 narrowed to match §8 (lever specified, held in reserve until pilot data warrant it); §5/§7 notes corrected (family-less floor via own Re-Tip Fund℠; named cross-family gift → Personal Wallet℠ in Phase 2).
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The author asserts no patent and
+      dedicates the patterns to the public domain under CC0 1.0." (phrasing: "asserts no patent")
+  [x] Claims section — "## Claims", 6 enumerated
+  [x] Census statement — "Census." paragraph: no census on file (first published 12 June 2026, before the
+      13 September 2026 rule, not retroactive); no absence-from-literature asserted
+  [x] Prior art — §9 (plural group membership, account portability, graph kinship data, receivership in
+      cooperatives, federated base membership); no external citations in the paper (none to verify)
+  [x] Honest limits — §10 "Honest limits" (last-group succession, isolated residual, PoH presupposition
+      incl. Phase 1 device-local linking, neutral-breadth bet, unmeasured)
+  [x] AI co-authorship disclosed in text — Acknowledgments ("co-authored with Miss Aquarius℠") + PDF cover
+      Authors line; no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW
+  [x] mirror-lint: 0 refuse · 0 warn (before: 1 refuse perma-cc · 4 novelty warns)
+  [x] No perma.cc · no draft banner · no "Mirrors of this document" · no placeholder · no A126 sentence ·
+      no sha256:/doi: front matter · no "Document SHA-256" body footer
+  [x] Terms table present — "## Terms" (19 rows, coined name → standard technical term)
+  [x] No emoji / internal-memory markers (⭐ ⛔ ⚠️ ✅) in the file
+  [x] Title does not lead with a coined mark — "Multi-Family Membership" is descriptive, unmarked
+  [x] Cross-references are full paper titles (no bare slugs); the unpublished "Open Architectural Problems"
+      reference was removed
+  [!] Front matter "status: draft" — no ruled human round (not a gate)
+  [!] Claim 6 says the observation that would justify damping is "specified in advance"; §8 names only
+      "pilot data" and peer-layer fraud-flagging, no specific observation. Left as written (claims untouched
+      in this revision); the abstract now says "held in reserve until pilot data warrant it". Founder call
+      whether claim 6 should be narrowed before a permanent posting.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE, iframe abstract_ifr). form_input reports success and leaves
+   it EMPTY. Type into the editor body; verify by reading the iframe body text AND the confirmation page's
+   Submission Metadata echo.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series — never submit.cgi.
+⚠️ IRREVERSIBLE once approved.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (mirror-lint novelty = 0 after revision; by hand: novel|first|unprecedented|only|unique)
+  "novel"/"novelty" — 0 occurrences (four removed: Prior-Art statement, §9, §10 heading, §10 text →
+  "what is disclosed").
+  "first" — L35 "first published", L43 "original publication", L92 "First, the family-less…" (ordinal),
+  L111 §7 note "First, Miss Aquarius…" (ordinal), L27 Terminology note "first publication" → FINE.
+  "only" — scoped mechanism statements (steward stewards only the shared Kitty; Pool receives only
+  unaddressed gratitude) → FINE.
+  §6 "not several different migrations; they are instances of one move" — scoped this revision to "the
+  crossings … named here".

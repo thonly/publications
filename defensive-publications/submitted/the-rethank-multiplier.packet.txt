@@ -1,0 +1,78 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Re-Thank Multiplier: How a Gratitude Economy Escapes Its Own Saturation Ceiling — Separating Low-Rate Content Origination from Value-Bearing Reactions to Scale Peer-Recognition Throughput and Resist Reward Farming
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the title already has a
+   colon, so the subtitle follows an EM DASH — founder ruling 2026-09-24. Subtitle drawn from the paper's Abstract
+   and ## Terms table: "creation event", "value-bearing reaction", "peer-recognition system", "reward farming".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (242 words — limit 250; the paper's own ## Abstract is 250 and was tightened here)
+We specify a rate-limited peer-recognition system that separates two user operations and gives them different per-person rate ceilings: origination (creating a new gratitude record about a kindness one noticed), whose sustainable rate is low and inelastic, and re-thanking (endorsing a record another user has already surfaced), a reactive operation with a much higher per-person ceiling, the same creation-versus-reaction asymmetry that gives social platforms their high ratio of reactions to posts. Because each origination can be endorsed by many others, total value-bearing events per day are bounded by N × min(N − 1, K), where N is the number of participants and K the per-person reactive ceiling: quadratic in a small network, linear with a large multiplier in a large one, while each person's origination rate stays near one a day. A gratitude network is compared with a search engine on total funnel-completing events (a narrow, deep funnel against a wide, shallow one), not on interaction frequency. Each endorsement must carry a small transfer from the endorser's own non-withdrawable, forward-spendable balance, so the operation that supplies the volume is also a proof-of-cost filter: one actor cannot inflate it alone, and inflation by a reciprocal collusion ring is costly and appears as a dense reciprocal subgraph. Stated limits: the realized multiplier depends on how originations reach people, by relation and proximity, which is unbuilt; the empirical signal is one family over one month; collusion is made costlier and detectable, not eliminated; and the value requirement trades raw volume for integrity.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"     (5 enumerated claims; the paper has a literal "## Claims" heading)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py the-rethank-multiplier --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-06-12 · concept DOI 10.5281/zenodo.21947410 (zenodo-dois.json) ·
+  scoped timestamp line. ⚠ The deposited Zenodo version predates this revision — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  RESOLVED 2026-09-27: standard non-assertion; 'monetizable' → 'value-bearing'; Current-form notes on the fee (settlement fee sized to infrastructure, paid on top, never a share) and on surfacing (relation/proximity; any slate a called draw).
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The author asserts no patent and
+      dedicates the patterns to the public domain under CC0 1.0" (kept verbatim); repeated in the new closing
+      footer: "will not seek patent on this specification or any portion thereof, and will not assert any
+      patent right against anyone practising it."
+  [x] Claims section — "## Claims", 5 enumerated items (enumerated 2026-09-01). Claim 2 now carries a scoping
+      parenthetical (the square is the combinatorial ceiling; bound N × min(N − 1, K)) — a narrowing, no new matter
+  [x] Prior art — Prior-Art statement + §9 (now with 6 verified references, incl. the case that cuts against:
+      Steemit vote-selling bots / voting rings)
+  [x] Honest limits — §10 "What is disclosed, and honest limits" (expanded: K unmeasured, large-N form linear,
+      pilot confound)
+  [x] AI co-authorship disclosed in text — Acknowledgments + closing footer ("Written by Thon Ly with Miss
+      Aquarius℠, the name under which this corpus discloses its AI collaboration"); no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Pilot family unnamed
+      ("relatives of the author", "the parents")
+  [x] No perma.cc · no draft banner (the "Working draft." blockquote was removed; its content folded into §10) ·
+      no "Mirrors of this document…" line · no placeholders ("[companion field report]" replaced) ·
+      no A126 mission sentence (never carried one)
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 4 warn)
+  [x] No emoji / internal markers (the ⚠️ in claim 5 removed; grep 0)
+  [x] Terms table present — "## Terms" (12 rows, coined name → standard technical term)
+  [x] Abstract section present in the paper — "## Abstract" (added; leads with standard terms)
+  [x] 1 fenced diagram (§3), widest 87 chars — under 95
+  [x] Title does NOT lead with a mark — "The Re-Thank Multiplier" is unmarked; examiner terms arrive in the subtitle
+  [!] front matter "status: draft" — no ruled human round; this revision adds/renames ## sections anyway
+  [!] §1/§3/§4 per-transaction-fee language — kept (conditional "if … funds … from per-transaction fees"); whether
+      a fee on a re-thank survives the registry-funded model is a founder ruling (see drafter report)
+  [!] §7 surfacing "to the participants most likely to genuinely want to affirm it … lift up diverse, genuinely
+      helpful acts" — kept as disclosed; its fit with Signature 8 (never grade) and #59/#67 is a founder ruling
+  [x] Marks (℠/®) appear only in the body and footer; none in the TDCommons title or subtitle
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been;
+                  line numbers = defensive-publications/the-rethank-multiplier.md after this revision)
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique / "has not been" / categorical.
+  "first" — ordinal → FINE: L129 "the first month of a pilot deployment".
+  "only" — SCOPED mechanism statements → FINE: L28 "only the specific composition and framing" (scopes the
+  disclosure, not a novelty claim) · L50 claim 5 "can be inflated only by a collusion ring" (the mechanism
+  property, with "raised in cost … not eliminated" beside it) · L107 "not (only) emotional".
+  Removed this revision: "Claimed as novel" (§10 body + heading) → "What this paper discloses as its contribution" /
+  "What is disclosed"; "novelty is claimed only for" (Prior-Art statement) → "what this paper discloses as its own
+  contribution is only"; §9 "Novelty is not claimed for any of these" → "This paper claims none of these";
+  §5 "defeats bulk abuse categorically" → "works against bulk abuse … by raising the cost". §10 now states that no
+  /novelty census has been run and the composition is "disclosed, not asserted to be absent from the literature".

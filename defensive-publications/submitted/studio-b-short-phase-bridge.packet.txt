@@ -1,0 +1,73 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A232) — DRAFT (drafter; not yet chained, PDF not built)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Studio and the B-Short Bridge: A Private-to-Public Toggle as the Phase-1-to-Phase-2 Crossing — Per-Item Visibility Setting on Short-Form Video as a Migration-Free Switch from a Family Tipping Ledger to Blockchain Settlement
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title already
+   has a colon, so the subtitle follows an EM DASH — ruling 2026-09-24. Added part carries no mark and no new
+   matter: drawn from the ## Terms rows "public toggle", "B-Short℠", "Phase 1", "Phase 2" and the Abstract.
+   The paper's own front-matter subtitle is not used: it repeats the coined phases and adds no search terms.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK
+
+LICENCE    Creative Commons Attribution 4.0   (never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250; identical to the paper's ## Abstract)
+
+This publication specifies a per-item visibility setting on short-form video that doubles as the boundary between two scales of a tipping ledger. A creation tool captures clips of a real act of kindness, often the same situation before and after, and assembles them into a short video record; rewards attach only to records that are recorded live, visible to family or public, and pinned to a real location. Each record is created private, visible to and tippable by the creator's own household on a family-scale ledger that runs over conventional payment rails. Setting one record public changes two things at once: its audience widens from household to any participant, and its settlement rail switches from the family ledger to a peer-to-peer layer on a public blockchain, where strangers may send value-bearing secondary tips from their own balances. No account migration, second onboarding or port of balances occurs; each record is scoped individually, so one participant can occupy both scales at once. The same private-to-public move is identified as a general pattern for crossing from local to global scope, shared with provenance links and multi-family membership. Public exposure sits on a base reward, funded by the system's reward pool, that is independent of reach, and prestige is carried by a reputation measure driven by the participant's onward giving rather than by earnings. Limits: the blockchain layer is not live and the rail switch is unbuilt; the constraints defeat fabrication but not staging; earnings under public exposure remain concentrated.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 8. What is disclosed, and honest limits"
+  (no "## …Claims" heading; the disclosed composition (a)–(c) is the first paragraph of §8)
+
+FILE       submitted/studio-b-short-phase-bridge.pdf — NOT BUILT (tdc-pdf.py runs after the chain, in the main session)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  RESOLVED 2026-09-27: built-state now reads "specified, with a working implementation in progress"; standard non-assertion; §6 Current-form note (no grading of exemplars; any slate is a called draw); the paid tools are THonly™'s.
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The author asserts no patent and
+      dedicates the patterns to the public domain under CC0 1.0." (sentence unchanged)
+  [x] Claims section — no enumerated claims; the disclosed composition is §8 (a)–(c), reworded from
+      "Claimed as novel" to "What is disclosed" (no new matter; (c) narrowed to "narrow the farming and
+      performativity exposure", which removes a contradiction with §8's own limits)
+  [x] Prior art — §7, now with three fetched references (YouTube privacy settings; Li Jin, HBR 2020; Base);
+      Prior-Art statement says no patent-literature search was made (no census on file; deposited paper,
+      gate not retrofitted)
+  [x] Honest limits — §8 "Honest limits" (rail switch unbuilt, Phase 2 not live, nothing measured; power law;
+      floor is a bootstrap that dilutes; fabrication-not-staging; two §6 constraints are enforcer-dependent rules)
+  [x] AI co-authorship disclosed in text — Acknowledgments ("Drafted with Miss Aquarius℠ …"); no model named
+  [x] No named private people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW (control: a planted personal
+      email fired HIGH on a scratch file)
+  [x] mirror-lint: 0 refuse, 0 warn (before: 1 refuse perma-cc, 4 warn novelty)
+  [x] No perma.cc · no draft banner (the "Working draft" banner is now a factual "Note.") · no
+      "Document SHA-256" footer · no sha256:/doi: front matter
+  [x] Terms table present — "## Terms" (10 rows)
+  [x] 1 fenced diagram (§4), widest 77 chars
+  [x] Emoji / internal markers: none (scanned U+2600 and above, excluding typographic marks)
+  [!] Title LEADS with coined marks ("The Studio and the B-Short Bridge"); examiner terms arrive after the em dash
+  [!] front matter "status: draft" — no ruled human round; headings added (Abstract, Terms, References) and §8
+      renamed, so draft is correct regardless
+  [!] §8 section id changes on the site: 8-what-is-claimed-as-novel-and-honest-limits →
+      8-what-is-disclosed-and-honest-limits (no inbound anchor found in src/ or the corpus)
+  [!] Founder confirm: the Note (L17) and Honest limits (L100) state the Studio capture surface and a
+      per-B-Short visibility setting "have been implemented in the Phase-1 application" — verified in
+      H3/heartbank.org/thank.heartbank.org source (src/pages/studio/, src/pages/shorts/visibility-sheet.ts),
+      not verified as deployed
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by screenshot AND the confirmation page's metadata echo.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series
+⚠️ IRREVERSIBLE once approved. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (novel|first|unprecedented|no prior|never been|only|unique|every|guarantee|safe)
+  novel/novelty/claimed — 0 left (were L34, L77, L79 ×2).
+  "every video platform" (§7) → "common on video-sharing platforms", with YouTube cited [1].
+  "guaranteed base" (§5) → "funded base"; honest limits now say the floor is transitional.
+  "does not open a farming hole" (§5) → "solo-farming hole", collusion residual stated (matches
+  The Re-Thank Multiplier's own "not solo-farmable, only collusion-farmable").
+  "makes public exposure safe" (cross-refs) → "bounds farming under public exposure".
+  "only" — scoped mechanism statements (§3 "thanked only within the household"; §6 "caught only by").

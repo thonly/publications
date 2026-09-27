@@ -1,0 +1,101 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A168/A232) — DRAFT, prepared by the drafter; not yet chained
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Currency That Cannot Be Spent Alone: Co-Presence-Gated Redemption and the Chronicle↔Treasury Unification Circuit — Time-Banking Credits Redeemable Only at a Synchronous, Mutually Attested Meeting of Both Parties
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title already
+   carries a colon, so the subtitle follows an EM DASH — founder ruling 2026-09-24. The added part carries no mark
+   and no new matter: "time-banking" (§1, §9, Terms), "synchronous" (§4.1, claim 1), "mutually attested"
+   (§4.4 both-party signoff, claim 3), "both parties" (§4.1). The paper's own front-matter subtitle, "The
+   Mechanism of a Time-Currency Whose Redemption Is an Event Both Parties Must Attend", is REPLACED here, not
+   appended; the PDF cover keeps both of the paper's own lines.)
+  ⚠ The paper title contains "Chronicle↔Treasury" (product names + a U+2194 arrow). The arrow is in the
+    paper's own title and the PDF; confirm the TDCommons title field accepts it before submitting, or
+    type it as "Chronicle-Treasury" in the FIELD ONLY (a founder call — not decided here).
+
+INVENTOR   (ruling 2 — natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (ruling A — blank keeps you off the "on behalf of a business" branch)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (249 words — limit 250; counted with wc -w)
+In the disclosed time-banking system, a credit (a pledged hour, issued as thanks between two named persons) has one redemption form: a synchronous meeting both parties attend, in person or by live audio or video call, with shared attention face to face or side by side on a shared task. Recorded messages may carry an invitation but cannot redeem a credit, so absentee service cannot be expressed. Both parties confirm delivery, corroborated by device proximity or the live session; an in-person exchange of public-key fingerprints, as at a key-signing party, is described as one candidate corroboration path that may admit a redemption but never create or price value. Redemption costs both parties the same span of time, and the quality of attention is never scored. The credit holder chooses the activity from a curated catalogue and the issuer may refuse any request; shared volunteer work qualifies only when both perform it and a third party benefits. Credits accrue below a threshold, activate on crossing it, and expire one month later without recovery; on expiry the issuer may direct an anonymous gift from a common pool to a nearby verified stranger. Thanks for a completed hour are given in money, unprompted and independent of duration, and tips from viewers of a shared recording route by default to the time-giver; no time-to-money exchange rate is expressible on its surfaces. Limits: the system is unbuilt, synchronous meetings exclude some people, a proximity proof attests contact, not duration, and no meeting's outcome is guaranteed.
+
+FILE       NOT YET BUILT for submission. A render check was built to a temp dir on 2026-09-26
+           (tdc-pdf.py default mode): 27 pages, 530,648 bytes, no lost-word refusal. Cover read:
+           first published 2026-07-21 · this version 2026-09-26 · concept DOI 10.5281/zenodo.21947304 ·
+           canonical https://thonly.org/research/co-presence-gated-redemption · timestamp line present and
+           scoped ("proves nothing about authorship, originality, or the validity of any claim").
+           ⚠ The submission PDF must be rebuilt with --submitted AFTER the chain runs on this revision
+           (the concept DOI is stable; the Zenodo version will change).
+
+CLAIMS HEADING FOR check-mirrors
+  --claims-heading "## 8 · The Claims"
+  (Enumerated: 1, 2, 2a, 3, 4, 5, 6, 7, 8 — nine items. Claim 2 restated 2026-08-07; claim 3 partly
+   withdrawn 2026-09-02; claim 6 wording corrected 2026-09-26 — "practices-inspired" -> "reconnections-
+   inspired", to match §6.4; no matter added.)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Eligible — defensive-publications/; deposited (zenodo-dois.json: concept 10.5281/zenodo.21947304);
+      no census on file, which the 2026-09-23 ruling permits for an already-deposited paper; not in
+      submitted/manifest.json (never mirrored)
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The authors and HeartBank® will
+      not seek patent on any mechanism, architecture, or specification articulated herein, in any
+      jurisdiction, at any time."; repeated in the closing footer
+  [x] Claims section — "## 8 · The Claims" (nine enumerated claims)
+  [x] Prior art — Prior-Art and Non-Assertion Statement (incl. a novelty-census disclosure: none run;
+      published as prior art whether or not new) + §9 Prior Art, Generously (time-currency tradition,
+      StoryCorps, synchronicity mechanics, PGP key-signing / Signal safety numbers / SSH TOFU, the gift
+      literature, this corpus, the agentic-payments enclosure risk) + Citations (18)
+  [x] Honest limits — §12 (unbuilt n = 0; surfaces not side-deals; synchrony excludes; launch modality
+      is the call; attestation privacy; no guaranteed valence; the elegance caution); also §4.6's
+      Honest limits paragraph and §4.5's solitary-case limit
+  [x] AI co-authorship disclosed in text — front-matter authors line + Acknowledgments ("Co-drafted in
+      collaboration with Miss Aquarius℠"); cover line names Thon Ly as inventor of record; no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The canonical scene (§2)
+      is a daughter in Long Beach and a mother in Kâmpôt, unnamed; "the corpus's own founding story"
+      (§3.1) and "the unsent letter" / "the letter whose reader never knew" (§4.5) are unnamed
+  [x] No perma.cc · no "Document SHA-256" body sentence (removed 2026-09-26) · no draft banner · no
+      "Mirrors of this document" line — mirror-lint: 0 refuse, 0 warn
+  [x] No emoji / internal markers — 18 removed 2026-09-26; grep for ⭐ ⚠ ⛔ ✅ ⏳ = 0
+  [x] No editor/drafting notes — the v2–v5 change log and "Draft notes for the editor" block removed
+      2026-09-26; the claims division and a dated revision record now stand in the Prior-Art statement
+  [x] Terms table present — "## Terms" (coined name -> standard technical term, 16 rows)
+  [x] Fenced diagrams: 4, widest 84 chars (line 124) — under the 95 guide
+  [x] Title does NOT lead with a coined mark — "The Currency That Cannot Be Spent Alone" is unmarked;
+      examiner terms arrive in the subtitle
+  [!] front matter "status: draft" — no ruled human round on record
+  [!] §4.6 publishes Proof of Meeting as the in-person attestation mechanism, while Chronicle canon still
+      marks §pom-may-be-the-mechanism "NOT RATIFIED" — founder ruling owed before the posting (see report)
+  [!] Four "> Current form." notes (§4.2, §4.4, §5.1, §11) state the design as now specified and retain
+      the earlier text as disclosed variants — read them once on the PDF (they print as blockquotes)
+  [!] §1 heading "Why Time-Banking Died of Labor" is rhetorical (time banks still operate); the body is
+      scoped. Heading left unchanged to avoid anchor churn — confirm keep
+
+⚠ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE as of 2026-09-24). form_input reports success and
+   leaves it EMPTY. Type into the visible editor body; verify by reading the iframe body and by SCREENSHOT.
+
+⚠ IRREVERSIBLE. No author review after approval. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|unique|has not been|not previously|
+                  to the authors' knowledge|the only|nobody — line numbers = the revised markdown)
+  None of novel / unprecedented / "no prior" / "never been" / unique / "has not been" remain.
+  FIXED 2026-09-26: Prior-Art statement "to the authors' knowledge, not previously published as a coherent
+    system" -> census disclosure (none run; published as prior art whether or not new).
+  FIXED: §4.2 "a consequence that no prior time-currency possesses" -> "that none of the time-currency
+    designs reviewed in §9 possesses".
+  FIXED: Abstract "in every prior design" -> "in the designs reviewed in §9"; "the gig-shape that killed
+    time-banking" -> "the gig-shape this paper identifies as the driver of time-banking's decay".
+  FIXED: §4.1 "flanking is the documented easier on-ramp" (contradicted P-C2, which pre-registers it) ->
+    "proposed here ... (P-C2 pre-registers the test)".
+  FIXED: §4.6 "has never once worked at scale" -> "is so rarely performed by ordinary users"; §9 "a
+    pretext ... key verification has never had" -> scoped to the key-signing party.
+  FIXED: §7.1 "Every other component of companionship is now substitutable" -> "Most other components ...
+    substitutable in some measure"; §9 Fureai Kippu "the tradition's most successful instance" -> "often
+    cited as"; §9 "The agentic-payments patent wave ... is the live enclosure risk" -> "in the authors'
+    assessment"; §6.3 "the gift literature has always identified" -> "from Mauss onward, has identified".
+  Remaining "first"/"only"/"nobody" hits are ordinal, idiomatic or scoped mechanism statements
+    (e.g. §4.1 "the only spendable form of the currency", §4.6 "a ritual nobody performs").

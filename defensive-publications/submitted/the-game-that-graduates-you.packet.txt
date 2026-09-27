@@ -1,0 +1,76 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A232) — DRAFT (drafter; not yet chained, not yet PDF-built)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Game That Graduates You: A Witness API for Children's Games and Education — A Permission-Scoped Game API Without Payment Authority, Parental-Consent Family Content as Curriculum, and Course Completion as the Success Metric for Educational Apps
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title already has a
+   colon, so the subtitle follows an EM DASH (ruling 2026-09-24). No mark in the added part; every phrase is drawn from
+   the paper's ## Terms table and Abstract (no new matter). The PDF keeps the paper's own title and front-matter subtitle.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK
+
+LICENCE    Creative Commons Attribution 4.0   (never an NC/ND/SA variant)
+
+ABSTRACT   (249 words — limit 250)
+We describe a permission-scoped third-party API architecture for children's educational games and learning apps. A game client may propose real-world tasks to a child, styled in the game's fiction from real household context, and may receive a minimal completion notification when a family member witnesses the act; it can never hold payment, transfer, balance or reward-issuing scopes, so task completion issues no currency or points, and any reward is a human-initiated acknowledgment through the family's own ledger app. Parents approve which apps may propose to each child, revocably and default-off. With per-item parental consent and on-device processing, the family's own messages and records become instructional material: a grandparent's letter as reading text, a real thank-you note as the writing exercise, the family ledger as the arithmetic workbook, heritage-language letters for diaspora learners; family messages are never locked or delayed behind lesson progress. Each unit ends in a capstone performed for a real recipient, assessed by witnessed completion, with recipient veto and proficiency data kept private. Education apps report course completion followed by departure as their success metric in place of retention. A conferral tier in a revocable membership credential for child-directed apps requires these scopes, the no-gating rule, no export of child learning data, and statutory child-privacy floors. Three predictions are pre-registered. Stated limits: the design is unbuilt (n = 0); reward crowding-out is untested; browser deployments can keep data on the device but cannot run on-device inference; parental approval assumes a functional parent; no legal review has occurred.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading '## 11 · Claims'
+
+FILE       not yet built — run `python3 scripts/tdc-pdf.py the-game-that-graduates-you` in TH/publications AFTER the
+           chain re-runs on this revision (the cover must carry first-published 2026-07-23, this version's date, and
+           concept DOI 10.5281/zenodo.21947399).
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] mirror-lint: 0 REFUSE, 1 WARN — L105 "never existed" in "the subscription that never existed" (the regex's
+      "never (been|existed)" pattern; not a novelty claim — acceptable). Before revision: 0 REFUSE / 2 WARN, but the
+      lint MISSED the "> *Draft notes for the editor:*" banner (its draft-banner regex matches only "Draft in progress"
+      / "founder-voice canonical draft") — cut by hand.
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The authors and HeartBank® will not seek
+      patent on any mechanism, architecture, or specification articulated herein, in any jurisdiction, at any time.";
+      repeated in the closing footer
+  [x] Claims section — "## 11 · Claims", six enumerated claims (unchanged in substance; claim 6's last clause reworded
+      "revoking the credential's heartbeat" -> "revoking the credential (ending its lease, so that its periodic
+      liveness signal stops)" — vocabulary per the lease/tick adoption, no new matter)
+  [x] Terms table — "## Terms" (new this revision), 16 rows, coined name -> standard term
+  [x] Prior art — Prior-Art statement + §9 (overjustification: Lepper-Greene-Nisbett, Deci-Koestner-Ryan, Kohn;
+      pedagogy: Ashton-Warner, Freire, Montessori, Vygotsky, Collins-Brown-Newman, Purcell-Gates; industry: Duolingo,
+      Greenlight, BusyKid, Khanmigo; law: COPPA, UK AADC, GDPR Art. 8; this corpus) + 15 citations
+  [x] Honest limits — §10, eight items, myth-free
+  [x] AI co-authorship disclosed in text — closing footer "Co-authored with Miss Aquarius℠, the institution's named
+      AI collaborator…"; front-matter authors line; no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The first author's father appears by
+      relation only (§12; permitted by the 2026-09-24 ruling). The origin story (§1 Door three) names no one.
+  [x] No retired A126 mission sentence (paper never carried it)
+  [x] No perma.cc, no false "Mirrors of this document" line, no placeholder
+  [x] Body "Document SHA-256 computed at push" footer REMOVED this revision
+  [x] Citations verified by web 2026-09-26 (see drafter report); Montessori quotation re-sourced to Citizen of the
+      World (2019) p. 34 — the old citation (The Secret of Childhood) could not be matched to the quotation
+  [ ] Chain re-run on this revision (OTS · TSA · Zenodo · corpus index) — main session
+  [ ] PDF built from repo and every page read
+  [!] front matter "status: draft" — no ruled human round (expected)
+  [!] Eligibility: first Zenodo deposit done (concept 10.5281/zenodo.21947399); no full census on file — bar waived
+      for already-deposited papers (ruling 2026-09-23); overclaim read below done by hand
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE, iframe abstract_ifr). form_input reports success and leaves it
+   EMPTY. Type into the editor body; verify by reading the iframe body text AND the confirmation page's echo.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series — never submit.cgi.
+⚠️ IRREVERSIBLE once posted.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep novel|first|only|unique|unprecedented|never been|has not been|no prior|none of;
+                  line numbers = defensive-publications/the-game-that-graduates-you.md after this revision)
+  No novel / unprecedented / unique / "never been" / "has not been" / "no prior".
+  "first" — ordinal or idiom: L54 "the first mangoes" · L66/L146/L224 "first-party" · L180 "The first author's".
+  "only" — scoped mechanism statements: L20/L107/L174 "witness-scope-only" · L56/L95 "receives only the completion
+    signal" · L66 "invents only narrative dress" · L87 "draws only on corpus items" · L157 "browser-only".
+  "none of" — L58, SCOPED ("none of the consumer learning products reviewed in §9 is described, in the sources cited,
+    as reporting it as its success metric").
+  Fixed this revision (were unscoped): "no venture-scale education product has ever reported it" / "It has never
+    existed" (§2) · "what no children's studio has ever had" (§3) · "no software economics has ever permitted" (§9) ·
+    "no statute yet names them" (§9) · "not previously published as a coherent whole" (Prior-Art statement) ·
+    "the canonical instance" (Duolingo) · "the dominant language-learning product" / "no software has ever been
+    allowed to touch it" (Abstract) · "the strongest known completion evidence" (§5) · "every human teacher … forever".

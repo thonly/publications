@@ -1,0 +1,66 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A232) — DRAFT (drafter; the main session finalises after the chain)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Wager That Isn't: Competitive Giving Without Gambling — Charity Challenge Matches with Non-Refundable Entry Donations and Irrevocable Pledges Whose Recipient Charity Is Selected by the Outcome
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title already
+   has a colon, so the subtitle follows an EM DASH — founder ruling 2026-09-24. No mark in the added part.)
+  (The paper's own front-matter subtitle, "B-Match℠ — Unconditional Matched Stakes, the Two-Key Separation, and the
+   Patron Pot That Contests Only Addresses", is REPLACED here, not appended: it leads with a coined mark. The
+   standard-term subtitle is drawn from the paper's ## Terms table rows "unconditional matched stakes", "commit-always
+   pledging" and "address-contested routing". The PDF cover keeps the paper's own lines.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (241 words — limit 250)
+We describe a charity challenge match in which no money is contingent, in its existence, on the outcome, so that no party places a wager. Two players or teams agree to a physical contest. (1) At acceptance, each contestant pays an equal, non-refundable entry donation in a fixed amount set by the platform operator, never by the contestants; each donation is credited irrevocably, before play and regardless of result, to that contestant's own household giving fund or to a communal charitable fund. (2) Third parties may add irrevocable charitable pledges to a pledge pool attached to the match; each pledge is charged when made and designates the cause backed by one contestant, with a declared fallback. The outcome selects only which pre-committed charitable recipient receives the pool; it never creates, cancels, or returns a pledge, and eligible recipients are communal causes unconnected to any contestant's household, with monastic support excluded. (3) The winner's prize is non-monetary: the right to announce the recipient and dedicate the gift to an honoree. Consideration and outcome-contingency are held by different parties: contestants pay but can receive nothing, pledgors' money is routed by the outcome but they control and receive nothing, and the operator takes no share. Excluded variants are enumerated, including loser-pays transfers, refundable stakes, contestant-set amounts, odds displays, victory-linked rankings, and brand pledges on matches involving minors. Stated limits: no legal review, including under Cambodian gambling law; nothing built or tested; pot-cap thresholds underived.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 11 · Claims"   (nine enumerated claims; the paper has a ## …Claims… heading, so the
+  default detection should also find it — pass it explicitly to be safe)
+
+FILE       NOT BUILT by the drafter. After the chain: python3 scripts/tdc-pdf.py the-wager-that-isnt
+           (then --submitted at submission). Read every page; the §5 ASCII table (widest line 93) must not wrap.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] mirror-lint: 0 refuse, 0 warn — both BEFORE and AFTER this revision. ⚠ The lint did NOT see the
+      "Draft notes for the editor:" blockquote this paper opened with (its draft-banner regex matches only
+      "Draft in progress" / "founder-voice canonical draft"); removed by hand. 29 corpus papers carry that
+      banner — see drafter report.
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement": "The authors and HeartBank® will not
+      seek patent on any mechanism, architecture, or specification articulated herein, in any jurisdiction, at
+      any time."; repeated in the closing footer. Unchanged by this revision.
+  [x] Claims section — "## 11 · Claims", 9 enumerated claims. Unchanged by this revision.
+  [x] Prior art — Prior-Art statement + §9 (pledge-per-performance, charity streaming, charity matches,
+      gaming law, own corpus, competitive altruism, crowding-out) + 15 citations.
+  [x] Honest limits — §10, 7 items, myth-free.
+  [x] AI co-authorship disclosed in text — front-matter authors "Thon Ly · Miss Aquarius℠"; no model named.
+      ⚠ Confirm the PDF cover prints the authors line (the body text itself does not restate it).
+  [x] No named private people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW (control: a planted personal
+      email fired HIGH on a copy). Named persons are canonical/historical figures only (Anāthapiṇḍika,
+      Prince Jeta, King Pasenadi, Queen Mallikā) and cited authors.
+  [x] No perma.cc · no "Document SHA-256" body footer (removed this revision) · no editor note (removed) ·
+      emoji/internal markers: 0.
+  [x] Terms table present — "## Terms", 16 rows (added this revision).
+  [x] Novelty — "to the authors' knowledge, not previously published" replaced by "No prior-art search census
+      has been run for this paper and no novelty is asserted". No census on file for B-Match.
+      Remaining "first": §6 "its first event-shaped instance" = within the corpus's own coupler doctrine
+      (scoped); §12 "before the first point" = ordinal. "only": all scoped mechanism statements.
+  [x] Title leads with an unmarked descriptive phrase; standard terms arrive in the subtitle.
+  [!] front matter "status: draft" — no ruled human round; unchanged.
+  [!] Citations #2 and #3 are generic (U.S. charitable-gaming regimes; "Games Done Quick; Twitch
+      charity-streaming ecosystem documentation") — no specific document, URL or date. GDQ donation
+      incentives verified 2026-09-26 against en.wikipedia.org/wiki/Games_Done_Quick. Acceptable as
+      background; tighten on a later revision if wanted.
+  [!] Doctrine questions open for founder ruling (see drafter report): brand/business pledges reaching the
+      Aquarian Pool vs §the-cycle-diagram item 4; the tote board vs HARD #71. Neither changes the text here.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and verify by screenshot + iframe innerText word count.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently (revisable only until approved).

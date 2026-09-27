@@ -1,0 +1,114 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A232) — DRAFT, not yet built with --submitted
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Two-Layer Reward: Pairing an Algorithmically Set Reward with a Peer-Set Tip as Mutual Checks Against Gaming and Favoritism in a Prosocial Incentive System
+  (TDCommons title = paper title + colon + standard-term subtitle — founder ruling 2026-09-23; the paper's
+   own title has no colon, so the colon form applies, not the em-dash form. No mark in the added part; terms
+   drawn from the paper's ## Terms table (algorithmic reward component · peer tipping · human-in-the-loop
+   fraud validation · impartial floor). The PDF keeps the paper's own title and front-matter subtitle
+   "How Pairing an Algorithmic Need-Planner with a Peer Want-Market Routes Generosity ...".)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (off the "on behalf of a business" branch; L40 unruled)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ENTRY URL  https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series   (never submit.cgi)
+
+ABSTRACT   (249 words — limit 250)
+We describe a split incentive payment for prosocial acts in a peer-to-peer tipping system, in which each rewarded act receives two equal components from two different authorities. The first component is set by an algorithm that scores the act against a group-level rubric the family's own stewards author and revise (the acts the family says it values more of); in the deployed web application this is a deterministic scoring algorithm, with an on-device AI evaluator planned for native applications. The second component is set later by a group member, who chooses how much to tip onward from a restricted pass-forward balance that can be given to others but not spent. Equal weighting steers behaviour toward acts that are both collectively and individually valued. The components are designed to correct each other: the peer component acts as human-in-the-loop fraud validation of the gameable algorithmic component, since a person who knows the actor is unlikely to tip a fabricated act, and the algorithmic component acts as an impartial floor under the favouritism-prone peer component. Because earning both requires modelling what others value, it also creates an incentive for mutual attention. A nested variant with an autonomous AI agent as the upper-level planner is also disclosed. Stated limits: collusion between members defeats the peer check; the combination may inherit both failure modes rather than cancel them; reward salience may crowd out intrinsic motivation; the evidence is one pilot family over one month, and the fraud-validation and handoff predictions are untested.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading '## 11. Design implications and claimed contribution'
+  (holds the four enumerated "Claimed contribution" items and the claim-4 Current-form note)
+
+FILE       not yet built for submission. Test build 2026-09-26 (temp dir, tdc-pdf.py two-layer-reward):
+           17 pages, ~427 KB, no refusal, no lost-word warning. Cover read: first published 2026-06-08 ·
+           concept DOI 10.5281/zenodo.21947426 · canonical thonly.org/research/two-layer-reward ·
+           timestamp line present and scoped ("proves nothing about authorship, originality, or the
+           validity of any claim"). ⚠ The markdown changed in this revision → the full chain must run
+           before the --submitted build (the cover's "this version" date and the concept DOI version).
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  RESOLVED 2026-09-27 (founder: "all recommendations approved"): §10 now says "a single pilot family of four"; the cousin-by-relation and the mother's words are cut; the non-assertion is the standard "will not seek patent … in any jurisdiction, at any time" form; §3 carries a Current-form note (the macro half applies the family's own rubric, never an inference of need).
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement": "The author asserts no
+      patent and dedicates the patterns to the public domain under CC0 1.0." Text unchanged except the
+      novelty clause (see below). NOTE: weaker than the wave-1/2 form (no "will not seek patent ... in any
+      jurisdiction, at any time") — left intact per the rider; strengthening it is a founder call.
+  [x] Claims section — "## 11. Design implications and claimed contribution": 6 design implications +
+      4 enumerated claimed contributions. No census on file (deposited paper; the full-census bar does not
+      bind). Overclaim read done — see OVERCLAIM READ.
+  [x] Prior art — §9 Lineage and prior art (9 bullets), now with verified bibliographic detail: Hayek
+      AER 35(4) 1945 · Strathern European Review 5(3) 1997 · Goodhart RBA 1975 · Spence QJE 87(3) 1973 ·
+      Zahavi J. Theor. Biol. 53 1975 · Gao/Schulman/Hilton ICML 2023 · Coste/Anwar/Kirk/Krueger ICLR 2024
+      (web-verified 2026-09-26); Lange 1936–37, Lerner 1944, Mises 1920, Arrow 1951, Ostrom 1990,
+      Smith 1759, Deci & Ryan 1985 (standard, not fetched); §1 adds Malwa, CoinDesk, 8 Feb 2022 (fetched;
+      quotation verified verbatim).
+  [x] Honest limits — "## Honest limits" (moved into the body; it had been glued onto the closing
+      timestamp line after the end marker) + §10 pilot limits (6 bullets) + §6 "The honest limit — collusion".
+  [x] AI co-authorship disclosed in text — closing "Co-drafted in collaboration with Miss Aquarius℠" +
+      PDF cover Authors line; no model named.
+  [!] Named private people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. BUT §10 describes the pilot
+      family by composition (father, mother, two sons; extended members in Cambodia and the USA) and names
+      the point of contact BY RELATION ("the founder's maternal first cousin"); §10 also paraphrases the
+      mother's Khmer message. No names. The 9/24 ruling covered the founder's FATHER by relation; a
+      cousin + family composition is a different case → FOUNDER RULING OWED before posting.
+  [x] No perma.cc · no "Document SHA-256" body footer · no sha256/doi front matter · mirror-lint 0/0.
+  [x] Terms table present — "## Terms" (17 rows, coined name → standard technical term).
+  [x] Emoji / internal markers — 0 (one ⚠️ removed from Honest limits).
+  [x] Editor notes — removed ("Added 2026-08-29. This paper stated none ..."; the "Working draft" banner
+      and footer recast as "Scope." / "First published 2026-06-08.").
+  [x] Fenced diagrams — 7, widest 76 chars (under 95).
+  [x] Title does not lead with a coined MARK ("The Two-Layer Reward" carries no ®/™/℠).
+  [!] front matter "status: draft" — no ruled human round (unchanged).
+
+FIXES MADE IN THIS REVISION (examiner read, 2026-09-26)
+  - Self-contradiction: Honest limits said "Nothing has been run ... no deployment in which an algorithmic
+    layer and a human layer have operated together" while §10 reports the pilot running both → now "has run
+    in one pilot family for one month ... never measured against either layer alone".
+  - Self-contradiction: §4.1 said "§10 reports the first pilot signal of the handoff under a real subsidy
+    taper"; §10 reports no taper → now "the handoff is a prediction — the subsidy-taper test ... had not been
+    run"; §10 gains a "handoff was not tested" bullet.
+  - Dangling reference: §6 "the experiment to see it is named in §11" (§11 names none) → "§11
+    (implications 4–5) names what to instrument, and no such experiment has been run"; §5 "§11 flags the
+    optimal-ratio question as open" now true (implication 3 states it).
+  - Misattributed / unsourced quotations: "worked beautifully" (not in the source; the field report says
+    "still works remarkably well") and "in the mother's account" / "the pilot family's own phrasing" (the
+    words are the founder's field report) → corrected to the report's words and attribution.
+  - Doctrine (plain correction): "the on-device Buddha AI did not run / was non-functional" → the Phase 1
+    web app does not host on-device AI BY DESIGN (ruled 2026-06-12, not a bug).
+  - Doctrine (VARIANT RULE): §8 global-planner seat for Miss Aquarius → "> Current form." note (equal floor
+    per verified human + bounded remainder, public rule frozen in-season, called draws, nothing by need,
+    money only through a human hand); matching note after claim 4; abstract and §3/§12 pointers.
+  - Doctrine (plain correction): §8.1 "validation hands off to PoH" overstated what proof of humanity
+    establishes → PoH proves a unique person, not a genuine kindness; that question stays open.
+  - Unscoped superlatives cut: "the most robust validator available" · "the strongest possible second
+    member" · "the only currency that cannot be faked" · "the exact failure that single-layer prosocial
+    economies could not solve" · "shadowed every reward-driven prosocial system" · "neither can lie to the
+    other" (epigraph, contradicted by the collusion limit) · "will not re-tip a fabricated kindness" (flat;
+    contradicted by collusion) → "is unlikely to".
+  - Stale front matter: mirror_institutional (heartbank.net research mirror retired; URL 301s to thonly.org).
+  - Render: "_— End of defensive publication —_" printed literal underscores in the PDF → *…*.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE, iframe abstract_ifr). form_input reports success and
+   leaves it EMPTY. Type into the editor body; verify by SCREENSHOT and by reading the iframe body text.
+
+⚠️ IRREVERSIBLE. Once posted it cannot be removed or revised.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|
+                  claimed|novelty; line numbers = defensive-publications/two-layer-reward.md after revision)
+  novel / novelty / unprecedented / "no prior" / "never been" / "has not been" — 0 occurrences.
+  "claimed" — heading "Design implications and claimed contribution" + "Claimed contribution" list label
+  → FINE: an enumerated-claims label, not a novelty assertion. "an empirical result claimed" (Scope) → FINE.
+  "first" — ordinal/idiom only (first half, first-month, first pilot, First published) → FINE.
+  "unique" — "a verified, unique human" (§8.1, PoH) → FINE, technical.
+  "only" — scoped mechanism statements (macro half only / micro half only; "only form available among
+  strangers") → FINE.
+  Removed in this revision: "novelty is claimed only for" (L30) · "locates the (narrow) novelty" (§9) ·
+  "What the prior art does not assemble — and this paper does" (§9, an unscoped absence claim with no
+  census) → "What this paper assembles from these parts" · "to the author's knowledge, an
+  under-articulated structural answer" (abstract, claim 2) → "a structural response".

@@ -1,0 +1,70 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A232) — DRAFT (steward-routed-alms)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Bowl That Holds No Money: Steward-Routed Alms and the Bowl-Anchored Credential — Proximity-Verified Revocable Credential Tags for Routing Religious Donations to a Lay Steward Account, with Rotation Dispatch and Co-Presence Escrow Release
+  (paper title + standard-term subtitle, founder ruling 2026-09-23; the paper's title already has a colon, so the
+   subtitle follows an EM DASH, ruling 2026-09-24. No mark in the added part. Drawn from the paper's ## Terms table
+   and §§4-7. The paper's own front-matter subtitle, "A Mechanism for Restoring the Alms Round — at Home, Abroad,
+   and at Planetary Scale", is REPLACED here: it adds no examiner search terms. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK (L40 — stay off the on-behalf-of-a-business branch)
+
+LICENCE    Creative Commons Attribution 4.0 (never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250; counted with wc -w)
+We describe a donation-routing system for Buddhist monastic alms rounds in which a credential tag hung from a monk's alms bowl routes digital donations directly to a lay steward's account, so that money never enters monastic custody, as monastic rules require. The tag carries a revocable, time-limited credential issued by the monastic community and bound to the monk's ordination standing; a scan resolves the monk's name, monastery, current standing and the steward's account, resolves only in physical proximity to the tag (a copied image is inert), and stops resolving on loss of standing, giving donors a check against impostors when they give. Around the tag the system specifies: household-originated invitations routed to monks by rotation rather than by donor choice, with no rating of monks, unrecorded declines, and only coarse progress states shown (in the current form, the rotation order is a publicly recomputable shuffle seeded from a public randomness beacon over a committed roster); an interface that presents the physical food offering and the digital donation as one act with food primary; a real-time location broadcast that only the walking monk can switch on, per walk and revocably; and escrowed third-party sponsorship that releases to the steward only when monk and local householder are attested co-present, the householder performing the gift. No recording of the monk's blessing is ever a release condition. Three predictions are pre-registered. The system is unbuilt and unadopted; the proximity technique is unspecified; trust moves from monks to the steward rather than disappearing.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading '## 8 · Claims'     (eight enumerated claims)
+
+FILE       not yet built — python3 scripts/tdc-pdf.py steward-routed-alms after the chain re-runs
+           (concept DOI 10.5281/zenodo.21947383; first published 2026-07-22)
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] mirror-lint: 0 refuse, 0 warn (before AND after — the lint missed the editor-note banner and the
+      "Document SHA-256 computed at push" body footer; both removed by hand)
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The authors and HeartBank® will not
+      seek patent on any mechanism, architecture, or specification articulated herein, in any jurisdiction, at
+      any time."; repeated in the closing footer. Unchanged.
+  [x] Claims section — "## 8 · Claims", 8 claims, unchanged in this revision (no new claimed matter)
+  [x] Prior art — Prior-Art statement + §10 (temple QR incl. Donglin Monastery study; Abhayagiri's public alms
+      round as the case that cuts against §1; monastic ID; W3C VC; ride-hailing; conditional transfers;
+      remittance rails; kappiya jurisprudence) + Citations (20)
+  [x] Honest limits — §11, now 10 items (added: proximity specified by function only; decline-without-record
+      vs the recomputable draw's log)
+  [x] Novelty — the one unscoped sentence ("to the authors' knowledge, not previously published as a coherent
+      whole") replaced: "No census of the world's prior art has been run for this paper, and no novelty is
+      asserted for it". No census exists (census.py gate: deposited, not retrofitted).
+  [x] Superlatives scoped — "oldest ... institution on Earth" → "among the oldest"; "the first systematic
+      defense/countermeasure" (abstract, §4) → "a defense/countermeasure at the moment of giving"; "first
+      alms round on that street in the town's history" → "very likely ... in living memory"; "functionally
+      extinct/dead" abroad → "largely absent" (Abhayagiri counterexample, verified by web)
+  [x] AI co-authorship disclosed in text — authors line "Thon Ly · Miss Aquarius℠"; no model named
+  [x] PII — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. "the first author" replaces "the founder";
+      the §2 scene persons are fictional and unnamed
+  [x] No emoji / internal markers (⭐ ⛔ ⚠️) — grep 0
+  [x] No perma.cc; no "Mirrors of this document"; no placeholder; no sha256:/doi: front matter (0)
+  [x] Editor note removed — the "Draft notes for the editor" blockquote (sprint number, "site module
+      deliberately postponed", "density pass = editorial option") recast as a "Scope and claims division" note
+  [x] Terms table present — "## Terms", 12 rows (coined → standard)
+  [x] Current-form notes (variant rule) — §6 rotation → the called draw (#59(s)/#67); §7 sponsor matching →
+      agent-matched, no browsable catalogue (repair 11 / #36(d)); both retain the older text as a disclosed variant
+  [x] Citations checked — W3C VC 2.0 date corrected (2022 → 15 May 2025); citation 10 made specific (three
+      named articles); citation 8 names the Bangkok Post article; Singapore/Malaysia temple-QR claim CUT
+      (unverified); Mv VI.34.21 verified against BMC
+  [!] front matter "status: draft" — no ruled human round; the added "## Terms" section keeps it draft anyway
+  [!] Title leads with a coined phrase ("The Bowl That Holds No Money") — unmarked; examiner terms arrive
+      in the subtitle
+  [!] Thin sources not fetched (paywall/403): Bangkok Post 1410951, Phnom Penh Post, Khmer Times,
+      Religions 15(7):797, Cambodianess — each confirmed to exist by search result title only
+  [!] The "99%" cash figure is the first author's informal estimate, stated as such (abstract: "by informal
+      report") — no survey behind it
+  [ ] Read every page of the built PDF before upload
+
+⚠ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by reading the iframe body and by SCREENSHOT.
+⚠ IRREVERSIBLE once approved. Enter at https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series

@@ -1,3 +1,11 @@
+### 2026-09-27 — wave 3 SUBMITTED to TDCommons (mirrors, not revisions; founder: *"1: yes"*)
+
+The ten wave-3 papers, one form each through `ir_submit.cgi`, inventor Thon Ly (institution blank), CC BY 4.0, each confirmed
+on its confirmation page (the server's echo of title, inventor and the full abstract, 241–250 words) and recorded in
+`submitted/manifest.json`: co-presence-gated-redemption · the-rethank-multiplier · two-layer-reward · multi-family-membership · the-wager-that-isnt · steward-routed-alms · dual-currency-reciprocity · the-game-that-graduates-you · the-sport-that-says-your-name · studio-b-short-phase-bridge. My Account after the tenth: 33 submissions — 21 posted, 10 under
+review, 2 `queued_for_update` (buddha-ai-living-tipitaka, capacity-funded-human-disbursed-ai-alignment; recheck Monday
+2026-09-28, founder: *"wait until monday"*), no duplicates.
+
 ### 2026-09-27 — the prediction register: P-MD1–3, the Machine Dāna predictions (founder set direction, measure, threshold and window)
 
 Three predictions registered before the paper and before any instrument, in *Instrumented but outside the core*: P-MD1

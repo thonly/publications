@@ -1,0 +1,81 @@
+TDCOMMONS SUBMISSION PACKET — wave 3 (A168 / A232) — DRAFT, not yet chained
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Dual-Currency Reciprocity Infrastructure: Money and Time as Complementary Scarcities — A Platform Integrating Peer-to-Peer Money Gifts with Expiring, Non-Transferable Time Pledges Under a Bounded AI Recommender
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title already
+   has a colon, so the subtitle follows an EM DASH (ruling 2026-09-24). Subtitle drawn from the Abstract's first
+   sentence and the ## Terms table; no mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (L40 — individual, not on behalf of a business)
+
+LICENCE    Creative Commons Attribution 4.0   (never an NC/ND/SA variant)
+
+ABSTRACT   (244 words by wc -w — limit 250)
+A two-currency reciprocity platform integrates peer-to-peer money gifts with non-transferable, expiring pledges of personal time, under one user identity, one bounded AI recommendation agent and one shared participation indicator. On the time side, the AI agent recommends a time amount for each thank within a governance-set low/middle/high band; small pledges accumulate until a threshold activates a single redeemable commitment; an activated commitment lapses one month after activation if unredeemed; the recipient chooses the activity, and the giver may decline a specific request. A two-axis participation record (time delivered, time received) is disclosed in its original public form and in its current form: an append-only log with private rows and public proofs, recording a receipt of each co-presence-gated delivery rather than a duration, with no display of any shortfall and no blockchain token for time. On the money side, gifts are recorded as a ledger over regulated payment rails and later settle through self-custodial wallets, with no custody of participant funds. The design treats money (unequal across people, fungible) and time (equal, non-fungible) as complementary scarcities answering the needs for recognition and for presence, and routes time-side revenue to a community pool that funds the money side. It also covers a non-bank legal structure, cultural adaptation of the request surface, and regulatory exposure. Stated limits: the argument that single-currency designs cause community-currency and time-bank failures is unmeasured; hybrid time-and-money schemes (Japan's Fureai Kippu) already exist; and competing explanations for time-bank decline are not ruled out.
+
+CLAIMS HEADING (for check-mirrors --record)
+  No enumerated claims section. What is disclosed is stated in "## Prior-Art and Non-Assertion Statement"
+  (the integration architecture of §4–§8 and the time-side mechanism set of §5), and the mechanism is spread
+  across §4, §5, §6, §7 and §8 → recommended:  --claims-heading BODY
+  (alternative, narrower: --claims-heading '## Prior-Art and Non-Assertion Statement' — but it holds a
+   summary, not the mechanism, so a §5/§7 revision would pass unjudged; BODY is the honest choice)
+
+FILE       not built for submission. Temp build 2026-09-26 (tdc-pdf.py, no refusal, no word loss):
+           19 pages, 350 KB. Cover read: first published 2026-05-22 · concept DOI 10.5281/zenodo.21947312 ·
+           canonical https://thonly.org/research/dual-currency-reciprocity · timestamp line scoped ("proves
+           nothing about authorship, originality, or the validity of any claim"). Rebuild with --submitted
+           AFTER the chain has run on this revision; read every page before upload.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] mirror-lint: 0 refuse · 0 warn   (before this revision: 2 refuse — a126-mission L31, perma-cc L348; 1 warn — novelty L31)
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" (added this revision): "The author
+      and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction,
+      at any time."; repeated in §12 and the closing licence line
+  [x] Claims section — NONE; see CLAIMS HEADING above. No claims were added (rider 5)
+  [x] Prior art — Prior-Art statement + §2 + §5.3 (demurrage: Gesell, Wörgl) + §11.1 (Cahn) + §11.5 (the
+      cases that cut against: Fureai Kippu hybrids, Ithaca HOURS, competing diagnoses) + References (16)
+  [x] No census on file — stated in the paper ("No systematic prior-art search (census) has been run ...
+      no element is asserted to be new"). Deposited paper, so the full-census bar does not bind (2026-09-23)
+  [x] Honest limits — §11 (11.1–11.5), incl. a named falsifier at the end of §11.5
+  [x] AI co-authorship disclosed in text — authors line + Acknowledgments; no model named
+  [x] PII — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW (control: a planted personal e-mail fired HIGH)
+  [x] No perma.cc · no "Mirrors of this document" line in the markdown · no draft banner · no editor note
+      (the "Draft notes for the editor" blockquote was removed; its companion-position pointer moved to
+      Cross-venue identifiers)
+  [x] No emoji / internal markers — ⭐ ⛔ ⚠️ removed (§5.7 table + heading line, §7.3, §10 ×2); PDF text grep 0;
+      the internal wikilink [[project_publication_strategy]] (§4.4) and "the Banking Terminology Purpose
+      memory" (§8) removed
+  [x] Terms table present — "## Terms" (13 rows)
+  [x] 1 fenced diagram (§3), widest 50 chars
+  [x] Title leads with standard terms ("Dual-Currency Reciprocity Infrastructure"); no mark
+  [x] Retired mission sentence replaced with the current frame (§1 blockquote)
+  [!] front matter "status: draft" — no ruled human round; this revision adds ## headings, so draft is required anyway
+  [!] NOT YET CHAINED — this revision drifts the deposited hash; OTS/TSA/Zenodo/index must run before the
+      PDF is built with --submitted
+  [!] CI: check-frontmatter.mjs fails until "defensive-publications/dual-currency-reciprocity.md" is removed
+      from MISSION_PAST_DEBT (scripts/check-frontmatter.mjs line 227) — a shared file, left for the main session
+  [!] One Current-form note (§5.6, the aura quality filter) states that the current design does not specify how
+      the aura informs a giver's choice — flagged to the main session as a ruling owed; read before submitting
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and verify by reading the iframe body text / SCREENSHOT.
+⚠️ Entry URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series (never submit.cgi).
+⚠️ IRREVERSIBLE once approved. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|largest|most distinctive)
+  No novel / unprecedented / "no prior" / "never been" / unique / "has not been".
+  "first" — ordinal or idiom → FINE (L59, L176, L266, L300, L345).
+  "only" — scoped mechanism statements → FINE (L23, L47, L55, L83, L89, L110, L162, L176, L188, L216, L262, L266).
+  "largest" — L335, third-party and scoped ("among the largest time-banking systems", Fureai Kippu) → FINE.
+  FIXED this revision (were unscoped): "This is the most distinctive mechanism ... fundamentally different design
+  from prior time-banking" (§5.3) → scoped to "time banking as commonly deployed" with demurrage prior art cited;
+  "These are the two largest unmet emotional needs of late-stage modernity" (abstract) → "two distinct unmet
+  needs"; "It is not present in the dominant gratitude-economy ... designs" (§1) → "The authors have not found
+  it in the prominent ... designs, though no systematic search has been made"; "All three failure modes have a
+  common structural cause" (§2.4) → "This paper argues ..."; "dozens of deployments" (§2.1) → corrected to
+  thousands (3,418 projects in 23 countries, Seyfang and Longhurst 2013, verified in the PDF).
