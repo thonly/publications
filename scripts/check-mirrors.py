@@ -147,6 +147,11 @@ def pages(pdf):
     out = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
     return int(re.search(r"^Pages:\s+(\d+)", out, re.M).group(1))
 
+def _fold(s):
+    """ASCII-alphanumeric fold for the running-title match only — marks and diacritics drop out."""
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
 def posted_body(pdf, url):
     """The posted PDF minus what the venue adds: its one-page cover, and at the TAIL of every page
     (content-stream order) a page number and two stamp lines — on even pages the running title
@@ -159,13 +164,19 @@ def posted_body(pdf, url):
         lambda s: re.fullmatch(r"Published by Technical Disclosure Commons, \d{4}", s),
         lambda s: re.fullmatch(rf"Defensive Publications Series, Art\. {art} \[\d{{4}}\]", s),
         lambda s: s.rstrip("/") == url.rstrip("/"),
-        lambda s: (m := re.match(r"^[\w'’-]+: (.{20,})$", s)) and m.group(1) in cover,
+        lambda s: (m := re.match(r"^[\w'’-]+: (.{20,})$", s)) and _fold(m.group(1)) in _fold(cover),
     ]
     keep = []
     for i, page in enumerate(pdf_text(pdf, 2).split("\f")):
         lines = page.splitlines()
         while lines and (not lines[-1].strip() or any(f(lines[-1].strip()) for f in stamp)):
             lines.pop()
+        # 2026-09-27: when a title carries a non-ASCII mark (℠, ṭ) pdftotext lays the running title
+        # out FIRST on the page, and renders the mark differently from the cover ('?' vs mojibake),
+        # so three wave-2 postings read as 154–182 EXTRA words with 0 missing. Fold both sides to
+        # ASCII alphanumerics, and accept the running title at a page's head as well as its tail.
+        while lines and (not lines[0].strip() or stamp[3](lines[0].strip())):
+            lines.pop(0)
         if lines and lines[-1].strip() == str(i + 2):          # the venue's page number
             lines.pop()
         keep += lines
