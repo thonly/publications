@@ -1,3 +1,17 @@
+### 2026-09-27 — the prediction register: P-MD1–3, the Machine Dāna predictions (founder set direction, measure, threshold and window)
+
+Three predictions registered before the paper and before any instrument, in *Instrumented but outside the core*: P-MD1
+(separation, at most half the defection rate) · P-MD2 (a pledge extracted under threat carries no signal, ±5 points) · P-MD3
+(principal-funded giving carries none, ±5 points); window 2027-06-30. Total 101 → 104, reconciled by the index build (104 = 104).
+⚠️ **The index's own check caught two register defects before the deposit, both fixed in the register, never the check:** the
+first push omitted the outside-core table row (a substrate edit error — the IDs lived only in a sub-table), and that sub-table's
+`ID` header was read as an identifier (105 vs 104). The wording is now a list; the row is in the table. ⚠️ Index **2.5.16**, not
+2.5.15 as its commit message says — a concurrent session had published 2.5.15. Site module hand-inserted (ids identical).
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r11.ots` (Bitcoin-complete, 3 attestations); new `35e7cb4c09db…` *(calendar-only at stamping)* | `2026-09-27.sha256` (covers `517f4a847c46…`) | `10.5281/zenodo.22998924` | 2.5.16 |
+
 ### 2026-09-27 — wave 3 (A232): ten defensive publications revised for the TDCommons mirror
 
 co-presence-gated-redemption · the-rethank-multiplier · two-layer-reward · multi-family-membership · the-wager-that-isnt ·
