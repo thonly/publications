@@ -1,3 +1,13 @@
+### 2026-09-26 (later) — the prediction register: a naming note for P-PL5 (founder: *"do F3QR in P-PL5 now"*)
+
+A Revisions note gives the public form `H3QR @name #family` for the internal shape name P-PL5 and the dated 2026-09-05 entry
+print; neither wording is edited (the revision rule; dated records). Registers nothing — total stays 101, reconciled by the index
+build. The site module carries the note, plus `sig-ok` with a reason on the two lines holding the registered wording.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r10.ots` (Bitcoin-complete, 1 attestation); new `b652a1286f00…` *(calendar-only at stamping)* | `2026-09-27.sha256` (covers `16796de473ed…`) | `10.5281/zenodo.22985892` | 2.5.14 |
+
 ### 2026-09-26 — the prediction register: P-PL12, cross-income gravitation among strangers (founder: *"Register the prediction"*)
 
 One row in Chapter I beside P-PL9 and a Revisions entry; total 100 → 101, reconciled by the index build (101 counted vs 101
