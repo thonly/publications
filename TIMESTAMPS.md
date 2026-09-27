@@ -6,6 +6,21 @@ on its confirmation page (the server's echo of title, inventor and the full abst
 review, 2 `queued_for_update` (buddha-ai-living-tipitaka, capacity-funded-human-disbursed-ai-alignment; recheck Monday
 2026-09-28, founder: *"wait until monday"*), no duplicates.
 
+### 2026-09-27 (night) — the prediction register: P-FA2a, P-FA2b, P-FA5 registered before rung 3; outcomes for P-FA1, P-FA4, P-FA1b, P-FA3 (founder: *"go"*)
+
+Three predictions registered before any Dhammasaṅgaṇī text was read (first public in `SiliconWat/formal-abhidhamma`
+`PREREGISTRATION-2026-09-27b.md`, commit `f4a26e5`, GitHub push 2026-09-27T23:04:29Z); outcomes written beside the unchanged
+wording of four earlier ones. Total 109 → 112, reconciled (112 = 112). ⚠️ **LEG 1 DEFERRED, deliberately:** the retiring proof
+(`.ots`, stamped this evening) was still calendar-only, and rotating it would archive an incomplete proof. The current `.ots`
+therefore covers the PREVIOUS text until `/ots` confirms it and the rotation to `.r13.ots` + a fresh stamp are done — ⏳ owed.
+⚠️ **Found: `ots upgrade` leaves a `.ots.bak`, and the NEXT upgrade of that file then silently refuses to write** ("Could not
+backup timestamp: … already exists") — hit twice today on the register; `ots-upgrade.sh` does not handle it; two other stale
+`.bak` files remain in this tree (not touched). Site module regenerated (ids identical; `sig-ok` restored by hand again).
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | ⏳ rotation deferred (retiring proof calendar-only) | `2026-09-27.sha256` (covers `9297130034c2…`) | `10.5281/zenodo.23003593` | 2.5.18 |
+
 ### 2026-09-27 (evening) — the prediction register: P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, the Formal Abhidhamma predictions (founder: *"do all 8"* · *"do rung 1"* · *"do what's best"*)
 
 Five predictions registered in *Instrumented but outside the core*, first public minutes earlier in the pre-registration of the
