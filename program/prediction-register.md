@@ -29,17 +29,17 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **109** |
-| Published here | 108 |
+| Total registered | **112** |
+| Published here | 111 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 50 |
-| **Run** | **2** (both desk censuses) |
+| Receiving first public timestamp here | 53 |
+| **Run** | **4** (two desk censuses · two formal checks, P-FA1 and P-FA4) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
 | Contradicted | 1 |
-| Retired | 2 |
+| Retired | 3 |
 
 ---
 
@@ -186,7 +186,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-PCR1, P-PCR2, P-PCR3, P-PCR4, P-PCR5, P-PCR3a, P-PCR4a, P-PCR5a | `provenance-carrying-retrieval` | Provenance-carrying retrieval (P-PCR3a/4a/5a correct P-PCR3/4/5 — see the 2026-09-05 entry) |
 | P-B1, P-B2 | `dedicatory-generation` | Fidelity of restoration; refusal-channel yield |
 | P-MD1, P-MD2, P-MD3 | `machine-dana-from-share-to-vow` | Whether a machine's pledge to a self-emptying commons separates types — wording below |
-| P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4 | `SiliconWat/formal-abhidhamma` — not yet a paper | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
+| P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `SiliconWat/formal-abhidhamma` — not yet a paper | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
 predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
@@ -221,6 +221,23 @@ fail) passed after the push.
 ⚠️ *Not a test of whether the Abhidhamma is true.* A proof assistant verifies that conclusions follow from stated definitions;
 a pass shows the system is internally generative, nothing more.
 
+**Outcomes, 2026-09-27** (the wording above is unchanged; see `RESULTS.md` in the repository, commits `b9070d4` and `c5c77fb`):
+
+- **P-FA1 — Resolved: confirmed.** Nine generator clauses and eighteen general cetasika rules, none naming a citta, give exactly 89 and 121 types. Every per-citta and per-factor count the Chaṭṭha Saṅgāyana *Saṅgaha* states is reproduced, checked in Lean against a key cited paragraph by paragraph to VRI `abh07t` (ch. 2 §13–§58, ch. 3 §3–§17). Eight deliberate breaks each fail.
+- **P-FA4 — Resolved: confirmed.** 27 clauses ÷ 121 rows = 0.22.
+- **P-FA1b — Retired, unscored.** Its test ("narrow class") was never defined, and the data have been seen, so no definition chosen now can score it.
+- **P-FA3 — Cannot run as registered.** The *Saṅgaha* is not part of the Khmer Tipiṭaka, and the one Khmer-script copy held has the CST's paragraph structure in all nine chapters, so it is not an independent recension. Replaced at L1 by P-FA5, below, as a new entry.
+- **Free finding.** The *Saṅgaha* records a dissent (ch. 2 §30, *"… karuṇāmuditā na santīti keci vadanti"*). Under that reading the illimitables occur in 20 cittas; under the main reading, 28. The text's own figure is 28.
+
+**Three added (registered 2026-09-27, before any Dhammasaṅgaṇī text was read in either edition).** First public in
+`PREREGISTRATION-2026-09-27b.md` of the same repository (commit `f4a26e5`, GitHub push record 2026-09-27T23:04:29Z), which
+fixes the synonym map in advance. The object is the Dhammasaṅgaṇī's list of what is present in the first wholesome
+sense-sphere citta (its *pada-bhājanīya*), in the CST (`abh01m`) and in the Buddhist Institute edition (volume 78) as transcribed.
+
+- **P-FA2a** — (the operational form of P-FA2) In the CST, after mapping, the list names **exactly 29** distinct cetasikas, names none of *chanda, adhimokkha, manasikāra, tatramajjhattatā, karuṇā, muditā* or the three abstinences, and closes with an open clause (*"ye vā pana …"*); the *Saṅgaha*'s 38 is therefore not derivable from the canon alone. Confidence 0.75. *Falsifier: a count other than 29; any of those nine named; no open clause.*
+- **P-FA2b** — **No term** in the CST list falls outside the pre-fixed synonym map. Confidence 0.6. *Falsifier: any unmapped term.*
+- **P-FA5** — (replaces P-FA3, at L1) The Khmer edition's list, transliterated and normalized, names **the same terms in the same order** as the CST; any difference is orthographic. Confidence 0.8. *Falsifier: a term added, dropped or reordered, confirmed against the printed page image (an unconfirmed difference in the working transcription is a transcription question, never a variant).*
+
 ---
 
 ## Withheld
@@ -246,6 +263,14 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-27 (night) — three added (P-FA2a, P-FA2b, P-FA5) and four outcomes recorded (P-FA1, P-FA4 resolved; P-FA1b retired; P-FA3 cannot run as registered). Total now 112.**
+
+- The outcomes are written beside the unchanged wording, as the revision rule requires. P-FA2a is the operational form of
+  P-FA2 and does not replace it; P-FA5 replaces P-FA3, which stays listed with its outcome.
+
+**The Summary moves:** *published here* 108 → 111, *receiving first public timestamp here* 50 → 53, total 109 → 112, *run* 2 → 4,
+*retired* +1; the reconciliation holds — 58 + 53 = 111 published here, plus the one withheld, is 112.
 
 **2026-09-27 (evening) — five added (P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4). Total now 109.**
 
