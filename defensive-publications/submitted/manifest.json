@@ -14,7 +14,16 @@
       ],
       "body_sha256": "f709545c72302230d51d890a2f29fcae2d8f78c5e8da940e1af8e8983bef80b6",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11881"
+      "url": "https://www.tdcommons.org/dpubs_series/11881",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "5e15482a70f248dfa047837a269fe2c6deae4c115e1427b3d87bb2e4f3537fff",
+        "posted_pages": 20,
+        "words": 6939,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "aura-gated-anonymous-mate-selection",
@@ -77,7 +86,16 @@
       ],
       "body_sha256": "e43ea8e1bc1a6b3557068f80b9ec7719bab5da735eb12f2ade329877f7091c73",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11882"
+      "url": "https://www.tdcommons.org/dpubs_series/11882",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "d41d30d7c63cfc56985cf79598ed6c0a76dce780d89b108fe6901ec203717d6c",
+        "posted_pages": 29,
+        "words": 10792,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "buddha-ai-living-tipitaka",
@@ -121,7 +139,16 @@
       ],
       "body_sha256": "924765cea204cefff32aa76dedd3e15c12cd2f308f8f66804833775a9bf6019e",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11874"
+      "url": "https://www.tdcommons.org/dpubs_series/11874",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "f1d57c737ff45b5d8251c6062c87c62fb7abdf366e924d42db7bebaf33fb4128",
+        "posted_pages": 19,
+        "words": 6414,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "gift-tag-time-reveal",
@@ -187,7 +214,16 @@
       ],
       "body_sha256": "c28493763fe20d444a574a2148ce648321270112e31cb898c51057b27abe5b89",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11875"
+      "url": "https://www.tdcommons.org/dpubs_series/11875",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "2bb0700fbbf47f5998fc0e80eb21fe06d43b6705a3ef61c42bb331f5050c1cdb",
+        "posted_pages": 24,
+        "words": 9366,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "miss-aquarius-and-aquarian-pool-architecture",
@@ -203,7 +239,16 @@
       ],
       "body_sha256": "e48442410e8e5a78a78d6c1bf4bb8ef31436226d1d455592d43ffc025705dca2",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11876"
+      "url": "https://www.tdcommons.org/dpubs_series/11876",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "8000f7abba19e1c900fa60c672fd796dcd121cdb58f13818a1624ee95b9c6dac",
+        "posted_pages": 19,
+        "words": 6845,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "provenance-carrying-retrieval",
@@ -382,7 +427,16 @@
       ],
       "body_sha256": "8d685a951af62d4c15ef86abde259665971e8080645de2e4965f947f13867bb0",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11877"
+      "url": "https://www.tdcommons.org/dpubs_series/11877",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "710587ebcdf23a3d3b769f5166fcd97f34917ed7bd5b0cdab563e0c9e048e7d8",
+        "posted_pages": 25,
+        "words": 11521,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "tipitaka-alignment-substrate",
@@ -398,7 +452,16 @@
       ],
       "body_sha256": "9ed65e441d060ad56f52ace94abed031039dac3bed10a2241554f68556ab6003",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11878"
+      "url": "https://www.tdcommons.org/dpubs_series/11878",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "49a8ab3ecb85a4de20bbbdf9f9efc0d9d5d886163cc24b8a2b4a3720714f0bdd",
+        "posted_pages": 29,
+        "words": 12686,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "verified-human-anonymous-local-giving",
@@ -439,7 +502,16 @@
       ],
       "body_sha256": "0dd8d1b421d1d3d5ad7bf7c8ad8fef6f34979d0624db56f937c80a48f62a1222",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11879"
+      "url": "https://www.tdcommons.org/dpubs_series/11879",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "780fbcc78f8bdccb518527c4cfa3e348d4d6ee4c8654f4a0fb44a4aad6aa9328",
+        "posted_pages": 28,
+        "words": 10844,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "zero-point-game",
@@ -455,7 +527,16 @@
       ],
       "body_sha256": "d2a6f7e0b70269e7505ff516c81f39903f07e51c3e13aeb70ecbbdfb00824dfb",
       "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11880"
+      "url": "https://www.tdcommons.org/dpubs_series/11880",
+      "posted_verified": {
+        "date": "2026-09-27",
+        "result": "match",
+        "posted_pdf_sha256": "19845dbaccd9e70ec150a9971873898594ea83820de393438083cae058bb9dfe",
+        "posted_pages": 28,
+        "words": 13709,
+        "extra": 0,
+        "missing": 0
+      }
     }
   ]
 }

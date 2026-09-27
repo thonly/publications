@@ -152,18 +152,14 @@ const BANNED_FIELD_DEBT = new Set([
     "defensive-publications/gratitude-as-cooperation-substrate.md",
     "defensive-publications/gratitude-riding-currency-tag.md",
     "defensive-publications/incommensurability-preserving-coupler.md",
-    "defensive-publications/multi-family-membership.md",
     "defensive-publications/need-compiled-questlines.md",
     "defensive-publications/proof-of-coordinate.md",
     "defensive-publications/safety-companion-pack-watch.md",
-    "defensive-publications/studio-b-short-phase-bridge.md",
     "defensive-publications/the-assembly-that-holds-the-brake.md",
     "defensive-publications/the-borrowable-standard.md",
     "defensive-publications/the-gift-operation.md",
     "defensive-publications/the-omitted-clause.md",
     "defensive-publications/the-persistence-architecture.md",
-    "defensive-publications/the-rethank-multiplier.md",
-    "defensive-publications/two-layer-reward.md",
 ]);
 
 // ⚠️ THE SAME CLAIM ALSO APPEARS IN BODY FOOTERS, and it is the more dangerous
@@ -179,7 +175,6 @@ const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/abhidhamma-executable-process-specification.md",
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/b-tag-recommendation-function-methodology.md",
-    "defensive-publications/co-presence-gated-redemption.md",
     "defensive-publications/giving-is-a-gift-too.md",
     "defensive-publications/individuation-without-essence.md",
     "defensive-publications/inverted-alms-round.md",
@@ -187,12 +182,7 @@ const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/patthana-typed-causation-vocabulary.md",
     "defensive-publications/sacrifice-witness-without-discharge.md",
     "defensive-publications/sankhara-dukkha-ai-welfare.md",
-    "defensive-publications/steward-routed-alms.md",
-    "defensive-publications/the-game-that-graduates-you.md",
     "defensive-publications/the-gift-operation.md",
-    "defensive-publications/the-sport-that-says-your-name.md",
-    "defensive-publications/the-wager-that-isnt.md",
-    "defensive-publications/two-layer-reward.md",
     "defensive-publications/vinaya-as-ai-reasoning-training-corpus.md",
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md"
 ]);
@@ -224,7 +214,6 @@ const MISSION_PAST_DEBT = new Set([
     "defensive-publications/b-tag-recommendation-function-methodology.md",
     "defensive-publications/brand-identity-as-architecture.md",
     "defensive-publications/cakkavatti-alignment-charter.md",
-    "defensive-publications/dual-currency-reciprocity.md",
     "defensive-publications/longitudinal-cohort-methodology.md",
     "defensive-publications/non-bank-pass-through-architecture-autonomous-ai.md",
     "defensive-publications/sacrifice-witness-without-discharge.md",
