@@ -12,7 +12,7 @@ naming venues we never deposited at, and novelty language with no census behind 
   mirror-lint.py --selftest        the controls: each rule must fire on a planted case
 
 REFUSE — the paper is revised before it is mirrored:
-  draft-banner · perma-cc · false-mirror · placeholder · a126-mission (the retired mission sentence)
+  draft-banner · sha-footer · perma-cc · false-mirror · placeholder · a126-mission (the retired mission sentence)
 WARN — a human reads each hit (never a refusal, because a regex cannot tell scope):
   novelty — "novel", "revolutionary", "unprecedented", "first to", "no X in the world"…
             A hit on a line that states its aperture ("not found in … on <date>") is skipped.
@@ -25,7 +25,12 @@ from pathlib import Path
 DPUBS = Path(__file__).resolve().parent.parent / "defensive-publications"
 
 REFUSE = {
-    "draft-banner": re.compile(r"\*\*Draft in progress\.?\*\*|founder-voice canonical draft", re.I),
+    # 2026-09-26 (wave 3): two more banner phrasings passed clean in ~20 papers — "Draft notes for the
+    # editor" and "**Working draft.**" — and b-links posted carrying the second. Widened on that evidence.
+    "draft-banner": re.compile(r"\*\*Draft in progress\.?\*\*|founder-voice canonical draft|"
+                               r"draft notes for the editor|\bworking draft\b", re.I),
+    # The retired body footer (feedback_paper_drafts_directly_to_corpus): asserts a hash record nobody keeps.
+    "sha-footer": re.compile(r"Document SHA-256\s+(computed|to be|recorded)", re.I),
     "perma-cc": re.compile(r"perma\.cc", re.I),
     "false-mirror": re.compile(r"mirrors? of this document", re.I),
     "placeholder": re.compile(r"\b(TODO|TBD|FIXME)\b|to be computed|\[placeholder\]"),
@@ -75,6 +80,9 @@ def lint(slug):
 def selftest():
     cases = {
         "draft-banner": "> **Draft in progress.** This is the founder-voice canonical draft.",
+        "draft-banner ": "> *Draft notes for the editor:* paper 5 of the sprint.",
+        "draft-banner  ": "> **Working draft.** This specification describes a primitive.",
+        "sha-footer": "Document SHA-256 computed at push and recorded in the institutional log.",
         "perma-cc": "archived at perma.cc/ABCD-1234",
         "false-mirror": "Mirrors of this document appear at GitHub, arXiv, IP.com.",
         "placeholder": "SHA-256: to be computed at publication",
@@ -84,6 +92,7 @@ def selftest():
     }
     ok = True
     for rule, line in cases.items():
+        rule = rule.strip()
         hit = {k for _, k, _, _ in lint_text("x\n" + line + "\n")}
         ok &= rule in hit
         print(f"  {'✓' if rule in hit else '✗'} {rule} fires on its planted case")
