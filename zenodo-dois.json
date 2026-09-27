@@ -136,12 +136,12 @@
  },
  "co-presence-gated-redemption": {
   "concept_doi": "10.5281/zenodo.21947304",
-  "deposition_id": 22256656,
-  "doi": "10.5281/zenodo.22256656",
+  "deposition_id": 22990556,
+  "doi": "10.5281/zenodo.22990556",
   "published": true,
   "sandbox": false,
-  "sha256": "cbf26b4c238f358387bcb623da4f2180c967a4991bdd48c14e8f54b71d1f68cf",
-  "url": "https://zenodo.org/records/22256656"
+  "sha256": "b896328dc821cfc759cb288763fd123e0fa87be791d4404a3990e7c01afd4610",
+  "url": "https://zenodo.org/records/22990556"
  },
  "constituting-an-artificial-person": {
   "concept_doi": "10.5281/zenodo.21947306",
@@ -163,12 +163,12 @@
  },
  "dual-currency-reciprocity": {
   "concept_doi": "10.5281/zenodo.21947312",
-  "deposition_id": 22256669,
-  "doi": "10.5281/zenodo.22256669",
+  "deposition_id": 22990559,
+  "doi": "10.5281/zenodo.22990559",
   "published": true,
   "sandbox": false,
-  "sha256": "2d3f1cf7db00be5abf2d0f812622daa86240ca12059356ecff80d0019c04d2db",
-  "url": "https://zenodo.org/records/22256669"
+  "sha256": "bfc763b769d639643ac333b48a51ba1f576f7cc893c40df1cd882c6093a9aabb",
+  "url": "https://zenodo.org/records/22990559"
  },
  "eightfold-path-institutional-architecture": {
   "concept_doi": "10.5281/zenodo.21947316",
@@ -316,12 +316,12 @@
  },
  "multi-family-membership": {
   "concept_doi": "10.5281/zenodo.21947358",
-  "deposition_id": 22244417,
-  "doi": "10.5281/zenodo.22244417",
+  "deposition_id": 22990564,
+  "doi": "10.5281/zenodo.22990564",
   "published": true,
   "sandbox": false,
-  "sha256": "89e01f3b16b79f5f6e2ec88dea750b5816a293314f2df6da6d786c28387bbf11",
-  "url": "https://zenodo.org/records/22244417"
+  "sha256": "1f8975169296e2eb470bb59d7db84351b301ff2086092a0996879e2656494453",
+  "url": "https://zenodo.org/records/22990564"
  },
  "need-compiled-questlines": {
   "concept_doi": "10.5281/zenodo.21947360",
@@ -433,21 +433,21 @@
  },
  "steward-routed-alms": {
   "concept_doi": "10.5281/zenodo.21947383",
-  "deposition_id": 21947384,
-  "doi": "10.5281/zenodo.21947384",
+  "deposition_id": 22990567,
+  "doi": "10.5281/zenodo.22990567",
   "published": true,
   "sandbox": false,
-  "sha256": "127d636872c9463b312c113cd9cc08a84f01f66bbc8b151a088591f2c2b0d584",
-  "url": "https://zenodo.org/records/21947384"
+  "sha256": "9ac5f43fedd9d7c0d4dc59c5eaec995c2ce6b7e09ab1716fe654720dda2ede6f",
+  "url": "https://zenodo.org/records/22990567"
  },
  "studio-b-short-phase-bridge": {
   "concept_doi": "10.5281/zenodo.21947387",
-  "deposition_id": 22246444,
-  "doi": "10.5281/zenodo.22246444",
+  "deposition_id": 22990568,
+  "doi": "10.5281/zenodo.22990568",
   "published": true,
   "sandbox": false,
-  "sha256": "3683b3f625c158be80b73d7b27d2b1fc7c122d2c52b9ba000ef45d689f0ca357",
-  "url": "https://zenodo.org/records/22246444"
+  "sha256": "1712b428a0d517d022704653945567fe03dc8863791e0fc624452e9a8c4a316c",
+  "url": "https://zenodo.org/records/22990568"
  },
  "subject-released-attestation": {
   "concept_doi": "10.5281/zenodo.22735457",
@@ -496,12 +496,12 @@
  },
  "the-game-that-graduates-you": {
   "concept_doi": "10.5281/zenodo.21947399",
-  "deposition_id": 21947400,
-  "doi": "10.5281/zenodo.21947400",
+  "deposition_id": 22990571,
+  "doi": "10.5281/zenodo.22990571",
   "published": true,
   "sandbox": false,
-  "sha256": "3c504122d978046d0e9ed3cace89014a08546b55d3a1b899b9e95fffe6de9e56",
-  "url": "https://zenodo.org/records/21947400"
+  "sha256": "489e9012c9b768b1fe758cbcca3da4814d8abf3149e44c5a52294a3777b79222",
+  "url": "https://zenodo.org/records/22990571"
  },
  "the-gift-operation": {
   "concept_doi": "10.5281/zenodo.21947401",
@@ -550,21 +550,21 @@
  },
  "the-rethank-multiplier": {
   "concept_doi": "10.5281/zenodo.21947410",
-  "deposition_id": 22244420,
-  "doi": "10.5281/zenodo.22244420",
+  "deposition_id": 22990574,
+  "doi": "10.5281/zenodo.22990574",
   "published": true,
   "sandbox": false,
-  "sha256": "38d047016d02f8b3ab447d5fd80b98211e08682a7c46b086cc6a416bdae0bf01",
-  "url": "https://zenodo.org/records/22244420"
+  "sha256": "b6e4a75aa0057e9b82a6feed2724ae8d707bdc69be48bdb08a67214df4934353",
+  "url": "https://zenodo.org/records/22990574"
  },
  "the-sport-that-says-your-name": {
   "concept_doi": "10.5281/zenodo.21947412",
-  "deposition_id": 22929916,
-  "doi": "10.5281/zenodo.22929916",
+  "deposition_id": 22990578,
+  "doi": "10.5281/zenodo.22990578",
   "published": true,
   "sandbox": false,
-  "sha256": "ea4c05a59f56c3860c3a3e612995f46585b3a1c2d35ae08778954568dc4cad32",
-  "url": "https://zenodo.org/records/22929916"
+  "sha256": "8bb5a5410fe198b54f10042947933a5b4e4917992f7a13cde93fcacb1f263376",
+  "url": "https://zenodo.org/records/22990578"
  },
  "the-unpaid-relay": {
   "concept_doi": "10.5281/zenodo.22313927",
@@ -577,12 +577,12 @@
  },
  "the-wager-that-isnt": {
   "concept_doi": "10.5281/zenodo.21947416",
-  "deposition_id": 21947417,
-  "doi": "10.5281/zenodo.21947417",
+  "deposition_id": 22990582,
+  "doi": "10.5281/zenodo.22990582",
   "published": true,
   "sandbox": false,
-  "sha256": "03623dc2cb4741a6b09b82a7f5c256e9a9e10fe78c63290aa180d27616191260",
-  "url": "https://zenodo.org/records/21947417"
+  "sha256": "a50e166ebf1f712ac23571a813a7d785615e09337385153d67d132509b2fda87",
+  "url": "https://zenodo.org/records/22990582"
  },
  "the-water-cycle": {
   "concept_doi": "10.5281/zenodo.22735468",
@@ -622,12 +622,12 @@
  },
  "two-layer-reward": {
   "concept_doi": "10.5281/zenodo.21947426",
-  "deposition_id": 22246465,
-  "doi": "10.5281/zenodo.22246465",
+  "deposition_id": 22990585,
+  "doi": "10.5281/zenodo.22990585",
   "published": true,
   "sandbox": false,
-  "sha256": "57bed7e0ee4641f6a1b39ec3b03c7e5c47f25a17adb78249bdff58f96de61ad8",
-  "url": "https://zenodo.org/records/22246465"
+  "sha256": "200c961b4244a297a9c1fb5329e6661ec4b1b63cb3590218db251757fe079e9a",
+  "url": "https://zenodo.org/records/22990585"
  },
  "two-singularities": {
   "concept_doi": "10.5281/zenodo.22735470",
