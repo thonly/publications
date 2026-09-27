@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **100** |
-| Published here | 99 |
+| Total registered | **101** |
+| Published here | 100 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 41 |
+| Receiving first public timestamp here | 42 |
 | **Run** | **2** (both desk censuses) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -87,6 +87,7 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | **P-PL7** | **Anonymity** — anonymous givers reach more distinct recipients than visible givers (the demand-side thesis: the capacity to give to loved ones, anonymously; the pilot-scale sibling of P-BG2). ⚠️ **No variance:** 827 of 830 re-tips carry the anonymous flag, so the field records a default, not a choice. Unscorable until the product offers a real choice | Unrun (no variance) | First public here |
 | **P-PL8** | **Kids as triggers, de-confounded** — enters as a **new prediction citing the Contradicted finding above**, under the revision rule: within the founding family, the younger generation captures more self-thanks per active member than the older **once device access is controlled for**. The first result was contradicted at n=1 and ruled not to be hardened; this names the confound and the instrument (the device join from the error stream, plus the interview leg) | Unrun (instrument not built) | First public here |
 | **P-PL9** | **Diaspora corridor, dignity direction** — low-income→high-income flows (KHR sender to USD recipient, currency as an income proxy) are at least **10%** of money-carrying re-tips in the trailing 90 days, once twenty or more flows exist. *Falsifier: under 10% → patronage is a corridor, not a mesh; the low-income members are recipients only.* June 2026 baseline 9.6%. **Read 1 of 3: 6.0% of 712** | **Running** (baseline read) | First public here |
+| **P-PL12** | **Cross-income gravitation, among strangers** — a USD-currency viewer re-thanks a KHR-currency creator's B-Short at **at least 2×** the per-view rate at which they re-thank a USD-currency creator's B-Short, counting only viewer–creator pairs in **different families**, over a trailing 90-day window, once each arm has 500 or more qualifying views (watch-depth rows, `schemaVersion` 2 only) and twenty or more re-thanks exist in total. *Falsifier: under 2× → the high→low flow the pilot shows is family obligation, not a preference among strangers.* Per view, not share of flows, so that what the feed happens to show cannot pass it. Currency is an income proxy. ⛔ **Void if any surface orders, filters or labels B-Shorts by country or income** — a prompt voids the test. Direction, measure and threshold are the founder's; the sample floors are substrate-set | Unrun (awaits cross-family B-Short visibility and its per-view metric) | First public here |
 
 ---
 
@@ -210,6 +211,23 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-26 — one added (P-PL12). Total now 101.**
+
+- **P-PL12** — Chapter I, beside P-PL9. The founder's prediction, in his words: *"Perhaps higher-income users will naturally
+  gravitate towards re-thanking lower-income users."* The pilot already shows high→low dominating, but inside one family, where
+  the flow is relational; the open question is whether the pull survives among strangers. Two choices made before any data, and
+  recorded because each could have been made the other way: the measure is a **per-view rate**, not a share of flows, because a
+  feed that happened to carry mostly Cambodian creators would pass a share test with no preference at all; and the test counts
+  **only pairs in different families**, so that the family's own flows cannot score it. The 2× threshold is the founder's.
+
+  ⚠️ *Entered before any observation exists.* No surface yet shows one family's B-Shorts to another, and the per-view
+  cross-family metric is not built; the entry is Unrun until both exist, and is never scored before. A pass would not be a
+  good in itself: if cross-income thanks follow displayed hardship, creators learn to display it, so a pass is read beside what
+  the thanked shorts show.
+
+**The Summary moves:** *published here* 99 → 100, *receiving first public timestamp here* 41 → 42, total 100 → 101; the
+reconciliation holds — 58 + 42 = 100 published here, plus the one withheld, is 101.
 
 **2026-09-23 — one added (P-BG1a), and P-BG1's status annotated. Total now 100.**
 
