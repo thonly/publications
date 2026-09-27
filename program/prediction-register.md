@@ -212,6 +212,17 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 
 ## Revisions
 
+**2026-09-26 — a naming correction to P-PL5, entered as a note and not as an edit. Total unchanged at 101.**
+
+- **P-PL5**, and the 2026-09-05 entry below, name the confound on the family-bank payment surface by an internal shape
+  name — one of four that were ruled on 2026-09-15, after both were written, never to appear on a public surface. The
+  public form is **`H3QR @name #family`**: a thank addressed to a person in their own family bank, which lands in the
+  Personal Account℠. Read P-PL5's gate as *the `H3QR @name #family` confound registered 2026-09-04 against P-K1*.
+
+  No word of P-PL5 or of the dated entry changes: the revision rule protects registered wording, and a dated record is
+  never rewritten. The prediction, its gate and its status are unchanged. This is a terminology note; it registers
+  nothing, so the Summary does not move.
+
 **2026-09-26 — one added (P-PL12). Total now 101.**
 
 - **P-PL12** — Chapter I, beside P-PL9. The founder's prediction, in his words: *"Perhaps higher-income users will naturally
