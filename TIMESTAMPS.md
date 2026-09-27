@@ -1,3 +1,16 @@
+### 2026-09-27 — wave 3 (A232): ten defensive publications revised for the TDCommons mirror
+
+co-presence-gated-redemption · the-rethank-multiplier · two-layer-reward · multi-family-membership · the-wager-that-isnt ·
+steward-routed-alms · dual-currency-reciprocity · the-game-that-graduates-you · the-sport-that-says-your-name ·
+studio-b-short-phase-bridge. One drafter per paper (mirror-lint refusals, bare novelty → disclosure, Terms tables, an
+examiner-read fix pass: self-contradictions, wrong figures, a misattributed director, a misattributed Montessori source, an
+unsourced lineage, a mis-stated N² scaling bound), then the founder's approvals (2026-09-27: pilot family generalized,
+standard non-assertion in three papers, studio built-state, claim-6 narrowed) and the doctrine reconciliation he delegated
+(*"reconcile Doctrine questions for me"*) as `> **Current form.**` notes — nothing disclosed was deleted (the variant rule).
+No new claimed matter. Legs: OTS rotated (each retiring proof Bitcoin-complete) + re-stamped (calendar-only) · TSA
+`2026-09-27.sha256` · Zenodo ten new versions (`10.5281/zenodo.22990556` … `22990585`) · index 2.5.15 · site `32dd0d4`
+(eight regenerated, dual-currency hand-ported).
+
 ### 2026-09-26 (later) — the prediction register: a naming note for P-PL5 (founder: *"do F3QR in P-PL5 now"*)
 
 A Revisions note gives the public form `H3QR @name #family` for the internal shape name P-PL5 and the dated 2026-09-05 entry
@@ -77,19 +90,6 @@ rotation-over-liveness [11860](https://www.tdcommons.org/dpubs_series/11860) · 
 [11868](https://www.tdcommons.org/dpubs_series/11868) · respiratory-biofeedback-contemplative-guidance
 [11869](https://www.tdcommons.org/dpubs_series/11869) · thank-all-nearby-primitive
 [11870](https://www.tdcommons.org/dpubs_series/11870). With file one (11797), **12 of 12 submissions posted, none awaiting.**
-
-### 2026-09-27 — wave 3 (A232): ten defensive publications revised for the TDCommons mirror
-
-co-presence-gated-redemption · the-rethank-multiplier · two-layer-reward · multi-family-membership · the-wager-that-isnt ·
-steward-routed-alms · dual-currency-reciprocity · the-game-that-graduates-you · the-sport-that-says-your-name ·
-studio-b-short-phase-bridge. One drafter per paper (mirror-lint refusals, bare novelty → disclosure, Terms tables, an
-examiner-read fix pass: self-contradictions, wrong figures, a misattributed director, a misattributed Montessori source, an
-unsourced lineage, a mis-stated N² scaling bound), then the founder's approvals (2026-09-27: pilot family generalized,
-standard non-assertion in three papers, studio built-state, claim-6 narrowed) and the doctrine reconciliation he delegated
-(*"reconcile Doctrine questions for me"*) as `> **Current form.**` notes — nothing disclosed was deleted (the variant rule).
-No new claimed matter. Legs: OTS rotated (each retiring proof Bitcoin-complete) + re-stamped (calendar-only) · TSA
-`2026-09-27.sha256` · Zenodo ten new versions (`10.5281/zenodo.22990556` … `22990585`) · index 2.5.15 · site `32dd0d4`
-(eight regenerated, dual-currency hand-ported).
 
 ### 2026-09-25 — nine of wave 2's eleven POSTED at TDCommons (mirrors, not revisions)
 
