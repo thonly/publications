@@ -12,7 +12,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "f709545c72302230d51d890a2f29fcae2d8f78c5e8da940e1af8e8983bef80b6"
+      "body_sha256": "f709545c72302230d51d890a2f29fcae2d8f78c5e8da940e1af8e8983bef80b6",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11881"
     },
     {
       "slug": "aura-gated-anonymous-mate-selection",
@@ -73,7 +75,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "e43ea8e1bc1a6b3557068f80b9ec7719bab5da735eb12f2ade329877f7091c73"
+      "body_sha256": "e43ea8e1bc1a6b3557068f80b9ec7719bab5da735eb12f2ade329877f7091c73",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11882"
     },
     {
       "slug": "buddha-ai-living-tipitaka",
@@ -115,7 +119,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "924765cea204cefff32aa76dedd3e15c12cd2f308f8f66804833775a9bf6019e"
+      "body_sha256": "924765cea204cefff32aa76dedd3e15c12cd2f308f8f66804833775a9bf6019e",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11874"
     },
     {
       "slug": "gift-tag-time-reveal",
@@ -179,7 +185,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "c28493763fe20d444a574a2148ce648321270112e31cb898c51057b27abe5b89"
+      "body_sha256": "c28493763fe20d444a574a2148ce648321270112e31cb898c51057b27abe5b89",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11875"
     },
     {
       "slug": "miss-aquarius-and-aquarian-pool-architecture",
@@ -193,7 +201,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "e48442410e8e5a78a78d6c1bf4bb8ef31436226d1d455592d43ffc025705dca2"
+      "body_sha256": "e48442410e8e5a78a78d6c1bf4bb8ef31436226d1d455592d43ffc025705dca2",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11876"
     },
     {
       "slug": "provenance-carrying-retrieval",
@@ -370,7 +380,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "8d685a951af62d4c15ef86abde259665971e8080645de2e4965f947f13867bb0"
+      "body_sha256": "8d685a951af62d4c15ef86abde259665971e8080645de2e4965f947f13867bb0",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11877"
     },
     {
       "slug": "tipitaka-alignment-substrate",
@@ -384,7 +396,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "9ed65e441d060ad56f52ace94abed031039dac3bed10a2241554f68556ab6003"
+      "body_sha256": "9ed65e441d060ad56f52ace94abed031039dac3bed10a2241554f68556ab6003",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11878"
     },
     {
       "slug": "verified-human-anonymous-local-giving",
@@ -423,7 +437,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "0dd8d1b421d1d3d5ad7bf7c8ad8fef6f34979d0624db56f937c80a48f62a1222"
+      "body_sha256": "0dd8d1b421d1d3d5ad7bf7c8ad8fef6f34979d0624db56f937c80a48f62a1222",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11879"
     },
     {
       "slug": "zero-point-game",
@@ -437,7 +453,9 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "d2a6f7e0b70269e7505ff516c81f39903f07e51c3e13aeb70ecbbdfb00824dfb"
+      "body_sha256": "d2a6f7e0b70269e7505ff516c81f39903f07e51c3e13aeb70ecbbdfb00824dfb",
+      "posted": "2026-09-25",
+      "url": "https://www.tdcommons.org/dpubs_series/11880"
     }
   ]
 }
