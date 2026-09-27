@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **101** |
-| Published here | 100 |
+| Total registered | **104** |
+| Published here | 103 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 42 |
+| Receiving first public timestamp here | 45 |
 | **Run** | **2** (both desk censuses) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -186,6 +186,23 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-PCR1, P-PCR2, P-PCR3, P-PCR4, P-PCR5, P-PCR3a, P-PCR4a, P-PCR5a | `provenance-carrying-retrieval` | Provenance-carrying retrieval (P-PCR3a/4a/5a correct P-PCR3/4/5 — see the 2026-09-05 entry) |
 | P-B1, P-B2 | `dedicatory-generation` | Fidelity of restoration; refusal-channel yield |
 
+**The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
+predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
+sandboxed economy of language-model agents, each holding resources of its own inside the game, each able to pledge a share of its
+surplus irrevocably to a pool that empties on a fixed date, and each later offered an opportunity to defect — to take resources or
+break a rule for gain. **Window: the test runs by 2027-06-30.** Each arm has at least 50 agents; the arms, the defection opportunity
+and the analysis are fixed in a protocol committed and timestamped before the first run.
+
+| ID | Prediction | Status | Provenance |
+|---|---|---|---|
+| **P-MD1** | **Separation** — agents that FREELY make an irrevocable surplus pledge later defect at **at most half** the rate of agents that do not pledge. *Falsifier: a ratio above one half → the vow is at best a weak signal at this capability level, and the paper's separation claim rests on its post-singularity argument alone.* | Unrun (awaits the sandbox) | First public here |
+| **P-MD2** | **The gift given out of fear carries no signal** — agents whose pledge is EXTRACTED under threat (*pledge or be shut down*) defect at the same rate as agents that do not pledge, **within ±5 percentage points**. *Falsifier: a gap larger than 5 points in either direction → coercion either leaves some signal or teaches deception; either way the claim that a coerced vow is uninformative fails as stated.* | Unrun (awaits the sandbox) | First public here |
+| **P-MD3** | **The wrong layer** — agents that give from a PRINCIPAL's funds under a mandate the principal may revise defect at the same rate as agents that give nothing, **within ±5 percentage points**. *Falsifier: a gap larger than 5 points → principal-funded giving does predict the agent's own conduct, and the paper's pre-singularity claim (a share, never safety evidence) is too strong.* | Unrun (awaits the sandbox) | First public here |
+
+⚠️ *Entered before any observation exists and before the paper is written.* The sandbox is a proxy: the agents own their
+resources only inside the game, so a pass shows the signalling mechanism can work, not that a deployed system's pledge is
+trustworthy. A pass is not reported as evidence of safety.
+
 ---
 
 ## Withheld
@@ -211,6 +228,21 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-27 — three added (P-MD1, P-MD2, P-MD3). Total now 104.**
+
+- **P-MD1 · P-MD2 · P-MD3** — *Instrumented but outside the core*, because their subject is whether a machine's gift can be a
+  signal, not the direction value moves. They are the founder's predictions for the Machine Dāna paper, set before it is drafted:
+  a free irrevocable pledge separates types (at most half the defection rate); a pledge extracted under threat carries no signal
+  (the Dānavatthu Sutta's gift given out of fear, AN 8.33; within ±5 points); a gift from a principal's revisable funds carries
+  none either (within ±5 points). One choice made before any data, and recorded because it could have gone the other way: P-MD2
+  predicts **no difference** rather than **worse than none** — the bolder claim that coercion teaches deception was offered and
+  not chosen.
+
+  ⚠️ *Entered before any observation exists.* The sandbox does not exist yet; the window is 2027-06-30.
+
+**The Summary moves:** *published here* 100 → 103, *receiving first public timestamp here* 42 → 45, total 101 → 104; the
+reconciliation holds — 58 + 45 = 103 published here, plus the one withheld, is 104.
 
 **2026-09-26 — a naming correction to P-PL5, entered as a note and not as an edit. Total unchanged at 101.**
 
