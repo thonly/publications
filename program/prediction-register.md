@@ -228,6 +228,14 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 
 ## Revisions
 
+**2026-09-27 (later) — a grounding correction to P-MD2, entered as a note and not as an edit. Total unchanged at 104.**
+
+- **P-MD2** is glossed, in its wording and in the entry below, as *"the Dānavatthu Sutta's gift given out of fear, AN 8.33"*.
+  AN 8.33 **lists** eight grounds for giving — *bhayā* (fear, or cowardice) among them — and **ranks none**; nor is *bhayā* coercion
+  by another party. The prediction does not rest on the sutta: it rests on signalling theory — a pledge made under a penalty for
+  not pledging that is larger than the difference in cost between types **pools**, and so carries no signal. The sutta is cited
+  only as the list it is. No word of P-MD2 changes; its prediction, threshold and window are unchanged. This registers nothing.
+
 **2026-09-27 — three added (P-MD1, P-MD2, P-MD3). Total now 104.**
 
 - **P-MD1 · P-MD2 · P-MD3** — *Instrumented but outside the core*, because their subject is whether a machine's gift can be a
