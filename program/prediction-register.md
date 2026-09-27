@@ -185,7 +185,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-P1, P-P1a | `patthana-typed-causation-vocabulary` | Typed causation vocabulary (P-P1a corrects P-P1 — see the 2026-09-05 entry) |
 | P-PCR1, P-PCR2, P-PCR3, P-PCR4, P-PCR5, P-PCR3a, P-PCR4a, P-PCR5a | `provenance-carrying-retrieval` | Provenance-carrying retrieval (P-PCR3a/4a/5a correct P-PCR3/4/5 — see the 2026-09-05 entry) |
 | P-B1, P-B2 | `dedicatory-generation` | Fidelity of restoration; refusal-channel yield |
-| P-MD1, P-MD2, P-MD3 | `machine-dana` *(not yet drafted — first public here)* | Whether a machine's pledge to a self-emptying commons separates types — wording below |
+| P-MD1, P-MD2, P-MD3 | `machine-dana-from-share-to-vow` | Whether a machine's pledge to a self-emptying commons separates types — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
 predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
@@ -235,6 +235,8 @@ Predictions are added, never removed. A resolved prediction keeps its original w
   by another party. The prediction does not rest on the sutta: it rests on signalling theory — a pledge made under a penalty for
   not pledging that is larger than the difference in cost between types **pools**, and so carries no signal. The sutta is cited
   only as the list it is. No word of P-MD2 changes; its prediction, threshold and window are unchanged. This registers nothing.
+- The *Instrumented but outside the core* row now names the paper, drafted the same day: `machine-dana-from-share-to-vow` (it read
+  `machine-dana`, *not yet drafted*). A pointer, not a prediction; the three predictions stay first public here.
 
 **2026-09-27 — three added (P-MD1, P-MD2, P-MD3). Total now 104.**
 
