@@ -6,6 +6,23 @@ on its confirmation page (the server's echo of title, inventor and the full abst
 review, 2 `queued_for_update` (buddha-ai-living-tipitaka, capacity-funded-human-disbursed-ai-alignment; recheck Monday
 2026-09-28, founder: *"wait until monday"*), no duplicates.
 
+### 2026-09-27 (evening) — the prediction register: P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, the Formal Abhidhamma predictions (founder: *"do all 8"* · *"do rung 1"* · *"do what's best"*)
+
+Five predictions registered in *Instrumented but outside the core*, first public minutes earlier in the pre-registration of the
+public repository `SiliconWat/formal-abhidhamma` (commit `259e5e8`, GitHub push record 2026-09-27T22:07:02Z, before any code):
+whether general cetasika rules generate the 89/121 citta-types (P-FA1, 0.6), with ≥3 narrow exceptions (P-FA1b, 0.7); the canon
+alone under-determined (P-FA2, 0.65); Khmer = CST (P-FA3, 0.85); compression below 0.5 (P-FA4, 0.5). Total 104 → 109, reconciled by
+the index build (109 = 109). ⚠️ The retiring proof was calendar-only; upgraded to Bitcoin-complete (2 attestations) BEFORE rotation
+— an ignored `.ots.bak` from 2026-09-26 blocked `ots upgrade` from writing (moved aside, not deleted). `stamp-new.sh` also stamped
+`machine-dana-from-share-to-vow` (pushed with no proof); its legs 3–4 stay HELD. Site module regenerated (ids identical, `doi.org`
+and `https` counts unchanged, zero words lost, v13) — ⚠️ the generator DROPPED the two `sig-ok` markers on P-PL5's registered
+wording; restored by hand after `/check` refused the commit.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r12.ots` (Bitcoin-complete, 2 attestations); new `b043e2542657…` *(calendar-only at stamping)* | `2026-09-27.sha256` (covers `d8a75382e040…`) | `10.5281/zenodo.23003209` | 2.5.17 |
+| defensive-publications/machine-dana-from-share-to-vow | first proof *(calendar-only)* | — | ⏸ held | ⏸ held |
+
 ### 2026-09-27 — the prediction register: P-MD1–3, the Machine Dāna predictions (founder set direction, measure, threshold and window)
 
 Three predictions registered before the paper and before any instrument, in *Instrumented but outside the core*: P-MD1
