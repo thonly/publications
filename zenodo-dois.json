@@ -352,12 +352,12 @@
  },
  "prediction-register": {
   "concept_doi": "10.5281/zenodo.22132689",
-  "deposition_id": 23003593,
-  "doi": "10.5281/zenodo.23003593",
+  "deposition_id": 23004359,
+  "doi": "10.5281/zenodo.23004359",
   "published": true,
   "sandbox": false,
-  "sha256": "9297130034c2d730ce95c3c80bb9867353dd9bc2874b363ec6fe516773f90909",
-  "url": "https://zenodo.org/records/23003593"
+  "sha256": "a488f2616dedfe89f9d44a4432b54dc03caf5b0d1993aa161aea76de6d2cc9c8",
+  "url": "https://zenodo.org/records/23004359"
  },
  "proof-of-coordinate": {
   "concept_doi": "10.5281/zenodo.21947366",
