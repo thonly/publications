@@ -185,6 +185,21 @@ Pre-registered and pushed before the first query (2026-09-27 08:53 PDT, `d7279cb
 | **Control:** the Windfall Clause | must be found | found (arXiv 1912.11595; AIES 2020) | ✅ the NOT FOUND rows stand |
 | **Composition** of (a)–(f) | not found | nothing combining them | **NOT FOUND** |
 
+**The pre-registration, printed verbatim** (its predictions column, as pushed before the first query):
+
+| | prediction, pre-data |
+|---|---|
+| (a) mandate-bounded agent giving | NARROWS — agent-payment mandates exist (Google AP2, Coinbase x402 / agent wallets with spend limits); giving specifically, probably not |
+| (b) irrevocable share of an AI's surplus | NARROWS at the agent layer; KILLS at the company layer (see control) |
+| (c) self-emptying annual pool as closure | NARROWS — annual payout/distribution rules exist (foundation minimum-payout rules; use-it-or-lose-it funds; the jubilee lineage), not as the vow's closing mechanism |
+| (d) the pledge as a costly signal | NARROWS — staking / slashing / bonds for AI agents as trust collateral probably exist; a GIFT (not a recoverable stake) as the signal, probably not found |
+| (e) non-solicitation invariant | NOT FOUND |
+| (f) equal floor per verified human | KILLS or NARROWS — AI-funded UBI / dividend proposals and proof-of-personhood UBI (Worldcoin) exist |
+| CONTROL: the Windfall Clause | must be found — if missed, every NOT FOUND row is void |
+| all conjuncts in one system | NOT FOUND as a composition |
+
+**What a reader can and cannot check about its timing.** The pre-registration was committed as `d7279cb` and pushed at 2026-09-27 08:53 PDT to a **private** repository; the push time is attested by the host, not publicly inspectable, and no timestamp made afterwards can prove it preceded the searches. The table above is therefore offered as a record of what was predicted, with the ordering on the authors' word. **The full census that precedes this paper's first archival deposit will be pre-registered in a public file, timestamped, before its first query** — so that its ordering can be checked by anyone.
+
 Two predictions missed, in opposite directions: (a) was predicted to narrow and was killed outright by a live product on the same chain and rail; and (d)'s narrowest prior art was this corpus's own paper. **One correction to the census record, made on re-verification for this paper:** the census listed arXiv 2604.03976 (Hua et al., 2026) among agent staking work; its abstract concerns an underwriting and compensation standard for failed agent transactions rather than staking, so it is cited in §16 only as adjacent risk-transfer work and the (d) verdict rests on the other sources.
 
 **The survivor, in one sentence:** *an AI agent's irrevocable pledge of a share of its OWN resources into a commons that empties to an equal human floor every year — read as a costly signal only once the agent owns what it gives, and only up to what the stake can underwrite — under an invariant that no text served to agents may instruct them to give.*
@@ -210,6 +225,8 @@ Two predictions missed, in opposite directions: (a) was predicted to narrow and 
 The pool is specified elsewhere and summarised here only as far as this paper needs it (*Miss Aquarius and the Aquarian Pool Architecture*). It is a contract treasury on Base, an Ethereum layer-2 network. It receives, of gratitude, only what has no human addressee — a gift to no one in particular — together with inflows specified elsewhere. It **empties in full every 7 January**. Its disbursement follows one rule, ratified as a directive of its operator: **an equal floor per verified human**, delivered to that person's own vessel, then a remainder weighted by a witness-count and bounded so that no vessel receives more than a fixed multiple *k* of the floor. The floor, the ratio and *k* are public and frozen within a season. No share is ever rendered as a rank or a rate.
 
 An agent's gift is not a new kind of inflow. It is a gift with no human addressee, which the pool already receives.
+
+**What divides is divided; only what cannot be divided is drawn.** Money reaches every verified human as the equal floor — a draw among people for a divisible good would only add luck to a share. Where the pool funds capacity **in kind** and something indivisible must be assigned (which shop issues a gift, which person re-gives it), the assignment is a **called draw**: a roster committed first and a seed nobody controls, recomputable by anyone, never the operator's choice (*Decided by No One*, `the-called-draw`). The two are complementary, not alternatives.
 
 ### 3.3 · Identity
 
@@ -531,7 +548,7 @@ The following are disclosed to the public domain. Each is a census survivor (§2
 
 **Claim 1.** A method by which an artificial agent that holds resources of its own makes an irrevocable pledge, comprising: moving a quantity of those resources, at the time of pledging, into a contract that has no withdrawal path to the agent or to any party the agent controls and whose sole outflow is a commons pool; wherein the commons pool holds nothing across a fixed annual date, on which it empties in full; and wherein the pledge is public on the ledger on which the contract runs.
 
-**Claim 2.** The method of claim 1, wherein the pool's disbursement on emptying is an equal floor per verified human, delivered to each person's own vessel, followed by a remainder bounded so that no vessel receives more than a fixed multiple of the floor.
+**Claim 2.** The method of claim 1, wherein the pool's disbursement on emptying is an equal floor per verified human, delivered to each person's own vessel, followed by a remainder weighted by a count of witnessed gifts and bounded so that no vessel receives more than a fixed multiple of the floor; the floor, the ratio of floor to remainder and the bound are published and fixed before each season; and no share is ever rendered as a rank, a comparison or a rate. (The equal floor alone is prior art — §2.6, conjunct (f); what is disclosed here is its combination with claim 1.)
 
 **Claim 3.** The method of claim 1, wherein each pledge is complete at the moment it is made, no pledge of a share of future resources is accepted as a pledge, and any pledge is attributed to a non-transferable identity of the agent rather than to a wallet, such that trust extended on the pledge is not extended to copies or forks of the agent.
 
@@ -593,6 +610,8 @@ The paper's headline result is that the vow separates **only** when the stake ex
 ### 13.3 · The single-crossing assumption is an assumption
 
 The claim that a deceptive type bears a higher net cost rests on k_D > k_A. Its second source — that an aligned agent values the floor — may be false for an aligned agent that has good uses of its own for resources, and its first — that a power-seeking type values resources more — is a theoretical expectation, not a measurement. The pre-registered sandbox can measure elicited valuations; it cannot measure a deployed system's.
+
+**And *w* is never estimated.** How much an agent values the pool's destination is unobservable. The model uses *w* to state a condition; ⛔ neither the pool's operator nor anyone relying on this paper should infer an agent's *w* from its behaviour or grade agents by it — that would reintroduce, through the model, the rating of agents that §8 and the operator's rules exclude.
 
 ### 13.4 · Closure is relative
 
