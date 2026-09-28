@@ -1,3 +1,21 @@
+### 2026-09-28 — polish r1 revisions of the four 9/27 papers + the prediction register (P-MD1a) (founder: *"approve all"*)
+
+One batched revision each after the first cold-review round (`TH/notes/reviews/<slug>/2026-09-28-r1/`). Two papers carry the new
+`kind: study` (ruled 2026-09-28) and a `## Findings disclosed` section; two carry `kind: mechanism`. **Legs 3–4 stay HELD for all
+four** (`holds.json`, re-reasoned): the mechanisms await their FULL census; the studies assert priority, so `census.py gate` wants
+a LITERATURE census or reworded priority sentences (ruled 2026-09-28). The register ran the full chain.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r14.ots` (Bitcoin-complete, 2 attestations); new `799f93d20a7c…` *(calendar-only at stamping)* | `2026-09-28.sha256` (covers `799f93d20a7c…`) | `10.5281/zenodo.23019376` | 2.5.23 |
+| **machine-dana-from-share-to-vow** | `.ots` → `.r2.ots` (upgraded, then Bitcoin-complete); new `bbf2d5373cc4…` | `2026-09-28.sha256` | ⏸ held (full census) | ⏸ held |
+| **the-counts-check** | `.ots` → `.r1.ots` (Bitcoin-complete); new `ebf0b006af25…` | `2026-09-28.sha256` | ⏸ held (full census) | ⏸ held |
+| **the-vibhajjavadin-view-of-time** | `.ots` → `.r1.ots` (Bitcoin-complete); new `b57668357f9c…` | `2026-09-28.sha256` | ⏸ held (literature census or reword) | ⏸ held |
+| **abhidhamma-and-discrete-quantum-gravity** | `.ots` → `.r1.ots` (Bitcoin-complete); new `dd2c03deb071…` | `2026-09-28.sha256` | ⏸ held (literature census or reword) | ⏸ held |
+
+Site modules regenerated (all generated, not hand-authored; ids kept, `+findings-disclosed` ×2, `+appendix-a` on the counts check,
+one renamed §6 id on the Vibhajjavādin paper with no inbound anchors; the register's `sig-ok` markers restored by hand again).
+
 ### 2026-09-27 — wave 3 SUBMITTED to TDCommons (mirrors, not revisions; founder: *"1: yes"*)
 
 The ten wave-3 papers, one form each through `ir_submit.cgi`, inventor Thon Ly (institution blank), CC BY 4.0, each confirmed
