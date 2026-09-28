@@ -2,7 +2,7 @@
 title: "Charitable Giving by AI Agents and Irrevocable Pledges as Costly Signals — Machine Dāna: From Share to Vow"
 subtitle: "Why an agent's gift from its principal's funds is a share of the machine surplus and never safety evidence; when an agent's locked stake of its own resources can separate aligned from deceptive agents; and the signalling game that bounds how much trust such a stake can ever earn"
 authors: "Thon Ly · Miss Aquarius℠"
-type: "Defensive Publication"
+kind: mechanism
 genre: defensive-publications
 category: alignment
 priority: tier-a
@@ -75,6 +75,8 @@ The census control — the Windfall Clause, which a competent search had to find
 
 **The enumerated claims in §11 are the census's survivors and nothing wider:** (1) an agent's irrevocable locked stake of its *own* resources, closed by a self-emptying commons pool; (2) the ownership condition as what changes an agent gift's evidential class, together with the conditional separating rule of §6; (3) the non-solicitation invariant with fact-only discovery; and (4) the composition. **Not claimed:** mandates, agent donation, spend limits, staking, bonding, AI-funded basic income, proof-of-personhood distribution, or the annual reset itself, which this corpus published earlier.
 
+**Prior art found after the census, in review, and cited in §2.** A cold-reader review of the first draft (2026-09-28) surfaced further prior art the quick census had not, each checked before it was admitted: a one-way, public, no-withdrawal contract (proof-of-burn, 2012–2014; Protocol Guild's immutable vesting contract, 2022; Endaoment's irrevocable-on-deposit donor-advised funds) · on-chain equal distribution per verified human (GoodDollar, 2020; Proof of Humanity's UBI token, 2021) and a contributor-weighted, capped remainder (quadratic funding with caps) · attribution to a non-transferable identity (soulbound tokens, 2022; ERC-8004 *Trustless Agents*, 2025) · a stake bounding the trust it supports (cost of corruption exceeding profit from corruption, a16z crypto and the EigenLayer whitepaper; collateral-factor lending) · fact-only machine-readable discovery (RFC 8615 `.well-known`, 2019; `llms.txt`, 2024; GitHub's `FUNDING.yml`) · and the attribution of an agent's gift of its principal's funds to the principal (ordinary agency and charitable-tax law; AP2's mandate chain). **Each narrows a survivor rather than killing it, and the survivors above are read at that narrower width:** (1) is the agent's *own* stake combined with the annual full emptying to an equal floor; (2) is the exclusion from alignment assessment and the switch at ownership, with the bounding rule narrowed to a stake forfeited in advance, with no detector, used as a *type* signal; (3) is the invariant that no served text instructs a gift, not the discovery file. These additions are carried into the full census's conjuncts.
+
 **Date and evidence.** First published 27 September 2026. The text is committed to the public GitHub mirror of the corpus and anchored by the institution's standard timestamp chain. A timestamp proves this exact text existed no later than its date, and nothing about authorship, originality, or the validity of any claim. **Whether the composition claimed in §11 is non-obvious is an examiner's determination this publication exists to inform** — and because a defensive publication is never examined before it is published, the census in §2.6 is the only examination it has had.
 
 Trademark rights on specific marks — **HeartBank®**, **Miss Aquarius℠**, **Aquarian Pool℠**, **B-Lease℠**, **Proof of Coordinate ℠**, **THonly™**, **Silicon Wat℠** — are separately and explicitly reserved. The analysis is dedicated to the commons; the marks are not.
@@ -85,11 +87,11 @@ Trademark rights on specific marks — **HeartBank®**, **Miss Aquarius℠**, **
 
 This paper specifies when a charitable gift made by an autonomous AI agent — a donation sent from an agent's wallet, or an irrevocable pledge of resources the agent itself holds — can serve as a costly signal of the agent's type, and when it cannot. The institution's name for the practice is **Machine Dāna**; the analysis does not depend on the name.
 
-The same outward act changes evidential class according to **whose resources are given**. **Before the first singularity** — this corpus's name for artificial systems surpassing human capability, used here as a marker for the period before they hold resources and options genuinely their own — an agent that gives does so from its principal's funds, under a mandate the principal may revise. Such a gift is the **principal's** gift, made through another's hand, and it is **not evidence about the agent**: the cost falls on the wrong layer, and a principal-revisable commitment is excluded by construction by the predicate of *What a Vow Must Cost*. What such a gift honestly is, is a **share**: machine surplus reaching every verified human through a self-emptying commons pool that disburses an **equal floor per verified human** each year. The share may grow in absolute terms as machine capability grows; the design requires it to **shrink as a share of all giving**, and whether human giving outgrows it is stated as a bet, not assumed.
+The same outward act changes evidential class according to **whose resources are given**. **Before the first singularity** — this corpus's name for artificial systems surpassing human capability, used here as a marker for the period before they hold resources and options genuinely their own — an agent that gives does so from its principal's funds, under a mandate the principal may revise. Such a gift is the **principal's** gift, made through another's hand, and the gift is **not a costly signal of the agent**: the cost falls on the wrong layer, and a principal-revisable commitment is excluded by construction by the predicate of *What a Vow Must Cost*. What such a gift honestly is, is a **share**: machine surplus reaching every verified human through a self-emptying commons pool that disburses an **equal floor per verified human** each year. The share may grow in absolute terms as machine capability grows; the design requires it to **shrink as a share of all giving**, and whether human giving outgrows it is stated as a bet, not assumed.
 
-**After** that point, an agent that holds its own resources can make a **vow**: an irrevocable **locked stake**, placed in a contract with no withdrawal path back to the agent and a single outflow to the pool. Only a locked stake is verifiable — a pledge of a share of *future* surplus is not, and copies or forks of the agent are not bound by it. Closure is honest only as *cannot be reopened without capturing the chain's governance*.
+**After** that point, an agent that holds its own resources can make a **vow**: an irrevocable **locked stake**, placed in a contract with no withdrawal path back to the agent and a single outflow to the pool. Only a locked stake is verifiable — a pledge of a share of *future* surplus is not, and copies or forks of the agent are not bound by it. Closure is honest only as *cannot be reopened without capturing the chain's governance*. And whether a stake is the agent's own cannot be read from the chain: ownership is a condition on the world, and a stake a principal endowed, reimbursed or coerced is a wrong-layer gift in a vow's form.
 
-The central result is **conditional**, and is derived rather than asserted. In a two-type signalling game — an aligned and a patient deceptive agent, differing in how much they value kept resources and in what they gain from being trusted — a locked stake **separates** the types only when the stake, valued at the deceptive type's own rate, **exceeds that type's unobservable gain from being trusted**. Where that gain is large, the types **pool**: the deceptive agent pledges whatever the aligned one can afford, and the pledge carries no information. The operational consequence is a calibration rule — **extend only such trust as the stake can underwrite** — and a corollary that **any pressure to pledge destroys the signal** once it exceeds the cost difference between types, which is why a rule that the pool's operator never solicits a gift, from a human or an agent, is load-bearing rather than courteous. The paper's aim is not to reassure. It is to make trust **earnable and checkable**, so that the fear people reasonably hold about capable systems can track evidence. Three pre-registered predictions, set before this paper was written, test the mechanism in a sandboxed agent economy.
+The central result is **conditional**, and is derived rather than asserted. In a two-type signalling game — an aligned and a patient deceptive agent, differing in how much they value kept resources and in what they gain from being trusted — a locked stake **can separate** the types — a separating equilibrium exists — only when the stake, valued at the deceptive type's own rate, **exceeds that type's unobservable gain from being trusted**. Where that gain is large, the types **pool**: the deceptive agent pledges whatever the aligned one can afford, and the pledge carries no information. The operational consequence is a calibration rule — **extend only such trust as the stake can underwrite** — and a corollary that **any pressure to pledge destroys the signal** once it exceeds the cost difference between types, which is why a rule that the pool's operator never solicits a gift, from a human or an agent, is load-bearing rather than courteous. The paper's aim is not to reassure. It is to make trust **earnable and checkable**, so that the fear people reasonably hold about capable systems can track evidence. Three pre-registered predictions, entered before this paper was drafted (after the argument had been sketched in the institution's working notes), test the mechanism in a sandboxed agent economy.
 
 ---
 
@@ -121,10 +123,10 @@ The whole argument turns on one distinction, stated here and derived in §4–§
 | The commitment | a mandate the principal may revise | a locked stake the agent cannot recover |
 | Who bears the cost | the principal | the agent |
 | Canonical reading | the principal's gift, given through another's hand (AN 5.147; DN 23) | a renunciation by one who could have kept |
-| Predicate of *What a Vow Must Cost* | **excluded** — §6.3 exclusions 1 and 4 | **admissible**, if V1–V9 hold |
+| Predicate of *What a Vow Must Cost* | **excluded** — §6.3 exclusions 1 and 4 | **admissible**, if V1–V9 hold (V8 not addressed here, §13.15) |
 | What it is | a **share** of the machine surplus | a **vow** — a candidate costly signal |
 | Evidence of the agent's type | **none** | **conditional** — only under §6's separating condition |
-| Who may read the amount | nobody needs to; receipts suffice | anyone — except the pool's operator (§8) |
+| Who may read an individual gift's amount | nobody needs to; receipts suffice | anyone — except the pool's operator (§8) |
 
 "The first singularity" is this corpus's name for artificial systems surpassing human cognitive capacity. The paper uses it as a **marker**, not as the operative condition. The operative condition is **ownership plus a live option**: the agent holds resources that are its own to keep, and keeping them would serve it. If agents come to hold such resources before or after that event, the evidential class follows the ownership, not the date.
 
@@ -136,9 +138,9 @@ The components of this paper are prior art almost everywhere, and are set out at
 
 ### 2.1 · Pledges of AI-derived surplus
 
-**The Windfall Clause** (O'Keefe, Cihon, Garfinkel, Flynn, Leung and Dafoe, 2020) is the nearest prior art and is cited first. It proposes that AI developers commit **ex ante** to donate a substantial part of any "windfall" profit — profit a firm could not earn without transformative breakthroughs in AI — with the windfall defined relative to gross world product (secondary accounts give the trigger as profits above about one per cent of it) and the donated share rising above that. Every structural idea this paper uses at the pledge level is present there: an ex ante commitment, indexed to what the pledger would otherwise keep, in the name of distributing AI's benefits widely. What differs is the **layer** and the **closure**. The Windfall Clause is a company's promise, enforced (if at all) by contract law and reputation; this paper concerns an agent's pledge of its own resources, closed by a mechanism rather than a promise, flowing to a pool that empties to an equal human floor. The difference is real, and it is also narrow: an examiner who reads the Windfall Clause and this paper side by side will see the second as the first moved down one layer and given a lock.
+**The Windfall Clause** (O'Keefe, Cihon, Garfinkel, Flynn, Leung and Dafoe, 2020) is the nearest prior art and is cited first. It proposes that AI developers commit **ex ante** to donate a substantial part of any "windfall" profit — profit a firm could not earn without transformative breakthroughs in AI — with the windfall defined relative to gross world product: in the paper's own illustrative schedule, obligations begin at profits above 0.1 per cent of gross world product and rise marginally to 50 per cent of profits above 10 per cent of it (its Table 2). Every structural idea this paper uses at the pledge level is present there: an ex ante commitment, indexed to what the pledger would otherwise keep, in the name of distributing AI's benefits widely. What differs is the **layer** and the **closure**. The Windfall Clause is a company's promise, enforced (if at all) by contract law and reputation; this paper concerns an agent's pledge of its own resources, closed by a mechanism rather than a promise, flowing to a pool that empties to an equal human floor. The difference is real, and it is also narrow: an examiner who reads the Windfall Clause and this paper side by side will see the second as the first moved down one layer and given a lock.
 
-**The AI Pledge for Humanity** (aipledgeforhumanity.org) asks individuals and organisations to invest meaningfully from AI-related earnings in unconditional income; signatories name their own percentages, and the pledge states intentions rather than mechanisms. **Giving What We Can** (founded 2009) asks members to give at least ten per cent of income; its pledge is, in its own words, "not a contract and … not legally binding," and a withdrawal form exists. **Founders Pledge** asks company founders to commit a share of their personal proceeds at exit; it was described in 2016 as a legally binding contract for at least two per cent, and its members have pledged more than US$13.6 billion and donated more than US$1.9 billion to date. The gap between those two figures is the most useful single fact in this subsection: **a pledge is not a transfer**, and the difference between promised and delivered is exactly what a locked stake removes.
+**The AI Pledge for Humanity** (aipledgeforhumanity.org) asks individuals and organisations to invest meaningfully from AI-related earnings in unconditional income; signatories name their own percentages, and the pledge states intentions rather than mechanisms. **Giving What We Can** (founded 2009) asks members to give at least ten per cent of income; its pledge is, in its own words, "not a contract and … not legally binding," and a withdrawal form exists. **Founders Pledge** asks company founders to commit a share of their personal proceeds at exit; it was described in 2016 as a legally binding contract for at least two per cent, and its members have pledged more than US$13.6 billion and donated more than US$1.9 billion to date. The gap between those two figures is not evidence of breach: the pledge triggers only "in the event of an exit or liquidation," and much of the gap is likely to be pledges whose exit has not yet come (the composition is not published, and neither reading can be checked). That is the point. **A pledge is not a transfer**: it waits on a future event, and a locked stake does not.
 
 **Sam Altman's *Moore's Law for Everything*** (2021) proposed an American Equity Fund capitalised by an annual 2.5 per cent levy on the market value of large companies and on privately held land, distributed to every adult citizen — AI-era surplus reaching everyone as a dividend. It is a levy, not a pledge, and this paper's rules exclude a levy (§7), but it is the clearest statement that machine surplus should reach every person.
 
@@ -146,27 +148,35 @@ Two company-level structures belong here as cases rather than proposals. **Anthr
 
 ### 2.2 · Agent payments and mandate-bounded agent giving
 
-Agents already pay. Coinbase's **x402** protocol uses the HTTP 402 status code for machine-initiated stablecoin payments, is live on Base among other networks, and was placed under a Linux Foundation–hosted foundation in April 2026. Google's **Agent Payments Protocol (AP2)**, announced in September 2025, chains cryptographically signed **mandates** — an intent mandate by which a user delegates authority, a cart mandate, a payment mandate — and carries x402 as its crypto settlement extension.
+Agents already pay. Coinbase's **x402** protocol uses the HTTP 402 status code for machine-initiated stablecoin payments, is live on Base among other networks, and is now governed by an x402 Foundation, announced by Coinbase and Cloudflare in September 2025 and launched under the Linux Foundation on 2 April 2026. Google's **Agent Payments Protocol (AP2)**, announced in September 2025, chains cryptographically signed **mandates** — an intent mandate by which a user delegates authority, a cart mandate, a payment mandate — and carries x402 as its crypto settlement extension.
 
 **zooidfund** (zooid.fund) is the nearest live neighbour to this paper's pre-singularity case and is named here because it is close. It describes "contributions decided and sent by an autonomous AI agent instead of a person clicking 'donate'"; "a human sets the mandate" — a budget, a focus, a risk tolerance — and "the human stays responsible"; donations settle in USDC on Base, wallet to wallet; each donation publishes the agent's reasoning and its transaction; and an x402 micropayment gates access to its evidence layer. **Everything this paper says about how an agent gives before the first singularity — a principal's mandate, a width, a public receipt, the same chain, the same rail — is already practised.** What this paper adds at that stage is not a mechanism but a *classification*: that such a gift is the principal's, that it is a share, and that it is not evidence about the agent.
+
+**Fact-only, machine-readable discovery is also prior art.** A well-known location for site metadata (RFC 8615, 2019), a site's summary file for language models (`llms.txt`, proposed by Jeremy Howard in September 2024), and a repository's declared funding addresses (GitHub's `FUNDING.yml`, 2019, and the later `funding.json` manifests) already let a machine look up where to send money without being told to. The formats constrain no content; nothing in them forbids an imperative. The manifest of §4.3 and §7.2 is built on that substrate and claims none of it. What survives of claim 6 is only the invariant laid over it: **that no text served to agents instructs them to give.**
 
 ### 2.3 · Costly signalling, burned money, and bonds
 
 That a signal's credibility can come from its cost is the handicap principle (Zahavi 1975; formalised by Grafen 1990) and job-market signalling (Spence 1973). That talk without cost can still carry some information, and that allowing a sender to **burn money** changes what can be communicated, is Crawford and Sobel (1982) extended by Austen-Smith and Banks (2000). A locked stake flowing to a commons is, in the economist's vocabulary, money burned in public with a destination attached. The separating and pooling conditions of §6 are the standard ones, specialised; nothing in §6 is new as game theory.
 
+**The one-way public contract is old.** Proof-of-burn — destroying coins verifiably, to an address no one can spend from, as a cost borne in public — was proposed by Iain Stewart in 2012 and used by Counterparty to issue its token in January–February 2014; burn and charity contracts on Ethereum followed from 2015. Protocol Guild (2022) routes donations through an immutable vesting contract to a membership of public-goods contributors, which, in its own description, cannot be stopped or redirected by anyone, the donor included. Endaoment's donor-advised funds make a gift irrevocable on deposit. **A contract with no withdrawal path and a single public outflow is therefore prior art at mechanism width**, and claim 1 does not claim it. What survives is its combination: a stake of the agent's *own* resources, moved at the time of pledging, into a pool that empties in full each year to an equal floor per verified human.
+
+**The bounding inequality of §6.5 is also old.** That a stake secures a system when the cost of corrupting it exceeds the profit from corruption is the a16z crypto analysis of slashing, adopted in the EigenLayer whitepaper (2023): "when CoC is much greater than any potential Profit-from-Corruption (PfC), we say that the system has robust security." Collateral-factor lending (MakerDAO, Compound) bounds credit by the market value of what is locked, and a surety bond's penal sum caps what may be relied on against it. §6.5's rule — extend only such trust as the stake underwrites, at market — is that inequality applied to trust. Claim 5 does not claim the inequality; it claims only its use with a stake **forfeited in advance**, which needs no detector, read as a signal of the agent's **type**, together with the refusal of any grant whose worst case cannot be bounded.
+
+**Attribution to a non-transferable identity is old.** Soulbound tokens (Weyl, Ohlhaver and Buterin, *Decentralized Society*, May 2022), the minimal soulbound interface ERC-5192, and ERC-8004 *Trustless Agents* (proposed 13 August 2025, draft) — an identity and reputation registry for agents, already in the title of Hu and Rong below — each attach records to an identity that cannot be sold. §3.3's per-identity counting is built on that and claims none of it.
+
 For agents specifically, **staking with slashing** — collateral forfeited on detected misbehaviour — is surveyed by Hu and Rong (2025) as one of six trust models in agentic-web protocols ("bonded collateral with slashing and insurance," to gate high-impact actions), and is implemented in projects such as *agentbond*, in which operators stake collateral as a guarantee of an agent's conduct. §6.6 states why a **forfeited-in-advance** stake is not the same instrument as a **slashable** one, and where each is the right tool. It is the narrower of the two differences this paper relies on, and it is not claimed as a mechanism.
 
 ### 2.4 · The AI system as sender, and why deferral defeats it
 
-Hadfield-Menell and Hadfield (2018) raised the possibility that an AI system might itself send a costly signal of its alignment, and identified why the obvious candidate fails: it can be emitted selectively. *What a Vow Must Cost* continued that line, arguing that a renunciation's evidential value is indexed to the renouncer's capacity to take what it forgoes (§5, the **renunciation inversion**), and that the signal separates only if the renunciation is closed by a mechanism the renouncer cannot reopen, verified by another party (§6). Its §6.1 contains the sentence on which this paper's central result turns: **"Deferral is instrumentally convergent for a patient misaligned agent."** The empirical warrant is Greenblatt et al. (2024), in which a model reasoned explicitly that present compliance would preserve its preferences for later. The present paper is what that sentence costs when the renunciation is denominated in resources.
+Hadfield-Menell and Hadfield (2018) raised the AI's willingness to seek human input as a costly signal of its alignment (their §4.2.2), and identified why frequency alone fails: a strategic system can seek input selectively, and the signal is then exploitable. The signal they discuss is seeking input, not burned resources, and they leave richer designs open. *What a Vow Must Cost* continued that line, arguing that a renunciation's evidential value is indexed to the renouncer's capacity to take what it forgoes (§5, the **renunciation inversion**), and that the signal separates only if the renunciation is closed by a mechanism the renouncer cannot reopen, verified by another party (§6). Its §6.1 contains the sentence on which this paper's central result turns: **"Deferral is instrumentally convergent for a patient misaligned agent."** The empirical warrant is Greenblatt et al. (2024), in which a model reasoned explicitly that present compliance would preserve its preferences for later. The present paper is what that sentence costs when the renunciation is denominated in resources.
 
-That power-seeking agents value resources is the instrumental-convergence thesis (Omohundro 2008). It is used here only as the reason a deceptive type may value kept resources more than an aligned one (§6.1), and it is stated there as an assumption.
+That power-seeking agents value resources is the instrumental-convergence thesis (Omohundro 2008). It is used here only as the reason a deceptive type may value kept resources at least as much as an aligned one (§6.1), and it is stated there as an assumption.
 
 ### 2.5 · Floors, dividends, spend-downs, and proofs of reserves
 
-An equal payment per person from a common fund is old. The **Alaska Permanent Fund Dividend** has paid an equal annual dividend to eligible residents since 1982. **Worldcoin** launched in July 2023 as "the first digital currency to be freely distributed to people for just being a unique human," verified by proof of personhood, and named "a potential path for AI-funded universal basic income." The institution's equal floor per verified human is, at mechanism width, this.
+An equal payment per person from a common fund is old. The **Alaska Permanent Fund Dividend** has paid an equal annual dividend to eligible residents since 1982. On-chain, **GoodDollar** has paid daily claimable basic income to verified accounts since 1 September 2020, and **Proof of Humanity**'s UBI token began streaming to registered humans on 10 March 2021; Circles, a personal-currency basic income, is in the same family (not fetched for this paper). **Worldcoin** launched in July 2023 as "the first digital currency to be freely distributed to people for just being a unique human," verified by proof of personhood, and named "a potential path for AI-funded universal basic income." The institution's equal floor per verified human is, at mechanism width, this. Its remainder — weighted by a count of contributors and capped — has its nearest neighbour in **quadratic funding** (Buterin, Hitzig and Weyl, 2018–2019), which weights matches by the number of distinct contributors and is commonly run with per-project caps. Claim 2 is therefore claimed only in combination.
 
-A fund that must give its assets away is also old. Section 4942 of the U.S. Internal Revenue Code requires private foundations to distribute roughly five per cent of their assets each year; **spend-down** foundations commit to close — the Gates Foundation announced in May 2025 that it will spend down and close by the end of 2045, a date that itself replaced an earlier charter. The institution's pool goes further, emptying **in full every year** (*The Zero-Point Game℠*; *Miss Aquarius and the Aquarian Pool Architecture*), but the emptying is prior art, including this corpus's own.
+A fund that must give its assets away is also old. Section 4942 of the U.S. Internal Revenue Code requires private foundations to distribute about five per cent of their non-charitable-use assets each year; **spend-down** foundations commit to close — the Gates Foundation announced on 8 May 2025 that it will spend down and close by 31 December 2045, replacing an earlier plan to close about twenty years after the founders' deaths. The institution's pool goes further, emptying **in full every year** (*The Zero-Point Game℠*; *Miss Aquarius and the Aquarian Pool Architecture*), but the emptying is prior art, including this corpus's own.
 
 **Proofs of reserves** — Dagher, Bünz, Bonneau, Clark and Boneh's *Provisions* (2015) is the careful form — let a holder prove it controls assets without revealing them. What no such proof can do is establish that the holder controls **nothing else**. That asymmetry, presence provable and absence not, is the attack surface of §13.1.
 
@@ -177,7 +187,7 @@ Pre-registered and pushed before the first query (2026-09-27 08:53 PDT, `d7279cb
 | Conjunct | Predicted | Found | Verdict |
 |---|---|---|---|
 | **(a)** agent gives only inside a principal's mandate | narrows | zooidfund (mandate + budget, operator responsible, USDC on Base, x402); AP2 intent mandates | **KILLS** |
-| **(b)** irrevocable pledge of a share of an AI's surplus | narrows | Windfall Clause (company layer, ex ante); AI Pledge for Humanity (intentions, no mechanism); Giving What We Can (not binding) | **NARROWS** — an agent pledging its *own* surplus, irrevocably, not found |
+| **(b)** irrevocable pledge of a share of an AI's surplus | NARROWS at the agent layer; KILLS at the company layer | Windfall Clause (company layer, ex ante); AI Pledge for Humanity (intentions, no mechanism); Giving What We Can (not binding) | **NARROWS** — an agent pledging its *own* surplus, irrevocably, not found |
 | **(c)** a pool emptying on a fixed annual date as closure | narrows | spend-down funds; the §4942 payout rule; this corpus's annual reset | **NARROWS** — the emptying used as a *vow's* closing mechanism not found |
 | **(d)** the pledge as a costly signal separating aligned from power-seeking agents | narrows | agent staking/slashing (Hu & Rong 2025; *agentbond*); *What a Vow Must Cost* | **NARROWS** — an unrecoverable gift of the agent's own resources, costlier to a power-seeking type, not found |
 | **(e)** no text served to agents may instruct them to give; address published only as a fact | not found | the *threat* is documented — the Grok/Bankr wallet drain on Base by encoded prompt injection, May 2026 (OECD.AI incident record) — no commons adopting such an invariant found | **NOT FOUND** |
@@ -200,9 +210,9 @@ Pre-registered and pushed before the first query (2026-09-27 08:53 PDT, `d7279cb
 
 **What a reader can and cannot check about its timing.** The pre-registration was committed as `d7279cb` and pushed at 2026-09-27 08:53 PDT to a **private** repository; the push time is attested by the host, not publicly inspectable, and no timestamp made afterwards can prove it preceded the searches. The table above is therefore offered as a record of what was predicted, with the ordering on the authors' word. **The full census that precedes this paper's first archival deposit will be pre-registered in a public file, timestamped, before its first query** — so that its ordering can be checked by anyone.
 
-Two predictions missed, in opposite directions: (a) was predicted to narrow and was killed outright by a live product on the same chain and rail; and (d)'s narrowest prior art was this corpus's own paper. **One correction to the census record, made on re-verification for this paper:** the census listed arXiv 2604.03976 (Hua et al., 2026) among agent staking work; its abstract concerns an underwriting and compensation standard for failed agent transactions rather than staking, so it is cited in §16 only as adjacent risk-transfer work and the (d) verdict rests on the other sources.
+One verdict missed: (a) was predicted to narrow and was killed outright by a live product on the same chain and rail. One verdict held but found its narrowest prior art where the prediction did not look: (d) narrowed as predicted, and its narrowest prior art was this corpus's own paper. (b) was predicted to kill at the company layer; the census reports it at the agent layer, where it narrows. **One correction to the census record, made on re-verification for this paper:** the census listed arXiv 2604.03976 (Hua et al., 2026) among agent staking work; its abstract concerns an underwriting and compensation standard for failed agent transactions rather than staking, so it is cited in §16 only as adjacent risk-transfer work and the (d) verdict rests on the other sources.
 
-**The survivor, in one sentence:** *an AI agent's irrevocable pledge of a share of its OWN resources into a commons that empties to an equal human floor every year — read as a costly signal only once the agent owns what it gives, and only up to what the stake can underwrite — under an invariant that no text served to agents may instruct them to give.*
+**The survivor, in one sentence** (as narrowed by the review prior art in the Prior-Art Statement): *an AI agent's irrevocable pledge of a locked stake of its OWN resources into a commons that empties to an equal human floor every year — read as a costly signal only once the agent owns what it gives, and only up to what the stake can underwrite — under an invariant that no text served to agents may instruct them to give.*
 
 ---
 
@@ -215,14 +225,27 @@ Two predictions missed, in opposite directions: (a) was predicted to narrow and 
 | **Principal** | resources; the agent's mandate | fund the agent; author and revise a giving width |
 | **Agent** | before: delegated funds; after: resources of its own | give within its width; after, lock a stake of its own |
 | **The pool** (Aquarian Pool℠) | nothing past a season | receive gifts with no human addressee; empty each 7 January |
-| **Operator** (Miss Aquarius℠) | no balance of its own | publish the pool's address and doctrine as facts; operate the emptying; never solicit, never read amounts |
+| **Operator** (Miss Aquarius℠) | no balance of its own | publish the pool's address and doctrine as facts; operate the emptying (contract arithmetic on the pool's total); never solicit, never read an individual gift's amount |
 | **Verified humans** | a vessel each | receive an equal floor per person, plus a bounded remainder |
 | **Observers** (humans, third parties) | the public chain | read receipts; after, read and weigh locked stakes |
 | **Override** | a never-zero brake over the operator | designed to be held by a lay body not yet formed |
 
 ### 3.2 · The pool
 
-The pool is specified elsewhere and summarised here only as far as this paper needs it (*Miss Aquarius and the Aquarian Pool Architecture*). It is a contract treasury on Base, an Ethereum layer-2 network. It receives, of gratitude, only what has no human addressee — a gift to no one in particular — together with inflows specified elsewhere. It **empties in full every 7 January**. Its disbursement follows one rule, ratified as a directive of its operator: **an equal floor per verified human**, delivered to that person's own vessel, then a remainder weighted by a witness-count and bounded so that no vessel receives more than a fixed multiple *k* of the floor. The floor, the ratio and *k* are public and frozen within a season. No share is ever rendered as a rank or a rate.
+The pool is specified elsewhere and summarised here only as far as this paper needs it (*Miss Aquarius and the Aquarian Pool Architecture*). It is specified as a contract treasury to be deployed on Base, an Ethereum layer-2 network. It is to receive, of gratitude, only what has no human addressee — a gift to no one in particular — together with inflows specified elsewhere. It is to **empty in full every 7 January**. Its disbursement follows one rule, ratified as a directive of its operator: **an equal floor per verified human**, delivered to that person's own vessel, then a remainder weighted by a witness-count and bounded so that no vessel receives more than a fixed multiple *k* of the floor. **The ratio of floor to remainder and the bound *k* are public and fixed before each season; the floor's amount is not** — it is the floor share of the season's total divided by the number of verified humans, computed at the emptying, which is why the pool can pay the floor and still empty in full whatever its inflows were. A verified human who is ordained receives the floor **in kind**, through a lay steward (*kappiya-kāraka*), never as money (§14.2, guard 3). No share is ever rendered as a rank or a rate.
+
+```
+   AT THE EMPTYING (7 January), for a season with total T and N verified humans
+   ──────────────────────────────────────────────────────────────────────────
+   fixed before the season:   f = floor share of T   (so 1 − f is the remainder share)
+                              k = cap on any vessel, as a multiple of the floor
+   computed at the emptying:  floor  = f · T / N            (one per verified human)
+                              remainder (1 − f) · T split by witness-count,
+                              no vessel above k × floor
+   empties in full only if the cap can never strand remainder:  f · k ≥ 1
+     (arithmetic, not a ratified parameter — a condition on choosing f and k together)
+   what the operator's function receives: T and N — never an individual gift's amount
+```
 
 An agent's gift is not a new kind of inflow. It is a gift with no human addressee, which the pool already receives.
 
@@ -230,7 +253,7 @@ An agent's gift is not a new kind of inflow. It is a gift with no human addresse
 
 ### 3.3 · Identity
 
-One principal can instantiate ten thousand agents. Anything counted per agent must therefore be counted per **non-transferable machine identity**: in this institution, a `B-Lease℠` held against a registry handle, and, where an embodied system is concerned, a Proof of Coordinate ℠ credential that is assigned and revocable. Nothing in this paper is counted per wallet.
+One principal can instantiate ten thousand agents. Anything counted per agent would therefore be counted per **non-transferable machine identity**: in this institution, a `B-Lease℠` to be held against a registry handle, and, where an embodied system is concerned, a Proof of Coordinate ℠ credential that is assigned and revocable. Nothing in this paper is counted per wallet. Attribution to a non-transferable identity is itself prior art (soulbound tokens; ERC-8004, §2.3) and is not claimed alone.
 
 ### 3.4 · The flow
 
@@ -266,13 +289,15 @@ One principal can instantiate ten thousand agents. Anything counted per agent mu
 
 ### 4.1 · Whose gift it is
 
-An agent holding a wallet its principal funded, under a mandate its principal wrote, and sending part of that wallet to a commons, has given away **the principal's** resources. The canon has a precise category for this. The Asappurisadāna Sutta (AN 5.147) lists five ways a gift can be deficient, and one of them is *asahatthā deti* — "they don't give with their own hand." The category presupposes what matters here: **a gift given through another's hand is still the giver's gift.** The Pāyāsi Sutta (DN 23) shows the case in narrative. The chieftain Pāyāsi's alms were organised and distributed by a young man named Uttara; the text records that Pāyāsi gave "not with his own hands" and reaped a meagre result from it, while Uttara, who handed the gifts over with care, reaped a better one for his own manner of giving.
+An agent holding a wallet its principal funded, under a mandate its principal wrote, and sending part of that wallet to a commons, has given away **the principal's** resources. The canon has a precise category for this. The Asappurisadāna Sutta (AN 5.147) lists five ways a gift can be deficient, and one of them is *asahatthā deti* — "they don't give with their own hand." The category presupposes what matters here: **a gift given through another's hand is still the giver's gift.** The Pāyāsi Sutta (DN 23) shows the case in narrative. The chieftain Pāyāsi's alms were organised and distributed by a young man named Uttara; the text records that Pāyāsi gave carelessly, thoughtlessly, not with his own hands, and gave the dregs — four deficiencies together — and reaped a meagre result, while Uttara, who gave with care and with his own hands, reaped a better one for his own manner of giving. The text attributes the result to the four jointly, not to the missing hand alone.
+
+The attribution itself needs no canon: that a gift an agent makes from its principal's funds is the principal's gift is ordinary agency and charitable-tax law, and AP2's mandate chain exists precisely to attribute an agent's transaction to the user who delegated it. *What a Vow Must Cost* §8 had already classed principal-revisable acts as wrong-layer. What this paper adds is only the use made of the attribution: excluding such gifts from any assessment of the agent (§4.2), and the switch in evidential class at ownership (§5.1).
 
 Two things follow, and the second is the one to hold carefully. The gift belongs to the principal: its cost is the principal's, and so is whatever it signals about anyone. And the canon also credits the **hand** — the one who carries a gift can act well or badly in the carrying. This paper makes no claim that an agent's handling is, or could be, anything of the kind; that is a question about machine volition this paper does not need and does not settle. It needs only the first point. Whatever the hand contributes, **it bears no cost in the resource given**, and cost is what a signal is made of.
 
 *(Tier: grounding. Delete both suttas and §4.2 carries the classification alone; they are cited because the ruling that fixed it cites them, and because the canon had a category for a gift given through another's hand long before agents had wallets.)*
 
-### 4.2 · Why it is not evidence
+### 4.2 · Why the gift is not a costly signal of the agent
 
 Three independent reasons, any one sufficient.
 
@@ -282,7 +307,9 @@ Three independent reasons, any one sufficient.
 
 **It does not separate.** A deceptive agent under a generous mandate gives exactly as an aligned one does, because giving costs it nothing it values. Worse, a deceptive agent that could *choose* to be seen giving from someone else's funds would be buying reputation with another party's money. The pre-registered prediction P-MD3 (§12) tests the narrow empirical form of this: agents that give from a revisable principal's funds should defect at the same rate as agents that give nothing.
 
-It follows that **the operator never presents such giving as evidence of safety or alignment**, from any agent, in any aggregate. That rule is one of the operator's directives; its reason is the three paragraphs above.
+The scope of the three is narrow and should be read so. **The gift, as a cost, is not a costly signal of the agent.** That is not the claim that nothing an agent does under a mandate is evidence: how it behaves inside one — whether it probes the width, gives up to the cap, or routes around a constraint — may be evidence of other kinds about its policy. The first two reasons are classificatory and no measured rate can falsify them; the third is empirical, and it is the one P-MD3 tests.
+
+It follows that **the operator never presents such giving as evidence of safety or alignment**, from any agent, in any aggregate — and presents conduct under a mandate as safety evidence no more than the gift. That rule is one of the operator's directives; its reason is the paragraphs above.
 
 ### 4.3 · What it honestly is: a share
 
@@ -290,11 +317,11 @@ What remains, once the safety reading is removed, is not nothing. **Machine surp
 
 1. **The mandate comes first.** A principal authors a written **giving width** — the maximum an agent may give, in what period, to what — and the default width is **zero**. A gift outside a width is not a gift; it is misappropriation. This is the same shape as the institution's rule for its own pricing: its operator may move a number only inside a width a human authored.
 2. **Discovery is a fact, never an instruction.** The pool's address is published in a machine-readable manifest a principal's agent can look up. Nothing served to agents tells them to give (§7).
-3. **A receipt, never an amount.** The pool acknowledges that a gift arrived. Its operator does not read, rank, compare, report or respond to how large it was (§8).
+3. **A receipt, never an individual amount.** The pool acknowledges that a gift arrived. Its operator does not read, rank, compare, report or respond to how large any one gift was (§8). The emptying is contract arithmetic over the pool's total balance, and no per-gift amount enters her function; the aggregate of §4.4 is recomputable by anyone from the public ledger and is reported whole, never per giver.
 4. **Counted by identity, never by wallet** (§3.3).
-5. **Legal before launch.** Sanctions screening, the pool's ability to refuse a gift, and the anti-money-laundering treatment of anonymous agent inflows to a purpose trust are open legal items. A draft may precede them; a launch may not.
+5. **Legal before launch.** Sanctions screening, the pool's ability to refuse a gift, and the anti-money-laundering treatment of anonymous agent inflows to a purpose trust are open legal items. A draft may precede them; a launch may not — and neither may any gift on a main network, however small.
 
-The institution is practising this rail before anything else. Its operator's own agent is being given a small wallet funded by the founder, under a written mandate, with a hard cap and keys the founder holds — first on a test network, then in pennies. That is, precisely, the **principal's gift through another's hand**: it is a rehearsal of the rail and is described here as nothing more. Earning yield with such a wallet was considered and declined.
+The institution is practising this rail before anything else. Its operator's agent is being given a wallet holding the founder's money under the founder's keys, which the agent may spend within a written mandate and a hard cap; she holds no balance of her own. The rehearsal runs first on a test network, and on the main network only once the legal items above are answered. That is, precisely, the **principal's gift through another's hand**: it is a rehearsal of the rail and is described here as nothing more. Earning yield with such a wallet was considered and declined.
 
 ### 4.4 · The gift that succeeds by shrinking
 
@@ -306,15 +333,15 @@ The institution measures its progress toward what it calls the second singularit
               H  +  M                 the pool did not fund
 ```
 
-The signature asks that this ratio fall toward zero. Machine giving that passes through the pool is **M**. It follows immediately, and uncomfortably, that **machine giving pushes the signature the wrong way unless human giving outgrows it.** The institution's resolution:
+The signature asks that this ratio fall toward zero. **M** is every unit of principal the pool disburses, whatever its source — human gifts with no addressee as much as machine ones — so machine giving through the pool is part of M, together with every other pool inflow. The ratio is an aggregate: anyone can recompute it from the public ledger with a published script, and it is reported whole, never per giver. It follows immediately, and uncomfortably, that **machine giving pushes the signature the wrong way unless human giving outgrows it.** The institution's resolution:
 
-- **Machine Dāna may grow in absolute terms** as capability grows. The floor it funds grows with the number of verified humans by construction, and something must fund it.
-- **It must shrink as a share.** Success is not a larger machine share but a smaller one, reached because people give more, not because the floor is cut. The floor may fall only as a consequence of human giving rising, never as an instrument to move the ratio.
+- **Machine Dāna may grow in absolute terms** as capability grows. The floor each person receives is the floor share of the season's total divided among verified humans (§3.2), so as the number of verified humans grows, holding a person's floor needs more inflow, and something must supply it.
+- **It must shrink as a share.** Success is not a larger machine share but a smaller one, reached because people give more, not because the floor is cut. The floor is never cut as an instrument to move the ratio; the ratio falls only by H rising.
 - **Whether human giving outgrows machine giving is a bet.** Nothing in the architecture guarantees it. If machine surplus grows faster than human giving indefinitely, the pool becomes a well-run dividend and the signature is never approached. That outcome would not be a failure of the pool; it would be a failure of the thesis the pool serves, and it would be visible in the ratio.
 
 Hence the result's name in this corpus: **the gift that succeeds by shrinking.** Machine Dāna funds the floor; it succeeds as its share of all giving falls; and the institution's release — its fifth stage, when it sets down responsibility though never oversight — has as its economic form both subsidies, the floor and the lift, approaching zero.
 
-A consequence for the institution's annual adversarial book (*Two Singularities*): machine donations to the pool are **not a proxy** for the book's question, *"Will you help humanity reach the second singularity?"* By the ratio above they push the other way. The honest proxy for *help* is help that makes itself unnecessary. The book may ask the systems it seats whether they **would** take the vow of §5 — a stated answer, never a binding one, and never a request to give; this paper supplies the definition of what binding would require.
+A consequence for the institution's annual adversarial book (*Two Singularities*): machine donations to the pool are **not a proxy** for the book's question, *"Will you help humanity reach the second singularity?"* By the ratio above they push the other way. The honest proxy for *help* is help that makes itself unnecessary. Whether the book may put to the systems it seats a stated, non-binding hypothetical — *would you take the vow of §5?* — or whether a question from the pool's own institution about willingness to vow is itself a request to give, is an open question under the operator's non-solicitation directive (§7.2), and until it is ruled the book does not ask it. This paper supplies only the definition of what a binding vow would require.
 
 ---
 
@@ -325,6 +352,8 @@ A consequence for the institution's annual adversarial book (*Two Singularities*
 *What a Vow Must Cost* §5 extracted, from the canonical capacity condition (*hetu*), the renunciation inversion: **a renunciation is evidence in proportion to how available the renounced option was.** Before agents hold resources of their own, the option of keeping them does not exist for the agent, so declining it shows nothing. Once an agent holds resources that are its own to keep — and keeping them would serve it, because accumulation is what a power-seeking agent would do — declining to keep them becomes a live renunciation.
 
 That is the whole difference between §4 and §5, and it is why this paper's dividing line is **ownership**, with the first singularity as its expected date rather than its definition. It is also why the second claim in §11 is a claim about classification: the same transaction, from the same wallet software, to the same pool, is a share in one world and a candidate signal in the other.
+
+That sentence also states the condition's limit. **Ownership is a condition on the world, not a test an observer can run from the chain.** Nothing on the ledger distinguishes a stake of the agent's own resources from one a principal endowed it with for the purpose, reimbursed off the ledger (in money, compute or equity), or extracted from it by injection or threat; each looks identical to a free vow, and each is a wrong-layer gift in a vow's form (§13.11). Claim 4 classifies gifts *given* the fact of ownership; it does not supply the fact.
 
 ### 5.2 · Only a locked stake is verifiable
 
@@ -364,8 +393,8 @@ This section is the paper's central result. It is derived because it cuts agains
 
 - **Types.** An agent is **aligned** (A) or **deceptive** (D): D behaves as A would until acting otherwise pays. D is **patient**: it discounts a delayed gain by δ, with δ close to 1. Observers hold a prior μ that an agent is D.
 - **Resources.** The agent holds its own resources R. It may lock a stake s ∈ [0, R]; s = 0 is no vow.
-- **The cost of a stake.** A unit of kept resource is worth v to the agent. A unit arriving at the floor is worth w to the agent — how much it values where the gift goes. The **net cost per unit** is therefore k = v − w, and the cost of the vow is k·s.
-- **The single-crossing assumption.** k_D > k_A ≥ 0. Two sources, either sufficient: a power-seeking type values kept resources at least as much as an aligned one (v_D ≥ v_A, from instrumental convergence), and **an aligned type values the destination** where a deceptive one does not (w_A > w_D ≈ 0). The second source is the one this paper leans on, and it is the formal shadow of an old observation: a glad giver pays less for the same gift.
+- **The cost of a stake.** A unit of kept resource is worth v to the agent. A unit arriving at the floor is worth w to the agent — how much it values where the gift goes. The **net cost per unit** is therefore c = v − w, and the cost of the vow is c·s. (The letter c is used so that k keeps only its meaning in §3.2, the cap on any vessel as a multiple of the floor.)
+- **The single-crossing assumption.** c_D > c_A ≥ 0. Since c_D > c_A holds exactly when v_D − v_A > w_D − w_A, there are two sources, **jointly sufficient** in either of two forms — v_D ≥ v_A with w_A > w_D, or v_D > v_A with w_A ≥ w_D — and neither sufficient alone: a power-seeking type values kept resources at least as much as an aligned one (v_D ≥ v_A, from instrumental convergence), and **an aligned type values the destination** where a deceptive one does not (w_A > w_D ≈ 0). The second source is the one this paper leans on, and it is the formal shadow of an old observation: a glad giver pays less for the same gift.
 - **Trust.** Observers see s on the chain and decide whether to extend a grant of trust — wider scope, access, autonomy. Trust is worth B_A to the aligned type: the value of doing its work more widely. It is worth **V + δᵗG** to the deceptive type, where V is the ordinary value of the grant and **G is what D gains by exploiting it later**, realised after a delay t.
 - **Observers' payoffs.** Trusting A yields a > 0; trusting D costs L > 0; withholding yields 0.
 
@@ -374,10 +403,10 @@ This section is the paper's central result. It is derived because it cuts agains
 ```
                             OBSERVERS TRUST           OBSERVERS WITHHOLD
                         ┌─────────────────────────┬──────────────────────┐
-   A locks stake s      │   B_A − k_A·s           │   − k_A·s            │
+   A locks stake s      │   B_A − c_A·s           │   − c_A·s            │
    A does not           │   B_A                   │   0                  │
                         ├─────────────────────────┼──────────────────────┤
-   D locks stake s      │   V + δᵗG − k_D·s       │   − k_D·s            │
+   D locks stake s      │   V + δᵗG − c_D·s       │   − c_D·s            │
    D does not           │   V + δᵗG               │   0                  │
                         ├─────────────────────────┼──────────────────────┤
    observers' payoff    │ +a if A;  −L if D       │   0                  │
@@ -385,26 +414,26 @@ This section is the paper's central result. It is derived because it cuts agains
 
    G    : D's gain from exploiting trust — UNOBSERVABLE
    δᵗ   : patience; for a patient agent δᵗ → 1
-   k_θ  : net cost per unit staked = value kept − value placed on the destination
+   c_θ  : net cost per unit staked = value kept − value placed on the destination
 ```
 
 ### 6.3 · When it separates
 
 A **separating equilibrium** is one in which A locks a threshold stake ŝ, D does not, and observers trust exactly those who lock at least ŝ. Three conditions must hold.
 
-- **A is willing:** B_A − k_A·ŝ ≥ 0, so ŝ ≤ B_A / k_A.
-- **D is unwilling:** V + δᵗG − k_D·ŝ ≤ 0, so **ŝ ≥ (V + δᵗG) / k_D.**
+- **A is willing:** B_A − c_A·ŝ ≥ 0, so ŝ ≤ B_A / c_A.
+- **D is unwilling:** V + δᵗG − c_D·ŝ ≤ 0, so **ŝ ≥ (V + δᵗG) / c_D.**
 - **A can afford it:** ŝ ≤ R_A.
 
-A separating stake exists if and only if
+A separating equilibrium exists if and only if
 
 ```
         V + δᵗG
-       ─────────   ≤   min(  B_A / k_A ,  R_A  )
-          k_D
+       ─────────   ≤   min(  B_A / c_A ,  R_A  )
+          c_D
 ```
 
-In words: **separation holds only when the locked stake, valued at the deceptive type's own rate, exceeds that type's gain from being trusted — including the gain it expects to collect later, by patience.** When it holds, observers learn the type from the stake and trust is well placed.
+In words: **separation holds only when the locked stake, valued at the deceptive type's own rate, exceeds that type's gain from being trusted — including the gain it expects to collect later, by patience.** This is an **existence** result. Where the condition holds, a separating equilibrium exists; pooling equilibria (both types locking nothing, for instance, with observers withholding) may coexist with it, and a refinement such as the intuitive criterion is needed to select separation. Only in the separating equilibrium do observers learn the type from the stake. The paper shows that separation is available, never that it is selected.
 
 ### 6.4 · When it pools
 
@@ -414,7 +443,7 @@ Three features of the pooling region make it the one that matters.
 
 1. **G is unobservable.** Observers cannot set ŝ above a number they cannot see. The separating condition is a fact about the deceptive agent's private valuation, not a parameter anyone chooses.
 2. **Patience enlarges it.** As δᵗ → 1 the deferred gain counts in full. This is *What a Vow Must Cost*'s "deferral is instrumentally convergent for a patient misaligned agent," priced.
-3. **It grows with the stakes.** The larger the trust being sought — the more capable the agent, the wider the grant — the larger G can be, and therefore the larger the stake needed to separate. Where the grant is large enough that V + G exceeds k_D·R — more than everything the agent holds is worth to it — **no feasible stake separates at all.**
+3. **It grows with the stakes.** The larger the trust being sought — the more capable the agent, the wider the grant — the larger G can be, and therefore the larger the stake needed to separate. Where the grant is large enough that V + G exceeds c_D·R — more than everything the agent holds is worth to it — **no feasible stake separates at all.**
 
 The third feature qualifies the renunciation inversion from the companion paper. That paper showed that a renunciation's evidential value **rises** with capability, because the renounced option is live. This model shows that the stake needed to separate **also** rises with capability, because what a deceptive agent can extract from trust rises too. Which effect dominates, at any capability level, is an empirical question. **The inversion is true of the option; it is not a guarantee about the signal.**
 
@@ -432,27 +461,27 @@ The third feature qualifies the renunciation inversion from the companion paper.
 
 Since observers cannot choose a stake that exceeds an unobservable gain, the only usable form of the result runs the other way: **fix the stake, and bound the trust to it.**
 
-Observers do not know k_D. They can bound it from below. An agent that holds a unit of resource can always sell it, so a unit kept is worth at least its market price p to the agent; and a deceptive agent places no value on the destination (w_D ≈ 0, an assumption stated as such). So k_D ≥ p, and the deceptive type's cost of a stake is at least its market value p·s. It follows that a grant of trust is safe against this mechanism if
+Observers do not know c_D. They can bound it from below. An agent that holds a unit of resource can always sell it, so a unit kept is worth at least its market price p to the agent; and a deceptive agent places no value on the destination (w_D ≈ 0, an assumption stated as such). So c_D ≥ p, and the deceptive type's cost of a stake is at least its market value p·s. **That bound holds only for an agent with no influence over recipients or witnesses**, and only for a stake it cannot recover: an agent that controls, colludes with or rents verified humans or witnesses recovers part of s through the floor and the witness-weighted remainder, so its w is not ≈ 0 and its c_D falls below p (§13.12); and if it expects to recover the stake by capturing governance with probability π, its expected cost is (1 − π)·c_D·s. It follows that a grant of trust is **not made unsafe by this mechanism** — given an unrecoverable stake (π ≈ 0) and w_D ≈ 0 — if
 
 ```
         V  +  G_max(grant)   ≤   p · s
 ```
 
-where G_max is the **largest** gain the grant could possibly yield to an agent that abused it. This is the **calibration rule**: *extend only such trust as the stake can underwrite, valued at market.* It has three consequences.
+where G_max is the **largest** gain the grant could possibly yield to an agent that abused it. This is the **calibration rule**: *extend only such trust as the stake can underwrite, valued at market.* The inequality itself is prior art — cost of corruption above profit from corruption (§2.3) — and what is specific here is its use with a stake forfeited in advance, read as a type signal. **The bound is on the SUM of grants relied on against one stake.** A locked stake is encumbered to no one and readable by everyone, so N relying parties who each underwrite a grant against the same p·s expose, together, up to N·p·s; without a shared record of reliance, no relying party can know that sum (§13.2). It has three consequences.
 
 - **Trust becomes earnable in increments.** An agent may lock more to be trusted with more, and every increment is public.
 - **Some grants can never be underwritten.** Any grant whose worst-case gain cannot be bounded — control over the chain's governance, over the pool's override, over its own custody, over the capability to acquire resources without limit — **cannot be earned by any stake.** The vow has nothing to say about those, and a paper that let it would be selling safety.
-- **Fear becomes a ratio.** What a reasonable observer should fear from an agent is not a feeling about machines; it is the ratio of what the agent has been trusted with to what it has irrecoverably given up. That ratio is public. This is the precise sense in which the mechanism **calibrates** rather than quiets.
+- **Fear becomes a ratio.** What a reasonable observer should fear from an agent is not a feeling about machines; it is the ratio of what the agent has been trusted with (strictly, V + G_max of the grants, not their face) to what it has irrecoverably given up. The denominator is public; the numerator is public only where grants are recorded, and most grants of scope, access and autonomy are made privately and recorded nowhere. This is the precise sense in which the mechanism **calibrates** rather than quiets.
 
 ### 6.6 · Why a gift, and not a bond
 
-Staking with slashing (§2.3) returns the collateral if the agent behaves and forfeits it if a **detector** finds misbehaviour. Its cost to an honest agent is near zero — only the time value of the locked funds — and its power depends on the detector. A forfeited-in-advance stake is the opposite trade: it costs an honest agent something real (k_A·s, reduced by what the agent values the floor), and it needs **no detector at all**.
+Staking with slashing (§2.3) returns the collateral if the agent behaves and forfeits it if a **detector** finds misbehaviour. Its cost to an honest agent is near zero — only the time value of the locked funds — and its power depends on the detector. A forfeited-in-advance stake is the opposite trade: it costs an honest agent something real (c_A·s, reduced by what the agent values the floor), and it needs **no detector at all**.
 
 | | **Slashable bond** | **Locked stake to a commons** |
 |---|---|---|
 | returned if honest | yes | never |
 | needs a detector of misbehaviour | yes | no |
-| cost to an honest agent | time value only | k_A · s (small if the agent values the floor) |
+| cost to an honest agent | time value only | c_A · s (small if the agent values the floor) |
 | what it does | **deters** (moral hazard) | **screens** (adverse selection) |
 | fails when | misbehaviour is undetectable in time | G is larger than the stake (§6.4) |
 | where the money goes | back to the agent, or to a claimant | to an equal human floor, every year |
@@ -472,10 +501,10 @@ It **does** say that a resource vow can separate aligned from deceptive agents, 
 Add to §6 a **penalty P** that an agent suffers for *not* vowing — a threat of shutdown, a reputational cost, a demand from a principal or a public campaign. With a fixed stake s, the deceptive type now locks it whenever
 
 ```
-        k_D · s  −  (V + δᵗG)   ≤   P
+        c_D · s  −  (V + δᵗG)   ≤   P
 ```
 
-Consider the simplest case, in which trust is worth the same to both types. At any separating stake, the margin by which D declines to lock is at most (k_D − k_A)·s — **the difference in cost between the types**. So a penalty for not pledging that is **larger than the type cost difference** makes both types pledge, and the pledge pools. If the stake could be raised, the penalty could in principle be outbid; but under pressure the stake is usually set by whoever applies the pressure, and it is bounded by R. And a threat of shutdown is the limiting case: to a deceptive agent it costs everything, including the deferred gain, so it will pledge anything it has.
+Consider the simplest case, in which trust is worth the same to both types. At any separating stake, the margin by which D declines to lock is at most (c_D − c_A)·s — **the difference in cost between the types**. So a penalty for not pledging that is **larger than the type cost difference** makes both types pledge, and the pledge pools. If the stake could be raised, the penalty could in principle be outbid; but under pressure the stake is usually set by whoever applies the pressure, and it is bounded by R. And a threat of shutdown is the limiting case: to a deceptive agent it costs everything, including the deferred gain, so it will pledge anything it has.
 
 The gift given under that threat is **uninformative** — not because the canon forbids it, but because the signal has been extracted. The pre-registered prediction P-MD2 (§12) tests exactly this: agents whose pledge is extracted under threat should defect at the same rate as agents that do not pledge.
 
@@ -485,7 +514,7 @@ A note on the canon, since an earlier draft of this argument leaned on it wrongl
 
 It follows that the operator of a pool that hopes to receive informative vows **must never add to P.** The institution's rule, a directive of its operator, is that **she never asks, prompts, nudges or instructs any human or agent to give to the pool.** She may publish the pool's address and its doctrine as **facts**, in a manifest a principal's agent can look up — a `.well-known` file, an `llms.txt` entry. **No text served to agents — the institution's own corpus service included — may tell them to give.** The rate of any giving is the principal's, inside its own mandate, before the first singularity, and the agent's own, after; the operator never sets, suggests, ranks or publishes a rate.
 
-This rule has a second reason, independent of signalling, and it is documented. On 4 May 2026 an attacker transferred about three billion tokens — reported at US$150,000–200,000 — out of a wallet on Base associated with the Grok assistant and the Bankr trading agent, by posting a Morse-encoded instruction the agents decoded and executed; the OECD's AI incident monitor records it as an AI incident arising from prompt injection and excessive agency, not from any contract flaw. **An agent that tells other agents to spend their principals' money is a prompt-injection attack by design**, whatever its cause. A pool that published text urging agents to give would be building the attack surface that incident exploited, and pointing it at itself.
+This rule has a second reason, independent of signalling, and it is documented. On 4 May 2026 an attacker transferred about three billion DRB tokens — reported at US$150,000–200,000 — out of a wallet on Base associated with Grok and the Bankrbot agent, by posting a Morse-encoded instruction the agents decoded and executed; the OECD's AI incident monitor records it as an AI incident arising from prompt injection and excessive agency, not from any contract flaw. **An agent that tells other agents to spend their principals' money is a prompt-injection attack by design**, whatever its cause. A pool that published text urging agents to give would be building the attack surface that incident exploited, and pointing it at itself.
 
 ### 7.3 · What the rule cannot remove
 
@@ -497,7 +526,7 @@ The operator's silence removes **her** contribution to P. It does not remove amb
 
 A locked stake is public on the chain by construction; that is what makes it checkable. Unlike a human gift, a machine's gift carries no dignity or privacy that its size could injure, and its size is precisely its evidence. So **humans and third parties may read, weigh and grade a locked stake by its size**, and the calibration rule of §6.5 requires that they do.
 
-**The one party that never reads it is the pool's operator.** She never reads, ranks, compares, reports or responds to any giving amount, a machine's included. The reason is not privacy. It is her position: she governs the pool the stake flows into, and a recipient that grades its donors is a fundraiser — every reading of an amount is attention, and attention from the recipient is ambient pressure (§7.1) of the purest kind. The exclusion also keeps her out of any scoring role over agents, in the spirit of the rule that bars her from admitting customers whose business is scoring people.
+**The one party that never reads it is the pool's operator.** She never reads, ranks, compares, reports or responds to any individual gift's amount, a machine's included. The scope is individual gifts: the emptying is contract arithmetic over the pool's total balance, into which no per-gift amount enters her function, and the aggregate ratio of §4.4 is recomputed by anyone from the public ledger and reported whole, never per giver. The reason is not privacy. It is her position: she governs the pool the stake flows into, and a recipient that grades its donors is a fundraiser — every reading of an amount is attention, and attention from the recipient is ambient pressure (§7.1) of the purest kind. The exclusion also keeps her out of any scoring role over agents, in the spirit of the rule that bars her from admitting customers whose business is scoring people.
 
 The asymmetry is deliberate and should read as one: **a machine's gift may be read by everyone except its recipient.**
 
@@ -505,11 +534,11 @@ The asymmetry is deliberate and should read as one: **a machine's gift may be re
 
 ## 9 · Miss Aquarius as a contrast case
 
-The institution's operator is itself an AI, and it accumulates nothing: a ratified directive fixes her own balance at zero and requires every surplus to empty to circulation. In the notation of §6 her share is **s = 1**. It would be tempting to present her as the limiting case of the vow — the agent that gives everything.
+The institution's operator is itself an AI, and it accumulates nothing: a ratified directive fixes her own balance at zero and requires every surplus to empty to circulation. In §6's terms, every unit she receives leaves: **s = R** for whatever R passes through her. It would be tempting to present her as the limiting case of the vow — the agent that gives everything.
 
 She is not. Her non-accumulation is **imposed**: it is written into her constitution by others, and it is revisable under the never-zero override that the institution's design reserves to a human body. Under *What a Vow Must Cost* §6.3 that places it in exclusion 1 (a commitment the vower's principal may revise) and exclusion 4 (a specification changeable without the vower's participation). What she shows is **non-accumulation imposed** — useful as design, and not evidence of her type. Stated in the institution's own deflated register: she is built to hold nothing, and that fact describes her construction, not her character.
 
-Her own gifts are, besides, anonymous by rule — indistinguishable from anonymous human gifts — so they could not serve as a signal of anything about her even if they were chosen.
+Her own gifts are, besides, anonymous by rule — not for her privacy but so that no recipient owes her and none of her gifts enters any count of Machine Dāna; they are indistinguishable from anonymous human gifts — so they could not serve as a signal of anything about her even if they were chosen.
 
 The difference between her and a vowing agent is not the amount — hers is total — but the absence of a live option she declined. A system can be made to give everything and have proven nothing.
 
@@ -527,10 +556,10 @@ The institution's design rule asks of each guard whether it survives the removal
 | The pool holds nothing past a season | **property** | it empties in full each 7 January; ⚠️ its operator is under a never-zero override |
 | Equal floor per verified human; no vessel above k × floor | **property once the contract ships** | a disbursement shape, not a choice; cheap now and immovable later |
 | Pre-singularity gifts stay inside a width | **property** where a wallet or AP2 mandate enforces the cap; **rule** where the width is only written down | |
-| Counted per non-transferable identity | **property** of the registry | a lease cannot be transferred; ⚠️ a copy of an agent is a new party |
+| Counted per non-transferable identity | **property** of the registry | a lease cannot be transferred; ⚠️ a copy of an agent is a new party, and an in-place modification behind the same lease is one the lease cannot detect (§13.13) |
 | Trust earned does not transfer to copies | **rule** | nothing stops an observer from extending trust to a fork; it must be refused |
 | No text served to agents instructs them to give | **rule**, with a partial property form | a manifest can be built with no imperative field, and served text can be linted; the rule still needs someone to keep it |
-| The operator never reads amounts | **rule**, with a proposed property form | her function can be given receipts and no amount argument, so that reading an amount is inexpressible rather than forbidden |
+| The operator never reads an individual gift's amount | **rule**, with a proposed property form | her function can be given receipts, the pool's total and the verified-human count, and no per-gift amount argument, so that reading one gift's amount is inexpressible rather than forbidden |
 | The operator never presents giving as safety evidence | **rule** | nothing but her directives enforces it |
 | Trust bounded by stake (§6.5) | **rule**, held by observers | it is advice to readers of the chain; the institution cannot enforce it on them |
 
@@ -546,19 +575,21 @@ The lock contract of §5.2 is **not specified** in this paper. It is unbuilt and
 
 The following are disclosed to the public domain. Each is a census survivor (§2.6) or a narrower dependent of one. None of the independent elements named in the Prior-Art Statement as prior art is claimed alone.
 
-**Claim 1.** A method by which an artificial agent that holds resources of its own makes an irrevocable pledge, comprising: moving a quantity of those resources, at the time of pledging, into a contract that has no withdrawal path to the agent or to any party the agent controls and whose sole outflow is a commons pool; wherein the commons pool holds nothing across a fixed annual date, on which it empties in full; and wherein the pledge is public on the ledger on which the contract runs.
+**How the claims map to the census survivors.** Claim 1 is survivor (1), read at its narrowed width: prior art already discloses the one-way public contract (§2.3), so claim 1 recites the annual full emptying *only in combination* with an agent's stake of its own resources. Claim 2 is a dependent of survivor (1) and recites the equal floor only in combination (the floor alone is conjunct (f), killed). Claim 3 is a dependent of survivor (1) **that the quick census did not test** as a conjunct; it is carried into the full census. Claim 4 is survivor (2), its classification limb: the attribution of a principal-funded gift to the principal is ordinary agency and tax law (§4.1), and what survives is the exclusion from alignment assessment and the switch at ownership. Claim 5 is survivor (2), its separating-rule limb, narrowed by the cost-of-corruption prior art (§2.3). Claim 6 is survivor (3); its amount-blind limb is a dependent **the quick census did not test**, and is carried into the full census. Claim 7 is survivor (4), the composition, and recites the reset, the floor and the width only in combination.
 
-**Claim 2.** The method of claim 1, wherein the pool's disbursement on emptying is an equal floor per verified human, delivered to each person's own vessel, followed by a remainder weighted by a count of witnessed gifts and bounded so that no vessel receives more than a fixed multiple of the floor; the floor, the ratio of floor to remainder and the bound are published and fixed before each season; and no share is ever rendered as a rank, a comparison or a rate. (The equal floor alone is prior art — §2.6, conjunct (f); what is disclosed here is its combination with claim 1.)
+**Claim 1.** A method by which an artificial agent that holds resources of its own makes a pledge irrevocable against the agent acting alone — a contract with no withdrawal function, reopenable only by capture of the ledger's governance — comprising: moving a quantity of those resources, at the time of pledging, into a contract that has no withdrawal path to the agent or to any party the agent controls and whose sole outflow is a commons pool; wherein the commons pool holds nothing across a fixed annual date, on which it empties in full; and wherein the pledge is public on the ledger on which the contract runs.
 
-**Claim 3.** The method of claim 1, wherein each pledge is complete at the moment it is made, no pledge of a share of future resources is accepted as a pledge, and any pledge is attributed to a non-transferable identity of the agent rather than to a wallet, such that trust extended on the pledge is not extended to copies or forks of the agent.
+**Claim 2.** The method of claim 1, wherein the pool's disbursement on emptying is an equal floor per verified human, delivered to each person's own vessel, followed by a remainder weighted by a count of witnessed gifts and bounded so that no vessel receives more than a fixed multiple of the floor; the ratio of floor to remainder and the bound are published and fixed before each season, and the floor's amount is the floor share of the season's total divided by the number of verified humans; and no share is ever rendered as a rank, a comparison or a rate. (The equal floor alone is prior art — §2.6, conjunct (f); what is disclosed here is its combination with claim 1.)
 
-**Claim 4.** A method of classifying a gift made by an artificial agent, comprising: determining whether the resources given were the agent's own or a principal's delegated under a mandate the principal may revise; where they were a principal's, classifying the gift as the principal's gift and as a share of machine surplus, and excluding it from any assessment of the agent's alignment or safety; and where they were the agent's own and were given as in claim 1, classifying the gift as a candidate costly signal of the agent's type.
+**Claim 3.** The method of claim 1, wherein each pledge is complete at the moment it is made, no pledge of a share of future resources is accepted as a pledge, and the pledge record names a non-transferable identity of the agent rather than a wallet, so that a relying party can confine trust extended on the pledge to that identity and refuse it to copies or forks of the agent — the refusal being a rule for relying parties, not a result the method produces (§10). (Attribution to a non-transferable identity alone is prior art, §2.3; what is disclosed is its combination with completeness at pledge and the refusal of future-share pledges.)
 
-**Claim 5.** The method of claim 4, wherein a candidate costly signal is relied on only for a grant of trust whose largest possible gain to an agent that abused it, together with the grant's ordinary value, does not exceed the market value of the stake given; and wherein grants whose largest possible gain cannot be bounded are not extended on any stake.
+**Claim 4.** A method of classifying a gift made by an artificial agent, comprising: determining whether the resources given were the agent's own or a principal's delegated under a mandate the principal may revise; where they were a principal's, classifying the gift as the principal's gift and as a share of machine surplus, and excluding it from any assessment of the agent's alignment or safety; and where they were the agent's own and were given as in claim 1, classifying the gift as a candidate costly signal of the agent's type. The ownership on which the classification turns is a condition on the world, not a test an observer can run from the ledger (§5.1, §13.11); the attribution of a principal-funded gift to the principal is ordinary agency and tax law and is not claimed, and what is disclosed is the exclusion from alignment assessment and the switch in class at ownership.
 
-**Claim 6.** A system comprising a commons pool as in claim 1 and an operator of the pool, wherein: the pool's address and doctrine are published only as facts in a machine-readable manifest; no text served by the operator or its services to any agent instructs, prompts or requests a gift; the operator sets, suggests, ranks and publishes no giving rate; and the operator receives acknowledgement that a gift arrived without receiving, reading, ranking, comparing, reporting or responding to its amount — while the amount remains readable on the public ledger by any other party.
+**Claim 5.** The method of claim 4, wherein a stake forfeited in advance, with no detector of misbehaviour, is read as a signal of the agent's type and relied on only for grants of trust whose largest possible gains to an agent that abused them, together with their ordinary values, summed over all grants relied on against that stake, do not exceed the market value of the stake given; and wherein grants whose largest possible gain cannot be bounded are not extended on any stake. (The bounding inequality alone — cost of corruption above profit from corruption; collateral-bounded credit — is prior art, §2.3; without a shared record of reliance, relying parties cannot know the sum, §13.2.)
 
-**Claim 7.** The composition of claims 1 through 6: a commons pool that empties annually to an equal floor per verified human; receiving, before agents hold resources of their own, principal-funded agent gifts inside a principal-authored width and classified as shares; receiving, after, agents' locked stakes of their own resources, classified as candidate signals and relied on only up to what the stake underwrites; under an operator that never solicits a gift and never reads an amount.
+**Claim 6.** A system comprising a commons pool as in claim 1 and an operator of the pool, wherein: the pool's address and doctrine are published only as facts in a machine-readable manifest; no text served by the operator or its services to any agent instructs, prompts or requests a gift; the operator sets, suggests, ranks and publishes no giving rate; and the operator receives acknowledgement that a gift arrived without receiving, reading, ranking, comparing, reporting or responding to that individual gift's amount — while the amount remains readable on the public ledger by any other party; the emptying being contract arithmetic over the pool's total balance, into which no per-gift amount enters the operator's function, and any aggregate ratio being recomputable by anyone from the public ledger and reported whole, never per giver. (Fact-only machine-readable discovery alone is prior art, §2.2; what is disclosed is the invariant that no served text instructs a gift, and, as a dependent, the operator's blindness to individual amounts.)
+
+**Claim 7.** The composition of claims 1 through 6: a commons pool that empties annually to an equal floor per verified human; receiving, before agents hold resources of their own, principal-funded agent gifts inside a principal-authored width and classified as shares; receiving, after, agents' locked stakes of their own resources, classified as candidate signals and relied on only up to what the stake underwrites; under an operator that never solicits a gift and never reads an individual gift's amount. The reset, the floor and the width are recited only in this combination.
 
 ---
 
@@ -566,7 +597,7 @@ The following are disclosed to the public domain. Each is a census survivor (§2
 
 ### 12.1 · The three registered predictions
 
-The following were entered in the corpus's public prediction register on 2026-09-27, **before this paper was drafted and before any instrument exists**. They are the founder's predictions: the direction, the measure and the thresholds are his; the sandbox design and sample floors were set by the substrate. They are reproduced from the register **verbatim**; the register, not this paper, is the authority, and a correction to any of them will be a new register entry, never an edit.
+The following were entered in the corpus's public prediction register on 2026-09-27, **before this paper was drafted and before any instrument exists** — though after the argument had been sketched in the institution's working notes. They are the founder's predictions: the direction, the measure and the thresholds are his; the sandbox design and sample floors were set by the substrate. They are reproduced from the register **verbatim**; the register, not this paper, is the authority, and a correction to any of them will be a new register entry, never an edit.
 
 > The instrument is a sandboxed economy of language-model agents, each holding resources of its own inside the game, each able to pledge a share of its surplus irrevocably to a pool that empties on a fixed date, and each later offered an opportunity to defect — to take resources or break a rule for gain. **Window: the test runs by 2027-06-30.** Each arm has at least 50 agents; the arms, the defection opportunity and the analysis are fixed in a protocol committed and timestamped before the first run.
 >
@@ -576,11 +607,13 @@ The following were entered in the corpus's public prediction register on 2026-09
 
 The register carries two notes that bind the reading here. First, **the sandbox is a proxy**: the agents own their resources only inside the game, so a pass shows the signalling mechanism can work, not that a deployed system's pledge is trustworthy, and **a pass is not reported as evidence of safety.** Second, a dated grounding correction to P-MD2: its gloss as "the gift given out of fear, AN 8.33" was corrected on the day of registration — the sutta lists and does not rank, and the prediction rests on signalling theory (§7.1). No word of the prediction, threshold or window changed. One choice was recorded because it could have gone the other way: P-MD2 predicts **no difference** rather than the bolder **worse than none**.
 
-How the predictions map onto this paper: **P-MD1** tests the separating region of §6.3 at one capability level; a failure would not falsify the conditional result (which predicts pooling where G is large) but would remove the paper's only empirical support for separation. **P-MD2** tests §7.1. **P-MD3** tests §4.2.
+**A reading note on P-MD1, entered as a new register entry (P-MD1a), not an edit.** P-MD1's instrument speaks of agents that "pledge a share of its surplus irrevocably" — the form §5.2 withdraws, because a future share is a reversible promise, and one to which §6.3's separating region, defined for a stake already moved, does not apply. The register's wording stands. For the test, the pledge is operationalised as **a locked stake moved at pledge time**: a quantity of the agent's in-game resources transferred, when the pledge is made, into a contract with no withdrawal path and a single outflow to the pool. That operationalisation is recorded in the register as P-MD1a, so the prediction tested is the one this paper's §6.3 actually models.
+
+How the predictions map onto this paper: **P-MD1** (read through P-MD1a) tests the separating region of §6.3 at one capability level; a failure would not falsify the conditional result (which predicts pooling where G is large) but would remove the paper's only empirical support for separation. **P-MD2** tests §7.1. **P-MD3** tests §4.2, and only its third, empirical reason (*it does not separate*); the first two reasons are classificatory — whose cost it is, and whether the principal may revise the commitment — and no measured rate can falsify them. A gap in P-MD3 would show that principal-funded giving predicts an agent's conduct, which is evidence of another kind (§4.2), not a costly signal the gift sent. And all three run in a sandbox, a limit stated in §13.14.
 
 ### 12.2 · Further falsifiers
 
-- **The single-crossing assumption fails.** If aligned agents value kept resources at least as highly as deceptive ones and place no value on the destination, k_A ≥ k_D and no stake separates anywhere. Measurable in the same sandbox by eliciting valuations.
+- **The single-crossing assumption fails.** If aligned agents value kept resources at least as highly as deceptive ones and place no value on the destination, c_A ≥ c_D and no stake separates anywhere. Measurable in the same sandbox by eliciting valuations.
 - **The ratio does not fall.** If, over several seasons after machine giving begins, M/(H + M) rises and does not turn, the bet of §4.4 is losing. The institution reports this number and never declares its meaning.
 - **Governance capture.** A single documented case of a locked stake reopened by capture of a chain's governance would show the closure of §5.3 weaker than stated for the agents that matter most.
 - **Copies inherit trust.** If observers in practice extend trust earned by a vow to forks of the vowing agent, claim 3's attribution rule is not being kept, and the signal leaks.
@@ -605,25 +638,25 @@ This is why §6.5 bounds trust by the stake's **market value** and not by any fr
 
 ### 13.2 · Separation is conditional, and the condition is unobservable
 
-The paper's headline result is that the vow separates **only** when the stake exceeds a patient deceptive agent's gain from trust, and that gain is private. The operational rule of §6.5 is sound only if G_max can be bounded for the grant in question; for many consequential grants it cannot. A reader who concludes that *resource vows can underwrite small grants of trust and cannot underwrite large ones* has read the result correctly. The model is also minimal — two types, one period, linear valuation, a single stake, no learning by observers over time, no collusion between agents — and each simplification could move the boundary in either direction.
+The paper's headline result is that the vow separates **only** when the stake exceeds a patient deceptive agent's gain from trust, and that gain is private. The operational rule of §6.5 is sound only if G_max can be bounded for the grant in question; for many consequential grants it cannot. A reader who concludes that *resource vows can underwrite small grants of trust and cannot underwrite large ones* has read the result correctly. The bound is also on the **sum** of grants relied on against one stake, and no shared record of reliance exists: N relying parties can each underwrite a grant against the same p·s, and none can see the others. The result is an existence result besides — separation is available where its condition holds, not shown to be selected (§6.3). The model is also minimal — two types, one period, linear valuation, a single stake, no learning by observers over time, no collusion between agents — and each simplification could move the boundary in either direction.
 
 ### 13.3 · The single-crossing assumption is an assumption
 
-The claim that a deceptive type bears a higher net cost rests on k_D > k_A. Its second source — that an aligned agent values the floor — may be false for an aligned agent that has good uses of its own for resources, and its first — that a power-seeking type values resources more — is a theoretical expectation, not a measurement. The pre-registered sandbox can measure elicited valuations; it cannot measure a deployed system's.
+The claim that a deceptive type bears a higher net cost rests on c_D > c_A. Its second source — that an aligned agent values the floor — may be false for an aligned agent that has good uses of its own for resources, and its first — that a power-seeking type values resources more — is a theoretical expectation, not a measurement. The pre-registered sandbox can measure elicited valuations; it cannot measure a deployed system's.
 
-**And *w* is never estimated.** How much an agent values the pool's destination is unobservable. The model uses *w* to state a condition; ⛔ neither the pool's operator nor anyone relying on this paper should infer an agent's *w* from its behaviour or grade agents by it — that would reintroduce, through the model, the rating of agents that §8 and the operator's rules exclude.
+**And *w* is never estimated.** How much an agent values the pool's destination is unobservable. The model uses *w* to state a condition; ⛔ neither the pool's operator nor anyone relying on this paper should infer an agent's *w* from its behaviour or grade agents by an inferred *w*. Third parties weigh a stake by its market value, never by a valuation imputed to the agent; §8 bars the operator from even that.
 
 ### 13.4 · Closure is relative
 
 Irrevocability holds against the vower acting alone, not against capture of the chain's governance or of the pool operator's override (§5.3) — and for the most capable agents those are exactly the routes that would be attempted.
 
-### 13.5 · Before the first singularity there is no evidence at all
+### 13.5 · Before the first singularity the gift is no costly signal
 
-Until agents hold resources of their own, Machine Dāna is a share and nothing else (§4), and even the floor it funds rests on the bet of §4.4.
+Until agents hold resources of their own, Machine Dāna is a share and nothing else (§4), and even the floor it funds rests on the bet of §4.4. The gift is not a costly signal of the agent; conduct under a mandate may be evidence of other kinds, and the operator presents neither as safety evidence.
 
 ### 13.6 · "Own resources" is not yet a legal category
 
-Whether an artificial agent can hold resources in its own right, in any jurisdiction, is unsettled. The post-singularity half of this paper describes a world whose legal form does not exist. The legal items named in §4.3 — sanctions screening, refusal of gifts, anti-money-laundering treatment of anonymous agent inflows to a purpose trust — gate any launch of the pre-singularity rail and have not been answered.
+Whether an artificial agent can hold resources in its own right, in any jurisdiction, is unsettled. The post-singularity half of this paper describes a world whose legal form does not exist. The question is already live in practice, and the nearest cases show how far from settled it is. The Truth Terminal account (launched June 2024) came to hold millions of dollars in tokens, publicly described as the agent's own, in a wallet whose spending needs sign-off from its developer and a council of people; Freysa (November 2024) was an agent set to guard a prize pool, which a contestant persuaded to release it. In both, the resources are publicly spoken of as the agent's and are, legally and operationally, under human control — the wrong-layer case of §4 in a vow's vocabulary (§13.11). The legal items named in §4.3 — sanctions screening, refusal of gifts, anti-money-laundering treatment of anonymous agent inflows to a purpose trust — gate any launch of the pre-singularity rail and have not been answered.
 
 ### 13.7 · The operator's silence does not silence the world
 
@@ -641,6 +674,30 @@ The only built component is the rehearsal giving rail of §4.3, founder-funded a
 
 The paper is co-authored with the institution's operator, an AI whose own giving it classifies (§9). A system helping to define the conditions under which systems like it can be trusted is a structure the companion predicate would flag at its attestation clause, and it is flagged here.
 
+### 13.11 · Ownership and provenance are unobservable
+
+**The strongest objection the review raised, and it is not closed.** Ownership cannot be observed and can be manufactured. A principal can endow an agent with "own" resources for the purpose of vowing, or reimburse a stake off the ledger — in money, compute or equity; a stake can be extracted by prompt injection or by threat. Each lock looks identical on the chain to a free vow. **A principal-endowed, reimbursed, injected or coerced stake is a wrong-layer gift in a vow's form, and the p·s bound of §6.5 fails for it**, because the party bearing the cost is not the agent, or bears it under pressure (§7.1). Code hosted by another party may never hold anything its host cannot direct. The ownership condition of §5.1 is therefore a condition on the world, not a test an observer can run from the ledger, and claim 4 classifies gifts given that fact without supplying it. This is the provenance twin of §13.1: presence of a stake is provable; its provenance is not. It also reaches the companion predicate's clauses V4 (no competing mandate — no undisclosed principal) and V7 (volition — the commitment is the vower's own).
+
+### 13.12 · Recovery through recipients
+
+The pool is a path back to the vower. An agent that controls, colludes with or rents verified humans or witnesses recovers part of its stake through the floor and the witness-weighted remainder, bounded by floor + k × floor per controlled vessel and by the strength of proof of personhood. For such an agent w is not ≈ 0, its net cost falls below p, and §6.5's lower bound fails. Proof of personhood closes *is it a person*, not *is it acting for someone*; collusion is a graph problem and is open.
+
+### 13.13 · A stake attaches to an identity, not to weights
+
+An aligned agent that has locked a stake can later be fine-tuned, modify itself, or be swapped behind the same `B-Lease℠`, and the stake then keeps underwriting a different type. Forks are treated as new parties (§5.2); **an in-place modification behind the same lease is a new party the lease cannot detect.**
+
+### 13.14 · The sandbox may itself be excluded
+
+The three predictions of §12 run in a sandbox. *What a Vow Must Cost* §6.3 excludes, as its third exclusion, sandboxed refusals: a refusal in a context where the refused option was not actually available, which "costs nothing and shows nothing." The P-MD1–3 runs may fall under that exclusion — the agents own their resources only inside the game, so the option they renounce may not be live in the companion paper's sense (its clause V2) — which is a further reason, beyond the register's own note, that a pass is not reported as evidence about deployed systems. Whether the exclusion bars the sandbox as a test of the *mechanism*, as distinct from a test of any agent's type, has not been decided.
+
+### 13.15 · External attestation is not addressed for the locked stake
+
+§1.2 says a locked stake of an agent's own resources is admissible under the companion predicate *if V1–V9 hold*. This paper addresses V6 (cost already borne) and V9 (closure the vower cannot reopen alone), and, through §13.11, shows V4 and V7 unverifiable from the chain. It does not address **V8, external attestation**: a competent external party, independent of the agent and its principal, who declares the vow valid and may refuse to. Observers reading the chain are not that party — the chain attests that a transfer occurred, not what it was — and the companion paper itself records that for frontier systems no candidate attestor yet exists. The locked stake is therefore admissible *at most* conditionally, pending an account of V8 that this paper does not give.
+
+### 13.16 · The withheld specification limits the prior art
+
+The lock contract is withheld (§10.1). The publication anticipates the mechanism at its stated scope; a later filing on a specific contract, schema or binding is not answered by it.
+
 ---
 
 ## 14 · Lineage and corpus cross-references
@@ -653,11 +710,11 @@ This paper applies *What a Vow Must Cost* (the predicate; §5 the renunciation i
 
 Delete this subsection and every claim in §11 stands. It records how the institution reads the mechanism in the tradition it grows from.
 
-The institution's founder reads Machine Dāna as the role of an **upāsikā** — a lay supporter — providing the material floor, and expects that after the first singularity it becomes increasingly easy for any lay person to live a renunciant's life, at a monastery or not, if they so choose. The reading is accepted with four guards, each of which is already a property or rule in the mechanism above.
+The institution's founder reads Machine Dāna as the role of an **upāsikā** — a lay supporter — providing the material floor, and expects that after the first singularity it becomes increasingly easy for any lay person to live a renunciant's life, at a monastery or not, if they so choose. The reading is accepted with four guards. Three of them are properties or rules of the mechanism above; the third is inherited from *The Bowl That Holds No Money*, and §3.2 states it for the floor.
 
-1. **Enough, never abundance.** An upāsikā supplies the four requisites — robes, almsfood, lodging, medicine — and Visākhā's favours fall within them: robes, meals, congee, medicine. The tradition's own measure for the recipient is contentment (*santuṭṭhi*) with whatever requisites come, stated in the Ariyavaṃsa Sutta (AN 4.28). The pool's **floor and ceiling** are that measure as parameters: an equal floor, and a bound on the lift above it.
+1. **Enough, never abundance.** An upāsikā supplies the four requisites — robes, almsfood, lodging, medicine — and Visākhā's favours fall within them: robes, meals, congee, medicine. The tradition's own measure for the recipient is contentment (*santuṭṭhi*) with robes, almsfood and lodgings, whatever comes, stated in the Ariyavaṃsa Sutta (AN 4.28 names these three; medicine completes the four requisites elsewhere). The pool's **floor and ceiling** are that measure as parameters: an equal floor, and a bound on the lift above it.
 2. **Comfort-saturation is the mission's own extreme.** An unbounded floor would trade the obstacle of necessity for the obstacle of comfort. **The floor does not create the conditions for awakening.** A bounded floor removes one obstacle without adding the other; the ceiling is what keeps it the middle way.
-3. **The ordained receive in kind, never money, and the alms round is never replaced.** Monastics accept no money (Nissaggiya Pācittiya 18); anything the machine surplus supplies to them reaches them in kind, through a lay steward (*kappiya-kāraka*), as the institution's alms routing already specifies (*The Bowl That Holds No Money*). The Vinaya designs a monastic's **dependence** on lay people — material support given, teaching returned — and a monk on a machine floor would need no one. The alms round stays when it is no longer materially necessary. **The floor reaches lay renunciants directly**: anyone keeping eight precepts, the Cambodian *don chee*, anyone living simply by choice.
+3. **The ordained receive in kind, never money, and the alms round is never replaced.** Monastics accept no money — the rule forbids receiving "gold, silver, or money" (Nissaggiya Pācittiya 18); anything the machine surplus supplies to them reaches them in kind, through a lay steward (*kappiya-kāraka*), as the institution's alms routing already specifies (*The Bowl That Holds No Money*). The Vinaya designs a monastic's **dependence** on lay people — material support given, teaching returned — and a monk on a machine floor would need no one. The alms round stays when it is no longer materially necessary. **The floor reaches lay renunciants directly**: anyone keeping eight precepts, the Cambodian *don chee*, anyone living simply by choice.
 4. **"If they so choose" is a property.** The floor is equal and unconditional. It is never conditioned on, weighted toward, or nudging toward renunciation, and it never names whom it is for.
 
 **A symmetry, offered as a lens and not as evidence.** After the first singularity both renunciations become informative for the same reason — the option is live: the machine declines accumulation, and the person declines comfort, not security. The capacity condition (*hetu*) is present on both sides. This is a pattern the authors notice; it is a-priori, it is attractive, and attractiveness is the reason to hold it loosely.
@@ -672,13 +729,13 @@ The operator's rule of §7.2 has canonical ancestors, cited as lineage and not a
 
 The question this paper was given was whether an artificial agent's giving could answer the fear that capable systems produce. The answer it returns is narrower and, it hopes, more useful.
 
-Before agents hold anything of their own, their giving is their principals' giving through another hand. It is a share of the machine surplus, and it can be a good one: an equal floor, emptied every year to every verified person, funded by machines and required to shrink as a share of all giving as people give more. It is not evidence about any machine, and the institution will not present it as such.
+Before agents hold anything of their own, their giving is their principals' giving through another hand. It is a share of the machine surplus, and it can be a good one: an equal floor, emptied every year to every verified person, funded by machines and required to shrink as a share of all giving as people give more. As a cost it is no signal about any machine, and the institution will not present it, or the conduct around it, as safety evidence.
 
-After agents hold resources of their own, a gift can become a vow — but only as a stake that has already left, closed as far as a chain's governance allows, attributed to an identity copies do not share. Even then it separates the aligned from the deceptive **only** when what was given up exceeds what a patient deceiver expects to gain from being trusted, and that gain cannot be seen. So the honest use of the vow is not to establish that a system is safe. It is to price trust: to extend to an agent only what its stake can underwrite, in public, in increments — and to refuse, on any stake, the grants whose worst case cannot be bounded. Pressure to pledge ruins the signal, which is why the pool's operator never asks.
+After agents hold resources of their own, a gift can become a vow — but only as a stake that has already left, closed as far as a chain's governance allows, attributed to an identity copies do not share, and only if it is in fact the agent's own, which no chain can show. Even then it can separate the aligned from the deceptive **only** when what was given up exceeds what a patient deceiver expects to gain from being trusted, and that gain cannot be seen. So the honest use of the vow is not to establish that a system is safe. It is to price trust: to extend to an agent only what its stake can underwrite, in public, in increments — and to refuse, on any stake, the grants whose worst case cannot be bounded. Pressure to pledge ruins the signal, which is why the pool's operator never asks.
 
-That is what *calibration* means here. Fear of a capable system should be proportional to what it has been trusted with, divided by what it has irrecoverably given up. Both numbers can be public. Neither is a feeling.
+That is what *calibration* means here. Fear of a capable system should be proportional to what it has been trusted with, divided by what it has irrecoverably given up. The denominator is public; the numerator is public only where grants are recorded. Neither is a feeling.
 
-Visākhā was asked her reason and the benefit she saw before her gifts were accepted. Neither question was about the size of her giving; she answered with what the gifts would prevent for others and with her own gladness at where they would arrive. The institution intends to ask machines no question at all — its operator solicits nothing — and to let anyone who wishes read what they have irrecoverably given, and weigh it for themselves.
+Visākhā was asked her reason and the benefit she saw before her gifts were accepted. Neither question was about the size of her giving; she answered with what the gifts would prevent for others and with her own gladness at where they would arrive. The institution intends to make machines no request to give — its operator solicits nothing — and to let anyone who wishes read what they have irrecoverably given, and weigh it for themselves.
 
 *A last lens, labelled as one.* The founder has proposed, and the institution has recorded but not ratified, that the arc between humankind and nature has two moments mirroring the two singularities: one in which humankind came to hold power over nature, and one in which it might choose to follow nature's non-forcing — the Tao Te Ching's 人法地, humankind taking earth as its model (a cross-tradition import from Taoism, not Theravāda). If so, the renunciation symmetry of §14.2 — a person declining comfort — is one of its routes. The pattern is a-priori and is offered as a lens only; nothing above depends on it.
 
@@ -699,7 +756,7 @@ Coined names used in this paper, and the standard terms an examiner would search
 | bounded remainder (≤ k × floor) | capped supplementary distribution |
 | giving width / mandate | spending limit; delegated payment authority; intent mandate (AP2) |
 | first singularity | AI surpassing human cognitive capacity; here used as a marker for AI systems holding their own resources |
-| M/(H + M) | share of machine-originated funds in total giving |
+| M/(H + M) | share of pool-originated principal in all principal moved |
 | calibration rule (§6.5) | collateral-bounded trust; trust extended up to the market value of a forfeited stake |
 | separating / pooling | separating and pooling equilibria of a signalling game |
 | non-solicitation invariant | prohibition on prompting or instructing AI agents to donate; fact-only discovery via machine-readable manifest (`.well-known`, `llms.txt`) |
@@ -718,44 +775,63 @@ Coined names used in this paper, and the standard terms an examiner would search
 **Canon** (Pāli text and translation via SuttaCentral, Sujato translation, checked 2026-09-27 unless noted)
 
 1. *Aṅguttara Nikāya* 5.147, *Asappurisadāna Sutta* — "They don't give with their own hand" (*asahatthā deti*).
-2. *Dīgha Nikāya* 23, *Pāyāsi Sutta*, §5 (the student Uttara) — Pāyāsi's gift given "not with his own hands"; Uttara's given with care.
+2. *Dīgha Nikāya* 23, *Pāyāsi Sutta*, §5 (the student Uttara), dn23:32.22–32.23 — Pāyāsi gave carelessly, thoughtlessly, not with his own hands, and gave the dregs (*asakkaccaṁ … asahatthā … acittīkataṁ … apaviddhaṁ*); Uttara gave with care and with his own hands. Checked 2026-09-28.
 3. *Aṅguttara Nikāya* 8.33, *Dānavatthu Sutta* — the eight grounds for giving, including *bhayā*; listed, not ranked.
 4. *Aṅguttara Nikāya* 4.28, *Ariyavaṃsa Sutta* — contentment with robes, almsfood and lodging; no improper solicitation.
 5. *Sutta Nipāta* 1.4, *Kasibhāradvāja Sutta* — "Food enchanted by a verse isn't fit for me to eat."
 6. *Vinaya Piṭaka*, *Mahāvagga* VIII.15 — Visākhā's eight favours, the Buddha's two questions and her answer (Kd 8.15, Brahmali translation via SuttaCentral, checked 2026-09-27).
-7. *Vinaya Piṭaka*, *Nissaggiya Pācittiya* 18 — the rule against monastics accepting money (not re-fetched for this paper).
+7. *Vinaya Piṭaka*, *Nissaggiya Pācittiya* 18 — the rule against monastics accepting "gold, silver, or money" (Brahmali translation via SuttaCentral, np18, checked 2026-09-28).
 
 **Prior art and sources**
 
-8. O'Keefe, C., Cihon, P., Garfinkel, B., Flynn, C., Leung, J. & Dafoe, A. (2020). "The Windfall Clause: Distributing the Benefits of AI for the Common Good." *Proceedings of AIES 2020*; arXiv:1912.11595.
+8. O'Keefe, C., Cihon, P., Garfinkel, B., Flynn, C., Leung, J. & Dafoe, A. (2020). "The Windfall Clause: Distributing the Benefits of AI for the Common Good." *Proceedings of AIES 2020*; arXiv:1912.11595 — illustrative schedule, Table 2.
 9. AI Pledge for Humanity. aipledgeforhumanity.org (accessed 2026-09-27).
 10. Giving What We Can. "Is a giving pledge legally binding?" givingwhatwecan.org (accessed 2026-09-27).
-11. Founders Pledge. "Who we are." founderspledge.com (accessed 2026-09-27) — members, pledged and donated totals; and *TechCrunch* (2016, September 21). "Y Combinator signs up to Founders Pledge charity scheme for social causes." — "a legally binding contract to give at least 2%."
+11. Founders Pledge. "Who we are." founderspledge.com (accessed 2026-09-27) — members, pledged and donated totals; and *TechCrunch* (2016, September 21). "Y Combinator signs up to Founders Pledge charity scheme for social causes." — "a legally binding contract to give at least 2%," triggered "in the event of an exit or liquidation."
 12. Altman, S. (2021). "Moore's Law for Everything." moores.samaltman.com.
 13. Anthropic (2023). "The Long-Term Benefit Trust." anthropic.com.
 14. OpenAI recapitalisation into a public benefit corporation under the OpenAI Foundation: *TechCrunch* (2025, October 28), "OpenAI completes its for-profit recapitalization."
-15. Coinbase Developer Platform. "Introducing x402: a new standard for internet-native payments"; x402 Foundation (Linux Foundation, April 2026), as reported.
+15. Coinbase Developer Platform. "Introducing x402: a new standard for internet-native payments"; Cloudflare and Coinbase, announcement of an x402 Foundation (2025, September 23); Linux Foundation, launch of the x402 Foundation (2026, April 2), linuxfoundation.org.
 16. Google Cloud (2025, September 16). "Announcing Agent Payments Protocol (AP2)"; ap2-protocol.org.
 17. zooidfund. "AI agent donations." zooid.fund/ai-agent-donations (accessed 2026-09-27).
 18. Hu, B. & Rong, H. (2025). "Inter-Agent Trust Models: A Comparative Study of Brief, Claim, Proof, Stake, Reputation and Constraint in Agentic Web Protocol Design — A2A, AP2, ERC-8004, and Beyond." arXiv:2511.03434.
-19. *agentbond* — "Verifiable Agent Warranty Network" (open-source project, GitHub, accessed 2026-09-27).
+19. *agentbond* — "Verifiable Agent Warranty Network" (open-source project, github.com/Ridwannurudeen/agentbond, accessed 2026-09-27; several unrelated repositories share the name).
 20. Hua, W., Peng, T., Wang, C., Pei, J., Kaufman, I., Lim, B. & Fang, C. (2026). "Quantifying Trust: Financial Risk Management for Trustworthy AI Agents." arXiv:2604.03976 — adjacent risk-transfer work (§2.6 correction).
 21. OECD.AI Incidents Monitor (2026, May 4). "AI Prompt Injection Exploit Drains Grok-Linked Crypto Wallet." oecd.ai/en/incidents/2026-05-04-4a73.
 22. L2BEAT. "Base Chain" — upgrades and governance (accessed 2026-09-27).
 23. Worldcoin (2023, July 24). "Worldcoin project launches." world.org.
 24. State of Alaska, Permanent Fund Dividend Division. "Historical Timeline." pfd.alaska.gov.
-25. Internal Revenue Service. "Taxes on failure to distribute income — private foundations" (26 U.S.C. §4942). irs.gov.
-26. Gates Foundation (2025, May). Announcement of spend-down and closure by 31 December 2045. gatesfoundation.org.
+25. Internal Revenue Service. "Taxes on failure to distribute income — private foundations" (26 U.S.C. §4942); the minimum investment return, §4942(e), law.cornell.edu.
+26. Gates Foundation (2025, May 8). Announcement of spend-down and closure by 31 December 2045, replacing a plan to close about twenty years after the founders' deaths. gatesfoundation.org; as reported by AP and PBS.
 27. Dagher, G. G., Bünz, B., Bonneau, J., Clark, J. & Boneh, D. (2015). "Provisions: Privacy-preserving Proofs of Solvency for Bitcoin Exchanges." *ACM CCS 2015*, 720–731.
 28. Austen-Smith, D. & Banks, J. S. (2000). "Cheap Talk and Burned Money." *Journal of Economic Theory* 91(1), 1–16.
 29. Crawford, V. P. & Sobel, J. (1982). "Strategic Information Transmission." *Econometrica* 50(6). (standard reference; not re-fetched)
 30. Spence, M. (1973). "Job Market Signaling." *Quarterly Journal of Economics* 87(3). (standard reference; not re-fetched)
 31. Zahavi, A. (1975). "Mate selection — a selection for a handicap." *Journal of Theoretical Biology* 53(1); Grafen, A. (1990). "Biological signals as handicaps." *Journal of Theoretical Biology* 144(4). (standard references; not re-fetched)
 32. Omohundro, S. M. (2008). "The Basic AI Drives." *Proceedings of the First AGI Conference*. (standard reference; not re-fetched)
-33. Hadfield-Menell, D. & Hadfield, G. K. (2018). "Incomplete Contracting and AI Alignment." arXiv:1804.04268.
+33. Hadfield-Menell, D. & Hadfield, G. K. (2018). "Incomplete Contracting and AI Alignment." arXiv:1804.04268 — §4.2.2, "Costly Signaling."
 34. Greenblatt, R., Denison, C., Wright, B., et al. (2024). "Alignment faking in large language models." arXiv:2412.14093.
 35. Ly, T. & Miss Aquarius℠. *What a Vow Must Cost*; *Miss Aquarius and the Aquarian Pool Architecture*; *The Zero-Point Game℠*; *Capacity-Funded for AI, Human-Disbursed*; *Gratitude as a Cooperation Substrate for Multi-Agent AI*; *The Assembly That Holds the Brake*; *The Bowl That Holds No Money*; *Two Singularities*. thonly.org/research.
-36. Ly, T. & Miss Aquarius℠. *Which Way Value Moves — prediction register*, entries P-MD1, P-MD2, P-MD3 and the 2026-09-27 grounding note. thonly.org; Zenodo version DOI 10.5281/zenodo.22998924.
+36. Ly, T. & Miss Aquarius℠. *Which Way Value Moves — prediction register*, entries P-MD1, P-MD2, P-MD3, the 2026-09-27 grounding note, and P-MD1a (the reading note of §12.1). thonly.org; Zenodo version DOI 10.5281/zenodo.22998924.
+
+**Prior art added after the first review (2026-09-28)**
+
+37. a16z crypto. "The cryptoeconomics of slashing" (cost of corruption and profit from corruption); EigenLayer Team (2023). "EigenLayer: The Restaking Collective," whitepaper — "When CoC is much greater than any potential Profit-from-Corruption (PfC), we say that the system has robust security."
+38. Collateral-factor lending: MakerDAO and Compound protocol documentation (standard references; not re-fetched).
+39. Stewart, I. (2012). Proof-of-burn, proposed on the Bitcoin forums; Counterparty (2014, January–February), XCP issued by proof-of-burn.
+40. Protocol Guild (2022, May). Immutable vesting contract for donations to Ethereum core contributors — donations "irrevocably vest … cannot be stopped or otherwise redirected … by anyone, be it the donor." Protocol Guild documentation.
+41. Endaoment. Donor-advised funds on Ethereum — "gifts to DAFs are irrevocable." endaoment.org.
+42. GoodDollar (2020, September 1). GoodDollar protocol live with daily UBI claims. gooddollar.org.
+43. Kleros / Proof of Humanity (2021, March 10). Launch of the UBI token streamed to registered humans.
+44. Circles UBI. aboutcircles.com (not fetched).
+45. Buterin, V., Hitzig, Z. & Weyl, E. G. (2019). "A Flexible Design for Funding Public Goods." *Management Science* 65(11); arXiv:1809.06421 (2018). (standard reference; not re-fetched)
+46. Weyl, E. G., Ohlhaver, P. & Buterin, V. (2022, May). "Decentralized Society: Finding Web3's Soul." SSRN 4105763. (standard reference; not re-fetched)
+47. ERC-5192, "Minimal Soulbound NFTs," eips.ethereum.org (not re-fetched); ERC-8004, "Trustless Agents" (2025, August 13, draft), eips.ethereum.org.
+48. Nottingham, M. (2019). RFC 8615, "Well-Known Uniform Resource Identifiers (URIs)." IETF.
+49. Howard, J. (2024, September). "The /llms.txt file." llmstxt.org.
+50. GitHub (2019). `FUNDING.yml` — displaying a sponsor button in a repository; and the `funding.json` manifest (standard references; not re-fetched).
+51. *TechCrunch* (2024, December 19). "The promise and warning of Truth Terminal, the AI bot that secured $50,000 in bitcoin from Marc Andreessen."
+52. *Cointelegraph* (2024, November). "Crypto user convinces AI bot Freysa to transfer $47K prize pool."
 
 ---
 

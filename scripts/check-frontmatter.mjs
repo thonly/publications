@@ -248,6 +248,11 @@ let missionPastSeen = 0;
 // not name.
 const PERMITTED_STATUS = ["draft", "published", "living"];
 
+// kind: (ruled 2026-09-28, §kind-study). KIND_FROM covers the four papers of 2026-09-27,
+// whose polish round prompted the ruling; every earlier DP rides its next revision.
+const PERMITTED_KIND = ["mechanism", "study"];
+const KIND_FROM = "2026-09-27";
+
 // ⚠️ SHRINK-ONLY, same contract as the ledgers above: the file(s) that carried
 // `status: published` before any rule said what earns it. Each rides its next
 // revision — a ruled human round, or a drop to draft.
@@ -355,6 +360,28 @@ for (const rel of files) {
             `${rel} no longer carries the retired mission sentence, but is still on MISSION_PAST_DEBT.\n` +
                 `      fix: remove it from the list in this commit, so the ledger never overstates the debt.`
         );
+    }
+
+    // 6. `kind:` (ruled 2026-09-28, §kind-study). A defensive publication that discloses no
+    //    mechanism is a STUDY and enumerates findings, never claims. This checks the FIELD
+    //    only, never the substance: whether findings or claims cover the paper is a reading
+    //    task (/draft step 5b), and a heading probe would guess (probe the substance, never
+    //    the heading). Required on every DP dated from KIND_FROM; older DPs ride their next
+    //    revision, and a value, once present, must be a permitted one.
+    if (rel.startsWith("defensive-publications/")) {
+        if ("kind" in fm && !PERMITTED_KIND.includes(fm.kind)) {
+            problems.push(
+                `${rel} declares kind "${fm.kind}", which is not a kind this corpus uses.\n` +
+                    `      permitted: ${PERMITTED_KIND.join(" · ")} (ruled 2026-09-28).`
+            );
+        } else if (!("kind" in fm) && String(fm.date ?? "") >= KIND_FROM) {
+            problems.push(
+                `${rel} is a defensive publication dated ${fm.date} with no \`kind:\`.\n` +
+                    `      fix: add \`kind: mechanism\` (it discloses something a person could build and\n` +
+                    `      practise; it enumerates CLAIMS) or \`kind: study\` (a reading, lens, analysis\n` +
+                    `      or institutional pattern; it enumerates FINDINGS). Ruled 2026-09-28.`
+            );
+        }
     }
 
     // 4. Status: present, one of two values, and `published` only when earned.

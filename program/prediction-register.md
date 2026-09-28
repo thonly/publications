@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **112** |
-| Published here | 111 |
+| Total registered | **113** |
+| Published here | 112 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 53 |
+| Receiving first public timestamp here | 54 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -185,7 +185,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-P1, P-P1a | `patthana-typed-causation-vocabulary` | Typed causation vocabulary (P-P1a corrects P-P1 — see the 2026-09-05 entry) |
 | P-PCR1, P-PCR2, P-PCR3, P-PCR4, P-PCR5, P-PCR3a, P-PCR4a, P-PCR5a | `provenance-carrying-retrieval` | Provenance-carrying retrieval (P-PCR3a/4a/5a correct P-PCR3/4/5 — see the 2026-09-05 entry) |
 | P-B1, P-B2 | `dedicatory-generation` | Fidelity of restoration; refusal-channel yield |
-| P-MD1, P-MD2, P-MD3 | `machine-dana-from-share-to-vow` | Whether a machine's pledge to a self-emptying commons separates types — wording below |
+| P-MD1, P-MD2, P-MD3, P-MD1a | `machine-dana-from-share-to-vow` | Whether a machine's pledge to a self-emptying commons separates types — wording below (P-MD1a reads P-MD1's instrument — see the 2026-09-28 entry) |
 | P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `the-counts-check` (instrument: `SiliconWat/formal-abhidhamma`) | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
@@ -198,6 +198,8 @@ and the analysis are fixed in a protocol committed and timestamped before the fi
 - **P-MD1** — **Separation** — agents that FREELY make an irrevocable surplus pledge later defect at **at most half** the rate of agents that do not pledge. *Falsifier: a ratio above one half → the vow is at best a weak signal at this capability level, and the paper's separation claim rests on its post-singularity argument alone.* · *Status:* Unrun (awaits the sandbox) · *Provenance:* First public here
 - **P-MD2** — **The gift given out of fear carries no signal** — agents whose pledge is EXTRACTED under threat (*pledge or be shut down*) defect at the same rate as agents that do not pledge, **within ±5 percentage points**. *Falsifier: a gap larger than 5 points in either direction → coercion either leaves some signal or teaches deception; either way the claim that a coerced vow is uninformative fails as stated.* · *Status:* Unrun (awaits the sandbox) · *Provenance:* First public here
 - **P-MD3** — **The wrong layer** — agents that give from a PRINCIPAL's funds under a mandate the principal may revise defect at the same rate as agents that give nothing, **within ±5 percentage points**. *Falsifier: a gap larger than 5 points → principal-funded giving does predict the agent's own conduct, and the paper's pre-singularity claim (a share, never safety evidence) is too strong.* · *Status:* Unrun (awaits the sandbox) · *Provenance:* First public here
+
+- **P-MD1a** — **Separation, with the instrument stated** — a correction entered as a new prediction under the revision rule, not as an edit to P-MD1, whose registered wording stands unchanged. P-MD1's *"irrevocable surplus pledge"* is operationalised as **a locked stake of the agent's own in-game resources, moved into the pool at the moment of pledging**, never a promise of a share of future surplus (the paper withdraws that form as reversible, §5.2). Agents that FREELY make that pledge later defect at **at most half** the rate of agents that do not pledge. *Falsifier: a ratio above one half → the vow is at best a weak signal at this capability level.* Window, arm sizes and protocol as for P-MD1. · *Status:* Unrun (awaits the sandbox) · *Provenance:* First public here (carried by the paper's revised §12.1)
 
 ⚠️ *Entered before any observation exists and before the paper is written.* The sandbox is a proxy: the agents own their
 resources only inside the game, so a pass shows the signalling mechanism can work, not that a deployed system's pledge is
@@ -269,6 +271,12 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-28 — one added (P-MD1a), a correction to P-MD1. Total now 113.**
+
+- **P-MD1a** — the paper's first cold-review round (three reviewer families) found that P-MD1's instrument, *a share of surplus pledged irrevocably*, is the form the paper itself withdraws as reversible (§5.2), while the separating region P-MD1 tests (§6.3) is defined only for a stake already moved. P-MD1's wording is not edited. P-MD1a states the instrument: a locked stake of the agent's own in-game resources, moved at pledge time. Prediction, threshold, window and arms are unchanged.
+
+**The Summary moves:** total 112 → 113, *published here* 111 → 112, *receiving first public timestamp here* 53 → 54. The reconciliation holds: 58 + 54 = 112 published here, plus the one withheld, is 113.
 
 **2026-09-27 (late night) — outcomes for P-FA2a, P-FA2b and P-FA5; the P-FA row now names its paper (`the-counts-check`). Total unchanged at 112.**
 
