@@ -16,7 +16,7 @@ The `.ots.bak` blocker that forced the deferral is fixed in all five `ots-upgrad
 
 | document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
 |---|---|---|---|---|
-| **program/prediction-register** | `.ots` → `.r13.ots` (Bitcoin-complete, 1 attestation); new *(calendar-only at stamping)* | `2026-09-27.sha256` (covers `a488f2616ded…`) | `10.5281/zenodo.23004359` | 2.5.20 |
+| **program/prediction-register** | `.ots` → `.r13.ots` (Bitcoin-complete, 1 attestation); new *(calendar-only at stamping)* | `2026-09-28.sha256` (UTC day of the run; covers `a488f2616ded…`) | `10.5281/zenodo.23004359` | 2.5.20 |
 
 ### 2026-09-27 (night) — the prediction register: P-FA2a, P-FA2b, P-FA5 registered before rung 3; outcomes for P-FA1, P-FA4, P-FA1b, P-FA3 (founder: *"go"*)
 
