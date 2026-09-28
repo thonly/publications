@@ -296,6 +296,15 @@
   "sha256": "ce0f784f541f2074e9f65feec40f7a193830a91a011a828802e8736e20bcdcac",
   "url": "https://zenodo.org/records/22060092"
  },
+ "machine-dana-from-share-to-vow": {
+  "concept_doi": "10.5281/zenodo.23020668",
+  "deposition_id": 23020669,
+  "doi": "10.5281/zenodo.23020669",
+  "published": true,
+  "sandbox": false,
+  "sha256": "8af30fe81b30b47549316d72d591532f1df22652fb013520ca2feb3be9f8019a",
+  "url": "https://zenodo.org/records/23020669"
+ },
  "manufactured-universal-giving": {
   "concept_doi": "10.5281/zenodo.21947349",
   "deposition_id": 22929351,
@@ -502,6 +511,15 @@
   "sandbox": false,
   "sha256": "55bf6c3378139312218869f778c39c2007d386856a7cdf72c6f32fa77a78c75d",
   "url": "https://zenodo.org/records/22933319"
+ },
+ "the-counts-check": {
+  "concept_doi": "10.5281/zenodo.23020670",
+  "deposition_id": 23020671,
+  "doi": "10.5281/zenodo.23020671",
+  "published": true,
+  "sandbox": false,
+  "sha256": "edc3fa58718e8792c3a798a67591509fddb383d0a5cc116a242d2f3476635795",
+  "url": "https://zenodo.org/records/23020671"
  },
  "the-game-that-graduates-you": {
   "concept_doi": "10.5281/zenodo.21947399",
