@@ -6,6 +6,18 @@ on its confirmation page (the server's echo of title, inventor and the full abst
 review, 2 `queued_for_update` (buddha-ai-living-tipitaka, capacity-funded-human-disbursed-ai-alignment; recheck Monday
 2026-09-28, founder: *"wait until monday"*), no duplicates.
 
+### 2026-09-27 (late night) — the prediction register: outcomes for P-FA2a, P-FA2b, P-FA5; the deferred rotation done (founder: *"do 1 and 2"*)
+
+Outcomes written beside the unchanged wording (all three confirmed); the P-FA row names `the-counts-check`. **The deferred leg 1
+is closed:** the retiring proof confirmed on Bitcoin at 17:34 PDT (watched in the background), was upgraded, and rotated to
+`.r13.ots`; this revision stamped fresh. ⚠️ The intermediate revision (1de70d8, which registered P-FA2a/2b/5) therefore carries
+no OpenTimestamps proof of its own — it is attested by RFC 3161 (`2026-09-27.sha256`) and Zenodo `10.5281/zenodo.23003593`.
+The `.ots.bak` blocker that forced the deferral is fixed in all five `ots-upgrade.sh` (clear stale backups BEFORE the loop).
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r13.ots` (Bitcoin-complete, 1 attestation); new *(calendar-only at stamping)* | `2026-09-27.sha256` (covers `a488f2616ded…`) | `10.5281/zenodo.23004359` | 2.5.20 |
+
 ### 2026-09-27 (night) — the prediction register: P-FA2a, P-FA2b, P-FA5 registered before rung 3; outcomes for P-FA1, P-FA4, P-FA1b, P-FA3 (founder: *"go"*)
 
 Three predictions registered before any Dhammasaṅgaṇī text was read (first public in `SiliconWat/formal-abhidhamma`
