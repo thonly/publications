@@ -1,3 +1,17 @@
+### 2026-09-28 (later) — first deposits of the two studies; two rulings into machine-dana (founder: *"do open items"* → *"Bar it"* · *"Mechanism test only"* · *"Reword now, deposit"*)
+
+The census gate's priority list was corrected before acting: a census reported as *"not found in <aperture> on <date>"* (which the
+2026-09-13 rule REQUIRES) and a citation of the *nearest prior instance* are not priority claims. With the list corrected both
+studies pass as written; the only rewording was one stale sentence in the discrete-QG paper ("a full census is owed").
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **the-vibhajjavadin-view-of-time** | covered (`b57668357f9c…`, calendar-only at deposit) | `2026-09-28.sha256` | **first deposit** `10.5281/zenodo.23020016` | 2.5.24 (hold lifted) |
+| **abhidhamma-and-discrete-quantum-gravity** | ⏳ rotation deferred — the retiring proof (`dd2c03deb071…`) is calendar-only; new text `0137cadb9df6…` | `2026-09-28.sha256` (second run) | **first deposit** `10.5281/zenodo.23020021` | 2.5.24 (hold lifted) |
+| **machine-dana-from-share-to-vow** | ⏳ rotation deferred — the retiring proof (`bbf2d5373cc4…`) is calendar-only; new text `96bd829b55ab…` | `2026-09-28.sha256` (second run) | ⏸ held (full census running) | ⏸ held |
+
+⚠️ Leg 4's first CI run failed on the README counts (built but not committed); fixed and re-dispatched without a new version.
+
 ### 2026-09-28 — polish r1 revisions of the four 9/27 papers + the prediction register (P-MD1a) (founder: *"approve all"*)
 
 One batched revision each after the first cold-review round (`TH/notes/reviews/<slug>/2026-09-28-r1/`). Two papers carry the new
