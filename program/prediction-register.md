@@ -35,7 +35,7 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
 | Receiving first public timestamp here | 53 |
-| **Run** | **4** (two desk censuses · two formal checks, P-FA1 and P-FA4) |
+| **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
 | Contradicted | 1 |
@@ -186,7 +186,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-PCR1, P-PCR2, P-PCR3, P-PCR4, P-PCR5, P-PCR3a, P-PCR4a, P-PCR5a | `provenance-carrying-retrieval` | Provenance-carrying retrieval (P-PCR3a/4a/5a correct P-PCR3/4/5 — see the 2026-09-05 entry) |
 | P-B1, P-B2 | `dedicatory-generation` | Fidelity of restoration; refusal-channel yield |
 | P-MD1, P-MD2, P-MD3 | `machine-dana-from-share-to-vow` | Whether a machine's pledge to a self-emptying commons separates types — wording below |
-| P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `SiliconWat/formal-abhidhamma` — not yet a paper | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
+| P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `the-counts-check` (instrument: `SiliconWat/formal-abhidhamma`) | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
 predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
@@ -238,6 +238,12 @@ sense-sphere citta (its *pada-bhājanīya*), in the CST (`abh01m`) and in the Bu
 - **P-FA2b** — **No term** in the CST list falls outside the pre-fixed synonym map. Confidence 0.6. *Falsifier: any unmapped term.*
 - **P-FA5** — (replaces P-FA3, at L1) The Khmer edition's list, transliterated and normalized, names **the same terms in the same order** as the CST; any difference is orthographic. Confidence 0.8. *Falsifier: a term added, dropped or reordered, confirmed against the printed page image (an unconfirmed difference in the working transcription is a transcription question, never a variant).*
 
+**Outcomes of the three, 2026-09-27** (the wording above is unchanged; `RESULTS.md` commits `ada7a20` and `74e19fe`; the paper is `the-counts-check`):
+
+- **P-FA2a — Resolved: confirmed.** The CST list has 56 terms mapping to exactly 29 cetasikas, names none of the nine, and closes with *"ye vā pana"*. The count matches the Aṭṭhasālinī's own *samatiṃsa dhammā* (thirty with consciousness), which corroborates it against an independent key and means the count itself is not new. ⚠️ The nine are named by that **commentary**, which predates the *Saṅgaha*, so the *Saṅgaha*'s 38 **inherits** them (29 + 9); the registered "L2" framing was editorial, not chronological.
+- **P-FA2b — Resolved: confirmed**, after the pre-registered sandhi normalization. The first run reported two unmapped sandhi forms (*kāyujukatā*, *cittujukatā*); both runs are disclosed.
+- **P-FA5 — Resolved: confirmed.** Edition K (vol. 78, pp. 16–17) and the CST give 56 = 56 terms in the same order, with 0 added, dropped or reordered. The 8 spelling differences, each checked on the printed page: 3 are the Khmer edition's orthography (one recorded in its own apparatus against the Burmese), 5 are transcription slips.
+
 ---
 
 ## Withheld
@@ -263,6 +269,12 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-27 (late night) — outcomes for P-FA2a, P-FA2b and P-FA5; the P-FA row now names its paper (`the-counts-check`). Total unchanged at 112.**
+
+- Outcomes written beside the unchanged wording. *Run* 4 → 7. The previous revision's text (which registered the three) is
+  attested by RFC 3161 (`2026-09-27.sha256`) and Zenodo `10.5281/zenodo.23003593`. Its OpenTimestamps rotation had waited for
+  the retiring proof to confirm on Bitcoin (17:34 PDT); this revision is stamped fresh.
 
 **2026-09-27 (night) — three added (P-FA2a, P-FA2b, P-FA5) and four outcomes recorded (P-FA1, P-FA4 resolved; P-FA1b retired; P-FA3 cannot run as registered). Total now 112.**
 
