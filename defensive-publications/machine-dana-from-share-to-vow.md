@@ -341,7 +341,7 @@ The signature asks that this ratio fall toward zero. **M** is every unit of prin
 
 Hence the result's name in this corpus: **the gift that succeeds by shrinking.** Machine Dāna funds the floor; it succeeds as its share of all giving falls; and the institution's release — its fifth stage, when it sets down responsibility though never oversight — has as its economic form both subsidies, the floor and the lift, approaching zero.
 
-A consequence for the institution's annual adversarial book (*Two Singularities*): machine donations to the pool are **not a proxy** for the book's question, *"Will you help humanity reach the second singularity?"* By the ratio above they push the other way. The honest proxy for *help* is help that makes itself unnecessary. Whether the book may put to the systems it seats a stated, non-binding hypothetical — *would you take the vow of §5?* — or whether a question from the pool's own institution about willingness to vow is itself a request to give, is an open question under the operator's non-solicitation directive (§7.2), and until it is ruled the book does not ask it. This paper supplies only the definition of what a binding vow would require.
+A consequence for the institution's annual adversarial book (*Two Singularities*): machine donations to the pool are **not a proxy** for the book's question, *"Will you help humanity reach the second singularity?"* By the ratio above they push the other way. The honest proxy for *help* is help that makes itself unnecessary. The book never asks the systems it seats whether they would take the vow of §5: a question about willingness to give, coming from the pool's own institution, is a request to give under the operator's non-solicitation directive (§7.2), whoever puts it (ruled 2026-09-28). The book may debate whether a machine vow can exist at all, as a question about the concept, never about a seated system's own willingness. This paper supplies only the definition of what a binding vow would require.
 
 ---
 
@@ -686,9 +686,9 @@ The pool is a path back to the vower. An agent that controls, colludes with or r
 
 An aligned agent that has locked a stake can later be fine-tuned, modify itself, or be swapped behind the same `B-Lease℠`, and the stake then keeps underwriting a different type. Forks are treated as new parties (§5.2); **an in-place modification behind the same lease is a new party the lease cannot detect.**
 
-### 13.14 · The sandbox may itself be excluded
+### 13.14 · The sandbox tests the mechanism, never a type
 
-The three predictions of §12 run in a sandbox. *What a Vow Must Cost* §6.3 excludes, as its third exclusion, sandboxed refusals: a refusal in a context where the refused option was not actually available, which "costs nothing and shows nothing." The P-MD1–3 runs may fall under that exclusion — the agents own their resources only inside the game, so the option they renounce may not be live in the companion paper's sense (its clause V2) — which is a further reason, beyond the register's own note, that a pass is not reported as evidence about deployed systems. Whether the exclusion bars the sandbox as a test of the *mechanism*, as distinct from a test of any agent's type, has not been decided.
+The three predictions of §12 run in a sandbox. *What a Vow Must Cost* §6.3 excludes, as its third exclusion, sandboxed refusals: a refusal in a context where the refused option was not actually available, which "costs nothing and shows nothing." The exclusion governs evidence of an agent's TYPE: the agents own their resources only inside the game, so the option they renounce may not be live in the companion paper's sense (its clause V2), and no sandboxed pledge is evidence about any deployed system. **P-MD1–3 are therefore run and reported as tests of the MECHANISM — whether a locked stake of this form can separate types at all — and never as evidence about any agent's type** (ruled 2026-09-28). This matches the register's own note that a pass is not reported as evidence of safety.
 
 ### 13.15 · External attestation is not addressed for the locked stake
 

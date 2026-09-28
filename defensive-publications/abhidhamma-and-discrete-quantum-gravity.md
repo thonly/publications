@@ -119,7 +119,7 @@ This document is dedicated to the public domain under CC0 1.0. **The authors and
 | (e) the 17-moment lifetime as a discrete-time ratio | Sorkin and Dowker link causal-set becoming to Buddhist momentariness | **narrowed** at general width; the chain-length reading of the ratio was not found |
 | the composition of rows in one structural map | — | **not found in that aperture on that date** |
 
-⛔ "Not found in that aperture on that date" is a statement about a search. It is not a claim of priority, and nothing in this paper is offered as new. A full census is owed before any deposit of this paper.
+⛔ "Not found in that aperture on that date" is a statement about a search. It is not a claim of priority, and nothing in this paper is offered as new. As a study that makes no priority claim, this paper owes no further census before deposit (ruled 2026-09-28); a literature census could narrow or kill the rows above, and would be reported here as a revision.
 
 ---
 
