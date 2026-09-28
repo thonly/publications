@@ -1,3 +1,17 @@
+### 2026-09-28 (evening) — first deposits of the two mechanisms, after their FULL censuses (founder: *"do open items"*)
+
+Both full censuses were pre-registered publicly before the first query (`74851d1` machine-dana · `9bf6a3d` counts-check) and
+pass `census.py gate`. Each paper folded its census in: Prior-Art Statement, survivor, and narrowed claims (machine-dana 3–6,
+counts-check 1, 2, 4, 5, 6). Machine-dana gained a Keywords line before its mint. Counts-check: an L22 breach found and closed
+(Khmer script in two places, now described by Unicode names).
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **machine-dana-from-share-to-vow** | ⏳ rotation deferred — retiring proof calendar-only; text `8af30fe81b30…` | `2026-09-28.sha256` (fourth run) | **first deposit** `10.5281/zenodo.23020669` | 2.5.25 (hold lifted) |
+| **the-counts-check** | ⏳ rotation deferred — retiring proof calendar-only; text `edc3fa58718e…` | `2026-09-28.sha256` | **first deposit** `10.5281/zenodo.23020671` | 2.5.25 (hold lifted) |
+
+`holds.json` is now empty.
+
 ### 2026-09-28 (later) — first deposits of the two studies; two rulings into machine-dana (founder: *"do open items"* → *"Bar it"* · *"Mechanism test only"* · *"Reword now, deposit"*)
 
 The census gate's priority list was corrected before acting: a census reported as *"not found in <aperture> on <date>"* (which the
