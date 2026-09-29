@@ -22,6 +22,14 @@ inventor address at 00:41 UTC 9/28 and ~01:12 UTC 9/29): buddha-ai-living-tipita
 with no editor note — no action was ever needed. **Verified 12/12** (`check-mirrors.py --verify-posted`, word for word in
 order, 0 extra · 0 missing; each control fails as it must). **33 of 33 submissions posted, none awaiting.**
 
+### 2026-09-29 — `a-promise-that-cannot-grow`: census pass 3 + claim 4, and the FIRST DEPOSIT (founder: *"retry A257"* → *"revise and deposit"*)
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **a-promise-that-cannot-grow** | `.ots` → `.r2.ots` (Bitcoin-complete, checked with the venv client); new proof, calendar-only | `2026-09-29.sha256` | **10.5281/zenodo.23041248** *(first deposit; digest `458a72b7…` checked against `origin/main` before minting)* | 2.5.29 *(hold lifted)* |
+
+Census pass 3 (pre-registered `3d929ac`) searched the conjuncts ruled after passes 1–2; all narrowed, none killed. Claim 1 kept as worded (its entry grammar survives); claim 4 added (the amount-free origination line); non-transferability and goods ↔ cash conversion stay disclosed, not claimed. Google Patents was unavailable (503): forward citation walks and native JP/KR queries remain owed to legal L48, not to the claims. ⚠️ Index 2.5.29's first CI run failed on stale README counts (the build rewrote `README.md`, which was not committed); fixed by committing it and re-dispatching the workflow on `main` — no version burned.
+
 ### 2026-09-29 (early) — the owed rotations, the two riders, and P-ZP1's chain (founder: *"check bitcoin now; the watcher may be broken"*)
 
 | paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
