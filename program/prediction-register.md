@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **113** |
-| Published here | 112 |
+| Total registered | **116** |
+| Published here | 115 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 54 |
+| Receiving first public timestamp here | 57 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -187,6 +187,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-B1, P-B2 | `dedicatory-generation` | Fidelity of restoration; refusal-channel yield |
 | P-MD1, P-MD2, P-MD3, P-MD1a | `machine-dana-from-share-to-vow` | Whether a machine's pledge to a self-emptying commons separates types — wording below (P-MD1a reads P-MD1's instrument — see the 2026-09-28 entry) |
 | P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `the-counts-check` (instrument: `SiliconWat/formal-abhidhamma`) | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
+| P-PM1, P-PM2, P-PM3 | `a-promise-that-cannot-grow` | Whether a promise ledger that never grows on its own, and its yearly invitation to forgive, behave as designed — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
 predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
@@ -246,6 +247,17 @@ sense-sphere citta (its *pada-bhājanīya*), in the CST (`abh01m`) and in the Bu
 - **P-FA2b — Resolved: confirmed**, after the pre-registered sandhi normalization. The first run reported two unmapped sandhi forms (*kāyujukatā*, *cittujukatā*); both runs are disclosed.
 - **P-FA5 — Resolved: confirmed.** Edition K (vol. 78, pp. 16–17) and the CST give 56 = 56 terms in the same order, with 0 added, dropped or reordered. The 8 spelling differences, each checked on the printed page: 3 are the Khmer edition's orthography (one recorded in its own apparatus against the Burmese), 5 are transcription slips.
 
+
+**The promise-ledger predictions (registered 2026-09-28, before any instrument exists).** Approved by the founder the same day; the
+mechanism is designed and unbuilt, so nothing below can have been fitted to data. The institution never sees promise rows or amounts:
+every count is reported by devices as an aggregate the user has agreed to share, and only adults take part at launch. A draft form of
+these three appeared in the paper's first push that evening, before registration; the wording below is the registered form (P-PM1's
+comparison was repaired to a staggered launch before registration).
+
+- **P-PM1** — **The December freeze** (Deuteronomy 15:9) — the annual invitation to forgive does **not** freeze lending. The invitation is withheld in the ledger's first season (the baseline) and runs from the second. *Measure:* new promises opened per active holder, 15 December – 6 January, against the same holders' mean over the three preceding 23-day windows, compared between the first season and the second. *Falsifier: in the second season, a fall more than 10 percentage points larger than the first season's → the invitation reproduces the failure the prosbul repaired, and must be redesigned or withdrawn.* · *Status:* Unrun (awaits the ledger) · *Provenance:* First public here
+- **P-PM2** — **Paid last** — because a promise carries no late penalty, promisors who also hold penalty-bearing debts repay this ledger's balances **later** than those debts. *Measure:* self-reported repayment order in a structured survey of promisors holding both kinds of debt, after one season. *Falsifier: this ledger's balances repaid no later than penalty-bearing debts → the paper's "paid last" limit is overstated.* · *Status:* Unrun (awaits the ledger) · *Provenance:* First public here
+- **P-PM3** — **Rollover made visible** — holders shown a promisor's total-owed band that has risen since their last promise decline or shrink the new promise more often than holders shown a flat band. *Measure:* acceptance of new promises by band movement, device-aggregated. *Falsifier: no difference → the fact line does not answer rollover, and the paper's response to its most serious counterexample fails.* · *Status:* Unrun (awaits the ledger) · *Provenance:* First public here
+
 ---
 
 ## Withheld
@@ -271,6 +283,12 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-28 (night) — three added (P-PM1, P-PM2, P-PM3), the promise-ledger predictions of `a-promise-that-cannot-grow`. Total now 116.**
+
+- Registered on the founder's approval before any instrument exists. P-PM1's comparison was repaired before registration: the paper's first push proposed a "comparison season without the invitation", which cannot exist once the invitation runs every year, so the invitation is withheld in the first season as the baseline.
+
+**The Summary moves:** total 113 → 116, *published here* 112 → 115, *receiving first public timestamp here* 54 → 57. The reconciliation holds: 58 + 57 = 115 published here, plus the one withheld, is 116.
 
 **2026-09-28 — one added (P-MD1a), a correction to P-MD1. Total now 113.**
 
