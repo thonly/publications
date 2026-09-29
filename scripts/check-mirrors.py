@@ -96,6 +96,13 @@ def record(slug, venue, date, pdf, override=None):
                  f"a mirror of a defensive publication without enumerated claims is the thing "
                  f"the venue exists to carry. Fix the paper or fix CLAIM_HEADING — or name the section "
                  f"with --claims-heading '## <exact heading>' (repeatable), or --claims-heading BODY.")
+    # 2026-09-29: ten wave-3 records stored "defensive-publications/submitted/<file>" and every later
+    # --verify-posted then looked for submitted/defensive-publications/submitted/<file>. The field is
+    # a name INSIDE submitted/, so keep only that — and refuse one that is not there.
+    if pdf:
+        pdf = Path(pdf).name
+        if not (SUBMITTED / pdf).exists():
+            sys.exit(f"--pdf {pdf}: not found in {SUBMITTED}")
     m = load()
     old = next((e for e in m["entries"] if e["slug"] == slug), None)
     # A second submission is a second POSTING, not a replacement of the first: the venue keeps
