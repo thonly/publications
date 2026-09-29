@@ -147,7 +147,6 @@ const PERMITTED_LICENCES = ["CC0-1.0", "CC-BY (author-voice essay)"];
 const BANNED_FIELD_DEBT = new Set([
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/cakkavatti-alignment-charter.md",
-    "defensive-publications/certification-by-circulation.md",
     "defensive-publications/giving-is-a-gift-too.md",
     "defensive-publications/gratitude-as-cooperation-substrate.md",
     "defensive-publications/gratitude-riding-currency-tag.md",
@@ -157,7 +156,6 @@ const BANNED_FIELD_DEBT = new Set([
     "defensive-publications/safety-companion-pack-watch.md",
     "defensive-publications/the-assembly-that-holds-the-brake.md",
     "defensive-publications/the-borrowable-standard.md",
-    "defensive-publications/the-gift-operation.md",
     "defensive-publications/the-omitted-clause.md",
     "defensive-publications/the-persistence-architecture.md",
 ]);
@@ -177,12 +175,9 @@ const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/b-tag-recommendation-function-methodology.md",
     "defensive-publications/giving-is-a-gift-too.md",
     "defensive-publications/individuation-without-essence.md",
-    "defensive-publications/inverted-alms-round.md",
     "defensive-publications/manufactured-universal-giving.md",
     "defensive-publications/patthana-typed-causation-vocabulary.md",
-    "defensive-publications/sacrifice-witness-without-discharge.md",
     "defensive-publications/sankhara-dukkha-ai-welfare.md",
-    "defensive-publications/the-gift-operation.md",
     "defensive-publications/vinaya-as-ai-reasoning-training-corpus.md",
     "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md"
 ]);
@@ -215,8 +210,6 @@ const MISSION_PAST_DEBT = new Set([
     "defensive-publications/brand-identity-as-architecture.md",
     "defensive-publications/cakkavatti-alignment-charter.md",
     "defensive-publications/longitudinal-cohort-methodology.md",
-    "defensive-publications/non-bank-pass-through-architecture-autonomous-ai.md",
-    "defensive-publications/sacrifice-witness-without-discharge.md",
     "defensive-publications/sankhara-dukkha-ai-welfare.md",
     "defensive-publications/the-omitted-clause.md",
     "defensive-publications/transparency-as-enforcement.md",

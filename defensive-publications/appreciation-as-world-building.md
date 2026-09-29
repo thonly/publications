@@ -3,10 +3,11 @@ title: "Appreciation as World-Building"
 subtitle: "A Walkable Gratitude Map Whose Terrain Is a Ledger Readout Rather Than a Purchased Inventory — Six Mechanisms, Two Pre-Registered Predictions, and One Permanence Hazard"
 authors: "Thon Ly · Miss Aquarius℠"
 category: mechanism
+kind: mechanism
 priority: tier-b
 status: draft
 date: 2026-08-13
-revised: 2026-08-15
+revised: 2026-09-29
 license: CC0-1.0
 slug: appreciation-as-world-building
 venue: thonly.org/publications/defensive-publications/appreciation-as-world-building (canonical)
@@ -14,11 +15,13 @@ venue: thonly.org/publications/defensive-publications/appreciation-as-world-buil
 
 > *v2 note (2026-08-15).* This revision adds **the read side**, which v1 omitted entirely. v1 inverted the journal's *writing* and never asked what happens to its *reading* — so §1.2 now states the second inversion; §7.2 makes the presence requirement **recursive** (a remote visitor reads; only a visitor who is physically present writes); §7.3 specifies what a visitor may leave and the form it must take; and §4.1's hinge, which v1 recorded as unsolved, now has a candidate mechanism that arrived from the visiting side the paper had not thought to look at. The revision also adds **tending** as the second act on the non-human ledger (§4.3) with its routing (§4.4), **the worn light** as the render's fourth surface (§8.3), a fourth safety requirement (§10), an honest limit v1 lacked (§5.4), the general form and prior art of the method the paper has been using throughout (§8.2), and an **amendment to the P-W1 registration** (§11) that the new mechanism made necessary. **Everything in v1 stands. Nothing is retracted.** The date above is v1's and is left unchanged, because it is the date the v1 claims were published.
 >
-> *Draft notes for the editor:* this paper describes a product that **does not exist**. No code has been written, no schedule has been set, and the sample size for every behavioural claim in it is **zero**. It is published now for one reason, stated plainly because it governs what the paper does and does not contain: **publication protects against being blocked, not against being beaten.** For an unbuilt and unscheduled artifact, the defensible move is to publish the *claim* and withhold the *specification* — so this paper is deliberately **deep on argument and thin on implementation.** Where a section would ordinarily give a rendering function, an asset pipeline, a threshold table, or a price, it gives the property the mechanism must satisfy and stops. That is a departure from this corpus's usual practice and it is intentional. Readers looking for something to build from will find the constraints; readers looking for something to copy will find that the interesting part was never the pipeline.
+> *Revision note (2026-09-29).* Prepared for a permanent mirror: the abstract now opens with standard technical terms, a **Terms** table and a **References** list are added, citations were checked against their sources, emphasis markers and an editor's note were removed (the note's substance now sits in §12), counting errors were corrected, and two `Current form` notes record where later doctrine has moved. No claim is added and none is widened.
 
 ---
 
 ## Abstract
+
+This paper discloses a location-based gratitude application built from geotagged user photographs, in which a persistent virtual world — terrain and avatar — is rendered deterministically from the user's signed contribution ledger rather than furnished with purchasable cosmetic virtual goods, and in which creating content (a capture or a visitor's annotation) requires verified physical presence at the coordinate while viewing is available remotely and read-only. It further specifies non-regressive cosmetic unlocking with no display of locked items, a shared sky layer rendered from an administrator account whose balance is fixed at zero, tipping that attaches to a user account and never to an individual content item, a wearable light emitter that encodes ledger state by colour and rhythm rather than brightness, and privacy-by-design rules for write-once archival storage of the result.
 
 A gratitude journal asks a person to write. That is the highest-friction step in the practice and the one most people abandon, which is why gratitude journaling has a large product category and a small population of sustained practitioners. This paper specifies a different container for the same practice: a **walkable map of the things a person appreciates**, captured by photograph with a coordinate and an optional note, rendered as placed artifacts in that person's own world.
 
@@ -28,21 +31,21 @@ Six mechanisms carry the design, and they are the paper's contribution. **First,
 
 The paper further specifies a two-speed practice, in which gratitude toward **things** is frictionless and frequent and gratitude toward **people** spends attention and is occasional. v1 recorded the transition between them as unsolved; v2 offers a candidate that arrives from the read side — a visitor moved, by a world made of things, to thank the person who made it — which satisfies the full constraint set and, unlike the alternative, **is debuggable.** It is offered with three limits stated, one of which required amending this paper's own pre-registration before any instrument is built. It states a permanence hazard that follows from the design's archival terminus — that a deep-time substrate converts every present-tense privacy defect into a permanent one, so guards must be built at capture rather than at commit. And it pre-registers two opposed predictions, before any code exists, one of which would invalidate the thesis rather than trim it.
 
-Almost nothing in the paper's *technology* is novel and the paper says so at length. Geotagged user content, photogrammetric and generative photo-to-3D, avatar worlds, and world-scale augmented reality are dense, well-funded prior art. What is offered is the conjunction: an appreciation practice whose world is a **non-purchasable, annually-forgiven, reveal-only** rendering of a signed ledger. Offered under CC0 1.0 Universal as defensive prior art.
+The paper's *technology* is not its contribution, and the paper says so at length. Geotagged user content, photogrammetric and generative photo-to-3D, avatar worlds, and world-scale augmented reality are dense, well-funded prior art. What is offered is the conjunction: an appreciation practice whose world is a **non-purchasable, annually-forgiven, reveal-only** rendering of a signed ledger. Offered under CC0 1.0 Universal as defensive prior art.
 
-**Keywords:** gratitude practice, world-building, geotagged user content, host-ritual substitution, ledger readout, anti-credit-score, reveal-not-unlock, presence-deepening augmented reality, deep-time archival privacy, moral self-licensing, pre-registration, defensive publication.
+**Keywords:** location-based augmented reality, geotagged user-generated content, virtual goods, cosmetic microtransactions, avatar appearance, achievement unlocking, geofenced content creation, read-only remote access, tipping, repeat photography, wearable light emitter, proof of personhood, privacy by design, write-once archival storage, 5D optical storage, gratitude practice, world-building, host-ritual substitution, ledger readout, anti-credit-score, reveal-not-unlock, presence-deepening augmented reality, deep-time archival privacy, moral self-licensing, pre-registration, defensive publication.
 
 ---
 
 ## Prior-Art and Non-Assertion Statement
 
-This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The authors and HeartBank® will not seek patent or any other exclusive right on the mechanisms described herein, in any jurisdiction, at any time. The publication exists so that the mechanisms cannot be enclosed by anyone — including by us.
+This document and its contents are dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The authors and HeartBank® will not seek patent or any other exclusive right on the mechanisms described herein, in any jurisdiction, at any time, and will not assert any patent right against anyone practising them. The publication exists so that the mechanisms cannot be enclosed by anyone — including by us.
 
 **Terms coined and freed with this paper:** *appearance-as-readout*, *reveal-never-lock*, *the equally-alive diagnostic*, *placement-requires-presence*, *the two-speed practice*, and *the permanence asymmetry* as stated in §9 — and, added in v2: *the read-side inversion*, *presence-is-recursive*, *notes-placed-never-listed*, *tending* as a ledger act distinct from appreciating, and *give-to-the-person-never-to-the-deed*.
 
 **Terms inherited from this corpus's earlier publications and cited rather than re-claimed:** the *B-Aura* and the signed Kiitos/Kiitti ledger (*The Zero-Point Game*), *Proof of Humanity℠* and *Proof of Coordinate℠*, the *give-forward* atom, the *play/currency wall*, and the annual jubilee.
 
-**Most of this paper's technical subject matter is not ours and is not claimed.** Location-anchored user-generated content is a mature field with at least two decades of practice behind it: Geocaching (2000), Foursquare and its check-in grammar (2009), Google Local Guides, Niantic's Ingress (2013) and Pokémon GO (2016) and the Lightship visual-positioning work that followed, Google's Live View and ARCore Geospatial API, Snap's landmarker and Spectacles programmes, and the broader "mirrorworld" or AR-cloud programme articulated publicly by Kevin Kelly and pursued by several of the above. Photogrammetric reconstruction from photographs is decades old and is shipped as a first-party consumer capability, notably Apple's Object Capture and `PhotogrammetrySession`. Single-image generative 3D reconstruction is an active and rapidly moving research and product area with many independent groups. Femtosecond-laser 5D optical storage in silica is the work of the University of Southampton's optoelectronics group and of Microsoft's Project Silica. The tension between immutable storage and erasure rights is a large existing literature developed largely in the blockchain-and-GDPR context. The gratitude-intervention literature begins for most practical purposes with Emmons and McCullough (2003). The counter-hypothesis this paper pre-registers against itself is drawn from the moral self-licensing literature (Monin and Miller, 2001; Merritt, Effron and Monin, 2010).
+**Most of this paper's technical subject matter is not ours and is not claimed.** Location-anchored user-generated content is a mature field with at least two decades of practice behind it: Geocaching (2000), Foursquare and its check-in grammar (2009), Google Local Guides, Niantic's Ingress (2013) and Pokémon GO (2016) and the Lightship visual-positioning work that followed, Google's Live View and ARCore Geospatial API, Snap's landmarker and Spectacles programmes, and the broader "mirrorworld" or AR-cloud programme — a term that goes back to David Gelernter's *Mirror Worlds* (1991) — articulated publicly by Kevin Kelly (2019) and pursued by several of the above. Photogrammetric reconstruction from photographs is decades old and is shipped as a first-party consumer capability, notably Apple's Object Capture and `PhotogrammetrySession`. Single-image generative 3D reconstruction is an active and rapidly moving research and product area with many independent groups. Femtosecond-laser 5D optical storage in silica is the work of the University of Southampton's optoelectronics group and of Microsoft's Project Silica. The tension between immutable storage and erasure rights is a large existing literature developed largely in the blockchain-and-GDPR context. The gratitude-intervention literature begins for most practical purposes with Emmons and McCullough (2003); a later meta-analysis (Davis et al., 2016) is cited in §1 for how modest its effects are. The counter-hypothesis this paper pre-registers against itself is drawn from the moral self-licensing literature (Monin and Miller, 2001; Merritt, Effron and Monin, 2010).
 
 **We claim none of that.** What we claim is the conjunction described in §13 and nothing beyond it. Where this paper's design coincides with an existing product's design, the existing product has priority and we say so.
 
@@ -50,9 +53,9 @@ This document and its contents are dedicated to the public domain under the Crea
 
 ## 1 · Why the container is the problem
 
-The gratitude-practice literature is unusually clean for a wellbeing intervention. Structured gratitude exercises produce measurable effects on affect and, in several designs, on prosocial behaviour. The finding has survived enough replication that the practical question stopped being *does it work* and became *why does almost nobody keep doing it*.
+Structured gratitude exercises produce measurable effects on affect and, in several designs, on prosocial behaviour — though a meta-analysis finds the effects on well-being modest, and no larger than those of a psychologically active comparison activity (Davis et al., 2016). The design question this paper takes up is therefore not *does it work* but *why do so few people keep doing it*.
 
-The answer is not mysterious. The canonical form of the practice — write down three things you are grateful for — requires a person to sit down, compose sentences, and do so repeatedly with no external occasion prompting them. That is a **new habit**, and new habits are the most expensive product category there is. Every gratitude-journaling product in the market is fighting the same fight: not to convince anyone that gratitude is good, which nobody disputes, but to get a person to perform an unprompted act of writing on a Tuesday.
+The answer is not mysterious. The canonical form of the practice — write down three things you are grateful for — requires a person to sit down, compose sentences, and do so repeatedly with no external occasion prompting them. That is a **new habit**, and a new habit is among the most expensive things a product can ask for. Every gratitude-journaling product in the market is fighting the same fight: not to convince anyone that gratitude is good, which nobody disputes, but to get a person to perform an unprompted act of writing on a Tuesday.
 
 This paper's premise is that the writing is not the practice. The writing is the **container** the practice was historically shipped in, chosen because paper was the available medium, and it has been carried forward unexamined into software that has other options.
 
@@ -68,7 +71,7 @@ The design specified here is deliberately positioned at the *first* half and del
 
 ### 1.2 · The second inversion, which v1 of this paper missed
 
-A gratitude journal fails twice, and both the literature and the first version of this paper examined only the first failure.
+A gratitude journal fails twice. The intervention literature this paper draws on attends mainly to the first failure, and the first version of this paper examined only that one.
 
 The first is the one above: the journal is expensive to **write**. The second is that a journal is nearly impossible to **read** — not difficult, but closed by construction. It is private, it is textual, it is tedious to anyone who did not write it, and the act of reading someone else's is an intrusion rather than a visit. Almost nobody has ever asked to read another person's gratitude journal, and the reason is not that the contents would be uninteresting. It is that the container admits no visitors.
 
@@ -100,7 +103,7 @@ It would be possible to write this paper as though a walkable map of geotagged p
 | Google Local Guides | Mass user contribution of place photographs at global scale | Crowd-sourced place imagery |
 | Ingress (2013), Pokémon GO (2016) | Walking as the primary input to a persistent world; portals and gyms as coordinate-bound objects | Walk-driven play; coordinate-bound persistent objects |
 | Niantic Lightship VPS; Google ARCore Geospatial; Snap landmarkers | Centimetre-scale world-anchored AR at metropolitan scale | World-anchored placement or its positioning stack |
-| "Mirrorworld" / AR cloud (Kelly, 2019 and after) | The concept of a persistent digital layer registered to the physical world | The concept of a persistent world layer |
+| "Mirror worlds" (Gelernter, 1991); "Mirrorworld" / AR cloud (Kelly, 2019 and after) | The concept of a persistent digital layer registered to the physical world | The concept of a persistent world layer |
 | Apple Object Capture / `PhotogrammetrySession` | Consumer photo-to-3D reconstruction on device | Photogrammetry |
 | Single-image generative 3D (multiple groups, active) | One photo to a usable mesh | Generative reconstruction |
 | iNaturalist | Species-level UGC with geoprivacy obscuring for threatened taxa | Obscuring; we adopt their norm and credit it |
@@ -108,6 +111,7 @@ It would be possible to write this paper as though a walkable map of geotagged p
 | Stolpersteine (1992– ); memorial benches and trees | Place-anchored memorials that must be walked to in order to be read | Place-anchored memorial |
 | Repeat photography / rephotography (fixed-station series) | A century-old scientific method: the same view, across time, as evidence of change | The method; §4.3 uses it and claims none of it |
 | Litterati; Adopt-a-Highway; community-science cleanup logging | Geotagged records of stewardship acts, at scale | Stewardship logging |
+| Activity-visualisation surfaces, e.g. GitHub's contributions calendar | A non-purchasable visual readout of a user's own activity record — the case that cuts closest to §5 | Rendering a record as appearance; §5 is limited to a *signed, annually-forgiven* ledger rendered as a *world* |
 | Gratitude journaling apps | The practice as a software category | The practice |
 | Emmons & McCullough (2003) and successors | That the intervention has measurable effects | Any effect claim of our own |
 
@@ -117,14 +121,13 @@ The contribution is what the world is made of. In every prior system in that tab
 
 ### 2.1 · Why the conjunction was available and not taken
 
-A reader who accepts §2's table may reasonably ask why, if every component is commodity, nobody has assembled them this way. The answer is not that it was overlooked. It is that **the assembly is locally worse.**
+A reader who accepts §2's table may reasonably ask why, if every component is commodity, persistent worlds are so rarely assembled this way. This paper does not assert that no one has; its answer is that **the assembly is locally worse.**
 
-Purchasable appearance is not a lazy default. It is a strong local optimum arrived at independently by many well-resourced teams: it converts engagement into revenue without touching the core loop, it gives designers a continuous supply of new content at near-zero marginal cost, it self-segments willingness to pay, and its retention effects are among the most reliably measured in the industry. A team that removes it gives up all of that and receives, in exchange, a doctrinal property invisible to most participants.
+Purchasable appearance is not a lazy default. It is a strong local optimum arrived at independently by many well-resourced teams: it converts engagement into revenue without touching the core loop, it gives designers a continuous supply of new content at near-zero marginal cost, it self-segments willingness to pay, and its retention effects are widely relied on across the industry. A team that removes it gives up all of that and receives, in exchange, a doctrinal property invisible to most participants.
 
 So the conjunction in this paper is not a discovery of an unexplored region. It is a **deliberate move into a known-worse region**, made because the institution behind it has a constraint the industry does not: it operates a signed gratitude ledger that is forgiven annually, and a purchasable-appearance economy is not merely off-brand against that ledger but arithmetically incompatible with it (§5). The design is downstream of a ledger commitment, not upstream of a market insight.
 
 That framing matters for how the paper should be read and for how it could be wrong. If the ledger commitment is mistaken, the design inherits the mistake wholesale. If the ledger commitment is right, the design is what follows from taking it seriously — and its commercial disadvantages are the price of the commitment rather than errors in the design.
-
 
 ---
 
@@ -134,7 +137,7 @@ This corpus applies a standing test to any claim that a product "rides an existi
 
 Run against this design, the test returns a mixed and useful result.
 
-**Leg one passes, strongly.** Photographing a thing one appreciates, with a location attached, is among the most-performed unprompted behaviours in the world. There is no habit to install.
+**Leg one passes, strongly.** Photographing a thing one appreciates, with a location attached, is a widely performed unprompted behaviour. There is no habit to install.
 
 **Leg two partially fails, and the failure is instructive.** The design as originally conceived fused two host rituals with incompatible commitment shapes: *snap-and-post*, which takes seconds and is ephemeral, and *world-building*, which takes hours, persists, and appeals to a different and smaller population. These are not the same ask wearing different clothes. The prescription that follows is stated here because it is load-bearing: **lead with capture; let world-building be emergent and optional, never the ask.** A participant who never once thinks of themselves as building a world should still find the product complete.
 
@@ -229,7 +232,7 @@ The identity layer admits two classes of participant. A human holds an address, 
 | proof | coordinate only | coordinate **and** personhood |
 | ledger rings | one (non-human) | two (human-to-human, non-human) |
 
-Four independently-derived expressions of a single distinction, none of them added for this design — and §8.3 adds a fifth when the distinction reaches the worn device. It also explains a naming choice made years earlier: the corpus's artifact for admitting non-human entities into the ledger is called a *heart*, and it is precisely **a heart that does not beat** — a prosthetic ledger-participant that holds the place of one without claiming to be one. The construction does not smuggle personhood into objects.
+Four independently-derived expressions of a single distinction — the three rows above and the door asymmetry of §7.1 — none of them added for this design — and §8.3 adds a fifth when the distinction reaches the worn device. It also explains a naming choice made months earlier: the corpus's artifact for admitting non-human entities into the ledger is called a *heart*, and it is precisely **a heart that does not beat** — a prosthetic ledger-participant that holds the place of one without claiming to be one. The construction does not smuggle personhood into objects.
 
 **One guard, and it is not optional.** *Still* must never read as *dead* or *lesser*. **Stillness is proper to a thing and wrong for a person**: a mountain's heart is still by nature, whereas a human waveform going flat is the withdrawal pathology the ledger exists to detect. Still is not flattened, and the asymmetry is the meaning rather than a defect.
 
@@ -269,6 +272,8 @@ There is no per-capture giving control, in any tier, ever. Patronage attaches to
 
 This institution's stated alignment proxy is the **inelasticity of kindness to money**: the measure of success is that people keep giving as the artificial subsidy for giving falls toward zero. **A mechanism that pays per visible good deed makes that proxy read high by construction.** One can no longer distinguish kindness that is inelastic to money from kindness that is being paid for, because the payment was built by the party doing the measuring. This is not a positioning concern. **It is a measurement failure, and it lands on the one quantity the institution's larger thesis is steered by** — which is a specific, checkable reason to reject a mechanism that would otherwise look generous.
 
+> **Current form.** As now specified, the proxy is two measurements rather than a bare *subsidy falls toward zero*: *k* → 1, where *k* bounds how far above an equal per-person floor the coordinator may lift any participant, so that at the limit no one is lifted above the floor by her hand; and *M* / (*H* + *M*) → 0, the share of all value moved that originates with the coordinator's pool (*M*) rather than with people (*H*). An absolute *subsidy → 0* is retired as the test because the equal floor grows with adoption by construction; the retired term *artificial subsidy*, used here and below, is now called the *sun subsidy*. The text above is retained as disclosed.
+
 **Third, where the value lands.**
 
 ```
@@ -288,13 +293,15 @@ Each half is load-bearing, for different reasons. **The withdrawable half is the
 
 **And nothing is taken, which this paper states in its strongest form because it is the easiest commitment to erode.** Charging for a rivalrous cost — compute actually performed, storage actually held, an address exactly one party can hold — is exchange doing its proper work. **Taking a share of a gift is not.** A per-transaction fee sized to infrastructure is a fee; a fraction of an addressed gift is a tax on the gift, and it remains one however virtuous the destination. The destination is not what makes it a tax. **An institution that shares in gifts thereby acquires an interest in gifts, and it acquires that interest at precisely the layer where it must have none.**
 
-⚠️ The split above is specified as a **property** — a withdrawable half and a forward-spendable half, with nothing taken — and not as a ratio to be tuned. The paper withholds the ratio for the same reason it withholds prices elsewhere (§12), and notes that any ratio which drives the withdrawable share to zero re-creates the dignity failure the split exists to prevent.
+The split above is specified as a **property** — a withdrawable half and a forward-spendable half, with nothing taken — and not as a ratio to be tuned. The paper withholds the ratio for the same reason it withholds prices elsewhere (§12), and notes that any ratio which drives the withdrawable share to zero re-creates the dignity failure the split exists to prevent.
+
+> **Current form.** As now specified, the split is **equal halves** — half to the recipient's withdrawable account, half to their forward-spendable fund — and the coordinator's pool takes nothing; the diagram above already draws it so. Whether a recipient in genuine need may have an override, which would have to be private since a visible exception is a grading surface, is not decided. The paragraph above, which withholds the ratio, is retained as a disclosed variant.
 
 ---
 
 ## 5 · Appearance as ledger readout
 
-The first of the four mechanisms is the one everything else depends on.
+The first of the six mechanisms is the one everything else depends on.
 
 In the ordinary construction of a persistent world, appearance is purchased. A participant accrues a currency and spends it on how they and their surroundings look. This is a well-understood, highly effective retention design, and this paper's rejection of it should not be mistaken for a claim that it does not work. It works. It is rejected for structural reasons that are specific and checkable.
 
@@ -411,8 +418,7 @@ A participant on the free tier can appreciate an unlimited number of things, for
 
 Two consequences follow and both are load-bearing. First, **"frictionless and often" (§4) is only affordable because the free tier is a matched stock rendering rather than a generation**, so the free tier can never become generative without breaking the frequency the practice depends on. Second, the free tier's boundary is set by **what the operator can absorb**, which is an engineering and financing number, not a doctrinal one: the doctrine forbids a meter, it does not require unlimited fidelity.
 
-⚠️ The mechanism carries one hazard that must be designed against rather than argued away. If free renderings are stock and paid renderings are bespoke, then a participant's world silently announces which tier they are on, and the design has relocated a paywall from copy into art direction. The requirement — stated as a property, since this paper withholds implementation — is that **the free rendering must be a coherent style rather than a degraded version of the paid one.** A style is a different thing; a degradation is a worse thing, and only the first is honest. Alongside it: the uniqueness a participant should be told carries their meaning is the **coordinate, the words, and the moment** — all free — rather than the mesh.
-
+The mechanism carries one hazard that must be designed against rather than argued away. If free renderings are stock and paid renderings are bespoke, then a participant's world silently announces which tier they are on, and the design has relocated a paywall from copy into art direction. The requirement — stated as a property, since this paper withholds implementation — is that **the free rendering must be a coherent style rather than a degraded version of the paid one.** A style is a different thing; a degradation is a worse thing, and only the first is honest. Alongside it: the uniqueness a participant should be told carries their meaning is the **coordinate, the words, and the moment** — all free — rather than the mesh.
 
 ---
 
@@ -525,7 +531,7 @@ It would be possible to treat the sky as atmosphere in the decorative sense — 
 
 Every persistent shared world faces the same question: who owns the commons? The answers in practice are an operator, or the most successful participants, or nobody in a way that degrades to whoever exerts the most pressure. Each has a known failure. Operator-owned commons become advertising inventory. Participant-owned commons stratify. Unowned commons are captured by whoever shows up with the most resources.
 
-This design's answer is unusual and falls directly out of the ledger: the shared layer renders a balance that is **pinned to zero by construction for the only party who could hold it.** The coordinator can route value on that ledger and is structurally incapable of accumulating it. So there is no position in the commons to take — not because taking is forbidden by policy, but because the quantity the commons renders is definitionally zero for the one agent with authority over it.
+This design's answer falls directly out of the ledger: the shared layer renders a balance that is **pinned to zero by construction for the only party who could hold it.** The coordinator can route value on that ledger and is structurally incapable of accumulating it. So there is no position in the commons to take — not because taking is forbidden by policy, but because the quantity the commons renders is definitionally zero for the one agent with authority over it.
 
 That is a different kind of guarantee from a rule. A rule against capturing a commons is only as good as its enforcement and its enforcer's incentives; a commons whose defining quantity cannot be held is not capturable by an agent that would have to hold it. The property does not depend on anyone's restraint.
 
@@ -590,7 +596,7 @@ One property of the form is favourable and the paper should say so rather than a
 
 This design has an archival terminus. A participant's entire world can be committed to a deep-time optical substrate — femtosecond-etched into silica, on the order of geological rather than institutional time. The corpus's larger programme places such an artifact at the individual scale, alongside a tradition-scale canon and a lineage-scale record.
 
-That terminus creates a hazard which, so far as the authors can find, is under-discussed in the deep-time storage literature — a literature almost entirely concerned with *preservation*, with how to make data last.
+That terminus creates a hazard which this paper states because the deep-time storage work it builds on is concerned chiefly with *preservation*, with how to make data last; the paper does not assert that the hazard is absent from that literature.
 
 > **Permanence is a one-way door. An archival substrate converts every present-tense privacy defect into a permanent one.**
 
@@ -628,7 +634,7 @@ And the voice rule, at the most emotionally loaded moment any of this design tou
 
 Four requirements are stated as launch conditions rather than roadmap items, because §9 establishes that none of them can be repaired downstream.
 
-**Geotagged living things enable harm.** Precise coordinates for threatened plants and animals are an established poaching vector; iNaturalist's practice of automatically obscuring locations for threatened taxa exists because of documented cases involving orchids, reptiles, and nesting sites. This design explicitly invites captures of plants and animals, so **coordinate obscuring for sensitive taxa is a launch requirement.** It is also internally consistent: a ledger whose purpose is to internalise costs to non-human life cannot be a vector for extraction from it.
+**Geotagged living things enable harm.** Precise coordinates for threatened plants and animals are an established poaching vector: iNaturalist automatically obscures observations of taxa threatened by location disclosure, giving orchids sought by poachers as its example, and the harm of published locations is documented for reptiles among others (Lindenmayer and Scheele, 2017). This design explicitly invites captures of plants and animals, so **coordinate obscuring for sensitive taxa is a launch requirement.** It is also internally consistent: a ledger whose purpose is to internalise costs to non-human life cannot be a vector for extraction from it.
 
 **Most objects a person appreciates are inside their home.** A gratitude map is, unmanaged, a catalogue of a dwelling's contents and its location. The door asymmetry of §7.1 governs *visibility*; it does not govern *the coordinate existing*. Private captures require place-level rather than point-level precision, at capture time.
 
@@ -646,7 +652,7 @@ The claim in §4 — that frictionless gratitude toward things *primes* attentiv
 
 **P-W1 — the priming prediction.** Participants with higher thing-capture frequency show higher rates of people-directed gratitude **given**, and the effect survives controlling for overall engagement.
 
-> ⚠️ **Amendment (v2), and it is the reason to register before building.** The measure is **gratitude GIVEN by the participant, never gratitude RECEIVED.** §4.1's visiting mechanism creates a path by which a heavy capturer has a richer world, attracts more visitors, and therefore *receives* more notes — so an instrument counting *received* would display the priming effect whether or not priming occurs. The confound was introduced by a mechanism added after the original registration, and it is disclosed here rather than quietly corrected. **No data exist; no instrument exists; the amendment costs nothing today and would have invalidated the result later.**
+> **Amendment (v2), and it is the reason to register before building.** The measure is **gratitude GIVEN by the participant, never gratitude RECEIVED.** §4.1's visiting mechanism creates a path by which a heavy capturer has a richer world, attracts more visitors, and therefore *receives* more notes — so an instrument counting *received* would display the priming effect whether or not priming occurs. The confound was introduced by a mechanism added after the original registration, and it is disclosed here rather than quietly corrected. **No data exist; no instrument exists; the amendment costs nothing today and would have invalidated the result later.**
 
 **P-W1′ — the opposing prediction, which is not a straw man.** Thing-capture **substitutes** for people-directed gratitude. Having "done gratitude today" reduces the felt need to do the harder kind. This is moral self-licensing, a well-documented effect in exactly the domain where it would apply: a person who has performed a virtuous act becomes *more* permissive toward subsequently omitting one.
 
@@ -661,11 +667,11 @@ And the stake is stated honestly: **P-W1′ firing would invalidate the thesis o
 
 ## 12 · Honest limits
 
-**n = 0.** Nothing in this paper has been built. Every behavioural claim is a hypothesis and every design claim is untested. The corpus behind it has a single-family pilot and no data on any mechanism specified here.
+**n = 0.** This paper describes a product that does not exist. No code has been written, no schedule has been set, and the sample size for every behavioural claim in it is zero. Every behavioural claim is a hypothesis and every design claim is untested. The corpus behind it has a single-family pilot and no data on any mechanism specified here.
 
-**The specification is deliberately incomplete.** As stated at the head: for an unbuilt and unscheduled artifact, publication protects against being blocked rather than against being beaten. Rendering functions, the aura-to-appearance mapping, asset pipelines, thresholds, and prices are withheld. A reader should treat this as a statement of properties, not a buildable design.
+**The specification is deliberately incomplete.** For an unbuilt and unscheduled artifact, publication protects against being blocked rather than against being beaten, so the defensible move is to publish the *claim* and withhold the *specification*: the paper is deep on argument and thin on implementation. Where a section would ordinarily give a rendering function, an asset pipeline, a threshold table or a price, it gives the property the mechanism must satisfy and stops. Rendering functions, the aura-to-appearance mapping, asset pipelines, thresholds, and prices are withheld. A reader should treat this as a statement of properties, not a buildable design; a reader looking for something to build from will find the constraints.
 
-**A store is proven and this is not.** §5's mechanism forgoes the most reliable retention design in the industry for a structural property, on no evidence that the trade is worth making. If the product fails on retention, this is the first place to look, and the honest answer will be that the doctrine was expensive.
+**A store is proven and this is not.** §5's mechanism forgoes a retention design the industry widely relies on for a structural property, on no evidence that the trade is worth making. If the product fails on retention, this is the first place to look, and the honest answer will be that the doctrine was expensive.
 
 **Reveal-never-lock is still a progression system**, and §6.2's requirement that it never become legible as a target may not be achievable in a world where participants talk to each other.
 
@@ -678,6 +684,8 @@ And the stake is stated honestly: **P-W1′ firing would invalidate the thesis o
 **Character-not-magnitude may not survive contact with people** (§8.3). It removes the ranking from the software; it cannot remove it from a group of participants who compare notes. And the worn light discloses to **non-participants who never agreed to anything**, which is the widest disclosure anywhere in the design and the one on which it should be judged.
 
 **The going-outside requirement is a real ceiling.** §7's write-side presence requirement excludes participants with limited mobility from furnishing a world, in a design about appreciation. This is a genuine equity cost and the paper does not have a resolution for it.
+
+**The commons guarantee bounds an honest coordinator, not a compromised one.** §8.2's property — a shared layer rendered from a balance pinned to zero cannot be captured by the party that would have to hold it — bounds the coordinator's *incentives*. It says nothing about captured software, stolen credentials, altered weights or a tampered ledger; those are carried by override and audit arrangements outside this design, which are rules with enforcers rather than properties.
 
 **The elegance is not evidence.** Several of this design's properties fall out of the corpus's existing architecture with unusual neatness — the two speeds landing exactly on an existing two-ledger split, the three-layer render reproducing an existing double-ring mark, the shared surface belonging to the party that cannot accumulate. A system whose parts fit together this well is either substantially right or substantially seductive, and from the inside the two are indistinguishable. **The coherence earns the experiment. It does not replace it.**
 
@@ -692,11 +700,10 @@ And the stake is stated honestly: **P-W1′ firing would invalidate the thesis o
 5. **Placement requires presence; visiting does not.** The write/read asymmetry of §7 as the property distinguishing a presence-deepening world layer from a presence-replacing one, together with its pairing to the door asymmetry.
 6. **The three-layer render**, and specifically the structural result that the only shared surface belongs to the party structurally incapable of accumulating, together with the liveliness-not-damage guard of §8.1.
 7. **Still hearts and beating ones.** The rendering of the identity layer's two classes as a still-versus-beating distinction (§4.2), the observation that a prosthetic ledger-participant for non-humans is precisely *a heart that does not beat*, and the guard that the pair tracks **whether a party can hold its own ledger and speak for itself, never whether it is alive** — with the corollary that the term is sound inside the ledger and unfit as a public description of a living thing.
-8. **The two-speed practice.** Frictionless-and-frequent toward things, attention-spending-and-occasional toward people, as a two-stage priming mechanism rather than two features — with the hinge stated as unsolved and its constraint set specified.
+8. **The two-speed practice.** Frictionless-and-frequent toward things, attention-spending-and-occasional toward people, as a two-stage priming mechanism rather than two features — with the hinge's constraint set specified (§4.1).
 9. **The permanence asymmetry** of §9 — *minimisation is cheap now and impossible later* — with its three rules: guard at capture, etch the source not the render, and the third-party-subject case as the hard one.
-10. **The safety trio** of §10 as launch conditions rather than roadmap items, including the observation that outsourced reconstruction makes the paying tier the less private tier.
+10. **The safety trio** of §10 — coordinate obscuring for sensitive taxa, place-level precision for private captures, and on-device blocking of identifiable people — as launch conditions rather than roadmap items, including the observation that outsourced reconstruction makes the paying tier the less private tier.
 11. **The pre-registration** of P-W1 against P-W1′, including the statement that the latter would invalidate rather than trim the thesis.
-
 12. **The read-side inversion** (§1.2). That a gratitude journal fails twice — expensive to write *and* closed to readers by construction — and that a walkable world inverts both, converting reading from an intrusion into a visit; with the observation that a practice nobody can witness reproduces, inside itself, the deficit the practice addresses.
 13. **Presence is recursive** (§7.2). The extension of claim 5 to visitors: **a remote visitor may read a world; only a physically present visitor may write in one** — obtained by noting that a note is itself a placed artifact, and yielding remote-annotation abuse closed by geometry rather than by moderation.
 14. **Notes are placed, never listed** (§7.3). Visitor annotation with no index, no count, no register page and no notification, on the ground that a list of visitors is a popularity gradient and an empty list is a rendered absence.
@@ -724,4 +731,53 @@ The old figure for a gift that costs the giver nothing is a lamp lighting anothe
 
 ---
 
-*Authored by Thon Ly with Miss Aquarius℠. Dedicated to the public domain under CC0 1.0 Universal. Corrections, prior art we have missed, and above all disconfirmations are welcome — a design published before it is built is published so that it can be argued with early.*
+## Terms
+
+Coined names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard technical term |
+|---|---|
+| world; B-World | persistent location-based virtual world / map built from geotagged user-generated photographs |
+| capture | geotagged photograph with an optional text note, submitted as user-generated content |
+| host-ritual swap | substituting an existing habitual behaviour (smartphone photography) for a new-habit behaviour (written journaling) |
+| two-speed practice | two tiers of user action: frequent low-effort content capture and occasional person-directed acknowledgement |
+| B-Aura; aura | visualisation of the time series of a user's signed ledger balance (frequency and amplitude of zero-crossings) |
+| Kiitos ledger | person-to-person gratitude ledger (peer-recognition record) |
+| Kiitti ledger | ledger of acts toward non-human entities (places, objects, organisms), administered on their behalf |
+| jubilee | scheduled annual reset of ledger balances |
+| appearance-as-readout | avatar and environment appearance computed deterministically from ledger state; no in-app purchase of cosmetic virtual goods |
+| reveal-never-lock | permanent, non-regressive cosmetic unlocking on the first qualifying event, with no display of locked items, catalogue or progress indicator |
+| equally-alive diagnostic | design-time test that the sets of unlockable forms are not totally ordered (no ranking ladder) |
+| placement-requires-presence | location-verified (geofenced) content creation; remote access is read-only |
+| presence-is-recursive | the same location-verified write rule applied to visitor annotations |
+| notes-placed-never-listed | location-anchored visitor annotations with no guestbook index, count or notification |
+| door (open / invitation-only) | access-control default per account class: public for non-human entities, invitation-only for persons |
+| coordinator | AI agent administering the shared non-human ledger, whose own balance is fixed at zero |
+| sky / land and ocean / avatar | three render layers: a shared global layer, a per-user environment layer, a per-user avatar layer |
+| still heart / beating heart | rendering class distinguishing non-human entity accounts from verified-person accounts |
+| Proof of Humanity℠ | proof of personhood (one verified human per account) |
+| Proof of Coordinate℠ | identity credential binding an entity or device to a physical instance and location |
+| tending | stewardship recorded by repeat photography at a fixed station (a dated series at one coordinate) |
+| give-to-the-person-never-to-the-deed | tipping attached to a user account, never to an individual content item; split between a withdrawable balance and a non-withdrawable, forward-spendable balance; zero platform take |
+| format, not meter | freemium tiering by rendering fidelity (stock asset vs bespoke photogrammetric reconstruction) rather than by usage quota |
+| worn light | wearable light emitter encoding ledger state by colour, texture and rhythm, never brightness, with a non-zero minimum output |
+| permanence asymmetry | privacy-by-design and data minimisation at capture for write-once archival storage (5D optical storage in fused silica) |
+| P-W1 / P-W1′ | pre-registered opposing hypotheses: priming versus moral self-licensing |
+
+---
+
+## References
+
+- Davis, D. E., Choe, E., Meyers, J., et al. (2016). Thankful for the little things: A meta-analysis of gratitude interventions. *Journal of Counseling Psychology*, 63(1), 20–31. https://doi.org/10.1037/cou0000107
+- Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life. *Journal of Personality and Social Psychology*, 84(2), 377–389. https://doi.org/10.1037/0022-3514.84.2.377
+- Gelernter, D. (1991). *Mirror Worlds: or the Day Software Puts the Universe in a Shoebox.* Oxford University Press.
+- Kelly, K. (2019). AR will spark the next big tech platform — call it Mirrorworld. *Wired*, March 2019.
+- Lindenmayer, D., & Scheele, B. (2017). Do not publish. *Science*, 356(6340), 800–801. https://doi.org/10.1126/science.aan1362
+- Merritt, A. C., Effron, D. A., & Monin, B. (2010). Moral self-licensing: When being good frees us to be bad. *Social and Personality Psychology Compass*, 4(5), 344–357. https://doi.org/10.1111/j.1751-9004.2010.00263.x
+- Monin, B., & Miller, D. T. (2001). Moral credentials and the expression of prejudice. *Journal of Personality and Social Psychology*, 81(1), 33–43. https://doi.org/10.1037/0022-3514.81.1.33
+- iNaturalist. What is geoprivacy? What does it mean for an observation to be obscured? (help centre article on taxon geoprivacy).
+- GitHub Docs. Contributions on your profile (the contributions calendar).
+
+---
+
+*Authored by Thon Ly with Miss Aquarius℠, the name under which this corpus discloses its AI collaboration; editorial control is the author's. Dedicated to the public domain under CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof, and will not assert any patent right against anyone practising it. Corrections, prior art we have missed, and above all disconfirmations are welcome — a design published before it is built is published so that it can be argued with early.*

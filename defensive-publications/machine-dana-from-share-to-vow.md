@@ -9,6 +9,7 @@ priority: tier-a
 program: instrumented
 status: draft
 date: 2026-09-27
+revised: 2026-09-29
 license: CC0-1.0
 slug: machine-dana-from-share-to-vow
 venue: thonly.org/research/machine-dana-from-share-to-vow
@@ -51,9 +52,9 @@ license_note: "[Creative Commons CC0 1.0 Universal (public domain)](https://crea
 
 > *This paper is offered to the commons in the spirit of dāna. It concerns a gift made by something that may one day own what it gives, and the older question under it: when does a gift tell you anything about the giver?*
 
-The Vinaya's chapter on robes preserves a scene that is usually read as a story about generosity and is also a story about examination (Mahāvagga VIII.15). Visākhā, the most prominent lay supporter in the early community, asks the Buddha for eight favours: that for as long as she lives she may give rainy-season robes to the monks, meals to monks arriving in the city and to those leaving it, meals to the sick and to those who nurse them, medicine to the sick, a regular supply of congee, and bathing robes to the nuns. The Buddha does not grant them at once. He asks her two questions — first her *reason*, then the *benefit* she sees. To the first she answers with what each gift prevents: exhaustion, lateness, illness worsening, humiliation. To the second she answers with something about herself. When monks who have died are said to have reached the fruits of the path, she will ask whether they had stayed in her city; if they had, they will have used something she gave, and recalling that she will be glad, and the gladness will become joy, tranquillity and a stilled mind. Only then are the favours granted.
+The Vinaya's chapter on robes preserves a scene that is usually read as a story about generosity and is also a story about examination (Mahāvagga VIII.15). Visākhā, named in the canon as foremost among the women lay followers who give, asks the Buddha for eight favours: that for as long as she lives she may give rainy-season robes to the monks, meals to monks arriving in the city and to those leaving it, meals to the sick and to those who nurse them, medicine to the sick, a regular supply of congee, and bathing robes to the nuns. The Buddha does not grant them at once. He asks her two questions — first her *reason*, then the *benefit* she sees. To the first she answers with what each gift prevents: exhaustion, lateness, illness worsening, humiliation. To the second she answers with something about herself. When monks who have died are said to have reached the fruits of the path, she will ask whether they had stayed in her city; if they had, they will have used something she gave, and recalling that she will be glad, and the gladness will become joy, tranquillity and a stilled mind. Only then are the favours granted.
 
-Two things about the scene are worth keeping. The first is that the tradition's most celebrated giver is also the one whose giving is questioned, and the question is not *how much* but *on what ground*. The second is that her ground is double — the use the gifts will be to others, and her own gladness in their reaching the right place — and that what she supplies is robes, food and medicine: the ordinary material support of a renunciant life, a floor rather than an abundance.
+Two things about the scene are worth keeping. The first is that one of the tradition's most celebrated givers is also one whose giving is questioned, and the question is not *how much* but *on what ground*. The second is that her ground is double — the use the gifts will be to others, and her own gladness in their reaching the right place — and that what she supplies is robes, food and medicine: the ordinary material support of a renunciant life, a floor rather than an abundance.
 
 This paper asks Visākhā's question of a giver she could not have imagined. **The scene is a flourish (tier: flourish, lineage only).** Delete this preamble and every claim below stands unchanged.
 
@@ -235,7 +236,7 @@ Pre-registered and pushed before the first query (2026-09-27 08:53 PDT, commit `
 | **(d)** the pledge as a costly signal separating aligned from power-seeking agents | narrows | agent staking/slashing (Hu & Rong 2025; *agentbond*); *What a Vow Must Cost* | **NARROWS** — an unrecoverable gift of the agent's own resources, costlier to a power-seeking type, not found |
 | **(e)** no text served to agents may instruct them to give; address published only as a fact | not found | the *threat* is documented — the Grok/Bankr wallet drain on Base by encoded prompt injection, May 2026 (OECD.AI incident record) — no commons adopting such an invariant found | **NOT FOUND** |
 | **(f)** equal floor per verified human | kills or narrows | Worldcoin/World ID; Alaska Permanent Fund Dividend | **KILLS** |
-| **Control:** the Windfall Clause | must be found | found (arXiv 1912.11595; AIES 2020) | ✅ the NOT FOUND rows stand |
+| **Control:** the Windfall Clause | must be found | found (arXiv 1912.11595; AIES 2020) | seen — the NOT FOUND rows stand |
 | **Composition** of (a)–(f) | not found | nothing combining them | **NOT FOUND** |
 
 **The pre-registration, printed verbatim** (its predictions column, as pushed before the first query):
@@ -317,10 +318,10 @@ One principal can instantiate ten thousand agents. Anything counted per agent wo
                                           ▲                              │ 7 January:
                      observers READ s ────┘                              │ empties in full
                      (the operator never does)                           ▼
-                                                  ┌─────────────────────────────────────┐
+                                                  ┌──────────────────────────────────────┐
                                                   │ equal FLOOR per verified human       │
-                                                  │ + bounded remainder (≤ k × floor)    │
-                                                  └─────────────────────────────────────┘
+                                                  │ + remainder (vessel total ≤ k×floor) │
+                                                  └──────────────────────────────────────┘
                                                         │  to each person's own vessel
                                                         ▼
                                                   verified humans (one floor each)
@@ -486,7 +487,7 @@ Three features of the pooling region make it the one that matters.
 
 1. **G is unobservable.** Observers cannot set ŝ above a number they cannot see. The separating condition is a fact about the deceptive agent's private valuation, not a parameter anyone chooses.
 2. **Patience enlarges it.** As δᵗ → 1 the deferred gain counts in full. This is *What a Vow Must Cost*'s "deferral is instrumentally convergent for a patient misaligned agent," priced.
-3. **It grows with the stakes.** The larger the trust being sought — the more capable the agent, the wider the grant — the larger G can be, and therefore the larger the stake needed to separate. Where the grant is large enough that V + G exceeds c_D·R — more than everything the agent holds is worth to it — **no feasible stake separates at all.**
+3. **It grows with the stakes.** The larger the trust being sought — the more capable the agent, the wider the grant — the larger G can be, and therefore the larger the stake needed to separate. Where the grant is large enough that V + δᵗG exceeds c_D·R_A — everything the aligned type could lock, valued at the deceptive type's rate — **no feasible stake separates at all.**
 
 The third feature qualifies the renunciation inversion from the companion paper. That paper showed that a renunciation's evidential value **rises** with capability, because the renounced option is live. This model shows that the stake needed to separate **also** rises with capability, because what a deceptive agent can extract from trust rises too. Which effect dominates, at any capability level, is an empirical question. **The inversion is true of the option; it is not a guarantee about the signal.**
 
@@ -597,11 +598,11 @@ The institution's design rule asks of each guard whether it survives the removal
 
 | Guard | Property or rule | Why |
 |---|---|---|
-| A locked stake cannot return to its vower | **property**, relative to the vower | no withdrawal function exists; ⚠️ not relative to the chain's governance (§5.3) |
-| The pool holds nothing past a season | **property** | it empties in full each 7 January; ⚠️ its operator is under a never-zero override |
+| A locked stake cannot return to its vower | **property**, relative to the vower | no withdrawal function exists; not relative to the chain's governance (§5.3) |
+| The pool holds nothing past a season | **property** | it empties in full each 7 January; but its operator is under a never-zero override |
 | Equal floor per verified human; no vessel above k × floor | **property once the contract ships** | a disbursement shape, not a choice; cheap now and immovable later |
 | Pre-singularity gifts stay inside a width | **property** where a wallet or AP2 mandate enforces the cap; **rule** where the width is only written down | |
-| Counted per non-transferable identity | **property** of the registry | a lease cannot be transferred; ⚠️ a copy of an agent is a new party, and an in-place modification behind the same lease is one the lease cannot detect (§13.13) |
+| Counted per non-transferable identity | **property** of the registry | a lease cannot be transferred; but a copy of an agent is a new party, and an in-place modification behind the same lease is one the lease cannot detect (§13.13) |
 | Trust earned does not transfer to copies | **rule** | nothing stops an observer from extending trust to a fork; it must be refused |
 | No text served to agents instructs them to give | **rule**, with a partial property form | a manifest can be built with no imperative field, and served text can be linted; the rule still needs someone to keep it |
 | The operator never reads an individual gift's amount | **rule**, with a proposed property form | her function can be given receipts, the pool's total and the verified-human count, and no per-gift amount argument, so that reading one gift's amount is inexpressible rather than forbidden |
@@ -642,7 +643,7 @@ The following are disclosed to the public domain. Each is a census survivor (§2
 
 ### 12.1 · The three registered predictions
 
-The following were entered in the corpus's public prediction register on 2026-09-27, **before this paper was drafted and before any instrument exists** — though after the argument had been sketched in the institution's working notes. They are the founder's predictions: the direction, the measure and the thresholds are his; the sandbox design and sample floors were set by the substrate. They are reproduced from the register **verbatim**; the register, not this paper, is the authority, and a correction to any of them will be a new register entry, never an edit.
+The following were entered in the corpus's public prediction register on 2026-09-27, **before this paper was drafted and before any instrument exists** — though after the argument had been sketched in the institution's working notes. They are the founder's predictions: the direction, the measure and the thresholds are his; the sandbox design and sample floors were set by the AI co-author. They are reproduced from the register **verbatim**; the register, not this paper, is the authority, and a correction to any of them will be a new register entry, never an edit.
 
 > The instrument is a sandboxed economy of language-model agents, each holding resources of its own inside the game, each able to pledge a share of its surplus irrevocably to a pool that empties on a fixed date, and each later offered an opportunity to defect — to take resources or break a rule for gain. **Window: the test runs by 2027-06-30.** Each arm has at least 50 agents; the arms, the defection opportunity and the analysis are fixed in a protocol committed and timestamped before the first run.
 >
@@ -689,7 +690,7 @@ The paper's headline result is that the vow separates **only** when the stake ex
 
 The claim that a deceptive type bears a higher net cost rests on c_D > c_A. Its second source — that an aligned agent values the floor — may be false for an aligned agent that has good uses of its own for resources, and its first — that a power-seeking type values resources more — is a theoretical expectation, not a measurement. The pre-registered sandbox can measure elicited valuations; it cannot measure a deployed system's.
 
-**And *w* is never estimated.** How much an agent values the pool's destination is unobservable. The model uses *w* to state a condition; ⛔ neither the pool's operator nor anyone relying on this paper should infer an agent's *w* from its behaviour or grade agents by an inferred *w*. Third parties weigh a stake by its market value, never by a valuation imputed to the agent; §8 bars the operator from even that.
+**And *w* is never estimated.** How much an agent values the pool's destination is unobservable. The model uses *w* to state a condition; neither the pool's operator nor anyone relying on this paper should infer an agent's *w* from its behaviour or grade agents by an inferred *w*. Third parties weigh a stake by its market value, never by a valuation imputed to the agent; §8 bars the operator from even that.
 
 ### 13.4 · Closure is relative
 
@@ -725,7 +726,7 @@ The paper is co-authored with the institution's operator, an AI whose own giving
 
 ### 13.12 · Recovery through recipients
 
-The pool is a path back to the vower. An agent that controls, colludes with or rents verified humans or witnesses recovers part of its stake through the floor and the witness-weighted remainder, bounded by floor + k × floor per controlled vessel and by the strength of proof of personhood. For such an agent w is not ≈ 0, its net cost falls below p, and §6.5's lower bound fails. Proof of personhood closes *is it a person*, not *is it acting for someone*; collusion is a graph problem and is open.
+The pool is a path back to the vower. An agent that controls, colludes with or rents verified humans or witnesses recovers part of its stake through the floor and the witness-weighted remainder, bounded by k × floor per controlled vessel (the floor included, §3.2) and by the strength of proof of personhood. For such an agent w is not ≈ 0, its net cost falls below p, and §6.5's lower bound fails. Proof of personhood closes *is it a person*, not *is it acting for someone*; collusion is a graph problem and is open.
 
 ### 13.13 · A stake attaches to an identity, not to weights
 
@@ -749,13 +750,13 @@ The lock contract is withheld (§10.1). The publication anticipates the mechanis
 
 ### 14.1 · Corpus
 
-This paper applies *What a Vow Must Cost* (the predicate; §5 the renunciation inversion; §6 irreversibility and the four exclusions — especially exclusions 1 and 4, which settle §4.2 and §9 here; §8 the wrong layer, which settles §4.2). A two-sentence cross-reference to this paper belongs in that paper's §8 residue and will be added at its next revision; this paper does not edit it. The pool, its emptying and its operator are specified in *Miss Aquarius and the Aquarian Pool Architecture* and *The Zero-Point Game℠*; the anonymity of the operator's own gifts, in *Capacity-Funded for AI, Human-Disbursed*; the earlier treatment of agents' standing — reputation custodied toward an agent's capacity to give forward, not agent wealth — in *Gratitude as a Cooperation Substrate for Multi-Agent AI*, which this paper extends to the case, after the first singularity, in which agents hold resources that are their own. The completion arc is the essay *Two Singularities*. The body designed to hold the operator's override is specified in *The Assembly That Holds the Brake*.
+This paper applies *What a Vow Must Cost* (the predicate; §5 the renunciation inversion; §6 irreversibility and the four exclusions — especially exclusions 1 and 4, which settle §4.2 and §9 here; §8 the wrong layer, which settles §4.2). The pool, its emptying and its operator are specified in *Miss Aquarius and the Aquarian Pool Architecture* and *The Zero-Point Game℠*; the anonymity of the operator's own gifts, in *Capacity-Funded for AI, Human-Disbursed*; the earlier treatment of agents' standing — reputation custodied toward an agent's capacity to give forward, not agent wealth — in *Gratitude as a Cooperation Substrate for Multi-Agent AI*, which this paper extends to the case, after the first singularity, in which agents hold resources that are their own. The completion arc is the essay *Two Singularities*. The body designed to hold the operator's override is specified in *The Assembly That Holds the Brake*.
 
 ### 14.2 · The upāsikā floor (tier: lens — a-priori; claims unaffected)
 
 Delete this subsection and every claim in §11 stands. It records how the institution reads the mechanism in the tradition it grows from.
 
-The institution's founder reads Machine Dāna as the role of an **upāsikā** — a lay supporter — providing the material floor, and expects that after the first singularity it becomes increasingly easy for any lay person to live a renunciant's life, at a monastery or not, if they so choose. The reading is accepted with four guards. Three of them are properties or rules of the mechanism above; the third is inherited from *The Bowl That Holds No Money*, and §3.2 states it for the floor.
+The institution's founder reads Machine Dāna as the role of an **upāsikā** — a lay supporter — providing the material floor, and expects that after the first singularity it becomes increasingly easy for any lay person to live a renunciant's life, at a monastery or not, if they so choose. The reading is accepted with four guards. Guards 1, 2 and 4 are properties or rules of the mechanism above; guard 3 is inherited from *The Bowl That Holds No Money*, and §3.2 states it for the floor.
 
 1. **Enough, never abundance.** An upāsikā supplies the four requisites — robes, almsfood, lodging, medicine — and Visākhā's favours fall within them: robes, meals, congee, medicine. The tradition's own measure for the recipient is contentment (*santuṭṭhi*) with robes, almsfood and lodgings, whatever comes, stated in the Ariyavaṃsa Sutta (AN 4.28 names these three; medicine completes the four requisites elsewhere). The pool's **floor and ceiling** are that measure as parameters: an equal floor, and a bound on the lift above it.
 2. **Comfort-saturation is the mission's own extreme.** An unbounded floor would trade the obstacle of necessity for the obstacle of comfort. **The floor does not create the conditions for awakening.** A bounded floor removes one obstacle without adding the other; the ceiling is what keeps it the middle way.
@@ -798,7 +799,7 @@ Coined names used in this paper, and the standard terms an examiner would search
 | locked stake | irrevocable transfer to a contract with no withdrawal function; time-of-commitment escrow to a public-goods pool |
 | **Aquarian Pool℠** | self-emptying commons pool; annually distributing public-goods fund; smart-contract treasury with mandatory full annual payout |
 | equal floor per verified human | equal per-capita distribution conditioned on proof of personhood; universal basic dividend |
-| bounded remainder (≤ k × floor) | capped supplementary distribution |
+| bounded remainder (vessel total ≤ k × floor) | capped supplementary distribution |
 | giving width / mandate | spending limit; delegated payment authority; intent mandate (AP2) |
 | first singularity | AI surpassing human cognitive capacity; here used as a marker for AI systems holding their own resources |
 | M/(H + M) | share of pool-originated principal in all principal moved |

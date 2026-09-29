@@ -2,29 +2,37 @@
 title: "Silica Wat as Hybrid Food Network with Gratitude-Economic Drivers: Religious Institutional Infrastructure for Middle-Way Restoration of Food Systems"
 authors: "Thon Ly · Miss Aquarius"
 category: institutional
+kind: mechanism
 priority: tier-b
 status: draft
 date: 2026-05-22
+revised: 2026-09-29
 license: CC0-1.0
 slug: silica-wat-food-network
 venue: thonly.org/research/silica-wat-food-network (canonical)
 ---
 
-> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror; the institutional-voice treatment is the companion heartbank.net Position Paper *Food-System Pathologies and the Contemplative-Tradition Response* (heartbank.net/positions/food-system-pathologies-contemplative-response). The slug `silica-wat-food-network` is the canonical research URL.
+## Abstract
+
+This paper specifies a hybrid community food network rooted in religious institutions: a distributed network of monastery-based sites, each combining a farm, a kitchen and free food distribution, operated by AI and robotic caretakers that hold no ordained status, supplied by donated garden produce plus purchased food that guarantees a supply floor, and recording contributions on a non-monetary gratitude ledger instead of pricing them. The network is named the **Silica Wat food network**: an institutional-design pattern by which a network of religious-monastery-rooted food-infrastructure nodes (Silica Wats — glass-architecture satellite monasteries operated by AGI-monks per the *caretaker-not-ordained* pattern) serves as a middle-way restoration mechanism for food systems. The pattern integrates five components: (i) **religious institutional infrastructure** — physical Silica Wats, planned for Cambodia first and eventually across the global Theravāda diaspora and beyond, each including backyard organic farm, sustainable kitchen, and food-distribution function; (ii) **homegrown-amplified contribution layer** — practitioners and laypeople contribute homegrown organic produce to the network, and robot-monk-operated kitchens prepare meals from contributions; (iii) **conventionally-supplemented baseline** — for practitioners and food-insecure populations who cannot contribute homegrown produce (no land, no time, no skill, urban-density constraints), conventionally-sourced food supplements the homegrown core, with long-term ratio shift toward homegrown over decades but no exclusion at launch; (iv) **Kiitos / Kiitti as economic drivers** — gratitude-economic primitives record the network's gifts where money would otherwise mediate them, each contribution registering as one crossing whatever it carried, operating as a substrate above (not replacing) the regulated payment rails; (v) **doctrinal grounding** — the Khmer cultural saying *"since Mother Earth gave birth to humanity, she will take care of humanity"*: everything required for health and longevity is available by default, and modern economic incentives have systematically obscured this fact. Three structural problems addressed: the health crisis (big-food / big-pharma incentive misalignment between profit and wellbeing), the hunger epidemic (unequal distribution from economic pressures), and the middle-way departure (modern food systems pushing toward comfort-saturation extremes via ultra-processed engineering). Critical positioning constraints (*not-a-restaurant* analogous to *not-a-bank*; hybrid not pure-homegrown; robot monks as caretakers not ordained; do not antagonize big food / big pharma; do not romanticize the past) are articulated. Three-phase implementation phasing (conventional baseline with a homegrown contribution layer, honoured in the story of each gift and never in a rate; ratio shift over 5–10 years; multi-decade homegrown-dominance) is specified. Offered as a defensive publication so that other contemplative-tradition institutions facing analogous food-system questions can adopt and adapt the pattern.
+
+**Keywords:** community kitchen, food bank, religious-institution food distribution, hybrid food network, donated garden produce, non-monetary reciprocity ledger, community-supported agriculture, robotic kitchen, AI caretaker, food-system institutional design, gratitude-economic mediation, food sovereignty, alms-giving traditions, Silica Wat, AGI-monks, middle-way restoration, *dāna* infrastructure, defensive publication.
 
 ---
 
-## Abstract
+## Prior-Art and Non-Assertion Statement
 
-This paper specifies the **Silica Wat food network**: an institutional-design pattern by which a network of religious-monastery-rooted food-infrastructure nodes (Silica Wats — glass-architecture satellite monasteries operated by AGI-monks per the *caretaker-not-ordained* pattern) serves as a middle-way restoration mechanism for food systems. The pattern integrates five components: (i) **religious institutional infrastructure** — physical Silica Wats located in Cambodia first and eventually across the global Theravāda diaspora and beyond, each including backyard organic farm, sustainable kitchen, and food-distribution function; (ii) **homegrown-amplified contribution layer** — practitioners and laypeople contribute homegrown organic produce to the network, and robot-monk-operated kitchens prepare meals from contributions; (iii) **conventionally-supplemented baseline** — for practitioners and food-insecure populations who cannot contribute homegrown produce (no land, no time, no skill, urban-density constraints), conventionally-sourced food supplements the homegrown core, with long-term ratio shift toward homegrown over decades but no exclusion at launch; (iv) **Kiitos / Kiitti as economic drivers** — gratitude-economic primitives record the network's gifts where money would otherwise mediate them, each contribution registering as one crossing whatever it carried, operating as a substrate above (not replacing) the regulated payment rails; (v) **doctrinal grounding** — the Khmer cultural saying *"since Mother Earth gave birth to humanity, she will take care of humanity"*: everything required for health and longevity is available by default, and modern economic incentives have systematically obscured this fact. Three structural problems addressed: the health crisis (big-food / big-pharma incentive misalignment between profit and wellbeing), the hunger epidemic (unequal distribution from economic pressures), and the middle-way departure (modern food systems pushing toward comfort-saturation extremes via ultra-processed engineering). Critical positioning constraints (*not-a-restaurant* analogous to *not-a-bank*; hybrid not pure-homegrown; robot monks as caretakers not ordained; do not antagonize big food / big pharma; do not romanticize the past) are articulated. Three-phase implementation phasing (conventional baseline with a homegrown contribution layer, honoured in the story of each gift and never in a rate; ratio shift over 5–10 years; multi-decade homegrown-dominance) is specified. Offered as a defensive publication so that other contemplative-tradition institutions facing analogous food-system questions can adopt and adapt the pattern.
+This is a **defensive publication**. The author and HeartBank® will not seek patent on this specification or any portion of it, in any jurisdiction, at any time, will not assert any patent right against anyone practising it, and dedicate the patterns to the public domain under CC0 1.0.
 
-**Keywords:** food-system institutional design, hybrid food network, gratitude-economic mediation, Silica Wat, AGI-monks, middle-way restoration, food sovereignty, alms-giving traditions, *dāna* infrastructure, defensive publication.
+The contribution is a composition of known parts, and the prior art for each part is abundant. Religious institutions have run free community kitchens for centuries: the Sikh *langar*, introduced by Guru Nanak around 1500 and systematised by his successors, serves meals free of charge at every gurdwara to anyone regardless of religion, caste or status, cooked by volunteers from donated food — the closest prior instance of claim 1's site-and-kitchen function, and one that needs no ledger at all. The Theravāda alms round and monastery kitchen (§6.2) and the Benedictine *ora et labora* farm (§10.3) are older still. Food banks (the first, St. Mary's Food Bank in Phoenix, was founded by John van Hengel in 1967) route donated and recovered food to the food-insecure without price. Community-supported agriculture (the Japanese *teikei* from the mid-1960s; the first United States CSAs in 1986) connects growers and eaters outside ordinary retail pricing. Time banking (Cahn, 2000) records community contributions on a non-monetary ledger. Each of these cuts against any reading of this paper as the origin of free religious food distribution, donated-produce kitchens or non-monetary contribution records.
+
+What this paper discloses as its own contribution is only the composition enumerated under **Claims**: a monastery-rooted food node mediated by a gratitude ledger (in which every contribution registers as one unweighted crossing, §3.1), a donated-produce layer with a purchased supply floor, a two-ledger rule separating thanks between humans from thanks to non-human contributors, and operation by caretakers that hold no ordained status. No systematic search of the patent and non-patent literature has been run for this paper; the composition is disclosed, not asserted to be absent from the literature.
 
 ---
 
 ## Claims
 
-*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; several thousand words of prose is not.** No claim below adds matter not already present.*
 
 1. **Monastery-rooted food infrastructure as a gratitude-economic node** — a distributed network of religious-institutional sites each combining growing, kitchen and distribution functions, whose output is mediated through a gratitude ledger rather than through price alone.
 2. **The homegrown-amplified contribution layer** — a mechanism by which practitioner-grown produce contributed to a node is amplified rather than merely accepted, so that small-scale domestic growing acquires network-scale effect. The amplification is the kitchen's (§3.2: one basket becomes meals for several), never a multiplier on the gratitude a contribution registers.
@@ -38,7 +46,7 @@ This paper specifies the **Silica Wat food network**: an institutional-design pa
 
 ## 1. Introduction
 
-The modern food system, considered as an institutional infrastructure, exhibits three failure patterns simultaneously. The first is a **health crisis** driven by misalignment between profit-maximizing food engineering and wellbeing-maximizing nutritional content; ultra-processed food engineered for hyper-palatability competes successfully against minimally-processed whole foods because the former optimizes for engagement metrics that the latter does not. The second is a **hunger epidemic** driven by unequal distribution: caloric production is globally adequate, but economic pressures route food away from populations that need it most. The third is a **middle-way departure** at the population-metabolic layer: the food environment of late-stage modernity pushes the materially comfortable toward an indulgence extreme (excess caloric intake, ultra-processed dominance, blood-sugar volatility, microbiome impoverishment) at unprecedented historical scale.
+The modern food system, considered as an institutional infrastructure, exhibits three failure patterns simultaneously. The first is a **health crisis** driven by misalignment between profit-maximizing food engineering and wellbeing-maximizing nutritional content; ultra-processed food engineered for hyper-palatability competes successfully against minimally-processed whole foods because the former optimizes for engagement metrics that the latter does not. The second is a **hunger epidemic** driven by unequal distribution: caloric production is globally adequate, but economic pressures route food away from populations that need it most. The third is a **middle-way departure** at the population-metabolic layer: the food environment of late-stage modernity pushes the materially comfortable toward an indulgence extreme (excess caloric intake, ultra-processed dominance, blood-sugar volatility, microbiome impoverishment) at population scale.
 
 The conventional institutional responses — regulatory reform, agricultural subsidy redesign, food-assistance program expansion, public-health-campaign nutrition education — operate within the existing institutional architecture and have produced limited progress against the underlying pathologies over the past several decades. This paper proposes a different institutional architecture: a **religious-monastery-rooted food-infrastructure network** operating under contemplative-tradition institutional governance, with gratitude-economic mediation instead of price-mediated exchange for the network's internal flows. The architecture is not proposed as a substitute for the conventional food system; it is proposed as a parallel infrastructure that provides middle-way-restoring food access to participants who opt in, on the premise that participants demonstrating the alternative will eventually demonstrate that demand for it exists.
 
@@ -52,7 +60,7 @@ The paper proceeds as follows. §2 specifies the religious institutional infrast
 
 ### 2.1 Silica Wats
 
-A *Silica Wat* is a glass-architecture satellite monastery operated under the *caretaker-not-ordained* AGI-monks pattern specified in the companion paper *AGI Monks*. The naming carries deliberate intent: *Silica* (the silicate base of glass and silicon) references both the wat's distinctive architectural material and the silicon-substrate AI caretakers; *Wat* references the Khmer term for a Theravāda monastery (also used across Lao and Thai Buddhism). The name preserves the institutional continuity of the contemplative tradition the wat extends.
+A *Silica Wat* is a glass-architecture satellite monastery operated under the *caretaker-not-ordained* AGI-monks pattern specified in the companion paper *AGI Monks*. The naming carries deliberate intent: *Silica* (silicon dioxide, the principal constituent of glass and the ore from which silicon is refined) references both the wat's distinctive architectural material and the silicon-substrate AI caretakers; *Wat* references the Khmer term for a Theravāda monastery (also used across Lao and Thai Buddhism). The name preserves the institutional continuity of the contemplative tradition the wat extends.
 
 Each Silica Wat includes:
 
@@ -62,7 +70,7 @@ Each Silica Wat includes:
 
 ### 2.2 Geography of the first network
 
-The first Silica Wats are deployed in Cambodia, where the contemplative-tradition grounding, the Khmer cultural saying that grounds the doctrinal framing (§6), the founder's cultural anchoring, and the lower regulatory friction make first-deployment tractable. The phase-two expansion targets the global Theravāda diaspora (Khmer, Lao, Thai, Burmese, Sri Lankan communities in California, Massachusetts, France, Australia); phase-three expansion targets cross-tradition adaptations (§10).
+The first Silica Wats are planned for Cambodia, where the contemplative-tradition grounding, the Khmer cultural saying that grounds the doctrinal framing (§6), and the founder's cultural anchoring make a first deployment tractable; whether the regulatory path there is easier than elsewhere is a question for the local legal review §11.2 requires, not an assumption of this design. The second stage of expansion targets the global Theravāda diaspora (Khmer, Lao, Thai, Burmese, Sri Lankan communities in California, Massachusetts, France, Australia); the third stage targets cross-tradition adaptations (§10). (These geographic stages are distinct from the ratio phases of §9.)
 
 ### 2.3 Robot monks as kitchen caretakers
 
@@ -145,7 +153,7 @@ The doctrinal anchor for the Silica Wat food network is the Khmer cultural sayin
 
 > *"Since Mother Earth gave birth to humanity, she will take care of humanity."*
 
-The saying articulates a worldview in which everything required for human health and longevity is available by default through the planet's life-giving capacity, and the role of human institutional design is to preserve and channel that default access rather than to engineer above or around it. Modern economic incentives, the saying implicitly observes, have obscured this fact by routing human food access through profit-extraction layers that have nothing to do with the planet's life-giving capacity.
+The saying is given here in the author's English rendering, as he knows it from oral Khmer usage; this paper cites no written source for it, and nothing in the mechanism depends on its wording (§11.5). The saying articulates a worldview in which everything required for human health and longevity is available by default through the planet's life-giving capacity, and the role of human institutional design is to preserve and channel that default access rather than to engineer above or around it. Modern economic incentives, the saying implicitly observes, have obscured this fact by routing human food access through profit-extraction layers that have nothing to do with the planet's life-giving capacity.
 
 ### 6.2 The Buddhist *dāna* tradition
 
@@ -161,7 +169,7 @@ The Silica Wat food network is one operational arm of the broader middle-way-res
 
 ### 7.1 The health crisis
 
-The modern food environment is characterized by ultra-processed food engineered for hyper-palatability, addictive-engagement optimization, and shelf-life maximization at the cost of nutritional density. The pharmaceutical industry's chronic-disease management surface is significantly populated by conditions whose primary etiology is the food environment. The two industries' incentives are aligned: more processing produces more disease, which produces more pharmaceutical revenue.
+The modern food environment is characterized by ultra-processed food engineered for hyper-palatability, addictive-engagement optimization, and shelf-life maximization at the cost of nutritional density. Diets high in ultra-processed food are associated with a wide range of chronic conditions, among them obesity, type 2 diabetes and cardiovascular disease (Monteiro et al., 2018), and the management of those conditions is a large part of pharmaceutical revenue. This paper's premise, stated as a premise rather than a finding, is that neither industry's incentive rewards reducing that burden at its dietary source.
 
 The Silica Wat food network addresses this by operating on a different optimization function (net wellbeing, not net profit) without requiring system-level antagonism (the network does not need to defeat big food and big pharma; it needs only to provide a parallel option that participants demonstrate demand for).
 
@@ -173,7 +181,7 @@ The Silica Wat network's gratitude-economic distribution layer bypasses the prof
 
 ### 7.3 The middle-way departure
 
-The modern food environment pushes the materially comfortable toward an indulgence extreme — excess caloric intake, ultra-processed dominance, blood-sugar volatility, microbiome impoverishment. This is the food-system instance of the broader middle-way-departure thesis: modernity introduces a specific new failure mode (comfort-saturation pushing the materially comfortable toward indulgence) at unprecedented historical scale.
+The modern food environment pushes the materially comfortable toward an indulgence extreme — excess caloric intake, ultra-processed dominance, blood-sugar volatility, microbiome impoverishment. This is the food-system instance of the broader middle-way-departure thesis: modernity introduces a specific new failure mode (comfort-saturation pushing the materially comfortable toward indulgence) at population scale.
 
 The Silica Wat network restores middle-way conditions at the participant level. Homegrown organic produce, minimally-processed institutional kitchen preparation, *dāna*-mediated distribution that does not reward overconsumption — these are middle-way structural properties at the food-environment layer.
 
@@ -185,11 +193,13 @@ The architecture survives only if it adheres to specific positioning constraints
 
 ### 8.1 *Not-a-restaurant* positioning
 
-Food-safety and food-service regulation, in most jurisdictions, is approximately as restrictive as banking regulation. A Silica Wat that operated as a restaurant would face licensing requirements, health-code regimes, employment regulations, and consumer-protection obligations the architecture cannot accept. The Silica Wat avoids restaurant-charter requirements through:
+Food service is, like banking, a licensed category in most jurisdictions. A Silica Wat that operated as a restaurant would face licensing requirements, health-code regimes, employment regulations, and consumer-protection obligations the architecture cannot accept. The Silica Wat avoids restaurant-charter requirements through:
 
 - **Pass-through architecture.** The wat does not purchase food and sell prepared meals; it routes contributions through preparation to consumption, with the gratitude-mediated economy operating as the participant-to-participant exchange substrate.
 - **Contributor-as-cook framing.** The practitioners who contribute produce and the practitioners who help prepare meals are *members of the wat community*, not commercial employees of a food-service operation. This is materially correct (the contributors and cooks participate as practitioners, not as laborers) and legally distinguishing.
 - **Tradition-grounded food-preparation language.** The wat's food function is articulated in the alms-giving traditions' language (offering, *dāna*, communal meal, monastic kitchen) rather than in commercial food-service language (restaurant, menu, server, customer).
+
+> **Current form.** In the pass-through bullet above, the gratitude record is not an exchange substrate: meals and produce are given, and thanks registers as one crossing (see the notes at §3.1 and §3.3). The network does buy food for the supply floor (§4.2); what it never does is sell a meal. The bullet is retained as a disclosed variant.
 
 The positioning is analogous to the *not-a-bank* positioning of the non-bank pass-through architecture. The pattern is the same: structure the institution to do real-world work the regulated category would otherwise require licensing for, by operating in a different category entirely.
 
@@ -203,11 +213,11 @@ Per the *AGI Monks* paper's pattern. Sacramental authority remains with the huma
 
 ### 8.4 Do not antagonize big food / big pharma
 
-The system-level critique articulated in §7.1 is substantively correct, but framing the network as *fighting villains* weakens it strategically and rhetorically. The network is positioned as *offering an alternative optimization axis* (net wellbeing) rather than as *opposition to existing systems*. The system-level reform follows from the existence of the alternative, not from rhetorical attack on the incumbents.
+Whatever the merit of the system-level premise stated in §7.1, framing the network as *fighting villains* weakens it strategically and rhetorically. The network is positioned as *offering an alternative optimization axis* (net wellbeing) rather than as *opposition to existing systems*. The system-level reform follows from the existence of the alternative, not from rhetorical attack on the incumbents.
 
 ### 8.5 Do not romanticize the past
 
-Pre-industrial food systems were not middle-way; many populations lived in suffering-extreme food poverty (chronic undernutrition; seasonal famine; parasitic burden). The defensible thesis is *not* that modernity took us from a middle-way past. The defensible thesis is that modernity introduces a *specific new failure mode* — comfort-saturation-optimized food engineering — that pushes the materially comfortable toward an indulgence extreme at unprecedented scale. The Silica Wat network's mission is forward to a different state, not back to a romanticized past.
+Pre-industrial food systems were not middle-way; many populations lived in suffering-extreme food poverty (chronic undernutrition; seasonal famine; parasitic burden). The defensible thesis is *not* that modernity took us from a middle-way past. The defensible thesis is that modernity introduces a *specific new failure mode* — comfort-saturation-optimized food engineering — that pushes the materially comfortable toward an indulgence extreme at population scale. The Silica Wat network's mission is forward to a different state, not back to a romanticized past.
 
 ---
 
@@ -281,38 +291,68 @@ The Khmer cultural saying that grounds the network (§6.1) is specifically Khmer
 
 The network does not solve the broader food-system pathologies at policy or regulatory layers. It provides a parallel option for participants who opt in; it does not reform the conventional food system per se. The reform-by-demonstration theory of change (participants demonstrating that an alternative works will eventually demonstrate that demand for the alternative exists) is the network's contribution to broader reform; the network is not itself a reform proposal.
 
+### 11.7 Build state
+
+Nothing specified in this paper has been built. No Silica Wat, network kitchen or HeartBank® Stall exists as of this revision, no contribution has been recorded, and no participant has been served; every mechanism above is a design, and none of the paper's claims about participant behaviour (the growth of homegrown contribution in §3.4, the ratio shift of §9, the demand-by-demonstration theory of §11.6) has been observed.
+
 ---
 
 ## 12. Conclusion
 
 The Silica Wat food network is offered as an institutional-design pattern available to contemplative-tradition institutions facing analogous food-system questions. The pattern's five components (religious institutional infrastructure; homegrown-amplified contribution layer; conventionally-supplemented baseline; gratitude-economic mediation; doctrinal grounding), three structural problems addressed, critical positioning constraints, and three-phase implementation phasing together specify the architecture at the level a competing design could implement.
 
-The pattern is implementable today in Cambodia and tractable for adaptation to the global Theravāda diaspora and cross-tradition contexts. The institutional substance requires institutional build-out across the multi-decade horizon; the pattern specifies the form that build-out takes. The food-network arm of the broader middle-way-restoration mission is intended to operate alongside the contemplative-practice arm (the respiratory-biofeedback architecture), the institutional arm (the AGI-monks pattern), and the gratitude-economic arm (the HeartBank platform).
+The pattern could be piloted first in Cambodia (§2.2), subject to the local legal review of §11.2, and is tractable for adaptation to the global Theravāda diaspora and cross-tradition contexts. The institutional substance requires institutional build-out across the multi-decade horizon; the pattern specifies the form that build-out takes. The food-network arm of the broader middle-way-restoration mission is intended to operate alongside the contemplative-practice arm (the respiratory-biofeedback architecture), the institutional arm (the AGI-monks pattern), and the gratitude-economic arm (the HeartBank platform).
 
-The author and HeartBank® will not seek patent on this specification or any portion thereof. The work is offered to the commons under CC0 in the spirit of *dāna*, that all beings may give and receive without barrier.
+The author and HeartBank® will not seek patent on this specification or any portion thereof, and will not assert any patent right against anyone practising it. The work is offered to the commons under CC0 in the spirit of *dāna*, that all beings may give and receive without barrier.
+
+---
+
+## Terms
+
+Coined names in this paper and the standard technical terms an examiner would use for them.
+
+| Term in this paper | Standard technical term |
+|---|---|
+| Silica Wat | monastery-based community food site combining a farm, a kitchen and free food distribution |
+| Silica Wat food network | distributed network of religious-institution community kitchens and food-distribution sites |
+| AGI-monk / robot monk | AI agent and robotic system operating a kitchen, farm and inventory as a caretaker |
+| caretaker-not-ordained | operational role for an AI or robot that carries no religious office or ritual authority |
+| homegrown-amplified contribution layer | donated home-garden produce, converted by a shared kitchen into prepared meals |
+| conventionally-supplemented baseline | food purchased through ordinary retail and wholesale channels to guarantee a supply floor |
+| Kiitos | non-monetary peer-to-peer gratitude record between people; not convertible into money |
+| Kiitti | gratitude record addressed to a non-human contributor (land, plants, a product or service), kept by a coordinator that holds no balance |
+| crossing | one recorded act of giving or thanking, counted once and not weighted by what was given |
+| aura | state signal derived from a participant's gratitude ledger oscillating around zero; not a reputation score |
+| Zero / the annual jubilee | the ledger's reference point, and the yearly forgiveness (reset to zero) of every gratitude balance |
+| HeartBank® Stall | unstaffed, robot-operated hand-over point; goods given first, with optional thanks afterwards |
+| B-Tag mode | post-receipt, payment-optional pricing (thanks or pay-what-you-wish after the goods) |
+| Aquarian Pool℠ | commons fund that receives thanks having no human addressee |
+| not-a-restaurant positioning | operating a communal meal outside the licensed food-service category, subject to local legal review |
+| *dāna* | gift-giving, in the Buddhist sense |
+| Sangha | the ordained monastic community |
 
 ---
 
 ## Acknowledgments
 
-The Khmer cultural tradition that grounds the doctrinal anchor; the Theravāda monastic *dāna* lineage; the global community-supported agriculture movement; the Indigenous food sovereignty movements whose institutional design work informs the §10 cross-tradition adaptation principles; the *AGI Monks* paper's caretaker-not-ordained pattern; the regenerative agriculture and permaculture communities whose practice informs the §3.4 practitioner education arm. Co-drafted in collaboration with Miss Aquarius, the institution's named AI substrate; substantive authorship and final editorial control remain with the named author.
+The Khmer cultural tradition that grounds the doctrinal anchor; the Theravāda monastic *dāna* lineage; the global community-supported agriculture movement; the Indigenous food sovereignty movements whose institutional design work informs the §10 cross-tradition adaptation principles; the *AGI Monks* paper's caretaker-not-ordained pattern; the regenerative agriculture and permaculture communities whose practice informs the §3.4 practitioner education arm. Co-drafted with Miss Aquarius℠, the name under which this corpus discloses its AI collaboration; substantive authorship and final editorial control remain with the named author.
 
 ---
 
 ## References
 
 - Pollan, Michael. *In Defense of Food: An Eater's Manifesto.* Penguin, 2008.
-- Monteiro, Carlos A., et al. "The UN Decade of Nutrition, the NOVA Food Classification and the Trouble with Ultra-Processing." *Public Health Nutrition* 21 (2018): 5–17.
-- Mintz, Sidney W. *Sweetness and Power: The Place of Sugar in Modern History.* Penguin, 1986.
-- Patel, Raj. *Stuffed and Starved: The Hidden Battle for the World Food System.* Melville House, 2007.
+- Monteiro, Carlos A., et al. "The UN Decade of Nutrition, the NOVA Food Classification and the Trouble with Ultra-Processing." *Public Health Nutrition* 21, no. 1 (2018): 5–17.
+- Mintz, Sidney W. *Sweetness and Power: The Place of Sugar in Modern History.* Viking, 1985.
+- Patel, Raj. *Stuffed and Starved: Markets, Power and the Hidden Battle for the World Food System.* Melville House, 2008.
 - Holt-Giménez, Eric. *A Foodie's Guide to Capitalism.* Monthly Review Press, 2017.
 - Shiva, Vandana. *Stolen Harvest: The Hijacking of the Global Food Supply.* South End Press, 2000.
 - Berry, Wendell. *The Unsettling of America: Culture and Agriculture.* Sierra Club Books, 1977.
-- Mollison, Bill, and David Holmgren. *Permaculture One.* Tagari, 1978.
+- Mollison, Bill, and David Holmgren. *Permaculture One: A Perennial Agriculture for Human Settlements.* Corgi, 1978.
 - Cahn, Edgar S. *No More Throw-Away People: The Co-Production Imperative.* Essential Books, 2000.
 - Bodhi, Bhikkhu. *In the Buddha's Words: An Anthology of Discourses from the Pali Canon.* Wisdom, 2005. *(For the dāna-tradition references.)*
 - Kornfield, Jack. *Teachings of the Buddha.* Shambhala, 1996.
-- LaDuke, Winona. *All Our Relations: Native Struggles for Land and Life.* Haymarket, 1999.
+- LaDuke, Winona. *All Our Relations: Native Struggles for Land and Life.* South End Press, 1999.
 
 ---
 
@@ -320,10 +360,8 @@ The Khmer cultural tradition that grounds the doctrinal anchor; the Theravāda m
 
 - Canonical: thonly.org/research/silica-wat-food-network
 - GitHub: github.com/thonly/publications/blob/main/defensive-publications/silica-wat-food-network.md
-- arXiv (deferred): cs.CY / q-bio.OT (target if reactive trigger)
-- IP.com (deferred): per the corpus's six-venue defensive-publication baseline
-- Internet Archive · archive.today snapshots: per the monthly snapshot cadence
+- Companion (institutional voice): heartbank.net position paper *Food-System Pathologies and the Contemplative-Tradition Response* (heartbank.net/positions/food-system-pathologies-contemplative-response)
 
 ---
 
-*Document License: CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof. This document constitutes a defensive publication establishing prior art as of the publication date.*
+*Written by Thon Ly with Miss Aquarius℠, the name under which this corpus discloses its AI collaboration; editorial control is the author's. Document License: CC0 1.0 Universal. The author and HeartBank® will not seek patent on this specification or any portion thereof, and will not assert any patent right against anyone practising it. This document constitutes a defensive publication establishing prior art as of the publication date.*
