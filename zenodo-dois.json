@@ -1,4 +1,13 @@
 {
+ "a-promise-that-cannot-grow": {
+  "concept_doi": "10.5281/zenodo.23041247",
+  "deposition_id": 23041248,
+  "doi": "10.5281/zenodo.23041248",
+  "published": true,
+  "sandbox": false,
+  "sha256": "458a72b7011aad3ce396c17a5b99e0d13dadc306f45439a24b251b448dcbf5d7",
+  "url": "https://zenodo.org/records/23041248"
+ },
  "abhidhamma-and-discrete-quantum-gravity": {
   "concept_doi": "10.5281/zenodo.23020020",
   "deposition_id": 23020021,
