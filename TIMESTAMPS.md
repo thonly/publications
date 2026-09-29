@@ -1,3 +1,20 @@
+### 2026-09-29 (later) — TDCommons wave 4: ten defensive publications made mirror-ready (A232) (founder: *"approve all"*)
+
+One drafter per paper: mirror repairs (banners, perma.cc, false-mirror lines, SHA footers, the A126 sentence ×2), standard non-assertion, Abstract lead, Terms, Keywords; examiner-read error and citation fixes; Current-form notes by the variant rule. Founder rulings the same day: dedicatory-generation claim 9 narrowed to heirs first · certification-by-circulation claim-2 note (rows private, proofs public) · the-gift-operation store-tithe note (the 9/15 cycle diagram governs) · the-unpaid-relay's minor unnamed by relation · sacrifice-witness §12 clinician clause removed. `verify-legs.sh` ✓ ×10. `a-promise-that-cannot-grow` stays held (A257).
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **machine-dana-from-share-to-vow** | `.ots` → `.r4.ots` (Bitcoin-complete); new `ee562c37d5d2…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039765 *(new version)* | 2.5.28 |
+| **non-bank-pass-through-architecture-autonomous-ai** | `.ots` → `.r3.ots` (Bitcoin-complete); new `e0a6b23d33ed…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039766 *(new version)* | 2.5.28 |
+| **certification-by-circulation** | `.ots` → `.r2.ots` (Bitcoin-complete); new `e9d7715a5553…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039769 *(new version)* | 2.5.28 |
+| **the-unpaid-relay** | `.ots` → `.r3.ots` (Bitcoin-complete); new `29a68532335f…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039771 *(new version)* | 2.5.28 |
+| **the-gift-operation** | `.ots` → `.r5.ots` (Bitcoin-complete); new `c850ff1a41ba…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039772 *(new version)* | 2.5.28 |
+| **silica-wat-food-network** | `.ots` → `.r4.ots` (Bitcoin-complete); new `3d0004915ea4…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039777 *(new version)* | 2.5.28 |
+| **sacrifice-witness-without-discharge** | `.ots` → `.r2.ots` (Bitcoin-complete); new `102ae246f793…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039778 *(new version)* | 2.5.28 |
+| **appreciation-as-world-building** | `.ots` → `.r2.ots` (Bitcoin-complete); new `a188a634720a…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039779 *(new version)* | 2.5.28 |
+| **inverted-alms-round** | `.ots` → `.r1.ots` (Bitcoin-complete); new `d522d4c797c5…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039781 *(new version)* | 2.5.28 |
+| **dedicatory-generation** | `.ots` → `.r1.ots` (Bitcoin-complete); new `0889a5de2767…`, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23039782 *(new version)* | 2.5.28 |
+
 ### 2026-09-29 — wave 3 and the two queued papers POSTED at TDCommons (mirrors, not revisions)
 
 All twelve outstanding submissions posted; the date is the one printed on the venue's own PDF cover (the notices reach the
