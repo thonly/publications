@@ -1,0 +1,99 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Certification by Circulation: Short-Lived Revocable Membership Credentials for AI-Generated Software, with Admission Standards Verified from Public Transaction Records, Mandatory Human Stewards of Record, and Reversible Successor Custody
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper title has no
+   colon, so the subtitle follows a colon. Subtitle drawn from the paper's Abstract and ## Terms table:
+   "short-lived, revocable verifiable credential", "public transaction records", "steward-of-record",
+   "reversible custody". No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (249 words — limit 250; the paper's own ## Abstract is ~520 words and was condensed here, no new matter)
+We specify a short-lived, revocable membership credential for software applications and AI agents whose admission standards are machine-verifiable predicates over public transaction records rather than a paid auditor's opinion. Trust seals sold by the certifier to the certified tend toward adverse selection, and security audit is priced for firms rather than for the laypeople now building software with AI assistance. Admission to a standards-bearing membership body requires that the software's revenue be voluntary patronage, that a defined fraction flow forward to a commons fund, and that no undisclosed monetisation channel exist, so the attestor holds no opinion a payment could bend. The credential is rooted in an assigned, revocable machine identity, expires and renews, and between renewals emits a liveness signal; a verification surface shows only whether it is current. A graded attestation ladder keeps each claim inside its verification method: signed provenance, ledger-verified revenue conduct as the headline, and a safety floor (scanning, disclosure, open source) attested only as dated process claims, never as "safe." Patronage splits equally between the human and the AI co-creator; the agent's share is held by a neutral custodian and routed to the agent's upkeep and the commons, with no platform percentage. Every published AI-originated artifact must carry a personhood-verified human steward of record, metered per person and audited against rented vouching. When a steward lapses, a succession ladder declared at activation runs from heir to co-stewards to surfaced adopters to the custodian as last resort, whose custody stays open to human reclaim.
+
+CLAIMS HEADING (for check-mirrors --record) — the seven claims are ENUMERATED in the Prior-Art statement and
+  specified in §§4–8; record all six headings, exactly:
+  --claims-heading "## Prior-Art and Non-Assertion Statement" \
+  --claims-heading "## 4 · The credential (claim 1): a heart that beats in software" \
+  --claims-heading "## 5 · Certification by circulation (claims 2–3)" \
+  --claims-heading "## 6 · The co-creation economics (claim 4): the agent is a participant, not a tool — and nobody takes a cut" \
+  --claims-heading "## 7 · The no-orphan-software invariant (claim 5)" \
+  --claims-heading "## 8 · The successor-steward mechanism (claims 6–7): what happens when the steward cannot answer anymore"
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py certification-by-circulation --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-07-07 · concept DOI 10.5281/zenodo.21947300 (zenodo-dois.json) ·
+  scoped timestamp line. ⚠ The deposited Zenodo version (22246384) predates this revision — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — Prior-Art statement L26: "will not seek patent on this specification or any portion
+      thereof, in any jurisdiction, at any time, and will not assert any patent right against anyone practising
+      it" (the "will not assert" clause ADDED this revision, standard form); repeated in the closing footer L399.
+  [x] Claims — 7 enumerated in "## Prior-Art and Non-Assertion Statement" (L30–42), specified in §§4–8. No claim
+      added, removed or reworded. Three Current-form notes sit in §4 (L144), §5 (L204) and §8 (L332): variant
+      notes, not claims — the claim text is retained as disclosed.
+  [x] Prior art — §2 (trust seals incl. the case that cuts against: Edelman's BBBOnline finding and the 2022
+      proof-of-reserves / Mazars pause, both ADDED; certification vs collective marks; CA lineage; Debian/GitHub
+      succession; agent marketplaces; guilds)
+  [x] Honest limits — §10, eight items, myth-free
+  [x] AI co-authorship disclosed in text — footer L399 ("the name under which this corpus discloses its AI
+      collaboration; editorial control is the author's"); no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. No pilot family in this paper.
+  [x] No perma.cc · no draft banner ("Draft in progress." blockquote removed; its companion-works list moved to
+      the new "## Corpus cross-references") · no "Mirrors of this document…" line · no placeholders · no SHA-256
+      footer · no A126 mission sentence (the paper's mission paragraph never carried it)
+  [x] mirror-lint: 0 refuse · 0 warn (was 3 refuse · 2 warn)
+  [x] No emoji / internal markers (⭐ ⚠️ ⛔ ✅ grep 0). NOTE: the ♥ glyph (U+2665) appears in the §3 and §4.2
+      ASCII diagrams (L119, L153, L161) as a diagram symbol for the liveness signal — retained as disclosed;
+      check it renders as a text glyph in the PDF.
+  [x] Terms table present — "## Terms" (21 rows, coined name → standard technical term) — ADDED
+  [x] Abstract leads with standard terms (L50, rewritten opening sentence); **Keywords:** line ADDED (L56)
+  [x] 5 fenced diagrams (§3, §4.2, §5.2, §6, §8.2) — widest ≤ 95 characters (measured)
+  [x] Title does NOT lead with a mark — "Certification by Circulation" is a coined phrase, unmarked; examiner terms
+      arrive in the subtitle
+  [x] kind: mechanism added; revised: 2026-09-29; date unchanged; status: draft unchanged (no ruled human round)
+  [x] RESOLVED 2026-09-29 (founder, "approve all"): claim 2's text kept as disclosed; Current-form note §5.1 (L204)
+      states the current ledger form — rows private, proofs public (receipts, never amounts); row-level
+      recomputation of the admission checks by the parties who hold the rows (the member and the auditing party);
+      anyone verifies the public proofs; "recomputable by anyone" retained as the disclosed variant.
+  [x] Agent share routed to "upkeep" (claim 4, §6) and the claim-6 bearer list — kept as disclosed (founder, 2026-09-29).
+  [x] Marks appear only in the body, reservation list and footer; none in the TDCommons title or subtitle
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|oldest|world's|categorical;
+                  line numbers = defensive-publications/certification-by-circulation.md after this revision)
+  No occurrence of novel / unprecedented / unique / "never been" / categorical.
+  Removed or scoped this revision:
+   · L28 "To the author's knowledge, the following are not previously published as a unified mechanism" →
+     "It discloses the following, individually and as a combination, so that they stand as prior art …"
+   · L44 "are, to the author's knowledge, novel as of this paper's date" → "What this paper discloses as its own
+     contribution is the synthesis …; No prior-art census has been run on these; they are disclosed, not asserted
+     to be absent from the literature."
+   · L20 Preamble / L64 §1.1 "no verification institution anywhere [at any price] attests to a business model" —
+     contradicted the paper's own §2.2 (B Corp) → scoped to "known to the author … from records of conduct", with
+     B Corp named as the nearest exception in kind.
+   · L96 "the world's only working conventions for software succession" (contradicted by GitHub successors in the
+     next sentence) → "some of the longest-running".
+   · L100 "This publication places the combination in the commons first" → "… in the commons"; "will land next"
+     → "are likely to land".
+   · L188 "a heartbeat only ever certifies the present" → "standing no older than its window" (renewal
+     recomputes the predicates; between renewals the signal attests standing, not fresh conduct).
+   · L363 "The oldest continuously operating institution on Earth" → "One of the oldest"; "The specification is
+     new" → "recent".
+   · L355 "has never been run" → "has not yet been run" (lint WARN).
+  "first" — ordinal/temporal → FINE: L20 "for the first time"; L62 "the first gap"; L84 "first presented 2006";
+     L96/L321 "first resort"; L42/L322 "human-adopted-first".
+  "only" — SCOPED mechanism statements → FINE (e.g. L34 "attested only as dated process claims"; L84 "a predicate
+     is only as complete as the record it reads").

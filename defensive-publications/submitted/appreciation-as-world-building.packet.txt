@@ -1,0 +1,106 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Appreciation as World-Building: A Location-Based Virtual World Rendered from a User's Signed Ledger Instead of Purchasable Cosmetics, with Location-Verified Content Creation and Read-Only Remote Visiting
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper title has no
+   colon, so the subtitle follows a colon. Subtitle drawn from the paper's Abstract opening and ## Terms table:
+   "persistent location-based virtual world", "rendered deterministically from ... signed contribution ledger",
+   "purchasable cosmetic virtual goods", "location-verified (geofenced) content creation", "remote access is
+   read-only". No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250; the paper's own ## Abstract is ~900 words and was condensed here, no new matter)
+We disclose a location-based gratitude application built from geotagged user photographs. Each user's persistent virtual world, terrain and avatar, is rendered deterministically from that user's signed contribution ledger rather than furnished with purchasable cosmetic virtual goods: there is no store and no path from money to appearance, which lets a scheduled annual reset of ledger balances remain a forgiveness rather than a confiscation. Cosmetic forms unlock non-regressively on the first qualifying ledger pattern, with no display of locked items or progress, and a design-time test requires that unlockable sets not form a ranking ladder. Creating content, whether a capture or a visitor's annotation, requires verified physical presence at the coordinate, while viewing is remote and read-only; annotations are found by walking to them, with no guestbook index, count or notification. A shared sky layer is rendered from an administrator account whose own balance is fixed at zero, so the one shared surface offers no position to accumulate. Stewardship is recorded by repeat photography at a fixed station; tips attach to the person, never to an individual deed, split between a withdrawable and a forward-spendable balance with no platform take. A wearable light encodes ledger state by colour and rhythm, never brightness, above a floor that is never dark. For write-once archival storage, privacy guards apply at capture, not at commit. Opposing hypotheses, priming versus moral self-licensing, are pre-registered. Stated limits: nothing is built, curation of the map is not prevented, and presence-gated writing excludes people with limited mobility.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 13 · What is claimed, and freed"     (17 enumerated claims)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py appreciation-as-world-building --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-08-13 · concept DOI 10.5281/zenodo.21947263 (zenodo-dois.json) ·
+  scoped timestamp line. ⚠ The deposited Zenodo version (21959729) predates this revision — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement" (L40): "will not seek patent or any other
+      exclusive right ... and will not assert any patent right against anyone practising them" (assertion clause
+      added this revision); §13 close: "None will be registered, patented, or asserted"; closing footer now in the
+      standard form: "will not seek patent on this specification or any portion thereof, and will not assert any
+      patent right against anyone practising it."
+  [x] Claims section — "## 13 · What is claimed, and freed", 17 enumerated items. Claim 8: "with the hinge stated
+      as unsolved" → "with the hinge's constraint set specified (§4.1)" (removes a contradiction with §4.1's v2
+      candidate; no widening). Claim 10: "the safety trio" now names its three members (a scoping, no new matter;
+      §10's fourth requirement, navigability, is NOT brought into the claim).
+  [x] Prior art — Prior-Art statement + §2 table (now with Gelernter 1991 for "mirror worlds" and, as the case
+      that cuts closest to claim 1, GitHub's contributions calendar — a non-purchasable readout of an activity
+      record) + §8.2's method lineage (capability security, trust minimisation, Lessig)
+  [x] Honest limits — §12 (the editor banner's substance folded in: product does not exist, n = 0, claim
+      published / spec withheld; plus a new narrowing: §8.2's commons guarantee bounds an honest coordinator,
+      not a compromised one — carried from the keystone paper's ruled limit)
+  [x] AI co-authorship disclosed in text — front matter authors + closing footer ("Authored by Thon Ly with Miss
+      Aquarius℠, the name under which this corpus discloses its AI collaboration"); no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Pilot referred to only as "a
+      single-family pilot"
+  [x] No perma.cc · no draft banner ("Draft notes for the editor" removed; content folded into §12) · no
+      "Mirrors of this document…" line · no SHA-256 footer · no placeholders · no A126 mission sentence (never
+      carried one) · no "head" for MA
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse [draft-banner L17] · 1 warn [novelty L31])
+  [x] No emoji / internal markers (three ⚠️ removed: §4.4, §6.3, §11 amendment; grep 0)
+  [x] Terms table present — "## Terms" (26 rows, coined name → standard technical term)
+  [x] Abstract section present — "## Abstract", now opening with a standard-term paragraph
+  [x] Keywords line — standard terms prepended (location-based AR, virtual goods, cosmetic microtransactions,
+      geofenced content creation, repeat photography, proof of personhood, privacy by design, 5D optical storage…)
+  [x] References — "## References" (7 verified bibliographic entries, 5 with DOIs, + 2 web documents)
+  [x] 5 fenced diagrams, widest 72 chars — under 95
+  [x] Title does NOT lead with a mark — "Appreciation as World-Building" is unmarked
+  [x] Marks (℠/®) only in body, Terms table and footer; none in the TDCommons title or subtitle
+  [!] front matter "status: draft" — unchanged; this revision adds two ## sections (Terms, References)
+  [!] Two "Current form" notes (§4.4) record doctrine that moved after 2026-08-15: the alignment proxy is now
+      k → 1 and M/(H+M) → 0 ("artificial subsidy" renamed "sun subsidy"); the tip split is equal halves (the
+      paragraph that "withholds the ratio" contradicted the paper's own half/half diagram — retained as a variant)
+  [!] "Terms coined and freed with this paper" (L44) — a coinage statement about names, not a novelty claim
+      about mechanisms; kept
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|unusual|most|
+                  categorical|not found; line numbers = defensive-publications/appreciation-as-world-building.md
+                  after this revision)
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique / "has not been" / "not found".
+  "categorically" — L184 (the design grammar forbids a rendered absence), L538 (§8.1's guard stated
+      categorically) → FINE: statements of the design's own rule strength, not priority.
+  "unusual" — L690 "fall out of the corpus's existing architecture with unusual neatness" → FINE: it opens the
+      "elegance is not evidence" limit, i.e. it argues AGAINST the paper.
+  "only" — SCOPED mechanism statements → FINE: L30/L534/L701 "the only shared surface in the system" (a property
+      of this design's render, stated inside the system), L30/L708 "only a visitor who is physically present may
+      write" (the rule), L627 "the only copy", L643 "may originate only from that person".
+  "first" — ordinal → FINE: L30 "the first time a participant's oscillation", L74 "the first version", L607
+      "the first capture", L749 Terms "first qualifying event".
+  "most" — FINE: L26 "the one most people abandon" (journaling attrition, the paper's premise; unsourced but
+      not a priority claim), L58 now "among the most expensive things a product can ask for" (rhetorical),
+      L518 "the most dangerous object this design contains" (internal).
+  L28 "the second failure is less examined than the first" — a comparative about attention, not an absence
+      claim; the absolute form at L74 was scoped this revision.
+  Removed / scoped this revision: L31 "Almost nothing in the paper's technology is novel" → "is not its
+      contribution"; §1 "The gratitude-practice literature is unusually clean … survived enough replication" →
+      effects stated as modest with Davis et al. 2016 cited; §1 "new habits are the most expensive product
+      category there is" → "among the most expensive things a product can ask for"; §1.2 "both the literature
+      and the first version of this paper examined only the first failure" → "The intervention literature this
+      paper draws on attends mainly to the first failure"; §2.1 "nobody has assembled them this way" → "so
+      rarely … This paper does not assert that no one has"; §2.1 "among the most reliably measured in the
+      industry" → "widely relied on"; §3 "among the most-performed unprompted behaviours in the world" →
+      "a widely performed unprompted behaviour"; §8.2 "This design's answer is unusual" → "falls directly out
+      of the ledger"; §9 "so far as the authors can find, is under-discussed in the deep-time storage literature"
+      → "the paper does not assert that the hazard is absent from that literature"; §12 "the most reliable
+      retention design in the industry" → "a retention design the industry widely relies on". No /novelty census
+      has been run on this paper (deposited before the census bar; eligible without one per the 2026-09-23 ruling).

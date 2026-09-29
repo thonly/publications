@@ -1,0 +1,89 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Silica Wat as Hybrid Food Network with Gratitude-Economic Drivers: Religious Institutional Infrastructure for Middle-Way Restoration of Food Systems — Monastery-Based Community Kitchens with Donated Produce, a Purchased Supply Floor, an Unweighted Non-Monetary Contribution Ledger, and AI Caretakers without Religious Office
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the title already has a
+   colon, so the subtitle follows an EM DASH — founder ruling 2026-09-24. Subtitle drawn from the paper's Abstract
+   and ## Terms table: "community kitchen", "donated garden produce", "supply floor", "non-monetary gratitude
+   ledger", "crossing ... not weighted", "caretaker ... no religious office". No mark in the added part; no new
+   matter. The PDF keeps the paper's own title.)
+  NOTE: the paper's own title leads with the coined name "Silica Wat" — tdc-pdf.py will warn; the standard terms
+  arrive in the subtitle. Whether "Middle-Way Restoration" stays in a permanent title is a ruling owed (see report).
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (243 words — limit 250; written for the form, leads with standard terms; the paper's own ## Abstract is longer)
+We specify a hybrid community food network rooted in religious institutions: a distributed network of monastery-based sites, each combining a farm, a kitchen and free food distribution, operated by AI and robotic caretakers that hold no ordained status or ritual authority. Supply has two layers: produce donated from participants' home gardens, which the shared kitchen turns into meals for many, and food purchased through ordinary channels that guarantees a supply floor, so that people with no land, time or skill are never excluded; over decades the intended ratio shifts toward donated produce without cutting anyone off. Contributions are not priced. Each is recorded on a non-monetary gratitude ledger as one unweighted crossing, whatever it carried; meals are given to everyone on identical terms and may be thanked afterwards; the provenance of a gift is told in its story and never earns a rate, credit or tier. A two-ledger rule separates thanks between people from thanks addressed to non-human contributors (soil, plants, the kitchen), which a coordinator records but never holds. Purchases from outside vendors run on regulated payment rails beneath the gratitude layer. The network is positioned outside the licensed food-service category, subject to local legal review, and is adaptable to other contemplative traditions. An earlier variant, in which contributions earned redeemable credits and home-grown produce a higher rate, is retained as disclosed. Stated limits: nothing is built; the funding that replaces the withdrawn credit-redemption leg is unspecified; land access constrains urban sites.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"     (5 enumerated claims; the paper has a literal "## Claims" heading)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py silica-wat-food-network --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-05-22 · concept DOI 10.5281/zenodo.21947381 (zenodo-dois.json;
+  latest version 10.5281/zenodo.22969388 = the 2026-09-25 A240 revision) · scoped timestamp line.
+  ⚠ The deposited Zenodo version predates this revision — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — new "## Prior-Art and Non-Assertion Statement" (L23): "will not seek patent on this
+      specification or any portion of it, in any jurisdiction, at any time, will not assert any patent right
+      against anyone practising it, and dedicate the patterns to the public domain under CC0 1.0"; standard form
+      also in §12 and the closing footer; "Non-assertion extends to" line under Claims kept.
+  [x] Claims section — "## Claims", 5 enumerated items (enumerated 2026-08-29). Claims text UNCHANGED this
+      revision; one plain error fixed in the claims preamble ("ten thousand words of prose" → "several thousand";
+      the paper is ~6.4k words).
+  [x] Prior art — new Prior-Art statement names the case that cuts against claim 1 (Sikh langar), plus the
+      monastery kitchen, Benedictine farm, food banks (St. Mary's, 1967), CSA/teikei, time banking; states no
+      literature search has been run and the composition is "disclosed, not asserted to be absent".
+  [x] Honest limits — §11 (11.1–11.6 kept; NEW 11.7 "Build state": nothing built, no behaviour observed).
+  [x] AI co-authorship disclosed in text — Acknowledgments + closing footer ("Miss Aquarius℠, the name under which
+      this corpus discloses its AI collaboration"); no model named.
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The founder appears only as
+      "the founder's cultural anchoring" (§2.2) and "the author" (§6.1).
+  [x] No perma.cc · no draft banner (the "Draft notes for the editor" blockquote removed; its one substantive
+      pointer — the heartbank.net companion position paper — moved to Cross-venue identifiers) · the deferred
+      arXiv / IP.com / snapshot-cadence lines removed · no placeholders · no A126 mission sentence (retired
+      2026-09-25; §1 carries the ratified sentence).
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 3 warn)
+  [x] No emoji / internal markers (grep 0) · no backlog IDs
+  [x] Terms table present — "## Terms" (17 rows, coined name → standard technical term) — NEW
+  [x] Abstract section present — "## Abstract"; first sentence now leads with standard terms, mark second
+  [x] Keywords line leads with standard terms (community kitchen, food bank, …)
+  [x] No fenced diagrams (0) — nothing to measure against 95 chars
+  [x] front matter: kind: mechanism added; revised: 2026-09-29; date: unchanged; no sha256:/doi:
+  [!] front matter "status: draft" — kept; this revision ADDS ## sections (Prior-Art statement, Terms) anyway
+  [!] §9.1 heading still reads "homegrown-bonus tier" — kept as disclosed (anchors; a Current-form note beneath
+      states there is no tier) — ruling owed
+  [!] §11.3 — funding of the purchased supply floor after the credit-redemption leg was withdrawn is stated as
+      unspecified — ruling owed
+  [!] Paper title and abstract carry "middle-way restoration" — canon's own precision clause still uses
+      "restoration" (= dialing back the new extreme), and §8.5 scopes it; left as disclosed — ruling owed
+  [x] Marks (®/℠) appear only in body, Terms and footer; none in the added subtitle
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|categorical|best|most;
+                  line numbers = defensive-publications/silica-wat-food-network.md after this revision)
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique / "has not been" / categorical / best.
+  "first" — ordinal or sequence → FINE: L49 "The first is a health crisis" · L71/L73 "first network" / "first
+  Silica Wats are planned for Cambodia" · L304 "piloted first in Cambodia" · Terms "goods given first".
+  "only" — SCOPED → FINE: L29 "discloses as its own contribution is only the composition enumerated under Claims"
+  (scopes the disclosure, not a novelty claim) · L192 "The architecture survives only if it adheres to …".
+  "most" — L109 "the people who most need food access" (descriptive) · L196 "in most jurisdictions" (scoped).
+  Removed this revision: "at unprecedented historical scale" (L41 old ×1, L176 old ×1) and "at unprecedented
+  scale" (L210 old) → "at population scale"; §2.2 "are deployed" (nothing exists) → "are planned for", and "lower
+  regulatory friction" → deferred to §11.2's legal review; §8.1 "approximately as restrictive as banking
+  regulation" → "like banking, a licensed category"; §7.1 unsourced etiology + "incentives are aligned: more
+  processing produces more disease" → sourced association (Monteiro et al. 2018) + a premise stated as a premise;
+  §8.4 "substantively correct" → "whatever the merit of the premise"; §12 "implementable today in Cambodia" →
+  "could be piloted first … subject to the local legal review".

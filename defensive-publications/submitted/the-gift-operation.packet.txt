@@ -1,0 +1,94 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Gift Operation: Forward-Only Transfer (Pay-It-Forward) as a Design Criterion Distinguishing Gift Circulation from Exchange in Peer-to-Peer Reciprocity Systems
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23. The paper's title
+   "The Gift Operation" has no colon, so the subtitle follows a colon. Subtitle drawn from the paper's
+   Abstract and ## Terms table: "forward-only transfer rule", "pay-it-forward", "design criterion
+   classifying each transfer as gift or exchange", "peer-to-peer". No mark in the added part; no new
+   matter. The PDF keeps the paper's own title and subtitle.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250; written for the form from the paper's ## Abstract, which is longer)
+We disclose a design criterion for peer-to-peer gift, reciprocity and gratitude systems (pay-it-forward schemes, time banks, complementary currencies, peer-recognition ledgers): classify each transfer by where the recipient's next transfer goes. A transfer passed onward to a third party is generalized reciprocity, a gift that circulates; a transfer returned to its source in a return that settles the account is balanced reciprocity, an exchange, to be named as one. The criterion is applied to one institution's mechanisms (an earmarked, forward-only, non-withdrawable money balance; funded time together; tagged physical gratitude artifacts; gift codes; a common pool emptied on a fixed annual date), each shown to instantiate one operation across money, time and objects, from person to civilization, in digital and physical substrates; biological cases are treated as resemblance only. Also disclosed: a six-way taxonomy of gift flows by relational scope (self, pair, bounded group, open chain, shared site, future time); a bounded relay in which a non-redeeming intermediary carries a gift's identity and provenance to a terminal recipient; donor anonymity as a second, independent removal of the obligation to reciprocate; a three-tier classification of transferable value by hoardability (unhoardable, self-expiring, hoardable) that predicts how much lifecycle machinery each requires; and a three-condition test for when two events are one operation. Stated limits: the evidence is one project's design and a small pilot; the gift/exchange boundary is contested; anonymity removes the creditor but not always the felt debt; and the forward rule does not fit self-gifts or two-person mutual giving.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"     (6 enumerated claims; the paper has a literal "## Claims" heading)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py the-gift-operation --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-06-26 · concept DOI 10.5281/zenodo.21947401 (zenodo-dois.json) ·
+  scoped timestamp line. ⚠ The deposited Zenodo version (22929355) predates this revision — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement": "will not seek patent on the operation,
+      the architectural pattern, the gift-topology map, or any portion thereof, in any jurisdiction, at any time,
+      and will not assert any patent right against anyone practising them" (the non-assertion clause added this
+      revision to the standard form; the no-patent commitment was already present)
+  [x] Claims section — "## Claims", 6 enumerated items. Claim 5 NARROWED: the list-position ordering
+      "name · thanks · hour · money · object" replaced by the three hoardability tiers already stated in §6.6
+      (no new matter; drops the position claim, which conflicted with the current element ordering)
+  [x] Prior art — Prior-Art statement + §2 (Mauss, Malinowski, Sahlins, Polanyi, Hyde, dāna tradition,
+      pay-it-forward lineage incl. Smile Cards / Where's George / BookCrossing, demurrage, Derrida) + §6.7
+      lineage (Maimonides, Fox & Swazey, Łuków, Nowak & Roch, Ariely et al.) — incl. cases that cut against
+      (tyranny of the gift; contested gift/commodity boundary §9.3)
+  [x] Honest limits — §9 (eight subsections) + §6.6 and §6.7 limits paragraphs
+  [x] AI co-authorship disclosed in text — §11.2 ("co-authored with Miss Aquarius℠ ... the underlying model
+      substrate is not named"); no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Father referenced BY RELATION
+      only (§11.2) — permitted by the 9/24 ruling. No pilot-family composition.
+  [x] No perma.cc · draft banner REMOVED ("Draft in progress ... foundational paper"; its reviewer list and
+      mirror-retirement note were editor process — dropped; §11.1 still records the retired mirror) ·
+      no "Mirrors of this document…" line · no placeholders · no SHA-256-computed-at-push footer
+      (the closing attestation footer is the scoped current form) · no A126 sentence (already canonical)
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 0 warn); re-run after the §4.2 note: 0 · 0; pii re-run: 0 · 0 · 0
+  [x] No emoji / internal markers (two ⚠️ removed, §6.5 and §6.6; grep 0)
+  [x] Terms table present — "## Terms" (15 rows, coined → standard) — ADDED
+  [x] Keywords line — ADDED
+  [x] Abstract section present, now LEADS with standard terms (design criterion; generalized vs balanced
+      reciprocity; pay-it-forward; time banks; complementary currencies)
+  [x] 7 fenced diagrams, widest ≤ 95 characters
+  [x] Title does NOT lead with a mark — "The Gift Operation" is unmarked
+  [x] Marks appear only in body and footer; none in the TDCommons title or subtitle
+  [!] front matter "status: draft" — kept (no ruled human round; this revision adds ## Terms anyway)
+  [x] RESOLVED 2026-09-29 (founder, "approve all": the 9/15 cycle diagram governs): §4.2 store-tithe sentence
+      kept as the disclosed variant; a Current-form note (L219) states the Pool's inflows per the cycle diagram
+      (direct gifts · thanks with no human addressee, bare code on a robot 100% unhosted / 50% hosted ·
+      un-given Re-Tip Fund capacity returning each 7 January · registry leases bought at fair value via the
+      purpose trust · fee surplus) and that commercial money arrives only by purchase, never a take on giving
+      or trade. Second note (L221): the per-transaction fee's current form.
+  [!] No `kind:` field — not required for a 2026-06-26 paper; not added
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|not found;
+                  line numbers = defensive-publications/the-gift-operation.md after this revision)
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique / "has not been".
+  L25 Prior-Art statement "To the author's knowledge, ... not previously published as a unified contribution"
+      — SCOPED by the same paragraph's last sentence: "not found in the lineage §2 surveys as of this paper's
+      date; no systematic prior-art census has been run on it, and the claim is scoped to that aperture." KEPT.
+  L104 §2 close — was "What is not in the prior art is the claim ..." (bare absence claim) → "What was not
+      found in the lineage surveyed here (no systematic prior-art census has been run) is the claim ...". FIXED.
+  L390 §6.7 lineage "Not found in the lineage §2 surveys is ..." — scoped. KEPT.
+  §6.5 — was "What is new is not the observation but the instrumentation" → "What this paper adds is ...". FIXED.
+  L324 "the gift operation's first reach toward a non-human recipient" — ordinal WITHIN the corpus's own
+      topology map, not a priority claim. FINE.
+  L40 Abstract "There is exactly one atomic operation underneath the entire institution" — a reductive claim
+      about the institution, not a novelty claim; bounded by §9 (n=1, over-unification) and §9.8. FINE.
+  L414 §7.4 — was "is *identical* to its most civilizational mechanism ... collapses to zero because they are
+      the same atom" (contradicted §7.4's own resemblance sorting, §9.8 and claim 1) → "has the same shape as
+      ... on this reading ... a resemblance, per §9.8, not an instance". FIXED.
+  §10 — was "the one day a whole civilization performs the gift operation in unison ... synchronized across
+      the species" (unscoped; a design stated as a fact) → "as designed ... the design has its whole
+      participating population ...". FIXED.

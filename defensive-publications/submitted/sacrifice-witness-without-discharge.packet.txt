@@ -1,0 +1,101 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Grace That Settles Nothing: Sacrifice-Witness Without Discharge — Food Image Recognition with Per-Species Lifespan Facts, a Quantity-Blind Meditation Recommendation, and a No-Balance Data Schema to Prevent Moral Licensing
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the title already has a
+   colon, so the subtitle follows an EM DASH — founder ruling 2026-09-24. Subtitle drawn from the paper's Abstract
+   and ## Terms table: "food image recognition", "per-species lifespan facts", "quantity-independent activity
+   recommendation", "no-balance data schema", "moral licensing". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250; the paper's own ## Abstract is longer and was condensed here, no new matter)
+We specify a mindful-eating and gratitude-meditation application in which a food-image recognition model resolves a meal photograph into its source species; each species is shown individually, at species level, with its typical farmed age at harvest and its typical natural lifespan, with uncertainty stated and no total computed. The application then recommends a walking or sitting meditation in a fixed form, issued by an automated agent and never scaled to what was eaten. The data schema holds no balance, score, streak, duration or total between consumption and practice, only an append-only log of moments, so the practice cannot function as an offset: the design is set against the offset architecture (quantify the harm, price the remedy, sell the discharge), whose predicted failure is moral licensing. The session is device-free: the application acts only before and after the practice, with no in-session screen or timer. The meditation may be dedicated to the species eaten and optionally shared; others respond only with scoreless location pins. A second identification layer names wild species at the practice site, linking food species to their living relatives, with opt-in contribution to biodiversity databases. A family-scoped child mode allows no public sharing, and the meal photograph is optional. Stated limits: the design is unbuilt; it removes the credit a system issues but not a practitioner's own sense of having practised, so its central prediction, that consumption does not rise as practice accumulates, is pre-registered and untested; and the moral-licensing evidence it answers is itself contested.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 8 · The Claims"     (8 enumerated claims; unchanged by this revision)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py sacrifice-witness-without-discharge --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-07-21 · concept DOI 10.5281/zenodo.21947375 (zenodo-dois.json) ·
+  scoped timestamp line. ⚠ The deposited Zenodo version (10.5281/zenodo.21947376) predates this revision —
+  the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — Prior-Art and Non-Assertion Statement (L30): "will not seek patent on any mechanism,
+      architecture, taxonomy, interface pattern, or specification articulated herein, in any jurisdiction, at any
+      time, and will not assert any patent right against anyone practising it" (standard form; the "will not assert"
+      half added this revision); repeated in the closing footer.
+  [x] Claims section — "## 8 · The Claims", 8 enumerated items. NOT edited: no claim added, removed, reworded or
+      narrowed. (Current-form notes elsewhere state the design as now specified; they add no claim.)
+  [x] Prior art — Prior-Art statement + §9, now including the case that cuts against the paper's own framing:
+      the failed replications of Mazar & Zhong (Urban, Bahník & Braun Kohlová 2019) and the Blanken et al. 2015
+      meta-analysis (modest d ≈ 0.31, publication-status inflation).
+  [x] Honest limits — §12 (new paragraph: "The licensing evidence is weaker than the offset critique needs it to be").
+  [x] AI co-authorship disclosed in text — Acknowledgments + footer ("Miss Aquarius℠, the name under which this
+      corpus discloses its AI collaboration"); no model named.
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The §2.1 scene (a father, a
+      daughter, "an aunt in Kâmpôt") is an illustrative composite, not a described family.
+  [x] No perma.cc · no draft banner (the "v2 note" and "Draft notes for the editor" blockquotes removed; their
+      substance — unbuilt n=0, companion doctrine, the B-Grace℠ identification — already in or folded into §9/§12) ·
+      no "Mirrors of this document…" line · no placeholders · SHA-256 footer sentence removed ·
+      A126 mission sentence replaced ("the restoration of humanity to the middle way" → the ratified 2026-09-13 wording).
+  [x] mirror-lint: 0 refuse · 0 warn (was 2 refuse · 1 warn)
+  [x] No emoji / internal markers (grep 0); one stray CJK token in the §2.2 table ("市场") corrected to "market".
+  [x] Terms table present — "## Terms" (17 rows, coined name → standard technical term)
+  [x] Abstract leads with standard terms (food-image recognition, source species, lifespan, meditation, no-balance schema)
+  [x] 2 fenced diagrams (§2.2, §7.6), widest 83 chars — under 95
+  [x] Title does NOT lead with a mark — "The Grace That Settles Nothing" is unmarked; examiner terms arrive in the subtitle
+  [x] Marks (℠/®/™) appear only in the body and footer; none in the TDCommons title or subtitle
+  [x] Therapeutic: no health-outcome claim. §12 states "makes no health claims of any kind"; the eating-disorder
+      material is a disclosed RISK and design gate, not a treatment claim (mirror-lint therapeutic rule: 0 hits).
+  [!] front matter "status: draft" (kept) — this revision adds a ## Terms section anyway.
+  [x] §12 Current-form note: the clinician-review clause REMOVED per founder ruling 2026-09-29 ("approve all") —
+      launch process, not mechanism. The rest of the note stands (Education category; ED gate blocking, one of three;
+      wonder-not-indictment + riders; orthorexia risk).
+  [x] §7.4 face-blocking / sensitive-taxa Current-form note stands as written (founder ruling 2026-09-29).
+  [x] §3.2 / §7.6 farmed "42 days" witness kept as disclosed (founder ruling 2026-09-29; filed as a residual).
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|novelty|first|unprecedented|no prior|never been|only|unique|has not been|every;
+                  line numbers = defensive-publications/sacrifice-witness-without-discharge.md after this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" (except L34's "No prior-art census has been run")
+  / "never been" / unique / "has not been".
+  "first" — ordinal or non-priority → FINE: L50 "The first held money and time apart" · L52 "the family's first
+  public surface" · L335 "planned as the first application" · L339 "compassion-first" · L353 "the mitigation's
+  first half" · L363 "this project serves first".
+  "only" — SCOPED → FINE: L34 "What this paper discloses as its own contribution is only the synthesis as specified"
+  (scopes the disclosure) · L321 "for the strongest possible reason: nothing mints" (rhetorical; the mechanism
+  property is stated beside it) · L365 "the only thing that matters" (§13 lineage, labelled flourish).
+  Removed or scoped this revision:
+    L39 (old) "is, to the authors' knowledge, not previously published as a coherent architecture" → L34
+      "What this paper discloses as its own contribution is only … No prior-art census has been run for this
+      composition; it is disclosed, not asserted to be absent from the literature."
+    L294 (old) "claims no novelty whatsoever in the idea" → L299 "This paper claims nothing in the idea".
+    Abstract "Every existing system … runs on the same mechanism" → L18 "the offset architecture that systems
+      connecting consumption to conscience commonly use"; "the most universal consumption event there is" →
+      L20 "the most frequent consumption event in nearly every life"; "the only shape under which …" → L20
+      "holding no account at all is what keeps …", with the unrepresented-credit limit beside it;
+      L22 "from every offset system" → "from offset systems".
+    §1 "almost universally adopt" → L46 "commonly adopt"; "well documented in the category's retention curves"
+      → L42 scoped to P-G3 with "this paper cites no retention dataset"; "moral self-licensing is a robust,
+      replicated effect" → L46 with the failed replications and the meta-analytic d ≈ 0.31.
+    §2.2 table "Documented failure" → L105 "Characteristic failure".
+    §4.3 "the licensing pathway is structurally severed" → L171–173 "the represented licensing pathway is severed"
+      + "What it cannot sever is the unrepresented pathway" (Khan & Dhar 2006).
+    §12 "a documented pathology reaching into disordered eating" → L339 "a reported association with disordered eating".
+    §13 "Every tradition that survived…" → "Tradition after tradition…"; "a hundred million homes" → "countless homes".
+  Left as disclosed: §10 P-G1 "the licensing direction documented for discharge-based designs" — a pre-registered
+    prediction; its wording is not edited (a correction to a registered prediction is a new entry, never an edit).

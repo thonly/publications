@@ -1,0 +1,101 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Unpaid Relay: A Transfer-Only Intermediate State for Item-Level Digital Gift Vouchers, with Chain-of-Custody Records, Donor-Identity Suppression, Role-Addressed Thanks and No Referral Compensation
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   "The Unpaid Relay" has no colon, so the subtitle follows a colon. Subtitle drawn from the paper's Abstract,
+   Claims 1-4 and 6, and the ## Terms table: "transfer-only intermediate state", "item-level digital gift
+   voucher", "chain of custody", "donor-identity suppression", "role-based message addressing", "referral
+   compensation". No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250; the paper's own ## Abstract is longer and was condensed here, no new matter)
+We specify an item-level digital gift voucher (a prepaid claim on one specific good at one merchant) with a transfer-only intermediate state. The payer directs the voucher not to a recipient but to an intermediary who cannot redeem it: the intermediary's only available operation is to pass it on, and on passing it becomes an ordinary redeemable voucher held by the recipient. Non-redeemability is enforced by the state machine rather than by policy: redeem, and any conversion to store credit or refund, is absent from that state. One record carries the chain of custody (payer, intermediary, recipient). The payer's identity may be suppressed from every party while the chain stays visible, and thanks are addressed to a role in the chain and resolved to an account only at delivery, so an anonymous payer can be thanked without the name reaching the sender. No party receives referral compensation for propagating it. The anonymity serves to make the intermediary be perceived as the giver, rather than to protect the donor. One expiry rule generates the lifecycle: a clock runs only while the voucher has no addressee, so an unassigned voucher lapses on a window while a recipient's claim ends only with the merchant's closure, disclosed at receipt, and the merchant is given no forward view of pending lapses. Extensions: a rule-governed fund as anonymous issuer, selecting merchant and intermediary by a verifiable draw and re-addressing lapsed vouchers; and an unpriced merchant invitation to a place and time, non-convertible by construction.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"     (14 enumerated claims; the paper has a literal "## Claims" heading)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py the-unpaid-relay --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-09-04 · concept DOI 10.5281/zenodo.22313927 (zenodo-dois.json;
+  latest version 10.5281/zenodo.22929362) · scoped timestamp line.
+  ⚠ The deposited Zenodo version predates this revision (2026-09-29) — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement": "No patent has been or will be
+      sought on any mechanism described in this paper by HeartBank®, Factory 333™, THonly™, Silicon Wat℠, or
+      any entity under their common control. The authors and those entities commit not to assert any patent
+      right against any party practising any mechanism disclosed here." (unchanged; standard form)
+  [x] Live patents (legal L35 neighbourhood) — US 10,510,057 B2 and the WO/US families in §2.4 are named for
+      what they DISCLOSE only; the paper states "nothing here is a reading of its claims" (L30, L218). No
+      characterisation of any patent's claims was added.
+  [x] Claims section — "## Claims", 14 enumerated items, text of claims 1-14 unchanged except three internal
+      markers removed. The note after the claims was NARROWED (L121): it now states each survivor at its census
+      width (claim 1 via §2.5; claim 5 in the instrumented form; 13 and 14 as compositions) and no longer reads
+      claims 5 and 6 as an unattested pair, which the collection-plate row of §2.3a contradicted.
+  [x] Census on file — four desk surveys tabulated in the Prior-Art statement (2026-09-04/05/06/18), apertures
+      stated; deposited paper, so the full-census bar does not bind (ruled 2026-09-23).
+  [x] Prior art — §2 (2.2-2.5), incl. the case that cuts against: anonymous giving through a named
+      intermediary carries all four properties (§2.3a); Klink-iT chose the inverse property (§2.5)
+  [x] Honest limits — §9 + §9.1 falsifiers F1-F6
+  [x] AI co-authorship disclosed in text — authors line + closing footer ("Miss Aquarius℠ is the consistent
+      name under which this institution discloses AI collaboration; the underlying models are not named")
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The worked case names no family
+      relation (§1 L127/L129/L135, §3.2 L326-L340, §4 L362, §9 diagram L488-L491, Coda L564)
+  [x] No perma.cc · no draft banner · no "Mirrors of this document…" line · no placeholders · no retired
+      "Document SHA-256 computed at push" footer (the footer carries the scoped attestation line only) ·
+      no A126 mission sentence (never carried one) · no "head" of the four bodies (A127: none present)
+  [x] mirror-lint: 0 refuse · 0 warn (was 0 refuse · 5 warn)
+  [x] No emoji / internal markers — every ⭐ ⚠️ ⛔ removed (grep 0); the prior-art matrix's ⛔ became ✗
+  [x] Terms table present — "## Terms" (21 rows, coined name → standard technical term; added)
+  [x] Keywords line present — added after the Abstract
+  [x] Abstract section present — "## Abstract", first sentence now leads with "item-level digital gift
+      voucher ... transfer-only intermediate state"; second paragraph corrected (see OVERCLAIM READ)
+  [x] Fenced diagrams ≤ 95 chars — §2.5 table redrawn (was 106 wide; now 94); all others ≤ 87
+  [x] Title does NOT lead with a mark — "The Unpaid Relay" is unmarked
+  [x] Marks (®/™/℠) appear only in the body and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-09-29; date: unchanged (2026-09-04); status: draft
+      (unchanged; this revision adds a ## section, so draft is required anyway)
+  [x] Worked example generalised — RESOLVED by founder ruling 2026-09-29 ("approve all": keep the age, drop the
+      family relation). The case is now "an adult" / "the payer" and "a fourteen-year-old", with no shop owner
+      tied to the child; family-relation words: 37 → 0 in the paper, 0 in the Abstract, Terms and this packet. The
+      §5/§9 arguments from age stand. The §6 conversion Current-form note is confirmed within the variant rule.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|nobody;
+                  line numbers = defensive-publications/the-unpaid-relay.md after this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" / "never been" / unique.
+  mirror-lint's five WARNs, each read:
+    old L33 "assert no novelty over" (a non-novelty list) → L34 "claim none of the following as their own
+      contribution" — same list, adjective removed.
+    old L50 abstract "claimed only in combination ... the novel one" → L51 rewritten; it had also contradicted
+      §2.3a (the named-intermediary row carries all four together). Now: each attested, all four together in
+      one practice, the unpaid prediction failed.
+    old L141 "rather than this paper's novelty" → L172 "rather than any claim of this paper".
+    old L223 "rather than toward novelty" → L254 "rather than toward any claim".
+    old L339 "nobody has built a ledger that does it ... has never been given an instrument" (an unscoped
+      absence) → L370 "no ledger doing it was found in the apertures of §2 ... was not found given an instrument".
+  Also repaired (not linted): L372 "The novelty class" → "The contribution class"; L354 "The novelty class is
+    composition ... a novelty of the actor" → "What survives is a composition ... changes the actor";
+    L133 "the only move that changes the shape" → "a move that does change the shape"; Coda L564 "the only kind
+    that can make a person a giver" → "a kind that makes a person a giver"; L527 "the instruments being built
+    are stored-value" → "many of the instruments".
+  "not found" — every instance scoped to an aperture and date: L40-43, L45, L121, L170, L216, L408, L531.
+  "only" — mechanism statements (the relayed state's "only operation", "claimed only as a composition",
+    "claim width only") → FINE; none is a priority claim.
+  "first" — ordinals ("the first survey", "first eligible claimant", "first addressee") → FINE.
+  Self-contradiction fixed: L204 "The collection-plate coin carries the inversion and nothing else" against
+    its own matrix row (name-off ✓, unpaid ✓) → "carries the inversion, and of the four properties only the
+    withheld name and the absence of payment".

@@ -26,6 +26,20 @@
       }
     },
     {
+      "slug": "appreciation-as-world-building",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "appreciation-as-world-building.pdf",
+      "claims_headings": [
+        "## 13 · What is claimed, and freed"
+      ],
+      "claims_sha256": "133d4177b1bcea193e4657a048cd40068ded7e3b57730d226ef90e704135f6fe",
+      "claims_heading_override": [
+        "## 13 · What is claimed, and freed"
+      ],
+      "body_sha256": "8e0ef96d7244b736ebb397c0b7b5bec185e6941f950a823a83800587a8aba63a"
+    },
+    {
       "slug": "aura-gated-anonymous-mate-selection",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
@@ -148,6 +162,30 @@
       }
     },
     {
+      "slug": "certification-by-circulation",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "certification-by-circulation.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement",
+        "## 4 · The credential (claim 1): a heart that beats in software",
+        "## 5 · Certification by circulation (claims 2–3)",
+        "## 6 · The co-creation economics (claim 4): the agent is a participant, not a tool — and nobody takes a cut",
+        "## 7 · The no-orphan-software invariant (claim 5)",
+        "## 8 · The successor-steward mechanism (claims 6–7): what happens when the steward cannot answer anymore"
+      ],
+      "claims_sha256": "0d8e95c9c6e7b88de7a007d73fc725f13679bd01a28a5c384e340463e760c003",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement",
+        "## 4 · The credential (claim 1): a heart that beats in software",
+        "## 5 · Certification by circulation (claims 2–3)",
+        "## 6 · The co-creation economics (claim 4): the agent is a participant, not a tool — and nobody takes a cut",
+        "## 7 · The no-orphan-software invariant (claim 5)",
+        "## 8 · The successor-steward mechanism (claims 6–7): what happens when the steward cannot answer anymore"
+      ],
+      "body_sha256": "4f0178fc59863ce7b7ae5c18f7b1baa8654b5a2438d093680564021f7614577f"
+    },
+    {
       "slug": "co-presence-gated-redemption",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
@@ -169,6 +207,32 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "dedicatory-generation",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "dedicatory-generation.pdf",
+      "claims_headings": [
+        "## 3 · Claim 1 — the preposition",
+        "## 4 · Claim 2 — restoration is the pipeline, not the alternative",
+        "## 5 · Claims 3 and 4 — who is the author, and who signs",
+        "## 6 · Claim 5 — the objective. Protect this one hardest.",
+        "## 7 · Claims 6 and 7 — marking, and the gap that stays empty",
+        "## 8 · Claims 8, 9 and 10 — where value goes, who can stop it, and what is never released",
+        "## 11 · What is claimed, and freed"
+      ],
+      "claims_sha256": "dce1e62cda7cd4a3d00fcb88d4345e47c003d0f042f593662000f344efb27d0e",
+      "claims_heading_override": [
+        "## 3 · Claim 1 — the preposition",
+        "## 4 · Claim 2 — restoration is the pipeline, not the alternative",
+        "## 5 · Claims 3 and 4 — who is the author, and who signs",
+        "## 6 · Claim 5 — the objective. Protect this one hardest.",
+        "## 7 · Claims 6 and 7 — marking, and the gap that stays empty",
+        "## 8 · Claims 8, 9 and 10 — where value goes, who can stop it, and what is never released",
+        "## 11 · What is claimed, and freed"
+      ],
+      "body_sha256": "014f1641cd928f70bb0053ae81a422d300b4a5408a38a7e3e732b49a418d98b6"
     },
     {
       "slug": "dual-currency-reciprocity",
@@ -269,6 +333,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "inverted-alms-round",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "inverted-alms-round.pdf",
+      "claims_headings": [
+        "## 6 · Claims"
+      ],
+      "claims_sha256": "90124719c673f996cd8724d375f403663ebe08b8a634c1679f251976f523c79d",
+      "claims_heading_override": [
+        "## 6 · Claims"
+      ],
+      "body_sha256": "bcbf10d79df885cdc8e198fb8a7358f393cdbaa95e36c7554249805b4bc7656a"
     },
     {
       "slug": "machine-dana-from-share-to-vow",
@@ -438,6 +516,34 @@
       }
     },
     {
+      "slug": "sacrifice-witness-without-discharge",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "sacrifice-witness-without-discharge.pdf",
+      "claims_headings": [
+        "## 8 · The Claims"
+      ],
+      "claims_sha256": "a819d64cf07dff173bc2299d8a2fea822f992ff91f75bab18e7e0c6de77870f4",
+      "claims_heading_override": [
+        "## 8 · The Claims"
+      ],
+      "body_sha256": "7fa6bde0dcceb9814bfa97c2230b396f7dfdbe4d7b927a4fb8a65daa2094b723"
+    },
+    {
+      "slug": "silica-wat-food-network",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "silica-wat-food-network.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "34583c40d1a8695b58f062a3457cbfdc71929812491cb3fc8d483b7bb55cefd3",
+      "claims_heading_override": [
+        "## Claims"
+      ],
+      "body_sha256": "5e4ad2a11ebbe0bb21fc0cc6413ec06a33bf12ff9118a291ba64134eb96a9ba5"
+    },
+    {
       "slug": "steward-routed-alms",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
@@ -581,6 +687,20 @@
       }
     },
     {
+      "slug": "the-gift-operation",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "the-gift-operation.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "c68cc4e5eca19e1e245285f8881446c4b90a463c3ce842b0f13a4476b4683b87",
+      "claims_heading_override": [
+        "## Claims"
+      ],
+      "body_sha256": "7e16289a6252c1003b6bf397343fd4bdca5fe82831dd0044e6de1617091546e9"
+    },
+    {
       "slug": "the-reciters-protocol",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-23",
@@ -670,6 +790,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "the-unpaid-relay",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "the-unpaid-relay.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "8b7a67ae5a3121c0baaee91fc1c47eb8505c1b1bcc094ba987358684b06a428e",
+      "claims_heading_override": [
+        "## Claims"
+      ],
+      "body_sha256": "4a4185bf1eed37e0291979b9ee14fb8cea9debc865fff7455213d77d5bd35ce9"
     },
     {
       "slug": "the-wager-that-isnt",

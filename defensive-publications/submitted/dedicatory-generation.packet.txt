@@ -1,0 +1,113 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Song That Is Not His: Attribution, Provenance-Marking and Training-Objective Rules for Generative Voice Models of Deceased Artists Without Surviving Estates
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23. The paper's title has no
+   colon, so the subtitle follows a colon. Subtitle drawn from the paper's new Abstract lead sentence and ## Terms
+   table: "attribution rule", "provenance labelling", "training and selection objective", "voice model",
+   "deceased artist". No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (249 words — limit 250; the paper's own ## Abstract is longer and narrative, so this is a condensed form
+            that leads with the standard terms; every sentence is drawn from §§1–11, no new matter)
+This paper discloses attribution rules, provenance-marking requirements, a training-objective constraint and a model-release restriction for generative voice and style models trained on the recordings of deceased artists whose estates, rights-holders and records of intent do not survive. The worked case is the Cambodian musicians and filmmakers killed under the Khmer Rouge (1975–1979), where consent cannot be obtained, no rights-holding institution survives, and the destruction was aimed at the culture, so that an indistinguishable reconstruction completes the erasure. Generated work is credited to a named living human creator and published for, never by, the deceased artist: a dedicated work, not an authorship claim. Each medium takes its own operation: preservation for film and plays, offering for music, new authorship for story, invention for scripture. Audio restoration and source separation are the data-preparation stage for voice-model training, so generation must stay downstream of restoration and be governed separately. Beyond fitting the model to the source recordings, the training and selection objective admits only a refusal signal and excludes revenue, engagement and all other audience-response metrics. Provenance marking is permanent and its obligation rises with output realism; lost or unfinished works are never synthesised; revenue routes to heirs, living practitioners and restoration rather than to a manufactured rights-holder; heir consent is sought before any generation wherever an heir can be found, and an heir's refusal, even a later one, stops the work; and model weights are never released. Stated limits: nothing is built, heirs are largely unidentifiable, and model leakage is unsolved.
+
+CLAIMS HEADING (for check-mirrors --record)   — claims are spread over seven ## headings; the automatic
+  matcher finds exactly these seven (tested 2026-09-29), but name them explicitly so a later heading edit fails loud:
+  --claims-heading "## 3 · Claim 1 — the preposition"
+  --claims-heading "## 4 · Claim 2 — restoration is the pipeline, not the alternative"
+  --claims-heading "## 5 · Claims 3 and 4 — who is the author, and who signs"
+  --claims-heading "## 6 · Claim 5 — the objective. Protect this one hardest."
+  --claims-heading "## 7 · Claims 6 and 7 — marking, and the gap that stays empty"
+  --claims-heading "## 8 · Claims 8, 9 and 10 — where value goes, who can stop it, and what is never released"
+  --claims-heading "## 11 · What is claimed, and freed"
+  (§3.1 "The four verbs" is a ### inside §3 and is covered by it; §§8.5–8.7 carry no claims.)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py dedicatory-generation --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-08-13 · concept DOI 10.5281/zenodo.21947310 (zenodo-dois.json) ·
+  scoped timestamp line. ⚠ The deposited Zenodo version (21947311) predates this revision — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+ELIGIBILITY (checked first, per the brief)
+  [x] /publish §mirror excludes a paper "held under publish the CLAIM, withhold the SPEC". This paper is the CLAIM
+      form of that ruling, not a held paper: feedback_paper_worthiness_flag (the 8/07 sweep + 8/13 drafting entry)
+      records "the ten specced claims (the fences) are publishable while the implementable restoration-pipeline
+      detail (the blueprint) is not" and "Shape as ratified: doctrine + claims, pipeline withheld".
+      project_publication_strategy §scope-limit: "publish the CLAIM, withhold the SPEC … A claim is a fence; a spec
+      is a blueprint. You need the fence." The paper already states the withholding (§7 claim 6, §8.7, §9) and
+      carries no pipeline detail; everything in the mirror is already public on thonly.org, GitHub and Zenodo.
+      The mirror discloses nothing withheld.
+  [x] Deposited on Zenodo (concept 10.5281/zenodo.21947310) → no full census required (ruling 2026-09-23).
+
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement": "Neither the authors nor HeartBank® will
+      seek patent, trademark, or any exclusive right …" (kept) + standard sentence added: "The authors will not
+      seek patent on this discipline or any portion of it, and will not assert any patent right against anyone
+      practising it." §11 close: "None will be asserted by this institution against anyone …"
+  [x] Claims — body claims 1–10 (§§3–8) + "## 11 · What is claimed, and freed" (11 items). §11 now states the
+      numbering offset (item 2 = §3.1's four verbs; body claims 2–10 = items 3–11).
+  [x] NARROWING (no new matter): claim 5 / §11 item 6 and the Abstract now carry §6.1's own scoping — "beyond
+      fitting the model to the surviving source recordings … every economic signal and every signal derived from
+      audience response to generated output excluded". The Abstract had said "admit ONLY a refusal signal", which
+      §6.1 itself concedes is too wide (fitting to the corpus is a positive objective). §6's second bullet got the
+      same parenthetical.
+  [x] Prior art — Prior-Art statement + new "Nearest prior practice" paragraph (3 fetched references: "Now and
+      Then" 2023; "Heart on My Sleeve" 2023; C2PA Content Credentials) + the explicit statement that no census has
+      run and the claims are "disclosed, not asserted to be absent from the literature".
+  [x] Honest limits — "## 9 · Honest limits" (the editor banner's substance folded in as the "pipeline is
+      withheld" limit)
+  [x] AI co-authorship disclosed in text — front matter authors + closing footer "Authored by Thon Ly with Miss
+      Aquarius℠"; no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Named people are public figures
+      (Sinn Sisamouth, Ros Serey Sothea, Pen Ran, Rithy Panh, Sarith Mang, the Beatles, Drake, the Weeknd); the
+      founder appears only as "the founder of the institution behind this paper" (§3.1)
+  [x] No perma.cc · no draft banner (the "Draft notes for the editor" blockquote removed; content → §9) · no
+      "Mirrors of this document…" line · no placeholders · no SHA-256 footer · no A126 mission sentence (never
+      carried one) · no "head" for MA (not present)
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 1 warn)
+  [x] No emoji / internal markers — ⭐/⚠️ markers removed from 29 lines; grep [⭐⚠⛔✅🔒] = 0
+  [x] Terms table present — "## Terms" (14 rows, coined name → standard technical term), after the Prior-Art
+      statement
+  [x] Abstract section present — "## Abstract" now opens with a standard-term sentence; Keywords extended
+      (content provenance, voice cloning, deceased artists, posthumous rights)
+  [x] No fenced diagrams (one Markdown table in §3.1 + the Terms table)
+  [x] Title does NOT lead with a mark — "The Song That Is Not His" is unmarked; examiner terms arrive in the subtitle
+  [x] front matter: revised: 2026-09-29 · kind: mechanism (added; DPs ride their next revision) · date unchanged ·
+      status: draft kept (a ## Terms section was added)
+  [x] The word "estate" is used in the LEGAL sense throughout ("no estate", "surviving estate") — not retrofitted
+  [x] NARROWING, founder ruling 2026-09-29 ("approve all"): claim 9 now matches memory's "heirs first" — heir
+      consent is sought BEFORE any generation wherever an heir can be found, and an heir's refusal stops the work;
+      where no heir can be found the work may proceed, and a later-found heir's refusal still stops it. Applied at
+      claim 9 (§8), §11 item 10, §1.1, §9, the Terms table and this packet's abstract. No new matter (memory
+      project_golden_age_model mechanism 6, 7/30, predates the paper). The paper's own ## Abstract never stated
+      the permission rule, so it was not changed.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been;
+                  line numbers = defensive-publications/dedicatory-generation.md after this revision)
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique / "has not been".
+  "first" — ordinal or temporal → FINE: L153 "the first mistake available" · L176 "restore first and completely" ·
+  L182 "the first restores a guard" · L230/L279 "the point of first publication" · L285 "the first two".
+  "only" — scoped → FINE: L130 "the only remaining control point is upstream" (mechanism argument) · L256 "the third
+  is the only structural one" (of three responses) · L262 "A bound is the only mechanism that makes the priority
+  real" (an argument within §8.5, not a priority claim) · L356 "It is also the only one that is true" (rhetorical
+  close about the paper's own claim, not about prior work).
+  Removed this revision: L323 (old) "Being first to do the work is not the same as setting a precedent" →
+  "Doing the work early is not …" (lint WARN) · §2 "Cambodia produced two answers first" → "two answers were already
+  worked out on Cambodian ground", with anastylosis's non-Cambodian origin now stated (Greece, Dutch work on Java,
+  brought to Angkor by the EFEO) · Abstract "The lineage here is Cambodian and not imported" → "was worked out on
+  Cambodian ground" · §12 "for two thousand years" (unsupported for Cambodia) → "for centuries" · §5 "the
+  tradition that carried this culture's texts for two millennia" → "the Theravāda tradition this culture belongs
+  to, which has carried its scriptures for over two millennia".

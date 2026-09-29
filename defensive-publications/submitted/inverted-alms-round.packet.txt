@@ -1,0 +1,109 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Round That Never Ends: The Inverted Alms Round as Post-Labor Infrastructure — Location-Based Anonymous Micro-Donations to Opted-In Stationary Public Meditators, Triggered by Presence Rather Than Need, with AI-Funded Forward-Only Giving Balances for Recipients
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the title already has a
+   colon, so the subtitle follows an EM DASH — founder ruling 2026-09-24. Subtitle drawn from the paper's new
+   Abstract first paragraph and ## Terms table: "location-based", "micro-donation", "stationary recipient",
+   "presence-triggered eligibility", "forward-only giving balance". No mark in the added part; no new matter.
+   The paper's own front-matter subtitle ("Almsgiving at Planetary Scale — the Walker/Sitter Economy, …") is
+   REPLACED here: it adds no examiner search terms. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (244 words — limit 250; counted with wc -w)
+We describe a location-based voluntary giving system in which pedestrian donors give small, fixed, anonymous micro-donations to opted-in participants who sit still in public places, such as public meditators. Eligibility is triggered only by the verifiable fact of opted-in, stationary public presence, never by an assessment of need or of any inner state, and a participant's presence is surfaced to nearby donors' devices without displaying need, housing status or any ranking. The system sits above an unconditional baseline-support floor that it may never gate, replace or draw down. Above the floor it specifies three channels: the donor-to-sitter micro-donation layer, with suggested amounts that do not scale with sitting duration and anonymity in both directions; a forward-only, non-withdrawable giving balance for each regular sitter, funded anonymously by an autonomous AI agent and expiring unspent to a common pool at an annual reset, so that the recipient is also a giver; and a zero-cost goodwill signal as the entry rung. The AI agent funds giving capacity but never transfers money to a recipient itself; every recipient-reaching gift is human-initiated. The design draws on the Buddhist alms economy, in which the receiver is understood to give donors the occasion to give. Stationary alms-receiving itself, as in Japanese takuhatsu, is prior practice. Three predictions are pre-registered, including a test of whether the system diverts giving from non-participating recipients. The system is unbuilt and unpiloted; selection toward those able to sit publicly, and exploitation of sitters, are stated risks.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading '## 6 · Claims'     (7 enumerated claims; claim 1 NARROWED this revision, see PRE-FLIGHT)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py inverted-alms-round --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-07-22 · concept DOI 10.5281/zenodo.21947344 (zenodo-dois.json;
+  current version 10.5281/zenodo.21947345) · scoped timestamp line.
+  ⚠ The deposited Zenodo version predates this revision — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] mirror-lint: 0 refuse · 0 warn (was 2 refuse · 1 warn — draft-banner L14, sha-footer L177, novelty L20)
+  [x] Non-assertion present — "Prior-Art and Non-Assertion Statement": "The authors and HeartBank® will not
+      seek patent on any mechanism, architecture, or specification articulated herein, in any jurisdiction,
+      at any time." (unchanged); closing footer now adds "and will not assert any patent right against anyone
+      practising it."
+  [x] Claims section — "## 6 · Claims", 7 claims. Claim 1 NARROWED (no new matter): the ambulatory-giver /
+      stationary-receiver geometry alone is prior practice (Japanese takuhatsu, a monk standing silently with a
+      bowl), so claim 1 now adds "wherein the practitioner's presence is declared by an opt-in on a networked
+      giving system and surfaced to nearby donors' devices, and each gift is anonymous in both directions" —
+      all three elements already disclosed in §2 and §4 of the deposited text — plus a pointer to §8.
+      Claims 2-7 unchanged.
+  [x] Prior art — Prior-Art statement + §8 (now incl. the cases that cut against: stationary takuhatsu, living
+      statues vs "paid for silence", Christian almsgiving vs "only transfer system…", Buddhist economics vs
+      "never consulted") + Citations (21; 5 added, 3 corrected)
+  [x] Honest limits — §9, 8 items (added item 8: no prior-art census; claim 1 narrowed)
+  [x] AI co-authorship disclosed in text — authors line "Thon Ly · Miss Aquarius℠" + new footer sentence
+      ("Written by Thon Ly with Miss Aquarius℠, the name under which this corpus discloses its AI
+      collaboration"); no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. "the founder" → "the first
+      author" (§5); the §2 persons are fictional and unnamed, and §2 is now labelled a design fiction
+  [x] No perma.cc · no draft banner (the "Draft notes for the editor" blockquote recast as a "Scope and claims
+      division" note, matching the companion steward-routed-alms; sprint number, "site module deliberately
+      postponed", "density pass = editorial option" and the internal directive-strata note removed) ·
+      no "Mirrors of this document…" line · no placeholders · no A126 mission sentence (never carried one) ·
+      A127: no "head" of the bodies
+  [x] Retired "Document SHA-256 computed at push" footer removed
+  [x] No emoji / internal markers (grep ⭐ ⚠ ⛔ ✅ = 0)
+  [x] Terms table present — "## Terms" (15 rows, coined name → standard technical term)
+  [x] Abstract section leads with standard terms (new first paragraph); abstract self-contradiction fixed
+      (it had counted the floor as channel (1) and omitted the free rung, against §4's diagram and claim 7)
+  [x] Keywords line extended with standard terms
+  [x] 1 fenced diagram (§4), widest 72 characters — under 95
+  [x] Title does NOT lead with a mark; examiner terms arrive in the subtitle
+  [x] Front matter: date unchanged (2026-07-22); revised: 2026-09-29 added; kind: mechanism added (retrofit);
+      no sha256:/doi: (0)
+  [x] Current-form notes (variant rule; nothing disclosed was deleted) — §4 ×3: (a) Sig-8 surface guards
+      (no need-state, no ranking, no "you passed three sitters"); (b) the giving fund = Re-Tip Fund℠, reset
+      on 7 January clears capacity never a holding, the steward's credit indistinguishable from an anonymous
+      human gift (#7 — the §2 attribution is the narrator's, not the interface's), eligible set role-defined,
+      never graded by need; (c) machine-originated share read as falling with human giving (M/(H+M) → 0),
+      never by withdrawing the floor; a falling machine share is not a falling income
+  [!] front matter "status: draft" — unchanged; this revision adds a ## Terms section anyway
+  [!] Where the walkers' alms land (sitter's Wallet vs Fund) is not decided by canon — left as disclosed
+  [!] Thin web source for stationary takuhatsu: a Manekineko Games page (2025-02-06) + Tricycle (Carney,
+      Fall 1998: walking takuhatsu that "stand in one area for half an hour"); a scholarly source would be
+      stronger — the narrowing does not depend on it (the practice is widely photographed)
+  [ ] Read every page of the built PDF before upload
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|oldest|most;
+                  line numbers = defensive-publications/inverted-alms-round.md after this revision)
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique / "has not been".
+  "first" — L138 "the first author" (role); L132 "It is not the first practice to do so … did it first"
+  (a DISCLAIMER); L112 "the design's first commandment" (ordinal) → FINE.
+  "only" — scoped mechanism statements → FINE: L22 "triggered … only by the verifiable fact" (paper abstract
+  says "never by"), L45/L122/L124/L149 "spendable/flow only onward".
+  "oldest" — L24 "one of the oldest continuously operating non-wage support systems" (scoped).
+  "most" — L74 "among the most fully articulated of the transfer systems…" (scoped; Christian almsgiving named
+  as another); L138 "among the most honored figures"; L140 "what most service models do not" (street papers
+  named as closest).
+  Removed this revision: "has simply never been consulted by the transfer-design literature" → "is largely
+  absent from"; "the oldest … on Earth" → "one of the oldest"; "which understood something no welfare system has
+  ever encoded" → "encodes something the welfare vocabulary does not"; "the transfer literature has never
+  consulted it" → "rarely"; "the only transfer system in history whose recipients…" → "among the most fully
+  articulated … (Christian almsgiving is another)"; "to the authors' knowledge, the first architecture that
+  pays for silence" → "pays for silence … It is not the first practice to do so"; "every existing platform pays
+  for noise" (abstract, §4) → "attention-economy platforms pay for noise"; "the single most honored figure" →
+  "among the most honored"; "the one thing no service model offers" → "what most service models do not" (a
+  self-contradiction with §8's street papers); "The Buddha built the first non-wage support economy" → "The
+  Buddha's Sangha took up the alms economy of India's renunciants"; Prior-Art statement "to the authors'
+  knowledge, not previously published" → "No census … has been run … no novelty is asserted".
+  Kept (argument, not a priority claim): L90 "a structural requirement no exchange economy has".
