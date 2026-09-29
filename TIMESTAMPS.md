@@ -5,7 +5,7 @@
 | **a-promise-that-cannot-grow** | ⏳ rotation OWED: the retiring `.ots` (`2712bb93…`, first push) was calendar-only at chain time — rotate to `.r1.ots` once Bitcoin-complete, then stamp | `2026-09-29.sha256` | ⏸ held — first deposit waits on the A257 census rerun (conjuncts h–k) | ⏸ HELD (`holds.json`, review by 2026-10-28) |
 | **prediction-register** | ⏳ rotation OWED (retiring proof `799f93d2…` calendar-only) → `.r15.ots` | `2026-09-29.sha256` | 10.5281/zenodo.23030493 *(new version)* | 2.5.26 |
 
-⚠️ Both leg-1 rotations are deferred, not skipped: an incomplete proof archived is an incomplete proof forgotten. The TSA leg covers today's bytes meanwhile.
+⚠️ Both leg-1 rotations are deferred, not skipped: an incomplete proof archived is an incomplete proof forgotten. The TSA leg covers today's bytes meanwhile. ⚠️ **Later the same night the register gained P-ZP1 (`b339357`), so 10.5281/zenodo.23030493 and index 2.5.26 cover the P-PM text, not the current one: the register's next `/publish` run owes legs 1–4 together (rotation, TSA, a new Zenodo version, index).**
 
 ### 2026-09-28 (evening) — first deposits of the two mechanisms, after their FULL censuses (founder: *"do open items"*)
 
