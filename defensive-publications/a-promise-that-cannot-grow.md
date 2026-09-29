@@ -291,7 +291,7 @@ This closes the debt-buyer's harm **on the ledger**: no record ever names a new 
 
 **Non-transferable is not non-inheritable.** The ledger never releases a balance automatically when a person dies; an automatic release would take a holding from the holder's family without anyone choosing it.
 
-- **The holder decides in life.** A holder may name a successor — the guardian named for recovery (§10) — or may record *"release on my death"*, a release chosen in advance by the holder's own free act. As disclosed here, a named successor acts through the recovery path of §10, which rotates the key for the holder's handle and changes no party on any balance. Whether a release recorded in advance crosses into the gift ledger when it takes effect is not decided by this paper.
+- **The holder decides in life.** A holder may name a successor — the guardian named for recovery (§10) — or may record *"release on my death"*, a release chosen in advance by the holder's own free act. As disclosed here, a named successor acts through the recovery path of §10, which rotates the key for the holder's handle and changes no party on any balance. Succession through recovery is not a transfer: no party on any balance changes, which is why non-transferability holds. **A release recorded in advance to take effect at death is not a crossing into the gift ledger:** the gift ledger records the free acts of the living, and a crossing that took effect at death would turn the aura into an estate-planning incentive.
 - **A debtor's death is recorded, and their ring is never shown again.** Claims against what a person left are governed by the law of the place, not by this ledger; the ledger records what was owed and does nothing further.
 - **Incapacity** is treated as the recovery case of §10 when a guardian exists; otherwise the balance stands, unchanged, as owed.
 
@@ -339,7 +339,7 @@ Netting **never** happens across people. A balance with one person is never set 
 
 ### 5.4 · Deadlines on a running balance
 
-The deadline belongs to the balance, not to an entry. Whoever currently owes proposes it; the other agrees; or both agree there is none. **A balance is overdue when it is still owed past its deadline.** When the balance crosses zero, the roles swap and the deadline is reset: the new debtor proposes one. New value added in the same direction leaves the deadline as it stands unless both sign a new date entry; this default is disclosed here and is not separately ruled.
+The deadline belongs to the balance, not to an entry. Whoever currently owes proposes it; the other agrees; or both agree there is none. **A balance is overdue when it is still owed past its deadline.** When the balance crosses zero, the roles swap and the deadline is reset: the new debtor proposes one. New value added in the same direction leaves the deadline as it stands unless both sign a new date entry — the conservative default, so that adding value never extends what is already owed. One entry may both repay and prepay (a customer settling what they owe and paying ahead in the same handover); how such an entry is split is part of the withheld specification (§14).
 
 ### 5.5 · Disclosed variant: one record per promise
 
@@ -491,7 +491,7 @@ In the other direction nothing crosses at all. Thanks given to a holder never re
 | the gift-side display never shows **why** it moved | a release is recorded as a crossing, not as the cargo it carried; no one can read from an aura that someone was forgiven, or by whom |
 | the release must be free — neither deceived nor pressured | a release extracted under pressure is not a gift; see §17 on what a signature cannot prove |
 
-**What the first guard does not stop.** A holder who is repaid $9 of a $10 balance and then releases the remaining $1 has released the whole balance then owed, and that is a crossing. The design accepts it: a real remainder given up is a real gift, and the aura records the crossing, not its size, so forgiving $1 of remainder earns the same crossing as forgiving $10. The once-per-pair-per-season cap is what bounds it, and §17 states the cost.
+**What the first guard does not stop.** A holder who is repaid $9 of a $10 balance and then releases the remaining $1 has released the whole balance then owed, and that is a crossing. The design accepts it: a real remainder given up is a real gift, and the aura records the crossing, not its size, so forgiving $1 of remainder earns the same crossing as forgiving $10. The once-per-pair-per-season cap is what bounds it, and §17 states the cost. This reading — a release of whatever remains after partial repayment is a crossing — is the ruled one.
 
 ### 7.3 · A forgiven balance dissolves neutrally
 
@@ -775,7 +775,7 @@ P-PM1 is the prediction the design owes: it was ruled into existence with the in
 
 **Viewer-relative trust favours insiders.** A newcomer to a village, or a person whose dealings are with a different circle, shows fewer known counterparties to every viewer. The thin ring is never drawn as a lack, but the fact line will say less about them, and holders may lend to them less.
 
-**The denomination matters.** The no-growth property holds in the balance's currency. A balance in dollars repaid in riel, or the reverse, moves with the exchange rate, and the holder bears any depreciation. A currency change is recorded as a release and a new co-signed entry (§4.4); **whether such a release, if it is of the whole balance, counts as a crossing into the gift ledger is not settled** — it satisfies the crossing's letter and is not a gift in substance.
+**The denomination matters.** The no-growth property holds in the balance's currency. A balance in dollars repaid in riel, or the reverse, moves with the exchange rate, and the holder bears any depreciation. A currency change is recorded as a release and a new co-signed entry (§4.4); **a release immediately replaced by a new balance between the same two parties is a conversion, never a crossing** — it would satisfy the crossing's letter without being a gift in substance, so the rule excludes it.
 
 **Death is handled only as far as the ruling goes.** The holder can name a successor or a release on death in life; the ledger never releases on death automatically; claims against what a person left are the law's (§4.6). A holder who dies without naming either leaves a balance the ledger records and cannot collect.
 
