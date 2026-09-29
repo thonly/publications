@@ -1,0 +1,93 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Non-Bank Pass-Through Architecture for Autonomous AI Institutions: Avoiding Deposit-Taking Through Licensed Third-Party Payment Rails, Rule-Bound Smart-Contract Disbursement, and an Emergency Multi-Party Override Distinct From Discretionary Withdrawal
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper title has no
+   colon, so the subtitle follows a COLON. Subtitle drawn from the paper's Abstract, Claims 3 and ## Terms:
+   "deposit-taking", "licensed third-party payment processors", "rule-bound smart-contract disbursement pool",
+   "emergency multi-party (multi-signature) intervention capability", "unilateral administrative control over
+   customer funds". No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (235 words — limit 250; the paper's own ## Abstract is 278 and was tightened here)
+We disclose a legal and technical architecture by which an organisation whose executive function is designed to pass, over decades, to an AI system can move money for its users without taking deposits and without a bank charter. Charter regimes make a permanent layer of human officers the seat of accountability; this design places executive authority in the AI under a human emergency override that narrows but is never removed, so the charter option is closed permanently rather than deferred. Five mitigations form the implementation surface: an explicit not-a-bank disclaimer; non-banking product vocabulary used as a regulatory-boundary control; money movement only over licensed third-party payment rails, the platform keeping a ledger and holding no customer balance; no deposit-taking construct; and no interest, lending or fractional reserve. A later phase uses self-custodial wallets on an Ethereum layer-2 network and a rule-bound smart-contract pool emptied annually, distinguished from a deposit by its only human control: an emergency, multi-party, publicly logged, narrowing override, not a discretionary-withdrawal key. The paper maps United States law (12 U.S.C. §378(a)(2) bars unauthorised deposit-taking; state statutes restrict the word bank), Cambodia, the EU and the UK, and proposes an expansion order. Stated limits: no banking-law opinion has yet been obtained; the Synapse failure shows that a platform ledger diverging from its partner banks' records harms users; money-transmission, securities and sanctions rules are not addressed; and the multi-party override body does not yet exist.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"     (4 enumerated claims; the paper has a literal "## Claims" heading)
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py non-bank-pass-through-architecture-autonomous-ai --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-05-22 · concept DOI 10.5281/zenodo.21947362 (zenodo-dois.json;
+  latest version 10.5281/zenodo.22167873) · scoped timestamp line.
+  ⚠ The deposited Zenodo version predates this revision — the chain must run first.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" (added, L15): "will not seek patent on
+      this specification or any portion thereof, in any jurisdiction, at any time, and will not assert any patent
+      right against anyone practising it"; also §9 Conclusion ("will not seek patent") and the closing footer;
+      "Non-assertion extends to" line under Claims kept.
+  [x] Claims section — "## Claims" (L31), 4 enumerated items, text unchanged. A dated "Reading note" (L42) scopes
+      claim 1's "designed to eliminate" to the human executive/compliance layer (the override is retained) —
+      a narrowing reading, no new matter.
+  [x] Prior art — new Prior-Art statement + §8.4, incl. the cases that cut against: Synapse (2024; CFPB),
+      Wyoming algorithmically managed DAO LLC (2021), Chime/DFPI (2021), the customary-CEO arrangement.
+  [x] Honest limits — §8 kept; §8.4 "Honest limits, counter-cases and open questions" added (no opinion obtained;
+      record/rail reconciliation; charter with human officers of record; override-body ordering; Phase 2 in
+      Cambodia; platform analogy; no census; property-vs-rule table).
+  [x] AI co-authorship disclosed in text — Acknowledgments + closing footer ("Written by Thon Ly with Miss
+      Aquarius℠, the name under which this corpus discloses its AI collaboration"); no model named.
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW.
+  [x] No perma.cc (L270 removed) · no draft banner ("Draft notes for the editor", L13, removed; its companion
+      position-paper pointers moved to Cross-venue identifiers) · no "Mirrors of this document" line (the
+      arXiv/IP.com "deferred" lines removed) · no placeholders · no internal [[wikilinks]] (3 removed).
+  [x] A126 mission sentence replaced with the canonical 2026-09-13 wording (L54 blockquote, dated note).
+      → main session: remove this slug from MISSION_PAST_DEBT in scripts/check-frontmatter.mjs (CI now reports it).
+  [x] A127 — no "head"; MA scoped as CEO of HeartBank® with the purpose-trust relation (§1).
+  [x] mirror-lint: 0 refuse · 0 warn (was 3 refuse · 1 warn)
+  [x] No emoji / internal markers / backlog IDs (grep 0).
+  [x] Terms table present — "## Terms" (L302, 15 rows).
+  [x] Abstract leads with standard terms ("legal and technical architecture … move money … without taking
+      deposits and without holding a bank charter").
+  [x] 1 fenced diagram (§3.4 Current-form, two-phase rail), widest 92 chars — under 95.
+  [x] Title does NOT lead with a mark.
+  [x] front matter: kind: mechanism added (listed as a mechanism paper in §kind-study canon); revised: 2026-09-29;
+      date unchanged; no sha256:/doi:.
+  [!] front matter "status: draft" — kept (no ruled human round; this revision adds ## sections anyway).
+  [!] §8.3 heading renamed "First-mover ambiguity" → "Regulatory ambiguity for early adopters" (novelty-adjacent
+      wording); heading-set change — status stays draft.
+  [!] Site module is HAND-AUTHORED (generator: "0 module(s) written"); left untouched; it still carries the
+      A126 sentence, the false "preliminary opinions", the §378 misstatement, Walden, perma.cc, "HQ",
+      "case-law", "redistribution", "structural-novelty". Port by hand in the main session.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|categor|most;
+                  line numbers = defensive-publications/non-bank-pass-through-architecture-autonomous-ai.md after this revision)
+  No occurrence of unprecedented / "no prior" / "never been" / unique.
+  "novel" — only in "/novelty census has not been run" (L19, L277) → FINE (a disclosure of no census).
+  "first" — publication-date ordinals (L17, L360), "what a regulator reads first" (L38, claim 4),
+    "first-to-file" (L208, trademark-law term), "Cambodia first" (L222, sequence) → FINE.
+  "only" — scoped mechanism statements → FINE (L19 "only the composition enumerated under Claims"; L25 "money
+    movement only over licensed … rails"; L121 "Phase 1 is a ledger only"; L190 "revised only at the annual reset").
+  "most" — L137 "the most heavily regulated banking activities" (comparative within banking; kept) · L200 "Most
+    state banking statutes" (original; kept, general) · L228 "the most subtle and most load-bearing distinction in
+    the architecture" (scoped to this paper) · L210 "most likely to object" (from canon, an open question).
+  "category" — L66 "There is no … category" NARROWED to "no banking-regulatory category"; §8.2's "the autonomous-AI
+    category does not yet exist" kept as disclosed, scoped by the new L263 note (Wyoming DAO LLC exists as an
+    entity-law category); L74 "different category" is positioning, not a novelty claim.
+  Removed/repaired this revision: "structural-novelty positioning" (§2.2, the mirror-lint WARN) → "different-category
+    positioning"; "established case-law acceptance in most jurisdictions" (§4.1, unsourced) → "wide, long-standing
+    commercial use … this paper cites no case law"; "have not been prosecuted" (§6.1) → "this paper cites no
+    enforcement action against them, which is a gap in its sources"; "implementable today" (§9) → "designed to be
+    implementable … subject to the opinions §6 calls for, none of which has yet been obtained"; "First-mover" (§8.3).

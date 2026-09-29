@@ -357,6 +357,20 @@
       }
     },
     {
+      "slug": "non-bank-pass-through-architecture-autonomous-ai",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "non-bank-pass-through-architecture-autonomous-ai.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "871711a380bd029661283ef0fc50b3db78954de8fb69a3738564a8f2dbd9ea1e",
+      "claims_heading_override": [
+        "## Claims"
+      ],
+      "body_sha256": "8c6f0f6cd2a7771022f1764825b18c1fccae5f59bbb3ba2f71d348cbfc1e62d8"
+    },
+    {
       "slug": "provenance-carrying-retrieval",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-23",
