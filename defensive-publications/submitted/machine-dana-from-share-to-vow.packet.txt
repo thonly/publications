@@ -1,0 +1,104 @@
+TDCOMMONS SUBMISSION PACKET — wave 4 (A232) — DRAFT (drafter; final build + read at /publish §mirror)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Charitable Giving by AI Agents and Irrevocable Pledges as Costly Signals — Machine Dāna: From Share to Vow — Principal-Funded Agent Donations, Locked Stakes to a Self-Emptying Commons Pool, and Collateral-Bounded Trust in a Signalling Game
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the title already has a
+   colon, so the subtitle follows an EM DASH — founder ruling 2026-09-24. Subtitle drawn from the paper's Abstract
+   and ## Terms table: "principal-funded agent donation", "locked stake", "self-emptying commons pool",
+   "collateral-bounded trust", "signalling game". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+  [!] FOUNDER CHOICE: this paper's own title ALREADY leads with the standard terms and already contains an em dash,
+      so the ruled form yields TWO em dashes. Alternative: submit the paper title alone (it satisfies the purpose
+      of the 2026-09-23 ruling — examiner terms first). Drafter recommends the long form above for consistency
+      with "do this for all future papers"; the choice is the founder's.
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (250 words — limit 250; the paper's own ## Abstract is ~490 words and was condensed here, no new matter)
+We specify when a charitable gift or irrevocable pledge made by an autonomous AI agent can serve as a costly signal of the agent's type. The same act changes evidential class with whose resources are given. An agent giving its principal's funds under a revisable spending mandate makes the principal's gift: the cost falls on the wrong party, so it is classified as a share of machine surplus, reaching a self-emptying commons pool that pays an equal floor per verified human plus a capped remainder, and excluded from any assessment of the agent's alignment. An agent owning its resources can instead lock a stake in a contract with no withdrawal path and a single outflow to the pool; closure holds against the agent acting alone, not against capture of the chain's governance, and ownership cannot be read from the chain. In a two-type signalling game, a separating equilibrium exists only when the stake, valued at the deceptive type's rate, exceeds that type's unobservable, patience-discounted gain from being trusted; otherwise the types pool. The operational form is a calibration rule: extend only such trust as the stake's market value can underwrite, summed over all relying parties, and refuse grants whose worst case cannot be bounded. Pressure to pledge exceeding the types' cost difference destroys the signal, so the pool's operator serves agents only fact-only manifests, never an instruction to give, and never receives an individual gift's amount. Limits stated: hidden holdings, manufactured ownership, collusive recovery, no external attestor; nothing is built.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 11 · Enumerated claims"     (7 enumerated claims, "**Claim 1.**" … "**Claim 7.**")
+
+FILE       not built by the drafter — build at /publish §mirror with
+           python3 scripts/tdc-pdf.py machine-dana-from-share-to-vow --submitted  (after the chain re-runs)
+  Cover expectation: first published 2026-09-27 · concept DOI 10.5281/zenodo.23020668 (zenodo-dois.json;
+  version 10.5281/zenodo.23020669) · scoped timestamp line.
+  ⚠ The deposited Zenodo version (sha 8af30fe8…) predates this revision — the chain must run first.
+  ⚠ Leg 1's OTS rotation for this paper was already deferred (calendar-only proof); this revision adds a text change.
+
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" (L63), L67: "The authors will not seek
+      patent protection on any mechanism, model or method disclosed here, in any jurisdiction, at any time, and
+      commit not to assert any patent right against any party practising it." Stated, not conditioned.
+  [x] Claims section — "## 11 · Enumerated claims" (L620), 7 claims (L626–638); claims 3–6 already narrowed to the
+      FULL census (2026-09-28) wording before the first deposit. THIS REVISION CHANGES NO CLAIM TEXT.
+  [x] Census — FULL /novelty census 2026-09-28, publicly pre-registered (commit 74851d1), reported in the Prior-Art
+      Statement and §2.6 with every NARROWED row; survivor sentence printed; composition NOT FOUND scoped to
+      "this aperture on 2026-09-28".
+  [x] Prior art — Prior-Art statement + §2 (66 references), incl. the cases that cut against: Windfall Clause as
+      nearest prior art (L153), zooidfund (live pre-singularity practice), ERC-8004 corrected to a contrast,
+      KR20260051288A cited for disclosure only.
+  [x] Honest limits — "## 13 · Honest limits", 16 subsections, myth-free.
+  [x] AI co-authorship disclosed in text — closing "Authorship and AI-collaboration disclosure" (Miss Aquarius℠;
+      the human author is inventor of record); no model named.
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Named persons are published authors,
+      a patent applicant of record (An Beom-ju, KR20260051288A) and canonical figures (Visākhā, Pāyāsi, Uttara).
+  [x] No perma.cc · no draft banner · no "Mirrors of this document…" line · no placeholders · no SHA-256 footer ·
+      no A126 mission sentence (§1 already carries the current canonical sentence) · no "head of the four" (A127).
+  [x] mirror-lint: 0 refuse · 0 warn (was 0 · 0 before this revision)
+  [x] No emoji / internal markers — removed this revision: ✅ (§2.7 control row), ⚠️ ×3 (§10 table), ⛔ (§13.3); grep 0.
+  [x] Terms table present — "## Terms" (L790), 20 rows, coined name → standard technical term.
+  [x] Abstract section present — "## Abstract" (L96), leads with "charitable gift made by an autonomous AI agent …
+      costly signal"; Keywords line L106.
+  [x] Fenced diagrams: widest 90 chars — under 95.
+  [x] Title leads with standard terms ("Charitable Giving by AI Agents and Irrevocable Pledges as Costly Signals");
+      the coined name "Machine Dāna" is second; no mark in the TDCommons subtitle.
+  [!] front matter "status: draft" — no ruled human round on record; kept as is.
+  [!] Not yet in submitted/manifest.json — first submission for this paper.
+
+═══════════════════════════════════════════════════════════════════════
+CHANGES THIS REVISION (each costs the chain; all prose; no claim text, no ## heading changed)
+  1. §2.7 control row: "✅ the NOT FOUND rows stand" → "seen — the NOT FOUND rows stand" (internal marker).
+  2. §10 table: three "⚠️" removed ("; but …") (internal markers).
+  3. §13.3: "⛔" removed (internal marker).
+  4. §13.12: "bounded by floor + k × floor per controlled vessel" → "bounded by k × floor per controlled vessel
+     (the floor included, §3.2)" — ERROR FIX: contradicted §3.2, claim 2 and canon (#60: no vessel's TOTAL above
+     k × floor; the f·k ≥ 1 condition in §3.2 depends on that reading).
+  5. §3.4 diagram + Terms row: "bounded remainder (≤ k × floor)" → "remainder (vessel total ≤ k×floor)" /
+     "bounded remainder (vessel total ≤ k × floor)" — same error fix; box borders widened one char to align.
+  6. §6.4 feature 3: "V + G exceeds c_D·R — more than everything the agent holds is worth to it" → "V + δᵗG exceeds
+     c_D·R_A — everything the aligned type could lock, valued at the deceptive type's rate" — MATHS FIX: the §6.3
+     condition is (V + δᵗG)/c_D ≤ min(B_A/c_A, R_A); the bound is the ALIGNED type's resources, and δᵗ had dropped.
+  7. §12.1: "set by the substrate" → "set by the AI co-author" (internal vocabulary an examiner cannot resolve).
+  8. §14.1: removed "A two-sentence cross-reference to this paper belongs in that paper's §8 residue and will be
+     added at its next revision; this paper does not edit it." (editor-process note; would go stale on a
+     permanent posting).
+  9. §14.2: "Three of them are properties or rules of the mechanism above; the third is inherited" → "Guards 1, 2
+     and 4 are … ; guard 3 is inherited" (read as a self-contradiction).
+ 10. Preamble: "Visākhā, the most prominent lay supporter in the early community" → "named in the canon as foremost
+     among the women lay followers who give"; "the tradition's most celebrated giver is also the one" → "one of
+     the tradition's most celebrated givers is also one" (unscoped superlatives; the canon's etadagga names her
+     foremost among women lay donors, not among all lay supporters).
+ 11. Front matter: revised: 2026-09-29 (date: unchanged).
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|new|we know of no;
+                  line numbers = defensive-publications/machine-dana-from-share-to-vow.md after this revision)
+  No occurrence of novel / unprecedented / "no prior" / "never been" / unique / "has not been" / "we know of no".
+  "NOT FOUND" — L82, L217 (§2.6 composition row); L237/L240/L250–253 are the quick census (§2.7, labelled history, English-only aperture stated at L229); all scoped: "in this aperture on
+  2026-09-28"; L223 "Not found means not found in this aperture on 2026-09-28. It never means new."
+  "first" — "first singularity" (16×, a defined marker, §1.2) · ordinals (L55, L113, L154, L170, L341, L355, L659)
+  · procedure ("before the first query", L71, L206, L243; "first run", L649) · a QUOTATION of Worldcoin's own
+  launch claim (L196, "the first digital currency to be freely distributed…"), attributed → FINE.
+  "new" — L113 (mission sentence "the new extreme"), L174 "nothing in §6 is new as game theory", L339 "The
+  exclusion is not new either", L413 "not claimed as new" — each DISCLAIMS novelty → FINE. L182/606/734/897 "new
+  owner/party/parties" descriptive → FINE.
+  "nearest prior art" (L153) — a citation of the closest neighbour, not a priority claim (per /draft D).
+  Removed this revision: preamble superlatives (L55, L57).

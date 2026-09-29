@@ -271,6 +271,20 @@
       }
     },
     {
+      "slug": "machine-dana-from-share-to-vow",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-09-29",
+      "pdf": "machine-dana-from-share-to-vow.pdf",
+      "claims_headings": [
+        "## 11 · Enumerated claims"
+      ],
+      "claims_sha256": "b65b1884b2a9a291cfbe7a91338d466bbc4029d3e995905042f4d4f8811d4274",
+      "claims_heading_override": [
+        "## 11 · Enumerated claims"
+      ],
+      "body_sha256": "6a7ea71546ce6e1ca14ff3f7f12ba3e94b9ec88f137de393c57c8adb1e6f2b1f"
+    },
+    {
       "slug": "mechanical-heart",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
