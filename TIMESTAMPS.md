@@ -1,3 +1,10 @@
+### 2026-09-29 — wave 3 and the two queued papers POSTED at TDCommons (mirrors, not revisions)
+
+All twelve outstanding submissions posted; the date is the one printed on the venue's own PDF cover (the notices reach the
+inventor address at 00:41 UTC 9/28 and ~01:12 UTC 9/29): buddha-ai-living-tipitaka [11883](https://www.tdcommons.org/dpubs_series/11883) (09-28) · capacity-funded-human-disbursed-ai-alignment [11884](https://www.tdcommons.org/dpubs_series/11884) (09-28) · the-rethank-multiplier [11885](https://www.tdcommons.org/dpubs_series/11885) (09-28) · two-layer-reward [11887](https://www.tdcommons.org/dpubs_series/11887) (09-29) · multi-family-membership [11889](https://www.tdcommons.org/dpubs_series/11889) (09-29) · the-wager-that-isnt [11892](https://www.tdcommons.org/dpubs_series/11892) (09-29) · steward-routed-alms [11894](https://www.tdcommons.org/dpubs_series/11894) (09-29) · dual-currency-reciprocity [11895](https://www.tdcommons.org/dpubs_series/11895) (09-29) · the-game-that-graduates-you [11897](https://www.tdcommons.org/dpubs_series/11897) (09-29) · the-sport-that-says-your-name [11898](https://www.tdcommons.org/dpubs_series/11898) (09-29) · studio-b-short-phase-bridge [11899](https://www.tdcommons.org/dpubs_series/11899) (09-29) · co-presence-gated-redemption [11905](https://www.tdcommons.org/dpubs_series/11905) (09-29). The two that sat `queued_for_update` since 9/25 posted
+with no editor note — no action was ever needed. **Verified 12/12** (`check-mirrors.py --verify-posted`, word for word in
+order, 0 extra · 0 missing; each control fails as it must). **33 of 33 submissions posted, none awaiting.**
+
 ### 2026-09-29 (early) — the owed rotations, the two riders, and P-ZP1's chain (founder: *"check bitcoin now; the watcher may be broken"*)
 
 | paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |

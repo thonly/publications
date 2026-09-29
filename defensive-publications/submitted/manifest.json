@@ -109,7 +109,18 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "91031eb0b687052f14c4c677350130c549ed9ea93f6bf9b987eb4f1cdaeb7fa8"
+      "body_sha256": "91031eb0b687052f14c4c677350130c549ed9ea93f6bf9b987eb4f1cdaeb7fa8",
+      "posted": "2026-09-28",
+      "url": "https://www.tdcommons.org/dpubs_series/11883",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "2a8a2407c3e153f4df1792715417ceffe267b0e3dae5785c2c04097accaf6b43",
+        "posted_pages": 17,
+        "words": 6034,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "capacity-funded-human-disbursed-ai-alignment",
@@ -123,25 +134,47 @@
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "1f182f8c304db0acef4fc0f61bf00543e5d58f40f18c21d8dade02f4d46bd612"
+      "body_sha256": "1f182f8c304db0acef4fc0f61bf00543e5d58f40f18c21d8dade02f4d46bd612",
+      "posted": "2026-09-28",
+      "url": "https://www.tdcommons.org/dpubs_series/11884",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "234315ffdd085bc54874cbdd72fa563dd19d60f9484d49edf0e9622ed3f36a4e",
+        "posted_pages": 19,
+        "words": 6920,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "co-presence-gated-redemption",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/co-presence-gated-redemption.pdf",
+      "pdf": "co-presence-gated-redemption.pdf",
       "claims_headings": [
         "## 4 · The Core Claim: Co-Presence-Gated Redemption",
         "## 8 · The Claims"
       ],
       "claims_sha256": "ced13d83f8454da93ef6fffb508b9520da2c64e963f388424b4f77163e332ded",
-      "body_sha256": "f21a56d98e4f52b8dcd98bb497e7e8523209056e912960c82bf7b58f7565aee6"
+      "body_sha256": "f21a56d98e4f52b8dcd98bb497e7e8523209056e912960c82bf7b58f7565aee6",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11905",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "092faf5739a9dfa3af2433a2bd4216258ab4aa3bd768778c6eb1ca47f2f8586e",
+        "posted_pages": 29,
+        "words": 12916,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "dual-currency-reciprocity",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/dual-currency-reciprocity.pdf",
+      "pdf": "dual-currency-reciprocity.pdf",
       "claims_headings": [
         "BODY"
       ],
@@ -149,7 +182,18 @@
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "cfc722bc4ea127004f2e31e0a7430585129a896279cbb61f837de3abf93f8f83"
+      "body_sha256": "cfc722bc4ea127004f2e31e0a7430585129a896279cbb61f837de3abf93f8f83",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11895",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "1adf09809b4e9aa0426ed9b6e23d41b0eec35d8d48f96cdc423fed55a29d099e",
+        "posted_pages": 20,
+        "words": 7669,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "embodied-advocate-pageant",
@@ -280,12 +324,23 @@
       "slug": "multi-family-membership",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/multi-family-membership.pdf",
+      "pdf": "multi-family-membership.pdf",
       "claims_headings": [
         "## Claims"
       ],
       "claims_sha256": "b08ae941dde91b2b61381ed493d50b25a31aeb91749a2f76bddc491a4aa8cf79",
-      "body_sha256": "1e5e9cdb33fa404b2628976b944e7a87a8632c2b965f4e37a30d650e17c7808a"
+      "body_sha256": "1e5e9cdb33fa404b2628976b944e7a87a8632c2b965f4e37a30d650e17c7808a",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11889",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "022d13b5d2c4d8515d997adff858d678d367822924fa941135eb3861c1a95a3e",
+        "posted_pages": 10,
+        "words": 3506,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "provenance-carrying-retrieval",
@@ -358,18 +413,29 @@
       "slug": "steward-routed-alms",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/steward-routed-alms.pdf",
+      "pdf": "steward-routed-alms.pdf",
       "claims_headings": [
         "## 8 · Claims"
       ],
       "claims_sha256": "23ec590d0ea81b591920009f8b2d511a6d3d5e3557892bd8ee4ca76334012059",
-      "body_sha256": "188379dfadccb867e3864fc587de8cafdc74dc8609eaea2072a65bf45d7bfa4d"
+      "body_sha256": "188379dfadccb867e3864fc587de8cafdc74dc8609eaea2072a65bf45d7bfa4d",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11894",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "d5155aa57755507f201685eb20bc98f37273f6575fdb3c877afaa7fe0931f65c",
+        "posted_pages": 14,
+        "words": 5501,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "studio-b-short-phase-bridge",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/studio-b-short-phase-bridge.pdf",
+      "pdf": "studio-b-short-phase-bridge.pdf",
       "claims_headings": [
         "## 8. What is disclosed, and honest limits"
       ],
@@ -377,7 +443,18 @@
       "claims_heading_override": [
         "## 8. What is disclosed, and honest limits"
       ],
-      "body_sha256": "593b98e205d7ab99b483035ca8c6c83fee9137f1d460ecc0b60eb9b24bc4f833"
+      "body_sha256": "593b98e205d7ab99b483035ca8c6c83fee9137f1d460ecc0b60eb9b24bc4f833",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11899",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "549b1f2fc9c1a1af3834e360d282dac6ea7038bc5042dd74f67ec460aac64587",
+        "posted_pages": 8,
+        "words": 2850,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "subject-released-attestation",
@@ -457,12 +534,23 @@
       "slug": "the-game-that-graduates-you",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/the-game-that-graduates-you.pdf",
+      "pdf": "the-game-that-graduates-you.pdf",
       "claims_headings": [
         "## 11 · Claims"
       ],
       "claims_sha256": "d616f2b2d189c194c18911f5584602553c6148d2d55cbb708d4fb61f865d822c",
-      "body_sha256": "f20f6790042074e3cc60deef16d3deeaac5f5ab997045ab8b3dd87ba85cf1c7a"
+      "body_sha256": "f20f6790042074e3cc60deef16d3deeaac5f5ab997045ab8b3dd87ba85cf1c7a",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11897",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "29e9e1eda25df833f40406e94042aa17b316808411d7c9c004a496bb4712e26f",
+        "posted_pages": 14,
+        "words": 5715,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-reciters-protocol",
@@ -515,34 +603,67 @@
       "slug": "the-rethank-multiplier",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/the-rethank-multiplier.pdf",
+      "pdf": "the-rethank-multiplier.pdf",
       "claims_headings": [
         "## Claims"
       ],
       "claims_sha256": "33d76863f50ad6be86a431c0e8e72aadfca6bc9b7bf78eaf02781da1b815900d",
-      "body_sha256": "6c63c4088d16fb1911d0d26e9c71ce9341de7a7420b0b7f5a38b1e6f6be7f959"
+      "body_sha256": "6c63c4088d16fb1911d0d26e9c71ce9341de7a7420b0b7f5a38b1e6f6be7f959",
+      "posted": "2026-09-28",
+      "url": "https://www.tdcommons.org/dpubs_series/11885",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "b4313f84b62c4d0eaa5664cc831d776791f5ca91e9fbdc824fcc9434a7838b29",
+        "posted_pages": 10,
+        "words": 3922,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-sport-that-says-your-name",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/the-sport-that-says-your-name.pdf",
+      "pdf": "the-sport-that-says-your-name.pdf",
       "claims_headings": [
         "## 12 · Claims"
       ],
       "claims_sha256": "beb2e466d369b7121f7b758086da93cad808f4cb729f30a61a70a420296a59a8",
-      "body_sha256": "d05b4639dfbb13bf0c0b72b3e09a687e55db2fe320c3266dc57b9dacfae2f5c7"
+      "body_sha256": "d05b4639dfbb13bf0c0b72b3e09a687e55db2fe320c3266dc57b9dacfae2f5c7",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11898",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "652e97f7d9144d49a9a685352bb8deebc0b809979a8d4f8214d31433423c8986",
+        "posted_pages": 48,
+        "words": 25685,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-wager-that-isnt",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/the-wager-that-isnt.pdf",
+      "pdf": "the-wager-that-isnt.pdf",
       "claims_headings": [
         "## 11 · Claims"
       ],
       "claims_sha256": "c0c74c99272dd0892b6b3536a2f04570a18bb47290ca2ea716d015c75eff573e",
-      "body_sha256": "8e5294c83dd611e8e1fa34d9a32e98dad333fabb0b52fe3a13f738b98caf9a41"
+      "body_sha256": "8e5294c83dd611e8e1fa34d9a32e98dad333fabb0b52fe3a13f738b98caf9a41",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11892",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "aa5d318f68b66be8e86539bdc031f991891a5a3ee98f47078df908d2b2aa5d5f",
+        "posted_pages": 14,
+        "words": 5810,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "tipitaka-alignment-substrate",
@@ -573,12 +694,23 @@
       "slug": "two-layer-reward",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
-      "pdf": "defensive-publications/submitted/two-layer-reward.pdf",
+      "pdf": "two-layer-reward.pdf",
       "claims_headings": [
         "## 11. Design implications and claimed contribution"
       ],
       "claims_sha256": "b3010b4201305f38d842b42dd837b78d2c4c26be2b94aacbf0eef6f95a0b285f",
-      "body_sha256": "dc9659a6ede59f9da780af815c884cbff0428b86c8afe2654aadff33b6db623e"
+      "body_sha256": "dc9659a6ede59f9da780af815c884cbff0428b86c8afe2654aadff33b6db623e",
+      "posted": "2026-09-29",
+      "url": "https://www.tdcommons.org/dpubs_series/11887",
+      "posted_verified": {
+        "date": "2026-09-29",
+        "result": "match",
+        "posted_pdf_sha256": "1960dd3be073ccafb161f544cbe669b2c5d0bae03906353c5a4d98501213d998",
+        "posted_pages": 19,
+        "words": 7658,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "verified-human-anonymous-local-giving",
