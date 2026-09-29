@@ -1,3 +1,12 @@
+### 2026-09-29 (early) — the owed rotations, the two riders, and P-ZP1's chain (founder: *"check bitcoin now; the watcher may be broken"*)
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **a-promise-that-cannot-grow** *(+ riders: the bondage sentence §1, the Coupler lineage §18)* | `.ots` → `.r1.ots` (Bitcoin-complete); new proof, calendar-only | `2026-09-29.sha256` | ⏸ held (A257) | ⏸ HELD |
+| **prediction-register** *(P-ZP1)* | `.ots` → `.r15.ots` (Bitcoin-complete); new proof, calendar-only | `2026-09-29.sha256` | 10.5281/zenodo.23033184 *(new version)* | 2.5.27 |
+
+⚠️ **The deferral of 2026-09-28 was decided on a BLIND probe.** `ots` is not on the session shell's PATH (the client lives in `~/.cache/ots-venv/bin/`), and the check that reported "0 Bitcoin attestations", like the background watcher after it, sent the command-not-found error to `/dev/null`. The founder asked for a direct check; a known-good control proof then read 3, and both retiring proofs upgraded to Bitcoin-complete on the first real run. Whether they were complete at 21:00 is unknown.
+
 ### 2026-09-28 (night) — `a-promise-that-cannot-grow` (new DP, polish r1 + founder rulings 3–5) and the prediction register (P-PM1–3) (founder: *"approve"*)
 
 | paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
