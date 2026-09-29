@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **116** |
-| Published here | 115 |
+| Total registered | **117** |
+| Published here | 116 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 57 |
+| Receiving first public timestamp here | 58 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -88,6 +88,7 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | **P-PL8** | **Kids as triggers, de-confounded** — enters as a **new prediction citing the Contradicted finding above**, under the revision rule: within the founding family, the younger generation captures more self-thanks per active member than the older **once device access is controlled for**. The first result was contradicted at n=1 and ruled not to be hardened; this names the confound and the instrument (the device join from the error stream, plus the interview leg) | Unrun (instrument not built) | First public here |
 | **P-PL9** | **Diaspora corridor, dignity direction** — low-income→high-income flows (KHR sender to USD recipient, currency as an income proxy) are at least **10%** of money-carrying re-tips in the trailing 90 days, once twenty or more flows exist. *Falsifier: under 10% → patronage is a corridor, not a mesh; the low-income members are recipients only.* June 2026 baseline 9.6%. **Read 1 of 3: 6.0% of 712** | **Running** (baseline read) | First public here |
 | **P-PL12** | **Cross-income gravitation, among strangers** — a USD-currency viewer re-thanks a KHR-currency creator's B-Short at **at least 2×** the per-view rate at which they re-thank a USD-currency creator's B-Short, counting only viewer–creator pairs in **different families**, over a trailing 90-day window, once each arm has 500 or more qualifying views (watch-depth rows, `schemaVersion` 2 only) and twenty or more re-thanks exist in total. *Falsifier: under 2× → the high→low flow the pilot shows is family obligation, not a preference among strangers.* Per view, not share of flows, so that what the feed happens to show cannot pass it. Currency is an income proxy. ⛔ **Void if any surface orders, filters or labels B-Shorts by country or income** — a prompt voids the test. Direction, measure and threshold are the founder's; the sample floors are substrate-set | Unrun (awaits cross-family B-Short visibility and its per-view metric) | First public here |
+| **P-ZP1** | **The game travels with the foundation** — a new prediction citing P-K1 and P-PL5, neither edited. Among givers active in the three months before the taper, those in the **top third by Zero-Point play** keep giving through the taper at **at least 1.25×** the rate of those in the **bottom third**. *Zero-Point play* = distinct acts of giving forward per active month: re-tips passed on (live now), thanks given after a B-Tag (live in B-Shops), and whole-balance releases in B-Promise (from its launch). *Keep giving* = gave at least once in each of the three months after the taper begins. *Falsifier: a ratio under 1.25×, or the bottom third keeping on at the same rate or higher → Zero-Point play does not travel with the kindness the proxy measures, and the game is not evidence of the foundation.* Scorable only at the P-K1/P-PL5 taper (scheduled Q2 2027, not to be pulled forward), with at least 10 givers in each third; below that it is reported, not scored. The F3QR confound registered against P-K1 on 2026-09-04 binds this too. ⚠️ **What it cannot show:** the generous may simply choose to play more — a pass means the game and money-inelastic giving *travel together*, never that the game *causes* it. Direction, measure and threshold are the founder's (registered as drafted) | Unrun (gated on the taper) | First public here |
 
 ---
 
@@ -283,6 +284,12 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-09-28 (late night) — one added (P-ZP1), citing P-K1 and P-PL5. Total now 117.**
+
+- The founder's question: whether choosing the Zero-Point Game over the zero-sum game brings the second singularity closer. "Closer" has no measure, and counting the institution's own products as humanity's progress would make adoption a scorecard, so the registered form ties the intuition to the proxy already on file: does Zero-Point play travel with giving that persists as the subsidy falls? Registered as drafted, on the founder's word.
+
+**The Summary moves:** total 116 → 117, *published here* 115 → 116, *receiving first public timestamp here* 57 → 58. The reconciliation holds: 58 + 58 = 116 published here, plus the one withheld, is 117.
 
 **2026-09-28 (night) — three added (P-PM1, P-PM2, P-PM3), the promise-ledger predictions of `a-promise-that-cannot-grow`. Total now 116.**
 
