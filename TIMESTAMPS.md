@@ -1,3 +1,19 @@
+### 2026-09-30 — two study revisions (five riders; a second axis) and a new argument essay, each after an xhigh refuter (founder: *"draft all papers per your recommendation (triage the mindless-beings point)"*)
+
+Both revisions were drafted, refuted by a separate xhigh agent (`TH/notes/reviews/<slug>/2026-09-30-refuter.md`), fixed in full, and
+checked against each other (the Vibhajjavādin §7 now reads "no length in any physical unit", matching the sibling's unit of reckoning).
+The mindless-beings point missed in the 9/28 triage was triaged ACCEPT (`2026-09-28-r1/triage.json` item 40). The essay is NEW: pushed
+and stamped; its legs 3–4 are HELD (`holds.json`) until its `/polish` model round and literature census.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **abhidhamma-and-discrete-quantum-gravity** | `.ots` → `.r3.ots` (Bitcoin-complete); new `29fa30e0f779…` *(calendar-only at stamping)* | `2026-09-30.sha256` | `10.5281/zenodo.23071896` *(new version)* | 2.5.30 |
+| **the-vibhajjavadin-view-of-time** | `.ots` → `.r2.ots` (Bitcoin-complete); new `638ab4e40afe…` *(calendar-only at stamping)* | `2026-09-30.sha256` | `10.5281/zenodo.23071897` *(new version)* | 2.5.30 |
+| **essays/letting-the-texts-lose** *(NEW)* | first stamp `c1741337b01b…` *(calendar-only)* | `2026-09-30.sha256` (second run) | ⏸ held (polish round + literature census) | ⏸ held |
+
+⚠️ A premature proof of the essay (stamped by `stamp-new.sh` while the file was untracked and still being edited) was deleted before
+it was ever committed; the committed proof covers the final text.
+
 ### 2026-09-29 (later) — TDCommons wave 4: ten defensive publications made mirror-ready (A232) (founder: *"approve all"*)
 
 One drafter per paper: mirror repairs (banners, perma.cc, false-mirror lines, SHA footers, the A126 sentence ×2), standard non-assertion, Abstract lead, Terms, Keywords; examiner-read error and citation fixes; Current-form notes by the variant rule. Founder rulings the same day: dedicatory-generation claim 9 narrowed to heirs first · certification-by-circulation claim-2 note (rows private, proofs public) · the-gift-operation store-tithe note (the 9/15 cycle diagram governs) · the-unpaid-relay's minor unnamed by relation · sacrifice-witness §12 clinician clause removed. `verify-legs.sh` ✓ ×10. `a-promise-that-cannot-grow` stays held (A257).
