@@ -8,6 +8,7 @@ date: 2026-06-20
 license: CC0-1.0
 slug: the-capacity-to-give
 venue: thonly.org/research/the-capacity-to-give (canonical) · LessWrong / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** This essay is personal and in my voice — the wish, the framing, and the byline are mine, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me, and still awaiting my own editorial pass. Where it reports what users did, the evidence is one founding family and a small, new cohort of strangers: n is small, the deployment is one I fund, and I label it as such throughout. The companion essay *Giving Is a Gift Too* made the supply-side case — that the resource-constrained can be *enabled* to give; this one makes the demand-side case — that giving is what they *wanted*. I have tried to attach the claim to the ledger rather than to sentiment.
@@ -17,6 +18,8 @@ venue: thonly.org/research/the-capacity-to-give (canonical) · LessWrong / futur
 ## Abstract
 
 I built HeartBank on the assumption that what people most want is to be thanked — to receive recognition, the dignity of being seen. The users corrected me. What they come for, it turns out, is the opposite face of the same coin: not what they can get, but what they can give. This essay is the demand-side companion to *Giving Is a Gift Too*, which argued that structured redistribution and anonymity let the resource-constrained *afford* to give; here I argue that the capacity to give is not merely something the system permits but the thing people actually want from it. I define that capacity — the means and the occasion to give to a particular person — as the product; I argue that its sharpest and least-noticed form is **anonymity to loved ones**, because between intimates a gift normally carries debt, obligation, and ego, and stripping those out leaves something close to pure giving that is otherwise almost impossible to perform; and I report three things the ledger showed me that I had not predicted — that patronage flows in *both* directions and not only from richer to poorer, that receiving a small gift becomes for many a *license* to give a larger one onward, and that one user asked me to switch off her own rewards so the money could go to people who need it more. I draw the positioning line that keeps this from curdling — patronage, not charity; everyone a patron, never cheap kindness bought from the poor — and I am candid at the end about how little, and how confounded, the evidence still is.
+
+**Keywords:** capacity to give, giving is a gift too, anonymity, patronage, demand side, gratitude, pilot findings, attention economy
 
 ---
 

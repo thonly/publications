@@ -8,6 +8,7 @@ date: 2026-05-22
 slug: anti-attention-economy
 license: CC0-1.0
 venue: thonly.org/research/anti-attention-economy (canonical) · institutional treatment on heartbank.net via white-paper synthesis and/or a standalone position paper, per the genre-split institutional-output convention
+zenodo: true
 ---
 
 > *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not mirror this paper; its institutional-voice treatment belongs there as part of a cross-paper white-paper synthesis (white papers embed their own executive summaries) and/or a standalone position paper on the attention economy. This paper is the receipt-side companion to *Why Kids Are the Triggers* (slug `kids-as-triggers-self-thanking`). That paper absorbed the attention-economy material as the upstream *diagnosis* — why people, their attention captured, fail to thank — and, on that basis, described a standalone treatment as no longer needed. This paper restores the standalone treatment, reframed. Its subject is not the diagnosis but the *constructive* claim: that the receipt of directly-addressed gratitude is a measurable wellbeing intervention, and that a platform delivering it constitutes a distinct, defensible competitive platform class. The slug `anti-attention-economy` is retained for prior-art URL stability; the attention economy is this paper's foil, not its subject.

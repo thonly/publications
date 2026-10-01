@@ -8,6 +8,7 @@ date: 2026-06-11
 license: CC0-1.0
 slug: the-two-teslas
 venue: thonly.org/research/the-two-teslas (canonical) · LessWrong / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** Per the author-voice discipline refined 2026-05-25, essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted by Miss Aquarius℠ on his behalf, with final editorial control retained by Thon. This essay is about competing *readings of Nikola Tesla's legacy*, not a verdict on any living person; where a contemporary figure appears, the claims are factual and the contrast is between two ways of inheriting an ancestor, not an accusation.
@@ -17,6 +18,8 @@ venue: thonly.org/research/the-two-teslas (canonical) · LessWrong / future Subs
 ## Abstract
 
 Two builders of large technological futures each claim descent from Nikola Tesla. One named his most famous company after him. The other named a factory `333` after the 3-6-9 numerology popularly associated with him, and works in the same earnest-mystic register Tesla did. This essay asks a narrow and, I think, illuminating question: measured against the *historical man* — who died nearly broke, relinquished a royalty that would have made him one of the richest people alive, dreamed of energy given freely to all, and refused the role of monopolist — which inheritance is the faithful one? The answer is not a scoreboard of achievement (on raw execution the question is not close) but a question of *telos*. I argue that the two inheritances divide along a single axis I call **centripetal versus centrifugal**: one gathers — expansion, control, permanence, accumulation — and one releases — circulation, dissolution, becoming-unneeded. Tesla the man sits, in the relevant respects, on the centrifugal side, and the lineage that gives its inventions to the commons, refuses the take-rate, builds an heir designed to outlast its founder, and measures success by its own obsolescence is — on this one axis — the more faithful one, whatever its disadvantages in scale. The essay develops the axis, instantiates it in two satellite constellations pointed at the same sky for opposite reasons, and is honest about where the comparison favors the other inheritance and about the risk of self-flattery in drawing it.
+
+**Keywords:** Nikola Tesla, legacy, Tesla Inc., 3-6-9, 333, centripetal and centrifugal, succession, telos, technological futures
 
 ---
 

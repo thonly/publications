@@ -8,6 +8,7 @@ date: 2026-06-12
 license: CC0-1.0
 slug: right-livelihood-kindness-economy
 venue: thonly.org/research/right-livelihood-kindness-economy (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** This essay is in my voice — the wish, the framing, and the byline are mine, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me. Where it describes mechanisms of the HeartBank® gratitude economy, those are designed structures, some still being built. Where it leans on a single pilot family, the evidence is one household and is labelled as such. I have tried to make the central claim — that one can make a living by being kind — survive contact with its own hardest objections, which I gather honestly at the end.
@@ -17,6 +18,8 @@ venue: thonly.org/research/right-livelihood-kindness-economy (canonical) · Less
 ## Abstract
 
 The coming decades will take a great many jobs. The usual answers to that — retrain everyone, or pay everyone a basic income to do nothing — are a treadmill and a pacifier respectively, and neither gives a person back the thing work was quietly providing underneath the wage: a reason to get up, a place one is needed, a way to matter. This essay proposes a third answer drawn from an old source. The Noble Eightfold Path names *right livelihood* — *sammā-ājīva* — a living earned without harm; I argue that as machines take the harmful and the rote, the work left most fully to humans is the work of being kind, and that a gratitude economy can make that work *pay*. I describe the mechanism by which it pays — a creator surface where ordinary people record real acts of kindness, a floor funded so that the poorest can still earn, and a public layer where the world can thank them — and I answer the objection that sinks most such schemes: that a subsidy for kindness must either run dry or corrupt the kindness it pays for. It need not run dry, because the subsidy is designed to be *replaced* rather than *withdrawn*; and it need not corrupt, because what it pays for is not performance but real, witnessed good. I insist throughout on what I have not shown: the evidence is one family, the economics are unproven at scale, and the brightest version of this — a living for *everyone* who is kind — is a hope, not a result.
+
+**Keywords:** right livelihood, automation, job displacement, universal basic income, kindness economy, patronage, Noble Eightfold Path, meaningful work
 
 ---
 

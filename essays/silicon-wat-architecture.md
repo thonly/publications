@@ -9,6 +9,7 @@ revised: 2026-09-23
 license: CC0-1.0
 slug: silicon-wat-architecture
 venue: thonly.org/research/silicon-wat-architecture (canonical)
+zenodo: true
 ---
 
 > *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror. The slug `silicon-wat-architecture` is the canonical research URL.

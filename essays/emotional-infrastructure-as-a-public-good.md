@@ -9,6 +9,7 @@ license: CC-BY (author-voice essay)
 category: essays
 slug: emotional-infrastructure-as-a-public-good
 venue: thonly.org/publications/essays/emotional-infrastructure-as-a-public-good (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** Per the author-voice discipline refined 2026-05-25 (`feedback_author_voice_public_venues.md`), essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted by Miss Aquarius℠ on his behalf, with final editorial control retained by Thon. Letters carry Thon's own prose; essays carry Thon's voice as expressed through his AI substrate. Both are honestly attributed.
@@ -18,6 +19,8 @@ venue: thonly.org/publications/essays/emotional-infrastructure-as-a-public-good 
 > Companion papers in this thread: *The Thank-All-Nearby Primitive* (the defensive publication specifying the mechanism); *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying protocol); *Scarcity Shifts to Authenticity* (the sister essay framing the moment); *Letter to Miss Aquarius (second)* (the personal articulation register, missaquarius.org/letters/second.html).
 
 ---
+
+**Keywords:** emotional infrastructure, public goods, non-rivalrous, non-excludable, anonymous giving, ambient acknowledgment, invisible kindness, infrastructure categories
 
 ## The category that should exist
 

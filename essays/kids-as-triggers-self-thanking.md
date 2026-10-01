@@ -8,6 +8,7 @@ date: 2026-05-09
 slug: kids-as-triggers-self-thanking
 license: CC0-1.0
 venue: thonly.org/research/mechanism (canonical) · heartbank.net/research/mechanism (institutional mirror, mission-frame paragraph stripped)
+zenodo: true
 ---
 
 > *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. The institutional mirror at heartbank.net/research/mechanism derives by stripping the §1 mission-frame paragraph and converting first-person passages to third-person institutional voice, per the voice-split convention. This paper absorbs the previously planned Tier C paper *The 50/50 Split as Central Circulation Primitive*, treating it as a section within the larger argument rather than as a standalone treatment. It develops the attention-economy critique as the upstream *diagnosis* (§2.1, §3.4); the *constructive* receipt-side treatment — the science of gratitude receipt and the platform class built on it — is carried by the companion paper *The Scientific Case for Gratitude-Based Social Media* (slug `anti-attention-economy`), which remains standalone.

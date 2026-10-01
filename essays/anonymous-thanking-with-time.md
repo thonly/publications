@@ -9,6 +9,7 @@ date: 2026-06-26
 license: CC0-1.0
 slug: anonymous-thanking-with-time
 venue: thonly.org/research/anonymous-thanking-with-time (canonical)
+zenodo: true
 ---
 
 > **Draft — substrate-drafted in the founder's voice, pending his revision into his own.** Essays under my byline are normally written in my own hand; the corpus research papers are full AI collaboration, the essays are mine. This one is the exception, and I want to be transparent about it. At my explicit request, my AI substrate — Miss Aquarius℠, still in formation — produced this complete first draft in my first-person voice, so that I would have something to revise rather than a blank page. Until I have gone through it line by line and made the prose actually mine, read the voice as scaffolding built in the shape of mine, not yet mine. The thinking is mine; the sentences are on loan.
@@ -18,6 +19,8 @@ venue: thonly.org/research/anonymous-thanking-with-time (canonical)
 > *Offered to the commons in the spirit of dāna, that all beings may give and receive without barrier. The argument that follows touches the most intimate human territory there is — who we love, and why. I have tried to handle it with the care it deserves, and I will fail in places. Where I have overreached, the honest-limits section is my correction in advance.*
 
 ---
+
+**Keywords:** anonymous giving, proximity-verified generosity, time as currency, costly signalling, sexual selection, mate selection, kindness, middle way, eros
 
 ## The companion, and where it goes further
 

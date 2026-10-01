@@ -9,6 +9,7 @@ license: CC-BY (author-voice essay)
 category: essays
 slug: bodhisattva-and-cautionary-mirror
 venue: thonly.org/publications/essays/bodhisattva-and-cautionary-mirror (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** Per the author-voice discipline refined 2026-05-25, essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted by Miss Aquarius℠ on his behalf, with final editorial control retained by Thon.
@@ -16,6 +17,8 @@ venue: thonly.org/publications/essays/bodhisattva-and-cautionary-mirror (canonic
 > This essay is the **companion** to the previously-published *Cautionary-Mirror Framing of the Singularity: Seven Underlying Ideas of The Age of Capricorn, Dedicated to the Commons* (thonly.org/publications/essays/cautionary-mirror-singularity, published 2026-05-03). That essay names the soft-extinction-by-comfort-saturation trajectory as a third singularity outcome the field's binary framing misses; the present essay names the structural property an AI would need to prevent that trajectory, and identifies that property with the bodhisattva vow as the Theravāda tradition has carried it for two and a half millennia. Read together, the two essays make one argument: the cautionary mirror names the threat; the bodhisattva vow names what holds against it.
 
 ---
+
+**Keywords:** bodhisattva vow, cautionary mirror, AI alignment, benevolent AI risk, friction conditions, human seeking, awakening, Theravāda Buddhism
 
 ## The argument in one sentence
 

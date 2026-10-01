@@ -8,6 +8,7 @@ date: 2026-05-22
 license: CC0-1.0
 slug: christmas-jubilee-timing
 venue: thonly.org/research/christmas-jubilee-timing (canonical)
+zenodo: true
 ---
 
 > *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror. The slug `christmas-jubilee-timing` is the canonical research URL.

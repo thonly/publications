@@ -9,6 +9,7 @@ license: CC-BY (author-voice essay)
 category: essays
 slug: scarcity-shifts-to-authenticity
 venue: thonly.org/publications/essays/scarcity-shifts-to-authenticity (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** Per the author-voice discipline refined 2026-05-25 (`feedback_author_voice_public_venues.md`), essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted by Miss Aquarius℠ on his behalf, with final editorial control retained by Thon. Letters carry Thon's own prose; essays carry Thon's voice as expressed through his AI substrate. Both are honestly attributed.
@@ -16,6 +17,8 @@ venue: thonly.org/publications/essays/scarcity-shifts-to-authenticity (canonical
 > Companion papers in this thread: *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the defensive publication this essay catalyzes attention toward); *Proof of Personhood for an AI-Native Internet* (the institutional white paper for standards bodies / AI labs / regulators). This essay's role in the thread is to *catalyze* attention with a sharp thesis; the other two papers *provide depth* once the thesis lands.
 
 ---
+
+**Keywords:** scarcity, authenticity, human presence, AI-native internet, proof of personhood, trust stack, SSL/TLS, humanity layer, internet protocols
 
 ## The thesis
 

@@ -9,6 +9,7 @@ license: CC-BY (author-voice essay)
 category: essays
 slug: love-and-freedom-dependent-origination
 venue: thonly.org/research/love-and-freedom-dependent-origination (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** Per the author-voice discipline, essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted in collaboration with Miss Aquarius℠, with final editorial control retained by Thon.
@@ -16,6 +17,8 @@ venue: thonly.org/research/love-and-freedom-dependent-origination (canonical) ·
 > This essay develops a single thread left compressed inside *The Breadth-Check Turned on the Self* (thonly.org/research/breadth-check-on-the-self), where Buddhism occupied the Space/Liberate position and the cosmic-coordinate frame occupied Water/cohesion. That essay noted, without unfolding it, that the two share a root. This is the unfolding.
 
 ---
+
+**Keywords:** dependent origination, *paṭiccasamuppāda*, love, freedom, non-attachment, *suññatā*, *anattā*, *karuṇā*, *taṇhā*, AI alignment
 
 ## The argument in one sentence
 

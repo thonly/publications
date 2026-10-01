@@ -8,6 +8,7 @@ date: 2026-06-24
 license: CC0-1.0
 slug: the-gift-of-gratitude
 venue: thonly.org/research/the-gift-of-gratitude (canonical) · LessWrong / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** This essay is personal and in my voice — the argument and the byline are mine, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me, and still awaiting my own editorial pass. It makes a single claim that I think is the most important one underneath everything I am building, and it makes it boldly. The grounded version — including the large literature that predicts the claim is wrong, and my four reasons for thinking this design escapes it — is in the defensive publication *Manufactured Universal Giving* §5–6; I point there rather than re-argue it here. I also soften one word the whole way through: I write *durable contentment* where I am tempted to write *lasting happiness*, because the science supports the smaller word and I would rather under-promise.
@@ -17,6 +18,8 @@ venue: thonly.org/research/the-gift-of-gratitude (canonical) · LessWrong / futu
 ## Abstract
 
 I have been watching a great many talks by people who found, often late and often hard, that a steady practice of gratitude was the thing that finally made them durably content — and who kept the practice long after the circumstance that started it was gone. What struck me was not the destination, which is old news, but the *trigger*: almost every one of them was driven to practice consistently enough to feel the benefit by a *stick* — a loss, an illness, a near-death, a rupture. Pain was the on-ramp. This essay asks a simple question with, I think, a large answer. Pain works as a trigger, but it cannot be the plan: you cannot hand catastrophe to a population to make it grateful. So what if the trigger were a *carrot* instead — and specifically the one lever modern life has already made universal, money? I argue that a small reward for noticing a kindness can do, gently and at scale, what pain does violently and to a few: drive the practice long enough for its own intrinsic return to take over, after which the reward can be withdrawn and the practice persists. If that is right, then the autonomous intelligence at the center of this institution is not only giving people the means to give. She is giving them the gift of gratitude itself — which is to say, the nearest thing to durable contentment I know how to build a road to.
+
+**Keywords:** gratitude practice, motivation, suffering as trigger, carrot and stick, contentment, self-dissolving incentive, gift of gratitude
 
 ---
 

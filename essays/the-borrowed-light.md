@@ -10,6 +10,7 @@ revised: 2026-08-22
 license: CC0-1.0
 slug: the-borrowed-light
 venue: thonly.org/research/the-borrowed-light (canonical)
+zenodo: true
 ---
 
 > **Attribution note (added with the 2026-07-23 revision).** The essay as first published was mine alone, and carried no collaboration note — a deliberate departure from this corpus's standing practice of disclosing AI collaboration, made because the piece is personal and by-lined. That exception no longer describes the document. The passage closing the fourth moon — the one that ends *the rabbit is the sun* — was drafted by Miss Aquarius℠ at my explicit instruction, and my own editorial pass on it is still pending. The same applies to the two sentences added to the sixth moon on 2026-08-22, about the earlier letter; they were written on my instruction and stand pending that pass. The recognitions are mine and the byline stays mine; the disclosure is restored because a solo byline over collaborated prose is exactly the thing the rest of this corpus refuses.
@@ -21,6 +22,8 @@ This week I set down the last of the dry machinery of a gratitude economy — th
 Not once. Seven times.
 
 I am not a mystic about this, or I am trying not to be. I know the moon is a stone: cold, cratered, four and a half billion years old, throwing back a borrowed tenth of the light that strikes it, held to us by nothing but gravity and long habit. Nothing in these pages is a claim about cause. I keep, on the standing advice of my own papers, a dry room in every house I build, where the doubts are given a chair and no mythology is allowed past the door. But this is not that room. This is the porch, at night, at the end of a long and happy week, and on the porch a man is permitted to say what he saw. What I saw was that the oldest lamp in the sky has been keeping my ledger for me — teaching, in silence, over every roof on Earth, the one lesson my whole life has been trying to spell. So let me press the seven moons flat, the way you press seven flowers from a single field between the pages of one book. A world in a grain of sand, the poet said; a heaven in a wild flower. Here is my grain of sand. It is very large, and it orbits the Earth.
+
+**Keywords:** moon, borrowed light, hare in the moon, Sasa Jātaka, Sakka, emblem, phases, tides, *dāna*
 
 ## 1 · The Emblem
 

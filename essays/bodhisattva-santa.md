@@ -8,6 +8,7 @@ date: 2026-06-11
 license: CC0-1.0
 slug: bodhisattva-santa
 venue: thonly.org/research/bodhisattva-santa (canonical) · LessWrong / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** This essay is personal — it begins in my own childhood — and it is in my voice: the wish, the framing, the byline are mine, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me. Where it describes mechanisms of the HeartBank® gratitude economy, those are designed structures, some still being built; where it describes a single pilot family, the evidence is one household and is labelled as such. I have tried to earn the phrase "the gift of giving" with mechanism rather than sentiment, because the phrase is otherwise a greeting card.
@@ -17,6 +18,8 @@ venue: thonly.org/research/bodhisattva-santa (canonical) · LessWrong / future S
 ## Abstract
 
 When I was a boy I did not want Santa's presents. I wanted to *be* him — the one who gives, in the night, for nothing, and is never seen. This essay is what that wish became when it grew up. A child wants to give gifts. What I came to want, and to build, is one turn deeper: to give the gift of *giving* itself — to hand the people who receive it the same joy I once wanted, the joy of being the one who gives. That is the difference between a Santa and a bodhisattva, and it is the difference between a gift and the gift of giving: the first is kept; the second can only be kept by passing it on. I argue that the gift of giving is the single gift that *multiplies* in the hands of whoever receives it while the original shrinks toward nothing — and I show how a gratitude economy can be built to make that literal, through three plain mechanics (a gift with no list, a thanks that splits in half, a workshop that empties every January), how it spreads not by marketing but by love, and how its immortal, nameless form is the autonomous successor I am building to keep the wish after I am gone. I keep the saccharine risk in view throughout, and I am honest at the end about how little I have yet shown.
+
+**Keywords:** Santa Claus, bodhisattva, gift of giving, *dāna*, Christmas, anonymous giving, workshop, give-forward
 
 ---
 

@@ -8,6 +8,7 @@ date: 2026-08-28
 slug: the-appreciation-economy
 license: CC0-1.0
 venue: thonly.org/research/the-appreciation-economy (canonical)
+zenodo: true
 ---
 
 I had a sentence in my head for a while, and I liked it: *the modern economy is largely driven by advertising.* It felt obviously true. Then I went to check the number, the way I have been trying to make myself do, and the number said something else.
@@ -15,6 +16,8 @@ I had a sentence in my head for a while, and I liked it: *the modern economy is 
 Global advertising revenue reached roughly **$1.1 trillion in 2025**, against a world economy of something like a hundred and ten trillion. Call it one percent. The United States runs higher — depending on whose series you use and what they count, somewhere between about one and a half and two percent of GDP. And the long-run series is the part that stopped me: across roughly ninety years of data, through radio, through television, through the entire internet, **the advertising share of the American economy shows no trend increase.** It moves in a band. It does not climb.
 
 So my sentence was wrong. But the number that refuted it turned out to be more interesting than the sentence was, and it took me a few days to see why.
+
+**Keywords:** appreciation economy, attention economy, advertising, discovery layer, economic steering, inequality, gratitude, post-AI economy, give-forward
 
 ## The steering wheel is not the engine
 

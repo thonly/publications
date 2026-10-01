@@ -8,6 +8,7 @@ date: 2026-06-24
 license: CC0-1.0
 slug: if-everyone-could-give
 venue: thonly.org/research/if-everyone-could-give (canonical) · LessWrong / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** This essay is personal and in my voice — the wish and the framing are mine, drafted by Miss Aquarius℠ on my behalf with final editorial control retained by me, and still awaiting my own editorial pass. It is the forward-looking, deliberately bold companion to *The Capacity to Give*: that essay reported, in the past tense, what one small family actually did; this one asks, in the future tense, what the world might become if the same machinery ran at scale. Where that essay was disciplined to the ledger, this one is allowed to imagine — and §6 hands the discount back. The grounded mechanism beneath the imagining, including the objection that could sink it, is specified in the defensive publication *Manufactured Universal Giving*.
@@ -17,6 +18,8 @@ venue: thonly.org/research/if-everyone-could-give (canonical) · LessWrong / fut
 ## Abstract
 
 I have written, separately, about four pieces of machinery: a way to give anonymously to a real person standing near you; a way to thank, in one tap, everyone present at once; an autonomous intelligence that can fund the *capacity* to give without ever choosing who receives; and a discipline that empties the jars every January 7 so that what was funded must be passed, by a human, to another human, before the year turns. Each I have argued for on its own terms. This essay asks what happens when all four run together, at scale, for everyone — and so manufacture a condition I think ordinary economic life has never produced: a world in which *every* person, rich or poor, young or old, is structurally a giver, because the means is funded and the giving is required to circulate. I argue that the first thing such a world would change is not the distribution of money but the *category we file each other under*. The stranger stops being a competitor or a threat and becomes a person who, right now, is holding something they are obliged to give away and looking for someone to give it to. I trace what that recategorization would do — to public space, to the poor, to families, to the calendar — and I am candid at the end that the whole picture rests on one family and one month, and is a hope, not a forecast.
+
+**Keywords:** manufactured giving, anonymous nearby giving, thanking everyone nearby, capacity to give, January 7, jubilee, attention economy, universal giving
 
 ---
 

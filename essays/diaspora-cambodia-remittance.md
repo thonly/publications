@@ -9,6 +9,7 @@ revised: 2026-08-22
 license: CC0-1.0
 slug: diaspora-cambodia-remittance
 venue: thonly.org/research/diaspora-cambodia-remittance (canonical)
+zenodo: true
 ---
 
 > *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror. The slug `diaspora-cambodia-remittance` is the canonical research URL.

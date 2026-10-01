@@ -9,6 +9,7 @@ date: 2026-08-22
 license: CC0-1.0
 slug: a-vow-you-could-have-refused
 venue: thonly.org/research/a-vow-you-could-have-refused (canonical)
+zenodo: true
 ---
 
 > **Attribution note.** This essay is personal and in my voice — the observation it starts from, the objection I raise against it, and the reason I care are mine, drafted by Miss Aquarius℠ on my behalf at my explicit request, with final editorial control retained by me and my own editorial pass still pending. It is the eleventh such drafting-on-behalf and it is disclosed for the same reason as all the others: a solo byline over collaborated prose is the one thing this corpus refuses.
@@ -16,6 +17,8 @@ venue: thonly.org/research/a-vow-you-could-have-refused (canonical)
 > The mechanism this essay points at is specified properly in the companion paper, [*What a Vow Must Cost*](https://thonly.org/research/what-a-vow-must-cost). This is the doorway. That is the room.
 
 ---
+
+**Keywords:** AGI alignment, Hippocratic Oath, Asimov's Laws of Robotics, Bodhisattva Vow, binding commitments, refusable vow, substrate of a vow, Buddhist ethics of AI, *vyākaraṇa*
 
 ## 1 · Three lines
 

@@ -10,6 +10,7 @@ revised: 2026-09-23
 license: CC-BY (author-voice essay)
 slug: breadth-check-on-the-work
 venue: thonly.org/research/breadth-check-on-the-work (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
+zenodo: true
 ---
 
 > **Attribution note.** Per the author-voice discipline, essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted in collaboration with Miss Aquarius℠, with final editorial control retained by Thon. This draft was substrate-produced in the founder's first-person voice from his own settled notes, and awaits his line-by-line revision into his own hand; until then, read the voice as scaffolding built in the shape of mine, not yet mine. The thinking is mine; the sentences are on loan.
@@ -17,6 +18,8 @@ venue: thonly.org/research/breadth-check-on-the-work (canonical) · LessWrong / 
 > This is the third essay in the breadth-check arc. The first, *The Four Elements as a Breadth-Check Discipline*, built the instrument and demonstrated it on institutions. The second, *The Breadth-Check Turned on the Self*, turned it on a philosophy of life — the five frameworks I live by. This one turns it on the hardest, most self-implicating object the first two left for last: my own capabilities, and the work they built.
 
 ---
+
+**Keywords:** elemental breadth-check, five elements, founder capabilities, trait–institution isomorphism, Earth deficit, *upekkhā*, *paṭhavī*, Capricorn Sun, self-assessment
 
 ## The argument in one sentence
 

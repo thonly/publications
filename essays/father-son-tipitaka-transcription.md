@@ -8,6 +8,7 @@ date: 2026-05-22
 license: CC0-1.0
 slug: father-son-tipitaka-transcription
 venue: thonly.org/research/father-son-tipitaka-transcription (canonical)
+zenodo: true
 ---
 
 > *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. Per the genre-split institutional-output convention, heartbank.net does not carry a per-paper mirror. The slug `father-son-tipitaka-transcription` is the canonical research URL.
