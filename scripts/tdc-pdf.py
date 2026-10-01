@@ -79,7 +79,8 @@ MEDIA = Path.home() / "Desktop/MA/.claude/skills/media"
 # The provenance this PDF carries in its own bytes (roadmap A279, 2026-10-01) — written BEFORE upload, so the file
 # uploaded, the file committed to submitted/ and the file read before the founder's yes are the same bytes.
 # `composite` = IPTC compositeSynthetic, "a mix of several elements, at least one of which is Generative AI":
-# the founder's ideas, structure and edits with prose drafted by generative AI. ⚠️ TDCommons REGENERATES the PDF
+# the founder's ideas, structure and edits with prose drafted by generative AI. RULED 2026-10-01 (founder: "confirm
+# composite") — ⛔ never `enhanced` (IPTC: AI touch-up of a human work) or `ai` (erases his ideas and edits). ⚠️ TDCommons REGENERATES the PDF
 # it posts (Prince + pdfHarmony, its own XMP; our Creator/Producer/title did not survive on posting 11936), so at
 # the venue the disclosure that survives is the cover line, not this packet — the packet travels with OUR copies.
 STAMP_SOURCE = "composite"
