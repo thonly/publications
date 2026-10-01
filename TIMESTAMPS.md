@@ -1,3 +1,7 @@
+### 2026-10-01 — wave 4 POSTED at TDCommons (mirrors, not revisions)
+
+All ten wave-4 submissions (2026-09-29) posted with venue date 2026-10-01: machine-dana-from-share-to-vow [11918](https://www.tdcommons.org/dpubs_series/11918) · non-bank-pass-through-architecture-autonomous-ai [11919](https://www.tdcommons.org/dpubs_series/11919) · certification-by-circulation [11920](https://www.tdcommons.org/dpubs_series/11920) · the-unpaid-relay [11921](https://www.tdcommons.org/dpubs_series/11921) · dedicatory-generation [11922](https://www.tdcommons.org/dpubs_series/11922) · the-gift-operation [11924](https://www.tdcommons.org/dpubs_series/11924) · silica-wat-food-network [11928](https://www.tdcommons.org/dpubs_series/11928) · sacrifice-witness-without-discharge [11932](https://www.tdcommons.org/dpubs_series/11932) · appreciation-as-world-building [11934](https://www.tdcommons.org/dpubs_series/11934) · inverted-alms-round [11936](https://www.tdcommons.org/dpubs_series/11936). **Verified 10/10** (`check-mirrors.py --verify-posted`, word for word in order, 0 extra · 0 missing; each control fails as it must). **43 of 43 submissions posted, none awaiting.**
+
 ### 2026-09-30 — two study revisions (five riders; a second axis) and a new argument essay, each after an xhigh refuter (founder: *"draft all papers per your recommendation (triage the mindless-beings point)"*)
 
 Both revisions were drafted, refuted by a separate xhigh agent (`TH/notes/reviews/<slug>/2026-09-30-refuter.md`), fixed in full, and

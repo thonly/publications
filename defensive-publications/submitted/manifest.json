@@ -37,7 +37,18 @@
       "claims_heading_override": [
         "## 13 · What is claimed, and freed"
       ],
-      "body_sha256": "8e0ef96d7244b736ebb397c0b7b5bec185e6941f950a823a83800587a8aba63a"
+      "body_sha256": "8e0ef96d7244b736ebb397c0b7b5bec185e6941f950a823a83800587a8aba63a",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11934",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "c213f1de400e8f28f4c8e2f5c8e836e06e0e2a1cc165d37c626284a69e6ad817",
+        "posted_pages": 34,
+        "words": 15086,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "aura-gated-anonymous-mate-selection",
@@ -183,7 +194,18 @@
         "## 7 · The no-orphan-software invariant (claim 5)",
         "## 8 · The successor-steward mechanism (claims 6–7): what happens when the steward cannot answer anymore"
       ],
-      "body_sha256": "4f0178fc59863ce7b7ae5c18f7b1baa8654b5a2438d093680564021f7614577f"
+      "body_sha256": "4f0178fc59863ce7b7ae5c18f7b1baa8654b5a2438d093680564021f7614577f",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11920",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "fbf7951f91414a4395d33176bc1a79534c1a4c1252c09e07db010a0a0d9a6ae9",
+        "posted_pages": 21,
+        "words": 8547,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "co-presence-gated-redemption",
@@ -232,7 +254,18 @@
         "## 8 · Claims 8, 9 and 10 — where value goes, who can stop it, and what is never released",
         "## 11 · What is claimed, and freed"
       ],
-      "body_sha256": "014f1641cd928f70bb0053ae81a422d300b4a5408a38a7e3e732b49a418d98b6"
+      "body_sha256": "014f1641cd928f70bb0053ae81a422d300b4a5408a38a7e3e732b49a418d98b6",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11922",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "0a1d1c102559b412fc01fdf2457c8a164fd9f740a3ac204380e0f1efa44d82d5",
+        "posted_pages": 17,
+        "words": 7639,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "dual-currency-reciprocity",
@@ -346,7 +379,18 @@
       "claims_heading_override": [
         "## 6 · Claims"
       ],
-      "body_sha256": "bcbf10d79df885cdc8e198fb8a7358f393cdbaa95e36c7554249805b4bc7656a"
+      "body_sha256": "bcbf10d79df885cdc8e198fb8a7358f393cdbaa95e36c7554249805b4bc7656a",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11936",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "479e4d0003da61fe0ee8d53d48b4275ab40ba0b3fae6a0a466daa26c8287a000",
+        "posted_pages": 13,
+        "words": 5231,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "machine-dana-from-share-to-vow",
@@ -360,7 +404,18 @@
       "claims_heading_override": [
         "## 11 · Enumerated claims"
       ],
-      "body_sha256": "6a7ea71546ce6e1ca14ff3f7f12ba3e94b9ec88f137de393c57c8adb1e6f2b1f"
+      "body_sha256": "6a7ea71546ce6e1ca14ff3f7f12ba3e94b9ec88f137de393c57c8adb1e6f2b1f",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11918",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "15e8ca48554dd7ab7c75ef4e769aba53c1b074d37058482d1accb21b7f7f08f4",
+        "posted_pages": 48,
+        "words": 22272,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "mechanical-heart",
@@ -446,7 +501,18 @@
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "8c6f0f6cd2a7771022f1764825b18c1fccae5f59bbb3ba2f71d348cbfc1e62d8"
+      "body_sha256": "8c6f0f6cd2a7771022f1764825b18c1fccae5f59bbb3ba2f71d348cbfc1e62d8",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11919",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "127f29f374291a76809733ec7d5413e736ea975977d3df81973e54aa7b2674a3",
+        "posted_pages": 17,
+        "words": 6640,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "provenance-carrying-retrieval",
@@ -527,7 +593,18 @@
       "claims_heading_override": [
         "## 8 · The Claims"
       ],
-      "body_sha256": "7fa6bde0dcceb9814bfa97c2230b396f7dfdbe4d7b927a4fb8a65daa2094b723"
+      "body_sha256": "7fa6bde0dcceb9814bfa97c2230b396f7dfdbe4d7b927a4fb8a65daa2094b723",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11932",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "690cb702a5fc42fde5f98d6f6d40bb93857e149cbf824989aa681f4222d9cc5c",
+        "posted_pages": 22,
+        "words": 9261,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "silica-wat-food-network",
@@ -541,7 +618,18 @@
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "5e4ad2a11ebbe0bb21fc0cc6413ec06a33bf12ff9118a291ba64134eb96a9ba5"
+      "body_sha256": "5e4ad2a11ebbe0bb21fc0cc6413ec06a33bf12ff9118a291ba64134eb96a9ba5",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11928",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "f41d097e280225764563a1da6fb90252ba4a5ab082bae8457b41476bd0209076",
+        "posted_pages": 17,
+        "words": 6240,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "steward-routed-alms",
@@ -698,7 +786,18 @@
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "7e16289a6252c1003b6bf397343fd4bdca5fe82831dd0044e6de1617091546e9"
+      "body_sha256": "7e16289a6252c1003b6bf397343fd4bdca5fe82831dd0044e6de1617091546e9",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11924",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "86c5733da7581992fe417cf960fdfbe1bfb4127a678787f5c6ee9658964114f9",
+        "posted_pages": 36,
+        "words": 18692,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-reciters-protocol",
@@ -803,7 +902,18 @@
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "4a4185bf1eed37e0291979b9ee14fb8cea9debc865fff7455213d77d5bd35ce9"
+      "body_sha256": "4a4185bf1eed37e0291979b9ee14fb8cea9debc865fff7455213d77d5bd35ce9",
+      "posted": "2026-10-01",
+      "url": "https://www.tdcommons.org/dpubs_series/11921",
+      "posted_verified": {
+        "date": "2026-10-01",
+        "result": "match",
+        "posted_pdf_sha256": "0776ff164c3a0809e80ea084c88a09020a128997d3ee4d6d230b4e4bdb0d21d6",
+        "posted_pages": 29,
+        "words": 13660,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-wager-that-isnt",
