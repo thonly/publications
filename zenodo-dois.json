@@ -8,6 +8,15 @@
   "sha256": "458a72b7011aad3ce396c17a5b99e0d13dadc306f45439a24b251b448dcbf5d7",
   "url": "https://zenodo.org/records/23041248"
  },
+ "a-vow-you-could-have-refused": {
+  "concept_doi": "10.5281/zenodo.23084922",
+  "deposition_id": 23084923,
+  "doi": "10.5281/zenodo.23084923",
+  "published": true,
+  "sandbox": false,
+  "sha256": "04d208ec53ab229a870becd8c14272be0261aeeccf5cccb70fffbebc87cfdc80",
+  "url": "https://zenodo.org/records/23084923"
+ },
  "abhidhamma-and-discrete-quantum-gravity": {
   "concept_doi": "10.5281/zenodo.23020020",
   "deposition_id": 23071896,
@@ -34,6 +43,24 @@
   "sandbox": false,
   "sha256": "eaf603dac66a48763e9410660e582044b958139dd8251afc1544b7ca6f0f793a",
   "url": "https://zenodo.org/records/22947092"
+ },
+ "anonymous-thanking-with-time": {
+  "concept_doi": "10.5281/zenodo.23084926",
+  "deposition_id": 23084927,
+  "doi": "10.5281/zenodo.23084927",
+  "published": true,
+  "sandbox": false,
+  "sha256": "cf8fa593f5afcb06481630c8e82c155cae2e9063b0a9a3dd4b6ed81232d491d1",
+  "url": "https://zenodo.org/records/23084927"
+ },
+ "anti-attention-economy": {
+  "concept_doi": "10.5281/zenodo.23084928",
+  "deposition_id": 23084929,
+  "doi": "10.5281/zenodo.23084929",
+  "published": true,
+  "sandbox": false,
+  "sha256": "34e320332e2bccd56be21c656f50acc70b9bbcbfb6165f33817c4a146f5d6f09",
+  "url": "https://zenodo.org/records/23084929"
  },
  "appreciation-as-world-building": {
   "concept_doi": "10.5281/zenodo.21947263",
@@ -89,6 +116,24 @@
   "sha256": "fbcebf01011a20f3c4d23e24fd802acf424359b4f426fa04fde02323ed12199b",
   "url": "https://zenodo.org/records/22246374"
  },
+ "bodhisattva-and-cautionary-mirror": {
+  "concept_doi": "10.5281/zenodo.23084934",
+  "deposition_id": 23084935,
+  "doi": "10.5281/zenodo.23084935",
+  "published": true,
+  "sandbox": false,
+  "sha256": "9d8a472713e3d80d68d63cf9a796d3d3789e6bb250e83bd2eef6d553da099ee0",
+  "url": "https://zenodo.org/records/23084935"
+ },
+ "bodhisattva-santa": {
+  "concept_doi": "10.5281/zenodo.23084980",
+  "deposition_id": 23084981,
+  "doi": "10.5281/zenodo.23084981",
+  "published": true,
+  "sandbox": false,
+  "sha256": "e8ecc000e4e7bef1f9ec78eace8641fae2296936eab1160f10403226869f2ce0",
+  "url": "https://zenodo.org/records/23084981"
+ },
  "brand-identity-as-architecture": {
   "concept_doi": "10.5281/zenodo.21947287",
   "deposition_id": 22440958,
@@ -97,6 +142,15 @@
   "sandbox": false,
   "sha256": "631817d906875471c3f7e206988036c84326ad6381057c25615aa2f2052f6070",
   "url": "https://zenodo.org/records/22440958"
+ },
+ "breadth-check-on-the-work": {
+  "concept_doi": "10.5281/zenodo.23084938",
+  "deposition_id": 23084939,
+  "doi": "10.5281/zenodo.23084939",
+  "published": true,
+  "sandbox": false,
+  "sha256": "e33f2614a5918734f1d3c458979884698a668f3d455e1dc576d38b3407eabe43",
+  "url": "https://zenodo.org/records/23084939"
  },
  "buddha-ai-living-tipitaka": {
   "concept_doi": "10.5281/zenodo.21947294",
@@ -143,6 +197,15 @@
   "sha256": "e9d7715a5553c8045b04570ca10041d23aaad36a3e5829105c70dfe84f62f67e",
   "url": "https://zenodo.org/records/23039769"
  },
+ "christmas-jubilee-timing": {
+  "concept_doi": "10.5281/zenodo.23084942",
+  "deposition_id": 23084943,
+  "doi": "10.5281/zenodo.23084943",
+  "published": true,
+  "sandbox": false,
+  "sha256": "99c0c3d11f09bc930fe697a16fe0a23ba304ea4c32b24156a33561875a67d534",
+  "url": "https://zenodo.org/records/23084943"
+ },
  "circulation-sports": {
   "concept_doi": "10.5281/zenodo.21947302",
   "deposition_id": 22059825,
@@ -179,6 +242,24 @@
   "sha256": "0889a5de2767f5f20d671f678809b6e7f0bbdc28d6b7e217f0c2b102e2a6e588",
   "url": "https://zenodo.org/records/23039782"
  },
+ "designing-with-the-grain": {
+  "concept_doi": "10.5281/zenodo.23084944",
+  "deposition_id": 23084945,
+  "doi": "10.5281/zenodo.23084945",
+  "published": true,
+  "sandbox": false,
+  "sha256": "7ccafea0cff6f8fe2a374415d96ed9ae443c1037f6ed29a453e7b38d84f73146",
+  "url": "https://zenodo.org/records/23084945"
+ },
+ "diaspora-cambodia-remittance": {
+  "concept_doi": "10.5281/zenodo.23084946",
+  "deposition_id": 23084947,
+  "doi": "10.5281/zenodo.23084947",
+  "published": true,
+  "sandbox": false,
+  "sha256": "ddb3b0d292524ebcc696c90c82193c566098822622296152956f32f96ab8ad30",
+  "url": "https://zenodo.org/records/23084947"
+ },
  "dual-currency-reciprocity": {
   "concept_doi": "10.5281/zenodo.21947312",
   "deposition_id": 22990559,
@@ -187,6 +268,15 @@
   "sandbox": false,
   "sha256": "bfc763b769d639643ac333b48a51ba1f576f7cc893c40df1cd882c6093a9aabb",
   "url": "https://zenodo.org/records/22990559"
+ },
+ "each-life-as-cosmic-coordinate": {
+  "concept_doi": "10.5281/zenodo.23084948",
+  "deposition_id": 23084949,
+  "doi": "10.5281/zenodo.23084949",
+  "published": true,
+  "sandbox": false,
+  "sha256": "0e609e46667b014ff0e0dbdfdcc80fa9c36460eba6f4dea4c0456f8d68ea64ac",
+  "url": "https://zenodo.org/records/23084949"
  },
  "eightfold-path-institutional-architecture": {
   "concept_doi": "10.5281/zenodo.21947316",
@@ -205,6 +295,24 @@
   "sandbox": false,
   "sha256": "c33b3c5ce0f52c068108468d071b37839485055f5d3c24ecfe5c5bad0c883831",
   "url": "https://zenodo.org/records/22947099"
+ },
+ "emotional-infrastructure-as-a-public-good": {
+  "concept_doi": "10.5281/zenodo.23084954",
+  "deposition_id": 23084955,
+  "doi": "10.5281/zenodo.23084955",
+  "published": true,
+  "sandbox": false,
+  "sha256": "ac5d47319c1d96da366b9100d86fdf929e97fda23a0781d3cb56ae9eaa60776e",
+  "url": "https://zenodo.org/records/23084955"
+ },
+ "father-son-tipitaka-transcription": {
+  "concept_doi": "10.5281/zenodo.23084956",
+  "deposition_id": 23084957,
+  "doi": "10.5281/zenodo.23084957",
+  "published": true,
+  "sandbox": false,
+  "sha256": "89f51486aba13d13963bd6d1b14fa254af7e49f966793ff481ac08fe4b25db1b",
+  "url": "https://zenodo.org/records/23084957"
  },
  "four-body-architecture": {
   "concept_doi": "10.5281/zenodo.21947323",
@@ -269,6 +377,24 @@
   "sha256": "2564165911f9ff8c8c26f703fbd1c4cf4a1d8ceefb856f0471675fd59d1ab79d",
   "url": "https://zenodo.org/records/22931228"
  },
+ "how-to-change-the-world": {
+  "concept_doi": "10.5281/zenodo.23084918",
+  "deposition_id": 23084919,
+  "doi": "10.5281/zenodo.23084919",
+  "published": true,
+  "sandbox": false,
+  "sha256": "490192c0474c54c470b4c203f7b7c915df8cbc8180118282185d0ec1f335aa1d",
+  "url": "https://zenodo.org/records/23084919"
+ },
+ "if-everyone-could-give": {
+  "concept_doi": "10.5281/zenodo.23084958",
+  "deposition_id": 23084959,
+  "doi": "10.5281/zenodo.23084959",
+  "published": true,
+  "sandbox": false,
+  "sha256": "bac538916e135d504ad547f91cd005c19c3ff91d0e2af1db8ea4ed446b341776",
+  "url": "https://zenodo.org/records/23084959"
+ },
  "incommensurability-preserving-coupler": {
   "concept_doi": "10.5281/zenodo.21947340",
   "deposition_id": 22246413,
@@ -296,6 +422,15 @@
   "sha256": "d522d4c797c557771d89dd8d507cef95182bd456325f1634931aa794c3b16778",
   "url": "https://zenodo.org/records/23039781"
  },
+ "kids-as-triggers-self-thanking": {
+  "concept_doi": "10.5281/zenodo.23084964",
+  "deposition_id": 23084965,
+  "doi": "10.5281/zenodo.23084965",
+  "published": true,
+  "sandbox": false,
+  "sha256": "477f5c2a355a89e6285587b7dfad416b42fd1b50abe460401563f536a0232b8b",
+  "url": "https://zenodo.org/records/23084965"
+ },
  "longitudinal-cohort-methodology": {
   "concept_doi": "10.5281/zenodo.21947347",
   "deposition_id": 22060092,
@@ -304,6 +439,15 @@
   "sandbox": false,
   "sha256": "ce0f784f541f2074e9f65feec40f7a193830a91a011a828802e8736e20bcdcac",
   "url": "https://zenodo.org/records/22060092"
+ },
+ "love-and-freedom-dependent-origination": {
+  "concept_doi": "10.5281/zenodo.23084966",
+  "deposition_id": 23084967,
+  "doi": "10.5281/zenodo.23084967",
+  "published": true,
+  "sandbox": false,
+  "sha256": "235a8972fd7258a5704604d4db3f8e1279868e285bbf79853b213e1f415890c0",
+  "url": "https://zenodo.org/records/23084967"
  },
  "machine-dana-from-share-to-vow": {
   "concept_doi": "10.5281/zenodo.23020668",
@@ -413,6 +557,15 @@
   "sha256": "c539b56dadab459cd9c3a4544e575e99bf6c634dcd3cc450f99c49459419e47f",
   "url": "https://zenodo.org/records/22933561"
  },
+ "right-livelihood-kindness-economy": {
+  "concept_doi": "10.5281/zenodo.23084968",
+  "deposition_id": 23084969,
+  "doi": "10.5281/zenodo.23084969",
+  "published": true,
+  "sandbox": false,
+  "sha256": "9dfaed6f5555b547f1d229c9e6a4b077adc2f199aee8089d6f5e082a15f4065c",
+  "url": "https://zenodo.org/records/23084969"
+ },
  "rotation-over-liveness": {
   "concept_doi": "10.5281/zenodo.22155377",
   "deposition_id": 22931216,
@@ -449,6 +602,15 @@
   "sha256": "3630602d3baf99124d7ff412b3c8ea7846446a65350101911d628df51e88a8c2",
   "url": "https://zenodo.org/records/22246439"
  },
+ "scarcity-shifts-to-authenticity": {
+  "concept_doi": "10.5281/zenodo.23084916",
+  "deposition_id": 23084917,
+  "doi": "10.5281/zenodo.23084917",
+  "published": true,
+  "sandbox": false,
+  "sha256": "56a71f63287788b91576a1a609aa9ee6fe86b98ff3a78e3242c6ae85e7318895",
+  "url": "https://zenodo.org/records/23084917"
+ },
  "silica-wat-food-network": {
   "concept_doi": "10.5281/zenodo.21947381",
   "deposition_id": 23039777,
@@ -457,6 +619,15 @@
   "sandbox": false,
   "sha256": "3d0004915ea47fae5b25723f5e7bbfabadcec53fb350e17aa30905c954c19943",
   "url": "https://zenodo.org/records/23039777"
+ },
+ "silicon-wat-architecture": {
+  "concept_doi": "10.5281/zenodo.23084970",
+  "deposition_id": 23084971,
+  "doi": "10.5281/zenodo.23084971",
+  "published": true,
+  "sandbox": false,
+  "sha256": "1f46bf3aee4a5a1605590aa7a03c36c6ec3a31de48b1d5d1cd84b1014801f2e4",
+  "url": "https://zenodo.org/records/23084971"
  },
  "steward-routed-alms": {
   "concept_doi": "10.5281/zenodo.21947383",
@@ -494,6 +665,15 @@
   "sha256": "4351aed4a84d86b44ea5322a581185832574d3e202717b29f3420d97064787e0",
   "url": "https://zenodo.org/records/22933562"
  },
+ "the-appreciation-economy": {
+  "concept_doi": "10.5281/zenodo.23084914",
+  "deposition_id": 23084915,
+  "doi": "10.5281/zenodo.23084915",
+  "published": true,
+  "sandbox": false,
+  "sha256": "58e9a051ebb9828ce16615d130c2cc43fdc3ef4e035206a0567b09d6e8c75295",
+  "url": "https://zenodo.org/records/23084915"
+ },
  "the-assembly-that-holds-the-brake": {
   "concept_doi": "10.5281/zenodo.21947395",
   "deposition_id": 22246445,
@@ -512,6 +692,15 @@
   "sha256": "bf86692929a50fae70bbe0b7c2d04be99c38ff8ae554ed12f386c5895c0b9c89",
   "url": "https://zenodo.org/records/22440989"
  },
+ "the-borrowed-light": {
+  "concept_doi": "10.5281/zenodo.23084987",
+  "deposition_id": 23084988,
+  "doi": "10.5281/zenodo.23084988",
+  "published": true,
+  "sandbox": false,
+  "sha256": "5416e55999390de0c61615da67a4d77a8212f8e2c19e200434afa7ecc27a9a0d",
+  "url": "https://zenodo.org/records/23084988"
+ },
  "the-called-draw": {
   "concept_doi": "10.5281/zenodo.22933318",
   "deposition_id": 22933319,
@@ -520,6 +709,15 @@
   "sandbox": false,
   "sha256": "55bf6c3378139312218869f778c39c2007d386856a7cdf72c6f32fa77a78c75d",
   "url": "https://zenodo.org/records/22933319"
+ },
+ "the-capacity-to-give": {
+  "concept_doi": "10.5281/zenodo.23084972",
+  "deposition_id": 23084973,
+  "doi": "10.5281/zenodo.23084973",
+  "published": true,
+  "sandbox": false,
+  "sha256": "32b69f40a8da9b742473a74e3e0a683d5e7aa0df4487f20fe993971d58b7fd7c",
+  "url": "https://zenodo.org/records/23084973"
  },
  "the-counts-check": {
   "concept_doi": "10.5281/zenodo.23020670",
@@ -538,6 +736,15 @@
   "sandbox": false,
   "sha256": "489e9012c9b768b1fe758cbcca3da4814d8abf3149e44c5a52294a3777b79222",
   "url": "https://zenodo.org/records/22990571"
+ },
+ "the-gift-of-gratitude": {
+  "concept_doi": "10.5281/zenodo.23084976",
+  "deposition_id": 23084977,
+  "doi": "10.5281/zenodo.23084977",
+  "published": true,
+  "sandbox": false,
+  "sha256": "355575d9826fb164fd2b035ef818ba0f9365eeefb93735772730f55b323efed8",
+  "url": "https://zenodo.org/records/23084977"
  },
  "the-gift-operation": {
   "concept_doi": "10.5281/zenodo.21947401",
@@ -601,6 +808,15 @@
   "sandbox": false,
   "sha256": "8bb5a5410fe198b54f10042947933a5b4e4917992f7a13cde93fcacb1f263376",
   "url": "https://zenodo.org/records/22990578"
+ },
+ "the-two-teslas": {
+  "concept_doi": "10.5281/zenodo.23084978",
+  "deposition_id": 23084979,
+  "doi": "10.5281/zenodo.23084979",
+  "published": true,
+  "sandbox": false,
+  "sha256": "d902bef5694b4a610332c52f23a3c21d933cb099299722ba0ee5456a78b857b7",
+  "url": "https://zenodo.org/records/23084979"
  },
  "the-unpaid-relay": {
   "concept_doi": "10.5281/zenodo.22313927",
