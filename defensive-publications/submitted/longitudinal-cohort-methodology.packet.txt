@@ -1,0 +1,129 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The HeartBank Longitudinal Cohort: A Dataset Combining DNA, Natal Chart, Family Tree, Continuous Behavioral Observation, and Continuous Respiratory Observation at Civilizational Scale — Tiered Consent, Federated Analysis, Homomorphic Encryption and Key-Destruction Withdrawal for a Genomic, Wearable-Sensor and Pedigree Cohort
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title already
+   has a colon, so the subtitle follows an EM DASH. The paper's title names the five data layers in mostly standard
+   words but none of the privacy mechanisms, which are the disclosed matter an examiner would search. Subtitle drawn
+   from the paper's Abstract, §3.1, §4.1–4.5 and the ## Terms table: "tiered (granular, per-data-type) consent",
+   "federated analysis", "homomorphic encryption", "consent withdrawal by encryption-key destruction
+   (crypto-shredding)", "genome data", "wearable respiration sensor", "pedigree graph". No mark in the added part;
+   no new matter. The PDF keeps the paper's own title.)
+  ⚠ The paper's own title leads with a mark ("HeartBank") and ends "at Civilizational Scale" for an unbuilt
+    design — a title change is PROPOSED under rulings owed in the drafter's report, not made.
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (245 words — limit 250; condensed from the paper's ## Abstract, §3–§5, §7 and §11.5; no new matter)
+This disclosure specifies the design of a privacy-preserving, multimodal longitudinal cohort study that links, for each consenting participant, five data layers: genome data (DNA sequence or genotyping array); date, time and place of birth, with the astronomical positions computed from them; a continuous record of prosocial transfers on a peer-to-peer gratitude ledger; continuous respiration data from a chest-worn wearable sensor; and verified kinship links in a pedigree graph, at a target of 100 million participants over decades. Consent is tiered: granted and withdrawn separately for each layer, and never tied to platform benefits. The privacy stack combines differentially private analysis under a published privacy budget, federated analysis with homomorphic encryption for genome data, on-device processing of respiration signals with differentially private uploads, per-jurisdiction data residency, and withdrawal by destruction of the participant's encryption key (crypto-shredding), which stops future use but cannot reach analyses already published. Governance comprises IRB-grade ethics review, pre-registered hypotheses, and publication of methods, code and aggregate findings, with individual-level data never released. Birth-time features are analysed as a coordinate label in association tests, not as a causal hypothesis; prior tests, including a comparison of 2,101 people born minutes apart, found no association. Population biobanks, genealogy-linked genotype resources and birth cohorts already combine several of these layers. Open questions are stated: the enrolment of minors, relatives whose genomes the data partly reveal, custody of the linkage between layers, the fate of the data if the institution ends, and oversight of an AI analyst.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading BODY     (kind: mechanism, NO enumerated-claims section — per the wave-6 brief §3 none was added
+                             in this wave; the mirror records the paper by its body, the A168 ruling. Candidate
+                             claims for a later founder ruling are listed in the drafter's report, not the paper.)
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py longitudinal-cohort-methodology); 20 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-05-22 · concept DOI 10.5281/zenodo.21947347 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088705) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" ADDED in the standard wave-4 form:
+      "No patent has been or will be sought on any mechanism described in this paper by HeartBank®, Factory 333™,
+      THonly™, Silicon Wat℠, or any entity under their common control. The authors and those entities commit not
+      to assert any patent right against any party practising any mechanism disclosed here." (The paper previously
+      carried the commitment only in §12 and the footer: "will not seek patent on this specification".)
+  [x] No live patent named; nothing characterises any patent's claims.
+  [x] Claims section — none (kind: mechanism, BODY). Not added in this wave, per the brief.
+  [x] Census — none on file (census.py list: no row for this slug). The paper now asserts NO priority: "No prior-art
+      census was run for this paper ... nothing here asserts that any element, or the combination, is absent from
+      the world's literature." §1.1's one absence sentence is scoped to the named sources and the date.
+  [x] Prior art — §1.1 (UK Biobank, deCODE genealogy + genotypes, Framingham generations, birth cohorts, the
+      time-twin test, consumer genetic-testing databases); §4.2 (SEAL, HElib, PySyft; encrypted GWAS, Blatt 2020);
+      §7 (Carlson 1985, Dean & Kelly 2003, Hartmann 2006), incl. the case that cuts against: the coordinate question
+      itself has been tested and returned 0.00 ± 0.03 (§6.3, §7); 23andMe breach and bankruptcy sale (§11.2, §11.5)
+  [x] Honest limits — §11.1–11.4 kept; §11.5 (eight open questions) and §11.6 (nothing built) added
+  [x] AI co-authorship disclosed in text — authors line; Acknowledgments; closing footer ("Miss Aquarius℠ is the
+      consistent name under which this institution discloses AI collaboration; the underlying models are not named")
+  [x] No named private real people; no family member; no birth data of any person — check.py --pii: 0 HIGH ·
+      0 MEDIUM · 0 LOW (before and after). Persons named are cited authors only (incl. Robert Currey, as a cited
+      critic's published page).
+  [x] No perma.cc · no archive.today · no draft banner · no "Mirrors of this document…" line · no arXiv/IP.com
+      "deferred" venue lines · no placeholders (the "Lazaridis ... (Selected genome-wide association study
+      references ...)" placeholder reference REMOVED) · no "Document SHA-256" footer · A126 mission sentence
+      replaced by the ratified 2026-09-13 wording · no "head" of the four bodies (none present) · no memory
+      wiki-link ([[project_proof_of_humanity]] REMOVED, now the companion paper's title)
+  [x] mirror-lint: 0 refuse · 0 warn (was 3 refuse · 7 warn)
+  [x] No emoji / internal markers — grep ⭐ ⚠ ⛔ ✅ = 0
+  [x] Terms table present — "## Terms" (16 rows, coined name → standard technical term; ADDED)
+  [x] Keywords line present — REPLACED (old line carried "Mind & Life partnerships", implying partnerships exist,
+      and "cosmic-coordinate correlation"); now standard terms only
+  [x] Abstract — "## Abstract", first sentence leads with "privacy-preserving, multimodal longitudinal cohort study"
+  [x] Fenced diagrams ≤ 95 chars — one diagram, 71 wide (unchanged)
+  [!] Title leads with a mark ("HeartBank") — unchanged by rule; proposal under rulings owed
+  [x] Marks (®/™/℠) only in body and footer; none in the added TDCommons subtitle
+  [x] front matter: kind: mechanism ADDED; revised: 2026-10-01 ADDED; date: unchanged (2026-05-22); status: draft
+      (unchanged; this revision adds ## sections Preamble, Prior-Art and Non-Assertion Statement, Terms)
+  [x] No sha256: / doi: in front matter
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|ever|largest|revolution|nobody;
+                  line numbers = defensive-publications/longitudinal-cohort-methodology.md after this revision)
+  mirror-lint's seven WARNs (old line numbers), each read:
+    old L19 Abstract "The combination has never been assembled at scale; ... carry one or two of the layers each but
+      no prior project has carried all five" → REMOVED. FALSE as written: UK Biobank carries genome + device-measured
+      physiology + follow-up; deCODE carries genome + national genealogy; Framingham three generations. New
+      Abstract: "Biobanks, genealogy-linked genotype resources and birth cohorts already combine several of these
+      layers (§1.1)."
+    old L29 "What has never been assembled, at any scale" → "This paper specifies a dataset that carries all of" +
+      §1.1 Nearest prior art + a scoped sentence ("No resource named here carries ... That is a statement about these
+      sources, read for this revision on 2026-10-01, and not a claim that no such dataset exists anywhere.")
+    old L59 "### 2.6 The combination's unprecedented value" / "has no prior precedent at all" / "the largest natural
+      experiment ... in history, by orders of magnitude" → "### 2.6 What the combination enables"; "a very large
+      observational cohort. It would not be an experiment, natural or otherwise, since no exposure is assigned."
+    old L212 "would be revolutionary" → "would contradict the existing results, and an explanation ... would be owed"
+    old L220 "at unprecedented resolution" → "measured as recorded transfers rather than self-report"
+    old L228 "independently revolutionary" / "top-tier contributions" → "a dataset whose value does not depend on it"
+    old L288 "the only legitimate path ... an unprecedented analytic surface" → "the sole legitimate path" (in a
+      negation: "does not claim to be") ... "It offers one additional analytic surface"
+  Also repaired (not linted):
+    §7 intro: "seriously underpowered (n < 500 in most cases), cross-sectional, sun-sign-only, and never combined with
+      ... longitudinal data. The HeartBank cohort would be the first adequately-powered ..." — CONTRADICTED BY ITS
+      OWN CITATIONS: Carlson used full natal charts (28 astrologers, 100+ charts); Dean & Kelly's time twins are
+      2,101 people from one week of births, 110 variables; Hartmann et al. had samples of 4,000+ and 11,000+, the
+      second from a national longitudinal survey. Rewritten to report each, with the bound they set.
+    §7.1 "the strongest evidence ever produced ... settles a long-running empirical dispute" → "would tighten the bound"
+    §7 "All three outcomes are top-tier publishable" / §7.4 "Nature / Science tier" → "Each outcome would be informative"
+    §2.3 "the longest and densest continuous behavioral observation ... ever assembled" + "naturalistic ... minimally
+      distorted" → "a long and dense continuous record"; the platform's own rules shape what it records (this also
+      removed a self-contradiction with §1's critique of engagement-mediated platform data)
+    §2.4 "the cleanest physiological signal of contemplative practice ever proposed at scale: ... jhana attainment ...
+      leave distinctive respiratory signatures" → Wielgosz et al. 2016 (slower resting respiration, 31 vs 38);
+      jhāna signatures "an open empirical question"
+    §10 "1000× larger than the largest existing longitudinal cohort" → "about two hundred times the size of UK
+      Biobank (500,000 participants)" at TARGET scale
+    §11.2 "the most sensitive personal data combination ever proposed" / "civilizationally catastrophic" → "among the
+      most sensitive combinations ... a private institution could hold" / "severe and irreversible"
+    §12 "the largest natural experiment ... in history, by orders of magnitude" → "a design for a very large
+      observational study"
+    §4.5 "mathematically inert" / "The erasure is verifiable; ... cryptographic attestation that the erasure was
+      performed" → "computationally unrecoverable, provided the cipher holds and no copy of the key survives";
+      the attestation kept as disclosed but scoped: "the operator's statement, not a proof that no copy of the key
+      exists"; withdrawal does not reach published analyses or relatives' records
+  Remaining hits, each FINE: "first" = ordinals/"first opt-in"/"first-findings paper"/"First published"; "only" =
+    "give-only balance", "behavioral-observation layer only", "enters the cohort only on consent", "holds only if",
+    "not only in small samples"; "unique" = §6.1 "a unique label identifying a specific cosmic moment" (the
+    coordinate's definition, not priority) and "identify a person uniquely" (GDPR wording); "ever" = deCODE
+    "Icelanders who have ever lived".

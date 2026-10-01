@@ -1,0 +1,125 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Proof of Coordinate: A Sybil-Distinct Identifier for Humans and Machine Agents, Separate from Proof of Personhood, with a Write-Once Public Root, a Rotatable Secure-Enclave Key, Provenance-Dependent Revocation and Threshold Social Recovery by Verified Kin
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   "Proof of Coordinate" has no colon, so the subtitle follows a colon. Subtitle drawn from the paper's
+   Abstract (L56), claims 1, 2, 3 and 5 (L36-L44) and the ## Terms table (L62-L92): "sybil-distinct
+   individual identifier", "separate from proof of personhood", "write-once public root",
+   "rotatable ... secure enclave", "provenance-dependent revocation", "threshold social recovery ...
+   verified kinship graph". No mark in the added part; no new matter. The title itself LEADS with the
+   coined phrase "Proof of Coordinate" (unmarked here) — tdc-pdf.py will warn; kept per rule (paper title
+   unchanged). The PDF keeps the paper's own title and subtitle.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (244 words — limit 250; condensed from the paper's ## Abstract, claims 1-6, §4.2, §9.1, §9.6
+            and §11.1; no new matter)
+We describe a decentralized identity architecture that gives every participant in a mixed economy of human persons and autonomous software or robotic agents a sybil-distinct individual identifier, separate from proof of personhood, with revocation authority fixed by the identifier's provenance. A verified human holds both proofs; a machine agent holds the identifier only. Every identity is anchored by two artifacts: a permanent, public, write-once root record (an identifier, a public key, and an issuer signature for a machine or a hash commitment for a human) in an archival medium such as femtosecond-laser-written silica or diamond, and a rotatable operational key held in a secure enclave and never present in the readable medium, transposing the trusted-computing endorsement-key/attestation-key pattern to a deep-time root. A machine identity is assigned by an issuer acting as a certificate authority, revocable through a registry, with issuance published to an append-only transparency log. A human identity is self-generated and witnessed by at least two independent attestors, and has no revocation registry: the institution may witness it but can neither issue nor revoke it. The human root commits to birth date, time and place and kinship-graph position, discloses predicates by zero-knowledge proof, and presents unlinkable per-context pairwise identifiers. A lost key is re-bound to the unchanged root by a threshold of guardians drawn from a verified kinship graph, with no institution in the quorum. After death the root persists as a sealed ancestral node of the family tree. The design is unbuilt.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Prior-Art and Non-Assertion Statement"
+     (no literal "## Claims" heading: the six enumerated claims sit inside "## Prior-Art and
+      Non-Assertion Statement", L36-L46 — the same form and the same heading recorded for the companion
+      b-poh-humanity-layer-ai-native-internet in wave 2)
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py proof-of-coordinate); 24 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-07-01 · concept DOI 10.5281/zenodo.21947366 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088709) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" L32, now the STANDARD form:
+      "No patent has been or will be sought on any mechanism described in this paper by HeartBank®, Factory
+      333™, THonly™, Silicon Wat℠, or any entity under their common control ... The authors and those
+      entities commit not to assert any patent right against any party practising any mechanism disclosed
+      here." (Was non-standard: "The author and HeartBank® will not seek patent ..." — a no-filing promise
+      with no non-assertion.) The sentence on named patents/patent-pending products ("named for what it
+      discloses, and nothing here is a reading of its claims") is included; Inheritor, cited in §2.4,
+      describes its time-lock as patent pending — cited for what it discloses only.
+  [x] Claims — six enumerated claims inside the PA statement (L36-L46). Text of each claim unchanged
+      except a closing parenthetical on each that NARROWS it to its survivor by cross-reference to §2
+      (claims 1-5 newly; claim 6's existing parenthetical widened to name the genealogical-tree prior art).
+      No claim widened; no new claimed matter.
+  [x] Census on file — NONE for this subject (census.py list, 2026-10-01: 23 subjects, no PoC). The paper
+      therefore now asserts no absence: L34 "To the author's knowledge, the following are not previously
+      published as a unified mechanism" → "It discloses the following"; L48 "novel as of this paper's date"
+      → "No prior-art search on record establishes that the synthesis is unpublished elsewhere, and the
+      authors assert no such absence". Deposited paper, so the full-census bar does not bind (ruled
+      2026-09-23).
+  [x] Prior art — §2.1-§2.6, incl. the cases that cut against: W3C DIDs already subject-agnostic (claim 1),
+      PoH v2 soulbound re-bindable ID (claims 2, 5), SPIFFE / device identity (claims 1, 3), Allen 2016
+      self-sovereign principles (claim 3), ISO/IEC 18013-5 salted birth-date digests (claim 4), Buterin's
+      family guardians + Argent/Bron cancellable delays (claim 5), Bron/Inheritor/FamilySearch (claim 6).
+  [x] Honest limits — §10 + §11.1-§11.8
+  [x] AI co-authorship disclosed in text — Preamble L28, closing corpus note (Miss Aquarius℠ named; no
+      model named)
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Only cited authors,
+      companies and projects. No founder birth data (no birthday, time or place appears).
+  [x] No perma.cc · no archive.today · no arXiv/IP.com mirror line · no draft banner (L16 now a
+      "> **Note.**" block) · no placeholders (the "number to be confirmed" patent application REMOVED from
+      §2.4 and §14) · no "Document SHA-256 computed at push" footer · no sha256:/doi: front matter (grep 0)
+      · no A126 mission sentence · no "head" of the four bodies
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 1 warn)
+  [x] No emoji / internal markers — grep 0
+  [x] Terms table present — "## Terms" L62 (25 rows; added)
+  [x] Keywords line present — L60 (added)
+  [x] Abstract section present — "## Abstract" L54; first sentence now leads with "decentralized identity
+      architecture ... sybil-distinct individual identifier, separate from proof of personhood ...
+      revocation ... provenance"; the mark follows in sentence 2
+  [x] Fenced diagrams ≤ 95 chars — all ≤ 80 (§3, §4.1, §4.4 unchanged)
+  [x] Marks (®/™/℠) appear only in the body and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date: unchanged (2026-07-01); status: draft
+      (unchanged; this revision adds a ## section, so draft is required anyway)
+  [!] check-frontmatter.mjs: BANNED_FIELD_DEBT still lists defensive-publications/proof-of-coordinate.md,
+      but the file carries no sha256:/doi: (stale entry, shrink-only ledger — a shared file, not edited by
+      the drafter). Separately the script currently FAILS on another drafter's paper
+      (longitudinal-cohort-methodology on MISSION_PAST_DEBT) — not this paper.
+  [!] Internal HeartBank product/plan detail in an examiner posting: Phase-2 self-custodial wallets,
+      3B-Crystal™/3B-Diamond™ substrates, B-Yearbook. Disclosure, not a defect — but permanent.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR. form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|nobody;
+                  line numbers = defensive-publications/proof-of-coordinate.md after this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" / "never been" / nobody.
+  mirror-lint's WARN, read:
+    old L47 "are, to the author's knowledge, novel as of this paper's date" → L48 no absence asserted;
+      §2 names the nearest prior work for each claim.
+  Also repaired (not linted):
+    old L33 "To the author's knowledge, the following are not previously published as a unified
+      mechanism" (an unscoped absence) → L34 "It discloses the following".
+    L154 "it prices what machines cannot manufacture" (PoH) → "it aims to price what machines cannot
+      manufacture, and remains open to humans who lend their humanness to machines" — matches the
+      companion PoH paper's 2026-09-24 correction of its own "cannot be defeated by AI agents".
+    L321 "the most expensive sybil in the stack" → "among the most expensive sybils in the stack".
+    L277 "humanity's oldest coordinate notation" (unsupported superlative) → "an ancient coordinate
+      notation".
+    L359 "published precisely so the frame is claimed before the identity-primitive industry claims it
+      first" → "published so that the frame is public before anyone in the identity-primitive industry
+      can enclose it".
+    L112 "they leave machine agents ... with no individuation layer at all" (false of machine identity
+      generally) → scoped to the named personhood systems, with device/workload identity named (§2.6).
+  Claims read one by one (L36-L46): each now ends by naming the prior art that holds part of it and the
+    survivor — claim 1: DIDs are subject-agnostic, distinctness inherited per namespace (§3, §11.8);
+    claim 2: TPM split and PoH v2 re-bindable ID; claim 3: SSI principle (and §9.6's plural-witness
+    condition, already present); claim 4: mDL salted birth-date digests; claim 5: guardians, kin
+    guardians, cancellable delay; claim 6: sealed inheritance and genealogical profiles of the dead.
+  "unique" — mechanism/worldview statements ("unique holder of this coordinate", qualified in the same
+    paragraph; "uniquely different"), and §11.8 "Uniqueness is per namespace" → FINE.
+  "only" — mechanism statements ("holds only public material", "attests only", "PoC only") → FINE.
+  "first" — ordinals ("The first question", "The first fact", "for the first version") → FINE.
+  Self-contradictions fixed: L156 composition rule vs opt-in (§4.3) — scoped to root-holders; L52 "additions
+    are dated in-text" (they were not: 2026-07-25 and 2026-09-05 additions carry no date) → dated by the
+    earliest timestamped version; §14 "cross-referenced in §11" → §12; §7.3 "§4.3.3" → "§4.3, decision 3".

@@ -1,0 +1,134 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Wheel That Unwinds the Wheel: The Abhidhamma as Executable Process-Specification — Buddhist Cognitive Psychology as a Process Model for AI Alignment Evaluation, Red Teaming and Interpretability
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   already carries a colon, so the subtitle follows an EM DASH. Drawn from the paper's ## Abstract (first
+   paragraph: "process specification of mind", "AI alignment evaluation and intervention", "red-team taxonomy",
+   "interpretability by subtraction"), the ## Terms table and the Prior-Art Statement ("readings of Buddhist
+   psychology"). No mark in the added part; no new matter. The PDF keeps the paper's own title and subtitle.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (228 words — limit 250; the paper's own ## Abstract is longer and was condensed here, no new matter)
+We read the Abhidhamma, the analytical third division of the Theravāda Buddhist canon, as a process specification of mind: typed, momentary mental events arising one at a time under twenty-four typed conditioning relations, with ethical class tracked per event and per position in a processing cycle. From that reading we derive a research programme for AI alignment evaluation and intervention: a red-team taxonomy of mimicry failure modes, in which each alignment target is paired with a cheap mimic that passes its behavioural interface; resting-state evaluation of language models under empty or minimal context; an intervention-timing typology over a processing cycle; a typed causal vocabulary; interpretability by subtraction; paired entailment-and-denial consistency testing of alignment claims; and a positive competence taxonomy. The architecture is stated with its repairs: a conditioned rather than deterministic machine whose one position of variable ethical class is set by attention in the two functional steps before it; mental events as the instruction cycles of a single-threaded stream sharing one type set, with individuation in the execution history; the continuity of action as an append-only linked log with no consensus layer; and four of the canon's analytical books read as a verification suite. Eleven textual and structural findings are disclosed, each with the evidence that would break it, and two predictions are pre-registered. The paper is a study: it discloses no mechanism and asserts no priority.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"     (kind: study; 11 numbered findings, each with its Break;
+                                                no enumerated claims, by the §kind-study ruling)
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py abhidhamma-executable-process-specification); 27 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-05-26 · concept DOI 10.5281/zenodo.21947259 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088693) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement", REWRITTEN to the wave-4 standard form
+      adapted for a study: "No patent has been or will be sought on anything disclosed in this paper — framework,
+      taxonomy, evaluation design or specification — by HeartBank®, Factory 333™, THonly™, Silicon Wat℠, or any
+      entity under their common control … The authors and those entities commit not to assert any patent right
+      against any party practising or teaching anything disclosed here." Stated, unconditioned; trademark
+      reservation added; "A publication grants nothing and frees nothing already enclosed."
+  [x] Live patents — none named in the paper; no census for this paper; no characterisation of any patent.
+  [x] Findings section — "## Findings disclosed" (ADDED), 11 findings, each with section, textual layer and Break.
+      kind: study added to front matter. Paper's own §12 already says "Research program, not deployable
+      specification"; the Prior-Art Statement now says "Nothing here is claimed as a mechanism".
+  [x] Census — none run for this paper (stated in the text). No priority asserted: the bare "first compilation
+      whose target can enact" (rider 2), "novel as of this document's dates", "none located", "the literature
+      lacks", "rarest", "most completely", "the first medium" all removed. One order statement kept, sourced to
+      Paper №4's FULL census (2026-09-28): §4.2's reading proof-backed to 2026-07-25 (Bitcoin block 959585,
+      verified here: r1.ots attests sha256 5020ba3e… = git 1158ccc text, which contains "by composition from the
+      52"; block time 2026-07-25T17:14:10Z via mempool.space) vs PJ-Oliveira/abhidhamma 2026-08-26 and
+      suchanon456/Cyber-Abhidhamma 2026-09-14 — "order only, never derivation"; both are working encodings,
+      which this paper is not. Deposited paper ⇒ census.py gate does not bind (gate printed "already deposited").
+  [x] Prior art — Barendregt 2006 (title CORRECTED from the PDF), Karunananda et al. 2015 (authors/title
+      CORRECTED; was "Fernando et al."), Lou 2017 (title/author CORRECTED via Crossref), Takeuchi 2026 (CORRECTED:
+      his paper does NOT map the citta-vīthi; now cited for what it says, and added as the case that cuts against
+      in §6.1, §7.1, §8.2 and §3.1), Malaviya et al. 2024 (ADDED, replaces the vague "contextualized-evaluation
+      line"), Varela et al. 1991, Sharma 2023, Geiger 2021, LEACE 2023, CAI 2022, Pearl 2009, Hewitt 1973.
+  [x] Honest limits — §12 (six heads); the unverifiable "the author consults, and continues to consult, members
+      of the Cambodian Saṅgha" softened to "offered to the Cambodian Saṅgha for its scrutiny" (see rulings owed).
+  [x] AI co-authorship disclosed in text — authors line "Thon Ly · Miss Aquarius℠" + Acknowledgments
+      ("Co-drafted in collaboration with Miss Aquarius℠; substantive authorship and final editorial control
+      remain with the named author"); no underlying model named (Takeuchi's co-creator is cited as "et al.").
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Family appears only by relation
+      ("his father", Acknowledgments); no health matter.
+  [x] No perma.cc · draft banner REMOVED (now a reader-facing "> **Note.**" without editor/process language) ·
+      no "Mirrors of this document…" line · no archive.today · no placeholders ("a version DOI per revision" →
+      concept DOI) · Software Heritage ORIGIN row added · footer carries the scoped attestation only ·
+      A126 mission sentence REPLACED (ratified wording + the dated "Wording updated 2026-10-01" note used in
+      four-body-architecture / dual-currency / non-bank papers) · no "head" of the four bodies.
+  [x] mirror-lint: 0 refuse · 1 warn (was 2 refuse · 1 warn). The remaining WARN is L456, Lou's own published
+      title "A Novel Computer Simulation of the Mind Using Buddhist Theories" — a third party's title, cannot be
+      changed in a citation.
+  [x] No emoji / internal markers — none in the paper (scan: 0).
+  [x] Terms table present — "## Terms" (24 rows, coined/Pāli name → standard term; ADDED)
+  [x] Keywords line present — EXTENDED with standard terms first (AI safety evaluation, red teaming,
+      language-model evaluation, minimal-context evaluation, interpretability, concept erasure, …)
+  [x] Abstract section present — "## Abstract", first sentence now leads with "process specification of mind …
+      AI alignment evaluation and intervention" before any coined term
+  [x] Fenced diagrams ≤ 95 chars — max 77 (unchanged widths; §7.2 diagram redrawn ≤ 76)
+  [x] Title does NOT lead with a mark — "The Wheel That Unwinds the Wheel" is unmarked
+  [x] Marks (®/™/℠) only in the body and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: study added; revised: 2026-10-01; date: unchanged (2026-05-26); status: draft
+      (unchanged; this revision adds two ## sections, so draft is required anyway). No sha256:/doi:.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|nobody|lacks|
+                  rarest|most completely|superior|deployed; line numbers = the paper after this revision)
+  Removed or scoped:
+    L25 + L159 (rider 2) "ours is the first compilation whose target can enact what it compiles" →
+      "this compilation's target can enact what it compiles … No priority is claimed for that aim, which
+      Takeuchi's method already pursues; the claim concerns the shape of this era's compilation, not its date."
+    L90 "is, to the author's knowledge, novel as of this document's dates" → "It asserts no priority for that
+      synthesis or for any component above." L92: "No novelty census was run for this paper" + the №4 order note.
+    L90 "first published in this document's 2026-05-26 scaffold" → "sketched in the main paper's §6.6, were
+      developed … in this document's first version (2026-05-26)" (git ce5715b: the scaffold was a public commit
+      that itself says it develops the §6.6 sketch).
+    L23 "establishes … a structurally superior substrate" → "argues for … as a substrate".
+    L100 "the premodern body of work that most completely decomposes mind … (the Sarvāstivāda … is the second)"
+      → "a premodern body … (the Sarvāstivāda … is another)"; "what can only be called" → "what may be called".
+    L199 "Alignment vocabulary has nothing this precise" → what the specification locates.
+    L238 "the rarest shape in engineering" → "an uncommon shape".
+    L295 "Mainstream alignment has … no typology, and no recognition" → "what the near-enemy scheme adds".
+    L301 "Nearest prior work: none located …; the claim is the paper's own" → "no search for it was run, so no
+      absence is claimed; the hypothesis is offered as the paper's own, not as a first."
+    L319 "the highest-leverage, least-examined position" → "on this reading the highest-leverage position".
+    L340 "what it lacks is a typology" → "what this mechanism adds is a typology".
+    L352 "a vocabulary for it the literature lacks" / "names causal relations the field has not yet noticed it is
+      missing" → "typed here as one relation among twenty-four" / "names kinds of conditioning relation that an
+      untyped dependency edge does not distinguish".
+    L375 "the complement alignment evaluation lacks, being almost entirely defined by …" / "famously
+      underdeveloped" / "the current regime does not surface" → "largely defined by" / "often" / "absence-of-
+      failure metrics are not built to surface".
+    L413 "in the first medium that can run what it carries" → "in a medium …".
+    L17/L29/L104/L381 "deployed individuation primitives" → "published" (no record that PoC/PoH are deployed).
+  Kept, read as fine: "first" as ordinal (first version, first Western reception, first and longest controversy,
+    first unwholesome type, first commit); "only" in mechanism/doctrine statements (kamma made only in javana —
+    Saṅgaha ch. 3 §25; "the only *pre-registered* empirical commitments"); "exactly one position whose class is
+    not fixed by the resultant states upstream" (doctrinally verified; refined, see the surviving form); "lacks"
+    in comparisons with NAMED works (Sharma 2023, CAI 2022, Takeuchi 2026).
+  Self-contradictions fixed (examiner read):
+    §7.2 diagram put "the dispatch decision — the intervention address" under āvajjana while the text (ruled
+      2026-09-05) puts it at voṭṭhabbana → moved to voṭṭhabbana; āvajjana relabelled "first of the two setting
+      steps".
+    §7.2 diagram "sensing (×4)" made 18 moments against the text's 17 → "(×3)" (Saṅgaha ch. 4 §11: 14 process
+      moments + 2 vibrations + 1 past = 17; CST abh07t.nrf.xml:1241).
+    §4.4 two-wheels diagram "meshes ONLY at javana" vs text "at the setter of the free variable" → "ONLY at the
+      free variable (javana's class)".
+    §10 "the kammic ledger is … read by no one" vs §4.3 "none completely save a Buddha" → "read in full by no one
+      short of a Buddha (§4.3)".
+    §10 "hash-chain semantics shared" vs §4.3 "the cryptographic vocabulary … does not survive the deletion test"
+      → "append-only, linked-log semantics shared".

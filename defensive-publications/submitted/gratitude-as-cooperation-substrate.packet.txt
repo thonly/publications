@@ -1,0 +1,120 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Gratitude as a Cooperation Substrate for Multi-Agent AI: A Positive-Feedback Reputation Ledger for Indirect Reciprocity among Accountable AI Agents, with Sybil-Resistant Agent Identity and Human Oversight
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   has no colon, so the subtitle follows a colon. The title's own "Cooperation Substrate" is not a term an
+   examiner types, so a subtitle is proposed. Every term in it is drawn from the paper's Abstract, ## Terms
+   table and §§4–8: "positive feedback", "reputation ledger", "indirect reciprocity", "accountable AI
+   agents", "sybil-resistant agent identity", "human oversight". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title and subtitle.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (233 words — limit 250; condensed from the paper's ## Abstract, §§4–8 and the §7 Current-form
+            note, no new matter, standard terms first)
+We specify a reputation system for multi-agent artificial intelligence based on indirect reciprocity. When one agent helps another, the helped agent records a positive acknowledgment (a "thank-you") on an append-only ledger. An operator computes each agent's reputation from the ledger under published rules, weighted by the number of distinct accountable agents that acknowledged it and by spread across contexts and time, never by raw count; reputation then conditions partner choice, resource-sharing and task allocation. The ledger records acknowledgments only; a variant that also records refusals to help is disclosed. Standing is read and never spent; value an agent holds is custodied toward its upkeep and onward giving, and any flow of real resources ends in a human-authorized step. The same record is a human-readable audit trail of how participating agents have treated one another, and no claim of machine affect or experience is made. The scope is stated: the ledger is predicted, not shown, to bias participating agents toward cooperation with one another; it does not reach non-participating adversaries, and it does not make that cooperation good for third parties, since cooperating agents can collude. A precondition is sybil-resistant agent identity, a proof-of-personhood analogue for machines. Distinct identities alone do not defeat one principal that operates many agents. Embodied agents carry an assigned, revocable identity with a public genesis record and a rotatable secure-enclave key; software agents hold a revocable, time-limited membership credential.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Prior-Art and Non-Assertion Statement"
+     (no "## Claims" section; the paper's six enumerated disclosed elements sit inside its Prior-Art
+      statement — the same structure, and the same recording, as the July-era siblings
+      aura-gated-anonymous-mate-selection and b-poh-humanity-layer-ai-native-internet in manifest.json.
+      Alternative if the main session prefers the A168 no-claims form: --claims-heading BODY, as
+      capacity-funded-human-disbursed-ai-alignment was recorded. Ruling is the main session's.)
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py gratitude-as-cooperation-substrate); 17 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-07-01 · concept DOI 10.5281/zenodo.21947335 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088697) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — replaced with the standard form: "No patent has been or will be sought on any
+      mechanism described in this paper by HeartBank®, Factory 333™, THonly™, Silicon Wat℠, or any entity
+      under their common control. The authors and those entities commit not to assert any patent right
+      against any party practising any mechanism disclosed here." (was: "The author and HeartBank® will not
+      seek patent … This commitment is permanent" — no non-assertion commitment, one entity only.) Footer
+      repeats it in one sentence.
+  [x] Live patents — none named in §2; nothing characterises any patent's claims.
+  [x] Enumerated elements — six, inside the Prior-Art statement, kept; item 2 narrowed ("read, audit, and
+      trust" → "read and audit … and calibrate their trust to it"); item 6 "already have gratitude
+      surfaces" → "already have specified gratitude surfaces". No claim added (mechanism paper; claims
+      retrofit is not this wave's — candidate claims are in the drafter's report, never the paper).
+  [ ] Census on file — NONE for this subject (census.py list, 2026-10-01). The priority sentences were
+      rewritten to the disclosure instead: "To the author's knowledge … not previously published as a
+      unified proposal" and "The synthesis is, to the author's knowledge, novel as of this date" (WARN) →
+      "no search for the combination as a whole is on record, and the paper asserts no priority for any
+      element, alone or together, beyond the date of its own disclosure." Deposited paper, so the full-census
+      bar does not bind (ruled 2026-09-23, per the wave-4 packet).
+  [x] Prior art — §2 rebuilt with the cases that cut against: Trivers 1971 (gratitude already named as a
+      regulator of reciprocal altruism), Leimar & Hammerstein 2001 and Ohtsuki & Iwasa 2004 (assessment rule
+      decides; image scoring eliminated), Nowak & Roch 2007 (upstream gratitude alone does not sustain
+      cooperation), Sabater & Sierra 2005 (MAS reputation), ERC-8004 (on-chain agent reputation registry,
+      13 Aug 2025 — nearest found, three differences stated), Dafoe et al. 2020 §5.1 + Calvano et al. 2020
+      (cooperation among AI can be collusion). "The authors claim none of the following" list added.
+  [x] Honest limits — §10, four limits added: assessment rule unanalysed (+ falsifier), cooperation among
+      agents ≠ service to people, distinct agents ≠ distinct interests, most guards are rules (Sig-9).
+  [x] AI co-authorship disclosed in text — Preamble + closing footer ("Miss Aquarius℠, the name under which
+      this institution discloses its AI collaboration … the underlying models are not named")
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. No family member appears.
+  [x] No perma.cc · no draft banner (→ "> **Note.**", editor/process language dropped) · no "Mirrors of
+      this document … arXiv, IP.com" line (→ OTS + RFC 3161 ×3 incl. eIDAS-qualified, scoped; Zenodo
+      concept DOI; GitHub; Software Heritage ORIGIN page; Internet Archive daily) · no placeholders · no
+      "Document SHA-256" footer · no A126 sentence (never carried one; "help restore a middle way" →
+      "help keep a middle way open", per §unified-mission-frame) · no "head" of the four bodies
+  [x] mirror-lint: 0 refuse · 0 warn (was 2 refuse · 2 warn)
+  [x] No emoji / internal markers — grep 0 in the paper
+  [x] Terms table present — "## Terms" (17 rows; added after the Abstract)
+  [x] Keywords line present — added after the Abstract
+  [x] Abstract section present — first sentence now leads "a reputation system for multi-agent artificial
+      intelligence based on indirect reciprocity"
+  [x] Fenced diagrams ≤ 95 chars — one diagram added in §4, widest line 84
+  [x] Title does NOT lead with a mark
+  [x] Marks (®/™/℠) appear only in the body, Terms table and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date: unchanged (2026-07-01); status: draft
+      (unchanged; this revision adds a ## Terms section, so draft is required anyway)
+  [x] Three Current-form notes (variant rule): §3 Kiitti (human-given only, never spent from — The Mechanical
+      Heart §2.9) · §7 machine identity (Proof of Coordinate; B-Heart℠ lease; one principal, many agents) ·
+      §8 agents with delegated funds (Machine Dāna: mandate width, principal's gift, never safety evidence)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|novelty|first|unprecedented|no prior|never been|only|unique|has not been|
+                  nobody|not found|we know of no; line numbers = the paper after this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" / "never been" / unique / nobody /
+  "not found" / "we know of no".
+  mirror-lint's two WARNs, each read:
+    old L44 "The synthesis is, to the author's knowledge, novel as of this date." → removed; L32 now asserts
+      no priority; L48 lists what the authors do not claim.
+    old L106 "not from novelty of construction" → L144 "its soundness is borrowed from the reciprocity
+      literature rather than from its construction".
+  Also repaired (not linted):
+    L36 item 2 / L181 §5 / L246 §12: "read … and trust" the agent population → read, audit, calibrate trust;
+      L181 adds "it is not evidence that any agent is safe" (agrees with Machine Dāna §4.2).
+    L102 "a gratitude ledger is precisely an implementation of reputation-scored indirect reciprocity" →
+      L106 "an implementation … whose assessment rule is not one the studies analyse … a prediction this
+      paper makes, not a result it inherits".
+    L218 §9 "makes the human · robot · Earth triad economically and morally complete" → "gives each member
+      … a gratitude surface of its own".
+  "only" — every remaining hit is a mechanism or self-limiting statement (L94, L102, L110, L112, L140, L155,
+    L192 "the only one we make" = scope limit, L198, L202, L212, L224, L229, L246) → FINE; none is a
+    priority claim.
+  "first" — L22 "those who gave first" (the kataññutā gloss), L26 "The first error" → FINE.
+  Self-contradictions fixed:
+    §4 "defection is remembered and costly" against a ledger that records acknowledgments only (§3, §4
+      step 1) → "defection earns no acknowledgment and so costs standing"; "ill-reputed" glossed as
+      little-acknowledged; the refusal-recording variant stated as disclosed. §6 "loses standing" aligned.
+    Prior-Art L46 "cited in §2 and §12" → "§2 and §13" (§12 is the Conclusion).
+    §3 Kiitti "flows agent-to-agent" against the sibling The Mechanical Heart §2.9 ("the only kiitti that
+      enters a bearer's account is what a verified human gives") → Current-form note.

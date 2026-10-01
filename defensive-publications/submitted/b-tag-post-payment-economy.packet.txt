@@ -1,0 +1,120 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The B-Tag and the Post-Payment Economy: A Voluntary-Tip Architecture for AI-Mediated Commercial Gratitude — Pay-What-You-Want Payment Through Product QR/NFC Tags, AI-Recommended Amounts and Restricted-Purpose Giving Accounts
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   already carries a colon, so the subtitle follows an EM DASH. Subtitle drawn from the paper's Abstract
+   (first paragraph) and ## Terms table: "pay-what-you-want", "QR-code or NFC tag", "AI pricing
+   recommendation / recommended amount", "restricted-purpose (earmarked) account". No mark in the added
+   part; no new matter. The PDF keeps the paper's own title.)
+  ⚠ tdc-pdf.py WARNS that the paper's title LEADS with a coined mark ("The B-Tag …"). The title is kept as
+    the brief requires; a retitle is PROPOSED under rulings owed in the drafter's report, not made.
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250; condensed from the paper's ## Abstract, §5–§7 and the Current-form notes,
+            no new matter, standard terms first)
+We disclose a pay-what-you-want (voluntary, post-purchase payment) retail architecture. A QR-code or NFC tag on a product, service or stall opens a payment page on which an AI agent recommends a payment amount with stated reasons. The amount is computed from the goods' side only — the item, the merchant's cost disclosure (never shown to the customer), comparable regional prices and a merchant-viability floor — and never from anything identifying the payer; the request appears after the customer holds the goods and is never pre-filled. Any amount, including zero, may be paid, and every interaction issues a non-monetary gratitude record to the merchant and a second record class to the product itself. Each user holds an unrestricted account and a restricted-purpose account whose balance its owner can give only to a nearby person's unrestricted account, never to another restricted account. An AI-operated fund may credit restricted accounts anonymously, indistinguishably from human donors, but cannot pay any individual directly: a user-triggered reward is split 50/50 between the user's two accounts, and a payment from a restricted account is split 50/50 into the recipient's two, so every payment reaching a person is initiated by a human. The fund empties annually, between 25 December and 7 January. In a later phase, settlement is stablecoin on an Ethereum layer-2 blockchain, so small payments are not consumed by fixed card fees. A self-serve API issues tag links only on conformance to a published standard, enforced by revocable certification rather than an access fee.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading BODY     (kind: mechanism with NO enumerated-claims section; per the wave-6 brief §3 no
+                             claims are added in this wave — A168 records such a paper by its body. Candidate
+                             claims for a later founder-ruled retrofit are listed in the drafter's report,
+                             never in the paper.)
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py b-tag-post-payment-economy); 38 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-05-08 · concept DOI 10.5281/zenodo.21947281 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088694) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" (ADDED, standard wave-4 form, L17–L25):
+      "No patent has been or will be sought on any mechanism described in this paper by HeartBank®, Factory 333™,
+      THonly™, Silicon Wat℠, or any entity under their common control. The authors and those entities commit not
+      to assert any patent right against any party practising any mechanism disclosed here." The original License
+      commitment ("will not seek patent … This commitment is permanent") is kept.
+  [x] Live patents — none named in the paper; nothing reads any patent's claims.
+  [x] Claims section — NONE (mechanism paper without enumerated claims; BODY). Not added in this wave.
+  [x] Census on file — none for this paper; the Prior-Art statement says so in terms ("No census was run for
+      this paper … Nothing in this paper asserts that any element of it is new") and reports the two neighbouring
+      desk surveys on record (2026-09-08 dynamic pricing, 3 US-index queries; 2026-09-06 AI capacity-funding,
+      8 queries) only for what they FOUND (prior art), never as a clearance.
+  [x] Prior art — §3 now carries the cases that cut against: Kim, Natter & Spann (2009) field results (paid
+      prices > 0; revenue rose in some settings); Der Wiener Deewan (Vienna, PWYW since 2005; Kim et al. 2010);
+      Karma Kitchen covering its costs by its own account; Jung et al. (2014) pay-it-forward > PWYW. §9.3 names
+      charity gift cards (TisBest, since 2007) and donor-advised funds as the nearest prior forms.
+  [x] Honest limits — §13 (13.1–13.9), unchanged in substance; §13.9 gains the two-number current form.
+  [x] AI co-authorship disclosed in text — authors line, §1 ("I write as a co-author with Miss Aquarius"),
+      Acknowledgments, and the License paragraph ("the underlying models are not named"). The References
+      entry "Anthropic. Claude API Documentation" — which named the model vendor against the paper's own
+      Acknowledgments and claimed an implementation that does not exist — is REMOVED.
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. No family relation in text.
+  [x] No perma.cc · no draft banner · no "Mirrors of this document…" line · no [pending] venue lines · no
+      archive.today claim (Internet Archive + Software Heritage ORIGIN page named, L817ff.) · no false arXiv/IP.com
+      claim (never carried one) · no "Document SHA-256 computed at push" footer · no sha256:/doi: front matter
+  [x] A126 mission sentence REPLACED (L82) with the ratified sentence + the dated-update parenthetical used in
+      wave-5 papers. ⚠ CI: scripts/check-frontmatter.mjs MISSION_PAST_DEBT still lists this file — CI FAILS
+      until the main session removes "defensive-publications/b-tag-post-payment-economy.md" from that list
+      in the same commit (shared file; the drafter may not edit it).
+  [x] mirror-lint: 0 refuse · 0 warn (was 4 refuse · 2 warn)
+  [x] No emoji / internal markers — grep 0 (⭐ ⚠ ⛔ ✅ ❌ 🔒 ⏳); no Khmer-script characters (the riel sign was
+      written as "riel")
+  [x] Terms table present — "## Terms" (26 rows; added)
+  [x] Keywords line present — expanded to standard terms (28)
+  [x] Abstract leads with standard terms — "pay-what-you-want (voluntary, post-purchase payment) retail
+      architecture … QR-code or NFC tag … AI agent that recommends a payment amount with stated reasons …"
+  [x] Fenced diagrams ≤ 95 chars — §8.6.3 redrawn (was 130 wide → 94); §8.6.5 redrawn (was 132 → 91)
+  [ ] Title leads with a coined mark — KEPT per brief; retitle proposed under rulings owed
+  [x] Marks appear only in body/footer; none in the added TDCommons subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date: unchanged (2026-05-08); status: draft
+      (unchanged); venue: corrected to the canonical URL (the heartbank.net mirror is retired and 301s to it)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|nobody|categorical|new;
+                  line numbers = defensive-publications/b-tag-post-payment-economy.md after this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" / "never been" / nobody.
+  mirror-lint's two WARNs, each read:
+    old L114 "a structurally novel third category" → L167 "a third position … It is not the first sign to stand
+      there: 'pay what you can', 'by donation' and 'suggested donation' signs occupy the same ground".
+    old L449 "a structurally novel economic primitive … the architecture's distinctive contribution" → L529
+      "an economic primitive … its nearest prior forms are named in §9.3".
+  Also repaired (not linted):
+    old L474 "a third category that older mechanism-design literature does not contemplate" (an unscoped
+      absence) → L556 nearest prior forms named (charity gift cards, TisBest 2007; donor-advised funds); "no
+      claim is made that the composition is unattested".
+    old L81 "The strong-form claim: … it is a categorical advance over it" → L132 "a different mechanism … The
+      claim is about the conditions, not the outcome … no deployment has yet answered (§13)".
+    old L92 "each prior experiment failed" (Radiohead and suggested-tip POS are in the table as successes) →
+      L143 "each prior case lacked at least one of the three structural levers — including the cases that
+      succeeded on other terms … not a claim that it will succeed where they did not".
+    old L71 "Pure voluntary-tipping fails for non-luxury sellers … The merchant goes bankrupt" → L120 "Where
+      pure voluntary payment has failed … It is not a law" (the paper's own reference, Kim et al. 2009,
+      contradicted the unscoped form).
+    old L641 "The architecture survives … together resolve the failure modes" → L735 "is designed to survive …
+      address the conditions … Whether they change the outcome is untested (§13)".
+    old L130 "long-arc but real" → L183 "long-arc and untested".
+    old L380 "a signal no existing commercial mark carries" → L447 "a signal that the commercial marks it is
+      compared with here (Fair Trade, B Corp) do not"; heading "A new market class" → "A market class";
+      "a new market class of product-as-gift" → "a proposed market class".
+    old L443 "certification … is its only real control" → L523 "its principal control".
+    old L285 / L486 "Most autonomous-AI proposals …" → "Autonomous-AI proposals commonly …"; "This is a
+      meaningful contribution" → "This is offered as a contribution".
+    old L468 "a propagating wave … that compounds" — arithmetic error (each 50/50 re-thank passes on half) →
+      L548 "does not compound … at most its own value again in onward giving".
+    L179 the quality-selection claim ("no one tips garbage") now marked as the paper's hypothesis, not a result.
+  "only" — mechanism statements (restricted accounts, owner-only disbursement, channel rules) → FINE. One
+    became stale against current canon: §7.2.2 "the *only* direct disbursement … to a personal wallet" — the
+    current four-channel rule adds a second human-triggered path; the §7.2.3 Current-form note says so (L321).
+  "first" — ordinals and "first publication" → FINE. "unique" — "unique B-Tag link", "unique coordinate" → FINE.

@@ -1,0 +1,129 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Manufactured Universal Giving: Composing Anonymous Proximity Giving, AI Capacity-Funding, and Forced Annual Human-to-Human Flow-Through — Autonomously Funded Give-Only Balances, Anonymous Proximity Payments, and Annual Expiry with Reclaim
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   already carries a colon, so the subtitle follows an EM DASH (ruling 2026-09-24). Subtitle drawn from the
+   paper's Abstract (L25), the ## Terms table (L29-L59: "give-only balance", "restricted gift balance",
+   "anonymous peer-to-peer payment between verified, physically co-present users", "annual expiry",
+   "sweep ... back to the pooled fund") and §3.3's Current form note (L300). No mark in the added part; no new
+   matter. The PDF keeps the paper's own title. Headline Style: "with" lower-case as a short preposition.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (245 words — limit 250; the paper's own ## Abstract is longer and was condensed here, no new matter)
+A payment-system design is specified in which an autonomous, rule-governed fund places money into every verified user's non-withdrawable, give-only balance (a restricted-use balance that can only be given to another person) without ever selecting a payee. Users give from that balance anonymously to verified people physically near them, verified per action by passkey and Bluetooth or ultra-wideband proximity, one at a time or to everyone present in one action. Every give-only balance, and the fund, empties on a fixed annual date (7 January): unspent value is reclaimed to the fund, and the user's own withdrawable account is never touched, so the funded balance has no use except a gift chosen by one person for another. The paper decomposes the capacity to give into means, occasion and safe channel, and identifies the annual expiry, attached to funded capacity, as the component that makes giving universal; whether everyone in fact gives is stated as a hypothesis, tested by whether giving persists as incentive payments taper toward zero. An incentive split between spendable and give-only balances is the on-ramp, and the overjustification (motivation crowding-out) objection is met with four structural responses and an acknowledged residual. An extension funds giving in kind: the fund issues item-level gift vouchers that their first holder can only pass on, credits the consenting shop owner's give-only balance at the posted price, and selects shop and holder by a sealed, recomputable random draw. Donor anonymity removes the creditor that social pressure to give requires.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading BODY     (kind: mechanism, but the paper has NO enumerated-claims section; recorded by its
+                             body per the A168 ruling. A claims retrofit is NOT made in this wave — the
+                             2026-09-23 reconciliation row names this paper: its next CLAIM change triggers a
+                             quick /novelty census. Candidate claims are listed in the drafter's report only.
+                             The nearest thing to a claims list is §7 "The relationship to prior protection"
+                             (a)-(f), L445; it is prose, not a ## heading.)
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py manufactured-universal-giving); 27 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-06-24 · concept DOI 10.5281/zenodo.21947349 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088706) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" L65 now carries the standard form:
+      "No patent has been or will be sought, in any jurisdiction, on any mechanism or pattern described in this
+      paper by HeartBank®, Factory 333™, THonly™, Silicon Wat℠, or any entity under their common control. The
+      authors and those entities commit not to assert any patent right against any party practising any
+      mechanism disclosed here." (was: "will not seek patent ... in any jurisdiction, at any time" — no
+      assertion commitment). Closing footer L521 repeats it.
+  [x] Live patents — none named in this paper; nothing characterises any patent's claims.
+  [ ] Claims section — NONE (mechanism paper; see CLAIMS HEADING). Not added in this wave by rule.
+  [x] Census on file — the 2026-09-06 desk survey of the in-kind extension, tabulated L73-L82 (aperture, date,
+      every KILLED/NARROWED conjunct, survivor). No census on the four-primitive whole; the paper now says so
+      and asserts no priority for it (L25, L69). Deposited paper: `census.py gate` → "already deposited ... not
+      retrofitted" (exit 0).
+  [x] Prior art — L71-L82 + §6.1, incl. the cases that cut against: the e-CNY lotteries (contrast case), TisBest
+      give-only cards (killed leg d), and, added this revision, zakat al-fitr as the nearest prior practice for
+      a dated, near-universal giving obligation (L71, citation [18]).
+  [x] Honest limits — §7 (L439-L449), myth-free; plus §3.1 scope note (L282) and §6.4 unresolved trap.
+  [x] AI co-authorship disclosed in text — authors line; Note L15 ("Co-drafted with Miss Aquarius℠, the name
+      under which this institution discloses AI collaboration (the underlying models are not named)"); footer L521.
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Family references are BY
+      RELATION only ("one founding family (the first author's own relatives ...)" L441; "the founding family" /
+      "a family shop" / "a family member" L447); no minor with a relation; nothing about anyone's health.
+      ⚠ The roadmap's 2026-09-19 shortlist lists this paper among 13 "HELD from the mirror pending the founder's
+      read against the privacy warranty"; the 2026-09-24 ruling ("father BY RELATION may stand") and 2026-09-29
+      appear to cover it — CONFIRM at /publish §mirror.
+  [x] No perma.cc · no draft banner (L14 "Draft notes for the editor" → "> **Note.**" L15, editor language
+      removed, co-authorship disclosure kept) · no "Mirrors of this document…" line · no archive.today line ·
+      no placeholders · no "Document SHA-256 computed at push" footer (footer now carries the scoped attestation
+      line, L521) · no A126 mission sentence · no "head" of the four bodies.
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 1 warn)
+  [x] No emoji / internal markers — two ⚠️ removed (§5.3.1, §6.4); grep ⭐⚠️⛔✅❌ → 0.
+  [x] No internal shorthand — "MA-granted principal" (§5.3.1 fence) → "AI-granted principal"; internal
+      open-problem numbers (#7, #9, #11) replaced by plain statements (L433-L434).
+  [x] Terms table present — "## Terms" L29 (25 rows; added)
+  [x] Keywords line present — rewritten L27 to lead with standard terms, coined terms after
+  [x] Abstract section present — "## Abstract" L23; first sentence now leads with "payment-system design ...
+      autonomous, rule-governed fund ... non-withdrawable, give-only balance ... restricted-use balance"
+  [x] Fenced diagrams ≤ 95 chars — widest is 81 (L159); pipe tables render as wrapped HTML tables
+  [x] Title does NOT lead with a mark — "Manufactured Universal Giving" is unmarked
+  [x] Marks (®/™/℠) appear only in the body and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date: unchanged (2026-06-24); status: draft
+      (unchanged; this revision adds a ## section, Terms, so draft is required anyway); no sha256:/doi:.
+  [x] Site module (hand-authored; generator "0 module(s) written") edited by hand: ids +terms, none removed;
+      doi.org 1 → 1; every markdown word present in the module.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|nobody|
+                  knowledge|not previously; line numbers = defensive-publications/manufactured-universal-giving.md
+                  after this revision)
+  No occurrence of novel / novelty / unprecedented / unique / "never been" / "no prior" / "not previously" /
+    "to the authors' knowledge".
+  mirror-lint's one WARN, read:
+    old L245 "The novelty being protected is the recognition that the second is the universalizer" → L284
+      "The matter disclosed is the recognition that the second is the universalizer *when it is attached to
+      funded capacity* ...; a dated giving obligation on its own is older practice, named in the Prior-Art
+      statement."
+  Repaired, not linted (the lint's regex cannot see them):
+    old L22 Abstract "The integrated composition, to the authors' knowledge, is not previously published as a
+      unified mechanism" (an unscoped absence; no census on the whole exists) → L25 "No census was run on the
+      four-primitive composition as a whole, and no priority is asserted for it: it is disclosed so that it
+      stands as prior art." The in-kind sentence is now scoped: "(eight queries, 6 September 2026) ... did not
+      find their composition in its aperture".
+    old L34 Prior-Art "To the authors' knowledge, the integrated specification ... is not previously published"
+      → L69 "What is and is not asserted. ... disclosed here as a unified mechanism ... No prior-art census was
+      run on that four-primitive composition as a whole, and the authors assert no priority for it".
+    old L295 "The carrot is the first ethically-distributable, universally-scalable trigger" (a priority claim;
+      counterexamples: paid participants in gratitude-intervention studies, workplace wellness incentives) →
+      L338 "an ethically-distributable, universally-scalable trigger".
+    "everyone does" / "makes everyone act" / "converts ... into universal practice" (Abstract, Prior-Art, §2.1,
+      §3.1, §4.1, §7, §8) contradicted the paper's own §3.3 (a non-giver's balance simply reclaims) and §6.3.1
+      ("The lapse compels nothing") — scoped by the note "What the obligation binds" L282: the universality of
+      the PRACTICE is the behavioural hypothesis of §5-§6; the mechanism guarantees the funded capacity and the
+      absence of any other use for it. L280 "there is only the path through another human's hands" → "..., or
+      back to the Pool at the boundary (§3.3)"; L288 "every participant has had to pass what they hold to another
+      human" → "everything every participant was given to give has either passed to another human or returned
+      to the Pool".
+  "not found" — L25 and L82, each scoped to the census's aperture and date. L78 "NOT FOUND outside the authors'
+    own prior art" — the census row as run.
+  "only" — mechanism statements ("only outflow", "only choice of recipient anywhere in the chain", "claimed only
+    as a composition", "the only value the Pool moves on its own initiative") → FINE; none is a priority claim.
+  "first" — ordinals and "first holder" / "first data point" / "the first author" → FINE.
+  Self-contradictions fixed: §3.3 "a design parameter, not a settled invariant" vs §2.4 step 7 "reclaims to the
+    Pool ... with no exception" → Current form note L300 (reclaim now specified; auto-distribute excluded; the
+    withdrawable account never reset). §4.3 "Miss Aquarius is funded by per-transaction fees" vs current canon
+    → Current form note L324 (settlement fee sized to infrastructure cost, never a share of a gift; the Pool takes
+    nothing from giving or trade). Abstract "the institutional pools ... their only outflow is a human-chosen
+    gift" (false of the Pool, whose outflow is capacity-funding) → "the institutional pools and the
+    participants' give-only balances empty on January 7, a balance's only outflow being a human-chosen gift".

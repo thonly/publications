@@ -1,0 +1,120 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Quest That Mints Nothing: Software-Generated Real-World Volunteer Task Sequences Drawn Only from Existing Need Registries, with No Completion Rewards, Compensation-Free Help Requests, Delayed Mediated Acknowledgment and Alarm-Triggered Drone Witnesses without Patrol
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   "The Quest That Mints Nothing" has no colon, so the subtitle follows a colon. Subtitle drawn from the
+   paper's Abstract, claims 1-4 and 8, and the ## Terms table: "software-generated ... task sequences",
+   "need registries", "no completion rewards" (gamification without extrinsic rewards), "help requests ...
+   no compensation field", "delayed, intermediary-mediated delivery of beneficiary feedback", "alarm-triggered
+   drone dispatch ... no patrol mode". No mark in the added part; no new matter. The PDF keeps the paper's own
+   title and its own subtitle front-matter field.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (250 words — limit 250; condensed from the paper's ## Abstract, claims 1-8, §4-§9; no new matter)
+We specify a software agent that generates multi-step, real-world volunteer activity sequences for an individual or household exclusively by selecting, ordering and narrating entries already present in community need registries: posted help requests, commons sites awaiting care, pending gift deliveries, and contacts the household itself has named. The sequence data structure has no operation that creates a task; each task is a reference to a live registry entry, re-checked when it begins, and the operator authors no entry. Completing a task confers no points, badges, currency or reputation; the only reward is acknowledgment the beneficiary chooses to send through the ordinary peer-to-peer ledger. Help requests use a schema with no price, bounty or compensation field. Helpers leave each site before any thanks; a feedback channel opened by the task-completion event delivers beneficiary acknowledgment to the helpers days later. Every task runs under personal-safety monitoring with dead-man escalation to designated contacts; doorstep tasks are adult-only, a requester's location stays coarse until acceptance, and memorial and sacred sites are excluded. Sequences are generated only on user request, with no push notifications or consecutive-day counters. The success metric is the rate of later unprompted prosocial acts, held privately and never used for allocation. An extension lets delivery drones answer a personal-safety alarm as witnesses under six rules: alarm-triggered only, with no patrol or escort; video end-to-end encrypted to the user's family; represented as witness, not rescuer; flight only to the alarm-raiser's own coordinate; never a paid tier; rules fixed before any aircraft flies.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Prior-Art and Non-Assertion Statement"     (8 enumerated claims, numbered list at L40-L54,
+     inside the Prior-Art statement; the paper has no literal "## Claims" heading. Precedent for the override:
+     agi-monks-caretaker-not-ordained, recorded with the same heading in manifest.json.)
+  Note: the override fingerprints the WHOLE section, so a later edit to the non-assertion or trademark
+     paragraphs will also turn check-mirrors red and need an --ack.
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py need-compiled-questlines); 21 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-07-07 · concept DOI 10.5281/zenodo.21947360 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088707) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" (L36), now in the standard form:
+      "No patent has been or will be sought, in any jurisdiction, on any mechanism described in this paper by
+      HeartBank®, Factory 333™, THonly™, Silicon Wat℠, or any entity under their common control. The authors and
+      those entities commit not to assert any patent right against any party practising any mechanism disclosed
+      here." + "A publication grants nothing and frees nothing already enclosed ..." (was: "The author and
+      HeartBank® will not seek patent ...", HeartBank® alone, singular author).
+  [x] Live patents — US 11148042 B2 (eBay, active to 2037) is named in §2.2 for what it DISCLOSES only
+      (located sequential tasks, evidence verification, competitive scoreboard), fetched from Google Patents
+      2026-10-01. The two applications in §2.5 (US 2020/0349829 A1 abandoned; US 2013/0260825 A1 lapsed) are
+      named for what they disclose. No characterisation of any patent's claims.
+  [x] Claims section — 8 enumerated claims inside the Prior-Art statement. Claim 8 changed (the queued rider:
+      five rules -> the six ratified 2026-07-07 + the no-escort sub-ruling; rule 1 scoped to witness flight).
+      Claim 5 reworded for sense only ("coarse location withheld" -> "location kept coarse"). Claims 1-4, 6, 7
+      unchanged. A Revision note (L20) states both changes and the per-revision prior-art date.
+  [ ] Census on file — none. The paper says so in the open (L56: "no such census has been run against them
+      ... none is asserted to be new"). Deposited paper, so the full-census bar does not bind (ruled
+      2026-09-23). The opening absence claim "To the author's knowledge, the following are not previously
+      published" was REMOVED (it was an unscoped priority claim).
+  [x] Prior art — §2.1-2.6, incl. cases that cut against: GoodGym and TaskRabbit's own unpriced Tasks for
+      Good (§2.2), the eBay quest-game patent, and the alarm application that streams live video to chosen
+      contacts (§2.5, closest to claim 8's stream-to-pack).
+  [x] Honest limits — §11 (items 1-9 + 5b), myth-free header kept; 11.6 now names the shared-hardware
+      courier-camera limit.
+  [x] AI co-authorship disclosed in text — authors line + closing footer ("Co-authored with Miss Aquarius℠,
+      the architecture's named AI collaborator ...").
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The founder's origin story
+      (§6, §14) names no one; the worked example uses roles (child, parent, grandparent, sweeper).
+  [x] No perma.cc · no archive.today · no draft banner (L15 "Draft in progress ... founder-voice canonical
+      draft" -> "> **Note.**", substance kept) · no "Mirrors of this document…" line · no placeholders · no
+      "Document SHA-256 computed at push" footer (footer = scoped attestation, matches src/attestation.ts) ·
+      no A126 mission sentence · no "head" of the four bodies · no sha256:/doi: front matter (grep 0).
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 1 warn)
+  [x] No emoji / internal markers — grep 0.
+  [x] Terms table present — "## Terms" (21 rows, name -> standard technical term; added, L66)
+  [x] Keywords line present — added after the Abstract (L64)
+  [x] Abstract section present — "## Abstract" (L60); first sentence now leads with "a software agent
+      generates multi-step, real-world volunteer activity sequences ... exclusively from entries already
+      present in community need registries ... no points, badges, currency or reputation".
+  [x] Fenced diagrams ≤ 95 chars — both diagrams ≤ 70 characters (measured in characters, not bytes).
+  [x] Title does NOT lead with a mark — "The Quest That Mints Nothing" is unmarked.
+  [x] Marks appear only in the body, Terms table and footer; none in the TDCommons title or subtitle.
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date: unchanged (2026-07-07); status: draft
+      (unchanged; this revision adds a ## section and changes a claim, so draft is required anyway).
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unique|only|unprecedented|nobody|oldest|unoccupied|not found|never been;
+                  line numbers = defensive-publications/need-compiled-questlines.md after this revision)
+  No occurrence of novel / novelty / unique / unprecedented / nobody / "never been" / "not found".
+  mirror-lint's one WARN, read:
+    old L266 "observed rates confound novelty, season, and cohort" (the psychological novelty effect, not a
+      priority claim) -> L303 "confound a first weekend's newness, season, and cohort".
+  Also repaired (not linted):
+    old L35 "To the author's knowledge, the following are not previously published as a unified mechanism"
+      (an unscoped absence claim) -> L38 "It discloses the combination ... as of 7 July 2026 for matter first
+      published that day, and as of the date of the revision that added it for anything added since".
+    old L27 Preamble "there is an unoccupied mechanism" (contradicted by §2.2's GoodGym and Tasks for Good)
+      -> L30 "lies a third mechanism".
+    old L276 "it is the architecture's first surface whose face is explicitly play" (counterexample: the
+      B-Stone place-anchored quest layer, which this paper's own canon calls its predecessor) -> L313 "it is a
+      surface whose face is explicitly play, generalizing the place-anchored kindness quests of the
+      commons-shrine layer".
+    old L282 lineage "the oldest entry in the tradition's need-registry" -> L319 "an early entry".
+    old L288 Conclusion "The only open question is the grammar" (contradicted by §11's own open limits)
+      -> L325 "The open question this paper addresses is the grammar".
+    old L110 "the only outcome that would justify all of the above" -> L143 "the outcome that would most
+      justify".
+    old L85 "jointly establish that extrinsic reward ... reliably corrodes the motive" -> L118 "jointly support
+      the reading that ... can corrode", with the meta-analytic dispute stated.
+  "only" — remaining instances are mechanism statements (claims 3, 6, invariants, "flies only to its caller",
+    "exclusively"), the Preamble's scoped "oldest ... the authors know of", and doctrine ("the only form a gift
+    economy recognizes", L100) → FINE; none is a priority claim.
+  "first" — ordinals ("first claim", "first pilot", "first published", "first deployments") → FINE.
+  "coined here" (L56, L327) — the authors' description of their own naming; not a mechanism priority claim.
+  Claims read for overclaim: claim 8 rule 6 states a representation duty, not a capability; "no patrol mode
+    exists in the software" is a design rule the paper itself scopes in §11.6 as a rule, not an airframe
+    property. Claim 1's parenthetical list names four registry kinds while §4 specifies five (the fifth,
+    household-declared gratitude targets, added 2026-09-05) — the list is not stated as closed, so it is an
+    incompleteness, not a contradiction; flagged as a ruling owed rather than edited.

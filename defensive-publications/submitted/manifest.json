@@ -12,6 +12,20 @@
       "body_sha256": "71d1deb9cc7c4b39090f0b310b72272fe4ea2c9507b7156b33a32e3e4b5b286a"
     },
     {
+      "slug": "abhidhamma-executable-process-specification",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "abhidhamma-executable-process-specification.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "25202e312ad123ce4f6cb5736ba3ab671be3c7a3935860be0c776d814483accf",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "ee17b80b55e48a1250544e2577aaf547ef75d11b9b88a2b5ac1b0584fbb980d0"
+    },
+    {
       "slug": "agi-monks-caretaker-not-ordained",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
@@ -132,6 +146,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "b-tag-post-payment-economy",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "b-tag-post-payment-economy.pdf",
+      "claims_headings": [
+        "BODY"
+      ],
+      "claims_sha256": "e71fb8a5fdc1425bc09529516f6798c9a14419c003fe610352df7eae9060355c",
+      "claims_heading_override": [
+        "BODY"
+      ],
+      "body_sha256": "01257ea0b77c3b06f5135a3a7072cc19714ae4716b1cbf330aa96de761673b5c"
     },
     {
       "slug": "buddha-ai-living-tipitaka",
@@ -390,6 +418,20 @@
       "body_sha256": "80cfe3600e350d7bb32a63556cc9fdeb1e69bdb812c195f2416b7483b0a8a6b5"
     },
     {
+      "slug": "gratitude-as-cooperation-substrate",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "gratitude-as-cooperation-substrate.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "0f5e99a97b60bce22f7d0fd0c1840bff243162cb4e747898f1aec634bdd80b92",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "080c903e3d025803c1a013919174111ee845ba904a17c715060ac2bb8a2fa6e9"
+    },
+    {
       "slug": "gratitude-riding-currency-tag",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-23",
@@ -413,6 +455,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "incommensurability-preserving-coupler",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "incommensurability-preserving-coupler.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "812e23d8310191a2fa5f7a0a7fa767e51434a873d5eeb9c5eb3d080e36ff5c8e",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "b140e8f0380f4610015d4b7177f315f0ef4bd3820c318f9b8472dbd7f1583ac2"
     },
     {
       "slug": "inverted-alms-round",
@@ -440,6 +496,20 @@
       }
     },
     {
+      "slug": "longitudinal-cohort-methodology",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "longitudinal-cohort-methodology.pdf",
+      "claims_headings": [
+        "BODY"
+      ],
+      "claims_sha256": "d018b96e6628b04a028f2236d071b6856d78df810581300eb21166bd7b454b71",
+      "claims_heading_override": [
+        "BODY"
+      ],
+      "body_sha256": "4130187e8d81adf6a5f2ddbbeb424f5fb29ecdf36aa9f9d708f489414db10d93"
+    },
+    {
       "slug": "machine-dana-from-share-to-vow",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-29",
@@ -463,6 +533,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "manufactured-universal-giving",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "manufactured-universal-giving.pdf",
+      "claims_headings": [
+        "BODY"
+      ],
+      "claims_sha256": "f360a1fdec945ecd55122c89a35579783cd6c22a6de08ddb84ee61cf5671bf52",
+      "claims_heading_override": [
+        "BODY"
+      ],
+      "body_sha256": "b24f107faa181b73f3b90f15cfb6a0e7618a7cff5e86066723fc278dd521cb7e"
     },
     {
       "slug": "mechanical-heart",
@@ -537,6 +621,20 @@
       }
     },
     {
+      "slug": "need-compiled-questlines",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "need-compiled-questlines.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "d8c6ffda197d29bf921098f370f95b2cea16dc0e46e0939facf07c6ac2cf944e",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "aa6f01c4aaa18ac633beb9b093493d1e60a2eae4652012ea7b805101d77598fc"
+    },
+    {
       "slug": "non-bank-pass-through-architecture-autonomous-ai",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-29",
@@ -560,6 +658,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "proof-of-coordinate",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "proof-of-coordinate.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "69150daba081d75f83d438d9d2a3a2b72b44450aed7dbc871317593b9f601a7d",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "2dd393aba65fbaaa30d44b43473fee7810f06a83678762ad4d2830137dcd7bfe"
     },
     {
       "slug": "provenance-carrying-retrieval",
@@ -652,6 +764,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "safety-companion-pack-watch",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "safety-companion-pack-watch.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "369f5bf59613b413ffb73067b5e12c340d1c943bdcbd85525f231f494699f2c6",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "7d64efcfd19ed8572e341820e9752677e738486298254cd72ec1fb4d485d223c"
     },
     {
       "slug": "silica-wat-food-network",
@@ -1083,6 +1209,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "voluntary-relinquishment-third-path",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "voluntary-relinquishment-third-path.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "de840842bd3fef8253985b7f8143b3e644e226211bf9f48701c7de36f9db0729",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "ff63715739b1dce7ec7c2a7e896dc1891fdaa0e77e370c26cee091f5129c5b99"
     },
     {
       "slug": "what-a-vow-must-cost",

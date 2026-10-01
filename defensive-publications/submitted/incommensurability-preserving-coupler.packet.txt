@@ -1,0 +1,128 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Incommensurability-Preserving Coupler: Coupling Money Gifts and Expiring Time Credits in One Dual-Currency System Through an Automated Intermediary, with No Exchange Rate, Quantity-Blind Amount Recommendation, No Solicitation at Redemption and Operator-Set Reference Amounts
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   "The Incommensurability-Preserving Coupler" has no colon, so the subtitle follows a colon. Subtitle drawn
+   from the paper's Abstract (first sentence), Claims 1-5 and the ## Terms table: "money gifts", "expiring
+   time credit", "dual-currency system", "automated intermediary", "no exchange rate", "quantity-blind ...
+   recommendation", "no ... solicitation at ... redemption", "reference amount set by the operator". No mark in
+   the added part; no new matter. The paper's own title: and subtitle: are unchanged (on Zenodo, the site and
+   the PDF cover). The coined title "Incommensurability-Preserving Coupler" is not a term an examiner would
+   type, which is why the subtitle carries the standard terms.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250; condensed from the paper's ## Abstract, §§2-9, no new matter, standard terms first)
+We specify a dual-currency gift system in which a fungible currency (peer-to-peer money gifts) and a non-transferable, expiring time currency (pledged hours of one person's time) run as one economy with no exchange rate, currency conversion or redemption window between them. An automated intermediary agent mediates every cross-currency flow under five rules: suggested money amounts are computed with no time-quantity input; no money gift is solicited at the moment a pledged hour is redeemed, and no prompt points back into the pair; interfaces name the occasion of a time gift and never display its quantity; reference amounts are small units set only by the intermediary, sized with regard to their anchoring effect; and the two currencies connect only through a free, optional new gift that settles nothing. On expiry of an unredeemed pledge, the pledger may direct an anonymous gift from a common fund to a verified nearby person, with no meeting; the lapsed hour is never valued. The paper argues that the intermediary role cannot be held by a party with economic interests, which would leak rate information, could be paid to bend the rules, or would drift toward monetizing what they withhold; rules-versus-discretion and trusted-third-party arguments are named as precedents. Prior art includes crowding-out and repugnant-market studies, time banking, game currencies with restricted conversion, and the Terra/Luna mint-and-burn collapse as anti-example. Limits: the system governs only its own surfaces; neutrality is an alignment claim; whether fixed constants could replace the intermediary's remaining discretion is left open.
+
+CLAIMS HEADING (for check-mirrors --record) — the seven claims are ENUMERATED in the Prior-Art statement and
+  --claims-heading "## Prior-Art and Non-Assertion Statement"
+  NOTHING in this paper (tested 2026-10-01: claim_sections() → []), so name all three, exactly:
+  --claims-heading "## Prior-Art and Non-Assertion Statement" \
+  --claims-heading "## 4 · The coupler role" \
+  --claims-heading "## 5 · The mechanisms, each with the failure it prevents"
+  (fingerprint with these three, tested on the working tree 2026-10-01: 6255d8ce34a611c0…; precedent for
+   naming the specification sections too: certification-by-circulation.packet.txt. If the main session
+   prefers the narrow record, the Prior-Art heading alone also resolves.)
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py incommensurability-preserving-coupler); 15 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-07-05 · concept DOI 10.5281/zenodo.21947340 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088704) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" L32, REPLACED with the standard form
+      (was "The author and HeartBank® will not seek patent … This commitment is permanent." — no commitment not
+      to ASSERT): "No patent has been or will be sought on any mechanism described in this paper by HeartBank®,
+      Factory 333™, THonly™, Silicon Wat℠, or any entity under their common control. The authors and those
+      entities commit not to assert any patent right against any party practising any mechanism disclosed here."
+  [x] Live patents — NEWLY NAMED this revision, for what they DISCLOSE only (§2.3 L110; §10 L226), with the
+      standard sentence "nothing here is a reading of their claims": US 10,181,127 B2 (Zynga, priority 2011,
+      active to 2033) and US 2021/0065505 A1 (Aristocrat, priority 2019; granted US 11,227,466 B2; continuation
+      US 12,136,316 B2, active). Each abstract was fetched from Google Patents 2026-10-01. ⚠ RULING OWED: they
+      replace an unsourced "the design space is heavily patented"; the main session decides whether naming two
+      live patents needs a legal row before the venue.
+  [x] Claims section — seven enumerated claims in the Prior-Art statement (L36-L48), text of claims 1-7
+      UNCHANGED. A "Current form" note follows them (L52) pointing to the five places the current design
+      differs; no claim added, none narrowed in its own text.
+  [x] Census on file — NONE for this paper (census.py list: no entry). The paper now asserts no priority:
+      L34 "No prior-art census has been run against these claims and none is asserted to be new"; L50 "no
+      priority is asserted beyond the date of this disclosure". Deposited paper: the full-census bar does not bind.
+  [x] Prior art — §2.1-§2.5, incl. the cases that cut against: crowding-out contested in Titmuss's own domain
+      (Mellström & Johannesson 2008; Lacetera, Macis & Slonim 2013) — added; US 10,181,127 B2 as close kin to
+      claim 1 — added; §2.5 precedents for the keeper argument (Kydland & Prescott 1977; Szabo 2001; Nakamoto
+      2008) — added, and §9 L218 carries where they cut against it.
+  [x] Honest limits — §9 (n = 0 scoped to first publication + status since; neutrality dependency; NEW open
+      question against §6; scope; language discipline)
+  [x] AI co-authorship disclosed in text — authors line + closing footer L236 ("the consistent name under which
+      this institution discloses AI collaboration (the underlying models are not named)")
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. No family member, no minor,
+      no health matter anywhere in the paper.
+  [x] No perma.cc · no archive.today · no arXiv/IP.com · no draft banner · no "Mirrors of this document…" line ·
+      no placeholders · no "Document SHA-256 computed at push" footer · no A126 mission sentence · no "head"
+      of the four bodies (grep 0 each)
+  [x] mirror-lint: 0 refuse · 0 warn (was 3 refuse · 1 warn)
+  [x] No emoji / internal markers — ⭐ ⚠️ ⛔ ✅ grep 0
+  [x] Terms table present — "## Terms" (15 rows, coined name → standard term; ADDED, L66-L86)
+  [x] Keywords line present — ADDED after the Abstract (L64)
+  [x] Abstract section present — "## Abstract", first sentence now leads with "dual-currency gift system …
+      fungible currency … non-transferable, expiring time currency … no exchange rate, currency conversion,
+      or redemption window … automated intermediary agent"
+  [x] Fenced diagrams ≤ 95 chars — the one diagram (§3) is 69 characters wide
+  [x] Title does NOT lead with a mark — "The Incommensurability-Preserving Coupler" is unmarked
+  [x] Marks (®/™/℠) appear only in the body and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date: unchanged (2026-07-05); status: draft
+      (unchanged; this revision adds ## Terms, so draft is required anyway); no sha256:/doi:
+  [x] Evidence-of-date line (L56) states only what is held: OTS→Bitcoin + RFC 3161 ×3 (one eIDAS-qualified),
+      scoped ("nothing about authorship, originality, or the validity of any claim"); Zenodo concept DOI;
+      GitHub; Software Heritage by its ORIGIN page; the Internet Archive capturing the site daily.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|novelty|first|unique|unprecedented|nobody|no prior|never been|only;
+                  line numbers = defensive-publications/incommensurability-preserving-coupler.md after this revision)
+  Removed (priority claims, no census on record):
+    old L32 "To the author's knowledge, the following are not previously published as a unified mechanism"
+      → L34 "No prior-art census has been run against these claims and none is asserted to be new".
+    old L48 (mirror-lint WARN) "are, to the author's knowledge, novel as of this paper's date"
+      → L50 "is what this document discloses and claims; no priority is asserted beyond the date of this disclosure".
+    old L56 Abstract "to our knowledge, the first institutional role for an autonomous agent argued from economic
+      necessity" → L60 "an argument for … from economic necessity … its shape has precedents in the
+      rules-versus-discretion and trusted-third-party literatures (§2.5)". KILLED by the counterexample hunt:
+      Kydland & Prescott 1977; Szabo 2001; Nakamoto 2008.
+    old L150 §6 "to our knowledge, the first argument for seating an AI …" → L188, same repair, points to §2.5/§9.
+    old L188 §11 "the first seat in economic history that had to be given to something that is not an economic
+      agent" → L230 "this seat had to be given to something that is not an economic agent" (the wager kept as
+      the institution holds it; the priority removed).
+  Scoped (self-contradiction with the paper's own §7/§9):
+    "making exchange-rate formation structurally impossible" (Preamble L26, Abstract L60) → "inside it" / "inside
+      the system", with the outside-the-system limit pointed to (§7, §9).
+    "the empirical record shows that wherever … eventually eats" → "the record surveyed in §2 points one way …
+      tends to eat" (L26; Abstract L60 "suggests … tend to").
+    §2.1 "the record converges on one finding" → "a strong strand … holds", with the contrary field evidence added.
+    §11 "the behavioral record says … the market record says" → "suggests".
+  Remaining "only"/"first" — all mechanism statements or ordinals, none a priority claim:
+    L36 "spendable only by its pledger" · L60/L230 "closes only through response" / "response-only coupling" ·
+    L92 "only the pledger can spend" · L114 "the only question is whether the anchor is set blindly or well"
+    (a consequence of the anchoring premise, not a priority claim) · L190 "if and only if" · L206 "settlement
+    only through self-custodial wallets", "the only key" · L16 "first disclosed in synthesis", "the first of
+    them" · L60/L214 "at first publication" · L210 "If the first two hold".
+  Not found: novel / novelty / unique / unprecedented / nobody / "no prior" / "never been" (grep 0).
+  Factual corrections a lint cannot see (each in the report with its source): Titmuss's study described as the
+    comparison it was; Gneezy & Rustichini "no reduction followed" (their abstract's words); Zelizer's "blood
+    money" (unsupported) → her own subtitle/chapters; the time-dollar tax sentence (the paper's reason was not
+    the one Cahn gives); "the design space is heavily patented" → two named patents; agentic-payments "generating
+    patent filings at the exact intersection" → "in the authors' assessment"; "is legal in most places" removed;
+    the regulator paragraph's rails corrected to the two-phase record-never-rail form; companion titles corrected.

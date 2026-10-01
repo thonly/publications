@@ -1,0 +1,144 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Freedom Requirement: Voluntary Relinquishment as the Third Path, and the Micro-Scale of the Self-Eliminating Institution — Individual-Scale Success Metrics for Incentive-Subsidized Voluntary Giving, Motivation Crowding-Out, and Expiry of Designated-Purpose Giving Funds
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   already carries a colon, so the subtitle follows an EM DASH. Subtitle drawn from the paper's ## Abstract,
+   Keywords line, ## Terms table and Findings 1, 3 and 7: "success metric", "incentive subsidy", "voluntary
+   giving", "motivation crowding-out", "designated-purpose fund", "fund expiry". No mark in the added part;
+   no new matter. The PDF keeps the paper's own title.)
+  ⚠ RULING OWED on the paper's own title (not changed here): "…the Micro-Scale of the Self-Eliminating
+   INSTITUTION" now sits against the paper's §3 current-form note ("'Self-eliminating' in this paper names
+   the objective, not the institution") and against canon (release is of responsibility, never of oversight;
+   the override never reaches zero). Proposed: "…the Micro-Scale of the Self-Eliminating Objective". If ruled
+   before submission, the venue title follows it.
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (244 words — limit 250; condensed from the paper's ## Abstract, ## Findings disclosed 1–8, §7's
+            current-form note and §9.7; no new matter)
+This study concerns how an organization that subsidizes voluntary giving with incentive payments, including one run by an autonomous AI agent, can measure success without Goodhart's-law gaming. A population-scale gauge reads success as the elasticity of giving to the subsidy: how far the subsidy can be withdrawn while giving persists. The study gives its individual-scale form as three jointly necessary account signals: a rising fraction of surplus routed into giving channels, no outflow back to oneself, and a retained balance falling toward zero. Read as a level, throughput ranks participants by wealth; the scale-free signals do not. The central argument is that this limit cannot be produced by coercion. A transfer the organization executes on a holding involves no act of giving; where pressure precedes a gift, the ledger cannot show whether the choice was free; and motivation-crowding evidence, contested at its boundaries, indicates that compulsion and payment tend to erode the disposition to give. The Buddhist analysis of volition (cetanā, AN 6.63) supports this in a narrower form: its commentary counts consciousness arising under command as wholesome, with prompting, so compulsion can neither supply the volition nor certify it. The host society must therefore leave the disposal of holdings free. A voluntary-circulation layer, distinct from coerced redistribution and from pure accumulation, supplies giving channels and a private, self-facing report, never a public ranking. Designated giving balances may expire by rule on terms accepted at receipt; a personal account is never emptied by rule.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"     (kind: study — 9 numbered FINDINGS, no claims)
+  ⚠ The override is REQUIRED: "## Findings disclosed" does not match check-mirrors.py's CLAIM_HEADING regex,
+    and with no override the auto-detection finds NO section (tested 2026-10-01: auto → none; override →
+    fingerprint over 793 words). The heading is unnumbered so census.py's "^## Findings disclosed" scan sees it.
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py voluntary-relinquishment-third-path); 18 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-06-11 · concept DOI 10.5281/zenodo.21947436 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088721) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" L19–27, now in the standard form:
+      "No patent has been or will be sought on anything described in this paper by HeartBank®, Factory 333™,
+      THonly™, Silicon Wat℠, or any entity under their common control. The authors and those entities commit
+      not to assert any patent right against any party practising anything disclosed here." (was: "The author
+      and HeartBank® will not seek patent on this specification…" — non-standard, singular, no non-assertion
+      against practisers). The 2026-08-29 history kept as a plain dated "> **Note.**" (L27), ⚠️ removed.
+      NB the 8/29 finding for THIS paper was TRUE, not a false positive: git show 57207c1^ has no patent
+      commitment anywhere in the file (the false-positive class of 9/02 was six other papers with a footer).
+  [x] Live patents — none named; the paper discloses no mechanism and characterises no patent's claims.
+  [x] kind: study — front matter L5; "## Findings disclosed" L67, 9 findings, each with "Breaks if:"; placed
+      after Abstract/Keywords/Terms (the-borrowable-standard layout: Prior-Art precedes the Abstract here).
+  [x] Census — none on file; deposited (zenodo.21947436), so census.py gate reports "not retrofitted";
+      priority-phrase scan of Findings + Prior-Art = [] (control string → ['We know of no', 'novel']). The one
+      absence claim ("a position … that neither pole names") was reworded to cite the nearest prior work
+      (Nozick's entitlement theory; Carnegie 1889) and assert no absence.
+  [x] Prior art — Mauss, Titmuss, Polanyi, Deci & Ryan, Frey & Oberholzer-Gee, Frey & Jegen, Gneezy &
+      Rustichini, Aristotle, Kant, AN 6.63, Rawls, Nozick, Sen (kept); ADDED, incl. the cases that cut against:
+      Mellström & Johannesson 2008 and Lacetera, Macis & Slonim 2013 (qualify Titmuss), Andreoni 1990 (was in
+      References but uncited), Carnegie 1889 (voluntary giving inside the liberty pole), Giddens 1998 (the
+      "Third Way" name collision), Banerjee et al. 2015 (graduation = objectives that end their own necessity),
+      Soares et al. 2015 and Hadfield-Menell et al. 2017 (corrigibility / off-switch), and the Atthasālinī on
+      Dhs §146 + the Abhidhammāvatāra (the counterexample to the paper's own Buddhist leg, §9.7).
+  [x] Honest limits — §9.1–§9.7 (9.7 added: the Buddhist leg narrowed), myth-free
+  [x] AI co-authorship disclosed in text — authors line + Acknowledgments ("Written by Thon Ly with Miss
+      Aquarius℠, the consistent name under which this institution discloses AI collaboration and a co-author
+      of this paper; the underlying models are not named") — replaces "the institution's named AI substrate;
+      substantive authorship and final editorial control remain with the named author".
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Named persons are published
+      authors or historical figures. The pilot is "a single small pilot family (n = 1)", no relation, no names.
+      The Abhidhammāvatāra's "young children who give when their relatives tell them to" is a canonical example,
+      not a person.
+  [x] No perma.cc · no archive.today · no draft banner (kept as "> **Note.**", editor/process language removed)
+      · no "Mirrors of this document…" line · no arXiv line (the "arXiv (deferred) … target if reactive trigger"
+      line removed) · no placeholders · no "Document SHA-256" footer · no A126 mission sentence ("HeartBank's
+      mission is the restoration of the conditions for awakening" → the ratified wording, attributed) · no
+      "head" of the four bodies (none present)
+  [x] Cross-venue: Canonical · GitHub · Zenodo concept DOI · Internet Archive (site, daily) · Software Heritage
+      by ORIGIN page (no snapshot ID) · OTS + RFC 3161 ×3 (one eIDAS-qualified), scoped
+  [x] mirror-lint: 0 refuse · 0 warn (was 2 refuse · 0 warn)
+  [x] No emoji / internal markers — 0 (was 1: ⚠️ in the Prior-Art section)
+  [x] Terms table present — "## Terms" L41 (17 rows, added)
+  [x] Keywords line present — L35, expanded to standard terms (was 11 terms, mostly coined/Pāli)
+  [x] Abstract leads with standard terms — "An organization that subsidizes prosocial behavior with incentive
+      payments … success-metric problem … (Goodhart's law)"
+  [x] Fenced diagrams ≤ 95 chars — max 86
+  [x] Title does NOT lead with a mark — "The Freedom Requirement" is unmarked
+  [x] Marks (®/™/℠) only in the body, Terms and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: study added; revised: 2026-10-01; date: unchanged (2026-06-11); status: draft
+      (unchanged; this revision adds ## Terms and ## Findings disclosed, so draft is required anyway)
+  [x] Pāli read through the tipitaka tools (control PASS; passage ±15; verify VERIFIED on each):
+      AN 6.63 s0403m2.mul.xml:2620 [mūla] · MN 56 §69 s0202m.mul.xml:771 [mūla] · SN 56.11
+      s0305m.mul.xml:9929 [mūla] · Dhs §146 abh01m.mul.xml:2225 [mūla] · Atthasālinī on §146
+      abh01a.att.xml:5461 [aṭṭhakathā, commentator's own voice, no reported view] · Abhidhammāvatāra
+      abh06t.nrf.xml:365 [other]
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|nobody|neither pole;
+                  line numbers = defensive-publications/voluntary-relinquishment-third-path.md after this revision)
+  No occurrence of novel / unprecedented / unique / "no prior" / "never been" / nobody. "novelty" appears only
+    in "No novelty census has been run" (L25, L69).
+  The counterexample hunt (step 2b) found the case against the paper's own Buddhist leg, and it held:
+    old §2 "A gift extracted under compulsion carries the transfer without the cetanā" and old §5 "leaving the
+    interior fact … absent", "it destroys the thing measured", §6 table "voids the cetanā", §10 "pushing
+    destroys what it pushes toward" — against the Atthasālinī on Dhs §146 (abh01a.att.xml:5461), which counts
+    the consciousness of one "made to do it by rebuke alone — 'come, do this!'" as KUSALA (sasaṅkhārika), and
+    the Abhidhammāvatāra (abh06t.nrf.xml:365), which puts giving "urged by others" in the same prompted class.
+    → narrowed in place (§2 L101, §5 L149, §6 L157/L163, §10 L213) and carried as §9.7 (L207).
+  Other repairs:
+    old L55 "a position … that neither pole names" (unscoped absence) → L103 cites Nozick + Carnegie, asserts none.
+    old L115 "the voluntary-circulation layer a free-accumulation order structurally lacks" → L167 "a
+      voluntary-circulation layer for a free-accumulation order — the valve such an order leaves to private
+      conscience and to its charitable sector" (charities and foundations exist in free orders).
+    old L39 "the only question that ultimately matters" → L87 "the question that matters most".
+    old L43 "the relinquishment only virtuous, where the relinquishment was free" → L91 "the institution can only
+      cultivate the relinquishment by leaving it free (§5 and §9.7 state how much …)".
+    old L157 "the only success a bodhisattva-shaped institution can coherently want" → L213 "the success …".
+    old L125 "evidence the freedom requirement is structural" → L177 "consistent with …; a design and a principle
+      from the same hands can show consistency, not independent confirmation".
+    old L141 "the institution's own deepest finding" (n = 1 pilot) → L195 "central commitment".
+    old L155 "will increasingly have" (a forecast stated as fact) → L211 "are likely to have".
+  "only" — remaining uses are normative design rules (L151 "only legitimate moves", L179 #68's rule), scoped
+    definitions (L33/L155 "the free choice not to accumulate is virtuous, and measurable, only where
+    accumulation was freely available" — a free choice exists only where the option did; kept, read against
+    §9.7), or plain restriction ("only as far as", "analogue only"). "first" — ordinals and "first published".
+  Self-contradictions / canon conflicts fixed:
+    §4 L141 "the wordmark … (value circulates, the record does not accumulate)" vs STANDING's wordmark
+      (Bank = record ACCUMULATES, Heart = value circulates) → corrected.
+    §4 L141 "the participant playing the infinite balance game" (money balance) vs the Zero-Point Game's own
+      §8 "two layers": its balances are NON-MONETARY → "a money-side analogue … an analogue only".
+    §4 diagram "the saint, in this accounting" vs §3's own calibration (the gauge reads the foundation, not the
+      summit) → "the limit, in this accounting".
+    §3 "subsidy → 0" as the test → "> **Current form.**" L115 (k → 1, M/(H+M) → 0; a bare absolute
+      subsidy → 0 retired 2026-09-15; release of responsibility never of oversight; never self-certified).
+    §7 "depositing … is itself the free act" → "> **Current form.**" L179 (terms accepted at RECEIPT, #68).
+    Mission paragraph: "HeartBank's mission is the restoration of the conditions for awakening" (the retired
+      "restore" frame, A126) → ratified wording; "The middle way is between the coerced and the purchased"
+      (misstates SN 56.11) → the canon's two extremes stated, the shape borrowed, nothing more claimed.
+    "The companion work proposes …" (a paper that does not exist) ×4 → the two published statements
+      (Two Singularities §VI; B-Tag §13.9) + "full empirical development … not yet published".

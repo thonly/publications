@@ -1,0 +1,147 @@
+TDCOMMONS SUBMISSION PACKET — wave 6 (A232) — FINAL (built and read 2026-10-01; awaiting the founder\'s named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Companion That Notices: A Personal Safety App with Agent-Initiated Journey Monitoring, a Serverless Dead-Man's Switch Run on Family Members' Devices, Duress Cancellation, Event-Triggered Release of Encrypted Location History, and Anonymous Gift Delivery with a Reply Channel
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   "The Companion That Notices" has no colon, so the subtitle follows a colon. Subtitle drawn from the
+   paper's Abstract (first sentence, as revised), claims 1-5 and 7, and the ## Terms table: "personal-safety
+   mobile application", "journey monitoring", "dead man's switch", "family devices", "duress code",
+   "event-triggered release", "encrypted short location history", "anonymous gift delivery with a
+   recipient-to-sender reply channel". No mark in the added part; no new matter. Claim 6 (on-device location
+   minimisation) is left out of the title only for length; it leads sentence (6) of the abstract.
+   The PDF keeps the paper's own title and subtitle.)
+  ⚠ The paper's own front-matter SUBTITLE ends "so that a safety product structurally cannot become a
+   surveillance product" — kept unchanged per the brief; a softer wording is PROPOSED under rulings owed in
+   the drafter's report. It does not enter the venue title.
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (245 words — limit 250; the paper's own ## Abstract is ~520 words and was condensed here, no new matter)
+We specify a personal-safety mobile application designed to be hard to repurpose as a surveillance tool. (1) An on-device software agent detects that its user has begun a trip, asks the destination, derives a route corridor and arrival window, and escalates through a graded ladder (query, visible cancel window, alert) on wide divergence or non-arrival. (2) The trip envelope is replicated end-to-end encrypted to designated family devices, each independently running the deadline timer and expecting a signed heartbeat with no location; deadline expiry or heartbeat loss raises the alarm on those devices, so destroying or jamming the phone triggers the alarm, with no server holding the clock or a key. (3) A duress code cancels visibly while still alerting the contacts. (4) Opt-in volunteers verified by proof of personhood may receive a nearby SOS; responses are logged, and a responder receives only a coarse position until accepted. (5) A short rolling window of raw location history is held by the contacts as ciphertext and released, under a directive the user wrote in advance, only on an alarm event plus a threshold of contacts. (6) Raw location expires on schedule; each day is summarised on the device into a coarse, owner-erasable list of places; a guardian receives alarms but never this history. (7) An anonymous gift delivery withholds the sender from the recipient, keeps the sender accountable to the system, enforces the recipient's blocks against the sender's true identity, and carries the recipient's optional thanks back.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Prior-Art and Non-Assertion Statement"
+      (7 enumerated claims, numbered 1-7, sit INSIDE the Prior-Art statement and are cited as "claim 1" ..
+       "claim 7" through §2-§12; there is no separate claims heading. Same form and same override as the
+       wave-1 records for aura-gated-anonymous-mate-selection, gift-tag-time-reveal and
+       b-poh-humanity-layer-ai-native-internet in manifest.json. The section also carries the non-assertion,
+       the "Cases that cut against" paragraph, the marks list and the held-record line, so any later edit
+       to those will read as a claims change — the safe side.)
+
+FILE       BUILT 2026-10-01 from the repo after the chain (python3 scripts/tdc-pdf.py safety-companion-pack-watch); 23 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 · disclosedAt the canonical page — read back.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-07-04 · concept DOI 10.5281/zenodo.21947377 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23088714) · scoped timestamp line · CC0. Word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present and now in the STANDARD form — "## Prior-Art and Non-Assertion Statement":
+      "No patent has been or will be sought on any mechanism described in this paper by HeartBank®, Factory
+      333™, THonly™, Silicon Wat℠, or any entity under their common control, in any jurisdiction, at any time.
+      The authors and those entities commit not to assert any patent right against any party practising any
+      mechanism disclosed here." Was: "The author and HeartBank® will not seek patent ..." — which bound only
+      HeartBank®, though the physical courier (B-Dog™) is a Factory 333™ product. Widened, never narrowed.
+      Adds "A publication grants nothing and frees nothing already enclosed."
+  [x] Live patents — none named in the paper; no characterisation of any patent's claims anywhere.
+  [x] Claims — 7 enumerated inside the Prior-Art statement. Claims 1, 4, 5 reworded (no new matter) to state
+      their guards at the width §4/§6/§7/§11 support; the lead-in "To the author's knowledge, the following
+      are not previously published as a unified mechanism" replaced (it contradicted the same section's
+      "none is asserted to be new"). A dated note records the rewording (L56).
+  [x] Census — none on file; the paper says so (L54) and the brief's no-census-binds-a-deposited-paper rule
+      applies. A second DESK review this revision (not pre-registered) added three cut-against ancestors,
+      reported in the Prior-Art statement (L56) and §2.1-§2.2: Apple Check In's server-held heartbeat/key
+      design, the Companion app (2015), lone-worker monitoring timers.
+  [x] Prior art — §2.1-§2.6 + §14, incl. the cases that cut against (above) and, in §2.6, the existing
+      return channels to an anonymous giver (named intermediary, per The Unpaid Relay §2.3a; the B-Mark ledger)
+  [x] Honest limits — §12 (n = 0 · NEW "the sentinel moves the burden; it does not remove it" · physics floor
+      · fear-salience · anonymity double-edge · platform shadow · what is not solved) + §11 residuals (NEW:
+      heartbeat-loss quorum residual; relay metadata)
+  [x] AI co-authorship disclosed in text — authors line + closing footer ("Co-authored with Miss Aquarius℠,
+      the architecture's named AI collaborator ... final editorial control and responsibility for every claim
+      rest with the human author"); no model named
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The founding story (§9) names
+      no one; the §5 example "your daughter's companion went quiet" became "her companion went quiet" (no
+      family relation attached to a possibly-minor person). No health information about anyone.
+  [x] No perma.cc · no draft banner (became "> **Note.**", editor-facing words removed) · the false
+      "Mirrors of this document ... archive.today, perma.cc" line replaced by what is held (GitHub · Internet
+      Archive daily · Software Heritage by ORIGIN page · Zenodo concept DOI · OTS + RFC 3161 ×3, one
+      eIDAS-qualified, with the scope sentence) · no placeholders · no "Document SHA-256" footer · no
+      sha256:/doi: front matter (grep 0) · no A126 mission sentence · no "head" of the four bodies
+  [x] mirror-lint: 0 refuse · 0 warn (was 3 refuse · 1 warn)
+  [x] No emoji / internal markers — ⭐ ⚠ ⛔ ✅ grep 0. The §5 diagram keeps "♥" (heartbeat) and "╳"; ① ② ③ in
+      the §4 ladder — box-drawing/dingbat text glyphs, not markers; confirm they render in the PDF font.
+  [x] Terms table present — "## Terms" (28 rows; added)
+  [x] Keywords line present — added after the Abstract paragraph
+  [x] Abstract section present — "## Abstract"; first sentence now leads with "personal-safety mobile
+      application ... on-device software agent ... dead-man's-switch alarm ... duress code ..."; the marks
+      follow ("published as B-Safety℠ ...")
+  [x] Fenced diagrams ≤ 95 chars — widest fenced line 74
+  [x] Title does NOT lead with a mark — "The Companion That Notices" is unmarked
+  [x] Marks (®/™/℠) appear only in the body and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date: unchanged (2026-07-04); status: draft
+      (unchanged; this revision adds a ## Terms section, so draft is required anyway)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|not aware|nobody|every;
+                  line numbers = defensive-publications/safety-companion-pack-watch.md after this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" / "nobody".
+  mirror-lint's WARN: old L149 "because it has almost never been heard" (a false positive on "never been")
+    → L189 "because it has almost never sounded".
+  Priority statements removed or scoped:
+    old L37 "To the author's knowledge, the following are not previously published as a unified mechanism"
+      → L38 "The following mechanisms are disclosed here, each as specified and in the combination specified".
+    old L89 (§2.2) "We are not aware of prior art running the dead-man inversion over a serverless ... family
+      topology" → L129 scoped to "The desk review behind this paper (July 2026, extended at the October 2026
+      revision; not a pre-registered census) found no system ... ; that is a statement about that review, not
+      a claim of priority" — and narrowed, because Apple Check In runs the inversion with a server.
+    old L29 "Anonymity and witness, simultaneously, for the first time in this corpus's gift grammar" → L30
+      "first time" removed. CONTRADICTED CANON: the B-Mark ledger (memory, ratified 2026-06-29, five days
+      earlier) already had anonymous-or-not contributors re-thanked by the recipient.
+    old L61 abstract "makes a gift anonymizable for the first time in the architecture's physical gift line"
+      → L64 "lets a whole gift arrive with its sender withheld" (same B-Mark contradiction).
+    old L105 (§2.6) "What none of these provide is the return channel" (its own list included the B-Mark)
+      → L145 "What most of these lack ..." + the two existing return channels named.
+    old L236 (§9) "makes the sender's identity withholdable from the recipient for the first time" → L278
+      scoped "as first published" with the B-Mark exception stated.
+    old L238 (§9) "dark in every anonymous-giving tradition before this" → L280 "left dark by most anonymous
+      gifts ... without a named intermediary in the loop" (The Unpaid Relay §2.3a documents thanks reaching an
+      anonymous donor through a named intermediary).
+  Safety-guarantee statements scoped (a safety product must not promise outcomes):
+    claim 1 "the failure mode 'forgot to arm it ...' is designed out" → L40 "protection no longer depends on
+      remembering to arm it; a dismissed or ignored prompt still starts no monitored journey" + new §12 limit.
+    claim 4 + abstract "without creating a channel by which a predator can subscribe to the locations of people
+      in crisis" → L46/L64 a verified bad actor still receives a coarse position until accepted, and is
+      identifiable (§11's own residual).
+    claim 5 "no party — including the institution — holds the material or the keys" (contradicted §7: the pack
+      holds the ciphertext) → L48 "no single party holds both the encrypted window and a path to its key, and
+      the institution holds neither"; §7 L242 aligned ("no single party"); §11 L303 NEW residual: heartbeat
+      loss is an absence nothing can sign, so a colluding kin quorum could open the window.
+    §1 L115 / inv. 3 L292 / §11 L311 "cannot be compelled to produce it" / "yields nothing" → scoped to location
+      and journey CONTENT; a ciphertext relay still sees traffic timing and pack membership (named).
+    abstract "Everything computes and stores on the holder's device" (contradicted §5 replication) → L64
+      "computed on the holder's device, and nothing is stored where the institution can read it".
+    NEW §12 sentence: "No outcome is promised: the mechanisms raise and route an alarm, and whether anyone is
+      helped in time depends on who receives it."
+  "only" — mechanism statements ("exists only inside the rolling window", "releasable only by the alarm
+    event", "protects only as a witness") → FINE; none is a priority claim.
+  "first" — ordinals ("first published", "first review", "first meetings") → FINE.
+  "every" — "the retention argument every location vendor makes" → L244 "location vendors make".
+  Other factual corrections (sources in the drafter's report): Android Emergency SOS / ELS were credited with
+    the system-initiated alarm (they are user-initiated / call-triggered) → Google Car Crash Detection (Pixel,
+    2019); Kitestring's "duress PIN that appears to check in normally" (not supported by the sources found) →
+    a duress code that alerts contacts, with alarm-panel duress PINs credited for the indistinguishability;
+    Life360 "months" of history → weeks / up to about a month; The Markup title given in full with authors and
+    date; the founding story's "author never learned" → learned by chance, after the recipient's death (canon);
+    three companion-work titles corrected; "override custody sits with a human sangha" → designed to sit
+    with the Aquarian Sangha, not yet formed (canon).
