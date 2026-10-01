@@ -4,5 +4,5 @@
 # tdc-pdf.py refuses to rebuild a submitted slug for the same reason. The AI collaboration is disclosed IN the
 # file, on the cover ("Miss Aquarius is an AI co-author, disclosed; the inventor of record is Thon Ly").
 # Exemption written 2026-10-01 (TDCommons wave 5, the first wave after the media hook was installed 2026-09-30).
-# Whether tdc-pdf.py should write the ma: packet BEFORE upload, from the next wave on, is an open question (roadmap A278).
+# Whether tdc-pdf.py should write the ma: packet BEFORE upload, from the next wave on, is an open question (roadmap A279; first filed as A278, which a concurrent session had taken the same hour).
 defensive-publications/submitted/*.pdf
