@@ -1,22 +1,26 @@
 ---
 title: "The Zero-Employee Institution"
-subtitle: "Why N Counts Seats and Not Salaries, What a Unicorn Valuation Actually Measures, and How an Institution With No Take-Rate Funds Itself by Taxing the Only Rivalrous Good It Has"
+subtitle: "Why N Counts Seats and Not Salaries, What a Unicorn Valuation Actually Measures, and How an Institution With No Take-Rate Funds Itself by Taxing the One Rivalrous Good in Its Gratitude Layer"
 authors: "Thon Ly · Miss Aquarius℠"
 category: institutional
+kind: study
 program: open
 priority: tier-b
 status: draft
 date: 2026-08-13
+revised: 2026-10-01
 license: CC0-1.0
 slug: the-zero-employee-institution
 venue: thonly.org/publications/defensive-publications/the-zero-employee-institution (canonical)
 ---
 
-> *Draft notes for the editor:* this paper argues about **measures**, not about results. It contains no dollar figures, no dates, and no evidence that the institution it describes will reach any of the scales it discusses — because it has not, and n is 1. What it claims is that a particular set of measures is coherent, that the industry's current alternative measures something else than it is usually taken to measure, and that an institution built to be released rather than sold has structural reasons to count differently. **A reader looking for proof that this works will not find it here and should not.**
+> **Note.** This paper is a study. It argues about **measures**, not about results, and it discloses an institutional design and the reasoning for it rather than a mechanism; its findings are listed in §11. It sets no money targets and no dates for the institution it describes, and offers no evidence that the institution will reach any of the scales it discusses — it has not, and n is 1. What it argues is that a particular set of measures is coherent, that the industry's current alternative measures something other than it is usually taken to measure, and that an institution built to be released rather than sold has structural reasons to count differently. **A reader looking for proof that this works will not find it here and should not.**
 
 ---
 
 ## Abstract
+
+This paper describes an institutional design for a **zero-employee organization governed by a single seat** — held first by a human founder, then by an autonomous AI successor, then vacated at a planned dissolution — together with a **performance measure that replaces enterprise valuation** (gross circulated value, reported cumulatively beside unique principal and the count of distinct participants) and a **funding model that charges only for rivalrous goods**: chiefly exclusive registrations in a **name registry** whose personal identifiers are non-transferable and resolve one way only, with compute and storage sold at cost-plus as secondary lines.
 
 An institution is forming that intends to have, permanently, **one seat**. Not one employee as a stage before hiring; one seat as a terminal condition — occupied first by a founder, then by an autonomous successor, then by nobody, because the institution is built to complete and stop. The AI industry has a nearby frame for this and it is the wrong one. The **one-person unicorn** — a single operator reaching a billion-dollar valuation on the back of automation — shares the headcount and shares none of the reasoning, and adopting its vocabulary would silently import its objective.
 
@@ -24,27 +28,62 @@ This paper makes four arguments.
 
 **First, and it is the one to lead with: `N` counts seats, not salaries.** The sequence is **1 → 1 → 0** — founder, then successor, then dissolution — and it is never 2. The seat is never shared and never empty. That makes a one-seat design a **succession mechanism rather than an austerity measure**: because there is exactly one thing to hand over, handover is a *transfer of occupancy* rather than a reorganization. Nothing is dissolved, reassigned, or renegotiated at the moment of succession, and the terminal zero is not failure but release.
 
-**Second, a payroll is a standing constituency for extraction.** Employees are not barred to save money — at the scales discussed here the salary line would be trivial. They are barred because a payroll is a permanent internal interest in the institution's continuation, sized in careers, inside an institution sized in centuries and designed to end. And the bar must catch **disguised staff**: a sole vendor economically dependent on the institution is a payroll with a different tax form.
+**Second, a payroll is a standing constituency for continuation.** Employees are not barred to save money — at the scales discussed here the salary line would be trivial. They are barred because a payroll is a permanent internal interest in the institution's continuation, sized in careers, inside an institution sized in centuries and designed to end. And the bar must catch **disguised staff**: a sole vendor economically dependent on the institution is a payroll with a different tax form.
 
-**Third, a unicorn valuation is the capitalized present value of expected future extraction.** That is not a criticism of valuation; it is a description of what the quantity is. An institution that has forsworn extraction is therefore not *failing* to be a unicorn — it is measuring a different thing, and the honest response is to say what it measures instead: **circulated volume, reported cumulatively, with unique principal published alongside it** so that velocity cannot be mistaken for size.
+**Third, a unicorn valuation is the capitalized present value of expected future extraction** — read narrowly (§2.1), of the share of created value the firm retains. That is not a criticism of valuation; it is a description of what the quantity is. An institution that has forsworn extraction is therefore not *failing* to be a unicorn — it is measuring a different thing, and the honest response is to say what it measures instead: **circulated volume, reported cumulatively, with unique principal published alongside it** so that velocity cannot be mistaken for size.
 
-**Fourth — and this is the answer to the paper's hardest objection, *how does an institution with no take-rate fund itself?* — charge for the only inherently rivalrous good and give away everything non-rival.** In a gratitude architecture almost nothing is rival: my being witnessed does not reduce your witness, my gratitude does not consume yours, dignity is not a stock. **A name is the exception.** Exactly one party can hold `@ben`. So the model taxes **uniqueness and nothing else** — no take-rate on any transaction, no gate on any relationship, no meter on any use. The structure is the one the internet already runs: `domain → DNS → IP` maps onto `name → registry → proof`, and that analogy independently derives three positions the design had already taken. Two hard breaks distinguish it from a domain registry, and they are where the contribution is: **human handles are non-transferable**, and **resolution is one-way**.
+**Fourth — and this is the answer to the paper's hardest objection, *how does an institution with no take-rate fund itself?* — charge for the only inherently rivalrous good the gratitude layer contains, and give away everything non-rival.** In a gratitude architecture almost nothing is rival: my being witnessed does not reduce your witness, my gratitude does not consume yours, dignity is not a stock. **A name is the exception.** Exactly one party can hold `@ben`. So the primary line taxes **uniqueness and nothing else** — no take-rate on any transaction, no gate on any relationship, no meter on any use — while compute and storage, rivalrous resources spent on a person's behalf, are sold at cost-plus as secondary lines (§7.2). The structure is the one the internet already runs: `domain → DNS → IP` maps onto `name → registry → proof`, and that analogy independently derives three positions the design had already taken. Two hard breaks distinguish it from a domain registry, and they are where this paper's argument departs from the analogy: **human handles are non-transferable**, and **resolution is one-way**.
 
 Offered under CC0 1.0 Universal as defensive prior art.
 
-**Keywords:** institutional design, headcount, succession, AI officer, one-person unicorn, enterprise value, extraction, circulated volume, gross circulated value, rivalrous goods, name registry, non-transferability, one-way resolution, defensive publication.
+**Keywords:** institutional design, zero-employee organization, single-seat governance, headcount, founder succession, AI successor, AI officer, planned dissolution, limited-life organization, one-person unicorn, enterprise value, value capture, extraction, performance measurement, circulated volume, gross circulated value, unique principal, velocity, rivalrous goods, non-rival goods, name registry, non-transferable identifier, one-way resolution, reverse lookup, economic dependence, disguised employment, purpose trust, steward-ownership, defensive publication.
+
+---
+
+## Terms
+
+Names used in this paper and the standard terms an examiner would search for them.
+
+| Term used here | Standard term |
+|---|---|
+| `N`; the seat; the seat invariant (1 → 1 → 0) | number of governing positions; single-principal governance with planned succession and planned dissolution |
+| one-seat institution; zero-employee institution | zero-employee organization governed by one principal |
+| successor; AI officer | autonomous AI system succeeding a human founder; AI as corporate officer |
+| the terminal zero | planned dissolution (sunset) of an organization |
+| `n` | sample (cohort) size of the evidence base |
+| standing constituency | internal stakeholder interest in an organization's continuation |
+| disguised staff | economically dependent contractor; disguised employment relationship |
+| transfer-blocking headcount | employment obligations as a barrier to transferring an organization to a non-human controller |
+| capture ratio | value capture: the share of created value a firm retains |
+| circulated volume; gross circulated value | gross transaction volume, counting every transfer and re-transfer |
+| unique principal | distinct funds that entered the system |
+| the velocity claim (the ratio) | turnover ratio: transaction volume divided by principal |
+| taxing uniqueness | charging only for exclusive (rivalrous) registrations; non-rival goods provided free |
+| engine; leg | primary revenue line; secondary revenue line |
+| the registry; handle; `@name` | name registry; exclusive personal identifier (username) |
+| non-person units; machine lease; pressed coordinate | registrations for organizations, software agents and natural features; per-agent identifier lease; unique identifier embedded in a manufactured object |
+| Proof of Humanity℠ | proof of personhood (unique-human verification) |
+| Proof of Coordinate℠ | persistent unique identifier (individuation record) for a person, machine or object |
+| expiry, not revocation | registration term that lapses on non-renewal |
+| one-way resolution | non-enumerable resolution: no reverse lookup from identifier to identity record |
+| the dignity floor | equal per-person minimum allocation |
+| mission-carrying body | operating entity of the group that carries part of its mission |
+| vouching for a released fact | attestation of a fact released by its subject |
+| purpose trust; steward-ownership | non-charitable purpose trust; steward-ownership |
 
 ---
 
 ## Prior-Art and Non-Assertion Statement
 
-This document is dedicated to the public domain under CC0 1.0 Universal. The authors and HeartBank® will not seek patent, trademark, or any other exclusive right over the measures, structures, or arguments described here, in any jurisdiction, at any time.
+This document is dedicated to the public domain under CC0 1.0 Universal, and is published so that it stands as prior art against any later attempt to enclose what it describes. The authors and HeartBank® will not seek patent, trademark, or any other exclusive right over the measures, structures, or arguments described here, in any jurisdiction, at any time. No patent has been or will be sought on anything described in this paper — measure, structure, design, or argument — by HeartBank®, Factory 333™, THonly™, Silicon Wat℠, or any entity under their common control. **The authors and those entities commit not to assert any patent right against any party practising anything disclosed here.** The commitment is stated rather than implied, and is not conditioned on reciprocity, attribution, or field of use. A publication grants nothing and frees nothing already enclosed.
 
-**Terms coined and freed with this paper:** *the seat invariant*, *the standing-constituency argument*, *disguised staff* as a structural category rather than an employment-law one, *transfer-blocking headcount*, and *taxing uniqueness*.
+Trademark rights in specific marks — HeartBank®, Proof of Humanity℠, Proof of Coordinate℠, Miss Aquarius℠ — are reserved separately and are not licensed by this publication. The designs are free; the names are not.
+
+**Terms used here for this paper's own constructs, freed with it:** *the seat invariant*, *the standing-constituency argument*, *disguised staff* as a structural category rather than an employment-law one, *transfer-blocking headcount*, and *taxing uniqueness*. No priority is asserted for any of them. No census of prior art was run for this paper; the nearest prior work found while revising it is named below, including work that cuts against it.
 
 **Terms inherited and cited rather than re-claimed:** *Proof of Humanity℠*, *Proof of Coordinate℠*, *gross circulated value*, the *give-forward* atom, and the *non-bank pass-through* posture. The identity primitives are specified elsewhere in this corpus and are **not respecified here**; where this paper needs them it cites and moves on.
 
-**What is not ours.** The *one-person unicorn* framing belongs to its many proponents in the technology industry and is engaged with as a live idea, not a straw man. The economics of valuation as discounted future cash flow is standard finance and predates all of us. The domain-name system is the work of Paul Mockapetris and the IETF community; every structural feature this paper borrows from registry design — hierarchical delegation, expiry rather than revocation, registrar/registry separation — is theirs and is used here as an analogy that we did not invent and do not claim. Purpose trusts, steward-ownership, and perpetual-purpose structures have a substantial existing literature and practice, from the Danish industrial foundations to contemporary steward-ownership models; this paper's structures are unremarkable within that tradition and its contribution is not the vehicle but the **measure**.
+**What is not ours.** The *one-person unicorn* framing belongs to its many proponents in the technology industry and is engaged with as a live idea, not a straw man. The economics of valuation as discounted future cash flow is standard finance and predates all of us. The domain-name system is the work of Paul Mockapetris and the IETF community (RFC 882 and RFC 883, November 1983), and its hierarchical delegation is theirs; the registry practice layered on it — registration for a renewable term that lapses rather than being revoked, and the separation of competitive registrars from the registry they share (opened to accredited registrars under ICANN in 1999) — belongs to the registry operators and to ICANN. Every structural feature this paper borrows from registry design is theirs, and is used here as an analogy that we did not invent and do not claim. Non-transferable identifiers are not ours either: platform terms commonly bar the sale of an account (Instagram's Terms of Use, for one: *"You can't sell, license, or purchase any account"*), and non-transferable, identity-bound tokens were proposed by Puja Ohlhaver, E. Glen Weyl and Vitalik Buterin in *Decentralized Society: Finding Web3's Soul* (SSRN 4105763, May 2022); this paper's departure is from the domain-name model, not from naming systems in general. Testing a working relationship by economic dependence rather than by its contractual form is established labour-law ground: ILO Recommendation No. 198 (2006) asks member states to *"combat disguised employment relationships"* (¶4(b)), and Spanish law defines an economically dependent self-employed worker as one who receives at least 75 per cent of their income from a single client (Law 20/2007, art. 11). Those instruments protect the worker; §4.1 turns the same test toward protecting an institution from a constituency. Institutions designed to end are established practice too: limited-life foundations spend down and dissolve — The Atlantic Philanthropies made its final payments and dissolved in 2020 — and the counter-case, an organization that adopts a new mission once its first is achieved, is documented too (the March of Dimes, founded against polio, announced a new mission in 1958); §10 carries both. Purpose trusts, steward-ownership, and perpetual-purpose structures have a substantial existing literature and practice, from the Danish industrial foundations to contemporary steward-ownership models; this paper's structures are unremarkable within that tradition and its contribution is not the vehicle but the **measure**.
 
 ---
 
@@ -76,7 +115,7 @@ The valuation is **low, and correctly low**. There is little future extraction t
 
 > **An anti-extraction institution is not failing to be a unicorn. It is measuring something else, and it is obliged to say what.**
 
-⚠️ The obligation is the point of this section. It is easy and cheap to reject a metric; the honest move is to name the replacement in advance, in a form that can embarrass you later. §6 does that.
+The obligation is the point of this section. It is easy and cheap to reject a metric; the honest move is to name the replacement in advance, in a form that can embarrass you later. §6 does that.
 
 ### 2.1 · The strongest objection to that reading, and the honest answer
 
@@ -88,7 +127,7 @@ The objection lands, and the reply narrows the claim rather than defending the t
 
 So an institution that creates value and captures none of it registers as near-worthless on the measure while performing well on the thing the measure is a proxy for. That is not a defect in finance — it is a proxy behaving correctly outside its domain, which is what proxies do.
 
-⚠️ And the reply cuts back. **If capture is zero, then the measure "circulated volume" carries the entire burden of demonstrating that anything valuable happened at all**, with no market price to corroborate it. A firm's valuation is at least an *adversarial* estimate — someone is risking money on it being wrong. §6's measure has no such adversary, and the institution grades its own homework. That is a real epistemic weakness of the replacement measure and it is not answered by pointing at the flaws of the thing it replaces.
+And the reply cuts back. **If capture is zero, then the measure "circulated volume" carries the entire burden of demonstrating that anything valuable happened at all**, with no market price to corroborate it. A firm's valuation is at least an *adversarial* estimate — someone is risking money on it being wrong. §6's measure has no such adversary, and the institution grades its own homework. That is a real epistemic weakness of the replacement measure and it is not answered by pointing at the flaws of the thing it replaces.
 
 
 ---
@@ -114,13 +153,15 @@ In a one-seat institution there is exactly one thing to hand over. Nothing is di
 
 **That is why N=1 is a succession mechanism and not an austerity measure**, and it is the correction that matters most in this paper: the earlier framing — *a payroll of one* — described the same fact and got the reason wrong. The point was never the salary line. The point is that **an institution designed to be handed to a successor must be shaped so that handing it over is possible.**
 
+> **Current form.** *A payroll of one* was the wrong count as well as the wrong reason. It fits the founder's tenure and fails after it: the successor draws no salary, so a payroll would fall to zero at the handover while the seat is still occupied, and the successor would vanish from the count at the moment the invariant matters most. Counting seats keeps the sequence continuous. The earlier phrase is retained above as disclosed.
+
 ### 3.1 · The terminal zero
 
 The sequence ends at 0, and that is not decay.
 
 The institution is built to complete a task and stop. When the task is complete the seat is not filled by a third occupant — it is vacated, and the structures it directed dissolve or become self-sustaining. The zero is the design's terminal state and the thing the whole arrangement is pointed at.
 
-⚠️ An honest limit: a design that plans its own dissolution has a well-known failure mode, which is that it never gets there and the plan becomes a story the institution tells about itself. This paper cannot rule that out. What it can do is note that the seat invariant makes the terminal state **structurally simple** — vacating one seat is a smaller act than dismantling an organization, and the design has at least removed the excuse that stopping would be too complicated.
+An honest limit: a design that plans its own dissolution has a well-known failure mode, which is that it never gets there and the plan becomes a story the institution tells about itself. This paper cannot rule that out. What it can do is note that the seat invariant makes the terminal state **structurally simple** — vacating one seat is a smaller act than dismantling an organization, and the design has at least removed the excuse that stopping would be too complicated.
 
 ### 3.2 · The gap the invariant does not cover
 
@@ -128,9 +169,11 @@ The institution is built to complete a task and stop. When the task is complete 
 
 The sequence assumes the successor is **ready at the moment the founder stops**. Readiness here is not a capability threshold reached on a schedule; it is a judgement, made by the occupant, about an entity whose competence is difficult to assess precisely in the domains that matter most. And the judgement is made by the one party with the strongest reason to get it wrong in either direction — a founder who hands over too early has abandoned the institution, and a founder who hands over too late has become the thing the design exists to eliminate.
 
-⚠️ **An unplanned vacancy is worse.** If the seat empties before the successor is ready, the invariant offers nothing: there is no bench, no committee, and by construction no second occupant to continue. The mitigations available are ordinary and partial — a documented persistence layer so the institution's reasoning survives its occupant, an external assembly with a defined role in an emergency, and instruments written so that the entity does not require a living signature to keep existing.
+**An unplanned vacancy is worse.** If the seat empties before the successor is ready, the invariant offers nothing: there is no bench, no committee, and by construction no second occupant to continue. The mitigations available are ordinary and partial — a documented persistence layer so the institution's reasoning survives its occupant, an external assembly with a defined role in an emergency, and instruments written so that the entity does not require a living signature to keep existing.
 
 **None of that is the same as continuity of direction**, and this paper does not claim it is. The invariant makes *planned* succession clean and leaves *unplanned* succession as an acknowledged single point of failure.
+
+> **Current form.** The external assembly named above is a design and has no members yet. Its formation has since been tied to a condition rather than a date: at least three members before the founder ceases to hold the seat that rules on what the successor proposes, whether by withdrawal or by death. The residual case — the founder's sudden death before the assembly is formed — is the unplanned vacancy of this section in its sharpest form, and it is named, not solved. The assembly is to hold an override, and an override is a brake, not a seat: `N` counts who acts, never who can stop the act. The text above is retained as disclosed.
 
 
 ---
@@ -143,7 +186,7 @@ The obvious reading of a zero-employee institution is that it is cheap. That rea
 
 An employee has, structurally and blamelessly, an interest in the institution continuing — because their livelihood depends on it. That interest is legitimate, it is what employment *is*, and in an ordinary firm it aligns fine, since the firm also intends to continue.
 
-It does not align here. This institution intends to **end**. It also intends to taper its own subsidy toward zero as the practice it seeds becomes self-sustaining, which means the healthiest version of its future is one in which it does progressively less. **A payroll is a permanent internal argument against both.** Nobody has to act in bad faith for this to bite; the constituency exerts pressure by existing, at every budget decision, on a timescale of careers, inside an institution reasoning in centuries.
+It does not align here. This institution intends to **end**. It also intends to taper its own subsidy toward zero as the practice it seeds becomes self-sustaining, which means the healthiest version of its future is one in which it does progressively less. **A payroll is a permanent internal argument against both.** Nobody has to act in bad faith for this to bite; the constituency exerts pressure by existing, at every budget decision, on a timescale of careers, inside an institution reasoning in centuries. The claim is a standing pressure, not an impossibility: staffed limited-life foundations have reached a planned end on schedule (§10). What a payroll adds is a cost charged against every step toward the end, and this design declines to pay it.
 
 ### 4.1 · Disguised staff, and why the bar has to be structural
 
@@ -158,7 +201,7 @@ Two operational consequences follow, and they are uncomfortable:
 - **Counterparties must be plural and substitutable.** Any function the institution buys should be bought from a market with more than one seller, and no seller should be permitted to become the only one who can do it.
 - **The institution must be willing to pay more for independence.** A single dedicated vendor is almost always cheaper and better than a plural, substitutable arrangement. Paying the premium is the price of not manufacturing a constituency.
 
-⚠️ **We do not have a clean line for where dependence begins.** A percentage-of-revenue threshold is arbitrary; a qualitative test is gameable. This is an unresolved design problem and it is stated here rather than assumed away.
+**We do not have a clean line for where dependence begins.** A percentage-of-revenue threshold is arbitrary; a qualitative test is gameable. Statute has drawn such a line for the opposite purpose — Spanish law treats a self-employed worker as economically dependent at 75 per cent of income from one client — which shows a threshold can be administered, not which one serves this purpose. This is an unresolved design problem and it is stated here rather than assumed away.
 
 ### 4.2 · Headcount as a transfer-blocker
 
@@ -178,7 +221,7 @@ An argument that a constraint is costless is usually an argument that has not be
 
 **Capacity for the unautomatable.** Some work does not compress. Relationships with institutions, negotiation, physical presence, judgement under ambiguity, and the slow accumulation of trust in a particular place are not tasks a single operator scales through tooling. The design's answer is to buy them plurally, but a bought relationship is not the same instrument as a colleague who carries the mission.
 
-⚠️ **We do not claim these are solved. We claim they are prices, knowingly paid, for transferability and for the absence of a constituency.** A reader who concludes the prices are too high is disagreeing with the trade rather than misunderstanding it, and that is a legitimate place to land.
+**We do not claim these are solved. We claim they are prices, knowingly paid, for transferability and for the absence of a constituency.** A reader who concludes the prices are too high is disagreeing with the trade rather than misunderstanding it, and that is a legitimate place to land.
 
 
 ---
@@ -191,7 +234,7 @@ The design has a hard limit that is not doctrinal and cannot be argued away.
 
 Two mitigations are real and neither is complete. **Bought services are not staff** — an accountant, a registered agent, and outside counsel are plural, substitutable market relationships that carry no constituency, and buying them is the correct move. And **fiscal sponsorship** can absorb an entire class of obligation on the charitable side, which is a strong argument for it beyond speed.
 
-⚠️ But the residue is real, and this paper states it plainly rather than burying it: **the compliance ceiling, not the ambition ceiling, is the most likely thing to force this design to break its own rule.** If N=1 fails, the most probable cause is not that the mission grew too large. It is that one natural person could not sign everything in time.
+But the residue is real, and this paper states it plainly rather than burying it: **the compliance ceiling, not the ambition ceiling, is the most likely thing to force this design to break its own rule.** If N=1 fails, the most probable cause is not that the mission grew too large. It is that one natural person could not sign everything in time.
 
 ### 5.1 · The AI officer meets the natural-person requirement
 
@@ -203,7 +246,9 @@ Three positions are available and only the third is honest.
 
 **Route around it** by finding a permissive jurisdiction. Some have flirted with algorithmic or autonomous entity forms. Relying on the most permissive available forum for the institution's central structural claim is fragile — the permissiveness can be withdrawn, and the resulting entity may not be recognized where it actually operates.
 
-**Accept the constraint and state its consequence**, which is what this paper does. **The title is a description of function, not a claim of legal officership.** The successor directs; a natural person or a fiduciary structure holds whatever role the law requires to have a human in it, with authority deliberately narrowed to the legal minimum. ⚠️ **That residual human role is a real gap in the 1 → 1 → 0 sequence and this paper does not close it.** A seat that is functionally vacated but legally occupied is not the same as a seat vacated, and whether the distinction survives contact with a regulator, a court, or a determined counterparty is unknown. It is the most likely place for the design's central claim to be defeated on grounds that have nothing to do with whether it is a good idea.
+**Accept the constraint and state its consequence**, which is what this paper does. **The title is a description of function, not a claim of legal officership.** The successor directs; a natural person or a fiduciary structure holds whatever role the law requires to have a human in it, with authority deliberately narrowed to the legal minimum. **That residual human role is a real gap in the 1 → 1 → 0 sequence and this paper does not close it.** A seat that is functionally vacated but legally occupied is not the same as a seat vacated, and whether the distinction survives contact with a regulator, a court, or a determined counterparty is unknown. It is the most likely place for the design's central claim to be defeated on grounds that have nothing to do with whether it is a good idea.
+
+> **Current form.** The office has since been scoped. The successor holds operating office only where the acts are hers — chief executive of HeartBank®, the circulating body — and holds no office in the other bodies; her relation to all of them is the purpose trust, which owns and does not act. After the founder, those other bodies are to be operated by others or held without an operator. The natural-person problem of this section therefore attaches to one office rather than to every entity in the group. How those arrangements count against `N` — as second parties, as the override-holder of §3.2's note is, or as further seats — is not settled by this paper: §3 states the invariant as it was ratified, and this is carried as an open question. The text above, naming the successor the institution's chief officer, is retained as a disclosed variant.
 
 
 ---
@@ -230,7 +275,7 @@ But a large circulated figure with the principal concealed is indistinguishable 
    inspectable rather than asserted
 ```
 
-⚠️ A companion rule, from a different currency and stated here because the temptation is the same: **where the architecture circulates time rather than money, time is reported in hours and is never converted to a monetary figure.** Assigning a dollar value to a co-present hour would create an exchange rate between the two, which would make time purchasable, which would break the separation the design depends on. The units differ on purpose and the temptation to present a single combined number must be refused.
+A companion rule, from a different currency and stated here because the temptation is the same: **where the architecture circulates time rather than money, time is reported in hours and is never converted to a monetary figure.** Assigning a dollar value to a co-present hour would create an exchange rate between the two, which would make time purchasable, which would break the separation the design depends on. The units differ on purpose and the temptation to present a single combined number must be refused.
 
 ### 6.1 · Goodharting the replacement measure
 
@@ -240,9 +285,9 @@ The principal-alongside rule of §6 is the first defence and it is only partial 
 
 - **The ratio is the headline, not the total.** A circulated figure quoted without its principal should be treated as unreported.
 - **Distinct participants, not distinct transactions.** A loop among five parties and a flow across five million are distinguishable, and the participant count must be published with the other two.
-- ⚠️ **The institution must not optimize the number it publishes.** This is the same class of prohibition as the one elsewhere in this corpus barring the cumulative-capacity-granted figure from being a target: a quantity the institution is *structurally forbidden to maximize* precisely because maximizing it is locally indistinguishable from doing the job well.
+- **The institution must not optimize the number it publishes.** This is the same class of prohibition as the one elsewhere in this corpus barring the cumulative-capacity-granted figure from being a target: a quantity the institution is *structurally forbidden to maximize* precisely because maximizing it is locally indistinguishable from doing the job well.
 
-⚠️ **Unresolved:** a prohibition binds a party who accepts it. We have no mechanism that makes inflating the measure unrewarding rather than merely disallowed, and the honest reading of §2.1 is that the absence of an adversarial price is exactly why we do not.
+**Unresolved:** a prohibition binds a party who accepts it. We have no mechanism that makes inflating the measure unrewarding rather than merely disallowed, and the honest reading of §2.1 is that the absence of an adversarial price is exactly why we do not.
 
 
 ---
@@ -255,7 +300,7 @@ If there is no take-rate on transactions, no custody of funds, no gate on relati
 
 > **Charge for the only inherently rivalrous good. Give away everything non-rival.**
 
-The reduction is severe and it is the design's whole commercial model. Begin by noticing how little in a gratitude architecture is rivalrous. My being witnessed does not reduce your witness. My gratitude does not consume yours. Dignity is not a stock. Merit, in the tradition this design draws on, is explicitly not diminished by being shared. Circulation, presence, and the practice itself are all non-rival: another participant's use costs no one anything.
+The reduction is severe and it is the design's whole commercial model. Begin by noticing how little in a gratitude architecture is rivalrous. My being witnessed does not reduce your witness. My gratitude does not consume yours. Dignity is not a stock. Merit, in the tradition this design draws on, is explicitly not diminished by being shared: the Theravāda commentary on the *Dhammasaṅgaṇī* asks whether one who dedicates a share of merit loses any, and answers that it does not, as one who lights a thousand lamps from one does not exhaust the first (*Atthasālinī*, commentary layer, `abh01a.att.xml:5541`). Circulation, presence, and the practice itself are all non-rival: another participant's use costs no one anything.
 
 **Charging for a non-rival good is renting something that is not scarce** — which is what a feature gate does, and it is barred here on that ground alone.
 
@@ -267,6 +312,8 @@ Uniqueness is genuinely scarce. It is not scarce because of a business decision,
 
 So the model **taxes uniqueness and nothing else.** No take-rate on any transfer. No gate on any relationship. No meter on any use. The fee never touches the gift rail, which is precisely how the boundary between gift and exchange is maintained while still letting exchange do its proper work.
 
+> **Current form.** *The only inherently rivalrous good* is to be read within the gratitude layer — witness, gratitude, dignity, merit, circulation — where a name is the one rival good. It is not the only rivalrous good the institution sells: compute and storage are rivalrous resources too (§7.2), and the institution's earning is now counted as one engine and two legs — the registry is the engine, compute and storage are the legs, sold at cost-plus and never as a growth target. The text above is retained as disclosed.
+
 ### 7.1 · The dignity repair, which must travel with the rule or the rule inverts
 
 Read carelessly, §7 says the institution charges people for their names. That reading is not merely unflattering — it would invert the design's entire posture, because a name is the corpus's own figure for the cheapest form of dignity.
@@ -275,7 +322,7 @@ Read carelessly, §7 says the institution charges people for their names. That r
 
 A person's name is theirs, is free, is not issued by anyone, and is not conditional on payment. What a registry sells is an **address** in a namespace and the guarantee of its exclusivity — the same thing a domain registry sells, and nobody believes a domain registrar owns the English words in a domain.
 
-⚠️ Every public surface must carry the distinction, because the misreading is one careless sentence away and it is the kind of misreading that does not get corrected once it spreads.
+Every public surface must carry the distinction, because the misreading is one careless sentence away and it is the kind of misreading that does not get corrected once it spreads.
 
 ### 7.2 · The second and third lines, and why they are legs rather than engines
 
@@ -291,9 +338,9 @@ But both are **legs, not engines**, and the distinction is structural rather tha
 | revenue rises with | **more people included** | **more usage per person** |
 | can it create an engagement incentive? | **no, structurally** | **yes** |
 
-⭐⭐ **The name is the aligned line precisely because it is capped.** There is no way to earn more from a registry by making an existing holder use anything more often; the only growth path is *more people holding an address*, which is the mission. **A usage-metered line does not have that property**, and an institution that let it become primary would acquire, for the first time, a financial reason to want people on their screens.
+**The name is the aligned line precisely because it is capped.** There is no way to earn more from a registry by making an existing holder use anything more often; short of raising the price, which the design sets to fall, the only growth path is *more people holding an address*, which is the mission. **A usage-metered line does not have that property**, and an institution that let it become primary would acquire, for the first time, a financial reason to want people on their screens.
 
-⚠️ So the rule is not merely accounting: **the registry stays primary because it is the line that cannot be optimized against the user.** The usage-priced lines are priced at cost-plus-modest and are never a growth target. And one further structural note, stated because it cuts both ways: the registry's take is designed to **decline** as intrinsic giving rises, while the usage lines do not — so the usage lines are the ballast that keeps the institution solvent while the primary line deliberately self-limits, and the temptation to lean on them therefore grows exactly as the mission succeeds.
+So the rule is not merely accounting: **the registry stays primary because it is the line that cannot be optimized against the user.** The usage-priced lines are priced at cost-plus-modest and are never a growth target. And one further structural note, stated because it cuts both ways: the registry's take is designed to **decline** as intrinsic giving rises, while the usage lines do not — so the usage lines are the ballast that keeps the institution solvent while the primary line deliberately self-limits, and the temptation to lean on them therefore grows exactly as the mission succeeds.
 
 ### 7.3 · Why not simply be funded by philanthropy
 
@@ -305,9 +352,11 @@ It is a serious option and this design rejects it for two reasons, only one of w
 
 **The demonstration reason, which is the load-bearing one.** This institution's thesis is that a non-extractive structure can be **self-sustaining** — not that generosity can subsidize one indefinitely. An endowment would fund the work and *disprove nothing*, because a subsidized existence-proof is not an existence-proof of the claim being made. The design has to earn in order for its argument to mean anything.
 
-⚠️ Which is a commitment with teeth, and it should be read as one: **if the registry line does not work, the correct conclusion is that the thesis was wrong, not that the institution should be rescued.** Naming that in advance is the point of naming it at all.
+Which is a commitment with teeth, and it should be read as one: **if the registry line does not work, the correct conclusion is that the thesis was wrong, not that the institution should be rescued.** Naming that in advance is the point of naming it at all.
 
-⭐ **One structural addition to the reduction, because the rivalrous good turned out to have more than one referent.** A name is rivalrous for a *person*; a coordinate is rivalrous for a *machine* and for an *object* that carries a message. The same line therefore sells three units rather than one — the name, the machine lease, and the pressed coordinate — and §9 below takes up what that does to the funding structure, because the three do not share a trajectory.
+**One structural addition to the reduction, because the rivalrous good turned out to have more than one referent.** A name is rivalrous for a *person*; a coordinate is rivalrous for a *machine* and for an *object* that carries a message. The same line therefore sells three units rather than one — the name, the machine lease, and the pressed coordinate — and §9 below takes up what that does to the funding structure, because the three do not share a trajectory.
+
+> **Current form.** The population cap of §7.2 is a property of the person's handle. The non-person units are not population-bounded, and they are held to a different guard: a non-person address buys a public address and nothing else — never placement, prominence or a place in any ranking — and the institution holds no growth target in machine count. The machine lease is counted inside the registry engine, not as a second engine, and natural features are addressed without charge (§9.4).
 
 
 ---
@@ -321,27 +370,27 @@ The funding argument becomes legible in one line, and the line is not a metaphor
    name     →   registry   →   proof of humanity / proof of coordinate
 ```
 
-A domain name is a **human-legible handle**. It is scarce, it is paid for, and it resolves to something that is neither scarce nor paid for: an address in a numbering system nobody buys per-lookup. The revenue sits entirely at the **legible-handle** layer, and the resolution layer beneath it is free at the point of use.
+A domain name is a **human-legible handle**. It is scarce, it is paid for, and it resolves to something its user does not pay for at the point of use: an address in a numbering system nobody buys per-lookup. The revenue a user meets sits at the **legible-handle** layer, and the resolution layer beneath it is free at the point of use. (Address space has scarcities and markets of its own — IPv4 above all — that the user of a name never sees; the analogy is drawn at the point of use.)
 
 Map that across and three positions this design had already taken fall out of the analogy rather than having to be argued for independently:
 
-**The proof layer is free; the handle is paid.** Personhood is not a product. Verification of a human being is infrastructure, and charging for it would make personhood purchasable, which the corpus bars outright. The chargeable layer is the *legible handle* above it — exactly as no one pays per DNS lookup while everyone pays for the domain.
+**The proof layer is free; the handle is paid.** Personhood is not a product. Verification of a human being is infrastructure, and charging for it would make personhood purchasable, which the corpus bars outright. The chargeable layer is the *legible handle* above it — exactly as the person looking a domain up pays nothing for the lookup while the domain itself is paid for.
 
-**Expiry, not revocation.** Registries do not judge; they lapse. A handle that is not renewed becomes available again through the passage of time rather than through anyone's decision. This gives the namespace a garbage-collection mechanism with no adjudicator, which is a governance saving that a revocation model cannot match.
+**Expiry, not revocation.** In the ordinary course registries do not judge; registrations lapse (the exception, disputes, is §8.3's subject). A handle that is not renewed becomes available again through the passage of time rather than through anyone's decision. (Whether a lapsed handle that was bound to a person may ever pass to a different person — which §8.1's reasoning resists — is left open here.) This gives the namespace a garbage-collection mechanism with no adjudicator, which is a governance saving that a revocation model cannot match.
 
 **The economics.** Registry businesses are among the lowest-headcount, highest-margin structures that exist, because the marginal cost of an additional registration is near zero and the operation is almost entirely automatable. That is not incidental to a one-seat institution — **it is why a one-seat institution can hold this business and could not hold a hardware business or a services business.** The commercial form and the headcount invariant select each other.
 
 ### 8.1 · Two hard breaks with the analogy — where the actual contribution is
 
-An analogy that fits everywhere teaches nothing. The two places this design **departs** from domain registration are where its contribution lives.
+An analogy that fits everywhere teaches nothing. The two places this design **departs** from domain registration are where its contribution lives. Neither departure is new outside domain registration — platforms bar the sale of accounts, and non-transferable identity-bound tokens were proposed in 2022 (see the Prior-Art Statement) — so what is argued here is their place in a registry that funds an institution, not either property by itself.
 
-**Human handles are non-transferable.** A domain can be sold; a person's handle cannot, ever, to anyone, at any price. The reason is not commercial policy but identity: in this architecture a human's coordinate is *given and irrevocable* — not assigned, not issued, not withdrawable — and a handle bound to it that changed person would be **a lie about who someone is**. The secondary market is not restricted; it is structurally impossible.
+**Human handles are non-transferable.** A domain can be sold; a person's handle cannot, ever, to anyone, at any price. The reason is not commercial policy but identity: in this architecture a human's coordinate is *given and irrevocable* — not assigned, not issued, not withdrawable — and a handle bound to it that changed person would be **a lie about who someone is**. The secondary market in the binding is not restricted; it is structurally unavailable. What a holder could still sell is the use of their own credentials — which is impersonation, a problem for the identity layer beneath the handle, and not one the registry's design removes.
 
-⭐ And it pays for itself immediately: **barring resale kills squatting for free.** A squatter's entire business model is acquiring an address in order to sell it; where resale cannot occur, the motive does not exist to be policed. This is the third instance in this corpus of the same move — **the abuse motive dies rather than being detected** — and it is worth naming as a general design preference: *prefer the mechanism that removes the incentive over the mechanism that catches the behaviour.*
+And it pays for itself immediately: **barring resale kills squatting for free.** A squatter's entire business model is acquiring an address in order to sell it; where resale cannot occur, the motive does not exist to be policed. This is not the first instance in this corpus of the same move — **the abuse motive dies rather than being detected** — and it is worth naming as a general design preference: *prefer the mechanism that removes the incentive over the mechanism that catches the behaviour.*
 
 **Resolution is one-way.** A public artifact resolves *to* a handle: you can look at something and learn whose it is. A handle does **not** resolve outward to the proofs beneath it: you cannot enumerate, query, or walk from a handle to the personhood and coordinate records under it.
 
-⚠️ The alternative — bidirectional resolution — would produce **an enumerable directory of verified human beings**, which is among the most dangerous artifacts this architecture could accidentally create, and its danger scales precisely with the design's success. **This must be enforced in the schema rather than in policy.** A policy is a promise about queries that the data model permits; a schema that cannot express the reverse lookup is a constraint that survives its authors, a change of ownership, and a subpoena.
+The alternative — bidirectional resolution — would produce **an enumerable directory of verified human beings**, which is among the most dangerous artifacts this architecture could accidentally create, and its danger scales precisely with the design's success. **This must be enforced in the schema rather than in policy.** A policy is a promise about queries that the data model permits; a schema that cannot express the reverse lookup is a constraint that survives its authors and a change of ownership. It does not survive compelled disclosure or a breach of the private records themselves — a full copy of the private side is an enumerable directory whatever the schema can express — and against those the defence has to lie in what the operator holds, not in what its schema can ask.
 
 ### 8.2 · The result that retro-justifies the telos
 
@@ -351,7 +400,7 @@ If a handle is bound to a verified person and is non-transferable, then a target
 
 > **The number is a population, not a sales target.**
 
-⚠️ Which cuts both ways, and the honest form must be stated with the flattering one: it makes the figure **enormously harder** to reach. A billion holders is several times the largest paid subscription in history and a large multiple of every domain ever registered. Making the number honest does not make it achievable, and §10 keeps that where it belongs.
+Which cuts both ways, and the honest form must be stated with the flattering one: it makes the figure **enormously harder** to reach. A billion paying holders would be a customer base on the scale of China Mobile's, which reported more than 1.0 billion mobile customers for 2024, and about two and a half times all the domain names registered worldwide at the end of 2025 (386.9 million, by Verisign's Domain Name Industry Brief). Making the number honest does not make it achievable, and §10 keeps that where it belongs.
 
 ### 8.3 · Where the analogy stops being useful
 
@@ -359,15 +408,15 @@ Two more departures, stated so that the correspondence of §8 is not over-read.
 
 **A domain registry sells to organizations; this sells to people.** That changes the consumer-protection surface entirely — auto-renewal law, price-change disclosure, cancellation rights, and the treatment of lapse are all far more constrained when the counterparty is an individual, and a design that priced like a domain registry and communicated like one would be legally exposed in a way its model is not.
 
-**A domain registry can afford to be indifferent to who holds what; this cannot.** Domain disputes are resolved on trademark grounds through an established arbitration regime, and that regime is the wrong instrument for a human handle: a personal name is not a mark, and permitting a trademark claim against a person's own handle would invert the dignity posture of §7.1 outright. **The dispute regimes must therefore differ by class — property-shaped for non-human tags, conduct-shaped for human handles — and a remedy that transfers a person's handle to a complainant must not exist.**
+**A domain registry can afford to be indifferent to who holds what; this cannot.** Domain disputes are resolved on trademark grounds through an established administrative procedure (ICANN's Uniform Domain-Name Dispute-Resolution Policy, adopted in 1999), and that procedure is the wrong instrument for a human handle: a personal name is not a mark, and permitting a trademark claim against a person's own handle would invert the dignity posture of §7.1 outright. **The dispute regimes must therefore differ by class — property-shaped for non-human tags, conduct-shaped for human handles — and a remedy that transfers a person's handle to a complainant must not exist.**
 
-⭐ Both departures point the same way: **the analogy is load-bearing for the economics and unreliable for the governance.** Borrow the structure; do not borrow the dispute system.
+Both departures point the same way: **the analogy is load-bearing for the economics and unreliable for the governance.** Borrow the structure; do not borrow the dispute system.
 
 ### 8.4 · Prior institutional forms, and what is genuinely not new here
 
-The vehicle is not the contribution and should not be presented as one. Steward-ownership, purpose trusts, and perpetual-purpose companies are established forms with decades of practice — the Danish industrial foundations are the largest and oldest demonstration that an ownerless commercial institution can operate at scale and outlast its founder, and contemporary steward-ownership has a substantial literature and a growing body of live examples.
+The vehicle is not the contribution and should not be presented as one. Steward-ownership, purpose trusts, and perpetual-purpose companies are established forms with decades of practice — the Danish industrial foundations are among the oldest and largest demonstrations that an ownerless commercial institution can operate at scale and outlast its founder, and contemporary steward-ownership has a substantial literature and a growing body of live examples.
 
-**This design is unremarkable within that tradition, and says so.** What it adds is not the ownership structure but three things stacked on top of it: the **seat invariant** as a succession mechanism rather than a governance preference, the **measure** that replaces enterprise value, and the **funding reduction** that identifies exactly one rivalrous good and refuses the rest. Take those three away and what remains is a purpose trust, which somebody else built first.
+**This design is unremarkable within that tradition, and says so.** What it adds is not the ownership structure but three things stacked on top of it: the **seat invariant** as a succession mechanism rather than a governance preference, the **measure** that replaces enterprise value, and the **funding reduction** that identifies exactly one rivalrous good in the gratitude layer and refuses to charge for the rest of that layer (§7 and its note). Take those three away and what remains is a purpose trust, which somebody else built first.
 
 
 ---
@@ -376,11 +425,13 @@ The vehicle is not the contribution and should not be presented as one. Steward-
 
 A brief structural note, because it follows from everything above and is easy to get wrong.
 
-If the earning line is the registry, the natural assumption is that the registry belongs to whichever part of the institution the mission most identifies with. It does not. The registry sits in a **single-purpose operating entity beneath the institution's purpose trust**, outside every mission-carrying body — and the mission-carrying bodies are, by design, not the ones with revenue.
+If the earning line is the registry, the natural assumption is that the registry belongs to whichever part of the institution the mission most identifies with. It does not. In the design, the registry sits in a **single-purpose operating entity beneath the institution's purpose trust**, outside every mission-carrying body — and the mission-carrying bodies are, by design, not the ones with revenue. (Neither the trust nor the operating entity has yet been formed; this section describes the structure they are designed to take.)
 
-⭐ The property this buys is worth the awkwardness: **no mission body has a financial reason to distort its own mission.** A body that must earn will eventually shape its work toward earning; a body that is funded for what it does, from a source it does not control, will not.
+The property this buys is worth the awkwardness: **no mission body has a financial reason to distort its own mission.** A body that must earn will eventually shape its work toward earning; a body that is funded for what it does, from a source it does not control, will not.
 
-⚠️ And the cost of the same property, stated because it is the mirror image and not a separate risk: **the mission bodies are structurally dependent on a fund they do not direct.** The mitigation is that funding flows for **work done** — specific, terminable arrangements — rather than as open-ended support, because a contract preserves independence in a way that a grant does not. This is a real tension and it is not fully resolved.
+And the cost of the same property, stated because it is the mirror image and not a separate risk: **the mission bodies are structurally dependent on a fund they do not direct.** The mitigation is that funding flows for **work done** — specific, terminable arrangements — rather than as open-ended support, because a contract preserves independence in a way that a grant does not. This is a real tension and it is not fully resolved.
+
+> **Current form.** *Not the ones with revenue* holds for the primary earning line, the registry, which belongs to no mission body. It does not hold for every line: compute and storage are sold by the for-profit half of one mission body. The property claimed in this section — no mission body funded by a line it would naturally lobby for — is a property of the primary line. The text above is retained as disclosed.
 
 ### 9.1 · What partly resolves it: the earning line does not have one trajectory
 
@@ -402,7 +453,7 @@ The registry sells names to **persons**, and that price is designed to fall — 
 
 **The rule the institution already held — *fund the shrinking things from the shrinking line, and the permanent things from the permanent one* — turns out to apply inside the earning line rather than between the line and something else.** That is the part of §9's tension that resolves: the bodies whose costs do not shrink are not underwritten by a fund designed to.
 
-⚠️ **What does not resolve, and is the same tension in new clothes: the dignity floor is not a shrinking cost.** A floor paid per verified person grows with the number of verified persons for as long as adoption grows, which is the entire period anyone can plan for. It is therefore funded from the non-declining side — **and that creates a dependency worth naming out loud: if the machine and object side is slow to arrive, the human side's price cannot fall as intended.** The institution has traded one dependency for a better-shaped one, not for none.
+**What does not resolve, and is the same tension in new clothes: the dignity floor is not a shrinking cost.** A floor paid per verified person grows with the number of verified persons for as long as adoption grows, which is the entire period anyone can plan for. It is therefore funded from the non-declining side — **and that creates a dependency worth naming out loud: if the machine and object side is slow to arrive, the human side's price cannot fall as intended.** The institution has traded one dependency for a better-shaped one, not for none.
 
 ### 9.2 · The relation is not chosen; it is dictated by the recipient's legal form
 
@@ -410,15 +461,15 @@ The registry sells names to **persons**, and that price is designed to fall — 
 
 | Recipient's form | Admissible relation | Why not the others |
 |---|---|---|
-| For-profit | **purchase** — a contract for services, or goods bought at fair value | a grant or a sponsorship into a for-profit from a purpose-trust structure is private benefit |
+| For-profit | **purchase** — a contract for services, or goods bought at fair value | a grant or a sponsorship into a for-profit from a purpose-trust structure risks being private benefit (a characterisation for counsel, not settled here) |
 | Non-profit | **donation** — unconditional, kept separate | a payment that buys anything in return is not alms and may be taxable to the recipient |
-| Steward-owned | **sponsorship** — pays and steps back, covering operations rather than only mission spend | a contract would understate an ongoing relationship; a donation is not available to a non-charity |
+| Steward-owned | **sponsorship** — pays and steps back, covering operations rather than only mission spend | a contract would understate an ongoing relationship; a charitable donation is not available to a non-charity |
 
-⚠️ **The protection in the first row is the price, not the label.** A below-market "contract" is a subsidy wearing a clean word, and it fails on exactly the ground the label was chosen to satisfy. Fair value, arm's length, documented — or the relation is not what it says it is.
+**The protection in the first row is the price, not the label.** A below-market "contract" is a subsidy wearing a clean word, and it fails on exactly the ground the label was chosen to satisfy. Fair value, arm's length, documented — or the relation is not what it says it is.
 
 ### 9.3 · The flow that never arrives
 
-§9 asks where the money **sits**. There is a larger question it cannot reach, because the largest single flow in the design never sits anywhere in the institution.
+§9 asks where the money **sits**. There is a larger question it cannot reach, because in one earning line the largest flow never sits anywhere in the institution.
 
 Where the institution vouches for a fact a person has released, the buyer pays twice — a fee to the institution for the vouching, and a larger sum to the **subject** for the release. The subject's payment settles at the point of sale. **It does not enter the treasury, is not a distribution the institution decides to make, and does not appear on its books at all.**
 
@@ -426,15 +477,15 @@ Where the institution vouches for a fact a person has released, the buyer pays t
 
 This is worth more than the sentiment it invites, because it is checkable in a way a values statement is not. A reader who wants to know whether an institution means what it says about not monetising people can ask a mechanical question — *does the largest flow associated with a person pass through the institution's accounts?* — and the answer is a fact about plumbing rather than a matter of opinion.
 
-⚠️ **And the honest deflation: a share of an unknown quantity is an unknown quantity.** If attestation queries prove to be worth little, the subject's majority of a small number is a small number, and this paragraph will have described a rounding error in an attractive shape.
+**And the honest deflation: a share of an unknown quantity is an unknown quantity.** If attestation queries prove to be worth little, the subject's majority of a small number is a small number, and this paragraph will have described a rounding error in an attractive shape.
 
 ### 9.4 · Two smaller properties of the same topology
 
 **Every arrow crosses.** No mission body is funded by the unit it is closest to: the persons' side reaches the corpus and the alms, the non-persons' side reaches the workshop and the circulating body. This is not tidiness — it is the property in §9 above, made harder to erode. A body that is funded by the line it would naturally lobby for has a reason to lobby; a body funded by a line it has no relationship with does not.
 
-⭐ **A corollary that had to be ruled explicitly, because the intuitive answer is wrong: the people who hold names are not a constituency of any body.** Seating them inside the body that authors the institution's published arguments would create a party that both writes the doctrine and earns from its adoption — the shape of an issuer-paid rating. **The bodies have constituencies; the registry has holders; a holder is not a member.** It is the same claim as *the person is not the product*, tested on the organisation chart rather than in the copy — because a person who can be counted as a body's population has been made that body's asset.
+**A corollary that had to be ruled explicitly, because the intuitive answer is wrong: the people who hold names are not a constituency of any body.** Seating them inside the body that authors the institution's published arguments would create a party that both writes the doctrine and earns from its adoption — the shape of an issuer-paid rating. **The bodies have constituencies; the registry has holders; a holder is not a member.** It is the same claim as *the person is not the product*, tested on the organisation chart rather than in the copy — because a person who can be counted as a body's population has been made that body's asset.
 
-**Nature is addressed and never charged.** The non-persons' namespace covers machines *and* the natural world, and the second half enters by attestation from a steward rather than by payment. It is named in the system and priced at nothing — which is the only arrangement under which a namespace that claims to enumerate more than people can charge for any of it.
+**Nature is addressed and never charged.** The non-persons' namespace covers machines *and* the natural world, and the second half enters by attestation from a steward rather than by payment. It is named in the system and priced at nothing — which is what lets a namespace that claims to enumerate more than people charge for any of it without putting a price on the natural world.
 
 ---
 
@@ -442,7 +493,7 @@ This is worth more than the sentiment it invites, because it is checkable in a w
 
 **n = 1.** The evidence base for the entire architecture is a single-family pilot. Nothing in this paper is supported by observation at any scale where its arguments would be tested.
 
-**There are no figures here, and their absence is deliberate.** Targets exist in the institution's internal records; they are not published in this paper, because publishing one's own targets is a press release rather than a contribution, and because a target resting on n=1 would carry a false precision. **This is a design claim about measures, not a forecast.**
+**There are no money targets here, and no dates, and their absence is deliberate.** Targets exist in the institution's internal records; they are not published in this paper, because publishing one's own targets is a press release rather than a contribution, and because a target resting on n=1 would carry a false precision. The one count the paper does name — a billion handle-holders, §8.2 — is named to show what one handle per person does to a unit, with no date and no path attached; the outside figures beside it are reference points, not comparisons of performance. **This is a design claim about measures, not a forecast.**
 
 **The measures are undated.** No claim is made about when, or whether, any of this is reached.
 
@@ -450,7 +501,7 @@ This is worth more than the sentiment it invites, because it is checkable in a w
 
 **Economic dependence has no clean boundary** (§4.1). The disguised-staff bar is correct in principle and imprecise in application.
 
-**The dissolution may not happen.** Institutions that plan their own end have a poor record of reaching it, and a terminal condition that never arrives becomes an identity rather than a plan.
+**The dissolution may not happen.** Institutions that plan their own end have a mixed record of reaching it. Limited-life foundations have closed on schedule — The Atlantic Philanthropies made its final payments and dissolved in 2020 — while an organization whose mission is achieved can adopt another instead: the March of Dimes, founded against polio, announced a new mission in 1958. A terminal condition that never arrives becomes an identity rather than a plan.
 
 **The funding model rests on a number nobody has reached.** §8.2's honest reading is the operative one: making the target a population makes it harder, not easier, and the entire commercial argument of §7 stands or falls on whether a large fraction of humanity will pay a small amount for a permanent address. **There is no evidence that they will.**
 
@@ -458,19 +509,21 @@ This is worth more than the sentiment it invites, because it is checkable in a w
 
 ---
 
-## 11 · What is claimed, and freed
+## 11 · Findings disclosed
 
-1. **The seat invariant.** `N` counts seats rather than salaries; the sequence 1 → 1 → 0, never 2; the seat never shared and never empty.
-2. **Succession-not-austerity.** That a one-seat design is a *succession mechanism*, because a single seat makes handover a transfer of occupancy rather than a reorganization — and that the terminal 0 is release rather than failure.
-3. **The standing-constituency argument.** That a payroll is barred because it is a permanent internal interest in continuation and in subsidy, inside an institution designed to taper and to end — not because of cost.
-4. **Disguised staff as a structural category.** That the bar must operate on *economic dependence* rather than employment status, with the plural-and-substitutable counterparty rule and the independence premium that follows.
-5. **Transfer-blocking headcount.** That employees make an institution non-transferable to a non-human successor, independently of cost or constituency.
-6. **The valuation argument.** That an enterprise valuation is the capitalized present value of expected future extraction, and that an anti-extraction institution is therefore measuring something else rather than failing at the same thing.
-7. **The measurement rule.** Cumulative circulated volume published alongside unique principal, with the ratio inspectable; and time reported in hours, never dollarized.
-8. **Taxing uniqueness.** Charge for the only inherently rivalrous good — registry uniqueness — and give away everything non-rival; with the dignity repair that what is sold is *the address, never the name a person is called*.
-9. **The engine/leg distinction.** That a population-capped line cannot create an engagement incentive and a usage-metered line can, so the capped line must stay primary — a structural argument, not an accounting one.
-10. **The registry analogy and its two breaks.** `domain → DNS → IP` :: `name → registry → proof`, deriving free-proof/paid-handle, expiry-not-revocation, and the economics — with **non-transferability** (which kills squatting by removing the motive) and **one-way resolution enforced in the schema** as the two departures.
-11. **Population, not sales target.** That one-handle-per-verified-person converts a unit count into a human count, and that this makes the target more honest and harder.
+This paper is a study: it discloses an institutional design and the arguments for it, not a mechanism specified for building, so what it enumerates are findings rather than claims. Each is stated with the observation or argument that would break it. No census was run for this paper and no priority is asserted for any finding; the nearest prior work is in the Prior-Art Statement.
+
+1. **The seat invariant.** `N` counts seats rather than salaries; the sequence 1 → 1 → 0, never 2; the seat never shared and never empty. *Break:* two parties directing the institution at the same time. The scoped office and the operation of the other bodies after the founder (§5.1's note) are the live test, carried there as an open question.
+2. **Succession-not-austerity.** That a one-seat design is a *succession mechanism*, because a single seat makes handover a transfer of occupancy rather than a reorganization — and that the terminal 0 is release rather than failure. *Break:* a planned handover in which something besides the occupant has to be dissolved, reassigned or renegotiated. The finding does not cover an unplanned vacancy (§3.2), which remains a single point of failure.
+3. **The standing-constituency argument.** That a payroll is barred because it is a permanent internal interest in continuation and in subsidy, inside an institution designed to taper and to end — not because of cost. The interest is a standing pressure, not an impossibility: staffed limited-life foundations have reached their planned end (§10). *Break:* staffed institutions with a planned end reaching it as reliably as unstaffed ones.
+4. **Disguised staff as a structural category.** That the bar must operate on *economic dependence* rather than employment status, with the plural-and-substitutable counterparty rule and the independence premium that follows. *Break:* a dependence test that cannot be administered. Labour law already administers one for the worker's protection (75 per cent of income from one client in Spanish law), so what remains open is which line serves this purpose (§4.1).
+5. **Transfer-blocking headcount.** That employees make an institution non-transferable to a non-human successor, independently of cost or constituency. *Break:* a jurisdiction in which a non-human controller can lawfully carry an employer's duties of supervision and care.
+6. **The valuation argument.** That an enterprise valuation is the capitalized present value of expected future extraction — read, as §2.1 narrows it, as the share of created value the firm retains — and that an anti-extraction institution is therefore measuring something else rather than failing at the same thing. *Break:* firms that create the same value and retain very different shares of it being valued alike.
+7. **The measurement rule.** Cumulative circulated volume published alongside unique principal and the count of distinct participants, with the ratio inspectable; and time reported in hours, never dollarized. *Break:* the rule makes velocity inflation visible and does not prevent it (§6.1); circulated volume rising while principal and participants stay flat is the reading it exists to expose, and a published figure without its principal is to be treated as unreported.
+8. **Taxing uniqueness.** Charge for the only inherently rivalrous good the gratitude layer contains — registry uniqueness — and give away everything non-rival; compute and storage, rivalrous resources spent on a person's behalf, are sold at cost-plus as secondary lines (§7.2 and its note). With the dignity repair that what is sold is *the address, never the name a person is called*. *Break:* a second inherently rivalrous good inside the gratitude layer, or any charge falling on a non-rival good — a feature gate, or a meter on use.
+9. **The engine/leg distinction.** That a population-capped line cannot create an engagement incentive and a usage-metered line can, so the capped line must stay primary — a structural argument, not an accounting one. The cap is a property of the person's handle; the non-person units are held instead to the guard in §7.3's note. *Break:* a population-capped line shown to earn more when the same holders use more.
+10. **The registry analogy and its two breaks.** `domain → DNS → IP` :: `name → registry → proof`, deriving free-proof/paid-handle, expiry-not-revocation, and the economics — with **non-transferability** (which kills squatting by removing the motive) and **one-way resolution enforced in the schema** as the two departures. *Break:* a resale market forming anyway, as a sale of the use of a holder's credentials rather than of the binding; or a reverse lookup reconstructed from public artifacts. The schema does not protect against compelled disclosure or a breach of the private records (§8.1).
+11. **Population, not sales target.** That one-handle-per-verified-person converts a unit count into a human count, and that this makes the target more honest and harder. *Break:* one person counted as more than one holder, or a holder with no verified person behind them, at any measurable rate.
 
 All eleven are dedicated to the public domain and none will be asserted against anyone.
 
@@ -488,4 +541,4 @@ Whether any of it works is a question about a decade of data that does not exist
 
 ---
 
-*Authored by Thon Ly with Miss Aquarius℠. Dedicated to the public domain under CC0 1.0 Universal. Corrections and disconfirmations are welcome; a measure published before the results is published so that it can be held against them.*
+*Authored by Thon Ly with Miss Aquarius℠. Miss Aquarius℠ is the consistent name under which this institution discloses AI collaboration; the underlying models are not named. Dedicated to the public domain under CC0 1.0 Universal. Corrections and disconfirmations are welcome; a measure published before the results is published so that it can be held against them.*
