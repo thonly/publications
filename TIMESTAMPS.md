@@ -2,6 +2,43 @@
 
 All ten wave-4 submissions (2026-09-29) posted with venue date 2026-10-01: machine-dana-from-share-to-vow [11918](https://www.tdcommons.org/dpubs_series/11918) · non-bank-pass-through-architecture-autonomous-ai [11919](https://www.tdcommons.org/dpubs_series/11919) · certification-by-circulation [11920](https://www.tdcommons.org/dpubs_series/11920) · the-unpaid-relay [11921](https://www.tdcommons.org/dpubs_series/11921) · dedicatory-generation [11922](https://www.tdcommons.org/dpubs_series/11922) · the-gift-operation [11924](https://www.tdcommons.org/dpubs_series/11924) · silica-wat-food-network [11928](https://www.tdcommons.org/dpubs_series/11928) · sacrifice-witness-without-discharge [11932](https://www.tdcommons.org/dpubs_series/11932) · appreciation-as-world-building [11934](https://www.tdcommons.org/dpubs_series/11934) · inverted-alms-round [11936](https://www.tdcommons.org/dpubs_series/11936). **Verified 10/10** (`check-mirrors.py --verify-posted`, word for word in order, 0 extra · 0 missing; each control fails as it must). **43 of 43 submissions posted, none awaiting.**
 
+### 2026-10-01 — first DOIs for 24 argument essays (founder: *"do all 22 now plus bodhisattva-santa and the-borrowed-light; don't do the-nearest-attractive-neighbor"*)
+
+The founder's ruling replaces A98's *ride the next revision, never a batch* for these 24: every remaining argument essay on the
+roster, plus two of the three the founder was to decide at their next revision (`the-nearest-attractive-neighbor` stays
+undeposited). The text change was `zenodo: true` in each front matter, plus a `**Keywords:**` line in the 17 essays that had none,
+added before the mint because a missing line cannot be fixed afterwards without a new version. Keywords are drawn from each
+essay's own title, headings and terms. ⚠️ **The model round that §essay-doi-first-exception puts before a first deposit was waived
+by the ruling** — none of these essays has had one. Site modules were edited by hand (Keywords + concept DOI), not regenerated.
+`letting-the-texts-lose` already carried the flag and remains held (polish round + literature census).
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **essays/the-appreciation-economy** | `.ots` → `.r2.ots` (Bitcoin-complete); new `58e9a051ebb9…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084915` *(first deposit; concept `10.5281/zenodo.23084914`)* | 2.5.31 |
+| **essays/scarcity-shifts-to-authenticity** | `.ots` → `.r2.ots` (Bitcoin-complete); new `56a71f632877…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084917` *(first deposit; concept `10.5281/zenodo.23084916`)* | 2.5.31 |
+| **essays/how-to-change-the-world** | `.ots` → `.r2.ots` (Bitcoin-complete); new `490192c0474c…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084919` *(first deposit; concept `10.5281/zenodo.23084918`)* | 2.5.31 |
+| **essays/a-vow-you-could-have-refused** | `.ots` → `.r2.ots` (Bitcoin-complete); new `04d208ec53ab…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084923` *(first deposit; concept `10.5281/zenodo.23084922`)* | 2.5.31 |
+| **essays/anonymous-thanking-with-time** | `.ots` → `.r2.ots` (Bitcoin-complete); new `cf8fa593f5af…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084927` *(first deposit; concept `10.5281/zenodo.23084926`)* | 2.5.31 |
+| **essays/anti-attention-economy** | `.ots` → `.r1.ots` (Bitcoin-complete); new `34e320332e2b…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084929` *(first deposit; concept `10.5281/zenodo.23084928`)* | 2.5.31 |
+| **essays/bodhisattva-and-cautionary-mirror** | `.ots` → `.r2.ots` (Bitcoin-complete); new `9d8a472713e3…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084935` *(first deposit; concept `10.5281/zenodo.23084934`)* | 2.5.31 |
+| **essays/breadth-check-on-the-work** | `.ots` → `.r3.ots` (Bitcoin-complete); new `e33f2614a591…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084939` *(first deposit; concept `10.5281/zenodo.23084938`)* | 2.5.31 |
+| **essays/christmas-jubilee-timing** | `.ots` → `.r2.ots` (Bitcoin-complete); new `99c0c3d11f09…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084943` *(first deposit; concept `10.5281/zenodo.23084942`)* | 2.5.31 |
+| **essays/designing-with-the-grain** | `.ots` → `.r2.ots` (Bitcoin-complete); new `7ccafea0cff6…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084945` *(first deposit; concept `10.5281/zenodo.23084944`)* | 2.5.31 |
+| **essays/diaspora-cambodia-remittance** | `.ots` → `.r3.ots` (Bitcoin-complete); new `ddb3b0d29252…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084947` *(first deposit; concept `10.5281/zenodo.23084946`)* | 2.5.31 |
+| **essays/each-life-as-cosmic-coordinate** | `.ots` → `.r4.ots` (Bitcoin-complete); new `0e609e46667b…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084949` *(first deposit; concept `10.5281/zenodo.23084948`)* | 2.5.31 |
+| **essays/emotional-infrastructure-as-a-public-good** | `.ots` → `.r2.ots` (Bitcoin-complete); new `ac5d47319c1d…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084955` *(first deposit; concept `10.5281/zenodo.23084954`)* | 2.5.31 |
+| **essays/father-son-tipitaka-transcription** | `.ots` → `.r2.ots` (Bitcoin-complete); new `89f51486aba1…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084957` *(first deposit; concept `10.5281/zenodo.23084956`)* | 2.5.31 |
+| **essays/if-everyone-could-give** | `.ots` → `.r1.ots` (Bitcoin-complete); new `bac538916e13…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084959` *(first deposit; concept `10.5281/zenodo.23084958`)* | 2.5.31 |
+| **essays/kids-as-triggers-self-thanking** | `.ots` → `.r1.ots` (Bitcoin-complete); new `477f5c2a355a…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084965` *(first deposit; concept `10.5281/zenodo.23084964`)* | 2.5.31 |
+| **essays/love-and-freedom-dependent-origination** | `.ots` → `.r2.ots` (Bitcoin-complete); new `235a8972fd72…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084967` *(first deposit; concept `10.5281/zenodo.23084966`)* | 2.5.31 |
+| **essays/right-livelihood-kindness-economy** | `.ots` → `.r2.ots` (Bitcoin-complete); new `9dfaed6f5555…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084969` *(first deposit; concept `10.5281/zenodo.23084968`)* | 2.5.31 |
+| **essays/silicon-wat-architecture** | `.ots` → `.r3.ots` (Bitcoin-complete); new `1f46bf3aee4a…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084971` *(first deposit; concept `10.5281/zenodo.23084970`)* | 2.5.31 |
+| **essays/the-capacity-to-give** | `.ots` → `.r2.ots` (Bitcoin-complete); new `32b69f40a8da…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084973` *(first deposit; concept `10.5281/zenodo.23084972`)* | 2.5.31 |
+| **essays/the-gift-of-gratitude** | `.ots` → `.r1.ots` (Bitcoin-complete); new `355575d9826f…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084977` *(first deposit; concept `10.5281/zenodo.23084976`)* | 2.5.31 |
+| **essays/the-two-teslas** | `.ots` → `.r2.ots` (Bitcoin-complete); new `d902bef5694b…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084979` *(first deposit; concept `10.5281/zenodo.23084978`)* | 2.5.31 |
+| **essays/bodhisattva-santa** | `.ots` → `.r2.ots` (Bitcoin-complete); new `e8ecc000e4e7…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084981` *(first deposit; concept `10.5281/zenodo.23084980`)* | 2.5.31 |
+| **essays/the-borrowed-light** | `.ots` → `.r3.ots` (Bitcoin-complete); new `5416e5599939…` *(calendar-only at stamping)* | `2026-10-01.sha256` | `10.5281/zenodo.23084988` *(first deposit; concept `10.5281/zenodo.23084987`)* | 2.5.31 |
+
 ### 2026-09-30 — two study revisions (five riders; a second axis) and a new argument essay, each after an xhigh refuter (founder: *"draft all papers per your recommendation (triage the mindless-beings point)"*)
 
 Both revisions were drafted, refuted by a separate xhigh agent (`TH/notes/reviews/<slug>/2026-09-30-refuter.md`), fixed in full, and
