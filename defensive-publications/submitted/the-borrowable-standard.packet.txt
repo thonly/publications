@@ -1,0 +1,122 @@
+TDCOMMONS SUBMISSION PACKET — wave 5 (A232) — FINAL (built and read 2026-10-01; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Borrowable Standard: Orthographic Standardization, Text Normalization, Collation and Legacy Font Encoding in Text Corpora That Serve as Critical-Apparatus Witnesses, with the Khmer Pāli Canon
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   "The Borrowable Standard" has no colon, so the subtitle follows a colon. Subtitle drawn from the paper's
+   Abstract (first paragraph), Keywords line and ## Terms table: "orthographic standardisation", "text
+   normalisation", "collation", "legacy font encoding", "critical apparatus", "witness", "Pāli canon",
+   "Khmer". No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+  ✓ RULED 2026-10-01: the venue subtitle uses the US forms an examiner types (Standardization,
+   Normalization); the paper and the PDF keep British spelling, and its Keywords line carries both.
+  ✓ Abstract: the siglum sentence is scoped ("the siglum kaṃ., read as Cambodian"), since §7.5 now discloses
+   that ka. may also be Cambodian (roadmap A277 item 4).
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (249 words — limit 250; condensed from the paper's ## Abstract, ## Findings disclosed 1–6 and 8, and §7.5; no new matter)
+This study concerns orthographic standardisation, text normalisation and legacy character encoding as preconditions for machine-readable text corpora that must stand as witnesses in a critical apparatus. It begins from a claim it refutes: that a machine-readable corpus requires a standardised orthography. Swiss German and the Arabic dialects lack one yet support corpora and benchmarks by normalising toward a standard borrowed from a related language (Standard German, Modern Standard Arabic) or toward a convention built for the purpose (CODA). For a corpus that must be authoritative in its own language, a witness to a text rather than a corpus about a language, that borrowing is disqualifying: normalisation that replaces source forms is the inverse of collation and removes the inter-witness differences a critical apparatus records, while a parallel normalisation layer that retains the source form does not. Native orthographic standardisation is therefore argued to be their precondition, with a stated falsification test. The Khmer case, the Pāli canon (Tipiṭaka) translated by a commission of 1929–1968 whose leader also led the codification of Khmer spelling and its dictionary, shows standardisation to be necessary but not sufficient: the orthography was codified by 1967, while character encoding remains unsettled, with five legacy font encodings in one 2009 volume. In the Chaṭṭha Saṅgāyana Tipiṭaka XML, the Cambodian edition has no page-concordance column, and the siglum kaṃ., read as Cambodian, appears in about 8 per cent of variant notes. A further failure of citation-grounded AI follows: a citation that resolves to a rendering, not the source.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"     (kind: study — 9 numbered FINDINGS, no claims)
+  ⚠ The override is REQUIRED, not optional: "## Findings disclosed" does not match check-mirrors.py's
+    CLAIM_HEADING regex, and two argument headings DO match it — "## 2 · The claim, stated precisely" and
+    "## 3 · The claim we started with, and why it is worth showing". Without the override the fingerprint
+    would cover §2/§3 and miss the findings. (census.py also scans exactly "^## Findings disclosed", which is
+    why the heading is unnumbered — the brief's "## <n> · Findings disclosed" form would hide it from the gate.)
+
+FILE       BUILT 2026-10-01 from the repo at the chain's commit (python3 scripts/tdc-pdf.py the-borrowable-standard);
+           23 pages, 504 KB — held in the session scratchpad (pdfs/the-borrowable-standard.pdf) until the founder's named yes,
+           then rebuilt with --submitted into defensive-publications/submitted/.
+  Cover (read): first published 2026-08-28 · concept DOI 10.5281/zenodo.22155053 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23086366) · the scoped timestamp line · CC0. The builder's word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json, so a first submission, not a re-submission.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" L47–54, now in the standard form:
+      "No patent has been or will be sought on anything described in this paper by HeartBank®, Factory 333™,
+      THonly™, Silicon Wat℠, or any entity under their common control. The authors and those entities commit
+      not to assert any patent right against any party practising anything disclosed here." (was: "the author
+      asserts no patent over anything described" — non-standard, singular)
+  [x] Live patents — none named; the paper discloses no mechanism and characterises no patent's claims.
+  [x] kind: study — front matter L6; "## Findings disclosed" L155, 9 findings, each with "Breaks if:";
+      placed after Abstract/Keywords/Terms as in the-unpaid-relay's layout (Prior-Art precedes the Abstract
+      in this paper, so "just before the Prior-Art Statement" would have put the findings above the Abstract).
+  [x] Census — none on file; deposited paper (zenodo.22155053), so census.py gate reports "not retrofitted";
+      priority-phrase scan of Findings + Prior-Art = [] (no first/novel/we-know-of-no). Two unscoped
+      literature-absence sentences removed (Preamble "which almost nobody records"; §1.1 "almost never
+      written up").
+  [x] Prior art — Haugen 1966/1983, Kloss 1969, SwissText 2021, SDS-200, Aepli et al. 2023, CODA 2012 (all
+      fetched/verified 2026-10-01), Sasagawa 2015 (fetched, read in the PDF body), plus the cases that cut
+      against: §4 (the paper's own refutation), §9.2 (1972 rival orthography, 2009 revival), §7.5 (ka. ambiguity).
+  [x] Honest limits — §9.1–§9.6 (myth-free)
+  [x] AI co-authorship disclosed in text — authors line + closing footer ("in collaboration with Miss
+      Aquarius℠, named as co-author on all corpus research")
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Named persons are historical
+      or published authors (Chuon Nath, Haugen, Kloss, Habash/Diab/Rambow, Aepli et al., Sasagawa, Keng
+      Vannsak, Ben-Yehuda, Aasen). Huot Tat appears only as "the man who succeeded him". No family member.
+  [x] No Khmer script (L22): 0 characters in U+1780–U+17FF / U+19E0–U+19FF (was 19, one line, §7.2 —
+      replaced by a description + romanisation; meaning survives).
+  [x] No perma.cc · no draft banner (the category note kept as "> **Note on category.**") · no "Mirrors of
+      this document…" line · no placeholders · no "Document SHA-256 computed at push" footer (scoped
+      attestation line only) · no A126 mission sentence · no "head" of the four bodies
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 2 warn)
+  [x] No emoji / internal markers — 0 (was 125 marker codepoints incl. variation selectors); two inside the
+      §2 box diagram replaced by "→" with widths recomputed
+  [x] Terms table present — "## Terms" (15 rows, added)
+  [x] Keywords line present — added after the Abstract (British + US spellings)
+  [x] Abstract leads with standard terms — first sentence added: "orthographic standardisation, text
+      normalisation and legacy character encoding as preconditions for machine-readable text corpora that
+      must stand as witnesses in a critical apparatus"
+  [x] Fenced diagrams ≤ 95 chars — max 88
+  [x] Title does NOT lead with a mark — "The Borrowable Standard" is unmarked
+  [x] Marks (®/™/℠) only in the body and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: study added; revised: 2026-10-01; date: unchanged (2026-08-28); status: draft
+      (unchanged; this revision adds two ## sections)
+  [x] Citations to a private repository flagged in text: SiliconWat/tipitaka-khmer is PRIVATE (gh, 2026-10-01);
+      §11 and the dedication footer now say "a private repository at the time of writing"
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|nobody;
+                  line numbers = defensive-publications/the-borrowable-standard.md after this revision)
+  mirror-lint's two WARNs, each read:
+    old L49 "it specifies no *novel* mechanism" → L48 "it specifies no mechanism — the operating rules in §7.6
+      restate existing textual-scholarship practice" (the disclosure kept, the adjective removed).
+    old L547 "none of them is novel in textual scholarship" → §7.6 "each restates existing practice in
+      textual scholarship or digital preservation".
+  Also repaired (not linted):
+    §1 "checkability is the only property that survives its author" → "checkability survives its author where
+      trust in the author does not" (counterexample: reproducibility also survives its author).
+    §5.2 "the strongest available support" → "the strongest support this paper has found"; "for exactly the
+      reason argued here" → "for the reason this paper turns on: no adequate target existed to borrow" (CODA
+      was built for computational modelling, not for witness corpora — the shared reason is inadequacy).
+    §7.5 "The most widely used digital edition" → "A widely used digital edition".
+    Preamble "which almost nobody records" and §1.1 "a more common pattern than the literature suggests and
+      is almost never written up" — unscoped literature-absence claims with no census → removed.
+    Coda "the thing that made the canon recoverable was not the copies" → "surviving copies made the canon
+      recoverable; the agreement about how to write it down is what makes the recovered text the same text —
+      and, now, encodable as a witness" (the edition was reissued in the 1990s from surviving copies).
+  "only" — remaining uses are scoped or mechanism-internal (L181/L636 "well-defined only against a target
+    orthography" is Finding 4, carried with its break; L668 "occurs only in fifteen later Pāli works" is a
+    count; L677 "only notes are counted" is method). "first" — ordinals and "first printed/published" dates.
+  Self-contradictions fixed:
+    §6 "an apparatus that currently has none" vs §7.5's 1,820 kaṃ. notes → "in which it is now sparse (§7.5)".
+    §7.6 rule 1 "Never normalise before collating" vs §6.1's r1 repair (a retained parallel layer is fine) →
+      "Never replace source forms before collating; keep any normalisation as a parallel layer".
+    §6.1 diagram "Running the second before the first destroys the input to the first" (flat) → "Replacing
+      source forms before collating destroys collation's input."
+    §9.5.1 "the missing-siglum count" (the siglum is not missing since r1) → "the siglum and concordance counts".
+    Preamble "he standardised how Khmer is written" vs §9.1 "he LED a programme" → "he led the standardisation".
+    Abstract/§7.3 "seventy years" between 1967 and 2026 (= 59) → "nearly sixty years"; diagram "~70 years of
+      divergence" → "still unsettled ~60 years on".
+    §7.5 "five years before the Khmer edition finished printing" (1954 → end-1968 = 14) → "fourteen years".

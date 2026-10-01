@@ -1,0 +1,130 @@
+TDCOMMONS SUBMISSION PACKET — wave 5 (A232) — FINAL (built and read 2026-10-01; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+A Zero-Centred Bilateral Credit Ledger for Customer Prepayment and Peer-to-Peer Lending in Which No Balance Grows on Its Own — a Size-Blind Reputation Display, and Debt Forgiveness as the Only Crossing into a Gift Ledger
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23. NO SUBTITLE IS
+   PROPOSED: the paper's own title is already a standard-term examiner title, ratified as such by the
+   founder on 2026-09-28 (project_b_promise §ruling-4, "examiner title"), and it already carries an em dash
+   with its own second clause. Every load-bearing phrase in it is a term an examiner would type:
+   "bilateral credit ledger", "customer prepayment", "peer-to-peer lending", "reputation display",
+   "debt forgiveness", "gift ledger"; it carries no mark and no coined name. A further subtitle would only
+   repeat it. The human title "The Promise, Not the Score" (front-matter `subtitle:`) is NOT used at the
+   venue. The PDF keeps the paper's own title.)
+  ⚠ Headline Style: the paper's title has a lowercase "a" after the em dash ("— a Size-Blind …"). It is
+    kept verbatim because it is the ratified title on Zenodo and the site; flagged in case the founder
+    prefers "— A Size-Blind …" at the venue (a capitalisation change only, no new matter).
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (245 words — limit 250; the paper's own ## Abstract is ~520 words and was condensed here, no new matter)
+We disclose a zero-centred bilateral credit ledger for customer prepayment and peer-to-peer lending in which no balance grows on its own. Two parties keep one running balance, signed by both and held on both phones, whose sign states who owes, so prepayment and credit are one balance either side of zero. The balance never moves by time. It changes only by a co-signed entry when cash or goods change hands, its discount fixed on that entry; by a co-signed repayment; or by a release the creditor makes alone. There is no accrual, compounding or late penalty; the ledger is non-accruing but not interest-free. It is denominated in one currency and cannot be sold or assigned. A reputation display takes no amount argument: one equal-width, colourless segment for each counterparty a party currently owes, a gap where that balance is overdue, shown only when a new obligation is made. A text line shown only to the prospective creditor gives counts, a coarse band of the total owed, and whether the new balance is larger than any the debtor has repaid, stating no amount. Only the creditor's free release of the whole balance (debt forgiveness) crosses into a separate gift ledger, at most once per pair per annual season; repayment never crosses. Two sub-rules complete the claims: a static code carrying no signed terms can never open an obligation, and no one with a nonzero balance with a person may vouch for that person's new signing key.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 15 · Enumerated claims"     (4 enumerated claims; literal heading at L736)
+
+FILE       BUILT 2026-10-01 from the repo at the chain's commit (python3 scripts/tdc-pdf.py a-promise-that-cannot-grow);
+           43 pages, 776 KB — held in the session scratchpad (pdfs/a-promise-that-cannot-grow.pdf) until the founder's named yes,
+           then rebuilt with --submitted into defensive-publications/submitted/.
+  Cover (read): first published 2026-09-28 · concept DOI 10.5281/zenodo.23041247 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23086360) · the scoped timestamp line · CC0. The builder's word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json, so a first submission, not a re-submission.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" (L38): "The authors will not seek
+      patent protection on any mechanism disclosed here, and commit not to assert any patent right against
+      any party practising it." Stated, permanent, unconditioned, extends to variants (L42). Unchanged; it is
+      already in the standard form, so it was not rewritten.
+  [x] Live patents (legal L48 neighbourhood) — §2.5 (L165-L177) names each for what it DISCLOSES only and
+      states "We make no statement about the scope of any patent's claims." Re-checked in Google Patents on
+      2026-10-01 (status fields, not a legal determination):
+        US 10,200,394 B2 active to 2037-02-10 · US 10,949,837 B1 active to 2037-06-21 · US 8,856,879 B2 active
+        to 2032-01-19 · US 2017/0295023 A1 → US 10,404,469 B2 active to 2037-09-09 ·
+        US 2011/0276479 A1 → US 9,805,369 B2 active to 2031-09-02 (ADDED to the table) ·
+        US 10,803,513 B1 active to 2034-04-08 (ADDED to the table) ·
+        US 2020/0119916 A1 → US 10,756,896 B2 EXPIRED (fee related) — the paper had said "grant unverified".
+      No characterisation of any patent's claims was added. Descriptions were taken from each document's own
+      text (description / abstract), never from its claims section.
+  [x] Claims section — "## 15 · Enumerated claims", 4 items. Claims 1-3 text unchanged. Claim 4 REWORDED to
+      match the disclosure it rests on (§6.3 L437): "whether the new value is larger than any the promisor
+      has previously repaid" → "whether the balance the new value would leave with that party is larger than
+      the largest balance the promisor has previously brought back to zero by repayment". No new matter (the
+      body already defined the comparison this way); see OVERCLAIM READ.
+  [x] Census on file — three passes (2026-09-28 ×2, 2026-09-29), all pre-registered in public before the
+      first query; apertures, controls, verdicts and NOT RUN items stated in §2.2/§2.3/§2.8. Deposited paper,
+      so the full-census bar does not bind it again (ruled 2026-09-23).
+  [x] Prior art — §2 (2.1-2.8), incl. the cases that cut against: Shapiro 2026 killed conjunct (a); RFC 9943 /
+      sigstore / Keybase killed (g′); the interest-free trust line and the 2011 "forgive" tab narrowed (j)
+      heavily; progressive lending narrowed (k) heavily; DeSoc's non-transferable loan tokens (added this
+      revision) narrow (h).
+  [x] Honest limits — §17 (23 limits; rollover first)
+  [x] AI co-authorship disclosed in text — authors line + "## Author Contributions and AI Disclosure"
+      ("Miss Aquarius℠ — the name under which this corpus discloses its AI collaboration"; reviewer models
+      and the underlying substrate not named)
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The receipt handles
+      (@sokha, @dara) are stated as invented (L290). No family member appears. The pilot shop is unnamed.
+      Public authors and officials only (cited works; LICADHO's operations director is cited by role).
+  [x] No perma.cc · no draft banner · no "Mirrors of this document…" line · no placeholders · no retired
+      "Document SHA-256 computed at push" footer · no A126 mission sentence · no "head" of the four bodies
+      (the one "HEAD" is a hash-chain head in the §12 diagram) — greps 0
+  [x] Process language removed — "the main session" (3×) → "the authors"; the paper's revision note is
+      reader-facing (what changed, when), not editor-facing.
+  [x] mirror-lint: 0 refuse · 0 warn (was 0 refuse · 0 warn)
+  [x] check.py: 6 HIGH sig6-mint · 39 MEDIUM — all read; every one is subject vocabulary, not a defect:
+      sig6 fires on the mark "Zero-Point Game" (and "Score" in the subtitle); nonbank-language on "loan"
+      in a lending paper; sig3-offset on "discount" (prepay at a discount is ratified canon); d52-veto on
+      §5.2's "a gift the recipient could veto"; a144 on the title of a cited paper ("…Web3's Soul").
+  [x] No emoji / internal markers — ⭐ ⚠️ ⛔ ✅ grep 0 (the ✗/✓ in the §8 diagram are plain marks)
+  [x] Terms table present — "## Terms" (L838, 25 rows, coined name → standard technical term); one row
+      widened ("loan cycling", HRW's term)
+  [x] Keywords line present — ADDED after the Abstract (L62)
+  [x] Abstract section present — "## Abstract" (L52), first sentence leads with "zero-centred bilateral
+      credit ledger for customer prepayment and peer-to-peer lending"; claim 4 now reflected; "two prior-art
+      passes" → three
+  [x] Fenced diagrams ≤ 95 chars — two over-wide lines fixed (§6.1 render function 101 → split; §6.3 fact
+      line 97 → three lines); widest now 94
+  [x] Title does NOT lead with a mark — no mark anywhere in the title
+  [x] Marks (®/™/℠) appear only in the body and footer; none in the TDCommons title
+  [x] front matter: kind: mechanism (already present); revised: 2026-10-01 added; date: unchanged
+      (2026-09-28); status: draft (unchanged); no sha256:/doi: — check-frontmatter.mjs passes
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|novelty|first|unprecedented|no prior|never been|only|unique|has not been|
+                  nobody|we know of no|not found; line numbers = the paper after this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" / "never been" / unique / "we know of no".
+  "nobody" — L163 "nobody writes that exact sentence" (a caution against reading a null as novelty) → FINE.
+  "not found" — every instance is inside a census table or scoped to an aperture and date (L163, L212); the
+    one bare instance, §15 L738 "the elements not found are …", is now "not found in the apertures of §2".
+  "the only" (17×, incl. the title) — all mechanism statements (the only crossing / only one-signature entry / the only
+    place a number appears on the display) → FINE; none is a priority claim. L425 was SCOPED ("On the
+    conduct display, …") because the agent's private facts (§3.2) are numbers shown to a party.
+  "first" — ordinals and dates only → FINE.
+  Claims read one by one:
+    Claim 1 — composition; §15 L738/L740 list what is not claimed, each with its prior art → no overclaim.
+    Claim 2 — (e′) static code never opens an obligation; Pix Cobrança, EMVCo, UPI cited beside it → fine.
+    Claim 3 — (f′) voucher exclusion; prior art beside it CORRECTED: Wills Act 1837 s.15 was cited for
+      "excluding an attester with a stake", the opposite of what it does (s.15 voids the GIFT and expressly
+      keeps the person "admitted as a witness", legislation.gov.uk). Now stated as it reads. The Microsoft
+      patent's account-holder abort (found on re-reading it) is added to §2.5 as prior art for the
+      cancellable wait; the claimed element, the voucher exclusion, is unaffected.
+    Claim 4 — was WIDER than its disclosure ("new value larger than any previously repaid" vs the body's
+      "balance the new entry would leave … against the largest balance ever brought back to zero"); reworded
+      to the body's definition. Narrower or equal, never wider.
+  Self-contradictions fixed (claims vs body, numbers vs register):
+    Abstract L58 "as a disclosed but unclaimed feature, a coarse band" vs claim 4 (which claims it) → fixed.
+    §6.3 L439 "Both are disclosed and not claimed" vs claim 4 → "Neither is claimed alone; together … claim 4".
+    Note L20 / Abstract L60 "two prior-art passes" vs the Prior-Art statement's "three" → three.
+    §2 L90 "two passes", L98 and L153 "the owed third pass", §17 L820 "owes a third pass" — all stale since
+      pass 3 ran 2026-09-29 → corrected.
+    §16 P-PM1 falsifier "a ratio more than 10% lower" vs the REGISTERED "a fall more than 10 percentage
+      points larger" (program/prediction-register.md L258) → aligned to the register; P-PM3 "the same or a
+      lower band" vs registered "a flat band" → aligned; a sentence now says the register governs.

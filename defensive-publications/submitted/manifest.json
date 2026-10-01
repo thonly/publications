@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "slug": "a-promise-that-cannot-grow",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "a-promise-that-cannot-grow.pdf",
+      "claims_headings": [
+        "## 15 · Enumerated claims"
+      ],
+      "claims_sha256": "fd32196b502627f4258d8115b6f3d16338ca1caabe45323c1ef8ce292f585997",
+      "body_sha256": "71d1deb9cc7c4b39090f0b310b72272fe4ea2c9507b7156b33a32e3e4b5b286a"
+    },
+    {
       "slug": "agi-monks-caretaker-not-ordained",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
@@ -208,6 +219,20 @@
       }
     },
     {
+      "slug": "circulation-sports",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "circulation-sports.pdf",
+      "claims_headings": [
+        "## 13 · Findings Disclosed and Dedication"
+      ],
+      "claims_sha256": "78ff680c199c9e09472e8a87f8cbf5c5dd0d2087746d5aa72b0fd0bd08e82193",
+      "claims_heading_override": [
+        "## 13 · Findings Disclosed and Dedication"
+      ],
+      "body_sha256": "d438591192b1f785117bf56b404f5905586a2660982d48253e05e4b339647ad0"
+    },
+    {
       "slug": "co-presence-gated-redemption",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
@@ -229,6 +254,17 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "constituting-an-artificial-person",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "constituting-an-artificial-person.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "cb434fabffe1773f413b1bebe4265cb18b6fccef7b394a2b34ba484cdf100815",
+      "body_sha256": "5fb757613208601492d7378f51aa60b49f709e7bf80fc14a28ac42e5ee2978ad"
     },
     {
       "slug": "dedicatory-generation",
@@ -341,6 +377,17 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "giving-is-a-gift-too",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "giving-is-a-gift-too.pdf",
+      "claims_headings": [
+        "## 11. Design implications and claimed contribution"
+      ],
+      "claims_sha256": "b615a10ba820fd169444edd51dcf16022631ff3562d4fbf0075b68b718a19bdf",
+      "body_sha256": "80cfe3600e350d7bb32a63556cc9fdeb1e69bdb812c195f2416b7483b0a8a6b5"
     },
     {
       "slug": "gratitude-riding-currency-tag",
@@ -728,6 +775,20 @@
       }
     },
     {
+      "slug": "the-borrowable-standard",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "the-borrowable-standard.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "e065267786bb202c01447bd305bd97c096ed4fbfee975a74f214405fc1a9d7e4",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "eef9b673df13570826b6a44fa3589d80912d3418eff0e24dfde3477f2aadee06"
+    },
+    {
       "slug": "the-called-draw",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
@@ -936,6 +997,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "the-zero-employee-institution",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-01",
+      "pdf": "the-zero-employee-institution.pdf",
+      "claims_headings": [
+        "## 11 · Findings disclosed"
+      ],
+      "claims_sha256": "c1ee6fb1163aeebc177f28f91190a40bf75fd0a5e5a2c6e56c401b58003a8223",
+      "claims_heading_override": [
+        "## 11 · Findings disclosed"
+      ],
+      "body_sha256": "57b6867543454834f147eac4defe3e28c318c38183b544f99b27ae297db28bff"
     },
     {
       "slug": "tipitaka-alignment-substrate",

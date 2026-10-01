@@ -1,0 +1,134 @@
+TDCOMMONS SUBMISSION PACKET — wave 5 (A232) — FINAL (built and read 2026-10-01; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Zero-Employee Institution: Single-Seat Governance With AI Succession and Planned Dissolution, Circulated Volume in Place of Enterprise Valuation, and Funding Through a Name Registry of Non-Transferable, One-Way-Resolving Personal Identifiers
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   "The Zero-Employee Institution" has no colon, so the subtitle follows a colon. Subtitle drawn from the
+   paper's Abstract (first sentence), the ## Terms table and Findings 1, 7, 8 and 10: "single-seat
+   governance", "autonomous AI successor", "planned dissolution", "gross circulated value ... in place of
+   enterprise valuation", "name registry", "non-transferable", "one-way resolution", "personal identifier".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title and front-matter subtitle.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words by wc — limit 250; the paper's own ## Abstract is ~650 words and was condensed here, no new matter)
+We describe an institutional design for a zero-employee organization governed by a single seat: held first by a human founder, then by an autonomous AI successor, then vacated at a planned dissolution (1 → 1 → 0, never 2). Counting governing seats rather than salaries makes the design a succession mechanism rather than an austerity measure, because handover becomes a transfer of occupancy rather than a reorganization. Employees are excluded not for cost but because a payroll is a standing internal interest in continuation, and because employment obligations block transfer to a non-human controller; the exclusion is tested by economic dependence rather than contractual form, so a sole dependent vendor counts as staff. Enterprise valuation is read as the capitalized share of created value a firm retains, so an organization retaining none is measured by gross circulated value, reported cumulatively beside unique principal and distinct participants, with time reported in hours, never money. Funding comes from charging only for rivalrous goods: within the gratitude layer the one rivalrous good is an exclusive registration in a name registry; compute and storage are sold at cost-plus as secondary lines. As in the domain-name model, proof of personhood is free, the handle is paid, and registrations expire rather than being revoked; the design departs from it twice: personal identifiers are non-transferable, and resolution runs one way only, from public artifact to identifier, enforced in the schema. Stated limits: a single-family evidence base, a compliance ceiling, and the natural-person requirement for officers.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 11 · Findings disclosed"
+     (kind: study — 11 enumerated FINDINGS, each with its break; the heading does not contain "claim", so
+      check-mirrors.py's CLAIM_HEADING regex will NOT find it and the override is REQUIRED, or --record refuses)
+
+FILE       BUILT 2026-10-01 from the repo at the chain's commit (python3 scripts/tdc-pdf.py the-zero-employee-institution);
+           23 pages, 461 KB — held in the session scratchpad (pdfs/the-zero-employee-institution.pdf) until the founder's named yes,
+           then rebuilt with --submitted into defensive-publications/submitted/.
+  Cover (read): first published 2026-08-13 · concept DOI 10.5281/zenodo.21947420 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23086367) · the scoped timestamp line · CC0. The builder's word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json, so a first submission, not a re-submission.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement" (L76): the paper's original
+      sentence kept, and the standard wave-4 form ADDED: "No patent has been or will be sought on anything
+      described in this paper — measure, structure, design, or argument — by HeartBank®, Factory 333™,
+      THonly™, Silicon Wat℠, or any entity under their common control. The authors and those entities commit
+      not to assert any patent right against any party practising anything disclosed here." Plus the
+      trademark reservation (HeartBank®, Proof of Humanity℠, Proof of Coordinate℠, Miss Aquarius℠).
+  [x] Live patents — none named; no reading of any patent's claims.
+  [x] Findings section (kind: study) — "## 11 · Findings disclosed", 11 numbered findings, the same eleven
+      items as the old "## 11 · What is claimed, and freed", each now carrying its *Break:*; two items scoped
+      (8: "the only inherently rivalrous good" → within the gratitude layer, compute and storage as legs;
+      3: payroll as a standing pressure, not an impossibility). No disclosed item removed.
+  [x] Census — none on file; none owed: a study asserting no priority (§kind-study / §studies-and-the-census).
+      The paper now says so (L82, L514) and names the nearest prior work instead.
+  [x] Prior art — Prior-Art Statement L86 (RFC 882/883; ICANN 1999 registrar separation; Instagram terms;
+      Ohlhaver–Weyl–Buterin 2022 soulbound tokens; ILO R198 ¶4(b); Spain Law 20/2007 art. 11; The Atlantic
+      Philanthropies; March of Dimes), incl. the cases that cut against: the Spanish 75% line (§4.1's "no clean
+      line"), staffed spend-down foundations that ended on schedule (Finding 3, §10), non-transferable IDs
+      predating the paper (§8.1).
+  [x] Honest limits — "## 10 · Honest limits" (L492), now with the mixed record of planned dissolution
+  [x] AI co-authorship disclosed in text — authors line + closing footer, now with "Miss Aquarius℠ is the
+      consistent name under which this institution discloses AI collaboration; the underlying models are not
+      named" (L544)
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Named persons are public
+      authors of cited work only (Mockapetris; Ohlhaver, Weyl, Buterin). No family member appears.
+  [x] No perma.cc · draft banner REMOVED (substance kept as "> **Note.**", L17) · no "Mirrors of this
+      document…" line · no placeholders · no "Document SHA-256 computed at push" footer · no A126 mission
+      sentence · no "head" of the four bodies
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 0 warn)
+  [x] No emoji / internal markers — 25 ⭐/⚠️ removed (grep 0)
+  [x] Terms table present — "## Terms" (L43, 24 rows; added)
+  [x] Keywords line present — widened (L39)
+  [x] Abstract section present — "## Abstract", first sentence now leads with "zero-employee organization
+      governed by a single seat ... performance measure that replaces enterprise valuation ... name registry"
+  [x] Fenced diagrams ≤ 95 chars — widest fenced line 86 (§6 block); unchanged
+  [x] Title does NOT lead with a mark — "The Zero-Employee Institution" is unmarked
+  [x] Marks (®/™/℠) appear only in the body and footer; none in the TDCommons title or subtitle
+  [x] Pāli/tradition citation — §7 merit sentence now cites Atthasālinī abh01a.att.xml:5541 [aṭṭhakathā],
+      verified through the tipitaka MCP (control PASS; passage ±15 read; verify VERIFIED); commentator's own
+      question-and-answer voice, not a reported view
+  [x] front matter: kind: study added; revised: 2026-10-01; date: unchanged (2026-08-13); status: draft
+      (unchanged; this revision adds ## Terms and renames ## 11, so draft is required anyway);
+      program: open kept; no sha256:/doi:; check-frontmatter.mjs rc=0
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|nobody|largest|oldest|
+                  exactly one; line numbers = defensive-publications/the-zero-employee-institution.md after
+                  this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" / "never been".
+  "only" — each read and hunted:
+    L3 subtitle "Taxing the Only Rivalrous Good It Has" → "Taxing the One Rivalrous Good in Its Gratitude
+      Layer" (the PDF prints it; §7.2 sells compute, which the paper itself calls rivalrous).
+    L35 abstract + Finding 8 (L523) "the only inherently rivalrous good" — counterexample is the
+      paper's own §7.2 (compute, storage) → scoped "the gratitude layer contains"; L301 blockquote kept as
+      disclosed with a Current-form note at L315.
+    L419 §8.4 "identifies exactly one rivalrous good and refuses the rest" → "... in the gratitude layer and
+      refuses to charge for the rest of that layer (§7 and its note)".
+    L341 "the only growth path is more people" — counterexample: raising the price → "short of raising the
+      price, which the design sets to fall, the only growth path ...".
+    L488 "the only arrangement under which a namespace ... can charge" → "what lets a namespace ... charge for
+      any of it without putting a price on the natural world".
+    L251 "office only where the acts are hers", L23 "resolve one way only", L284 "only partial" → FINE
+      (mechanism/scope statements, not priority).
+  "first" — ordinals and "for the first time" (L341) → FINE; L389 "This is the third instance in this
+    corpus" → "not the first instance" (count unverifiable).
+  "largest / oldest" — L417 "the largest and oldest demonstration" → "among the oldest and largest";
+    L403 "several times the largest paid subscription in history and a large multiple of every domain ever
+    registered" → REPLACED with sourced figures (see below); L472 "the largest single flow in the design"
+    → "in one earning line the largest flow" (canon says the largest VOUCHING flow goes to the subject; the
+    gift circulation is larger and also bypasses the institution).
+  "nobody / no one" — L377 "no one pays per DNS lookup" → "the person looking a domain up pays nothing for
+    the lookup" (managed DNS bills per query); others ("nobody else", "nobody believes", "nobody in the
+    building") → FINE.
+  Factual corrections (sources fetched 2026-10-01):
+    L86  DNS attribution: "hierarchical delegation, expiry rather than revocation, registrar/registry
+         separation — is theirs [Mockapetris and the IETF]" → delegation theirs (RFC 882/883, Nov 1983);
+         renewal-term and registrar separation are registry/ICANN practice (ICANN press release 21 Apr 1999).
+    L373 "resolves to something that is neither scarce nor paid for" → "not paid for at the point of use",
+         with IPv4 scarcity acknowledged.
+    L379 "Registries do not judge; they lapse" → "In the ordinary course ..." (contradicted §8.3 disputes).
+    L393 "a schema ... survives ... a subpoena" → survives authors and ownership change, NOT compelled
+         disclosure or breach of the private records.
+    L403 1B holders vs. China Mobile (">1.0 billion" mobile customers, 2024 annual results) and 386.9M
+         domains registered end-2025 (Verisign DNIB via Goldstein Report).
+    L411 UDRP "arbitration regime" → "administrative procedure (... adopted in 1999)" (UDRP ¶4: "mandatory
+         administrative proceeding"; adopted 26 Aug 1999).
+    L464/L466 §9.2 legal characterisations softened: "is private benefit" → "risks being private benefit (a
+         characterisation for counsel, not settled here)"; "a donation is not available to a non-charity" →
+         "a charitable donation ...".
+    L496 "There are no figures here" contradicted §8.2's billion → "no money targets here, and no dates",
+         with the billion named as a unit illustration.
+    L504 "Institutions that plan their own end have a poor record" → "a mixed record" (Atlantic Philanthropies
+         dissolved 2020; March of Dimes new mission 1958).
+  Self-contradictions fixed: L31 abstract "standing constituency for extraction" vs. body "for the
+    institution's continuation" → "for continuation"; L33 abstract's unnarrowed valuation claim vs. §2.1
+    → narrowed.

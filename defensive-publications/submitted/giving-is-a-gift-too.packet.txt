@@ -1,0 +1,123 @@
+TDCOMMONS SUBMISSION PACKET — wave 5 (A232) — FINAL (built and read 2026-10-01; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Giving Is a Gift Too: How a Split Reward Ledger and Anonymity Make Every Family Member a Giver — Splitting Each Credit Between a Kept Account and an Earmarked Give-Only Balance, with Default Donor Anonymity, Family Scope and an Annual Reset
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   already carries a colon, so the subtitle follows an EM DASH, never a second colon (ruling 2026-09-24).
+   Subtitle drawn from the paper's ## Abstract (first paragraph), ## Terms table and claims 2 and 5:
+   "peer-to-peer reward ledger", "earmarked ... give-only balance", "kept account", "donor anonymity",
+   "annual reset". No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+  ✓ RULED 2026-10-01 (founder: "do all per your recommendation"): the paper is RETITLED — the old title
+   named families by their lack (Sig-8). The new paper title carries "Split Reward Ledger", so the venue
+   subtitle names the split, the earmark, anonymity, family scope and the reset without repeating it.
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40;
+               if the form refuses blank, type "none" — bepress drops it)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250; condensed from the paper's ## Abstract, §5, §7, §9, §10 and claims 2
+            and 5; no new matter; standard terms first)
+A peer-to-peer reward ledger is described in which every credit (an incentive reward for a recorded kind act, or a transfer received from another member) is split 50/50 at the moment of credit between a personal account the member keeps and an earmarked, forward-only giving balance whose only outflow is a transfer to another member. That transfer is itself a credit and splits again, so a quantity passed down a chain lands, in aggregate, exactly its own amount in personal accounts and creates nothing. Giver identity is withheld from recipients by default, the ledger is scoped to a family group, and every unspent giving balance returns to zero once a year, assigned to a common fund rather than rolled over. The paper argues that this combination lets members of households with little or no discretionary income take the giver's role in prosocial spending without first holding a surplus: the wellbeing benefit of giving is available without sacrifice to those with surplus and priced in subsistence for those without. Default donor anonymity is argued to remove the size signal that makes a small gift embarrassing and a large one status-bearing. Prior art cited includes classical sources that measure a gift against its giver's means and a patented rebate-allocation system that discloses an earmark earlier. A single pilot family prompted the thesis and is reported as n = 1. Stated limits: pre-committed giving is costless giving, anonymity in a small group is thin, and the registered tests are not yet scorable.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 11. Design implications and claimed contribution"
+     (kind: mechanism; the enumerated claims are the bold "Claimed contribution" list inside this
+      section — 5 items, claim 5 added at this revision as a dependent claim on the annual reset disclosed
+      in §5; the section also carries 5 "Design implications" above the claims)
+
+FILE       BUILT 2026-10-01 from the repo at the chain's commit (python3 scripts/tdc-pdf.py giving-is-a-gift-too);
+           13 pages, 328 KB — held in the session scratchpad (pdfs/giving-is-a-gift-too.pdf) until the founder's named yes,
+           then rebuilt with --submitted into defensive-publications/submitted/.
+  Cover (read): first published 2026-06-08 · concept DOI 10.5281/zenodo.21947331 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23086363) · the scoped timestamp line · CC0. The builder's word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json, so a first submission, not a re-submission.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement", now in the standard wave-4
+      form: "No patent has been or will be sought on any mechanism described in this paper by HeartBank®,
+      Factory 333™, THonly™, Silicon Wat℠, or any entity under their common control. The authors and
+      those entities commit not to assert any patent right against any party practising any mechanism
+      disclosed here." (was: "The author asserts no patent, will not seek one" — non-standard)
+  [x] Live patent named for what it DISCLOSES only — PayForward LLC, US 2015/0332306 A1, granted as
+      US 10,679,237 B2 (2020-06-09; Google Patents: active, adjusted expiry 2037-07-20). §9 states what
+      its text discloses (verbatim passages read 2026-10-01) and "nothing here is a reading of its
+      claims"; the Prior-Art statement carries the same sentence. No characterisation of its claims.
+      ⚠ No legal row exists for it — ruling owed (see report).
+  [x] Claims section — 5 enumerated items under "Claimed contribution". Claims 1, 3, 4 NARROWED (see
+      OVERCLAIM READ); claim 2 restated to lead with the mechanism (no new matter, §5/§6); claim 5 ADDED
+      (dependent; the 7 January reset disclosed in §5 and design implication 3). Paper is NOT in
+      submitted/manifest.json, so the mirror-revision rule does not bind.
+  [x] Census — none on file (census.py list); the paper predates the 2026-09-13 practice and the
+      Prior-Art statement now says so and asserts no absence. Deposited paper → no full-census bar.
+  [x] Prior art — §9, incl. the cases that cut against: Aristotle NE IV.1–2 (liberality relative to
+      means; magnificence gated by wealth), SN 1.32 (a gift from little measured equal to a thousand;
+      the Buddha's own verse goes further), PayForward (the earmark), Charity and Shame (the reframing),
+      Soetevent 2005 (visibility raises some giving), the 2022 failed close replication of Dunn 2008.
+  [x] Honest limits — §10, seven bullets (four added or extended this revision)
+  [x] AI co-authorship disclosed in text — authors line + closing "Co-drafted in collaboration with
+      Miss Aquarius℠ ... Substantive authorship and final editorial control remain with the author."
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. The one relation left is
+      the adult point of contact ("the founder's maternal first cousin", §10). The minors are no longer
+      named by relation: "father, mother, two sons" → "a household of four"; "in the mother's words" →
+      "in the words of the household's point of contact". No health matter anywhere (grep 0).
+  [x] No perma.cc · no draft banner (two removed: L17 → "> **Note.**", L261 → "First published
+      2026-06-08; revised 2026-10-01.") · no "Mirrors of this document…" line · no placeholders · no
+      retired "Document SHA-256 computed at push" footer (the footer carries the scoped attestation line
+      only) · no A126 mission sentence · no "head" of the four bodies
+  [x] mirror-lint: 0 refuse · 0 warn (was 2 refuse · 1 warn)
+  [x] check.py: 0 HIGH · 0 MEDIUM · 0 LOW (was 10 MEDIUM: 8 sig8-lack "the poor", 2 d46 "quietly")
+  [x] No emoji / internal markers (grep 0)
+  [x] Terms table present — "## Terms" (16 rows; added)
+  [x] Keywords line present — added after the Abstract
+  [x] Abstract section present — "## Abstract", first paragraph now leads with "A peer-to-peer reward
+      ledger ... split 50/50 at the moment of credit ... earmarked, forward-only giving balance"
+  [x] Fenced diagrams ≤ 95 chars — widest 71
+  [x] Title does NOT lead with a mark
+  [x] Marks (®/™/℠) only in body and footer; none in the TDCommons subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date unchanged (2026-06-08); status:
+      draft (unchanged; this revision adds ## Terms, so draft is required anyway); no sha256:/doi:
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|has not been|nobody|
+                  settled|established|decisive|always; line numbers = the paper after this revision)
+  mirror-lint's WARN, read: old L31 "novelty is claimed only for the specific framing and mechanism"
+    → L34 "what this paper contributes is the specific framing and mechanism enumerated in §11", plus a
+    plain statement that no census was run and nothing asserts an absence.
+  Also repaired (not linted):
+    old §9 close "What the literature does not address — and this paper does" (an unscoped absence)
+      → "What this paper contributes", naming Aristotle, SN 1.32, Charity and Shame and PayForward as
+      the anticipations first.
+    old §3 "Every study of prosocial spending presupposes ..." → "The canonical prosocial-spending
+      experiments hold fixed ..." (the toddler study used the child's own treats).
+    old §2 "robust ... a happiness the studies find nowhere else in their designs" → "old and widely
+      reported, though its experimental base is smaller than its fame ... a happiness that, in these
+      designs, the same resources spent on oneself did not buy"; Contents "the settled finding" →
+      "the reported finding".
+    old §7 "a meaningful share of the growth pressure is the desire to give" (n = 1, unmeasured) →
+      "in the one family observed, some of the growth pressure was reported as the desire to give".
+    claim 1 narrowed: "(the means-relativity of a gift's worth is classical — Aristotle; SN 1.32; what is
+      claimed is its statement as a pricing of the wellbeing dividend ...)".
+    claim 3 narrowed: "(a signal in one family, §8; ...)"; claim 4: "(a single family, reported and
+      unmeasured)".
+    old §9 PayForward "what it lacks is the recursion, the default anonymity and the family scope" —
+      too strong against its own text (dual sponsor/consumer roles; opt-in purchase-detail privacy;
+      family as co-contributors to a cause) → scoped to the three precise differences.
+  "only" — mechanism statements ("whose only outflow", "draws only from here", "available without
+    sacrifice only to those with surplus") → FINE; none is a priority claim.
+  "first" — ordinals and dates ("first-month", "first perfection", "First published") → FINE.
+  Self-contradictions fixed (the ruled §priced-not-withheld wording, 2026-09-05, had been applied in
+    §3 but not elsewhere): Preamble "quietly excluded", Abstract "a luxury they cannot afford" and
+    "the poor are excluded", §1 "most acutely withheld", §3 diagram "structurally out of reach", §4
+    "those without surplus cannot", "withheld, silently", "excluded twice", §8 "quietly revoked" — each
+    now states the price, matching §3's "The dividend is not withheld from them; it is priced".
+    Also §6 "No one is positioned as the family's benefactor" against the founder-seeded pool → "No
+    member ... (the seed is another matter, §10)".

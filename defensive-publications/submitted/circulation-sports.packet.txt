@@ -1,0 +1,134 @@
+TDCOMMONS SUBMISSION PACKET — wave 5 (A232) — FINAL (built and read 2026-10-01; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Circulation Sports: A Category That Already Had Members and No Name — Classifying Keep-Up Circle Games, Cooperative Ball Games and Sports Warm-Up Drills by Scoring Unit, Guaranteed Equal Participation and No Individual Statistics
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   already has a colon, so the subtitle follows an EM DASH (ruling 2026-09-24). Subtitle drawn from the
+   paper's Abstract (first sentence), Keywords and the ## Terms table: "keep-up circle games", "cooperative
+   ball games", "sports warm-up drills", "scoring unit", "guaranteed equal participation", "no individual
+   statistics". No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (243 words — limit 250; condensed from the paper's ## Abstract, Terms, §2, §4, §8, §9, §10 and §11; no new matter)
+This study classifies cooperative and non-competitive ball games, keep-up circle games and sports warm-up drills by their scoring unit. Some sports score when an exchange ends; others score when it continues. A circulation sport is defined by three properties held as rules: it scores the completed pass rather than the termination; it guarantees that every participant receives the ball (by mandatory rotation, a called receiver or an all-must-touch rule); and it keeps no individual statistics. Below three participants a forward pass cannot be told from a return, a floor cited from work on generalized exchange and indirect reciprocity. A three-step rule-modification procedure (re-seat the scoring unit; guarantee reach; delete accumulation) comes with worked conversions of basketball, volleyball, soccer and tennis, and a boundary (Ultimate Frisbee, the rondo, golf). Members include kemari, chinlone and the Malay circle game sepak raga bulatan, whose conversion into the net sport sepak takraw (Penang, 1945, with earlier net forms in Siam and at Seremban) is read as the procedure run in reverse. A pre-registered coded survey of 22 published warm-up and icebreaker formats (2026-08-07) falsified the authors' prediction that guaranteed turn distribution is rare: it was found in four architectures (queue, role rotation, round completion, turn-taking norm), each of which makes the turn order predictable. The paper states a drill/sport differentia (a sport's ending is supplied by its own rules), distinguishes the class from cooperative games while carrying an open question against that distinction, and pre-registers six predictions.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 13 · Findings Disclosed and Dedication"     (11 enumerated FINDINGS — the paper is
+  kind: study, so it carries findings, never claims; the heading keeps "Dedication" as the brief asked)
+
+FILE       BUILT 2026-10-01 from the repo at the chain's commit (python3 scripts/tdc-pdf.py circulation-sports);
+           24 pages, 543 KB — held in the session scratchpad (pdfs/circulation-sports.pdf) until the founder's named yes,
+           then rebuilt with --submitted into defensive-publications/submitted/.
+  Cover (read): first published 2026-08-07 · concept DOI 10.5281/zenodo.21947302 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23086362) · the scoped timestamp line · CC0. The builder's word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json, so a first submission, not a re-submission.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement", rewritten to the standard form:
+      "No patent has been or will be sought on anything disclosed in this paper, and no trademark or other
+      exclusive right in the category it defines or in that category's name, by HeartBank®, Factory 333™,
+      THonly™, Silicon Wat℠, or any entity under their common control, in any jurisdiction, at any time.
+      The authors and those entities commit not to assert any such right against anyone practising or
+      teaching anything disclosed here, or using the term circulation sport. The commitment is stated
+      rather than implied, and is not conditioned on reciprocity, attribution, or field of use."
+      (was: "The authors and HeartBank® will not seek patent, trademark, or any other exclusive right on
+      the category defined herein" — one entity, no assertion covenant)
+  [x] Live patents — none named in the paper; no reading of any patent's claims.
+  [x] kind: study — "## 13 · Findings Disclosed and Dedication", 11 findings, each with "Breaks if:".
+      Findings 1–10 are the former claims 1–10 restated as findings (claim 8 narrowed — see OVERCLAIM
+      READ); finding 11 covers the already-disclosed §2.5 (added 2026-08-22, never enumerated).
+  [x] Census on file — P-CS5 desk survey (2026-08-07), aperture now stated in the Prior-Art statement;
+      deposited paper and a study asserting no priority, so the full-census bar does not bind
+      (census.py gate: "already deposited ... not retrofitted"; priority-phrase scan over the whole
+      paper: 0 hits after this revision).
+  [x] Prior art — Orlick 1978, New Games, kemari/chinlone/sepak raga/sepak takraw, Lévi-Strauss, kula,
+      Boyd & Richerson 1989, Nowak & Roch 2007, Sahlins 1965, Gneezy/Leonard/List 2009, Niederle &
+      Vesterlund 2007, Markowsky & Beblo 2022 (added); Caillois 1958/1961 (added); USA Volleyball
+      "cooperative scoring" (added, the case that cuts against §10); Speed Ball (added, the case that
+      bounds finding 8).
+  [x] Honest limits — §12 (two bullets added: the full members rest on a convention read as a rule;
+      the circulation/cooperation line is under strain in the governing body's own vocabulary)
+  [x] AI co-authorship disclosed in text — authors line + footer ("Miss Aquarius℠, the name under which
+      this corpus discloses its AI collaboration; the underlying models are not named")
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Named persons are
+      historical or published figures (Hamid Maidin, Mohamad Abdul Rahman, Syed Yaacob — named in the
+      sport's published histories; Emperor Meiji; Minamoto no Yoriie; cited scholars). No family relation,
+      no minor. "a single family" (§12) names no one.
+  [x] No perma.cc · no draft banner (the "Draft notes for the editor" banner became a "> **Note.**" block,
+      process language removed) · no "Mirrors of this document…" line · no placeholders · no
+      "Document SHA-256 computed at push" footer · no A126 mission sentence · no "head" of the four bodies
+  [x] mirror-lint: 0 refuse · 0 warn (was 1 refuse · 3 warn)
+  [x] No emoji / internal markers — the one "✅" (§11 P-CS5) became plain words; census ✓ ○ ✗ ~ kept
+  [x] Terms table present — "## Terms" (13 rows; added)
+  [x] Keywords line present — rewritten, standard terms first, coined names last
+  [x] Abstract section present — "## Abstract", first sentence now leads with "cooperative and
+      non-competitive ball games, keep-up circle games and sports warm-up drills ... scoring unit"
+  [x] Fenced diagrams ≤ 95 chars — widest 76
+  [x] Title does NOT lead with a mark
+  [x] Marks (®/™/℠) only in the body and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: study added; revised: 2026-10-01; date: unchanged (2026-08-07); status: draft
+      (unchanged; this revision adds "## Terms" and renames ## 7 and ## 13, so draft is required anyway).
+      category: mechanism left as is (site routing, §kind-study rule 1) — see rulings owed.
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|first|unprecedented|no prior|never been|only|unique|nobody|every|attested;
+                  line numbers = defensive-publications/circulation-sports.md after this revision)
+  mirror-lint's four hits, each read:
+    old L15 draft banner → L16 "> **Note.**" block; kept: study status, why published early, sibling split,
+      name freed, the null reported first; added: the title's "no name" scoped to the sources cited.
+    old L47 "A child who has never been passed to" (not a priority claim; lint false positive) → L72
+      "A child who is never passed to".
+    old L155 "removes the last of its claim to novelty" → L180 "leaves the paper no claim that the
+      operation itself is new".
+    old L178 "The inverse operation ... has simply never been written down" — also contradicted §10
+      (Orlick's book is a written conversion) → L203 "Its nearest written form is the cooperative-games
+      literature, from which §10 distinguishes the form §5 writes down."
+  Absence / priority claims removed or scoped (not linted):
+    Abstract "has never had a name or a specification" → names the class and draws its line against
+      the nearest named class; Note scopes the title's "no name" to the sources cited.
+    Abstract "at least fourteen centuries ... members on four continents" → "more than a thousand
+      years ... across East and Southeast Asia and in the warm-ups of mainstream sports" (the 644 kemari
+      date is disputed; the paper named no member outside Asia but footbag/keepie-uppie, so "four
+      continents" was unsupported).
+    §1 "cultures that never compared notes ... nobody had collected them" → "some related by descent ...
+      usually described one game at a time" (kemari came from China — the paper's own §3).
+    §7 heading "Every Classic Sport Already Contains Its Circulatory Form" (golf, the §6 antipode,
+      contradicts "every") → "Classic Sports Already Contain Their Circulatory Forms"; body "Nobody
+      appears to have noticed that these are one family" → "catalogued sport by sport ... this paper
+      reads them as one family".
+    §14 "nobody has ever thought to preserve" · "never collected, on four continents, in languages that
+      did not borrow from one another, all of which independently arrived" · "The oldest game ... fourteen
+      centuries" (jianzi is often dated older) → rewritten without absence claims.
+    Prior-Art "The term 'circulation sport' is coined here" — the sibling paper used and freed
+      "AI-called circulation sport" on 2026-07-23 → "defined here as the name of the class ... first
+      appears in this corpus in the sibling paper's freed term"; "Terms coined" → "Terms this paper
+      defines and frees (... not a claim that no one has used the words before)".
+    §8.5 "Before cheap devices, the only available holder was a coach" (a drawn lot or shuffled deck
+      holds an order) → "would usually have been a person outside the play ...".
+    §8.5 / claim 8 "unattested" → "in the census"; "the designs that actually exist" → "the designs
+      the census surveyed".
+  Finding 8 NARROWED (was claim 8): survivor now "reach guaranteed in an order that no player chooses and
+    none can anticipate ... not found in the census aperture on 2026-08-07" — the hunt found a documented
+    passer-chosen all-must-touch rule (Speed Ball) that the old wording did not exclude.
+  "only" remaining — "only the first carries a precondition" (finding 11), "the only scoring event"
+    (Ultimate), "Stated as an empirical finding only" → FINE; none is a priority claim.
+  "first" remaining — dates and ordinals ("first published", "the first organised competition",
+    "first appears in this corpus") → FINE.
+  Self-contradictions fixed: "Five predictions" (abstract, §11) against six listed (P-CS1–P-CS6) → six;
+    census note "14th c. rules" against §3 "thirteenth century" → 13th c.; §11 "(two vacuous
+    conditionals, one secular-trend confound)" did not cover three predictions → adds the undated claim.
+  Self-contradiction CARRIED, not resolved: §2.2/§2.4 demand reach "as RULES rather than as etiquette";
+    the census scores the three traditional games ✓ on a "turn-taking norm ... inherited convention"
+    (architecture D). §8.4 revision note + §12 state it; under the strict reading no surveyed format is a
+    full member. See rulings owed.

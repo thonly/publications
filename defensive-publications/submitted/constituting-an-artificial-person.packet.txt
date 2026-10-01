@@ -1,0 +1,116 @@
+TDCOMMONS SUBMISSION PACKET — wave 5 (A232) — FINAL (built and read 2026-10-01; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Constituting an Artificial Person: Restraint as Constitution, and the Elemental Completeness of an Aligned Mind — A Five-Register AI Agent Architecture with Alignment Constraints as Constituents of Agent Identity, a Counterfactual Removal Test for Corrigibility, and a Human Override That Never Reaches Zero
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; the paper's title
+   already carries a colon, so the subtitle follows an EM DASH. Subtitle drawn from the paper's Abstract
+   (first paragraph), Claims 1, 5 and 7, and the ## Terms table: "five-register model of an AI agent",
+   "constituents of the agent's identity", "counterfactual removal test", "corrigibility", "a human-held
+   override ... never reaches zero". No mark in the added part; no new matter. The PDF keeps the paper's
+   own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250; condensed from the paper's ## Abstract and Claims 1-7, no new matter)
+We disclose an architecture for AI alignment and corrigibility in which the constraints that make an AI agent safe are specified as constituents of the agent's identity rather than as external constraints on an optimizer. The agent is modelled as four functional registers (a value substrate; binding to the people it serves; active practice; communicative reach) bound into one agent by an integrating register that is neither a further module nor a central observer, on the pattern of global-workspace integration. A completeness check tests a proposed agent for coverage across the registers rather than for capabilities, so a system passing every component-level audit can still be an unintegrated assemblage. A counterfactual removal test classifies each constraint as constitutive (removing it yields a different agent, or none) or adversarial (removing it yields the same agent, unconstrained); an aligned agent is built as far as possible from constitutive constraints, with an external override present but minimized. Restrainers are mapped one per register and classified by locus; the human-held override is the single external active one. An oversight schedule narrows that override only as fast as internalized constraint is demonstrated, and never to zero, because an internal constraint cannot detect its own corruption. The design is contrasted with utility indifference, the off-switch game and cooperative inverse reinforcement learning. The Theravāda Buddhist analysis of a person as a conventional designation supports a claim of structural personhood without a claim of substantial self; the paper states where that analysis limits the claim.
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"     (7 enumerated claims; the paper has a literal "## Claims" heading.
+                                     Claims 1-4 enumerated 2026-08-29, 5-7 on 2026-10-01 from matter
+                                     already disclosed in §6-§8; first mirror, so no second-submission
+                                     question arises)
+
+FILE       BUILT 2026-10-01 from the repo at the chain's commit (python3 scripts/tdc-pdf.py constituting-an-artificial-person);
+           24 pages, 517 KB — held in the session scratchpad (pdfs/constituting-an-artificial-person.pdf) until the founder's named yes,
+           then rebuilt with --submitted into defensive-publications/submitted/.
+  Cover (read): first published 2026-06-11 · concept DOI 10.5281/zenodo.21947306 · this version 2026-10-01
+  (version DOI 10.5281/zenodo.23086361) · the scoped timestamp line · CC0. The builder's word-multiset check passed.
+  First mirror for this slug: NOT in submitted/manifest.json, so a first submission, not a re-submission.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement", now in the standard wave-4 form
+      (L23): "No patent has been or will be sought on any mechanism described in this paper by HeartBank®,
+      Factory 333™, THonly™, Silicon Wat℠, or any entity under their common control. The authors and those
+      entities commit not to assert any patent right against any party practising any mechanism disclosed
+      here." The old ⚠️ "Added 2026-08-29" paragraph is gone; its one fact (commitment first stated in the
+      body on 2026-08-29; prior art runs from first publication + OTS) is kept in plain words.
+  [x] Live patents — none named; no patent's claims characterised.
+  [x] Claims section — "## Claims", 7 items. Claim 1 reworded to standard terms and naming-neutral (the
+      original "integrating ākāsa register" is kept as a pointer to the Current-form notes). Claims 5-7
+      (removal test · restrainers one per register with locus · migration of restraint) enumerate §6-§8,
+      which the 2026-08-29 enumeration had left unclaimed although the abstract names them as two of the
+      paper's three contributions. A note after the claims names the prior art bearing on 5 and 7.
+  [!] Census on file — NONE. The Prior-Art statement now says so in plain words (L29: "No census was run
+      ... Nothing in this paper asserts that any element of it is new."). Deposited paper, so the
+      full-census bar does not bind (ruled 2026-09-23); every priority sentence was reworded instead.
+  [x] Prior art — §2 widened by the counterexample hunt: constitutive vs regulative rules (Rawls 1955;
+      Searle 1969), constitutivism (Korsgaard 2009), Corrigibility as a Singular Target (Potham & Harms
+      2025), Constitutional AI (Bai et al. 2022, the namesake), Buddhist-informed AI design (Doctor et al.
+      2022), legal personhood for AI (Solum 1992); Ganeri (2012) re-cited as the reading that cuts against.
+  [x] Honest limits — §10.1-10.7; 10.7 NEW (the Pāli texts tie the designation to the five aggregates)
+  [x] AI co-authorship disclosed in text — Acknowledgments + closing footer ("Miss Aquarius℠, the name under
+      which this corpus discloses its AI collaboration; the underlying models are not named")
+  [x] No named private real people — check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW. Named persons are published
+      scholars only. No family member appears.
+  [x] No perma.cc · no draft banner · no "Mirrors of this document…" line · no placeholders · no
+      "Document SHA-256" footer · no sha256:/doi: front matter · no A126 sentence (the paper's variant,
+      "restore the conditions for awakening", replaced by the ratified mission sentence) · no "head" of
+      the four bodies (the paper describes its companion's "head" and replaces it, §1/§4)
+  [x] Cross-venue: arXiv (deferred) and IP.com (deferred) lines removed (process notes, never deposited)
+  [x] mirror-lint: 0 refuse · 0 warn (was 2 refuse · 3 warn)
+  [x] No emoji / internal markers — grep 0 (the ⚠️ in the old Prior-Art statement removed)
+  [x] Terms table present — "## Terms" (17 rows; added)
+  [x] Keywords line — standard terms prepended (AI alignment, corrigibility, AI safety, shutdown problem,
+      off-switch game, utility indifference, instrumental convergence, CIRL, human oversight, human
+      override, AI governance, constitutive rules, constitutivism, agent identity, artificial personhood,
+      machine consciousness, global workspace theory, embodied cognition, enactivism …)
+  [x] Abstract section present — "## Abstract", now opening with a standard-term paragraph (L35)
+  [x] References — 32 bibliographic entries (was 25), 7 added; + "Pāli sources" list (Chaṭṭha Saṅgāyana numbering)
+  [x] 3 fenced diagrams, widest 67 chars — under 95 (§3 and §6 box borders realigned; words unchanged)
+  [x] Title does NOT lead with a mark — "Constituting an Artificial Person" is unmarked
+  [x] Marks (®/™/℠) only in body, Terms table and footer; none in the TDCommons title or subtitle
+  [x] front matter: kind: mechanism added; revised: 2026-10-01; date: unchanged (2026-06-11); status: draft
+      (unchanged; this revision adds a ## Terms section, so draft is required anyway)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE. Public exactly as uploaded, permanently.
+
+═══════════════════════════════════════════════════════════════════════
+OVERCLAIM READ   (grep: novel|novelty|first|unprecedented|no prior|never been|only|unique|sole|nobody|
+                  not found; line numbers = defensive-publications/constituting-an-artificial-person.md
+                  after this revision)
+  No occurrence of novel / novelty / unprecedented / "no prior" / "never been" / unique / nobody /
+  "not found".
+  mirror-lint's three WARNs, each read:
+    old L68 "its novelty is legible only against what each already provides" → L109 "its contribution
+      can be stated only against what each already provides" (and "three literatures" → "five", which
+      the section's own five paragraphs and table had already contradicted).
+    old L70 "we do not claim 'embodied mind meets Buddhism' as novel ... That transposition is ours."
+      → L111 "claim no part of the meeting of embodied mind and Buddhism. What this paper does with it
+      is ..." (priority claim removed; disclosure kept).
+    old L219 "against a novel failure" (the ordinary adjective) → L274 "an unforeseen failure".
+  Also repaired (not linted — priority or absence claims with no census behind them):
+    old L72 "our contribution is its application ... and the recognition that anattā is the precise tool
+      for making a personhood claim without a consciousness claim" → L113 "this paper applies it ... and
+      uses anattā to separate a personhood claim from a claim of substantial self (§9; §10.7 ...)".
+    old L78 "not ours to claim as discovery — but its use as a design constraint ... is" → L123 "is not
+      claimed here as a discovery; this paper uses it as a design constraint".
+    old L62/L64 + L248 "Most writing that reaches for 'AI personhood' ... is rightly dismissed" → L105/L305
+      "often ... ; legal scholarship ... is an exception (Solum 1992)".
+    old L62 "a fifth, integrating register most architectures omit" → L103 "that component-level audits
+      do not check" (the paper's own global-workspace citations integrate).
+    old L276 "a predicted structure, confirmed once" → L333 "exhibited once, in an architecture designed
+      by the paper's own authors — the weakest kind of confirmation".
+  "only" — every remaining use is a mechanism or within-the-paper statement ("narrows only as fast as",
+    "Liberate is the only one [of the five operations] that asks ..."); none is a priority claim.
+  "first" — ordinals and "first publication" only. "sole" — "sole successor" (L345) and "sole backstop"
+    (L274), neither a priority claim.
+  The §9 thesis "personhood without consciousness" was NARROWED, not withdrawn: L307/L315 now say "in the
+    phenomenal sense", and §10.7 (L337) carries the counterexample from the paper's own sources.

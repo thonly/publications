@@ -1,0 +1,8 @@
+# defensive-publications/submitted/*.pdf are the byte-exact copies of what was uploaded to TDCommons — evidence of
+# the submission, kept so a posting can be verified word for word against them (check-mirrors.py --verify-posted).
+# Stamping one after upload would change its bytes, so the committed copy would no longer be the bytes submitted;
+# tdc-pdf.py refuses to rebuild a submitted slug for the same reason. The AI collaboration is disclosed IN the
+# file, on the cover ("Miss Aquarius is an AI co-author, disclosed; the inventor of record is Thon Ly").
+# Exemption written 2026-10-01 (TDCommons wave 5, the first wave after the media hook was installed 2026-09-30).
+# Whether tdc-pdf.py should write the ma: packet BEFORE upload, from the next wave on, is an open question (roadmap A278).
+defensive-publications/submitted/*.pdf
