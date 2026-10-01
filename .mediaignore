@@ -1,8 +1,55 @@
-# defensive-publications/submitted/*.pdf are the byte-exact copies of what was uploaded to TDCommons — evidence of
-# the submission, kept so a posting can be verified word for word against them (check-mirrors.py --verify-posted).
-# Stamping one after upload would change its bytes, so the committed copy would no longer be the bytes submitted;
-# tdc-pdf.py refuses to rebuild a submitted slug for the same reason. The AI collaboration is disclosed IN the
+# The 49 PDFs below were uploaded to TDCommons unstamped, before roadmap A279 (2026-10-01). Each is the byte-exact
+# copy of what was submitted — evidence a posting is verified against word for word (check-mirrors.py --verify-posted)
+# — so stamping one now would change the very bytes it is evidence of. The AI collaboration is disclosed IN each
 # file, on the cover ("Miss Aquarius is an AI co-author, disclosed; the inventor of record is Thon Ly").
-# Exemption written 2026-10-01 (TDCommons wave 5, the first wave after the media hook was installed 2026-09-30).
-# Whether tdc-pdf.py should write the ma: packet BEFORE upload, from the next wave on, is an open question (roadmap A279; first filed as A278, which a concurrent session had taken the same hour).
-defensive-publications/submitted/*.pdf
+# ⛔ Listed BY NAME, never by glob: from wave 6 on, tdc-pdf.py stamps every PDF before upload (IPTC compositeSynthetic,
+# register M-0006), and the pre-commit hook must check each new one rather than wave the folder through.
+defensive-publications/submitted/a-promise-that-cannot-grow.pdf
+defensive-publications/submitted/agi-monks-caretaker-not-ordained.pdf
+defensive-publications/submitted/appreciation-as-world-building.pdf
+defensive-publications/submitted/aura-gated-anonymous-mate-selection.pdf
+defensive-publications/submitted/b-links-signed-provenance.pdf
+defensive-publications/submitted/b-poh-humanity-layer-ai-native-internet.pdf
+defensive-publications/submitted/buddha-ai-living-tipitaka.pdf
+defensive-publications/submitted/capacity-funded-human-disbursed-ai-alignment.pdf
+defensive-publications/submitted/certification-by-circulation.pdf
+defensive-publications/submitted/circulation-sports.pdf
+defensive-publications/submitted/co-presence-gated-redemption.pdf
+defensive-publications/submitted/constituting-an-artificial-person.pdf
+defensive-publications/submitted/dedicatory-generation.pdf
+defensive-publications/submitted/dual-currency-reciprocity.pdf
+defensive-publications/submitted/embodied-advocate-pageant.pdf
+defensive-publications/submitted/gift-tag-time-reveal.pdf
+defensive-publications/submitted/giving-is-a-gift-too.pdf
+defensive-publications/submitted/gratitude-riding-currency-tag.pdf
+defensive-publications/submitted/inverted-alms-round.pdf
+defensive-publications/submitted/machine-dana-from-share-to-vow.pdf
+defensive-publications/submitted/mechanical-heart.pdf
+defensive-publications/submitted/miss-aquarius-and-aquarian-pool-architecture.pdf
+defensive-publications/submitted/multi-family-membership.pdf
+defensive-publications/submitted/non-bank-pass-through-architecture-autonomous-ai.pdf
+defensive-publications/submitted/provenance-carrying-retrieval.pdf
+defensive-publications/submitted/respiratory-biofeedback-contemplative-guidance.pdf
+defensive-publications/submitted/rotation-over-liveness.pdf
+defensive-publications/submitted/sacrifice-witness-without-discharge.pdf
+defensive-publications/submitted/silica-wat-food-network.pdf
+defensive-publications/submitted/steward-routed-alms.pdf
+defensive-publications/submitted/studio-b-short-phase-bridge.pdf
+defensive-publications/submitted/subject-released-attestation.pdf
+defensive-publications/submitted/thank-all-nearby-primitive.pdf
+defensive-publications/submitted/the-borrowable-standard.pdf
+defensive-publications/submitted/the-called-draw.pdf
+defensive-publications/submitted/the-game-that-graduates-you.pdf
+defensive-publications/submitted/the-gift-operation.pdf
+defensive-publications/submitted/the-reciters-protocol.pdf
+defensive-publications/submitted/the-referee-not-the-governor.pdf
+defensive-publications/submitted/the-rethank-multiplier.pdf
+defensive-publications/submitted/the-sport-that-says-your-name.pdf
+defensive-publications/submitted/the-unpaid-relay.pdf
+defensive-publications/submitted/the-wager-that-isnt.pdf
+defensive-publications/submitted/the-zero-employee-institution.pdf
+defensive-publications/submitted/tipitaka-alignment-substrate.pdf
+defensive-publications/submitted/two-layer-reward.pdf
+defensive-publications/submitted/verified-human-anonymous-local-giving.pdf
+defensive-publications/submitted/what-a-vow-must-cost.pdf
+defensive-publications/submitted/zero-point-game.pdf

@@ -21,6 +21,8 @@ What the cover carries, and why each line is there (roadmap A168):
     posting printed /publications/defensive-publications/<slug>, a soft 404, now a 301.)
 
 Refuses to print if the rendered text loses any word of the markdown (the word-multiset diff).
+Stamps the PDF with the estate's media packet BEFORE it can be read or uploaded (roadmap A279, 2026-10-01) — IPTC
+compositeSynthetic, CC0, register M-0006 — and refuses if the stamp does not read back or any page text moved.
 Warns — never refuses — when the title leads with a coined mark: TDCommons search reads titles and
 abstracts only, and an examiner searches standard terms, never ours.
 """
@@ -71,6 +73,39 @@ def front_matter(raw):
         if m:
             out[m.group(1)] = m.group(2).strip().strip('"').strip("'")
     return out, body
+
+
+MEDIA = Path.home() / "Desktop/MA/.claude/skills/media"
+# The provenance this PDF carries in its own bytes (roadmap A279, 2026-10-01) — written BEFORE upload, so the file
+# uploaded, the file committed to submitted/ and the file read before the founder's yes are the same bytes.
+# `composite` = IPTC compositeSynthetic, "a mix of several elements, at least one of which is Generative AI":
+# the founder's ideas, structure and edits with prose drafted by generative AI. ⚠️ TDCommons REGENERATES the PDF
+# it posts (Prince + pdfHarmony, its own XMP; our Creator/Producer/title did not survive on posting 11936), so at
+# the venue the disclosure that survives is the cover line, not this packet — the packet travels with OUR copies.
+STAMP_SOURCE = "composite"
+STAMP_REGISTER = "M-0006"
+
+
+def stamp(pdf, slug, fm):
+    """Write the media packet into the PDF, then prove it read back and that not one character of the page
+    text moved. Refuses (and deletes the PDF) on either failure: an unstamped or altered file must not ship."""
+    before = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True, text=True, check=True).stdout
+    r = subprocess.run(["python3", str(MEDIA / "scripts/stamp.py"), str(pdf), "--source", STAMP_SOURCE,
+                        "--rights", "cc0", "--credit", fm.get("authors", "Thon Ly · Miss Aquarius"),
+                        "--disclosure", f"https://thonly.org/research/{slug}", "--register", STAMP_REGISTER],
+                       capture_output=True, text=True)
+    after = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True, text=True, check=True).stdout
+    got = subprocess.run(["exiftool", "-config", str(MEDIA / "exiftool.config"), "-s", "-s", "-s",
+                          "-DigitalSourceType", "-XMP-ma:Register", str(pdf)],
+                         capture_output=True, text=True).stdout.split()
+    ok = r.returncode == 0 and after == before and got[:1] and got[0].endswith("/compositeSynthetic") \
+        and STAMP_REGISTER in got
+    if not ok:
+        pdf.unlink(missing_ok=True)
+        sys.exit(f"⛔ the provenance stamp failed (stamp exit {r.returncode}; text "
+                 f"{'unchanged' if after == before else 'CHANGED'}; read back {got}) — no PDF written.\n"
+                 f"{r.stdout}{r.stderr}")
+    print(f"✓ stamped {STAMP_SOURCE} · {STAMP_REGISTER} · page text unchanged", file=sys.stderr)
 
 
 def main():
@@ -170,6 +205,7 @@ def main():
         html_path.unlink()  # only the PDF is evidence; the HTML is a build step
     if not pdf.exists() or pdf.stat().st_size < 10_000:
         sys.exit(f"Chrome produced no usable PDF at {pdf}")
+    stamp(pdf, a.slug, fm)
     print(pdf)
     print("next: read it (every page, the cover above all) before it goes anywhere — "
           "the upload is permanent.", file=sys.stderr)
