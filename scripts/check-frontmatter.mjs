@@ -147,13 +147,7 @@ const PERMITTED_LICENCES = ["CC0-1.0", "CC-BY (author-voice essay)"];
 const BANNED_FIELD_DEBT = new Set([
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/cakkavatti-alignment-charter.md",
-    "defensive-publications/giving-is-a-gift-too.md",
-    "defensive-publications/gratitude-as-cooperation-substrate.md",
     "defensive-publications/gratitude-riding-currency-tag.md",
-    "defensive-publications/incommensurability-preserving-coupler.md",
-    "defensive-publications/need-compiled-questlines.md",
-    "defensive-publications/proof-of-coordinate.md",
-    "defensive-publications/safety-companion-pack-watch.md",
     "defensive-publications/the-assembly-that-holds-the-brake.md",
     "defensive-publications/the-borrowable-standard.md",
     "defensive-publications/the-omitted-clause.md",
@@ -170,12 +164,9 @@ const BANNED_FIELD_DEBT = new Set([
 // the surface the generator fixes, and would have served the sentence it strips.
 // Shrink-only, for the same reason as above: these files are deposited.
 const BODY_CLAIM_DEBT = new Set([
-    "defensive-publications/abhidhamma-executable-process-specification.md",
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/b-tag-recommendation-function-methodology.md",
-    "defensive-publications/giving-is-a-gift-too.md",
     "defensive-publications/individuation-without-essence.md",
-    "defensive-publications/manufactured-universal-giving.md",
     "defensive-publications/patthana-typed-causation-vocabulary.md",
     "defensive-publications/sankhara-dukkha-ai-welfare.md",
     "defensive-publications/vinaya-as-ai-reasoning-training-corpus.md",
@@ -204,12 +195,9 @@ const BODY_CLAIM_DEBT = new Set([
 // as debt that already existed, not debt newly incurred — the one sanctioned addition, recorded here.
 const MISSION_PAST = /restore\s+humanity\s+to\s+the\s+middle\s+way|restoration\s+of\s+humanity\s+to\s+the\s+(middle\s+way|\*?majjhim)|pushed\s+(populations\s+)?away\s+from(\s+at\s+population\s+scale)?/i;
 const MISSION_PAST_DEBT = new Set([
-    "defensive-publications/abhidhamma-executable-process-specification.md",
-    "defensive-publications/b-tag-post-payment-economy.md",
     "defensive-publications/b-tag-recommendation-function-methodology.md",
     "defensive-publications/brand-identity-as-architecture.md",
     "defensive-publications/cakkavatti-alignment-charter.md",
-    "defensive-publications/longitudinal-cohort-methodology.md",
     "defensive-publications/sankhara-dukkha-ai-welfare.md",
     "defensive-publications/the-omitted-clause.md",
     "defensive-publications/transparency-as-enforcement.md",
