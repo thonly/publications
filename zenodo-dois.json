@@ -1,12 +1,12 @@
 {
  "a-promise-that-cannot-grow": {
   "concept_doi": "10.5281/zenodo.23041247",
-  "deposition_id": 23041248,
-  "doi": "10.5281/zenodo.23041248",
+  "deposition_id": 23086360,
+  "doi": "10.5281/zenodo.23086360",
   "published": true,
   "sandbox": false,
-  "sha256": "458a72b7011aad3ce396c17a5b99e0d13dadc306f45439a24b251b448dcbf5d7",
-  "url": "https://zenodo.org/records/23041248"
+  "sha256": "320d83cff8d6e101df871c9ffd41f4a101427dfb5e39bdc0f1e750c80fcc5ac0",
+  "url": "https://zenodo.org/records/23086360"
  },
  "a-vow-you-could-have-refused": {
   "concept_doi": "10.5281/zenodo.23084922",
@@ -208,12 +208,12 @@
  },
  "circulation-sports": {
   "concept_doi": "10.5281/zenodo.21947302",
-  "deposition_id": 22059825,
-  "doi": "10.5281/zenodo.22059825",
+  "deposition_id": 23086362,
+  "doi": "10.5281/zenodo.23086362",
   "published": true,
   "sandbox": false,
-  "sha256": "f65cb065ee675f4754dd4883eb5d709d87603999cea2c95417f9889c07dea162",
-  "url": "https://zenodo.org/records/22059825"
+  "sha256": "77cf95cd1d705216d297fd854da65cc0905b062f245df6e165812878f2c359b3",
+  "url": "https://zenodo.org/records/23086362"
  },
  "co-presence-gated-redemption": {
   "concept_doi": "10.5281/zenodo.21947304",
@@ -226,12 +226,12 @@
  },
  "constituting-an-artificial-person": {
   "concept_doi": "10.5281/zenodo.21947306",
-  "deposition_id": 22167871,
-  "doi": "10.5281/zenodo.22167871",
+  "deposition_id": 23086361,
+  "doi": "10.5281/zenodo.23086361",
   "published": true,
   "sandbox": false,
-  "sha256": "8a65f6aae81411a3384690053657f170f1bc6789fe48dbde239be322610223f7",
-  "url": "https://zenodo.org/records/22167871"
+  "sha256": "5a1e9eec8b1079f29920dfd9a1a2dd164ba8815860a5bd3c4546fda937d501e4",
+  "url": "https://zenodo.org/records/23086361"
  },
  "dedicatory-generation": {
   "concept_doi": "10.5281/zenodo.21947310",
@@ -352,12 +352,12 @@
  },
  "giving-is-a-gift-too": {
   "concept_doi": "10.5281/zenodo.21947331",
-  "deposition_id": 22440967,
-  "doi": "10.5281/zenodo.22440967",
+  "deposition_id": 23086363,
+  "doi": "10.5281/zenodo.23086363",
   "published": true,
   "sandbox": false,
-  "sha256": "5be2ee86a195a593b9fb2bbef2eb9817d60164318a2742213ced74342e95dc26",
-  "url": "https://zenodo.org/records/22440967"
+  "sha256": "9b945973eb3f41eabb2ee6d5a9459bfe911ee6da71724a396c7cd7180886d602",
+  "url": "https://zenodo.org/records/23086363"
  },
  "gratitude-as-cooperation-substrate": {
   "concept_doi": "10.5281/zenodo.21947335",
@@ -685,12 +685,12 @@
  },
  "the-borrowable-standard": {
   "concept_doi": "10.5281/zenodo.22155053",
-  "deposition_id": 22440989,
-  "doi": "10.5281/zenodo.22440989",
+  "deposition_id": 23086366,
+  "doi": "10.5281/zenodo.23086366",
   "published": true,
   "sandbox": false,
-  "sha256": "bf86692929a50fae70bbe0b7c2d04be99c38ff8ae554ed12f386c5895c0b9c89",
-  "url": "https://zenodo.org/records/22440989"
+  "sha256": "166922c8d5374e7f8e5ba363f451db2ea062c342c0afdef0370ff0bd4f1b47d5",
+  "url": "https://zenodo.org/records/23086366"
  },
  "the-borrowed-light": {
   "concept_doi": "10.5281/zenodo.23084987",
@@ -856,12 +856,12 @@
  },
  "the-zero-employee-institution": {
   "concept_doi": "10.5281/zenodo.21947420",
-  "deposition_id": 22735461,
-  "doi": "10.5281/zenodo.22735461",
+  "deposition_id": 23086367,
+  "doi": "10.5281/zenodo.23086367",
   "published": true,
   "sandbox": false,
-  "sha256": "6610a06e1b2ebcd42091d335ae6245268f811b60fb3550b1a866289498c197a1",
-  "url": "https://zenodo.org/records/22735461"
+  "sha256": "6b4ef78ce950fa0c6de97bb69a3c7f20972ad7b4da3f60165fc27140692d6402",
+  "url": "https://zenodo.org/records/23086367"
  },
  "tipitaka-alignment-substrate": {
   "concept_doi": "10.5281/zenodo.21947422",
