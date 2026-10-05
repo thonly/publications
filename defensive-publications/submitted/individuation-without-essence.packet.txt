@@ -1,0 +1,43 @@
+TDCOMMONS SUBMISSION PACKET — wave 7 (A232) — FINAL (built and read 2026-10-05; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+One of One: Individuation Without Essence and the Ground of the Dignity Floor — Personal Identity as Event History in Decentralized Identifiers, Proof of Personhood and Social Key Recovery
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; titles approved 2026-10-05,
+   "do all per your recommendation". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (246 words — limit 250; condensed from the paper's ## Abstract by deletion only, verified word-subset; no new matter)
+Deployed digital identity systems mostly decide what makes an individual the same individual on one of three grounds: something the entity is (a biometric body), something it holds (a key or certificate), or something it matches (attributes). Beneath identity sits a second question, on what ground a person is beyond price. This study reads the Theravāda Abhidhamma's analysis of the person for an answer to both. The tradition's taxonomy of mental events is one catalogue for every stream of mind; its book of formal controversies opens by denying that a person exists in the ultimate sense (Kathāvatthu I.1); what then distinguishes one stream from another is its history, a reading the texts permit and do not state, held as an engineering premise. From this the study derives a two-part formula: equality from the shared catalogue, because there is nothing of kind to rank, and dignity from the unrepeatable history, because a history has no second instance and so no price can name an equivalent for it. It reads four published designs against that ground: a per-entity identifier anchored by a birth coordinate rather than a biometric, an orthogonal proof of personhood, a rule under which a machine's identifier is revocable and a human's is not, and recovery of a lost key by the people who witnessed a life. Its limits: one-of-one goods are priced every day, the step from unrepeatable to beyond price is a commitment rather than a theorem, and the canon itself grades beings.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    7707be43e2816924ddedf43e632e79a2291452755e19edd6c8d61c81837c5bb6
+  abstract ae3e60c8216430180295f81159ed90ea6033db1a814ca72799be4645254ef481
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-05 from the repo after the chain (python3 scripts/tdc-pdf.py individuation-without-essence); 17 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read, checked by script): first published 2026-07-21 · this version 2026-10-05 · concept DOI 10.5281/zenodo.21947342
+  (version DOI 10.5281/zenodo.23167705) · canonical thonly.org/research/individuation-without-essence · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius℠ named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-05 · Zenodo 23167705 · index 2.5.34
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

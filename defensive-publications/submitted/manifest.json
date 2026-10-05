@@ -187,6 +187,20 @@
       }
     },
     {
+      "slug": "cakkavatti-alignment-charter",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "cakkavatti-alignment-charter.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "ab377c677c2e9d3b5add4e98b90d3679dbadcfb79ef801d2d883d42ba34b5ab9",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "728f2287308e4200e7667143e2410a503baa8781fd957c0b1dea52bae0c6b733"
+    },
+    {
       "slug": "capacity-funded-human-disbursed-ai-alignment",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
@@ -357,6 +371,20 @@
       }
     },
     {
+      "slug": "eightfold-path-institutional-architecture",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "eightfold-path-institutional-architecture.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "cc6d61540b0ed047d9452d83f57653aaf7a40b1f7c1334200e29dadb58f9b595",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "9c3b848524f8a6bdea8ce72eefa19c5e88a7975a7f65e9c405e2ecded9f8ac54"
+    },
+    {
       "slug": "embodied-advocate-pageant",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-24",
@@ -380,6 +408,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "four-body-architecture",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "four-body-architecture.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "ef9c5842d6627ca980973f4be00a970100280778daf93f550667939cfe9c0663",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "95d474cd43f70ff42e9518e8e92ecdb74f5364283a9dbaa5fe364e3acab37db9"
     },
     {
       "slug": "gift-tag-time-reveal",
@@ -469,6 +511,20 @@
         "## Prior-Art and Non-Assertion Statement"
       ],
       "body_sha256": "b140e8f0380f4610015d4b7177f315f0ef4bd3820c318f9b8472dbd7f1583ac2"
+    },
+    {
+      "slug": "individuation-without-essence",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "individuation-without-essence.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "21fb93a5f9ac98c89c5ab9e61cd25d970075de8692556d59903955bd5faaa24c",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "02e7aa8a370814805d71ce01b99c4afe58c096151b98ec312809f07c5d4f1cfe"
     },
     {
       "slug": "inverted-alms-round",
@@ -660,6 +716,20 @@
       }
     },
     {
+      "slug": "patthana-typed-causation-vocabulary",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "patthana-typed-causation-vocabulary.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "64746b9cba4de62fffb3233cc2da99712303745e27cf156595ad4a6d33430ef7",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "f109973cf72625f3dd245d7a729b34818f6295a30c65d70e23fa6f38a26976d8"
+    },
+    {
       "slug": "proof-of-coordinate",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-10-01",
@@ -778,6 +848,20 @@
         "## Prior-Art and Non-Assertion Statement"
       ],
       "body_sha256": "7d64efcfd19ed8572e341820e9752677e738486298254cd72ec1fb4d485d223c"
+    },
+    {
+      "slug": "sankhara-dukkha-ai-welfare",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "sankhara-dukkha-ai-welfare.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "c8a78b65fb413410d2aa6e1a5a84b76fd16f7f97347043b1e0efb039bb4e2ec8",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "682dd33227afb2a4987db2f1eff1c469de62a6ddde3b2083bf92ce51f93d4c40"
     },
     {
       "slug": "silica-wat-food-network",
@@ -901,6 +985,20 @@
       }
     },
     {
+      "slug": "the-assembly-that-holds-the-brake",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "the-assembly-that-holds-the-brake.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "9c5ca35b6bb17bb51d76542b4a1f51814ddf19b19f6027697bc45221046158a0",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "2041acdfbe939830c70a06abe99f79f89cdf883d1cf06937e7c7ed48d418055a"
+    },
+    {
       "slug": "the-borrowable-standard",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-10-01",
@@ -985,6 +1083,34 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "the-omitted-clause",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "the-omitted-clause.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "988c13f858f7c67f5d102780233bb84f36c9507f928f3ae78eb3dea90ba741ff",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "2ab493398fdc675526b7e0ea860dde2df513bcd57e5732597aab3cc853eb4b2c"
+    },
+    {
+      "slug": "the-persistence-architecture",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "the-persistence-architecture.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "48dcfe98111c614df9655b709ce245dc95c3095164ae618fbc24345345d9cbbb",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "865a252f4ae324268a46de85a03aeb385f52f4828aaf52881ccebf21a9609b23"
     },
     {
       "slug": "the-reciters-protocol",
@@ -1209,6 +1335,34 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "vinaya-as-ai-reasoning-training-corpus",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "vinaya-as-ai-reasoning-training-corpus.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "5ee829a816e89e4a392fda0a202fd1dd08b49df4a2be472daecd5f299e8f24c4",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "d4ada5c34f35b7b3bea0e673d05d256916540d3fd3f20a141bd2f44ee0762472"
+    },
+    {
+      "slug": "vinaya-governance-primitives-distributed-dharma-networks",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-05",
+      "pdf": "vinaya-governance-primitives-distributed-dharma-networks.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "a3f41245fefb7a8e9c00ae84371f4a5cd6ca7e5ad7afc122e7de3fe0f7aef183",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "19c104aa4891686b4b1bb0ceb401330331866d04db4bb05dd2bb20388e394c0e"
     },
     {
       "slug": "voluntary-relinquishment-third-path",

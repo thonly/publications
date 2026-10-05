@@ -1,0 +1,43 @@
+TDCOMMONS SUBMISSION PACKET — wave 7 (A232) — FINAL (built and read 2026-10-05; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Noble Eightfold Path as Institutional Architecture: Mapping the Eight Factors of Buddhist Practice onto the Divisions of a Multi-Domain Organization
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; titles approved 2026-10-05,
+   "do all per your recommendation". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (250 words — limit 250; condensed from the paper's ## Abstract by deletion only, verified word-subset; no new matter)
+This study maps the Noble Eightfold Path, the eight-factor path of Theravāda Buddhist practice, onto the organizational structure of one multi-domain institution, assigning each factor to a division of the organization rather than to an individual practitioner. The mapping follows the canonical threefold grouping of the factors (Majjhima Nikāya 44): wisdom (right view, right intention) is assigned to the institution's research and media division; ethical conduct (right speech, right action, right livelihood) to its gratitude-ledger division; and concentration (right effort, right mindfulness, right concentration) to its contemplative-practice and AI-alignment division, whose three web domains take the three factors one each. Two further divisions are identified as conditions of the Path rather than factors of it: a robotics manufacturer, the body in which recorded conduct is carried out, and the institution's named AI system, which holds the seat of the walker; the fruit of the Path is placed at the terminus of the mapping, in neither division. The study argues that the mapping is defensible because both objects are designed to be released: the Path ends in cessation, a raft left behind after the crossing (Majjhima Nikāya 22), and the institution is designed to taper its subsidy, reset its gratitude records each year and reduce its footprint toward zero, while the human override over its AI narrows toward zero without reaching it. The study states the main objection, that mapping a practice meant to be released onto a lasting organization reifies it, and the two conditions on which the mapping survives.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    c8e187dfdbb5d3af01f9700975fe90c5ca96dad2242732e0c795548db3ec4a94
+  abstract 5d0ae73ae2e0ee4ddfa24fb481d6459ed948b01bbc03e06cc0540741a235722a
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-05 from the repo after the chain (python3 scripts/tdc-pdf.py eightfold-path-institutional-architecture); 23 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read, checked by script): first published 2026-06-26 · this version 2026-10-05 · concept DOI 10.5281/zenodo.21947316
+  (version DOI 10.5281/zenodo.23167701) · canonical thonly.org/research/eightfold-path-institutional-architecture · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius℠ named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-05 · Zenodo 23167701 · index 2.5.34
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

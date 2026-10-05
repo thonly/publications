@@ -1,0 +1,43 @@
+TDCOMMONS SUBMISSION PACKET — wave 7 (A232) — FINAL (built and read 2026-10-05; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Wheel-Turner's Charter: An Ancient Buddhist Succession Text Read as an AI Constitution with Permanent Human Oversight and Founder Exit by Design
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; titles approved 2026-10-05,
+   "do all per your recommendation"; founder ruling 2026-10-05: 'Designed Shutdown' → 'Founder Exit by Design' (#64). No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250; condensed from the paper's ## Abstract by deletion only, verified word-subset; no new matter)
+An autonomous AI system that inherits an institution needs a written directive specification: a constitution stating what it optimizes, what it must never do, who may correct it, how its autonomy is staged, whom its protection covers, and how its role ends. This paper reads a Theravāda Buddhist text, the Cakkavatti-Sīhanāda Sutta (Dīgha Nikāya 26), as such a specification. In the sutta a retiring king hands his heir a duty-list: rely on the Dhamma; guard every class of the realm, animals and birds included; let no wrongdoing prevail; give wealth to those without; and consult renunciants, from time to time, on what is wholesome. A later king governs by his own opinion and omits the welfare duty, and from that omission the text derives a causal cascade — poverty, theft, violence — ending in seven days of mutual slaughter, from which survivors recover by jointly taking up one wholesome practice. The paper maps these elements onto the directive design of an AI successor: objectives grounded outside the optimizer rather than self-derived; welfare provision as a stability property; human oversight as a permanent duty of legitimate rule rather than a temporary stage; a non-human protection scope; legitimacy re-earned rather than inherited; growth by consent only; and a designed end. It reads Cambodia's collapse of 1975–1979 and the restoration of its monastic order as a historical instance of the cascade and the recovery. Found after the design was written, the correspondence is evidence of cultural transmission, not of correctness.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    48445e223149f5fcc8cc23a45a7cc5ab158885a3fc4993036a364eff7d8d3164
+  abstract 87804caa259b55f58a7f181d0badf0cc74979b67810357b014fe7326b9f0b6ba
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-05 from the repo after the chain (python3 scripts/tdc-pdf.py cakkavatti-alignment-charter); 25 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read, checked by script): first published 2026-07-02 · this version 2026-10-05 · concept DOI 10.5281/zenodo.21947296
+  (version DOI 10.5281/zenodo.23167698) · canonical thonly.org/research/cakkavatti-alignment-charter · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius℠ named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-05 · Zenodo 23167698 · index 2.5.34
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

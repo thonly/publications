@@ -1,0 +1,43 @@
+TDCOMMONS SUBMISSION PACKET — wave 7 (A232) — FINAL (built and read 2026-10-05; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Vinaya Piṭaka as Training Corpus for Rule-with-Exception Reasoning in AI Systems: Training Data and Evaluation Benchmarks for Rule Application and Exception Handling in Large Language Models
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; titles approved 2026-10-05,
+   "do all per your recommendation". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (240 words — limit 250; condensed from the paper's ## Abstract by deletion only, verified word-subset; no new matter)
+Large language models are trained on corpora rich in mathematical proof, code, scientific argument and dialogue, and their rule application is measured by benchmarks for statutory, legal, moral-exception and defeasible reasoning. This paper describes a training-data and evaluation design for one part of that capability, applying a rule to a new case while recognising when the rule does not apply, built from the Vinaya Piṭaka, the monastic legal code of the Theravāda Buddhist canon. The Vinaya's rule-by-rule analysis, the Suttavibhaṅga, treats each rule it analyses in a recurring order: the case that prompted the rule; the rule text and any later amendment; definitions of the operative terms; variants by object, means, perception and intention, each with a graded verdict; an exemption clause listing the conditions under which the rule does not apply; and further adjudicated cases. By the authors' count over one printed edition of the Pāli text, its two books carry 341 exemption clauses listing about 1,900 conditions, and some 3,400 written verdicts. Four uses of this structure are described: including the text in training data; supervising intermediate reasoning steps in the template's order; a benchmark of rule variants scored against the canon's own verdicts; and a test set of exemption cases for non-application. The paper reports no training run and no measurement. Whether the design improves a model's rule application is an open empirical question, and use of any edition or translation is subject to that edition's licence.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    40749905f99d9b625d5f5a05ede3db0fb893faa341e3a708396c64acd41de3e1
+  abstract 7733b18e97b0e9aebaef15b935d4295966e17573a12358d7c591261340405ea7
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-05 from the repo after the chain (python3 scripts/tdc-pdf.py vinaya-as-ai-reasoning-training-corpus); 20 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read, checked by script): first published 2026-05-26 · this version 2026-10-05 · concept DOI 10.5281/zenodo.21947432
+  (version DOI 10.5281/zenodo.23168362) · canonical thonly.org/research/vinaya-as-ai-reasoning-training-corpus · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius℠ named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-05 · Zenodo 23168362 · index 2.5.34
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

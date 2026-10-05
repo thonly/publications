@@ -1,0 +1,43 @@
+TDCOMMONS SUBMISSION PACKET — wave 7 (A232) — FINAL (built and read 2026-10-05; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Vinaya Governance Primitives for Distributed Dharma Networks: Sanghakamma, Adhikaraṇa-Samathā, and Anāpatti as Network-Coordination Architecture — Collective Decision Validity, Proxy Consent, Typed Dispute Resolution, and Bounded Local Exceptions for Federated Multi-Site Organizations
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; titles approved 2026-10-05,
+   "do all per your recommendation". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (247 words — limit 250; condensed from the paper's ## Abstract by deletion only, verified word-subset; no new matter)
+This paper studies the procedural law of the Theravāda Buddhist monastic code as a source of governance procedures for a federated organization of many sites, and maps them onto a planned network of monasteries whose daily operations are run by AI agents and whose formal acts belong to human monastics. The code's procedural chapters (the Khandhaka of the Vinaya Piṭaka) supply four procedures. (1) The validity of a collective decision: a motion read to the assembly, followed for the weightiest acts by three announcements, with silence taken as assent; an assembly complete within a fixed boundary, with absent members' consent conveyed by proxy; a minimum quorum for each class of act; defects that make an act void from the start; and offences for reopening a matter validly settled. (2) Typed dispute resolution: four kinds of case (disputes, accusations, offences and the community's business) routed to seven settlement procedures. (3) Exception clauses attached to each rule, and allowances written for a defined class of region. (4) Rules recorded with the case that prompted each one and with each later amendment. Each procedure is read from the Pāli text and compared with modern practice: unanimous consent in parliamentary procedure, lazy consensus, consent decision-making, veto-based on-chain governance, multi-door dispute resolution and comply-or-explain codes. The limits are stated: the procedures were built for one assembly meeting in one place, AI agents hold no seat in the formal acts they model, and whether the procedures scale to a large network is open.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    a027708b39bcc206c56ad4975e20151d922a9d6c042071ae1216406eb9c67b4f
+  abstract f31d22b629883427127b10be654fdaccfb282acf198ed8ac8e1bbe6a328f1bee
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-05 from the repo after the chain (python3 scripts/tdc-pdf.py vinaya-governance-primitives-distributed-dharma-networks); 22 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read, checked by script): first published 2026-05-26 · this version 2026-10-05 · concept DOI 10.5281/zenodo.21947434
+  (version DOI 10.5281/zenodo.23168363) · canonical thonly.org/research/vinaya-governance-primitives-distributed-dharma-networks · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius℠ named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-05 · Zenodo 23168363 · index 2.5.34
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

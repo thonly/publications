@@ -1,0 +1,43 @@
+TDCOMMONS SUBMISSION PACKET — wave 7 (A232) — FINAL (built and read 2026-10-05; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The Omitted Clause: AI-Driven Technological Unemployment, the Social Protection Floor, and a Buddhist Model of Societal Collapse
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; titles approved 2026-10-05,
+   "do all per your recommendation"; founder ruling 2026-10-05: 'the Income Floor' → 'the Social Protection Floor' (ILO term; canon: a floor of the capacity to give, not an income). No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (244 words — limit 250; condensed from the paper's ## Abstract by deletion only, verified word-subset; no new matter)
+This study reads the collapse narrative of the Cakkavatti-Sīhanāda Sutta (Dīgha Nikāya 26) as a causal model of societal breakdown under economic deprivation, and applies it to technological unemployment from artificial intelligence. In the text a ruler arranges protection for his realm but omits one duty, giving property to those without means; poverty spreads and theft follows; each response is followed by escalation, and the sequence ends in seven days of mutual killing. The study does three things with the model. It calibrates it against Cambodia: rural indebtedness and the Samlaut rising of 1967 run its middle stages, while the 1970 coup, civil war and United States bombing are accelerants it does not contain, so the omission reads as an enabling condition rather than a sole cause; the Khmer Rouge, which promised provision and delivered it by violent seizure, reads as the clause's counterfeit. It projects the model onto AI-driven economic displacement (loss of work, then income, then property, then home) and reads the text's two failed responses as two policy reflexes: a transfer that rewards disruption after the fact, and criminalization of the displaced. It argues that a social minimum installed before displacement works as insurance, cheap if displacement never comes and decisive if it does. A further section answers the objection that Cambodia's role in this decade as a host of industrial online fraud refutes the reading, treating it as a low-capacity jurisdiction rented by foreign capital, never as a national character.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    cc9dfbe828a54cc2be2c111bbf5eefbf4fa44bdbb30e0a3af90998ec46525641
+  abstract 224b42a9c57592769b26f20d8ffa51b13267ee044ee47150806d5e63a7a0224e
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-05 from the repo after the chain (python3 scripts/tdc-pdf.py the-omitted-clause); 17 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read, checked by script): first published 2026-07-02 · this version 2026-10-05 · concept DOI 10.5281/zenodo.21947406
+  (version DOI 10.5281/zenodo.23168357) · canonical thonly.org/research/the-omitted-clause · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius℠ named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-05 · Zenodo 23168357 · index 2.5.34
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

@@ -1,0 +1,43 @@
+TDCOMMONS SUBMISSION PACKET — wave 7 (A232) — FINAL (built and read 2026-10-05; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Twenty-Four Kinds of Because: The Paṭṭhāna as a Typed-Causation Vocabulary for AI Alignment — A Taxonomy of Causal Relation Types for Classifying Prompting, Fine-Tuning, and Model-Editing Interventions
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; titles approved 2026-10-05,
+   "do all per your recommendation". No mark in the added part; no new matter.
+   The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (246 words — limit 250; condensed from the paper's ## Abstract by deletion only, verified word-subset; no new matter)
+AI alignment practice sorts its interventions by when and how they are applied — prompting, in-context examples, retrieval, supervised fine-tuning, reinforcement learning from human feedback, weight editing, activation steering, ablation, guardrails — and describes what each does to a model with one undifferentiated word, influence. These interventions differ in causal type: in temporal structure, in durability, in range, in whether they act by presence or by removal, and in what it takes to undo them. This paper supplies a typed vocabulary of causal relations for that analysis, compiled from the Paṭṭhāna, the seventh book of the Theravāda Buddhist Abhidhamma, which defines twenty-four kinds of conditioning relation (paccaya). Section 3 gives a reference table of the twenty-four: each relation's canonical definition, a four-axis signature (time, mode, relation, span), and an analog in artificial agents graded by confidence. Section 4 develops six relations in depth and reports the Paṭṭhāna's own internal/external analysis: no relation by which one being's states condition another's mental states falls outside the object and decisive-support classes, so that influence between the execution traces of two agents types as parallel one-way edges. Section 5 classifies the alignment toolkit by dominant relation type and derives predictions about persistence under displacement; one is pre-registered (§6): under matched installation effect, a prompt-installed behavior will not out-persist a fine-tune-installed one. The claim is translation, not anticipation: every analog is a hypothesis, the vocabulary is not a causal-inference calculus, and the honest limits state where the compilation may be projection.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    7abe76cda2dbbf80dedd0b47352e5bf807b7c9823ccc64ead6538f339651c09d
+  abstract 48db252f00c191040035dfb6f775a569f62e4221f26fcee3b969463a5859c88d
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-05 from the repo after the chain (python3 scripts/tdc-pdf.py patthana-typed-causation-vocabulary); 13 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read, checked by script): first published 2026-07-21 · this version 2026-10-05 · concept DOI 10.5281/zenodo.21947364
+  (version DOI 10.5281/zenodo.23167707) · canonical thonly.org/research/patthana-typed-causation-vocabulary · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius℠ named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-05 · Zenodo 23167707 · index 2.5.34
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
