@@ -146,12 +146,8 @@ const PERMITTED_LICENCES = ["CC0-1.0", "CC-BY (author-voice essay)"];
 // landing; adding one is the bug this script exists to refuse.
 const BANNED_FIELD_DEBT = new Set([
     "defensive-publications/b-links-signed-provenance.md",
-    "defensive-publications/cakkavatti-alignment-charter.md",
     "defensive-publications/gratitude-riding-currency-tag.md",
-    "defensive-publications/the-assembly-that-holds-the-brake.md",
     "defensive-publications/the-borrowable-standard.md",
-    "defensive-publications/the-omitted-clause.md",
-    "defensive-publications/the-persistence-architecture.md",
 ]);
 
 // ⚠️ THE SAME CLAIM ALSO APPEARS IN BODY FOOTERS, and it is the more dangerous
@@ -166,11 +162,6 @@ const BANNED_FIELD_DEBT = new Set([
 const BODY_CLAIM_DEBT = new Set([
     "defensive-publications/b-links-signed-provenance.md",
     "defensive-publications/b-tag-recommendation-function-methodology.md",
-    "defensive-publications/individuation-without-essence.md",
-    "defensive-publications/patthana-typed-causation-vocabulary.md",
-    "defensive-publications/sankhara-dukkha-ai-welfare.md",
-    "defensive-publications/vinaya-as-ai-reasoning-training-corpus.md",
-    "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md"
 ]);
 
 /* ------------------------------------------------- the mission sentence ---
@@ -197,11 +188,7 @@ const MISSION_PAST = /restore\s+humanity\s+to\s+the\s+middle\s+way|restoration\s
 const MISSION_PAST_DEBT = new Set([
     "defensive-publications/b-tag-recommendation-function-methodology.md",
     "defensive-publications/brand-identity-as-architecture.md",
-    "defensive-publications/cakkavatti-alignment-charter.md",
-    "defensive-publications/sankhara-dukkha-ai-welfare.md",
-    "defensive-publications/the-omitted-clause.md",
     "defensive-publications/transparency-as-enforcement.md",
-    "defensive-publications/vinaya-governance-primitives-distributed-dharma-networks.md",
     "essays/anti-attention-economy.md",
     "essays/christmas-jubilee-timing.md",
     "essays/diaspora-cambodia-remittance.md",

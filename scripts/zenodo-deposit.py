@@ -267,7 +267,10 @@ def keywords_of(text, fm, doc_type=None):
         # Strip markdown emphasis from inside keywords: one paper carries
         # '*tisso sikkhā*' and the markers would be published literally.
         raw = re.sub(r"[*`_]", "", m.group(1))
-        kws = [k.strip(" .") for k in raw.split(",") if k.strip(" .")]
+        # Split on commas AND semicolons: five papers write the list with ';', and a
+        # comma-only split deposited each as one or two run-on keywords (found 2026-10-05,
+        # after the-borrowable-standard and the-gift-operation had gone out that way).
+        kws = [k.strip(" .") for k in re.split(r"[,;]", raw) if k.strip(" .")]
     for extra in (fm.get("category"), fm.get("priority"), doc_type):
         if extra and extra not in kws:
             kws.append(extra)
