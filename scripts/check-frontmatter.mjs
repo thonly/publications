@@ -180,9 +180,6 @@ const BODY_CLAIM_DEBT = new Set([]); // none carried since 2026-09-01; emptied 2
 // as debt that already existed, not debt newly incurred — the one sanctioned addition, recorded here.
 const MISSION_PAST = /restore\s+humanity\s+to\s+the\s+middle\s+way|restoration\s+of\s+humanity\s+to\s+the\s+(middle\s+way|\*?majjhim)|pushed\s+(populations\s+)?away\s+from(\s+at\s+population\s+scale)?/i;
 const MISSION_PAST_DEBT = new Set([
-    "defensive-publications/b-tag-recommendation-function-methodology.md",
-    "defensive-publications/brand-identity-as-architecture.md",
-    "defensive-publications/transparency-as-enforcement.md",
     "essays/anti-attention-economy.md",
     "essays/christmas-jubilee-timing.md",
     "essays/diaspora-cambodia-remittance.md",
