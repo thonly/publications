@@ -33,8 +33,9 @@
 // serving this corpus — see the MCP server — must gate on the file's own field, and
 // this guard is what guarantees the field is always there to gate on.
 //
-// ⚠️ THE DEBT LEDGER BELOW CAN ONLY SHRINK. The 26 files that already carry the
-// banned field are deposited on Zenodo with OTS proofs, so editing them is NOT free:
+// ⚠️ THE DEBT LEDGER BELOW CAN ONLY SHRINK — and it is EMPTY: the cleanup landed
+// 2026-09-01 (74f6034), the lists were emptied 2026-10-05 (A324). The 26 files that carried the
+// banned field were deposited on Zenodo with OTS proofs, so editing them is NOT free:
 // it drifts the deposited hash and forces an `.rN.ots` rotation. They ride their
 // next revision, exactly as ruled. They are listed here by name so that the debt is
 // counted rather than assumed, and so a file leaving the list can never be replaced
@@ -144,11 +145,7 @@ const PERMITTED_LICENCES = ["CC0-1.0", "CC-BY (author-voice essay)"];
 // ⚠️ SHRINK-ONLY. See the header. Every entry is a file that predates the ruling,
 // is deposited, and is cleaned at its next revision. Deleting a line is the fix
 // landing; adding one is the bug this script exists to refuse.
-const BANNED_FIELD_DEBT = new Set([
-    "defensive-publications/b-links-signed-provenance.md",
-    "defensive-publications/gratitude-riding-currency-tag.md",
-    "defensive-publications/the-borrowable-standard.md",
-]);
+const BANNED_FIELD_DEBT = new Set([]); // none carried since 2026-09-01 (74f6034 cleared the 29); emptied 2026-10-05, A324
 
 // ⚠️ THE SAME CLAIM ALSO APPEARS IN BODY FOOTERS, and it is the more dangerous
 // form. `*Document SHA-256 to be computed at publication…` is prose, so the
@@ -159,10 +156,7 @@ const BANNED_FIELD_DEBT = new Set([
 // markdown, not the render. Every guard that has ever checked this claim checked
 // the surface the generator fixes, and would have served the sentence it strips.
 // Shrink-only, for the same reason as above: these files are deposited.
-const BODY_CLAIM_DEBT = new Set([
-    "defensive-publications/b-links-signed-provenance.md",
-    "defensive-publications/b-tag-recommendation-function-methodology.md",
-]);
+const BODY_CLAIM_DEBT = new Set([]); // none carried since 2026-09-01; emptied 2026-10-05, A324
 
 /* ------------------------------------------------- the mission sentence ---
    Ruled 2026-09-13 (roadmap A126). The §1 boilerplate said Miss Aquarius's mission is to
