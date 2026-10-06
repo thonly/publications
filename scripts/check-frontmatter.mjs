@@ -187,7 +187,6 @@ const MISSION_PAST_DEBT = new Set([
     "essays/christmas-jubilee-timing.md",
     "essays/diaspora-cambodia-remittance.md",
     "essays/father-son-tipitaka-transcription.md",
-    "essays/kids-as-triggers-self-thanking.md",
 ]);
 let missionPastSeen = 0;
 

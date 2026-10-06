@@ -41,7 +41,7 @@ The cure cannot be exhortation, because exhortation competes for the same scarce
 
 This paper articulates the cure I have arrived at after two decades of searching. It is, in compressed form: **kids are the natural triggers; self-thanking is the primitive; the 50/50 split is the pedagogy; the forward-thanking loop is the closure mechanism.** Each of these pieces does specific work, and together they constitute an architecture that wins on the same metric the attention economy uses.
 
-> *Connection to the unified mission frame:* HeartBank's mission is the restoration of humanity to the middle way (*madhyamā pratipad*) — the optimal condition for awakening that modernity has systematically pushed away from at population scale. The defensible thesis is not that modernity took us from a middle-way past (which would romanticize pre-industrial poverty); the defensible thesis is that modernity introduces a specific new failure mode — comfort-saturation pushing the materially comfortable toward the indulgence extreme at unprecedented scale, with attention capture as the operational mechanism by which that failure mode propagates. Self-thanking is the primitive that addresses the failure mode at the cadence layer. It restores the gratitude practice that wisdom traditions have always taught, in a form that wins on the operational metric (instant reward) the attention economy weaponized against it.
+> *Connection to the unified mission frame:* Miss Aquarius's mission is to keep the middle way (*madhyamā pratipad*) open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The defensible thesis is not that modernity took us from a middle-way past (which would romanticize pre-industrial poverty); the defensible thesis is that modernity introduces a specific new failure mode — comfort-saturation pushing the materially comfortable toward the indulgence extreme at unprecedented scale, with attention capture as the operational mechanism by which that failure mode propagates. Self-thanking is the primitive that addresses the failure mode at the cadence layer. It restores the gratitude practice that wisdom traditions have always taught, in a form that wins on the operational metric (instant reward) the attention economy weaponized against it.
 
 The paper proceeds as follows. §2 specifies the diagnosis precisely — attention capture is one of three captures self-thanking addresses, alongside comfort-saturation and meaning-vacuum. §3 surveys prior approaches to the gratitude-motivation problem and identifies the failure mode shared across them. §4 presents the kids-as-triggers conceptual move and explains why kids work where adults do not. §5 specifies the 50/50 split as pedagogical instrument — a load-bearing reframe distinct from prior accounts of the 50/50 as merely a circulation primitive. §6 articulates the forward-thanking three-node loop and the bootstrap mechanics. §7 explains why adults donate back, with a strong-form refinement that grounds the claim in fairness rather than busyness. §8 extends the primitive to adults — the *bodhicitta*-recovery framing for adults who self-thank. §9 addresses the operationalization question (what triggers a kid's self-thank?) through the per-family Aquarius rubric mechanism. §10 names the lineages this work continues. §11 articulates what this primitive grounds across HeartBank's broader corpus. §12 is an honest accounting of limits. §13 concludes.
 
@@ -235,14 +235,22 @@ This is operationally significant because the dominant adult motivation in moder
 
 ### 6.3 Self-sustaining dynamics
 
-The loop is self-sustaining at compatible flow rates. If kids self-thank at rate $K$, Miss Aquarius's per-kid reward is $R$, and adults donate back to the Aquarian Pool at rate $D$ per kid-served, then the Aquarian Pool balance is sustainable when $D \cdot K \geq R \cdot K$ (donations cover rewards). Since adults receive $R$ split 50/50 and re-thank propagates 50/50, the steady-state mathematics are:
+The loop is self-sustaining at compatible flow rates. If kids self-thank at rate *K*, Miss Aquarius's per-kid reward is *R*, and adults donate back to the Aquarian Pool at rate *D* per kid-served, then the Aquarian Pool balance is sustainable when donations cover rewards:
 
-- Aquarian Pool outflow per kid self-thank: $R$
-- Adult receipt from kid re-thanks per kid self-thank: $R/2$ (the kid's re-tip jar half)
-- Adult receipt of which half is re-tip jar: $R/4$
-- Adult donation to Aquarian Pool per kid self-thank (target): $R$ (cover the original reward)
+```
+D · K  ≥  R · K          (donations cover rewards)
+```
 
-The donation requirement is $R$; the adult's receipt is $R/2$ from kid flow plus whatever flows from adult-to-adult P2P (§8). For sustainability, adults need to donate from sources beyond just their kid-flow receipt — which is consistent with their dominant economic role (income from work) and aligns with the project's broader Phase 2 / Aquarian Pool funding from per-transaction fees on commercial gratitude flow (the B-Tag franchise arm, see Paper #13).
+Since adults receive *R* split 50/50 and re-thank propagates 50/50, the steady-state mathematics are, per kid self-thank:
+
+```
+Aquarian Pool outflow                         R
+Adult receipt from kid re-thanks              R/2   (the kid's re-tip jar half)
+Adult receipt of which half is re-tip jar     R/4
+Adult donation to Aquarian Pool (target)      R     (cover the original reward)
+```
+
+The donation requirement is *R*; the adult's receipt is *R*/2 from kid flow plus whatever flows from adult-to-adult P2P (§8). For sustainability, adults need to donate from sources beyond just their kid-flow receipt — which is consistent with their dominant economic role (income from work) and aligns with the project's broader Phase 2 / Aquarian Pool funding from per-transaction fees on commercial gratitude flow (the B-Tag franchise arm, see Paper #13).
 
 The mathematics is approximate, and the actual steady-state involves multiple concurrent flows (B-Tag commercial gratitude, P2P adult-to-adult, family kitties annually emptying, Christmas-jubilee timing). What matters at the architectural layer is that the three-node loop *can* close at sustainable rates if the flows are compatible, which the broader corpus mechanisms ensure.
 
