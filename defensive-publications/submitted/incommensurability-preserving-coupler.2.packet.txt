@@ -1,0 +1,65 @@
+TDCOMMONS SUBMISSION PACKET — SECOND SUBMISSION (new claims 8–11) — FINAL (built and read 2026-10-06; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+WHY A SECOND SUBMISSION
+  The first posting (submitted 2026-10-01, posted 2026-10-06, https://www.tdcommons.org/dpubs_series/11983) carries
+  claims 1–7. Commit b4af582 (2026-10-06) added §5.5 and claims 8–11 — new enumerated claims, so by
+  §the-mirror-revision-rule clause 2 a SECOND posting is owed (the venue cannot version; each posting is prior art
+  from its own date). Not a re-submission: the first posting stays, and this one carries the new matter.
+  CI (check-mirrors.py) has been red on every push since 17:14Z 2026-10-06 until this is recorded.
+
+TITLE
+The Incommensurability-Preserving Coupler: A Non-Purchasable Recognition Balance Sized Only from the Thank-You Message, Beside Money Gifts, Time Pledges and Prepaid Item Gift Codes, with the Merchant's Own Item Price as the Only Exchange Rate and One Payment Type per Gift Message
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23. The subtitle names the NEW
+   matter (claims 8–11) so the two postings are told apart in TDCommons search, which reads titles and abstracts
+   only. Drawn from claims 8–11 and the ## Terms table: "recognition balance", "non-purchasable", "money gifts",
+   "time pledges", "prepaid item gift codes", "the merchant's own item price as the only exchange rate",
+   "one payment type per gift message". No mark in the added part; no new matter; Headline Style.
+   280 characters. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250; condensed from claims 8–11, §5.5 and §9, no new matter, standard terms first)
+This defensive publication's revision adds a third gift cargo and claims 8–11 to a dual-currency gift system in which peer-to-peer money gifts and non-transferable, expiring time pledges run as one economy with no exchange rate. The system also carries prepaid item gift codes, bought at a shop's own price, beside per-person recognition balances that cannot be bought, transferred or cashed. Each thank-you message's recognition amount is computed only from the message (its words, a sender-chosen sentiment marker, its recorded length, the parties it names, and a model's refinement within a fixed band), never from any money amount, item, price, length of time or pledge size; a scoring model receives the text with amounts and durations replaced. A participation signal reads only those balances' zero-crossing frequency and amplitude. Only original thanks move a balance; endorsements, transfers with no thank and spends from a forward-only fund move none. The recognition balance can never be redeemed for, buy, unlock or discount money, time or an item gift code, and none of them can buy it. The only exchange rate among the four kinds of value is a merchant's own price for its own item, applied only on the money–item edge: the code's sale, conversion of an unredeemed code into that merchant's store credit (never cash) at the greater of the price paid and the current price, and money sized against an item. Each gift message carries one payment type. Prior-art censuses and limits are reported. Claims 1–7 are retained as disclosed.
+
+HASHES     (SHA-256 of the NFC text above — compare the editor, the confirmation echo and the Author's view against
+            THESE, computed from this file, never against a retyped string)
+  title    : 6440dc359807d236f16274e9923d749322f8558c4c403f59ae1f3449d9b06331
+  abstract : 057fbd43a474fc7ca5c541500f53b16bf9683a05d27805f1d41e8f2654b8c6fa
+
+FILE       incommensurability-preserving-coupler.2.pdf — BUILT 2026-10-06 from the repo after the chain
+           (python3 scripts/tdc-pdf.py incommensurability-preserving-coupler, WITHOUT --submitted: the first PDF is
+           evidence and is never rebuilt in place); 22 pages, 447,041 bytes.
+           sha256 591953318162880bae5cbd5384c2aad520c0dcc6c5675870074215bbc52c322b
+           STAMPED (A279): composite · M-0006 · page text unchanged.
+  Cover (read): first published 2026-07-05 · this version 2026-10-06 · concept DOI 10.5281/zenodo.21947340 ·
+  scoped timestamp line · CC0. Every page read 2026-10-06; claims 1–11, the census table, §5.5 and §9 render.
+  Cosmetic only: page 8 is mostly blank (a page break before the Terms table).
+  The paper's Zenodo deposit covers these bytes (zenodo-dois.json sha 9b55f3a4… = the working tree).
+
+RECORD     after the confirmation page (the Prior-Art heading holds the claims, as in the first record):
+  python3 scripts/check-mirrors.py --record incommensurability-preserving-coupler --date <YYYY-MM-DD> \
+    --pdf incommensurability-preserving-coupler.2.pdf --claims-heading "## Prior-Art and Non-Assertion Statement"
+  (dry-run on a scratch copy 2026-10-06: claims sha 1f30c28994ae…, all 77 mirrored papers clean; the first posting
+   moves to prior_postings with its PDF name and its posted_verified record)
+  once it posts: --posted … --url …  then  --verify-posted … --pdf <the venue's PDF>, and a row in TIMESTAMPS.md.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT (2026-10-06)
+  [x] mirror-lint.py: 0 refuse, 0 warn
+  [x] census.py gate: passes (already deposited, 10.5281/zenodo.21947340); claims 8–11 carry their own two quick
+      censuses, reported in the paper with aperture, controls and every narrowed conjunct
+  [x] check.py --pii: 0 HIGH · 0 MEDIUM · 0 LOW
+  [x] Non-assertion present — "## Prior-Art and Non-Assertion Statement", the standard form
+  [x] Overclaim: "Not found means not found in the aperture above on those dates; it never means new" — no bare
+      novel / first / unique; "first disclosed in The Re-Thank Multiplier" is an ordinal
+  [x] Title does NOT lead with a mark; no mark in the title or abstract
+  [x] Inventor field: Thon Ly only; Miss Aquarius disclosed in the document, never in a field; models not named
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body and SCREENSHOT to confirm before submitting.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
+⚠️ IRREVERSIBLE once approved. Public exactly as uploaded, permanently.

@@ -634,27 +634,34 @@
     {
       "slug": "incommensurability-preserving-coupler",
       "venue": "TDCommons, Defensive Publications Series",
-      "submitted": "2026-10-01",
-      "pdf": "incommensurability-preserving-coupler.pdf",
+      "submitted": "2026-10-06",
+      "pdf": "incommensurability-preserving-coupler.2.pdf",
       "claims_headings": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "claims_sha256": "812e23d8310191a2fa5f7a0a7fa767e51434a873d5eeb9c5eb3d080e36ff5c8e",
+      "claims_sha256": "1f30c28994aeb88d9e8f5b6fe75e58f71d91e3e9f93cb88f329eaeb7b5be8092",
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "b140e8f0380f4610015d4b7177f315f0ef4bd3820c318f9b8472dbd7f1583ac2",
-      "posted": "2026-10-06",
-      "url": "https://www.tdcommons.org/dpubs_series/11983",
-      "posted_verified": {
-        "date": "2026-10-06",
-        "result": "match",
-        "posted_pdf_sha256": "a22f5ce805e42c59e98c4cfcca5399b27e05ae81222b53146b8a724c271d7155",
-        "posted_pages": 16,
-        "words": 7158,
-        "extra": 0,
-        "missing": 0
-      }
+      "body_sha256": "bb04f2584d448562397c8655daab77b6f2af5afe05530e610920c5d730952b31",
+      "prior_postings": [
+        {
+          "submitted": "2026-10-01",
+          "posted": "2026-10-06",
+          "url": "https://www.tdcommons.org/dpubs_series/11983",
+          "claims_sha256": "812e23d8310191a2fa5f7a0a7fa767e51434a873d5eeb9c5eb3d080e36ff5c8e",
+          "pdf": "incommensurability-preserving-coupler.pdf",
+          "posted_verified": {
+            "date": "2026-10-06",
+            "result": "match",
+            "posted_pdf_sha256": "a22f5ce805e42c59e98c4cfcca5399b27e05ae81222b53146b8a724c271d7155",
+            "posted_pages": 16,
+            "words": 7158,
+            "extra": 0,
+            "missing": 0
+          }
+        }
+      ]
     },
     {
       "slug": "individuation-without-essence",

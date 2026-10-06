@@ -109,7 +109,10 @@ def record(slug, venue, date, pdf, override=None):
     # both forever, so the manifest must too.
     prior = (old or {}).get("prior_postings", [])
     if old and old.get("url"):
-        prior = prior + [{k: old[k] for k in ("submitted", "posted", "url", "claims_sha256") if k in old}]
+        # 2026-10-06, the first second submission: keep the posting's PDF name and its word-for-word
+        # verification too — the new entry's "pdf" names the new file, so they would otherwise vanish.
+        prior = prior + [{k: old[k] for k in ("submitted", "posted", "url", "claims_sha256", "pdf",
+                                              "posted_verified") if k in old}]
     m["entries"] = [e for e in m["entries"] if e["slug"] != slug]
     m["entries"].append({
         "slug": slug, "venue": venue,
