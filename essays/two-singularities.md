@@ -202,12 +202,9 @@ Read this way, the sequence *is* the two-singularity arc with its dating filled 
 | Venue | Identifier |
 |---|---|
 | Primary canonical | <https://thonly.org/research/two-singularities> |
-| Institutional mirror | <https://heartbank.net/research/two-singularities> |
 | GitHub | <https://github.com/thonly/publications/blob/main/essays/two-singularities.md> |
-| arXiv preprint | _identifier to be assigned_ (cs.CY) |
-| Edge.org / Aeon submission | _pitched separately; identifier to be added on acceptance_ |
 | Internet Archive | <https://web.archive.org/web/2026*/thonly.org/research/two-singularities> |
-| archive.today | _identifier to be assigned_ |
+| Software Heritage (the repository) | <https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/thonly/publications> |
 
 ## XIII · Acknowledgments
 

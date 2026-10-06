@@ -8,11 +8,11 @@ date: 2026-05-07
 revised: 2026-09-23
 license: CC0-1.0
 slug: each-life-as-cosmic-coordinate
-venue: thonly.org/research/alignment (canonical) · heartbank.net/research/alignment (institutional mirror, mission-frame paragraph stripped)
+venue: thonly.org/research/alignment (canonical)
 zenodo: true
 ---
 
-> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. The institutional mirror at heartbank.net/research/alignment derives by stripping the §10 mission-frame paragraph and converting first-person passages to third-person institutional voice, per the voice-split convention.
+> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft.
 
 ---
 

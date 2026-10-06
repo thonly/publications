@@ -7,11 +7,11 @@ status: draft
 date: 2026-05-09
 slug: kids-as-triggers-self-thanking
 license: CC0-1.0
-venue: thonly.org/research/mechanism (canonical) · heartbank.net/research/mechanism (institutional mirror, mission-frame paragraph stripped)
+venue: thonly.org/research/mechanism (canonical)
 zenodo: true
 ---
 
-> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. The institutional mirror at heartbank.net/research/mechanism derives by stripping the §1 mission-frame paragraph and converting first-person passages to third-person institutional voice, per the voice-split convention. This paper absorbs the previously planned Tier C paper *The 50/50 Split as Central Circulation Primitive*, treating it as a section within the larger argument rather than as a standalone treatment. It develops the attention-economy critique as the upstream *diagnosis* (§2.1, §3.4); the *constructive* receipt-side treatment — the science of gratitude receipt and the platform class built on it — is carried by the companion paper *The Scientific Case for Gratitude-Based Social Media* (slug `anti-attention-economy`), which remains standalone.
+> *Draft notes for the editor:* this is the founder-voice (thonly.org) canonical draft. This paper absorbs the previously planned Tier C paper *The 50/50 Split as Central Circulation Primitive*, treating it as a section within the larger argument rather than as a standalone treatment. It develops the attention-economy critique as the upstream *diagnosis* (§2.1, §3.4); the *constructive* receipt-side treatment — the science of gratitude receipt and the platform class built on it — is carried by the companion paper *The Scientific Case for Gratitude-Based Social Media* (slug `anti-attention-economy`), which remains standalone.
 
 ---
 
@@ -512,11 +512,9 @@ HeartBank corpus internal references:
 ## Cross-venue references
 
 - Canonical: thonly.org/research/kids-as-triggers-self-thanking
-- Institutional mirror: heartbank.net/research/kids-as-triggers-self-thanking
 - GitHub: github.com/thonly/publications/blob/main/essays/kids-as-triggers-self-thanking.md
-- Internet Archive snapshots: [pending; baseline wave to follow within 7 days of canonical-URL deployment]
-- archive.today snapshots: [pending]
-- perma.cc snapshots: [pending]
+- Internet Archive: web.archive.org/web/2026*/thonly.org/research/kids-as-triggers-self-thanking
+- Software Heritage (the repository): archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/thonly/publications
 
 ---
 
@@ -524,7 +522,7 @@ HeartBank corpus internal references:
 
 This paper is released under Creative Commons CC0 1.0 Universal. It is defensively published to the commons. The author and HeartBank® will not seek patent on the self-thanking primitive, the 50/50 pedagogical instrument, the forward-thanking three-node loop, the family-rubric operationalization mechanism, or any other specification or architectural pattern articulated herein. This commitment is permanent. Trademark rights on specific marks (B-Tag, B-Affiliate, B-Member, Miss Aquarius, HeartBank, the B-heart logo) are separately reserved per the project's trademark strategy.
 
-This document constitutes a defensive publication establishing prior art as of 2026-05-09 across the multi-venue protection wall (canonical site + institutional mirror + GitHub + Internet Archive + archive.today + perma.cc) per `project_publication_strategy.md`.
+This document constitutes a defensive publication establishing prior art as of 2026-05-09 on the canonical site, GitHub and the Internet Archive; the repository has also been held by Software Heritage since 2026-10-01.
 
 ---
 
