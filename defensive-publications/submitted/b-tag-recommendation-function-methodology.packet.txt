@@ -1,0 +1,42 @@
+TDCOMMONS SUBMISSION PACKET — wave 8 (A232) — FINAL (built and read 2026-10-06; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+The B-Tag Recommendation Function: Privacy-Preserving Methodology for AI-Mediated Commercial Tip Recommendation — Suggested Tip Amounts with Stated Reasons from Confidential Merchant Costs, Without Customer Tracking
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; wave-8 recommendations approved 2026-10-06, "yes".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title. Note: the title leads with a coined mark (B-Tag); the standard terms follow in the paper's own title and the subtitle.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (246 words — limit 250; condensed from the paper's ## Abstract by deletion only, italic markers dropped; no new matter)
+This paper discloses a method by which an AI agent recommends a voluntary payment amount, a suggested tip in a pay-what-you-want sale, and shows it with stated reasons, without tracking the customer and without revealing the merchant's costs. Six components are specified. (1) The merchant confidentially discloses a cost breakdown by category (materials, labor, a skill premium, overhead, regulatory cost and margin) to the recommender; the customer never sees it. (2) The recommended amount is a non-binding anchor: paying it, more, less or nothing completes the sale, and whether a customer accepted or overrode past suggestions is not recorded. (3) Each recommendation carries plain-language reasons drawn from the cost categories through a controlled vocabulary, never itemized amounts. (4) Suggestions are made consistent across merchants by calibrating against aggregated, anonymized cost distributions per product category and region, which are published, while each merchant's breakdown stays confidential. (5) Context comes from the transaction and the goods (time, product category, the merchant's region), not from a profile of the customer. (6) Regional calibration uses public parameters for local tipping norms and cost of living, keyed to the merchant's location. In the design as now specified, the recommender receives no input identifying the customer in any pricing mode, and the suggested amount appears only after the customer holds the goods, shown but never pre-filled. The methodology is dedicated to the public domain under CC0 1.0 as a defensive publication, and its authors will neither seek nor assert patents on it.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    d1c76e4681a6ad232e0c9dca0b25ad94fa18b06aee0634b4faafe2db0c6fbf1e
+  abstract 22e02aa2d5fd335ffe1f027b06e19c26942f1420c1d22e93ed2f4f10e20ef443
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"      (kind: mechanism)
+
+FILE       BUILT 2026-10-06 from the repo after the chain (python3 scripts/tdc-pdf.py b-tag-recommendation-function-methodology); 18 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-05-26 · this version 2026-10-06 · concept DOI 10.5281/zenodo.21947285
+  (version DOI 10.5281/zenodo.23193048) · canonical thonly.org/research/b-tag-recommendation-function-methodology · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-06 · Zenodo 23193048 · index 2.5.37 (worker deploy pending)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

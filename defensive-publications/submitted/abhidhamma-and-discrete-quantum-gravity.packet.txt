@@ -1,0 +1,42 @@
+TDCOMMONS SUBMISSION PACKET — wave 8 (A232) — FINAL (built and read 2026-10-06; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Discreteness, Adjacency and Order: A Structural Comparison of the Theravāda Abhidhamma with Causal Sets and Loop Quantum Gravity — Partial Orders, Spin-Network Boundaries and Discrete Time in Buddhist Philosophy of Matter
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; wave-8 recommendations approved 2026-10-06, "yes".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (248 words — limit 250; condensed from the paper's ## Abstract by deletion only, italic markers dropped; no new matter)
+This study compares the Theravāda Buddhist Abhidhamma with two discrete approaches to quantum gravity, causal set theory and loop quantum gravity, as formal structures, on three axes: order, adjacency and ratio. No row predicts a measurement, and none says that a Buddhist text anticipated a theory of quantum gravity. On order, the twenty-four conditioning relations of the Paṭṭhāna, taken whole, are not a partial order. The condition-modes that always run from earlier-arising to later-arising form an acyclic typed relation over which a strict order can be read: acyclic by selection, not yet a causal set, and ordering some moments of different mental streams, which share no clock. On adjacency, the strongest row, a spin-network link is the face two neighboring grains of space share and carries a quantized area, while a Theravāda sub-commentary defines space as the non-mixing of touching neighboring material clusters (kalāpa). Both put the unit of spatial boundary at the adjacency between minimal units, and neither makes it one of the units. The features specific to loop quantum gravity, a quantized magnitude and a volume derived from it, are the ones that fail, and the shape that holds is generic to any cellular picture. On ratio, most material phenomena last seventeen mind-moments in the commentary and the manual, and only the generic part survives: a duration stated as a count of steps. A per-kalāpa count taken as the same in every frame would conflict with muon time dilation, but the texts state no such count.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    e21d39185d3236a940ffb4fee2801bd9a2ea09438db715732eafc781cfd1fa33
+  abstract 2be5d255f970ae91a0874ae7b7c8367b99058fecf44f29de2d058f8a5ad5c5e7
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-06 from the repo after the chain (python3 scripts/tdc-pdf.py abhidhamma-and-discrete-quantum-gravity); 29 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-09-27 · this version 2026-10-06 · concept DOI 10.5281/zenodo.23020020
+  (version DOI 10.5281/zenodo.23193044) · canonical thonly.org/research/abhidhamma-and-discrete-quantum-gravity · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-06 · Zenodo 23193044 · index 2.5.37 (worker deploy pending)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

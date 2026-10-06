@@ -1,0 +1,42 @@
+TDCOMMONS SUBMISSION PACKET — wave 8 (A232) — FINAL (built and read 2026-10-06; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Machine-Checked Consistency of a Buddhist Classification: Lean Theorems for the Abhidhamma's 89 and 121 Types of Consciousness — Formal Verification of a Class–Feature Incidence Structure Against Both Stated Projections, with Mutation Testing
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; wave-8 recommendations approved 2026-10-06, "yes".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title. Note: founder ruling 2026-10-06 ("yes", all recommendations): the paper title's own '— The Counts Check' is dropped at the venue only, so the title carries one em dash.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (250 words — limit 250; condensed from the paper's ## Abstract by deletion only, italic markers dropped; no new matter)
+This paper reports a machine-checked consistency test of a classification that its source states twice, once feature by feature and once class by class. The source is chapters 1–3 of the Abhidhammattha-saṅgaha, a standard manual of the Theravāda Buddhist Abhidhamma, which classifies consciousness into 89 types (121 when the supramundane types are reckoned by meditative absorption) and states which of 52 mental factors combine with each type. In the Lean 4 theorem prover, a nine-clause generator builds the types as a product of chapter 1's classification axes, and eighteen rules over those axes, none naming an individual type, assign each type its factors. Checked by kernel evaluation against a separate answer key cited to the Chaṭṭha Saṅgāyana (CST) edition, the rules reproduce every per-type and per-factor count of chapter 2. Nine deliberate faults each make the check fail. The result is mutual consistency of the chapter's two methods under one 27-clause rule set, not a derivation independent of the text, and the rule set is not claimed to be unique; the enumeration of the 89 and 121 from the axes has a public precedent and is not claimed. Three further checks each run on one list: the Dhammasaṅgaṇī's canonical list for the first wholesome type names 29 distinct factors, the count its fifth-century commentary also gives; the manual's 38 for that type is exactly those 29 plus nine factors the commentary supplies; and the Cambodian Buddhist Institute edition and the CST name the same 56 terms in the same order.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    ef1f4665637ddf47b9df1e27a332954d545e24858ef63f60c447a5bb8c21605d
+  abstract 86fd66c3ef8f63e9cd67bdbc8bde23d749d7a2fc8768ee7955e13e9ccdb7c3f4
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 11 · Enumerated Claims"      (kind: mechanism)
+
+FILE       BUILT 2026-10-06 from the repo after the chain (python3 scripts/tdc-pdf.py the-counts-check); 31 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-09-27 · this version 2026-10-06 · concept DOI 10.5281/zenodo.23020670
+  (version DOI 10.5281/zenodo.23193034) · canonical thonly.org/research/the-counts-check · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-06 · Zenodo 23193034 · index 2.5.37 (worker deploy pending)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

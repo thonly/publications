@@ -1,0 +1,42 @@
+TDCOMMONS SUBMISSION PACKET — wave 8 (A232) — FINAL (built and read 2026-10-06; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Fractal Three-Level Architecture for Reciprocity Economies: Self-Similar Family-and-Global Layering with a Single Mental Model — A Shared Three-Level Account Hierarchy (Pooled Fund, Give-Forward Account, Individual Account) for Family and Peer-to-Peer Payments
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; wave-8 recommendations approved 2026-10-06, "yes".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (243 words — limit 250; condensed from the paper's ## Abstract by deletion only, italic markers dropped; no new matter)
+This paper discloses an account architecture for a reciprocity platform — software through which people give one another money as thanks — designed to operate at two scales, within families and between strangers peer to peer, with one three-level account hierarchy at both, so that a participant who has learned the family-scale system recognizes the planetary-scale one. The three node types are a pooled fund that aggregates contributions and disburses them under published rules; a give-forward account, whose balance can only be passed on to other people; and an individual's own account. Four transfer conventions apply identically at each scale: a proximity constraint on giving; an equal split of each reward a participant receives for recording a kind act of their own, between the individual account and the give-forward account; a disbursement rule for the pooled fund, which pays an equal floor per verified person plus a variable remainder capped so that no account's total exceeds a fixed multiple of the floor; and an AI agent that recommends amounts within fixed bounds. The design objective is to minimize the number of distinct mental models a full participant must acquire; the saving in learning cost is stated as a hypothesis and has not been measured. The disbursement rule was corrected in the open on 23 September 2026 from an earlier rule that weighted amounts by a reputation signal alone, and later refinements are given in dated notes, with the earlier text retained as disclosed.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    150f684f00d45ba783232613d3e22f530696c18c0ad5e26d5664e3725348fb44
+  abstract 0fa326151aa3bc9f3d5144f2c0e7ba724bfc698a39d34ca00cde3df9c5534c2c
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Claims"      (kind: mechanism)
+
+FILE       BUILT 2026-10-06 from the repo after the chain (python3 scripts/tdc-pdf.py fractal-three-level-architecture); 18 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-05-22 · this version 2026-10-06 · concept DOI 10.5281/zenodo.21947325
+  (version DOI 10.5281/zenodo.23193049) · canonical thonly.org/research/fractal-three-level-architecture · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-06 · Zenodo 23193049 · index 2.5.37 (worker deploy pending)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

@@ -1,0 +1,42 @@
+TDCOMMONS SUBMISSION PACKET — wave 8 (A232) — FINAL (built and read 2026-10-06; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Transparency as Enforcement: Anti-Abuse Without Legal Contract Machinery — Community Disclosure in Place of Terms-of-Service Enforcement, Limited to Incurred Obligations
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; wave-8 recommendations approved 2026-10-06, "yes".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (233 words — limit 250; condensed from the paper's ## Abstract by deletion only, italic markers dropped; no new matter)
+This paper discloses a design pattern for abuse prevention in online platforms and shared-fund applications that replaces terms-of-service enforcement, dispute resolution and account termination with disclosure: the conduct to be policed is made visible to the bounded community it affects, and that community's own response is the sanction. Three properties make disclosure work as enforcement: the visibility itself is the mechanism, the response is proportioned by the community rather than by a binary rule, and participants join knowing what will be visible. Two deployments are specified: disclosure to a family of every reward its steward receives from the family's shared fund, and per-member display of storage use within a bounded user community, a display since replaced by a storage rule that needs none. A third, a public ledger of time given and time received per participant, is withdrawn and kept as a negative case. Three conditions of efficacy are stated (a community small enough for social signals to travel, participants with relational or reputational stakes, and a visible baseline against which conduct reads as anomalous) together with a condition of legitimacy: the pattern may render only the non-performance of an obligation the participant actually incurred. The limits are stated: the enforcer is the community, so the guard holds only while the community responds; a bounded, high-stakes community can turn visibility into retaliation; and a complete record of named gifts renders absence by omission.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    b7ec9eb7af55d0888a548a78acf387d0f17067fe0a1e5338f69bcdd91e065e40
+  abstract 760b554578d7ed516745cade73a01d8d3b52a21bf82a1ea7d6c3cd6adc7c3c69
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## 8. Enumerated Claims"      (kind: mechanism)
+
+FILE       BUILT 2026-10-06 from the repo after the chain (python3 scripts/tdc-pdf.py transparency-as-enforcement); 18 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-05-22 · this version 2026-10-06 · concept DOI 10.5281/zenodo.21947424
+  (version DOI 10.5281/zenodo.23193052) · canonical thonly.org/research/transparency-as-enforcement · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-06 · Zenodo 23193052 · index 2.5.37 (worker deploy pending)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

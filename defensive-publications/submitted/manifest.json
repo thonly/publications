@@ -23,6 +23,20 @@
       }
     },
     {
+      "slug": "abhidhamma-and-discrete-quantum-gravity",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-06",
+      "pdf": "abhidhamma-and-discrete-quantum-gravity.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "3cfcfc980685f77a5123c846e21e41505f831773e65aeb6fb1ff48bdc7a1bb63",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "2eb7876555bca2b3e7ea655fb0659efd47044de1b2736167acd7b93a2c86fd5a"
+    },
+    {
       "slug": "abhidhamma-executable-process-specification",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-10-01",
@@ -193,6 +207,34 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "b-tag-recommendation-function-methodology",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-06",
+      "pdf": "b-tag-recommendation-function-methodology.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "1cab0272de5e4a5d940ab494f8a6f9d8c9bb013fc61fc80e5f6ab66ba7e6407d",
+      "claims_heading_override": [
+        "## Claims"
+      ],
+      "body_sha256": "22e2a3740a58dbe3eb61b60f2c7a982469a5af4989d677d61970e25d22929a75"
+    },
+    {
+      "slug": "brand-identity-as-architecture",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-06",
+      "pdf": "brand-identity-as-architecture.pdf",
+      "claims_headings": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "claims_sha256": "c93e3ba8312ca668e64be2b01260c0c54de823dc267f3f46fc285567bb67b32e",
+      "claims_heading_override": [
+        "## Prior-Art and Non-Assertion Statement"
+      ],
+      "body_sha256": "508696896e178e7620dcfc1b7cb906c735ed180025f67f7a4345d1918c339a15"
     },
     {
       "slug": "buddha-ai-living-tipitaka",
@@ -477,6 +519,20 @@
         "## Findings disclosed"
       ],
       "body_sha256": "95d474cd43f70ff42e9518e8e92ecdb74f5364283a9dbaa5fe364e3acab37db9"
+    },
+    {
+      "slug": "fractal-three-level-architecture",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-06",
+      "pdf": "fractal-three-level-architecture.pdf",
+      "claims_headings": [
+        "## Claims"
+      ],
+      "claims_sha256": "65fe9ce3390ae79c0b45a501c5ad7fe5f2cc56c4eeea97cd519ff6bfa086dd85",
+      "claims_heading_override": [
+        "## Claims"
+      ],
+      "body_sha256": "4737f426ba26497e9f9e4b4187a898c5009cb666f03c0920e1806a08534018dc"
     },
     {
       "slug": "gift-tag-time-reveal",
@@ -1192,6 +1248,20 @@
       }
     },
     {
+      "slug": "the-counts-check",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-06",
+      "pdf": "the-counts-check.pdf",
+      "claims_headings": [
+        "## 11 · Enumerated Claims"
+      ],
+      "claims_sha256": "0d3cddfc1d8174f14a1694f40fd7ea5716c94fb4dbd276495e060fabb338828c",
+      "claims_heading_override": [
+        "## 11 · Enumerated Claims"
+      ],
+      "body_sha256": "ab4f6952a996e5342d18acd813a227462d057f5938f9750991a1c16fbc5d68ec"
+    },
+    {
       "slug": "the-game-that-graduates-you",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
@@ -1383,6 +1453,20 @@
       }
     },
     {
+      "slug": "the-vibhajjavadin-view-of-time",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-06",
+      "pdf": "the-vibhajjavadin-view-of-time.pdf",
+      "claims_headings": [
+        "## Findings disclosed"
+      ],
+      "claims_sha256": "55b4a400268516e16274b36918c7e1a9004bb05621248039913f30551216a587",
+      "claims_heading_override": [
+        "## Findings disclosed"
+      ],
+      "body_sha256": "0767d3f300979e3ca2ad7cb66d398d43c131959f8fefffa347cf2c3a107f642c"
+    },
+    {
       "slug": "the-wager-that-isnt",
       "venue": "TDCommons, Defensive Publications Series",
       "submitted": "2026-09-27",
@@ -1453,6 +1537,20 @@
         "extra": 0,
         "missing": 0
       }
+    },
+    {
+      "slug": "transparency-as-enforcement",
+      "venue": "TDCommons, Defensive Publications Series",
+      "submitted": "2026-10-06",
+      "pdf": "transparency-as-enforcement.pdf",
+      "claims_headings": [
+        "## 8. Enumerated Claims"
+      ],
+      "claims_sha256": "36da70b949dae0b793843b23a2bdd751ddcdb687564f5a6152e398d57668bed1",
+      "claims_heading_override": [
+        "## 8. Enumerated Claims"
+      ],
+      "body_sha256": "58c6f865d4b0fe9c3c3270d1b7fd32a7c706abd59a1c40b4df3b904a465ac2df"
     },
     {
       "slug": "two-layer-reward",

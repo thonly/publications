@@ -1,0 +1,42 @@
+TDCOMMONS SUBMISSION PACKET — wave 8 (A232) — FINAL (built and read 2026-10-06; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Brand Identity as Architecture: The B-Heart Logo, B-Prefix Naming, Heartbeat Animation as Display of a Proof-of-Humanity Attestation, and Aura-Color Two-Ledger State Primitive — Rotated-Heart Bistable Logo, Single-Letter Product Prefix, Logo Animation Bound to Proof-of-Personhood Attestation, and Avatar Ring Color from Balance Zero-Crossing Frequency
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; wave-8 recommendations approved 2026-10-06, "yes".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title. Note: the paper title itself was amended 2026-10-06 (founder: "yes") — the earlier title called the animation a 'functional proof-of-humanity signal' and the color a 'cross-currency' primitive.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (245 words — limit 250; condensed from the paper's ## Abstract by deletion only, italic markers dropped; no new matter)
+This paper discloses a brand-identity system in which each element of a logo does functional work beyond recognition. (I) A logo made by rotating an unmodified heart silhouette 45° clockwise, so that it reads at once as a heart and as the capital letter B — a reading that survives at favicon size because it depends on no internal whitespace. (II) A product-naming convention in which every product takes a one-letter prefix that is the logo's own letter reading, so the prefix cannot come apart from the mark. (III) A logo animation with a cardiac morphology — two pulses, the second softer, then a rest over most of the period — that a trusted interface shows in motion only for an account holding a live proof-of-personhood attestation, and still otherwise; the motion verifies nothing itself and is a display channel for an attestation made elsewhere. (IV) An avatar-ring color computed from how often a participant's gratitude balance crosses zero over a rolling window, never from its level, with ring width from the balance's root-mean-square, applied on one published scale to two separate ledgers and shown wherever the logo is rendered for that participant; because identity is carried by the shape, color is free to carry this state. The paper also specifies a slogan in which the logo replaces a letter of the brand name, a toll-free number verified-bound to a messaging business account as a legitimacy anchor, and a domain, subdomain, email and social-handle architecture.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    b95eedfc213c74b1cfe38d4da6bb689eb9be4ed9bd0eded82b5f91dc961440be
+  abstract e6641c2b833e9c16b3d3ffc5e9b281ac582adc4bb4acc1975ce1b959dbe5788b
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Prior-Art and Non-Assertion Statement"      (kind: mechanism)
+
+FILE       BUILT 2026-10-06 from the repo after the chain (python3 scripts/tdc-pdf.py brand-identity-as-architecture); 43 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-05-04 · this version 2026-10-06 · concept DOI 10.5281/zenodo.21947287
+  (version DOI 10.5281/zenodo.23193057) · canonical thonly.org/research/brand-identity-as-architecture · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-06 · Zenodo 23193057 · index 2.5.37 (worker deploy pending)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)

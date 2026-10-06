@@ -1,0 +1,42 @@
+TDCOMMONS SUBMISSION PACKET — wave 8 (A232) — FINAL (built and read 2026-10-06; awaiting the founder's named yes)
+═══════════════════════════════════════════════════════════════════════
+TITLE
+Causal Set Theory, the Growing Block, and the Buddhist Debate on the Three Times: What the Earliest Vibhajjavādin Records Say — Presentism, Eternalism and Beginningless Time in Abhidharma Texts Compared with Sequential-Growth Models
+  (TDCommons title = paper title + standard-term subtitle — founder ruling 2026-09-23; wave-8 recommendations approved 2026-10-06, "yes".
+   No mark in the added part; no new matter. The PDF keeps the paper's own title. Note: title kept with 'the Growing Block' (founder 2026-10-06; §4 scopes the label).)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK   (keeps the submission off the "on behalf of a business" branch — L40)
+
+LICENCE    Creative Commons Attribution 4.0   (the default; never an NC/ND/SA variant)
+
+ABSTRACT   (246 words — limit 250; condensed from the paper's ## Abstract by deletion only, italic markers dropped; no new matter)
+This study reads the Buddhist debate on whether past and future things exist (the "three times") against the growing-block view of time that causal set theory's sequential-growth models are offered to support. Rafael Sorkin (2007) remarked that the "accretive time" of these models seems close to C.D. Broad's and to the "Vibhajavadin" school's; Fay Dowker (2022) invited a scholar to determine that school's view of time from the earliest records. The records give no single view under the name. In the northern Abhidharma, the Vibhajyavādins hold that the present and past action whose fruit is not yet given exist, but not past action that has given its fruit, nor the future. That past thins, so the view resembles causal-set accretion only in keeping some past and denying the future; no position in the debate keeps every born element, as a growing block does. In the Pāli tradition, Vibhajjavāda is the Mahāvihāra's self-designation, and its Kathāvatthu refutes four rival views of time, among them the northern view's past half. The Mahāvihāra holds presentism about conditioned phenomena, the view Sorkin offers his growth as an alternative to. On a second axis, the beginning, the Paṭṭhāna's proximity condition, as the commentaries draw it, gives a stream of mind no first member. Classical sequential growth is past-finite; the one past-infinite growth study read (Bento, Dowker and Zalel 2022) builds a consistent covariant framework but offers no dynamics yet that grows a beginningless past in the physical order of its births.
+
+HASHES     (NFC, SHA-256 — compare the editor, the confirmation echo and Author's view against THESE, never a retyped string)
+  title    f01c3e872780e008e9a7899fded734c1195963243b5e2aafebbc86e405ae13e6
+  abstract 15ef449b054ade724e7fad68227c26e3875d8104dc5fe64c504e36e104945a1f
+
+CLAIMS HEADING (for check-mirrors --record)
+  --claims-heading "## Findings disclosed"      (kind: study)
+
+FILE       BUILT 2026-10-06 from the repo after the chain (python3 scripts/tdc-pdf.py the-vibhajjavadin-view-of-time); 25 pages.
+           STAMPED (A279): IPTC compositeSynthetic · CC0 · register M-0006 — read back, page text unchanged.
+           Rebuilt with --submitted into defensive-publications/submitted/ only after the founder's named yes.
+  Cover (read): first published 2026-09-27 · this version 2026-10-06 · concept DOI 10.5281/zenodo.23020015
+  (version DOI 10.5281/zenodo.23193040) · canonical thonly.org/research/the-vibhajjavadin-view-of-time · scoped timestamp line · CC0 · inventor of record Thon Ly.
+  First mirror for this slug: NOT in submitted/manifest.json.
+═══════════════════════════════════════════════════════════════════════
+PRE-FLIGHT
+  [x] Zenodo deposited (census gate passes — deposited slug, not retrofitted)
+  [x] One standard Prior-Art and Non-Assertion Statement (grep: non-assert · will not seek patent)
+  [x] check.py --pii clean · mirror-lint 0 refuse · no draft banner, perma.cc, archive.today, false mirror line,
+      placeholder, SHA-256 footer, sha256:/doi: front matter, A126 sentence, memory wiki-link
+  [x] AI co-authorship disclosed in the text (Miss Aquarius named; no model or vendor named)
+  [x] verify-legs: OTS (calendar-only, binds current text) · TSA 2026-10-06 · Zenodo 23193040 · index 2.5.37 (worker deploy pending)
+
+⚠️ THE ABSTRACT FIELD IS A RICH-TEXT EDITOR (TinyMCE). form_input reports success and leaves it EMPTY.
+   Type into the visible editor body; verify by hash, then SCREENSHOT, before the single Submit click.
+⚠️ ENTRY URL: https://www.tdcommons.org/cgi/ir_submit.cgi?context=dpubs_series  (never submit.cgi)
