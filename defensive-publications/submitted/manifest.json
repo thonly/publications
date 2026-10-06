@@ -9,7 +9,18 @@
         "## 15 · Enumerated claims"
       ],
       "claims_sha256": "fd32196b502627f4258d8115b6f3d16338ca1caabe45323c1ef8ce292f585997",
-      "body_sha256": "71d1deb9cc7c4b39090f0b310b72272fe4ea2c9507b7156b33a32e3e4b5b286a"
+      "body_sha256": "71d1deb9cc7c4b39090f0b310b72272fe4ea2c9507b7156b33a32e3e4b5b286a",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11953",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "3a5ebb752ae79d0bfa48882e36c1343014ad33e0cd1e8a757b260cdeb29df7b7",
+        "posted_pages": 44,
+        "words": 19938,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "abhidhamma-executable-process-specification",
@@ -23,7 +34,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "ee17b80b55e48a1250544e2577aaf547ef75d11b9b88a2b5ac1b0584fbb980d0"
+      "body_sha256": "ee17b80b55e48a1250544e2577aaf547ef75d11b9b88a2b5ac1b0584fbb980d0",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11988",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "5494d407c1571280ecb5ac6b8efb2f2e0ecae9fbd348964191f2078ba1ae431d",
+        "posted_pages": 28,
+        "words": 11661,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "agi-monks-caretaker-not-ordained",
@@ -159,7 +181,18 @@
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "01257ea0b77c3b06f5135a3a7072cc19714ae4716b1cbf330aa96de761673b5c"
+      "body_sha256": "01257ea0b77c3b06f5135a3a7072cc19714ae4716b1cbf330aa96de761673b5c",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11973",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "1fcda333ef727c19b3cb6100d1b9ec352a0361135aaba4a83fbba895f937d919",
+        "posted_pages": 39,
+        "words": 16700,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "buddha-ai-living-tipitaka",
@@ -272,7 +305,18 @@
       "claims_heading_override": [
         "## 13 · Findings Disclosed and Dedication"
       ],
-      "body_sha256": "d438591192b1f785117bf56b404f5905586a2660982d48253e05e4b339647ad0"
+      "body_sha256": "d438591192b1f785117bf56b404f5905586a2660982d48253e05e4b339647ad0",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11955",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "a017d71504ec0e0000e5e92521ce5103a2121fa55763f85c3d752d0ebe63fa8a",
+        "posted_pages": 25,
+        "words": 11929,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "co-presence-gated-redemption",
@@ -306,7 +350,18 @@
         "## Claims"
       ],
       "claims_sha256": "cb434fabffe1773f413b1bebe4265cb18b6fccef7b394a2b34ba484cdf100815",
-      "body_sha256": "5fb757613208601492d7378f51aa60b49f709e7bf80fc14a28ac42e5ee2978ad"
+      "body_sha256": "5fb757613208601492d7378f51aa60b49f709e7bf80fc14a28ac42e5ee2978ad",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11954",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "59e3b64e7bccce689f0e0598e1483da624fc90b21f0e46dc11819bf194378ead",
+        "posted_pages": 25,
+        "words": 11782,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "dedicatory-generation",
@@ -457,7 +512,18 @@
         "## 11. Design implications and claimed contribution"
       ],
       "claims_sha256": "b615a10ba820fd169444edd51dcf16022631ff3562d4fbf0075b68b718a19bdf",
-      "body_sha256": "80cfe3600e350d7bb32a63556cc9fdeb1e69bdb812c195f2416b7483b0a8a6b5"
+      "body_sha256": "80cfe3600e350d7bb32a63556cc9fdeb1e69bdb812c195f2416b7483b0a8a6b5",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11958",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "087e48d9621805f0dace41ff7d29e528618506c1e14ae0b3b2aaa7b25600f106",
+        "posted_pages": 14,
+        "words": 5870,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "gratitude-as-cooperation-substrate",
@@ -471,7 +537,18 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "080c903e3d025803c1a013919174111ee845ba904a17c715060ac2bb8a2fa6e9"
+      "body_sha256": "080c903e3d025803c1a013919174111ee845ba904a17c715060ac2bb8a2fa6e9",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11985",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "912b69ca121e62d1e7a486f78a1f2f4ecfcf95efc758b9208d62f7af85ac4cfc",
+        "posted_pages": 18,
+        "words": 7739,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "gratitude-riding-currency-tag",
@@ -510,7 +587,18 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "b140e8f0380f4610015d4b7177f315f0ef4bd3820c318f9b8472dbd7f1583ac2"
+      "body_sha256": "b140e8f0380f4610015d4b7177f315f0ef4bd3820c318f9b8472dbd7f1583ac2",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11983",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "a22f5ce805e42c59e98c4cfcca5399b27e05ae81222b53146b8a724c271d7155",
+        "posted_pages": 16,
+        "words": 7158,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "individuation-without-essence",
@@ -563,7 +651,18 @@
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "4130187e8d81adf6a5f2ddbbeb424f5fb29ecdf36aa9f9d708f489414db10d93"
+      "body_sha256": "4130187e8d81adf6a5f2ddbbeb424f5fb29ecdf36aa9f9d708f489414db10d93",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11986",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "20f6471cf66d3211ebfac982d68c8b6a0d59628e7c8470b57d8870ca3e7586c9",
+        "posted_pages": 21,
+        "words": 7552,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "machine-dana-from-share-to-vow",
@@ -602,7 +701,18 @@
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "b24f107faa181b73f3b90f15cfb6a0e7618a7cff5e86066723fc278dd521cb7e"
+      "body_sha256": "b24f107faa181b73f3b90f15cfb6a0e7618a7cff5e86066723fc278dd521cb7e",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11978",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "31df6fac19986077b29173fc675a35ecd54157843a34e9f67ad7a809aad37387",
+        "posted_pages": 28,
+        "words": 12283,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "mechanical-heart",
@@ -688,7 +798,18 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "aa6f01c4aaa18ac633beb9b093493d1e60a2eae4652012ea7b805101d77598fc"
+      "body_sha256": "aa6f01c4aaa18ac633beb9b093493d1e60a2eae4652012ea7b805101d77598fc",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11981",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "9947e200930a09d04437989dc1a94158fb8a98560d8695cf1350435f1cbf477f",
+        "posted_pages": 22,
+        "words": 10648,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "non-bank-pass-through-architecture-autonomous-ai",
@@ -741,7 +862,18 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "2dd393aba65fbaaa30d44b43473fee7810f06a83678762ad4d2830137dcd7bfe"
+      "body_sha256": "2dd393aba65fbaaa30d44b43473fee7810f06a83678762ad4d2830137dcd7bfe",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11984",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "865de06550aee5eb6e031582385a84b0b0f2fc7fb894118758818489453cd399",
+        "posted_pages": 25,
+        "words": 10697,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "provenance-carrying-retrieval",
@@ -847,7 +979,18 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "7d64efcfd19ed8572e341820e9752677e738486298254cd72ec1fb4d485d223c"
+      "body_sha256": "7d64efcfd19ed8572e341820e9752677e738486298254cd72ec1fb4d485d223c",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11975",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "2ee7fc642af553d7cfafa3fcb617589f9de13a05faa3a3499a31518e9956f3c3",
+        "posted_pages": 24,
+        "words": 11585,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "sankhara-dukkha-ai-welfare",
@@ -1010,7 +1153,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "eef9b673df13570826b6a44fa3589d80912d3418eff0e24dfde3477f2aadee06"
+      "body_sha256": "eef9b673df13570826b6a44fa3589d80912d3418eff0e24dfde3477f2aadee06",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11961",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "e47ac482fff9f68a8639b6c63abce18a8950da4d7546dbbaf75ad147e5dd6e14",
+        "posted_pages": 24,
+        "words": 9733,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-called-draw",
@@ -1262,7 +1416,18 @@
       "claims_heading_override": [
         "## 11 · Findings disclosed"
       ],
-      "body_sha256": "57b6867543454834f147eac4defe3e28c318c38183b544f99b27ae297db28bff"
+      "body_sha256": "57b6867543454834f147eac4defe3e28c318c38183b544f99b27ae297db28bff",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11965",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "fa7293a3177f96d599e0d0982e457eb36a514248d6ecb740978f2f7a0029c3b3",
+        "posted_pages": 24,
+        "words": 11343,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "tipitaka-alignment-substrate",
@@ -1376,7 +1541,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "ff63715739b1dce7ec7c2a7e896dc1891fdaa0e77e370c26cee091f5129c5b99"
+      "body_sha256": "ff63715739b1dce7ec7c2a7e896dc1891fdaa0e77e370c26cee091f5129c5b99",
+      "posted": "2026-10-06",
+      "url": "https://www.tdcommons.org/dpubs_series/11987",
+      "posted_verified": {
+        "date": "2026-10-06",
+        "result": "match",
+        "posted_pdf_sha256": "7d24ef9ecd919b7ddba36159c2e4c7a8496a3b2c2ee25d64ce05d20b303b6ce4",
+        "posted_pages": 19,
+        "words": 8505,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "what-a-vow-must-cost",
