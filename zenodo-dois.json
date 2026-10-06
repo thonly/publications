@@ -271,12 +271,12 @@
  },
  "each-life-as-cosmic-coordinate": {
   "concept_doi": "10.5281/zenodo.23084948",
-  "deposition_id": 23084949,
-  "doi": "10.5281/zenodo.23084949",
+  "deposition_id": 23181179,
+  "doi": "10.5281/zenodo.23181179",
   "published": true,
   "sandbox": false,
-  "sha256": "0e609e46667b014ff0e0dbdfdcc80fa9c36460eba6f4dea4c0456f8d68ea64ac",
-  "url": "https://zenodo.org/records/23084949"
+  "sha256": "7d49f4e44b0b5c632dc29ad7d3a3b0dd1821d28cb77aa6f7a17f4e0d3446f6f8",
+  "url": "https://zenodo.org/records/23181179"
  },
  "eightfold-path-institutional-architecture": {
   "concept_doi": "10.5281/zenodo.21947316",
@@ -424,12 +424,12 @@
  },
  "kids-as-triggers-self-thanking": {
   "concept_doi": "10.5281/zenodo.23084964",
-  "deposition_id": 23084965,
-  "doi": "10.5281/zenodo.23084965",
+  "deposition_id": 23181167,
+  "doi": "10.5281/zenodo.23181167",
   "published": true,
   "sandbox": false,
-  "sha256": "477f5c2a355a89e6285587b7dfad416b42fd1b50abe460401563f536a0232b8b",
-  "url": "https://zenodo.org/records/23084965"
+  "sha256": "e0e55b1a4325f0917ab155e2f767528f294743a9cfc2004dbe941ffeb93d62d5",
+  "url": "https://zenodo.org/records/23181167"
  },
  "longitudinal-cohort-methodology": {
   "concept_doi": "10.5281/zenodo.21947347",
@@ -892,12 +892,12 @@
  },
  "two-singularities": {
   "concept_doi": "10.5281/zenodo.22735470",
-  "deposition_id": 22930050,
-  "doi": "10.5281/zenodo.22930050",
+  "deposition_id": 23181174,
+  "doi": "10.5281/zenodo.23181174",
   "published": true,
   "sandbox": false,
-  "sha256": "06794a04ccf993219e03c67cc71a72256f8dbf28c601f6d47db356d847a5cbea",
-  "url": "https://zenodo.org/records/22930050"
+  "sha256": "1b42279f035e6b4498f068e3f2dd97d2cfc6bdd5e82929d0a3c8f4ab4dc0b375",
+  "url": "https://zenodo.org/records/23181174"
  },
  "verified-human-anonymous-local-giving": {
   "concept_doi": "10.5281/zenodo.21947430",
