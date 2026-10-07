@@ -1,3 +1,17 @@
+### 2026-10-07 (morning) — the prediction register: the 2026-09-26 naming note extended to P-ZP1, and P-PL6a's renamed product named (founder: *"do A358"*)
+
+A Revisions note, not an edit: **P-ZP1** (registered 2026-09-28, after the 2026-09-15 ruling and the 2026-09-26 note)
+names the P-K1 confound by the same internal shape name, and the note points it to the public form already given;
+**P-PL6a**'s falsifier names a Phase 1 product by its pre-2026-10-04 name, now the Re-Thank Foundation℠. Registers nothing —
+total stays 123, reconciled by the index build (123 counted vs 123 stated). The retiring proof (`acab061f89c8…`) was
+calendar-only and was upgraded to Bitcoin-complete before rotation; the fresh proof went through `stamp-new.sh`. The site
+module was regenerated and committed through the `/check` hook, which now exempts the four registered phrases one by one
+(its `DATED` list) instead of the `sig-ok` line marks a regeneration erased. ⛔ No `##` change.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r18.ots` (upgraded to Bitcoin-complete first); new `7239450347c2…` *(calendar-only at stamping)* | `2026-10-07.sha256` (covers `7239450347c2…`) | `10.5281/zenodo.23216417` *(new version)* | 2.5.42 |
+
 ### 2026-10-07 (later) — the prediction register: P-SD1, the thank door's uptake (founder: *"approve the uptake prediction"*, *"X = 5%"*) — and the held rotation done
 
 One row in Chapter I beside P-PL13 and a Revisions entry; total 122 → 123, reconciled by the index build (123 counted vs 123 stated).
