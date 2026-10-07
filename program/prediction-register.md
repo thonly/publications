@@ -291,6 +291,18 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 
 ## Revisions
 
+**2026-10-07 (later) — the 2026-09-26 naming note extended to P-ZP1, and a renamed product named; entered as notes, not as edits. Total unchanged at 123.**
+
+- **P-ZP1**, registered 2026-09-28 — after the 2026-09-15 ruling and two days after the naming note below — names the
+  same confound by the same internal shape name. It should not have; the name was missed at registration. The public
+  form is the one that note gives: read P-ZP1's gate as *the `H3QR @name #family` confound registered against P-K1 on
+  2026-09-04*.
+- **P-PL6a**, registered 2026-09-05, names in its falsifier a Phase 1 product by the name it carried until 2026-10-04,
+  when it was renamed the **Re-Thank Foundation℠**. The prediction reads the same under either name.
+
+  No word of P-ZP1 or of P-PL6a changes: registered wording is never edited. These are terminology notes; they register
+  nothing, so the Summary does not move.
+
 **2026-10-07 — one added (P-SD1). Total now 123.**
 
 - **P-SD1** — Chapter I, beside P-PL13: whether the shop's thank door is used. The founder's threshold, chosen from four answers put to him: *"X = 5%"* — above the substrate's own estimate (under 2%), which is recorded here so a reader can see the founder predicted against it. Registered before the shop's first completed order after the door went live (2026-10-07), so no observation precedes it.
