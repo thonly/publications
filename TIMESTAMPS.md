@@ -1,3 +1,17 @@
+### 2026-10-06 (night) — the prediction register: P-BG6 and P-PL13, registered before the October pilot read (founder: *"do all three plus A92"*)
+
+Two rows in Chapter I and a Revisions entry; total 117 → 119, reconciled by the index build (119 counted vs 119 stated).
+**P-BG6** (A92 item 4): the founder's *"No difference"* — who paid for a relayed gift does not change pass-on, within 10
+points; Unrun until the payer is recorded per gift (A73). **P-PL13**: the founder's *"They thank more"* — a
+difference-in-differences on thanks issued after a member's first shop gift through Treasury, bounded at ±20%, with
+shop-door thanks (A299) excluded from the outcome. Registered **before** the first monthly read that includes shop gifts.
+P-BG4, P-BG5 and P-BG7 stay owed to the founder. The site page also caught up on P-PM1–3 and P-ZP1, which it had not
+carried since 9/28. ⛔ No `##` change.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r16.ots` (Bitcoin-complete, 2 attestations); new `5ec6b0bb43c5…` *(calendar-only at stamping)* | `2026-10-07.sha256` (UTC; covers `4891820ea11c…`) | `10.5281/zenodo.23205230` *(new version)* | 2.5.39 |
+
 ### 2026-10-06 (later) — incommensurability-preserving-coupler: §5.5 *The fourth corner* + claims 8–11 (founder: *"ratify both, then resume the coupler draft"*)
 
 A §-enrichment through `/draft`'s revision lane: a third gift cargo (prepaid item gift codes) and the participation signal fixed as a witness that takes no input from any cargo; claims 8–11, the census behind them reported in the Prior-Art section (two quick censuses, failed conjuncts included); the notes to §3 and §7 corrected with the 1 October forms kept as disclosed variants; every deployment gap stated in §9. The `refuter` ran twice — the second pass, on the corrected wordings, caught two false sentences before the commit. ⚠️ New enumerated claims on a MIRRORED paper: `check-mirrors.py` is red until the founder's second TDCommons submission (`--record`). The module was hand-inserted (hand-authored; ids identical + `s5-5`, `doi.org` 1 → 1).
