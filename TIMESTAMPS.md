@@ -1,3 +1,17 @@
+### 2026-10-07 — the prediction register: P-BG4, P-BG5, P-BG7 (founder: *"adopt with that exclusion"*)
+
+Three rows in Chapter I and a Revisions entry; total 119 → 122, reconciled by the index build (122 counted vs 122 stated).
+The rest of A92 item 4: the founder adopted the proposed parameters with one change — a thank through a shop's thank door
+goes to staff, not to the giver, so it is outside P-BG4's and P-BG5's gratitude count. ⚠️ P-BG5's text says *labelled*
+(the American *labeled* was flagged after the push); registered wording is never edited, so it stays. ⛔ No `##` change.
+⏳ **Leg 1 HELD:** the v16 proof (`5ec6b0bb43c5…`, stamped 2026-10-06 23:39) is still calendar-only, and rotating it now
+would archive an incomplete proof. **When `/ots` shows it Bitcoin-complete: `git mv prediction-register.md.ots
+prediction-register.md.r17.ots`, then `stamp-new.sh`, then a row here.** Until then `verify-legs.sh` reads leg 1 STALE.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | ⏳ held (v16 proof calendar-only) | `2026-10-07.sha256` (second run of the day, covers v17) | `10.5281/zenodo.23206033` *(new version)* | 2.5.40 |
+
 ### 2026-10-06 (night) — the prediction register: P-BG6 and P-PL13, registered before the October pilot read (founder: *"do all three plus A92"*)
 
 Two rows in Chapter I and a Revisions entry; total 117 → 119, reconciled by the index build (119 counted vs 119 stated).
