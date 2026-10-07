@@ -1,3 +1,15 @@
+### 2026-10-07 (later) — the prediction register: P-SD1, the thank door's uptake (founder: *"approve the uptake prediction"*, *"X = 5%"*) — and the held rotation done
+
+One row in Chapter I beside P-PL13 and a Revisions entry; total 122 → 123, reconciled by the index build (123 counted vs 123 stated).
+P-PL13's status cell only (its metric was built 2026-10-07). ✅ **Closes the hold in the entry below:** the v16 proof (`5ec6b0bb43c5…`)
+upgraded to Bitcoin-complete and was rotated to `.r17.ots`. ⚠️ The fresh stamp was made with `ots stamp` directly, AFTER the rotation,
+not through `stamp-new.sh` — nothing was overwritten, but that script's held-bytes check was bypassed (the text was committed first).
+⛔ No `##` change.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** | `.ots` → `.r17.ots` (Bitcoin-complete, 1 attestation); new `acab061f89c8…` *(calendar-only at stamping)* | `2026-10-07.sha256` (third run of the day, covers `acab061f89c8…`) | `10.5281/zenodo.23206766` *(new version)* | 2.5.41 |
+
 ### 2026-10-07 — the prediction register: P-BG4, P-BG5, P-BG7 (founder: *"adopt with that exclusion"*)
 
 Three rows in Chapter I and a Revisions entry; total 119 → 122, reconciled by the index build (122 counted vs 122 stated).
