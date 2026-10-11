@@ -1,3 +1,23 @@
+### 2026-10-11 (later) — thank-all-nearby-primitive: the amount-free receipt and radio co-presence (founder: *"do A232"*)
+
+This is A232's last item, a revision through `/draft`'s revision lane, with the 2026-10-01 co-presence rider carried along. `> **Current form.**` notes now sit at:
+- **The receipt:** §2.2 · §3.1 · §3.2 · §4.4 · §6.
+- **The co-presence rider:** the Abstract · §2.1 · §5 · §7.2 · §9.3.
+- **Every original design** is kept as a disclosed variant.
+
+What the notes say:
+- **The receipt** is a private row in the anchored CT-shaped log, with public proofs, and its amount sits in a salted commitment.
+- **The refuter's two narrowings** are stated in §3.2's note: authenticity rests on the platform's attestation, and an opened amount can point into settlement. The sender's opening is left open.
+- **Nearby:** a fixed radio beacon replaces the bounding box, and its costs are stated.
+- **One cargo per send.**
+- **§10** cites the disclosure of US10339517B2 (Mastercard).
+
+The claims are unchanged (`check-mirrors`: all 77 clean), so nothing is owed at the venue. The module was ported by hand: ids identical, lost 2 (the ordered list's numerals), extra 0, realmiss 0.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **thank-all-nearby-primitive** | `.ots` → `.r4.ots` (Bitcoin-complete); new `f66f559f40848b5d…`, calendar-only | `2026-10-11.sha256` (`5e92621`) | 10.5281/zenodo.23300773 *(new version)* | 2.5.43 |
+
 ### 2026-10-11 — waves 7 and 8 and the coupler's second submission POSTED at TDCommons (mirrors, not revisions) (founder: *"tdcommons posted"*)
 
 All nineteen open submissions posted, found by scanning `dpubs_series/11989–12104` for the inventor field (control: wave 6's 11988 found and matched; the series ends at 12089). Each posting's title and abstract were SHA-256-compared on the venue page with the hash computed from its packet file, **19/19 identical** (negative controls, a swapped title and a one-letter edit, fail). Wave 7, venue date 2026-10-07: four-body-architecture [12017](https://www.tdcommons.org/dpubs_series/12017) · individuation-without-essence [12020](https://www.tdcommons.org/dpubs_series/12020) · cakkavatti-alignment-charter [12025](https://www.tdcommons.org/dpubs_series/12025) · eightfold-path-institutional-architecture [12026](https://www.tdcommons.org/dpubs_series/12026) · patthana-typed-causation-vocabulary [12027](https://www.tdcommons.org/dpubs_series/12027) · sankhara-dukkha-ai-welfare [12028](https://www.tdcommons.org/dpubs_series/12028) · the-assembly-that-holds-the-brake [12029](https://www.tdcommons.org/dpubs_series/12029) · the-omitted-clause [12030](https://www.tdcommons.org/dpubs_series/12030) · the-persistence-architecture [12031](https://www.tdcommons.org/dpubs_series/12031) · vinaya-as-ai-reasoning-training-corpus [12032](https://www.tdcommons.org/dpubs_series/12032) · vinaya-governance-primitives-distributed-dharma-networks [12033](https://www.tdcommons.org/dpubs_series/12033). Wave 8, venue date 2026-10-08: fractal-three-level-architecture [12039](https://www.tdcommons.org/dpubs_series/12039) · transparency-as-enforcement [12043](https://www.tdcommons.org/dpubs_series/12043) · brand-identity-as-architecture [12046](https://www.tdcommons.org/dpubs_series/12046) · the-counts-check [12054](https://www.tdcommons.org/dpubs_series/12054) · the-vibhajjavadin-view-of-time [12055](https://www.tdcommons.org/dpubs_series/12055) · abhidhamma-and-discrete-quantum-gravity [12057](https://www.tdcommons.org/dpubs_series/12057) · b-tag-recommendation-function-methodology [12060](https://www.tdcommons.org/dpubs_series/12060). And the estate's **first second submission**, incommensurability-preserving-coupler with claims 8–11 [12061](https://www.tdcommons.org/dpubs_series/12061) (2026-10-08), beside its first posting [11983](https://www.tdcommons.org/dpubs_series/11983). **Verified 19/19** (`check-mirrors.py --verify-posted`, word for word in order, 0 extra · 0 missing; each control fails as it must). `check-mirrors`: all 77 clean. **77 of 77 eligible submitted, 77 posted, none awaiting.** ⚠️ The stamped PDFs (A279) do not keep their stamp at the venue: 0 of 19 posted files carry the IPTC source type or any `ma:` field, and their XMP creator is `Thon Ly` alone. The disclosure that survives there is the cover line and the text.
