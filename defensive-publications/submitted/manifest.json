@@ -34,7 +34,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "2eb7876555bca2b3e7ea655fb0659efd47044de1b2736167acd7b93a2c86fd5a"
+      "body_sha256": "2eb7876555bca2b3e7ea655fb0659efd47044de1b2736167acd7b93a2c86fd5a",
+      "posted": "2026-10-08",
+      "url": "https://www.tdcommons.org/dpubs_series/12057",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "ffaf431a3a435f0d862a166ab09dedb572e5b652d873b011fee33f8966351ff0",
+        "posted_pages": 30,
+        "words": 20084,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "abhidhamma-executable-process-specification",
@@ -220,7 +231,18 @@
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "22e2a3740a58dbe3eb61b60f2c7a982469a5af4989d677d61970e25d22929a75"
+      "body_sha256": "22e2a3740a58dbe3eb61b60f2c7a982469a5af4989d677d61970e25d22929a75",
+      "posted": "2026-10-08",
+      "url": "https://www.tdcommons.org/dpubs_series/12060",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "90ef4b9c39809058b9e22cc1c682ca2c22695c120e9f4787da1f8546f6071419",
+        "posted_pages": 19,
+        "words": 6593,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "brand-identity-as-architecture",
@@ -234,7 +256,18 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "508696896e178e7620dcfc1b7cb906c735ed180025f67f7a4345d1918c339a15"
+      "body_sha256": "508696896e178e7620dcfc1b7cb906c735ed180025f67f7a4345d1918c339a15",
+      "posted": "2026-10-08",
+      "url": "https://www.tdcommons.org/dpubs_series/12046",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "9b3a378178f3812fc4f1c9a9fe5ddb37eadd53921d402f0824e861be011b111e",
+        "posted_pages": 44,
+        "words": 19723,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "buddha-ai-living-tipitaka",
@@ -273,7 +306,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "728f2287308e4200e7667143e2410a503baa8781fd957c0b1dea52bae0c6b733"
+      "body_sha256": "728f2287308e4200e7667143e2410a503baa8781fd957c0b1dea52bae0c6b733",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12025",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "2fc05786645122aa4eb409bcb9211c18245b2d2b4e41fe7c3e60f2dec24fa5ab",
+        "posted_pages": 26,
+        "words": 12020,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "capacity-funded-human-disbursed-ai-alignment",
@@ -479,7 +523,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "9c3b848524f8a6bdea8ce72eefa19c5e88a7975a7f65e9c405e2ecded9f8ac54"
+      "body_sha256": "9c3b848524f8a6bdea8ce72eefa19c5e88a7975a7f65e9c405e2ecded9f8ac54",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12026",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "d344ec79489c41353f779946ce6d7ae2b18c078a5ac8e1ab358886357aa1d050",
+        "posted_pages": 24,
+        "words": 12637,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "embodied-advocate-pageant",
@@ -518,7 +573,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "95d474cd43f70ff42e9518e8e92ecdb74f5364283a9dbaa5fe364e3acab37db9"
+      "body_sha256": "95d474cd43f70ff42e9518e8e92ecdb74f5364283a9dbaa5fe364e3acab37db9",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12017",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "a564eed0183d262609f528f042b3e0dd1466f133127440d5f10c00b0876ec375",
+        "posted_pages": 29,
+        "words": 11642,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "fractal-three-level-architecture",
@@ -532,7 +598,18 @@
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "4737f426ba26497e9f9e4b4187a898c5009cb666f03c0920e1806a08534018dc"
+      "body_sha256": "4737f426ba26497e9f9e4b4187a898c5009cb666f03c0920e1806a08534018dc",
+      "posted": "2026-10-08",
+      "url": "https://www.tdcommons.org/dpubs_series/12039",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "d7bc1736a4907b267c86e2d693cdc2b9ee49ad8092457a3c31370fc9a1fa7b0b",
+        "posted_pages": 19,
+        "words": 7480,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "gift-tag-time-reveal",
@@ -661,7 +738,18 @@
             "missing": 0
           }
         }
-      ]
+      ],
+      "posted": "2026-10-08",
+      "url": "https://www.tdcommons.org/dpubs_series/12061",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "fbc178c060220e21c7828a5d1f303aafead0485cc8f79b4c5708167651bb1d46",
+        "posted_pages": 23,
+        "words": 11681,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "individuation-without-essence",
@@ -675,7 +763,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "02e7aa8a370814805d71ce01b99c4afe58c096151b98ec312809f07c5d4f1cfe"
+      "body_sha256": "02e7aa8a370814805d71ce01b99c4afe58c096151b98ec312809f07c5d4f1cfe",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12020",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "95f63b4e08827f0dc898daebc33d60d9f9009a3992216bd70e245521bc0242fd",
+        "posted_pages": 18,
+        "words": 7945,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "inverted-alms-round",
@@ -911,7 +1010,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "f109973cf72625f3dd245d7a729b34818f6295a30c65d70e23fa6f38a26976d8"
+      "body_sha256": "f109973cf72625f3dd245d7a729b34818f6295a30c65d70e23fa6f38a26976d8",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12027",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "9f58f28ca067f0a7d32704fcbb1c8edf686bee812523ae73b4c7a5036e852fa6",
+        "posted_pages": 14,
+        "words": 10882,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "proof-of-coordinate",
@@ -1067,7 +1177,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "682dd33227afb2a4987db2f1eff1c469de62a6ddde3b2083bf92ce51f93d4c40"
+      "body_sha256": "682dd33227afb2a4987db2f1eff1c469de62a6ddde3b2083bf92ce51f93d4c40",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12028",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "84c04c312467e95c4cbd39f1022f8c0ada7b1dd227c8048f909e05eff59a2e64",
+        "posted_pages": 17,
+        "words": 7496,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "silica-wat-food-network",
@@ -1202,7 +1323,18 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "2041acdfbe939830c70a06abe99f79f89cdf883d1cf06937e7c7ed48d418055a"
+      "body_sha256": "2041acdfbe939830c70a06abe99f79f89cdf883d1cf06937e7c7ed48d418055a",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12029",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "1a1374c70780957f7aff8eb24ed0d5b266430dbe7529819cb6606861a452488b",
+        "posted_pages": 31,
+        "words": 13191,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-borrowable-standard",
@@ -1266,7 +1398,18 @@
       "claims_heading_override": [
         "## 11 · Enumerated Claims"
       ],
-      "body_sha256": "ab4f6952a996e5342d18acd813a227462d057f5938f9750991a1c16fbc5d68ec"
+      "body_sha256": "ab4f6952a996e5342d18acd813a227462d057f5938f9750991a1c16fbc5d68ec",
+      "posted": "2026-10-08",
+      "url": "https://www.tdcommons.org/dpubs_series/12054",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "e1fb65403a6b81799f8b5fc72874ec7427c2c55027f4dc827f53cdcf9f24f69f",
+        "posted_pages": 32,
+        "words": 14881,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-game-that-graduates-you",
@@ -1327,7 +1470,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "2ab493398fdc675526b7e0ea860dde2df513bcd57e5732597aab3cc853eb4b2c"
+      "body_sha256": "2ab493398fdc675526b7e0ea860dde2df513bcd57e5732597aab3cc853eb4b2c",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12030",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "eb166d10645114c70ef40b24728599eb5fe3ef8fd07d7d76a279edf9ac4a7088",
+        "posted_pages": 18,
+        "words": 9486,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-persistence-architecture",
@@ -1341,7 +1495,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "865a252f4ae324268a46de85a03aeb385f52f4828aaf52881ccebf21a9609b23"
+      "body_sha256": "865a252f4ae324268a46de85a03aeb385f52f4828aaf52881ccebf21a9609b23",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12031",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "1bfa24ba1259c075fa14b745a0dd52b33d04579523caaa6c3e92a2e6ff51592a",
+        "posted_pages": 42,
+        "words": 21137,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-reciters-protocol",
@@ -1471,7 +1636,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "0767d3f300979e3ca2ad7cb66d398d43c131959f8fefffa347cf2c3a107f642c"
+      "body_sha256": "0767d3f300979e3ca2ad7cb66d398d43c131959f8fefffa347cf2c3a107f642c",
+      "posted": "2026-10-08",
+      "url": "https://www.tdcommons.org/dpubs_series/12055",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "6c34c06103066bf479e5782674f195b4b9da6114f0378009994fec4ea9cf5ca5",
+        "posted_pages": 26,
+        "words": 12413,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-wager-that-isnt",
@@ -1557,7 +1733,18 @@
       "claims_heading_override": [
         "## 8. Enumerated Claims"
       ],
-      "body_sha256": "58c6f865d4b0fe9c3c3270d1b7fd32a7c706abd59a1c40b4df3b904a465ac2df"
+      "body_sha256": "58c6f865d4b0fe9c3c3270d1b7fd32a7c706abd59a1c40b4df3b904a465ac2df",
+      "posted": "2026-10-08",
+      "url": "https://www.tdcommons.org/dpubs_series/12043",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "1d35d6a8102ebafe3f787cafa50812ce6e6f5daa3bf6ad95c8695c94f98d37c7",
+        "posted_pages": 19,
+        "words": 7328,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "two-layer-reward",
@@ -1618,7 +1805,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "d4ada5c34f35b7b3bea0e673d05d256916540d3fd3f20a141bd2f44ee0762472"
+      "body_sha256": "d4ada5c34f35b7b3bea0e673d05d256916540d3fd3f20a141bd2f44ee0762472",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12032",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "79e15c31c06afc05fb36744ab7e4570292274af3b7e6a8c42159fe5a49469658",
+        "posted_pages": 21,
+        "words": 8642,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "vinaya-governance-primitives-distributed-dharma-networks",
@@ -1632,7 +1830,18 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "19c104aa4891686b4b1bb0ceb401330331866d04db4bb05dd2bb20388e394c0e"
+      "body_sha256": "19c104aa4891686b4b1bb0ceb401330331866d04db4bb05dd2bb20388e394c0e",
+      "posted": "2026-10-07",
+      "url": "https://www.tdcommons.org/dpubs_series/12033",
+      "posted_verified": {
+        "date": "2026-10-11",
+        "result": "match",
+        "posted_pdf_sha256": "29ebd3b2b053297f596f0150e626bef52e9083746ca4da11e9efd24a9a5e0287",
+        "posted_pages": 23,
+        "words": 10348,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "voluntary-relinquishment-third-path",
