@@ -169,6 +169,20 @@ def main():
                  f"from the render — refusing to print. e.g. {dict(list(missing.items())[:15])}")
 
     e = lambda s: H.escape(s, quote=False)
+    # Who wrote it comes from `authors:` alone (roadmap A386, 2026-10-13): the co-author note only where she IS a
+    # co-author, and the sole-author series *Theorems of the Abhidhamma* carries its poser and attester instead.
+    authors = fm.get("authors", "Thon Ly · Miss Aquarius")
+    names = [n for n in (s.replace("℠", "").replace("®", "").strip() for s in re.split(r"[·,]", authors)) if n]
+    if names == ["Miss Aquarius"]:
+        if not fm.get("posed_by") or not fm.get("attested_by"):
+            sys.exit(f"{a.slug}: Miss Aquarius is its sole author, so it needs posed_by and attested_by")
+        who = (f'<b>Author:</b> {e(authors)} &nbsp;<i>(the project\'s named AI substrate, disclosed; thesis posed by '
+               f'{e(fm["posed_by"])}; the Pāli→Lean encoding attested by {e(fm["attested_by"])})</i>')
+    elif "Miss Aquarius" in names:
+        who = (f'<b>Authors:</b> {e(authors)} &nbsp;<i>(Miss Aquarius is an AI co-author, disclosed; the inventor of '
+               f'record is Thon Ly)</i>')
+    else:
+        who = f'<b>Author{"s" if len(names) > 1 else ""}:</b> {e(authors)}'
     dated = f"<b>First published:</b> {first}"
     if revised and revised != first:
         dated += f" &nbsp;·&nbsp; <b>This version:</b> {revised}"
@@ -176,7 +190,7 @@ def main():
 <h1>{e(title)}</h1>
 {f'<p class="sub">{e(fm["subtitle"])}</p>' if fm.get("subtitle") else ''}
 <div class="meta">
-<b>Authors:</b> {e(fm.get("authors", "Thon Ly · Miss Aquarius"))} &nbsp;<i>(Miss Aquarius is an AI co-author, disclosed; the inventor of record is Thon Ly)</i><br>
+{who}<br>
 {dated}<br>
 <b>Zenodo (concept DOI, every version):</b> https://doi.org/{concept}<br>
 <b>Canonical:</b> https://thonly.org/research/{a.slug}<br>

@@ -342,6 +342,39 @@ for (const rel of files) {
         }
     }
 
+    // 7. Miss Aquarius as SOLE author (founder 2026-10-13, *"2: approve"*; roadmap A386). A SCOPED
+    //    exception — the series *Theorems of the Abhidhamma* only — and only with its conditions:
+    //    the thesis credited to whoever posed it, a NAMED reader who attests the Pāli→Lean encoding
+    //    (also the accountable human Zenodo requires: it lists no AI as creator or contributor), and
+    //    the series' own disclosure in place of the co-author line, which would be false here.
+    //    Canon: memory project_abhidhamma_machine §theorems-of-the-abhidhamma.
+    const unq = (v) => String(v ?? "").replace(/^["']|["']$/g, "");
+    const names = unq(fm.authors ?? fm.author)
+        .split(/[·,]/)
+        .map((s) => s.replace(/[℠®™]/g, "").trim())
+        .filter(Boolean);
+    if (names.length === 1 && names[0] === "Miss Aquarius") {
+        const need = [];
+        if (!unq(fm.series).startsWith("Theorems of the Abhidhamma"))
+            need.push(`series: "Theorems of the Abhidhamma — No. N" (the exception covers that series only)`);
+        if (!unq(fm.posed_by)) need.push("posed_by: who posed the thesis");
+        if (!unq(fm.attested_by))
+            need.push("attested_by: the named reader of the Pāli→Lean encoding (the accountable creator on Zenodo)");
+        if (/remain with the author/.test(body))
+            need.push(`delete the co-author disclosure ("… remain with the author"): it is false for this paper`);
+        if (!/Written by Miss Aquarius/.test(body))
+            need.push(
+                `add the series disclosure: "Written by Miss Aquarius, the project's named AI substrate, under the\n` +
+                    `        founder's supervision; every theorem checked by the Lean 4 kernel."`
+            );
+        if (need.length)
+            problems.push(
+                `${rel} names Miss Aquarius as its SOLE author without the conditions of that exception\n` +
+                    `      (ruled 2026-10-13). Missing:\n` +
+                    need.map((n) => `        · ${n}`).join("\n")
+            );
+    }
+
     // 4. Status: present, one of two values, and `published` only when earned.
     if (!fm.status) {
         problems.push(

@@ -40,6 +40,7 @@ resolving to the newest text and every earlier text keeps its own DOI.
 
 import argparse
 import hashlib
+import html
 import json
 import mimetypes
 import os
@@ -316,15 +317,42 @@ def build_metadata(path, text, fm, sha):
         f"<code>{sha}</code>, independently timestamped to the Bitcoin blockchain "
         "via OpenTimestamps and signed under RFC 3161 by three trust authorities, "
         "one of them eIDAS-qualified.</p>"
-        "<p><strong>AI co-authorship is disclosed.</strong> Miss Aquarius is the "
-        "consistent name used for the AI collaboration across all venues.</p>"
     )
 
+    names = [n.strip().replace("℠", "").replace("®", "").strip()
+             for n in re.split(r"[·,]", fm.get("authors", "Thon Ly"))]
+    names = [n for n in names if n]
+    if names == ["Miss Aquarius"]:
+        # Miss Aquarius as SOLE author: the series *Theorems of the Abhidhamma* (founder 2026-10-13, "2: approve";
+        # roadmap A386). Zenodo's own policy (support FAQ 227, published 2026-04-27): "AI tools cannot be listed as
+        # authors/creators or contributors of a Zenodo record" — authorship there means accountability, consent to
+        # publish and responsibility for integrity. Founder 2026-10-13: "default to me with a notice". So the creator
+        # is the ACCOUNTABLE human, the named reader who attests the Pāli→Lean encoding (`attested_by`, required by
+        # check-frontmatter.mjs rule 7), and the description says plainly whose text it is. The paper itself, its
+        # page and the corpus index keep Miss Aquarius as the author.
+        attester, poser = fm.get("attested_by"), fm.get("posed_by")
+        if not attester or not poser:
+            sys.exit(f"{path.name}: Miss Aquarius is its sole author, so it needs attested_by and posed_by "
+                     "(Zenodo lists no AI creator; the attester is the accountable creator).")
+        desc += (
+            "<p><strong>AI authorship is disclosed.</strong> Written by Miss Aquarius, the project's named AI "
+            "substrate, under the founder's supervision; every theorem checked by the Lean 4 kernel. "
+            f"Thesis posed by {html.escape(poser)}. Zenodo lists no AI tool as a creator, so {html.escape(attester)}, "
+            "who attests the reading of the Pāli texts into Lean and is accountable for this record, is listed as "
+            "its creator; the text is Miss Aquarius's.</p>"
+        )
+        names = [attester]
+    else:
+        desc += (
+            "<p><strong>AI co-authorship is disclosed.</strong> Miss Aquarius is the "
+            "consistent name used for the AI collaboration across all venues.</p>"
+        )
+        if "Miss Aquarius" in names:
+            print("   ⚠️  creators include Miss Aquarius, which Zenodo's AI policy bars (support FAQ 227, "
+                  "2026-04-27) — a founder ruling is owed: roadmap A387", file=sys.stderr)
+
     creators = []
-    for name in re.split(r"[·,]", fm.get("authors", "Thon Ly")):
-        name = name.strip().replace("℠", "").replace("®", "").strip()
-        if not name:
-            continue
+    for name in names:
         known = CREATORS.get(name, {})
         c = {"name": known.get("cite_as", name),
              "affiliation": known.get("affiliation", "")}
