@@ -1,3 +1,13 @@
+### 2026-10-12 (night) — the-ticket-and-the-tag: a new defensive publication, first push, deposit held (founder: *"approve all; go"*)
+
+**B-Alms℠/™, drafted through `/draft`'s new lane:** step 1 (no paper covers the vendor-held portion, the ticket or the tag; `the-called-draw` owns the lot, `steward-routed-alms` the credential) · the quick census of 2026-10-12 (public pre-registration `e42b7d2`) · an adversarial pass before finalizing, which searched in Thai and narrowed claim 7, the remote-giving conjunct (Krua Koran, 2022) and the paper's statements on equality, grading and vendor default, and added the trade rule, the alms-food-only practice, the Thai and Cambodian administrative rules and the Sadao case to §17. Every new quotation was re-read before it entered the text.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **the-ticket-and-the-tag** *(new)* | first proof (calendar-only at stamping) | `2026-10-13.sha256` (`2d5394d6…523f3f7d`) | ⏸ **not deposited** — `census.py gate` exits 1: a FULL census (Thai and Khmer) is owed, and its `/polish` round | ⏸ HELD (`holds.json`, review by 2026-11-09) · index 2.5.44 |
+
+Text `4a9e403` → TSA `96a4b30` (the manifest is UTC-dated 2026-10-13) → index `d6e31d4` (2.5.44, CI-published) → worker `a326b1a`, deployed. Site module generated (27 sections, `program: open`), thonly.org `2b52c5e`.
+
 ### 2026-10-11 (later) — thank-all-nearby-primitive: the amount-free receipt and radio co-presence (founder: *"do A232"*)
 
 This is A232's last item, a revision through `/draft`'s revision lane, with the 2026-10-01 co-presence rider carried along. `> **Current form.**` notes now sit at:
