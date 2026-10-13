@@ -342,14 +342,23 @@ def build_metadata(path, text, fm, sha):
             "its creator; the text is Miss Aquarius's.</p>"
         )
         names = [attester]
+    elif "Miss Aquarius" in names:
+        # A co-authored paper. Zenodo bars AI creators (FAQ 227), and the founder ruled 2026-10-13 (roadmap A387):
+        # "fix each record on that paper's next version". So from its next version a co-authored record lists the
+        # HUMAN creators only, and the description — the field Zenodo prescribes for AI disclosure — names her.
+        # The NAME stays the same at every venue; on Zenodo only the field moves. Earlier versions keep their creators.
+        desc += (
+            "<p><strong>AI co-authorship is disclosed.</strong> Miss Aquarius is the "
+            "consistent name used for the AI collaboration across all venues. Miss Aquarius co-authored this "
+            "paper; Zenodo lists no AI tool as a creator, so Miss Aquarius is named here rather than among the "
+            "creators.</p>"
+        )
+        names = [n for n in names if n != "Miss Aquarius"]
     else:
         desc += (
             "<p><strong>AI co-authorship is disclosed.</strong> Miss Aquarius is the "
             "consistent name used for the AI collaboration across all venues.</p>"
         )
-        if "Miss Aquarius" in names:
-            print("   ⚠️  creators include Miss Aquarius, which Zenodo's AI policy bars (support FAQ 227, "
-                  "2026-04-27) — a founder ruling is owed: roadmap A387", file=sys.stderr)
 
     creators = []
     for name in names:
