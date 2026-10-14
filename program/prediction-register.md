@@ -296,7 +296,7 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 
 - **P-PL14** — Chapter I, beside P-SD1: whether the 7 January reset moves held capacity into giving. Two texts of the
   institution pull opposite ways — the published pilot finding (*use-it-or-lose-it converts latent capacity into realized
-  generosity*, `giving-is-a-gift-too`) and the standing rule that an expiry is never rendered as a countdown and does no
+  generosity*, `giving-is-a-gift-too`) and the standing rule that an expiry is never shown as time running out and does no
   motivational work. The founder's ruling: *"approve"* — the question is TESTED, not decided, on the side of the published
   claim and two-sided. The +10-point threshold is the substrate's, set before any data. Registered before the H3 position
   that states it (`what-an-argument-cannot-reach`) was published, and before its test window opens. The instrument did not
