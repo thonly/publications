@@ -1,3 +1,20 @@
+### 2026-10-13 (night) — the prediction register: P-PL14, the 7 January reset's effect on giving (founder: *"approve"*, *"1: push"*)
+
+P-PL14 tests, on the side of `giving-is-a-gift-too`'s published use-it-or-lose-it claim and two-sided, whether the first reset moves
+held capacity into giving — the question ruled TESTED, not decided (root memory `project_zero_point_game` §does-the-reset-motivate).
+Pilot registration `thank.heartbank.org` `b5eb322`; instrument `8c59fdb` (each re-thank stores its Foundation and Account parts).
+Registered before the H3 position that states it (`what-an-argument-cannot-reach`, HeartBank/publications `d6be875`).
+⚠️ **Two revisions in one night:** v20 (`af58d90`) and v21 (`98bbc57`) — the site's Sig-8 tell read *"never rendered as a countdown"* in
+the Revisions note (a word, not its negation), so the note was reworded rather than the hook overridden; no prediction wording changed.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** v20 | `.ots` → `.r19.ots` (Bitcoin-complete); new `b6825003a937…` *(calendar-only)* | `2026-10-14.sha256` | `10.5281/zenodo.23359580` *(new version)* | superseded before build |
+| **program/prediction-register** v21 | `.ots` → `.r20.ots` (calendar-only at rotation; the find-based upgrade loop covers rotated proofs); new `91d8034818fe…` *(calendar-only)* | `2026-10-14.sha256` (re-run, covers `91d80348…`) | `10.5281/zenodo.23359674` *(new version)* | 2.5.45 |
+
+Site module regenerated twice (v20, then v21), thonly.org `8fa6ec0`: ids identical · `doi.org` 1 → 1 · links 3 → 3 · the only word removed
+the stale `v18` label. Register arithmetic 124 = 124. `verify-legs.sh`: every leg covers current text.
+
 ### 2026-10-12 (night) — the-ticket-and-the-tag: a new defensive publication, first push, deposit held (founder: *"approve all; go"*)
 
 **B-Alms℠/™, drafted through `/draft`'s new lane:** step 1 (no paper covers the vendor-held portion, the ticket or the tag; `the-called-draw` owns the lot, `steward-routed-alms` the credential) · the quick census of 2026-10-12 (public pre-registration `e42b7d2`) · an adversarial pass before finalizing, which searched in Thai and narrowed claim 7, the remote-giving conjunct (Krua Koran, 2022) and the paper's statements on equality, grading and vendor default, and added the trade rule, the alms-food-only practice, the Thai and Cambodian administrative rules and the Sadao case to §17. Every new quotation was re-read before it entered the text.
