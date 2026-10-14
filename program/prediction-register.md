@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **123** |
-| Published here | 122 |
+| Total registered | **124** |
+| Published here | 123 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 64 |
+| Receiving first public timestamp here | 65 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -95,6 +95,7 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | **P-ZP1** | **The game travels with the foundation** — a new prediction citing P-K1 and P-PL5, neither edited. Among givers active in the three months before the taper, those in the **top third by Zero-Point play** keep giving through the taper at **at least 1.25×** the rate of those in the **bottom third**. *Zero-Point play* = distinct acts of giving forward per active month: re-tips passed on (live now), thanks given after a B-Tag (live in B-Shops), and whole-balance releases in B-Promise (from its launch). *Keep giving* = gave at least once in each of the three months after the taper begins. *Falsifier: a ratio under 1.25×, or the bottom third keeping on at the same rate or higher → Zero-Point play does not travel with the kindness the proxy measures, and the game is not evidence of the foundation.* Scorable only at the P-K1/P-PL5 taper (scheduled Q2 2027, not to be pulled forward), with at least 10 givers in each third; below that it is reported, not scored. The F3QR confound registered against P-K1 on 2026-09-04 binds this too. ⚠️ **What it cannot show:** the generous may simply choose to play more — a pass means the game and money-inelastic giving *travel together*, never that the game *causes* it. Direction, measure and threshold are the founder's (registered as drafted) | Unrun (gated on the taper) | First public here |
 | **P-PL13** | **Shop gifts add to thanking** — once a pilot member's first shop gift is sent or received through Treasury, the thanks they issue per month rise by **more than 20% of their own pre-exposure rate beyond the change in unexposed members over the same months** (a difference-in-differences on thanks issued). *Exposure* = the member's first shop gift order as payer or holder (Treasury keeps these records from 2026-10-05). *Thanks issued* = thanks sent from Treasury's own surfaces; a thank that came through a shop's thank door (marked with the shop on the thank) is **excluded from the outcome and reported beside it**, so a new channel cannot confirm this by itself. *Falsifier: the difference is within ±20% of the pre-exposure rate, or negative → shop gifts do not add to thanking, or substitute for it.* Per read; before three reads, or while fewer than five members are exposed, the value is shown and not scored (the pilot's standing floors). ⚠️ One family, and gifts arrive alongside other changes: a pass licenses *gift exposure travels with more thanking*, never *gifts cause it*. The direction is the founder's, chosen against a *no change* answer bounded at ±20% | Unrun (metric built 2026-10-07; no member exposed yet) | First public here |
 | **P-SD1** | **The thank door is used** — at Home Coffee, the first HeartBank® Shop, over the **90 days** from its first completed order after 2026-10-07, thanks given in Treasury through the shop's thank door (each carries the shop's mark) number **at least 5%** of the shop's completed orders. The door is a video thank to the owner that gives Kiitos and carries no money; it asks for a Treasury account. *Falsifier: under 5% → the video requirement and the account wall keep Kiitos out of customers' reach, and "Kiitos always, cash optional" holds in the rules, not in use.* Instrument: two monthly counts — Treasury's door thanks and the shop's completed orders — never joined to a person. Scored once the shop has **100 or more** completed orders in the window. ⛔ The door is never promoted: a prompt voids the test. | Unrun | First public here |
+| **P-PL14** | **The 7 January reset moves held capacity into giving** — the use-it-or-lose-it claim published in `giving-is-a-gift-too`, tested rather than ruled. In the final **7 days** before the pilot family's first reset (**2026-12-31 to 2027-01-06**, Phnom Penh time), each member's share of money-thanks drawn from the Re-Thank Foundation℠ rises over that member's own baseline share (**2026-10-14 to 2026-12-23**), and the **median member's change is at least +10 percentage points**. *Share* = Foundation-drawn value ÷ (Foundation-drawn + Personal Account–drawn value), where a re-thank draws on the Foundation first and a thank's tip only on the Account; comparing shares, not totals, cancels proportional holiday spending. The founder's own sends are excluded (payer and observer). *Falsifier, two-sided: the median change is within ±10 points → no deadline effect, the published claim not supported; −10 points or lower → a slump, members held back before the reset. Either counts against the claim.* Scored once, after 2027-01-07, with at least three members active in both windows. ⚠️ One household, one season; the threshold was set by the substrate before any data and without a variance estimate; the treatment includes the app's own wording (the reset date shown beside the Foundation balance, a Khmer phrasing that reads as a deadline), deliberately left unchanged until after the reset. ⛔ Never prompted: a prompt voids the test. Occasioned by the H3 position `what-an-argument-cannot-reach` (*In Reply* No. 1) | Unrun (instrument recording since 2026-10-14 — every re-thank stores its Foundation and Account parts; the read itself is not built) | First public here |
 
 ---
 
@@ -290,6 +291,20 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-10-13 — one added (P-PL14). Total now 124.**
+
+- **P-PL14** — Chapter I, beside P-SD1: whether the 7 January reset moves held capacity into giving. Two texts of the
+  institution pull opposite ways — the published pilot finding (*use-it-or-lose-it converts latent capacity into realized
+  generosity*, `giving-is-a-gift-too`) and the standing rule that an expiry is never rendered as a countdown and does no
+  motivational work. The founder's ruling: *"approve"* — the question is TESTED, not decided, on the side of the published
+  claim and two-sided. The +10-point threshold is the substrate's, set before any data. Registered before the H3 position
+  that states it (`what-an-argument-cannot-reach`) was published, and before its test window opens. The instrument did not
+  exist until 2026-10-13: a re-thank's split between the two vessels was computed and never stored; it is stored from
+  `thank.heartbank.org` `8c59fdb`. Pilot registration: that repository, `.claude/skills/pilot/predictions.json` (`b5eb322`).
+
+**The Summary moves:** total 123 → 124, *published here* 122 → 123, *receiving first public timestamp here* 64 → 65. The
+reconciliation holds: 58 + 65 = 123 published here, plus the one withheld, is 124.
 
 **2026-10-07 (later) — the 2026-09-26 naming note extended to P-ZP1, and a renamed product named; entered as notes, not as edits. Total unchanged at 123.**
 
