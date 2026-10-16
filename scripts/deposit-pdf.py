@@ -17,7 +17,7 @@ never stored, and it must prove which bytes it renders. It refuses (exit 1, no P
      still be lost at print (a clipped line, a broken glyph);
   3. the PDF carries the markdown's SHA-256 in its metadata (XMP dc:source = "sha256:<hex>") and it reads back — so a
      stale PDF is caught by hash, never by eye (`check` below);
-  4. the media stamp (IPTC compositeSynthetic, register M-0010, rights from the paper's licence) reads back with the
+  4. the media stamp (IPTC compositeSynthetic, register M-0010, rights from the paper's license) reads back with the
      page text unchanged.
 
     deposit-pdf.py --check PAPER.md FILE.pdf    exit 0 only if FILE.pdf declares PAPER.md's current SHA-256
@@ -51,8 +51,8 @@ TYPE = {
     "white-papers": "White paper",
     "annual-reports": "Annual report",
 }
-# The licence a paper's front matter names → (cover words, stamp.py --rights).
-LICENCE = {
+# The license a paper's front matter names → (cover words, stamp.py --rights).
+LICENSE = {
     "CC0-1.0": ("CC0 1.0 Universal (public domain dedication)", "cc0"),
     "CC-BY (author-voice essay)": ("CC BY 4.0 — attribute to the author", "cc-by"),
 }
@@ -79,7 +79,7 @@ def text_of(pdf):
 
 
 def visible(body):
-    """The markdown as a reader sees it — the same normalisation tdc-pdf.py applies before its diff."""
+    """The markdown as a reader sees it — the same normalization tdc-pdf.py applies before its diff."""
     vis = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', body)
     vis = re.sub(r'(?m)^(\s*)\d+\.\s', r'\1', vis)
     vis = re.sub(r'(?m)^(\s*```)\s*[\w+#.-]+\s*$', r'\1', vis)
@@ -131,9 +131,9 @@ def build(md, concept_doi, version_doi=None, out_dir=None):
     corpus, kind_dir = corpus_of(md), md.parent.name
     canonical = CORPORA[corpus]["canonical"].format(slug=slug, dir=kind_dir)
     lic = fm.get("license", "")
-    if lic not in LICENCE:
-        sys.exit(f"{md.name}: licence {lic!r} has no mapping here — add it deliberately (cover words + stamp rights)")
-    lic_words, rights = LICENCE[lic]
+    if lic not in LICENSE:
+        sys.exit(f"{md.name}: license {lic!r} has no mapping here — add it deliberately (cover words + stamp rights)")
+    lic_words, rights = LICENSE[lic]
     first = fm.get("date", "")[:10]
     if not re.match(r"^\d{4}-\d{2}-\d{2}$", first):
         sys.exit(f"{md.name}: front matter `date:` is {first!r} — the cover states the first-publication date")
@@ -181,7 +181,7 @@ def build(md, concept_doi, version_doi=None, out_dir=None):
 <b>Canonical:</b> {canonical}<br>
 <b>Independent timestamps:</b> OpenTimestamps (Bitcoin) and RFC 3161 proofs of every version's markdown — {ts}.
 <i>A timestamp proves this exact text existed no later than its date; it proves nothing about authorship, originality, or the validity of any claim. This PDF is a rendering of that markdown, whose SHA-256 it carries in its metadata.</i><br>
-<b>Licence:</b> {lic_words}<br>
+<b>License:</b> {lic_words}<br>
 {type_line}
 </div></div>
 """
