@@ -29,17 +29,17 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **129** |
-| Published here | 128 |
+| Total registered | **130** |
+| Published here | 129 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 70 |
+| Receiving first public timestamp here | 71 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
 | Contradicted | 1 |
-| Retired | 3 |
+| Retired | 4 |
 
 ---
 
@@ -97,10 +97,11 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | **P-SD1** | **The thank door is used** — at Home Coffee, the first HeartBank® Shop, over the **90 days** from its first completed order after 2026-10-07, thanks given in Treasury through the shop's thank door (each carries the shop's mark) number **at least 5%** of the shop's completed orders. The door is a video thank to the owner that gives Kiitos and carries no money; it asks for a Treasury account. *Falsifier: under 5% → the video requirement and the account wall keep Kiitos out of customers' reach, and "Kiitos always, cash optional" holds in the rules, not in use.* Instrument: two monthly counts — Treasury's door thanks and the shop's completed orders — never joined to a person. Scored once the shop has **100 or more** completed orders in the window. ⛔ The door is never promoted: a prompt voids the test. | Unrun | First public here |
 | **P-PL14** | **The 7 January reset moves held capacity into giving** — the use-it-or-lose-it claim published in `giving-is-a-gift-too`, tested rather than ruled. In the final **7 days** before the pilot family's first reset (**2026-12-31 to 2027-01-06**, Phnom Penh time), each member's share of money-thanks drawn from the Re-Thank Foundation℠ rises over that member's own baseline share (**2026-10-14 to 2026-12-23**), and the **median member's change is at least +10 percentage points**. *Share* = Foundation-drawn value ÷ (Foundation-drawn + Personal Account–drawn value), where a re-thank draws on the Foundation first and a thank's tip only on the Account; comparing shares, not totals, cancels proportional holiday spending. The founder's own sends are excluded (payer and observer). *Falsifier, two-sided: the median change is within ±10 points → no deadline effect, the published claim not supported; −10 points or lower → a slump, members held back before the reset. Either counts against the claim.* Scored once, after 2027-01-07, with at least three members active in both windows. ⚠️ One household, one season; the threshold was set by the substrate before any data and without a variance estimate; the treatment includes the app's own wording (the reset date shown beside the Foundation balance, a Khmer phrasing that reads as a deadline), deliberately left unchanged until after the reset. ⛔ Never prompted: a prompt voids the test. Occasioned by the H3 position `what-an-argument-cannot-reach` (*In Reply* No. 1) | Unrun (instrument recording since 2026-10-14 — every re-thank stores its Foundation and Account parts; the read itself is not built) | First public here |
 | **P-LP1** | **Cambodia is the door's main audience** — over the **90 days** from the DNS cutover (2026-10-24, 09:39 PDT), **more than 50%** of Google Search clicks to heartbank.org (the apex and /km/) come from Cambodia. Baseline before the rebuild, read 2026-10-24: 6 of 6 clicks in the preceding three months (n = 6; 60 impressions; average position 33.8). *Falsifier: 50% or fewer → the observation that prompted the Khmer-first build was a small-sample accident.* Instrument: Search Console, domain property, Performance → Countries, read once at the end of the window. Scored only if the window holds **20 or more** clicks; fewer is *unresolved*, not confirmed. ⛔ The page never asks anyone where they are. | Unrun | First public here |
-| **P-LP2** | **The rebuilt door is used more** — per human visit to the landing, the share that follow the link to the app (thank.heartbank.org) is **at least 1.5 times** the same share on the old page. Baseline: the 30 days 2026-09-24 → 2026-10-23, computed from the estate's own `events` (page_view and link_click, machines excluded) **before the first reading** and entered as a NEW row with its own timestamp, never an edit. *Falsifier: under 1.5 times → the rebuild did not make the door easier to find.* Instrument: the estate beacon, read through the per-site cut owed in `/estate` (the script cannot cut by site today). Scored if the window holds **100 or more** human landing visits. | Unrun | First public here |
+| **P-LP2** | **The rebuilt door is used more** — per human visit to the landing, the share that follow the link to the app (thank.heartbank.org) is **at least 1.5 times** the same share on the old page. Baseline: the 30 days 2026-09-24 → 2026-10-23, computed from the estate's own `events` (page_view and link_click, machines excluded) **before the first reading** and entered as a NEW row with its own timestamp, never an edit. *Falsifier: under 1.5 times → the rebuild did not make the door easier to find.* Instrument: the estate beacon, read through the per-site cut owed in `/estate` (the script cannot cut by site today). Scored if the window holds **100 or more** human landing visits. | Retired (superseded by P-LP2a) | First public here |
 | **P-LP3** | **Khmer is not the weaker door** — among human visits, the share that follow the link to the app is **at least as high on /km/ as on /**. *Falsifier: lower on /km/ → the Khmer page, which is our own unreviewed draft, is a worse door than the English one, and "Khmer first" is not supported by use.* Instrument and window as P-LP2. Scored if **each** page has **50 or more** human visits. | Unrun | First public here |
 | **P-LP4** | **A cold reader gets it** — three people who have never seen HeartBank, each shown only the explainer storyboard in their own language and asked *"what does this do?"*, answer unprompted: **at least two of three** describe money and thanks passing between people with a record kept. *Falsifier: fewer than two → the storyboard does not explain what it is for.* Instrument: the three answers recorded verbatim, names withheld, **before the animated explainer is built and before any change to the storyboard**. A desk-scale test (n = 3, by the founder's ruling): it can falsify, it cannot measure. ⛔ A hint voids the test. | Unrun | First public here |
 | **P-LP5** | **It is not read as a bank** — the same three readers, shown the top of the page and asked *"what kind of organization is this?"* with the options *a bank · not a bank · not sure*: **at least two of three** do not choose *a bank*. *Falsifier: two or more choose "a bank" → the not-a-chartered-bank positioning is not carried by the page itself, only by its footer.* Instrument as P-LP4, asked after it and never before. | Unrun | First public here |
+| **P-LP2a** | **The rebuilt door is used** — a **correction of P-LP2, entered as a new prediction**; P-LP2's wording stands unchanged. Over the **90 days** from the DNS cutover (2026-10-24, 09:39 PDT), **at least 10%** of human landing visits (one device on one UTC day, on `/` or `/km/`) include a click on a link to thank.heartbank.org. *Why the correction:* the baseline, read 2026-10-24 over the UTC days 2026-09-24 → 2026-10-23, is **0 of 92** landing visits on the old page, so P-LP2's "at least 1.5 times the old share" is satisfied by any rate above zero and could never fail. *Falsifier: under 10% → the door is not found, or not wanted, on a page whose one job is to send people to the app.* Instrument: the estate's per-site cut (`site-cut.mjs`, built 2026-10-24), read once at the end of the window. Scored if the window holds **100 or more** human landing visits. ⚠️ The founder's own visits and any tester's are counted. | Unrun | First public here |
 
 ---
 
@@ -296,6 +297,14 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-10-24 (later) — one added (P-LP2a), one status cell changed (P-LP2). Total now 130.**
+
+- **P-LP2a** — Chapter I, beside P-LP2: a **correction entered as a new prediction under the revision rule**, not an edit. P-LP2 asked for at least 1.5 times the old page's share of visits that follow the link to the app. The baseline, read the same day with the per-site cut, is **0 of 92** landing visits (UTC days 2026-09-24 to 2026-10-23, 108 human events, 35 machine events excluded), so the multiple could never fail. The founder chose the absolute bar from three options put to him (5%, 10%, 20%): *"At least 10%."* The substrate's own estimate, recorded so a reader can see where he predicted against it: about 20%.
+- **P-LP2** — status cell only: **Retired**, superseded by P-LP2a. Its wording is unchanged and it is kept, never deleted. P-LP3 reads the same instrument and is unaffected.
+- *Registered before any reading of the rebuilt page*; the only observation that precedes it is the old page's baseline, written into the row.
+
+**The Summary moves:** total 129 → 130, *published here* 128 → 129, *receiving first public timestamp here* 70 → 71, *retired* 3 → 4. The reconciliation holds: 58 + 71 = 129 published here, plus the one withheld, is 130.
 
 **2026-10-24 — five added (P-LP1 to P-LP5). Total now 129.**
 
