@@ -55,6 +55,7 @@ pre { font:8.2pt/1.32 "SF Mono",Menlo,Consolas,monospace; background:#f6f6f6;
 code { font:9pt "SF Mono",Menlo,monospace; background:#f2f2f2; padding:1px 3px; border-radius:2px; }
 blockquote { margin:10px 0 10px 14px; padding-left:12px; border-left:3px solid #bbb; color:#333; }
 table { border-collapse:collapse; width:100%; font-size:9pt; margin:10px 0; page-break-inside:avoid; }
+tr { page-break-inside:avoid; break-inside:avoid; }
 th,td { border:1px solid #bbb; padding:5px 7px; text-align:left; vertical-align:top; }
 th { background:#f0f0f0; }
 ul,ol { margin:0 0 9px 18px; padding:0; } li { margin:0 0 4px; }
