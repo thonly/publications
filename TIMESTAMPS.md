@@ -1,3 +1,18 @@
+### 2026-10-24 — the prediction register: P-LP1 to P-LP5, the rebuilt heartbank.org landing (founder: *"P-LP2 at 1.5×; keep P-LP4 and P-LP5 at n=3"*)
+
+Five predictions about the landing that replaced the single-page app on 2026-10-24 (DNS cutover 09:39 PDT): where its search audience is (P-LP1), whether the rebuilt
+door is used more (P-LP2, threshold 1.5×), whether the Khmer page is the weaker door (P-LP3), and two cold-reader tests at n = 3 (P-LP4, P-LP5), to run before the animated
+explainer is built. Registered before any reading of the rebuilt page; the Search Console baseline sits in P-LP1's own row.
+⚠️ **Two revisions the same day:** the first (`811c95f`) and a reworded phrase (`1dea734`), because the deposit PDF's own text check refused a possessive set after a code span
+(`/estate`'s split into two drawn pieces). The same run made `tdc-pdf.py` keep table rows from splitting across pages, which had cost seven words at a page edge.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** v22 | `.ots` → `.r21.ots` (calendar-only at rotation) → `.r22.ots` (calendar-only at rotation; the find-based upgrade loop covers rotated proofs); new `b5841901cbe0…` *(calendar-only)* | `2026-10-24.sha256` (re-run after the reword, covers `b5841901cbe0…`) | `10.5281/zenodo.23623634` *(new version, PDF attached)* | 2.5.47 |
+
+Site module regenerated, thonly.org `247b678`: ids identical · `doi.org` 1 → 1 · links 3 → 3 · the only words short were markdown punctuation. Register arithmetic 129 = 129.
+The index build also refused on an expired hold (`letting-the-texts-lose`, review date 2026-10-21): its review date was extended to 2026-11-21 (the paper still awaits its polish round and census).
+
 ### 2026-10-13 (night) — the prediction register: P-PL14, the 7 January reset's effect on giving (founder: *"approve"*, *"1: push"*)
 
 P-PL14 tests, on the side of `giving-is-a-gift-too`'s published use-it-or-lose-it claim and two-sided, whether the first reset moves
