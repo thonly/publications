@@ -1,3 +1,14 @@
+### 2026-10-24 (later) — the prediction register: P-LP2a corrects P-LP2; P-LP2 retired by status cell (founder: *"Fix P-LP2"*, *"At least 10%"*)
+
+The per-site cut (`estate/site-cut.mjs`, built the same day) read the old landing's door rate as **0 of 92** landing visits, so P-LP2's "1.5 times the old share" could never fail.
+P-LP2a is the correction as a NEW entry (absolute bar, 10%); P-LP2's wording is unchanged and its status cell reads Retired. Register arithmetic 130 = 130.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** v23 | `.ots` → `.r23.ots` (calendar-only at rotation; the find-based upgrade loop covers rotated proofs); new `263198ac58c3…` *(calendar-only)* | `2026-10-24.sha256` (re-run, covers `263198ac58c3…`) | `10.5281/zenodo.23625021` *(new version, PDF attached)* | 2.5.48 |
+
+Site module regenerated, thonly.org `a10b7a4`: ids identical. The PDF render check passed first time (table rows no longer split).
+
 ### 2026-10-24 — the prediction register: P-LP1 to P-LP5, the rebuilt heartbank.org landing (founder: *"P-LP2 at 1.5×; keep P-LP4 and P-LP5 at n=3"*)
 
 Five predictions about the landing that replaced the single-page app on 2026-10-24 (DNS cutover 09:39 PDT): where its search audience is (P-LP1), whether the rebuilt
