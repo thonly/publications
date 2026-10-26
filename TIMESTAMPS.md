@@ -1,3 +1,15 @@
+### 2026-10-26 — the prediction register: P-BO1 to P-BO5, B-Origin℠ (founder: *"Yes, as drafted"*)
+
+Five rows in Chapter I beside P-LP and a Revisions entry; total 130 → 135, reconciled by the index build (135 counted vs 135 stated). Registered **before
+the service exists**; each window starts at a named launch event. The substrate's estimates are in the Revisions entry. The dry run also listed
+`the-ticket-and-the-tag` as *new* (its first deposit is HELD for a full census), so leg 3 ran `--only prediction-register`.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **program/prediction-register** v24 | `.ots` upgraded to Bitcoin-complete (2 attestations), then `.ots` → `.r24.ots`; new `e47e0dfe957d…` *(calendar-only at stamping)* | `2026-10-26.sha256` (covers `e47e0dfe957d…`; accv-es · aped-gr · freetsa-de) | `10.5281/zenodo.23660501` *(new version, PDF attached)* | 2.5.49 |
+
+Site module regenerated: ids identical, `doi.org` 1 → 1, `https://` 3 → 3, word multiset complete (one hyphenated slug renders as a link).
+
 ### 2026-10-24 (later) — the prediction register: P-LP2a corrects P-LP2; P-LP2 retired by status cell (founder: *"Fix P-LP2"*, *"At least 10%"*)
 
 The per-site cut (`estate/site-cut.mjs`, built the same day) read the old landing's door rate as **0 of 92** landing visits, so P-LP2's "1.5 times the old share" could never fail.
