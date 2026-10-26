@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **130** |
-| Published here | 129 |
+| Total registered | **135** |
+| Published here | 134 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 58 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 71 |
+| Receiving first public timestamp here | 76 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **0** — six pilot-scale predictions are *Running* with a baseline read; none has resolved |
 | Running (instrument live; unread, restricted or baseline only) | 9 |
@@ -102,6 +102,11 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | **P-LP4** | **A cold reader gets it** — three people who have never seen HeartBank, each shown only the explainer storyboard in their own language and asked *"what does this do?"*, answer unprompted: **at least two of three** describe money and thanks passing between people with a record kept. *Falsifier: fewer than two → the storyboard does not explain what it is for.* Instrument: the three answers recorded verbatim, names withheld, **before the animated explainer is built and before any change to the storyboard**. A desk-scale test (n = 3, by the founder's ruling): it can falsify, it cannot measure. ⛔ A hint voids the test. | Unrun | First public here |
 | **P-LP5** | **It is not read as a bank** — the same three readers, shown the top of the page and asked *"what kind of organization is this?"* with the options *a bank · not a bank · not sure*: **at least two of three** do not choose *a bank*. *Falsifier: two or more choose "a bank" → the not-a-chartered-bank positioning is not carried by the page itself, only by its footer.* Instrument as P-LP4, asked after it and never before. | Unrun | First public here |
 | **P-LP2a** | **The rebuilt door is used** — a **correction of P-LP2, entered as a new prediction**; P-LP2's wording stands unchanged. Over the **90 days** from the DNS cutover (2026-10-24, 09:39 PDT), **at least 10%** of human landing visits (one device on one UTC day, on `/` or `/km/`) include a click on a link to thank.heartbank.org. *Why the correction:* the baseline, read 2026-10-24 over the UTC days 2026-09-24 → 2026-10-23, is **0 of 92** landing visits on the old page, so P-LP2's "at least 1.5 times the old share" is satisfied by any rate above zero and could never fail. *Falsifier: under 10% → the door is not found, or not wanted, on a page whose one job is to send people to the app.* Instrument: the estate's per-site cut (`site-cut.mjs`, built 2026-10-24), read once at the end of the window. Scored if the window holds **100 or more** human landing visits. ⚠️ The founder's own visits and any tester's are counted. | Unrun | First public here |
+| **P-BO1** | **People sign their work where they make it** — over the **90 days** from the first production record made by the dpixxi editor's B-Origin integration, **at least 10%** of exports by users who are shown the Sign option end in a signed record. *Falsifier: under 10% → provenance is not wanted at the moment of export.* Instrument: records whose tool is the dpixxi editor, divided by the editor's own export count for users shown the option (supplied by the editor's owner). Scored if the window holds **500 or more** such exports. | Unrun | First public here |
+| **P-BO2** | **Checking a file leads to signing one** — over the **90 days** from the B-Origin portal's launch (origin.333.eco), **at least 3%** of human portal visits that check a file also sign a file of their own in the same visit. *Falsifier: under 3% → the portal is a checker, not a door to Sign.* Instrument: the estate beacon's events (a check, then a completed signature, one device on one UTC day), machines excluded. Scored if the window holds **300 or more** checks. | Unrun | First public here |
+| **P-BO3** | **The limit of a record is understood** — shown only a signed record and its explanation sheet, **at least 4 of 5** readers who have never seen HeartBank® answer *no* or *not necessarily* to *"Does this prove a person made this picture?"* *Falsifier: fewer than 4 → the record reads as an authenticity stamp, the misreading the design is built against.* Instrument: five readers during the pre-launch staging test, each answer filed verbatim, unprompted beyond the one question. n = 5. | Unrun | First public here |
+| **P-BO4** | **Signing is rarely regretted** — **under 2%** of B-Origin records are withdrawn by their signer within 90 days of signing. *Falsifier: 2% or more → people sign without understanding what a public record is, or regret it.* Instrument: withdrawal entries in the public log divided by records, each record followed for its own 90 days. Scored once **1,000 or more** records have completed their 90 days. | Unrun | First public here |
+| **P-BO5** | **Older phones need another way in** — over the **90 days** from login.333.eco's launch, **at least 30%** of log-ins from Cambodia use an emailed or texted code rather than a passkey. *Falsifier: under 30% → the email and SMS log-in served few people.* Instrument: log-in counts by method and country (aggregates only; no person is read). Scored if the window holds **200 or more** log-ins from Cambodia. | Unrun | First public here |
 
 ---
 
@@ -297,6 +302,13 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-10-26 — five added (P-BO1 to P-BO5). Total now 135.**
+
+- All five in Chapter I, beside the heartbank.org door (P-LP): the first predictions about B-Origin℠, the estate's signed-provenance service. Registered **before the service exists**, so no observation precedes any of them; each window starts at a named event (the first production record, the portal's launch, login.333.eco's launch), because no launch date is set. The founder's ruling: *"Yes, as drafted."* The substrate's own estimates, recorded so a reader can see where he predicted against them: P-BO1 about 60% likely to hold; P-BO2 about 45%; P-BO3 about 55%; P-BO4 about 80%; P-BO5 about 50%.
+- **Reading rules.** Each is read **once, at the end of its window**. A prompt to a user voids the test. Contaminants named now: the founder's own use, the first business partners' testing, and automated runs, which the beacon labels and the estate's reader classes as machines. A change to the Sign screen's wording or to the explanation sheet ends the window for P-BO1 to P-BO3 and starts a new entry. P-BO3 runs **before** launch.
+
+**The Summary moves:** total 130 → 135, *published here* 129 → 134, *receiving first public timestamp here* 71 → 76. The reconciliation holds: 58 + 76 = 134 published here, plus the one withheld, is 135.
 
 **2026-10-24 (later) — one added (P-LP2a), one status cell changed (P-LP2). Total now 130.**
 
