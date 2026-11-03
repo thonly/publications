@@ -120,6 +120,8 @@ Two narrower nulls survive with it: the use of the functional definition of mone
 
 ---
 
+**The full census, 2026-11-03.** A full census of the survivors ran on 2026-11-03, its pre-registration pushed publicly first (`thonly/publications` commit `7fe090f`, `timestamps/census/ticket-full-prereg.md`). Aperture: the commercial and non-commercial web in Thai, Khmer and English; Google Patents by page fetch and filtered search, with a partial walk from US10510057B2 (3 of about 30 related documents opened); academic and standards sources through filtered web search. Burmese was thin; Sinhala, native CN/JP/KR patent indexes, books and fieldwork were not run. Proxy offering narrowed further: Sent Boon offers alms for a sponsor and sends photographs (MGR Online, 2024-02-21). Tagged reusable containers exist and track rather than release (Ekko, NFC World, 2021-07-14). Cahan (*Stanford Social Innovation Review*, 2020) sends gift-card breakage to a cause the cardholder chose, with no lot. A Thai slip of invitation is reported in the press, but we could not read that report, and a slip held against a shop's portion was not found; this practice is largely oral, so the null is weak. The orphan rule, the vessel-bound release and the composition were not found in that aperture on that date. The claims below stand unchanged.
+
 ## 3 · The canonical frame
 
 The design does not invent a monastic procedure. It operationalizes six that exist, each carrying one step of the flow, and one further text that explains why the assignment step matters. The canon is [C]; every mapping onto the design is [ours].

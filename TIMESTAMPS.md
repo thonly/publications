@@ -1,3 +1,7 @@
+### 2026-11-03 (late night) — full censuses recorded in two held papers (founder: *"do all per your recommendation; then next batch"*)
+
+`the-ticket-and-the-tag` and `capture-earns-nothing` each gain a paragraph reporting the full census; claims unchanged. Proofs rotated (retired calendar-only; the find-based upgrade covers them), TSA `2026-11-03.sha256`, no deposit: both stay held for `/polish` and the founder's word.
+
 ### 2026-11-03 (night) — the repair batch from the corpus re-survey (founder: *"next batch"*)
 
 Repairs: `sankhara-dukkha-ai-welfare` (the body now agrees with §7.4; refuter pass applied) · `capacity-funded-human-disbursed-ai-alignment` (channel 1 stated as ratified, the current form corrected, the sealed draw; refuter pass applied) · `the-referee-not-the-governor` (claim 1 narrowed: open weights weaken a clean result) · `what-a-vow-must-cost` (five sources verified, two corrected) · `vinaya-as-ai-reasoning-training-corpus` (342 / 333 / 306; the fused word at `vin02m1.mul.xml:4623`) · `breadth-check-on-the-work` (conditioned space). Held papers revised with no deposit: `the-ticket-and-the-tag`, `letting-the-texts-lose`. All proofs rotated; TSA `2026-11-03.sha256`. Hand-authored modules took paragraph-level ports with ids unchanged.
