@@ -7,6 +7,8 @@ The revision corrects §4.2 (a sub-commentary makes the kalāpa = *paramāṇu* 
 | **abhidhamma-and-discrete-quantum-gravity** | `.ots` → `.r5.ots` (Bitcoin-complete); new `4112c169dce4…` *(calendar-only at stamping)* | `2026-11-03.sha256` | 10.5281/zenodo.23928020 *(new version)* | 2.5.51 |
 | **the-body-is-the-lab** *(new, essay)* | new `d0abab18356c…` *(calendar-only at stamping)* | `2026-11-03.sha256` (second run) | ⏸ held for `/polish` | ⏸ held |
 
+⚠️ `the-body-is-the-lab` rotated the same day (`.ots` → `.r1.ots`, retired calendar-only): one biographical clause removed from §1, sourced from private material (§private, `the-four-books`). The earlier text remains in this repository's history.
+
 Site module for the revision regenerated, thonly.org `7760411`: ids identical (22), `doi.org` 2 → 2, links 33 → 33, word multiset complete (only replaced words lost).
 
 ### 2026-10-26 — the prediction register: P-BO1 to P-BO5, B-Origin℠ (founder: *"Yes, as drafted"*)

@@ -20,7 +20,7 @@ On 14 October 2026 I typed this:
 
 > If perception compiles continuity and insight decompiles it, perhaps the only path to the most fundamental physics is through meditation, the ultimate real-time decompiler. The physical body is the physics lab; the meditative mind is the reverse-engineering tool. Perhaps complete decompilation is Nibbana.
 
-I think in metaphors, and that one felt like the top of a mountain. I came up through software, I sat a Vipassana course in S. N. Goenka's tradition after my master's degree, and I now work on the Khmer Tipiṭaka with my father and with a proof assistant. A sentence that fused the three seemed like the sentence I had been walking toward.
+I think in metaphors, and that one felt like the top of a mountain. I came up through software, and I now work on the Khmer Tipiṭaka with my father and with a proof assistant. A sentence that fused the three seemed like the sentence I had been walking toward.
 
 It is wrong in three places, and the corrections are why I am writing. The word *only* is refused by the texts I was praising. The physical body is not the lab the texts describe. And complete decompilation is not nibbāna. What survives is better than what I typed, and it keeps the title: the body is the lab, once *body* means what the Buddha meant by it.
 
