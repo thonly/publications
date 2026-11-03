@@ -5,6 +5,7 @@ category: mechanism
 priority: tier-b
 status: draft
 date: 2026-05-22
+revised: 2026-11-03
 license: CC0-1.0
 slug: dual-currency-reciprocity
 venue: thonly.org/research/dual-currency-reciprocity (canonical) · target academic venue, International Journal of Community Currency Research
@@ -238,7 +239,7 @@ The clamp values are public and updated only through the institution's governanc
 
 The aura primitive operates on both products. A participant's aura color and brightness reflect their integrated behavior: reliable money-side gratitude flows brighten the aura, as do reliable time-side honorings. Defaults on either side dim the aura. This is the cross-currency state signal that makes the integration legible to other participants at a glance.
 
-> **Current form.** The aura is now specified as a **witness, not a denominator**: it records the *crossing*, not the *cargo*. A delivered hour and a money gift each register as one crossing, never as a quantity of hours or dollars, so the aura cannot price an hour against money and no exchange rate is ever published. It reflects the frequency and amplitude of a participant's giving and receiving, with intensity carried by colour; it is never compared or ranked between participants, and nothing is rendered for an undelivered or lapsed hour — a default does not dim it, because a lapse is not a crossing (§5.7). The brighten-and-dim scoring in the paragraph above is retained as a disclosed variant.
+> **Current form.** The aura is now specified as a **witness, not a denominator**: it records the passage, not the cargo. A cargo of money or time reaches the aura only through the thank it carries: only an original thank moves a Kiitos or Kiitti balance, and the aura reads only those balances. An hour or a dollar therefore never enters the aura as a quantity, so the aura cannot price an hour against money and no exchange rate is ever published. It reflects the frequency and amplitude of a participant's giving and receiving, with intensity carried by colour; it is never compared or ranked between participants, and nothing is rendered for an undelivered or lapsed hour — a default does not dim it, because a lapse is not a crossing (§5.7). The brighten-and-dim scoring in the paragraph above is retained as a disclosed variant.
 
 ### 7.2 Expired time converts to Aquarian Pool
 
@@ -249,6 +250,20 @@ When activated time expires unredeemed, the value does not vanish. It converts t
 ### 7.3 Dual ledger across both products
 
 A participant's public profile shows both the time-side dual ledger and the money-side gratitude flow. The combined picture is the cross-currency reputation. A participant who gives generously on the money side and delivers many hours is visibly that pattern; one who does little of either is visibly that. **Amended 2026-09-02:** this passage formerly characterised a *"chronic time-side non-honorer,"* which the withdrawal above removes — the profile shows what a participant has given and received in each currency and never the shortfall between them. The ledger does not editorialize; it shows, and what it shows is presence rather than absence. (In the current form stated in §5.7 and §7.1, the rows themselves are private, money is recorded as a receipt without its amount, and the public cross-currency signal is the aura; the public profile described here is retained as a disclosed variant.)
+
+### 7.4 Where a time-gift lands in a money place: the hosted invitation
+
+> **Scope.** This section states a framing claim about a design that is unbuilt and unscheduled. It specifies no schema, no pool mechanics and no routing. Its sibling treatments are *Rotation Over Liveness* (§10, the fourth seat) and *The Unpaid Relay* (§6, invitation as a second instance of a type-level non-redeemability); this section adds only the cross-currency reading.
+
+§7.1–§7.3 integrate the two currencies at the level of identity, signal and ledger. A hosted invitation (B-Host℠) is a different kind of junction: one shop offers a place and an hour, as an invitation to two people who already know each other, and the pair spends time at a table where money changes hands in the ordinary way. Both currencies are live inside a single act: the pair spends time, the shop earns money, and thanks may follow. The calibration matters, because this is not the first junction between the two. A B-Stamp puts a time pledge into a money object, a gift label. A hosted invitation is where a time-gift lands in a money place, and it is the case where both people sit at the same table.
+
+Three properties are disclosed, each stated as far as the design has been ruled.
+
+1. **An invitation is not a gift code.** A gift code is claims purchased by a giver, and it converts to a shop credit at what the item is worth. An invitation is bought by nobody and carries no purchase-price field, so there is nothing for conversion to strike at: the exclusion is vacuous by type, not forbidden by clause. The alternative of letting the invitation redeem but not convert was declined, since it makes one exception to a property the design otherwise holds by type.
+2. **The time is not priced by the money.** Four exclusions follow from the purpose of the surface and are each checkable: no minimum spend or purchase requirement to accept an invitation; no use of the invitation as a discount instrument; no metering of the hour (no timed table, no countdown, no second-round prompt); and no ordering or drawing of the invitations by spend.
+3. **The invitation has no price of its own.** Hosting rides a capability the shop already holds; no per-publish fee, featured placement or per-match fee exists. A shop that prefers to sell a seat sells an ordinary item and needs nothing new.
+
+*What is claimed.* Only the composition: a shop-published, unpriced invitation of a place and an hour, offered to a pair of acquaintances, accepted by the one receiving the gift of time, inside a platform that already holds a money gift and a time pledge under one identity. At the mechanism width, the parts are old (suspended-coffee and meal-voucher practices, reservation-with-ticket platforms, randomized ordering in public elections), and the sibling papers cite them. The composition is held at a weak width: a census at the composition width found nothing, which is a statement about an aperture on a date and not a finding of novelty. Until the surface is built, this section is a framing of where the two currencies meet, not evidence that the junction works.
 
 ---
 

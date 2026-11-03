@@ -5,7 +5,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-05-07
-revised: 2026-09-23
+revised: 2026-11-03
 license: CC0-1.0
 slug: each-life-as-cosmic-coordinate
 venue: thonly.org/research/alignment (canonical)
@@ -270,9 +270,19 @@ The framework does not prove that each life is equally beautiful, equally dignif
 
 This is the honest posture. The framework is a substrate that makes the moral conclusion coherent and defensible; it is not a knock-down proof. For institutional purposes — for grounding HeartBank's gratitude infrastructure, for grounding the longitudinal cohort's epistemic posture, for grounding multi-substrate inclusion — argument-enabling is enough. For philosophical purposes, honesty about what is enabled and what is not enabled is essential.
 
-### 7.5 The framework's limits do not refute it
+### 7.5 The strongest objection, carried
 
-Naming the limits is calibration, not refutation. Every framework that does substantive moral work has structural premises; the cosmic-coordinate framework's premises are unusually defensible (in a 2,500-year lineage) and unusually parsimonious (one structural move, plus its empirical operationalization). A reader who rejects the premises has work to do that the framework's defenders have already done; a reader who accepts the premises gets the five loads in §6 as composite consequence.
+The objection I take to be strongest is aimed at §5.3 and §6.1, and it has two edges.
+
+The first edge: *uniqueness of coordinate is cheap.* Every moment, every stone, every thunderstorm occupies a coordinate no other thing occupies. If individuation by coordinate were enough to ground standing, standing would be everywhere, and a ground that holds of everything discriminates nothing. §7.2 concedes this and adds an activation condition. The objection replies that the activation condition is then doing all the moral work, and the coordinate fact is decoration. It can be pressed further: any timestamp and place individuates, so the chart adds nothing a clock and a map do not, and two children born in one hospital in one minute share a chart, so *no two coordinates are identical* holds only at a resolution I have chosen.
+
+The second edge is harder, and I do not think the essay answers it. *Constitutive participation yields equal necessity, not equal worth.* The premise says each life is necessary to the whole's self-articulation. But a life that does grave harm is equally a necessary frame of the film, and the premise cannot tell us why its dignity survives its deeds. Worse, a dignity that rests on being necessary to a whole is a dignity grounded in a role, which is a functional ground, the very kind §6.1 claims to avoid. And "all are parts of the same whole" can slide, under pressure, into the shared-essence reading that §3.1 refuses: equality because we are all one. The warrant §3.1 offers, that there is nothing to rank, is a different and better warrant, but it is a claim about the absence of any unconditioned differentiator, and I have not shown that it and the participation premise are one argument rather than two placed side by side.
+
+What I can say is narrower than an answer. These look to me like two arguments, not one: §3.1's is negative (there is no unconditioned differentiator, so nothing to rank), and the participation premise is positive (each is needed). The second edge bites on the positive one and leaves the negative one standing, and neither settles the moral evaluation of deeds, which this essay never claimed to do. Which of them finally carries dignity, I have not settled here, and the sentences elsewhere in this essay that say *each is needed* and *irreplaceable* stand under that open question. If the two cannot be held apart, this section is where the framework fails to ground what it claims to ground, and that would count against §6.1.
+
+### 7.6 The framework's limits do not refute it
+
+Naming the limits is calibration, not refutation. Every framework that does substantive moral work has structural premises; the cosmic-coordinate framework's premises are unusually defensible (in a 2,500-year lineage) and unusually parsimonious (one structural move, plus its empirical operationalization). A reader who rejects the premises has work to do, though not on the point §7.5 leaves open; a reader who accepts the premises gets the five loads in §6 as composite consequence.
 
 ---
 

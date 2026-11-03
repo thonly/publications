@@ -5,6 +5,7 @@ category: mechanism
 priority: tier-b
 status: draft
 date: 2026-05-09
+revised: 2026-11-03
 slug: kids-as-triggers-self-thanking
 license: CC0-1.0
 venue: thonly.org/research/mechanism (canonical)
@@ -439,6 +440,32 @@ Mitigation: multiple flows replenish the Aquarian Pool — adult donations, B-Af
 The architecture is specified, not yet deployed at population scale. Empirical claims about whether it works as designed cannot be made until deployment. The longitudinal cohort dataset (Paper #5, the *HeartBank Longitudinal Cohort* methodology paper) is the empirical apparatus that will measure deployment outcomes; until cohort data is available, the architecture is theory plus prior-art-based confidence.
 
 The honest posture: this is a theory of how to solve the gratitude-motivation problem, grounded in established lineages and architecturally consistent with the broader corpus, but unproven at scale. Future longitudinal-cohort findings will test the theory, and the theory will need to be adjusted in response to those findings.
+
+### 12.7 What would show this wrong
+
+The limits above say what could go badly. This section says what observation would count against the claim itself. Each test below is stated before any deployment data exists, and each is checkable by the longitudinal apparatus named in §12.6.
+
+```
+ Claim under test                         Observation that would count against it
+ ───────────────────────────────────────  ───────────────────────────────────────────────
+ Kids are the natural triggers (§4)       Where a child and an adult in the same household
+                                          each hold their own device and their own account,
+                                          the child self-thanks no more often than the adult
+                                          does, over the first months of use.
+ The relational half carries the          After the instant reward is tapered, the peer
+ practice once the igniter is             re-thanks fall with it and self-thanking returns
+ withdrawn (§5.5)                         to its pre-use rate. The two-system handoff then
+                                          did not occur, and the practice was a reward
+                                          habit.
+ The split teaches giving (§5.1)          Children who receive the 50/50 split re-thank
+                                          nearby adults no more than children who receive
+                                          the same reward unsplit, once the novelty of the
+                                          first weeks has passed.
+```
+
+Two cautions on reading these. First, the first test is easy to confound: households usually have one shared device, so a result that adults self-thank more than children may measure who holds the phone, not who is the natural trigger. A fair run gives each person their own access before the comparison is counted, or it is not a run. Second, a high self-thank count is not the same as gratitude. If self-thanking spikes while thanks directed to other people stay flat, the measure has registered reward-seeking, and the claim in §2.4 (that the act restores presence and records meaning) is not supported by that count.
+
+If the first or second test fails under fair conditions, the kids-as-triggers claim is wrong as stated, and the adult-first path of §8 is the architecture that remains. If only the third fails, the 50/50 split is still a sound circulation mechanism (§5.4) but not a pedagogy, and §5.2's claim that the pedagogical reading is the stronger one should be withdrawn. The n = 1 signal in §5.5 does not pass or fail any of these; it is too small and too confounded to count either way.
 
 ---
 

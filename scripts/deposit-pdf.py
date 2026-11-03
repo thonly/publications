@@ -81,7 +81,7 @@ def text_of(pdf):
 def visible(body):
     """The markdown as a reader sees it — the same normalization tdc-pdf.py applies before its diff."""
     vis = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', body)
-    vis = re.sub(r'(?m)^(\s*)\d+\.\s', r'\1', vis)
+    vis = re.sub(r'(?m)^([\s>]*)\d+\.\s', r'\1', vis)
     vis = re.sub(r'(?m)^(\s*```)\s*[\w+#.-]+\s*$', r'\1', vis)
     return unicodedata.normalize("NFKC", vis)
 

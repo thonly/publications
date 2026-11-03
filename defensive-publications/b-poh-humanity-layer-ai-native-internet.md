@@ -5,7 +5,7 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-05-24
-revised: 2026-09-24
+revised: 2026-11-03
 license: CC0-1.0
 slug: b-poh-humanity-layer-ai-native-internet
 venue: thonly.org/publications/defensive-publications/b-poh-humanity-layer-ai-native-internet (canonical)
@@ -539,15 +539,19 @@ The protocol's adoption path matters as much as its specification. This section 
 
 ### 10.1 Year 1 (2026) — protocol + reference implementation + browser extension + standards-body engagement
 
+> **Current form (2026-11-03).** The browser extension below is no longer dated to 2026, and no year attaches to it. It is gated on the first PoH℠ attestation being published: the extension only reads proofs that exist, and before any exist it would have nothing to find. It is a desktop-browser surface only, because Chrome extensions do not run on mobile Chrome, so the in-app recipient-side filter (§4) comes first and the extension is a second surface. Its indicator is presence-only: it is identical on every page and account that carries no proof, and changes only when a proof is found. It has no *unverified*, *not found*, grey or warning state. The SSL-lock analogy below therefore holds for the presence half only. The text of this subsection is retained as a disclosed variant; the other items in it (protocol, reference implementation, standards-body engagement, this publication) are unaffected.
+
 The 2026 work is foundational and non-glamorous:
 
 - **Specify the open protocol** in a form that can be implemented by anyone. This paper is the start; a more formal specification (RFC-style, with explicit type definitions, message formats, verification algorithms) will follow.
 - **Build an open-source reference implementation** of B-PoH℠ at L1 + L2 sub-mechanisms (a) and (b). Codebase: not yet published; license: liberal open-source (Apache 2.0 or MIT).
-- **Ship a browser extension** that integrates B-PoH℠ verification with WebAuthn and presents PoH ℠ verification status to the user via browser-chrome indicators (analogous to the SSL lock icon). Available for Chrome, Firefox, Brave, Safari.
+- **Ship a browser extension** that integrates B-PoH℠ verification with WebAuthn and presents PoH ℠ verification status to the user via browser-chrome indicators (analogous to the SSL lock icon, presence half only; see the note above). Available for Chrome, Firefox, Brave, Safari.
 - **Engage W3C Decentralized Identifiers Working Group and Verifiable Credentials Working Group** to position PoH ℠ as a credential type within the VC framework. Engage IETF for possible RFC submission for the protocol specification.
 - **Defensive publication** of the protocol architecture (this paper) under CC0, snapshotted across the standard preservation venues (Zenodo DOI, OpenTimestamps anchored to Bitcoin, RFC 3161 timestamps, Internet Archive snapshots, GitHub).
 
 ### 10.2 Year 2 (2027) — Brave / partner integration
+
+> **Current form (2026-11-03).** This step and the next follow the extension, so with the extension undated their years are no longer anchored. They are left open, and the years in their headings are retained as the original illustrative sequencing.
 
 Building a competitive browser from scratch is enormously expensive (Chrome reportedly held roughly two-thirds of global browser usage in 2025). Year 2's work is to integrate B-PoH℠ into existing privacy-aligned browsers via partnership:
 
@@ -559,7 +563,7 @@ Building a competitive browser from scratch is enormously expensive (Chrome repo
 
 The 2028–2030 work is the standalone Aquarius℠ Browser:
 
-- **Aquarius℠ Browser**, forked from Chromium (or, depending on the state of the alternative-browser-engine landscape, Servo or a then-current engine). Visible PoH ℠ authenticity indicators in the browser chrome; integrated W3C VC support; reputation-and-credential layer; human-verification gateway for any platform that accepts PoH ℠.
+- **Aquarius℠ Browser**, forked from Chromium (or, depending on the state of the alternative-browser-engine landscape, Servo or a then-current engine). Visible PoH ℠ authenticity indicators in the browser chrome (presence-only, as for the extension in §10.1); integrated W3C VC support; reputation-and-credential layer; human-verification gateway for any platform that accepts PoH ℠.
 - **Long-arc evolution path:** trust-centric browser → decentralized identity wallet → reputation and credential layer → human-verification gateway → social authenticity filter for the AI-native internet.
 - **L4 (DNA-verified kinship lineage) deployment scaling** through partnerships with consumer-genomics services that honor the protocol's privacy posture.
 
@@ -586,7 +590,7 @@ The internet's existing trust stack solves several important problems and does n
 
 **The placement argument**: PoH ℠ sits beside Proof of Work and Proof of Stake as a proof bounded by humanness, in the line of proof-of-personhood work since 2008 — the proof-of-X primitive that fits the era when compute and capital have both become AI-commodified, leaving humanness as a scarce resource AI cannot readily manufacture.
 
-**The deployment path** (illustrative years, per §10): protocol + reference implementation + browser extension + standards-body engagement (Year 1, 2026) → Brave / partner integration (Year 2, 2027) → standalone Aquarius℠ Browser (Year 3+, 2028–2030). Nonprofit-steward + AI-lab-underwritten revenue model. The Aquarius℠ Browser is the eventual deployment surface, not the immediate move.
+**The deployment path** (illustrative years, per §10; originally Year 1, 2026 → Year 2, 2027 → Year 3+, 2028–2030): protocol + reference implementation + standards-body engagement, then the browser extension once the first attestation is published (undated) → Brave / partner integration → standalone Aquarius℠ Browser (both after the extension, undated). Nonprofit-steward + AI-lab-underwritten revenue model. The Aquarius℠ Browser is the eventual deployment surface, not the immediate move.
 
 The architecture is offered defensively to the commons under CC0. The authors and HeartBank® will not seek patent on the protocol, the layered architecture, the recipient-filter mechanism, the BLE-Nearby proximity verification, the bilateral-uncacheable-anonymity property, the birth-certificate-as-dual-purpose-natal-chart-input mechanism, or any portion thereof. Trademark rights on specific marks (**Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **Aquarius℠ Browser**, **Miss Aquarius℠**, **HeartBank®**, the B-heart logo) are separately and explicitly reserved.
 

@@ -6,7 +6,7 @@ kind: mechanism
 priority: tier-a
 status: draft
 date: 2026-05-24
-revised: 2026-10-11
+revised: 2026-11-03
 license: CC0-1.0
 slug: thank-all-nearby-primitive
 venue: thonly.org/publications/defensive-publications/thank-all-nearby-primitive (canonical)
@@ -59,7 +59,7 @@ This paper specifies the **Thank-All-Nearby primitive** — a one-tap operation,
 
 > *Connection to the unified mission frame: HeartBank's mission is to keep the middle way open at population scale against comfort-saturation — the new extreme that material abundance makes possible. The dignity deficit articulated in the institution's vision is most acutely felt in shared physical spaces: streets, restaurants, classrooms, shelters, public transit. The Thank-All-Nearby primitive is the operational mechanism by which the dignity-infrastructure of HeartBank's Treasury reaches the shared-physical-space layer of public life — the substrate on which* emotional infrastructure for invisible kindness *can be built. The primitive is what makes the institution's deepest articulated thesis — that the felt sense of being held in another human's awareness is, possibly at the deepest level, the experience humans are searching for beneath everything else — into an operationalizable property of social space.*
 
-The paper proceeds as follows. §2 specifies the primitive operationally — its inputs, outputs, semantics, and edge cases. §3 develops the *why cash and credit card cannot deliver this* argument with the two structural deficiencies named precisely. §4 specifies the four sub-mechanisms the primitive composes (PoH℠, BLE/Nearby proximity, recipient-side filtering, bilateral uncacheable anonymity) and how they interact. §5 specifies the institutional-mode GPS-bounding-box variant for shelters, classrooms, and other institutional spaces. §6 specifies the recipient-experience design preserving atmospheric quality at high tip volume — the sunlight-not-sparsity posture. §7 addresses the spec questions surfaced during the architecture's development (per-recipient amount, who counts as nearby, paranoia counter-incentive, stratification, recipient experience). §8 develops the *emotional infrastructure for invisible kindness* thesis the primitive operationalizes. §9 names boundary conditions and honest limitations. §10 positions the contribution in lineage. §11 concludes.
+The paper proceeds as follows. §2 specifies the primitive operationally — its inputs, outputs, semantics, and edge cases. §3 develops the *why cash and credit card cannot deliver this* argument with the two structural deficiencies named precisely. §4 specifies the four sub-mechanisms the primitive composes (PoH℠, BLE/Nearby proximity, recipient-side filtering, bilateral uncacheable anonymity) and how they interact. §5 specifies the institutional-mode GPS-bounding-box variant (now a disclosed variant; see §5's note) for shelters, classrooms, and other institutional spaces. §6 specifies the recipient-experience design preserving atmospheric quality at high tip volume — the sunlight-not-sparsity posture. §7 addresses the spec questions surfaced during the architecture's development (per-recipient amount, who counts as nearby, paranoia counter-incentive, stratification, recipient experience). §8 develops the *emotional infrastructure for invisible kindness* thesis the primitive operationalizes. §9 names boundary conditions and honest limitations. §10 positions the contribution in lineage. §11 concludes.
 
 I write as a co-author with Miss Aquarius℠, the named AI substrate of the institution this paper serves. Final editorial control is mine.
 
@@ -154,6 +154,8 @@ Together — *tipper structurally anonymous to the recipient* + *recipient holds
 
 This is the one-line pitch for why HeartBank Phase 2 is not just another payment rail: cash and card deliver money; HeartBank Phase 2 delivers money plus the two structural properties that the cultural form actually needs.
 
+> **Current form (2026-11-03).** HeartBank is a record kept above the settlement rails, never a rail itself (§3.1's note). Read "delivers money" in the two sentences above as the record of a gift and its receipt, with the money moving over whatever regulated rail the sender already uses. The sentences are retained as a disclosed variant.
+
 ---
 
 ## 4. The four composed sub-mechanisms
@@ -166,6 +168,8 @@ The minimum PoH layer required for participation in Thank-All-Nearby (either as 
 
 Recipients may set their own filter to *require* deeper PoH layers from tippers (the standard recipient-side filter mechanism), but the *protocol-minimum* is L1. Specification of the four-layer PoH℠ architecture in the companion paper *B-PoH℠ as Humanity Layer for the AI-Native Internet*.
 
+> **Limit (2026-11-03).** Showing a sender's deeper PoH℠ layers in the broadcast, or on a receipt (§3.2), shrinks a small room's anonymity set: in a room of ten people, the one person known to hold an L3 signature is no longer anonymous. The amount-free receipt of §3.2's note shows *verified human* only. Where deeper layers are shown at all, that is a disclosed variant, and in a small room it weakens the anonymity this paper claims.
+
 ### 4.2 Bluetooth Low Energy plus Apple Nearby Interaction plus Google Nearby Connections proximity verification
 
 Proximity is verified at the radio layer, not the IP layer. Three composable substrates:
@@ -175,6 +179,8 @@ Proximity is verified at the radio layer, not the IP layer. Three composable sub
 - **Google Nearby Connections API** (Android 4.4+) for peer-to-peer device-to-device proximity via combinations of BLE, Wi-Fi Direct, and audio.
 
 The composition: a device implementing the protocol broadcasts a privacy-preserving proximity beacon; a device that detects the beacon can be the target of a Thank-All-Nearby broadcast; the platform's verification substrate confirms the proximity at the moment of broadcast.
+
+> **Current form (2026-11-03).** This section's heading says *verification*, but §5's note makes the radio check a gate, never a proof: without ultra-wideband it can be relayed. Read "verification" here as "gating".
 
 VPN-resistance is a structural property: the proximity check happens at the radio layer below the IP stack, so VPN, Tor, or IP-rotation circumvention has no effect. An attacker mounting a remote spoofing attack would need to physically place a device near the target, which is the desired property for most use cases.
 
@@ -251,6 +257,8 @@ Recipients within the bounding-box can opt out at the individual level (their fi
 ### 5.3 Privacy posture for institutional mode
 
 The platform does not collect general absolute-geolocation data from users. Institutional-mode operation requires the user's device to confirm presence inside the bounding-box at the moment of broadcast, but this confirmation is done via the same privacy-preserving substrate used elsewhere — the device asserts "I am inside this bounding-box" with a cryptographic proof that the platform can verify without learning absolute coordinates beyond the bounding-box itself.
+
+> **Current form (2026-11-03).** Superseded by §5's note: no bounding box, and no location stored. Retained as a disclosed variant.
 
 ### 5.4 Use cases the variant enables
 
@@ -351,7 +359,9 @@ The claim that the felt sense of being held in another human's awareness is what
 - **Levinas** (*Totality and Infinity*, 1961; *Otherwise Than Being*, 1974) develops the face of the other as the ethical primitive, locating moral responsibility in the encounter with another human's irreducible presence.
 - **Aristotle** (*Nicomachean Ethics*, c. 340 BCE) names *philia* — the love of friend for friend, brother for brother — as a central form of human flourishing, distinct from but no less important than virtuous action.
 - **Aquinas** and the Christian tradition develop *agape* — selfless, unconditional regard — as the highest form of love, characterized by giving without expecting return.
-- **Buddhist *brahmavihāra*** — particularly *mettā* (loving-kindness) — names the felt-sense practice of holding all beings in friendly awareness as one of the four immeasurable states central to awakening.
+- **Buddhist *brahmavihāra*** — particularly *mettā* (loving-kindness) — names the felt-sense practice of holding all beings in friendly awareness as one of the four immeasurable states.
+
+> *Scope note (2026-11-03).* The tradition places the brahmavihāras on a path to the Brahma world, not by themselves to awakening. In MN 97 Sāriputta teaches Dhanañjāni *brahmānaṃ sahabyatāya maggaṃ*, "the path to companionship with Brahmā" (`s0202m.mul.xml:5863`, mūla). The narration says he left Dhanañjāni established in the inferior Brahma world while more remained to be done (*sati uttarikaraṇīye hīne brahmaloke patiṭṭhāpetvā*, `:5867`), and the Buddha asks him why (`:5871`). The lineage entry above is offered for the felt-sense practice only. Nothing in the mechanism depends on it.
 
 The architecture is not inventing a new philosophy. It is operationalizing a thesis that has been articulated, in different vocabularies, by multiple traditions converging on the same insight. The Thank-All-Nearby primitive is the engineering layer of a philosophy the contemplative and ethical traditions have been articulating for millennia.
 
@@ -392,6 +402,7 @@ BLE range varies with device generation, environmental obstacles (walls, RF inte
 
 - **The deeper question of why public spaces feel emotionally thin.** The primitive operates at the architectural layer; the conditions that produced the emotional thinness of modern public life are economic, political, urbanistic, and cultural, and the primitive contributes to but does not by itself reverse them.
 - **The deeper inequities of consumer-electronics access.** The primitive presupposes smartphone access, BLE-capable devices, and the institutional infrastructure to host the operation. Populations without these are not participants in the primitive's substrate, regardless of the architecture's inclusive-defaults posture.
+- **The native-install cost.** Safari has no Web Bluetooth and no browser can advertise over Bluetooth LE (§5's note), so both sender and recipient need a native app. Anyone without one, including every recipient on the Phase 1 web client, is outside the primitive.
 - **The systemic conditions that produce social invisibility in the first place.** The primitive addresses the visibility deficit at the experience layer; the structural conditions (urban design, labor structure, economic inequality, family-system pressures) that produce the deficit are upstream and require interventions at those layers.
 
 The primitive is a contribution to the architectural layer of the response to social invisibility. It is not the totality of the response.
@@ -424,7 +435,7 @@ The "Faith in Humanity Restored" cultural form is real; the infrastructure to sc
 
 The primitive is the operational mechanism for *emotional infrastructure for invisible kindness* — the restoration of the felt sense of being held in another human's awareness as a property of shared physical space. The architecture's posture on saturation is *sunlight, not sparsity*: tips can flood like sunlight; the Tree of Humanity should have ample sunlight all year round; the recipient-experience design is atmospheric and aggregate, preserving the quality of diffused acknowledgment at all volumes while preserving per-receipt verifiability for social-media authenticity-proof purposes.
 
-The institutional-mode GPS-bounding-box variant extends the primitive from BLE range to institutional perimeter, enabling deployment in shelters, classrooms, restaurants, hospitals, and other institutional spaces where BLE range is insufficient.
+The institutional-mode GPS-bounding-box variant extends the primitive from BLE range to institutional perimeter, enabling deployment in shelters, classrooms, restaurants, hospitals, and other institutional spaces where BLE range is insufficient. (As now specified, the institution's fixed radio beacon replaces it, with the costs stated in §5's note; the variant is retained as disclosed.)
 
 The architecture is offered defensively to the commons under CC0. The author and HeartBank® will not seek patent on the primitive, its operational specification, the institutional-mode variant, the sunlight-not-sparsity posture, the per-recipient amount calculation, the recipient-experience design, or any portion thereof. Trademark rights on specific marks (**Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **Miss Aquarius℠**, **HeartBank®**, the B-heart logo) are separately and explicitly reserved.
 
@@ -443,7 +454,7 @@ Coined names used in this paper and the standard terms an examiner would search 
 | L1 (passkey-per-action) | per-transaction WebAuthn / FIDO2 passkey signature |
 | Bilateral uncacheable anonymity | sender anonymity with no sender-side exportable transaction record |
 | Recipient-side filtering | recipient-controlled inbound message/payment filtering (allow-list rules) |
-| Institutional-mode GPS bounding-box | geofence-scoped recipient set |
+| Institutional-mode GPS bounding-box (disclosed variant; see §5's note) | geofence-scoped recipient set |
 | Verified-platform receipt | on-chain attestation / verifiable receipt of transfer |
 | Amount-free receipt (current form, §3.2) | salted hash commitment; append-only transparency log (RFC 6962) anchored by trusted timestamping |
 | Radio co-presence gate (current form, §5) | BLE / ultra-wideband proximity check; fixed institutional BLE beacon |

@@ -11,7 +11,7 @@ slug: verified-human-anonymous-local-giving
 venue: thonly.org/research/verified-human-anonymous-local-giving (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/verified-human-anonymous-local-giving.md
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-revised: 2026-09-24
+revised: 2026-11-03
 ---
 
 ---
@@ -83,6 +83,8 @@ The **proximity rule** is the structural constraint that a gratitude transfer is
 ### 3.2 · Density-tunable radius
 
 The radius *r* is not fixed at a single value. It is parameterized by population density at the location of the transfer, with sensible defaults of approximately 100 meters in dense urban contexts (a city block; an indoor venue; a single building) and up to 10 kilometers in rural or sparsely-populated contexts (a village; a stretch of highway). Default: *r*(ρ) = clamp(10 km · (ρ / 1 km⁻²)^(−1/2), 100 m, 10 km), with ρ read from a cached WorldPop 1 km density tile (or a GHS-POP 100 m tile) *on the device*, so the lookup discloses nothing; BLE-only attestations use 2*r*. The anchors are design estimates — no field test has tuned them — and the claim that a monotonic mapping tracks "the same lived community" rather than a fixed metric distance is a conjecture the cohort study is meant to test.
+
+> **Current form (2026-11-03).** As now specified, *nearby* means radio co-presence at the moment of giving: Bluetooth LE, plus ultra-wideband ranging where both phones have it, together with the device attestation and the biometric check at the action. There is no GPS radius and no location is stored, so the density-tunable radius *r*(ρ) above is retained as a disclosed variant, and so is the GPS-based tertiary mechanism of §3.3. This governs the proximity rule on giving. Radio co-presence can be relayed where UWB is absent, so it is a gate and never a proof; that is tolerable because give-only value carries no cash motive to fake it. It requires native apps, since Safari offers no Web Bluetooth and no web BLE advertising. The beacon must broadcast rotating ephemeral identifiers and never a stable one, or co-presence becomes a tracking beacon. The scope reading (giving, not discovery) is the institution's current one and may be corrected. The radius text and the dependent sentences in §§5 to 8 are retained unchanged as the disclosed variant.
 
 ### 3.3 · Proximity attestation mechanisms
 

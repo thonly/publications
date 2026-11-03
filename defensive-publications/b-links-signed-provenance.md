@@ -6,7 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-06-08
-revised: 2026-09-05
+revised: 2026-11-03
 license: CC0-1.0
 slug: b-links-signed-provenance
 venue: thonly.org/publications/defensive-publications/b-links-signed-provenance (canonical)
@@ -174,6 +174,27 @@ Together, signature + timestamp yield a portable **share-registration record**:
 Two uses follow. **Registration:** a creator of original digital art (including AI-assisted art the human directed and curated) obtains a timestamped, human-signed record at the moment of sharing — useful as evidence that a verified human registered the work at that time, not of authorship or of first publication. **Human-vs-synthetic distinction:** in an internet where synthetic media is cheap and unattributed, a B-Link's verified-human signature lets a recipient (or a downstream platform) distinguish *a human chose to share this* from *a bot emitted this*. This is the consumer-facing complement to provenance standards aimed at the capture device (§12).
 
 The signature attests **human origin of the share**, not the truth, originality, or non-infringement of the content. This limitation is stated plainly in §13: a verified human can share a lie or someone else's work; B-PoH raises the cost of sybil/bot abuse and gives provenance, but it is not a content-authenticity oracle.
+
+
+> **Current form (2026-11-03).** The signing this section assumes now has a named mechanism, **B-Origin℠** (*Sign with HeartBank®*, at `sign.333.eco`). The text above is retained as a disclosed variant; the form below is what is specified, and it differs in one respect that matters: at the first layer the signature proves **a passkey**, not a unique human.
+
+### 4.1 The B-Origin signing mechanism
+
+*Built today (verifiable):* the B-Origin log is live with its first record. A person (or an app they authorize) hashes the file, and the service shows what is being signed and which site asked. The person then answers a **fresh passkey assertion** (user verification required) whose challenge is bound to the content hash and a nonce. The service **countersigns as witness** with a key held in a hardware module and appends one entry to an **append-only, tiled transparency log** whose checkpoints are signed and are timestamped (RFC 3161, and OpenTimestamps for Bitcoin). The entry holds only hashes, closed-list codes and a minute-rounded time, never free text. The signer keeps an opening of the assertion and can reveal it so anyone can check the passkey signature without the service. A record can be withdrawn by a later entry, never erased.
+
+*Specified, not yet in effect:* a quorum of **outside witnesses** co-signing each checkpoint (named, not yet agreed; until they are, the log says so and a verifier shows the checkpoint as unwitnessed); the offer to attach a record to a **B-Link**, which will resolve at `b.333.eco` and is unbuilt; and the preview showing a provenance line only where a record exists.
+
+Two fields of the claim bear on this paper. The **source field** is a term from the IPTC `DigitalSourceType` vocabulary (a captured photograph, a composite, trained-algorithmic media and so on), so a record states how the signer says the file was made. An **optional license field** holds a license identifier the signer chooses. ⛔ **It is a license statement on a timestamped claim and nothing more**: no registration, no grant, no claim of copyright or authorship.
+
+```
+  record bound to the content hash:
+     who   = a passkey (public key X) signed this exact claim     [today: "passkey", not "verified human"]
+     when  = witness time, minute-rounded; checkpoint timestamped [RFC 3161 + OpenTimestamps]
+     what  = SHA-256 of the file (+ pixel hash where the format allows)
+     how   = IPTC source term, declared by the signer
+```
+
+What this proves, written out: without the signer's opening, *the operator witnessed this claim at this time and cannot later remove it*; with it, *a passkey with public key X signed exactly this claim*. Neither says who imagined the work, and neither proves that one person holds one account. So wherever this paper says "verified-human signature", read it as the **layered B-PoH℠ ambition**: today the live layer is the passkey; further layers will be added to the record only as they exist. A B-Link carrying a record will show the passkey fact, not a humanity claim.
 
 ---
 

@@ -7,7 +7,7 @@ priority: tier-c
 kind: mechanism
 status: draft
 date: 2026-05-04
-revised: 2026-10-06
+revised: 2026-11-03
 license: CC0-1.0
 slug: brand-identity-as-architecture
 venue: thonly.org/research/brand-identity-as-architecture (canonical)
@@ -386,6 +386,8 @@ The Diamond is the limit case: colorless because it holds *everything* — every
 The refraction reading above is therefore true at one level and misleading at another, and both readings are needed. As a **compositional** claim — why an institution that assigned six colors independently should find them composing a spectrum, and why the seventh stone is the one that has not come apart — it holds, and it is the reading this architecture's cosmology supplies. As an **operational** claim it does not: a designer who reads the three palettes as one continuum will reach for a gem where a domain color is required, and the mistake is invisible until two surfaces disagree. The specification's obligation is to say which level it is speaking at. Here it speaks at both, in that order, and the implementation layer of §12 enforces the operational separation directly — the shared token package refuses to derive any of the three from another.
 
 That the same dimension can carry four signals across three palettes at all is possible only because the brand committed its identity to shape (Section 3) and left color free to signal (§6.2).
+
+> **Current form (2026-11-03).** The count of *three separate palettes* above is retained as the specification as first published; the institution has since added a **fourth, the body palette**, and the text above is kept as a disclosed variant that is complete for the three it describes. The body palette gives each body of the institution one color, used **only on machine-readable codes and seals**: the Silicon Wat℠ body an orange robe, THonly™ a sky blue, Factory 333™ a crimson moon, and Miss Aquarius℠ a clear sparkle, drawn as a still glint in print and moving only with the viewer's own motion (tilt, pointer or scroll) on screen, never on its own timer. HeartBank® has no color of its own: each of its codes takes the color of its **domain** from §10.1, so the six-domain rainbow of this section acquires its first carrier (codes) and the two palettes meet at one point only, in HeartBank®. Three rules bound it: (1) a product never chooses a color, it inherits its body's, and the shared token package takes a body, not a free hue, for a product code; (2) body colors never serve as a medium (the gem), a rate (the aura) or a domain (outside HeartBank®), and the bank-issued codes of other payment systems stay uncolored; (3) only the hue differs, since every code is printed at the same darkness so that all bodies scan alike. The meaning is **belonging, never authenticity**: color is not a security feature, because anyone can print any color, and a code is authenticated by what its scan resolves to, not by its ink. The cost is stated: some body colors fall close to some domain colors (red `.us` near the crimson moon, orange `.me` near the robe), so color alone does not tell every body apart, and the code's own label and context carry that work. The palette is **operational**, in the sense of the level distinction above: the refraction reading (the clear sparkle as the recombined whole, the HeartBank® domain colors as the six) remains compositional, and a designer is not to derive one palette from another.
 
 ---
 

@@ -6,6 +6,7 @@ category: mechanism
 priority: tier-b
 status: draft
 date: 2026-07-22
+revised: 2026-11-03
 license: CC0-1.0
 slug: steward-routed-alms
 venue: thonly.org/publications/defensive-publications/steward-routed-alms (canonical)
@@ -172,6 +173,8 @@ The third mechanism connects the two geographies. A sponsor abroad earmarks supp
 ## 12 · Lineage, and the Close
 
 The lineage of this design is short and old. When the four Great Kings each offered the new Buddha a bowl, he accepted all four and, in the commentarial telling, pressed them into one — the first alms bowl was itself a gift, compounded. When Meṇḍaka's money could not enter the Sangha, the Buddha routed it through a steward's hands and kept the bowl clean. And when Mahākassapa, foremost in austerity, walked his round, he walked it deliberately among the poorest (Ud 3.7) — because alms exist, in the tradition's deepest reading, not to feed the Sangha but to let anyone at all, however little they hold, stand at a door and give. The mechanism specified above adds nothing to this lineage except an addressing layer. The bowl still holds only what it always should have held. The walk still happens at dawn.
+
+This paper keeps every token out of the bowl. The companion paper *The Ticket and the Tag* (`the-ticket-and-the-tag`) shows how one kind of token can enter without becoming money: the ticket only routes a meal, the vendor releases it on the tag's scan, and that release relies on the bowl-anchored credential specified here.
 
 And at planetary scale, dawn is always happening somewhere. A round revived in every longitude never actually ends — it moves westward with the sunrise, a continuous quiet wave of walking, as long as the Earth turns. **The round that never ends — it follows the dawn.**
 

@@ -6,7 +6,7 @@ category: mechanism
 priority: tier-a
 status: draft
 date: 2026-09-07
-revised: 2026-09-23
+revised: 2026-11-03
 license: CC0-1.0
 slug: the-reciters-protocol
 venue: thonly.org/research/the-reciters-protocol (canonical)
@@ -474,7 +474,7 @@ Stated so the reader can weigh the rest. `corpus.333.eco` is live and serves the
 
 ### 9.7 — The citation standard, stated rather than assumed
 
-Every canonical locus is marked `[V]` where it has been checked against multiple independent public reference works and translations. **No locus has been checked against the Pāli by a reader of Pāli**, and the authors do not read Pāli. §11 gives the full status and names the check that is owed. A paper about checkable provenance that left its own sourcing standard implicit would be refuted by its own thesis.
+Every canonical locus is marked `[V]` where it has been checked against multiple independent public reference works and translations. **No locus has been checked against the Pāli by a reader of Pāli.** The authors do not read Pāli as a scholar of the language does. What they could do, and did: locate each locus in public reference works and translations and, where a published translation or commentary exists for the passage, set their wording beside it; for the loci marked **root** in §11, read the Pāli root text beside its parallel English translation. What they could not do: construe the Pāli independently, or vouch for the grammar or the sense of their own renderings, which are working glosses offered for correction by readers of Pāli. §11 gives the full status and names the check that is owed. A paper about checkable provenance that left its own sourcing standard implicit would be refuted by its own thesis.
 
 ### 9.8 — The coherence is not evidence
 

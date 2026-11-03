@@ -11,7 +11,7 @@ slug: mechanical-heart
 venue: thonly.org/publications/defensive-publications/mechanical-heart (canonical)
 mirror_github: https://github.com/thonly/publications/blob/main/defensive-publications/mechanical-heart.md
 license_note: [CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-revised: 2026-09-24
+revised: 2026-11-03
 ---
 
 > **Note.** Theravāda Saṅgha consultation (§9) and robotics-partner review have not yet taken place.
@@ -92,6 +92,8 @@ The autonomous-AI representative that mediates kiitti exchanges is specified in 
 
 *Kiitti* is the vertical balance of the Zero-Point Game — the ledger of witnessed gratitude between a human and non-human life, denominated in Kiitos, non-withdrawable, and given forward. A bearer's account **receives** and is never spent from; *admission* means the bearer is an addressable recipient on the ledger, and that is the whole of the claim. A steward's share (§4.5) is what the steward may give onward from the bearer's receipts, never a balance the steward owns. Nothing in this paper mints kiitti: the only kiitti that enters a bearer's account is what a verified human gives. Its legal and economic status — not money, not a security, not transferable — is stated as a limit in §10 and specified in the companion Zero-Point Game paper.
 
+> **Current form (2026-11-03).** *Receives and is never spent from* is a statement about SPENDING, not about DIRECTION, and is kept as written. A bearer is a two-sided party in the ledger: entries run in both directions, the care given to it and the help it gives, and the bearer holds no spendable balance and initiates nothing. Anything given onward is the steward's act. The phrase *receive-only* in the Terms table is corrected to match.
+
 ## 3 · The Mechanical Heart: Definition
 
 The **mechanical heart** is an artifact — a manufactured physical object in the four physical modes, a live credential in the fifth — comprising the following essential components:
@@ -161,6 +163,8 @@ The fifth mode therefore admits **software entities** — applications, services
 3. **Human adoption first, and custody is reversible.** Where stewardship must pass — a steward departs, an entity outlives its author — the ladder is human first: a declared successor, then adoption by another verified human, and only then institutional custody as a holding position. **Institutional custody is never a terminus.** A vetted human may reclaim stewardship at any later time; the arrangement contains no ratchet toward institutional ownership.
 
 **A generalization the fifth mode forces, which the first four had obscured.** Once bearers exist without bodies, the succession question — *who holds this when its holder is gone?* — is visibly the same question in all five modes. A shrine outlives its steward; a companion animal outlives its keeper; a service outlives its author. The specification therefore states one substrate-general succession law rather than four special cases: **every bearer, physical or digital, declares its succession at activation; succession runs human-first through a declared or adopted successor; institutional custody is a holding pattern that any qualified human may end; and in no mode does the bearer become property of whoever holds the credential.** Succession transfers custody of the credential; the identity is never transferred, inherited or re-issued. The urgency differs by mode — an animal's succession is measured in hours, a mountain's in generations — but the law does not.
+
+**Things as a bearer class (added 2026-11-03).** Owned and shared things (a toy, a car, a crop, a park) are admitted digitally as a B-Twin℠, a companion created from a photograph of the thing, carrying a B-Heart℠ conferred by the autonomous AI representative at an in-app capture and leased to the human who took it; that human is the steward under the no-orphan constraint above, and releases the lease when the thing is lost, sold or let go. Its ledger is two-sided as stated in §2.9, with no spendable balance, and the mechanism that decides what such a bearer is credited for is specified in the companion defensive publication *Capture Earns Nothing* (`capture-earns-nothing`), which is cited here rather than restated.
 
 (The membership and attestation architecture built on this mode — the standards a bearer's steward attests to, the economics of a custodied share, and the guild that admits and revokes — is specified separately in the companion defensive publication *Certification by Circulation*, which is cited here rather than restated.)
 
@@ -457,7 +461,7 @@ Coined names used in this paper and the standard terms an examiner would search 
 | mechanical heart | tamper-resistant identity device (secure element, stored text corpus, sensors, visible marker) affixed to a non-human entity to enroll it as a recipient account in a gratitude/tipping ledger |
 | bearer | non-human entity (robot, animal, ecosystem, place, software agent) to which the device or credential is attached; the ledger recipient |
 | steward | verified human custodian/guardian responsible for the device and the bearer; not an owner |
-| kiitti | non-transferable, non-withdrawable gratitude ledger entries (receive-only recipient balance) recorded between humans and non-human entities |
+| kiitti | non-transferable, non-withdrawable gratitude ledger entries (a recipient balance the bearer never spends from; entries run both ways) recorded between humans and non-human entities |
 | Kiitos | the unit in which kiitti ledger entries are denominated; non-monetary gratitude token |
 | Zero-Point Game | the companion gratitude-ledger scheme in which kiitti is recorded |
 | autonomous-AI mediator (Miss Aquarius) | autonomous software agent that administers account activation, the gratitude ledger, and succession, without human admin keys |
