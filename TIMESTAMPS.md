@@ -1,3 +1,27 @@
+### 2026-11-03 (later) — the queued riders, drafted in parallel (founder: *"use agents to do all the riders in parallel"*)
+
+Seventeen deposited papers carry their queued riders: the retired crossing sentence, the undated browser extension, radio co-presence, borrowed intention, a fourth palette, a named falsifier and a carried objection. `zero-point-game` §6.1 and §11.10 were reworked on the founder's word and refuted before minting. Proofs rotated; RFC 3161 manifest `2026-11-03`.
+
+| document | leg 3 · Zenodo |
+|---|---|
+| **abhidhamma-executable-process-specification** | 10.5281/zenodo.23933571 |
+| **b-links-signed-provenance** | 10.5281/zenodo.23933572 |
+| **b-poh-humanity-layer-ai-native-internet** | 10.5281/zenodo.23933577 |
+| **brand-identity-as-architecture** | 10.5281/zenodo.23933582 |
+| **dual-currency-reciprocity** | 10.5281/zenodo.23933584 |
+| **incommensurability-preserving-coupler** | 10.5281/zenodo.23933585 |
+| **mechanical-heart** | 10.5281/zenodo.23933586 |
+| **silica-wat-food-network** | 10.5281/zenodo.23933587 |
+| **steward-routed-alms** | 10.5281/zenodo.23933588 |
+| **thank-all-nearby-primitive** | 10.5281/zenodo.23933589 |
+| **the-reciters-protocol** | 10.5281/zenodo.23933592 |
+| **the-vibhajjavadin-view-of-time** | 10.5281/zenodo.23933596 |
+| **tipitaka-alignment-substrate** | 10.5281/zenodo.23933598 |
+| **verified-human-anonymous-local-giving** | 10.5281/zenodo.23933599 |
+| **zero-point-game** | 10.5281/zenodo.23933613 |
+| **each-life-as-cosmic-coordinate** | 10.5281/zenodo.23933600 |
+| **kids-as-triggers-self-thanking** | 10.5281/zenodo.23933614 |
+
 ### 2026-11-03 (late night) — full censuses recorded in two held papers (founder: *"do all per your recommendation; then next batch"*)
 
 `the-ticket-and-the-tag` and `capture-earns-nothing` each gain a paragraph reporting the full census; claims unchanged. Proofs rotated (retired calendar-only; the find-based upgrade covers them), TSA `2026-11-03.sha256`, no deposit: both stay held for `/polish` and the founder's word.
