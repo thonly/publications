@@ -316,12 +316,12 @@
  },
  "four-body-architecture": {
   "concept_doi": "10.5281/zenodo.21947323",
-  "deposition_id": 23167704,
-  "doi": "10.5281/zenodo.23167704",
+  "deposition_id": 23929975,
+  "doi": "10.5281/zenodo.23929975",
   "published": true,
   "sandbox": false,
-  "sha256": "57654d3801b4fb31a4afa9e962d0e29aa03cc5deea99c3999af106206df0dc04",
-  "url": "https://zenodo.org/records/23167704"
+  "sha256": "447d1a171645da2ab66ec95083132918d8e7634ce02d7d0b5b992eda950dfda0",
+  "url": "https://zenodo.org/records/23929975"
  },
  "four-elements-as-breadth-check": {
   "concept_doi": "10.5281/zenodo.22736257",
@@ -820,12 +820,12 @@
  },
  "the-unpaid-relay": {
   "concept_doi": "10.5281/zenodo.22313927",
-  "deposition_id": 23039771,
-  "doi": "10.5281/zenodo.23039771",
+  "deposition_id": 23929980,
+  "doi": "10.5281/zenodo.23929980",
   "published": true,
   "sandbox": false,
-  "sha256": "29a68532335f3093106fc5c5133b373d3c13debc95a240209c07e375ca6fa5ad",
-  "url": "https://zenodo.org/records/23039771"
+  "sha256": "6357eb80a6f65b8cd620e5743bd4d7301af1567cd10ba0d5f1502df0ac730d12",
+  "url": "https://zenodo.org/records/23929980"
  },
  "the-vibhajjavadin-view-of-time": {
   "concept_doi": "10.5281/zenodo.23020015",

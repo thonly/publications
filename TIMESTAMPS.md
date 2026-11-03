@@ -1,3 +1,17 @@
+### 2026-11-03 (later) — the drafter batch: three new papers, first push, deposits held; two revisions (founder: *"yes"*, batch of six)
+
+Refuters ran first on four of the six; Nos. 5 and 6 rest on the refuter reports of their runs. `four-body-architecture` §10.7 is written as *consistent with* (founder 11:20 PST); `the-unpaid-relay` adds §3.4, §6.1 and claim 15, so a second TDCommons submission is owed. Leg 3 ran `--only` per paper, since the dry run also listed four papers as *new*, all held.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **four-body-architecture** | `.ots` → `.r5.ots` (Bitcoin-complete); new, calendar-only | `2026-11-03.sha256` | 10.5281/zenodo.23929975 *(new version)* | 2.5.53 |
+| **the-unpaid-relay** | `.ots` → `.r4.ots` (Bitcoin-complete); new, calendar-only | `2026-11-03.sha256` | 10.5281/zenodo.23929980 *(new version)* | 2.5.53 |
+| **where-the-manual-adds-a-reading** *(new)* | new, calendar-only | `2026-11-03.sha256` | ⏸ held (literature census, hostile Pāli reader) | ⏸ held |
+| **once-sunk-always-sunk** *(new)* | new, calendar-only | `2026-11-03.sha256` | ⏸ held (literature census, hostile Pāli reader) | ⏸ held |
+| **the-mirrored-singularities** *(new, essay)* | new, calendar-only | `2026-11-03.sha256` | ⏸ held (`/polish`, founder pass) | ⏸ held |
+
+Modules: `the-unpaid-relay` regenerated (ids 18 → 18, `doi.org` 1 → 1, links 19 → 19). `four-body-architecture` is hand-authored, so §10.7 was hand-inserted (ids identical, 26; `doi.org` 2 → 2).
+
 ### 2026-11-03 — abhidhamma-and-discrete-quantum-gravity: the continuum-bridge revision; the-body-is-the-lab: first push, deposit held (founder: *"do all per your recommendation"*)
 
 The revision corrects §4.2 (a sub-commentary makes the kalāpa = *paramāṇu* identification, Ledi Sayadaw declines it) and adds findings 6–8, §2's note on continuity, §4.8 and §5.4's conditional bound. ⚠️ The queue's "≈2×10²" belongs to the "49" read as an equality by volume, not to the *Mahāṭīkā*'s identity (≈870–1,280 against 34 fm); §4.8's table separates them. The dry run also listed `capture-earns-nothing` and `the-ticket-and-the-tag` as *new* (both held), so leg 3 ran `--only`. The essay carries `zenodo: true` and is held from the index until its model round.
