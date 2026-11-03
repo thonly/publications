@@ -1,0 +1,24 @@
+TDCOMMONS SUBMISSION PACKET — SECOND SUBMISSION (new findings 6–8) — built 2026-11-03; founder: "do for me"
+═══════════════════════════════════════════════════════════════════════
+WHY A SECOND SUBMISSION
+  The first posting (submitted 2026-10-06, posted 2026-10-08, https://www.tdcommons.org/dpubs_series/12057) carries
+  findings 1–5. Commit 5c19c26 (2026-11-03) added findings 6–8, §2's continuity note, §4.8 and §5.4's bound: new
+  matter, so by §the-mirror-revision-rule a second posting is owed. Not a re-submission: the first posting stays.
+
+TITLE
+Discreteness, Adjacency and Order: A Structural Comparison of the Theravāda Abhidhamma with Causal Sets and Loop Quantum Gravity — Continuity as Designation, the Smallest Material Cluster Against Nuclear Scattering, and a Conditional Time Bound from the Z Boson Width
+  (Paper title + standard-term subtitle naming the new matter; no mark in the added part. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK
+
+LICENCE    Creative Commons Attribution 4.0
+
+ABSTRACT   (239 words; condensed from the paper's Abstract and finding 8 by deletion; no new matter)
+This study compares the Theravāda Buddhist Abhidhamma with two discrete approaches to quantum gravity, causal set theory and loop quantum gravity, as formal structures, on three axes: order, adjacency and ratio. No row predicts a measurement, and none says that a Buddhist text anticipated a theory of quantum gravity. On order, the twenty-four conditioning relations of the Paṭṭhāna, taken whole, are not a partial order. On adjacency, the strongest row, a spin-network link is the face two neighboring grains of space share and carries a quantized area, while a Theravāda sub-commentary defines space as the non-mixing of touching neighboring material clusters (kalāpa). The features specific to loop quantum gravity, a quantized magnitude and a volume derived from it, are the ones that fail. On ratio, only the generic part survives: a duration stated as a count of steps. Continuity, magnitude and number fall among designations for mind and matter alike on one reported method of the teachers, and the rows about mind alone constrain no matter. The one textual size for a kalāpa, read as a metric size and carried to external matter, collides with nuclear structure by count and by size; Ledi Sayadaw's reading of the same line escapes the collision and leaves matter no grain of extent. If a Z boson were a series of pure octads, which is this paper's supposition, its measured width would put one sub-moment at or below about 2.6 × 10⁻²⁵ seconds.
+
+HASHES     (NFC, SHA-256)
+  title    671010062bf638a9b398ab78c82f320b91b7b6fd8c49c256f7b4a2db4db2eb77
+  abstract ac308deac9b4d94fd2b0bc9e4898ca2aad97226025ae54503ecd327e9a38ac8a
