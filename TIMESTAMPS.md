@@ -1,3 +1,14 @@
+### 2026-11-03 — abhidhamma-and-discrete-quantum-gravity: the continuum-bridge revision; the-body-is-the-lab: first push, deposit held (founder: *"do all per your recommendation"*)
+
+The revision corrects §4.2 (a sub-commentary makes the kalāpa = *paramāṇu* identification, Ledi Sayadaw declines it) and adds findings 6–8, §2's note on continuity, §4.8 and §5.4's conditional bound. ⚠️ The queue's "≈2×10²" belongs to the "49" read as an equality by volume, not to the *Mahāṭīkā*'s identity (≈870–1,280 against 34 fm); §4.8's table separates them. The dry run also listed `capture-earns-nothing` and `the-ticket-and-the-tag` as *new* (both held), so leg 3 ran `--only`. The essay carries `zenodo: true` and is held from the index until its model round.
+
+| document | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| **abhidhamma-and-discrete-quantum-gravity** | `.ots` → `.r5.ots` (Bitcoin-complete); new `4112c169dce4…` *(calendar-only at stamping)* | `2026-11-03.sha256` | 10.5281/zenodo.23928020 *(new version)* | 2.5.51 |
+| **the-body-is-the-lab** *(new, essay)* | new `d0abab18356c…` *(calendar-only at stamping)* | `2026-11-03.sha256` (second run) | ⏸ held for `/polish` | ⏸ held |
+
+Site module for the revision regenerated, thonly.org `7760411`: ids identical (22), `doi.org` 2 → 2, links 33 → 33, word multiset complete (only replaced words lost).
+
 ### 2026-10-26 — the prediction register: P-BO1 to P-BO5, B-Origin℠ (founder: *"Yes, as drafted"*)
 
 Five rows in Chapter I beside P-LP and a Revisions entry; total 130 → 135, reconciled by the index build (135 counted vs 135 stated). Registered **before
