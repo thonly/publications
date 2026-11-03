@@ -6,7 +6,7 @@ kind: mechanism
 priority: tier-b
 status: draft
 date: 2026-06-24
-revised: 2026-10-01
+revised: 2026-11-03
 license: CC0-1.0
 slug: manufactured-universal-giving
 venue: thonly.org/publications/defensive-publications/manufactured-universal-giving (canonical)
@@ -69,6 +69,8 @@ This document and its contents — the composition of anonymous-proximity giving
 **What is and is not asserted.** The integrated specification — verified-human anonymous proximity giving **plus** broadcast-to-all-present **plus** AI capacity-funding without disbursement authority **plus** forced annual human-to-human flow-through, composed so as to manufacture universal giving capacity as an emergent property — is disclosed here as a unified mechanism so that it stands as prior art. No prior-art census was run on that four-primitive composition as a whole, and the authors assert no priority for it; the one census on record covers the in-kind extension and is reported below. The component primitives are individually disclosed in companion papers; this paper discloses the *whole* and the emergent claim, which the parts do not establish.
 
 **Nearest prior practice for the universalizer.** A dated giving obligation borne by nearly everyone is old. The fast-breaking alms at the end of Ramadan (*zakat al-fitr*) is required of every Muslim with the means to pay it — one uniform measure of staple food per household member — and is owed before the Eid prayer on a fixed day each year [18]. It makes giving near-universal by obligation on the giver's own means. The design disclosed here differs in what the obligation attaches to: capacity that a fund placed with the participant, that has no exit into the participant's own balance, and that returns to the fund when it is not given, rather than anything exacted from what the participant owns (§3.1, §3.3). The recognition that a dated obligation universalizes giving is therefore not claimed on its own.
+
+**Against a food benefit.** A means-tested food benefit seats the eligible as recipients; this design gives every verified human **a floor of the capacity to give food**: one equal floor to each person's own Re-Thank Fund℠, part delivered as food through B-ReGift℠ and the rest as money. Where a purpose restriction of that kind holds and where it stops is argued in *The Unpaid Relay* §6.1.
 
 **Prior-art census on the in-kind extension (§2.4), reported in full.** Before the 2026-09-23 revision a census was pre-registered in the authors' own, unpublished records (6 September 2026, before any query) and run the same night: a desk survey of eight web queries over marketing copy, news reports and patents, US-indexed, documented practice only — not fieldwork and not exhaustive. It tested whether a gift instrument exists in which all four of the following hold: **(a)** the payer is an institutional treasury operated by rule and anonymous to every party; **(b)** the instrument is passable but not redeemable by its holder, and is re-addressed to a new holder on lapse; **(c)** recipients and vendors are chosen equal-yet-random over committed rosters; **(d)** the vendor is thanked in give-only capacity rather than paid in money. Results, conjunct by conjunct:
 
@@ -363,7 +365,7 @@ An operator maximizing **profit** sets `P′(p) = 0`: the seed is a cost, and at
    dC/dp = v · N′(p) · g  <  0
 ```
 
-which is negative for every `g > 0`. **The circulation-maximizing price therefore lies strictly below the profit-maximizing price**, and the gap is proportional to `g`. As intrinsic giving rises, the two objectives diverge further, and the operator that is actually maximizing circulation is pushed down the price curve and *off* the subsidy at the same time — because each additional participant now brings their own `g` rather than needing seed.
+which is negative for every `g > 0`. **The circulation-maximizing price therefore lies strictly below the profit-maximizing price**, and the gap is proportional to `g`. As intrinsic giving rises, the two objectives diverge further, and the operator that is actually maximizing circulation is pushed down the price curve and *off* the subsidy at the same time — because each additional participant now brings their own `g` rather than needing seed. (That last step is asserted, not derived: the inequality above moves the price, and nothing in it shows the seed falling to zero. A model that derived it would have to specify how `P(p)` responds as `g` rises.)
 
 **So subsidy → 0 stops being a virtue the institution promises and becomes an equilibrium its objective selects.** The claim of §5.3 survives an operator who abandons the promise; it does not survive an operator who abandons the objective, which is a narrower and more honest exposure.
 
