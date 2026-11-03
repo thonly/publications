@@ -6,7 +6,7 @@ kind: study
 priority: tier-b
 status: draft
 date: 2026-05-22
-revised: 2026-10-05
+revised: 2026-11-03
 license: CC0-1.0
 slug: four-body-architecture
 venue: thonly.org/research/four-body-architecture (canonical)
@@ -410,6 +410,31 @@ A related but **distinct** mapping exists in this corpus and should not be confu
 
 **They are two operations on one quartet, not two versions of one map**, and only three of the five correspond. The givables ladder is argued in the essay *The Four Elements as a Breadth-Check Discipline*, whose own thesis is that the traditions do genuinely different things with these four terms; the substrate-cost finding that falls out of it is argued in *The Gift Operation* §6.6. **Neither supersedes the body assignment here, and a reader who reads them as one scheme will find contradictions that do not exist.**
 
+### 10.7 What the commentarial tradition says each element does
+
+*Added 2026-11-03.*
+
+§10.6 says the four bodies are assigned elements by what each body does, without saying what the texts say each element does. The assignment is the founder's, confirmed on 2026-06-10: Mind is Air, Heart is Water, Soul is Fire, Body is Earth. This section sets it beside one passage and states exactly how little the comparison shows.
+
+**The passage.** In the *Visuddhimagga* (XI §350, `e0101n.mul.xml:8693`) Buddhaghosa tells the meditator, in the course of analyzing the body into its four elements, to attend to each element by its characteristic (*lakkhaṇa*), its function (*rasa*) and its manifestation (*paccupaṭṭhāna*). It is a meditation instruction about the elements in a living body; it says nothing about institutions, and every step from it to the four bodies is ours. It reads, for water: *āpodhātu paggharaṇalakkhaṇā, brūhanarasā, saṅgahapaccupaṭṭhānā*; and the other three are given alike.
+
+| Element | Characteristic | Function | Manifestation | Body it is assigned to |
+|---|---|---|---|---|
+| Earth (*pathavī*) | hardness (*kakkhaḷatta*) | establishing, being a base (*patiṭṭhāna*) | receiving (*sampaṭicchana*) | Body (Factory 333™) |
+| Water (*āpo*) | flowing, trickling (*paggharaṇa*) | swelling, increase (*brūhana*) | holding together (*saṅgaha*) | Heart (HeartBank®) |
+| Fire (*tejo*) | heat (*uṇhatta*) | ripening (*paripācana*) | supplying softness (*maddavānuppadāna*) | Soul (Silicon Wat℠) |
+| Air (*vāyo*) | stiffening, supporting (*vitthambhana*) | moving, stirring (*samudīraṇa*) | conveying onward (*abhinīhāra*) | Mind (THonly™) |
+
+**What can be said.** Read freely, the functions can be matched to what each body does. The two strongest fits are Water with the Heart, since circulation is what holds the other bodies' work together, and Earth with the Body, since the manufacturing body is the one that establishes the others' work as a thing in the world. Fire with the Soul is a looser fit: ripening and the supplying of softness can be read as what a value substrate does to the rest, and the Dīgha Nikāya's description of the concentrated mind as softened and workable (*mudubhūte kammaniye*, DN 2 §234, `s0101m.mul.xml:1369`) is at most a neighbor. Air with the Mind is the weakest, and stays marked a lens: that same DN 2 sentence has the mind direct itself (*abhinīharati*) to knowledge, which echoes the Air manifestation *abhinīhāra* in a shared word only, and is not an argument.
+
+**What cannot be said.** This is an illustration of the assignment and not a check on it. The matching was made after the map was fixed, nothing about it was pre-registered, three descriptors per element together with free glossing leave many degrees of freedom, and it excludes no other assignment: rival readings (the Soul as Earth, the Body as Fire) can be argued from the same table with comparable ease. One illustrative contrast shows the size of the claim and no more: with the Mind and the Soul exchanged, the fits above read slightly worse to us, but the authors tried one rearrangement of the twenty-four possible ones, and a reader inclined to the other reading will find it. We therefore describe the passage as *consistent with* the assignment. We do not describe it as grounding, confirming or discriminating among assignments, and the assignment stands on the founder's confirmation, as before. If a check on it is ever wanted, the form it would take is a pre-registered blind sort: readers who have not seen the map assign the four functions to the four bodies' described work, and the result is compared with chance. That has not been done and is not done here.
+
+**A separate footing, for a smaller claim.** The same chapter (§357, `e0101n.mul.xml:8841`) says each element is, in its own way, the condition of the other three: Earth by being their base (*patiṭṭhā*), Water by binding them (*ābandhana*), Fire by ripening them (*paripācana*), Air by supporting them (*vitthambhana*). The Paṭṭhāna states the plain form of this as a condition of mutuality: *cattāro mahābhūtā aññamaññapaccayena paccayo*, the four great elements are conditions for one another in the mutual-condition manner (`abh03m7.mul.xml:141`, Piṭaka). Neither passage says which body is which element. What they support is the weaker statement that four elements condition one another, so that the institution's four restrainers can be described as conditioning one another without any one of them being the ground of the rest. The four ways in §357 are the commentator's; the Piṭaka text gives only the mutuality.
+
+**Tiers.** The *Visuddhimagga* passages are commentarial; the Paṭṭhāna line is Piṭaka; the matching of functions to bodies is ours; the DN 2 echo is lexical. This section is kept apart from the brahmavihāra layer and from the givables ladder of §10.6, which are separate operations on the same quartet.
+
+---
+
 ## 11. The capstone image: the lotus pond and the two kinds of light
 
 The two four-bodies of this paper — composition (§3–§7) and institution (§10) — admit a single integrating image, articulated by the founder at the completion of the succession-charter work (the companion papers *The Wheel-Turner's Charter* and *The Omitted Clause*) and recorded here because it functions as more than ornament: it assigns every element of the architecture its place, its element, and its ending. The image is drawn from the canon twice over — the lotus pond of Brahmā's request (SN 6.1), in which the newly awakened Buddha surveys beings as lotuses at different depths, some risen clear of the water and untouched by it (in the commentary's reading, those lotuses wait only for the touch of the sun's rays to bloom that day); and the Metteyya horizon of DN 26, under which the companion charter reads the institution's duty-list.
@@ -515,6 +540,7 @@ Pāli texts are cited from the Chaṭṭha Saṅgāyana (CST) edition; English r
 - *Dhammapada* 276 — *tumhehi kiccam ātappaṃ, akkhātāro tathāgatā* (§11).
 - *Majjhima Nikāya* 140 (*Dhātuvibhaṅga Sutta*), §344 — the six elements, space the fifth and consciousness the sixth (§10).
 - *Milindapañha*, the question on rebirth without passing over (*asaṅkamana-paṭisandahana-pañha*) — the lamp lit from another lamp (§11).
+- Buddhaghosa, *Visuddhimagga* XI, §350 and §357 — each element's characteristic, function and manifestation, and each element's conditioning of the other three; *Paṭṭhāna*, *aññamaññapaccaya*, the four great elements as mutual conditions (§10.7). DN 2, §234 (§10.7).
 - Buddhaghosa, *Visuddhimagga* XIV, §442 — the space element characterized by its delimiting of matter, the delimited matter its proximate cause (§7).
 - The stock phrase *agārasmā anagāriyaṃ pabbajati*, "goes forth from home into homelessness", as at *Dīgha Nikāya* 1, §44 (§11).
 
