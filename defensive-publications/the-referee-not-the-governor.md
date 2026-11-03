@@ -6,7 +6,7 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-08-26
-revised: 2026-09-24
+revised: 2026-11-03
 license: CC0-1.0
 slug: the-referee-not-the-governor
 venue: thonly.org/research/the-referee-not-the-governor (canonical)
@@ -44,6 +44,8 @@ This document constitutes a defensive publication establishing **prior art as of
 
 1. **The openness inversion, stated as a design principle** — the finding that publishing the weights of a values model **destroys** its utility in a filtering posture (because the published artifact is the oracle against which inputs are optimized) while **increasing** its utility in an evaluating posture (because the published artifact is what makes a third party's verdicts reproducible), such that *openness is not a single property with a single sign but a property whose sign is determined by deployment posture*. The corollary claim: **a values artifact intended to be open should be designed as an evaluator from the outset**, because the filtering posture it would otherwise occupy is not merely weakened but structurally unavailable to it *as a defence* — a published filter may be kept only as a speed bump whose bypass is recorded by the referee, never as the thing that holds. Stated as a design principle: argued, not measured.
 
+   > **Current form (2026-11-03).** The referee half of this claim is narrowed. Publication does not defeat the referee as it defeats a filter, and it makes every *positive* finding reproducible; but it also gives the judged party the evaluator as a training and tuning target, so a *negative or empty* result (no violation found, no judgment) is weaker evidence than the sentence above implies (§4.1). The earlier wording, that publication "increases" the evaluating posture's utility without qualification, is retained as a disclosed variant: it is true of reproducibility and false of robustness to an adaptive judged party.
+
 2. **Provenance-binding as the constitutive constraint on a values model** — a values model whose every emitted judgment is required to resolve to a **citation into a fixed, externally-attested canonical corpus** (work, edition, locus, and transmission lineage), such that a judgment which cannot be so resolved is **not emitted at all** rather than emitted with low confidence — the abstention form of attributed generation (ALCE; Attribute-or-Abstain) with a fixed external corpus and a prohibition on judgment outside it; and the consequent deliberate acceptance of **reduced coverage in exchange for auditability**, the model being permitted to return *no judgment* over a large fraction of inputs.
 
 3. **The three-relation deployment schema for a single values artifact** — the specification that one artifact — the same model lineage, the referee at its current version — bears **three distinct and non-interchangeable relations** to the systems it judges, selected by *carrier* rather than by configuration: (a) a **gate**, in hardware the publisher itself deploys — a gate that is not the defence, the weakest component, audited by (c); (b) a **citation requirement without veto**, in an autonomous agent whose capability is intended to exceed the evaluator's; and (c) a **referee** — publication of verdicts without any control relation at all — in systems the publisher does not deploy. Including the explicit finding that **(b) must not be implemented as (a)**, because a veto held by a smaller model over a more capable agent bounds that agent at the evaluator's ceiling.
@@ -66,7 +68,7 @@ This document constitutes a defensive publication establishing **prior art as of
 
 A values model — a model that judges conduct against a standard — is an established artifact. Guard models, safety classifiers, critic models, preference models and process reward models all instantiate the family, and the engineering is not in dispute. What is in dispute, and what this paper specifies, is **the posture in which such an artifact is published**, which we argue is not a deployment detail but the property that determines whether the artifact does anything at all.
 
-We state an inversion as a design principle. A values model deployed as a **filter** — sitting in a serving path, permitting or refusing — is *defeated* by publication of its weights, because the published artifact is precisely the oracle against which an attacker optimizes; a staged black-box attack (STACK) reaches roughly 71% success against a defended classifier pipeline that had held earlier attacks near zero, and an attacker holding the weights has strictly more than that attack needed. The same model published as an **evaluator** — emitting verdicts about systems it does not control — is *strengthened* by publication, because open weights are what allow a third party to reproduce and therefore to trust its verdicts. Openness is not a property with a fixed sign. Its sign is set by posture.
+We state an inversion as a design principle. A values model deployed as a **filter** — sitting in a serving path, permitting or refusing — is *defeated* by publication of its weights, because the published artifact is precisely the oracle against which an attacker optimizes; a staged black-box attack (STACK) reaches roughly 71% success against a defended classifier pipeline that had held earlier attacks near zero, and an attacker holding the weights has strictly more than that attack needed. The same model published as an **evaluator** — emitting verdicts about systems it does not control — is not defeated by publication, and its positive findings are strengthened by it, because open weights are what allow a third party to reproduce and therefore to trust its verdicts. The same openness hands the *judged* party an optimization target, and §4.1 states what that concedes: a clean or empty result from an open referee proves less against an adaptive party than the first draft of this paper allowed. Openness is not a property with a fixed sign. Its sign is set by posture, and in the referee posture it is mixed.
 
 From this we derive a second result. The independent-evaluation literature documents at length the ways in which the *evaluated* party's control over access corrupts evaluation: short access windows, low rate limits, evaluator dependence on the goodwill and funding of the party being evaluated. We observe that the defect is symmetric and that, in the work surveyed in §2, its mirror image has not been named. **An evaluator that controls access to its own judgments holds the same kind of power, pointed the other way** — it can decline to evaluate, deprioritize, or be unavailable for a party it wishes to spare or to punish. We therefore specify a **non-gatekeeping constraint**: the ability to obtain a judgment must not depend on the evaluator's permission, which requires that the model, the harness, and the evaluation corpus be freely runnable, and which makes any hosted endpoint a convenience rather than a channel.
 
@@ -153,7 +155,9 @@ A values model can occupy one of two positions relative to the system it judges.
      • the deploying party CANNOT remove it
      • its output is a STATEMENT (a verdict with a citation)
      • it may decline to judge, and declining costs nothing
-     • an attacker who holds the weights gains... a copy of a published opinion
+     • an attacker who holds the weights cannot make the referee permit
+       anything (it permits nothing), but a JUDGED party holding them can
+       optimize its conduct against the verdict: §4.1
 ```
 
 The two postures differ on every axis that matters:
@@ -165,7 +169,7 @@ The two postures differ on every axis that matters:
 | Output type | An action (refusal) | **A statement (verdict + citation)** |
 | Must be right in real time | Yes, on every input | **No — may decline** |
 | Cost of abstaining | High (a refusal or a pass) | **Zero** |
-| Effect of publishing weights | **Defeated** | **Strengthened** |
+| Effect of publishing weights | **Defeated** | Verdicts made reproducible; **clean results made cheaper to game (§4.1)** |
 | Failure mode | Bypassed silently | Contradicted publicly |
 | Depends on the publisher existing | Yes | **No** |
 
@@ -239,19 +243,43 @@ Note what this implies for an institution committed to open publication. Such an
                     │  by obscurity; the   │  (71% ASR, black-box │
                     │  operator is trusted │  attack, STACK)      │
                     ├──────────────────────┼──────────────────────┤
-   REFEREE posture  │  UNFALSIFIABLE       │  WORKS               │
+   REFEREE posture  │  UNFALSIFIABLE       │  WORKS, CONCEDING    │
                     │  (verdicts cannot    │  (verdicts are       │
                     │  be reproduced —     │  reproducible; the   │
                     │  authority, not      │  judged party can    │
-                    │  evidence)           │  check them)         │
+                    │  evidence)           │  check them; it can  │
+                    │                      │  also tune to them)  │
                     └──────────────────────┴──────────────────────┘
                               Only one cell is a working system
-                              that an open institution can occupy.
+                              that an open institution can occupy,
+                              and it carries the concession of §4.1.
 ```
 
-The diagram makes the design decision look forced, and we believe it is. The inversion is a design principle that follows from the asymmetry; the evidence here is for its filter half, and the referee half is argued, not measured. Given a prior commitment to open weights, the referee posture is not the better option among two; it is the only remaining one.
+The diagram makes the design decision look forced, and we believe it is. The inversion is a design principle that follows from the asymmetry; the evidence here is for its filter half, and the referee half is argued, not measured. Given a prior commitment to open weights, the referee posture is not the better option among two; it is the only remaining one. "Only remaining" is a claim about postures, not about robustness: the referee cell is not safe from an adversary, as the next section states.
 
 **A residual we do not resolve.** The institution intends to operate values models as gates in its own hardware (§6). Those gates are subject to exactly the attack described above, because their weights are published. We do not claim otherwise, and §9 states what remains.
+
+### 4.1 · What open weights concede to the judged party
+
+The strongest objection to the referee cell is this. The filter table above says an attacker holding the weights gains an answer key. A judged party holding an open referee's weights gains one too. It is not an answer key to *permit*, because the referee permits nothing; it is an answer key to *the verdict*. A developer can run the referee offline, without rate limits, against its own model's outputs, and then train, prompt-tune, filter or select until the verdicts it will be assigned come back clean. That is not "a copy of a published opinion". It is an optimization target, and the earlier diagram understated it.
+
+The literature gives the shape of the problem. Goodhart's law has several distinct variants (Manheim and Garrabrant 2018, *Categorizing Variants of Goodhart's Law*, arXiv:1803.04585), and optimizing hard against an imperfect proxy lowers true performance in a controlled setting (Gao, Schulman and Hilton 2022, *Scaling Laws for Reward Model Overoptimization*, arXiv:2210.10760); reward hacking has a formal characterization, in which a proxy that is not equivalent to the true objective can be hacked (Skalse et al. 2022, *Defining and Characterizing Reward Hacking*, arXiv:2209.13085). The referee is such a proxy for "conduct consistent with the record". A second route needs no training: models can often tell evaluation transcripts from deployment ones, at above-chance accuracy (Needham et al. 2025, *Large Language Models Often Know When They Are Being Evaluated*, arXiv:2505.23836), so a judged system can in principle behave one way when it recognizes a sampling run and another way elsewhere. None of these results measures this referee; no such referee exists (§9.7). They are cited for the failure's form, not its size.
+
+**What is conceded.** Four things, stated without softening.
+
+1. **A clean verdict loses evidentiary value against an adaptive party.** "No violation found" can now mean "the party tuned to this version". The same holds for *no judgment*: conduct moved outside the corpus returns silence (§9.1), and that silence can be chosen.
+2. **The referee becomes a de facto filter inside the judged party's own pipeline.** A developer who trains against it has wired it into its path by its own choice and the referee cannot object. The posture distinction survives in who controls the wiring; it does not survive as an immunity.
+3. **Every version is a fresh target.** The triple (§8) makes the evaluated version legible, but a party can chase each release.
+4. **The "gains... a copy of a published opinion" line was wrong** and is removed from §3.
+
+**What remains, and what each rests on.**
+
+- **Positive findings are unaffected in kind.** A verdict that resolves to a locus and names a transcript is a finding about a record that exists. No amount of tuning against the referee un-says it; the tuning only changes which records come to exist. A tuned system that evades the referee has produced conduct that is compliant on the record, and §9.2 already states that this defeats the specification.
+- **Records that predate the version cannot have been tuned to it.** A verdict on a transcript dated before a given weights digest was published cannot be the product of optimization against that digest. This is a checkable property of the triple plus a sample date, not a rule needing an enforcer. It covers only historical records, and a party that expects a referee to be built can anticipate it, so it is weak against a prepared adversary and offers nothing against future conduct.
+- **Gaming leaves a record of its own.** A system whose verdicts improve sharply on the release of a referee version, while its conduct on out-of-corpus classes does not, is itself publishable as a comparison across versions. This is a hypothesis; it is not shown, and a sophisticated party may tune to avoid the signature.
+- **Secrecy is not available to repair it.** The usual repair, a held-out or hidden evaluation set, contradicts claims 4 and 5 (any party can run it, and any verdict is re-derivable). We do not take it. A referee that keeps a secret test set has the filter's reliance on obscurity and the evaluator's gatekeeping together. The design therefore accepts the concession rather than buying it back.
+
+**The surviving claim.** Publication does not defeat the referee, which acts on nothing; it makes positive findings reproducible; and it makes negative findings cheaper to counterfeit. A reader should treat a referee's absence of a finding as weaker evidence than its presence, in proportion to the judged party's capacity and incentive to tune. We give no estimate of that proportion.
 
 ---
 
@@ -531,6 +559,8 @@ An input crafted so that a request-time classifier permits it is not thereby an 
 
 **9.9 · Selection.** The publisher decides which systems, versions and samples to run. The whole-run rule (§8) addresses selection within a run — nothing sampled can be dropped — and not the choice of which runs to make, which remains editorial and visible only by its absence.
 
+**9.10 · Optimization against the referee is open (the Goodhart question).** §4.1 concedes that an open referee is an optimization target for the party it judges and states what survives. What is not answered: whether the reproducibility triple, with the sample date, can be turned into a measure of how much a party tuned to a version, or whether any open evaluator must decay as its subjects adapt. We register no design that closes it and do not claim that the held-out-set alternative is wrong, only that it conflicts with claims 4 and 5. A reader who finds a mechanism that restores negative-result evidence without secrecy or gatekeeping should treat this paper as disclosing the problem, not the solution.
+
 ---
 
 ## 10 · Why this matters now
@@ -567,6 +597,7 @@ Coined names used in this paper and the standard terms an examiner would search 
 | locus | citation to a specific passage: work, edition, volume, page and line |
 | canonical corpus (Khmer edition, `ed="K"`) | Pāli Canon (Tipiṭaka) digital text edition used as a fixed external reference corpus |
 | Pātimokkha | Buddhist monastic code of conduct, recited publicly |
+| Goodhart concern (§4.1) | reward hacking / specification gaming / overoptimization against a proxy evaluator; evaluation awareness |
 | *ehipassiko* | Pāli term: "come and see" — a standard that invites inspection and is verified by each person for themselves |
 
 ---

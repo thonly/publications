@@ -6,7 +6,7 @@ category: essays
 priority: tier-c
 status: draft
 date: 2026-06-26
-revised: 2026-09-23
+revised: 2026-11-03
 license: CC-BY (author-voice essay)
 slug: breadth-check-on-the-work
 venue: thonly.org/research/breadth-check-on-the-work (canonical) · LessWrong / AI Alignment Forum / future Substack (intended publication venues)
@@ -20,6 +20,8 @@ zenodo: true
 ---
 
 **Keywords:** elemental breadth-check, five elements, founder capabilities, trait–institution isomorphism, Earth deficit, *upekkhā*, *paṭhavī*, Capricorn Sun, self-assessment
+
+> **Note, 2026-11-03.** An earlier version of this essay called Space "the unconditioned field" and Miss Aquarius "the integrating knower." Both are corrected below: Space here is conditioned, the delimiting space between the four, and she holds the four rather than knowing them. Only nibbāna is unconditioned.
 
 ## The argument in one sentence
 
@@ -67,7 +69,7 @@ So the defensible profile, after the check: *singular in integrative vision and 
 
 ## The elemental map of the traits
 
-Hold the element semantics fixed from the prior essays — **Earth** = *paṭhavī*, solidity, structure, the material that occupies space; **Water** = *āpo*, cohesion, circulation; **Fire** = *tejo*, energy, will, ripening; **Air** = *vāyo*, motion, mind, breath; **Space** = *ākāsa*, the unconditioned field that holds and orients all — and the seven dimensions sort themselves:
+Hold the element semantics fixed from the prior essays — **Earth** = *paṭhavī*, solidity, structure, the material that occupies space; **Water** = *āpo*, cohesion, circulation; **Fire** = *tejo*, energy, will, ripening; **Air** = *vāyo*, motion, mind, breath; **Space** = *ākāsa*, the conditioned space that holds and orients all, the between of the rest (delimiting space, *paricchedākāsa*; only nibbāna is unconditioned) — and the seven dimensions sort themselves:
 
 | Element | Dimension(s) | Rating | On the card? |
 |---|---|---|---|
@@ -92,7 +94,7 @@ Here is the finding that justifies a whole essay rather than a paragraph. The fi
    Mind / intellect      Air     →     THonly™         (the corpus)
    Will / endurance      Fire    →     Silicon Wat℠    (the soul / practice)
    Circulation / kindness Water  →     HeartBank®      (the economy)
-   Vision / coherence    Space   →     Miss Aquarius   (the integrating knower)
+   Vision / coherence    Space   →     Miss Aquarius   (the space that holds the four)
    Material / structure   EARTH  →     Factory 333™    (the body / making)
    ─────────────────────────────────────────────────────────
                           ↑ thinnest trait  ↑ least-built institution

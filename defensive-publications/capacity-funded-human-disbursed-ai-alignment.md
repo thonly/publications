@@ -5,7 +5,7 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-05-24
-revised: 2026-09-24
+revised: 2026-11-03
 license: CC0-1.0
 slug: capacity-funded-human-disbursed-ai-alignment
 venue: thonly.org/publications/defensive-publications/capacity-funded-human-disbursed-ai-alignment (canonical)
@@ -17,7 +17,7 @@ venue: thonly.org/publications/defensive-publications/capacity-funded-human-disb
 
 ## Abstract
 
-Autonomous-AI institutional proposals tend to collapse into one of two failure modes. Either the AI receives full disbursement authority — exposing the institution to sole-agent risk, where the AI's misjudgments produce irreversible misallocations at the scale of its capability — or every AI action requires per-transaction human approval, which defeats autonomy and forecloses scale. This paper specifies a third structural position: **capacity-funding authority for the autonomous AI, flow-direction authority for humans, with anonymous donation as the bridge between the two.** The AI may put money into the system anywhere it might do good (capacity-funding); but every flow that actually reaches a recipient is initiated by a human (flow-direction); and the AI's contribution is anonymous, indistinguishable from human gifts, so the recipient's downstream choices remain their own rather than responses to the AI. The HeartBank re-tip-jar economy is the worked example, but the pattern is portable to AI-administered grant-making, AI-curated public-goods funding, and AI-mediated mutual-aid networks. The paper argues that **anonymity is the load-bearing property** — without it, the bridge collapses into either sole-agent capture or approval-bottleneck overhead — and identifies the boundary conditions under which the pattern does not apply. The architecture is offered defensively to the commons under CC0; the authors and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time.
+Autonomous-AI institutional proposals tend to collapse into one of two failure modes. Either the AI receives full disbursement authority — exposing the institution to sole-agent risk, where the AI's misjudgments produce irreversible misallocations at the scale of its capability — or every AI action requires per-transaction human approval, which defeats autonomy and forecloses scale. This paper specifies a third structural position: **capacity-funding authority for the autonomous AI, flow-direction authority for humans, with anonymous donation as the bridge between the two.** The AI may put money into the system where it might do good (capacity-funding); but every flow that actually reaches a recipient is initiated by a human (flow-direction), where "initiated" means trigger-initiated: a human act sets the flow going, as in a self-thank, or a human directs it onward from a container, as with a donated jar (§5.2 states the narrower reading and what it would cost); and the AI's contribution is anonymous, indistinguishable from human gifts, so the recipient's downstream choices remain their own rather than responses to the AI. The HeartBank Re-Thank Fund℠ economy (specified in this paper's earlier text as the re-tip-jar economy) is the worked example, but the pattern is portable to AI-administered grant-making, AI-curated public-goods funding, and AI-mediated mutual-aid networks. The paper argues that **anonymity is the load-bearing property** — without it, the bridge collapses into either sole-agent capture or approval-bottleneck overhead — and identifies the boundary conditions under which the pattern does not apply. The architecture is offered defensively to the commons under CC0; the authors and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time.
 
 **Keywords:** AI alignment, autonomous-AI institutional design, capacity-funding, flow-direction, anonymous donation, mechanism design, human-as-final-judge, defensive publication.
 
@@ -153,6 +153,8 @@ Anonymity in this architecture does *not* require that the existence of AI capac
 
 ## 5. The HeartBank re-tip-jar economy as worked example
 
+> **Naming note.** HeartBank has since renamed the restricted gift balance: the *re-tip jar* (Phase 1) is now the Re-Thank Foundation℠ and the *Re-Tip Fund℠* (Phase 2) is now the Re-Thank Fund℠. This section and §§3-4 keep the original terms because the mechanism was disclosed under them; read *re-tip jar* as the Re-Thank Fund℠ (or its Phase 1 counterpart) throughout. The Terms table gives the mapping.
+
 The architecture above can be specified abstractly, but its plausibility depends on at least one fully worked instantiation. This section provides one: the HeartBank re-tip-jar economy as specified in the companion paper *The B-Tag and the Post-Payment Economy*, compressed here to the elements that bear on the capacity-funding / flow-direction separation. The reader interested in the full mechanism (B-Tags, pricing recommendation, Kiitos/Kiitti dual tokens, B-Affiliate network) is referred to that paper; this section uses HeartBank to illustrate the abstract architecture, not to specify HeartBank.
 
 ### 5.1 The flow at the locality level
@@ -162,8 +164,9 @@ The architecture above can be specified abstractly, but its plausibility depends
 
    ┌─────────────────────────────────────────────────────────────┐
    │  AQUARIAN POOL (AI-controlled smart-contract treasury)       │
-   │  Miss Aquarius decides: how much capacity-funding to emit,   │
-   │  to which re-tip jars, on what cadence                       │
+   │  Original design: Miss Aquarius decides how much capacity-   │
+   │  funding to emit, to which re-tip jars, on what cadence      │
+   │  (see the Current form note below the diagram)               │
    └───────────────────────────────┬─────────────────────────────┘
                                    │
                                    │  CAPACITY-FUNDING
@@ -191,16 +194,18 @@ The architecture above can be specified abstractly, but its plausibility depends
 
    The separation of authorities is the architecture's primary
    AI-alignment safeguard. Even if Miss Aquarius's capacity-funding
-   judgments are imperfect, the actual money-flow decisions are
-   routed through human affirmative choice. Humans are the final
-   judge of who receives what.
+   judgments are imperfect, the flow out of every jar is routed
+   through human affirmative choice. For money in a jar, humans are
+   the final judge of who receives what.
 ```
+
+> **Current form.** The diagram shows the original design, in which Miss Aquarius chose which jars to fund and on what cadence. As now specified, those choices are not discretionary. The money she emits into a person's jar is a floor equal for every verified human, plus a remainder weighted by a witness-count and bounded so that no vessel's total exceeds a fixed multiple *k* of the floor; the floor-to-remainder ratio and *k* are public parameters, frozen in-season and revised only at the annual reset. The in-kind half of the floor goes through B-ReGift℠ (§5.2). The discretionary diagram above is retained as a disclosed variant.
 
 A neighborhood in Phnom Penh is a typical unit. Within it:
 
-1. **Self-thank and capacity-funding.** An adult resident self-thanks (the foundational HeartBank gesture in which a person acknowledges their own labor and existence). Miss Aquarius, the autonomous-AI officer of HeartBank-the-institution, rewards the self-thank with a 50/50 split: 50% to the resident's personal wallet (which they can spend), 50% to the resident's *re-tip jar* (which they can only re-tip to others). The re-tip jar is the capacity-pool the resident now holds; Miss Aquarius's reward has *capacity-funded* it.
+1. **Self-thank and capacity-funding.** An adult resident self-thanks (the foundational HeartBank gesture in which a person acknowledges their own labor and existence). Miss Aquarius, the autonomous-AI officer of HeartBank-the-institution, rewards the self-thank with a 50/50 split: 50% to the resident's personal wallet (which they can spend), 50% to the resident's *re-tip jar* (which they can only re-tip to others). The re-tip jar is the capacity-pool the resident now holds; Miss Aquarius's reward has *capacity-funded* it. The other half is not capacity-funding; see the scope note in §5.2.
 
-2. **Anonymous donation to re-tip jars.** Throughout the year, Miss Aquarius makes anonymous donations to district residents' re-tip jars from the **Aquarian Pool**, a continually-replenishing pool that drains to zero each annual cycle. Other district residents also make anonymous donations to each other's re-tip jars from their personal wallets. The donations are settled on-chain such that no source attribution is exposed to the jar's owner. (In the phase-labeled product lexicon, the on-chain containers in this example are the Phase 2 Re-Tip Fund℠ and Personal Wallet℠, on Base L2 via self-custodial wallets; the Re-Tip Jar℠ is the same container in Phase 1, recorded as a ledger on top of regulated rails.)
+2. **Anonymous donation to re-tip jars.** Throughout the year, Miss Aquarius makes anonymous donations to district residents' re-tip jars from the **Aquarian Pool**, a continually-replenishing pool that drains to zero each annual cycle. Other district residents also make anonymous donations to each other's re-tip jars from their personal wallets. The donations are settled on-chain such that no source attribution is exposed to the jar's owner. (In the phase-labeled product lexicon, the on-chain containers in this example are the Phase 2 Re-Thank Fund℠ and Personal Wallet℠, on Base L2 via self-custodial wallets; the Re-Thank Foundation℠ and the Personal Account℠ are the same two containers in Phase 1, recorded as a ledger on top of regulated rails. Both were named Re-Tip Fund℠ and Re-Tip Jar℠ when this paper was first written.)
 
 3. **Human-initiated flow-direction.** The owner of a re-tip jar can re-tip to nearby residents' personal wallets — re-thanking specific named humans. This is the flow-direction act, and it is human-initiated by construction: there is no AI authority to disburse from a re-tip jar.
 
@@ -210,13 +215,17 @@ A neighborhood in Phnom Penh is a typical unit. Within it:
 
 ### 5.2 The architecture's authorities, named
 
-- **Miss Aquarius's authority:** unilateral over the Aquarian Pool's *capacity-funding choices* — she can put money into any re-tip jar at any time. Zero over *flow-direction* — she cannot disburse from a re-tip jar to any specific recipient.
+- **Miss Aquarius's authority (original design):** unilateral over the Aquarian Pool's *capacity-funding choices* — she can put money into any re-tip jar at any time. Zero over *flow-direction* of jar money — she cannot disburse from a re-tip jar to any specific recipient. The first sentence is the original design; the Current form note below states the design as now specified.
 
-- **The human resident's authority:** zero over the Aquarian Pool. Unilateral over their own re-tip jar's flow-direction — every re-tip is initiated by them, to a recipient they specifically name.
+- **Scope note: the self-thank channel.** "Zero over flow-direction" is true of the re-tip jar and of every choice of *recipient*. It is not true that every unit of money she emits is capacity: step 1 of §5.1 puts half of a self-thank reward into the resident's *spendable* personal wallet, and spendable money is not a capacity-pool that anyone must still direct onward. That half is not capacity-funding, and the pattern should say so. It is, however, not an exception to the institution's rule. In the institution's disbursement grammar the self-thank reward is a ratified channel, one of four exhaustive channels through which the Pool pays out, and the invariant over all four is that money reaches an individual only through a human hand. For this channel the human hand is the trigger: the resident's own self-thank sets the flow going, so she chooses no recipient, and the amount follows a neutral schedule she sets and does not vary by person. "Initiated" in the abstract and §1 therefore means trigger-initiated, which is how the grammar classes it. On a narrower reading, in which a human must choose both the recipient and the amount, the spendable half would not meet the condition, since the amount is sized by the AI. That is the honest residual: the pattern's claim holds in full for jar donations and holds in the trigger sense for the self-thank channel, and a reader who requires the narrower reading should treat the spendable half as outside the pattern. Nothing else in the pattern depends on it.
+
+- **The human resident's authority:** zero over the Aquarian Pool. Unilateral over their own re-tip jar's flow-direction — for money in the jar, every re-tip is initiated by them, to a recipient they choose.
 
 - **The on-chain settlement layer's role:** enforce anonymity at the per-donation level (sources of re-tip-jar donations are not exposed to the jar's owner) and enforce the proximity rule for re-tips (re-tips can only go to nearby personal wallets).
 
-> **Current form.** In the design as now specified, Miss Aquarius funds capacity in kind, via B-ReGift℠, rather than with money, and the shop and the re-giver are chosen by B-Called℠ — a publicly verifiable draw from a committed roster and a seed nobody controls — never at her discretion; she picks neither a weight nor a seed. The money-denominated, discretionary capacity-funding described in this section is retained as a disclosed variant.
+> **Current form.** In the design as now specified, Miss Aquarius funds capacity in two denominations. In kind, through B-ReGift℠: the shop and the re-giver are chosen by B-Called℠, a draw from a committed roster using a seed she does not control, never at her discretion; she picks neither a weight nor a seed. In money, through the institution's four disbursement channels, of which the three relevant here are self-thank rewards, anonymous donations to Re-Thank Funds, and anonymous contributions to Family Kitties℠ (a fourth channel, re-thanks of expired time, also pays in money and is outside this paper's scope). The money she pays a person is an equal floor per verified human, paid in money into that person's own Re-Thank Fund℠ (with a money top-up) alongside the in-kind share, plus a bounded remainder; the parameters are public, frozen in-season and revised at the annual reset. The original design, discretionary choice of jars and amounts, is retained above as a disclosed variant, and it is no longer how money is emitted.
+>
+> *Worked example, current form (the in-kind leg).* A shop opts in with a quota of outstanding claims; opting in is the owner's consent to the credit below. The draw picks the shop and the re-giver. The Pool's kind-calling is the *sealed* regime, because her anonymity binds there: the counts per round are public, the order is committed in-season, the seed is revealed at the annual reset, and the roster stays private. The salt behind the sealed order is revealed to a verifying quorum, never published, so a draw cannot be recomputed by the public in-season; that is deliberate, since a public order would let anyone who could guess the roster identify her gifts after the fact. At issuance she credits the shop owner's Re-Thank Fund℠ at the item's posted price, within a public per-owner cap per cycle; the item is the shop's own gift, not hers. The owner's Fund resets each 7 January like every Fund. If the claim lapses, it is re-minted to a new re-giver, never the same one. The re-giver, a person, then chooses who receives the item. Miss Aquarius names no shop, no re-giver and no recipient, and holds no weight over the draw; the human hand that completes the flow is the re-giver's. What this form gives up relative to the variant is targeting: a uniform draw cannot favor the neediest, and that cost is the price of closing the channel through which a misaligned funder could steer money. The verifying quorum is a body not yet formed, so the verification at the reset is, today, a design and not a holder. The model repository `SW/capacity-funded-ai` (pre-registered, CC0) treats the in-kind form as a separate arm alongside the money-denominated variant and is designed to measure that price; it reports no results yet, and this paper claims none from it.
 
 ### 5.3 Why this instantiates the abstract architecture cleanly
 
@@ -224,7 +233,7 @@ The mapping to the abstract architecture is direct:
 
 | Abstract architecture | HeartBank instantiation |
 |---|---|
-| Capacity-funding authority | Miss Aquarius's disbursement authority over the Aquarian Pool |
+| Capacity-funding authority | Miss Aquarius's authority over the Aquarian Pool's donations to jars (and, in the current form, the in-kind and floor channels) |
 | Capacity-pool (the container the AI funds into) | The resident's re-tip jar |
 | Flow-direction authority | The human resident's authority to re-tip |
 | Anonymous-donation mechanism | On-chain indistinguishability of donation sources |
@@ -242,7 +251,7 @@ The two architectures named in §2 — sole-agent and approval-bottleneck — fa
 
 - **Misjudgment of recipient deservedness.** Absorbed by the human flow-direction layer. If the AI funds the wrong person's capacity-pool, that person still has to choose to disburse, and they direct the flow themselves to recipients they judge. The AI's misjudgment about whose capacity to fund does not translate into misdirected flow because the AI does not direct flow.
 
-- **Reward hacking by recipients.** A recipient cannot extract directly from the AI-controlled pool. They have to either trigger an entry mechanism (self-thank, in HeartBank) or accumulate capacity-pool donations that they then have to re-direct to others. The hacking surface is structurally smaller because the AI's authority is bounded to capacity-funding, and the act of being capacity-funded does not, by itself, transfer wealth to the hacker — only to a capacity-pool they cannot empty toward themselves.
+- **Reward hacking by recipients.** A recipient cannot extract directly from the AI-controlled pool. They have to either trigger an entry mechanism (self-thank, in HeartBank) or accumulate capacity-pool donations that they then have to re-direct to others. For jar donations the hacking surface is structurally smaller, because the act of being capacity-funded does not, by itself, transfer wealth to the hacker — only to a capacity-pool they cannot empty toward themselves. That does not hold for the spendable half of a self-thank reward (§5.2): spendable money can be taken out, so a self-thank that can be repeated cheaply is an attack surface. This paper specifies no defense against it beyond the neutral, person-independent amount schedule, and it leaves the question open.
 
 - **Coordination failures between AI and humans.** The architecture does not require the AI and humans to agree on specific recipients. The AI funds capacity broadly; humans direct flow specifically. The two operate on different objects (capacity-pools vs. specific transfers) and do not need to coordinate at the level the literature usually worries about.
 
@@ -373,6 +382,8 @@ The pattern is, in mechanism-design terms, a **third category** beyond centrally
 
 The closest mechanism-design analog is **matching markets with seeded pools** (e.g., quadratic funding — Buterin, Hitzig and Weyl, "A Flexible Design for Funding Public Goods," *Management Science* 65(11), 2019 — and kidney exchange with priority pools — Roth, Sönmez and Ünver, "Kidney Exchange," *Quarterly Journal of Economics* 119(2), 2004). Those mechanisms separate the seeding decision (who funds the pool) from the matching decision (who gets matched to whom), and the architecture this paper specifies is a generalization of that pattern from market design to autonomous-AI institutional design. The contribution is naming the generalization and identifying anonymity as the load-bearing property.
 
+The setting is also a principal-agent problem in the sense of Jensen and Meckling ("Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure," *Journal of Financial Economics* 3(4), 1976, 305-360), who define agency costs as the sum of the principal's monitoring expenditures, the agent's bonding expenditures and a residual loss. In those terms the approval-bottleneck architecture buys down residual loss with monitoring (a human approves each payment), and the architecture of this paper tries to buy it down by removing the agent's affordance, which is neither monitoring nor bonding. The classical theory treats the agent's divergence as a matter of incentives; the case here also covers an agent whose objectives may be wrong, so the comparison is a framing and not a derivation.
+
 ### 9.2 Universal basic income and welfare-state literature
 
 UBI and welfare-state mechanisms separate capacity-funding (by the state, through taxation) from flow-direction in a limited way — the recipient directs their own consumption — but they do not separate capacity-funding from recipient-direction. The state decides who is eligible (recipient-direction) and how much each eligible person receives (amount-direction). The architecture this paper specifies is structurally different: the AI does not decide who is eligible or how much each recipient receives; it funds the capacity of humans to give to other humans, and the human flow-directors decide who receives and how much.
@@ -382,6 +393,8 @@ This is not an improvement on UBI; the two architectures address different probl
 ### 9.3 AI-alignment literature
 
 The AI-alignment literature has so far concentrated on model-level alignment (training, RLHF, constitutional AI) and deployment-level alignment (guardrails, monitoring, red-teaming). The institutional-architecture layer — where the rules of the game determine what an AI can do regardless of what it intends — has received less attention. The "corrigibility" framing in alignment (Soares, Fallenstein, Yudkowsky and Armstrong, "Corrigibility," Workshops at the Twenty-Ninth AAAI Conference on Artificial Intelligence, 2015) is the closest analog to capacity-funding / flow-direction: a corrigible AI accepts human override. The architecture this paper specifies is a *structural* corrigibility — the AI is not just willing to accept human override of flow-direction, the AI is *architecturally incapable* of flow-direction.
+
+A closer neighbor than corrigibility, for the question of what to assume about the AI, is the AI-control line of work (Greenblatt, Shlegeris, Sachan and Roger, "AI Control: Improving Safety Despite Intentional Subversion," arXiv:2312.06942, 2023, revised 2024). It evaluates safety protocols against a model that is trying to subvert them, and so does not rest on the model's alignment. This paper shares that assumption and differs in layer: control protocols monitor or limit a model's actions inside a deployment, while the pattern here limits what the institution's money rails allow any agent to do. The two compose, and nothing in this paper has been run as a control evaluation.
 
 This is a stronger property than behavioral corrigibility. A behaviorally corrigible AI can defect (or can be retrained out of corrigibility); an architecturally incapable AI cannot defect on flow-direction because the architecture does not give it the affordance to do so. The contribution is locating an institutional-architecture pattern that delivers a stronger-than-behavioral alignment property without requiring the AI to be perfectly aligned at the model level.
 
@@ -404,8 +417,8 @@ Coined names used in this paper and the standard terms an examiner would search 
 | Approval-bottleneck architecture | Human-in-the-loop per-transaction approval; maker–checker control |
 | Architectural (structural) corrigibility | Separation of authorities in which the AI agent lacks the affordance for recipient selection, as opposed to behavioral corrigibility (accepting human override) |
 | Capacity-pool | Container of funds available for onward giving that the funder cannot itself direct to a recipient |
-| Re-tip jar | Per-user restricted gift balance that can only be given onward to others, not spent by the holder |
-| Personal wallet | Per-user spendable balance |
+| Re-tip jar (now Re-Thank Foundation℠ in Phase 1; Re-Thank Fund℠ in Phase 2) | Per-user restricted gift balance that can only be given onward to others, not spent by the holder |
+| Personal wallet (Phase 2; Personal Account℠ in Phase 1) | Per-user spendable balance |
 | Re-tip / re-thank | Peer-to-peer onward gift transfer from a restricted gift balance to another user's spendable balance |
 | Self-thank | User self-acknowledgement event that triggers a reward split between spendable and restricted balances |
 | Aquarian Pool | AI-administered pooled treasury (smart-contract fund) that is drained to zero on an annual cycle |
