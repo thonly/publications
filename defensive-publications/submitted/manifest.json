@@ -1822,11 +1822,11 @@
       "claims_headings": [
         "BODY"
       ],
-      "claims_sha256": "539ff806a30f7888abb669b0c843a7b9da4f37421293aa72e842cfe856347a04",
+      "claims_sha256": "961a2e9cd5b61597b89fa3447af931c03c44908b63ee1f950289b0a55200af22",
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "4031c87607a75af24db1811f59d034fe974755ee764ef44aa87fc13f13350bff",
+      "body_sha256": "8a6f32faeca969b017f02fe4374165991f21fb642d2111d99c49dd72f08adb9e",
       "posted": "2026-09-24",
       "url": "https://www.tdcommons.org/dpubs_series/11867",
       "posted_verified": {
@@ -1837,7 +1837,15 @@
         "words": 5289,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-03",
+          "from": "539ff806a30f",
+          "to": "961a2e9cd5b6",
+          "note": "2026-11-03: a dated note narrows §3.2 to radio co-presence, the radius kept as a disclosed variant; no new matter a claim rests on"
+        }
+      ]
     },
     {
       "slug": "vinaya-as-ai-reasoning-training-corpus",
