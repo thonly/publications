@@ -334,11 +334,11 @@
       "claims_headings": [
         "BODY"
       ],
-      "claims_sha256": "aaa344b2f3e677801f1afe2d6d13b4a8fbb332e7a8e2a5822cb699e7b84307a7",
+      "claims_sha256": "38e5bc51b0daea4dd3c797ca8f82363e3d4f5288aba2d8b47054914edd9afc91",
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "1f182f8c304db0acef4fc0f61bf00543e5d58f40f18c21d8dade02f4d46bd612",
+      "body_sha256": "7ff33faa6cd00e4e3a84f714db183f5bebef31e7a1c1495a3c5bb34cf7d2c24d",
       "posted": "2026-09-28",
       "url": "https://www.tdcommons.org/dpubs_series/11884",
       "posted_verified": {
@@ -349,7 +349,15 @@
         "words": 6920,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-03",
+          "from": "aaa344b2f3e6",
+          "to": "38e5bc51b0da",
+          "note": "2026-11-03: current form corrected to ratified directives; a scope note; no enumerated claims and no new matter a claim rests on."
+        }
+      ]
     },
     {
       "slug": "certification-by-circulation",
@@ -1188,11 +1196,11 @@
       "claims_headings": [
         "## Findings disclosed"
       ],
-      "claims_sha256": "c8a78b65fb413410d2aa6e1a5a84b76fd16f7f97347043b1e0efb039bb4e2ec8",
+      "claims_sha256": "9367bbec6d44e6277d6f8c302c5bc250af7498c01e9c76934e67893960626dfb",
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "682dd33227afb2a4987db2f1eff1c469de62a6ddde3b2083bf92ce51f93d4c40",
+      "body_sha256": "c3abceba1f1cee785731aaa258460779cbf01c1264bab4520d251dac9b8d892c",
       "posted": "2026-10-07",
       "url": "https://www.tdcommons.org/dpubs_series/12028",
       "posted_verified": {
@@ -1203,7 +1211,15 @@
         "words": 7496,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-03",
+          "from": "c8a78b65fb41",
+          "to": "9367bbec6d44",
+          "note": "2026-11-03: the body now agrees with §7.4; findings reworded to the narrower form; nothing widened."
+        }
+      ]
     },
     {
       "slug": "silica-wat-food-network",
@@ -1553,11 +1569,11 @@
       "claims_headings": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "claims_sha256": "767e87a63bd1ff82d46f54e4e260af844d3091ee918f081b2c4ee57ab8924d95",
+      "claims_sha256": "a9213ecf16b0599089fe2e817af78ab09c5722c1619e0e3e673980e8b803ffa3",
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "8d685a951af62d4c15ef86abde259665971e8080645de2e4965f947f13867bb0",
+      "body_sha256": "1fe886afbd5c69e88fc5c330fa9ea8776bd3874ae0aa21b0cc984f6b99cf88d3",
       "posted": "2026-09-25",
       "url": "https://www.tdcommons.org/dpubs_series/11877",
       "posted_verified": {
@@ -1568,7 +1584,15 @@
         "words": 11521,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-03",
+          "from": "767e87a63bd1",
+          "to": "a9213ecf16b0",
+          "note": "2026-11-03: claim 1 narrowed, prior wording kept as a disclosed variant; a narrowing adds no matter a claim rests on."
+        }
+      ]
     },
     {
       "slug": "the-rethank-multiplier",
@@ -1823,11 +1847,11 @@
       "claims_headings": [
         "## Findings disclosed"
       ],
-      "claims_sha256": "5ee829a816e89e4a392fda0a202fd1dd08b49df4a2be472daecd5f299e8f24c4",
+      "claims_sha256": "3e2226306d06f531ef417f08b089e8ee8d208e0b01f4de40ee29f06362b31578",
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "d4ada5c34f35b7b3bea0e673d05d256916540d3fd3f20a141bd2f44ee0762472",
+      "body_sha256": "6854f4102cd4136912bc4b6ce576392b2ab561ba0fe0cb64d0bd12e2c9631c08",
       "posted": "2026-10-07",
       "url": "https://www.tdcommons.org/dpubs_series/12032",
       "posted_verified": {
@@ -1838,7 +1862,15 @@
         "words": 8642,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-03",
+          "from": "5ee829a816e8",
+          "to": "3e2226306d06",
+          "note": "2026-11-03: a count corrected by one, with its rule; no new matter."
+        }
+      ]
     },
     {
       "slug": "vinaya-governance-primitives-distributed-dharma-networks",
@@ -1902,7 +1934,7 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "0dd8d1b421d1d3d5ad7bf7c8ad8fef6f34979d0624db56f937c80a48f62a1222",
+      "body_sha256": "1a0c1fb1320780cbc9d2663c4c6679f8960aa85796df9345e4626b09fe324bd2",
       "posted": "2026-09-25",
       "url": "https://www.tdcommons.org/dpubs_series/11879",
       "posted_verified": {
@@ -1913,7 +1945,15 @@
         "words": 10844,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-03",
+          "from": "fbc99f67f11e",
+          "to": "fbc99f67f11e",
+          "note": "2026-11-03: citations corrected, V7 vs §8 resolved, a cross-reference; prose only."
+        }
+      ]
     },
     {
       "slug": "zero-point-game",

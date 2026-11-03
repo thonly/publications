@@ -1,3 +1,18 @@
+### 2026-11-03 (night) — the repair batch from the corpus re-survey (founder: *"next batch"*)
+
+Repairs: `sankhara-dukkha-ai-welfare` (the body now agrees with §7.4; refuter pass applied) · `capacity-funded-human-disbursed-ai-alignment` (channel 1 stated as ratified, the current form corrected, the sealed draw; refuter pass applied) · `the-referee-not-the-governor` (claim 1 narrowed: open weights weaken a clean result) · `what-a-vow-must-cost` (five sources verified, two corrected) · `vinaya-as-ai-reasoning-training-corpus` (342 / 333 / 306; the fused word at `vin02m1.mul.xml:4623`) · `breadth-check-on-the-work` (conditioned space). Held papers revised with no deposit: `the-ticket-and-the-tag`, `letting-the-texts-lose`. All proofs rotated; TSA `2026-11-03.sha256`. Hand-authored modules took paragraph-level ports with ids unchanged.
+
+| document | leg 3 · Zenodo |
+|---|---|
+| **sankhara-dukkha-ai-welfare** | 10.5281/zenodo.23931684 |
+| **capacity-funded-human-disbursed-ai-alignment** | 10.5281/zenodo.23931685 |
+| **the-referee-not-the-governor** | 10.5281/zenodo.23931689 |
+| **what-a-vow-must-cost** | 10.5281/zenodo.23931692 |
+| **vinaya-as-ai-reasoning-training-corpus** | 10.5281/zenodo.23931700 |
+| **breadth-check-on-the-work** | 10.5281/zenodo.23931704 |
+
+Index 2.5.55.
+
 ### 2026-11-03 (evening) — cross-references, a refuter pass on No. 6, and a new personal essay (founder: *"Do 'still owed' per your recommendation"*, *"No. 6: run refuter"*)
 
 Two-sentence cross-references owed by the earlier batch landed in `manufactured-universal-giving`, `eightfold-path-institutional-architecture`, `four-elements-as-breadth-check`, `two-singularities` and `attention-economy`. `the-person-is-not-the-product` now says adults only (#79(h)). `where-the-manual-adds-a-reading` records the Lean re-run; `once-sunk-always-sunk` carries the second refuter pass. All proofs rotated (`where-the-manual-adds-a-reading`, `once-sunk-always-sunk`, `the-person-is-not-the-product`, and `the-body-is-the-lab` earlier, retired calendar-only; the find-based upgrade covers rotated proofs). TSA `2026-11-03.sha256`.
