@@ -1,3 +1,17 @@
+### 2026-11-03 (evening) — cross-references, a refuter pass on No. 6, and a new personal essay (founder: *"Do 'still owed' per your recommendation"*, *"No. 6: run refuter"*)
+
+Two-sentence cross-references owed by the earlier batch landed in `manufactured-universal-giving`, `eightfold-path-institutional-architecture`, `four-elements-as-breadth-check`, `two-singularities` and `attention-economy`. `the-person-is-not-the-product` now says adults only (#79(h)). `where-the-manual-adds-a-reading` records the Lean re-run; `once-sunk-always-sunk` carries the second refuter pass. All proofs rotated (`where-the-manual-adds-a-reading`, `once-sunk-always-sunk`, `the-person-is-not-the-product`, and `the-body-is-the-lab` earlier, retired calendar-only; the find-based upgrade covers rotated proofs). TSA `2026-11-03.sha256`.
+
+| document | leg 3 · Zenodo |
+|---|---|
+| **manufactured-universal-giving** | 10.5281/zenodo.23931236 |
+| **eightfold-path-institutional-architecture** | 10.5281/zenodo.23931243 |
+| **four-elements-as-breadth-check** | 10.5281/zenodo.23931247 |
+| **two-singularities** | 10.5281/zenodo.23931248 |
+| **you-are-already-a-millionaire** *(new, personal essay)* | none, by genre |
+
+Index 2.5.54. Hand-authored modules took surgical inserts; `two-singularities` regenerated (ids identical, `doi.org` 1 → 1).
+
 ### 2026-11-03 (later) — the drafter batch: three new papers, first push, deposits held; two revisions (founder: *"yes"*, batch of six)
 
 Refuters ran first on four of the six; Nos. 5 and 6 rest on the refuter reports of their runs. `four-body-architecture` §10.7 is written as *consistent with* (founder 11:20 PST); `the-unpaid-relay` adds §3.4, §6.1 and claim 15, so a second TDCommons submission is owed. Leg 3 ran `--only` per paper, since the dry run also listed four papers as *new*, all held.
