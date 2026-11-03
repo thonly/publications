@@ -241,10 +241,12 @@ def ack(slug, note):
         sys.exit("--ack needs --note: the judgement is the point, and it is the thing a "
                  "future reader will need. Say why no second submission is owed.")
     md = DPUBS / f"{slug}.md"
-    fp, _, heads = claims_fingerprint(md.read_text(encoding="utf-8"))
+    m = load()
+    # the entry's own override, or a paper recorded with BODY can never be acknowledged
+    override = next((e.get("claims_heading_override") for e in m["entries"] if e["slug"] == slug), None)
+    fp, _, heads = claims_fingerprint(md.read_text(encoding="utf-8"), override)
     if fp is None:
         sys.exit(f"REFUSING: {slug} has no findable claims section")
-    m = load()
     for e in m["entries"]:
         if e["slug"] == slug:
             e.setdefault("judgements", []).append(

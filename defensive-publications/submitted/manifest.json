@@ -866,11 +866,11 @@
       "claims_headings": [
         "BODY"
       ],
-      "claims_sha256": "f360a1fdec945ecd55122c89a35579783cd6c22a6de08ddb84ee61cf5671bf52",
+      "claims_sha256": "db2d4fcf227565a4b2ba09b3d94a3fecedf806e4d1498b57d182d341c5c32909",
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "b24f107faa181b73f3b90f15cfb6a0e7618a7cff5e86066723fc278dd521cb7e",
+      "body_sha256": "758d8850bea98739df16f528637746cbad65b07bab84bc5dac72150f68b6867d",
       "posted": "2026-10-06",
       "url": "https://www.tdcommons.org/dpubs_series/11978",
       "posted_verified": {
@@ -881,7 +881,15 @@
         "words": 12283,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-03",
+          "from": "f360a1fdec94",
+          "to": "db2d4fcf2275",
+          "note": "2026-11-03: a two-sentence cross-reference to the-unpaid-relay §6.1 and a concession that one step is asserted, not derived. No enumerated claim and no new matter a claim rests on."
+        }
+      ]
     },
     {
       "slug": "mechanical-heart",
