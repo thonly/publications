@@ -1609,27 +1609,34 @@
     {
       "slug": "the-unpaid-relay",
       "venue": "TDCommons, Defensive Publications Series",
-      "submitted": "2026-09-29",
-      "pdf": "the-unpaid-relay.pdf",
+      "submitted": "2026-11-03",
+      "pdf": "the-unpaid-relay.2.pdf",
       "claims_headings": [
         "## Claims"
       ],
-      "claims_sha256": "8b7a67ae5a3121c0baaee91fc1c47eb8505c1b1bcc094ba987358684b06a428e",
+      "claims_sha256": "6ca35c7230c35b8e3f211467f0893e5285a3d64ec3182fc65cb7e5478dc24cf1",
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "4a4185bf1eed37e0291979b9ee14fb8cea9debc865fff7455213d77d5bd35ce9",
-      "posted": "2026-10-01",
-      "url": "https://www.tdcommons.org/dpubs_series/11921",
-      "posted_verified": {
-        "date": "2026-10-01",
-        "result": "match",
-        "posted_pdf_sha256": "0776ff164c3a0809e80ea084c88a09020a128997d3ee4d6d230b4e4bdb0d21d6",
-        "posted_pages": 29,
-        "words": 13660,
-        "extra": 0,
-        "missing": 0
-      }
+      "body_sha256": "43fb62438a9c9bcbfb0e156bd9dae669f7822c00a9b62a5038a7a3f7a63f2aa1",
+      "prior_postings": [
+        {
+          "submitted": "2026-09-29",
+          "posted": "2026-10-01",
+          "url": "https://www.tdcommons.org/dpubs_series/11921",
+          "claims_sha256": "8b7a67ae5a3121c0baaee91fc1c47eb8505c1b1bcc094ba987358684b06a428e",
+          "pdf": "the-unpaid-relay.pdf",
+          "posted_verified": {
+            "date": "2026-10-01",
+            "result": "match",
+            "posted_pdf_sha256": "0776ff164c3a0809e80ea084c88a09020a128997d3ee4d6d230b4e4bdb0d21d6",
+            "posted_pages": 29,
+            "words": 13660,
+            "extra": 0,
+            "missing": 0
+          }
+        }
+      ]
     },
     {
       "slug": "the-vibhajjavadin-view-of-time",

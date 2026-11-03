@@ -1,0 +1,22 @@
+TDCOMMONS SUBMISSION PACKET — SECOND SUBMISSION (new claim 15) — built 2026-11-03; founder: "1: yes"
+═══════════════════════════════════════════════════════════════════════
+WHY A SECOND SUBMISSION
+  The first posting carries claims 1–14. The 2026-11-03 revision added §3.4, §6.1 and claim 15: new enumerated matter,
+  so by §the-mirror-revision-rule a second posting is owed. Not a re-submission: the first posting stays.
+
+TITLE
+The Unpaid Relay: A Recipient's Note Read with the Giver's Own Copy of the Gift Code, and Item-Level Gift Claims Contrasted with Food-Restricted Benefits
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK
+
+LICENSE    Creative Commons Attribution 4.0
+
+ABSTRACT   (221 words; condensed from the paper's Abstract, no new matter)
+An item-level digital gift voucher, a prepaid claim on one specific good at one merchant, is specified with a transfer-only intermediate state: the payer directs it to an intermediary who cannot redeem it and can only pass it onward, after which it becomes an ordinary redeemable claim. The chain of custody is preserved, the payer's identity may be suppressed without suppressing the chain, and every party can be thanked through role-addressed messages. The 2026-11-03 revision adds two further disclosures, neither a new mechanism. The first is a second route for the thanks: beside the platform-side resolution of the role-addressed message, a recipient's note is written onto the gift instrument and read by the giver with a secret the giver already holds, so the route itself consults no record of who the giver is; the route is only as durable as the giver's copy, and the giver cannot tell a lost route from a recipient who declined. The second is a contrast with food-restricted benefits: a purpose restriction on value that is spent is a rule that sellers must police, while the same restriction on a claim on a named item at a named shop is an operation the platform does not offer; the section states where that stops, because a shop and a recipient can still settle in cash by hand.
+
+HASHES     (NFC, SHA-256)
+  title    ae648819ed4b9cad366448901d9211376b78ac1e993bd9fb93b9864f21fdaa17
+  abstract 9342f3e43cedfcd8c9efbff73548123db749e54a470d96930e1f8f01ab8fe181
