@@ -1,3 +1,7 @@
+### 2026-11-04 — two second submissions POSTED at TDCommons (mirrors, not revisions) (founder: *"tdcommons have posted"*)
+
+Both open submissions from 2026-11-03 are live, found on the venue's series listing under the inventor's name: the-unpaid-relay with claim 15 [12727](https://www.tdcommons.org/dpubs_series/12727), beside its first posting [11921](https://www.tdcommons.org/dpubs_series/11921), and abhidhamma-and-discrete-quantum-gravity with findings 6–8 [12722](https://www.tdcommons.org/dpubs_series/12722), beside its first posting [12057](https://www.tdcommons.org/dpubs_series/12057). Title and abstract were SHA-256-compared on each venue page with the hashes in the packet, themselves recomputed from the packet text: **2/2 identical** (negative controls, a changed title, a one-letter abstract edit and the other paper's title, fail). The venue record shows no date yet, so `--posted` carries the observation date. ⏳ `--verify-posted` not yet run: the posted PDFs have not been downloaded.
+
 ### 2026-11-03 (later still) — `kids-as-triggers-self-thanking`: one paragraph removed (founder: *"take it out now"*)
 
 A pilot anecdote added in the previous version is out of §12.7; the pilot disclosure stays. Zenodo 10.5281/zenodo.23933869. Version 10.5281/zenodo.23933614 keeps the paragraph, which names no one.
