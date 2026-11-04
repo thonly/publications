@@ -824,3 +824,43 @@ pass counts. Round `2026-09-13-h1` opened on v5; **founder, verbatim: *"clean"**
 The only byte change is the front-matter `status`; the `##` heading set matches the ruled round (17), which is what
 `check-frontmatter.mjs` rule 4 admits. A third Zenodo outage (504 on the new-version call) was checked for a half-made draft
 before retrying. ⚠️ A hostile outside reader is still owed under the standing rule; it does not gate the label.
+
+
+### 2026-11-04 — the batch (founder: *"Do all"*)
+
+Falsifiers restated (`two-singularities`, `the-water-cycle`, both to `draft`), literature engaged, radio co-presence notes, retired mirror claims removed. `when-the-dharma-is-lost` is HELD uncommitted for his read. Deposited one `--only` at a time, so the seven held papers took no first DOI.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| aura-gated-anonymous-mate-selection | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955509 | 2.5.60 |
+| cakkavatti-alignment-charter | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955521 | 2.5.60 |
+| circulation-sports | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955524 | 2.5.60 |
+| constituting-an-artificial-person | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955532 | 2.5.60 |
+| eightfold-path-institutional-architecture | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955543 | 2.5.60 |
+| giving-is-a-gift-too | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955553 | 2.5.60 |
+| inverted-alms-round | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955559 | 2.5.60 |
+| manufactured-universal-giving | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955560 | 2.5.60 |
+| provenance-carrying-retrieval | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955564 | 2.5.60 |
+| rotation-over-liveness | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955567 | 2.5.60 |
+| subject-released-attestation | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955569 | 2.5.60 |
+| the-gift-operation | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955581 | 2.5.60 |
+| the-omitted-clause | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955594 | 2.5.60 |
+| two-layer-reward | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955599 | 2.5.60 |
+| anti-attention-economy | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955608 | 2.5.60 |
+| bodhisattva-santa | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955617 | 2.5.60 |
+| breadth-check-on-the-self | rotated, calendar-only at push | `2026-11-04.sha256` | no DOI (personal essay) | 2.5.60 |
+| breadth-check-on-the-work | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955620 | 2.5.60 |
+| christmas-jubilee-timing | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955632 | 2.5.60 |
+| designing-with-the-grain | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955637 | 2.5.60 |
+| diaspora-cambodia-remittance | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955638 | 2.5.60 |
+| emotional-infrastructure-as-a-public-good | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955641 | 2.5.60 |
+| father-son-tipitaka-transcription | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955650 | 2.5.60 |
+| if-everyone-could-give | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955657 | 2.5.60 |
+| love-and-freedom-dependent-origination | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955660 | 2.5.60 |
+| right-livelihood-kindness-economy | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955669 | 2.5.60 |
+| the-capacity-to-give | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955676 | 2.5.60 |
+| the-gift-of-gratitude | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955679 | 2.5.60 |
+| the-two-teslas | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955686 | 2.5.60 |
+| the-water-cycle | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955692 | 2.5.60 |
+| two-singularities | rotated, calendar-only at push | `2026-11-04.sha256` | 10.5281/zenodo.23955696 | 2.5.60 |
+| *patent-vs-defensive-publication* (H3) | rotated, calendar-only at push | `2026-11-04.sha256` | no DOI (position) | 2.5.60 |
