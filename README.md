@@ -99,7 +99,6 @@ This repo is one of six tamper-evident venues protecting the corpus as defensive
 2. **Institutional reference**: heartbank.net (institutional-voice synthesis publications)
 3. **GitHub markdown** (this repo)
 4. **Internet Archive** snapshots (`web.archive.org/save/`)
-5. **archive.today** snapshots
-6. **perma.cc** snapshots
+5. **Software Heritage** (a save of this repository)
 
 Each venue carries an independent tamper-evident timestamp. Any subsequent patent filing on a mechanism articulated here is filed against established prior art.

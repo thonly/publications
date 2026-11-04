@@ -171,7 +171,7 @@ I find the consistency genuinely beautiful, and I have written down, as plainly 
 - **GitHub:** github.com/thonly/publications/blob/main/essays/designing-with-the-grain.md
 - **Companion essays:** *The Breadth-Check Turned on the Self* (thonly.org/research/breadth-check-on-the-self) — dynamic, self-regulating balance as the only kind a living system has; *The Two Teslas* (thonly.org/research/the-two-teslas) — the centrifugal telos these designs serve.
 - **Corpus cross-references:** the Chronicle revenue model (patron-primary, the redemption-afterglow forward-trigger, the loved-ones core); B-Dating℠ as mate-selection on proven kindness; the Zero-Point Game℠ as the founding game of dynamic balance; *circulation, not accumulation* as an operation rather than a state.
-- **Internet Archive · archive.today · perma.cc snapshots:** per the monthly snapshot cadence.
+- **Internet Archive · Software Heritage:** per the snapshot cadence.
 
 ---
 

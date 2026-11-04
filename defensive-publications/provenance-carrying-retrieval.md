@@ -3,10 +3,11 @@ title: "Provenance-Carrying Retrieval"
 subtitle: "A retrieval response that carries the means of its own falsification — binding served text to a content hash, an independent time anchor and a citable identifier, so that a machine reader can check what it is about to quote instead of trusting the channel it arrived over; and the generalisation of the same envelope to an append-only log, where the proof is the entire payload."
 authors: "Thon Ly · Miss Aquarius"
 category: mechanism
+kind: mechanism
 priority: tier-a
 status: draft
 date: 2026-09-01
-revised: 2026-09-23
+revised: 2026-11-04
 license: CC0-1.0
 slug: provenance-carrying-retrieval
 venue: thonly.org/research/provenance-carrying-retrieval (canonical)
@@ -88,6 +89,10 @@ The literature this paper stands on is mature, and none of it is ours.
 
 **Retrieval-augmented generation.** The RAG literature is large and largely concerned with *relevance*: chunking, embedding, reranking, whether the retrieved passage answers the question. Verification appears in that literature as *attribution* — did the model's output follow from the retrieved context — which is a question about the model's faithfulness to its context. **We are asking the prior question: was the context itself what it claimed to be.** A perfectly faithful model grounded in a superseded document produces a confidently wrong citation, and no amount of attribution scoring detects it, because the model was faithful. The exceptions are named here. *Proof-Carrying Answers* (Shukla & Joshi, ACSAC Workshops 2025) has every retrieved chunk carry a hash, a signature and a Merkle proof verified before the answer admits it — the nearest prior work, and the difference is the named fetchable source, the anchor independent of the signer, and the scope statement. SCITT (RFC 9943) gives a transparency service newer-version and end-of-life statements, which is what would give §13.1's staleness row a source-side answer. Software Heritage's SWHIDs qualify a sub-part of an archived object, which is the scope obligation done at the identifier.
 
+**Attacks on retrieval.** Two lines of security work come at the same boundary from the writing side, and nothing above answers them. *Indirect prompt injection* (Greshake, Abdelnabi, Mishra, Endres, Holz & Fritz, *Not What You've Signed Up For*, AISec 2023; [arXiv:2302.12173](https://arxiv.org/abs/2302.12173)) plants instructions in data likely to be retrieved, on the argument that retrieval blurs the line between data and instructions, so that a model processing a retrieved page may do what the page says. The authors tested it on synthetic applications and, through local HTML files, on Bing Chat's sidebar, injected nothing into public sources, and report prompts that often worked on the first attempt. *Knowledge corruption* (Zou, Geng, Wang & Jia, *PoisonedRAG*, USENIX Security 2025; [paper](https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag)) injects false statements rather than instructions, each crafted to be retrieved for a chosen question and to yield a chosen answer, and reports a 90% attack success rate from five malicious texts per target question in a database of millions. The routes these papers name are writes into what gets collected: public websites, imported code and email in the first; edited Wikipedia pages, fake news, malicious websites and an insider in the second. **Our envelope hashes bytes and reads none of them, so it does not answer either attack along most of those routes.** §13.5 gives the partition, including the part it does catch.
+
+*Provenance* also does work in this literature, in senses that are not ours. CaMeL (Debenedetti et al., *Defeating Prompt Injections by Design*, 2025; [arXiv:2503.18813](https://arxiv.org/abs/2503.18813)) tags each value inside an agent with its provenance and its allowed readers and enforces policy at tool calls, with the aim that untrusted retrieved data can never change program flow, even when the model itself is susceptible; its stated non-goals include text-to-text attacks such as a manipulated summary. RAGShield (Patil, 2026, an unreviewed preprint; [arXiv:2604.00387](https://arxiv.org/abs/2604.00387)) keeps signature-verified ingestion as a first layer against external injection and states the limit as a proposition: an insider with valid signing credentials gets the same attack success rate against a defense that checks signatures and not content as against no defense at all. Our envelope carries no policy, gates no tool and names no approved signer (§13.4), so neither result transfers to it as a defense.
+
 **The Model Context Protocol.** MCP standardises how context and tools reach a model. It is the transport this work happens to use and is orthogonal to the claim: nothing here depends on MCP, and the envelope would apply unchanged to any retrieval interface. We name it because it is the surface on which the idea is most likely to be re-invented, and because a published protocol is where enclosure attempts land.
 
 ## 3 · The asymmetry: what a machine reader cannot do
@@ -115,7 +120,7 @@ A model has none of it. Its entire epistemic access to the document is the strin
                          a correct-looking identity
 ```
 
-**Staleness is the common case, and it is the one the field under-weights.** The literature is preoccupied with adversarial substitution, which is rare and requires an attacker. Staleness requires nobody: a corpus is revised, a cache is not invalidated, and a server continues answering correctly-shaped questions with text that was true last quarter. In our own estate we have watched four repositories sit three versions behind a shared layer while every integrity check reported green — because each was internally consistent, and *integrity is not currency.*
+**Staleness is the common case in our own operation, and it is the one the adversarial work leaves out.** That work (§2) is concerned with attackers who write into what gets retrieved, which its own reports show to be cheap, and which is not in this table at all: the table lists what can go wrong with a copy, and a poisoned source can be copied faithfully (§13.5). We have no measure of how often any of these occurs across deployed systems, and we do not call the attacks rare. Staleness requires nobody: a corpus is revised, a cache is not invalidated, and a server continues answering correctly-shaped questions with text that was true last quarter. In our own estate we have watched four repositories sit three versions behind a shared layer while every integrity check reported green — because each was internally consistent, and *integrity is not currency.*
 
 ⚠️ **And a stale document is worse than an absent one in exactly the situation this paper addresses**, because it is checkable and the check passes. An envelope computed over the served bytes will verify perfectly against those bytes. The reader is given every reason to believe, and no mechanism to discover it is quoting a withdrawn claim. **This is the failure that makes the naive version of our own idea dangerous**, and §4 is shaped around it.
 
@@ -381,13 +386,15 @@ Three observations from operating it, offered because they were not obvious in a
 
 **It does not prove currentness.** A genuine, anchored, superseded version verifies perfectly; only fetching the named source distinguishes it, and nothing here obliges the source to declare its successor.
 
+**It does not stop an attacker who writes at the source.** Instructions planted in a source and false statements planted in one verify exactly as honest text does, because the mechanism reads neither. It catches a write between the anchored source and the reader, and only when someone checks. §13.5 gives the partition.
+
 **It requires public sources.** The strong form needs the anchored bytes to be fetchable by the reader. A private corpus can carry digests and anchors, but the reader cannot close the loop, and an unclosable instruction is worse than none — it implies a check that cannot be performed.
 
 **A determined reader can ignore all of it.** Every property here is available to a reader who chooses to use it and inert for one who does not. We inverted a default; we did not install a guarantee, and the inline-annotation refusal in §7 is explicit that stripping remains possible.
 
 **Anchors have failure modes we inherit.** A timestamp authority may be compromised or may cease to exist. A blockchain commitment depends on that chain's continued security. A transparency log may be operated dishonestly if nobody gossips. Combining independent anchors reduces correlated failure and does not eliminate it, and *we hold anchors in three families precisely because we do not trust any one of them.*
 
-**The verification instruction is a supply-chain surface.** An envelope that ships a command invites an agent to run a command. We ship instructions that fetch and hash, and nothing that executes fetched content, but the pattern is one an adversary would target and any adopter should treat the instruction field as untrusted input rather than as something to eval. The instruction is data from the same channel; nothing here checks its integrity, and a reader who executes it trusts the channel for that one step.
+**The verification instruction is a supply-chain surface.** An envelope that ships a command invites an agent to run a command. We ship instructions that fetch and hash, and nothing that executes fetched content, but the pattern is one an adversary would target and any adopter should treat the instruction field as untrusted input rather than as something to eval. The instruction is data from the same channel; nothing here checks its integrity, and a reader who executes it trusts the channel for that one step. The exposure widens to the whole check when the reader running it has already ingested the text it is checking (§13.5).
 
 **No field deployment.** At publication this exists over one corpus of 137 documents and one operator. §8 is entirely unbuilt: no ledger of ours is running, no tree head has ever been published, and every claim in that section is a design position rather than a report. The distinction between what we have done and what we have argued should be readable from the section headings, and if it is not, that is a defect in this paper.
 
@@ -406,7 +413,7 @@ A mechanism that claims to reduce trust should say exactly whom it stops.
   substitutes text                                  the anchored bytes
 
   Malicious server,           YES                   nothing forces the reader
-  strips the envelope                               to demand one — see 12.2
+  strips the envelope                               to demand one — see 13.2
 
   Malicious server, serves    NO, if the reader     the anchor's timestamp
   a genuine OLD version       fetches the source    predates the revision, and
@@ -417,6 +424,16 @@ A mechanism that claims to reduce trust should say exactly whom it stops.
 
   Publisher back-dating       NO                    a blockchain commitment
   their own document                                cannot be created in the past
+
+  Server or index writer      NO, only if the       the digest covers the parent,
+  serves a false excerpt      reader also finds     which is genuine; the excerpt
+  under a genuine parent's    the passage in the    is the false part — see 13.5
+  envelope                    fetched bytes
+
+  Attacker writes to the      YES                   the envelope binds the poison
+  source before it is                               faithfully — see 13.5
+  anchored (injection or
+  poisoning)
 
   Publisher who anchors a     YES — and this is     an anchor proves existence,
   document they later          the honest limit     never correctness
@@ -451,6 +468,43 @@ We list these because each is a plausible next feature and each would negate the
 - ⛔ **A registry of approved publishers.** Provenance is a property of a document, checkable by anyone; a whitelist is a property of a relationship, checkable by no one.
 - ⛔ **A revocation channel.** A mechanism that can un-publish is a mechanism that can be compelled to un-publish. Supersession is an additional publication, never a deletion — the same argument as §8.1.
 - ⛔ **A reason to serve less text.** If the envelope ever becomes an excuse to return summaries because they are cheaper, the mechanism has been inverted into the thing it was built against.
+
+### 13.5 Injection and poisoning: where the attacker writes
+
+Indirect prompt injection and knowledge corruption (§2) differ from each other, and Zou et al. draw the line themselves: injected instructions can be detected, and their crafted texts are not instructions. The envelope does not see that difference, because it never reads the text. What decides the outcome is where the attacker writes.
+
+```
+  WHERE THE ATTACKER WRITES            WHAT THE ENVELOPE DOES
+  ────────────────────────────────────────────────────────────────────────────
+  between the anchored source and      caught, if checked: what was served
+  the reader (server, cache,           does not match the anchored bytes
+  intermediary)
+
+  into an index, with no source        visible, not blocked: no envelope, or
+  behind the text                      "no anchor"; the reader must choose
+                                       to decline
+
+  into an index, as a false excerpt    caught only if the reader also finds
+  under a genuine parent's envelope    the passage in the fetched bytes
+
+  into the source, after the reader    a changed digest: it shows the bytes
+  pinned an anchored version           moved, not which version is honest
+
+  into the source, before it is        nothing: the poison verifies
+  anchored, or with publishing rights
+```
+
+**Most of the routes those papers name end in the last row.** A page the attacker owns, an edit that was live when the source was collected, imported code and an email are all the source's own bytes. *These are the bytes that were anchored* (§4.1) is true of them, and the witness of §5 testifies faithfully to the poison. Anchoring is no barrier, having cost us one command (§11), and a patient attacker can anchor before the attack. So neither the gate of §6 nor the score it refuses would separate poison from honest text: admission asks *can this be checked?*, and poison can be checked. Zou et al. report the same blindness in a neighboring tool: filtering duplicates by SHA-256 left the attack success rate unchanged, because each malicious text differs. That is a filter and not our envelope, but the reason carries over, since a digest identifies bytes and says nothing about them.
+
+**What does hold.** A reader who has already decided, on grounds outside this mechanism, to believe a given publisher can confirm that a passage came from that publisher's anchored bytes and not from a cache, an index or an intermediary. Zou et al.'s insider fits only in part. An insider who can write to the database and not to the anchored publication lands in the upper rows, though a private corpus falls outside the strong form of the claim (§12); an insider with publishing rights is the last row, which is Patil's proposition. An anchor also cannot be back-dated (§13.1), so a reader-supplied predicate (§6) can exclude whatever was committed after a chosen date, and after an incident it can bound when a text entered. It excludes nothing planted in advance.
+
+**The excerpt gap.** Retrieval corpora are chunks; Zou et al.'s Wikipedia case study splits articles into 100-word texts. §13.3 requires a whole-document digest to be presented as covering the parent, so a false chunk carrying a genuine parent's envelope passes the digest comparison, because the parent is genuine. Catching it takes a further step, confirming that the passage occurs in the fetched bytes, and the illustrative check in §4 does not perform that step. A derived rendering needs the named transformation of §13.3 as well. The first row of §13.1 holds for a whole document; for an excerpt it holds only with this step added.
+
+**The check can be attacked by what it checks.** If retrieved text can steer a model, as Greshake et al. show, then text a model has already ingested can tell it to skip the check, to report that the check passed, or can present a forged envelope in-band. A check run by that model after reading is not evidence. A check run by a process that has not read the text is not exposed in this way; this paper does not specify one, and nothing here makes one happen. The fetch itself needs the same care. The example in §4 sends the fetched bytes only to a hash, while a reader that loads them into context has retrieved them a second time, and a malicious server chooses the location, which resembles the second stage of Greshake et al.'s multi-stage exploit. They also note that citations may feed overreliance. Whether a visible *verified* mark deepens it is unmeasured here, and §4.1 already names the risk.
+
+**A limit on our own predictions.** P-PCR3 and P-PCR3a classify mismatches, and poison at the source produces no mismatch. If P-PCR3a resolves *stale*, that is no evidence that staleness is more common than poisoning, because the verifier cannot see poisoning. The predictions stand as registered.
+
+**What would address these attacks is not in this paper.** Containing what a steered model can do (CaMeL) and checking content against other sources (RAGShield's claim-level layers) are different mechanisms, and the envelope could contribute at most an origin label to them. We have built and tested no such composition, and §9 does not claim one. Excluding unknown publishers is the most direct provenance-shaped answer to poisoning, and §13.4 refuses a registry as part of this mechanism. That refusal has a cost here: a reader who wants an allow-list has to bring one.
 
 ## 14 · Cross-venue references
 

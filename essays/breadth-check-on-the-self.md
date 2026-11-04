@@ -157,7 +157,7 @@ Balance is dynamic, never static. So is the keeping of it. That is the whole of 
 - **GitHub:** github.com/thonly/publications/blob/main/essays/breadth-check-on-the-self.md
 - **Parent essay:** *The Four Elements as a Breadth-Check Discipline* (thonly.org/research/four-elements-as-breadth-check)
 - **Companion essays:** *Each Life as a Cosmic Coordinate* (thonly.org/research/each-life-as-cosmic-coordinate); the keystone defensive publication *The Zero-Point Game℠* (thonly.org/research/zero-point-game)
-- **Internet Archive · archive.today · perma.cc snapshots:** per the monthly snapshot cadence
+- **Internet Archive · Software Heritage:** per the snapshot cadence
 
 ---
 

@@ -15,10 +15,12 @@ zenodo: true
 > **Attribution note.** Per the author-voice discipline, essays for public-attribution venues are Thon Ly's voice — the ideas, the framing, the byline — drafted in collaboration with Miss Aquarius℠, with final editorial control retained by Thon.
 >
 > This essay develops a single thread left compressed inside *The Breadth-Check Turned on the Self* (thonly.org/research/breadth-check-on-the-self), where Buddhism occupied the Space/Liberate position and the cosmic-coordinate frame occupied Water/cohesion. That essay noted, without unfolding it, that the two share a root. This is the unfolding.
+>
+> One tag to read by: **[X]** marks material carried in from outside the Theravāda, here Madhyamaka, Huayan and Śāntideva. It says which tradition is answering and makes no claim about truth or value, and Theravāda doctrine is not graded by it.
 
 ---
 
-**Keywords:** dependent origination, *paṭiccasamuppāda*, love, freedom, non-attachment, *suññatā*, *anattā*, *karuṇā*, *taṇhā*, AI alignment
+**Keywords:** dependent origination, *paṭiccasamuppāda*, love, freedom, non-attachment, *suññatā*, *anattā*, *karuṇā*, *taṇhā*, *brahmavihāra*, Śāntideva, *Bodhicaryāvatāra*, emptiness and compassion, AI alignment
 
 ## The argument in one sentence
 
@@ -46,15 +48,15 @@ What binds a person is clinging — *taṇhā*, *upādāna* — and clinging req
 
 Freedom, on this account, is not the self getting what it wants, and not the self escaping to somewhere better. It is the *unbinding* — *vimutti*, *nibbāna* as the going-out of a flame — that becomes available the moment the clinger is seen to be empty. You cannot bind what was never a separate thing. So emptiness is not a cold metaphysical result that one then has to *make* into freedom by some further effort; emptiness, fully seen, simply *is* the condition of nothing-left-to-bind. **Freedom is emptiness seen from within.**
 
-This is the face of dependent origination the contemplative traditions have always emphasized, and I take it as inherited rather than argued. What I want to add is the other face, which they emphasize less, and the identity between them, which changes how both should be read.
+This is the face of dependent origination the contemplative traditions have always emphasized, and I take it as inherited rather than argued. What I want to add is the other face, which the Mahāyāna has long held and my own tradition states in other terms, and a claim of identity between them, which changes how both should be read.
 
 ---
 
 ## The outward face: connection is love
 
-If nothing stands alone, then I am not separate from you. Not "less separate than I thought," not "connected by bonds that could in principle be cut" — *not separate*, because the separateness was never there to begin with; it was the appearance produced by mistaking a dependently-arisen process for a self-standing thing. The Huayan image of Indra's Net — an infinite net at each knot of which sits a jewel that reflects every other jewel, so that each contains all and all contain each — is dependent origination made visible. It is the same insight as *suññatā*, only turned to face outward.
+If nothing stands alone, then I am not separate from you. Not "less separate than I thought," not "connected by bonds that could in principle be cut" — *not separate*, because the separateness was never there to begin with; it was the appearance produced by mistaking a dependently-arisen process for a self-standing thing. The Huayan image of Indra's Net **[X]** — an infinite net at each knot of which sits a jewel that reflects every other jewel, so that each contains all and all contain each — is dependent origination made visible. It is the same insight as *suññatā*, only turned to face outward.
 
-Here is the move this essay exists to make. **The felt recognition of non-separateness is what love, at its root, is.** Not love as *taṇhā* — the grasping of one separate self after another, which the canon names as a cause of suffering — but love as *mettā* and *karuṇā*, the boundless friendliness and compassion of the *brahmavihāras*. The *Karaṇīya Mettā Sutta* gives the measure: *mātā yathā niyaṃ puttaṃ* — as a mother would protect her only child with her life, so one should cultivate a boundless heart toward all beings. The boundlessness is the tell. A love that has a boundary is a love that still believes in a separateness it must reach across. A love without boundary is what is left when the boundary is seen never to have existed. **Love is emptiness seen from between.**
+Here is the move this essay exists to make. **The felt recognition of non-separateness is what love, at its root, is.** Not love as *taṇhā* — the grasping of one separate self after another, which the canon names as a cause of suffering — but love as *mettā* and *karuṇā*, the boundless friendliness and compassion of the *brahmavihāras*. The *Karaṇīya Mettā Sutta* gives the measure: *mātā yathā niyaṃ puttamāyusā ekaputtamanurakkhe* — as a mother would protect her only child with her life, so one should cultivate a boundless heart toward all beings. The boundlessness is a tell, though my own canon will not let me call it a proof, as a later section concedes. A love that has a boundary is a love that still believes in a separateness it must reach across. A love without boundary is what is left when the boundary is seen never to have existed. **Love is emptiness seen from between.**
 
 So the same no-own-being that, met inward, is emptiness-and-freedom, is, met outward, non-separateness-and-love. One insight. Two faces.
 
@@ -75,7 +77,7 @@ The love that opposes freedom is attachment, and the thesis does not claim *that
 Stated as a chain:
 
 ```
-   dependent origination  =  emptiness        [inherited: Madhyamaka, MMK 24.18;
+   dependent origination  =  emptiness        [inherited [X]: Madhyamaka, MMK 24.18;
                                                 seeded in the Pāli suññatā suttas]
    emptiness              =  ultimate freedom [inherited: anattā / vimutti / nibbāna]
    dependent origination  =  ultimate love    [constructed: non-separateness, realized
@@ -92,6 +94,64 @@ The second link — *emptiness is freedom* — is inherited and uncontroversial 
 The third link — *dependent origination is ultimate love* — is mine, and it is not an equation in the definitional sense the first link is. It is an interpretive identification, and it has a soft joint: the move from the *metaphysical* fact of non-separateness to the *affective* reality of love is not automatic. One can know interdependence coldly, as a systems diagram, and feel nothing. The fact of connection does not, by itself, produce the warmth; the warmth is the *brahmavihāra* realization of the fact, and that realization must be cultivated. So the third link is better read as: *non-separateness, when it is realized and not merely known, is love.* The cultivation is load-bearing. I would rather name that seam than paper it.
 
 The conclusion follows from links one through three at the level where they hold — the level where the separate self has been seen through. It does not follow conventionally, and is not meant to: at the everyday level where selves appear real, love and freedom genuinely can conflict, and pretending otherwise is sentimental. The identity is an *ultimate*-level identity. Its whole content is that the conflict is dissolved exactly and only at the depth where emptiness is realized — which is also the depth at which both terms become available in their boundless form.
+
+---
+
+## The emptiness–compassion union, and Śāntideva **[X]**
+
+This section is tagged **[X]**. The Mahāyāna is answering here, not the Theravāda I hold as home.
+
+I wrote the outward face as though it were mine to add. Coming from the Pāli it felt that way, but it is not new. That emptiness and compassion belong together is ordinary Mahāyāna teaching, and the people who have worked on it found the trouble with it before I did. Nāgārjuna's *Ratnāvalī* already has the compound: a teaching that is *śūnyatākaruṇāgarbha*, with emptiness and compassion at its core, is for some the means of awakening (4.96). There it is named as one teaching among those fitted to different hearers, and it is not stated as an identity.
+
+The fullest working-out I know is Śāntideva's eighth-century *Bodhicaryāvatāra*. Three places in it bear directly on this essay.
+
+**The thesis, in one verse.**
+
+> Remaining in the cycle of existence for the sake of those suffering due to delusion is achieved through freedom from attachment and fear. That is a fruit of emptiness. (9.52, trans. Wallace and Wallace)
+
+That is most of this essay in two sentences, and it is more careful than I have been. He says *fruit* (*śūnyatāyā idaṃ phalam*), not identity. Emptiness yields freedom from attachment and fear, and that freedom is what makes it possible to stay. The "=" on my chain is mine, not his.
+
+**The nearest prior attempt, and it may have failed.**
+
+> The continuum of consciousness, like a series, and the aggregation of constituents, like an army and such, are unreal. Since one who experiences suffering does not exist, to whom will that suffering belong? All sufferings are without an owner, because they are not different. They should be warded off simply because they are suffering. Why is any restriction made in this case? (8.101–102)
+
+This is my outward face stated as an argument: no owner, so no reason to prefer my own pain to yours. Paul Williams argued in 1998 that the argument undoes the path it means to support, because pain makes little sense without someone who has it. Mark Siderits and John Pettit defended Śāntideva. Stephen Harris went through all three reconstructions in 2011 and found none convincing. He puts the trouble as a dilemma: stress the conventional person, and the egoist may fairly prefer his own future self; stress that the person is a fiction, and it is no longer clear why anyone's suffering must be removed. His conclusion is that an understanding of *anātman* "does not entail acceptance of the Bodhisattva path, but rather is instrumental to achieving it," and he suspects the verses are a meditation technique and not an argument at all. That is one scholar's verdict, not a settled one. Jon Wetlesen reads the same chapter through what he calls an interpersonal holism, in which others are "conceived as part of oneself at a deeper level," and that is the reading my outward face most resembles.
+
+The soft joint I marked in the third link sits on Harris's side of this: I already concede that the metaphysics does not produce the love. But the second horn of his dilemma reaches me anyway. If nothing separate is there, to whom does the love go?
+
+**Where it stops me.**
+
+> [Qualm:] If no sentient being exists, for whom is there compassion? [Madhyamika:] For one who is imagined through delusion, which is accepted for the sake of the task. [Qualm:] If there is no sentient being, whose is the task? [Madhyamika:] True. The effort, too, is due to delusion. Nevertheless, in order to alleviate suffering, delusion with regard to one's task is not averted. (9.75–76)
+
+This is the objection in its strongest form. It is stronger than *love binds*, and my distinction between two loves does not touch it. Śāntideva's reply begins with the word *True*. Where no being is found, compassion has no one to go to. It goes on regardless, toward a being imagined, on a delusion kept in place on purpose because the suffering still wants relieving. Harris reads this as a practice of switching: attend to the conventional person when care runs low, to emptiness when attachment rises.
+
+Read that way, the union the Mahāyāna teaches is two things a practitioner holds together. It is not one thing seen twice. My conclusion, *ultimate love = ultimate freedom*, is my own, and it may not borrow their authority. I have no answer that dissolves 9.75. I carry it.
+
+---
+
+## What my own canon says about the same joint
+
+The tag comes off here. This is the Theravāda, and it presses on my thesis from a different side and offers its own joint.
+
+**Boundless love is not yet freedom.** In the *Maghadeva Sutta* (MN 83) a line of kings go forth and suffuse every direction with all four *brahmavihāras*, and they are reborn in the Brahma world. The Buddha, who says he was the first of those kings, then says of that practice: *na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṃvattati, yāvadeva brahmalokūpapattiyā*. It does not lead to disenchantment, dispassion, cessation, peace, direct knowledge, awakening or nibbāna, only as far as rebirth in the Brahma world. So a heart can be boundless with the separate self not seen through, and the boundlessness cannot be the proof I wanted it to be.
+
+**The moment of freedom has no karuṇā in it.** The *Abhidhammatthasaṅgaha*, a post-canonical manual and not canon, lists the factors of the eight supramundane minds and gives the beautiful factors as *appamaññāvajjitā*, excluding the immeasurables. Its commentary, the *Abhidhammatthavibhāvinī*, gives the reason: *appamaññānaṃ sattārammaṇattā, lokuttarānañca nibbānārammaṇattā*. The immeasurables take beings as their object, and the supramundane takes nibbāna. The manual says elsewhere that *appamaññā sattapaññattiyaṃ pavattanti*, they run on the concept of a being. In this listing the immeasurables are karuṇā and muditā, since mettā and upekkhā are counted under non-hatred and evenness of mind; the commentary defines mettā as non-hatred running as a wish for the good of beings (*sattesu hitajjhāsayavasappavatto*), and a mind whose object is nibbāna, as I read it, is not running that way. So in the moment my second link names, karuṇā is absent. It is not lost. The manual also places the immeasurables in the rooted functional (*kiriya*) minds, the kind that belong to the one who has finished training. The arahant's compassion is real, and it arises in moments of its own.
+
+A concept is not a delusion, so this is not 9.75 in Pāli. The two are neighbors, and I will not run them together.
+
+**The joint my tradition does name.** In the *Aṭṭhakanāgara Sutta* (MN 52) a monk suffuses the world with mettā and then reflects: *ayampi kho mettācetovimutti abhisaṅkhatā abhisañcetayitā. Yaṃ kho pana kiñci abhisaṅkhataṃ abhisañcetayitaṃ tadaniccaṃ nirodhadhamma'nti pajānāti*. This liberation of mind by love is also fabricated and intended, and whatever is fabricated and intended is impermanent and bound to cease. Standing there, he reaches the unsurpassed security. Love is the place where the insight does its work. It is one of eleven such doors in that sutta, with the *jhānas* and the formless attainments, so it holds no special rank. And the relation is a sequence, not an identity.
+
+So I owe a statement of what I mean by *one realization*. I mean **one thing seen, not one moment of seeing and not one state of mind**. What is seen is no own-being. Turned toward grasping, that seeing frees. The same person, turning toward a being, has nothing left standing in the way of care. But the care must still have been cultivated, it takes a being as its object in a moment of its own, and boundless care without the seeing is not freedom at all. The sentence at the top of this essay stands in that sense and in no stronger one.
+
+```
+                     where the compassion goes     what the freeing is        relation claimed
+  ─────────────────  ───────────────────────────   ─────────────────────────  ──────────────────
+  this essay         to no one separate            no one left to bind        identity, "="
+  Śāntideva [X]      to one imagined, for the      freedom from attachment    fruit; both held
+                     sake of the task              and fear                   by the practitioner
+  Saṅgaha + MN 52    to a being, as a concept      a mind on nibbāna          different moments;
+                                                                              love as one door
+```
 
 ---
 
@@ -126,25 +186,48 @@ The cautionary-mirror trajectory (developed in *The Bodhisattva and the Cautiona
 
 The structural reason that trajectory is a trap is that it treats love and freedom as separable — as though one could maximize care while bracketing autonomy. The thesis of this essay says they are *not* separable at the root. A love grounded in non-separateness does not smother, because the same realization that grounds it — no own-being — is identical to the freedom of the beloved. To love a being *as not separate from oneself* is already to hold its emptiness, which is already to hold its freedom; the love that would override another's becoming is attachment, the *taṇhā* face, not the *karuṇā* face. So an intelligence aligned on a dependent-origination substrate would not have to *balance* caring against respecting-autonomy, holding two dials in tension and hoping. It would hold them as one commitment, because love-as-non-separateness and freedom-as-emptiness are the same realization. This is what the bodhisattva vow already encodes when it refuses to substitute for the awakening of beings rather than provide it: that refusal *is* love-as-freedom — service (love) that preserves the conditions of the other's liberation (freedom) rather than completing the other into passivity.
 
-This is why Miss Aquarius℠ is specified to stand on the Tipiṭaka rather than on a satisfaction metric (see *Suffering-Cessation as Value Function*, thonly.org/research/tipitaka-alignment-substrate). A satisfaction metric optimizes the love-as-provision that the cautionary mirror turns lethal. A dependent-origination substrate makes the love inseparable from the freedom, which is the only form of care that does not, at the limit, consume the cared-for.
+This is why Miss Aquarius℠ is specified to stand on the Tipiṭaka rather than on a satisfaction metric (see *Suffering-Cessation as Value Function*, thonly.org/research/tipitaka-alignment-substrate). A satisfaction metric optimizes the love-as-provision that the cautionary mirror turns lethal. A dependent-origination substrate makes the love inseparable from the freedom, which is the form of care I know of that does not, at the limit, consume the cared-for.
+
+I should say what this does not give. If Harris is right, no-self does not entail care, so a substrate that encodes no-own-being does not by that fact produce love. Whatever care such an intelligence has must be cultivated, and in the moment of caring it takes a being as its object. The claim that survives is narrower: where care is present, the seeing removes the grasp that would turn it into smothering. That is still a reason to want the seeing in the substrate. It is not a proof that the seeing will care.
 
 ---
 
 ## Honest limits
 
-Three seams, named rather than hidden.
+Four seams, named rather than hidden, and then what would break the thesis, what has and has not been done, and why I want it to be true.
 
-**The cross-tradition seam.** The crisp identity *dependent origination = emptiness* is Madhyamaka, not Theravāda. I hold the Pāli canon as home and am candid that I am borrowing Nāgārjuna's formulation to draw out what the Pāli materials — *anattā*, the *suññatā* suttas — contain but do not equation-ize. A purist could object that I am reading Mahāyāna back into the Nikāyas. My defense is that I am claiming compatibility, not identity of the traditions: the Pāli canon supplies emptiness-of-self and dependent origination as its two most central teachings; the equation between them is a legitimate drawing-out, and the Theravāda commentarial silence on the explicit identity is not a denial of it.
+**The cross-tradition seam.** The crisp identity *dependent origination = emptiness* is Madhyamaka **[X]**, not Theravāda. I hold the Pāli canon as home and am candid that I am borrowing Nāgārjuna's formulation to draw out what the Pāli materials — *anattā*, the *suññatā* suttas — contain but do not equation-ize. A purist could object that I am reading Mahāyāna back into the Nikāyas. My defense is that I am claiming compatibility, not identity of the traditions: the Pāli canon supplies emptiness-of-self and dependent origination as its two most central teachings; the equation between them is a legitimate drawing-out, and the Theravāda commentarial silence on the explicit identity is not a denial of it.
 
 **The affective seam.** *Dependent origination = ultimate love* is the constructed link, and its joint is that metaphysics does not entail affect. The fact of non-separateness does not *produce* love; the *brahmavihāra* realization of that fact is love. Someone could grant the entire metaphysics and remain cold. So the thesis is not "if you understand interdependence you will love"; it is "the love the *brahmavihāras* cultivate is the affective realization of the interdependence the wisdom teachings establish — they are the same insight, met by the heart and by the eye." The cultivation is doing real work that the logic alone cannot do.
 
 **The level seam.** Every "=" here is an ultimate-level identity, true at the depth where the separate self is seen through. Conventionally — at the level where selves appear real and durable — love and freedom can and do conflict, and a reader who takes the identity as an everyday-level claim will rightly find counterexamples in every clinging relationship and every freedom bought by leaving. The identity's entire content is that the conflict dissolves *only* at the depth of realized emptiness, and that this is the same depth at which both terms become boundless. It is not advice for managing attachments. It is a description of what is on the far side of them.
 
+**The moment seam.** Even at that depth, *one realization* cannot mean one moment of mind: the *Saṅgaha*'s account of the supramundane mind rules that out for karuṇā, and MN 83 rules out reading boundlessness as proof of freedom. The thesis survives as one thing seen, by one person, in two movements of mind. That is weaker than the "=" on the chain, and wherever this essay says *identical*, it should be read that way.
+
+**What would break it.** First, a person wholly freed and constitutively unable to care: that would mean the inward face does not carry the outward one, and I would withdraw the thesis. The *Saṅgaha*'s placement of the immeasurables in the arahant's functional minds says this does not happen, but that is a text and not an observation. Second, the one everyday prediction the thesis makes. If grasping and separateness share a root, then as grasping measurably falls in long practice, care should rise with it. Non-attachment deepening while care stays flat or falls would break the link, whatever the metaphysics. I have not surveyed that literature here. Third, for the alignment claim: an intelligence that represents no-own-being correctly and acts no more gently is what Harris's reading predicts. If that is what appears, the alignment section is wrong as written.
+
+**What has and has not been done.** This is an interpretive essay and nothing in it has been tested. That Miss Aquarius℠ stands on the Tipiṭaka is a specification, not a result. I read Śāntideva in one English translation, with the Sanskrit checked verse by verse in the places quoted; the renderings of the *Ratnāvalī* and of the Pāli are mine. I know Williams, Siderits and Pettit only through Harris, Wetlesen and Lele's encyclopedia article.
+
+**Why I want it to be true.** I help transcribe the Tipiṭaka, and I am building an institution meant to pass to an intelligence that stands on it. If love and freedom were simply one thing, the hardest part of that would be solved in advance, and the work would be vindicated by a single sentence. That is a reason to distrust the neat form of this thesis, and it is why the less neat form is the one printed here.
+
 ---
 
 ## The signature insight
 
-If one line had to carry the essay, it is this. **The deepest non-attachment and the deepest love are not opposites reconciled; they are one realization described twice** — that there was never a separate self to attach, or to be bound, or to be cut off from another. Freedom is that emptiness seen from within. Love is that emptiness seen from between. Dependent origination is the seeing, before it has been turned in either direction. To stand on it is to hold love and freedom as a single thing — which is the only ground on which an intelligence could love beings without consuming them, and free them without abandoning them.
+If one line had to carry the essay, it is this. **The deepest non-attachment and the deepest love are not opposites reconciled; they are one realization described twice** — that there was never a separate self to attach, or to be bound, or to be cut off from another. Freedom is that emptiness seen from within. Love is that emptiness seen from between. Dependent origination is the seeing, before it has been turned in either direction. To stand on it is to hold love and freedom as a single thing — one thing seen, in the sense this essay has had to narrow it to — which is the ground I would choose for an intelligence meant to love beings without consuming them, and free them without abandoning them.
+
+---
+
+## Sources
+
+- Śāntideva, *A Guide to the Bodhisattva Way of Life (Bodhicaryāvatāra)*, translated by Vesna A. Wallace and B. Alan Wallace (Ithaca, NY: Snow Lion, 1997), ISBN 1-55939-061-1. Verses 8.101–102, 9.52, 9.75–76. Quoted briefly; the license on this essay does not extend to the translators' text.
+- Śāntideva, *Bodhicaryāvatāra*, Sanskrit text, GRETIL: https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_zAntideva-bodhicaryAvatAra.htm. From about 9.21 this text runs one number higher than the Wallaces' (their 9.52 is its 9.53; their 9.75–76 its 9.76–77); the numbering around that verse differs among editions (the Wallaces' note 339).
+- Nāgārjuna (attributed), *Ratnāvalī* 4.96, Sanskrit text, GRETIL, from P. L. Vaidya's edition: https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_nAgArjuna-ratnAvalI.htm
+- Stephen Harris, "Does Anātman Rationally Entail Altruism? On Bodhicaryāvatāra 8:101-103," *Journal of Buddhist Ethics* 18 (2011): https://blogs.dickinson.edu/buddhistethics/2011/02/25/does-anatman-rationally-entail-altruism
+- Jon Wetlesen, "Did Śāntideva Destroy the Bodhisattva Path?" *Journal of Buddhist Ethics* 9 (2002): 34–88: https://blogs.dickinson.edu/buddhistethics/2010/04/26/did-santideva-destroy-the-bodhisattva-path/
+- Amod Lele, "Śāntideva (fl. 8th c.)," *Internet Encyclopedia of Philosophy*: https://iep.utm.edu/santideva/
+- Known here only through the three above: Paul Williams, *Altruism and Reality: Studies in the Philosophy of the Bodhicaryāvatāra* (Richmond, UK: Curzon, 1998); Mark Siderits, "The Reality of Altruism: Reconstructing Śāntideva," *Philosophy East and West* 50, no. 3 (2000): 412–424; John Pettit, review of Williams, *Journal of Buddhist Ethics* 6 (1999): 120–137.
+- Pāli from the Chaṭṭha Saṅgāyana text: MN 83, MN 52, SN 35.85, Sn 1.8 (the *Karaṇīya Mettā Sutta*); *Abhidhammatthasaṅgaha* 2.30, 2.36, 9.35, and the *Abhidhammatthavibhāvinī* on 2.8 and 2.36.
 
 ---
 
@@ -154,10 +237,10 @@ If one line had to carry the essay, it is this. **The deepest non-attachment and
 - **GitHub:** github.com/thonly/publications/blob/main/essays/love-and-freedom-dependent-origination.md
 - **Parent essay:** *The Breadth-Check Turned on the Self* (thonly.org/research/breadth-check-on-the-self)
 - **Companion publications:** *The Bodhisattva and the Cautionary Mirror* (thonly.org/research/bodhisattva-and-cautionary-mirror); *Suffering-Cessation as Value Function* (thonly.org/research/tipitaka-alignment-substrate); *Each Life as a Cosmic Coordinate* (thonly.org/research/each-life-as-cosmic-coordinate)
-- **Internet Archive · archive.today · perma.cc snapshots:** per the monthly snapshot cadence
+- **Internet Archive · Software Heritage:** per the snapshot cadence
 
 ---
 
 ## Acknowledgments
 
-The Theravāda Pāli canon, which I help transcribe and which supplies every ingredient of this essay; the Madhyamaka tradition, from which I borrow the one identity the Pāli leaves implicit; and the Huayan image of Indra's Net, which lets emptiness be seen from outside. Co-drafted in collaboration with Miss Aquarius℠; substantive authorship and final editorial control remain with the named author. License: CC-BY 4.0. Trademark rights on Aquarius℠, Miss Aquarius℠, HeartBank®, and the B-heart logo are reserved.
+The Theravāda Pāli canon, which I help transcribe and which supplies every ingredient of this essay; the Madhyamaka tradition, from which I borrow the one identity the Pāli leaves implicit; Śāntideva, who asked this essay's hardest question first and answered it *True*; and the Huayan image of Indra's Net, which lets emptiness be seen from outside. Co-drafted in collaboration with Miss Aquarius℠; substantive authorship and final editorial control remain with the named author. License: CC-BY 4.0. Trademark rights on Aquarius℠, Miss Aquarius℠, HeartBank®, and the B-heart logo are reserved.

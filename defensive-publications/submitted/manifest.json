@@ -320,11 +320,11 @@
       "claims_headings": [
         "## Findings disclosed"
       ],
-      "claims_sha256": "ab377c677c2e9d3b5add4e98b90d3679dbadcfb79ef801d2d883d42ba34b5ab9",
+      "claims_sha256": "44e2cd21405f5adac3ad0156afd5059348405e8b3d54a93f2b4cb6b0eb816756",
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "728f2287308e4200e7667143e2410a503baa8781fd957c0b1dea52bae0c6b733",
+      "body_sha256": "887fcc13edcd1e8da784cc12f5d5edbd9c24e244d302cb2bc5b52fa071e06350",
       "posted": "2026-10-07",
       "url": "https://www.tdcommons.org/dpubs_series/12025",
       "posted_verified": {
@@ -335,7 +335,15 @@
         "words": 12020,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-04",
+          "from": "ab377c677c2e",
+          "to": "44e2cd21405f",
+          "note": "Prose only: one sentence in the Findings lead pointing to §8.6 (Collins's reading carried as an objection). No finding added, removed or widened; no new matter a finding rests on."
+        }
+      ]
     },
     {
       "slug": "capacity-funded-human-disbursed-ai-alignment",
@@ -413,11 +421,11 @@
       "claims_headings": [
         "## 13 · Findings Disclosed and Dedication"
       ],
-      "claims_sha256": "78ff680c199c9e09472e8a87f8cbf5c5dd0d2087746d5aa72b0fd0bd08e82193",
+      "claims_sha256": "80cbfce2fc86e873624ade25adfcd24741a669d3ee081f7ca3e936b8c7e8cd99",
       "claims_heading_override": [
         "## 13 · Findings Disclosed and Dedication"
       ],
-      "body_sha256": "d438591192b1f785117bf56b404f5905586a2660982d48253e05e4b339647ad0",
+      "body_sha256": "823aa6068503cfc54cab531fb6e4b173fc18aff67a8571a6641d79c5b2bcb995",
       "posted": "2026-10-06",
       "url": "https://www.tdcommons.org/dpubs_series/11955",
       "posted_verified": {
@@ -428,7 +436,15 @@
         "words": 11929,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-04",
+          "from": "78ff680c199c",
+          "to": "80cbfce2fc86",
+          "note": "2026-11-04 literature batch: Suits and Kretchmar engaged as open questions (§2.1, §9.5, §10, §12). Findings 9 and 10 gain bounding pointers only; no new finding, no new matter a finding rests on, count stays 11."
+        }
+      ]
     },
     {
       "slug": "co-presence-gated-redemption",
@@ -545,11 +561,11 @@
       "claims_headings": [
         "## Findings disclosed"
       ],
-      "claims_sha256": "cc6d61540b0ed047d9452d83f57653aaf7a40b1f7c1334200e29dadb58f9b595",
+      "claims_sha256": "0bfac0ae532a6d1f1b9c66748e397d181de5d3e3664affd348a5e2d0c39e68ad",
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "9c3b848524f8a6bdea8ce72eefa19c5e88a7975a7f65e9c405e2ecded9f8ac54",
+      "body_sha256": "48554895b7244cf1997afee6b459fe1ab0cf8b519327a71b670a1d330ab509d2",
       "posted": "2026-10-07",
       "url": "https://www.tdcommons.org/dpubs_series/12026",
       "posted_verified": {
@@ -560,7 +576,15 @@
         "words": 12637,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-04",
+          "from": "cc6d61540b0e",
+          "to": "0bfac0ae532a",
+          "note": "2026-11-04 register recast (thesis line, §7.2, §3.2, §11.1) per #46/#64; Current form notes on re-homed .me/.us and the release terminus; finding 1 gains a pointer only. No finding added or widened; no new matter."
+        }
+      ]
     },
     {
       "slug": "embodied-advocate-pageant",
@@ -885,11 +909,11 @@
       "claims_headings": [
         "BODY"
       ],
-      "claims_sha256": "db2d4fcf227565a4b2ba09b3d94a3fecedf806e4d1498b57d182d341c5c32909",
+      "claims_sha256": "98ae88a85a21d024d5eef2c5284a29cf9637d54790bee0e06d71170cdd699590",
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "758d8850bea98739df16f528637746cbad65b07bab84bc5dac72150f68b6867d",
+      "body_sha256": "142cb5b454e65b651937dceb8f4f144acad3280e9fed043d3ae99763d23b40f4",
       "posted": "2026-10-06",
       "url": "https://www.tdcommons.org/dpubs_series/11978",
       "posted_verified": {
@@ -907,6 +931,12 @@
           "from": "f360a1fdec94",
           "to": "db2d4fcf2275",
           "note": "2026-11-03: a two-sentence cross-reference to the-unpaid-relay §6.1 and a concession that one step is asserted, not derived. No enumerated claim and no new matter a claim rests on."
+        },
+        {
+          "date": "2026-11-04",
+          "from": "db2d4fcf2275",
+          "to": "98ae88a85a21",
+          "note": "No enumerated claims added or changed; Current form notes (radio co-presence, two-reading measure) per the variant rule, limits added to 6.3.1 and 7, 5.3.1 derivation and P(p) correction are argument not claims; nothing at the venue."
         }
       ]
     },
@@ -1135,8 +1165,8 @@
       "claims_headings": [
         "## 8 · The claim, in its final and smaller form"
       ],
-      "claims_sha256": "2143b41864f43e39da1fa51d74dba73f30cb222e819b0f522cec7c3c7169d124",
-      "body_sha256": "f308ea5423a5abed3a7c8666a235986d9c14a63dfb0c4952bcefe3f84a21d541",
+      "claims_sha256": "45453fa75beabe0cf45464e534f6e7163e9df7b45f67367e0ee28163097d2ff5",
+      "body_sha256": "4db938411a3353b13745c6a6668bdd3015e72df3376806084514c3aab8858188",
       "posted": "2026-09-24",
       "url": "https://www.tdcommons.org/dpubs_series/11860",
       "posted_verified": {
@@ -1147,7 +1177,15 @@
         "words": 10862,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-04",
+          "from": "2143b41864f4",
+          "to": "45453fa75bea",
+          "note": "2026-11-04 literature revision (Salganik, Dodds & Watts 2006). §8 prose: one sentence narrowed, plus a non-claim and an open question against the ratchet claim via the warm layer. Enumerated claims 1-11 unchanged; no new matter a claim rests on; the revision only bounds. No second submission."
+        }
+      ]
     },
     {
       "slug": "sacrifice-witness-without-discharge",
@@ -1317,8 +1355,8 @@
         "## 8 · Claim 5 — anti-aggregation, by asker rather than by subject",
         "## 10 · Enumerated claims"
       ],
-      "claims_sha256": "989b86e5a4d03bb9bc05fc498d3712e287fc455d3639ef3a79aff82551c3e264",
-      "body_sha256": "214af90763b8b6f1ca57212c37adf447e13539dc538ef1cf8c21bebf99936824",
+      "claims_sha256": "4e21d892fd3c364b47779c4a9935ebeb6835a62c76facf4c32e00f261d7a1b1e",
+      "body_sha256": "6871a3f6b2d68cb5c8a8e72e48707c2b8f8d934b6fc155c7026db57df25ed1c0",
       "posted": "2026-09-24",
       "url": "https://www.tdcommons.org/dpubs_series/11863",
       "posted_verified": {
@@ -1329,7 +1367,15 @@
         "words": 8813,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-04",
+          "from": "989b86e5a4d0",
+          "to": "4e21d892fd3c",
+          "note": "2026-11-04 literature revision: §10 byte-identical and §5's rule box verbatim; §5 prose narrowed from 'no return to manufactured activity' to 'volume' and a concession added, carrying Goodhart and strategic classification. No new matter, no new claim; nothing owed at the venue."
+        }
+      ]
     },
     {
       "slug": "thank-all-nearby-primitive",
@@ -1508,11 +1554,11 @@
       "claims_headings": [
         "## Findings disclosed"
       ],
-      "claims_sha256": "988c13f858f7c67f5d102780233bb84f36c9507f928f3ae78eb3dea90ba741ff",
+      "claims_sha256": "26b9ab547fd177c84cc8cf32fc6911b7937fbb34e7aa363d7e0f29a8866ca677",
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "2ab493398fdc675526b7e0ea860dde2df513bcd57e5732597aab3cc853eb4b2c",
+      "body_sha256": "dad6ef71ba26d9223e633bd898a5aafc5d05be4cd8a27513938694196b95f7af",
       "posted": "2026-10-07",
       "url": "https://www.tdcommons.org/dpubs_series/12030",
       "posted_verified": {
@@ -1523,7 +1569,15 @@
         "words": 9486,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-04",
+          "from": "988c13f858f7",
+          "to": "26b9ab547fd1",
+          "note": "2026-11-04: Finding 7 narrowed to admit Collins's humorous-parable reading and given a further break condition; no new matter, no new finding, no second submission owed."
+        }
+      ]
     },
     {
       "slug": "the-persistence-architecture",

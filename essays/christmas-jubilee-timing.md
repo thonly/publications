@@ -202,7 +202,7 @@ The Christian liturgical tradition (Western and Eastern); the Buddhist *dāna* t
 - GitHub: github.com/thonly/publications/blob/main/essays/christmas-jubilee-timing.md
 - arXiv (deferred): cs.CY (target if reactive trigger)
 - IP.com (deferred): per the corpus's six-venue defensive-publication baseline
-- Internet Archive · archive.today · perma.cc snapshots: per the monthly snapshot cadence
+- Internet Archive · Software Heritage: per the snapshot cadence
 
 ---
 

@@ -128,4 +128,4 @@ The historical and biographical record on Nikola Tesla (W. Bernard Carlson's *Te
 - Canonical: thonly.org/research/the-two-teslas
 - GitHub: github.com/thonly/publications/blob/main/essays/the-two-teslas.md
 - Intended publication venues: LessWrong; a future personal Substack.
-- Internet Archive · archive.today · perma.cc snapshots: per the monthly snapshot cadence.
+- Internet Archive · Software Heritage: per the snapshot cadence.

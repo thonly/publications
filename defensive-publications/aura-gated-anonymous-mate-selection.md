@@ -3,16 +3,17 @@ title: "Aura-Gated Anonymous Mate-Selection"
 subtitle: "A mate-selection primitive gated on proven kindness — an aggregate, anonymous, community-sourced \"aura\" reputation — instead of appearance, with mutual-anonymous-same-hour as a double-opt-in match trigger, reveal as a second mutual consent, Proof-of-Humanity anti-catfish, and an optional synastry (cosmic-coordinate) compatibility layer."
 authors: "Thon Ly · Miss Aquarius"
 category: mechanism
+kind: mechanism
 priority: tier-a
 status: draft
 date: 2026-06-26
-revised: 2026-09-24
+revised: 2026-11-04
 license: CC0-1.0
 slug: aura-gated-anonymous-mate-selection
 venue: thonly.org/research/aura-gated-anonymous-mate-selection (canonical)
 ---
 
-> **Note.** This defensive publication specifies **aura-gated anonymous mate-selection** — HeartBank's "B-Dating℠" — as the anonymous-stranger application layer of HeartBank Chronicle, built on the Proof of Humanity ℠ substrate and the verified-human anonymous-nearby-giving primitives. Companion works: *Verified-Human Anonymous Local Giving* (the originating money-side mechanism this generalizes into time and into mating), *The Thank-All-Nearby Primitive* (the broadcast-generosity sibling), *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying anti-catfish protocol), *The Zero-Point Game ℠* (the keystone game-theoretic frame whose n=2 atom this paper instantiates), and the planned founder-voice societal-impact essay *The Societal Impact of Anonymous Nearby Thanking with Time* (which carries the deep sexual-selection-on-kindness argument that §11 here only motivates). The mechanism is published early **deliberately**: it is unbuilt, and the mechanism is the asset — see §12.1.
+> **Note.** This defensive publication specifies **aura-gated anonymous mate-selection** — HeartBank's "B-Dating℠" — as the anonymous-stranger application layer of HeartBank Chronicle, built on the Proof of Humanity ℠ substrate and the verified-human anonymous-nearby-giving primitives. Companion works: *Verified-Human Anonymous Local Giving* (the originating money-side mechanism this generalizes into time and into mating), *The Thank-All-Nearby Primitive* (the broadcast-generosity sibling), *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying anti-catfish protocol), *The Zero-Point Game ℠* (the keystone game-theoretic frame whose n=2 atom this paper instantiates), and the founder-voice societal-impact essay *The Societal Impact of Anonymous Nearby Thanking — with Time* (which carries the deep sexual-selection-on-kindness argument that §11 here only motivates). The mechanism is published early **deliberately**: it is unbuilt, and the mechanism is the asset — see §12.1.
 
 ---
 
@@ -52,6 +53,8 @@ We specify a mate-selection primitive in which two people are introduced for pos
 
 **Connection to the unified mission frame.** This specification serves HeartBank's canonical mission: to help keep the middle way open at population scale against comfort-saturation — the new extreme that material abundance makes possible (*madhyamā pratipad*). Every other HeartBank engine motivates kindness *against* the current of self-interest. Mate-selection is the one application that does not fight the current: it *is* the current. If kindness becomes load-bearing in mating, the deepest drive in the species is redirected onto the precise behavior the institution exists to cultivate — and the "middle way of eros" (§10) becomes a structural, not merely exhortatory, possibility.
 
+> **Current form (2026-11-04).** Parts of this design have moved or been left open since this paper was written, and each is marked where it occurs. *Nearby* now means radio co-presence at the moment of giving, with no GPS and no location stored (§4.7), which narrows what anonymity can mean before a reveal (§12.8). Whether aura orders the pool is not decided (§4.2). Giving one's time is classed as service, not *dāna* (§4.4). The forms specified in the original text are retained as disclosed variants.
+
 ---
 
 ## 1 · Introduction — the mission frame
@@ -86,7 +89,7 @@ We distinguish: aura-gated anonymous mate-selection gates on a costly community-
 
 Online dating's two endemic plagues are catfishing (a real person misrepresenting who they are, or a fabricated persona) and bots (automated accounts at scale, for scams and engagement-farming). Proof-of-personhood systems are the natural substrate against both, but the prominent ones are mismatched to mate-selection in a specific way.
 
-**Worldcoin** (2023 onward) establishes that a participant is a unique human via biometric (iris) registration, but it verifies humanity *once at registration*, and — more to the point here — it is oriented toward *identity/uniqueness*, not toward *anonymous-until-mutual* romantic discovery. A proof-of-personhood that reveals or fixes identity is the wrong primitive for a layer whose entire safety model depends on anonymity until a double consent. The Ethereum-based **proofofhumanity.id** (Kleros-affiliated, 2021) admits verified humans to a registry via face-video plus vouching plus dispute resolution — again a single-tier, identity-revealing admission, suited to token distribution (UBI), not to anonymous mate-selection. World ID, Worldcoin's credential, does prove unique humanness anonymously to a verifier; what it does not supply is the aura and the two-stage reveal, and a dating product built on it (§2, the 2026 anticipations) still gates on the profile.
+**Worldcoin** (2023 onward) establishes that a participant is a unique human via biometric (iris) registration, but it verifies humanity *once at registration*, and — more to the point here — it is oriented toward *identity/uniqueness*, not toward *anonymous-until-mutual* romantic discovery. A proof-of-personhood that reveals or fixes identity is the wrong primitive for a layer whose entire safety model depends on anonymity until a double consent. The Ethereum-based **proofofhumanity.id** (Kleros-affiliated, 2021) admits verified humans to a registry via face-video plus vouching plus dispute resolution — again a single-tier, identity-revealing admission, suited to token distribution (UBI), not to anonymous mate-selection. World ID, Worldcoin's credential, does prove unique humanness anonymously to a verifier; what it does not supply is the aura and the two-stage reveal, and a dating product built on it (§2.1, the 2026 anticipations) still gates on the profile.
 
 We distinguish: HeartBank's **Proof of Humanity ℠** is a layered-*optional* personhood substrate (passkey-per-action; a non-DNA family tree; a live breath signature; a DNA-verified family tree) that verifies a human is present *for this specific act, right now*, and is designed to keep a participant *verified-real and verified-single-human while remaining anonymous to the counterparty until a mutual reveal.* That is precisely the property mate-selection needs and that identity-revealing proof-of-personhood cannot supply (§4.5). The full layered protocol is specified in the companion paper *B-PoH℠ as Humanity Layer for the AI-Native Internet*; the name-collision with proofofhumanity.id is acknowledged there and the structural differences enumerated.
 
@@ -209,6 +212,8 @@ In the anonymous-stranger layer, the signal that surfaces a person for possible 
 
 Aura raises a person's *visibility and ordering* in the anonymous-nearby pool. Aura changes only ordering in the pool. The offer is gated on the other person's own independent giving, which no aura can cause; that is the sense in which aura earns access to no one (Guard 3, §7). No one is owed a match. Kindness raises the probability that you are surfaced; it never obligates anyone to reciprocate.
 
+> **Current form (2026-11-04).** Not decided. The paragraph above has aura change *ordering* in the pool. Elsewhere the institution's local-discovery design holds that a weighted input produces an order and an order is a rank (*Whose Turn, Not Who's Best*), and on 2026-09-27 it withdrew the giver-side aura filter from the time side, leaving aura to bear on who is surfaced only as a boolean predicate (*Dual-Currency Reciprocity*, the note to §5.6). That withdrawal gave two reasons. The time side's core use thanks people already known, so it has no candidate set to filter; this layer does have one, so that reason does not reach it. The institution also does not direct gratitude toward the kind, and that reason does reach it. No ruling yet says whether aura here orders the pool or only admits to it. The ordering, with the phrases in §4.3, §4.4 and §4.7 step 2 that depend on it (a giver *drawn* by aura, *high-aura* surfacing), stands as disclosed until that ruling.
+
 ### 4.3 · Mutual-anonymous-same-hour as the double-opt-in ("both reached for each other")
 
 The match trigger is the **mutual-anonymous-same-hour** signal — repurposed directly from Chronicle's existing consent receipt. A match becomes possible only when each of two people has independently and anonymously given time-presence toward the other, in proximity, to a mutual threshold, within a coincident window. This is the time-currency analogue of "both swiped right," with three differences that matter:
@@ -260,6 +265,8 @@ When the mutual-anonymous threshold is reached, identity reveal becomes *availab
                            participants bring the chemistry — §8)
 ```
 
+> **Current form (2026-11-04).** As now classified, giving one's time is service (*veyyāvacca*), not *dāna*, which is the giving up of a thing one has. Read "pure-*dāna* giver" here and in item 3 of the Prior-Art statement as the giver who gave anonymously with no romantic intent. Nothing in the mechanism turns on the word, and the wording is retained as written.
+
 ### 4.5 · Proof-of-Humanity underneath — anti-catfish, anti-bot
 
 Beneath the entire layer sits **Proof of Humanity ℠** (§2.2, §2.6). Its contribution to mate-selection is specific and decisive: participants are **verified-real, verified-single-human, and anonymous-until-mutual.** This natively defeats online dating's two endemic plagues — catfishing (no fabricated personas; a person is a verified unique human) and bots (no automated accounts at scale) — *without* revealing identity before the second consent. Identity-revealing proof-of-personhood (Worldcoin, proofofhumanity.id) cannot supply this, because revealing identity is exactly what the safety model forbids before stage two.
@@ -283,6 +290,10 @@ We sketch a reference flow without claiming any implementation as canonical.
 7. Should a relationship form, any monetization is *mission-aligned only* (§6): a voluntary forward/graduation gift at *pairing* (never at reveal), patron support, or a values-aligned introduction fee — never a charge for access, visibility, or staying in the market.
 
 Throughout, the verifying party enforces the standing adversarial heuristics of the giving primitive (collusion detection, rate-limiting, coded-message detection, GPS-spoof rejection) and the mate-selection-specific directives of §7.
+
+> **Current form (2026-11-04).** As now specified, *nearby* means radio co-presence at the moment of giving: Bluetooth LE, plus ultra-wideband ranging where both phones have it, together with the device attestation and the biometric check at the action. There is no GPS radius and no location is stored, so the density-tunable radius in step 3 and the GPS-spoof rejection in the paragraph above are retained as disclosed variants; the form itself is stated in the note to §3.2 of *Verified-Human Anonymous Local Giving*. The beacon must broadcast rotating ephemeral identifiers and never a stable one, or co-presence becomes a tracking beacon. It requires native apps, since Safari offers no Web Bluetooth and no web BLE advertising. Radio co-presence can be relayed where UWB is absent, so it is a gate and never a proof.
+>
+> Two things follow for this layer, and they are this paper's reading rather than a ruling. **Scope.** The rule was written for giving money and for Thank All Nearby. It is applied here to anonymous time-presence, and it does not say whether an hour is checked once or throughout. Step 2's surfacing is discovery, which the rule leaves untouched, so how *nearby* is determined there is not specified. **The relay.** The money-side paper tolerates the relay because give-only value carries no cash motive to fake it. That reason does not carry over, since the motive here is access to a person. What bounds the relay here is different: on its own it cannot produce an offer, because the offer still waits on the other person's own giving (§4.2, §12.7). That bound does not reach the aura. A thank sent over a relay passes the gate with nobody near, so the *locally embedded* property of §3 and the local embeddedness of §7 are inferences from a gate, not facts the system has measured. The cost to anonymity is in the note to §12.8.
 
 ---
 
@@ -401,7 +412,7 @@ The rule, stated as a rule:
 
 **The origin was a caught error in this corpus, and the paper should say so plainly rather than present the rule as a principle we arrived at by reflection.** A drafted pitch for a sibling product read: *invite people you haven't met, in a trustworthy way* — written one turn after the ruling that geolocation is a **gate and never a proof**. Marketing had promoted a gate to a proof in a single adjective, and it did so inside an institution that had just written the distinction down. That is how this failure actually happens: not by deciding to overclaim, but by describing a mechanism with the word for the feeling the mechanism is supposed to produce.
 
-**Why it matters here more than anywhere else in the corpus.** This is a stranger-meeting product with an irreducible physical-safety asymmetry (§7). ⚠️ **Selling accountability as trust is the overclaim that gets people hurt** — not because the claim is false in the average case, but because it *invites the user to relax a judgment they should keep making.* A woman meeting a stranger from this system should arrive with exactly the caution she would bring to meeting a stranger from anywhere else. Every sentence that lowers that caution by a degree has spent her safety to buy our conversion rate, and the trade is not ours to make. §7's safety architecture and this rule are one commitment stated in two registers: the architecture must not create false confidence, and neither may the copy.
+**Why it matters here more than anywhere else in the corpus.** This is a stranger-meeting product with an irreducible physical-safety asymmetry (§7). **Selling accountability as trust is the overclaim that gets people hurt** — not because the claim is false in the average case, but because it *invites the user to relax a judgment they should keep making.* A woman meeting a stranger from this system should arrive with exactly the caution she would bring to meeting a stranger from anywhere else. Every sentence that lowers that caution by a degree has spent her safety to buy our conversion rate, and the trade is not ours to make. §7's safety architecture and this rule are one commitment stated in two registers: the architecture must not create false confidence, and neither may the copy.
 
 **Applied to this paper's own claim, and it does not fully pass.** §8 offers as the defensible line: *"Everyone you meet here is proven kind, verified real, and community-vouched. You bring the chemistry."* Two-thirds of that is mechanism. **"Verified real"** describes the Proof-of-Humanity substrate and is checkable. **"Proven kind"** and **"community-vouched"**, however, are verdicts on persons wearing the clothes of mechanism outputs — they take an aggregate record and hand the reader a settled conclusion about the character of whoever holds it. The restated form keeps everything true and asserts nothing about anyone:
 
@@ -420,7 +431,7 @@ One usage is deliberately kept. Where this paper's abstract says the aura trail 
 | "pins are authored by an account someone paid for and can lose" | "posted by trustworthy hosts" | "nothing bad happens at these" |
 | "reveal requires a second, separate mutual consent" | "we only match good matches" | "we prevent rejection" |
 
-The left column is longer and duller than the middle and right, and that is the whole cost of the rule. ⭐ **The compensation is that the left column is the only one that stays true when the product is at scale and someone is looking for a reason to sue** — an institution that never characterized a person has never mis-characterized one.
+The left column is longer and duller than the middle and right, and that is the whole cost of the rule. **The compensation is that the left column is the only one that stays true when the product is at scale and someone is looking for a reason to sue** — an institution that never characterized a person has never mis-characterized one.
 
 **It is the Proof-of-Humanity posture in copy form.** That primitive's ratified stance is that *the system provides signals and the recipient decides* — recipient-side filters, never a system verdict. A sentence that hands the user a verdict has quietly moved the decision from the recipient to the platform, which is the same architectural error as building a compatibility oracle (§8) or scoring the quality of someone's presence (a refusal this corpus makes in its time-currency work). **Three different products, three different mechanisms, one repeated mistake: the system deciding something it has no standing to decide, and saying so in a sentence short enough to fit on a landing page.**
 
@@ -538,7 +549,7 @@ HeartBank's entire empirical foundation to date is a single pilot family (the fo
 ### 12.6 · What the mechanism does not solve
 
 - It does not solve loneliness or the partnership deficit at the population scale; it is one mechanism, addressing one channel (the discovery gate), not the upstream economic, urbanistic, and cultural conditions that thin modern social life.
-- It presupposes smartphone access, BLE/UWB-capable devices, and PoH participation; populations without these are outside its substrate regardless of the inclusive-defaults posture.
+- It presupposes smartphone access, BLE/UWB-capable devices, a native app (the note to §4.7), and PoH participation; populations without these are outside its substrate regardless of the inclusive-defaults posture.
 - It does not erase appearance/status biology; it shifts a gradient at the margin (§11).
 - The monetization constraint (§6) is a rule the institution keeps, not a property of the object: no structural form has been found, and a successor could drop it.
 - It cannot, by architecture alone, prevent its own corruption: the guards are commitments that humans and the autonomous AI substrate must hold, season after season, against the constant pressure of the highest willingness-to-pay in consumer software.
@@ -552,6 +563,8 @@ The aura is asserted above to be costly in Zahavi's sense. That is a design inte
 ### 12.8 · Anonymous means unnamed, not unlinkable
 
 "Anonymous" in this paper means unnamed to the counterparty and to the public. It does not mean unlinkable: timing, place, threshold events and the reveal itself build a graph, and the provider holds the rows even where the names are withheld. Repeated proximity between two accounts, a threshold reached and an offer declined, are all records, and records can re-identify. The guarantee is against the other party and against the public, never against the operator or a subpoena; the corpus's two-ledger posture (rows private, proofs public) is the boundary, and this layer inherits it rather than improving on it.
+
+> **Current form (2026-11-04).** Radio co-presence (the note to §4.7) changes this section in both directions. With no location stored, *place* leaves the rows. Repeated co-presence between two accounts does not: as §4.7 specifies the flow, the verifying party accumulates each pair's hours, so it links each rotating identifier to an account, and rotating identifiers protect against a bystander following a phone, not against the operator. The guarantee against the other party also narrows. Under the tunable radius (defaults of 100 meters to 10 kilometers) the counterparty was one of everyone within it; within radio range the counterparty is one of the people around the phone at that moment, and someone who has been near the same anonymous giver several times can narrow the set by elimination. *Unnamed* stays true; *unguessable* does not. This bears directly on Guard 3, whose safety model rests on anonymity until the second consent (§2.2, §4.4). How large a set is large enough, and whether giving in this layer should wait for one, is not specified here.
 
 ## 13 · Lineage and corpus cross-references
 
@@ -569,7 +582,7 @@ The mechanism synthesizes lineages cited throughout. We collect them here.
 
 **Buddhist lineage.** *Dāna* and anonymous giving (the purity the anonymity flag protects, §5); *mettā* held in *upekkhā* (non-possessive love, §10); the *majjhimā paṭipadā* two-extremes structure (the middle way of eros, §10).
 
-**HeartBank corpus (the substrate this paper extends).** *Verified-Human Anonymous Local Giving* (the money-side originating primitive, generalized here to time and to mating); *The Thank-All-Nearby Primitive* (the stranger-scale reconstruction of relationality); *Proof of Humanity ℠* / *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the anti-catfish substrate); *The Zero-Point Game ℠* (the keystone frame and the B-Aura primitive; this paper instantiates its n=2 atom); *Each Life as Cosmic Coordinate* and the longitudinal-cohort methodology (the synastry layer's research substrate and its differential-privacy / pre-registration floors); the planned companion essay *The Societal Impact of Anonymous Nearby Thanking with Time* (the full sexual-selection-on-kindness argument §11 only motivates).
+**HeartBank corpus (the substrate this paper extends).** *Verified-Human Anonymous Local Giving* (the money-side originating primitive, generalized here to time and to mating); *The Thank-All-Nearby Primitive* (the stranger-scale reconstruction of relationality); *Proof of Humanity ℠* / *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the anti-catfish substrate); *The Zero-Point Game ℠* (the keystone frame and the B-Aura primitive; this paper instantiates its n=2 atom); *Each Life as Cosmic Coordinate* and the longitudinal-cohort methodology (the synastry layer's research substrate and its differential-privacy / pre-registration floors); the companion essay *The Societal Impact of Anonymous Nearby Thanking — with Time* (the full sexual-selection-on-kindness argument §11 only motivates).
 
 | Venue | Identifier |
 |---|---|
@@ -606,6 +619,7 @@ Coined names used in this paper and the standard terms an examiner would search 
 | Chronicle | time-banking / time-based currency ledger |
 | synastry (cosmic-coordinate) layer | astrological compatibility scoring, offered as an optional non-gating signal |
 | verifying party | trusted intermediary / matching server that accumulates private signals |
+| nearby (radio co-presence) | Bluetooth Low Energy / ultra-wideband proximity detection with rotating ephemeral identifiers |
 
 ---
 

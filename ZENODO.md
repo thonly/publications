@@ -8,7 +8,7 @@ after this site moves or stops, and present in the indexes academics search.
 
 **It is not prior art, and it is not an upgrade to the prior-art strategy.** Prior
 art needs public availability, which the public render at `thonly.org/research`
-plus the Internet Archive / archive.today / perma.cc snapshots already supply. A
+plus the Internet Archive snapshots and Software Heritage saves already supply. A
 DOI adds reach and durability of *reference*, not of *date*. Dating is the job of
 the two timestamp legs — see [`TIMESTAMPS.md`](./TIMESTAMPS.md).
 

@@ -188,7 +188,7 @@ Beauty is not proof. Earth is proof. The chart and the breadth-check agree, and 
 - **GitHub:** github.com/thonly/publications/blob/main/essays/breadth-check-on-the-work.md
 - **Parent essays:** *The Four Elements as a Breadth-Check Discipline* (thonly.org/research/four-elements-as-breadth-check); *The Breadth-Check Turned on the Self* (thonly.org/research/breadth-check-on-the-self)
 - **Companion works:** *Each Life as a Cosmic Coordinate* (thonly.org/research/each-life-as-cosmic-coordinate); the keystone defensive publication *The Zero-Point Game℠* (thonly.org/research/zero-point-game); *The Four-Body Architecture* (thonly.org/research/four-body-architecture) — the institution↔element map this essay reflects back onto the founder; *The Two Singularities* (thonly.org/research/two-singularities) — *upekkhā* / subsidy→0 / the laying-down terminus
-- **Internet Archive · archive.today snapshots:** per the snapshot cadence *(perma.cc, listed here before 2026-09-23, is no longer used by the institution)*
+- **Internet Archive · Software Heritage:** per the snapshot cadence *(archive.today and perma.cc, listed here earlier, are no longer used by the institution)*
 
 ---
 
