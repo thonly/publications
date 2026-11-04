@@ -1,6 +1,6 @@
 ### 2026-11-04 (later) — `dual-currency-reciprocity` §7.4: the census sentence names its census (founder: *"Census, then submit"*)
 
-§7.4 said a composition-width census had found nothing, with no census of that composition behind it. One was pre-registered in public (`4127d8c`, `timestamps/census/b-host-junction-prereg.md`) and run; §7.4 now states its aperture, the parts it found public and its nearest neighbor (a 2010 café promotion). Zenodo 10.5281/zenodo.23956473. Version 10.5281/zenodo.23933584 carries the earlier sentence. Second TDCommons submission follows; §7.4 holds matter not in the 2026-09-29 posting.
+§7.4 said a composition-width census had found nothing, with no census of that composition behind it. One was pre-registered in public (`4127d8c`, `timestamps/census/b-host-junction-prereg.md`) and run; §7.4 now states its aperture, the parts it found public and its nearest neighbor (a 2010 café promotion). Zenodo 10.5281/zenodo.23956473, then 10.5281/zenodo.23956623 the same hour: reading the paper page by page for the mirror found the Prior-Art statement still saying no census had been run, the §1 roadmap and Terms table silent on §7.4, and a retired archive.today line. Version 10.5281/zenodo.23933584 carries the earlier sentence. Second TDCommons submission follows; §7.4 holds matter not in the 2026-09-29 posting.
 
 ### 2026-11-04 — two second submissions POSTED at TDCommons (mirrors, not revisions) (founder: *"tdcommons have posted"*)
 
