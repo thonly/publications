@@ -15,7 +15,7 @@ venue: thonly.org/research/dual-currency-reciprocity (canonical) · target acade
 
 This document is dedicated to the public domain under the Creative Commons CC0 1.0 Universal Public Domain Dedication. The author and HeartBank® will not seek patent on this specification or any portion thereof, in any jurisdiction, at any time. It is a defensive publication establishing prior art as of **22 May 2026**, its first publication date.
 
-The paper's lineage is old and is cited throughout (§2, §5.3, §11 and the References): local and community currencies (LETS, Ithaca HOURS, BerkShares, the Bristol and Brixton Pounds, Sardex); Edgar Cahn's time banking; Japan's Fureai Kippu eldercare time credits, some schemes of which pair time credits with modest cash payments; Bernard Lietaer's argument for a portfolio of complementary currencies; Thomas Greco's community-currency work; and demurrage, the deliberate decay of held currency (Gesell; the Wörgl stamp scrip of 1932–33). The complementary-currency thesis is not this paper's. What the paper discloses is the integration architecture of §4–§8 — one identity, one bounded AI recommender and one shared participation signal across a money product and a time product — and the time-side mechanism set of §5. No systematic prior-art search (census) has been run for this paper; the lineage above is from the authors' reading, and no element is asserted to be new.
+The paper's lineage is old and is cited throughout (§2, §5.3, §11 and the References): local and community currencies (LETS, Ithaca HOURS, BerkShares, the Bristol and Brixton Pounds, Sardex); Edgar Cahn's time banking; Japan's Fureai Kippu eldercare time credits, some schemes of which pair time credits with modest cash payments; Bernard Lietaer's argument for a portfolio of complementary currencies; Thomas Greco's community-currency work; and demurrage, the deliberate decay of held currency (Gesell; the Wörgl stamp scrip of 1932–33). The complementary-currency thesis is not this paper's. What the paper discloses is the integration architecture of §4–§8 — one identity, one bounded AI recommender and one shared participation signal across a money product and a time product — and the time-side mechanism set of §5. No systematic prior-art search (census) has been run for the paper as a whole, and the lineage above is from the authors' reading. One census, of §7.4's composition alone, is reported in §7.4. No element is asserted to be new.
 
 ---
 
@@ -35,7 +35,7 @@ The complementary-scarcities thesis is, in one form or another, present in the h
 
 > *Connection to the unified mission frame: Miss Aquarius's mission is to keep the middle way open at population scale against comfort-saturation — the new extreme that material abundance makes possible. (Wording updated 2026-09-26 to the institution's current statement of the mission, which no longer describes the middle way as a past that modernity took away.) The thesis is not that modernity took us from a middle-way past, which would romanticize pre-industrial poverty; it is that modernity introduces a specific new failure mode — comfort-saturation pushing the materially comfortable toward the indulgence extreme. Dignity infrastructure addresses the unequal-resource side of the imbalance (capacity-building gifts); loneliness infrastructure addresses the equal-resource side (presence, which material comfort does not supply). A reciprocity infrastructure that treats both scarcities together is what the mission requires at its accounting layer.*
 
-The paper proceeds as follows. §2 surveys the canonical reciprocity-infrastructure failure modes and traces them to the singularity-of-currency assumption. §3 specifies the complementary-scarcities claim and its three load-bearing properties. §4 articulates the integrated-platform architecture at the level a competing design could implement. §5 specifies the time-side mechanism design in detail, including the seven core design decisions. §6 covers the AI-arbitration layer (Miss Aquarius's band-clamp recommendation pattern, parallel across both products). §7 covers cross-product integration (shared aura, expired-time-converts-to-pool, dual ledger). §8 covers legal-structural considerations under the non-bank pass-through pattern. §9 covers cross-cultural adaptation, with particular attention to direct-asking awkwardness in many Asian contexts. §10 covers the regulatory frontier — what happens when the time-side reaches scale. §11 is an honest accounting of limits, open design questions, and the TimeBanking precedent the architecture must learn from. §12 closes.
+The paper proceeds as follows. §2 surveys the canonical reciprocity-infrastructure failure modes and traces them to the singularity-of-currency assumption. §3 specifies the complementary-scarcities claim and its three load-bearing properties. §4 articulates the integrated-platform architecture at the level a competing design could implement. §5 specifies the time-side mechanism design in detail, including the seven core design decisions. §6 covers the AI-arbitration layer (Miss Aquarius's band-clamp recommendation pattern, parallel across both products). §7 covers cross-product integration (shared aura, expired-time-converts-to-pool, dual ledger, and a hosted invitation where the two currencies meet). §8 covers legal-structural considerations under the non-bank pass-through pattern. §9 covers cross-cultural adaptation, with particular attention to direct-asking awkwardness in many Asian contexts. §10 covers the regulatory frontier — what happens when the time-side reaches scale. §11 is an honest accounting of limits, open design questions, and the TimeBanking precedent the architecture must learn from. §12 closes.
 
 ---
 
@@ -392,6 +392,8 @@ Coined names used in this paper and the standard terms an examiner would search 
 | Dual public ledger | two-axis participation record (time delivered; time received) |
 | Aquarian Pool | pooled community fund, emptied in full on an annual cycle |
 | Non-bank pass-through | payment facilitation without custody, deposit-taking or lending |
+| Hosted invitation (B-Host℠) | a venue's unpriced, non-convertible offer of a place and a time slot to two acquaintances |
+| B-Stamp | gift label carrying a pledge of the giver's time |
 
 ---
 
@@ -422,7 +424,7 @@ Coined names used in this paper and the standard terms an examiner would search 
 - GitHub: github.com/thonly/publications/blob/main/defensive-publications/dual-currency-reciprocity.md
 - arXiv (deferred): cs.CY (target if reactive trigger; not preemptively submitted)
 - IP.com (deferred): per the corpus's six-venue defensive-publication baseline
-- Internet Archive · archive.today snapshots: per the monthly snapshot cadence
+- Internet Archive and Software Heritage snapshots: refreshed daily
 - Institutional-voice companion: the heartbank.net position paper *Community-Currency Design* (heartbank.net/positions/community-currency-design)
 
 ---
