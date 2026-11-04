@@ -467,8 +467,6 @@ Two cautions on reading these. First, the first test is easy to confound: househ
 
 One result is already on record, and it points the wrong way. In the first Cambodian pilot family, the parents self-thanked more than the children. The children did not yet have their own access, so by the rule above this is not a run, and it counts neither for the claim nor against it. I report it so that nobody reads this essay as if the evidence so far were on its side.
 
-A different kind of report from the same family, which tests nothing in the table: their youngest child bought his favorite snacks at his mother's shop from his own Treasury balance, and he now understands what money is worth. That is one child, reported and not measured, and it is about money rather than gratitude. I note it because it shows a child acting on his own balance, which this essay assumes a child can do. Teaching money is not what the ledger is for.
-
 If the first or second test fails under fair conditions, the kids-as-triggers claim is wrong as stated, and the adult-first path of §8 is the architecture that remains. If only the third fails, the 50/50 split is still a sound circulation mechanism (§5.4) but not a pedagogy, and §5.2's claim that the pedagogical reading is the stronger one should be withdrawn. The n = 1 signal in §5.5 does not pass or fail any of these; it is too small and too confounded to count either way.
 
 ---
