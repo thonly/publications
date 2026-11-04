@@ -262,12 +262,12 @@
  },
  "dual-currency-reciprocity": {
   "concept_doi": "10.5281/zenodo.21947312",
-  "deposition_id": 23956473,
-  "doi": "10.5281/zenodo.23956473",
+  "deposition_id": 23956623,
+  "doi": "10.5281/zenodo.23956623",
   "published": true,
   "sandbox": false,
-  "sha256": "76685baa203521089edab4697cc32bd50d71491310dbcf6176d05b6dded74a99",
-  "url": "https://zenodo.org/records/23956473"
+  "sha256": "4b9606d07a3cd96e489c979080e5d30522ef72cbbd014a0a8438e39276df13bb",
+  "url": "https://zenodo.org/records/23956623"
  },
  "each-life-as-cosmic-coordinate": {
   "concept_doi": "10.5281/zenodo.23084948",
