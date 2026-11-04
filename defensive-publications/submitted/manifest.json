@@ -54,7 +54,16 @@
         }
       ],
       "posted": "2026-11-04",
-      "url": "https://www.tdcommons.org/dpubs_series/12722"
+      "url": "https://www.tdcommons.org/dpubs_series/12722",
+      "posted_verified": {
+        "date": "2026-11-04",
+        "result": "match",
+        "posted_pdf_sha256": "4ccc061b8a395be5163fa67b5c59c46bf75ac5ded1687efeca7ad461f078f50f",
+        "posted_pages": 33,
+        "words": 22931,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "abhidhamma-executable-process-specification",
@@ -1672,7 +1681,16 @@
         }
       ],
       "posted": "2026-11-04",
-      "url": "https://www.tdcommons.org/dpubs_series/12727"
+      "url": "https://www.tdcommons.org/dpubs_series/12727",
+      "posted_verified": {
+        "date": "2026-11-04",
+        "result": "match",
+        "posted_pdf_sha256": "8ff6635f9be7ac5ff1d410ab5ce14444eeb685ab9f606b884ee4793bb3851f9e",
+        "posted_pages": 35,
+        "words": 17371,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "the-vibhajjavadin-view-of-time",
