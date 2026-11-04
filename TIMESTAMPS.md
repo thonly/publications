@@ -1,3 +1,7 @@
+### 2026-11-03 (later still) — `kids-as-triggers-self-thanking`: one paragraph removed (founder: *"take it out now"*)
+
+A pilot anecdote added in the previous version is out of §12.7; the pilot disclosure stays. Zenodo 10.5281/zenodo.23933869. Version 10.5281/zenodo.23933614 keeps the paragraph, which names no one.
+
 ### 2026-11-03 (later) — the queued riders, drafted in parallel (founder: *"use agents to do all the riders in parallel"*)
 
 Seventeen deposited papers carry their queued riders: the retired crossing sentence, the undated browser extension, radio co-presence, borrowed intention, a fourth palette, a named falsifier and a carried objection. `zero-point-game` §6.1 and §11.10 were reworked on the founder's word and refuted before minting. Proofs rotated; RFC 3161 manifest `2026-11-03`.

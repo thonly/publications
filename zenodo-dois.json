@@ -424,12 +424,12 @@
  },
  "kids-as-triggers-self-thanking": {
   "concept_doi": "10.5281/zenodo.23084964",
-  "deposition_id": 23933614,
-  "doi": "10.5281/zenodo.23933614",
+  "deposition_id": 23933869,
+  "doi": "10.5281/zenodo.23933869",
   "published": true,
   "sandbox": false,
-  "sha256": "8a815ec7acd8d7a2e5b97fad206ec7c88038d58d42e8e0d85a0f25ffac73f355",
-  "url": "https://zenodo.org/records/23933614"
+  "sha256": "57385a6889470990aef68ad6849331fd6a9fd9064767318c4afcb4c1d79f2ec5",
+  "url": "https://zenodo.org/records/23933869"
  },
  "longitudinal-cohort-methodology": {
   "concept_doi": "10.5281/zenodo.21947347",
