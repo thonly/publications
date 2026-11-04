@@ -531,27 +531,34 @@
     {
       "slug": "dual-currency-reciprocity",
       "venue": "TDCommons, Defensive Publications Series",
-      "submitted": "2026-09-27",
-      "pdf": "dual-currency-reciprocity.pdf",
+      "submitted": "2026-11-04",
+      "pdf": "dual-currency-reciprocity.2.pdf",
       "claims_headings": [
         "BODY"
       ],
-      "claims_sha256": "b056af5929bbddeb4d95c526e91190895a812b3849d487e64c37999d4b95786b",
+      "claims_sha256": "253d9125038dc5ad92225f99909a70df76b6a79552240beb2f5f001027d5b918",
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "cfc722bc4ea127004f2e31e0a7430585129a896279cbb61f837de3abf93f8f83",
-      "posted": "2026-09-29",
-      "url": "https://www.tdcommons.org/dpubs_series/11895",
-      "posted_verified": {
-        "date": "2026-09-29",
-        "result": "match",
-        "posted_pdf_sha256": "1adf09809b4e9aa0426ed9b6e23d41b0eec35d8d48f96cdc423fed55a29d099e",
-        "posted_pages": 20,
-        "words": 7669,
-        "extra": 0,
-        "missing": 0
-      }
+      "body_sha256": "ed51b92b88ffc49bb667ff0a46d5eff470b8c32b4f174e8a1c6bd54375d95bfa",
+      "prior_postings": [
+        {
+          "submitted": "2026-09-27",
+          "posted": "2026-09-29",
+          "url": "https://www.tdcommons.org/dpubs_series/11895",
+          "claims_sha256": "b056af5929bbddeb4d95c526e91190895a812b3849d487e64c37999d4b95786b",
+          "pdf": "dual-currency-reciprocity.pdf",
+          "posted_verified": {
+            "date": "2026-09-29",
+            "result": "match",
+            "posted_pdf_sha256": "1adf09809b4e9aa0426ed9b6e23d41b0eec35d8d48f96cdc423fed55a29d099e",
+            "posted_pages": 20,
+            "words": 7669,
+            "extra": 0,
+            "missing": 0
+          }
+        }
+      ]
     },
     {
       "slug": "eightfold-path-institutional-architecture",

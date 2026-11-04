@@ -1,0 +1,24 @@
+TDCOMMONS SUBMISSION PACKET — SECOND SUBMISSION (new §7.4) — built 2026-11-04; founder: "Census, then submit"
+═══════════════════════════════════════════════════════════════════════
+WHY A SECOND SUBMISSION
+  The first posting (11895, 2026-09-29) predates §7.4, added 2026-11-03. Its minimum-spend, discount, metering and
+  no-fee exclusions and its stated composition appear in none of the 80 posted PDFs (searched 2026-11-04, whitespace
+  normalized, with a wrap control). New matter, so a second posting is owed by §the-mirror-revision-rule. Not a
+  re-submission: the first posting stays.
+
+TITLE
+Dual-Currency Reciprocity Infrastructure: Money and Time as Complementary Scarcities — A Shop's Unpriced Invitation of a Place and an Hour to a Pair of Acquaintances, on a Platform Holding Money Gifts and Time Pledges Under One Identity
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK
+
+LICENSE    Creative Commons Attribution 4.0
+
+ABSTRACT   (248 words; condensed from the paper, no new matter)
+A two-currency reciprocity platform integrates peer-to-peer money gifts with non-transferable, expiring pledges of personal time, under one user identity, one bounded AI recommendation agent and one shared participation indicator. An earlier posting disclosed that platform. This revision adds a section on a junction of the two currencies: a shop publishes an unpriced invitation of a place and an hour, offered to two people who already know each other and accepted by the one receiving the gift of time. Three properties are disclosed. The invitation is not a gift code: nobody buys it and it carries no purchase price, so conversion to shop credit is undefined by its type. The time is not priced by the money: no minimum spend or purchase requirement, no use as a discount instrument, no metering of the hour, and no ordering or drawing of invitations by spend. The invitation has no price of its own: no per-publish fee, featured placement or per-match fee. The revision also updates the participation indicator's current form: money or time reaches it only through the thank that carries it, so neither enters as a quantity. Only the composition is claimed. A pre-registered census of 4 November 2026, across the English-language web, non-commercial practice and keyword patent search, found most parts public and names the nearest neighbor; its null on the whole composition is weak evidence, not a finding of novelty. The design is unbuilt and unscheduled, so the section is a framing, not evidence that the junction works.
+
+HASHES     (NFC, SHA-256)
+  title    aca38d45c4f9483e41d03e59154041be9e5920f2baedbeb480d27594c9ead13c
+  abstract 1e843ba2bb2a1ea4b786ac0f1aaef30bff6e18cde5b57c8836320397a26bf5c8
