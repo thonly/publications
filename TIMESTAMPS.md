@@ -1,3 +1,22 @@
+### 2026-11-05 — subtitles: nine papers gain one, three stop repeating their titles (founder: *"yes to all three; deploy"*)
+
+B-Explorer began showing each paper's subtitle under its title, and nine papers had none to show: four studies and mechanisms and five essays. Each gained a subtitle in its front matter, drawn from its own abstract or argument. Three subtitles repeated the second half of their titles nearly word for word; studio-b-short-phase-bridge and multi-family-membership keep only the part the title does not say, and brand-identity-as-architecture drops its subtitle, since its title already names every element. Only the front matter changed; every body is byte-identical. Each retiring proof was Bitcoin-complete before rotation, the new texts are covered by the 2026-11-05 RFC 3161 manifest, and the corpus index serves them from 2.5.64, which also reads two quoted subtitles with their escapes.
+
+| document | leg 3 · Zenodo |
+|---|---|
+| **eightfold-path-institutional-architecture** | 10.5281/zenodo.23987856 |
+| **four-body-architecture** | 10.5281/zenodo.23987857 |
+| **non-bank-pass-through-architecture-autonomous-ai** | 10.5281/zenodo.23987860 |
+| **vinaya-as-ai-reasoning-training-corpus** | 10.5281/zenodo.23987861 |
+| **brand-identity-as-architecture** | 10.5281/zenodo.23987864 |
+| **studio-b-short-phase-bridge** | 10.5281/zenodo.23987866 |
+| **multi-family-membership** | 10.5281/zenodo.23987874 |
+| **the-appreciation-economy** | 10.5281/zenodo.23987878 |
+| **the-last-carrier** | no DOI (personal essay) |
+| **the-lives-that-fed-me** | no DOI (personal essay) |
+| **the-name-is-the-first-gift** | no DOI (personal essay) |
+| **the-pond-at-night** | no DOI (personal essay) |
+
 ### 2026-11-04 (later) — `dual-currency-reciprocity` §7.4: the census sentence names its census (founder: *"Census, then submit"*)
 
 §7.4 said a composition-width census had found nothing, with no census of that composition behind it. One was pre-registered in public (`4127d8c`, `timestamps/census/b-host-junction-prereg.md`) and run; §7.4 now states its aperture, the parts it found public and its nearest neighbor (a 2010 café promotion). Zenodo 10.5281/zenodo.23956473, then 10.5281/zenodo.23956623 the same hour: reading the paper page by page for the mirror found the Prior-Art statement still saying no census had been run, the §1 roadmap and Terms table silent on §7.4, and a retired archive.today line. Version 10.5281/zenodo.23933584 carries the earlier sentence. Second TDCommons submission follows; §7.4 holds matter not in the 2026-09-29 posting.
