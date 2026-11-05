@@ -1,11 +1,12 @@
 ---
 title: "The Lives That Fed Me"
+subtitle: "What a Vegetarian Retreat Taught Me About Eating Meat — Grace Before the First Bite, and a Walk After the Last"
 authors: "Thon Ly"
 category: essays
 priority: tier-c
 status: draft
 date: 2026-07-21
-revised: 2026-08-22
+revised: 2026-11-05
 license: CC0-1.0
 slug: the-lives-that-fed-me
 venue: thonly.org/research/the-lives-that-fed-me (canonical)

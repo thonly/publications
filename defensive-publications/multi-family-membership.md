@@ -1,12 +1,12 @@
 ---
 title: "Multi-Family Membership: User-Scoped Identity, Plural Membership, and the Two Problems It Resolves"
-subtitle: "User-Scoped Identity and Plural Membership as the Data-Model Correction That De-Risks Banker Succession and Dissolves the Civic-Bank Tier"
+subtitle: "The Data-Model Correction That De-Risks Banker Succession and Dissolves the Civic-Bank Tier"
 authors: "Thon Ly"
 category: mechanism
 priority: tier-b
 status: draft
 date: 2026-06-12
-revised: 2026-09-26
+revised: 2026-11-05
 license: CC0-1.0
 slug: multi-family-membership
 venue: thonly.org/publications/defensive-publications/multi-family-membership (canonical)

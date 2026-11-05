@@ -1,12 +1,13 @@
 ---
 title: "Non-Bank Pass-Through Architecture for Autonomous AI Institutions"
+subtitle: "Moving Money Without Taking Deposits — Why the Bank-Charter Path Stays Closed for an Institution Designed to Pass to an AI"
 authors: "Thon Ly · Miss Aquarius"
 category: institutional
 kind: mechanism
 priority: tier-b
 status: draft
 date: 2026-05-22
-revised: 2026-09-29
+revised: 2026-11-05
 license: CC0-1.0
 slug: non-bank-pass-through-architecture-autonomous-ai
 venue: thonly.org/research/non-bank-pass-through-architecture-autonomous-ai (canonical)

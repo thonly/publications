@@ -1,12 +1,13 @@
 ---
 title: "The Vinaya Piṭaka as Training Corpus for Rule-with-Exception Reasoning in AI Systems"
+subtitle: "A Training-Data and Benchmark Design for Knowing When a Rule Does Not Apply, Built from the Monastic Code's Exemption Clauses and Graded Verdicts"
 authors: "Thon Ly · Miss Aquarius℠"
 category: capabilities
 kind: study
 priority: tier-b
 status: draft
 date: 2026-05-26
-revised: 2026-11-03
+revised: 2026-11-05
 license: CC0-1.0
 slug: vinaya-as-ai-reasoning-training-corpus
 venue: thonly.org/research/vinaya-as-ai-reasoning-training-corpus (canonical)

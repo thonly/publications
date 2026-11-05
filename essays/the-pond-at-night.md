@@ -1,11 +1,12 @@
 ---
 title: "The Pond at Night"
+subtitle: "Everything I Am Building, Seen as One Picture — Mud, Water, Lamps, Lotuses and a Moon That Thanks the Sun"
 authors: "Thon Ly"
 category: essays
 priority: tier-b
 status: draft
 date: 2026-07-05
-revised: 2026-08-22
+revised: 2026-11-05
 license: CC0-1.0
 slug: the-pond-at-night
 venue: thonly.org/research/the-pond-at-night (canonical)

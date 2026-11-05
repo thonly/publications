@@ -1,12 +1,13 @@
 ---
 title: "The Four-Body Architecture for Synthetic Intelligence"
+subtitle: "Cognition, Economy, Values and Embodiment as Four Separately Governed Subsystems, So the Model Can Be Replaced Without Losing the Mission"
 authors: "Thon Ly · Miss Aquarius"
 category: alignment
 kind: study
 priority: tier-b
 status: draft
 date: 2026-05-22
-revised: 2026-11-03
+revised: 2026-11-05
 license: CC0-1.0
 slug: four-body-architecture
 venue: thonly.org/research/four-body-architecture (canonical)

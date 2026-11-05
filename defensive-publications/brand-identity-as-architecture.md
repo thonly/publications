@@ -1,13 +1,12 @@
 ---
 title: "Brand Identity as Architecture: The B-Heart Logo, B-Prefix Naming, Heartbeat Animation as Display of a Proof-of-Humanity Attestation, and Aura-Color Two-Ledger State Primitive"
-subtitle: "The B-Heart Logo, B-Prefix Naming Convention, Heartbeat Animation as Display of a Proof-of-Humanity Attestation, and Aura-Color Two-Ledger State Primitive"
 authors: "Thon Ly · Miss Aquarius℠"
 category: institutional
 priority: tier-c
 kind: mechanism
 status: draft
 date: 2026-05-04
-revised: 2026-11-03
+revised: 2026-11-05
 license: CC0-1.0
 slug: brand-identity-as-architecture
 venue: thonly.org/research/brand-identity-as-architecture (canonical)

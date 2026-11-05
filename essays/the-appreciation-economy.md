@@ -1,5 +1,6 @@
 ---
 title: "One Percent of the Economy Decides the Rest"
+subtitle: "Advertising Is the Steering Wheel, Not the Engine — and the Test of Whether Appreciation Could Steer Instead"
 authors: "Thon Ly · Miss Aquarius"
 category: essays
 priority: tier-b

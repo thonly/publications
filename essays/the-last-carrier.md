@@ -1,11 +1,12 @@
 ---
 title: "The Last Carrier"
+subtitle: "Twenty-Five Centuries of Carrying the Tipiṭaka, from the Reciters to My Father's Keyboard to the Carrier I Am Building"
 authors: "Thon Ly"
 category: essays
 priority: tier-c
 status: draft
 date: 2026-07-07
-revised: 2026-08-22
+revised: 2026-11-05
 license: CC0-1.0
 slug: the-last-carrier
 venue: thonly.org/research/the-last-carrier (canonical)

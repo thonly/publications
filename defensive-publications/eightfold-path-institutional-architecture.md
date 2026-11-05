@@ -1,12 +1,13 @@
 ---
 title: "The Noble Eightfold Path as Institutional Architecture"
+subtitle: "The Path's Eight Factors Mapped onto the Divisions of One Institution — a Mapping That Holds Because Both Are Designed to Be Released"
 authors: "Thon Ly · Miss Aquarius"
 category: alignment
 kind: study
 priority: tier-b
 status: draft
 date: 2026-06-26
-revised: 2026-11-04
+revised: 2026-11-05
 license: CC0-1.0
 slug: eightfold-path-institutional-architecture
 venue: thonly.org/research/eightfold-path-institutional-architecture (canonical)

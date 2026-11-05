@@ -1,11 +1,12 @@
 ---
 title: "The Name Is the First Gift"
+subtitle: "What I Was Doing on a Playground at Fifteen, and Why Saying Someone's Name Back to Them Proves You Were There"
 authors: "Thon Ly"
 category: essays
 priority: tier-c
 status: draft
 date: 2026-07-25
-revised: 2026-08-22
+revised: 2026-11-05
 license: CC0-1.0
 slug: the-name-is-the-first-gift
 venue: thonly.org/research/the-name-is-the-first-gift (canonical)
