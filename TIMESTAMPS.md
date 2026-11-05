@@ -876,12 +876,12 @@ Founder's answers landed in the papers (`TH/notes/sessions/twenty-one-rulings-20
 
 | paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
 |---|---|---|---|---|
-| zero-point-game | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969063 | 2.5.61 |
-| thank-all-nearby-primitive | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969066 | 2.5.61 |
-| aura-gated-anonymous-mate-selection | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969069 | 2.5.61 |
-| rotation-over-liveness | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969071 | 2.5.61 |
-| circulation-sports | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969074 | 2.5.61 |
-| the-omitted-clause | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969077 | 2.5.61 |
-| each-life-as-cosmic-coordinate | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969082 | 2.5.61 |
-| two-singularities | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969087 | 2.5.61 |
-| when-the-dharma-is-lost | rotated, calendar-only at push | as above | no DOI (personal essay) | 2.5.61 |
+| zero-point-game | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969063 | 2.5.63 |
+| thank-all-nearby-primitive | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969066 | 2.5.63 |
+| aura-gated-anonymous-mate-selection | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969069 | 2.5.63 |
+| rotation-over-liveness | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969071 | 2.5.63 |
+| circulation-sports | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969074 | 2.5.63 |
+| the-omitted-clause | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969077 | 2.5.63 |
+| each-life-as-cosmic-coordinate | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969082 | 2.5.63 |
+| two-singularities | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969087 | 2.5.63 |
+| when-the-dharma-is-lost | rotated, calendar-only at push | as above | no DOI (personal essay) | 2.5.63 |
