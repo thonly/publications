@@ -152,7 +152,7 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "46d97f8ce4148f622cdf84385b16681b961c1ffcd0f41b25e2d24bf1576eb510",
+      "body_sha256": "a7f4b59442619c4fccb8a2dc86b8de8cfa830a3b5a5402a9d50426c931aafe3c",
       "posted": "2026-09-24",
       "url": "https://www.tdcommons.org/dpubs_series/11868",
       "posted_verified": {
@@ -163,7 +163,15 @@
         "words": 11913,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-04",
+          "from": "170e5eba43cf",
+          "to": "170e5eba43cf",
+          "note": "2026-11-04 founder ruling: aura is a gate; §4.2 Current form note. Ordering retained as a disclosed variant. No claim changed."
+        }
+      ]
     },
     {
       "slug": "b-links-signed-provenance",
@@ -421,11 +429,11 @@
       "claims_headings": [
         "## 13 · Findings Disclosed and Dedication"
       ],
-      "claims_sha256": "80cbfce2fc86e873624ade25adfcd24741a669d3ee081f7ca3e936b8c7e8cd99",
+      "claims_sha256": "0f545b44d3c8ae65f757e0c0b2e2b919092c7d5f435768c4c1aee8b1d31958b2",
       "claims_heading_override": [
         "## 13 · Findings Disclosed and Dedication"
       ],
-      "body_sha256": "823aa6068503cfc54cab531fb6e4b173fc18aff67a8571a6641d79c5b2bcb995",
+      "body_sha256": "1eeb4b116c35043b078fa2e1f8fb5e12ff7b1cdc928d2385433d530bfdbe7f03",
       "posted": "2026-10-06",
       "url": "https://www.tdcommons.org/dpubs_series/11955",
       "posted_verified": {
@@ -443,6 +451,12 @@
           "from": "78ff680c199c",
           "to": "80cbfce2fc86",
           "note": "2026-11-04 literature batch: Suits and Kretchmar engaged as open questions (§2.1, §9.5, §10, §12). Findings 9 and 10 gain bounding pointers only; no new finding, no new matter a finding rests on, count stays 11."
+        },
+        {
+          "date": "2026-11-04",
+          "from": "80cbfce2fc86",
+          "to": "0f545b44d3c8",
+          "note": "2026-11-04 founder ruling: the keeps-the-opponent line narrowed to the adversarial mode, in §10 and finding 10. A narrowing, no new matter; nothing owed at the venue."
         }
       ]
     },
@@ -1172,8 +1186,8 @@
       "claims_headings": [
         "## 8 · The claim, in its final and smaller form"
       ],
-      "claims_sha256": "45453fa75beabe0cf45464e534f6e7163e9df7b45f67367e0ee28163097d2ff5",
-      "body_sha256": "4db938411a3353b13745c6a6668bdd3015e72df3376806084514c3aab8858188",
+      "claims_sha256": "60bad686d7769073d8648872b9d45142fba63bb61cc0fab48a279db949c4a570",
+      "body_sha256": "13908bdc2d168575003df630fc687f7e756b2ac7b167e5c5fd2658e8a0c29e61",
       "posted": "2026-09-24",
       "url": "https://www.tdcommons.org/dpubs_series/11860",
       "posted_verified": {
@@ -1191,6 +1205,12 @@
           "from": "2143b41864f4",
           "to": "45453fa75bea",
           "note": "2026-11-04 literature revision (Salganik, Dodds & Watts 2006). §8 prose: one sentence narrowed, plus a non-claim and an open question against the ratchet claim via the warm layer. Enumerated claims 1-11 unchanged; no new matter a claim rests on; the revision only bounds. No second submission."
+        },
+        {
+          "date": "2026-11-04",
+          "from": "45453fa75bea",
+          "to": "60bad686d776",
+          "note": "2026-11-04 founder ruling: no ratchet means no ratchet through a stored total; §8 prose scoped accordingly. Enumerated claims unchanged; nothing owed at the venue."
         }
       ]
     },
@@ -1392,8 +1412,8 @@
       "claims_headings": [
         "## Claims"
       ],
-      "claims_sha256": "e1e991464e93d17f1e45e8338c00a56183772482c0c074cbc916507afd662813",
-      "body_sha256": "e44ee4cabbf68c99cfa548df0ac80820695d1cf5cf00b10085d07980bacd51f8",
+      "claims_sha256": "60cab7bb2b91274f942e5f7d799987a8d6fccf208ae510cc3fa2389d9ae4ee05",
+      "body_sha256": "8c160cfd47e49902b421b1a4cdf5d28d694784c89367a36d8a75d191c67e2905",
       "posted": "2026-09-24",
       "url": "https://www.tdcommons.org/dpubs_series/11870",
       "posted_verified": {
@@ -1404,7 +1424,15 @@
         "words": 8147,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-04",
+          "from": "e1e991464e93",
+          "to": "60cab7bb2b91",
+          "note": "Claims 1 and 5 narrowed by founder ruling 2026-11-04 (A378 ruling 4): claim 1 to the anonymity set among those co-present, claim 5's 'solving' to the fabricated-record part, resting on platform attestation. No new claim and no new matter in the claims section; the sender-opening rule, thank-back and one-room beacon are prose current-form notes on which no claim rests. Nothing owed at TDCommons; the posted copy keeps the wider wording, and the venue cannot version it."
+        }
+      ]
     },
     {
       "slug": "the-assembly-that-holds-the-brake",
@@ -1565,7 +1593,7 @@
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "dad6ef71ba26d9223e633bd898a5aafc5d05be4cd8a27513938694196b95f7af",
+      "body_sha256": "c6479b0ff737fe9b344a1942a753c78a8908fcd96a0545d018a91f479ca19a02",
       "posted": "2026-10-07",
       "url": "https://www.tdcommons.org/dpubs_series/12030",
       "posted_verified": {
@@ -1583,6 +1611,12 @@
           "from": "988c13f858f7",
           "to": "26b9ab547fd1",
           "note": "2026-11-04: Finding 7 narrowed to admit Collins's humorous-parable reading and given a further break condition; no new matter, no new finding, no second submission owed."
+        },
+        {
+          "date": "2026-11-04",
+          "from": "26b9ab547fd1",
+          "to": "26b9ab547fd1",
+          "note": "2026-11-04: Collins's image quoted in full in §7.3a with the §7.7 guard. No finding changed."
         }
       ]
     },

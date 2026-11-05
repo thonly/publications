@@ -6,7 +6,7 @@ kind: mechanism
 priority: tier-a
 status: draft
 date: 2026-05-24
-revised: 2026-11-03
+revised: 2026-11-04
 license: CC0-1.0
 slug: thank-all-nearby-primitive
 venue: thonly.org/publications/defensive-publications/thank-all-nearby-primitive (canonical)
@@ -22,7 +22,7 @@ Anonymous nearby tipping has a recognizable cultural form — the "Faith in Huma
 
 **Keywords:** anonymous tipping, proximity-based generosity, gratitude infrastructure, Bluetooth Low Energy, proof of humanity, recipient-side filtering, bilateral uncacheable anonymity, emotional infrastructure, defensive publication.
 
-> **Current form.** Three parts of the design have moved since this paper was written, and each is marked where it occurs. The receipt carries no amount and is not written on chain (§3.2). *Nearby* means radio co-presence at the moment of giving, with no GPS (§5). A send carries one cargo, and time is never settled on a chain (§2.1). The forms specified in the original text are retained as disclosed variants.
+> **Current form.** Four parts of the design have moved since this paper was written, and each is marked where it occurs. The receipt carries no amount and is not written on chain, and on an anonymous send only the recipient can open it (§3.2). *Nearby* means radio co-presence at the moment of giving, with no GPS, and an institution's beacon serves one room (§5). A send carries one cargo, and time is never settled on a chain (§2.1). A recipient's thank-back reaches the anonymous sender under six guards (§3.1). The forms specified in the original text are retained as disclosed variants.
 
 ---
 
@@ -36,13 +36,13 @@ The contribution disclosed here is the composition of the following, specified a
 
 ## Claims
 
-*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present.*
+*Enumerated 2026-08-29. The mechanisms below were disclosed in full in this paper's original text; **the prior art they establish runs from this document's original publication date and its OpenTimestamps proof, not from this enumeration.** They are listed because a defensive publication is read as prior art by examiners and by opposing counsel, and **a claims list is what such a reader searches; ten thousand words of prose is not.** No claim below adds matter not already present. Claims 1 and 5 were narrowed on 2026-11-04 to what the paper's notes support; the narrowing adds no matter, and the wider wording stands in earlier versions of this document.*
 
-1. **Bilateral uncacheable anonymity in proximity tipping** — a value transfer between two co-present parties in which the sender is not identifiable to the recipient and the recipient cannot retain or re-derive the sender's identity after the transaction, achieved without either party disclosing a payment credential.
+1. **Bilateral uncacheable anonymity in proximity tipping** — a value transfer between two co-present parties in which the transaction does not identify the sender to the recipient, and what the recipient can retain or derive from it afterward narrows the sender's identity no further than the anonymity set among those co-present at the moment of giving, achieved without either party disclosing a payment credential.
 2. **Short-range radio proximity as the addressing layer for anonymous generosity** — using a local broadcast medium to define the eligible recipient set by physical co-presence rather than by account lookup, so that the transfer's addressability and its anonymity derive from the same property.
 3. **Recipient-side filtering as the abuse control for anonymous inbound value** — placing the accept/decline decision with the recipient rather than the sender or the platform, so that an anonymous channel cannot be used to force an unwanted relation.
 4. **Institution-scoped geographic bounding as a variant of the proximity set** — substituting an operator-defined coordinate boundary for radio range where the eligible set is an institution's population rather than whoever is physically nearby.
-5. **Platform attestation of anonymous receipt as the authenticity substitute** — a verifiable record that an anonymous transfer occurred, issued to the recipient, solving the *staged-for-views* credibility problem that the cultural form of anonymous tipping cannot otherwise solve, without re-identifying the sender.
+5. **Platform attestation of anonymous receipt as the authenticity substitute** — a verifiable record that an anonymous transfer occurred, issued to the recipient, which answers the fabricated-record part of the *staged-for-views* credibility problem by letting a third party check the platform's attestation in place of the recipient's word, without re-identifying the sender. It rests on that attestation, and it does not answer a gift staged between friends.
 6. **The composition of the above with a proof-of-humanity layer**, such that anonymity is preserved while the sender is nonetheless attested to be a distinct human being.
 
 **Non-assertion extends to:** all mechanisms above, in any combination, and any implementation thereof.
@@ -108,6 +108,8 @@ On invocation, the client:
 - **To the platform's settlement layer**: the on-chain receipts and per-recipient transfers.
 - **To the platform's compliance records**: internal record of the broadcast operation, subpoena-discoverable but not exportable.
 
+> **Current form (2026-11-04).** The sender's confirmation carries no opening of any receipt (§3.2's note). A recipient's thank-back may reach the sender later, under the guards in §3.1's note, and no surface sets it against the count of recipients reached.
+
 ---
 
 ## 3. Why cash and credit card cannot deliver this
@@ -118,13 +120,31 @@ The "Faith in Humanity Restored" cultural form depends on a *combined property* 
 
 The first structural deficiency: with cash and credit card, the *tipper cannot be genuinely anonymous to the recipient* in a way that preserves the asymmetric experience the cultural form requires.
 
-Cash requires physical hand-over. The bills change hands between specific humans in a specific moment; the tipper *is* in the room when the tip is delivered; the recipient *sees* the tipper, can identify them by physical description, can often identify them by name if they are a regular customer. The viral version of the "Faith in Humanity Restored" form depends on the tipper *not* receiving the thank-you — the gesture is pure precisely because it isn't transactional, isn't followed by the social moment of being thanked, isn't an exchange. Cash makes this almost impossible: the tip and the acknowledgment happen in the same instant unless the tipper deliberately leaves the cash and exits before the recipient discovers it, which itself is a behavioral pattern (sneaking out, avoiding eye contact) that the tipper has to choreograph and that is observable.
+Cash requires physical hand-over. The bills change hands between specific humans in a specific moment; the tipper *is* in the room when the tip is delivered; the recipient *sees* the tipper, can identify them by physical description, can often identify them by name if they are a regular customer. The viral version of the "Faith in Humanity Restored" form depends on the tipper *not* being thanked in the moment and *not* being identified — the gesture is pure precisely because it isn't transactional, isn't followed by the social moment of being thanked, isn't an exchange. Cash makes this almost impossible: the tip and the acknowledgment happen in the same instant unless the tipper deliberately leaves the cash and exits before the recipient discovers it, which itself is a behavioral pattern (sneaking out, avoiding eye contact) that the tipper has to choreograph and that is observable.
 
 Credit card leaves an itemized trail tying the tipper's legal identity (name on card, billing address, account history) to the transaction. Even when the tip itself is anonymous to the *recipient* — the staff member doesn't see the cardholder's name printed on the receipt — it is *not* anonymous to the payment processor, the issuing bank, the merchant's accounting system, or anyone with access to the receipt's underlying record. "Anonymous with credit card" means "the staff doesn't immediately know your name from the receipt"; it does not mean "no one knows your name." A motivated investigator (the establishment's manager, a curious co-worker, a regulator) can identify the tipper.
 
 HeartBank Phase 2 anonymity is *structural*, not just on the surface. BLE-verified proximity proves the tipper was physically present in the same space as the recipient; no exportable artifact ties the broadcast to the tipper's identity; the on-chain receipt records the tipper's identity only as a zero-knowledge commitment that the platform's standard surfaces cannot invert. The customer can drop $100 (or the equivalent in stable tokens) on a Thank-All-Nearby broadcast and walk out; the staff find the receipts ten minutes later when they check their app; the asymmetry — *someone gave, no one knows who* — is encoded in the rail rather than choreographed by the tipper. This is the structural property the cultural form requires and that the existing rails cannot provide.
 
 > **Current form.** As now specified, the receipt is a row in the institution's own append-only log, not an on-chain record (§3.2's note). The parties' identities are held off that log rather than committed within it, a posture still subject to legal review. HeartBank is a record kept above the settlement rails, never a rail itself. The anonymity therefore lives in what that record keeps and what the platform will issue, not in a rail. The paragraph above is retained as a disclosed variant.
+
+> **Current form (2026-11-04).** A recipient who chooses to thank reaches the anonymous sender. The sender is still not thanked in the moment and still not identified, which is the property as narrowed above. A broadcast with no return channel is retained as a disclosed variant. Six guards bind every surface of the thank-back:
+>
+> 1. **Never prompted.** No nudge, reminder or default text asks a recipient to thank. The channel exists, and nothing points at it.
+> 2. **Absence never shown.** Thanks appear one at a time as they arrive. The sender sees no tally and no ratio, and an unthanked broadcast looks like any other, so no surface sets thanks against the count of recipients reached (§2.4).
+> 3. **Words or Kiitos, never money.** Value sent back to the giver would run in the one direction give-forward excludes.
+> 4. **The sender never becomes a creditor.** Anonymity works because it removes whoever pressure could come from. Guards 1 and 2 keep that true now that a route back exists.
+> 5. **Nothing leaks.** A thank carries nothing the sender's own view hides: not which recipient thanked, since §4.3 keeps recipients private, and not who filtered the broadcast out. Only the words a recipient chooses to write can say more.
+> 6. **The sender's anonymity is the sender's to break.** The sender may say they gave. The platform never says so, and the thank never reveals who gave.
+>
+> Four limits come with it:
+>
+> - **The route is not specified here.** It must work without the list of a sender's broadcasts that §4.4 forbids. *The Unpaid Relay* §3.1 and §3.4 disclose two routes for an item gift, each with its limits. A broadcast has no gift instrument, so neither carries over unchanged.
+> - **What reads a thank can be shown.** Whatever the sender holds to read a thank can be shown to someone else. That is a weak proof of authorship, of the kind §3.2's note refuses for the opening, and this paper does not close it.
+> - **Timing.** In one room, a phone that lights up as a thank is pressed can reveal the giver. Guard 6 binds delivery timing, and this paper does not specify it.
+> - **Waiting.** A return channel brings back the chance of waiting for one. The design can protect the recipient from pressure. It cannot purify the giver's intention.
+>
+> Nothing here gives the sender a route back to the recipient; one would reopen what claim 3 closes.
 
 ### 3.2 Second deficiency — recipient authenticity-proof on social media is structurally hard with cash and credit card
 
@@ -146,7 +166,11 @@ Authenticity becomes a property of the artifact, not a claim the recipient has t
 > 1. **Authenticity now rests on the platform.** A viewer verifies the platform's signed row, an inclusion proof against a published tree head, and the anchor that dates it. Authenticity therefore rests on the platform's attestation and on the log's append-only property, no longer on a settlement trace independent of the platform. The anchor proves when the row existed, not that its content is true. No form of the receipt answers a staged gift between friends: proof of humanity establishes that a sender is a person, not that the gift is genuine.
 > 2. **An opened amount can point into the settlement chain.** Combined with the timestamp, an opened amount can serve as a search key into a public settlement chain, and equal splits paid at one instant form a pattern on such a chain. How unlinkable the settlement itself is depends on the design of the settlement channel, which this paper does not specify.
 >
-> Whether the sender also holds an opening is not decided in the institution's current rules and is left open here: a held opening would become exactly the proof of authorship that §4.4 refuses. The record's schema is not frozen pending legal review. The on-chain, amount-bearing receipt described above is retained as a disclosed variant.
+> **The opening (2026-11-04).** On an anonymous send only the recipient opens the receipt, and the sender holds no opening: once a recipient posts the commitment, a sender's opening would be exactly the proof of authorship that §4.4 refuses. The two-party proof of a settlement and the signed export of a member's own record apply to named sends. Every broadcast in this paper is an anonymous send, so neither applies here. The sender can still say they gave, and cannot prove it from the receipt.
+>
+> Two cautions come with that. Holding no opening is a property only if the salt never reaches the sender's client, and this paper does not specify where the salt is made. And this closes the receipt, not the rail: a sender's own settlement record, set beside an amount a recipient has opened, can support the same claim (limit 2 above).
+>
+> The record's schema is not frozen pending legal review. The on-chain, amount-bearing receipt described above is retained as a disclosed variant.
 
 ### 3.3 The combined property
 
@@ -155,6 +179,8 @@ Together — *tipper structurally anonymous to the recipient* + *recipient holds
 This is the one-line pitch for why HeartBank Phase 2 is not just another payment rail: cash and card deliver money; HeartBank Phase 2 delivers money plus the two structural properties that the cultural form actually needs.
 
 > **Current form (2026-11-03).** HeartBank is a record kept above the settlement rails, never a rail itself (§3.1's note). Read "delivers money" in the two sentences above as the record of a gift and its receipt, with the money moving over whatever regulated rail the sender already uses. The sentences are retained as a disclosed variant.
+
+> **Current form (2026-11-04).** The proof named above is a check of the platform's attestation, and the anonymity runs to the anonymity set among those co-present (§4.4's note). Neither answers a gift staged between friends (§3.2's note), so read *holds both* within those limits.
 
 ---
 
@@ -200,6 +226,8 @@ The recipient *does* receive an exportable receipt — the platform-issued verif
 
 > **Current form.** As now specified, the recipient's receipt is the amount-free row described in §3.2's note. It attests a verified-human sender, that the co-presence gate passed, and the timestamp. The amount stays in a commitment that the recipient may open. The sentence above is retained as a disclosed variant.
 
+> **Current form (2026-11-04).** The sender holds no opening of the recipient's receipt (§3.2's note). A recipient's thank-back reaches the sender under the guards in §3.1's note, by a route that must not need the list this section forbids. The anonymity runs to the anonymity set among those co-present and no further: whoever was in range and satisfies the recipient's filter. That set can be small, and in a room of two it is one. What the recipient can see in the room lies outside any receipt. Claim 1 is narrowed to this.
+
 ### 4.5 Why these compose: the stranger-scale reconstruction of family relationality
 
 The four sub-mechanisms are not an arbitrary stack; together they re-create, among strangers, what kinship supplies for free inside a family. HeartBank's family-bank reward has a *micro layer* — a peer re-tip that is **anonymous as to public credit but relational**: a known family member responding to a real kindness (specified in the companion defensive publication *The Two-Layer Reward*, §4.1 / §8.1). That micro layer works because relationality silently does three jobs at once — it **grounds** the gift in a real, present other; it **validates** it (a family member can tell a real kindness from a performed one); and it carries **mutual attention**.
@@ -223,21 +251,24 @@ The sustainer primitive is therefore invariant in structure across scales — *a
    structure invariant; grounding form scales; validation hands off to PoH℠
 ```
 
+> **Current form (2026-11-04).** Read *unlinkable* above as unlinkable within the anonymity set among those co-present (§4.4's note): in a small room a stranger can be guessed too. A thank-back (§3.1's note) runs one way and names no one, so it does not restore mutual attention.
+
 ---
 
 ## 5. Institutional-mode GPS-bounding-box variant
 
 BLE proximity has a typical range of 10–30 meters, which fits most retail, restaurant, and small-space deployments. For larger institutional contexts — shelters with multiple rooms across a building, classrooms in a multi-story school, restaurant break-rooms separated from the main floor, hospital wards, worker spaces across a campus — BLE range is insufficient. The institutional-mode GPS-bounding-box variant extends the primitive to these contexts.
 
-> **Current form.** As now specified, *nearby* means radio co-presence at the moment of giving: Bluetooth LE, plus ultra-wideband ranging where both phones have it. There is no GPS radius, and no location is stored. The institutional variant becomes the institution's own fixed radio beacon, which a phone must hear at the moment of giving. That substitution is the institution's current reading of the rule's scope, and it may be corrected.
+> **Current form.** As now specified, *nearby* means radio co-presence at the moment of giving: Bluetooth LE, plus ultra-wideband ranging where both phones have it. There is no GPS radius, and no location is stored. The institutional variant becomes the institution's own fixed radio beacon, which a phone must hear at the moment of giving: one beacon, one room.
 >
-> It does not carry over every configuration below:
+> Two configurations below do not carry over, and both stay in this paper only as disclosed variants:
 >
-> - **Range.** One beacon covers only its own range, so a multi-room building needs several, and grouping beacons into one recipient set is again an operator-defined boundary.
-> - **The remote sender.** The remote sender of §5.1, a diner giving to kitchen staff out of range, has no co-presence form.
+> - **The building-wide set.** Each beacon is its own recipient set. Grouping beacons into one set would be an operator-drawn boundary again, so the building-wide cases of §5.4 are disclosed variants.
+> - **The remote sender.** The remote sender of §5.1, a diner giving to kitchen staff out of range, has no co-presence form and is dropped.
 >
 > The costs come with the rule:
 >
+> - **One room is the intent, not a wall.** Radio passes through walls, and a large room can outrun a beacon (§4.2, §9.3). The set is whoever's phone hears the beacon at that moment.
 > - **A gate, never a proof.** Without ultra-wideband the radio check can be relayed. That is tolerable where value can only be given onward. Recipients here receive money they keep, though, so a relay that makes a distant account count as nearby has a cash motive. A receipt can therefore attest only that the gate passed.
 > - **Native apps only.** Safari has no Web Bluetooth and no browser can advertise over Bluetooth LE, so the Phase 1 degraded mode of §2.1 needs a native client.
 > - **What the platform still learns.** Rotating identifiers keep third parties from tracking a beacon. The platform, which resolves them to settle, still learns who was near whom, though it stores no location.
@@ -247,6 +278,8 @@ BLE proximity has a typical range of 10–30 meters, which fits most retail, res
 ### 5.1 The variant
 
 A registered institutional space — shelter, congregation, school, restaurant, hospital, etc. — defines a GPS bounding-box for its premises. Users who are currently inside the bounding-box and who are PoH-verified can be recipients of an institutional-mode Thank-All-Nearby broadcast initiated by another user inside the same bounding-box (or, in some deployment configurations, by a user outside the bounding-box who has authorized institutional-mode broadcasting — e.g., a customer at a restaurant initiating an institutional-mode broadcast to the kitchen staff in the break-room).
+
+> **Current form (2026-11-04).** The remote sender in the parenthesis above is dropped and stays only as a disclosed variant (§5's note).
 
 ### 5.2 Institutional opt-in is required
 
@@ -270,6 +303,8 @@ The platform does not collect general absolute-geolocation data from users. Inst
 
 The variant generalizes the primitive from spatial proximity at the radio layer to institutional perimeter at the privacy-preserving GPS layer. The recipient experience remains atmospheric; the institutional perimeter replaces the BLE range as the recipient-set boundary.
 
+> **Current form (2026-11-04).** A broadcast now reaches one room. The out-of-range and building-wide cases above are disclosed variants (§5's note).
+
 ---
 
 ## 6. Recipient-experience design — sunlight, not sparsity
@@ -288,7 +323,7 @@ Three implications for the recipient-experience design follow:
 
 **Implication 3 — the per-broadcast receipt is still individually verifiable for social-media authenticity-proof purposes.** The aggregate-mode default does not preclude the recipient from drilling into a specific receipt when they want to post a "Faith in Humanity Restored" video; the per-receipt verification trail remains intact and verifiable on the Base L2 ledger. The atmospheric default and the per-receipt verifiability compose.
 
-> **Current form.** As now specified, a per-broadcast receipt is verified against the institution's anchored log rather than the Base L2 ledger (§3.2's note). The totals in Implication 2 and §7.5 are shown only to the recipient, inside the app. The sentence above is retained as a disclosed variant.
+> **Current form.** As now specified, a per-broadcast receipt is verified against the institution's anchored log rather than the Base L2 ledger (§3.2's note). The totals in Implication 2 and §7.5 are shown only to the recipient, inside the app. No receipt and no digest prompts a thank (§3.1's note, guard 1). The sentence above is retained as a disclosed variant.
 
 This is the sunlight-not-sparsity posture. The Tree of Humanity should have ample sunlight all year round. The architecture does not throttle the sunlight to preserve scarcity.
 
@@ -308,7 +343,7 @@ In BLE mode: every device within BLE range that is broadcasting a PoH℠ proximi
 
 In institutional mode: every PoH-verified user currently inside the institutional bounding-box who has not opted out of institutional-mode broadcasts at the recipient level.
 
-> **Current form.** As now specified, institutional mode reaches every PoH-verified user whose phone hears the institution's radio beacon at the moment of giving and who has not opted out (§5's note). The bounding-box sentence above is retained as a disclosed variant.
+> **Current form.** As now specified, institutional mode reaches every PoH-verified user whose phone hears the radio beacon in the sender's room at the moment of giving and who has not opted out (§5's note). The bounding-box sentence above is retained as a disclosed variant.
 
 ### 7.3 Paranoia counter-incentive
 
@@ -342,11 +377,15 @@ Modern public life is emotionally thin. People move through shared physical spac
 
 Anonymous proximity-based generosity produces a categorically different experience than ordinary generosity. Three mechanisms combine: **diffusion** (when the giver is unknown, the credit does not attach to one identifiable person — the recipient experiences kindness from the whole social space, not from a single source); **purity** (with no social reward, no performance, no claim to recognition, the act feels closer to a spontaneous expression of human-to-human care than to a transaction); **proximity** (the generosity arrived from someone physically present, sharing the same atmosphere — not from an abstract institution or distant donor). The combination produces an emotional effect that neither cash, credit, named digital tipping, nor distant charity can deliver.
 
+> **Current form (2026-11-04).** A thank-back can now reach the giver (§3.1's note). It is no claim to recognition, since no one learns who gave, but it is a return. Read *no social reward* as no reward from being seen.
+
 Operationalized at scale through the Thank-All-Nearby primitive, this produces a new social texture. Public spaces stop feeling transactional. *Every stranger becomes newly humanized* because any of them could have been the giver. Suspicion softens; curiosity increases; small interactions matter more; presence matters more. People may venture outside more often, linger in public spaces longer, speak to strangers more easily — not because they are maximizing social capital but because shared space begins to feel emotionally alive again. The architecture's atmospheric output is the social-texture restoration the vision-mission has been pointing at; the Thank-All-Nearby primitive is what makes it operationally true.
 
 ### 8.2 The deepest deficit — social invisibility
 
 Human beings evolved needing not just food and shelter but evidence that they mattered to one another. The deepest forms of suffering are forms of social invisibility — feeling unseen, unwanted, replaceable, emotionally abandoned. A PoH-verified anonymous-tipping field counteracts that invisibility directly, primally, in shared physical space. The recipient is held in the awareness of unseen others, with structural proof (the verified-platform receipt) that the awareness is real.
+
+> **Current form (2026-11-04).** The receipt attests what §3.2's note says and no more: a verified-human sender, that the co-presence gate passed, and the timestamp. It does not establish that a gift was not staged.
 
 The *felt sense of being loved, acknowledged, or held in another human's awareness* — possibly, at the deepest level, what humans search for beneath everything else — becomes a property of public space. This is the philosophical claim the primitive operationalizes. The "perhaps" and "at the deepest level" hedges are doing real work; the claim is positioned as a synthesis of converging lineages (philosophical and empirical) rather than as a foundational metaphysical assertion.
 
@@ -396,13 +435,18 @@ The accessibility gradient of the deeper PoH layers (L2 kinship attestation requ
 
 BLE range varies with device generation, environmental obstacles (walls, RF interference), and battery state. The proximity-verification floor is approximately "two devices in the same room"; the ceiling under good conditions is approximately 30 meters with current consumer hardware. Outdoor proximity in open space is straightforward; dense-urban deployment with many walls and floors is harder. The institutional-mode GPS-bounding-box variant addresses some of these limitations; the underlying limitations remain at the radio layer.
 
-> **Current form.** As now specified, fixed radio beacons replace the GPS variant (§5's note), so these radio-layer limits now bind institutional mode too. The radio check is a gate, never a proof, since it can be relayed without ultra-wideband.
+> **Current form.** As now specified, a fixed radio beacon, one to a room, replaces the GPS variant (§5's note), so these radio-layer limits now bind institutional mode too. The radio check is a gate, never a proof, since it can be relayed without ultra-wideband.
 
 ### 9.4 What the primitive does not solve
 
 - **The deeper question of why public spaces feel emotionally thin.** The primitive operates at the architectural layer; the conditions that produced the emotional thinness of modern public life are economic, political, urbanistic, and cultural, and the primitive contributes to but does not by itself reverse them.
 - **The deeper inequities of consumer-electronics access.** The primitive presupposes smartphone access, BLE-capable devices, and the institutional infrastructure to host the operation. Populations without these are not participants in the primitive's substrate, regardless of the architecture's inclusive-defaults posture.
 - **The native-install cost.** Safari has no Web Bluetooth and no browser can advertise over Bluetooth LE (§5's note), so both sender and recipient need a native app. Anyone without one, including every recipient on the Phase 1 web client, is outside the primitive.
+- **The staged gift.** A receipt answers a fabricated record. It does not answer a gift staged between friends, and it rests on the platform's attestation (§3.2's note).
+- **Identification in a small room.** The anonymity runs only to the anonymity set among those co-present (§4.4's note). In a room of two there is no one else it could be.
+- **Sender-side proof outside the receipt.** The sender holds no opening, but a settlement record, or whatever reads a thank, can still point at them (the notes at §3.1 and §3.2).
+- **Waiting for thanks.** The return channel can bring back the waiting that anonymity spared the giver, and no design removes that from a giver's intention (§3.1's note).
+- **Anyone out of the room.** One beacon serves one room (§5's note), so a diner cannot reach the kitchen and a donor cannot reach a whole shelter.
 - **The systemic conditions that produce social invisibility in the first place.** The primitive addresses the visibility deficit at the experience layer; the structural conditions (urban design, labor structure, economic inequality, family-system pressures) that produce the deficit are upstream and require interventions at those layers.
 
 The primitive is a contribution to the architectural layer of the response to social invisibility. It is not the totality of the response.
@@ -423,6 +467,8 @@ The Thank-All-Nearby primitive synthesizes contributions from multiple lineages.
 
 **Philosophical lineage on the felt sense of being held in another's awareness.** Frankl, Buber, Levinas, Aristotle (philia), Aquinas (agape), the Buddhist *brahmavihāra* tradition (especially mettā). The architecture is operationalizing a philosophy these lineages have been articulating in different vocabularies for millennia.
 
+**Thanking an anonymous giver.** The thank-back of §3.1's note is old as a mechanism, and this paper claims none of it. *The Unpaid Relay* in this corpus discloses two routes (its claims 4 and 15; §3.1 and §3.4) and reports a quick census of 2026-09-29, which found fundraising intermediaries forwarding thanks to anonymous donors; WO 2003/077164 A1 (*Anonymous gifting*, RSVP Personals International Ltd, priority 13 March 2002), whose recipient learns only the donor's alias and receives a stamp "so he/she can thank you personally"; and bearer-secret return channels for anonymous parties, such as SecureDrop. They are named for what they disclose, not for any reading of their claims.
+
 **Empirical anchor.** Attachment theory (Bowlby, Ainsworth, modern adult-attachment work); Social Baseline Theory (Coan and colleagues); loneliness epidemiology (Cigna surveys, US Surgeon General's 2023 advisory); direct-gratitude research (Emmons, Algoe, Seligman, Fox).
 
 **HeartBank corpus cross-references.** *Verified-Human Anonymous Local Giving* (originating mechanism, paper #9 in the corpus). *The B-Tag and the Post-Payment Economy* (worked Phase 2 example for commercial gratitude). *The Zero-Point Game℠* (keystone game-theoretic frame). *Capacity-Funded for AI, Human-Disbursed* (institutional-architecture sibling). *B-PoH℠ as Humanity Layer for the AI-Native Internet* (the underlying protocol). *Each Life as Cosmic Coordinate* (the longitudinal cohort architecture that the L2 birth-certificate sub-feature feeds).
@@ -431,11 +477,11 @@ The Thank-All-Nearby primitive synthesizes contributions from multiple lineages.
 
 ## 11. Conclusion
 
-The "Faith in Humanity Restored" cultural form is real; the infrastructure to scale it beyond cash is missing. Cash and credit-card payment rails fail at two structural properties the cultural form requires: tipper anonymity (cash demands physical hand-over; credit card leaves an identity trail) and recipient authenticity-proof on social media (every video faces "this is fake for views" credibility erosion). The Thank-All-Nearby primitive closes both gaps simultaneously, composing four sub-mechanisms (PoH℠ verified-human guarantee, BLE plus Apple/Google Nearby proximity verification, recipient-side filtering, bilateral uncacheable anonymity) into a single user-facing one-tap operation.
+The "Faith in Humanity Restored" cultural form is real; the infrastructure to scale it beyond cash is missing. Cash and credit-card payment rails fail at two structural properties the cultural form requires: tipper anonymity (cash demands physical hand-over; credit card leaves an identity trail) and recipient authenticity-proof on social media (every video faces "this is fake for views" credibility erosion). The Thank-All-Nearby primitive closes both gaps simultaneously, composing four sub-mechanisms (PoH℠ verified-human guarantee, BLE plus Apple/Google Nearby proximity verification, recipient-side filtering, bilateral uncacheable anonymity) into a single user-facing one-tap operation. (The second gap closes only in part: a viewer checks the platform's attestation, and a gift staged between friends stays open, per §3.2's note. The first holds to the anonymity set among those co-present, per §4.4's note.)
 
 The primitive is the operational mechanism for *emotional infrastructure for invisible kindness* — the restoration of the felt sense of being held in another human's awareness as a property of shared physical space. The architecture's posture on saturation is *sunlight, not sparsity*: tips can flood like sunlight; the Tree of Humanity should have ample sunlight all year round; the recipient-experience design is atmospheric and aggregate, preserving the quality of diffused acknowledgment at all volumes while preserving per-receipt verifiability for social-media authenticity-proof purposes.
 
-The institutional-mode GPS-bounding-box variant extends the primitive from BLE range to institutional perimeter, enabling deployment in shelters, classrooms, restaurants, hospitals, and other institutional spaces where BLE range is insufficient. (As now specified, the institution's fixed radio beacon replaces it, with the costs stated in §5's note; the variant is retained as disclosed.)
+The institutional-mode GPS-bounding-box variant extends the primitive from BLE range to institutional perimeter, enabling deployment in shelters, classrooms, restaurants, hospitals, and other institutional spaces where BLE range is insufficient. (As now specified, the institution's fixed radio beacon replaces it, one beacon to one room, with the costs stated in §5's note; the variant, its building-wide cases and the remote sender are retained as disclosed.)
 
 The architecture is offered defensively to the commons under CC0. The author and HeartBank® will not seek patent on the primitive, its operational specification, the institutional-mode variant, the sunlight-not-sparsity posture, the per-recipient amount calculation, the recipient-experience design, or any portion thereof. Trademark rights on specific marks (**Proof of Humanity ℠**, **PoH℠**, **B-PoH℠**, **Aquarius℠**, **Miss Aquarius℠**, **HeartBank®**, the B-heart logo) are separately and explicitly reserved.
 
@@ -456,8 +502,9 @@ Coined names used in this paper and the standard terms an examiner would search 
 | Recipient-side filtering | recipient-controlled inbound message/payment filtering (allow-list rules) |
 | Institutional-mode GPS bounding-box (disclosed variant; see §5's note) | geofence-scoped recipient set |
 | Verified-platform receipt | on-chain attestation / verifiable receipt of transfer |
-| Amount-free receipt (current form, §3.2) | salted hash commitment; append-only transparency log (RFC 6962) anchored by trusted timestamping |
-| Radio co-presence gate (current form, §5) | BLE / ultra-wideband proximity check; fixed institutional BLE beacon |
+| Amount-free receipt (current form, §3.2) | salted hash commitment, opened only by the recipient on an anonymous send; append-only transparency log (RFC 6962) anchored by trusted timestamping |
+| Radio co-presence gate (current form, §5) | BLE / ultra-wideband proximity check; one fixed institutional BLE beacon per room |
+| Thank-back (current form, §3.1) | one-way recipient reply to an anonymous sender, no sender identity disclosed |
 | Sunlight-not-sparsity posture | no rate limiting of inbound tips; aggregated (digest) notification |
 | Kiitos/Kiitti | zero-value gratitude token (non-monetary acknowledgment) |
 | *mettā* / *brahmavihāra* | loving-kindness (Buddhist ethics term) |
