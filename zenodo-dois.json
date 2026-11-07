@@ -1,12 +1,12 @@
 {
  "a-promise-that-cannot-grow": {
   "concept_doi": "10.5281/zenodo.23041247",
-  "deposition_id": 23086360,
-  "doi": "10.5281/zenodo.23086360",
+  "deposition_id": 24026045,
+  "doi": "10.5281/zenodo.24026045",
   "published": true,
   "sandbox": false,
-  "sha256": "320d83cff8d6e101df871c9ffd41f4a101427dfb5e39bdc0f1e750c80fcc5ac0",
-  "url": "https://zenodo.org/records/23086360"
+  "sha256": "abc0425dd661b0a0c31ebcb6ca3d1c4aafa10fe02521402bc77cba6f9c823ca2",
+  "url": "https://zenodo.org/records/24026045"
  },
  "a-vow-you-could-have-refused": {
   "concept_doi": "10.5281/zenodo.23084922",
@@ -316,12 +316,12 @@
  },
  "four-body-architecture": {
   "concept_doi": "10.5281/zenodo.21947323",
-  "deposition_id": 23987857,
-  "doi": "10.5281/zenodo.23987857",
+  "deposition_id": 24026048,
+  "doi": "10.5281/zenodo.24026048",
   "published": true,
   "sandbox": false,
-  "sha256": "5222315917d6630c5effc77958b91493e1d02f8ddeecd7a247287bfaf158d9fa",
-  "url": "https://zenodo.org/records/23987857"
+  "sha256": "2562a5083eb6fe2edbcac9aea8f95154e1d3f5cebd6ca0ec42d935f0ec652f0f",
+  "url": "https://zenodo.org/records/24026048"
  },
  "four-elements-as-breadth-check": {
   "concept_doi": "10.5281/zenodo.22736257",
@@ -460,12 +460,12 @@
  },
  "manufactured-universal-giving": {
   "concept_doi": "10.5281/zenodo.21947349",
-  "deposition_id": 23955560,
-  "doi": "10.5281/zenodo.23955560",
+  "deposition_id": 24026049,
+  "doi": "10.5281/zenodo.24026049",
   "published": true,
   "sandbox": false,
-  "sha256": "f872a9b38794835305f93a60ecd5d4a6943ba4cf815b5cb8993abe0dcd4cac91",
-  "url": "https://zenodo.org/records/23955560"
+  "sha256": "91272bd96a82ee038538c73c993132e4b7c5540baafd058660caf9185cb820d3",
+  "url": "https://zenodo.org/records/24026049"
  },
  "mechanical-heart": {
   "concept_doi": "10.5281/zenodo.21947353",
@@ -523,12 +523,12 @@
  },
  "prediction-register": {
   "concept_doi": "10.5281/zenodo.22132689",
-  "deposition_id": 23660501,
-  "doi": "10.5281/zenodo.23660501",
+  "deposition_id": 24026054,
+  "doi": "10.5281/zenodo.24026054",
   "published": true,
   "sandbox": false,
-  "sha256": "e47e0dfe957da049cb7ad105699de2fa32bc499a46b56f7437cbd98fa71c37fd",
-  "url": "https://zenodo.org/records/23660501"
+  "sha256": "3865314b018d7ddea09408a823ffd86053042b15eea590ef948d91ba9c83fa1c",
+  "url": "https://zenodo.org/records/24026054"
  },
  "proof-of-coordinate": {
   "concept_doi": "10.5281/zenodo.21947366",
@@ -847,12 +847,12 @@
  },
  "the-water-cycle": {
   "concept_doi": "10.5281/zenodo.22735468",
-  "deposition_id": 23955692,
-  "doi": "10.5281/zenodo.23955692",
+  "deposition_id": 24026061,
+  "doi": "10.5281/zenodo.24026061",
   "published": true,
   "sandbox": false,
-  "sha256": "e7fbfd2f954e8f7c900e544b89eac3a5beae71a79bfeeb124fc6a7428e7772cd",
-  "url": "https://zenodo.org/records/23955692"
+  "sha256": "d847d3bd22313e3708e04b895d882f1d310c54dad3380e601f401dcead323bfc",
+  "url": "https://zenodo.org/records/24026061"
  },
  "the-zero-employee-institution": {
   "concept_doi": "10.5281/zenodo.21947420",
