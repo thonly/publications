@@ -1,0 +1,59 @@
+name: Review a paper
+description: Review one paper in this corpus. Your review is public, like everything here.
+title: "Review: "
+labels: ["review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reading closely. Say what is wrong, what is missing, and what a claim cannot support. A hostile reading, one that tries to refute the paper, is welcome.
+
+        **This review is public:** it is an issue in a public repository. Each point is answered on the record, and a reviewer's points can change the paper.
+  - type: input
+    id: paper
+    attributes:
+      label: The paper
+      description: Its address on thonly.org.
+      placeholder: https://thonly.org/research/...
+    validations:
+      required: true
+  - type: dropdown
+    id: reading
+    attributes:
+      label: Your reading
+      options:
+        - A general review
+        - A hostile reading (I tried to refute it)
+    validations:
+      required: true
+  - type: input
+    id: who
+    attributes:
+      label: Your name and field (optional)
+      description: For credit if your review is used. Leave it blank to review under your GitHub name only.
+  - type: textarea
+    id: errors
+    attributes:
+      label: Errors of fact, citation or reasoning
+      description: Each one with where it is (the section) and why it is wrong.
+  - type: textarea
+    id: prior
+    attributes:
+      label: Prior work or literature it misses
+  - type: textarea
+    id: claims
+    attributes:
+      label: Claims it cannot support
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before you send
+      options:
+        - label: I understand this review is public, and I dedicate it to the public domain (CC0), like the corpus.
+          required: true
+        - label: I have no conflict of interest, or I have stated it above.
+          required: true
