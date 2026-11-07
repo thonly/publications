@@ -9,6 +9,8 @@ body:
         Thank you for reading closely. Say what is wrong, what is missing, and what a claim cannot support. A hostile reading, one that tries to refute the paper, is welcome.
 
         **This review is public:** it is an issue in a public repository. Each point is answered on the record, and a reviewer's points can change the paper.
+
+        It asks about correctness, prior work, and what the claims can bear. These papers are dense on purpose, so readability is not part of the review.
   - type: input
     id: paper
     attributes:
@@ -30,7 +32,7 @@ body:
     id: who
     attributes:
       label: Your name and field (optional)
-      description: For credit if your review is used. Leave it blank to review under your GitHub name only.
+      description: Optional. It helps us read your review in context. The paper itself never names its reviewers.
   - type: textarea
     id: errors
     attributes:
