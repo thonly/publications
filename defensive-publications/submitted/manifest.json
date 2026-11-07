@@ -8,8 +8,8 @@
       "claims_headings": [
         "## 15 · Enumerated claims"
       ],
-      "claims_sha256": "fd32196b502627f4258d8115b6f3d16338ca1caabe45323c1ef8ce292f585997",
-      "body_sha256": "71d1deb9cc7c4b39090f0b310b72272fe4ea2c9507b7156b33a32e3e4b5b286a",
+      "claims_sha256": "45db2bd7cea1ea558740d4d8a8a44b7822b73d2430e085490a37da4d21878063",
+      "body_sha256": "c33d6d17983e551a5b713c6ee4479e0bfab543f996038c4e09a6c6d911acb133",
       "posted": "2026-10-06",
       "url": "https://www.tdcommons.org/dpubs_series/11953",
       "posted_verified": {
@@ -20,7 +20,15 @@
         "words": 19938,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-06",
+          "from": "fd32196b5026",
+          "to": "45db2bd7cea1",
+          "note": "2026-11-06 A554: Current-form notes beside claim 1(c) per A553(1) (#75 governs); claim text unchanged, no claim added or widened, no new matter a claim rests on"
+        }
+      ]
     },
     {
       "slug": "abhidhamma-and-discrete-quantum-gravity",
@@ -640,11 +648,11 @@
       "claims_headings": [
         "## Findings disclosed"
       ],
-      "claims_sha256": "ef9c5842d6627ca980973f4be00a970100280778daf93f550667939cfe9c0663",
+      "claims_sha256": "d002ae74d7df463298bea19737c2d062a9ad538c864d7bb48f86fdd46f09a1f0",
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "95d474cd43f70ff42e9518e8e92ecdb74f5364283a9dbaa5fe364e3acab37db9",
+      "body_sha256": "9a37318c9638917399d2c82680fcd9387c7ad6c57029a414478e73ff6e59bdf5",
       "posted": "2026-10-07",
       "url": "https://www.tdcommons.org/dpubs_series/12017",
       "posted_verified": {
@@ -655,7 +663,15 @@
         "words": 11642,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-06",
+          "from": "ef9c5842d662",
+          "to": "d002ae74d7df",
+          "note": "2026-11-06 A554: Finding 5 narrowed by a consent bound; corrections and Current-form notes; no new matter"
+        }
+      ]
     },
     {
       "slug": "fractal-three-level-architecture",
@@ -930,11 +946,11 @@
       "claims_headings": [
         "BODY"
       ],
-      "claims_sha256": "98ae88a85a21d024d5eef2c5284a29cf9637d54790bee0e06d71170cdd699590",
+      "claims_sha256": "c1e746e8d28396538ec92939707035a17aba01c936e3ba8145df301e7690d59d",
       "claims_heading_override": [
         "BODY"
       ],
-      "body_sha256": "142cb5b454e65b651937dceb8f4f144acad3280e9fed043d3ae99763d23b40f4",
+      "body_sha256": "68a8b74df5aba376d966d2e0dc448311c38d771bbabe87f05d2664b84409251b",
       "posted": "2026-10-06",
       "url": "https://www.tdcommons.org/dpubs_series/11978",
       "posted_verified": {
@@ -958,6 +974,12 @@
           "from": "db2d4fcf2275",
           "to": "98ae88a85a21",
           "note": "No enumerated claims added or changed; Current form notes (radio co-presence, two-reading measure) per the variant rule, limits added to 6.3.1 and 7, 5.3.1 derivation and P(p) correction are argument not claims; nothing at the venue."
+        },
+        {
+          "date": "2026-11-06",
+          "from": "98ae88a85a21",
+          "to": "c1e746e8d283",
+          "note": "2026-11-06 A554 concord repair: corrections and Current-form notes stating designs already disclosed in companion papers; no enumerated claim added or widened"
         }
       ]
     },
