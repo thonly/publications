@@ -1,3 +1,21 @@
+### 2026-11-06 (night) — the /concord pilot repairs: four papers and the register (A554; founder: *"Approve all (Recommended)"* on A553's eight rulings and the HARD rows)
+
+`four-body-architecture` (16 rows; *dīpa* read as island, one's own light per MN 43, the lotus from the water per AN 4.36, *mettā*
+glossed from *mitta*) · `a-promise-that-cannot-grow` (#75 governs: a release reaches the aura only through a thank; the 9/28 "+"
+kept as a disclosed variant beside claim 1(c)) · `manufactured-universal-giving` (13 rows; the Family Kitty is a holding; #60(b)
+caps the total) · `the-water-cycle` (errors only: the Kitty holds, the printed credit for *Zero Hero*) · `prediction-register`
+(P-HK1 added, the Heart white paper's P1; 136 identifiers, reconciles). Mirrors acknowledged (no new matter): the three posted
+papers. Leg 1: each proof rotated (Bitcoin-complete) and re-stamped, calendar-only at stamping · leg 2 `2026-11-07.sha256` · leg 4
+index 2.5.67, worker `caebff0e` · modules: thonly.org `f4d81fd`, `c81d3f5`. `verify-legs.sh`: every leg covers current text.
+
+| document | leg 3 · Zenodo |
+|---|---|
+| **a-promise-that-cannot-grow** | 10.5281/zenodo.24026045 |
+| **four-body-architecture** | 10.5281/zenodo.24026048 |
+| **manufactured-universal-giving** | 10.5281/zenodo.24026049 |
+| **prediction-register** | 10.5281/zenodo.24026054 |
+| **the-water-cycle** | 10.5281/zenodo.24026061 |
+
 ### 2026-11-05 — subtitles: nine papers gain one, three stop repeating their titles (founder: *"yes to all three; deploy"*)
 
 B-Explorer began showing each paper's subtitle under its title, and nine papers had none to show: four studies and mechanisms and five essays. Each gained a subtitle in its front matter, drawn from its own abstract or argument. Three subtitles repeated the second half of their titles nearly word for word; studio-b-short-phase-bridge and multi-family-membership keep only the part the title does not say, and brand-identity-as-architecture drops its subtitle, since its title already names every element. Only the front matter changed; every body is byte-identical. Each retiring proof was Bitcoin-complete before rotation, the new texts are covered by the 2026-11-05 RFC 3161 manifest, and the corpus index serves them from 2.5.64, which also reads two quoted subtitles with their escapes.
