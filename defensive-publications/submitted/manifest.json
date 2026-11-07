@@ -81,11 +81,11 @@
       "claims_headings": [
         "## Findings disclosed"
       ],
-      "claims_sha256": "25202e312ad123ce4f6cb5736ba3ab671be3c7a3935860be0c776d814483accf",
+      "claims_sha256": "2cf612beea6624a9afec49ba3a66578fea615d34bc65309797b72250365efab7",
       "claims_heading_override": [
         "## Findings disclosed"
       ],
-      "body_sha256": "ee17b80b55e48a1250544e2577aaf547ef75d11b9b88a2b5ac1b0584fbb980d0",
+      "body_sha256": "7be86c6dd5bbebc28a093ed3666bb501c54bde1c4cfd013d7d66e9ca12d58aa1",
       "posted": "2026-10-06",
       "url": "https://www.tdcommons.org/dpubs_series/11988",
       "posted_verified": {
@@ -96,7 +96,15 @@
         "words": 11661,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-07",
+          "from": "25202e312ad1",
+          "to": "2cf612beea66",
+          "note": "2026-11-07, founder ruling (A571/A572, 'Acknowledge (Recommended)'): Findings 9 and 11 corrected (roots as present factors; sati scoped to the Dhammasanghani's analysis, Vibhanga 956 and the MN commentary cited). A study's textual findings narrowed and corrected; no finding added or removed, no new mechanism, no matter a claim newly rests on. The 2026-10-06 posting stays as the dated record; the corrected text is Zenodo 10.5281/zenodo.24038324."
+        }
+      ]
     },
     {
       "slug": "agi-monks-caretaker-not-ordained",
