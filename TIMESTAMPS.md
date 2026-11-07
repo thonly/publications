@@ -922,3 +922,11 @@ Founder's answers landed in the papers (`TH/notes/sessions/twenty-one-rulings-20
 | each-life-as-cosmic-coordinate | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969082 | 2.5.63 |
 | two-singularities | rotated, calendar-only at push | `2026-11-05.sha256` or later | 10.5281/zenodo.23969087 | 2.5.63 |
 | when-the-dharma-is-lost | rotated, calendar-only at push | as above | no DOI (personal essay) | 2.5.63 |
+
+### 2026-11-07 — abhidhamma-executable-process-specification v6: the wholesome roots as present factors; *sati* scoped (A571, founder *"Approve; fix both now (Recommended)"*)
+
+§6.2 and §8.2 rewritten, and the same reading brought into line in the Abstract, §4.4 and Findings 9 and 11 (every Pāli citation re-verified with the tipitaka tools). ⚠️ Findings 9 and 11 sit in the TDCommons-mirrored claims section: `check-mirrors.py` flags it, the mirror judgment (`--ack` or a second submission) is the founder's.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| abhidhamma-executable-process-specification | `.ots` → `.r5.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-07.sha256` | 10.5281/zenodo.24038324 | 2.5.72 |
