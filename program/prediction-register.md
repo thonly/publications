@@ -29,10 +29,10 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **135** |
-| Published here | 134 |
+| Total registered | **136** |
+| Published here | 135 |
 | Withheld (operational) | 1 |
-| Already carried by a published paper | 58 |
+| Already carried by a published paper | 59 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
 | Receiving first public timestamp here | 76 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
@@ -126,6 +126,7 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 | P-M1 | In-person key verification failed for thirty years on the invitation, not the cryptography; a redeemed hour is the first pretext that was never about keys | — | Unrun | Published (`co-presence-gated-redemption` §4.6) |
 | P-SK1 | Superseded by the not-a-calendar ruling | Kept, not deleted | **Retired** | First public here |
 | **P-PL10** | **Presence, not content** — when Chronicle ships, captures and views move **together** (a presence effect), not apart (a content effect) | The pilot-scale reading of the C0 finding that captures and views collapsed in parallel. Instrument: `presenceDyads`, pairs active in both directions inside 28 days (founding 0, test 0 on 2026-09-05). ⛔ No Chronicle data exists; the C0 evaluation is written from the pre-registration when data first arrives, never before, and no prompt may move it | Unrun (awaits Chronicle) | First public here |
+| **P-HK1** | Within eighteen months of Chronicle's general availability, among Chronicle-active dyads, the *other-thank* rate will overtake the *self-thank* rate | *Falsifier: no overtaking within the eighteen months → the witness flywheel does not turn unwitnessed kindness into witnessed thanks.* The paper's P1, wording unchanged. An *other-thank* is a direct thank to another person, neither a self-thank nor a re-thank (the paper's own usage in §9). ⚠️ The paper does not define a *Chronicle-active dyad* or how often the rates are read; both are fixed before any Chronicle data exists, by a new entry citing this one, never by editing it. ⛔ No Chronicle data exists, and no prompt may move it | Unrun (awaits Chronicle's general availability) | Published (`heartbank-heart-that-keeps-nothing` §9) |
 
 ---
 
@@ -302,6 +303,15 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-11-06 — one added (P-HK1), a prediction a published paper had carried unregistered since 2026-07-05. Total now 136.**
+
+- **P-HK1** — Chapter II, after P-PL10. ⚠️ **The H3 white paper `heartbank-heart-that-keeps-nothing` §9 pre-registered seven predictions, P1 to P7, on 2026-07-05, and this register did not carry them** — the drift the 2026-08-29 and 2026-09-05 entries say this document exists to prevent. It was found by a corpus-versus-canon audit of that paper (2026-11-05), not by the corpus index, whose builder checks each identifier this register lists against its paper and so cannot see a prediction a paper states that the register never lists.
+- **Dating.** P1 and P2 were written on 2026-07-05 and P3 to P7 the same evening (commits `c69b05a` and `0d1bd38` of `HeartBank/publications`); the wording of all seven is unchanged since. The paper's earliest independent proof is its OpenTimestamps file `heartbank-heart-that-keeps-nothing.md.r1.ots`, stamped 2026-07-25 over the text of 2026-07-23, which carries all seven word for word; the same text is attested by the RFC 3161 manifest of 2026-08-29. The commit history dates the wording to 2026-07-05; the proofs bound it no later than 2026-07-25.
+- **Why one of seven.** Each was read against this register's standard: an outcome, a measure, a window and a falsifier. P1 names all four, with the two gaps its row discloses. **P2, P3, P4, P5, P6 and P7 name no observation window**, and P6 (*modal mass near the ceremonial unit*) and P7 (*working-age*) leave their measure open as well, so each could be read after the fact in more than one way. An unclean prediction is not registered: the paper now carries those six as hypotheses (H2 to H7) in a dated note, with their wording unchanged, and any of them enters here only as a new, fully specified prediction.
+- *Registered before any observation*: Chronicle has no general availability and no Chronicle data exists.
+
+**The Summary moves:** total 135 → 136, *published here* 134 → 135, *already carried by a published paper* 58 → 59. The reconciliation holds: 59 + 76 = 135 published here, plus the one withheld, is 136.
 
 **2026-10-26 — five added (P-BO1 to P-BO5). Total now 135.**
 
