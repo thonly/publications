@@ -590,7 +590,16 @@
         }
       ],
       "posted": "2026-11-05",
-      "url": "https://www.tdcommons.org/dpubs_series/12756"
+      "url": "https://www.tdcommons.org/dpubs_series/12756",
+      "posted_verified": {
+        "date": "2026-11-07",
+        "result": "match",
+        "posted_pdf_sha256": "a68ecaae27c7398a9b4a20999b9b0f46578ea4d0d298c4273ba7a115d047fafa",
+        "posted_pages": 21,
+        "words": 8587,
+        "extra": 0,
+        "missing": 0
+      }
     },
     {
       "slug": "eightfold-path-institutional-architecture",
