@@ -930,3 +930,7 @@ Founder's answers landed in the papers (`TH/notes/sessions/twenty-one-rulings-20
 | paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
 |---|---|---|---|---|
 | abhidhamma-executable-process-specification | `.ots` → `.r5.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-07.sha256` | 10.5281/zenodo.24038324 | 2.5.72 |
+
+### 2026-11-07 — `dual-currency-reciprocity` second submission POSTED at TDCommons (a mirror, not a revision) (founder: *"tdcommons paper posted"*)
+
+The 2026-11-04 second submission (the §7.4 census-named text, `dual-currency-reciprocity.2.pdf`, claims heading `BODY`) is live at [12756](https://www.tdcommons.org/dpubs_series/12756), beside its first posting [11895](https://www.tdcommons.org/dpubs_series/11895). Found by its title on the venue record, which matches the `.2` packet's TITLE block exactly; inventor *Ly, Thon*; the record's online date is 2026-11-05, which `--posted` carries. ⏳ **Not yet verified word for word:** the venue's PDF sits behind a JavaScript challenge that a script cannot pass, so `check-mirrors.py --verify-posted` waits on a copy downloaded in a browser.
