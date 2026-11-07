@@ -214,9 +214,11 @@ def main():
         print(html_path); return
 
     pdf = out_dir / f"{a.slug}.pdf"
+    pdf.unlink(missing_ok=True)  # a PDF left from an earlier run must never pass as this one
+    # Chrome can exit non-zero AFTER writing a good PDF (2026-11-07, a teardown-watchdog crash);
+    # the size check below is the test, not the exit code.
     subprocess.run([CHROME, "--headless", "--disable-gpu", "--no-pdf-header-footer",
-                    f"--print-to-pdf={pdf}", html_path.as_uri()],
-                   check=True, capture_output=True)
+                    f"--print-to-pdf={pdf}", html_path.as_uri()], capture_output=True)
     if a.submitted:
         html_path.unlink()  # only the PDF is evidence; the HTML is a build step
     if not pdf.exists() or pdf.stat().st_size < 10_000:

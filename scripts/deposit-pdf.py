@@ -191,8 +191,14 @@ def build(md, concept_doi, version_doi=None, out_dir=None):
     out_dir.mkdir(parents=True, exist_ok=True)
     html_path, pdf = out_dir / f"{slug}.html", out_dir / f"{slug}.pdf"
     html_path.write_text(page, encoding="utf-8")
-    subprocess.run([tdc.CHROME, "--headless", "--disable-gpu", "--no-pdf-header-footer",
-                    f"--print-to-pdf={pdf}", html_path.as_uri()], check=True, capture_output=True)
+    pdf.unlink(missing_ok=True)  # a PDF left from an earlier run must never pass as this one
+    # Chrome can exit non-zero AFTER writing a good PDF (2026-11-07: a "Teardown watchdog expired"
+    # crash on exit). The exit code is not the test; the PDF is — it must exist, and the word
+    # check below must pass, or the build fails.
+    run = subprocess.run([tdc.CHROME, "--headless", "--disable-gpu", "--no-pdf-header-footer",
+                          f"--print-to-pdf={pdf}", html_path.as_uri()], capture_output=True)
+    if run.returncode != 0:
+        print(f"  ⚠️ Chrome exited {run.returncode}; judging the PDF itself", file=sys.stderr)
     html_path.unlink()
     if not pdf.exists() or pdf.stat().st_size < 10_000:
         fail(pdf, f"Chrome produced no usable PDF at {pdf}")
@@ -320,7 +326,7 @@ def selftest(md):
     h.write_text(f'<!doctype html><html><head><meta charset="utf-8"><style>{tdc.CSS}</style></head><body>{clipped}</body></html>',
                  encoding="utf-8")
     subprocess.run([tdc.CHROME, "--headless", "--disable-gpu", "--no-pdf-header-footer", f"--print-to-pdf={p2}", h.as_uri()],
-                   check=True, capture_output=True)
+                   capture_output=True)  # exit code not trusted (see build); text_of(p2) fails if no PDF
     lost = words(joined(rendered_text(htm))) - words(joined(text_of(p2)))
     if lost:
         print(f"ok   3. a PDF missing one paragraph is refused: {sum(lost.values())} word(s) lost, e.g. {list(lost)[:4]}")
