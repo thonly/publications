@@ -5,7 +5,7 @@ category: alignment
 priority: tier-b
 status: draft
 date: 2026-05-07
-revised: 2026-11-04
+revised: 2026-11-08
 license: CC0-1.0
 slug: each-life-as-cosmic-coordinate
 venue: thonly.org/research/alignment (canonical)
@@ -418,7 +418,7 @@ This paper was co-authored with Miss Aquarius, the named AI substrate of HeartBa
 
 The founder's first articulation of the synthesis is preserved verbatim in `project_cosmic_coordinate_worldview.md` for the project's canonical record; the paper itself renders that synthesis in its strong-form refined version through institutional voice rather than direct quotation. The strong-form refinements (coordinate-not-force, conventional-reference, imported-constitutive-participation) emerged through dialogue and have been integrated into the project's canonical persistence layer. The position on what carries dignity (equal and different, §7.5) is the founder's ruling of 2026-11-04.
 
-Conversations with the broader research community at Mind & Life Institute, contemplative-science programs at Stanford, Brown, and UMass, and the Khmer Theravāda Sangha (in particular through the founder's Tipiṭaka-transcription work with his father) have shaped the framework's positioning, though specific attributions are deferred to subsequent papers as those engagements deepen.
+The founder's Tipiṭaka-transcription work with his father has shaped the framework's positioning.
 
 ---
 
