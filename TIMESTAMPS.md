@@ -2,6 +2,8 @@
 
 No prediction added; total stays 136. P-PL4 and P-PL9 move to Contradicted, P-PL2 stays Running (held so far), and *Field tests run* moves 0 → 3. The earlier proof is kept as `.md.r26.ots` (Bitcoin-complete). New text sha256 `5827f6e9c474cede`; manifest `2026-11-08.sha256` (run 42515245085); version DOI [10.5281/zenodo.24059220](https://doi.org/10.5281/zenodo.24059220); index 2.5.74. The new `.ots` is calendar-only at stamping.
 
+`ZENODO.md`, edited 2026-11-04 (`549552b`) and left with a stale proof: `.ots` → `.r1.ots` (Bitcoin-complete), re-stamped, calendar-only at stamping. It is not a deposited paper, so it has no Zenodo or index leg.
+
 ### 2026-11-06 (night) — the /concord pilot repairs: four papers and the register (A554; founder: *"Approve all (Recommended)"* on A553's eight rulings and the HARD rows)
 
 `four-body-architecture` (16 rows; *dīpa* read as island, one's own light per MN 43, the lotus from the water per AN 4.36, *mettā*
