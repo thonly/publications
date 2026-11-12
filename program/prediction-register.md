@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **137** |
-| Published here | 136 |
+| Total registered | **142** |
+| Published here | 141 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 59 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 77 |
+| Receiving first public timestamp here | 82 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **3** — pilot-scale reads against a falsifier, all from one pilot: P-PL2 held, P-PL4 and P-PL9 went against the prediction (see Revisions, 2026-11-08). The first field test beyond the pilot stays gated on August 2027 |
 | Running (instrument live; unread, restricted, baseline only, or not yet final) | 7 |
@@ -279,6 +279,14 @@ comparison was repaired to a staggered launch before registration).
 - **P-PM2** — **Paid last** — because a promise carries no late penalty, promisors who also hold penalty-bearing debts repay this ledger's balances **later** than those debts. *Measure:* self-reported repayment order in a structured survey of promisors holding both kinds of debt, after one season. *Falsifier: this ledger's balances repaid no later than penalty-bearing debts → the paper's "paid last" limit is overstated.* · *Status:* Unrun (awaits the ledger) · *Provenance:* First public here
 - **P-PM3** — **Rollover made visible** — holders shown a promisor's total-owed band that has risen since their last promise decline or shrink the new promise more often than holders shown a flat band. *Measure:* acceptance of new promises by band movement, device-aggregated. *Falsifier: no difference → the fact line does not answer rollover, and the paper's response to its most serious counterexample fails.* · *Status:* Unrun (awaits the ledger) · *Provenance:* First public here
 
+**The name-registry demand predictions (registered 2026-11-12, before the first real charge).** The registry at 333.eco sells a yearly `@name`; no name has yet been sold for money, so nothing below can have been fitted to data. Every window starts at the first real charge. The founder's own purchases and any tester's are counted. The registry reports totals only: no count is kept per person, and the two totals in P-NM1 are never joined per visit. The founder chose each bar from options shown in ascending order; the substrate's own estimates were committed before he chose and not shown to him (see Revisions, 2026-11-12).
+
+- **P-NM1** — **People who reach the claim page pay** — over the 90 days from the first real charge, the number of `@name`s paid is **at least 3%** of the human visits to the claim page (one device on one UTC day). *Falsifier: under 3% → the page and its frame do not sell a name at this rate.* Instrument: the estate's per-site visit count and the registry's count of paid names, read once at the end of the window. Scored only if the window holds **200 or more** such visits.
+- **P-NM2** — **With a free door beside it, the name is still chosen** — a person who pays nothing is to have a public page too (a free door, designed and unbuilt; it must exist before the first charge). At day 90, paid `@name`s are **at least 10%** of all doors made (paid names plus free doors). *Falsifier: under 10% → once being thanked needs no purchase, few buy the handle.* Instrument: two registry counts. Scored only if **50 or more** doors exist.
+- **P-NM3** — **A held name is kept** — of names first paid in the first 90 days, **at least 50%** are paid again within 30 days of their first anniversary. Renewal is never on by default. *Falsifier: under 50% → for most holders a yearly fee is a one-time purchase.* Instrument: registry counts in the thirteenth month. Scored only if **30 or more** names are in the cohort.
+- **P-NM4** — **Where the first names are held** — the price follows the income group of the paying card's country (3, 6, 9 or 12 USD a year). Of `@name`s paid in the first 90 days, **more than half are paid at 9 or 12 USD**. *Falsifier: half or fewer → the first market is not the one predicted.* Instrument: a count of paid names by price, published with the registry's statement. Scored only if **30 or more** names are paid. ⚠️ A card's country is not where a person lives, and payment by KHQR (Cambodia) may open after the window does, which favors the card prices.
+- **P-NM5** — **The frame earns its place** — the front door says that holding a name helps support Thank After and that the registry's profits are held for a shared fund. A random half of front-door visits sees the door without those lines; the split knows nothing about the visitor and records only which half. The framed half's rate of paid names per visit is **at least 1.5 times** the plain half's. *Falsifier: under 1.5 times → the frame does not earn its place at the point of sale.* Scored when each half holds **30 or more** paid names; if twelve months pass first, *unresolved*.
+
 ---
 
 ## Withheld
@@ -304,6 +312,10 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-11-12 (later) — five added (P-NM1, P-NM2, P-NM3, P-NM4, P-NM5). Total now 142.**
+
+- **P-NM1, P-NM2, P-NM3, P-NM4, P-NM5** — *Instrumented but outside the core*: they test whether anyone pays to hold a name, which is the institution's planned earning line and not the direction of value. They are registered because a review of the business models on 2026-11-09 found a full account of how money may move and no evidence about demand. The founder chose each bar from options shown in ascending order (*"At least 3%"* · *"At least 10%"* · *"At least 50%"* · *"9 or 12 USD"* · a split at *"1.5×"*), then *"register as drafted"*. The substrate's own estimates, committed to the private record before he chose and not shown to him, so a reader can see where he predicted against it: P-NM1 about 5% · P-NM2 about 15% · P-NM3 about 40% · P-NM4 more than half at 9 or 12 USD · P-NM5 about 1.1 times. He is the more optimistic on P-NM3 and P-NM5. Two instruments do not exist yet and must before the first charge: the free door (P-NM2) and the random split (P-NM5). Summary: *total* 137 → **142**, *published here* 136 → **141**, *receiving first public timestamp here* 77 → **82**.
 
 **2026-11-12 — one added (P-TB1). Total now 137.**
 
