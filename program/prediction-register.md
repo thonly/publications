@@ -209,6 +209,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-MD1, P-MD2, P-MD3, P-MD1a | `machine-dana-from-share-to-vow` | Whether a machine's pledge to a self-emptying commons separates types — wording below (P-MD1a reads P-MD1's instrument — see the 2026-09-28 entry) |
 | P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `the-counts-check` (instrument: `SiliconWat/formal-abhidhamma`) | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
 | P-PM1, P-PM2, P-PM3 | `a-promise-that-cannot-grow` | Whether a promise ledger that never grows on its own, and its yearly invitation to forgive, behave as designed — wording below |
+| P-NM1, P-NM2, P-NM3, P-NM4, P-NM5 | — (no paper yet; first public here) | Whether anyone pays to hold a name in the registry at 333.eco — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
 predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
@@ -312,6 +313,10 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-11-12 (later still) — none added: a table row. Total stays 142.**
+
+- The five P-NM identifiers were registered in the entry below with their wording, but the row that lists them in the table at the head of *Instrumented but outside the core* was missing, so the register's own count of identifiers (137) did not match its Summary (142). The index build caught it. The row is added; no registered wording changed. The version deposited between the two (10.5281/zenodo.24177890) carries the wording without the row.
 
 **2026-11-12 (later) — five added (P-NM1, P-NM2, P-NM3, P-NM4, P-NM5). Total now 142.**
 
