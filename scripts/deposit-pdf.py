@@ -100,6 +100,10 @@ INLINE = re.compile(r"</?(?:em|strong|code|a|sub|sup|b|i)\b[^>]*>")
 def rendered_text(htm):
     """The render's text as print shows it: an INLINE tag leaves no gap (`<em>Kośa</em>'s` prints as `Kośa's`), a block
     tag does. Step 1 already proved the render keeps every word of the markdown; step 2 compares the PDF with this."""
+    # A code span is drawn in another font, and pdftotext breaks the word at that change: `<code>@name</code>s` prints
+    # joined and is extracted as `@name s` (measured 2026-11-12 on the prediction register, 3 of 3). So a letter
+    # straight after </code> starts its own word here too; every letter must still be found in the PDF.
+    htm = re.sub(r"</code>(?=\w)", "</code> ", htm)
     return unicodedata.normalize("NFKC", H.unescape(re.sub(r"<[^>]+>", " ", INLINE.sub("", htm))))
 
 
