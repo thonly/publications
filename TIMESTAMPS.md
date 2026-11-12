@@ -1,3 +1,7 @@
+### 2026-11-12 — the prediction register: P-TB1, a thank that arrives brings the anonymous giver back (founder: *"register"*)
+
+One row in Chapter I beside the gift-instrument predictions and a Revisions entry; total 136 → 137, reconciled by the index build (137 counted vs 137 stated). It rewords the witnessed-anonymity prediction owed since 2026-09-29, never registered, which lost its second arm once every anonymous gift carried the return channel; the arm is now whether a thank arrived. Registered before any customer has used the shops' storefront (its only real use is the owner at her Cashier since 2026-11-01). The earlier proof is kept as `.md.r27.ots` (Bitcoin-complete, 3 attestations). New text sha256 `52e0fe123b4aa956`; manifest `2026-11-12.sha256` (covers it); version DOI [10.5281/zenodo.24171320](https://doi.org/10.5281/zenodo.24171320); index 2.5.75; site `1b3cf88`. The new `.ots` is calendar-only at stamping.
+
 ### 2026-11-08 — the prediction register: the pilot's reads 2 and 3 and its first field results (founder: *"do all per your recommendation"*)
 
 No prediction added; total stays 136. P-PL4 and P-PL9 move to Contradicted, P-PL2 stays Running (held so far), and *Field tests run* moves 0 → 3. The earlier proof is kept as `.md.r26.ots` (Bitcoin-complete). New text sha256 `5827f6e9c474cede`; manifest `2026-11-08.sha256` (run 42515245085); version DOI [10.5281/zenodo.24059220](https://doi.org/10.5281/zenodo.24059220); index 2.5.74. The new `.ots` is calendar-only at stamping.
