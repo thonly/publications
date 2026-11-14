@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **142** |
-| Published here | 141 |
+| Total registered | **144** |
+| Published here | 143 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 59 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 82 |
+| Receiving first public timestamp here | 84 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **3** — pilot-scale reads against a falsifier, all from one pilot: P-PL2 held, P-PL4 and P-PL9 went against the prediction (see Revisions, 2026-11-08). The first field test beyond the pilot stays gated on August 2027 |
 | Running (instrument live; unread, restricted, baseline only, or not yet final) | 7 |
@@ -210,6 +210,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `the-counts-check` (instrument: `SiliconWat/formal-abhidhamma`) | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
 | P-PM1, P-PM2, P-PM3 | `a-promise-that-cannot-grow` | Whether a promise ledger that never grows on its own, and its yearly invitation to forgive, behave as designed — wording below |
 | P-NM1, P-NM2, P-NM3, P-NM4, P-NM5 | — (no paper yet; first public here) | Whether anyone pays to hold a name in the registry at 333.eco — wording below |
+| P-BM1, P-BM2 | — (no paper yet; first public here) | Whether a signed mail leads its reader to hold a name — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
 predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
@@ -288,6 +289,12 @@ comparison was repaired to a staggered launch before registration).
 - **P-NM4** — **Where the first names are held** — the price follows the income group of the paying card's country (3, 6, 9 or 12 USD a year). Of `@name`s paid in the first 90 days, **more than half are paid at 9 or 12 USD**. *Falsifier: half or fewer → the first market is not the one predicted.* Instrument: a count of paid names by price, published with the registry's statement. Scored only if **30 or more** names are paid. ⚠️ A card's country is not where a person lives, and payment by KHQR (Cambodia) may open after the window does, which favors the card prices.
 - **P-NM5** — **The frame earns its place** — the front door says that holding a name helps support Thank After and that the registry's profits are held for a shared fund. A random half of front-door visits sees the door without those lines; the split knows nothing about the visitor and records only which half. The framed half's rate of paid names per visit is **at least 1.5 times** the plain half's. *Falsifier: under 1.5 times → the frame does not earn its place at the point of sale.* Scored when each half holds **30 or more** paid names; if twelve months pass first, *unresolved*.
 
+**The signed-mail predictions (registered 2026-11-14, before either invitation is live).** A B-Mail is a message its sender signed with a passkey. Its signature line links to a page that checks the message (`explorer.333.eco/b-mail`) and to the sender's `@name` page at 333.eco. The mail itself carries only that line, never an advertisement; an invitation to hold an `@name` sits on those two pages, stated once. Both predictions are read once, at the end of a window that starts the day the invitations go live. Visits are human visits as the estate counts them: one device on one UTC day, with the founder's own browsers and automated runs excluded. A click is counted from the visit beacon's record of the link, whose address carries a channel mark (`from=b-mail`, `from=name`) and nothing about the reader. The founder chose each bar from options shown in ascending order (see Revisions, 2026-11-14).
+
+- **P-BM1** — **A checked mail leads to the name** — over the 12 months from the day the invitation goes live, at least **10%** of human visits to the check page follow its invitation to 333.eco. The page is linked only from the emblem in a signed mail. The invitation shows only when the check finds the message's record and the message names an `@name`; other visits stay in the count. *Falsifier: under 10% → a reader who checks a signed mail seldom wants a name of their own, and the mail is a weak door to the registry.* Instrument: the estate's per-site visit count and the beacon's link clicks, each counted by device and day. Scored only if the window holds **100 or more** such visits; otherwise *unresolved*.
+- **P-BM2** — **A name page invites too** — over the same 12 months, at least **5%** of human visits to `@name` pages at 333.eco follow the page's line *"You can hold your own @name too"*. A logged-in visitor who holds a name is not shown the line; those visits stay in the count, which lowers the rate. *Falsifier: under 5% → a person's page is a weak door to a name of one's own.* Instrument: as P-BM1. Scored only if the window holds **200 or more** such visits; otherwise *unresolved*.
+- **What these cannot measure.** A click is the loop's first step, not its full turn. A name held after a click is never joined to the visit (the registry reports totals only, as for P-NM), so how many new senders each sender brings is not scored here, by design. Today only the founder sends B-Mails, so their readers are mostly people who know him. A prompt to readers to click voids the test.
+
 ---
 
 ## Withheld
@@ -313,6 +320,10 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-11-14 — two added (P-BM1, P-BM2). Total now 144.**
+
+- **P-BM1, P-BM2** — *Instrumented but outside the core*, beside P-NM: they test whether signed mail brings its readers to the registry, a growth question and not the direction of value. The founder proposed that signed mail could spread the way early free email did, with a promotional line in every message. On review he chose the alternative: a person's signed message carries only what they signed, and the invitation sits on the pages the mail links to, with these predictions registered before it goes live. He chose each bar from options shown in ascending order (*"At least 10%"* · *"At least 5%"*). The substrate's own estimates, committed to the private record before he chose and not shown to him, so a reader can see where he predicted against it: P-BM1 about 6% · P-BM2 about 2%. He is the more optimistic on both. Summary: *total* 142 → **144**, *published here* 141 → **143**, *receiving first public timestamp here* 82 → **84**.
 
 **2026-11-12 (later still) — none added: a table row. Total stays 142.**
 
