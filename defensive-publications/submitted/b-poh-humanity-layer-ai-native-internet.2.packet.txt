@@ -1,0 +1,28 @@
+TDCOMMONS SUBMISSION PACKET — SECOND SUBMISSION (the presence call, new claim (vii)) — built 2026-11-15; founder: "do B-PoH second submission"
+═══════════════════════════════════════════════════════════════════════
+WHY A SECOND SUBMISSION
+  The first posting (2026-09-24, posted 2026-09-25, https://www.tdcommons.org/dpubs_series/11882) carries the protocol as of 2026-09-24. The 2026-11-15 revision added the presence call (new §3.8, §8.5 and §12.1) and clause (vii) of the Prior-Art and Non-Assertion Statement, which is the claims section: new matter, so by §the-mirror-revision-rule a second posting is owed. Not a re-submission: the first posting stays. The earlier Current-form notes (§3.3, §7.5, the §3.1 user-verification correction) and the 2026-11-15 notes that a press shows a passkey and never a person ride in the same text.
+
+TITLE
+B-PoH℠ as Humanity Layer for the AI-Native Internet: An Open Proof-of-Personhood Protocol with Four Optional Layered Proofs and Recipient-Side Filters — Including a Passkey Confirmation Call for Applications Worded by the Identity Provider
+  (Paper title + standard-term addition naming the new matter; no mark in the added part. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK
+
+LICENCE    Creative Commons Attribution 4.0
+
+ABSTRACT   (228 words; condensed from the paper's Abstract by deleting whole sentences only; no new matter)
+Proof of Humanity ℠ (PoH℠) is an open protocol for proving authentic human presence at the moment of action, structured as four optional layered proofs (passkey-per-action, witness-and-document-attested kinship graph, continuous breath-signature liveness, DNA-verified kinship lineage) surfaced as depth on a user profile, paired with recipient-side filters that route the spam-cost decision to the parties who bear it. This paper specifies the protocol architecture, the recipient-filter mechanism, the BLE-Nearby proximity verification path that preserves location privacy, the bilateral-uncacheable-anonymity property, and the placement of B-PoH℠ beside Proof of Work and Proof of Stake as a proof bounded by humanness, in the line of earlier proof-of-personhood work (§12) — the proof-of-X primitive that fits the era when compute and capital have both become AI-commodified, leaving humanness as a scarce resource AI cannot readily manufacture. The paper also discloses one application-facing composition of the per-action passkey press, the presence call (§3.8): an identity provider confirms to an app, for one named action and in the provider's own closed wording, that the holder of a person's passkey pressed it, for a person the app already knows by its own pairwise identifier, and keeps nothing; §12.1 reports the novelty census that scopes that claim to the composition alone. The protocol is offered defensively to the commons under CC0; the authors and HeartBank® will not seek patent on the protocol specification or any portion thereof.
+
+FILE       b-poh-humanity-layer-ai-native-internet.2.pdf  (sha256 bd62fe3575902242aa96cc633324f7e9497da5757cd7d586e2bffe1e5c89c4da)
+
+AFTER SUBMITTING
+  python3 scripts/check-mirrors.py --record b-poh-humanity-layer-ai-native-internet --date <date> --pdf b-poh-humanity-layer-ai-native-internet.2.pdf
+  (a row in TIMESTAMPS.md; once it posts, --posted … --url …)
+
+HASHES     (NFC, SHA-256)
+  title    6afd8c4337748c14572a320b3c20c71466a6790fa5da5d5d4fc6a6d883f3aedd
+  abstract eb10679077bb8dae705a6c03fa521b8c7ee7d9971eeaae33a4b0368c25e7dbda
