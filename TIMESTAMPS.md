@@ -982,3 +982,14 @@ One sentence in the acknowledgments claimed conversations with outside research 
 |---|---|---|---|---|
 | b-poh-humanity-layer-ai-native-internet | `.ots` → `.r6.ots`; re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24240098 | 2.5.80 |
 | the-gift-operation | `.ots` → `.r8.ots`; re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24240106 | 2.5.80 |
+
+### 2026-11-15 — the presence call, and the same-pay revision after its full census (founder: *"draft both riders"*)
+
+`b-poh-humanity-layer-ai-native-internet` (new §3.8, §8.5 and §12.1; claim (vii) scoped to the census survivor; the *press shows a passkey, never a person* notes) · `the-same-pay-for-the-same-ad` (claims reduced to the survivor; the full census; the A590(5) riders). The B-PoH paper is mirrored and its claims moved, so a SECOND TDCommons submission is owed (the manifest holds one prior posting, 2026-09-24); no acknowledgement is recorded. The same-pay paper awaits its `/polish` round and first deposit.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| b-poh-humanity-layer-ai-native-internet | `.ots` → `.r7.ots`; re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24245371 | 2.5.81 |
+| the-same-pay-for-the-same-ad | `.ots` → `.r1.ots`; re-stamped, calendar-only at push | `2026-11-15.sha256` | not deposited (awaits `/polish`) | 2.5.81 |
+
+Index note: a hold on the same-pay paper was refused (the committed index already served it); the build failed under a push I had not read, and 2.5.81 was rebuilt and published from a `workflow_dispatch` run on the fixed commit.
