@@ -973,3 +973,12 @@ One sentence in the acknowledgments claimed conversations with outside research 
 | which-way-value-moves | `.ots` → `.r1.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239766 | 2.5.79 |
 | the-capacity-to-give | `.ots` → `.r4.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239771 | 2.5.79 |
 | the-water-cycle | `.ots` → `.r5.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239780 | 2.5.79 |
+
+### 2026-11-14 (later) — two Current-form revisions on top of the morning's six (founder: *"do site deploys, Rulings, and Unridden riders"*)
+
+`b-poh-humanity-layer-ai-native-internet` (§3.3 and §7.5: the breath check runs on the device, only pass/fail leaves it) · `the-gift-operation` (§6.7: witnessed anonymity). Both mirrored, both acknowledged: Current-form notes add no claim. The morning's proofs were calendar-only when rotated (a Bitcoin attestation takes hours), so they are archived as `.r6` and `.r8`; `/ots` upgrades every `.ots` in the tree, archived ones included.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| b-poh-humanity-layer-ai-native-internet | `.ots` → `.r6.ots`; re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24240098 | 2.5.80 |
+| the-gift-operation | `.ots` → `.r8.ots`; re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24240106 | 2.5.80 |
