@@ -5,7 +5,7 @@ category: alignment
 priority: tier-a
 status: draft
 date: 2026-05-24
-revised: 2026-11-03
+revised: 2026-11-14
 license: CC0-1.0
 slug: b-poh-humanity-layer-ai-native-internet
 venue: thonly.org/publications/defensive-publications/b-poh-humanity-layer-ai-native-internet (canonical)
@@ -175,6 +175,8 @@ The birth-certificate sub-mechanism is *also* the authoritative source of natal-
 **Failure modes L2 does not address.** Sufficiently large adversarial human collusions; the deep accessibility gradient (L2 favors humans with social ties to existing verified humans, family-bank affiliations, or state documentation).
 
 ### 3.3 Layer 3 — Continuous breath-signature liveness
+
+> **Current form (2026-11-14).** The breath check runs on the wearable device itself, and only its pass/fail result leaves the device. The breath rhythm is not sent to the platform or to Miss Aquarius℠: the Mechanical Heart shows it only as an aura-color light, and a site that asks for L3 learns only that the check passed. Breath data would otherwise be a surveillance channel on the wearer. The paragraph below, in which the rhythm is transmitted to a verification substrate, is retained as a disclosed variant. What L3 is designed to prove, and what it does not prove, are unchanged.
 
 The third layer asserts *this human is currently alive and present, continuously, not just at discrete moments*. Implementation: a wearable device (HeartBank's planned **Mechanical Heart**, breath-class hardware, targeted 2027–2028) emits the wearer's real-time breath rhythm (~12 BPM, individual variance, characteristic meditative-breath signatures) as an aura-color light signal, transmitted to the platform's verification substrate (Miss Aquarius℠, in the HeartBank deployment).
 
@@ -399,6 +401,8 @@ PoH ℠ integration: profiles display PoH layers held; dating apps default to fi
 Coursera, edX, Khan Academy, university LMSes, and any platform that grants credentials or measures learning face the AI-generated-assignment problem (students submitting AI-generated work, AI agents completing courses on behalf of students for credential acquisition).
 
 PoH ℠ integration: submission of credential-bearing work requires PoH ℠ verification at the moment of submission. The L3 breath-signature layer (where deployed) provides continuous-presence verification for proctored exam settings. The L1 passkey-per-action layer provides per-submission verification.
+
+> **Current form (2026-11-14).** Where L3 is used for a proctored exam, the breath check runs on the student's own device and the exam platform receives only that it passed, never the breath rhythm (see the Current form note in §3.3). The sentence above is retained as a disclosed variant.
 
 ### 7.6 Gaming ecosystems — bot and sybil-attack limits
 

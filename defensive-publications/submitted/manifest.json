@@ -223,7 +223,7 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "ae5b0571f4e54d51b46b1c254aa9f3b84e6fae5da49b6d8c43bbc0c34f29ea6a",
+      "body_sha256": "7f43b58ac6cce2edc3f126869bb5797f54fb7a89921a384531cf2528dd189d4e",
       "posted": "2026-09-25",
       "url": "https://www.tdcommons.org/dpubs_series/11882",
       "posted_verified": {
@@ -241,6 +241,12 @@
           "from": "2ba39632bfde",
           "to": "2ba39632bfde",
           "note": "UV not biometric correction (ruled 2026-09-05); prose only, claims section unchanged"
+        },
+        {
+          "date": "2026-11-14",
+          "from": "2ba39632bfde",
+          "to": "2ba39632bfde",
+          "note": "Current-form notes at 3.3 and 7.5 (breath check on-device, pass/fail only); no new matter, claims untouched"
         }
       ]
     },
@@ -1617,7 +1623,7 @@
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "29b6e82e1eda5a098f3ccdb917bc259e2f1c62e12c10dbb3357db3b04562a71f",
+      "body_sha256": "bfc196dc17ecb810eaf459a79584f31116612edebe4b55a59bd702b8cbf910b1",
       "posted": "2026-10-01",
       "url": "https://www.tdcommons.org/dpubs_series/11924",
       "posted_verified": {
@@ -1635,6 +1641,12 @@
           "from": "c68cc4e5eca1",
           "to": "c68cc4e5eca1",
           "note": "prose-only 4.5 (law's form of the boundary); claims unchanged, nothing claimed new"
+        },
+        {
+          "date": "2026-11-14",
+          "from": "c68cc4e5eca1",
+          "to": "c68cc4e5eca1",
+          "note": "Current-form note at 6.7 (witnessed anonymity); no new matter, claims untouched"
         }
       ]
     },
