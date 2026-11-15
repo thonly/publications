@@ -216,39 +216,32 @@
     {
       "slug": "b-poh-humanity-layer-ai-native-internet",
       "venue": "TDCommons, Defensive Publications Series",
-      "submitted": "2026-09-24",
-      "pdf": "b-poh-humanity-layer-ai-native-internet.pdf",
+      "submitted": "2026-11-15",
+      "pdf": "b-poh-humanity-layer-ai-native-internet.2.pdf",
       "claims_headings": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "claims_sha256": "2ba39632bfdeeaca7a9626e74c4c8af9246ffd9c8e5ff9d4064844aeafa75744",
+      "claims_sha256": "9d53ca5f526a38c4577b7f8acc7875ca40dcc123ee8f5ef0daa368c9b2d75910",
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "7f43b58ac6cce2edc3f126869bb5797f54fb7a89921a384531cf2528dd189d4e",
-      "posted": "2026-09-25",
-      "url": "https://www.tdcommons.org/dpubs_series/11882",
-      "posted_verified": {
-        "date": "2026-09-27",
-        "result": "match",
-        "posted_pdf_sha256": "d41d30d7c63cfc56985cf79598ed6c0a76dce780d89b108fe6901ec203717d6c",
-        "posted_pages": 29,
-        "words": 10792,
-        "extra": 0,
-        "missing": 0
-      },
-      "judgements": [
+      "body_sha256": "f11b27a356201cf4c3dc07554ad82cbc482e702ef463ef65413b38c3dd13b97b",
+      "prior_postings": [
         {
-          "date": "2026-11-14",
-          "from": "2ba39632bfde",
-          "to": "2ba39632bfde",
-          "note": "UV not biometric correction (ruled 2026-09-05); prose only, claims section unchanged"
-        },
-        {
-          "date": "2026-11-14",
-          "from": "2ba39632bfde",
-          "to": "2ba39632bfde",
-          "note": "Current-form notes at 3.3 and 7.5 (breath check on-device, pass/fail only); no new matter, claims untouched"
+          "submitted": "2026-09-24",
+          "posted": "2026-09-25",
+          "url": "https://www.tdcommons.org/dpubs_series/11882",
+          "claims_sha256": "2ba39632bfdeeaca7a9626e74c4c8af9246ffd9c8e5ff9d4064844aeafa75744",
+          "pdf": "b-poh-humanity-layer-ai-native-internet.pdf",
+          "posted_verified": {
+            "date": "2026-09-27",
+            "result": "match",
+            "posted_pdf_sha256": "d41d30d7c63cfc56985cf79598ed6c0a76dce780d89b108fe6901ec203717d6c",
+            "posted_pages": 29,
+            "words": 10792,
+            "extra": 0,
+            "missing": 0
+          }
         }
       ]
     },
