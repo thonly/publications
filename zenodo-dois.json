@@ -91,12 +91,12 @@
  },
  "b-poh-humanity-layer-ai-native-internet": {
   "concept_doi": "10.5281/zenodo.21947279",
-  "deposition_id": 24239758,
-  "doi": "10.5281/zenodo.24239758",
+  "deposition_id": 24240098,
+  "doi": "10.5281/zenodo.24240098",
   "published": true,
   "sandbox": false,
-  "sha256": "f877c7336db899c0e945f8e1202793cbf34f800170b798b9b9e20aa6bd6e4123",
-  "url": "https://zenodo.org/records/24239758"
+  "sha256": "d9d9a6d7bced60a5c39ba39079426a240024416799b1219b1d536173833df670",
+  "url": "https://zenodo.org/records/24240098"
  },
  "b-tag-post-payment-economy": {
   "concept_doi": "10.5281/zenodo.21947281",
@@ -748,12 +748,12 @@
  },
  "the-gift-operation": {
   "concept_doi": "10.5281/zenodo.21947401",
-  "deposition_id": 24239763,
-  "doi": "10.5281/zenodo.24239763",
+  "deposition_id": 24240106,
+  "doi": "10.5281/zenodo.24240106",
   "published": true,
   "sandbox": false,
-  "sha256": "6de4896c0919a56bd8813c694802dff3f62d81ffa9a41e344895b4159f7acc2c",
-  "url": "https://zenodo.org/records/24239763"
+  "sha256": "0fdf785dff4af26d6f5c2277f468b898ff25da3511b791dfce7bd2a6cad2e78a",
+  "url": "https://zenodo.org/records/24240106"
  },
  "the-omitted-clause": {
   "concept_doi": "10.5281/zenodo.21947406",
