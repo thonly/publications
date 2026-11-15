@@ -993,3 +993,7 @@ One sentence in the acknowledgments claimed conversations with outside research 
 | the-same-pay-for-the-same-ad | `.ots` → `.r1.ots`; re-stamped, calendar-only at push | `2026-11-15.sha256` | not deposited (awaits `/polish`) | 2.5.81 |
 
 Index note: a hold on the same-pay paper was refused (the committed index already served it); the build failed under a push I had not read, and 2.5.81 was rebuilt and published from a `workflow_dispatch` run on the fixed commit.
+
+### 2026-11-15 — `abhidhamma-and-discrete-quantum-gravity` third submission made at TDCommons (a mirror, not a revision) (founder: *"do for me"*)
+
+The third submission (findings 9 and 10, the 2026-11-14 text, `abhidhamma-and-discrete-quantum-gravity.3.pdf`, claims heading `## Findings disclosed`) went through `ir_submit.cgi` on 2026-11-15, signed in as an individual (Corporate unchecked, no institution). Before the click, the title, abstract and the PDF were hashed in the page against the packet and matched; after it, the confirmation page's *Submission Metadata* echo matched the packet's title and abstract hashes (238 words). It is not yet posted; it sits beside the first posting [12057](https://www.tdcommons.org/dpubs_series/12057) and the second [12722](https://www.tdcommons.org/dpubs_series/12722). Once it posts (about one business day): `check-mirrors.py --posted abhidhamma-and-discrete-quantum-gravity --date <date> --url <url>`.
