@@ -960,3 +960,16 @@ The 2026-11-04 second submission (the §7.4 census-named text, `dual-currency-re
 ### 2026-11-08 — `each-life-as-cosmic-coordinate`, acknowledgments repair (founder: *"go"*)
 
 One sentence in the acknowledgments claimed conversations with outside research communities; it is replaced by *"The founder's Tipiṭaka-transcription work with his father has shaped the framework's positioning."* The earlier proof is kept as `.md.r8.ots`. New text sha256 `dc0b1925e2b35fbf`; version DOI [10.5281/zenodo.24052475](https://doi.org/10.5281/zenodo.24052475); RFC 3161 run 42474779871. The new `.ots` is calendar-only until the Bitcoin commitment confirms. The site module never carried the sentence, so it is unchanged.
+
+### 2026-11-14 — six revisions, one chain (founder: *"reconcile all and push"*, after *"do all DRAFTABLE NOW"*)
+
+`the-gift-operation` (§4.5, the law's form of the boundary) · `abhidhamma-and-discrete-quantum-gravity` (findings 9 and 10) · `b-poh-humanity-layer-ai-native-internet` (user verification is not biometric) · `which-way-value-moves`, `the-water-cycle`, `the-capacity-to-give` (the register's first field results). The two TDCommons-mirrored papers with no new claims were acknowledged in `submitted/manifest.json`; the DQG paper adds new matter and its second submission is the founder's.
+
+| paper | leg 1 · OTS | leg 2 · TSA | leg 3 · Zenodo | leg 4 · index |
+|---|---|---|---|---|
+| the-gift-operation | `.ots` → `.r7.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239763 | 2.5.79 |
+| abhidhamma-and-discrete-quantum-gravity | `.ots` → `.r6.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239757 | 2.5.79 |
+| b-poh-humanity-layer-ai-native-internet | `.ots` → `.r5.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239758 | 2.5.79 |
+| which-way-value-moves | `.ots` → `.r1.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239766 | 2.5.79 |
+| the-capacity-to-give | `.ots` → `.r4.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239771 | 2.5.79 |
+| the-water-cycle | `.ots` → `.r5.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-15.sha256` | 10.5281/zenodo.24239780 | 2.5.79 |
