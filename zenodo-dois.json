@@ -91,12 +91,12 @@
  },
  "b-poh-humanity-layer-ai-native-internet": {
   "concept_doi": "10.5281/zenodo.21947279",
-  "deposition_id": 24240098,
-  "doi": "10.5281/zenodo.24240098",
+  "deposition_id": 24245371,
+  "doi": "10.5281/zenodo.24245371",
   "published": true,
   "sandbox": false,
-  "sha256": "d9d9a6d7bced60a5c39ba39079426a240024416799b1219b1d536173833df670",
-  "url": "https://zenodo.org/records/24240098"
+  "sha256": "26ba7ff48f047fef035d7248ba97c5c86fb1538b839a66410b2be44ea72b8816",
+  "url": "https://zenodo.org/records/24245371"
  },
  "b-tag-post-payment-economy": {
   "concept_doi": "10.5281/zenodo.21947281",
