@@ -1,0 +1,28 @@
+TDCOMMONS SUBMISSION PACKET — THIRD SUBMISSION (new findings 9 and 10) — built 2026-11-15; founder: "do 1, 5, 2 in that order" (preparation only: the founder presses Submit)
+═══════════════════════════════════════════════════════════════════════
+WHY A THIRD SUBMISSION
+  The first posting (2026-10-06, posted 2026-10-08, https://www.tdcommons.org/dpubs_series/12057) carries findings 1–5; the second (2026-11-03, posted 2026-11-04, https://www.tdcommons.org/dpubs_series/12722) adds 6–8. The 2026-11-14 revision added findings 9 (time: the match with loop quantum gravity is a shared negative; neither program takes per-stream succession as basic) and 10 (space: a causal set has no relation among spacelike elements), with §5.4, §9, §10, §11, §12 and sources 77–82: new matter, so by §the-mirror-revision-rule a third posting is owed. Not a re-submission: the first two stay.
+
+TITLE
+Discreteness, Adjacency and Order: A Structural Comparison of the Theravāda Abhidhamma with Causal Sets and Loop Quantum Gravity — Neither Program Takes Per-Stream Succession as Basic, and a Causal Set Has No Relation Among Spacelike Elements
+  (Paper title + standard-term subtitle naming the new matter; no mark in the added part. The PDF keeps the paper's own title.)
+
+INVENTOR   (natural person only; Miss Aquarius is NEVER in this field)
+  Name  : Thon Ly
+  Email : thonly@heartbank.ceo
+  Institution: LEAVE BLANK
+
+LICENCE    Creative Commons Attribution 4.0
+
+ABSTRACT   (238 words; condensed from the paper's Abstract by deleting whole sentences only; no new matter)
+This study compares the Theravāda Buddhist Abhidhamma with two discrete approaches to quantum gravity, causal set theory and loop quantum gravity, as formal structures, on three axes: order, adjacency and ratio. No row predicts a measurement, and none says that a Buddhist text anticipated a theory of quantum gravity. On order, the twenty-four conditioning relations of the Paṭṭhāna, taken whole, are not a partial order. On adjacency, the strongest row, a spin-network link is the face two neighboring grains of space share and carries a quantized area, while a Theravāda sub-commentary defines space as the non-mixing of touching neighboring material clusters (kalāpa). Both put the unit of spatial boundary at the adjacency between minimal units, and neither makes it one of the units. The features specific to loop quantum gravity, a quantized magnitude and a volume derived from it, are the ones that fail, and the shape that holds is generic to any cellular picture. Two last findings set time and space against both programs together. On time, the match is a shared negative (neither program takes time as basic, on the readings cited): it does not separate loop quantum gravity from causal sets, and neither takes a per-stream succession as basic. On space, a causal set has no relation among elements that are not causally related, so the adjacency row's question, what lies between neighbors present together, cannot be put to it. Each finding carries its falsifier.
+
+FILE       abhidhamma-and-discrete-quantum-gravity.3.pdf  (sha256 0183098bef8a18105ccd2da5c2807a0e6bdc918ef09105567b17e9df2b328f6e)
+
+AFTER SUBMITTING
+  python3 scripts/check-mirrors.py --record abhidhamma-and-discrete-quantum-gravity --date <date> --pdf abhidhamma-and-discrete-quantum-gravity.3.pdf
+  (a row in the paper's TIMESTAMPS.md; once it posts, --posted … --url …)
+
+HASHES     (NFC, SHA-256)
+  title    ad6028af02b16fcf5c430f0de2c48162e89dfd52c2aa039d283aa9465bb72973
+  abstract 8f4b9381f950d41d0941026fa5a744b7746cb459207bf13b13becdc442f4001d
