@@ -51,7 +51,7 @@ The internet's existing identity-and-authentication infrastructure does several 
 
 **Server identity (SSL/TLS, 1995–).** A browser-and-server cryptographic handshake verifies that the server is who its domain claims it is. The trust is rooted in certificate authorities whose root certificates ship with every browser. The protocol is invisible; users see a lock icon. Universal adoption took roughly two decades and is now near-total for any consumer-facing service.
 
-**Account authentication (passwords, then passkeys / WebAuthn, 1990s–).** A user proves they control an account by presenting a credential the account is associated with. Passwords were the original form; FIDO2/WebAuthn passkeys (biometric-gated, cryptographically signed, phishing-resistant) are the current frontier. Authentication establishes that the actor in this session is the actor associated with this account.
+**Account authentication (passwords, then passkeys / WebAuthn, 1990s–).** A user proves they control an account by presenting a credential the account is associated with. Passwords were the original form; FIDO2/WebAuthn passkeys (user-verified on the device, cryptographically signed, phishing-resistant) are the current frontier. Authentication establishes that the actor in this session is the actor associated with this account.
 
 **Legal-identity verification (KYC, AML, OFAC, 2001–).** Financial-services regulation increasingly requires platforms to verify that the legal-identity documents an account holder presents correspond to a real person on record with a state authority. KYC is the regulatory floor; AML/OFAC screens against sanctions and terrorism lists; the regime is jurisdiction-specific and document-document-document driven.
 
@@ -62,7 +62,7 @@ The internet's existing identity-and-authentication infrastructure does several 
 None of the above verifies that *a human was present at the moment of this specific action*. The distinction is precise:
 
 - SSL/TLS verifies servers, not humans.
-- WebAuthn verifies *account control* (this credential is associated with this account) but not *human presence* (a human is doing this *right now*). A passkey can be invoked by an automated script that has access to the credential and can elicit a biometric (a sophisticated attack scenario, but increasingly real).
+- WebAuthn verifies *account control* (this credential is associated with this account) but not *human presence* (a human is doing this *right now*). A passkey can be invoked by an automated script that has access to the credential and can elicit the device's user-verification step (a sophisticated attack scenario, but increasingly real).
 - KYC verifies *legal identity* (this name corresponds to a state-recognized person) but not *human action* (this person did this thing at this moment). A KYC'd account can be operated by an AI agent on the human's behalf.
 - W3C VCs are a *framework* for portable claims; they do not themselves specify which claim verifies *human presence at action*.
 
@@ -75,7 +75,7 @@ The gap in one table:
 | Existing layer | What it verifies | What it does NOT verify |
 |---|---|---|
 | **SSL/TLS** (1995–) | Server identity — this server is who its domain claims | Anything about humans on either end |
-| **WebAuthn / Passkeys** (FIDO2; 2010s–) | Account control — this credential is associated with this account | Human presence at action — a script with credential access can invoke biometric elicitation |
+| **WebAuthn / Passkeys** (FIDO2; 2010s–) | Account control — this credential is associated with this account | Human presence at action — a script with credential access can invoke the user-verification step |
 | **KYC / AML / OFAC** (2001–) | Legal identity — this name corresponds to a state-recognized person | Human action at moment — a KYC'd account can be operated by an AI agent on the human's behalf |
 | **W3C DIDs / Verifiable Credentials** (2020–) | A *framework* for portable identity claims across platforms | Which specific claim verifies human presence — the framework is general; the specific claim is unspecified |
 | **(missing slot)** | — | **Human presence at the moment of this specific action** |
@@ -128,7 +128,7 @@ Proof of Humanity ℠ is structured as **four optional layered proofs**, surface
    ├─────────────────────────────────────────────────────────────┤
    │  L1  —  Passkey-per-action (WebAuthn)                        │
    │  ────  MINIMAL PROOF  ────                                   │
-   │  Per-action biometric-gated cryptographic signature; the     │
+   │  Per-action user-verified cryptographic signature; the       │
    │  baseline humanity-at-moment-of-action attestation           │
    └─────────────────────────────────────────────────────────────┘
 
@@ -142,15 +142,15 @@ Proof of Humanity ℠ is structured as **four optional layered proofs**, surface
 
 ### 3.1 Layer 1 — Passkey-per-action (WebAuthn)
 
-The first layer asserts *a human was present at the moment of this specific action*. Implementation: FIDO2/WebAuthn biometric-gated cryptographic signing, invoked per action rather than per session. The user's authenticator (passkey, hardware key, biometric device) signs a challenge tied to the specific action's content and timestamp. The platform verifies the signature; the verification is publicly auditable on-chain in deployments that use a blockchain settlement layer (such as B-PoH℠'s Phase 2 Base-L2 deployment).
+The first layer asserts *a human was present at the moment of this specific action*. Implementation: FIDO2/WebAuthn user-verified cryptographic signing, invoked per action rather than per session. The user's authenticator (passkey, hardware key, platform authenticator) signs a challenge tied to the specific action's content and timestamp. User verification is the authenticator's own local check that the person at the device is the enrolled user; WebAuthn satisfies it with a PIN as well as with a biometric, and the relying party learns only *that* verification occurred, never which method was used. The platform verifies the signature; the verification is publicly auditable on-chain in deployments that use a blockchain settlement layer (such as B-PoH℠'s Phase 2 Base-L2 deployment).
 
-**What L1 proves.** A human was present at the device at the moment of action, was successfully authenticated by the device's biometric or hardware factor, and explicitly elected to sign this specific action.
+**What L1 proves.** A human was present at the device at the moment of action, was successfully verified by the authenticator's user-verification step (a biometric or a PIN), and explicitly elected to sign this specific action.
 
-**What L1 does not prove.** That the human is who any state document says they are; that the device is held by its registered owner (devices are stolen, lent, shared); that the human is the same human across multiple actions (a stolen device with biometric bypass could produce L1 signatures for an attacker).
+**What L1 does not prove.** That the human is who any state document says they are; that the device is held by its registered owner (devices are stolen, lent, shared); that the verification was by biometric rather than PIN (the flag does not say); that the human is the same human across multiple actions (a stolen device whose user verification is bypassed, or whose PIN is known, could produce L1 signatures for an attacker).
 
-**Failure modes L1 addresses.** Bulk automated-action attacks (the AI agent cannot produce L1 signatures at scale without simultaneously producing biometric matches); naive impersonation (an attacker without the device cannot sign).
+**Failure modes L1 addresses.** Bulk automated-action attacks (the AI agent cannot produce L1 signatures at scale without simultaneously holding enrolled authenticators and passing each one's user-verification step); naive impersonation (an attacker without the device cannot sign).
 
-**Failure modes L1 does not address.** Lost-or-stolen-device scenarios; coerced biometric extraction; long-arc identity questions (is this the same human over time?).
+**Failure modes L1 does not address.** Lost-or-stolen-device scenarios; coerced user verification (a forced biometric, a disclosed PIN); long-arc identity questions (is this the same human over time?).
 
 ### 3.2 Layer 2 — Witness-and-document-attested kinship graph (non-DNA)
 
@@ -607,7 +607,7 @@ Coined names used in this paper and the standard terms an examiner would search 
 | Proof of Humanity ℠ (PoH℠) | proof of personhood; open sybil-resistance protocol verifying human presence at the moment of action |
 | B-PoH℠ | reference implementation of a proof-of-personhood protocol |
 | Four optional layered proofs (L1–L4) | layered, optional multi-factor personhood verification without a mandatory admission tier |
-| Passkey-per-action (L1) | per-transaction FIDO2/WebAuthn biometric-gated cryptographic signature |
+| Passkey-per-action (L1) | per-transaction FIDO2/WebAuthn user-verified cryptographic signature |
 | Witness-and-document-attested kinship graph (L2) | web-of-trust / social-graph attestation with graph-consistency checks and document-based verification of parent–child links |
 | Family-bank vouching | institutional or community attestation of membership |
 | Breath-signature liveness (L3) | continuous liveness detection from respiratory-rhythm signals emitted by a wearable device |

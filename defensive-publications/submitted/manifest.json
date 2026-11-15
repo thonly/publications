@@ -223,7 +223,7 @@
       "claims_heading_override": [
         "## Prior-Art and Non-Assertion Statement"
       ],
-      "body_sha256": "e43ea8e1bc1a6b3557068f80b9ec7719bab5da735eb12f2ade329877f7091c73",
+      "body_sha256": "ae5b0571f4e54d51b46b1c254aa9f3b84e6fae5da49b6d8c43bbc0c34f29ea6a",
       "posted": "2026-09-25",
       "url": "https://www.tdcommons.org/dpubs_series/11882",
       "posted_verified": {
@@ -234,7 +234,15 @@
         "words": 10792,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-14",
+          "from": "2ba39632bfde",
+          "to": "2ba39632bfde",
+          "note": "UV not biometric correction (ruled 2026-09-05); prose only, claims section unchanged"
+        }
+      ]
     },
     {
       "slug": "b-tag-post-payment-economy",
@@ -1609,7 +1617,7 @@
       "claims_heading_override": [
         "## Claims"
       ],
-      "body_sha256": "7e16289a6252c1003b6bf397343fd4bdca5fe82831dd0044e6de1617091546e9",
+      "body_sha256": "29b6e82e1eda5a098f3ccdb917bc259e2f1c62e12c10dbb3357db3b04562a71f",
       "posted": "2026-10-01",
       "url": "https://www.tdcommons.org/dpubs_series/11924",
       "posted_verified": {
@@ -1620,7 +1628,15 @@
         "words": 18692,
         "extra": 0,
         "missing": 0
-      }
+      },
+      "judgements": [
+        {
+          "date": "2026-11-14",
+          "from": "c68cc4e5eca1",
+          "to": "c68cc4e5eca1",
+          "note": "prose-only 4.5 (law's form of the boundary); claims unchanged, nothing claimed new"
+        }
+      ]
     },
     {
       "slug": "the-omitted-clause",

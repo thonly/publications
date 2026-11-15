@@ -13,9 +13,9 @@ venue: thonly.org/research/program (canonical)
 
 ## Abstract
 
-This document states a research program and the conditions under which it should be abandoned. The program's hard core is a single claim about direction: that value can be organized to move only forward — from giver to receiver to the next receiver — and that a system built on that constraint circulates better than one that permits return to the source. Four chapters name the ways the core can break: whether receiving creates the capacity to give, whether the constraint survives a change of currency, whether it survives past the family, and whether it survives the giver. Each chapter is attached to pre-registered predictions, published here as a register of sixty-six items with their falsifiers, their instruments, and their status.
+This document states a research program and the conditions under which it should be abandoned. The program's hard core is a single claim about direction: that value can be organized to move only forward — from giver to receiver to the next receiver — and that a system built on that constraint circulates better than one that permits return to the source. Four chapters name the ways the core can break: whether receiving creates the capacity to give, whether the constraint survives a change of currency, whether it survives past the family, and whether it survives the giver. Each chapter is attached to pre-registered predictions, published here as a register (sixty-six items when this was published on 2026-08-27; read the current count in the register's Summary) with their falsifiers, their instruments, and their status.
 
-The program is published at a deliberate moment: **almost nothing in it has been run.** Two desk censuses have returned results, both null or partial-null. There have been no field tests. The first is gated on a product launch in August 2027. A register published after the data arrives cannot be distinguished from a register assembled to fit it; this one is published while the outcome is unknown, which is the only condition under which it constitutes evidence of anything.
+The program is published at a deliberate moment: **almost nothing in it has been run.** *As of 2026-08-27, the date of publication:* Two desk censuses have returned results, both null or partial-null. There have been no field tests. The first is gated on a product launch in August 2027. *Update, from the register's entry of 2026-11-08:* the register now counts three field tests, each a pilot-scale read against a falsifier and all from one pilot. P-PL2 has held so far; P-PL4 and P-PL9 went against their predictions on three overlapping reads and are recorded as contradicted, not hardened into findings. Seven items are marked run in all (the two desk censuses and five formal checks). The first field test beyond the pilot stays gated on August 2027. A register published after the data arrives cannot be distinguished from a register assembled to fit it; this one is published while the outcome is unknown, which is the only condition under which it constitutes evidence of anything.
 
 ---
 
@@ -103,7 +103,7 @@ The four are ordered by the length of their feedback loops, which is also the or
 
 ## 4. Core-level predictions
 
-These are distinguished from the sixty-six in the register by a single property: **if one of them fails, the program ends rather than adjusts.** They are the reason this is a program and not a worldview.
+These are distinguished from the sixty-six registered on 2026-08-27 by a single property: **if one of them fails, the program ends rather than adjusts.** They are the reason this is a program and not a worldview.
 
 **P-GO1 — the forward-only constraint pays for itself.** *In matched populations, a system that forbids backward return — value routed to a forward-spendable fund, never withdrawable, never applied against what the recipient owes — produces more onward giving per unit received than an otherwise-identical system permitting withdrawal or offset.* **Falsifier:** equal or greater onward giving under the permissive condition. If it fails, the forward-only constraint is an aesthetic preference and the program's organizing question has been answered *no*. Publish either way. *(Registered 2026-08-27. First public timestamp: this document.)*
 
@@ -121,7 +121,7 @@ These are distinguished from the sixty-six in the register by a single property:
 
 A register maintained by an author's discipline is worth what the author's discipline is worth on the worst day. This one is built so that the guarantee does not depend on anyone's restraint, because an institution intended to outlive its founder cannot rest on the founder's care.
 
-**The property, not the rule.** Every prediction is fixed by an external timestamp at the moment of registration. Forty-five of the sixty-six are already carried by the published papers that state them, each of which bears an OpenTimestamps proof anchored in Bitcoin and RFC 3161 tokens from three independent authorities, one of them eIDAS-qualified. The remaining twenty-one receive their first public timestamp from this document and its register.
+**The property, not the rule.** Every prediction is fixed by an external timestamp at the moment of registration. *As of 2026-08-27:* forty-five of the sixty-six were already carried by the published papers that state them, each of which bears an OpenTimestamps proof anchored in Bitcoin and RFC 3161 tokens from three independent authorities, one of them eIDAS-qualified. The remaining twenty-one received their first public timestamp from this document and its register. *The register's Summary now counts 145 in all: 59 carried by published papers and 85 receiving their first public timestamp in the register.*
 
 The consequence is checkable by a stranger: **a reader can verify, without trusting the author, that a prediction said what it says now and said it before the data existed.** Editing a prediction after the fact does not produce a quiet correction; it produces a divergence between the file and its stored proof, which any verifier reports. Revisions are additive and separately stamped. The register is append-only not because a policy forbids overwriting but because overwriting is visible.
 
@@ -133,11 +133,11 @@ No document in this corpus records its own hash. A hash of a file cannot live in
 
 ## 6. What is in the program and what is not
 
-The corpus contains one hundred documents. The admission rule is mechanical, so that membership is a property of the file rather than a judgment by whoever is filing:
+*As of 2026-08-27:* the corpus contained one hundred documents. The admission rule is mechanical, so that membership is a property of the file rather than a judgment by whoever is filing:
 
 > **A paper is instrumented if it names at least one registered prediction.**
 
-Applied today, that returns **thirteen instrumented papers of one hundred.** The remaining eighty-seven divide in two:
+Applied on 2026-08-27, that returned **thirteen instrumented papers of one hundred.** The remaining eighty-seven divided in two:
 
 - **Open (uninstrumented).** Papers making empirical claims with no prediction attached. This is a work list, not a graveyard. It includes `the-gift-operation` — the paper that states the hard core, which until today carried nothing falsifiable at all.
 - **Outside.** Architecture, specification, doctrine, and definition: documents that describe how something is built or what a term means. Forcing a prediction onto them would be decoration. They are part of the corpus and not part of the program, and saying so costs nothing.
@@ -150,13 +150,13 @@ A paper moves from *open* to *instrumented* when someone registers a prediction 
 
 ## 7. Honest limits
 
-**The evidence base is approximately zero.** Sixty-six predictions; two desk censuses run, both returning null or partial-null; no field tests; the first gated on August 2027. Every mechanism in this corpus is currently supported by argument and by one household.
+**The evidence base is approximately zero.** *As of 2026-08-27, the date of publication:* Sixty-six predictions; two desk censuses run, both returning null or partial-null; no field tests; the first gated on August 2027. Every mechanism in this corpus is currently supported by argument and by one household. *Update, from the register's entry of 2026-11-08:* three field tests have since been run, all from the same pilot, so the household is still the whole field base. Two of the three went against the prediction (P-PL4, pass-forward, and P-PL9, the low-to-high corridor share); the third, P-PL2, test-cohort retention, is above its threshold, which the register calls weak evidence. The first field test beyond the pilot stays gated on August 2027.
 
 **The coherence is not evidence.** The design grammar underlying this program is self-similar and tension-dissolving, which is exactly what a deeply correct system and a deeply seductive one both look like from inside. The elegance earns the experiment; it does not replace it. Each structural property is individually falsifiable; the pattern they make is not, and the pattern is never cited as support for a member of it.
 
 **Most instances are retro-fitted.** The signatures organizing this work were recognized in existing material rather than predicted before it. That is a legitimate way to find a pattern and an illegitimate way to confirm one.
 
-**One prediction has already been contradicted by our own data.** The kids-as-triggers hypothesis — that children would be the primary triggers of self-thanking — was contradicted in the founding household, where parents self-thanked more than children. It is confounded and has not been hardened into a finding. It is listed in the register as contradicted rather than quietly dropped, and the essay stating it has not been withdrawn.
+**One prediction has already been contradicted by our own data.** The kids-as-triggers hypothesis — that children would be the primary triggers of self-thanking — was contradicted in the founding household, where parents self-thanked more than children. It is confounded and has not been hardened into a finding. It is listed in the register as contradicted rather than quietly dropped, and the essay stating it has not been withdrawn. *Update, from the register's entry of 2026-11-08:* the register now lists three contradicted predictions; the other two are P-PL4 and P-PL9, named above, held on the same terms.
 
 **The register is incomplete by construction.** Twelve predictions were found during its assembly living only in published papers, invisible to the internal index; the true count moved from fifty-five to sixty-seven during a single afternoon's audit. Neither system held the whole set. That failure is the reason this register exists, and it is not evidence that the register is now complete.
 
