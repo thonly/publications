@@ -1,3 +1,7 @@
+### 2026-11-19 (evening) — the prediction register: P-BD1, P-BD2, P-BD3, the first lent-likeness film (founder: *"$25–$100"* · *"Most (60–99%)"* · *"3–7 days"*)
+
+Three predictions in *Instrumented but outside the core*, a row and a wording block for `every-face-signed-this-cut`, with a Revisions entry; total 145 → 148. Registered before the first film made with the mechanism and before the mechanism is built. The founder chose each band from four offered; the substrate's earlier cost estimate is stated in the entry. The proof before this text is `.md.r32.ots` (Bitcoin-complete); the new text stamped by hand at the push (SHA-256 `e7d3bb1d0e078801540d99aabad9b164a622cf7d6296d6d60a4ac7150307b119`).
+
 ### 2026-11-19 (evening, later) — `every-face-signed-this-cut`: version 3, one spelling corrected
 
 *travelling* → *traveling* in three places of version 3's new text, minutes after its push (American spelling, `feedback_american_english`). Nothing else changed. Proof: `.ots` → `.r3.ots` (calendar-only, minutes old); the new text stamped by hand at the push (SHA-256 `d9d4ef8a9ab290a6648c88e13f3b41df7a9ed8aee32ffca4c07668ae201f13e1`).

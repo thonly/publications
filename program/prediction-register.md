@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **145** |
-| Published here | 144 |
+| Total registered | **148** |
+| Published here | 147 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 59 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 85 |
+| Receiving first public timestamp here | 88 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **3** — pilot-scale reads against a falsifier, all from one pilot: P-PL2 held, P-PL4 and P-PL9 went against the prediction (see Revisions, 2026-11-08). The first field test beyond the pilot stays gated on August 2027 |
 | Running (instrument live; unread, restricted, baseline only, or not yet final) | 7 |
@@ -211,6 +211,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-PM1, P-PM2, P-PM3 | `a-promise-that-cannot-grow` | Whether a promise ledger that never grows on its own, and its yearly invitation to forgive, behave as designed — wording below |
 | P-NM1, P-NM2, P-NM3, P-NM4, P-NM5 | — (no paper yet; first public here) | Whether anyone pays to hold a name in the registry at 333.eco — wording below |
 | P-BM1, P-BM2, P-BM3 | — (no paper yet; first public here) | Whether a signed mail leads its reader to hold a name, or to sign a mail of their own — wording below |
+| P-BD1, P-BD2, P-BD3 | `every-face-signed-this-cut` | What the first film made with lent likenesses costs, whether its actors watch the cut they sign, and how long the last signature takes — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
 predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
@@ -296,6 +297,12 @@ comparison was repaired to a staggered launch before registration).
 - **P-BM3** (registered 2026-11-14, later, before its line is live) — **A checked mail leads to signing one's own** — since 2026-11-14 anyone can sign a mail at `sign.333.eco/b-mail`, so the check page gains a second line, *"Sign your own mail"*, linking there with the channel mark `from=b-mail`. Over the 12 months from the day that line goes live, at least **10%** of human visits to the check page follow it. The line shows only when the check finds the message's record and its signer has not withdrawn it; other visits stay in the count. *Falsifier: under 10% → a reader who checks a signed mail seldom goes on to sign one, and the mail spreads its own use weakly.* Instrument: as P-BM1. Scored only if the window holds **100 or more** such visits; otherwise *unresolved*. ⚠️ From that day the page carries two lines where P-BM1 was registered with one, and a reader who follows one may not follow the other. P-BM1's wording and bar stand; its read must say that most of its window ran beside this second line.
 - **What these cannot measure.** A click is the loop's first step, not its full turn. A name held after a click is never joined to the visit (the registry reports totals only, as for P-NM), so how many new senders each sender brings is not scored here, by design. Today only the founder sends B-Mails, so their readers are mostly people who know him. A prompt to readers to click voids the test.
 
+**The first lent-likeness film (registered 2026-11-19, before the film exists and before the mechanism is built).** The mechanism of `every-face-signed-this-cut` has each actor who lends their own likeness to a generated film press a passkey twice, over the screenplay and over the exact final file. The first film made with it is planned as the studio's own short: the founder's own likeness, family members who press, and invented co-stars. **Window: that film**, from the first casting press to its release. The founder chose each band from four the substrate offered; the substrate's earlier estimate (about 500 to 3,000 USD for one full take of a feature at mid-2026 list prices, before regenerations) implies roughly 6 to 33 USD a minute for one take, and the entry says so.
+
+- **P-BD1** — **The cost of a finished minute** — the compute cost of the film, at the providers' list prices and counting every regeneration, divided by its finished length in minutes, is **between 25 and 100 USD** a minute. Measured from the studio's own record of compute used for that film. *Falsifier: under 25 or over 100 USD a minute.* · *Status:* Unrun (awaits the first film) · *Provenance:* First public here
+- **P-BD2** — **The cast watches what it signs** — of the actors lending their own likeness, **at least 60% and fewer than 100%** play the final cut to its end on their own device before pressing the release statement. Measured only with each actor's agreement, counted in aggregate, and never shown for any one person. *Falsifier: under 60%, or every actor (100%).* The cast will be small, so the share is coarse. · *Status:* Unrun (awaits the first film) · *Provenance:* First public here
+- **P-BD3** — **The second signature is not a bottleneck** — from the moment the final cut is sent to every actor, the last release press lands **between 72 and 168 hours** later, read from the public log's order and the studio's record of the send. *Falsifier: under 72 or over 168 hours.* · *Status:* Unrun (awaits the first film) · *Provenance:* First public here
+
 ---
 
 ## Withheld
@@ -321,6 +328,10 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-11-19 — three added (P-BD1, P-BD2, P-BD3). Total now 148.**
+
+- **P-BD1, P-BD2, P-BD3** — *Instrumented but outside the core*, for `every-face-signed-this-cut`. Registered before the first lent-likeness film and before the mechanism is built. The founder chose each band, by selection from four the substrate offered (*"$25–$100"*, *"Most (60–99%)"*, *"3–7 days"*); the substrate had recorded a cost estimate earlier, and the entry states it.
 
 **2026-11-14 (later) — one added (P-BM3). Total now 145.**
 
