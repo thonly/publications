@@ -415,7 +415,7 @@ The aim, to count one person once without a register of names, rules several sou
 
 ### 6.10 The season vote
 
-One of the scopes is a vote: before each season, people vote on the parameters of the public rule that sizes a thank, and on which kinds of capacity the season's in-kind gifts seed. One person, one vote, which is a uniqueness scope. A vote whose nullifiers are public lets a buyer ask for proof of a vote. So the season vote uses a receipt-free scheme of the MACI kind: in MACI's own words, *"No one can prove (besides to the coordinator) which way they voted,"* and *"a user may cast another vote to nullify it."* The exception in that sentence is the coordinator, and who coordinates is open (§13).
+One of the scopes is a vote: before each season, people vote on the parameters of the public rule that sizes a thank, and on which kinds of capacity the season's in-kind gifts seed. One person, one vote, which is a uniqueness scope. A vote whose nullifiers are public lets a buyer ask for proof of a vote. So the season vote uses a receipt-free scheme of the MACI kind: in MACI's own words, *"No one can prove (besides to the coordinator) which way they voted,"* and *"a user may cast another vote to nullify it."* The exception in that sentence is the coordinator. So no single party coordinates (ruled 2026-11-19): the coordinator's key is split among several people, so that no one of them, and not the operator, can see a vote alone; the tally is computed from what they decrypt together and published with a proof that it is correct.
 
 ---
 
@@ -481,7 +481,7 @@ A floor claimed with a uniqueness proof into a fresh address each season, submit
 
 It is **not** unlinkable to the relayer, which sees the claim's network origin and timing. That the relayer keeps no logs is a rule, not a property, and we say so.
 
-And we found, while drafting, a link the ruling does not yet address. If the wallet key that controls the Fund (§7.5) is also the owner of a Personal Wallet that the person's name resolves to publicly, as a name that receives thanks to a wallet would, then the first time the Fund gives forward, its controller's signature on chain ties the Fund, and so the floor, to the name. The floor's unlinkability then holds only until the Fund is first used. A fund controlled by a key unconnected to any named wallet would avoid it, at the cost of a third key. The ruling stands as made; this is carried as an open question (§13).
+And we found, while drafting, a link the ruling does not yet address. If the wallet key that controls the Fund (§7.5) is also the owner of a Personal Wallet that the person's name resolves to publicly, as a name that receives thanks to a wallet would, then the first time the Fund gives forward, its controller's signature on chain ties the Fund, and so the floor, to the name. The floor's unlinkability then holds only until the Fund is first used. So the Fund gets its own key, never a key any name resolves to, and a name never points at a Fund (ruled 2026-11-19). The cost is a third key.
 
 ### 7.7 The wall inside one app
 
@@ -581,7 +581,7 @@ The corpus's design grammar asks of every guard whether it is a property of an o
 | Clear signing over a closed list | **Property of a shipped release; rule across updates** | The next update could change it |
 | A bad release is detectable | **Property for anyone who checks the release log**; nobody is obliged to | — |
 | A delay is never counted down; absence is never shown | **Rule** about rendering | — |
-| The vote is receipt-free | **Property** of the scheme, except to its coordinator | — |
+| The vote is receipt-free | **Property** of the scheme; against the coordinator, as strong as the split key's holders not colluding | the holders' restraint |
 | A proof means a person | **Neither.** It means a key pressed and a token was enrolled | §13 |
 
 The honest reading is that the properties protect what is signed, what is counted and what is held; the rules sit at the edges where people act: organizers, witnesses, the relayer, the admitting seat, and whoever ships the next release.
@@ -594,7 +594,7 @@ The honest reading is that the properties protect what is signed, what is counte
 
 **Disclosed at the level of what it does; its specification withheld until built:** the native app (its two keys, enrollment attestation, number-matched log-in approval, recovery rules); the statement kind for layers about a key, with its two dates; the uniqueness proof (what it proves is stated in §6.2; the circuit, the commitment format and the enrollment protocol are not); the season pool, its doors and its published rule; the Fund claim and its relayer; the wallet's owners, limits, delay and pause; the release log's format. Nothing here is scheduled beyond the build order of §7.10, and none of it is built. The claims in §12 are stated so that this paper is prior art for the arrangement whatever its eventual formats.
 
-**Not designed:** a home-visit protocol resistant to the collusion of §13; the vote's coordinator; anything for scopes that are not per-season.
+**Not designed:** a home-visit protocol resistant to the collusion of §13; who holds the coordinator's key shares, and how many must join to decrypt; anything for scopes that are not per-season.
 
 ---
 
@@ -632,9 +632,9 @@ Claims 1 to 4 are what the full census left standing (§2.2), with two changes m
 
 **The relayer** sees each claim's network origin and timing, and its keeping no logs is a promise.
 
-**The Fund's controller.** If the wallet key that controls a person's Fund also owns a wallet their name resolves to publicly, the Fund, and so the floor, become linkable to the name the first time the Fund gives forward (§7.6). Not resolved.
+**The Fund's controller.** If the wallet key that controls a person's Fund also owns a wallet their name resolves to publicly, the Fund, and so the floor, become linkable to the name the first time the Fund gives forward (§7.6). Ruled the same day: the Fund gets its own key, never one a name resolves to, and a name never points at a Fund. A person can still link them by their own act.
 
-**The vote's coordinator.** A MACI-style scheme is receipt-free to everyone except its coordinator, who can see how each person voted. Who coordinates, and whether that is compatible with secret ballots, is open.
+**The vote's coordinator.** A MACI-style scheme is receipt-free to everyone except its coordinator, who can see how each person voted. Ruled the same day: the coordinator's key is split among several people, so the secret ballot holds unless enough of them collude; how many, and who they are, is not designed.
 
 **Store-delivered apps.** No reproducible builds on iOS; Play App Signing on Android. A store update can make the press key sign before anyone compares it with the release log (§7.8).
 
