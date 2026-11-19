@@ -1,3 +1,7 @@
+### 2026-11-19 (evening, later) — `every-face-signed-this-cut`: version 3, one spelling corrected
+
+*travelling* → *traveling* in three places of version 3's new text, minutes after its push (American spelling, `feedback_american_english`). Nothing else changed. Proof: `.ots` → `.r3.ots` (calendar-only, minutes old); the new text stamped by hand at the push (SHA-256 `d9d4ef8a9ab290a6648c88e13f3b41df7a9ed8aee32ffca4c07668ae201f13e1`).
+
 ### 2026-11-19 (evening) — `every-face-signed-this-cut`: version 3 (founder: *"approve all except polish; then integrate into the paper; can the film still survive after someone leaves? that rule feels too constricting"*)
 
 The full census, its pre-registration published first (`0003d63`, `timestamps/census/b-double-full-prereg.md`), is reported in a new §2.5; every source earlier marked *not re-read* was re-read, and one figure was corrected (the face-licensing prices are per license, not totals earned); the actor's own checker becomes the default (§8.1); a film survives a departure by a recut on the remaining cast's new presses, the exit not waivable (§11); a real child's likeness is never lent (§4.2); §10 shortened; claims 5 and 9 revised. Not yet deposited (`/polish` first). Proof: `.ots` → `.r2.ots` (calendar-only); the new text stamped by hand at the push (SHA-256 `b0f4590b3e5fd57dd2b333e96bcf3b53af6c251f0b1357cbe4602018b5b60d5a`).
