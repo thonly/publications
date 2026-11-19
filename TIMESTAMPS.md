@@ -1,3 +1,7 @@
+### 2026-11-19 (night) — `every-face-signed-this-cut`: version 4 (founder: *"approve all and add to paper now"*)
+
+A remake, or a sequel or prequel made under license, is a new work with new presses and no casting carried over (§5.2); a screenplay may be licensed or sold through a two-party signed agreement, the studio taking no share, the door on the film's page only, and a license never carrying a face (§10); claim 11; §17 now cites the registered predictions P-BD1, P-BD2 and P-BD3. Not yet deposited (`/polish` postponed by the founder). Proof: `.ots` → `.r4.ots` (calendar-only); the new text stamped by hand at the push (SHA-256 `b941bac54dd9fc39f9b6efcaf55f56271833ff67754fe84c9ae4f42e991651f8`).
+
 ### 2026-11-19 (evening) — the prediction register: P-BD1, P-BD2, P-BD3, the first lent-likeness film (founder: *"$25–$100"* · *"Most (60–99%)"* · *"3–7 days"*)
 
 Three predictions in *Instrumented but outside the core*, a row and a wording block for `every-face-signed-this-cut`, with a Revisions entry; total 145 → 148. Registered before the first film made with the mechanism and before the mechanism is built. The founder chose each band from four offered; the substrate's earlier cost estimate is stated in the entry. The proof before this text is `.md.r32.ots` (Bitcoin-complete); the new text stamped by hand at the push (SHA-256 `e7d3bb1d0e078801540d99aabad9b164a622cf7d6296d6d60a4ac7150307b119`).
