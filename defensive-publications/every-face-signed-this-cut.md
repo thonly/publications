@@ -16,9 +16,11 @@ canonical_url: https://thonly.org/research/every-face-signed-this-cut
 license_note: "[Creative Commons CC0 1.0 Universal (public domain)](https://creativecommons.org/publicdomain/zero/1.0/) for the mechanism, the analysis and the claims; trademark rights to specific marks reserved separately by author and HeartBank®."
 ---
 
-> **Note.** This paper discloses a mechanism that is designed and not built. It publishes the *claims* and withholds the *build specification* (§14 says what is withheld and why). A quick prior-art census ran before drafting, and §2 reports it in full, including the two conjuncts it killed, those it narrowed, and two industry specifications that a separate adversarial reader found afterwards and that narrow the record half of the claim. Its pre-registration was pushed before the first query to a **private** repository, so the push record exists but no reader outside it can inspect it; a full census, with its pre-registration published first, runs before this paper's first archival deposit.
+> **Note.** This paper discloses a mechanism that is designed and not built. It publishes the *claims* and withholds the *build specification* (§14 says what is withheld and why). A quick prior-art census ran before drafting, and §2 reports it in full, including the two conjuncts it killed, those it narrowed, and two industry specifications that a separate adversarial reader found afterwards and that narrow the record half of the claim. Its pre-registration was pushed before the first query to a **private** repository, so the push record exists but no reader outside it can inspect it. A **full** census ran the same day, its pre-registration published to a public repository before its first query, and §2.5 reports it in full.
 >
 > **Version 2, the same day.** Invented co-stars and extras need no press: only a *lent* face, a real person's likeness, is signed, and the credits mark every role lent or invented (§9.3, §9.4). Drafts are listed to the actor and deleted at release (§8.6), the manifest is published with the film (§9.6), and a film's license never licenses the cast's likenesses (§10.6).
+>
+> **Version 3, the same day.** The full census (§2.5); the sources earlier marked *not re-read*, re-read, and one figure corrected (§2.4); the actor's own checker as the default (§8.1); a film that survives a departure (§11); no real child's likeness (§4.2); §10 shortened.
 >
 > Companion works: *The Press Travels With the Message* (the passkey signature over exact text, recorded in a public append-only log, and what such a signature does and does not show), *B-Links* (signed provenance for a shared file) and *The Song That Is Not His* (generation in the voice of artists who can no longer consent, the case this paper is the living counterpart of).
 
@@ -44,7 +46,7 @@ This paper specifies a record of that resolve that the viewer can check. Each pe
 
 This document is published as a **defensive publication** to establish prior art. Its contents, including every mechanism, the analysis and the enumerated claims of §15, are dedicated to the public domain under **CC0 1.0 Universal**. **The authors assert no patent rights in anything disclosed here, will not seek patent protection for it, and will not assert any patent against any person who practices it.** The dedication covers the mechanism under any name; the marks named in the Trademark Notice are reserved separately and are not licensed.
 
-A quick prior-art census was run before drafting (§2). Its result is reported in full: the declared aperture and date, every conjunct that was killed or narrowed with its prior art cited, and the survivor. **The enumerated claims of §15 are that survivor and nothing wider.** No live patent surfaced in the quick census, but patents were reached only through a general web index, so the absence is weak, and nothing here is a clearance of any kind.
+A quick prior-art census was run before drafting (§2.2), and a full census the same day, its pre-registration published before the first query (§2.5). Each result is reported in full: the declared aperture and date, every conjunct that was killed or narrowed with its prior art cited, and the survivor. **The enumerated claims of §15 are that survivor and nothing wider.** No live patent surfaced in either census, but patents were reached only through a general web index, so the absence is weak, and nothing here is a clearance of any kind.
 
 Three earlier disclosures of the authors are cited as the authors' own prior art, each with its proof-backed date (§2.3): *The Press Travels With the Message* (the passkey press over exact text in a public append-only log; Bitcoin block 975913, 2026-11-15), *B-Links* (signed provenance for a shared file; block 959585, 2026-07-25) and *The Song That Is Not His* (block 962355, 2026-08-14). What those papers already disclose is not re-claimed here. A timestamp proves that a text existed no later than its date and nothing about authorship, originality or the validity of any claim.
 
@@ -96,11 +98,11 @@ A permission setting answers the question *may this platform render me?* It does
 
 ### 1.4 · The second problem: consenting to words, receiving pictures
 
-A person who agrees to appear in a generated film agrees, at best, to a screenplay. What is released is not a screenplay. It is pictures a model made, and a model invents: a gesture the script did not call for, a costume, a crowd, an expression, a line read with a meaning the words did not carry. **Consent to a script is not consent to a render.** The design therefore asks for consent twice, and the second time over the exact bytes that will be released, not over a description of them.
+A person who agrees to appear in a generated film agrees, at best, to a screenplay. What is released is not a screenplay. It is pictures a model made, and a model invents: a gesture the script did not call for, a costume, a crowd, an expression, a line read with a meaning the words did not carry. **Consent to a script is not consent to a render.** A model weighing whether to license his face in today's market put it plainly to a reporter: *"If I license my face, I have no idea how AI might eventually change it or whether it could portray me in degrading ways"* [5]. The design therefore asks for consent twice, and the second time over the exact bytes that will be released, not over a description of them.
 
 ### 1.5 · What this does not promise
 
-The design does not promise anyone a living. A lent face does no acting; the model does. A face can appear in any number of films at once, and invented faces cost nothing, so a stranger's likeness is worth little in a market. The census found one measurement of what such a market pays: contributors to two face-licensing marketplaces that supply AI-generated dramas had earned between 15 and 700 US dollars in total (§2.4). The design is for people who want to make films with the people they love, and it lets whatever a film earns be shared among the cast on terms fixed before it is made.
+The design does not promise anyone a living. A lent face does no acting; the model does. A face can appear in any number of films at once, and invented faces cost nothing, so a stranger's likeness is worth little in a market. The census found one report of what such a market pays: two face-licensing marketplaces that supply AI-generated dramas pay between 15 and 700 US dollars to license a likeness, and one charges 15 to 74 dollars an episode (§2.4). The design is for people who want to make films with the people they love, and it lets whatever a film earns be shared among the cast on terms fixed before it is made. Nor does it promise to protect anyone's face: it records consent, and it does not prevent deepfakes (§7.4); the studio's own copy never says otherwise.
 
 ---
 
@@ -140,7 +142,7 @@ Three bodies of practice surround this design.
 | **Control (web):** a permissioned likeness feature in a video app | found | seen (row (a)) | — | none | **Seen.** |
 | **Control (patents):** US10853717B2 | found | seen, by a site-restricted web query (not through the patent index's own search) | — | none | **Seen.** The NOT FOUND rows below stand as weak nulls |
 | **(a)** verified, permissioned likeness | killed | **Sora "cameos"** (OpenAI, launched 2025-09-30), as reported: *"You record a short video following on-screen instructions to verify your identity and capture your likeness"*; *"you decide who can use your cameo (just friends or everyone)"*; *"OpenAI can't generate anyone from a prompt or photo unless they've submitted a verified cameo first."* [3] | 2025-09-30 (press) | none | **KILLED.** Not claimed |
-| **(b)** the likeness owner is paid | killed or narrowed | **ElevenLabs** voice payouts: *"Earnings are calculated based on usage by paid users"*, the rate set by the owner's chosen notice period [4]. **ActID** and **New Claw** (face-licensing for AI dramas): about 300 people licensing their likenesses; *"Creators pay between 99 and 500 yuan per episode, while the platform takes a 10% commission"*; New Claw contributors *"set a minimum licensing price of 500 yuan per image"* [5] | undated; 2026-07-27 (press) | none | **NARROWED.** Payment to a likeness owner per use or per episode is public. A share of what the *work* earns was not found (weak) |
+| **(b)** the likeness owner is paid | killed or narrowed | **ElevenLabs** voice payouts: *"Earnings are calculated based on usage by paid users"*, the rate set by the owner's chosen notice period [4]. **ActID** and **New Claw** (face-licensing for AI dramas): ActID's *"Prices range from 99 to 500 yuan ($15 to $74) per episode, with ActID taking a 10% commission"*; New Claw *"has imposed a minimum price of 500 yuan ($74) per image"* [5] | undated; 2026-07-27 (press) | none | **NARROWED.** Payment to a likeness owner per use or per episode is public. A share of what the *work* earns was not found (weak) |
 | **(d)** terms fixed in a signed agreement before generation | killed at mechanism | **Respeecher**: *"Without a signed, project‑specific agreement, we simply don't start any digital replica work"*; terms to *"Spell out pay for AI voice work clearly — session fees, reuse, and any extra rates"* [6]; fixed splits agreed before production are ordinary in film and music | 2026-08-13 | none | **KILLED** at mechanism. Not claimed |
 | **(c)** an open call for one work | narrowed | ActID and New Claw are **catalogs** of faces that creators browse and buy [5] | 2026-07-27 | none | **CONTRAST.** A browsable catalog, the opposite of a call. An author's call answered by likeness holders for one work: **not found** (weak) |
 | **(h)** thanks split by signed shares, no platform cut | narrowed | no query was aimed at it | — | — | **NOT RUN.** Not claimed |
@@ -161,9 +163,34 @@ Three bodies of practice surround this design.
 
 ### 2.4 · Findings the census was not looking for
 
-- **The livelihood claim, measured once.** On ActID and New Claw, contributors *"have earned between $15 and $700"* (as reported in July 2026, citing another outlet) [5]. That is one report from one market, and it is the reason §1.5 promises no living.
+- **The livelihood claim, measured once.** These marketplaces are *"paying people anywhere between $15 and $700 to license their likeness"* [5]: a price per license, in one market, in one report, and the reason §1.5 promises no living. *(Versions 1 and 2 of this paper read the same figure as a total earned; that reading was wrong and is corrected here.)*
+- **The witness.** The same report quotes a model on why consent to a license is not consent to the pictures: *"If I license my face, I have no idea how AI might eventually change it or whether it could portray me in degrading ways"* [5]. That sentence is §1.4's problem in the words of someone who has it.
 - **The two things these markets do that this design refuses.** Both take a commission on the likeness owner's earnings, and both sell faces from a browsable catalog. Here the studio takes no share of what a film earns (§10), and there is no index of faces (§5).
 - **The nearest form of leaving.** The permissioned-likeness product makes the owner a co-owner of each video with a right to delete it after the fact [3]. §11 replaces the after-the-fact delete with a press, and states what a press cannot recall.
+
+### 2.5 · The full census
+
+**Census record:** depth `full`, paper `every-face-signed-this-cut`.
+
+**Pre-registration:** published to a public repository (`thonly/publications`, commit `0003d63`, `timestamps/census/b-double-full-prereg.md`) on 2026-11-19 at 10:43 Pacific time, before the first query, and stamped with OpenTimestamps; the push record is the repository host's. **Run date:** 2026-11-19.
+
+**What it covered.** Only what the claims rest on. Conjuncts killed by the quick census were cited, not re-searched. **Aperture** (fixed before searching): the commercial and non-commercial web; Google Patents by full text with a walk from the nearest hit, through a general web index; academic indexes through a general web index; standards bodies (C2PA, CAWG, IETF, W3C); Chinese, Japanese and Korean. **Not run:** Khmer, native patent offices, law reviews beyond what search surfaced, and any reading of a patent's claims. **One control per source group,** named before the push: web (the permissioned-likeness product), patents (US10853717B2), academic (Carlini et al. [15]), non-English (China's Deep Synthesis Provisions [22]), all seen. **The standards group missed its control twice** (its index reached the CAWG specification only through secondary documentation), so every absence that group reported is void; the CAWG Identity Assertion 1.1 was instead read in full by the authors, and it has no concept of a depicted person or performer, no public log and no guidance on unlinkability [13].
+
+| Row | Predicted | Found (re-read at source) | Their first public date | Verdict |
+|---|---|---|---|---|
+| **(l)** before the release press, the actor's device hashes the cut with a checker the operator did not write, and the press proceeds only if it agrees | narrowed | nothing for a film cut; the general practice of checking a hash on a second device was not searched | — | **NOT FOUND** (weak) |
+| **(e′)** two signatures by each depicted performer: the screenplay before generation, the exact final file before release, gating release | narrowed | A studio making AI-customized dramas lets performers take part *"从剧本预览到数字形象细节确认"* (from script preview to confirming the digital image's details), with a final sign-off by the talent's team, under a signed authorization contract; nothing cryptographic [17]. A 2026 proposal has a performer *"issue a cryptographic authorization"* by scope, term, territories, permitted transformations, revocation and payout, *"signed by a wallet the performer controls"* and *"timestamped on-chain"*, and anchors a master file's hash on-chain; the performer does not sign the master, and the authorization names no single work [18] | 2026-03-17; 2026-03-26 | **NARROWED.** A performer-signed authorization on a public ledger, and a studio's review from script to final image, are public. Two performer signatures, over the screenplay before generation and over the exact final bytes before release, gating release: **not found** (weak) |
+| **(g′)** the signatures in a public append-only log as per-party salted, unpairable records, the statements travelling in the film's manifest | narrowed | Salting log entries for privacy is proposed public practice: *"This can be mitigated by salting the hash, though there's no built-in support for that"* [21]; the on-chain anchoring of [18]; the CAWG assertions of §2.2 [13][14] | 2022-05-28 | **NARROWED.** Per-party salted, unpairable records of performers' signatures, with the manifest travelling with the film: **not found** (weak; the standards group's absences are void) |
+| **(i)** every role credited lent or invented; an invented face rejected at render if it matches an enrolled likeness | narrowed | A video platform's likeness detection: a person enrolls with *"a government-issued ID and a brief video of your face"*, and the system runs *"a one-time search of newly uploaded videos"*, after upload, never at generation [19]. China requires that the person whose face or voice is edited be informed and give *"单独同意"* (separate consent), effective 2023-01-10 [22] | 2023-01-10 | **NARROWED.** Matching against enrolled faces, and separate consent to editing a face, are public. Crediting every role lent or invented, with a block at render: **not found** (weak) |
+| **(f)** a likeness model decryptable only with a per-work key derived by the performer's authenticator | narrowed | Passkey key derivation for encryption is published practice: the PRF output treated as *"Input Keying Material"*, a data key *"wrapped"* by a key-encryption key, and *"a new, unrelated key from the same masterKey by simply changing the info string"* [20] | undated | **KILLED at mechanism.** Applied to a person's likeness model and bound to a casting statement: **not found** (weak) |
+| **(j)** an actor's signed exit ends distribution, and a recut without that role is released on the remaining cast's new signatures | not found | nothing | — | **NOT FOUND** (weak) |
+| **Composition** | not found | none | — | **NOT FOUND** (weak) |
+
+Leads the scouts returned that were not re-read, and are therefore not relied on: a render service that admits only faces a user owns; a consent-registry pipeline that blocks generation without consent; a university prototype that checks a likeness's permitted scope before generating; two likeness registries, one zero-knowledge and one for theater actors; an IETF draft for a Merkle log beside content provenance; and three patents on device-signed frames for the authenticity of *captured* video, which address capture, not consent.
+
+**The survivor, in one sentence.** *Each depicted performer of a generated film presses their own passkey over the screenplay before generation and over the exact final file's fingerprint, computed also by a checker the operator did not write, before release; a missing press keeps the cut from release; and the presses sit in a public append-only log as per-party salted fingerprints, with the statements travelling in the film's manifest.* The claims of §15 rest on it. Element (c) of claim 1 is a known technique applied to a new object, and the key derivation of claim 2 is cited as public.
+
+**Predictions that missed.** (f) was predicted to narrow and was killed at mechanism. (e′) met a performer-signed public authorization closer than predicted. The general practice behind (l) was assumed and never searched. The standards group could not see its own control. **Not found means not found in this aperture on that date; it never means new.**
 
 ---
 
@@ -230,7 +257,7 @@ A likeness is enrolled by its holder and by no one else. The holder makes a live
 
 ### 4.2 · Who can enroll
 
-- **Adults only.** The authors' agreement form excludes minors from its scope, so a child is not cast. This is a rule: the exclusion is written into the form, and no age signal stands behind it.
+- **Adults only, and never a real child's likeness.** The authors' agreement form excludes minors from its scope, so a child is not cast. This is a rule: the exclusion is written into the form, and no age signal stands behind it. A film may have invented child characters; a real child's likeness is never lent, because the harm a child's likeness can be put to is too grave for any consent design to carry.
 - **Only the living who can press.** A person who has died cannot press. That too is a rule rather than a property: a synced or shared passkey presses for whoever holds the device. The case of artists who can no longer consent is a different mechanism with a different answer [11].
 - **No lookalike check against people who never joined.** Keeping out every lookalike would require matching generated faces against a store of faces of people who never enrolled. The design refuses to build that store; a person's face is used to recognize anyone only if that person enrolled and agreed to the check (§9.4). Public figures appear only by enrolling and pressing, like anyone else.
 
@@ -325,7 +352,7 @@ The guard was first stated as making the likeness *unusable* without a press. Th
 
 ### 8.1 · What the actor is shown
 
-When the author has a cut they intend to release, every actor in it is sent **the exact file** to be released. The actor's device plays it and computes its fingerprint (a cryptographic hash of the bytes). Who wrote the code that computes it decides what kind of guard this is. If the actor uses a checker of their own choosing, one the operator did not write, the guard is a property: a studio that showed one cut and released another would release a file whose fingerprint matches no actor's press. If the fingerprint is computed by the press page itself, which an operator serves, the guard is trust in that operator (Variant G, §12.7). Either way the actor presses over a fingerprint computed from bytes delivered to their device, never over a number the studio merely states.
+When the author has a cut they intend to release, every actor in it is sent **the exact file** to be released. Two programs compute its fingerprint (a cryptographic hash of the bytes) from the bytes delivered to the actor's device: the press page, and a checker the actor chose that the operator did not write, such as an open-source tool or one the actor installed themselves. **The press proceeds only if the two agree.** That makes the guard a property: a studio that showed one cut and released another would release a file whose fingerprint matches no actor's press, and a press page that reported a false fingerprint would be contradicted by the actor's own checker before anything was signed. An actor who uses only the press page is trusting its operator, and the record says which way the fingerprint was computed (Variant G, §12.7).
 
 ### 8.2 · What is pressed
 
@@ -400,27 +427,13 @@ An actor's participation is public **to anyone who holds the film and its manife
 
 ## 10 · Shares, thanks and the premiere (context, not claimed)
 
-The census killed or did not search these parts (§2.2, rows (b), (d), (h)), and they are not claimed. They are stated because the mechanism was designed with them, and a reader should know the whole.
+The census killed or did not search these parts (§2.2, rows (b), (d), (h)), and they are not claimed. They are stated briefly because the mechanism was designed with them.
 
-### 10.1 · Shares fixed before generation
-
-The shares are fixed in the casting statement, before anything is generated. A screen-time estimate from each role's pages in the screenplay is only the default the author proposes; each actor accepts by pressing. Shares are never measured from the render: in a generated film, screen time measures nothing an actor did, the author could regenerate it at will, and a measurement would rank the cast by minutes.
-
-### 10.2 · Thanks from the first dollar
-
-Viewers may thank a film after watching it. A thank in money is split by the signed shares **from the first dollar**. It is never netted against the author's compute bill: a thank may support creative work, but it must never repay a cost, because a gift that repays a bill becomes a rebate. The author's compute is the author's own gift to the film; as the star, the author usually holds the largest share. A thank in words or the ledger's gratitude units goes to a person thanked by name, never divided by a formula. The studio takes no share of either.
-
-### 10.3 · The premiere and its tickets
-
-An author may pre-sell seats at a premiere to fund the compute. A seat buys the event, never the film, which is released free at a date fixed before the first seat sells. A seat is never a share in what the film earns, the cast member who sells one earns nothing per seat, there is one price, and a seat may be given to a named person and passed on only at the price paid. Nobody is charged until enough seats cover the studio's quote; the money is the author's, held by a licensed payment processor, never the studio; it is spent only on that film's compute and storage; and if the film is not released by its date, the unspent part is refunded automatically, a fact stated once at purchase. A seat is not a token and cannot be resold above its price. After the premiere, a seat holder may press a record of having held the seat into the public log, as a keepsake that is theirs [10].
-
-### 10.4 · Hosting
-
-A film released free is stored as a gift: free within a short format, and above it for a one-time payment per gigabyte, never a monthly rental, so that no film is held hostage to its author's continued payment. Serving it is a running cost of the gift, paid at cost by the institution's registry, never from the film's thanks and never metered against the author by views.
-
-### 10.5 · Advertising
-
-An advertisement may be offered while a film is being made, at a costly step, after free and paid alternatives, side by side with paying and played only on a tap; it is never shown before, during or after a film, or beside one.
+- **Shares are fixed in the casting statement, before anything is generated.** A screen-time estimate from the screenplay is only the author's proposed default; a measurement from the render would measure nothing an actor did and rank the cast by minutes.
+- **A viewer's thanks in money are split by the signed shares from the first dollar**, never netted against the author's compute, because a gift that repays a bill becomes a rebate. Thanks in words or gratitude units go to a person thanked by name. The studio takes no share.
+- **Premiere seats may be pre-sold to fund the compute.** A seat buys the event, never the film, which is released free on a date fixed first. A seat is never a share or a token, has one price, may be given to a named person or passed on only at the price paid, and is charged only once enough seats cover the studio's quote; the unspent part is refunded if the film is not released by its date [12]. A seat holder may keep a signed record of having held it [10].
+- **A released film is stored as a gift**, paid for once above a short free format and never rented, and served at cost; serving is never metered against the author.
+- **Advertising** may be offered while a film is being made, at a costly step and only on a tap, and never before, during, beside or after a film.
 
 ### 10.6 · The film's license
 
@@ -430,11 +443,18 @@ A film released free at the studio's venue is licensed by its author under **CC 
 
 ## 11 · Leaving
 
-An actor may end the studio's own distribution of a released film by a press. Their share ends with it. Because a film's release rests on every actor, **one actor's leaving ends the studio's distribution of the whole film**, for every cast member. The studio stops serving the film; copies already made elsewhere cannot be recalled, and the casting statement says both things once, at casting. The design does not show a film as *withdrawn*, *removed* or *taken down by* anyone; it is simply no longer served.
+An actor may leave a released film by a press. Their share ends with it, and **the film survives them**.
 
-**The record does not change when an actor leaves.** The log is append-only, so the release press stays in it and keeps verifying. A leaving press is a separate statement that ends distribution; it is not a withdrawal of the release press, and checkers never report a film or a press as *withdrawn*, because a mark that follows every copy would announce one person's departure to every viewer forever. The cost of that choice is stated plainly: **a check shows consent as given at release, never consent now.**
+1. **The cut with their face stops.** The studio stops serving every cut that shows the actor's lent face. Copies already made elsewhere cannot be recalled, and the casting statement says both things once, at casting.
+2. **The author may recut.** The author makes a new cut without that role, replacing it with an invented character or with another actor who answers a call and presses both statements.
+3. **The remaining cast presses the new cut.** A recut is new bytes, so every remaining lent actor presses a release statement over it, and the shares are fixed again in those presses. With release presses at the grain of scenes (Variant B (ii)), an actor whose scenes did not change re-presses only the assembled file.
+4. **Nothing names the person who left.** The film's page never shows a film as *withdrawn*, *removed* or *taken down by* anyone, and never says who left; between cuts it shows nothing about a departure.
 
-This replaces the after-the-fact delete found in the market (§2.4) with a press, and differs from it in one way: the delete there makes the owner a co-owner of each video inside one platform; the press here ends one operator's distribution of one released work, and says plainly that it can do no more.
+**The record does not change when an actor leaves.** The log is append-only, so the earlier release presses stay in it and keep verifying for the earlier cut, which is no longer served. A leaving press is a separate statement; it is not a withdrawal of a release press, and checkers never report a film or a press as *withdrawn*, because a mark that follows every copy would announce one person's departure to every viewer forever. **A check shows consent as given at release, never consent now.**
+
+The exit is not waivable. An author cannot ask an actor to sign away the right to leave: a lent face in a film its owner wants out of is the harm the design exists to prevent. What the design makes cheap is not the exit but the film's survival of it.
+
+This replaces the after-the-fact delete found in the market (§2.4) with a press, and differs from it in one way: the delete there makes the owner a co-owner of each video inside one platform; the press here ends one operator's distribution of the cuts that show that face, and the film goes on without it.
 
 ## 12 · Variants
 
@@ -444,7 +464,7 @@ This replaces the after-the-fact delete found in the market (§2.4) with a press
 
 ### 12.2 · Variant B: the grain of the second press
 
-**(i)** One release press per role over the whole file (§8; the default). **(ii)** One press per scene the role appears in, over each scene's fingerprint, with a final press over the assembled file. (ii) lets an actor approve most of a film and decline one scene, at the cost of more presses.
+**(i)** One release press per role over the whole file (§8; the default). **(ii)** One press per scene the role appears in, over each scene's fingerprint, with a final press over the assembled file. (ii) lets an actor approve most of a film and decline one scene, at the cost of more presses, and makes a recut after a departure cheap for everyone whose scenes did not change (§11).
 
 ### 12.3 · Variant C: finding the record for a copy
 
@@ -464,7 +484,7 @@ This replaces the after-the-fact delete found in the market (§2.4) with a press
 
 ### 12.7 · Variant G: who computes the release fingerprint
 
-**(i)** The press page computes it from the bytes it delivered (trust in that page's operator). **(ii)** A checker the actor chose, one the operator did not write, computes it from the bytes it played (a property, §8.1). **(iii)** Both, and the press proceeds only if they agree.
+**(i)** The press page alone (trust in its operator). **(ii)** A checker the actor chose, one the operator did not write, alone (a property). **(iii)** Both, and the press proceeds only if they agree (§8.1; the default).
 
 ## 13 · The adversarial surface
 
@@ -488,7 +508,7 @@ The thesis was attacked twice before this paper was pushed. The first pass was t
 
 | Attack | What answers it | Strength |
 |---|---|---|
-| The studio shows the actor one cut and releases another | the actor's chosen checker computes the fingerprint from the bytes it played (§8.1, Variant G) | property with an independent checker; trust with the press page's |
+| The studio shows the actor one cut and releases another | the actor's own checker and the press page must agree on the fingerprint of the bytes played (§8.1) | property by default |
 | The author edits the screenplay after the actor pressed | an edit is new bytes and a new offer (§6.2) | property |
 | The author reuses a casting for a second film | the work key is bound to one casting statement (§7.3) | property |
 | A breach of the likeness store | the stored likeness is ciphertext with no key (§7.3) | property |
@@ -498,6 +518,7 @@ The thesis was attacked twice before this paper was pushed. The first pass was t
 | A holder's passkey is shared, synced, stolen or held by software | not answered; a press shows a passkey (§9.3) | none |
 | A generated extra resembles an enrolled holder | rejected at render by a match against enrolled likenesses that agreed to the check (§9.4) | rule |
 | A generated extra resembles, or reproduces, a person who never enrolled | not answerable by this design (§16) | none |
+| An actor leaves and the whole film is lost | the author recuts without that role; the remaining cast presses again (§11) | rule-free: a new cut is new bytes |
 | Drafts showing the actor are made and kept | every render is listed to the actor; drafts are deleted at release (§8.6) | rule |
 | Pressure on an actor to approve, or not to leave | no reminders, no countdown, no visible waiting list, no rendered absence (§8.4) | rule; social pressure is not answered |
 | A repost or a stream is presented as checked | the check fails on unlisted bytes; a likely match is never a pass (§9.5) | property of the check |
@@ -511,7 +532,7 @@ A guard is a **property** if it holds when no one is enforcing it, and a **rule*
 | Guard | Property or rule | Why |
 |---|---|---|
 | A changed screenplay needs a new press | **property** | a signature verifies against one exact text |
-| The released file is the one the actor approved | **property with an independent checker; trust otherwise** | it depends on who wrote the code that hashed it (§8.1) |
+| The released file is the one the actor approved | **property** by default | the actor's own checker and the press page must agree (§8.1); with the press page alone, trust |
 | A party holding only the stored ciphertext cannot render it | **property** | no key exists without the performer's authenticator |
 | The operator cannot render without a press | **trust, not a property** | the operator sees the capture, the key and the render (§7.4) |
 | A work key opens one work only | **property** | the key is derived from one statement's fingerprint |
@@ -526,7 +547,7 @@ A guard is a **property** if it holds when no one is enforcing it, and a **rule*
 | An invented face is not an enrolled holder | **rule** | a render-time match against enrolled likenesses (§9.4) |
 | The studio takes no share of a film's receipts | **rule** | a price list could change |
 
-Four guards are properties outright and one is a property only with an independent checker. The rest are rules or trust, and the design says so rather than calling them properties.
+Five guards are properties: the four above and the approved-file guard, by its default. The rest are rules or trust, and the design says so rather than calling them properties.
 
 ### 13.4 · Deletion test for the lineage material
 
@@ -544,7 +565,7 @@ Remove the Preamble's passage and every reference to it. The mechanism is unchan
 
 ## 15 · Enumerated claims
 
-The claims below are the survivor of the census in §2, as narrowed by the adversarial pass of §13.1, and nothing wider. Claims 2 to 10 depend on claim 1 and are not claimed apart from it: a verified, permissioned likeness inside a video app, payment to a likeness owner, a signed project-specific agreement before replica work, review of output and after-the-fact deletion, a maker's provenance signature on a media file, a named actor's identity assertion over a file's binding, a reference from a file to consent held by an authority, per-segment hashing of streamed media, and release of a model key after hardware attestation are prior art, cited, and are not claimed. Each claim is disclosed for the public domain.
+The claims below are the survivor of the census in §2, as narrowed by the adversarial pass of §13.1, and nothing wider. Claims 2 to 10 depend on claim 1 and are not claimed apart from it: a verified, permissioned likeness inside a video app, payment to a likeness owner, a signed project-specific agreement before replica work, review of output and after-the-fact deletion, a maker's provenance signature on a media file, a named actor's identity assertion over a file's binding, a reference from a file to consent held by an authority, per-segment hashing of streamed media, and release of a model key after hardware attestation are prior art, cited, and are not claimed. The full census (§2.5) adds to that list, as prior art cited and not claimed: a performer-signed authorization on a public ledger; a studio's review of the script and the final image with its performers; salting log entries for privacy; matching uploads against enrolled faces; a legal requirement of separate consent to edit a face or voice; and deriving per-purpose encryption keys from a passkey. Each claim is disclosed for the public domain.
 
 1. **The composition.** A computer-implemented system for producing a video that depicts one or more real persons by means of their digital replicas, in which: (a) each credited performer holds a passkey listed on a public name page, and a replica (likeness model) enrolled from a live capture made in the same session as a press of that passkey; (b) for each work, each performer presses with their passkey a casting statement over an exact text naming the work, the screenplay by fingerprint, the performer's role and the render style, any change to which text constitutes a new offer requiring a new press; (c) the performer's likeness model is stored encrypted and can be decrypted for rendering only with a key derived by the performer's authenticator for that work, bound to the casting statement, such that a party holding only the stored ciphertext cannot render it; (d) before release, each performer is given the exact final file, the fingerprint of which is computed on the performer's device from the bytes delivered to it, and presses a release statement over that fingerprint and over a list of the fingerprints of every rendition to be served, and a file lacking a release press from any performer of a lent role is not released; and (e) the presses are recorded in a public append-only log as fingerprints each salted per party, and the released file is accompanied by a manifest of the statements with their salts, such that any holder of the released bytes can recompute their fingerprint and check that, for every lent role in the manifest, a passkey listed on that role's name page pressed the casting statement and, later in the log's order, the release statement over those bytes.
 
@@ -554,7 +575,7 @@ The claims below are the survivor of the census in §2, as narrowed by the adver
 
 4. **An unpairable log.** The system of claim 1 in which the per-party salts are chosen such that no two records in the log can be paired with each other, or with a name, a role or a work, without the manifest; and in which the manifest is (i) published with the film; or (ii) given only to those who play it, by the player.
 
-5. **The cut and the recut.** The system of claim 1 in which any change to the final file, including a recut that removes a role or a scene, yields a new fingerprint for which every remaining performer presses again; a decline needs no reason and is disclosed only to the author; and no released page, list or reminder shows which performer declined, had not pressed or was removed.
+5. **The cut and the recut.** The system of claim 1 in which any change to the final file, including a recut that removes a role or a scene, yields a new fingerprint for which every remaining performer presses again; a decline needs no reason and is disclosed only to the author; and no released page, list or reminder shows which performer declined, had not pressed, was removed or left; and in which, after a performer's exit press ends the serving of every cut showing that performer, a recut without that role is released upon the remaining performers' new presses, the exit itself not being waivable.
 
 6. **Grain of the release press.** The system of claim 1 in which the release press is made (i) once per role over the whole file; or (ii) once per scene in which the role appears, over each scene's fingerprint, with a press over the assembled file.
 
@@ -562,11 +583,11 @@ The claims below are the survivor of the census in §2, as narrowed by the adver
 
 8. **Lent and invented roles.** The system of claim 1 in which every role is credited as either lent or invented; an invented role, including a named co-star or an extra, needs no press, is generated, and is rejected at render time if it matches, above a threshold, the likeness of a holder who enrolled and agreed to that check; and in which the check reports only lent roles, never every face in the frames.
 
-9. **The release fingerprint's checker.** The system of claim 1 in which the fingerprint of element (d) is computed (i) by the page that requests the press; or (ii) by a checker the performer chose that the operator did not write; or (iii) by both, the press proceeding only if they agree.
+9. **The release fingerprint's checker.** The system of claim 1 in which the fingerprint of element (d) is computed (i) by both the page that requests the press and a checker the performer chose that the operator did not write, the press proceeding only if they agree; or (ii) by such a checker alone; or (iii) by the page alone.
 
 10. **Drafts.** The system of claim 1 in which (i) every render that uses a performer's likeness, draft or final, is listed to that performer and to no one else; and (ii) drafts are deleted when the work is released or when the key of element (c) expires, whichever comes first; or (iii) each render requires a fresh key from the performer's authenticator.
 
-Claims 2 to 10 rest on narrow nulls in a quick, English-only census whose patent coverage was thin, and on an adversarial pass that found prior art the census missed; they are correspondingly weak. A full census may narrow any of the ten.
+Claims 2 to 10 rest on narrow nulls in a quick census and a full one whose patent, academic and standards reach was through a general web index, the standards group being blind; they are correspondingly weak. Later prior art may narrow any of the ten.
 
 ## 16 · Honest limits
 
@@ -577,22 +598,20 @@ Claims 2 to 10 rest on narrow nulls in a quick, English-only census whose patent
 - **It cannot prove that no one else appears.** A model can invent a face resembling a real person who never enrolled, or reproduce a person from its training data. The check is limited to lent roles.
 - **The check is exact on listed bytes only.** A re-encoded copy fails; a stream is checkable only by a player that checks segments; a likely match by perceptual fingerprint or watermark is weaker and is never a pass; and a checker the film's page supplies is that page's word.
 - **Consent at release, never consent now.** The log is append-only; an actor who leaves ends the distribution, and the record still shows the presses as given at release.
-- **One person's choice binds the cast.** A single decline keeps a cut from release, and a single leaving ends the studio's distribution of the whole film. Among friends and family that is pressure the interface does not add and cannot remove.
+- **One person's choice still costs the cast something.** A single decline keeps a cut from release, and a single departure stops every cut that shows that person until the author recuts (§11). The film survives, but the recut is work, and among friends and family the cost is pressure the interface does not add and cannot remove.
 - **The second press can be a formality.** An actor may press without watching. The design ensures they were given the exact file, not that they looked at it.
 - **Drafts are governed by rule.** Every render is listed to the actor and drafts are deleted at release; the studio keeps both rules (§8.6).
 - **Anyone can compile a person's films** from public manifests, as screen credits allow today (§9.6).
 - **The exclusions are rules.** Minors, the dead and lookalikes are kept out by forms and apps, not by construction (§4.2).
 - **A license is not a lock.** A film is licensed without derivatives and its license never licenses the cast's likenesses (§10.6), but nothing stops someone from recutting a downloaded copy anyway; the check of such a recut correctly fails, and enforcement is a matter of law, not of this design.
 - **Nothing has been built or tested.** Every property in §13.3 is a property of a design. Field evidence is zero.
-- **The census was quick, and it missed prior art.** It was English-only, reached patents only through a general web index, did not search standards bodies' own pages (where the adversarial reader then found two relevant specifications), the academic literature, law reviews or the Chinese, Japanese and Korean markets, and never searched conjunct (h). A null on the composition is weak evidence. One market measurement of what likeness owners earn (§2.4) is one report.
+- **The censuses reached far but not everywhere.** The quick census missed two industry specifications that an adversarial reader then found; the full census searched patents, papers and standards only through a general web index, and its standards group could not see its own control, so its absences there are void. Khmer and the native patent offices of China, Japan and Korea were not searched, and no patent's claims were read. A null on the composition is weak evidence. One market report of what likeness owners are paid (§2.4) is one report.
 - **Law is not examined.** Right-of-publicity and digital-replica statutes, biometric-data law, labeling rules for synthetic media, the treatment of a revenue share as a contract for personal services, and pre-sales of event seats are questions for counsel in each jurisdiction. That a casting statement names the uses specifically is not a claim that it is enforceable anywhere.
 - **No parameter is given.** Expiries, thresholds and encodings are withheld (§14).
 
 ## 17 · Predictions
 
-No pre-registered prediction is made. The paper discloses a mechanism and asserts no empirical claim about behavior: it does not claim that actors will watch a cut before pressing, that the check will be used, or that the design will reduce misuse of likenesses. If the studio is built and a pilot is run, its predictions will be registered before its data is read.
-
----
+No pre-registered prediction is made in this paper, which asserts no empirical claim about behavior: it does not claim that actors will watch a cut before pressing, that the check will be used, or that the design will reduce misuse of likenesses. The first film made with the mechanism is planned as the studio's own short, made with its founder's own likeness, family members who press, and invented co-stars. Its measurements (the cost of a finished minute, how well a lent face stays itself from shot to shot, how long the second press takes, and whether actors watch the whole cut before pressing) will be registered as predictions before it is made, in the authors' public prediction register.
 
 ## Coda
 
@@ -637,7 +656,7 @@ Thon Ly conceived the mechanism's purpose and its frame: the third kind of video
 
 ## Trademark Notice
 
-**B-Double** is the institution's working name for the service of lending one's own likeness to a film; no mark is claimed in it here, and the mechanism is dedicated to the public domain and may be implemented under any name. **B-Ticket** is likewise a working name. THonly™, B-Sala™, B-Premiere℠, B-Origin℠, HeartBank® and Miss Aquarius℠ are marks of their respective holders. No mark is licensed by this publication.
+**B-Double** is the institution's working name for the service of lending one's own likeness to a film; no mark is claimed in it here, and the mechanism is dedicated to the public domain and may be implemented under any name. **B-Ticket** is likewise a working name. Neither name has been cleared; in Australia a *B-double* is a kind of truck, and a *B ticket* may be heard as second-class. THonly™, B-Sala™, B-Premiere℠, B-Origin℠, HeartBank® and Miss Aquarius℠ are marks of their respective holders. No mark is licensed by this publication.
 
 ---
 
@@ -647,18 +666,24 @@ Thon Ly conceived the mechanism's purpose and its frame: the third kind of video
 2. The authors' design grammar (internal record cited for its statement, not as external authority): a guard that is a property of the object needs no enforcer; a surface names what is present and never renders an absence; a thank may fund creative work and never repay a cost.
 3. Reporting on OpenAI's Sora app and its "cameo" feature, implicator.ai, 30 September 2025 (re-read 2026-11-19). OpenAI's own page refused the fetch (HTTP 403), so the feature is described as reported, not from the vendor.
 4. ElevenLabs, "What are voice actor payouts?", help center, elevenlabs.io (undated; re-read 2026-11-19).
-5. Digital Trends, "AI dramas need actors, so Chinese platforms are turning human faces into stock assets," 27 July 2026 (re-read 2026-11-19), reporting figures attributed to Rest of World, which was not read.
+5. Lo, K. and Zhou, V. (2026). "China's AI micro-dramas are turning faces into stock assets" (title as indexed), *Rest of World*, 27 July 2026, restofworld.org/2026/china-ai-microdramas-face-licensing (re-read 2026-11-19); also reported by *Digital Trends* the same day.
 6. Respeecher, "Actor consent for AI voice in film production," blog, 13 August 2026 (re-read 2026-11-19).
 7. Truepic, "Revel.ai" case page, truepic.com/revel (undated; re-read 2026-11-19).
 8. Ly, T. and Miss Aquarius (2026). *The Press Travels With the Message*, defensive publication, thonly.org/research/the-press-travels-with-the-message (the passkey press over exact text in a public append-only log; what a press shows and does not show). Proof: Bitcoin block 975913 (2026-11-15).
 9. Ly, T. and Miss Aquarius (2026). *B-Links*, defensive publication, thonly.org/research/b-links-signed-provenance (signed provenance for a shared file). Proof: Bitcoin block 959585 (2026-07-25).
 10. Ly, T. and Miss Aquarius (2026). *B-PoH Signed Statements, version 1*, open specification, CC0, version 1.4 of 2026-11-19 (§1 and §10, what a statement proves and never proves; §3.4, the agreement pressed by two parties; §3.5, the seat holder's record, reserved).
 11. Ly, T. and Miss Aquarius (2026). *The Song That Is Not His*, defensive publication, thonly.org/research/dedicatory-generation (generation where consent is not obtainable). Proof: Bitcoin block 962355 (2026-08-14).
-12. U.S. Securities and Exchange Commission, *In the Matter of Stoner Cats 2, LLC*, settled order of 13 September 2023 (an animated series financed by resellable tokens), cited as the reason seats are not tokens (§10.3); as summarized in legal commentary, not read in the original order.
-13. Creator Assertions Working Group, *Identity Assertion*, version 1.1, DIF Ratified Specification, 16 May 2025, cawg.io/identity/1.1 (re-read 2026-11-19, the first 100,000 of about 180,000 characters).
+12. U.S. Securities and Exchange Commission, *In the Matter of Stoner Cats 2, LLC*, Securities Act Release No. 11233, 13 September 2023 (re-read 2026-11-19): 10,320 tokens sold for about $8.2 million to finance an animated series; a 2.5% royalty on secondary sales; buyers told *"the more successful the show, the more successful your NFT"*; a $1,000,000 penalty. Cited as the reason a seat is never a token (§10).
+13. Creator Assertions Working Group, *Identity Assertion*, version 1.1, DIF Ratified Specification, 16 May 2025, cawg.io/identity/1.1 (read in full 2026-11-19).
 14. Creator Assertions Working Group, *Consent Assertion*, version 1.0 draft, 12 July 2026, cawg.io/consent/1.0-draft+initial-version (re-read 2026-11-19).
-15. Carlini, N. et al. (2023). "Extracting Training Data from Diffusion Models." *32nd USENIX Security Symposium* (image models emit individual training images, including photographs of identifiable people). Not re-read for this paper.
-16. Tuning-free identity-preserving generation from a single reference image: Wang, Q. et al. (2024), *InstantID: Zero-shot Identity-Preserving Generation in Seconds*; Yuan, S. et al. (2024), *Identity-Preserving Text-to-Video Generation by Frequency Decomposition* (ConsisID). Not re-read for this paper.
+15. Carlini, N. et al. (2023). "Extracting Training Data from Diffusion Models," arXiv:2301.13188 (re-read 2026-11-19): diffusion models *"memorize individual images from their training data and emit them at generation time"*, extracted examples *"ranging from photographs of individual people to trademarked company logos"*.
+16. Wang, Q. et al. (2024). *InstantID: Zero-shot Identity-Preserving Generation in Seconds*, arXiv:2401.07519 (re-read 2026-11-19): personalization *"using just a single facial image"*; Yuan, S. et al. (2024). *Identity-Preserving Text-to-Video Generation by Frequency Decomposition* (ConsisID), arXiv:2411.17440 (re-read 2026-11-19): *"A tuning-free pipeline without tedious case-by-case finetuning."*
+17. *Beijing News* (新京报), report on 聿潇娱乐 (Yuxiao Entertainment)'s AI-customized dramas and its performers' authorization process, 17 March 2026, bjnews.com.cn/detail/1773724794169503.html (re-read 2026-11-19).
+18. OneKey, "Hollywood's AI Necromancy: Death Is No Longer the End of Labor," blog, updated 26 March 2026, onekey.so (re-read 2026-11-19).
+19. YouTube Help, "Likeness detection," support.google.com/youtube/answer/16440338 (undated; re-read 2026-11-19).
+20. Yubico, "A Developer's Guide to Deriving Keys with WebAuthn PRF," developers.yubico.com (undated; re-read 2026-11-19).
+21. Sigstore, "Privacy in Sigstore," blog, 28 May 2022 (re-read 2026-11-19).
+22. Cyberspace Administration of China, 互联网信息服务深度合成管理规定 (Provisions on the Administration of Deep Synthesis of Internet-Based Information Services), Article 14, effective 10 January 2023, cac.gov.cn (re-read 2026-11-19): *"提供人脸、人声等生物识别信息编辑功能的，应当提示深度合成服务使用者依法告知被编辑的个人，并取得其单独同意。"*
 
 ---
 
