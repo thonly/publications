@@ -1,3 +1,7 @@
+### 2026-11-19 (night, later) — the prediction register: a new Zenodo version for P-BD1, P-BD2, P-BD3 (`/archive` phase 5)
+
+The register's text changed with the three registrations, and `verify-legs.sh` found its Zenodo record and index serving the earlier text. New version **10.5281/zenodo.24380821** (concept 10.5281/zenodo.22132689), the PDF uploaded beside the markdown and the cover's DOIs confirmed; the index rebuilt in the same close.
+
 ### 2026-11-19 (night) — `every-face-signed-this-cut`: version 4 (founder: *"approve all and add to paper now"*)
 
 A remake, or a sequel or prequel made under license, is a new work with new presses and no casting carried over (§5.2); a screenplay may be licensed or sold through a two-party signed agreement, the studio taking no share, the door on the film's page only, and a license never carrying a face (§10); claim 11; §17 now cites the registered predictions P-BD1, P-BD2 and P-BD3. Not yet deposited (`/polish` postponed by the founder). Proof: `.ots` → `.r4.ots` (calendar-only); the new text stamped by hand at the push (SHA-256 `b941bac54dd9fc39f9b6efcaf55f56271833ff67754fe84c9ae4f42e991651f8`).
