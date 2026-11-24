@@ -182,7 +182,6 @@ const MISSION_PAST = /restore\s+humanity\s+to\s+the\s+middle\s+way|restoration\s
 const MISSION_PAST_DEBT = new Set([
     "essays/christmas-jubilee-timing.md",
     "essays/diaspora-cambodia-remittance.md",
-    "essays/father-son-tipitaka-transcription.md",
 ]);
 let missionPastSeen = 0;
 
