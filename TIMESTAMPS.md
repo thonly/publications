@@ -1032,3 +1032,9 @@ The second submission (the presence call, §3.8, §8.5 and §12.1, and clause (v
 |---|---|---|---|---|
 | essays/father-son-tipitaka-transcription | `.ots` → `.r4.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-24.sha256` (UTC) | 10.5281/zenodo.24489722 | 2.5.83 |
 | essays/silicon-wat-architecture | `.ots` → `.r4.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-24.sha256` (UTC) | 10.5281/zenodo.24489726 | 2.5.83 |
+
+### 2026-11-23 — `prediction-register`: P-SD1a registered (founder: *"register P-SD1a"*; total 149)
+
+| paper | OTS | RFC 3161 | Zenodo | index |
+|---|---|---|---|---|
+| program/prediction-register | `.ots` → `.r33.ots` (Bitcoin-complete, 2 attestations); new `d21805caa2dd…` *(calendar-only at stamping)* | `2026-11-24.sha256` (UTC) | 10.5281/zenodo.24492327 | 2.5.84 |
