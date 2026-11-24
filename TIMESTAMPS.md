@@ -1025,3 +1025,10 @@ The third submission (findings 9 and 10, the 2026-11-14 text, `abhidhamma-and-di
 ### 2026-11-15 — `b-poh-humanity-layer-ai-native-internet` second submission made at TDCommons (a mirror, not a revision) (founder: *"do B-PoH second submission"*)
 
 The second submission (the presence call, §3.8, §8.5 and §12.1, and clause (vii) of the Prior-Art and Non-Assertion Statement, the 2026-11-15 text, `b-poh-humanity-layer-ai-native-internet.2.pdf`, claims heading `## Prior-Art and Non-Assertion Statement`) went through `ir_submit.cgi` on 2026-11-15, signed in as an individual (Corporate unchecked, no institution). Before the click the title, abstract and PDF were hashed in the page against the packet and matched; after it, the confirmation page's *Submission Metadata* echo matched the packet's title and abstract hashes (228 words). It is not yet posted; it sits beside the first posting [11882](https://www.tdcommons.org/dpubs_series/11882) (the protocol as of 2026-09-24, kept at the venue as posted, including its *biometric-gated* wording, which this text corrects). Once it posts: `check-mirrors.py --posted b-poh-humanity-layer-ai-native-internet --date <date> --url <url>`.
+
+### 2026-11-23 — two essays corrected, one chain (founder: *"2: revise it"*, and his account of the transcription)
+
+| paper | OTS | RFC 3161 | Zenodo | index |
+|---|---|---|---|---|
+| essays/father-son-tipitaka-transcription | `.ots` → `.r4.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-24.sha256` (UTC) | 10.5281/zenodo.24489722 | 2.5.83 |
+| essays/silicon-wat-architecture | `.ots` → `.r4.ots` (Bitcoin-complete); re-stamped, calendar-only at push | `2026-11-24.sha256` (UTC) | 10.5281/zenodo.24489726 | 2.5.83 |
