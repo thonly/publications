@@ -307,12 +307,12 @@
  },
  "father-son-tipitaka-transcription": {
   "concept_doi": "10.5281/zenodo.23084956",
-  "deposition_id": 23955650,
-  "doi": "10.5281/zenodo.23955650",
+  "deposition_id": 24489722,
+  "doi": "10.5281/zenodo.24489722",
   "published": true,
   "sandbox": false,
-  "sha256": "6ad755e3380051682a752a2065e8ae225429fc06e310b4e727207de744172d2a",
-  "url": "https://zenodo.org/records/23955650"
+  "sha256": "e75b7d1075fdc9014e9ca506ff64c4ab9bed1ef47dd2e4fdf6b8f87868a06d9a",
+  "url": "https://zenodo.org/records/24489722"
  },
  "four-body-architecture": {
   "concept_doi": "10.5281/zenodo.21947323",
@@ -622,12 +622,12 @@
  },
  "silicon-wat-architecture": {
   "concept_doi": "10.5281/zenodo.23084970",
-  "deposition_id": 23084971,
-  "doi": "10.5281/zenodo.23084971",
+  "deposition_id": 24489726,
+  "doi": "10.5281/zenodo.24489726",
   "published": true,
   "sandbox": false,
-  "sha256": "1f46bf3aee4a5a1605590aa7a03c36c6ec3a31de48b1d5d1cd84b1014801f2e4",
-  "url": "https://zenodo.org/records/23084971"
+  "sha256": "7adef9709d39f7997052493f7962150ab33485c83a0bc9cf5496d0c7ce3448e4",
+  "url": "https://zenodo.org/records/24489726"
  },
  "steward-routed-alms": {
   "concept_doi": "10.5281/zenodo.21947383",
