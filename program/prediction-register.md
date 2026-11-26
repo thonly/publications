@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **149** |
-| Published here | 148 |
+| Total registered | **150** |
+| Published here | 149 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 59 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 89 |
+| Receiving first public timestamp here | 90 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **3** — pilot-scale reads against a falsifier, all from one pilot: P-PL2 held, P-PL4 and P-PL9 went against the prediction (see Revisions, 2026-11-08). The first field test beyond the pilot stays gated on August 2027 |
 | Running (instrument live; unread, restricted, baseline only, or not yet final) | 9 |
@@ -211,7 +211,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `the-counts-check` (instrument: `SiliconWat/formal-abhidhamma`) | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
 | P-PM1, P-PM2, P-PM3 | `a-promise-that-cannot-grow` | Whether a promise ledger that never grows on its own, and its yearly invitation to forgive, behave as designed — wording below |
 | P-NM1, P-NM2, P-NM3, P-NM4, P-NM5 | — (no paper yet; first public here) | Whether anyone pays to hold a name in the registry at 333.eco — wording below |
-| P-BM1, P-BM2, P-BM3 | — (no paper yet; first public here) | Whether a signed mail leads its reader to hold a name, or to sign a mail of their own — wording below |
+| P-BM1, P-BM2, P-BM3, P-BM4 | — (no paper yet; first public here) | Whether a signed mail leads its reader to hold a name, to sign a mail of their own, or to thank its sender — wording below |
 | P-BD1, P-BD2, P-BD3 | `every-face-signed-this-cut` | What the first film made with lent likenesses costs, whether its actors watch the cut they sign, and how long the last signature takes — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
@@ -296,7 +296,8 @@ comparison was repaired to a staggered launch before registration).
 - **P-BM1** — **A checked mail leads to the name** — over the 12 months from the day the invitation goes live, at least **10%** of human visits to the check page follow its invitation to 333.eco. The page is linked only from the emblem in a signed mail. The invitation shows only when the check finds the message's record and the message names an `@name`; other visits stay in the count. *Falsifier: under 10% → a reader who checks a signed mail seldom wants a name of their own, and the mail is a weak door to the registry.* Instrument: the estate's per-site visit count and the beacon's link clicks, each counted by device and day. Scored only if the window holds **100 or more** such visits; otherwise *unresolved*.
 - **P-BM2** — **A name page invites too** — over the same 12 months, at least **5%** of human visits to `@name` pages at 333.eco follow the page's line *"You can hold your own @name too"*. A logged-in visitor who holds a name is not shown the line; those visits stay in the count, which lowers the rate. *Falsifier: under 5% → a person's page is a weak door to a name of one's own.* Instrument: as P-BM1. Scored only if the window holds **200 or more** such visits; otherwise *unresolved*.
 - **P-BM3** (registered 2026-11-14, later, before its line is live) — **A checked mail leads to signing one's own** — since 2026-11-14 anyone can sign a mail at `sign.333.eco/b-mail`, so the check page gains a second line, *"Sign your own mail"*, linking there with the channel mark `from=b-mail`. Over the 12 months from the day that line goes live, at least **10%** of human visits to the check page follow it. The line shows only when the check finds the message's record and its signer has not withdrawn it; other visits stay in the count. *Falsifier: under 10% → a reader who checks a signed mail seldom goes on to sign one, and the mail spreads its own use weakly.* Instrument: as P-BM1. Scored only if the window holds **100 or more** such visits; otherwise *unresolved*. ⚠️ From that day the page carries two lines where P-BM1 was registered with one, and a reader who follows one may not follow the other. P-BM1's wording and bar stand; its read must say that most of its window ran beside this second line.
-- **What these cannot measure.** A click is the loop's first step, not its full turn. A name held after a click is never joined to the visit (the registry reports totals only, as for P-NM), so how many new senders each sender brings is not scored here, by design. Today only the founder sends B-Mails, so their readers are mostly people who know him. A prompt to readers to click voids the test.
+- **P-BM4** (registered 2026-11-25, before its line is live) — **A checked mail leads its reader to thank its sender** — the check page gains a third line, *"Thank @x for this mail"*, shown only when the check finds the message's record, its signer has not withdrawn it, and the passkey that pressed is one the sender's `@name` page lists (the page then says *Signed with @x's passkey*). It links to that person's page at 333.eco with the mark `thank=b-mail`, never `from=b-mail`, so P-BM1 and P-BM3 count none of it. Over the 12 months from the day that line goes live, at least **10%** of human visits to the check page follow it; other visits stay in the count. *Falsifier: under 10% → a reader who checks a signed mail seldom thanks its sender from there, and the check page is a weak door to a thank.* Instrument: as P-BM1. Scored only if the window holds **100 or more** such visits; otherwise *unresolved*. ⚠️ From that day the page carries three lines; P-BM1's and P-BM3's wording and bars stand, and their reads must say that part of their windows ran beside this one.
+- **What these cannot measure.** A click is the loop's first step, not its full turn. A name held after a click is never joined to the visit (the registry reports totals only, as for P-NM), so how many new senders each sender brings is not scored here, by design. Today only the founder sends B-Mails, so their readers are mostly people who know him. A thank completed after a click is never joined to the visit either: P-BM4 counts the click. A prompt to readers to click voids the test.
 
 **The first lent-likeness film (registered 2026-11-19, before the film exists and before the mechanism is built).** The mechanism of `every-face-signed-this-cut` has each actor who lends their own likeness to a generated film press a passkey twice, over the screenplay and over the exact final file. The first film made with it is planned as the studio's own short: the founder's own likeness, family members who press, and invented co-stars. **Window: that film**, from the first casting press to its release. The founder chose each band from four the substrate offered; the substrate's earlier estimate (about 500 to 3,000 USD for one full take of a feature at mid-2026 list prices, before regenerations) implies roughly 6 to 33 USD a minute for one take, and the entry says so.
 
@@ -329,6 +330,13 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-11-25 — one added (P-BM4), one disclosure (P-BM2). Total now 150.**
+
+- **P-BM4** — *Instrumented but outside the core*, beside P-BM1 to P-BM3, registered before its line goes live. The founder chose the bar by selection from four the substrate offered (1, 3, 5 or 10%): *"At least 10%"*. The substrate had recorded its own estimate, about 3%, in a private, timestamped record pushed before he was asked, so the estimate is blind; it is stated here for the read.
+- **P-BM2** — a disclosure, not a change to its wording or bar: its instrument, the beacon's count of a click on a person's page, did not exist when the line went live on 2026-11-14, because the estate's analytics counted no click on a person's page by rule. The one fixed-address click was allowed about 40 minutes into the window, while traffic was near zero. The read will say so.
+
+**The Summary moves:** total 149 → 150, *published here* 148 → 149, *receiving first public timestamp here* 89 → 90. The reconciliation holds: 59 + 90 = 149 published here, plus the one withheld, is 150.
 
 **2026-11-23 — one added (P-SD1a), one status cell changed (P-SD1). Total now 149.**
 
