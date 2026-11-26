@@ -1,3 +1,7 @@
+### 2026-11-25 (night) — the prediction register: P-BM4 registered and P-BM2's disclosure (founder: *"At least 10%"*, by selection)
+
+P-BM4 (does a checked mail lead its reader to thank its sender?) registered before its line goes live, with the substrate's blind estimate stated, and a disclosure of P-BM2's instrument gap; total 150. Proof `.ots` → `.r34.ots` (Bitcoin-complete, 2 attestations); new `54e679e0484f…` *(calendar-only at stamping)* · RFC 3161 `2026-11-26.sha256` covers it · Zenodo version **10.5281/zenodo.24549753** (concept 10.5281/zenodo.22132689), run `--only prediction-register` because eight held papers list as *new*; PDF beside the markdown, the cover's DOIs confirmed · index `@333eco/corpus` 2.5.85 (register arithmetic 150 vs 150, reconciles), worker deployed · the thonly.org page regenerated, section ids identical.
+
 ### 2026-11-19 (night, later) — the prediction register: a new Zenodo version for P-BD1, P-BD2, P-BD3 (`/archive` phase 5)
 
 The register's text changed with the three registrations, and `verify-legs.sh` found its Zenodo record and index serving the earlier text. New version **10.5281/zenodo.24380821** (concept 10.5281/zenodo.22132689), the PDF uploaded beside the markdown and the cover's DOIs confirmed; the index rebuilt in the same close.
