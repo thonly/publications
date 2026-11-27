@@ -1042,3 +1042,9 @@ The second submission (the presence call, §3.8, §8.5 and §12.1, and clause (v
 | paper | OTS | RFC 3161 | Zenodo | index |
 |---|---|---|---|---|
 | program/prediction-register | `.ots` → `.r33.ots` (Bitcoin-complete, 2 attestations); new `d21805caa2dd…` *(calendar-only at stamping)* | `2026-11-24.sha256` (UTC) | 10.5281/zenodo.24492327 | 2.5.84 |
+
+### 2026-11-26 — `prediction-register`: P-VL1 to P-VL7 registered, the village circle (founder: *"approve all predictions"* · *"approve both predictions"* · *"Fix all four, then push"*; total 157)
+
+| paper | OTS | RFC 3161 | Zenodo | index |
+|---|---|---|---|---|
+| program/prediction-register | `.ots` → `.r35.ots` (Bitcoin-complete, 2 attestations); new `ee85beed321b…` *(calendar-only at stamping)* | `2026-11-27.sha256.ots` (UTC) | 10.5281/zenodo.24586582 | 2.5.86 |
