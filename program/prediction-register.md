@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **157** |
-| Published here | 156 |
+| Total registered | **158** |
+| Published here | 157 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 59 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 97 |
+| Receiving first public timestamp here | 98 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **3** — pilot-scale reads against a falsifier, all from one pilot: P-PL2 held, P-PL4 and P-PL9 went against the prediction (see Revisions, 2026-11-08). The first field test beyond the pilot stays gated on August 2027 |
 | Running (instrument live; unread, restricted, baseline only, or not yet final) | 9 |
@@ -210,7 +210,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-MD1, P-MD2, P-MD3, P-MD1a | `machine-dana-from-share-to-vow` | Whether a machine's pledge to a self-emptying commons separates types — wording below (P-MD1a reads P-MD1's instrument — see the 2026-09-28 entry) |
 | P-FA1, P-FA1b, P-FA2, P-FA3, P-FA4, P-FA2a, P-FA2b, P-FA5 | `the-counts-check` (instrument: `SiliconWat/formal-abhidhamma`) | Whether general cetasika rules generate the Abhidhamma's 89/121 citta-types — wording below |
 | P-PM1, P-PM2, P-PM3 | `a-promise-that-cannot-grow` | Whether a promise ledger that never grows on its own, and its yearly invitation to forgive, behave as designed — wording below |
-| P-NM1, P-NM2, P-NM3, P-NM4, P-NM5 | — (no paper yet; first public here) | Whether anyone pays to hold a name in the registry at 333.eco — wording below |
+| P-NM1, P-NM2, P-NM3, P-NM4, P-NM5, P-NM2a | — (no paper yet; first public here) | Whether anyone pays to hold a name in the registry at 333.eco — wording below (P-NM2a corrects P-NM2 — see the 2026-11-27 entry) |
 | P-BM1, P-BM2, P-BM3, P-BM4 | — (no paper yet; first public here) | Whether a signed mail leads its reader to hold a name, to sign a mail of their own, or to thank its sender — wording below |
 | P-BD1, P-BD2, P-BD3 | `every-face-signed-this-cut` | What the first film made with lent likenesses costs, whether its actors watch the cut they sign, and how long the last signature takes — wording below |
 | P-VL1, P-VL2, P-VL3, P-VL4, P-VL5, P-VL6, P-VL7 | — (no paper yet; first public here) | Whether a thank-you sticker carried inside an order travels around one village of home shops, brings people together in person, and moves money between the village's shops — wording below |
@@ -288,6 +288,7 @@ comparison was repaired to a staggered launch before registration).
 
 - **P-NM1** — **People who reach the claim page pay** — over the 90 days from the first real charge, the number of `@name`s paid is **at least 3%** of the human visits to the claim page (one device on one UTC day). *Falsifier: under 3% → the page and its frame do not sell a name at this rate.* Instrument: the estate's per-site visit count and the registry's count of paid names, read once at the end of the window. Scored only if the window holds **200 or more** such visits.
 - **P-NM2** — **With a free door beside it, the name is still chosen** — a person who pays nothing is to have a public page too (a free door, designed and unbuilt; it must exist before the first charge). At day 90, paid `@name`s are **at least 10%** of all doors made (paid names plus free doors). *Falsifier: under 10% → once being thanked needs no purchase, few buy the handle.* Instrument: two registry counts. Scored only if **50 or more** doors exist.
+- **P-NM2a** (registered 2026-11-27, before the first real charge) — **With a free door beside it, the name is still chosen, counting only doors a person opened** — a **correction of P-NM2, entered as a new prediction**; P-NM2's wording stands unchanged. The free door is now to be issued automatically with every account, as a free address at 333.eco (`333.eco/B:` followed by twelve characters), and its page is to go public only once its holder has added a passkey. Read literally, P-NM2's *all doors made* would then count every account, including people who use other HeartBank® apps and never visit 333.eco. Here a **door** is a public page: a paid `@name`, or the free page of an adult who holds no paid `@name` and has made that page public. At day 90, paid `@name`s are **at least 10%** of all doors (paid names plus those public free pages). *Falsifier: under 10% → once being thanked needs no purchase, few buy the handle.* Instrument: two registry counts, read once at day 90. Scored only if **50 or more** doors exist. The bar, the floor and the window are P-NM2's, chosen by the founder on 2026-11-12; only the definition of a door changes.
 - **P-NM3** — **A held name is kept** — of names first paid in the first 90 days, **at least 50%** are paid again within 30 days of their first anniversary. Renewal is never on by default. *Falsifier: under 50% → for most holders a yearly fee is a one-time purchase.* Instrument: registry counts in the thirteenth month. Scored only if **30 or more** names are in the cohort.
 - **P-NM4** — **Where the first names are held** — the price follows the income group of the paying card's country (3, 6, 9 or 12 USD a year). Of `@name`s paid in the first 90 days, **more than half are paid at 9 or 12 USD**. *Falsifier: half or fewer → the first market is not the one predicted.* Instrument: a count of paid names by price, published with the registry's statement. Scored only if **30 or more** names are paid. ⚠️ A card's country is not where a person lives, and payment by KHQR (Cambodia) may open after the window does, which favors the card prices.
 - **P-NM5** — **The frame earns its place** — the front door says that holding a name helps support Thank After and that the registry's profits are held for a shared fund. A random half of front-door visits sees the door without those lines; the split knows nothing about the visitor and records only which half. The framed half's rate of paid names per visit is **at least 1.5 times** the plain half's. *Falsifier: under 1.5 times → the frame does not earn its place at the point of sale.* Scored when each half holds **30 or more** paid names; if twelve months pass first, *unresolved*.
@@ -341,6 +342,12 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-11-27 — one added (P-NM2a). Total now 158.**
+
+- **P-NM2a** — *Instrumented but outside the core*, beside P-NM2: a **correction entered as a new prediction under the revision rule**, not an edit. On 2026-11-27 the founder ruled that the free door P-NM2 depends on, still unbuilt, is to be issued automatically with every account, children's included, and that its page goes public only once its holder has a passkey. Read literally after that ruling, P-NM2's denominator (*all doors made*) would be the number of accounts. He approved registering the correction (*"approve all"*, then *"register P-NM2a now"*). It is entered before the first real charge, before the free door exists and before any count: fees are not yet live, so no window has opened. The substrate recorded no separate estimate; its estimate for P-NM2, committed before the founder chose P-NM2's bar, stands. P-NM2 is **not retired**: both are read at day 90, and both results are reported.
+
+**The Summary moves:** total 157 → 158, *published here* 156 → 157, *receiving first public timestamp here* 97 → 98. The reconciliation holds: 59 + 98 = 157 published here, plus the one withheld, is 158.
 
 **2026-11-26 — seven added (P-VL1 to P-VL7). Total now 157.**
 
