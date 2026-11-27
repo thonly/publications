@@ -29,12 +29,12 @@ This is a living document and the count rises. It opened at sixty-seven on 2026-
 
 | | Count |
 |---|---|
-| Total registered | **150** |
-| Published here | 149 |
+| Total registered | **157** |
+| Published here | 156 |
 | Withheld (operational) | 1 |
 | Already carried by a published paper | 59 |
 | Memory-only at first publication (2026-08-27) | 22 (21 published here + 1 withheld) |
-| Receiving first public timestamp here | 90 |
+| Receiving first public timestamp here | 97 |
 | **Run** | **7** (two desk censuses · five formal checks: P-FA1, P-FA2a, P-FA2b, P-FA4, P-FA5) |
 | **Field tests run** | **3** — pilot-scale reads against a falsifier, all from one pilot: P-PL2 held, P-PL4 and P-PL9 went against the prediction (see Revisions, 2026-11-08). The first field test beyond the pilot stays gated on August 2027 |
 | Running (instrument live; unread, restricted, baseline only, or not yet final) | 9 |
@@ -213,6 +213,7 @@ Registering the first span-chapter prediction is the largest open item in this p
 | P-NM1, P-NM2, P-NM3, P-NM4, P-NM5 | — (no paper yet; first public here) | Whether anyone pays to hold a name in the registry at 333.eco — wording below |
 | P-BM1, P-BM2, P-BM3, P-BM4 | — (no paper yet; first public here) | Whether a signed mail leads its reader to hold a name, to sign a mail of their own, or to thank its sender — wording below |
 | P-BD1, P-BD2, P-BD3 | `every-face-signed-this-cut` | What the first film made with lent likenesses costs, whether its actors watch the cut they sign, and how long the last signature takes — wording below |
+| P-VL1, P-VL2, P-VL3, P-VL4, P-VL5, P-VL6, P-VL7 | — (no paper yet; first public here) | Whether a thank-you sticker carried inside an order travels around one village of home shops, brings people together in person, and moves money between the village's shops — wording below |
 
 **The Machine Dāna predictions (registered 2026-09-27, before the paper and before any instrument).** The founder's own
 predictions: direction, measure and threshold are his; the sandbox design and sample floors are substrate-set. The instrument is a
@@ -305,6 +306,16 @@ comparison was repaired to a staggered launch before registration).
 - **P-BD2** — **The cast watches what it signs** — of the actors lending their own likeness, **at least 60% and fewer than 100%** play the final cut to its end on their own device before pressing the release statement. Measured only with each actor's agreement, counted in aggregate, and never shown for any one person. *Falsifier: under 60%, or every actor (100%).* The cast will be small, so the share is coarse. · *Status:* Unrun (awaits the first film) · *Provenance:* First public here
 - **P-BD3** — **The second signature is not a bottleneck** — from the moment the final cut is sent to every actor, the last release press lands **between 72 and 168 hours** later, read from the public log's order and the studio's record of the send. *Falsifier: under 72 or over 168 hours.* · *Status:* Unrun (awaits the first film) · *Provenance:* First public here
 
+
+**The village circle (registered 2026-11-26, before the first stamp ships).** A B-Stamp™ is a QR sticker; scanning it opens a page with a giver's words, voice and a promise of time together. In this plan a shop puts its own thanks in a customer's order on one stamp and includes a free stamp, the shop's gift, for the customer's own gift; the gift's recipient may thank the shop. **Population:** the stamps issued by shops in ONE Cambodian village, from the first stamp shipped to the close of that season, **2028-01-07**. **Read once, after the close.** Scored only in what the institution records: stamps issued, scanned and re-addressed; thanks counted in aggregate, never per person; pairs checking in together at a shop. ⛔ **Never in money:** the thank rail stores no thank amount, so declining and giving look the same, by design. **Reading rule:** the sticker's page may OFFER re-addressing and thanking; nothing may PROMPT either (no *pass it on*, no *bring a friend*, no reminder), and a prompt voids the test. **Disclosed confound:** the founder lives in the village, and the first stamps come from a shop he knows well. Every prediction is scored across the village, never for one shop, and never by counting how many people scanned a given shop's stamp. The thresholds were proposed by the substrate and approved by the founder (2026-11-26: *"approve all predictions"* for P-VL1 to P-VL5; *"approve both predictions"* for P-VL6 and P-VL7, which he asked for as the crux of the mission: *"i want to predict that local circulation of money increases because of B-Stamps"*). A pass earns a second village without the founder, never a claim for Cambodia.
+
+- **P-VL1** — **The customer's own gift** — of the free stamps shops include in customers' orders, taken together, **at least 10%** are used by the customer on a gift of their own. *Falsifier: under 10% → the customer step does not ride a live gift ritual here; the circle is a line from shop to customer.* · *Status:* Unrun (instrument unbuilt) · *Provenance:* First public here
+- **P-VL2** — **The thank-back** — of stamps used on a customer's gift and opened by the gift's recipient, taken together, **at least 5%** produce a thank to the shop that issued them within 30 days. *Falsifier: under 5% → thanking the shop is not something a gift's recipient does here.* · *Status:* Unrun (instrument unbuilt) · *Provenance:* First public here
+- **P-VL3** — **People, not stickers** — of stamps used on a customer's gift that carry a shop's own treat for two, taken together, **at least 10%** end with the two people checking in together at that shop. *Falsifier: under 10% → the sticker carries thanks but not people together; the stated goal fails even if every other prediction holds.* ⚠️ What it counts is the treat being used by two people together, the closest instrument to time together; the read must say it is not time together itself. · *Status:* Unrun (instrument unbuilt) · *Provenance:* First public here
+- **P-VL4** — **Upstream** — by the close, **at least one supplier** puts stamps in its deliveries to a village shop. *Falsifier: none → the arrow from supplier to shop never starts; the circle has no upstream.* · *Status:* Unrun · *Provenance:* First public here
+- **P-VL5** — **The next circle** — by the close, **at least one person** who first met a stamp as a gift's recipient issues stamps from a shop of their own. *Falsifier: none → the circle does not reproduce; it is one shop's program.* · *Status:* Unrun · *Provenance:* First public here
+- **P-VL6** — **Money between the shops (the crux)** — the order in which the village's participating shops begin issuing stamps is drawn by B-Called℠, a seed no one controls and anyone can recompute. A shop's monthly value of orders placed with it by OTHER participating shops, recorded through HeartBank Shops, rises after it begins issuing stamps by **at least 20% more** than the same before-to-after change in the shops that have not yet begun. *Falsifier: a smaller gap, or none → the stamp does not move money between the village's shops, and the mission's mechanism is not this one.* Scored only if **6 or more** shops take part. Published only as totals across shops, never one shop's sales. ⚠️ It measures money RECORDED through the platform, never all money in the village: a shop that starts recording purchases it used to settle in cash raises the number without moving new money, and the read must say so. · *Status:* Unrun (instrument and draw unbuilt) · *Provenance:* First public here
+- **P-VL7** — **The traceable path** — of the orders stamp-issuing shops receive in the season, taken together, **at least 10%** come from buyers who first reached the shop through a stamp's link (a link marked as coming from a stamp, as the B-Mail predictions mark theirs). *Falsifier: under 10% → the stamp rarely brings a shop a new buyer.* · *Status:* Unrun (instrument unbuilt) · *Provenance:* First public here
 ---
 
 ## Withheld
@@ -330,6 +341,13 @@ Predictions are added, never removed. A resolved prediction keeps its original w
 ---
 
 ## Revisions
+
+**2026-11-26 — seven added (P-VL1 to P-VL7). Total now 157.**
+
+- **P-VL1 to P-VL5** — *Instrumented but outside the core*, registered before the first stamp ships and before any instrument exists: whether a thank-you sticker carried inside an order travels around one village of home shops (supplier → shop → customer → the customer's loved one → back to the shop) and brings people together in person. The founder approved the five as proposed (*"approve all predictions"*).
+- **P-VL6 and P-VL7** — the same day, at the founder's request (*"i want to predict that local circulation of money increases because of B-Stamps; possible? it's the crux of my mission"*), approved as proposed (*"approve both predictions"*). One village cannot show *because of* by itself, so P-VL6 is read on a STEPPED START: every participating shop begins issuing stamps, in an order drawn by B-Called℠ that no one controls, so each shop serves as its own comparison. "Local" means between the village's participating shops, never a location: HeartBank Shops tracks no customer's location. Before this first push the founder approved four fixes to the wording he had first approved (2026-11-26, *"Fix all four, then push"*): every prediction scored across the village, never per shop and never by a count of people who scanned a given shop's stamp; P-VL7 pooled; an unsupported clause dropped from P-VL2's falsifier; the founder's arrival date and household left out. The wording also follows his ruling of the same hour that the shop includes a free stamp, its own gift, for the customer's gift. A position paper that states this bet is drafted after this entry.
+
+**The Summary moves:** total 150 → 157, *published here* 149 → 156, *receiving first public timestamp here* 90 → 97. The reconciliation holds: 59 + 97 = 156 published here, plus the one withheld, is 157.
 
 **2026-11-25 — one added (P-BM4), one disclosure (P-BM2). Total now 150.**
 
