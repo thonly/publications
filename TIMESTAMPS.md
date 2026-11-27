@@ -1047,4 +1047,4 @@ The second submission (the presence call, §3.8, §8.5 and §12.1, and clause (v
 
 | paper | OTS | RFC 3161 | Zenodo | index |
 |---|---|---|---|---|
-| program/prediction-register | `.ots` → `.r35.ots` (Bitcoin-complete, 2 attestations); new `ee85beed321b…` *(calendar-only at stamping)* | `2026-11-27.sha256.ots` (UTC) | 10.5281/zenodo.24586582 | 2.5.86 |
+| program/prediction-register | `.ots` → `.r35.ots` (Bitcoin-complete, 2 attestations); new `ee85beed321b…` *(calendar-only at stamping)* | `2026-11-27.sha256` (UTC) | 10.5281/zenodo.24586582 | 2.5.86 |
