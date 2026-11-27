@@ -1048,3 +1048,9 @@ The second submission (the presence call, §3.8, §8.5 and §12.1, and clause (v
 | paper | OTS | RFC 3161 | Zenodo | index |
 |---|---|---|---|---|
 | program/prediction-register | `.ots` → `.r35.ots` (Bitcoin-complete, 2 attestations); new `ee85beed321b…` *(calendar-only at stamping)* | `2026-11-27.sha256` (UTC) | 10.5281/zenodo.24586582 | 2.5.86 |
+
+### 2026-11-27 — `prediction-register`: P-NM2a registered, the free door counted as a door a person opened (a correction of P-NM2; founder: *"approve all"* · *"register P-NM2a now"*; total 158)
+
+| paper | OTS | RFC 3161 | Zenodo | index |
+|---|---|---|---|---|
+| program/prediction-register | `.ots` → `.r36.ots` (Bitcoin-complete, 2 attestations, upgraded before rotation); new `ca6a3e42b8fc…` *(calendar-only at stamping)* | `2026-11-27.sha256` (UTC) | 10.5281/zenodo.24600276 | 2.5.87 |
